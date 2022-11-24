@@ -1,0 +1,10 @@
+@0 = ~Willkommen  in unserer kleinen Stadt. Ich bin ihr Bürgermeister. Ich habe von meinen Quellen gehört, dass eine Gruppe von Banditen Euch überfallen, einen der Priester getötet und den Schatz gestohlen hat.~
+@1 = ~Ja, aber das waren keine Banditen. Das waren die Anhänger von Cyric.~
+@2 = ~Das ist nicht möglich, eine solche Gruppierung gibt es hier nicht. Wer von Euch war unter diesen Mördern und Räubern?~
+@3 = ~Die meisten unserer Leute waren sehr beschäftigt. Als ich ankam, war unser Bruder tot und es gab keinen Schatz.~
+@4 = ~Also habt Ihr wirklich niemanden sonst gesehen. Der einzige, der dort war, war <CHARNAME> und sein Gefolge. Ist das nicht seltsam?~ ~Also habt Ihr wirklich niemanden sonst gesehen. Die einzige, die dort war, war <CHARNAME> und ihr Gefolge. Ist das nicht seltsam?~
+@5 = ~Was wollt Ihr damit sagen? Wir wurden angeheuert, um die Karawane zu bewachen. Meine Freunde und ich haben mit diesem Vorfall nichts zu tun.~
+@6 = ~Ihr habt keine Beweise, nur Eure Behauptungen. Es gibt keine Zeugen. Die einzigen, die in der Nähe des Schatzes waren, wart Ihr. Und da Ihr das Gegenteil nicht beweisen könnt, werdet Ihr aus unserer Stadt vertrieben und kommt nie wieder zurück, es sei denn, Ihr findet Beweise für Eure Unschuld. Damit ist unser Gespräch beendet. Eine Wache wird Euch bis zum Ausgang der Stadt begleiten.~
+@7 = ~Ordnung und Chaos.
+
+Meine Freunde und ich wurden beschuldigt, die Priester von Torm getötet und ihre Schätze gestohlen zu haben. Wir wurden aus der Stadt vertrieben. Aber der Bürgermeister war zu einseitig, als ich das Wort Cyric erwähnte, begann er sofort zu zögern. Irgendetwas stimmt hier nicht, vielleicht war er derjenige, der den Angriff auf unsere Karawane genehmigt hat.~

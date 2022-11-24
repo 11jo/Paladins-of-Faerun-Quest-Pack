@@ -1,0 +1,52 @@
+BEGIN ~ELGMOD~
+
+IF ~Global("s#ELGMOD","GLOBAL",0)  
+Dead("DWOD1MOD")~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN REPLY @3 GOTO 2
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @4
+  IF ~~ THEN REPLY @5 GOTO 3
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @6
+  IF ~~ THEN REPLY @7 GOTO 4
+  IF ~~ THEN REPLY @8 DO ~ SetGlobal("s#ELGMOD","GLOBAL",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @9
+  IF ~~ THEN REPLY @10 DO ~ SetGlobal("s#ELGMOD","GLOBAL",2)~ 
+UNSOLVED_JOURNAL @11 EXIT
+END
+
+IF ~Global("s#ELGMOD","GLOBAL",1)~ THEN BEGIN 5
+  SAY @12
+  IF ~~ THEN REPLY @7 GOTO 4
+  IF ~~ THEN REPLY @13 EXIT
+END
+
+IF ~Global("s#ELGMOD","GLOBAL",2) Dead("DUERLMOD") 
+Dead("DEVILMOD")~ THEN BEGIN 6
+  SAY @14
+  IF ~~ THEN REPLY @15 DO ~TakePartyItem("MOONHMOD")
+TakePartyItem("DEVHMOD")~ GOTO 7
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @16
+  IF ~~ THEN REPLY @17 DO ~AddexperienceParty(40000)
+GivePartyGold(2000)
+EraseJournalEntry(@11)
+EraseJournalEntry(@18)
+EraseJournalEntry(@19)
+~ SOLVED_JOURNAL @20 EXIT
+END

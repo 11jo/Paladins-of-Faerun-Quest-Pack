@@ -1,0 +1,35 @@
+IF
+  OnCreation()
+  Global("EnteredPF0056","PF0056",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0056","PF0056",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Explore()
+    PlaySound("MUS3MOD")
+    Wait(2)
+    DisplayStringHead("RW1MOD",@0)  // @0
+    Wait(4)
+    DisplayStringHead(Player2,@1)  // @1
+    Wait(4)
+    DisplayStringHead(Player1,@2)  // @2
+    Wait(4)
+    ActionOverride("RW1MOD",MoveToPoint([1053.932]))
+    ActionOverride("RW1MOD",Face(12))
+    ActionOverride(Player1,MoveToPoint([1230.870]))
+    ActionOverride(Player2,MoveToPoint([1236.947]))
+    ActionOverride(Player3,MoveToPoint([1242.1017]))
+    ActionOverride(Player4,MoveToPoint([1248.1100]))
+    ActionOverride(Player5,MoveToPoint([1330.922]))
+    ActionOverride(Player6,MoveToPoint([1340.1011]))
+    Wait(8)
+    MoveViewPoint([2010.2694],FAST)
+    Wait(4)
+    DisplayStringHead("RW1MOD",@3)  // @3
+    Wait(2)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

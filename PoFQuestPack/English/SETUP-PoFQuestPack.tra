@@ -1,0 +1,3818 @@
+
+@1 = ~ Paladins of Faerun Quest Pack ~
+@2 = ~ Student of academy ~
+@3 = ~ Student ~
+@4 = ~ Magister ~
+@5 = ~ Head ~
+@6 = ~ Adventurer ~
+@7 = ~ Elgen, leader of gnomes ~
+@8 = ~ Elgen ~
+@9 = ~ Alastor ~
+@10 = ~ Main archimagus ~
+@11 = ~ Archer Amna ~
+@12 = ~ Soldier Amna ~
+@13 = ~ The captain of riders from Amn ~
+@14 = ~ Amnsky captain ~
+@15 = ~ Bodyguard ~
+@16 = ~ Amnske poruink ~
+@17 = ~ The rider from Amn ~
+@18 = ~ Master of academy ~
+@19 = ~ Lord Aragorn ~
+@20 = ~ Aran islands ~
+@21 = ~ Archimagus ~
+@22   = ~Priest of Shevarosh~
+
+@24 = ~ Ardes, the highest priest ~
+@25 = ~ Ardes ~
+@26 = ~Ariks~
+@27 = ~ Are - Ju - to us ~
+@28 = ~ Artemis ~
+@29 = ~ Artemis Entreri ~
+@30 = ~ Crunan ~
+@31 = ~ Arundel ~
+@32 = ~ Pilferer ~
+@33 = ~ Hitman ~
+@34 = ~ Trade king ~
+@35 = ~ Atkatla's king ~
+@36 = ~ Ogastes ~
+@37 = ~ citizen Vrat Baldura ~
+@38 = ~ Robber, soldier ~
+@39 = ~ Robber, archer ~
+@40 = ~ Robber, murderer ~
+@41 = ~ Barbarian of the North ~
+@42 = ~ Barbarossa ~
+@43 = ~ The wandering bard ~
+@44 = ~ Kevtiln from the North ~
+@45 = ~ Kevtiln ~
+@46 = ~ Security guard of the road ~
+@47 = ~ Sacred rage ~
+@48 = ~ Captain of guards ~
+@49 = ~ Trade deputy ~
+@50 = ~ Treasures hunter ~
+@51 = ~ Adoster Syn of the Dryad ~
+@52 = ~ Citizen Vrat Baldura ~
+@53 = ~ Opas ~
+@54 = ~ Blood-thirsty vampire ~
+@55 = ~ Wizard ~
+@56 = ~ Sister Bodkhi ~
+@57 = ~ Mayor ~
+@58 = ~ Keeper of a brotherhood ~
+@59 = ~ Margul ~
+@60 = ~ Brother of monks ~
+@61 = ~ Paladin of a cult ~
+@62 = ~ Follower of a cult ~
+@63 = ~ Catty ~
+@64 = ~ Ubiytsa-Tsirikist ~
+@65 = ~ Champion ~
+@66 = ~ Citizen ~
+@67 = ~ Priest of the Bloody spear ~
+@68 = ~ Priest Tsirika ~
+@69 = ~ Supreme priest Tsirika ~
+@70 = ~ The elf in dark ~
+@71 = ~ Priest ~
+@72 = ~ Pirate of Kalimport ~
+@73 = ~ Defender of Kalimport ~
+@74 = ~ Priestess Shaar ~
+@75 = ~ Coherent ~
+@76 = ~ Security guard coherent ~
+@77 = ~ You wish something? ~
+@78 = ~ Craven ~
+@79 = ~ Clan red ~
+@80 = ~ Supreme priest Tsirika ~
+@81 = ~ Magician Nevervintera ~
+@82 = ~ Corpse ~
+@83 = ~ Priest of Helm ~
+@84 = ~ Servant of a devil ~
+@85 = ~ Marik Aggressive Bear ~
+@86 = ~ Aggressive Bear ~
+@87 = ~ Dealer Dornuva ~
+@88 = ~ Man's body ~
+@89 = ~Dorregarie~
+@90 = ~ Security guard dragon ~
+@91 = ~ Keeper of relics ~
+@92 = ~ Black dragon ~
+@93 = ~Dracorex~
+@94 = ~ Mining druid ~
+@95 = ~ Supreme priestess Eylistri ~
+@96 = ~ Supreme priestess ~
+@97 = ~ Governor of the house Lols ~
+@98 = ~ Servants Elistraya ~
+@99 = ~ Leader to a dro ~
+@100 = ~ Priestess Eylistri ~
+@101 = ~ Old dragon ~
+@102 = ~ Drou Dzharlaks ~
+@103 = ~ Priestess Dzharlaksa ~
+@104 = ~ Drou is a dealer ~
+@105 = ~ Owner of abbey ~
+@106 = ~ Fenmarel Mestarin ~
+@107 = ~ Leader gray ~
+@108 = ~ Duergar ~
+@109 = ~ Gnome soldier ~
+@110 = ~ Woman's body ~
+@111 = ~ Master dwarf ~
+@112 = ~ Gnome Dornuva ~
+@113 = ~ Dkhayerovatil ~
+@114 = ~ When you ask Dkhayerovatil about his past, he says that he for many years tried to obtain to become the drou-murderer, and now at last he was lucky. On it it is visible that it is still young and in fight rushes thoughtlessly. ~
+@115 = ~ Local priest ~
+@116 = ~ Militia ~
+@117 = ~ Eladriel ~
+@118 = ~ Electro ~
+@119 = ~ Eli ~
+@120 = ~ Ellannan ~
+@121 = ~ Magician Elorin ~
+@122 = ~ Elorin ~
+@123 = ~ Elenar ~
+@124 = ~ Elfin sectarian ~
+@125 = ~ Elfin captain ~
+@126 = ~ Militia ~
+@127 = ~ Alvin ~
+@128 = ~ Elfin soldier ~
+@129 = ~ Member of council of magicians ~
+@130 = ~ Pupil Elminstera ~
+@131 = ~ Errad ~
+@132 = ~ Pupil ~
+@133 = ~ Lord of darkness ~
+@134 = ~ Guard of a stone ~
+@135 = ~ Udorril ~
+@136 = ~ Defender of the evil ~
+@137 = ~ Expert paladin ~
+@138 = ~ Farmer ~
+@139 = ~ Forest madam ~
+@140 = ~ Fallen paladin of an award ~
+@141 = ~ Servant Helma ~
+@142 = ~ Gradak ~
+@143 = ~ Frosti ~
+@144 = ~ Aggressor ~
+@145 = ~ Geralt ~
+@146 = ~ Grafalkon ~
+@147 = ~ Leader of the gladiators ~
+@148 = ~ Gladiator veteran ~
+@149 = ~ Gold magician ~
+@150 = ~ Leader of orks ~
+@151 = ~ Ork archer ~
+@152 = ~ Experienced archer ~
+@153 = ~ Pilot ork ~
+@154 = ~ Ork ~
+
+@156 = ~ Gralamin ~
+@157 = ~ Thief of a cloudy shadow ~
+@158 = ~ Chief policeman Gradaka ~
+@159 = ~ Chief policeman ~
+@160 = ~ Witch defender ~
+@161 = ~ Garik ~
+@162 = ~ Dark priest ~
+@163 = ~ Guards ~
+@164 = ~ Supreme queen ~
+@165 = ~ Hrotgar's militia ~
+@166 = ~ Hrotgar ~
+@167 = ~ To ask great Hrotgar about his past it is useless when speak about it everywhere and in books its adventures are described. Hrotgar paladin, hero of Northern lands. He died 100 years ago, and now got the second chance thanks to you and it is visible that he is very grateful for it. Hundred years later having behind shoulders huge experience, it can start wanderings again having joined your group. ~
+@168 = ~ Razhkskul ~
+@169 = ~ Mayor's daughter ~
+@170 = ~ Ranger ~
+@171 = ~ Vorg hunter ~
+@172 = ~ Innkeeper ~
+@173 = ~ Innkeeper Kalimpora ~
+@174 = ~ House owner ~
+@175 = ~ Randolph ~
+@176 = ~ Irenikus's pupil ~
+@177 = ~ The veiled magician ~
+@178 = ~ Sorcerer ~
+@179 = ~ Irenikus's patrol ~
+@180 = ~ Servant Dzharlaks ~
+@181 = ~ Prison policeman ~
+@182 = ~ Dark person ~
+@183 = ~ King's daughter ~
+@184 = ~Kelrot~
+
+
+
+@188 = ~ Kelben "Plashch vorona" Arunsan ~
+@189 = ~ Kelben Arunsan ~
+@190 = ~ Prinze successor ~
+@191 = ~ Royal policeman ~
+@192 = ~ Royal senior sailor ~
+@193 = ~ Royal sailor ~
+@194 = ~ Royal wizard ~
+@195 = ~ King's ambassador ~
+@196 = ~ Korablevladelets ~
+@197 = ~ Lady Aribet ~
+@198 = ~ Local dealer ~
+@199 = ~ Lady Ksiratra ~
+@200 = ~ Head of guild Nevervintera ~
+@201 = ~ Head ~
+@202 = ~ Bodyguard Hrotgara ~
+@203 = ~ Viewer ~
+@204 = ~ Leader of vagrant daggers ~
+@205 = ~ Yes, we are ready to act. ~
+@206 = ~ Lord Norgold ~
+@207 = ~ Lord of an underworld ~
+@208 = ~ Leader of hunters ~
+@209 = ~ Trolls hunter ~
+
+@211 = ~ Lord Lorearten ~
+@212 = ~ Lord Shildkhiart ~
+@213 = ~ Udorri lord of the dead ~
+@214 = ~ Udorri ~
+@215 = ~ Liveryman ~
+@216 = ~ Head of luskansky guild ~
+@217 = ~ Luskanets ~
+@218 = ~ Magician Luskana ~
+@219 = ~ Lord Vilster ~
+@220 = ~ Magician of council ~
+@221 = ~ Dealer in magic objects ~
+@222 = ~ Thief Marko ~
+@223 = ~ Marian ~
+@224 = ~ Mario ~
+@225 = ~ Marko ~
+@226 = ~ Thief Mario ~
+@227 = ~ Lord Madslave ~
+@228 = ~ Aluatra ~
+@229 = ~ Major of army Kalimpora ~
+
+@231 = ~ Mercenary ~
+@232 = ~ Vagrant daggers ~
+@233 = ~ Murderer of magicians ~
+@234 = ~ Kvoyan ~
+@235 = ~ Baldur's militia ~
+@236 = ~ Monk of the temple ~
+@237 = ~ Norika ~
+@238 = ~ Sir Munrov ~
+@239 = ~ Local elf ~
+@240 = ~ Local Elf ~
+@241 = ~ Teril, leader of elves ~
+@242 = ~ Teril ~
+@243 = ~ Lunar elf ~
+@244 = ~ Captain ~
+@245 = ~ The dealer from Memnon ~
+@246 = ~ Wife Mariana ~
+@247 = ~ Supreme priest ~
+@248 = ~ Lord Spelloyal ~
+@249 = ~ Lord Nasher ~
+@250 = ~ Servant Tom ~
+@251 = ~ Ninjia ~
+@252 = ~ Nomad policeman ~
+@253 = ~ nomad ~
+@254 = ~ Northerner ~
+@255 = ~ Prince ~
+@256 = ~ Khalid ~
+@257 = ~ Nevervinter's army ~
+@258 = ~ Ofala Cheldarstoun ~
+@259 = ~ Captain Nivall ~
+@260 = ~ City policeman ~
+@261 = ~ Commander ~
+@262 = ~ Gray-haired ~
+@263 = ~ Guard Nevervinter ~
+@264 = ~ Lord Gratius ~
+@265 = ~ Officer ~
+@266 = ~ Nevervinter's nine ~
+@267 = ~ Royal guardsman ~
+@268 = ~ Nobleman Nevervintera ~
+@269 = ~ Old magician ~
+@270 = ~ Strange wizard ~
+@271 = ~ Ksangold ~
+@272 = ~ Leader of orks ~
+@273 = ~ Shaman ork ~
+@274 = ~ Opog murderer ~
+@275 = ~ Otiros ~
+@276 = ~ Right hand. ~
+@277 = ~ Smuggler Tom ~
+@278 = ~ Doctor ~
+@279 = ~ Navigator ~
+@280 = ~ Leader of pirates ~
+@281 = ~ Elite of adherents of a torm ~
+@282 = ~ Princess ~
+@283 = ~ Protector ~
+@284 = ~ Priest Torma ~
+@285 = ~ Supreme priest Torma ~
+@286 = ~ Aggressive priest Torma ~
+@287 = ~ Aggressive priest ~
+@288 = ~ Kvarill ~
+@289 = ~ Raluk ~
+@290 = ~ The trained hunter ~
+@291 = ~ Ranger Rolard ~
+@292 = ~ Ravenzher ~
+@293 = ~ Ronin ~
+@294 = ~ Red magician ~
+@295 = ~ Head of wizards ~
+@296 = ~ Head of Red Wizards ~
+@297 = ~ Sir Reilly ~
+@298 = ~ Archer of southerners ~
+@299 = ~ Southerner ~
+@300 = ~ Sarakh ~
+@301 = ~ Second Sarevok ~
+@302 = ~ Sir Charles ~
+@303 = ~ Sir Davven Speloyal ~
+@304 = ~ Paladin Davven ~
+@305 = ~ Leitch's servant ~
+@306 = ~ Defender of a roll ~
+@307 = ~ The lost soul ~
+@308 = ~ Royal knight ~
+@309 = ~ Royal archer ~
+@310 = ~ The king you indulge ~
+@311 = ~ Stone magician ~
+@312 = ~ Southerner magician ~
+@313 = ~ Sir Solan ~
+@314 = ~ Sorcerer ~
+@315 = ~ Captain of the vessel. ~
+@316 = ~ Queen of spiders ~
+@317 = ~ Sir Uilnan Taygersoul ~
+@318 = ~ Lord Uilnan ~
+@319 = ~ Strange magician ~
+@320 = ~ Vira ~
+@321 = ~ Feadu Meydkhrim ~
+@322 = ~ Sevarosovsky priest ~
+@323 = ~ Soldier Yuzhanin ~
+@324 = ~ Commander of a regiment ~
+@325 = ~ Sir William ~
+@326 = ~ Commander of forwards ~
+@327 = ~ Taorag ~
+@328 = ~ Targos's elite ~
+@329 = ~ General ~
+@330 = ~ Keeper of the temple ~
+@331 = ~ Dead soldier ~
+@332 = ~ Guard of pass ~
+@333 = ~ Guards of pass ~
+@334 = ~ Security guard of pass ~
+@335 = ~ General's son ~
+@336 = ~ The leader of the forgotten thieves ~
+@337 = ~ To Toysa Horster ~
+@338 = ~ Executioner ~
+
+@340 = ~ Sorcerer Trayak ~
+@341 = ~ Trayak ~
+@342 = ~ The traveler from the West ~
+@343 = ~ Experienced bandit ~
+@344 = ~ Mayor Targosa ~
+@345 = ~ The dealer from the North ~
+@346 = ~ The vampire from the temple ~
+@347 = ~ Priest Tira ~
+@348 = ~ Priest of Ilmater ~
+@349 = ~ To indulge the Paladin ~
+@350 = ~ To indulge the magician ~
+@351 = ~ To indulge - the pathfinder ~
+@352 = ~ Governor of vampires ~
+@353 = ~ Small village ~
+@354 = ~ Peasant ~
+@355 = ~ Novice Torma ~
+@356 = ~ Big troll ~
+@357 = ~ Fugitive ~
+@358 = ~ Leonan Fidlerson ~
+@359 = ~ Leonan ~
+@360 = ~ White Genie ~
+@361 = ~ Belnan Virmsbeyn ~
+@362 = ~ Belnan ~
+@363 = ~ Protection ~
+@364 = ~ In glory of the Deep water ~
+@365 = ~ White wizard ~
+@366 = ~ Richfalkon Fletcher ~
+@367 = ~ Richfalkon ~
+@368 = ~ Shadow lord ~
+@369 = ~ Fiery wolf ~
+@370 = ~ Gradak's wolf ~
+@371 = ~ Worker ~
+@372 = ~ White rakshasa ~
+@373 = ~ Stoadch Arrovey ~
+@374 = ~ Stoadch ~
+@375 = ~ Ogr Voin ~
+@376 = ~ Witch ~
+@377 = ~ Mayor Glubouovodya ~
+@378 = ~ Elite guards of the Mayor ~
+@379 = ~ Lieutenant Green ~
+@380 = ~ Captain Boris ~
+@381 = ~ Policeman Glubokovodya ~
+@382 = ~ Magician dealer ~
+
+
+@385 = ~ Priest Gradaka ~
+@386 = ~ Commander of intelligence agents ~
+@387 = ~ Archimagus Gradaka ~
+@388 = ~ Magician Gradaka ~
+@389 = ~ Commander Gradaka ~
+@390 = ~ Parishioner Gradaka ~
+@391 = ~ Prison security guard Gradaka ~
+@392 = ~ Soldier Gradaka ~
+@393 = ~ Fighter Gradaka ~
+@394 = ~ Elite guardsman Gradaka ~
+@395 = ~ We are Yarpen's elite, do not move... ~
+@396 = ~ Seaman Gradaka ~
+@397 = ~ Intelligence agent Gradaka ~
+@398 = ~ The way is blocked ~
+@399 = ~ This way was barricaded from within. ~
+@400 = ~ The abandoned house ~
+@401 = ~ There is nothing to look. ~
+@402 = ~ Dealer ~
+@403 = ~ Weapon warehouse. ~
+@404 = ~ An entrance on a mill. ~
+@405 = ~ A tavern at Three jugs ~
+@406 = ~ There is nothing. ~
+@407 = ~ You need the help, you will not find a way ~
+@408 = ~ Guild of thieves: Vagrant daggers ~
+
+@410 = ~ If you glance, you will see only shop. ~
+@411 = ~ This way does not conduct anywhere. ~
+@412 = ~ Father Gradaka ~
+@413 = ~ The road was destroyed. ~
+@414 = ~ It is an old round table which belonged to Faerun's paladins. ~
+@415 = ~ The prison is locked ~
+@416 = ~ The destroyed vessel ~
+@417 = ~ Gate are locked on the other hand ~
+@418 = ~ You cannot pass ~
+@419 = ~ These ladders do not conduct anywhere. ~
+@420 = ~ THE ENTRANCE IS PROHIBITED ~
+@421 = ~ Only the room for rest. ~
+@422 = ~ The destroyed bridge ~
+@423 = ~ This weapon for pirates. ~
+
+@425 = ~ Here nothing is invisible. ~
+@426 = ~ It does not conduct anywhere. ~
+@427 = ~ There is nothing. ~
+@428 = ~ This way leads nowhere. ~
+@429 = ~ The ladder is destroyed. ~
+@430 = ~ The ladder conducting on a fortification. The entrance is prohibited. ~
+@431 = ~ Treasury ~
+@432 = ~ The entrance is barricaded on the other hand ~
+@433 = ~ Stone of the policeman 2. guard ~
+@434 = ~ Stone of the policeman 3. guard ~
+@435 = ~ Stone of the policeman 4. guard ~
+@436 = ~ Stone of the policeman 5. guard ~
+@437 = ~ Stone of the policeman 6. guard ~
+@438 = ~ Stone of the policeman 1. guard ~
+@439 = ~ Hell amulet ~
+@440 = ~ This amulet is made in the form of the flying fiery sphere. Such trinkets in the course at followers of demonic cults. The amulet not only shows to who exactly serves its owner, but also has magic properties.	
+	
+PARAMETERS:  
+			
+50% resistance to fire, 
+increases a loss from the fiery attacks			
+	
+Can use: angry characters ~
+@441 = ~ Ghoul's amulet ~
+@442 = ~ This ornament is made of teeth of ghouls. Looks not too beautifully, but has useful properties.
+
+PARAMETERS:  
+			
+Protects from a pulling of levels, 
++30% resistance to a loss from conventional weapons ~
+
+@443 = ~ Gift of gods ~
+@444 = ~ This necklace extraordinary powerful and many in general doubt its existence. One is clear - the one who owns it, a lot of things can.					
+PARAMETERS:  
+			
++2 to all characteristics ~
+
+@445 = ~ Guardianship Angela ~
+@446 = ~ One of very rare artifact which was found in the forgotten temple devoted to God of the sky.
+			
+PARAMETERS:  
+			
++1 to basic characteristics,
+ +10% to resistance against fire, to a lightning, ice and poison	~
+
+@447 = ~ Artifact ~
+@448 = ~ An artifact from Kalimshan. ~
+@449 = ~ Very valuable artifact, is from the Valley of Ice Wind from East harbor ~
+@450 = ~ Valenna death axe ~
+@451 = ~ The two-bladed axe - one of the most widespread types of weapon at barbarous tribes. This weapon is made of incredibly strong metal which is not rebated at all and does not crumble even in the ambassador of the most furious battle. And heavy armor not always saves from its blows even.
+			
+PARAMETERS:  
+			
++1d8 the additional cutting loss
+50% chances instantly to kill the purpose at a failure Saviour throw against death.		
+			
+THACO: +3rd bonus	
+Loss: 1d8 +3	
+Loss type: cutting	
+Weight: 10	
+Speed: 7	
+Weapon skill: axe	
+Type: two-handled	
+Requirements: Force 10	
+Cannot use:  
+Magician	
+Druid	
+Cleric	
+Thief ~
+@452 = ~ Magician's axe ~
+@453 = ~ As appears from the name, only magicians can use this weapon. It was created by a certain gifted exorcist for the colleagues who for a variety of reasons could not use heavy weapon. The ordinary axe of the woodcutter, fairly modifed by means of magic is taken as a basis.			
+			
+PARAMETERS:  
+			
+Force +2, 
+30% chances at blow to activate "a fiery sphere", 
+gives a vyozmozhnost to conjure spells: "haste" (3 times a day), 
+the improved invisibility" (2 times a day).			
+			
+THACO: +2nd bonus	
+Loss: 1d8 +2	
+Loss type: cutting	
+Weight: 10	
+Speed: 5	
+Weapon skill: axe	
+Type: One-handed	
+Requirements: Force 10	
+Can use:  
+Magician ~
+@454 = ~ Axe of the goblin ~
+@455 = ~ It is known that handicraftsmen from goblins useless. This axe - one of types of weapon which they tried to create.
+
+PARAMETERS:  
+			
+- 2 to a loss,-1 to dexterity			
+			
+THACO: -	
+Loss: 1d8	
+Loss type: cutting	
+Weight: 10	
+Speed: 8	
+Weapon skill: axe	
+Type: One-handed	
+Requirements: Force 10	
+Can use: -				
+~
+@456 = ~ Two-edged pole-axe ~
+@457 = ~ The two-bladed axe - one of the most widespread types of weapon at barbarous tribes. In hands of their soldiers, this weapon became really effective and killing.			
+			
+PARAMETERS:  
+			
++1d8 the additional cutting damages
+5% chances instantly to kill the purpose at a failure Saviour throw against death.		
+			
+THACO: +1 bonus	
+Loss: 1d8 x2	
+Loss type: cutting	
+Weight: 10	
+Speed: 7	
+Weapon skill: axe	
+Type: two-handled	
+Requirements: Force 10	
+Cannot use:  
+Magician	
+Druid	
+Cleric	
+Thief ~
+@458 = ~ Two-edged pole-axe +1 ~
+@459 = ~ The two-bladed axe - one of the most widespread types of weapon at barbarous tribes. In hands of their soldiers, this weapon became really effective and killing. This axe was finished to cause more serious loss.		
+			
+PARAMETERS:  
+
++1d8 the additional cutting damages
+10% chances instantly to kill the purpose at a failure Saviour throw against death.			
+			
+THACO: +2nd bonus	
+Loss: 1d8 +1	
+Loss type: cutting	
+Weight: 10	
+Speed: 7	
+Weapon skill: axe	
+Type: two-handled	
+Requirements: Force 10	
+Cannot use:  
+Magician	
+Druid	
+Cleric	
+Thief
+hranicar ~
+@460 = ~ Two-edged pole-axe +2 ~
+@461 = ~ The two-bladed axe - one of the most widespread types of weapon at barbarous tribes. In hands of their soldiers, this weapon became really effective and killing. This axe was finished to cause more serious loss.
+			
+PARAMETERS:  
+			
++1d8 the additional cutting damages
+20% chances instantly to kill the purpose at a failure Saviour throw against death.	
+			
+THACO: +3rd bonus	
+Loss: 1d8 +2	
+Loss type: cutting	
+Weight: 10	
+Speed: 7	
+Weapon skill: axe	
+Type: two-handled	
+Requirements: Force 10	
+Cannot use:  
+Magician	
+Druid	
+Cleric	
+Thief ~
+@462 = ~ Two-edged pole-axe +3 ~
+@463 = ~ The two-bladed axe - one of the most widespread types of weapon at barbarous tribes. In hands of their soldiers, this weapon became really effective and killing. This axe was finished to cause more serious loss.		
+			
+PARAMETERS:  
+			
++1d8 the additional cutting damages
+30% chances instantly to kill the purpose at a failure Saviour throw against death.	
+			
+THACO: +4th bonus	
+Loss: 1d8 +3	
+Loss type: cutting	
+Weight: 10	
+Speed: 7	
+Weapon skill: axe	
+Type: two-handled	
+Requirements: Force 10	
+Cannot use:  
+Magician	
+Druid	
+Cleric	
+Thief ~
+@464 = ~ Health belt ~
+@465 = ~ The captivated belts, like it are appreciated literally worth its weight in gold as to their owners no poisons are terrible. This belt is made of snake skins and has unusual green-brown color.
+			
+PARAMETERS:  
+			
+Immunity to poisoning
+CB +2, +10 to the maximum health			
+~
+@466 = ~ Calm belt ~
+@467 = ~ This belt the ice giant owned earlier what it is not difficult to guess by the thing sizes, here only once to it very suspicious person came into a cave. The body of a giant was found in a week, and by all in the slightest degree valuable, including a belt, disappeared.			
+			
+PARAMETERS:  
+			
+Immunity to damages by cold
+Gives the chance to conjure "a cold cone" 2 times a day.				
+~
+@468 = ~ Belt of gnomes ~
+@469 = ~ Can gnomes and are small growth, but not to occupy courage and persistence with it. This belt once belonged to the gnome by the name of Grokhin who ordered guards in possession of the clan. They quite often had to reflect attacks, and not only inhabitants of a surface and Anderdark's inhabitants, but also own fellows. As a result the fools trying to profit riches of clan were translated, and Grokhin became a hero.
+
+PARAMETERS:  
+			
+The owner of a belt assumes duties of the leader and receives +1 to charisma ~
+@470 = ~ Crystal sphere ~
+@471 = ~ This sphere serves as a communicator for <CHARNAME> with the Grand Duke Vrat of Baldur Opasom. ~
+@472 = ~ Bard's harp ~
+@473 = ~ Boots of a Satan ~
+@474 = ~ These shoes are worn only by natives of Nine Adov when they walk about on Torila in the human appearance. Judging from the fact that this pair of shoes is separately from the owner, someone had enough nonsense and good luck that to pull down it. Just in case, it is better not to put on them... if only you do not like to risk.		
+			
+PARAMETERS:  
+			
++45% resistance to fiery damages, +5 to the maximum health			
+
+Can use: angry and chaotic characters ~
+@475 = ~ Boots of hafling ~
+@476 = ~ There is an opinion that footwear in principle is not necessary to haflinga because their foot as a sole. Maybe at themselves in villages they manage and so, but in the cities will seldom meet the undressed halfling. These boots very strong and unexpectedly easy.
+		
+PARAMETERS:  
+			
+dexterity +1, the owner is accelerated, Basic the CB is established on 1
+
+Can use: hafling	~
+@477 = ~ Boots of wonderful protection ~
+@478 = ~ These magnificent boots increase protection against magic weapon. When the enemy with similar equipment approaches the owner of boots, around that the weak lilac light operating as a power board lights up.
+		
+PARAMETERS:  
+			
+15% of resistance to magic weapon
++5 to the maximum health ~
+@479 = ~ Boots of heaven ~
+@480 = ~ It is footwear it is extremely rare. By hearsay it is carried by only heavenly creations. It is only worth putting on these boots and the body becomes unexpectedly easy, and the owner moves so quickly that not to follow it.			
+			
+PARAMETERS:  
+			
+The owner is under effect of "the improved haste", an opportunity to conjure a spell "haste" 3 times a day. ~
+@481 = ~ Magic snake ~
+@482 = ~ These gloves are made of leather of very rare snake who almost disappeared from the world. Mainly it is a merit of alchemists who learned to take magic essence from creations.
+			
+PARAMETERS:  
+			
+3 levels add an additional spell,
+KB+1, 
+50% protection against poison and acid ~
+@483 = ~ Life gloves ~
+@484 = ~ These gloves it is never possible to see quite often on hands of elves and - at someone another. Only to the forest people the secret of their production is conducted and only his representatives can use it izdeley at full capacity.
+
+PARAMETERS:  
+			
++1 to intelligence + 10 to makismalny health
+regeneration 3 points of health in a round
+
+Can use: elves ~
+@485 = ~ Gloves of the archimagus ~
+@486 = ~ At magicians these gloves are appreciated literally worth its weight in gold as seriously increase their abilities. For the inhabitant, inexperienced in magic, they will be no more than a part of clothes.		
+			
+PARAMETERS:  
+			
+adds 2 spells 4, 5 and 6 levels. 
+Time of reading is lowered twice. ~
+@487 = ~ Thunder-storm fists ~
+@488 = ~ These gloves are made of genuine leather and on them the lightning is skillfully embroidered. At blow of a glove hit the target a lightning charge.
+		
+PARAMETERS:  
+			
+KB+1, 20% resistance to electricity, an additional loss electricity at the attack.
+
+Uses: monk ~
+@489 = ~ Two-handled sword of a bastard ~
+@490 = ~ The one-and-a-half sword is fine, universal weapon which can be used one or two hands. When using in two hands, the soldier strikes crushing blow, but loses ability to use a board. But this slow weapon. When using by one hand, it can take a board, but the caused loss comparable to a long sword decreases.
+
+PROPERTIES:
+
+Loss: 2d4
+Loss type: cutting
+Weight: 10
+Speed: 8
+Weapon skill: one-and-a-half sword
+Type: two-handled
+Requirements: Force 14
+Cannot use:
+Druid
+Cleric
+Magician
+Thief ~
+@491 = ~ Two-handled one-and-a-half sword +1 ~
+@492 = ~ The one-and-a-half sword is fine, universal weapon which can be used one or two hands. When using in two hands, the soldier strikes crushing blow, but loses ability to use a board. But this slow weapon. When using by one hand, it can take a board, but the caused loss comparable to a long sword decreases. This type of a two-handled polutornik amplifies by means of magic forces therefore it can cause more loss.
+
+PROPERTIES:
+
+Loss: 2d4 + 1
+Loss type: cutting
+Weight: 10
+Speed: 8
+Weapon skill: one-and-a-half sword
+Type: two-handled
+Requirements: Force 14
+Cannot use:
+Druid
+Cleric
+Magician
+Thief ~
+@493 = ~ Two-handled one-and-a-half sword +2 ~
+@494 = ~ The one-and-a-half sword is fine, universal weapon which can be used one or two hands. When using in two hands, the soldier strikes crushing blow, but loses ability to use a board. But this slow weapon. When using by one hand, it can take a board, but the caused loss comparable to a long sword decreases. This type of a two-handled polutornik amplifies by means of magic forces therefore it can cause more loss.
+
+PROPERTIES:
+
+Loss: 2d4 +2
+Loss type: cutting
+Weight: 10
+Speed: 8
+Weapon skill: one-and-a-half sword
+Type: two-handled
+Requirements: Force 14
+Cannot use:
+Druid
+Cleric
+Magician
+Thief ~
+@495 = ~ Two-handled one-and-a-half sword +3 ~
+@496 = ~ The one-and-a-half sword is fine, universal weapon which can be used one or two hands. When using in two hands, the soldier strikes crushing blow, but loses ability to use a board. But this slow weapon. When using by one hand, it can take a board, but the caused loss comparable to a long sword decreases. This type of a two-handled polutornik amplifies by means of magic forces therefore it can cause more loss.
+
+PROPERTIES:
+
+Loss: 2d4 +3
+Loss type: cutting
+Weight: 10
+Speed: 8
+Weapon skill: one-and-a-half sword
+Type: two-handled
+Requirements: Force 14
+Cannot use:
+Druid
+Cleric
+Magician
+Thief ~
+@497 = ~ Two-handled one-and-a-half sword +4 ~
+@498 = ~ The one-and-a-half sword is fine, universal weapon which can be used one or two hands. When using in two hands, the soldier strikes crushing blow, but loses ability to use a board. But this slow weapon. When using by one hand, it can take a board, but the caused loss comparable to a long sword decreases. This type of a two-handled polutornik amplifies by means of magic forces therefore it can cause more loss.
+
+PROPERTIES:
+
+Loss: 2d4 +4
+Loss type: cutting
+Weight: 10
+Speed: 8
+Weapon skill: one-and-a-half sword
+Type: two-handled
+Requirements: Force 14
+Cannot use:
+Druid
+Cleric
+Magician
+Thief ~
+@499 = ~ Pride of the barbarian ~
+@500 = ~ It is more, than recognized weapon of soldiers.
+It is mentioned in each serious writing in which time of the barbarian Korgan, one of the most dangerous soldier of that time is still remembered. The sword which belonged to it had unusual force. It allocated with such ability that the ordinary soldier became the serious opponent.
+
+Properties:
+
+Force 21, 5 times a day
+rage, class of protection becomes-1
+
+THACO: +4th bonus
+Loss: 2d5 +4
+Loss type: cutting
+Weight: 12
+Speed: 8
+Weapon skill: one-and-a-half sword
+Weapon type: two-handled
+Requirements: Force 14
+Can use: soldier
+
+~
+@501 = ~ Tranquility sword ~
+@502 = ~ Possession of this weapon gives to the owner some kind of inner world and balance thanks to which any soldier goes on a vstecha with a quiet look, but not on the contrary. Contrary to it, enemy forces it is forced to run when see before themselves the soldier, with a confident look, appearing at their eyes as a terrible monster which will not stop before anything.
+
+Properties:
+
+Resistance to fear, at hit chance of 15%
+on flight of the enemy
+
+THACO: +2nd bonus
+Loss: 2d5 +2
+Loss type: cutting
+Weight: 10
+Speed: 7
+Weapon skill: one-and-a-half sword
+Weapon type: two-handled
+Requirements: Force 12
+Can use: soldier
+
+~
+@503 = ~ Damned weapon ~
+@504 = ~ As appears from the name, this weapon is damned. On the owner of weapon negative effects are imposed, however all this is compensated by high action of weapon. Whether it is worth pottering in general with this weapon the soldier himself has to solve.
+
+Properties:
+
+Reduces a constitution and intelligence on 2, but
+increases force and dexterity on 1 and allows
+to the owner to cause gin once a day
+
+THACO: +3rd bonus
+Loss: 2d5 +3
+Loss type: cutting
+Weight: 11
+Speed: 7
+Weapon skill: one-and-a-half sword
+Weapon type: two-handled
+Requirements: Force 13
+Can use: soldier ~
+@505 = ~ Runic sword bastard ~
+@506 = ~ This weapon is captivated by a special type of magic, more precisely magic of runes. In the basis of magic runes "drawing" of fingers in air, forming the blue shining runes is located. By means of this magic the wizard should not say anything, simply to have an opportunity to gesticulate hands. It is more dangerous, than magic which is used in Faeruna, except all the few escaped notes say about this magic that once it was used widely.
+
+Properties:
+
+The owner receives 50% of resistance to all types of magic
+
+
+THACO: +2nd bonus
+Loss: 2d5 +2
+Loss type: cutting
+Weight: 12
+Speed: 7
+Weapon skill: one-and-a-half sword
+Weapon type: two-handled
+Requirements: Force 12
+Can use: soldier ~
+@507 = ~ Ebony onions ~
+@508 = ~ This weapon is made of the firmest tree what only is in Faeruna. It is big, heavy, slow, but if to get, will not seem to the enemy a little.			
+			
+PARAMETERS:  
+			
+Loss +6, 20% chance to deafen the purpose		
+			
+THACO: +3rd bonus	
+Loss: arrow +3	
+Loss type: pricking (shot)
+Weight: 10	
+Speed: 9	
+Weapon skill: long onions
+Type: two-handled	
+Requirements: Force 12	
+Cannot use:  
+Druid	
+Magician
+Cleric
+Thief ~
+@509 = ~ Magic round ~
+@510 = ~ On this weapon several runes are cut skillfully out thanks to what it puts additional damages by magic and protect from it the owner.			
+			
+PARAMETERS:  
+			
++10 loss magic
++10% to magic resistance			
+			
+THACO: +4th bonus	
+Loss: arrow +4
+Loss type: fire	
+Weight: 8	
+Speed: 6	
+Weapon skill: Easy onions	
+Type: two-handled	
+Requirements: Force 8	
+Cannot use:  
+Druid
+Cleric
+Magician ~
+@511 = ~ Rated sportsman +3 ~
+@512 = ~ As the attack this weapon copies the well-known work of Gozen, but here the creator went further away, having imposed additional charms on onions. And, it is necessary to tell, the result left excellent.			
+			
+PARAMETERS:  
+			
+The attack by electricity, does not demand ammunition. 
+The owner moves quicker, 
+an opportunity to conjure a spell "haste" of times a day.			
+			
+THACO: +3rd bonus	
+Loss: 1d8 lightning +3	
+Loss type: fire	
+Weight: 8
+Speed: 4	
+Weapon skill: Easy onions	
+Type: two-handled	
+Requirements: Force 8	
+Cannot use:  
+Druid
+Cleric
+Magician ~
+@513 = ~ Huge cudgel ~
+@514 = ~ As appears from the name only the giant can be controlled with such weapon. It is simple to Izgotvit it too: it is necessary to break out only a tree more thickly, then to hammer into it fragments of swords, copies, arbaletny bolts and in general all iron and sharp that will be. To evade from such bludgeon owing to its sizes very not easy.			
+			
+PARAMETERS:  
+			
+At blow for 20% chances to paralyze the purpose, 10% chances to cause severe bleeding (the purpose loses 1/4 lives)
+5% chance to kill instantly the purpose.			
+			
+THACO: +3rd bonus	
+Loss: 1d6 +3
+Loss type: splitting up	
+Weight: 8	
+Speed: 5
+Weapon skill: cudgel	
+Type: One-handed	
+Requirements: Force 7	
+Cannot use:  
+Magician ~
+@515 = ~ The discarding cudgel ~
+@516 = ~ As appears from the name at the attack this cudgel causes a powerful shock wave which throws back everything and all from the owner, not important who or that it will be. It is important to allies of the owner of a bludgeon to remember it and in battle to steer clear of it.			
+			
+PARAMETERS:  
+		
+At the attack of 20% chances that all cudgels which are near the owner, will be discarded.
+			
+THACO: +4th bonus	
+Loss: 1d6 +4	
+Loss type: splitting up	
+Weight: 3	
+Speed: 5	
+Weapon skill: cudgel	
+Type: One-handed	
+Requirements: Force 7	
+Cannot use:  
+Magician ~
+@517 = ~ Frosty cudgel ~
+@518 = ~ This weapon once belonged to the leader of the tribe of ice trolls. Considering that it quickly appeared in hands of adventurers, it is easy to guess that the cudgel not painfully helped former owners. It is necessary to hope that the new owner will be more successful.			
+			
+PARAMETERS:  
+			
++2d6 additional damages by cold, 
+gives the chance to conjure spells:
+"ice storm" (4 times a day),
+"a call elemental waters" (once a day).				
+			
+THACO: +5th bonus	
+Loss: 1d6 +5	
+Loss type: splitting up	
+Weight: 5	
+Speed: 7	
+Weapon skill: cudgel	
+Type: One-handed	
+Requirements: Force 8	
+Cannot use:  
+Magician ~
+@519 = ~ Anger of dragons ~
+@520 = ~ By hearsay at production of this tsep bones and scales of a black dragon were used. From a tip acid which can easily corrode the strongest boards and an armor constantly flows down.
+			
+PARAMETERS:  
+			
+To put 30% chances at blow 2d6 an additional loss
+acid, 20% chances to lower protection of the purpose.
+			
+THACO: +4th bonus	
+Loss: 1d6 +4	
+Loss type: splitting up	
+Weight: 15	
+Speed: 7	
+Weapon skill: цеп	
+Type: One-handed	
+Requirements: Force 13	
+Cannot use:  
+Magician		
+Druid	
+Thief ~
+@521 = ~ Lord of destinies ~
+@522 = ~ This powerful weapon ruined not one life. At hit time for the owner of a tsep and its purpose as if stops thanks to what it is possible or to finish the enemy, or to recede quickly.			
+			
+PARAMETERS:  
+
+At the successful attack of 10% chances to stop time, 
+gives the chance of times a day to read "time stop". 
+The owner иммунен to "time stop".
+
+THACO: +3rd bonus
+Loss: 1d6 +3	
+Loss type: splitting up	
+Weight: 15	
+Speed: 5	
+Weapon skill: cep	
+Type: One-handed	
+Requirements: Force 13	
+Cannot use:  
+Magician		
+Druid	
+Thief ~
+@523 = ~ Drobitel ~
+@524 = ~ This weapon is created especially for fight against hard armored soldiers. Blows of a tsep literally rumple any armor and boards, but that worst of all - its thorns are covered with the special paralyzing toxin.			
+			
+PARAMETERS:  
+			
++ 1d6 additional loss acid, 
+15% chances to paralyze the purpose at hit.			
+			
+			
+THACO: +5th bonus	
+Loss: 1d6 +5	
+Loss type: splitting up	
+Weight: 20	
+Speed: 8	
+Weapon skill: цеп	
+Type: One-handed	
+Requirements: Force 14	
+Cannot use:  
+Magician		
+Druid	
+Thief ~
+@525 = ~ Rob Devyatki Nevervinter ~
+@526 = ~ For a long time Neteril's magicians learned to use different magic requisites which surround us every day. Such popular magic things as simple uniform. It is easy, simple well protects from magic that does it by suitable clothes for the magician. Thanks to a magic origin of these clothes, only magicians, simple can use it, duat or a multiclass. This uniform is carried by members of the Nine of Nevervinter.
+
+PARAMETERS:
+
+Protection class: 5
+Magic resistance: +5%
+Spasbroski: +1 bonus
+Force: 6
+Can use only:
+ The magician (usual, duat or a multi class) ~
+@527 = ~ Varvarsky palcat ~
+@528 = ~ Barbari, kmen ze severu, posledni dobou jsou zatlacovani cim dal vic na sever lidmi. Snazili se uzavrit mir ale Desetimesti to	odmitlo. Jejich jedinou sanci je skryt se nekde v horach. Za timto ucelem shotovil jejich kovar zbran, jejiz cepel je zacarovana a ma nicici efekt proti zlym protivnikum.			
+						
+PARAMETERS:  
+			
+THACO: +3rd bonus	
+Loss: 1d6 +1, +4 proti Zlym	
+Loss type: splitting up	
+Weight: 10	
+Speed: 5	
+Weapon skill: Maces	
+Type: One-handed	
+Requirements: Force 12	
+Can use jen:         
+Barbarian ~
+@529 = ~ Soil mace ~
+@530 = ~ Soil was the famous hero of northern tribes who as speak, passed through all corners of the world. He was a hunter, the security guard, the adventurer and even the mercenary. Having received in the wanderings considerable and the wealth of experience Grund returned to the tribe and quickly became his leader. However, when years began to press very strongly on his shoulders, Grund unexpectedly disappeared. Where - nobody knows.			
+			
+PARAMETERS:  
+			
+Force +1, 
+Dexterity +2 
+additional magic damages.			
+			
+THACO: +3rd bonus	
+Loss: 1d6 +3	
+Loss type: splitting up	
+Weight: 12	
+Speed: 6	
+Weapon skill: Maces	
+Type: One-handed	
+Requirements: Force 10	
+Cannot use:  
+Magician	
+Thief	
+Druid ~
+@531 = ~ Decomposition mace ~
+@532 = ~ This mace was created by the certain cult disappearing in the desert Anaurokh. Only true adherents of Chaos know the nature of the charms imposed on weapon and can use it on full power. Personally, however, nobody saw such people (or creations) and many doubt whether there are they in general, but the fact that they kind and noble cannot even concern this weapon, is not subject to doubt.			
+			
+PARAMETERS:  
+			
+Allows to conjure the following spells: "a beam of negative energy" (3 times a day); 
+"explosion of negative energy" (2 times a day); 
+"to create to indulge" (2 times a day).	
+			
+THACO: +4th bonus	
+Loss: 1d6 +4	
+Loss type: splitting up	
+Weight: 11	
+Speed: 5	
+Weapon skill: Maces	
+Type: One-handed	
+Requirements: Force 10	
+Cannot use:  
+Magician	
+Thief	
+Druid	
+dobre presvedceni ~
+@533 = ~ Torm's book ~
+@534 = ~ Hand of a devil ~
+@535 = ~ Heart of a devil ~
+@536 = ~ Mifrilovy axe ~
+@537 = ~ The most widespread types of axes, with a strong handle about 1,2 meters long on which end there is a curved edge. Fighting axes are also called wide axes. This axe is also made of mithril, allowing to put more serious injuries.
+
+PARAMETERS:
+
+Loss: 1d8 + 1
+Loss type: cutting 
+Weight: 7 
+Speed: 7 
+Weapon skill: Axes 
+Type: One-handed 
+Vyzaduje: Force 6
+Cannot use:
+ Druid
+Cleric
+ Magician 
+ Thief ~
+@538 = ~ Amulet to a dro ~
+@539 = ~ Dervish ~
+@540 = ~ Document ~
+@541 = ~ The document for the dealer from the Deep water. ~
+@542 = ~ Keys from the temple in East harbor. ~
+@543 = ~ Key to a cave ~
+@544 = ~ False ion ~
+@545 = ~ The false ion is a heavy sword with a unilateral edge. Edge top usually direct while here the edge is bent. Towards a tip the edge extends, giving the form of the blade and uvelichivay the caused loss. The sword is heavy that gives to this weapon a menacing look.
+
+Properties:
+
+THACO: -
+Loss: 1d6 + 1
+Loss type: cutting
+Weight: 8
+Speed: 5
+Weapon skill: saber (skimitar)
+Weapon type: One-handed
+Requirements: Force 10
+Cannot use: magician
+druid
+Cleric
+
+
+~
+@546 = ~ False ion +1 ~
+@547 = ~ The false ion is a heavy sword with a unilateral edge. Edge top usually direct while here the edge is bent. Towards a tip the edge extends, giving the form of the blade and uvelichivay the caused loss. The sword is heavy that gives to this weapon a menacing look. This type of a false ion is modified for the best control in fight, it is much more powerful. It differs from a classical false ion only in the picturesque handle.
+
+Properties:
+
+THACO: -
+Loss: 1d6 + 2
+Loss type: cutting
+Weight: 8
+Speed: 5
+Weapon skill: saber (skimitar)
+Weapon type: One-handed
+Requirements: Force 10
+Cannot use: 
+magician
+druid
+Cleric ~
+@548 = ~ False ion +2 ~
+@549 = ~ The false ion is a heavy sword with a unilateral edge. Edge top usually direct while here the edge is bent. Towards a tip the edge extends, giving the form of the blade and uvelichivay the caused loss. The sword is heavy that gives to this weapon a menacing look. This type of a false ion is modified for the best control in fight, it is much more powerful. It differs from a classical false ion only in the picturesque handle.
+
+Properties:
+
+THACO: -
+Loss: 1d6 + 3
+Loss type: cutting
+Weight: 8
+Speed: 5
+Weapon skill: saber (skimitar)
+Weapon type: One-handed
+Requirements: Force 10
+Cannot use: 
+magician
+druid
+Cleric ~
+@550 = ~ False ion +3 ~
+@551 = ~ The false ion is a heavy sword with a unilateral edge. Edge top usually direct while here the edge is bent. Towards a tip the edge extends, giving the form of the blade and uvelichivay the caused loss. The sword is heavy that gives to this weapon a menacing look. This type of a false ion is modified for the best control in fight, it is much more powerful. It differs from a classical false ion only in the picturesque handle.
+
+Properties:
+
+THACO: -
+Loss: 1d6 + 4
+Loss type: cutting
+Weight: 8
+Speed: 5
+Weapon skill: saber (skimitar)
+Weapon type: One-handed
+Requirements: Force 10
+Cannot use: 
+magician
+druid
+Cleric ~
+@552 = ~ Anger of the pirate ~
+@553 = ~ In addition to swords, the so-called false ion brought from some extortionate campaigns was a saber and other types of weapon which were used by pirates. From them it for the first time got on the continent where began to be made and be on sale as a novelty though nothing usual in this sword was.
+
+Properties:
+
+20% chance devocalization, 10% chance to demolish the head (death)
+
+THACO: +2nd bonus
+Loss: 1d6 +3
+Loss type: cutting
+Weight: 8
+Speed: 5
+Weapon skill: saber (skimitar)
+Weapon type: One-handed
+Requirements: Force 10
+Cannot use: 
+magician
+druid
+Cleric ~
+@554 = ~ Tegrodan ~
+@555 = ~ The sword which was once belonging to palace gin of the Master Valredon. Gene by the name of Sar hectare was the most faithful servant of the wizard and incessantly carried out all his instructions. Once he was not lucky and mister died from the opponent's sword. Dying he presented this sword to gin. Since that moment it stored it during all life.
+
+Properties:
+
+15% chance to demolish the head, 5 times a day
+magic "Strength of a bull", +3 to a protection class
+
+THACO: +4th bonus
+Loss: 1d6 +5
+Loss type: cutting
+Weight: 9
+Speed: 5
+Weapon skill: saber (skimitar)
+Weapon type: One-handed
+Requirements: Force 10
+Cannot use: 
+magician
+druid
+Cleric ~
+@556 = ~ Sickle ~
+@557 = ~ The sickle is a military weapon which came from barbarous tribes. Having applied in full can dismember the person. The handle about 40 inches in length, it smoothly passes in length 60-70 inches, reminiscent of a braid edge form. The first line perfected on arch inside.
+
+Properties:
+
+THACO: -
+Loss: 1d10
+Loss type: cutting
+Weight: 10
+Speed: 8
+Weapon skill: two-handled sword
+Weapon type: two-handled
+Requirements: Force 12
+Cannot use: 
+magician
+druid
+Cleric
+thief ~
+@558 = ~ Sickle +1 ~
+@559 = ~ The sickle is a military weapon which came from barbarous tribes. Having applied in full can dismember the person. The handle about 40 inches in length, it smoothly passes in length 60-70 inches, reminiscent of a braid edge form. The first line perfected on arch inside. This type of a sickle is magically changed and improved. Differs from a classical sickle in a colored pen.
+
+Properties:
+
+THACO: -
+Loss: 1d10 + 1
+Loss type: cutting
+Weight: 10
+Speed: 8
+Weapon skill: two-handled sword
+Weapon type: two-handled
+Requirements: Force 12
+Cannot use: 
+magician
+druid
+Cleric
+thief ~
+@560 = ~ Sickle +2 ~
+@561 = ~ The sickle is a military weapon which came from barbarous tribes. Having applied in full can dismember the person. The handle about 40 inches in length, it smoothly passes in length 60-70 inches, reminiscent of a braid edge form. The first line perfected on arch inside. This type of a sickle is magically changed and improved. Differs from a classical sickle in a colored pen.
+
+Properties:
+
+THACO: -
+Loss: 1d10 + 2
+Loss type: cutting
+Weight: 10
+Speed: 8
+Weapon skill: two-handled sword
+Weapon type: two-handled
+Requirements: Force 12
+Cannot use: 
+magician
+druid
+Cleric
+thief ~
+@562 = ~ Sickle +3 ~
+@563 = ~ The sickle is a military weapon which came from barbarous tribes. Having applied in full can dismember the person. The handle about 40 inches in length, it smoothly passes in length 60-70 inches, reminiscent of a braid edge form. The first line perfected on arch inside. This type of a sickle is magically changed and improved. Differs from a classical sickle in a colored pen.
+
+Properties:
+
+THACO: -
+Loss: 1d10 + 3
+Loss type: cutting
+Weight: 10
+Speed: 8
+Weapon skill: two-handled sword
+Weapon type: two-handled
+Requirements: Force 12
+Cannot use: 
+magician
+druid
+Cleric
+thief ~
+@564 = ~ Ugkhurovsky demon ~
+@565 = ~ This sickle belonged to exclusively mighty barbarian who participated in all possible fights and competitions to weapon. He knew force of this weapon which he made itself, and he knew that it will not be able to lose and it never happened. It directed horror to all whom knew. Until he did not die of an old age, and its weapon was gone, and god knows where it now.
+
+Properties:
+
+bonus to a loss +1d6, 15% for parrying
+opponent, 30% intimidation
+
+THACO: +4th bonus
+Loss: 1d10 + 4
+Loss type: cutting
+Weight: 10
+Speed: 7
+Weapon skill: two-handled sword
+Weapon type: two-handled
+Requirements: Force 18
+Can use: Soldier ~
+@566 = ~ Bloody sickle ~
+@567 = ~ This weapon was shaped by the smith the gnome. Once to it the stranger came with the offer to shape weapon for which he will well pay. The gnome who for the first time saw such weapon, did not understand that he on it will leave metal as if to make 2 axes of it. But the profit was worth it therefore he decided to try. However he told that in it weapon he uses the innovations.
+
+Properties:
+
+20% for devocalization, 10% to impose spherical
+lightning
+
+THACO: +3rd bonus
+Loss: 1d10 + 3
+Loss type: cutting
+Weight: 9
+Speed: 6
+Weapon skill: two-handled sword
+Weapon type: two-handled
+Requirements: Force 12
+Cannot use: 
+magician
+druid
+Cleric
+thief ~
+@568 = ~ Deadly threat ~
+@569 = ~ The terrifying sickle, from only one look, an edge inspires fear. It is used in reserve forces of the general Vistena. A task of these divisions was by order of to run out from reserves and to rush into ranks between opponents. Before understanding what occurs, about a third of units were in a trouble and could only watch at it in fear as their friends piles fell on the earth and at whom who could survive there were no extremities. Therefore the most right way was, it is simple to escape.
+
+Properties:
+
+10% for cutting up of the opponent (death)
+
+THACO: +4th bonus
+Loss: 1d10 + 4
+Loss type: cutting
+Weight: 9
+Speed: 7
+Weapon skill: two-handled sword
+Weapon type: two-handled
+Requirements: Force 18
+Can use: 
+Soldier ~
+@570 = ~ Armor of an award of Paladins of Faerun ~
+@571 = ~ Semi-armor represents a combination from a chain armor with metal plates of an okhvatyvayushchma the vital areas, such as breast, stomach and groin. Probably on a design on bronze Polulata, the truth these Polulata consist of links of rings and skin. 
+
+PROPERTIES:
+
+Obr. inslo: 5
+
+THAC0: +2
+
+Force: +1
+Weight: 50
+It is required: Force 17 
+
+Level: 10
+Cannot use:
+ Bard 
+ Druid
+ Magician 
+ Thief ~
+@572 = ~ Gold and jewelry ~
+@573 = ~ Glatiator armor ~
+@574 = ~ The armor used by gladiators on arene from the next gate to the desert Anorach. The armor represents set of a chain armor with metal plates which cover the vital areas, such as a breast, a stomach and a groin. Though in appearance it is similar to a bronze latny armor, but unlike latny this is added with elements of a chain armor and a kozhenny armor. 
+
+PARAMETERS:
+
+Protection class: 3
+Weight: 30
+Requirements: Force 8
+Cannot use:
+ Bard 
+ Druid ~
+@575 = ~ Wide sword ~
+@576 = ~ This type of a sword was created to reach compromise between short and long swords. The short sword was not so strong for experienced adventurers, and the long sword was insufficient to professionals.		
+		
+PARAMETERS:  
+
+Loss: 1d8
+Loss type: cutting 
+Weight: 4
+Speed: 5
+Weapon skill: long sword
+Type: One-handed
+Requirements: Force 6
+Cannot use:  
+ Magician
+ Druid ~
+@577 = ~ Wide sword +1 ~
+@578 = ~ This type of a sword was created to reach compromise between short and long swords. The short sword was not so strong for experienced adventurers, and the long sword was insufficient to professionals.		
+		
+PARAMETERS:  
+		
+THACO: -
+Loss: 1d8
+Loss type: cutting
+Weight: 5
+Speed: 4
+Weapon skill: long sword
+Type: One-handed
+Requirements: Force 6
+Cannot use:
+ Druid
+ Magician ~
+@579 = ~ This type of a sword was created to reach compromise between short and long swords. The original type of such sword with the imposed charms enjoyed wide popularity.			
+			
+
+PARAMETERS:  
+
+THACO: +1 bonus
+Loss: 1d8 +1
+Loss type: cutting
+Weight: 5
+Speed: 4
+Weapon skill: long sword
+Type: One-handed
+Requirements: Force 6
+Cannot use:
+ Druid
+ Magician ~
+@580 = ~ Wide sword +2 ~
+@581 = ~ This type of a sword was it is created to reach compromise between a short and long sword. This type became one of the most widely used types of weapon among people. And from here even more powerful version of a sword.			
+			
+PARAMETERS:  
+			
+THACO: +2nd bonus	
+Loss: 1d8 +2	
+Loss type: cutting	
+Weight: 5	
+Speed: 4	
+Weapon skill: long sword	
+Type: One-handed	
+Requirements: Force 6	
+Cannot use:
+ Druid		
+ Magician ~
+@582 = ~ Wide sword +3 ~
+@583 = ~ This type of a sword was created to reach compromise between short and long swords. This type of a sword is used by heroes in all campaigns. It was created from the original version and improved by powerful charms of the smith in order that it is better to ubiivat.			
+			
+PARAMETERS:  
+			
+THACO: +3rd bonus	
+Loss: 1d8 +3	
+Loss type: cutting	
+Weight: 5	
+Speed: 4	
+Weapon skill: long sword	
+Type: One-handed	
+Requirements: Force 6	
+Cannot use:
+ Druid	
+ Magician ~
+@584 = ~ Muffler +2 ~
+@585 = ~ The blade is known for the destructive force. In addition to a serious loss from blows, it can also deafen for a while the opponent that does it by very terrible weapon.		
+		
+PARAMETERS:  
+		
+Ability in fight: 
+at successful hit, probability in 10%,
+that the opponent Will be stunned.		
+		
+THACO: +2nd bonus
+Loss: 1d8 +2
+Loss type: cutting
+Weight: 5
+Speed: 4
+Weapon skill: long sword
+Type: One-handed
+Requirements: Force 6
+Cannot use:
+ Druid
+ Magician ~
+@586 = ~ Sword of heroes +4 ~
+@587 = ~ In due time this sword belonged to the adventurer Adreno who won against the opponent much stronger once and is more pilot than itself. Then he won against stronger opponents and it proceeded until Andreno suddenly completely did not disappear together with the blade.					
+			
+PARAMETERS:  
+			
+THACO: +4th bonus	
+Loss: 1d8 +4	
+Loss type: cutting	
+Weight: 5	
+Speed: 2	
+Weapon skill: long sword	
+Type: One-handed	
+Requirements: Force 6	
+Cannot use:
+ Druid	
+Cleric	
+ Magician ~
+@588 = ~ Long sword of fire ~
+@589 = ~ The improved classical wide sword.
+There are 4 types of improvement of these swords:
+Fire sword
+Ice sword
+Poison sword
+Acid sword
+
+PROPERTIES:
+
+Loss: 1d8, +1 loss from fire
+Loss type: cutting
+Weight: 4
+Speed: 5
+Skill type: long sword
+Type: one-manual
+It is required: Force 6
+Cannot use:
+Magician
+Druid ~
+@590 = ~ Long sword of ice ~
+@591 = ~ The improved classical long sword.
+There are 4 types of improvement of these swords:
+Fire sword
+Ice sword
+Poison sword
+Acid sword
+
+PROPERTIES:
+
+Loss: 1d8, +1 loss ice
+Loss type: cutting
+Weight: 4
+Speed: 5
+Skill type: long sword
+Type: one-manual
+It is required: Force 6
+Cannot use:
+Magician
+Druid ~
+@592 = ~ Long sword of acid ~
+@593 = ~ The improved classical long sword.
+There are 4 types of improvement of these swords:
+Fire sword
+Ice sword
+Poison sword
+Acid sword
+
+PROPERTIES:
+
+Loss: 1d8, +1 loss of kosloty
+Loss type: cutting
+Weight: 4
+Speed: 5
+Skill type: long sword
+Type: one-manual
+It is required: Force 6
+Cannot use:
+Magician
+Druid ~
+@594 = ~ Long sword of poison ~
+@595 = ~ The improved classical long sword.
+There are 4 types of improvement of these swords:
+Fire sword
+Ice sword
+Poison sword
+Acid sword
+
+PROPERTIES:
+
+Loss: 1d8, +1 loss poison
+Loss type: cutting
+Weight: 4
+Speed: 5
+Skill type: long sword
+Type: one-manual
+It is required: Force 6
+Cannot use:
+Magician
+Druid ~
+@596 = ~ Stone halberd ~
+@597 = ~ that halberd very heavy, as if instead of a tip at it a cobble-stone. Its origin is connected with history of a certain warrior from northern tribes who battled against the powerful witch, but that turned it into a stone, however and itself did not avoid a similar fate. The most entertaining that everyone tells this story differently so now not to understand how everything was actually.				
+			
+PARAMETERS:  
+			
++4 additional cutting damages, 
+10% chance to turn the purpose into a stone at the attack, 
+Gives the chance of times a day to read a spell "flesh in a stone".
+				
+THACO: +2nd bonus	
+Loss: 1d10+2	
+Loss type: pricking	
+Weight: 12	
+Speed: 9	
+Weapon skill: Halberds	
+Type: Two-handled	
+Requirements: Force 13	
+Cannot use:  
+Magician	
+Druid	
+Cleric	
+Thief ~
+@598 = ~ Dawn reaper ~
+@599 = ~ An edge of this halberd of a red-golden shade as if the fire flame, exhales strong heat as if the forge horn and at a wave leaves behind a mark from sparks.				
+			
+PARAMETERS:  
+			
++ 3 additional fiery damages, 
+Gives the chance to conjure twice a day "a fiery sphere".		
+			
+THACO: +3rd bonus	
+Loss: 1d10+3	
+Loss type: pricking	
+Weight: 10	
+Speed: 8	
+Weapon skill: Halberds	
+Type: Two-handled	
+Requirements: Force 13	
+Cannot use:  
+Magician	
+Druid	
+Cleric	
+Thief ~
+@600 = ~ Guard's halberd ~
+@601 = ~ This weapon is used by a city guards, and also protection of important persons. It is made so successfully that without it it is just impossible to present an image of the gallant fighter. The halberd in itself is very bulky and heavy and that who is able to be controlled with it is held in the deserved respect.
+			
+PARAMETERS:  
+			
+50% chances on 1d10 the additional cutting damages,
+Force is established on 25			
+			
+THACO: +4th bonus	
+Loss: 1d10+4	
+Loss type: pricking	
+Weight: 15	
+Speed: 9	
+Weapon skill: Halberds	
+Type: Two-handled	
+Requirements: Force 13	
+Cannot use:  
+Magician	
+Druid	
+Cleric	
+Thief ~
+@602 = ~ Vigilance hammer ~
+@603 = ~ Truzhno to revaluate usefulness of this weapon. The hammer begins to shine dimly if nearby there are creations using invisibility, and the they are closer, the light is brighter. Eventually the hammer brightly flashes, destroying enemy masking.			
+			
+PARAMETERS:  
+			
+All invisible beings lose masking near the hammer carrier.		
+			
+THACO: +3rd bonus	
+Loss: 1d4 +3	
+Loss type: splitting up	
+Weight: 6	
+Speed: 4	
+Weapon skill: One-handed	
+Type: Fighting hammer	
+Requirements: Force 9	
+Cannot use:  
+Magician	
+Thief	
+Druid ~
+@604 = ~ Exile hammer ~
+@605 = ~ This weapon was specially created for destruction of the called beings of any force. Its emergence was very unpleasant surprise for some magicians.			
+			
+PARAMETERS:  
+			
+At hit of 20% chances instantly to kill the called being.			
+			
+THACO: +3rd bonus	
+Loss: 1d4 +3	
+Loss type: splitting up	
+Weight: 6	
+Speed: 4	
+Weapon skill: One-handed	
+Type: Fighting hammer	
+Requirements: Force 9	
+Cannot use:
+Magician	
+Thief	
+Druid ~
+@606 = ~ Insidiousness hammer ~
+@607 = ~ About sixty years ago on the Coast of the Sword scandal which captured all large trade cities broke out. Dealers filled up the city authorities with tons of complaints to inability of guards to deal with group of impudent thieves who cleaned houses and warehouses, dragging off everything in the slightest degree valuable. Two or group nevertheless managed to be neutralized three years later. Here also it became clear that criminals used magic hammers by means of which they put out of action of security guards and all potential witnesses. Next morning those recovered with a terrible headache and could not remember anything.			
+			
+PARAMETERS:  
+			
+35% chances at blow to ship the purpose in a dream		
+			
+THACO: +4th bonus	
+Loss: 1d4 +4	
+Loss type: splitting up	
+Weight: 6	
+Speed: 3	
+Weapon skill: One-handed	
+Type: Fighting hammer	
+Requirements: Force 9	
+Cannot use:  
+Magician	
+Cleric	
+Druid
+Thief ~
+@608 = ~ Clergyman's hat ~
+@609 = ~ This headdress - distinctive feature of clergymen. Weak charms of healing which can be useful in critical situation are imposed on it.
+		
+PARAMETERS:  
+			
++5 to the maximum health, "healing of grazes" 3 times a day.			
+			
+Can use:  
+Cleric
+~
+@610 = ~ Rohova helmice ~
+@611 = ~ Tato helma vypada jako oblicej demona.	Nekterym slabsim protivnikum muze nahnat i strach.
+			
+PARAMETERS:  
+			
+20% of odolnost vuci secnym zbranim,			
+15% of odolnost vuci blesku, 30% of zastraseni
+pokud neuspeje v zachrannem hodu.			
+			
+Cannot use:  
+Magician 
+Bard
+Thief ~
+@612 = ~ Bone helmet of the barbarian ~
+@613 = ~ This massive helmet dangles on the head and constantly strives to fall or move down on a nose. Only who can carry it without hindrances - barbarians whose skull it is slightly more than at simple people.
+	
+PARAMETERS:  
+			
+Protection against stupefaction, 
++20% magic resistance, 
++3 to the maximum loss.			
+
+Can use:  
+Barbarian ~
+@614 = ~ Stone of negative energy ~
+@615 = ~ This semi-precious stone serves as a vessel for negative energy. Approximately once a day the saved-up power can be released in the form of strong magic explosion.
+			
+PARAMETERS:  
+			
+"Explosion of negative energy" (once a day),
++10% magic resistance			
+
+Can use:  
+Magician 
+Exorcist ~
+@616 = ~ Head of the Supreme queen ~
+@617 = ~ Head of the Supreme queen of Moonlight. ~
+@618 = ~ Drawing ~
+@619 = ~ Appeal to Good ~
+@620 = ~ These are east weapon has about six inches long a handle and an edge. The edge about eighteen inches from the handle, direct, and then coils in the form of a sickle at all length. As a result of eighteen more inches to total length. All sword is made, as a rule, of bronze or iron.
+
+Properties:
+
+THACO: -
+Loss: 2d4
+Loss type: pricking
+Weight: 7
+Speed: 9
+Weapon skill: short sword
+Weapon type: One-handed
+Requirements: Force 8
+Cannot use: Cleric
+magician
+thief
+~
+@621 = ~ Khopesh +1 ~
+@622 = ~ These are east weapon has about six inches the handle and an edge are long. The edge about eighteen inches from the handle, direct, and then coils in the form of a sickle at all length. As a result of eighteen more inches to total length. All sword is made, as a rule, of bronze or iron. This improved version of a khopesh differs from classical type as effective, so in the picturesque handle.
+
+Properties:
+
+THACO: +1 bonus
+Loss: 2d4 + 1
+Loss type: pricking
+Weight: 7
+Speed: 9
+Weapon skill: short sword
+Weapon type: One-handed
+Requirements: Force 8
+Cannot use: Cleric
+magician
+thief
+~
+@623 = ~ Khopesh +2 ~
+@624 = ~ These are east weapon has about six inches the handle and an edge are long. The edge about eighteen inches from the handle, direct, and then coils in the form of a sickle at all length. As a result of eighteen more inches to total length. All sword is made, as a rule, of bronze or iron. This improved version of a khopesh differs from classical type as effective, so in the picturesque handle.
+
+Properties:
+
+THACO: +2nd bonus
+Loss: 2d4 + 2
+Loss type: pricking
+Weight: 7
+Speed: 9
+Weapon skill: short sword
+Weapon type: One-handed
+Requirements: Force 8
+Cannot use: Cleric
+magician
+thief
+~
+@625 = ~ Khopesh +3 ~
+@626 = ~ These are east weapon has about six inches the handle and an edge are long. The edge about eighteen inches from the handle, direct, and then coils in the form of a sickle at all length. As a result of eighteen more inches to total length. All sword is made, as a rule, of bronze or iron. This improved version of a khopesh differs from classical type as effective, so in the picturesque handle.
+
+Properties:
+
+THACO: +3rd bonus
+Loss: 2d4 + 3
+Loss type: pricking
+Weight: 7
+Speed: 9
+Weapon skill: short sword
+Weapon type: One-handed
+Requirements: Force 8
+Cannot use: Cleric
+magician
+thief ~
+@627 = ~ Deranez ~
+@628 = ~ It is the exact copy of overseas east khopesh. It is made for one of sailors who returned from voyages and brought as a souvenir as house weapon. The copy is quite exact, it is made only of iron and with the imposed magic charms.
+
+Properties:
+
+10% of a stop of time, damages by fire 1-3,
+20% delay
+
+THACO: +3rd bonus
+Loss: 2d4 + 2
+Loss type: cutting
+Weight: 7
+Speed: 9
+Weapon skill: short sword
+Weapon type: One-handed
+Requirements: Force 8
+Cannot use: Cleric
+magician
+thief ~
+@629 = ~ Weapon of slave traders ~
+@630 = ~ Arms which at themselves were carried by slave traders when using slaves in construction. Though as punishment it is used only whips, but if the group of slaves rose, whips are unsuccessful and it is necessary to be protected by something else. However
+it is allowed to use weapon only as it should be
+self-defenses. But many violated the rule.
+
+Properties:
+
+30% a bonus to a loss 1d4.+10% of probability
+critical blow
+
+THACO: +2nd bonus
+Loss: 2d4 + 2
+Loss type: cutting
+Weight: 7
+Speed: 9
+Weapon skill: short sword
+Weapon type: One-handed
+Requirements: Force 8
+Cannot use: Cleric
+magician
+thief ~
+@631 = ~ Sil Ibunezov ~
+@632 = ~ It is very expensive and ornated khopesh, once belonged to one of Pharaohs 3 dynasties. It was made in order that by means of it it is possible to improve the force and to impose damnations on enemies. The Pharaoh, unfortunately, did not understand that when he comes to the power, this weapon will become for it fatal.
+
+Properties:
+
+20% to poison, to impose 20%
+blindness, 50% disease
+
+THACO: +3rd bonus
+Loss: 2d4 + 3
+Loss type: cutting
+Weight: 7
+Speed: 9
+Weapon skill: short sword
+Weapon type: One-handed
+Requirements: Force 8
+Cannot use: 
+Cleric
+magician
+thief ~
+@633 = ~ Darkness edge ~
+@634 = ~ This katana gained the fame, years so 200 back. At that time Nevervnter reflected blow of a horde indulge, suddenly rushed from the next cemeteries. One of the Nine whose task was to cover evacuation of inhabitants from the urban areas which were under the threat of capture owned this weapon. He well coped, but then just disappeared together with the weapon. After that a kind third of the city was taken by licha and their henchmen and it was succeeded to beat off it very at a distant day.		
+			
+PARAMETERS:  
+			
+Uporyadochenno-kind characters cannot use.
+Against you indulge a double loss.		
+			
+THACO: +3rd bonus	
+Loss: 1d10 +3	
+Loss type: cutting	
+Weight:  
+Speed: 2	
+Weapon skill: Katana	
+Type: One-handed	
+Requirements: Force 6	
+Cannot use:  		
+~
+@635 = ~ Katana of the Samurai ~
+@636 = ~ Katana, perhaps, the most known weapon from an arsenal of Samurais Cara Tura. It is slightly longer than a usual sword and is slightly bent. The soldier usually backs weapon and is capable to snatch out very quickly it and to attack. However considerable time that will learn to own well rolled is required and therefore it is used only by professionals... or poseurs.			
+			
+PARAMETERS:  
+			
+THACO: +3rd bonus	
+Loss: 1d10 +3	
+Loss type: cutting	
+Weight:  
+Speed: 1	
+Weapon skill: Katana	
+Type: Two-handled	
+Requirements: Force 5	
+Can use:  
+Headhunter ~
+@637 = ~ Katana of the magician ~
+@638 = ~ This weapon was created by a certain magician from the North which developed the special equipment where force and reason continuous supplemented each other. Katana helped it to keep concentration even in the most difficult fight. Weapon somewhere got to then, but his owner survived and even managed to pass on the unique experience by another.				
+			
+PARAMETERS:  
+			
+Increases intelligence and wisdom on 2.
+Allows to remember in 1 additional spell with 1 on 3
+level.		
+			
+THACO: +2nd bonus	
+Loss: 1d10 +2	
+Loss type: cutting	
+Weight:  
+Speed: 2	
+Weapon skill: Katana	
+Type: One-handed	
+Requirements: Force 6	
+Can use:  
+Magician
+Exorcist ~
+@639 = ~ The captivated katana ~
+@640 = ~ The captivated katana
+To impose a spell in a katana it is difficult process. Unlike other types of weapon - Katana already, almost ideal fighting sword. This type of a katana amplifies mnogichleny spells. In someone's hands, it will be really deadly weapon.
+
+PARAMETERS:
+
+THAC0: +1 bonus
+Loss: 1d10 +1
+Loss type: cutting 
+Weight: 5
+Speed: 3
+Skill type: katana 
+Type: One-handed 
+It is required: Force 6
+Can use:
+Magician
+Magician ~
+@641 = ~ Elfin armor of Kevkhorn ~
+@642 = ~ Distinguished skill of race of elves allows to create many beautiful and useful things. Among them chain armors which are so gracefully created that they can be carried under usual clothes, doing them not noticeable. Because of ease allows to carry it to thieves and soldiers/magicians, but with some restrictions.
+
+PROPERTIES:
+
+Protection class: 5
+Weight: 7
+It is required: Force 5
+Can use:
+Kevkhorn ~
+@643 = ~ Kevkhorn's sword ~
+@644 = ~ It is also known as a one-and-a-half sword. The one-and-a-half sword received the name from the fact that it something between a two-handled sword and a long sword. The one-and-a-half sword has a double edge and a long handle so that you can catch it with both hands if to a vkhotita. Total length of a sword on average from 1,2 to 1,5 meters. On a rukoyatemech the name of the owner is engraved: Kevkhorn
+
+PROPERTIES:
+
+Loss: 2d4
+Loss type: cutting
+Weight: 10
+Speed: 8
+Skill type: sword bastard
+Type: one-manual
+It is required: Force 11
+Can use:
+Kevkhorn ~
+@645 = ~ Permission ~
+@646 = ~ This permission from the king Atkatla. ~
+@647 = ~ Magic spear ~
+@648 = ~ This weapon is made by the real master, but also captivated by many spells some of which the owner can use.
+			
+PARAMETERS:  
+			
+Gives the chance to conjure the following spells: 
+"the magician's armor" - 2 times a day; 
+"breach" - 3 times a day;
+"lightning" - 3 times a day			
+			
+THACO: +3rd bonus	
+Loss: 1d6 +3	
+Loss type: pricking	
+Weight: 7	
+Speed: 3	
+Weapon skill: two-handled	
+Type: spear	
+Requirements: Force 5	
+Cannot use:  
+Cleric	
+Magician	
+Thief ~
+@649 = ~ Shock spear ~
+@650 = ~ The tip of this weapon constantly crackles because of the electric discharges which are taking place on it. Dahl if slightly to touch with him the purpose, that will receive powerful blow by a lightning.			
+			
+PARAMETERS:  
+			
+4d6 additional electric damages.				
+			
+THACO: +3rd bonus	
+Loss: 1d6 +3	
+Loss type: pricking	
+Weight: 7	
+Speed: 4	
+Weapon skill: two-handled	
+Type: spear	
+Requirements: Force 5	
+Cannot use:  
+Cleric	
+Magician	
+Thief ~
+@651 = ~ Armor of the Nine of Nevervinter ~
+@652 = ~ Bazvy armor from thick skin and tempered. Leather an armor soft and flexible, such skin is used for footwear or clothes. Soft skin nevertheless gives better protection, than usual clothes. Such armor is carried by members of the Nine of Nevervinter.
+
+PARAMETERS:
+Protection class: 7
+Weight: 15
+Requirements: Force 4
+Cannot use:
+ Magician ~
+@653 = ~ Marko's instruction ~
+@654 = ~ This document gave me Marko, the right hand of Yarpen. In it all that was done ever by Yarpen. ~
+@655 = ~ Assignment ~
+@656 = ~ An assignment from the Supreme priest. ~
+@657 = ~ I increased repayment for your family to 10000 gold. ~
+@658 = ~ Faerun's map on which one place is marked red. ~
+@659 = ~ Requirement ~
+@660 = ~ The mayor Silverkin, your wife and the child as it should be if you want to return them, pay me 20000 for the wife and 25000 for the child. To bring money in Atkatla in a tavern at city gate. ~
+@661 = ~ Piece of paper ~
+@662 = ~ My God, Marian, that smith betrayed us. ~
+@663 = ~ Main ~
+@664 = ~ Main magician ~
+@665 = ~ News from the village ~
+@666 = ~ The letter is directed to the general Targu. ~
+@667 = ~ Part of very powerful weapon. ~
+@668 = ~ Card ~
+@669 = ~ Key Marian ~
+@670 = ~ A key from Deep water vaults ~
+@671 = ~ Wife's necklace Marian ~
+@672 = ~ Management of immortality ~
+@673 = ~ One of four parts of the created very powerful weapon. ~
+@674 = ~ Onions of the sniper Elfy ~
+@675 = ~ Unsurpassed masters of onions, but are among them such which can a parasite the purpose at any distance and in any weather, and even often without seeing it. These masters are called snipers and treat them with great respect. One such shooter can easily kill group at 20-30 fighters, and those will not understand from where to them death came.			
+			
+PARAMETERS:  
+			
+10% chance to kill instantly the purpose, 
+the owner is accelerated, 
+releases two arrows for the attack.	
+			
+THACO: +5th bonus	
+Loss: Arrow +5	
+Loss type: pricking (shot)	
+Weight: 5	
+Speed: 3	
+Weapon skill: Long onions	
+Type: two-handled	
+Requirements: Force 6
+Cannot use:  
+ Druid
+Cleric
+ Magician 
+ Thief	~
+@676 = ~ Elfin onions ~
+@677 = ~ These onions can be seen only in hands of elite elfin shooters and grandees. Say that each such onions are created for months and receives the blessing of the nature and for this reason nobody except the elf can use it.			
+			
+PARAMETERS:  
+			
+Regeneration 3 points of health in a round, 
+the owner is accelerated, 
++ 30% to ability "to disappear in shadows",
+opportunity 3 times a day to conjure "invisibility".			
+			
+THACO: +4th bonus	
+Loss: Arrow +4	
+Loss type: pricking (shot)	
+Weight: 5	
+Speed: 4	
+Weapon skill: Long onions	
+Type: two-handled	
+Requirements: Force 6	
+Can use: Elf	
+Cannot use:  
+ Druid
+ Cleric
+ Magician 
+ Thief	~
+@678 = ~ Unicorn onions ~
+@679 = ~ The bowstring of this weapon is weaved out of a mane of a unicorn and is so strong that it is almost impossible to break off it. Because of this feature, from these onions it is possible to start two arrows instead of one at once.			
+			
+PARAMETERS:  
+			
+Loss +4, 
+the number of the attacks in a round is increased on 2, 
+in addition the purpose blinds.				
+
+THACO: +4th bonus	
+Loss: Arrow +4	
+Loss type: fire	
+Weight: 8	
+Speed: 6	
+Weapon skill: Compound onions	
+Type: two-handled	
+Requirements: Force 18	
+Can use: -			
+~
+@681 = ~ Hi!! You can give me minute? ~
+@682 = ~ Appointment ~
+@683 = ~ Appointment: Protection during creation of a new cult for Faerun's protection. ~
+@684 = ~ Mifrilovy armor ~
+@685 = ~ Gnomes the armor made of mithril.
+
+PARAMETERS:
+
+Protection class: 5
+Weight: 40
+Requirements: Force 8
+Cannot use:
+ Druid 
+ Magician 
+ Thief ~
+@686 = ~ Vampire's necklace ~
+@687 = ~ It is a peace sign between you and vampires. ~
+@688 = ~ Head of leaders of elves ~
+@689 = ~ This is the head of leaders of local elves. ~
+@690 = ~ Ostrostrelci jsou velmi ucinnou cvicenou streleckou jednotkou. Jsou to mistri ve strelbe z luku a nemalo z jejich rad pochazi z rodu Elfu. Jejich presnost, Speed of an of Sil of je smrtici.			
+			
+PARAMETERS:  
+			
+10% of sance na okamzite usmrceni, 
+Speed			
+			
+THACO: +5th bonus	
+Loss: Arrow +5	
+Loss type: fire	
+Weight: 5	
+Speed: 3	
+Weapon skill: Long onions	
+Type: two-handled	
+Requirements: Force 6
+Can use: -				
+~
+@691 = ~ Margul's body ~
+@692 = ~ Bouncer +3 ~
+@693 = ~ A shock part of this mace coal-black, and a handle is covered with the shining runes. At hit she causes severe concussion, forcing the enemy to let go weapon.			
+			
+PARAMETERS:  
+			
+35% chances to disarm the enemy. 
+The purpose has to make Saviour throw against poisoning with a penalty-5 to try to keep weapon.		
+			
+THACO: +3rd bonus	
+Loss: 2d4 +3 	
+Loss type: splitting up	
+Weight: 12	
+Speed: 6	
+Weapon skill: One-handed	
+Type: mace	
+Requirements: Force 11	
+Cannot use:  
+Magician		
+Thief	
+Druid ~
+@694 = ~ Krushitel of bones ~
+@695 = ~ This weapon got the nickname absolutely fairly. It is far heavier than a usual mace and to shatter it a bone - a trifling matter.	Only heavy armor can save the purpose from blow.			
+			
+PARAMETERS:  
+			
+50% chances to kill the purpose if the stock of her health is less than 60 units, 
++1d8 the additional splitting-up damages.		
+			
+THACO: +4th bonus	
+Loss: 2d4 +4	
+Loss type: splitting up	
+Weight: 12	
+Speed: 7	
+Weapon skill: One-handed
+Type: mace	
+Requirements: Force 11	
+Cannot use:  
+Magician	
+Cleric	
+Thief	
+Druid ~
+@696 = ~ Razbivatel of ice ~
+@697 = ~ This mace was found by group of adventurers somewhere in mountains of the Ridge of the World, the leader of the big tribe of ogr owned it. As it appeared at it it is unknown.			
+			
+PARAMETERS:  
+			
+Allows возможнсть to conjure: 
+"cold cone" - 3 times a day;
+"ice storm" - 2 times a day.			
+			
+THACO: +2nd bonus	
+Loss: 2d4 +2, 1d4 loss cold	
+Loss type: splitting up	
+Weight: 10	
+Speed: 7	
+Weapon skill: One-handed
+Type: mace	
+Requirements: Force 11	
+Cannot use:   
+Druid
+Magician 
+Thief ~
+@698 = ~ Hafling sling ~
+@699 = ~ Hafling - the low folk living in holes or small houses, usually in hilly country. They are quite peaceful, but if to anger them, can be at war not worse than any army. This sling - one of the most widespread types of weapon of hafling and can make it any. Certainly, most effectively it works in hands of this folk.				
+			
+PARAMETERS:  
+			
++1 to force and dexterity.
+The owner is accelerated.			
+			
+THACO: +3rd bonus	
+Loss: Stone +3	
+Loss type: splitting-up (shot)	
+Weight: 1	
+Speed: 2	
+Weapon skill: Sling	
+Type: two-handled	
+Requirements: Force 3	
+Can use:  
+hafling ~
+@700 = ~ Big sling ~
+@701 = ~ This weapon allows to throw three stones for time at once.			
+			
+PARAMETERS:  
+			
+THACO: +2nd bonus	
+Loss: 3x Stone +2	
+Loss type: splitting-up (shot)	
+Weight: 1	
+Speed: 6	
+Weapon skill: Sling	
+Type: two-handled	
+Requirements: Force 3	
+Can use: -	
+			
+~
+@702 = ~ Sling with a surprise ~
+@703 = ~ This weapon should be used only at own risk. The matter is that at each application it causes an accidental spell of "wild" magic so can get to both parties.			
+			
+PARAMETERS:  
+			
+After a shot the accidental spell of school of "wild" magic works			
+			
+THACO: +3rd bonus	
+Loss: Stone +3	
+Loss type: fire	
+Weight: 2	
+Speed: 4	
+Weapon skill: Sling	
+Type: two-handled	
+Requirements: Force 3	
+Can use:   
+Magician ~
+@704 = ~ Family pendent ~
+@705 = ~ Staff of elements: Flame ~
+@706 = ~ In Kingdoms there are three powerful staffs capable to control elements. This staff is responsible for fire.	
+
+PARAMETERS:  
+
+Resistance to fire of +15%, 
++1d6 additional fiery povrezhdeniya, 
+Gives the chance to conjure: "a fiery sphere" - 2 times a day;
+"an appeal great elemental fire" - once a day.
+	
+THACO: +3rd bonus	
+Loss: 1d6 +3	
+Loss type: splitting up	
+Weight: 5	
+Speed: 1	
+Weapon skill: two-handled
+Type: Staff	
+Requirements: Force 5	
+Cannot use: -	
+			
+~
+@707 = ~ Staff of elements: Air ~
+@708 = ~ In Kingdoms there are three powerful staffs capable to control elements. This staff is responsible for air.	
+			
+PARAMETERS:  
+			
+Resistance to electricity of +15%, 
++1d6 additional electric damages, 
+Gives the chance to conjure: "lightning stroke" - 2 times a day, 
+"an appeal great elemental air" - once a day.		
+			
+THACO: +3rd bonus	
+Loss: 1d6 +3	
+Loss type: splitting up	
+Weight: 5	
+Speed: 1	
+Weapon skill: two-handled	
+Type: Staff	
+Requirements: Force 5	
+Cannot use: -	
+		
+~
+@709 = ~ Staff of elements: Earth ~
+@710 = ~ In Kingdoms there are three powerful staffs capable to control elements. This staff is responsible for the earth.	
+			
+PARAMETERS:  
+			
+Resistance to acid of +15%, 
++1d6 additional acid damages, 
+Gives the chance to conjure: "an appeal great elemental earth" - once a day;
+"meteoric rain" - once a day.	
+		
+THACO: +3rd bonus	
+Loss: 1d6 +3	
+Loss type: splitting up	
+Weight: 5	
+Speed: 1	
+Weapon skill: two-handled	
+Type: Staff	
+Requirements: Force 5	
+Cannot use: -	
+			
+~
+@711 = ~ magic symbol ~
+@712 = ~ The wizard Petkul gave you this symbol if you want to throw down it a challenge, you have to go to the destroyed tower, to the North from the temple. ~
+@713 = ~ Magic wand ~
+@714 = ~ One of four parts of very powerful weapon. ~
+@715 = ~ Magic staff ~
+@716 = ~ Blood-sucker +3 ~
+@717 = ~ Bloody dew - a cult of ruthless murderers which members are combined by only one - the aspiration to take away others life. This organization has no base, but groups of her fighters are practically in each large cult or sect. Despite it, leaders of Bloody dew can easily coordinate their actions if need appears. Say that the cult serves vampires and their thirst for bloodshed - a tribute to these impious creations.	Each cult has the symbol on which it is possible to identify his followers. Bloody Rosa's symbol - this terrible blade extending others life together with blood.			
+			
+PARAMETERS:  
+			
+At hit of 20% chances to extend 2 levels from the opponent. 
+At the attack steals from the purpose of 10 points of health and peredt them to the owner, curing it.		
+			
+THACO: -	
+Loss: 1d8	
+Loss type: cutting	
+Weight: 7	
+Speed: 1	
+Weapon skill: Ninjia	
+Type: One-handed	
+Requirements: Force 6	
+Can use:  
+Soldier	
+Thief	~
+@718 = ~ Right hand of Seledin ~
+@719 = ~ Hands" - the twin blades created by one talented, but unrecognized armorer who in accordance with the circumstances, was forced to move in burglars. Blades are captivated so that to counterbalance each other shortcomings. Even one "hand" - very powerful weapon, together they something improbable.			
+			
+PARAMETERS:  
+			
++5 losses cold, 
+60% chances to poison the purpose on 3 points in a round (on 3 rounds), 
+force +2, 
+50% chances to bring down the purpose from legs,	
+Gives the chance to conjure spells "Force" (once a day), 
+"Haste" (once a day).	
+			
+THACO: -	
+Loss: 1d8	
+Loss type: cutting	
+Weight: 8	
+Speed: 2	
+Weapon skill: Ninjia	
+Type: One-handed	
+Requirements: Force 6	
+Cannot use:  
+Magician	
+Druid 	
+Cleric
+Paladin ~
+@720 = ~ Left hand of Seledin ~
+@721 = ~ Hands" - the twin blades created by one talented, but unrecognized armorer who in accordance with the circumstances, was forced to move in burglars. Blades are captivated so that to counterbalance each other shortcomings. Even one "hand" - very powerful weapon, together they something improbable.			
+			
+PARAMETERS:  
+			
+Regeneration of 1 hit point in a round, 
+Dexterity +2, 
+KB+2, 
++10% to ability "to disappear in shadows", 
+Gives the chance to conjure "Healing" 2 times a day		
+			
+THACO: -	
+Loss: 1d8	
+Loss type: cutting	
+Weight: 8	
+Speed: 2	
+Weapon skill: Ninjia	
+Type: One-handed	
+Requirements: Force 6	
+Cannot use:  
+Magician	
+Druid 	
+Cleric
+Paladin ~
+@722 = ~ Armor of nomads ~
+@723 = ~ The armor made by nomads, bandits of deserts. Its properties are similar to a leather armor with metal inserts.
+
+PARAMETERS:
+
+Protection class: 6
+Weight: 15
+Requirements: Force 6
+Cannot use: Magician ~
+@724 = ~ Magic sword ~
+@725 = ~ This type of a two-edged sword was created for all types of magicians. Only the magician, and nobody else can use such type of a sword.
+
+PARAMETERS:
+
+Loss: 1d8, +1 magic loss
+Loss type: cutting
+Weight: 4
+Speed: 5
+Skill type: long sword
+Type: One-handed
+It is required: Force 6
+Intelligence 15
+Can use only:
+Magician ~
+@726 = ~ Magic sword +1 ~
+@727 = ~ This type of a two-edged sword was created for all types of magicians. Only the magician, and nobody else can use such type of a sword.
+
+PARAMETERS:
+
+Loss: 1d8 +1, +2nd magic loss
+Loss type: cutting
+Weight: 4
+Speed: 5
+Skill type: long sword
+Type: One-handed
+It is required: Force 6
+Intelligence 16
+Can use only:
+Magician ~
+@728 = ~ Magic sword +2 ~
+@729 = ~ This type of a two-edged sword was created for all types of magicians. Only the magician, and nobody else can use such type of a sword.
+
+PARAMETERS:
+
+Loss: 1d8 +2, +3rd magic loss
+Loss type: cutting
+Weight: 4
+Speed: 5
+Skill type: long sword
+Type: One-handed
+It is required: Force 6
+Intelligence 17
+Can use only:
+Magician ~
+@730 = ~ Magic sword +3 ~
+@731 = ~ This type of a two-edged sword was created for all types of magicians. Only the magician, and nobody else can use such type of a sword.
+
+PARAMETERS:
+
+Loss: 1d8 +3, +4th magic loss
+Loss type: cutting
+Weight: 4
+Speed: 5
+Skill type: long sword
+Type: One-handed
+It is required: Force 6
+Intelligence 18
+Can use only:
+Magician ~
+@732 = ~ Peak ~
+@733 = ~ This heavy drevkovy weapon serves for only for one purpose - fight against a cavalry. The skillful infantryman can or beat out the rider from a saddle, or pierce his horse, having forced the knight to appear on the earth where it without hindrances will be finished by more mobile fighters.			
+			
+PARAMETERS:  
+			
+THACO: -	
+Loss: 3d4	
+Loss type: pricking	
+Weight: 6	
+Speed: 5	
+Weapon skill: spear	
+Type: two-handled	
+Requirements: Force 6	
+Cannot use:  
+Druid 	
+Cleric	
+Thief	
+Magician ~
+@734 = ~ Peak +1 ~
+@735 = ~ This type of weapon was created in the city of Nomadi that in Northern Kalimshana. Peaks very quickly proved the efficiency in reflection of the cavalry attacks and soon dispersed on all Coast of the Sword.			
+			
+PARAMETERS:  
+			
+THACO: +1 bonus	
+Loss: 3d4 +1	
+Loss type: pricking	
+Weight: 6	
+Speed: 5	
+Weapon skill: spear	
+Type: two-handled	
+Requirements: Force 6	
+Cannot use:  
+Druid	
+Cleric
+Thief	
+Magician ~
+@736 = ~ Peak +2 ~
+@737 = ~ One more version peaks which is also thought up in Kalimshana. This weapon is shorter and easier because of what it is much more convenient to use it.			
+			
+PARAMETERS:  
+			
+THACO: +2nd bonus	
+Loss: 3d4 +2	
+Loss type: pricking	
+Weight: 5	
+Speed: 5	
+Weapon skill: spear	
+Type: two-handled	
+Requirements: Force 6	
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician ~
+@738 = ~ Peak +3 ~
+@739 = ~ This weapon was also created in Kalimshana and it only commanders owned. However, it created certain problems as their peaks differed from soldier's that helped shooters to calculate and destroy officers in the battlefield.			
+			
+PARAMETERS:  
+			
+THACO: +3rd bonus	
+Loss: 3d4 +3	
+Loss type: pricking	
+Weight: 7	
+Speed: 5	
+Weapon skill: spear	
+Type: two-handled	
+Requirements: Force 6	
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician ~
+@740 = ~ Toothy pike ~
+@741 = ~ This spear received the name quite deservedly. Its tip is perfectly ground and in addition is added with sharp teeth thanks to what can tear apart literally armor and kill the purpose on site.			
+			
+PARAMETERS:  
+			
+At the attack there are 10% chance of instant murder of the purpose.  
+Saviour throw against death does not help.			
+			
+THACO: +2nd bonus	
+Loss: 3d4 +2	
+Loss type: pricking	
+Weight: 6	
+Speed: 5	
+Weapon skill: spear	
+Type: two-handled	
+Requirements: Force 6	
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician ~
+@742 = ~ Kalimportskaya Pika ~
+@743 = ~ Kalimport - we Heat the city located in the middle of the desert which in the past quite often was exposed to the attacks of nomads. These peaks were created just in those days. Their main difference from copies and other types peak - existence of tips on both sides. The fighter who is well trained and not constrained by armor is capable to strike it bystry and killing blows, making at the same time much less movements. Bodyguards of bigwigs and elite fighters armed with them. Having quite often caught sight of this weapon the opponent preferred to escape, than to meet in a duel with its owner.			
+			
+PARAMETERS:  
+			
+Strikes critical blows, than any other weapon of this group more often.			
+			
+THACO: +3rd bonus	
+Loss: 3d4 +3	
+Loss type: pricking	
+Weight: 6	
+Speed: 3	
+Weapon skill: spear	
+Type: two-handled	
+Requirements: Force 7	
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician ~
+@744 = ~ Ilidur's peak ~
+@745 = ~ Ilidur was a good-natured soldier and the defender weak, but the most remarkable was, of course his weapon. As it got to it, the fact that he peak difficult is the fact is unknown (say that he won it), but. By hearsay she is captivated and easily bears blows of conventional and magic weapons.			
+			
+PARAMETERS:  
+			
+At equipment adds 20% to resistance to a loss from
+conventional and magic weapons.			
+			
+THACO: +3rd bonus	
+Loss: 3d4 +3	
+Loss type: pricking	
+Weight: 6	
+Speed: 5	
+Weapon skill: spear	
+Type: two-handled	
+Requirements: Force 7	
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician	~
+@746 = ~ Key to prison ~
+@747 = ~ The door in the camera 1 opens. ~
+@748 = ~ The door in the camera 2 opens. ~
+@749 = ~ The door in the camera 3 opens. ~
+@750 = ~ The door in the camera 4 opens. ~
+@751 = ~ The door in the camera 5 opens. ~
+@752 = ~ The door to the room of guards opens. ~
+@753 = ~ Absorber ~
+@754 = ~ This armor was specially created for the magicians hunters. It well protects from fire, cold, spells of school of magic... generally from everything, than most of magicians usually uses. Alas, death spells are not included into this list.
+		
+PARAMETERS:  
+			
+20% resistance to fire, cold and magic.  			
+			
+EXPERT:-2
+Ves:50	
+Force: 12	
+Cannot use:  
+Magician	
+Cleric	
+Druid
+Thief ~
+@755 = ~ This lamellar armor is shaped professionally. It strong and and at the same time very easy. This armor was carried by members of the Nine of Nevervinter.
+
+PROPERTIES:
+
+Protection class: 1
+Weight: 25
+It is required: Force 8
+Cannot use:
+Bard
+Magician
+Thief ~
+@756 = ~ Hardness armor ~
+@757 = ~ This armor well resists to any thrust weapon and a few fire.				
+			
+PARAMETERS:  
+			
+25% resistance to the pricking damages, +5% protection against fire.				
+			
+EXPERT: 3	
+Force: 15	
+Can use:  
+Soldier	
+Paladin ~
+@758 = ~ Magic uniform ~
+@759 = ~ This attire was specially created for strengthening of abilities of magicians and clergymen.			
+			
+PARAMETERS:  
+			
++20 to a health maximum, 
+adds on 1 additional spell of the 5 and 6 level.			
+			
+EXPERT: 3	
+Can use:  
+Magician	
+Cleric ~
+@760 = ~ Royal armor ~
+@761 = ~ God's armor ~
+@762 = ~ This armor is so good that because of it there were even wars. Tell it a certain warrior to whom the god of war patronized carried. The truth it or not, will tell nobody any more.			
+			
+PARAMETERS:  
+			
++1 to force and dexterity			
+			
+EXPERT:-6	
+Force: 18	
+Can use:  
+Soldier	~
+@763 = ~ Resistance armor ~
+@764 = ~ This strongest armor remained after death of one sectarian who bore a standard with the burning skull represented on it. Quite perhaps he was the leader who conducted the followers in fight.
+		
+PARAMETERS:  
+			
++1 to dexterity, +10% to protection from
+obycheyny and magic weapon			
+			
+EXPERT: 0	
+Force: 20	
+Can use:  
+Soldier	
+hranicar	
+Paladin ~
+@765 = ~ Horror letters ~
+@766 = ~ This armor is covered with runes which begin to flicker mysteriously when someone hostile approaches the owner. However, the enemy approaches closer, the symbols flicker more brightly, and then that for no reason whatever takes to heels. It is necessary to have really iron will (or good mental protection) to overcome armor magic.			
+			
+PARAMETERS:  
+			
+The purpose near the player has to throw out Saviour throw or leave. 
+"The fear raincoat" allows to conjure (3 times a day). ~
+@767 = ~ Durability uniform ~
+@768 = ~ It is one of the best protective attires for zaklinantel. To get it it is extremely difficult, but it is worth of expenditure.			
+			
+PARAMETERS:  
+			
+The loss from all types of weapon decreases on 5.
++2 to wisdom and an intellkt			
+			
+EXPERT:-4
+~
+@769 = ~ Uniform of protection against cold ~
+@770 = ~ These clothes were found frozen in ice, one of numerous caves in mountains of the Ridge of the World. Strangely enough, long stay in adverse conditions to it did not damage at all.			
+			
+PARAMETERS:  
+			
+50% resistance to cold
+Gives the chance to conjure a spell "an ice storm" (twice a day).			
+			
+EXPERT: 0	
+Force: 12	
+Cannot use: 
+Magician	
+Druid ~
+@771 = ~ Immunity armor ~
+@772 = ~ This armor is remarkable the fact that their owner cannot be poisoned. Even the most terrible poison in any concentration will be neutralized in seconds. Who and as created this wonderful armor, remained secret.					
+
+PARAMETERS:  
+			
+100% protection against poison						
+			
+EXPERT: 1	
+Force: 10	
+Cannot use:  
+Magician ~
+@773 = ~ Rock ~
+@774 = ~ This armor is solid as if a stone and it is simpler to break weapon, than to try to wound its owner. At least arrows, a spear and short swords do not leave on it even scratches. And here with other types of weapon a situation not so iridescent.			
+			
+PARAMETERS:  
+			
+90% resistance to the pricking damages
++10% resistance to other types of damages, 
+dexterity +1		
+			
+EXPERT: 2	
+Force: 15	
+Cannot use:  
+Druid	
+Magician	
+Cleric
+Thief	~
+@775 = ~ Amulet of the Nine of Nevervinter ~
+@776 = ~ The necklace consists of two thick disks strung on a chain. In the middle the disk consists of silver and on it Nevervinter's symbol. ~
+@777 = ~ The letter is written by blood, in it it is told: The mission failed. ~
+@778 = ~ Card of rolls ~
+@779 = ~ Magic relic ~
+@780 = ~ Second part of powerful magic weapon. ~
+@781 = ~ Old grids ~
+@782 = ~ Contains the historical treatise about fight between Torm and Tsirik. ~
+@783 = ~ A key from a coffin ~
+@784 = ~ A key from a coffin in abbey of the druid where you have to find a third and the last a magic relic. ~
+@785 = ~ Absorption ring ~
+@786 = ~ This ring literally extends magic from surrounding space, nullifying any spells. Each similar bagatelle costs modest fortune and to find such ringlet it is considered great good luck.
+		
+PARAMETERS:  
+			
+Resistance of magic is +30%			
+			
+~
+@787 = ~ Clergyman's ring ~
+@788 = ~ These rings are very much appreciated among clergymen and not only. Simple wearing this ornament heals the most serious wounds, and thanks to the additional curing charms imposed on it, the ring in critical situation can replace with itself the healer.			
+			
+PARAMETERS:  
+
++20 to a health maximum, 
+"healing of heavy wounds" 3 times a day.		
+			
+~
+@789 = ~ Ring of Heaven ~
+@790 = ~ This ring was used by heavenly creations which battled against demons for Earth. As a result both parties cleaned up in the possession, and the planet people occupied.			
+			
+Vlatnosti:  
+			
++10% resistance to fire, +10 to the maximum health,
+gives the chance of times a day to read a spell "revival of the dead".							
+~
+@791 = ~ The ring of Peace ~
+@792 = ~ The ring was given to you by the king of Atkathla ~
+@793 = ~ Magic bag ~
+@794 = ~ Allied letter ~
+@795 = ~ This letter is signed with leaders of each group that the union of people fought against Soldiers of the South. ~
+@796 = ~ Guards board ~
+@797 = ~ The meter board is generally used by royal guard. It well covers the soldier in fight, is strong also rather easy for the sizes. Here only that effectively to be controlled with it, the considerable skill is necessary.
+			
+PARAMETERS:  
+			
++1 to force and dexterity, 
++30% resistance to the remote attacks.				
+			
+K EXPERT bonus: 2	
+Weight: 28
+Requirements: Force 15
+Can use:  
+Soldier	
+Paladin ~
+@798 = ~ Board of the sun ~
+@799 = ~ This brightly shining board perfectly protects the owner, at least because the opponent is forced to turn away not to go blind. By hearsay it was handed by followers Helma to a certain hero who helped them with fight against the Cult of the Blind eye.
+	
+PARAMETERS:  
+			
++20 to a health maximum, the owner is protected from a blindness, 
+30% chances to blind the purpose, 
+dexterity +1			
+			
+K EXPERT bonus:		3	
+Cannot use:  
+the character with evil outlook					
+~
+@800 = ~ Storm board ~
+@801 = ~ This board was found approximately in 25 leagues from Kalimport in one deaf village shortly before it was plundered by nomads. Locals said that in one of nights over their cynthion the terrible thunder-storm burst. Lightnings sparkled almost without interruption, but, strangely enough any of them did not get neither to houses nor to people. Next morning, when the bad weather settled, peasants found the charred corpse near which this board lay behind a village fence. Whether this unknown was the cause of a storm or on the contrary wanted to save from her the village, remained secret.	
+
+PARAMETERS:  
+			
++25% resistance to electricity, 
++10% magic resistance.			
+			
+Bonus to the EXPERT: 1	
+Cannot use:  
+ Bard
+ Druid
+ Magician 
+ Thief ~
+@802 = ~ Belief of the paladin ~
+@803 = ~ This board - one of relics of an award of the Shining heart. Only the most glorified paladins owned it.		
+			
+PARAMETERS:  
+			
++10% magic resistance, to fire, cold, electricity and poison; 
+charisma +2		
+			
+K EXPERT bonus: 3	
+Can use:  
+Paladin ~
+@804 = ~ A roll which has to allow me to talk to skeletons. ~
+@805 = ~ A body of a spider from a farm ~
+@806 = ~ Starfish ~
+@807 = ~ The starfish is a type of daggers, one of the most widespread types of weapon of murderers and thieves. The starfish of the size of a human hand, but even this small tool can become deadly weapon.		
+			
+PARAMETERS:  
+			
+THACO: -	
+Loss: 2d4	
+Loss type: cutting	
+Weight: 1	
+Speed: 1	
+Weapon skill: Darts	
+Type: One-handed	
+Requirements: Force 2	
+Cannot use: -	
+~
+@808 = ~ Starfish ~
+@809 = ~ The starfish is a kind of throwing weapon, one of the most widespread types of equipment of murderers and thieves. The starfish the size only about a palm, but at the same time is incredibly exact also an uboyna.			
+			
+PARAMETERS:  
+			
+THACO: -	
+Loss: 2d4	
+Loss type: cutting	
+Weight: 1	
+Speed: 1	
+Weapon skill: Darts	
+Type: One-handed	
+Requirements: Force 2	
+Cannot use: -	
+		
+~
+@810 = ~ The starfish the Starfish is a kind of throwing weapon, one of the most widespread types of equipment of murderers and thieves. The starfish the size only about a palm, but at the same time is incredibly exact also an uboyna.				
+			
+PARAMETERS:  
+			
+THACO: +1 bonus	
+Loss: 2d4 +1	
+Loss type: cutting	
+Weight: 1	
+Speed: 1	
+Weapon skill: Darts	
+Type: One-handed	
+Requirements: Force 2	
+Cannot use: -	
+~
+@811 = ~ Star + 1 ~
+@812 = ~ Throwing stars - very exotic weapon by hearsay invented by spies Cara Tura. This type was slightly finished in guild of thieves of Askatla.			
+			
+PARAMETERS:  
+			
+THACO: +2nd bonus	
+Loss: 2d4 +2	
+Loss type: cutting	
+Weight: 1	
+Speed: 1	
+Weapon skill: Darts	
+Type: One-handed	
+Requirements: Force 2	
+Cannot use: -	
+		
+~
+@813 = ~ Stars + 2 ~
+@814 = ~ Throwing stars - very exotic weapon by hearsay invented by spies Cara Tura. This copy was strengthened by additional charms, by request of a certain head of guild of murderers. On irony he did not manage to use acquisition as it was soon liquidated assasiny the competing organization which took away stars to itself(himself).			
+			
+PARAMETERS:  
+			
+THACO: +3rd bonus	
+Loss: 2d4 +3	
+Loss type: cutting	
+Weight: 1	
+Speed: 1	
+Weapon skill: Darts	
+Type: One-handed	
+Requirements: Force 2	
+Cannot use: -				
+~
+@815 = ~ The returned starfish + 3 ~
+@816 = ~ This throwing star was finished so that not to get stuck in the flesh of the purpose and to be returned immediately to the owner for a repeated throwing. It cannot also be lost or stolen.			
+			
+PARAMETERS:  
+			
+The starfish immediately is returned to hands			
+the owner after a throw.				
+			
+THACO: +2nd bonus	
+Loss: 2d4 +2	
+Loss type: cutting	
+Weight: 1	
+Speed: 1	
+Weapon skill: Darts	
+Type: One-handed	
+Requirements: Force 2	
+Cannot use: -			
+~
+@817 = ~ To veins +3 ~
+@818 = ~ Once the head of guild of thieves Vaneal was overthrown by the rival. The former head swore to send the rival to a grave, the most painful way. Having raised all remained funds he asked for the help to sorcerers and to alchemists who made this star. The toxin which covered it, at hit in a wound quickly dispersed on all body and the new head of guild died in terrible tortures. Poison turned out so effective that glorified not only the creator but also weapon.		
+			
+PARAMETERS:  
+			
+At successful hit the opponent will be 			
+it is poisoned. There is no spasbrosk.			
+			
+THACO: +3rd bonus	
+Loss: 2d4 +3	
+Loss type: cutting	
+Weight: 1	
+Speed: 0	
+Weapon skill: Darts	
+Type: One-handed	
+Requirements: Force 2	
+Cannot use: -	
+~
+@819 = ~ The cutting star ~
+@820 = ~ This star differs from usual in existence of six edges, instead of four. Thanks to it it has more chances to hit the mark and to cause it much more serious loss.			
+			
+PARAMETERS:  
+			
+At successful hit there are 50%			
+chance that weapon will put in addition 1d4 a loss.			
+			
+THACO: +2nd bonus	
+Loss: 2d4 +2	
+Loss type: cutting	
+Weight: 1	
+Speed: 1	
+Weapon skill: Darts	
+Type: One-handed	
+Requirements: Force 2	
+Cannot use: -			
+~
+@821 = ~ It is promised ~
+@822 = ~ This weapon looks like a spear, but differs in longer tip. It appeared in Amna where country revolts were quite a commonplace. Sulitsa differs in simplicity in production and scornfully is called as "weapon of bumpkins". This version was slightly strengthened by magic.				
+			
+PARAMETERS:  
+			
+THACO: -	
+Loss: 2d6	
+Loss type: pricking	
+Weight: 8	
+Speed: 5	
+Weapon skill: spear	
+Type: two-handled	
+Requirements: Force 7	
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician	
+Bard	~
+@823 = ~ It is promised +1 ~
+@824 = ~ This weapon looks like a spear, but differs in longer tip. It appeared in Amna where country revolts were quite a commonplace. Sulitsa differs in simplicity in production and scornfully is called as "weapon of bumpkins". Charms on this weapon are far stronger than usual.			
+			
+PARAMETERS:  
+			
+THACO: +1 bonus	
+Loss: 2d6 +1	
+Loss type: pricking	
+Weight: 8	
+Speed: 5	
+Weapon skill: spear	
+Type: two-handled	
+Requirements: Force 7	
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician	
+Bard	~
+@825 = ~ It is promised +2 ~
+@826 = ~ This weapon looks like a spear, but differs in longer tip. It appeared in Amna where country revolts were quite a commonplace. Sulitsa differs in simplicity in production and scornfully is called as "weapon of bumpkins". Charms on this weapon are far stronger than usual.			
+			
+PARAMETERS:  
+			
+THACO: +2nd bonus	
+Loss: 2d6 +2	
+Loss type: pricking	
+Weight: 8	
+Speed: 5	
+Weapon skill: spear	
+Type: two-handled	
+Requirements: Force 7	
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician	
+Bard	~
+@827 = ~ It is promised +3 ~
+@828 = ~ This weapon looks like a spear, but differs in longer tip. It appeared in Amna where country revolts were quite a commonplace. Sulitsa differs in simplicity in production and scornfully is called as "weapon of bumpkins". Data of a spear were used by leaders of insurgents. The only thing that remains not clear - who exactly captivated weapon moreover and it is so good.			
+			
+PARAMETERS:  
+			
+THACO: +3rd bonus	
+Loss: 2d6 +3	
+Loss type: pricking	
+Weight: 8	
+Speed: 5	
+Weapon skill: spear	
+Type: two-handled	
+Requirements: Force 7	
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician	
+Bard	~
+@829 = ~ Sharp it is promised ~
+@830 = ~ At this sulitsa very sharp tip capable to punch practically any armor, except the strongest. Many noblemen and their soldiers who went to suppression of revolts underestimated this weapon for what cruelly pay.			
+			
+PARAMETERS:  
+			
+Ability in fight:  
+at successful hit puts in addition 1d4 the pricking damages.		
+			
+THACO: +3rd bonus	
+Loss: 2d6 +3	
+Loss type: pricking	
+Weight: 8	
+Speed: 4	
+Weapon skill: spear	
+Type: two-handled	
+Requirements: Force 7	
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician	
+Bard	~
+@831 = ~ Rebel's weapon ~
+@832 = ~ Lex was the most known of leaders of insurgents, and also a skillful kopeyshchik. On a duel which had to specify to whom to head a revolt Lex so dexterously owned the weapon that soon it did not have rivals. After such convincing demonstration of fighting skills, already nobody objected to its leadership.			
+			
+PARAMETERS:  
+			
+THACO: +5th bonus	
+Loss: 2d6 +5	
+Loss type: pricking	
+Weight: 8	
+Speed: 3	
+Weapon skill: spear	
+Type: two-handled	
+Requirements: Force 7	
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician	
+Bard	~
+@833 = ~ Balanced it is promised ~
+@834 = ~ Usually made in the handicraft way and of make-shifts, sulitsa are pretty unbalanced weapon demanding special skill in the address.	With this sample all differently: the tip is made of a lung, but strong alloy, the staff equal and is slightly shortened because of what weapon is perfectly balanced and it is easy and convenient to them to use.				
+			
+PARAMETERS:  
+			
+When using the owner cannot be slowed down.			
+			
+THACO: +2nd bonus	
+Loss: 2d6 +2	
+Loss type: pricking	
+Weight: 8	
+Speed: 4	
+Weapon skill: spear	
+Type: two-handled	
+Requirements: Force 7	
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician	
+Bard ~
+@835 = ~ Sword of righteous persons ~
+@836 = ~ PARAMETERS:
+
+~
+@837 = ~ PARAMETERS:
+
+Loss: 1D8 +1, plus 1d4 a loss from cold
+Special abilities: 
+ 50% to deafen the purpose at successful hit, however if the enemy throws out a successful saving throw against death, the effect of devocalization will not work.
+Loss type: cutting
+Weight: 4
+Speed indicator: 5
+Weapon skill: long sword
+Type: one-manual
+Requirements: 6 Forces
+Does not use: 
+ Druid 
+ Priest 
+ Magician ~
+@838 = ~ Ice whirlwind ~
+@839 = ~ This unusual flickering two-handled sword is excellent weapon. Its translucent edge cold as if ice it is also ground to sharpness of the razor, but at the same time from it does not break away uniform, even the smallest piece with what force the blow would not be struck. Besides the attacks by this weapon are so lightning that the edge cannot almost be made out.			
+			
+PARAMETERS:  
+
+The owner is accelerated, 30% chance to kill instantly the purpose.		
+			
+THACO: +3rd bonus	
+Loss: 1d10 +3	
+Loss type: cutting	
+Weight: 8	
+Speed: 5	
+Weapon skill: two-handled sword	
+Type: two-handled	
+Requirements: Force 10	
+Cannot use:  
+Magician	
+Druid	
+Cleric	
+Thief ~
+@840 = ~ Krushitel +3 ~
+@841 = ~ This weapon is widespread among barbarians. Owing to its amount and specifics of fight nobody can use this sword except them.			
+			
+PARAMETERS:  
+			
+At successful hit 1-50 points of an additional loss are accidentally put			
+			
+THACO: +3rd bonus	
+Loss: 1d10 +3	
+Loss type: cutting	
+Weight: 20	
+Speed: 10	
+Weapon skill: two-handled sword	
+Type: two-handled	
+Requirements: Force 15	
+Can use pouze:    
+Barbarian ~
+@842 = ~ Thunderous blade ~
+@843 = ~ At this two-handled sword on both sides of an edge sharp teeth are put, the handle is wrapped by a black canvas, and on the blade the lightning is engraved. It is rumored that when flies drilling weapon as if finds own will and pulls to itself lightnings from heaven.		
+			
+PARAMETERS:  
+			
+Absorbs 50% of a loss of electricity.
+"Lightning stroke" 3 times a day allows to conjure			
+			
+THACO: +4th bonus	
+Loss: 1d10 +4, 1d10 electricity Loss
+Loss type: cutting	
+Weight: 12	
+Speed: 10	
+Weapon skill: two-handled sword	
+Type: two-handled	
+Requirements: Force 14	
+Cannot use: 
+Magician	
+Druid	
+Cleric	
+Thief	~
+@844 = ~ Head sword ~
+@845 = ~ This weapon got such unusual name because of the owner - the barbarian known as the Head who was so called by all tribespeople. By the way, it also really was a leader - strong, courageous and wise.			
+			
+PARAMETERS:  
+			
+Charisma +2.
+10% chance to frighten the purpose at the successful attack			
+			
+THACO: +2nd bonus	
+Loss: 2d4 +2	
+Loss type: cutting	
+Weight: 10	
+Speed: 8	
+Weapon skill: one-and-a-half sword	
+Type: One-handed	
+Requirements: Force 11	
+Cannot use:  
+Magician	
+Cleric	
+Druid ~
+@846 = ~ Arena sword ~
+@847 = ~ This sword is one of many types of weapon used on arene of gladiators. Color and a symbol of the arena are engraved on the handle.				
+			
+PARAMETERS:  
+			
+An opportunity to use "outflow of life" twice a day			
+			
+THACO: +2nd bonus	
+Loss: 2d4 +2	
+Loss type: cutting	
+Weight: 10	
+Speed: 8	
+Weapon skill: one-and-a-half sword	
+Type: One-handed	
+Requirements: Force 11	
+Cannot use:  
+Magician	
+Cleric	
+Druid ~
+@848 = ~ Pure crystal ~
+@849 = ~ This sword shines this world, and its blade is always perfectly pure. They say, it was granted to people by gods and only pure in heart can awaken its full force.
+
+PARAMETERS:  
+			
+Resistance of magic is +30%.
+Force +1				
+THACO: To the +3rd check
+                               
+Loss: 2d4+3, 2d4 magic loss	
+Loss type: cutting	
+Weight: 8	
+Speed: 6	
+Weapon skill: one-and-a-half sword	
+Type: One-handed	
+Requirements: Force 10	
+Cannot use:  
+Magician	
+Cleric
+Druid ~
+@850 = ~ Blade rascal ~
+@851 = ~ This weapon completely corresponds to the name. On the one hand it is very effective in fight, but with other owner continually receives cuts, as if accurately did not hold it.			
+			
+PARAMETERS:  
+			
+Will wound the owner on the 2nd hit / round.
+50% the resilience to a loss from arrows.	
+			
+THACO: +2nd bonus	
+Loss: 1d8+2, 1d6 loss poison
+Loss type: cutting	
+Weight: 4	
+Speed: 5	
+Weapon skill: Skimitar	
+Type: One-handed	
+Requirements: Force 10	
+Cannot use:  
+Magician 	
+Druid ~
+@852 = ~ Veran endowing ~
+@853 = ~ This скимитар belonged to a certain person by the name of Veransler. So it turned out that he was an exile and this weapon was the only valuable thing. During the wanderings Veransler managed to find some popularity so a part of his name was transferred to weapon. Over time the exile was forgotten, and here scimitar - no.			
+			
+PARAMETERS:  
+			
+Force and dexterity +1			
+			
+THACO: +1 bonus	
+Loss: 1d8 +1	
+Loss type: cutting	
+Weight: 4	
+Speed: 5	
+Weapon skill: Skimitar	
+Type: One-handed	
+Requirements: Force 10	
+Cannot use:  
+Magician	
+Druid ~
+@854 = ~ Bright rainbow ~
+@855 = ~ This skimitar changes every instant the color, being poured by all palette of paints. Many magicians tried to find out the reason of it, but did not reach an essence. One is clear precisely - the one who captivated weapon, was obviously a genius.		
+			
+PARAMETERS:  
++ 15% resistance to fire, cold, lightning and protection against poison. 
+An opportunity to conjure "iridescent splashes" 3 times a day			
+			
+THACO: +2nd bonus	
+Loss: 1d8 +2	
+Loss type: cutting	
+Weight: 4	
+Speed: 5	
+Weapon skill: Skimitar	
+Type: One-handed	
+Requirements: Force 10	
+Cannot use:  
+Magician 	
+Druid ~
+@856 = ~ Force of heaven ~
+@857 = ~ They say that this sword was granted to one hero solary to resist to the evil. Here only nobody knows that it that person could make to receive a similar gift.			
+			
+PARAMETERS:  
+			
+Against you indulge a double loss.
+Only for kind.				
+			
+THACO: +3rd bonus	
+Loss: 1d8 +3	
+Loss type: cutting	
+Weight: 6	
+Speed: 3	
+Weapon skill: Long sword	
+Type: One-handed	
+Requirements: Force 6	
+Cannot use:  
+Druid 	
+Cleric 	
+Magician	
+Thief	~
+@858 = ~ Adder +4 ~
+@859 = ~ The handle of this sword is wrapped by snakeskin and topped with the image of the snake who opened a mouth. The edge is impregnated with deadly poison which at hit in blood begins to spread very quickly on a body and the purpose literally in minutes sends to the grave.			
+			
+PARAMETERS:  
+			
+5 points of a loss poison in a round, (at successful Saviour throw of poisoning does not occur).
+12% chances to kill the purpose 			
+			
+THACO: +4th bonus	
+Loss: 1d8 +4	
+Loss type: cutting	
+Weight: 6	
+Speed: 4	
+Weapon skill: Long sword	
+Type: One-handed	
+Requirements: Force 6	
+Cannot use:  
+Druid 	
+Cleric 	
+Magician	
+Thief	~
+@860 = ~ Brittle crystal ~
+@861 = ~ At production of this unusual sword in addition to metal was also fragments of crystals which can be found in caves in the north are used. This very artful weapon as at wound crystals break away and pierce in a body of the opponent, causing an additional loss, and it is not simple to get them at all. It is unknown as, but after fight crystals accrue on an edge again, covering it with a thin brittle layer.			
+			
+PARAMETERS:  
+			
++3d6 the additional pricking loss			
+			
+THACO: +3rd bonus	
+Loss: 1d8 +3	
+Loss type: cutting	
+Weight: 6	
+Speed: 3	
+Weapon skill: Long sword	
+Type: One-handed	
+Requirements: Force 6	
+Cannot use:  
+Druid 	
+Cleric 	
+Magician	~
+@862 = ~ Optical illusion ~
+@863 = ~ This short sword is exorcized by strong charms, but is similar, at some point the ritual went not so. Its owner literally grows stout in eyes, but becomes less mobile. Not to everyone it is allowed to learn them to own, but if it occurred, enemies can only sympathize.		
+			
+PARAMETERS:  
+			
+- 3 to dexterity,
+the owner is under the influence of a spell "degradation".
+10% chance to slow down the purpose		
+			
+THACO: +2nd bonus	
+Loss: 1d6+2	
+Loss type: pricking	
+Weight: 3	
+Speed: 0	
+Weapon skill: short sword
+Type: One-handed	
+Requirements: Force 5	
+Cannot use:  
+Druid
+Cleric ~
+
+@864 = ~ Orci pest ~
+@865 = ~ This weapon is quite popular among orks, goblins and to them similar. The sword is constantly dirty, it is badly ground and covered with a rust, but his owners it not too worries.			
+			
+PARAMETERS:  
+			
+At hit all damages are reduced on 3, 
+50% chances for 3 rounds to infect the purpose with the infectious disease causing a loss.						
+			
+THACO: +3rd bonus	
+Loss: 1d6+3	
+Loss type: pricking	
+Weight: 3	
+Speed: 2	
+Weapon skill: short sword	
+Type: One-handed	
+Requirements: Force 5	
+Cannot use:  
+Magician
+Cleric
+Druid ~
+@866 = ~ Unpeeled blade ~
+@867 = ~ The edge of this short sword radiates bright light which can blind for a while the purpose. Besides, by means of this weapon it is possible to apply some spells.		
+			
+PARAMETERS:  
+			
+At hit the purpose is blinded
+Gives the chance to conjure: "recovery" (2 times a day) "death finger" (once a day)		
+			
+THACO: +3rd bonus	
+Loss: 1d6+3	
+Loss type: pricking	
+Weight: 3	
+Speed: 1	
+Weapon skill: short sword	
+Type: One-handed	
+Requirements: Force 5	
+Cannot use:  
+Magician
+Cleric
+Druid ~
+@868 = ~ Fangs ~
+@869 = ~ The edge of this dagger on the one hand is covered with small teeth and plentifully moistened with basilisk poison. Besides this weapon perfectly punches light armor that does it really killing in skillful hands.			
+			
+PARAMETERS:  
+			
++ 2d4 additional damages, 
+100% probability to poison the purpose (2 points a loss / round)	
+			
+THACO: +2nd bonus	
+Loss: 1d4 +2	
+Loss type: pricking	
+Weight: 4	
+Speed: 2	
+Weapon skill: Daggers	
+Type: One-handed	
+Requirements: Force 3	
+Can use: -				
+~
+@870 = ~ Pollen dagger ~
+@871 = ~ This weapon sometimes brightly flashes and can blind the opponent for several moments. Besides, the edge is covered with magic dust which can confuse the purpose.		
+			
+PARAMETERS:  
+			
+20% chance to blind the purpose, 
+20% chance to impose "confusion" on the enemy	
+			
+THACO: +1 bonus	
+Loss: 1d4 +1	
+Loss type: pricking	
+Weight: 4	
+Speed: 2	
+Weapon skill: Daggers	
+Type: One-handed	
+Requirements: Force 3	
+Cannot use:  
+Cleric ~
+@872 = ~ Thin calculation of Gyure ~
+@873 = ~ This dagger belonged to one of the best-known thieves. He was the master of masking and intrigues. It could avoid one hundred times death and made the way to the most protected places. Alas, against own tactics of Gyure it was powerless.			
+			
+PARAMETERS:  
+			
+The improved haste, 20% to ability "to disappear in shadows", 
++3 to dexterity		
+			
+THACO: +4th bonus	
+Loss: 1d4 +4	
+Loss type: pricking	
+Weight: 4	
+Speed: 2	
+Weapon skill: Daggers	
+Type: One-handed	
+Requirements: Force 3	
+Can use:  
+Thief ~
+@874 = ~ Despondency edge ~
+@875 = ~ All who were struck with this weapon very quickly became the absolute idiots. They could not remember in any way circumstances of battle as their memory was erased and roared because of any nonsense.				
+			
+PARAMETERS:  
+			
+70% chances to extend purpose level, 
+Allows opportunity to conjure spells:
+"blindness" (3 times a day), "deafness" (3 times a day), 
+"control over reason" (2 times a day).	
+			
+THACO: +2nd bonus	
+Loss: 1d8 +2	
+Loss type: pricking	
+Weight: 3	
+Speed: 2	
+Weapon skill: wakizashi		
+Type: One-handed	
+Requirements: Force 5	
+Cannot use:  
+Magician	
+Druid	
+Cleric ~
+@876 = ~ Edge of elements ~
+@877 = ~ In this weapon force of elements is collected and at the attack the purpose will always receive a loss, from some of them. Even protection against elements not always saves against blows of this blade.			
+			
+PARAMETERS:  
+			
+25% chances to cause a loss fire, 
+25% chances to cause a loss electricity, 
+25% chances to cause a loss cold, 
+25% chances to cause a loss acid.		
+			
+THACO: +3rd bonus	
+Loss: 1d8 +3	
+Loss type: pricking	
+Weight: 3	
+Speed: 1	
+Weapon skill: wakizashi		
+Type: One-handed	
+Requirements: Force 5	
+Cannot use:  
+Magician	
+Druid	
+Cleric ~
+@878 = ~ Ideal ~
+@879 = ~ This weapon - a result of many years' work of the great master armorer who enclosed in it only a little bit of magic. However, considering its destroying blows, for some reason not too you trust in it.			
+			
+PARAMETERS:  
+
++2 additional losses magic.		
+			
+THACO: +5th bonus	
+Loss: 1d8 +6	
+Loss type: pricking	
+Weight: 4	
+Speed: 2	
+Weapon skill: wakizashi		
+Type: One-handed	
+Requirements: Force 8	
+Cannot use:  
+Magician	
+Druid	
+Cleric ~
+@880 = ~ Body of the son of the general ~
+@881 = ~ This body is a son of the general Targu. ~
+@882 = ~ Blood of the big troll ~
+@883 = ~ Blood of the big troll from hunting grounds of trolls ~
+@884 = ~ Trident ~
+@885 = ~ Is very exotic weapon which came from a usual pitchfork. As appears from the name, on a military unit of weapon there are three teeth which it is convenient to prick and punch easy protection. Teeth can have the different length and the form, besides some weapon can simply get stuck in intervals between them and to be pulled out from hands.		
+			
+PARAMETERS:  
+			
+THACO: -	
+Loss: 3d6	
+Loss type: pricking	
+Weight: 8	
+Speed: 7	
+Weapon skill: Halberds	
+Type: two-handled	
+Requirements: Force 9	
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician	
+Bard	~
+@886 = ~ Trident +1 ~
+@887 = ~ The trident is very exotic weapon which came from a usual pitchfork. As appears from the name, on a military unit of weapon there are three teeth which it is convenient to prick and punch easy protection. Teeth can have the different length and the form, besides some weapon can simply get stuck in intervals between them and to be pulled out from hands. This weapon is in addition strengthened by charms.			
+			
+PARAMETERS:  
+			
+THACO: +1 bonus	
+Loss: 3d6 +1	
+Loss type: pricking	
+Weight: 8	
+Speed: 7	
+Weapon skill: Halberds	
+Type: two-handled	
+Requirements: Force 9	
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician	
+Bard	~
+@888 = ~ Trident +2 ~
+@889 = ~ The trident is very exotic weapon which came from a usual pitchfork. As appears from the name, on a military unit of weapon there are three teeth which it is convenient to prick and punch easy protection. Teeth can have the different length and the form, besides some weapon can simply get stuck in intervals between them and to be pulled out from hands. This weapon is even more strengthened and captivated.		
+			
+PARAMETERS:  
+			
+THACO: +2nd bonus	
+Loss: 3d6 +2	
+Loss type: pricking	
+Weight: 8	
+Speed: 7	
+Weapon skill: Halberds	
+Type: two-handled	
+Requirements: Force 9	
+Cannot use:  
+Druid	
+Cleric	
+Thief
+Magician	
+Bard	~
+@890 = ~ Trident + 3 ~
+@891 = ~ rezubets is very exotic weapon which came from a usual pitchfork. As appears from the name, on a military unit of weapon there are three teeth which it is convenient to prick and punch easy protection. Teeth can have the different length and the form, besides some weapon can simply get stuck in intervals between them and to be pulled out from hands. This kind of a trident was initially used by fishermen for production of especially large fishes, but then she proved the efficiency and in fight.			
+			
+PARAMETERS:  
+			
+THACO: +3rd bonus	
+Loss: 3d6 +3	
+Loss type: pricking	
+Weight: 8	
+Speed: 7	
+Weapon skill: Halberds	
+Type: two-handled	
+Requirements: Force 9	
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician	
+Bard	~
+@892 = ~ Sharp trident ~
+@893 = ~ Someone ignorant can tell that the trident is just a pitchfork, but it far not so. Zabtsa of this weapon are ground to improbable sharpness thanks to what can easily punch leather armor, and as required and a chain armor.		
+			
+PARAMETERS:  
+			
+At successful hit it is put 			
+3-6 points of the additional pricking loss.			
+			
+THACO: +2nd bonus	
+Loss: 3d6 +2	
+Loss type: pricking	
+Weight: 8	
+Speed: 5	
+Weapon skill: Halberds	
+Type: two-handled	
+Requirements: Force 9	
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician	
+Bard	~
+@894 = ~ Trident of a lightning ~
+@895 = ~ On a legend this weapon was used by the lord of storms. It is spoken well by the fact that on a trident run electric discharges and he mysteriously flickers. The legend is how truthful it is unknown, but here nobody managed to repeat this weapon so.			
+			
+PARAMETERS:  
+			
+An opportunity to use "lightning stroke" 3 times a day.
+Besides, at the successful attack there are 30% chance
+to put 1d4 an additional electric loss.		
+			
+THACO: +3rd bonus	
+Loss: 3d6 +3	
+Loss type: pricking	
+Weight: 8	
+Speed: 7	
+Weapon skill: Halberds	
+Type: two-handled	
+Requirements: Force 9	
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician	
+Bard	~
+@896 = ~ Trident of the king Velsion ~
+@897 = ~ Velsion, lord Uoterdipa owned this trident. This weapon has no magic properties, however it causes really terrible loss.			
+			
+PARAMETERS:  
+			
+THACO: +4th bonus	
+Loss: 3d6 +4	
+Loss type: pricking	
+Weight: 8	
+Speed: 7	
+Weapon skill: Halberds	
+Type: two-handled	
+Requirements: Force 9
+Cannot use:  
+Druid	
+Cleric	
+Thief	
+Magician	
+Bard	~
+@898 = ~ Staff of divine essence ~
+@899 = ~ The magic staff created from two magic relics from blood of the big troll and divine essence.
+
+PARAMETERS:
+
+Adds +4 to force, +4 to the constitution, 4 times a day
+the fiery sphere, regeneration of 2HP/round, outlook chaotic angry, reputation 0 throws.
+	
+THAC0: +3rd bonus	
+Loss: 1d6 +3	
+Loss type: splitting up
+Weight: 5	
+Speed: 1	
+Weapon skill: two-handled
+Type: Hole
+Requirements: Force 5	
+Cannot use: -	
+		~
+@900 = ~ A key from a grave of the necromancer. ~
+@901 = ~ Lock of hair ~
+@902 = ~ Bunch of hair of Vira ~
+@903 = ~ This lock of hair is removed from the head of the angry magician Vira. ~
+@904 = ~ Rare relics ~
+@905 = ~ Very unusual magic staff, on it is engraved some text, but you cannot read it. ~
+@906 = ~ Wand of guard ~
+@907 = ~ This engraved wand can improve the protection of its owner.
+
+OPTIONS:
+
+3x per day you can create a Ghost
+Armor, protection against magic + 20%
+
+~
+@908 = ~ Moon Rod ~
+@909 = ~ This rod has extraordinary magical properties. The problem is that he was lost
+hundreds of years ago, and no one heard of him.
+
+OPTIONS:
+
+1x per day create a magic comet
+1x per day create a swarm of meteorites
+
+~
+@910 = ~ Wand of prana ~
+@911 = ~ This item is made of bronze in the shape of a bottle for gin.
+
+OPTIONS:
+
+2x daily wipe			
+~
+@912 = ~ Sorcerer's heart ~
+@913 = ~ This heart belongs to the magician from fortress to the North from the Gloomy wood. ~
+@914 = ~ Key to the portal ~
+@915 = ~ It is a key to the portal in Yarpen's lock.
+(Before use of the portal it is necessary to carry out a task the Manor' Arnis) ~
+@916 = ~ Wedding ring Marian. ~
+@917 = ~ Warrant for arrest ~
+@918 = ~ Hotel Three Pots ~
+@919 = ~ Tavern ~
+@920 = ~ A tavern At Three Jugs ~
+@921 = ~ It is small - a smithy, production of onions ~
+@922 = ~ Nomad merchant ~
+@923 = ~ Ofala ~
+@924 = ~ The drowned Flask ~
+@925 = ~ Temple of Tyr ~
+@926 = ~ Temple of Shaar ~
+@927 = ~ Temple of Helm ~
+@928 = ~ Ilmater's Servant ~
+@929  = ~Temple of Shevarosh~
+
+
+@1000 = ~ This fountain is filled with a dark, viscous liquid from which it suffers from death and decay. ~
+@1001 = ~ Your dream was interrupted. ~
+@1002 = ~ Giants attacked us! ~
+@1003 = ~ The ominous song of the siren has awakened you from sleep. ~
+@1004 = ~ This catapult seems to have been used not so long ago, but now it's broken so that you can't fix it anymore. ~
+@1005 = ~ Guard Commander ~
+@1006 = ~ Gradak's Office ~
+@1007 = ~ Lever from the gate ~
+@1008 = ~ Hotel ~
+@1009 = ~ Exit the city ~
+@1010 = ~ Mayor's House ~
+@1011 = ~ Are you so brave that you can safely lie? You will pay an adventurer for your courage! ~
+@1012 = ~ Druid Abbey ~
+@1013 = ~ Blacksmith ~
+@1014 = ~ Magic stone ~
+@1015 = ~ Sacred stone ~
+@1016 = ~ City temple ~
+@1017 = ~ Three Jugs Tavern ~
+@1018 = ~ Cemetery ~
+@1019 = ~ What you do is wrong! I will kill you! ~
+@1020 = ~ You attacked the orcs. ~
+@1021 = ~ Holiday house ~
+@1022 = ~ Merchant ~
+@1023 = ~ Residence of the Red Wizards ~
+@1024 = ~ Castle ~
+@1025 = ~ Temple of Tire ~
+@1026 = ~ Moonstone Mask ~
+@1027 = ~ Cloak Tower ~
+@1028 = ~ Guild of Luskan ~
+@1029 = ~ Neverwinter Guild ~
+@1030 = ~ To the castle ~
+@1031 = ~ Docks ~
+@1032 = ~ Tavern ~
+@1033 = ~ Lighthouse ~
+@1034 = ~ Temple of Latander ~
+@1035 = ~ City Guard ~
+@1036 = ~ House of Lords ~
+@1037 = ~ Market Square ~
+@1038 = ~ Goblins attack. ~
+@1039 = ~ You were awakened from sleep by the piercing screams of a combat squad of the Xvarts, just at the moment when you started to dream something good ... ~
+@1040 = ~ The air stinks terribly of gnolls. You thanked the gods for waking up on time and reaching for weapons. ~
+@1041 = ~ Mal - the forge ~
+@1042 = ~ Sanctuary ~
+@1043 = ~ A couple of vampires are coming ~
+@1044 = ~ Attack of the orcs ~
+@1045 = ~ Deeper into the passage ~
+@1046 = ~ Elijah and the cult army ~
+@1047 = ~ Marco ~
+@1048 = ~ Guardhouse ~
+@1049 = ~ You are being attacked by vampires! ~
+@1050 = ~ Prison ~
+@1051 = ~ Guard Room ~
+@1052 = ~ Elves attacked us! ~
+@1053 = ~ Entrance to the Underdark ~
+@1054 = ~ You attacked the undead paladin ~

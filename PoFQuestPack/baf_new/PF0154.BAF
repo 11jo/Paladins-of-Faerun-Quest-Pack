@@ -1,0 +1,42 @@
+IF
+  Global("EnteredPF0154","PF0154",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0154","PF0154",1)
+    StartCutSceneMode()
+    HideGUI()
+    Explore()
+    Wait(1)
+    ActionOverride(Player1,MoveToPoint([328.280]))
+    Wait(3)
+    DisplayStringHead("GRADAK",@0)  
+    Wait(5)
+    DisplayStringHead("CELMMOD",@1)  
+    Wait(5)
+    ActionOverride("CELMMOD",ForceSpell("GRADAK",DRYAD_TELEPORT))
+    ActionOverride("CELMMOD",ForceSpell("CELMMOD",DRYAD_TELEPORT))
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  Global("Reveal0300","PF0154",0)
+  Dead("YARPINW1")  // ~Градаковский воин~
+  Dead("YARPINW2")  // ~Градаковский воин~
+  Dead("YARPINW3")  // ~Градаковский воин~
+  Dead("YARPINW4")  // ~Градаковский воин~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0300","PF0154",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    CreateCreature("GFALCON",[568.376],6)  // ~Графалкон~
+    ActionOverride(Player1,MoveToPoint([537.338]))
+    Wait(4)
+    ActionOverride("GFALCON",StartDialogue("GFALCON1",Player1))
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

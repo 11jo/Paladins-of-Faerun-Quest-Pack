@@ -1,0 +1,19 @@
+@0 = ~ Thanks for the help unknown friend, who are you? And what are you doing here? ~
+@1 = ~ I am <CHARNAME> and these are my friends. I am honored to meet the famous hero of the north. The supreme wizard of Decapolis prepared an expedition for your revitalization. They managed to find a magic stone with which you could return your life. Unfortunately, they discovered a demon that killed many of their people. Then they asked me for help. And now we are here. ~
+@2 = ~ Interestingly, it never crossed my mind that I could get a second chance at life. By the way, you can come to my hometown, East Harbor. We will certainly find you some work. What do you think of this <CHARNAME>? Yes, and as a thank you from me, take this thing, I came across it at the exit from the cave. ~
+@3 = ~ It sounds interesting, I want to look at the north of Hrothgar, it will be a great honor for me to meet you again. ~
+@4 = ~ This is a very interesting proposal from Hrothgar, but now I have my own problems that I need to solve. I hope to be able to visit East Harbor later. ~
+@5 = ~ So I marked my city on the map. I am sincerely glad to have met you and hope to see you again soon in East Harbor. Bye. ~
+@6 = ~ Goodbye Hrothgar. ~
+@7 = ~ Hrothgar.
+
+I need to find a demon and free Hrothgar, the monster is hiding somewhere in a local cave. ~
+@8 = ~ Hrothgar.
+
+The Paladin from Deep Water asked me for help. It is necessary to save the already dead hero from East Harbor. His name is Hrothgar and his followers have found a way to bring him back to life. But, unfortunately, the situation suddenly became complicated and a demon appeared instead of Hrothgar. If you kill the demon, Hrothgar will again be among the living. ~
+@9 = ~ Hrothgar.
+
+I talked to the wizard from the eastern harbor, I promised to help him revive Hrothgar, the demon is in a cave north of here. ~
+@10 = ~ Hrothgar.
+
+The demon is dead, and Hrothgar, 100 years later, is again among the living. He invited me to look into his city in the Valley of the Ice Wind. ~

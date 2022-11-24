@@ -1,0 +1,45 @@
+BEGIN ~SARMOD~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN REPLY @3 GOTO 2
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @4
+  IF ~~ THEN REPLY @5 GOTO 3
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @6
+  IF ~~ THEN REPLY @7 GOTO 4
+  IF ~~ THEN REPLY @8 GOTO 5
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @9
+  IF ~~ THEN REPLY @10 DO ~Enemy()
+EraseJournalEntry(@11)~ SOLVED_JOURNAL @12 EXIT
+  IF ~~ THEN REPLY @13 GOTO 5
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @14
+  IF ~~ THEN REPLY @15 GOTO 6
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @16
+  IF ~~ THEN DO ~DisplayStringHead("SARMOD",@17)
+Wait(6)
+ScreenShake([20.20],3)
+CreateCreature("ESDLMOD",[2189.2476],0)
+Wait(1)
+ActionOverride("SARMOD",Attack("ESDLMOD"))
+EraseJournalEntry(@11)~ SOLVED_JOURNAL @18 EXIT
+END

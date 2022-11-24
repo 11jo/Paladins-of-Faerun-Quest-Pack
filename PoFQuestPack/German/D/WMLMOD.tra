@@ -1,0 +1,26 @@
+@0 = ~Wer seid Ihr?~
+@1 = ~Mein Name ist <CHARNAME>, Ihr habt nach mir geschickt.~
+@2 = ~Ja, Ihr seid das also. Ich habe eine Aufgabe für Euch.~
+@3 = ~Was für eine Aufgabe?~
+@4 = ~Findet einen seltsamen Zauberer für mich, es ist eine ungewöhnliche Person, die immer wieder durch die vier Städte reist. Er ist ein seltsamer Zauberer, aber er kennt die Geheimnisse eines großen Schatzes. Er kennt den genauen Standort des Schlosses des alten Königs. Der Legende nach wurde das Schloss verzaubert, weil ein dunkles Übel in ihm auftauchte. Das Schloss ist voller Schätze. Als Belohnung könnt ihr alles, was ihr findet, behalten, mit Ausnahme der Ausrüstung des alten Königs, die bringt Ihr mir.~
+@5 = ~Es tut mir leid, Herr, aber ich habe keine Zeit, nach dem alten Zauberer zu suchen.~
+@6 = ~Wisst Ihr genau, wann er durch eine Stadt kommen wird?~
+@7 = ~Neuere Berichte besagen, dass der seltsame Magier zuletzt in der Stadt der Priester im Südwesten von Soubar Halt gemacht hat. Wenn Ihr Euch sofort dorthin begebt, könnt Ihr den Ort in zwanzig Tagen erreichen, und vielleicht findet Ihr den Magier dort.~
+@8 = ~Dann machen wir uns sofort auf den Weg.~
+@9 = ~Schattenfürst.
+
+Ich wurde beauftragt, einen seltsamen Zauberer zu finden. Vielleicht finde ich ihn in der Stadt der Priester, nicht weit von Soubar.~
+@10 = ~Habt Ihr den Zauberstab mitgebracht?~
+@11 = ~Ja, da ist er. Wo ist der Zauberer?~
+@12 = ~Während Ihr weg wart, hat er ein paar Zauber gewirkt und es geschafft, den genauen Standort der Festung zu bestimmen. Er wartet dort auf Euch, <CHARNAME>, ich habe meine besten Leute mit ihm geschickt, um sicherzustellen, dass keine andere Abenteurergruppe Euch angreift.~
+@13 = ~Was soll ich in dieser Festung wirklich tun?~
+@14 = ~Findet den legendären Schatz für mich und beseitigt alle Arten von Kreaturen, die diese Festung bevölkern. Geht jetzt.~
+@15 = ~Ihr habt mir eine Belohnung versprochen, wenn ich den Zauberstab finde.~
+@16 = ~Ihr könnt alles, was Ihr in der Festung findet, behalten, außer dem Schatz natürlich.~
+@17 = ~Gut. Ich werde zum Zauberer gehen.~
+@18 = ~Schattenfürst.
+
+Der Nekromant ist tot. Der alte Magier hat den Standort der Festung entdeckt, ich muss den Zauberstab nehmen, damit er sein Werk vollenden und den Schutzzauber schwächen kann.~
+@19 = ~Noch nicht.~
+@20 = ~Seid Ihr noch hier? Ein Zauberer wartet auf Euch!~
+@21 = ~Ich bin schon unterwegs.~

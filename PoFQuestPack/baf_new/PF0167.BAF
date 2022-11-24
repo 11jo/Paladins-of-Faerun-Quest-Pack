@@ -1,0 +1,21 @@
+IF
+  PartyHasItem("TGBODMOD")
+THEN
+  RESPONSE #100
+ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    DisplayStringHead(Player1,@0) 
+    Wait(6)
+    ActionOverride(Player2,LeaveAreaLUA("PF0045","",[3280.2650],0))
+    ActionOverride(Player1,LeaveAreaLUA("PF0045","",[3200.2650],0))
+    ActionOverride(Player3,LeaveAreaLUA("PF0045","",[3200.2600],0))
+    ActionOverride(Player4,LeaveAreaLUA("PF0045","",[3280.2600],0))
+    ActionOverride(Player5,LeaveAreaLUA("PF0045","",[3200.2550],0))
+    ActionOverride(Player6,LeaveAreaLUA("PF0045","",[3280.2550],0))
+    Wait(4)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

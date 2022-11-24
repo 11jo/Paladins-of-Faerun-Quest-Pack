@@ -1,0 +1,13 @@
+@1   = ~I welcome you in our village... What takes you to this lands traveler?~
+@2   = ~I'm <CHARNAME> and I'm here to fing a traitor to Atkathla... Do you know something about it?~
+@3   = ~In my village is no place for the traitors... We were always good friends of Atkathla...~
+@4   = ~And you are sure that none has passed through the village last few days?~
+@5   = ~Hm... The man told me that you will come... so you are the friend of Gorion?~
+@6   = ~Yes I'm... So you know something about it? ~
+@7   = ~Oh... yes of course... He told me to tell you to go south from this village and to enter the holy place and there you will find stairs to the dungeon...~
+@8   = ~Ok thanks and can you tell me the man's name?~
+@9   = ~I think I can't, we still don't know if we can trust you, but I hope you will take the right path traveler...~
+@10  = ~King's Request.
+
+The village mayor told you about a man who is hidding in a holy place near the village... You should go south and then downstairs to the holy dungeon and there you will find that traitor...~
+@11  = ~Hmm I already heard this.. We will see mayor... Thank you for the help I shall be going...~

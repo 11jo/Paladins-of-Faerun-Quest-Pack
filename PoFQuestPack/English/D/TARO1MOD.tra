@@ -1,0 +1,35 @@
+@0 = ~ How are you? ~
+@1 = ~ No news general. I am returning to service. ~
+@2 = ~ The orc king Xangold is dead, as are many of his supporters. ~
+@3 = ~ Finally, without him, we can repel their attack. Thanks my friend. Here is your reward. I have a second task for you. ~
+@4 = ~ What else do I need to do? ~
+@5 = ~ Just before you returned here, a group of rangers came to me asking for help. The village north of here was attacked by orcs, there are too many of them, the rural police are not able to cope with them. You have to go there and save the village! ~
+@6 = ~ I'm already moving forward, general! ~
+@7 = ~ War of the orcs.
+
+My second task is to deal with the problems in the village north of the pass. ~
+@8 = ~ (false) I killed many creatures, but the Orc King Xangold escaped. ~
+@9 = ~ It’s a pity that Xangold escaped, but having lost a lot of troops, he may refuse to attack Targos. Here is your reward. I have a second task for you. ~
+@10 = ~ Have you found the village and my friend? ~
+@11 = ~ I found them just in time, I saved all the rangers and your friend, he gave me this. ~
+@12 = ~ Yes, thanks, this is a certificate of goods in the village. You did a good job, here is your reward! ~
+@13 = ~ It seems to me that I have completed all the tasks, can I go? ~
+@14 = ~ Of course, Targos owes you, but I would appreciate it if you would fulfill my personal request. ~
+@15 = ~ Speak ... ~
+@16 = ~ My son left the city with the merchants about a week ago. And since they have not reached the intended area, I ask you to find my son. ~
+@17 = ~ I apologize, but I will not return to these mountains. ~
+@18 = ~ I will find your son, show me the path they followed. ~
+@19 = ~ War of the orcs.
+
+I completed both tasks that General Targosa gave me, and decided to help him in search of his lost son. ~
+@20 = ~ I thank you and your group. You are a hero, you saved us from the southerners, from a possible attack by the orcs on Targos. You will always be welcome here. ~
+@21 = ~ Can you take us back to the city, general? ~
+@22 = ~ War of the orcs.
+
+I did everything that General Targosa requested. ~
+@23 = ~ (false) I'm sorry, I came too late, all the inhabitants were killed, and your friend was executed, the village is controlled by orcs. ~
+@24 = ~ This is very bad news, however, you did everything in your power, thanks. ~
+@25 = ~ Did you find my son? ~
+@26 = ~ Sorry, general, but I found him dead. ~
+@27 = ~ Thanks for bringing his body to me, <CHARNAME>. On behalf of Targos, I thank you, you saved our city from both southerners and orcs, you will always be welcome here. ~
+@28 = ~ Good. ~

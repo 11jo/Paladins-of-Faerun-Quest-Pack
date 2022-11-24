@@ -1,0 +1,31 @@
+@0 = ~Hallo, wer seid Ihr? Ich bin der Großherzog Opas.~
+@1 = ~Ich bin <CHARNAME>. Der Grund für mein Erscheinen hier ist einer der Paladine namens Gradak.~
+@2 = ~Gradak?~
+@3 = ~Wie ich sehe, ist Euch dieser Name vertraut. Stimmt das?~
+@4 = ~Ja, ich hatte die Ehre, diesen Paladin zu empfangen, er war auf der Suche nach einem Priester namens Margul... Dieser Schurke führt den Kult der Sarevok-Anhänger an, ich denke, Ihr kennt diesen Namen, denn Ihr wart es, der ihn aufgehalten hat. Das einzige Ziel des Kults ist es, Euch und alle Eure Helfer zu finden und den Tod von Sarevok zu rächen! Wie gesagt schien er mir ein würdiger Paladin zu sein, also gab ich ihm den Auftrag, Margul ein für alle Mal zu beseitigen. Er sagte mir, dass dies nicht leicht sein würde, weil er sein Freund ist! Dennoch nahm er die Aufgabe an, und ich zeigte ihm den Weg zu Marguls Versteck.~ ~Ja, ich hatte die Ehre, diesen Paladin zu empfangen, er war auf der Suche nach einem Priester namens Margul... Dieser Schurke führt den Kult der Sarevok-Anhänger an, ich denke, Ihr kennt diesen Namen, denn Ihr wart es, die ihn aufgehalten hat. Das einzige Ziel des Kults ist es, Euch und alle Eure Helfer zu finden und den Tod von Sarevok zu rächen! Wie gesagt schien er mir ein würdiger Paladin zu sein, also gab ich ihm den Auftrag, Margul ein für alle Mal zu beseitigen. Er sagte mir, dass dies nicht leicht sein würde, weil er sein Freund ist! Dennoch nahm er die Aufgabe an, und ich zeigte ihm den Weg zu Marguls Versteck.~
+@5 = ~Margul ist sein Freund?~
+@6 = ~Ja, das hat er ausdrücklich gesagt... aber ich erinnere mich nicht an das ganze Gespräch, warum wollt Ihr das wissen und warum sucht Ihr ihn?~
+@7 = ~Gradak war Mitglied des Kults der Paladine von Faerûn, aber als er zum Anführer gewählt und mit magischen Kräften ausgestattet wurde, wandte er sich vom Kult ab und wurde zum Anführer der Armee der Südländer, entehrte sich als Paladin, griff Mitglieder des Kults an und tötete fast alle! Und nun ist er auf der Suche nach drei magischen Artefakten, die ihm Unbesiegbarkeit verleihen würden.~
+@8 = ~Was sagt Ihr da?! Und mir schien es, dass er ein respektabler Paladin ist, der der Stadt helfen will.~
+@9 = ~Alles, was ich gesagt habe, ist wahr, ich muss sie beide aus der Länderei holen und sie aufhalten!~
+@10 = ~Ja, Ihr habt recht, Ihr müsst sie aufhalten, aber seid vorsichtig, <CHARNAME>, Margul sucht Euch schon seit Ewigkeiten... Es wird gefährlich werden!~
+@11 = ~Wir schaffen das, Ihr braucht Euch keine Sorgen zu machen. Jetzt sagt mir, wo ich den Eingang zu ihrem Versteck finden kann!~
+@12 = ~Ja, natürlich. Der Eingang zum Gelände des Margul-Kults befindet sich in einem alten Tempel im nördlichen Teil der Stadt. Als Beweis meiner Dankbarkeit für Eure Hilfe schicke ich Euch Verstärkung von meinen besten Männern. Bringt mir seine Leiche! Viel Glück!~
+@13 = ~Danke, Großherzog~
+@14 = ~Paladine von Faerûn.
+
+Wie sich herausstellte, befindet sich Gradaks Freund Margul in seinem Versteck in Baldurs Tor, ich werde dort in einem Tempel im nördlichen Teil der Stadt einen geheimen Eingang finden. Ich muss seine Leiche mitnehmen.~
+@15 = ~Ausgezeichnet, Freunde, habt ihr diesen Paladin gefunden?~
+@16 = ~Wir haben ihn nicht gefunden, aber sein Freund Margul war da und hat mir gesagt, wohin Hradak verschwunden ist.~
+@17 = ~Wo ist seine Leiche? Er mag tot sein, aber ich muss seine Leiche sehen, um sicher zu sein, bringt sie mir!~
+@18 = ~Nun, äh, ich habe noch eine Bitte an Euch, <CHARNAME>.~
+@19 = ~Okay, was noch?~
+@20 = ~Das ist persönlich. Ich habe einen Brief erhalten, aus dem hervorgeht, dass ein unbekannter Mann meine Frau und meinen Sohn gefangen hält. Er verlangt 5.000 Gold; das Treffen soll an den Docks von Athkatla stattfinden. Ich habe ein segelfertiges Schiff, fahrt einfach nach Athkatla und übergebt das Lösegeld.~
+@21 = ~Okay, Großherzog, wir werden das Geld übergeben.~
+@22 = ~Leider muss ich Gradak jetzt finden, vielleicht später.~
+@23 = ~Danke, <CHARNAME>, nehmt diesen magischen Gegenstand, er wird uns ermöglichen, auch über große Entfernungen hinweg zu kommunizieren. Wenn meine Familie frei ist, lasst es mich wissen und ich werde sie abholen. Ich bringe Euch zum Schiff.~
+@24 = ~Gut.~
+@25 = ~Familie.
+
+Der Großherzog Opas hat mich um Hilfe gebeten; ein Unbekannter hält seine Familie gefangen und fordert 5.000 Gold. Dieses Geld muss zu den Docks von Athkatla gebracht werden. Wir werden mit dem Schiff dorthin fahren.~
+@26 = ~Es tut mir leid, <CHARNAME>, aber ich kann nicht warten. Es geht darum, meine Familie zu retten. Ich werde das jemand anderem anvertrauen müssen. Auf Wiedersehen.~

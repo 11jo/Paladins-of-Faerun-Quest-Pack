@@ -1,0 +1,33 @@
+
+IF
+  True()
+  Global("EnteredArea","AR1005",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredArea","AR1005",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    Explore()
+    Wait(2)
+    CreateCreature("ELWINMOD",[904.521],0)  // ~Элвин~
+    OpenDoor("DOOR05")
+    Wait(1)
+    ActionOverride("ELWINMOD",MoveToPoint([1144.498]))
+    Wait(4)
+    OpenDoor("DOOR04")
+    Wait(1)
+    DisplayString("ELWINMOD",@0)  // @0
+    Wait(4)
+    DisplayString(Player1,@1)  // @1
+    Wait(2)
+    OpenDoor("DOOR03")
+    OpenDoor("DOOR06")
+    OpenDoor("DOOR11")
+    OpenDoor("DOOR10")
+    OpenDoor("SECRET03")
+    DisplayString("ELWINMOD",@2)  // @2
+    Wait(4)
+    ActionOverride("ELWINMOD",EscapeArea())
+    EndCutSceneMode()
+    Continue()
+END

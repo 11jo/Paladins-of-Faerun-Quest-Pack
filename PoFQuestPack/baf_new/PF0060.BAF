@@ -1,0 +1,31 @@
+IF
+  Global("Reveal0060","PF0060",0)
+  PartyHasItem("QI1MOD")  // ~Магическая реликвия~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0060","PF0060",1)
+    StartCutSceneMode()
+    HideGUI()
+    CreateCreature("ELWINMOD",[403.816],7)  // ~Элвин~
+    Wait(2)
+    DisplayStringHead("ELWINMOD",@0)  // @0
+    Wait(6)
+    DisplayStringHead(Player1,@1)  // @1
+    Wait(11)
+    DisplayStringHead("ELWINMOD",@2)  // @2
+    Wait(6)
+    DisplayStringHead(Player1,@3)  // @3
+    Wait(13)
+    DisplayStringHead("ELWINMOD",@4)  // @4
+    Wait(8)
+    DisplayStringHead(Player1,@5)  // @5
+    Wait(12)
+    DisplayStringHead("ELWINMOD",@6)  // @6
+    Wait(12)
+    AddJournalEntry(0,79131)
+    RevealAreaOnMap("PF0061")
+    ForceSpell("ELWINMOD",DRYAD_TELEPORT)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

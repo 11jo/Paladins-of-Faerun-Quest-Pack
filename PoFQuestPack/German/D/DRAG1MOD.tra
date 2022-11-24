@@ -1,0 +1,27 @@
+@0 = ~Ihr seid nicht der, der zu sein Ihr vorgebt, Sterblicher! Wer seid Ihr?~ ~Ihr seid nicht die, die zu sein Ihr vorgebt, Sterbliche! Wer seid Ihr?~
+@1 = ~Ich bin <CHARNAME>, aber was macht Ihr hier, Drache?~
+@2 = ~<CHARNAME> sagt Ihr, ich habe von Euch und Euren Abenteuern gehört. Was wollt Ihr auf dieser Insel?~
+@3 = ~Ich helfe dem Dorf südlich von hier, es wird von Piraten und Dieben überfallen. Wisst ihr etwas darüber?~
+@4 = ~Also habt Ihr und ich einen gemeinsamen Feind, <CHARNAME>. Ein sehr wertvoller Gegenstand wurde mir gestohlen.~
+@5 = ~Drache und beraubt? Ist das überhaupt möglich? Was ist das für ein Ding?~
+@6 = ~Für mich sind Drachen auch Feinde, sterbt Monster!~
+@7 = ~Diese Diebe sind sehr geschickt, sie haben meinen mächtigen Zauberstab gestohlen, den ich zu bewachen hatte. Diese Aufgabe wurde mir von einem sehr mächtigen Zauberer zugewiesen. Ich muss ihn um jeden Preis zurückbekommen, bevor der Meister zurückkehrt.~
+@8 = ~Ich kann Euch helfen, diesen Zauberstab zurückzubekommen, wenn ich dafür eine Belohnung bekomme.~
+@9 = ~Was mit Eurem Gegenstand passiert ist, wird Euren Namen entehren, aber dafür habe ich keine Zeit. Ich gehe jetzt.~
+@10 = ~Wenn Ihr Erfolg habt, wird ein sehr wertvoller Gegenstand, ein Geschenk der Götter, auf Euch warten, also stimmt Ihr zu, <CHARNAME>?~
+@11 = ~Ich werde ihn finden.~
+@12 = ~Ein Artefakt des Drachen.
+
+Auf der Insel traf ich einen Drachen, dem ein sehr wertvoller Zauberstab gestohlen wurde, ich sollte ihn irgendwo auf dieser Insel suchen.~
+@13 = ~Habt Ihr den Zauberstab?~
+@14 = ~Ja, hier ist er, ich habe ihn bei einem der Diebe gefunden.~
+@15 = ~Großartig, ich habe den Zauberstab und jetzt wird mein Name nicht mehr entehrt. Danke <CHARNAME>, ich wünsche Euch viel Glück und für Euren Mut gebe ich Euch diese sehr mächtige Rüstung, sie ist ein göttliches Geschenk.~
+@16 = ~Danke, Drache, aber ich habe eine Bitte. Könntet Ihr manchmal im Süden über die Küsten jener Bewohner fliegen, denen ich geholfen habe?~
+@17 = ~Natürlich, von Zeit zu Zeit werde ich ein Auge auf sie haben. Auf Wiedersehen, <CHARNAME>, war schön, Euch kennenzulernen.~
+@18 = ~Bis bald.~
+@19 = ~Ein Artefakt des Drachen.
+
+Ich habe den Stab des Drachen bei einem der Diebe gefunden und ihn dem Drachen zurückgegeben. Dafür habe ich eine sehr mächtige Rüstung erhalten.~
+@20 = ~Nein, noch nicht, aber wir sind auf der Suche nach ihm.~
+@21 = ~Ich habe meine Meinung geändert, stattdessen werde ich Euch töten und diesen Gegenstand nehmen.~
+@22 = ~Habt Ihr es Euch anders überlegt und beschlossen, den Zauberstab für mich zu finden?~

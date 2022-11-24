@@ -1,0 +1,37 @@
+@0 = ~Es sieht so aus, als hätte Norik Euch hergeschickt.~
+@1 = ~Ja, ich habe ihn getroffen. Ich bin <CHARNAME>, und wer seid Ihr?~
+@2 = ~Hm, der berühmte Held und seine Gruppe in meinem Tempel, es ist mir eine große Ehre, ich bin Petkul Drachenfuß.~ ~Hm, die berühmte Heldin und ihre Gruppe in meinem Tempel, es ist mir eine große Ehre, ich bin Petkul Drachenfuß.~
+@3 = ~Kennen wir uns? Ich erinnere mich nicht an Euch, Magier.~
+@4 = ~Ja, wie Ihr gesagt habt, bin ich ein Zauberer und verfolge die Ereignisse in Faerûn. Ihr seid nun im gesamten westlichen Faerûn bekannt.~
+@5 = ~Wenn ihr schon über alles Bescheid wisst, wisst ihr vielleicht etwas über einen Elfenmagier, der mich und meine Gruppe gefangen genommen und anschließend Imoen entführt hat.~
+@6 = ~Oh ja, der.~
+@7 = ~Kennt Ihr ihn? Als ich aus dem Kerker kam, sah ich, wie er wegen der Anwendung von Magie verhaftet wurde.~
+@8 = ~Ja, man sagt, dass sie den Gebrauch von Magie verbieten und so die Ordnung in Athkatla aufrechterhalten.~
+@9 = ~Wo kann ich das Gefängnis finden, in das sie gebracht wurden?~
+@10 = ~Nicht einmal Ihr, <CHARNAME>, könnt dorthin gelangen, Ihr werdet eine Menge unschuldiger Menschen töten müssen, aber das ist nicht Euer Stil.~
+@11 = ~Zeigt mir auf der Karte, wo das ist?~
+@12 = ~Es tut mir leid, aber ich kenne den genauen Ort nicht, Ihr müsst woanders nach Hilfe suchen. Und aus welchem Grund seid Ihr gekommen?~
+@13 = ~Und was ist das?~
+@14 = ~Unter unserem Tempel lebt eine Gruppe von Vampiren, bisher haben wir in Frieden gelebt, aber kürzlich wurde mir ein Zauberstab gestohlen.~
+@15 = ~Wir müssen also hinuntergehen und den Zauberstab zurückholen?~
+@16 = ~Ja, aber das ist noch nicht alles. Irgendwo am selben Ort befindet sich der zweite Teil einer sehr mächtigen Waffe, ein Zauberbuch. Wenn jemand alle vier notwendigen Teile sammelt, wird er große Macht erhalten.~
+@17 = ~Was soll ich also tun?~
+@18 = ~Ihr müsst sowohl den Zauberstab als auch das Buch finden, kann ich auf Euch zählen, <CHARNAME>? Nehmt diese Halskette, wenn Ihr sie tragt, werden die Vampire nicht angreifen.~
+@19 = ~Also gut, Petkul, ich werde beide Gegenstände finden und sie zurückbringen.~
+@20 = ~Der verbotene Tempel.
+
+Petkul, der Hüter des Zauberstabs, der von der Gruppe von Vampiren gestohlen wurde, bat mich, in den Kerker des Klosters zu gehen und den Zauberstab sowie das Buch zu finden.~
+@21 = ~Ich habe keine Lust, ich will nicht meinen Hals riskieren. Vielleicht später.~
+@22 = ~Ihr werdet uns also helfen?~
+@23 = ~Ja, ich werde sehen, was ich tun kann.~
+@24 = ~Ich hab' jetzt keine Zeit.~
+@25 = ~Habt Ihr diese Gegenstände gefunden?~
+@26 = ~Ja, da sind sie.~
+@27 = ~Nein, noch nicht.~
+@28 = ~Großartig, <CHARNAME>, Ihr müsst mir auch das Blut eines großen und mächtigen Trolls bringen. Nördlich des Klosters findet ihr viele Trolle. Bringt das Blut zu meinem Turm nordöstlich von hier.~
+@29 = ~Warum braucht Ihr das Blut eines Trollzauberers?~
+@30 = ~Ihr erfahrt alles im Turm, findet und bringt mir das Blut, es ist dringend!~
+@31 = ~Alles klar, dann sehen wir uns im Turm.~
+@32 = ~Verbotener Tempel.
+
+Ich brachte beide Gegenstände zu Petkul und er bat mich um den letzten Gefallen. Er braucht mich, um die Trolle nördlich des Tempels loszuwerden und dann das Blut eines von ihnen zu seinem Turm nordöstlich des Tempels zu bringen.~

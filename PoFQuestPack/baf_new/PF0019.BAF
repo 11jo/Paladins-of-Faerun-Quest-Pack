@@ -1,0 +1,22 @@
+IF
+  OnCreation()
+  Global("EnteredPF0019","PF0019",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0019","PF0019",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(4)
+    CreateCreature("Yarpen",[550.1733],4)  // ~Градак~
+    Wait(2)
+    DisplayString("YARPEN",@0)  // @0
+    Wait(3)
+    ActionOverride("Yarpen",EscapeArea())
+    RevealAreaOnMap("PF0319")
+    Wait(2)
+    UnhideGUI()
+    EndCutSceneMode()
+    Wait(1)
+END
+

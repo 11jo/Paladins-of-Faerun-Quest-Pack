@@ -1,0 +1,16 @@
+@1 = ~ Hey who are you? I need help .. ~
+@2 = ~ I'm <CHARNAME> and who are you? What do you need? ~
+@3 = ~ My name is Errad, I am imprisoned ... I tried to escape from this prison, if this place can be called that, but I was injured ... The jailers looked for me <CHARNAME> I have no strength to deal with them. .. I need a key to the portal ... The key is at one of those guards. Can you find it for me ..? ~
+@4 = ~ Yes, I can try, try to get it ... We can get out of here together ... Do you agree Errad? ~
+@5 = ~ Great, so we'll find him together ... ~
+@6 = ~ Help the prisoner.
+
+I met a wounded prisoner trying to get out of here. He told me that the guards were looking for him and that one of them has a key that activates the portal to the surface. I have to find him ... Maybe this is the way out of here. ~
+@7 = ~ Do you have a key, can we get out of here? ~
+@8 = ~ Not yet ... ~
+@9 = ~ Yes, I have Errad ... ~
+@10 = ~ Thank you friend, unfortunately, only one key for one, goodbye and thanks for the help ... ~
+@11 = ~ Help the prisoner.
+
+I found the key and gave it to Errad, but he did not fulfill our contract and disappeared into the portal myself. ~
+@12 = ~ Wait, you promised that we would get out of here together! You are a liar, I will find you ... ~

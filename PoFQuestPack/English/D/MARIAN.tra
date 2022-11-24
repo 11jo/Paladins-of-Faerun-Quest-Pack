@@ -1,0 +1,23 @@
+@0 = ~ Hey, hey, you look like seasoned adventurers. I need help! What is your name? ~
+@1 = ~ My name is <CHARNAME>, but what's the matter, buddy? ~
+@2 = ~ Well ... My name is Marian, I am a blacksmith and work for a man named Barbarossa. He runs the black market in Deep Water. I don’t want to work for him, I want to do legal work, and I’m tired of such a life. I met with the commander of the city guard of Deepwater, but without obvious evidence their hands are tied. ~
+@3 = ~ And can I do something for you blacksmith? ~
+@4 = ~ I need you to find Barbarossa in Deep Water, and deal with him. You are not a citizen of Deep Water, and if he disappears, no one will ask unnecessary questions. In this way, you will save me, my family and many other innocent citizens of Deep Water. ~
+@5 = ~ I go down there and see what can be done. Do you know where I can find him? ~
+@6 = ~ This is the problem of Deep Water and let them deal with it. ~
+@7 = ~ Most often he is in his refuge, but you can meet him either in the local tavern or in the city market. Be careful, he is very dangerous. ~
+@8 = ~ Okay, I'll be back with new information. Bye. ~
+@9 = ~ Blacksmith Marian.
+
+At Vokin Promenade, I came across a frightened blacksmith, originally from Gludokovody. I heard a lot about this city of merchants. He said that there now cruel Barbarossa rules the local black market. I have to find him in a tavern or in a city market. ~
+@10 = ~ You are back, so you agree to help me? ~
+@11 = ~ Yes, I decided to help you. Remind me what you need? ~
+@12 = ~ So what news did you bring, my friend? ~
+@13 = ~ (Give him a piece of paper ...) ~
+@14 = ~ I should have guessed about it, you should immediately find my family and take her to a safe place, but what about Barbarossa, is he dead? ~
+@15 = ~ Barbarossa fled the battlefield, probably to his hideout. I was contacted by the city guard of Deep Water, they want me to officially deal with Barbarossa. However, his refuge is protected by a mysterious type that requires a password to enter. Where is your family located? ~
+@16 = ~ My family should be with my friend, who runs the Deep Water. This is a large house in the northeast. Show them this ring, they will understand that I sent you. Bring them to the city guard's office, I will wait for you there and give you the password. ~
+@17 = ~ Blacksmith Marian.
+
+The blacksmith said everything you need. He asked you to find his family in a house located in the northeast of Deep Water. When you find, you must escort them to the headquarters of the city guard. ~
+@18 = ~ No news yet ~

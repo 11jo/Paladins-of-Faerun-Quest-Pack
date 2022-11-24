@@ -1,0 +1,19 @@
+@0 = ~Danke für Eure Hilfe, unbekannter Freund, wer seid Ihr? Und was macht Ihr hier?~ ~Danke für Eure Hilfe, unbekannte Freundin, wer seid Ihr? Und was macht Ihr hier?~
+@1 = ~Ich bin <CHARNAME> und dies sind meine Freunde. Es ist mir eine Ehre, den berühmten Helden des Nordens zu treffen. Der oberste Zauberer von Dekapolis hat eine Expedition zu Eurer Wiederbelebung vorbereitet. Es gelang ihnen, einen magischen Stein zu finden, mit dem Ihr Euer Leben zurückerlangen konntet. Leider entdeckten sie einen Dämon, der viele ihrer Leute tötete. Dann baten sie mich um Hilfe. Und nun sind wir hier.~
+@2 = ~Interessanterweise wäre es mir nie in den Sinn gekommen, dass ich eine zweite Chance im Leben bekommen könnte. Übrigens, Ihr könnt in meine Heimatstadt Osthafen kommen. Wir werden sicher Arbeit für Euch finden. Was haltet Ihr davon, <CHARNAME>? Ja, und nehmt dieses Ding als Dankeschön von mir, ich bin am Ausgang der Höhle darüber gestolpert.~
+@3 = ~Das klingt interessant, ich will mir den Norden ansehen, Hrothgar, es wäre mir eine große Ehre, Euch wieder zu treffen.~
+@4 = ~Das ist ein sehr interessanter Vorschlag, Hrothgar, aber jetzt habe ich meine eigenen Probleme, die ich lösen muss. Ich hoffe, Osthafen später besuchen zu können.~
+@5 = ~Hier habe ich meine Stadt auf der Karte markiert. Ich freue mich aufrichtig, Euch kennengelernt zu haben und hoffe, Euch bald in Osthafen wiederzusehen. Auf Wiedersehen.~
+@6 = ~Auf Wiedersehen, Hrothgar.~
+@7 = ~Hrothgar.
+
+Ich muss einen Dämon finden und Hrothgar befreien, das Monster versteckt sich irgendwo in einer örtlichen Höhle.~
+@8 = ~Hrothgar.
+
+Der Paladin aus Tiefwasser hat mich um Hilfe gebeten. Es ist notwendig, den bereits verstorbenen Helden von Osthafen zu retten. Sein Name ist Hrothgar und seine Anhänger haben einen Weg gefunden, ihn wieder zum Leben zu erwecken. Aber leider wurde die Situation plötzlich kompliziert und anstelle von Hrothgar erschien ein Dämon. Wenn Ihr den Dämon tötet, wird Hrothgar wieder unter den Lebenden weilen.~
+@9 = ~Hrothgar.
+
+Ich habe mit dem Zauberer vom Osthafen geredet und ihm versprochen, ihm zu helfen, Hrothgar wiederzubeleben, der Dämon ist in einer Höhle nördlich von hier.~
+@10 = ~Hrothgar.
+
+Der Dämon ist tot und Hrothgar ist nach 100 Jahren wieder unter den Lebenden. Er lud mich ein, seine Stadt im Eiswindetal zu besuchen.~

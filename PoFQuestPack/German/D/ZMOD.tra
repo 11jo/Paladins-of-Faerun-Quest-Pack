@@ -1,0 +1,21 @@
+@0 = ~Was macht Ihr hier, Fremder? Wer seid Ihr?~ ~Was macht Ihr hier, Fremde? Wer seid Ihr?~
+@1 = ~Mein Name ist <CHARNAME>, ich suche den Statthalter dieser Burg, ich muss mit ihm sprechen.~
+@2 = ~Das kann arrangiert werden, sonst noch etwas?~
+@3 = ~Ja. Auf dem Weg habe ich gesehen, dass hier viele Gefangene sind, kann ich mit ihnen reden?~
+@4 = ~Fragt Ihr, was ich hier mache? Ich habe gehört, dass Ihr Probleme mit den Bewohnern des örtlichen Waldes habt?~
+@5 = ~Das kann ich nicht zulassen. Dazu müsst ihr die Erlaubnis des Statthalters einholen.~
+@6 = ~Wie wäre es mit ein paar Goldmünzen, um mit ihnen zu reden?~
+@7 = ~Das geht Euch nichts an... Dieses Problem wird bald gelöst sein! Sonst noch was?~
+@8 = ~Hmmm. Okay, für 2.000 Gold gebe ich Euch die Schlüssel zu den Zellen.~
+@9 = ~Ich habe nicht die benötigte Summe bei mir, ich komme später.~
+@10 = ~Ich habe gerade den richtigen Betrag, nehmt ihn.~
+@11 = ~Hier, behaltet die Schlüssel zu den Zellen.~
+@12 = ~Was, wollt Ihr immer noch für das Gespräch mit den Gefangenen bezahlen?~
+@13 = ~Ihr wolltet mit den Gefangenen reden, also geht und sagt, ich habe Euch die Schlüssel gegeben.~
+@14 = ~Sonst noch etwas?~
+@15 = ~Ich muss mit dem Statthalter sprechen.~
+@16 = ~Das ist möglich. Hier ist der Schlüssel zu seinem Zimmer.~
+@17 = ~Tethyr.
+
+Ich habe einen Brief von einem der Gefangenen erhalten, der in den Wald gebracht werden muss, aber zuerst muss ich mit dem Statthalter des Schlosses sprechen.~
+@18 = ~Lasst Euch nicht stören, geht und sprecht mit dem Statthalter, während ich meine Waffen reinigen muss.~

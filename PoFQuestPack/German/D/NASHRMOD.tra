@@ -1,0 +1,37 @@
+@0 = ~Hallo <CHARNAME>, willkommen in Niewinter. Zunächst einmal möchte ich mich für diese unverfrorene Einladung entschuldigen. Wir würden uns solche Aktionen nicht erlauben, wenn es nicht außergewöhnliche Umstände gäbe.~
+@1 = ~Ich muss sagen, dass dies ziemlich unerwartet kommt! Ich hatte nicht vor, Eure Stadt zu besuchen. Also, was ist los, Sir?~
+@2 = ~Völlig unerwartet befand sich Niewinter in einer schwierigen Lage. Wir mussten kürzlich die Handelsbeziehungen mit Luskan einstellen, nachdem ihr Schiff in unserem Hafen niedergebrannt war. Luskan beschuldigte uns, ihr Schiff absichtlich zerstört zu haben. Aber wir fanden heraus, dass das Schiff von einem Mitglied der luskanischen Handelsgilde im Hafengebiet in Brand gesteckt wurde.~
+@3 = ~Warum sollte die Handelsgilde von Luskan ihr eigenes Handelsschiff zerstören? Das entbehrt jeglicher Logik.~
+@4 = ~Nein, ganz im Gegenteil! Wir sprechen hier von einem Krieg zwischen unserer und der luskanischen Handelsgilde. Unsere Gilde ist viel stärker, und wenn die luskanische Gilde den gesamten Handel für sich vereinnahmen will, dann braucht sie mindestens eine mittelgroße Armee!~
+@5 = ~Das heißt also, dass sie es auf Eure Handelsgilde und letztlich auf ganz Niewinter schieben wollen?~
+@6 = ~Ja, genau das wird passieren, sie werden uns anklagen und unsere Stadt wird belagert, niemand wird Niewinter betreten oder verlassen. Aber das ist noch nicht alles. Fast zeitgleich mit Luskans Provokation wurde eine nahe gelegene Festung namens Fort Helm von den Drow eingenommen. Diese Festung hat Niewinter viele Jahre lang vor Feinden verteidigt und war die Heimat von Helms Dienern. Vielleicht schloss einer von ihnen ein Bündnis mit den Dunkelelfen. Die Festung Helm wurde innerhalb einer halben Stunde erobert. Als wir davon erfuhren, war es schon zu spät.~
+@7 = ~Unsere Streitkräfte unter Lady Aribeths Kommando konnten einen Angriff der Drow auf die Stadt abwehren. Doch sie verbündeten sich mit den Barbaren, die seit langem versuchen, die Städte des Nordens zu zerstören. Wir leisten Widerstand, so gut wir können, aber wir haben nicht genug Kraft. Ich habe von den Händlern aus Baldurs Tor von Euch gehört und ich bin sicher, dass Ihr der Einzige seid, der das verhindern kann, bevor es zu spät ist.~ ~Unsere Streitkräfte unter Lady Aribeths Kommando konnten einen Angriff der Drow auf die Stadt abwehren. Doch sie verbündeten sich mit den Barbaren, die seit langem versuchen, die Städte des Nordens zu zerstören. Wir leisten Widerstand, so gut wir können, aber wir haben nicht genug Kraft. Ich habe von den Händlern aus Baldurs Tor von Euch gehört und ich bin sicher, dass Ihr die Einzige seid, die das verhindern kann, bevor es zu spät ist.~
+@8 = ~Ich weiß nicht, was Ihr gehört habt, Majestät, aber ich werde versuchen, mein Bestes zu geben, um Eure Stadt zu retten. Allerdings könnte ich die richtige Ausrüstung, Waffen und dergleichen gebrauchen.~
+@9 = ~Nun, das ist kein Problem, Lord Gratius, der Oberbefehlshaber der Königlichen Garde wird Euch alles geben, was Ihr braucht. <CHARNAME>! Ich habe einen Bericht erhalten, dass die Luskaner die Stadtmauern durchbrochen haben. Geht in den westlichen Teil der Stadt und kümmert Euch um ihren Hauptmann und beseitigt auf dem Weg dorthin jede Bedrohung für die Stadt. Sobald Ihr mit ihrem Hauptmann fertig seid, kommt wieder zurück.~
+@10 = ~In Ordnung, mein Herr, ich mache mich sofort auf den Weg.~
+@11 = ~Niewinter.
+
+Die Luskaner sind in die Stadt eingedrungen, Lord Nasher hat mir den Auftrag gegeben, alle Luskaner zu eliminieren, aber das Wichtigste ist, ihren Hauptmann im westlichen Teil der Stadt zu finden.~
+@12 = ~Nun, der Hauptmann ist tot, aber ich habe einen Bericht erhalten, dass ein sehr gefährlicher Zauberer aus dem Zauberturm von Luskan im Südwesten der Stadt aufgetaucht ist. Haltet ihn um jeden Preis auf!~
+@13 = ~Niewinter.
+
+Im Südwesten der Stadt ist ein Magier aus Luskan aufgetaucht, er stellt eine ernste Bedrohung für die Stadt dar, wir müssen uns schnell darum kümmern.~
+@14 = ~Kümmert Euch um diesen Hauptmann, <CHARNAME>!~
+@15 = ~Gute Arbeit, <CHARNAME>, Ihr seid unversehrt zurückgekehrt und wie ich sehe, habt Ihr Euch um den Magier gekümmert. Hier ist Eure Belohnung. Allerdings gibt es immer noch Probleme - vor ein paar Minuten erhielt ich einen Bericht von Lady Aribet - die Drow und die Barbaren sind in die Stadt eingedrungen! Unser Magier wird Euch zu Lady Aribet bringen, gebt ihr jede mögliche Hilfe!~
+@16 = ~Niewinter.
+
+Lord Nasher hat eine neue Aufgabe für uns - wir sollen Lady Aribet helfen.~
+@17 = ~Der Zauberer von Luskan muss vernichtet werden, <CHARNAME>!~
+@18 = ~Gute Arbeit, <CHARNAME>, Ihr habt es geschafft, Fort Helm von den Feinden zurückzuerobern! Hier ist Eure Belohnung. Nun, da die unmittelbare Gefahr für die Stadt vorüber ist, müssen wir uns mit dem Verursacher all dieser Probleme befassen. Wir haben herausgefunden, dass er sich in der Handelsgilde von Luskan aufhält. Findet den Verbindungsmann am Brunnen im westlichen Teil der Stadt, Er wird Euch zu unserer Handelsgilde führen.~
+@19 = ~Sir, woran erkenne ich den Verbindungsmann?~
+@20 = ~Niewinter.
+
+Am Brunnen im Westteil der Stadt wird der königliche Verbindungsmann auf uns warten, wir müssen uns um den Verursacher der Zerstörung des luskanischen Schiffes im Hafen von Niewinter kümmern.~
+@21 = ~Ihr braucht Euch keine Sorgen zu machen, nehmt meinen Auftrag als Beweis. Geht jetzt, Ihr müsst den Schuldigen finden und diesen verrückten Krieg beenden.~
+@22 = ~Kümmert Euch um den Gildenmeister von Luska, <CHARNAME>!~
+@23 = ~Ihr habt uns einen großen Dienst erwiesen, <CHARNAME>, ich danke Euch im Namen der ganzen Stadt. Ihr habt viele unschuldige Menschen gerettet. Hier ist Eure Belohnung.~
+@24 = ~Nun, eigentlich hatte ich kaum eine Wahl, ob ich helfen sollte oder nicht. Die Stadt war unter Belagerung. Aber ich bin froh, dass alles geklärt wurde.~
+@25 = ~Niewinter.
+
+Die Bedrohung der Stadt ist beseitigt.~
+@26 = ~Ich muss mich von Euch verabschieden, nochmals vielen Dank und auf Wiedersehen. Unser Magier wird Euch an den Ort schicken, an dem ihr ihn getroffen habt.~

@@ -1,0 +1,43 @@
+IF
+  OnCreation()
+  Global("EnteredPF0009","PF0009",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0009","PF0009",1)
+    ClearAllActions()
+    Explore()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(1)
+    ActionOverride(Player1,MoveToPoint([877.839]))
+    ActionOverride(Player2,MoveToPoint([929.719]))
+    ActionOverride(Player3,MoveToPoint([842.749]))
+    ActionOverride(Player4,MoveToPoint([820.808]))
+    ActionOverride(Player5,MoveToPoint([989.787]))
+    ActionOverride(Player6,MoveToPoint([976.866]))
+    Wait(5)
+    CreateCreature("HRQNMOD",[436.990],0)  // ~Ражкскул~
+    CreateCreature("HMER2MOD",[449.936],0)  // ~Капитан Наемников~
+    ActionOverride("HRQNMOD",MoveToPoint([850.891]))
+    ActionOverride("HMER2MOD",MoveToPoint([742.738]))
+    Wait(2)
+    MoveViewPoint([902.797],INSTANT)
+    Wait(2)
+    ActionOverride("HRQNMOD",StartDialogue("H1MOD",Player1))
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  Global("Reveal0009","PF0009",0)
+  Dead("ESUDMOD")  // ~Удоррил~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0009","PF0009",1)
+    CreateCreature("HROTHMOD",[915.797],6)  // ~Хротгар~
+    StartCutSceneMode()
+    Wait(1)
+    ActionOverride("HROTHMOD",StartDialogue("H2MOD",Player1))
+    EndCutSceneMode()
+END
+

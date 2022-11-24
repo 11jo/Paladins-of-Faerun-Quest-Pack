@@ -1,0 +1,21 @@
+IF
+  OnCreation()
+  Global("EnteredPF0030","PF0030",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0030","PF0030",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    CreateCreature("FNASMOD",[3062.2592],15)  // ~Слуга Хельма~
+    MoveViewPoint([3124.2674],SLOW)
+    Wait(5)
+    DisplayStringHead("FNASMOD",@0)  // @0
+    Wait(4)
+    ActionOverride("FNASMOD",EscapeArea())
+    Wait(2)
+    AddexperienceParty(10000)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

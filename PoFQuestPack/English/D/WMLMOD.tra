@@ -1,0 +1,26 @@
+@0 = ~ Who are you? ~
+@1 = ~ My name is <CHARNAME>, you sent for me. ~
+@2 = ~ Yeah, that’s you. I have a task for you. ~
+@3 = ~ What is the task? ~
+@4 = ~ Find a strange magician for me, this is an unusual person, going around four cities again and again. He is a strange wizard, but he knows the secrets of a great treasure. He knows the exact location of the castle of the old king. According to legend, the castle was bewitched, because it revealed a dark evil. The castle is full of treasures. As a reward, you can leave everything found to yourself, with the exception of the equipment of the old king, bring it to me. ~
+@5 = ~ I'm sorry lord, but I don't have time to look for an old wizard. ~
+@6 = ~ Do you know exactly when it will go through any city? ~
+@7 = ~ Let's see, the latest reports suggest that the strange magician last stopped in the city of priests in the southwest of Soubar. If you immediately go there, you can arrive at the place in twenty days, and perhaps you will find the magician there. ~
+@8 = ~ Then we hit the road immediately. ~
+@9 = ~ Shadow Lord.
+
+I was tasked with finding a strange wizard. Maybe I can find him in the city of priests, not far from Soubar. ~
+@10 = ~ Did you bring the rod? ~
+@11 = ~ Yes, there he is. Where is the wizard? ~
+@12 = ~ While you were gone, he cast a few spells and managed to determine the exact location of the fortress. He is waiting for you there <CHARNAME>, I sent my best people with him, to ensure that no other group of adventurers attacked you. ~
+@13 = ~ What do you really want me to do in this fortress? ~
+@14 = ~ Find legendary treasures for me and get rid of all kinds of creatures that have flooded this fortress. Now go. ~
+@15 = ~ You promised a reward if I find a rod. ~
+@16 = ~ You can leave everything to yourself that you find in the fortress, in addition to the treasure, of course. ~
+@17 = ~ Good. I will go to the wizard. ~
+@18 = ~ Shadow Lord.
+
+Necromancer is dead. The old magician discovered the location of the fortress, I must take the rod so that he can complete his work and weaken the protective magic. ~
+@19 = ~ Not yet. ~
+@20 = ~ Are you still here? A wizard is waiting for you! ~
+@21 = ~ I'm already leaving. ~

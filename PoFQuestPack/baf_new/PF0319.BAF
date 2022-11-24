@@ -1,0 +1,58 @@
+IF
+  OnCreation()
+  Global("EnteredPF0319","PF0319",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0319","PF0319",1)
+    ClearAllActions()
+    Wait(1)
+//    TextScreen("SCEN3MOD")
+END
+
+IF
+  Global("Reveal0319","PF0319",0)
+  Dead("YARPCL")  // ~ омандир разведчиков~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0319","PF0319",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    FadeToColor([20.0],0)
+    Wait(6)
+    CreateCreature("ELVWCMOD",[1545.841],0)  // ~Ёленар~
+    CreateCreature("ELVWRMOD",[1723.738],0)  // ~Ёльфийский воин~
+    CreateCreature("ELVWRMOD",[1652.646],0)  // ~Ёльфийский воин~
+    CreateCreature("ELVWRMOD",[1428.613],0)  // ~Ёльфийский воин~
+    CreateCreature("ELVWRMOD",[1574.563],0)  // ~Ёльфийский воин~
+    Wait(6)
+    MoveViewPoint([1545.841],SLOW)
+    Wait(2)
+    ActionOverride(Player1,MoveToPoint([1503.921]))
+    Wait(6)
+    DisplayString("ELVWCMOD",@0)  // @0
+    Wait(4)
+    FadeToColor([20.0],0)
+    Wait(6)
+    CreateCreature("HCMOD",[1406.783],0)  // ~јрхимаг~
+    Wait(5)
+    DisplayString("HCMOD",@1)  // @1
+    Wait(6)
+    DisplayString("ELVWCMOD",@2)  // @2
+    Wait(7)
+    DisplayString("HCMOD",@3)  // @3
+    Wait(8)
+    DisplayString("ELVWCMOD",@4)  // @4
+    Wait(4)
+    ActionOverride(Player1,LeaveAreaLUA("PF0057","",[1071.859],0))
+    ActionOverride(Player2,LeaveAreaLUA("PF0057","",[997.846],0))
+    ActionOverride(Player3,LeaveAreaLUA("PF0057","",[867.836],0))
+    ActionOverride(Player4,LeaveAreaLUA("PF0057","",[883.887],0))
+    ActionOverride(Player5,LeaveAreaLUA("PF0057","",[797.846],0))
+    ActionOverride(Player6,LeaveAreaLUA("PF0057","",[797.906],0))
+    ActionOverride("HCMOD",EscapeArea())
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

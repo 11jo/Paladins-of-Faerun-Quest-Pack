@@ -1,0 +1,31 @@
+@0 = ~ Hello, who are you? I am the Grand Duke of Danger. ~
+@1 = ~ I am <CHARNAME>. The reason for my appearance here is one of the paladins named Gradak. ~
+@2 = ~ Gradak? ~
+@3 = ~ As I understand it, you know this name. Is that so? ~
+@4 = ~ Yes, I had the honor to host this paladin, he was looking for a priest named Margul ... This villain leads the sarevok fans sect, I think you know this name, because it was you who stopped him. The sect's sole purpose is to find you and all your helpers and avenge the death of Sarevok! As I already said, it seemed to me that he was a worthy paladin, so I gave him the task to eliminate Margul once and for all. He told me that it would not be easy to do, because he is his friend! Nevertheless, he took up the task, and I showed him the way to Margul's refuge. ~
+@5 = ~ Margul is his friend? ~
+@6 = ~ Yes, he clearly said that ... but I don’t remember the whole conversation, why do you want to know this and why are you looking for him? ~
+@7 = ~ Gradak was a member of the cult of the Paladins of Faeríàn, but when he was elected a leader and endowed with magical powers, he turned away from the cult and became the head of the Southerners army, dishonored himself as a paladin, attacked members of the cult, and killed almost everyone! And now he is looking for three magical artifacts that would give him invincibility. ~
+@8 = ~ What are you saying ?! And it seemed to me that he is a respectable paladin who wants to help the city. ~
+@9 = ~ Everything I said is true, I have to get them both out of the ground, and stop! ~
+@10 = ~ Yes, you are right, you must stop them, but be careful <CHARNAME>, Margul has been looking for you for ages ... It will be dangerous! ~
+@11 = ~ We can do this, you have nothing to worry about. Now tell me where I can find the entrance to their den! ~
+@12 = ~ Yes, of course. The entrance to the habitat of the Margul sect is located in the old temple in the northern part of the city. As proof of my gratitude for your help, I will send you reinforcements from my best people. Bring me his body! Good luck! ~
+@13 = ~ Thank you Grand Duke ~
+@14 = ~ Paladins of Faeríàn.
+
+As it turned out, a friend of Gradak Margul is in his shelter at the Gate of Baldur, I will find a secret entrance there in a temple in the northern part of the city. I have to bring his body. ~
+@15 = ~ Great friends, did you find this paladin? ~
+@16 = ~ We did not find him, but his friend Margul was there, and he told me where Hradak had disappeared. ~
+@17 = ~ Where is his body? He may be dead, but I have to see his body, to be sure, bring me it! ~
+@18 = ~ Well, uh, I have one more request for you <CHARNAME>. ~
+@19 = ~ Okay, what else? ~
+@20 = ~ This is personal. I received a letter from which it follows that an unknown man is holding my wife and son captive. It requires 5,000 gold; the meeting should take place at the docks of Askatla. I have a ship ready for sailing, just go to Ascatla and hand over the ransom. ~
+@21 = ~ Good Grand Duke, we will deliver this money. ~
+@22 = ~ Unfortunately, I need to find Gradak now, maybe later. ~
+@23 = ~ Thanks <CHARNAME>, Take this magic item, it will allow us to communicate even at a great distance. When my family is free, let me know and I will take her. I'll take you to the ship. ~
+@24 = ~ Good. ~
+@25 = ~ Family.
+
+The Grand Duke of Danger asked me to help him; an unknown person holds his family captive and demands 5,000 gold. This money must be delivered to the docks of Askatla. We’ll go there by ship. ~
+@26 = ~ Sorry <CHARNAME>, but I can't wait. It's about saving my family. I will have to entrust this to someone else. Goodbye. ~

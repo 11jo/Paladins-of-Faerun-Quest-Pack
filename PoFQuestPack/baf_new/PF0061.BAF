@@ -1,0 +1,74 @@
+IF
+  Global("Reveal0061","PF0061",0)
+  PartyHasItem("QI2MOD")  // ~Магическая реликвия~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0061","PF0061",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Explore()
+    Wait(2)
+    CreateCreature("GFALCON",[1793.1362],10)  // ~Графалкон~
+    MoveViewPoint([1793.1362],SLOW)
+    ActionOverride(Player1,MoveToPoint([1854.1334]))
+    Wait(6)
+    DisplayStringHead(Player1,@0)  // @0
+    Wait(7)
+    Wait(4)
+    DisplayStringHead("GFALCON",@1)  // @1
+    Wait(12)
+    Wait(3)
+    ReputationInc(1)
+    DisplayStringHead(Player1,@2)  // @2
+    Wait(5)
+    AddJournalEntry(0,79132)
+    HideAreaOnMap("PF0061")
+    ActionOverride(Player1,LeaveAreaLUA("AR0020","",[628.555],0))
+    ActionOverride(Player2,LeaveAreaLUA("AR0020","",[589.545],0))
+    ActionOverride(Player3,LeaveAreaLUA("AR0020","",[598.598],0))
+    ActionOverride(Player4,LeaveAreaLUA("AR0020","",[662.612],0))
+    ActionOverride(Player5,LeaveAreaLUA("AR0020","",[657.578],0))
+    ActionOverride(Player6,LeaveAreaLUA("AR0020","",[620.595],0))
+    ActionOverride("GFALCON",EscapeArea())
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  Global("Reveal0061","PF0061",0)
+  PartyHasItem("QI2MOD")  // ~Магическая реликвия~
+  Dead("RWHMMOD")  // ~Глава волшебников~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0061","PF0061",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Explore()
+    Wait(2)
+    CreateCreature("GFALCON",[1793.1362],10)  // ~Графалкон~
+    MoveViewPoint([1793.1362],SLOW)
+    ActionOverride(Player1,MoveToPoint([1854.1334]))
+    Wait(4)
+    DisplayStringHead(Player1,@3)  // @3
+    Wait(7)
+    Wait(4)
+    DisplayStringHead("GFALCON",@4)  // @4
+    Wait(12)
+    Wait(3)
+    ReputationInc(-1)
+    DisplayStringHead(Player1,@2)  // @2
+    Wait(5)
+    HideAreaOnMap("PF0061")
+    ActionOverride(Player1,LeaveAreaLUA("AR0020","",[628.555],0))
+    ActionOverride(Player2,LeaveAreaLUA("AR0020","",[589.545],0))
+    ActionOverride(Player3,LeaveAreaLUA("AR0020","",[598.598],0))
+    ActionOverride(Player4,LeaveAreaLUA("AR0020","",[662.612],0))
+    ActionOverride(Player5,LeaveAreaLUA("AR0020","",[657.578],0))
+    ActionOverride(Player6,LeaveAreaLUA("AR0020","",[620.595],0))
+    ActionOverride("GFALCON",EscapeArea())
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

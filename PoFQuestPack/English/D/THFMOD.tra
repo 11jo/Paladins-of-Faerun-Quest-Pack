@@ -1,0 +1,20 @@
+@0 = ~ Greetings to you. My name is Toise Horster and I work for Aran. I heard about you, and I know that you travel a lot. Can I offer you a profitable business? ~
+@1 = ~ And what is it? ~
+@2 = ~ There are 3 valuable items, they are magical and very powerful. If you find them, bring them to me. I am ready to pay 10,000 gold for each of them. ~
+@3 = ~ Do you know where these items are? ~
+@4 = ~ Do you think I would ask something like that, if I knew where they are? But fortunately, their search can be simplified a little. One of those rare relics should be right here in Atkatla, the second somewhere in the south in the Kalimport region, and the third, I don’t even know where it is. One old friend of mine seems to have seen her at a merchant in Neverwinter. So I would advise looking for her somewhere on the coast of Swords. ~
+@5 = ~ I will look for these Toyce relics. If I find something, I’ll be back here. ~
+@6 = ~ 3 relics.
+
+One is in Atkatla, the second is somewhere in the Kalimport area, and the third is on the coast of Swords. If I find these relics, Toise Horster in Atkatl will pay me 10,000 gold for each of them. You can also leave them to yourself. Such powerful relics can be very useful. ~
+@7 = ~ I'm not interested. Goodbye. ~
+@8 = ~ 3 relics.
+
+Task failed. ~
+@9 = ~ Have you found a relic in Atkatla? ~
+@10 = ~ Yes, there she is. ~
+@11 = ~ Yes, but I will leave it to myself. ~
+@12 = ~ Have you found a relic in the south? ~
+@13 = ~ Have you found a relic on the coast of Swords? ~
+@14 = ~ Have you found anything for me? ~
+@15 = ~ Not yet. ~

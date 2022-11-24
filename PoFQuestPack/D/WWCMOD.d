@@ -1,0 +1,67 @@
+BEGIN ~WWCMOD~
+
+IF ~Global("s#WWCMOD","GLOBAL",0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN REPLY @3 GOTO 2
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @4
+  IF ~~ THEN REPLY @5 GOTO 3
+  IF ~~ THEN REPLY @6 GOTO 4
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @7
+  IF ~~ THEN REPLY @6 GOTO 4
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @8
+  IF ~~ THEN REPLY @9 GOTO 5
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @10
+  IF ~~ THEN REPLY @11 GOTO 6
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @12
+  IF ~~ THEN REPLY @13 GOTO 7
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @14
+  IF ~~ THEN REPLY @15 DO ~SetGlobal("s#WWCMOD","GLOBAL",1)~ 
+UNSOLVED_JOURNAL @16 EXIT
+END
+
+IF ~Global("s#WWCMOD","GLOBAL",1) !Dead("BARB1MOD")~ THEN BEGIN 8
+  SAY @17
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("s#WWCMOD","GLOBAL",1) Dead("BARB1MOD")~ THEN BEGIN 9
+  SAY @18
+  IF ~~ THEN DO ~SetGlobal("s#WWCMOD","GLOBAL",2)
+GiveItemCreate("MISC07",Player1,5000,0,0)
+EraseJournalEntry(@19)
+EraseJournalEntry(@20)
+EraseJournalEntry(@21)
+EraseJournalEntry(@16)
+EraseJournalEntry(@22)
+SetQuestDone(@23)
+AddExperienceParty(10000)~ 
+UNSOLVED_JOURNAL @24 EXIT
+END
+
+IF ~Global("s#WWCMOD","GLOBAL",2)~ THEN BEGIN 10
+  SAY @25
+  IF ~~ THEN EXIT
+END

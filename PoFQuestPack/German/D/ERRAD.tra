@@ -1,0 +1,16 @@
+@1 = ~Hey, wer seid Ihr? Ich brauche Hilfe.~
+@2 = ~Ich bin <CHARNAME>, und wer seid Ihr? Was braucht Ihr?~
+@3 = ~Mein Name ist Errad, ich bin gefangen... Ich habe versucht, aus diesem Gefängnis zu fliehen, wenn man es so nennen kann, aber ich wurde verletzt... Die Kerkermeister suchten nach mir, <CHARNAME>, ich weiß, ich habe nicht die Kraft, mit ihnen fertig zu werden... Ich brauche den Schlüssel für das Portal... Eine der Wachen hat den Schlüssel. Könnt Ihr ihn für mich finden?~
+@4 = ~Ja, ich kann versuchen, ihn zu finden... Wir können zusammen hier rauskommen... Seid Ihr einverstanden, Errad?~
+@5 = ~Gut, lasst uns ihn zusammen finden...~
+@6 = ~Hilf einem Gefangenen.
+
+Ich habe einen verwundeten Gefangenen getroffen, der versucht hat, hier rauszukommen. Er sagte mir, dass die Wachen nach ihm suchen und dass einer von ihnen einen Schlüssel hat, der das Portal zur Oberfläche aktiviert. Ich muss ihn finden... Vielleicht ist das der Weg nach draußen.~
+@7 = ~Hat Ihr den Schlüssel, können wir hier raus?~
+@8 = ~Noch nicht...~
+@9 = ~Ja, ich habe ihn, Errad...~
+@10 = ~Danke Freund, leider nur ein Schlüssel pro Person, auf Wiedersehen und danke für Eure Hilfe...~ ~Danke Freundin, leider nur ein Schlüssel pro Person, auf Wiedersehen und danke für Eure Hilfe...~
+@11 = ~Hilf einem Gefangenen.
+
+Ich fand den Schlüssel und gab ihn Errad, aber er erfüllte unseren Vertrag nicht und verschwand alleine im Portal.~
+@12 = ~Warte, Ihr habt versprochen, dass wir hier gemeinsam rauskommen! Ihr seid ein Lügner, ich werde Euch finden...~

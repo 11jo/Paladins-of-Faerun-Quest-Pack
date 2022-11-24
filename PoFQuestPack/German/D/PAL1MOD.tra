@@ -1,0 +1,13 @@
+@0 = ~Seid Ihr derjenige namens <CHARNAME>?!~ ~Seid Ihr diejenige namens <CHARNAME>?!~
+@1 = ~Und wer genau seid Ihr?~
+@2 = ~Ich bin ein Paladin und der Anführer einer Karawane aus Osthafen. Das Ziel unserer Expedition war ein magischer Stein, dank dessen Ihr unseren Helden wieder zum Leben erwecken könnt, vielleicht habt ihr ja von ihm gehört. Es ist Hrothgar aus Osthafen. Wir fanden den magischen Stein, aber sobald wir ihn benutzten, erschien ein Dämon und verschlang Hrothgar. Wir müssen diesen Dämon loswerden und unseren Helden befreien.~
+@3 = ~Und wozu genau braucht Ihr <CHARNAME>?~
+@4 = ~Unterwegs habe ich viele Geschichten über ihn und seine Gruppe gehört. Ich glaube, dass er uns helfen kann. Habt Ihr schon von ihm gehört?~ ~Unterwegs habe ich viele Geschichten über sie und ihre Gruppe gehört. Ich glaube, dass sie uns helfen kann. Habt Ihr schon von ihr gehört?~
+@5 = ~Ja, ich bin <CHARNAME>. Ich werde Euch helfen, mit dem Dämon fertig zu werden und Hrothgar zu befreien.~
+@6 = ~Hrothgar.
+
+Der Paladin aus Tiefwasseer bat mich um Hilfe. Es ist notwendig, den bereits verstorbenen Helden aus Osthafen zu retten. Sein Name ist Hrothgar und seine Anhänger haben einen Weg gefunden, ihn wieder zum Leben zu erwecken. Aber leider wurde die Situation plötzlich kompliziert und ein Dämon erschien anstelle von Hrothgar. Wenn Ihr den Dämon tötet, wird Hrothgar wieder unter den Lebenden weilen.~
+@7 = ~Es tut mir wirklich leid, aber glaube den Gerüchten nicht. Lebt wohl.~
+@8 = ~Hrothgar.
+
+Mission abgelehnt.~

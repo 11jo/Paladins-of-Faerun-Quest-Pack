@@ -1,0 +1,35 @@
+IF
+  OnCreation()
+  Global("EnteredPF0324","PF0324",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0324","PF0324",1)
+    ClearAllActions()
+    Explore()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(4)
+    DisplayString("YARPEN",@0)  // @0
+    Wait(4)
+    DisplayString("QUARMOD",@1)  // @1
+    Wait(4)
+    ActionOverride("YARPEN",MoveToPoint([360.471]))
+    ActionOverride("SLAINE",Attack("YARPEN"))
+    Wait(4)
+    ScreenShake([20.20],20)
+    ForceSpell("YARPEN",DRYAD_TELEPORT)
+    ForceSpell("QUARMOD",DRYAD_TELEPORT)
+    Wait(2)
+    ActionOverride("Slaine",Face(0))
+    Wait(1)
+    DisplayString("SLAINE",@2)  // @2
+    Wait(8)
+    DisplayString("SLAINE",@3)  // @3
+    Wait(8)
+    RevealAreaOnMap("PF0058")
+    EscapeArea()
+    Wait(4)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

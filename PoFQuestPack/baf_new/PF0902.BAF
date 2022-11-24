@@ -1,0 +1,53 @@
+IF
+  OnCreation()
+  Global("EnteredPF0902","PF0902",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0902","PF0902",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Explore()
+    Wait(4)
+    CreateCreature("ESUDMOD",[647.667],0)  // ~Удоррил~
+    CreateCreature("PAL1MOD",[809.673],0)  // ~Паладин~
+    ClearAllActions()
+    Wait(2)
+    ActionOverride(Player1,MoveToPoint([613.777]))
+    ActionOverride(Player2,MoveToPoint([671.798]))
+    ActionOverride(Player3,MoveToPoint([744.809]))
+    ActionOverride(Player4,MoveToPoint([560.792]))
+    ActionOverride(Player5,MoveToPoint([643.838]))
+    ActionOverride(Player6,MoveToPoint([717.867]))
+    ActionOverride("PAL1MOD",Attack("ESUDMOD"))
+    ActionOverride("ESUDMOD",Attack("PAL1MOD"))
+    Wait(9)
+    ActionOverride("PAL1MOD",PlayDead(165))
+    Wait(2)
+    Kill("PAL1MOD")
+    DisplayStringHead("ESUDMOD",@0)  
+    Wait(4)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  Global("Reveal0902","PF0902",0)
+  Dead("ESUDMOD")  // ~Удоррил~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0902","PF0902",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Explore()
+    Wait(2)
+    CreateCreature("HROTHMOD",[809.673],0)  // ~Хротгар~
+    Wait(5)
+    DisplayStringHead("HROTHMOD",@1)  
+    Wait(5)
+    ActionOverride("HROTHMOD",EscapeArea())
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

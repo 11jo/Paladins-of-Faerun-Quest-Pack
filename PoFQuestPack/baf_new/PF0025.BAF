@@ -1,0 +1,111 @@
+IF
+  OnCreation()
+  Global("EnteredPF0025","PF0025",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0025","PF0025",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    PlaySound("MUS3MOD")
+    Wait(2)
+    DisplayStringHead(Player1,@0)  // @0
+    Wait(4)
+    CreateCreature("YARPPMOD",[2140.810],0)  // ~Моряк Градакова~
+    CreateCreature("YARPPMOD",[2112.871],0)  // ~Моряк Градакова~
+    ClearAllActions()
+    Wait(2)
+    Wait(1)
+    CreateCreature("YARPINW",[1702.2024],0)  // ~Градаковский воин~
+    CreateCreature("YARPINW",[1703.2134],0)  // ~Градаковский воин~
+    CreateCreature("YARPINW",[2082.2103],0)  // ~Градаковский воин~
+    CreateCreature("YARPINW",[740.1954],0)  // ~Градаковский воин~
+    CreateCreature("YARPINW",[494.815],0)  // ~Градаковский воин~
+    CreateCreature("YARPINW",[379.897],0)  // ~Градаковский воин~
+    CreateCreature("YARPINA",[1745.1813],0)  // ~Южный лучник~
+    CreateCreature("YARPINA",[2241.1816],0)  // ~Южный лучник~
+    CreateCreature("YARPINA",[699.767],0)  // ~Южный лучник~
+    CreateCreature("YARPINA",[373.966],0)  // ~Южный лучник~
+    ClearAllActions()
+    ActionOverride("YARPINW",Attack("IWDGMOD"))
+    Wait(1)
+    ActionOverride("IWDGMOD",Attack("YARPINW"))
+    ActionOverride(Player1,LeaveAreaLUA("PF0025","",[548.938],0))
+    Wait(8)
+    Wait(4)
+    ScreenShake([20.20],20)
+    Wait(3)
+    CreateCreature("YARPINA",[1374.1756],0)  // ~Южный лучник~
+    CreateCreature("YARPINA",[495.2204],0)  // ~Южный лучник~
+    CreateCreature("YARPINW",[613.1811],0)  // ~Градаковский воин~
+    CreateCreature("YARPINW",[890.598],0)  // ~Градаковский воин~
+    CreateCreature("YARPINW",[1775.494],0)  // ~Градаковский воин~
+    ClearAllActions()
+    Wait(8)
+    CreateCreature("YARPICP",[497.993],0)  // ~Командир Градакова~
+    ClearAllActions()
+    Wait(4)
+    CreateCreature("DWAMOD",[1740.962],0)  // ~Гном воин~
+    CreateCreature("DWAMOD",[1806.1530],0)  // ~Гном воин~
+    CreateCreature("DWAMOD",[2008.1517],0)  // ~Гном воин~
+    CreateCreature("DWAMOD",[1567.1996],0)  // ~Гном воин~
+    CreateCreature("DWAMOD",[1356.1896],0)  // ~Гном воин~
+    CreateCreature("DWAMOD",[662.1913],0)  // ~Гном воин~
+    CreateCreature("DWAMOD",[777.1422],0)  // ~Гном воин~
+    CreateCreature("DWAMOD",[1032.1990],0)  // ~Гном воин~
+    ClearAllActions()
+    ActionOverride(Player1,LeaveAreaLUA("PF0025","",[1062.2209],8))
+    Wait(6)
+    DisplayStringHead(Player1,@1)  // @1
+    Wait(6)
+    ActionOverride(Player1,LeaveAreaLUA("PF0025","",[2317.899],8))
+    Wait(2)
+    UnhideGUI()
+    EndCutSceneMode()
+    //Wait(1)
+    //TextScreen("SCEN4MOD")
+END
+
+IF
+  Global("RevealArea","PF0025",0)
+  Dead("YARPICP")  // ~Командир Градакова~
+THEN
+  RESPONSE #100
+    SetGlobal("RevealArea","PF0025",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(3)
+    CreateCreature("YARPEN",[225.282],8)  // ~Градак~
+    CreateCreature("SLAINE",[219.196],0)  // ~Графалкон~
+    ActionOverride(Player1,LeaveAreaLUA("PF0025","",[274.127],0))
+    Wait(4)
+    DisplayString("YARPEN",@2)  // @2
+    Wait(4)
+    DisplayString("SLAINE",@3)  // @3
+    Wait(4)
+    DisplayString("YARPEN",@4)  // @4
+    Wait(4)
+    DisplayString("SLAINE",@5)  // @5
+    Wait(4)
+    DisplayString("YARPEN",@6)  // @6
+    Wait(4)
+    DisplayString("SLAINE",@7)  // @7
+    Wait(4)
+    ActionOverride("Yarpen",Attack("Slaine"))
+    Wait(1)
+    ActionOverride("SLAINE",Attack("Yarpen"))
+    Wait(6)
+    ClearAllActions()
+    Wait(2)
+    DisplayString("Yarpen",@8)  // @8
+    Wait(4)
+    DisplayString("SLAINE",@9)  // @9
+    Wait(4)
+    ActionOverride("Yarpen",EscapeArea())
+    ActionOverride("SLAINE",EscapeArea())
+    Wait(2)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

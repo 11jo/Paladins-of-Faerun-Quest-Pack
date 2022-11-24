@@ -1,0 +1,55 @@
+IF
+  Global("Reveal0064","PF0064",0)
+  Dead("BMTN3MOD")  // ~Воришка~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0064","PF0064",1)
+    StartCutSceneMode()
+    HideGUI()
+    CreateCreature("WWCMOD",[2712.2879],0)  // ~Капитан~
+    ActionOverride("WWCMOD",MoveToPoint([2934.2832]))
+    Wait(5)
+    DisplayStringHead("WWCMOD",@0)  
+    Wait(5)
+    Kill(Player1)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  OnCreation()
+  PartyHasItem("LSMOD")  // ~Карта местности~
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    Explore()
+    HideGUI()
+    TakePartyItem("LSMOD")
+    StartCutSceneMode()
+    CreateCreature("CLC1MOD",[1055.2238],0)  // ~Священник Цирика~
+    CreateCreature("CLC2MOD",[1106.2317],0)  // ~Верховный священник Цирика~
+    ActionOverride("CLC1MOD",MoveToPoint([795.2338]))
+    ActionOverride("CLC2MOD",MoveToPoint([838.2399]))
+    Wait(6)
+    DisplayStringHead("CLC2MOD",@1)  
+    Wait(10)
+    DisplayStringHead("CLC2MOD",@2)  
+    Wait(10)
+    DisplayStringHead(Player1,@3) 
+    Wait(5)
+    EraseJournalEntry(@4)  
+    EraseJournalEntry(@5)  
+    EraseJournalEntry(@6)  
+    AddexperienceParty(5000)
+    AddJournalEntry(@7,QUEST)
+    RevealAreaOnMap("PFKAR2")
+    ActionOverride(Player2,LeaveAreaLUA("PFKAR2","",[705.266],2))
+    ActionOverride(Player1,LeaveAreaLUA("PFKAR2","",[706.201],2))
+    ActionOverride(Player3,LeaveAreaLUA("PFKAR2","",[781.233],2))
+    ActionOverride(Player4,LeaveAreaLUA("PFKAR2","",[866.317],2))
+    ActionOverride(Player5,LeaveAreaLUA("PFKAR2","",[881.401],2))
+    ActionOverride(Player6,LeaveAreaLUA("PFKAR2","",[938.304],2))
+    EndCutSceneMode()
+    UnhideGUI()
+END
+

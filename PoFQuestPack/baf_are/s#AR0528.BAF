@@ -1,0 +1,11 @@
+
+IF
+  Global("S#setAR0528","AR0528",0)
+THEN
+  RESPONSE #100
+    CreateCreature("PASMOD",[407.235],2)
+    CreateCreature("PASMOD",[509.330],2)
+    CreateCreature("PASTMOD",[494.266],2)
+    SetGlobal("S#setAR0528","AR0528",1)
+END
+

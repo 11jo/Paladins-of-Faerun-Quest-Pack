@@ -1,0 +1,52 @@
+@0 = ~ <CHARNAME>, greetings, my friend! Unfortunately, our meeting took place under unfavorable circumstances for me! ~
+@1 = ~ Do we know each other? Why did you send for me? ~
+@2 = ~ <CHARNAME>, we don’t know each other, but I knew Gorayon well, he was my friend. Why did I send for you? I need help and I can’t rely on ordinary mercenaries. I heard that you are in the city and took the opportunity. ~
+@3 = ~ Who exactly are you? You have great security. ~
+@4 = ~ I am one of the six trading kings ruling Amn. ~
+@5 = ~ Ah, I had no idea about this. It's a great honor to me, sir. ~
+@6 = ~ "Sir" is not necessary, <CHARNAME>. I will introduce you to my problem and ask you to help me. ~
+@7 = ~ I listen to you carefully. ~
+@8 = ~ Recently, a group of unknowns, possibly someone’s agents, kidnapped my daughter. My daughter is involved in a political conflict in the nearby islands. The High Queen confronts her own son, who has teamed up with the northerners. For many years, there has been a dispute between them over the domination of the islands. Atkutla supplied the queen and her army with resources and weapons through my daughter. Everything was in complete secrecy. But the prince somehow found out about it, and now my daughter has been abducted. I ask you to proceed to the islands and return my daughter. Do you have the courage to complete this task? Of course, the reward will be generous. ~
+@9 = ~ Yes, I will try to get your daughter back. How to get there? ~
+@10 = ~ Unfortunately I don’t have time for this now. Maybe later. ~
+@11 = ~ Sorry <CHARNAME>, but I can't wait. It's about saving my daughter. I will have to entrust this to someone else. Goodbye. ~
+@12 = ~ Abduction and politics.
+
+Task failed. ~
+@13 = ~ At the docks you will have access to one of my merchant ships. Talk to the captain of the ship. Here is my permission. Good luck. ~
+@14 = ~ Goodbye. ~
+@15 = ~ Abduction and politics.
+
+The daughter of the trading king Atkatla was kidnapped. Your task is to find her on the islands where she was abducted. A merchant ship awaits you at the docks. ~
+@16 = ~ You are here alone, but I do not see my daughter, what does this mean, <CHARNAME>? ~
+@17 = ~ Unfortunately your daughter is dead. I was unable to save her. ~
+@18 = ~ Why? What happened? ~
+@19 = ~ She found herself embroiled in a political conflict in the Moonlight, giving her life for it. But thanks to her, this conflict could be resolved. You can be proud of her sir. ~
+@20 = ~ I hope that apart from this decision, nothing could be done. I have a reward for your efforts here. By the way, some old man left a map of his elven city here, he wanted you to go there. ~
+@21 = ~ I'm really sorry about what happened to your daughter. ~
+@22 = ~ Atkutla.
+
+I met a messenger, I am looking for one high-ranking person, I can find him in a shopping area. I need to check it out. ~
+@23 = ~ Abduction and politics.
+
+I met a prince competing with his mother for political power in the Moonlight. I hope the king’s daughter wasn’t dragged into the conflict by force. The time has come to find his mother and talk to her. ~
+@24 = ~ Abduction and politics.
+
+I killed the prince’s mother ~
+@25 = ~ Abduction and politics.
+
+I helped the prince become the ruler of the Moonlight, and also found the daughter of a merchant king. ~
+@26 = ~ Abduction and politics.
+
+I made several wrong decisions and therefore the king’s daughter had to die. She knew too much. ~
+@27 = ~ Daughter told me everything <CHARNAME>! I don’t understand how you could have done that. ~
+@28 = ~ What exactly? ~
+@29 = ~ You killed the High Queen of the Moonlight and helped the greatest tyrant come to power! ~
+@30 = ~ Maybe I made the wrong decision, but there was a choice, either she or he. I chose a prince. But my task was to save your daughter, and I did it. ~
+@31 = ~ So you don’t understand anything, <CHARNAME>? All this was planned by her son, it was a trap. He kept my daughter captive all this time. He waited a while to find someone who would help him get rid of his mother. You did exactly what he wanted! And I thought I knew you. Get out of my house. Although wait a bit, I almost forgot. Some old man left a map of his elven city here, he wanted you to go there. ~
+@32 = ~ Abduction and politics.
+
+I killed the prince’s mother ~
+@33 = ~ Abduction and politics.
+
+I helped the Moonlight prince come to power and returned the daughter of merchant king Amn. The king kicked me out because he didn’t like the decision I made in the Moonlight. ~

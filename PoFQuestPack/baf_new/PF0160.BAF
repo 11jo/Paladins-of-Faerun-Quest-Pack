@@ -1,0 +1,34 @@
+IF
+  OnCreation()
+  Global("EnteredAreaPF0160","PF0160",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredAreaPF0160","PF0160",1)
+    StartCutSceneMode()
+    ClearAllActions()
+    HideGUI()
+    CreateCreature("GRADAK",[3299.2183],10)  // ~Градак~
+    CreateCreature("RWMOD",[3365.2156],2)  // ~Красный маг~
+    MoveViewPoint([473.1003],SLOW)
+    ActionOverride(Player1,MoveToPoint([3510.2272]))
+    Wait(3)
+    ActionOverride("GRADAK",EscapeArea())
+    ActionOverride("RWMOD",EscapeArea())
+    Wait(2)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  Global("Reveal0160","PF0160",0)
+  Dead("Drw1mod")  // ~Дроу~
+  Dead("Drw2mod")  // ~Дроу~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0160","PF0160",1)
+    DisplayStringHead(Player1,@0)  // @0
+    Wait(4)
+    GiveItemCreate("QI1MOD",Player1,0,0,0)  // ~Магическая реликвия~
+    AddexperienceParty(24000)
+END
+

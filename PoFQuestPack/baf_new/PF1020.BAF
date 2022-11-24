@@ -1,0 +1,84 @@
+IF
+  OnCreation()
+  Global("EnteredPF1020","PF1020",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF1020","PF1020",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    ForceSpell("PF01020",CUTSCENE_METEOR_SWARM)
+    Wait(1)
+    ClearAllActions()
+    CreateCreature("BRMOCMOD",[565.2472],0)  // ~Маргул~
+    Wait(2)
+    DisplayString("BRMOCMOD",@0)  // @0
+    Wait(4)
+    DisplayString("BRMOCMOD",@1)  // @1
+    Wait(4)
+    DisplayString(Player1,@2)  // @2
+    Wait(4)
+    DisplayString("BRMOCMOD",@3)  // @3
+    Wait(4)
+    DisplayString("BRMOCMOD",@4)  // @4
+    Wait(2)
+    CreateCreature("BRMOMOD",[362.2419],0)  // ~Брат монахов~
+    CreateCreature("BRMILMOD",[662.2549],0)  // ~Хранитель братства~
+    CreateCreature("BRMILMOD",[678.2050],0)  // ~Хранитель братства~
+    CreateCreature("BRMILMOD",[993.2175],0)  // ~Хранитель братства~
+    ClearAllActions()
+    Wait(2)
+    ForceSpell("BRMOCMOD",DRYAD_TELEPORT)
+    Wait(2)
+    EndCutSceneMode()
+    Wait(1)
+    UnhideGUI()
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    PlaySound("lrscrn4")
+    Wait(4)
+    CreateCreature("MILMOD",[558.2593],0)  // ~Милиция~
+    CreateCreature("MILMOD",[658.2641],0)  // ~Милиция~
+    CreateCreature("MILMOD",[477.2432],0)  // ~Милиция~
+    CreateCreature("MILMOD",[458.2477],0)  // ~Милиция~
+    CreateCreature("MILMOD",[587.2542],0)  // ~Милиция~
+    ClearAllActions()
+    Wait(2)
+    DisplayString("MILMOD",@5)  // @5
+    Wait(4)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF  Global("s#PF1020","PF1020",0)
+  PartyHasItem("MRBOMOD")
+THEN
+  RESPONSE #100
+    SetGlobal("s#PF1020","PF1020",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(4)
+    DisplayString("Player1",@6)
+    Wait(4)
+ForceSpell(Player1,DRYAD_TELEPORT)
+ActionOverride(Player1,LeaveAreaLUA("PF0720","",[1000.750],0))
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+
+
+
+
+
+
+
+
+
+
+
+

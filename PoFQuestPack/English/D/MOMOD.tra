@@ -1,0 +1,16 @@
+@0 = ~ I wish you a good day adventurer. You definitely miss adventure, am I right? ~
+@1 = ~ Do you know anything interesting? ~
+@2 = ~ I don’t know who you are and what you need, and I don’t want to know that. Goodbye old man. ~
+@3 = ~ When I was in Tethyr, I heard stories about the gnomes of the gnomes. They had problems with duergar and demons. You could make good money there. ~
+@4 = ~ After all, there are so many dwarves, why they will not send for help? ~
+@5 = ~ This is the problem, I heard that one of their leaders in the mines is very stubborn. He is afraid that he will lose his place if he sends a request for help to other dwarves. ~
+@6 = ~ Help someone who doesn’t want this? This is not interesting to me. ~
+@7 = ~ Okay, I'll try to see and maybe I can help with something. ~
+@8 = ~ Great, I marked on the map where the gnome mines are located. I wish you good luck. ~
+@9 = ~ See you soon. ~
+@10 = ~ Mine.
+
+In the slums, I came across a traveler who heard some rumors about problems in the dwarf mines in Tethyr. I could try to help them. ~
+@11 = ~ Maybe you change your mind? ~
+@12 = ~ Yes, show me where the mines are located, I will try to help with something. ~
+@13 = ~ No, I lost interest in something. ~

@@ -1,0 +1,10 @@
+IF
+  Global("Reveal8201","PF8201",0)
+  HPLT("HSRMOD",20)  // ~Рейнджер~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal8201","PF8201",1)
+    ClearAllActions()
+    ActionOverride("HSRMOD",StartDialogue("HSR2MOD",Player1))
+END
+

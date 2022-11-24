@@ -1,0 +1,7 @@
+@0 = ~Ihr sagtet, Ihr wollt mit mir reden, Khalid. Also, was passt Euch nicht? Mögt Ihr Eure Zelle nicht?~
+@1 = ~Nein, ich will wissen, was ihr von uns Elfen wollt? Warum werden wir gefangen gehalten, und warum braucht Ihr unseren Freund <CHARNAME>?~ ~ Nein, ich will wissen, was ihr von uns Elfen wollt? Warum werden wir gefangen gehalten, und warum braucht Ihr unsere Freundin <CHARNAME>?~
+@2 = ~Haha, Ihr seid nur ein Spielball in meinem Spiel. Ich werde Euch töten, sobald ich Macht von <CHARNAME> erhalte. Er versteht nicht, welche zerstörerische Kraft in ihm steckt. Ich habe eine Menge, und ich will über ganz Faerûn herrschen. Kontrolle! Foltert ihn mehr und mehr, er muss uns etwas Nützliches sagen, und dann tötet ihn und die anderen, die nächste wird das Mädchen Imoen sein.~ ~ Haha, Ihr seid nur ein Spielball in meinem Spiel. Ich werde Euch töten, sobald ich Macht von <CHARNAME> erhalte. Sie versteht nicht, welche zerstörerische Kraft in ihr steckt. Ich habe eine Menge, und ich will über ganz Faerûn herrschen. Kontrolle! Foltert sie mehr und mehr, sie muss uns etwas Nützliches sagen, und dann tötet sie und die anderen, die nächste wird das Mädchen Imoen sein.~
+@3 = ~Ja, Herr. So wird es sein, Herr.~
+@4 = ~(Ich muss <CHARNAME> schnell finden, armer Khalid, vielleicht kann er sich ein wenig Zeit nehmen, wo kann <CHARNAME> sein?)~
+@5 = ~Ich werde mich nicht von Euch foltern lassen, ich bin Khalid, ein Elfenkrieger, zu den Waffen!~
+@6 = ~Nein, ich muss hier raus, ich hoffe, die anderen sind noch am Leben, ich muss sie retten!~

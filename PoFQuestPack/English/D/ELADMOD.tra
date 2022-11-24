@@ -1,0 +1,21 @@
+@1 = ~ Hmm, strangers in my house, what do you need from the old elf? ~
+@2 = ~ The door was open, I thought someone burst in, I'm already leaving. ~
+@3 = ~ You are back, want to find out where the forest is? ~
+@4 = ~ Yes, elf. ~
+@5 = ~ No, wait ... You're an adventurer, aren't you? ~
+@6 = ~ Yes, it is, but what's the matter? ~
+@7 = ~ Yes, there is something, I would like to find out what is happening in the Turlan forest not far from here. ~
+@8 = ~ Turlan forest? I have never heard of him. Where is he and what is special about him? ~
+@9 = ~ The Turlan Forest is not far north of here. Just keep heading north. What is special about him is that for some time he has been hidden in a dark fog. Already five adventurers went there to find out what was the matter and did not return. If you find out and find out what's going on there, get a decent reward. ~
+@10 = ~ Turlan forest.
+
+An elf named Eladriel told me about a mysterious forest near Neverwinter, he wants me to find a source of dark fog that envelops the forest. ~
+@11 = ~ Okay, we'll find out what it is. ~
+@12 = ~ Now I don’t have time, I will come back later. ~
+@13 = ~ Great, brilliant work, I saw when the fog around the forest disappeared. So what was that? ~
+@14 = ~ In the dungeon under the forest, the Lord of the undead hid. He created a magical fog around the forest, which weakened people and strengthened dark creatures. They hunted them, and then with the help of magic they turned their own kind into themselves. I stopped all this and the forest is safe again. ~
+@15 = ~ Thank you stranger, as I promised, here is something for you. When I was young, like you traveled a lot. Take this sword, it saved my life many times. I don't need him anymore. Well, I need to go do my own thing. Bye. ~
+@16 = ~ Turlan forest.
+
+Eladriel was pleased and gave me his sword. ~
+@17 = ~ Thank you, elf. ~

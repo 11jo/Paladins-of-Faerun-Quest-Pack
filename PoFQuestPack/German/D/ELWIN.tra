@@ -1,0 +1,26 @@
+@1 = ~Ihr seid also aufgetaucht, und ich dachte schon, Ihr würdet nicht kommen, <CHARNAME>. Mein Name ist Alvin, ich bin der Abgesandte des Rates der Magier, aus der Nähe der Schneeberge.~
+@2 = ~Rat der Magier? Was ist das? Ich habe noch nie davon gehört.~
+@3 = ~Das ist nicht verwunderlich, mit Ausnahme seiner Mitglieder weiß niemand von diesem Ort. An diesem Ort treffen sich Magier, die für die Sicherheit von ganz Faerûn verantwortlich sind.~
+@4 = ~Und was habe ich damit zu tun? Wenn Ihr so mächtig seid, wie Ihr sagt, wozu braucht Ihr dann mich, einen gewöhnlichen Abenteurer?~ ~Und was habe ich damit zu tun? Wenn Ihr so mächtig seid, wie Ihr sagt, wozu braucht Ihr dann mich, eine gewöhnliche Abenteurerin?~
+@5 = ~Ihr seid kein gewöhnlicher Abenteurer, <CHARNAME>, Ihr seid der Held von Faerûn, denkt Ihr, wir wissen nichts über Euch? Der Eiserne Thron, die Gnollfestung, Baldurs Tor, der Tod Eures Bruders Sarevok, erinnert Ihr Euch daran? Ihr habt vielen Menschen in Faerûn geholfen. Für viele Städte seid Ihr ein Held. Eine eine Bedrohung für Feinde. Was die Macht angeht, so haben wir Macht, aber wir sind keine Krieger und Abenteurer, also brauchen wir Euch. Ihr wurdet für eine Aufgabe auserwählt.~ ~Ihr seid keine gewöhnliche Abenteurerin, <CHARNAME>, Ihr seid die Heldin von Faerûn, denkt Ihr, wir wissen nichts über Euch? Der Eiserne Thron, die Gnollfestung, Baldurs Tor, der Tod Eures Bruders Sarevok, erinnert Ihr Euch daran? Ihr habt vielen Menschen in Faerûn geholfen. Für viele Städte seid Ihr eine Heldin. Eine eine Bedrohung für Feinde. Was die Macht angeht, so haben wir Macht, aber wir sind keine Krieger und Abenteurer, also brauchen wir Euch. Ihr wurdet für eine Aufgabe auserwählt.~
+@6 = ~Sagtet Ihr Aufgabe? Welche andere Aufgabe?~
+@7 = ~Ihr wurdet auserwählt, das Ritual zu verteidigen, bei dem eine neue Ordnung zum Schutz von Faerûn  geschaffen wird.~
+@8 = ~Warum ich? Und warum braucht Ihr Schutz?~
+@9 = ~Sucht Euch jemand anderen, ich bin kein Wächter.~
+@10 = ~Dein Freund Elminster, wenn man ihn so nennen kann, hat dich empfohlen, und dank deiner heldenhaften Taten hat der Rat zugestimmt. Dieses Ritual ist sehr wichtig für Faerun, es wird ein sehr mächtiger Zauber durchgeführt, und derjenige, auf den es angewendet wird, wird unbesiegbar sein, kein einziger Mensch kann ihn töten, verstehst du jetzt, warum wir dich ausgewählt haben?~
+@11 = ~Das heißt, wenn etwas schief geht, soll ich ihn töten?~
+@12 = ~Du musst da sein <CHARNAME>, wenn etwas schief geht. Keiner von uns kann ihn aufhalten. Keine Magie wird ihn zerstören.~
+@13 = ~Aber ich kann wirklich nicht, ich muss den Magier finden, der Imoyen entführt hat.~
+@14 = ~Ja, aber mehr Details wirst du vor Ort von Elminster erfahren, ich bin nur ein Bote, der diese Informationen übermitteln soll.~
+@15 = ~Nun, wann muss ich dort sein? Wo ist dieser Ort?~
+@16 = ~Wenn möglich, so bald wie möglich. Die Vorbereitungen sind fast abgeschlossen, aber ohne dich wird das Ritual nicht beginnen. Zeig mir die Karte, ich werde diesen Ort markieren.~
+@17 = ~Ich werde versuchen, so schnell wie möglich dorthin zu gehen, aber ich habe eine dringende Angelegenheit.~
+@18 = ~Ich weiß, was euch beunruhigt, Imoen und Irenicus. Aber es muss warten. Ihr müsst zu diesem Ort gehen und das Ritual verteidigen.~
+@19 = ~Woher weißt du das? Weißt du, wer dieser Irenicus ist? Und wo ist Imoyen?~
+@20 = ~Ich kann dir nichts Genaues sagen, aber ich bin befugt, dir zu helfen. Ich weiß, dass ein gewisser Gaelan dich kontaktiert hat und dir für 20.000 Euro Hilfe angeboten hat. Ich denke, du solltest sein Angebot annehmen. Dies ist ein guter Ratschlag, vorausgesetzt, Ihr nehmt diese Aufgabe an.~
+@21 = ~Paladine von Faerun.
+
+Der Rat der Magier schickte einen Abgesandten zu Alvin, der ihn um Hilfe bat. Er erklärte mir, warum ich auserwählt wurde, das Ritual zu verteidigen, bei dem ein neuer Orden zur Verteidigung Faeruns gegründet werden sollte. Ich habe auch erfahren, dass sie über Irenicus und Imoen Bescheid wissen, der Rat schickt mir 20.000 für Gaelin, und damit ich Imoen zurückbringen kann, muss ich an diesen Ort gehen.~
+@22 = ~Natürlich muss ich dorthin gehen und mich persönlich bei dem Rat bedanken. Danke Alvin, ich hoffe wir sehen uns wieder. Bye.~
+@23 = ~Natürlich habe ich das erwartet, wir wissen davon, und ich bin bereit, dir zu helfen, wenn du uns hilfst.~
+@24 = ~Warum haben Sie mich gewählt?~

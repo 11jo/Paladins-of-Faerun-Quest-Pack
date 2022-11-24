@@ -1,0 +1,12 @@
+BEGIN ~HCMOD1~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN REPLY @3 DO ~Enemy()
+~ EXIT
+END

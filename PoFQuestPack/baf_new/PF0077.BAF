@@ -1,0 +1,142 @@
+IF
+  OnCreation()
+  Global("EnteredArea","PF0077",0)
+  PartyHasItem("PLETMOD")  // ~Письмо~
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredArea","PF0077",1)
+    Wait(5)
+    StartCutSceneMode()
+    HideGUI()
+    Wait(4)
+    DisplayStringHead("TWRMOD",@0)  // @0
+    Wait(5)
+    DisplayStringHead(Player1,@1)  
+    Wait(5)
+    DisplayStringHead("TWRMOD",@2)  
+    TakePartyItem("PLETMOD")
+    Wait(5)
+    DisplayStringHead("TWRMOD",@3)  
+    Wait(8)
+    ActionOverride("TWRMOD",StartDialogue("TWRMOD",Player1))
+    Wait(1)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  Global("QUEST","PF0077",0)
+  PartyHasItem("PLET1MOD")  // ~Письмо~
+THEN
+  RESPONSE #100
+    SetGlobal("QUEST","PF0077",1)
+    StartCutSceneMode()
+    Explore()
+    FadeToColor([50.50],0)
+    Wait(8)
+    Wait(4)
+    ActionOverride(Player2,LeaveAreaLUA("PF0077","",[1312.2001],12))
+    ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1535.1982],0))
+    ActionOverride(Player3,LeaveAreaLUA("PF0077","",[1330.1956],12))
+    ActionOverride(Player4,LeaveAreaLUA("PF0077","",[1582.1914],0))
+    ActionOverride(Player5,LeaveAreaLUA("PF0077","",[1388.1838],0))
+    ActionOverride(Player6,LeaveAreaLUA("PF0077","",[1542.1894],0))
+    ActionOverride(Player2,MoveToPoint([1312.2001]))
+    ActionOverride(Player4,MoveToPoint([1582.1914]))
+    Wait(9)
+    MoveViewPoint([1464.1871],INSTANT)
+    ActionOverride("TWRMOD",EscapeArea())
+    Wait(6)
+    CreateCreature("PRDMOD",[1446.2047],10)  // ~Пленник~
+    Wait(5)
+    DisplayStringHead("TWRCMOD",@4)  
+    Wait(5)
+    ActionOverride("PRDMOD",Enemy())
+    BattleSong()
+    EndCutSceneMode()
+END
+
+IF
+  PartyHasItem("PLET1MOD")  // ~Письмо~
+  Dead("PRDMOD")  // ~Пленник~
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    Wait(1)
+    DisplayStringHead("TWRCMOD",@5)  
+    Wait(8)
+    FadeToColor([80.0],0)
+    ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1042.1978],0))
+    Wait(8)
+    TakePartyItem("PLET1MOD")
+    ReputationInc(-1)
+    EndCutSceneMode()
+END
+
+IF
+  Global("Reveal0077","PF0077",0)
+  Dead("TMER7MOD")  // ~Наемник~
+  Dead("TMER8MOD")  // ~Наемник~
+  Dead("TMER9MOD")  // ~Наемник~
+  Dead("TASSMOD")  // ~Наемный убийца~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0077","PF0077",1)
+    StartCutSceneMode()
+    Wait(1)
+    CreateCreature("DRC1MOD",[961.206],14)  // ~Паладин~
+    Wait(3)
+    ActionOverride(Player1,MoveToPoint([988.236]))
+    Wait(7)
+    MoveViewPoint([988.236],INSTANT)
+    Wait(3)
+    DisplayStringHead(Player1,@6)  
+    Wait(8)
+    DisplayStringHead("DRC1MOD",@7)  
+    Wait(8)
+    HideAreaOnMap("PF0076")
+    RevealAreaOnMap("PF0078")
+    EndCutSceneMode()
+END
+
+IF
+  Global("Reveal0077","PF0077",1)
+  PartyHasItem("BSWORD09")  // ~Рунический меч-бастарда~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0077","PF0077",2)
+    StartCutSceneMode()
+    ActionOverride("DRC1MOD",MoveToPoint([1747.501]))
+    ActionOverride("FLMOD",MoveToPoint([1825.515]))
+    Wait(15)
+    ActionOverride("DRC1MOD",Face(0))
+    ActionOverride("FLMOD",Face(0))
+    Wait(1)
+    DisplayStringHead(Player1,@8)  
+    Wait(8)
+    DisplayStringHead("DRC1MOD",@9)  
+    Wait(10)
+    ActionOverride("DRC1MOD",EscapeArea())
+    ActionOverride("FLMOD",EscapeArea())
+    HideAreaOnMap("PF0076")
+    HideAreaOnMap("PF0078")
+    EraseJournalEntry(@10)  
+    EraseJournalEntry(@11)  
+    EraseJournalEntry(@12)  
+    EraseJournalEntry(@13)  
+    EraseJournalEntry(@14) 
+    ReputationInc(1)
+    SetQuestDone(@15)  
+    EndCutSceneMode()
+END
+
+IF
+  Global("DEAD","PF0077",0)
+  Dead("WAR01MOD")  // ~Солдат~
+  Dead("WAR02MOD")  // ~Солдат~
+THEN
+  RESPONSE #100
+    SetGlobal("DEAD","PF0077",1)
+    ActionOverride("DR01MOD",StartDialogue("DR01MOD",Player1))
+END
+

@@ -1,0 +1,76 @@
+IF
+  OnCreation()
+  Global("EnteredPF0639","PF0639",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0639","PF0639",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Explore()
+    Wait(1)
+    MoveViewPoint([660.459],SLOW)
+    ActionOverride(Player2,MoveToPoint([591.453]))
+    ActionOverride(Player1,MoveToPoint([660.459]))
+    ActionOverride(Player3,MoveToPoint([458.467]))
+    ActionOverride(Player4,MoveToPoint([510.515]))
+    ActionOverride(Player5,MoveToPoint([756.522]))
+    ActionOverride(Player6,MoveToPoint([784.486]))
+    Wait(15)
+    DisplayStringHead(Player1,@0)  
+    Wait(5)
+    DisplayStringHead("MITRMOD",@1)  
+    Wait(4)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  Global("Reveal0639","PF0639",0)
+  Dead("NORUMOD")  // ~Личная охрана~
+  Dead("NORU1MOD")  // ~Личная охрана~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0639","PF0639",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    CreateCreature("KNIGXMOD",[660.700],0)  // ~Рыцарь~
+    CreateCreature("HQMIMOD",[613.723],0)  // ~Верховная королева~
+    CreateCreature("CLELFMOD",[674.706],0)  // ~Эльф в темном~
+    Wait(2)
+    ActionOverride("HQMIMOD",MoveToPoint([619.590]))
+    ActionOverride("KNIGXMOD",MoveToPoint([540.565]))
+    ActionOverride("CLELFMOD",MoveToPoint([727.596]))
+    Wait(6)
+    DisplayStringHead("HQMIMOD",@2)  
+    Wait(5)
+    DisplayStringHead("HQMIMOD",@3) 
+    Wait(5)
+    FadeToColor([20.0],0)
+    Wait(15)
+    DisplayStringHead("HQMIMOD",@4)  
+    Wait(5)
+    GiveItemCreate("MS03",Player1,0,0,0)  // ~Ledova zhouba~
+    AddexperienceParty(20250)
+    GivePartyGold(5000)
+    ReputationInc(1)
+    Wait(5)
+    AddJournalEntry(@5,QUEST)
+    CreateCreature("KDMOD",[660.700],0)  // ~Дочь короля~
+    Wait(6)
+    ActionOverride(Player1,MoveToPoint([613.723]))
+    Wait(3)
+    GiveItemCreate("LETAMOD",Player1,0,0,0)  // ~Письмо~
+    DisplayStringHead(Player1,@6)  
+    Wait(5)
+    ActionOverride(Player2,LeaveAreaLUA("PF0168","",[669.314],8))
+    ActionOverride(Player1,LeaveAreaLUA("PF0168","",[801.389],8))
+    ActionOverride(Player3,LeaveAreaLUA("PF0168","",[621.376],8))
+    ActionOverride(Player4,LeaveAreaLUA("PF0168","",[604.295],8))
+    ActionOverride(Player5,LeaveAreaLUA("PF0168","",[691.469],8))
+    ActionOverride(Player6,LeaveAreaLUA("PF0168","",[906.557],8))
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

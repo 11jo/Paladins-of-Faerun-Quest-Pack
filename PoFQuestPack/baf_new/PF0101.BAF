@@ -1,0 +1,22 @@
+IF
+  Global("s#SABAT","GLOBAL",0)
+  Dead("SABAT")  // ~Священник Цирика~
+THEN
+  RESPONSE #100
+    SetGlobal("s#SABAT","GLOBAL",1) 
+    ClearAllActions()
+    StartCutSceneMode()
+    CreateCreature("SKWR4MOD",[2421.1987],4)  // ~Скелет~
+    Wait(1)
+    DisplayStringHead(Player1,@0) 
+    Wait(6) 
+    ActionOverride(Player2,LeaveAreaLUA("PF0001","",[797.518],0))
+    ActionOverride(Player1,LeaveAreaLUA("PF0001","",[831.503],0))
+    ActionOverride(Player3,LeaveAreaLUA("PF0001","",[760.503],0))
+    ActionOverride(Player4,LeaveAreaLUA("PF0001","",[775.469],0))
+    ActionOverride(Player5,LeaveAreaLUA("PF0001","",[838.458],0))
+    ActionOverride(Player6,LeaveAreaLUA("PF0001","",[805.431],0))
+    ActionOverride("SKWR4MOD",EscapeArea())
+    EndCutSceneMode()
+END
+

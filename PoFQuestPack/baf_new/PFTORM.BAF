@@ -1,0 +1,22 @@
+IF
+  OnCreation()
+  Global("EnteredAreaPFTORM","PFTORM",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredAreaPFTORM","PFTORM",1)
+    HideGUI()
+    PlaySound("MUS2MOD")
+    StartCutSceneMode()
+    Wait(2)
+    DisplayStringHead(Player1,@0)  
+    Wait(5)
+    DisplayStringHead("PRT1MOD",@1) 
+    Wait(5)
+    CreateCreature("PRTCMOD",[753.397],0)  // ~Верховный священник Торма~
+    ActionOverride("PRTCMOD",MoveToPoint([459.407]))
+    Wait(5)
+    ActionOverride("PRTCMOD",StartDialogue("PRTCMOD",Player1))
+    EndCutSceneMode()
+    UnhideGUI()
+END
+

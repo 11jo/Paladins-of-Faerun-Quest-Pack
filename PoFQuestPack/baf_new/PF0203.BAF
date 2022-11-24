@@ -1,0 +1,33 @@
+IF
+  Global("Reveal0203","PF0203",0)
+  Dead("GRAL1MOD")  // ~Граламин~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0203","PF0203",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Explore()
+    Wait(2)
+    CreateCreature("STROLMOD",[217.171],2)  // ~Старик~
+    Wait(1)
+    ActionOverride(Player1,MoveToPoint([224.256]))
+    Wait(5)
+    MoveViewPoint([217.171],INSTANT)
+    Wait(4)
+    DisplayStringHead("STROLMOD",@0)  
+    Wait(9)
+    DisplayStringHead(Player1,@1)  
+    Wait(5)
+    DisplayStringHead("STROLMOD",@2)  
+    Wait(5)
+    AddexperienceParty(4000)
+    RevealAreaOnMap("PF0080")
+    EraseJournalEntry(@3)  
+    EraseJournalEntry(@4) 
+    SetQuestDone(@5)  
+    ActionOverride("STROLMOD",StartDialogue("STROLMOD",Player1))
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

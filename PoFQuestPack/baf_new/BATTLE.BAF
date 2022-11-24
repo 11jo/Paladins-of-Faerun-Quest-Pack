@@ -1,0 +1,107 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    Explore()
+    HideGUI()
+    ClearAllActions()
+    FadeToColor([20.10],1)
+    Wait(8)
+    CreateCreature("PRDMOD",[1446.2047],10)  // ~Пленник~
+    Wait(4)
+    ActionOverride(Player2,LeaveAreaLUA("PF0077","",[1312.2001],12))
+    ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1535.1982],0))
+    ActionOverride(Player3,LeaveAreaLUA("PF0077","",[1330.1956],12))
+    ActionOverride(Player4,LeaveAreaLUA("PF0077","",[1582.1914],0))
+    ActionOverride(Player5,LeaveAreaLUA("PF0077","",[1388.1838],0))
+    ActionOverride(Player6,LeaveAreaLUA("PF0077","",[1542.1894],0))
+    ClearAllActions()
+    Wait(5)
+    MoveViewPoint([1464.1871],INSTANT)
+    ActionOverride("TWRMOD",EscapeArea())
+    Wait(6)
+    DisplayStringHead("TWRCMOD",@0)  // @0
+    Wait(5)
+    ActionOverride("PRDMOD",Enemy())
+    BattleSong()
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  PartyHasItem("PLET1MOD")  // ~Письмо~
+  Dead("PRDMOD")  // ~Пленник~
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    HideGUI()
+    Wait(1)
+    DisplayStringHead("TWRCMOD",@1)  // @1
+    FadeToColor([80.0],0)
+    Wait(5)
+    CreateCreature("PRD1MOD",[1446.2047],10)  // ~Пленник~
+    Wait(8)
+    ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1507.1986],0))
+    Wait(5)
+    DisplayStringHead("TWRCMOD",@0)  // @0
+    Wait(4)
+    ActionOverride("PRD1MOD",Enemy())
+    BattleSong()
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  PartyHasItem("PLET1MOD")  // ~Письмо~
+  Dead("PRD1MOD")  // ~Пленник~
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    HideGUI()
+    Wait(1)
+    DisplayStringHead("TWRCMOD",@1)  // @1
+    FadeToColor([80.0],0)
+    Wait(5)
+    CreateCreature("PRD2MOD",[1446.2047],10)  // ~Пленник~
+    Wait(8)
+    ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1507.1986],0))
+    Wait(5)
+    DisplayStringHead("TWRCMOD",@0)  // @0
+    Wait(4)
+    ActionOverride("PRD2MOD",Enemy())
+    BattleSong()
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  PartyHasItem("PLET1MOD")  // ~Письмо~
+  Dead("PRD2MOD")  // ~Пленник~
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    HideGUI()
+    Wait(8)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  PartyHasItem("PLET1MOD")  // ~Письмо~
+  Dead("PRD2MOD")  // ~Пленник~
+  Dead("PRD1MOD")  // ~Пленник~
+  Dead("PRDMOD")  // ~Пленник~
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    Wait(1)
+    DisplayStringHead("TWRCMOD",@2)  // @2
+    Wait(8)
+    FadeToColor([80.0],0)
+    ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1042.1978],0))
+    Wait(8)
+    ReputationInc(-1)
+    EndCutSceneMode()
+END
+

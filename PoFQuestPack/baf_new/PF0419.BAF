@@ -1,0 +1,93 @@
+IF
+  OnCreation()
+  Global("EnteredPF0419","PF0419",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0419","PF0419",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    CreateCreature("HCMOD1",[1362.927],0)  // ~јрхимаг~
+    CreateCreature("Yarpen",[1379.1089],0)  // ~√радак~
+    PlaySound("FMOD")
+    Wait(2)
+    FadeToColor([30.0],0)
+    Wait(1)
+    ActionOverride(Player1,LeaveAreaLUA("PF0419","",[1123.892],0))
+    Wait(8)
+    DisplayString("Yarpen",@0)  // @0
+    Wait(4)
+    DisplayString("HCMOD1",@1)  // @1
+    Wait(4)
+    DisplayString("Yarpen",@2)  // @2
+    Wait(8)
+    DisplayString("HCMOD1",@3)  // @3
+    Wait(4)
+    ForceSpell("YARPEN",DRYAD_TELEPORT)
+    DisplayString("HCMOD1",@4)  // @4
+    Wait(8)
+    FadeToColor([30.0],0)
+    ScreenShake([20.20],20)
+    Wait(8)
+    CreateCreature("ELVWRMOD",[902.987],10)  // ~Ёльфийский воин~
+    CreateCreature("ELVCPMOD",[986.1056],10)  // ~Ёльфийский капитан~
+    CreateCreature("ELVCLMOD",[1067.1133],10)  // ~Ёльфийский сектант~
+    CreateCreature("ELVWRMOD",[1147.1228],10)  // ~Ёльфийский воин~
+    Wait(4)
+    DisplayString("ELVCPMOD",@5)  // @5
+    Wait(4)
+    DisplayString("HCMOD1",@6)  // @6
+    Wait(4)
+    ActionOverride("ELVWRMOD",Attack("HCMOD1"))
+    ActionOverride("ELVCPMOD",Attack("HCMOD1"))
+    ActionOverride("ELVCLMOD",Attack("HCMOD1"))
+    ActionOverride("ELVWRMOD",Attack("HCMOD1"))
+    PlaySound("EFF_M23C")
+    CreateVisualEffectObject("SPROTECT","HCMOD1")
+    PlaySound("EFF_M23C")
+    Wait(1)
+    ActionOverride("HCMOD1",ForceSpell("ELVWRMOD",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
+    Wait(6)
+    CreateVisualEffectObject("SPROTECT","HCMOD1")
+    PlaySound("EFF_M23C")
+    Wait(1)
+    ActionOverride("HCMOD1",ForceSpell("ELVCPMOD",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
+    Wait(6)
+    CreateVisualEffectObject("SPROTECT","HCMOD1")
+    PlaySound("EFF_M23C")
+    Wait(1)
+    ActionOverride("HCMOD1",ForceSpell("ELVCLMOD",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
+    Wait(6)
+    CreateVisualEffectObject("SPROTECT","HCMOD1")
+    PlaySound("EFF_M23C")
+    Wait(1)
+    ActionOverride("HCMOD1",ForceSpell("SUELFMOD",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
+    Wait(6)
+    ActionOverride(Player1,LeaveAreaLUA("PF0419","",[251.1822],0))
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  Global("RevealArea0419","PF0419",0)
+  Dead("HCMOD1")  // ~јрхимаг~
+THEN
+  RESPONSE #100
+    SetGlobal("RevealArea0419","PF0419",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    FadeToColor([10.0],0)
+    CreateCreature("ELWINMOD",[1150.1095],0)  // ~Ёлвин~
+    Wait(2)
+    DisplayString("ELWINMOD",@7)  // @7
+    Wait(10)
+    RevealAreaOnMap("PF0025")
+    Wait(4)
+    ForceSpell("ELWINMOD",DRYAD_TELEPORT)
+    Wait(4)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

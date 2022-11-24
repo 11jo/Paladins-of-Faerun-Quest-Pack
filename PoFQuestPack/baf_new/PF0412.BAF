@@ -1,0 +1,27 @@
+IF
+  Global("Reveal0412","PF0412",0)
+  PartyHasItem("AMUL3")  // ~Bozsky dar~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0412","PF0412",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    Explore()
+    CreateCreature("WMLPGMOD",[1082.742],6)  // ~Ёлитный охранник~
+    Wait(4)
+    ActionOverride(Player1,MoveToPoint([993.710]))
+    MoveViewPoint([1082.742],SLOW)
+    Wait(8)
+    DisplayString("WMLPGMOD",@0)  
+    Wait(10)
+    SetQuestDone(@1)  
+    EraseJournalEntry(@2) 
+    EraseJournalEntry(@3)  
+    EraseJournalEntry(@4)  
+    EraseJournalEntry(@5)  
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

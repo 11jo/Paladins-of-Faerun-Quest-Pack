@@ -1,0 +1,87 @@
+BEGIN ~ELORMOD~
+
+IF ~Global("s#ELORMOD","GLOBAL",0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN REPLY @3 GOTO 2
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @4
+  IF ~~ THEN REPLY @5 GOTO 3
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @6
+  IF ~~ THEN REPLY @7 DO ~SetGlobal("s#ELORMOD","GLOBAL",1)~ EXIT
+  IF ~~ THEN REPLY @8 GOTO 4
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @9
+  IF ~~ THEN REPLY @10 GOTO 5
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @11
+  IF ~~ THEN REPLY @12 GOTO 6
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @13
+  IF ~~ THEN REPLY @14 GOTO 7
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @15
+  IF ~~ THEN REPLY @16 DO ~RevealAreaOnMap("PF0052")
+ActionOverride(Player2,LeaveAreaLUA("PF0052","",[683.1902],0))
+ActionOverride(Player1,LeaveAreaLUA("PF0052","",[777.1912],0))
+ActionOverride(Player3,LeaveAreaLUA("PF0052","",[665.1979],0))
+ActionOverride(Player4,LeaveAreaLUA("PF0052","",[683.2059],0))
+ActionOverride(Player5,LeaveAreaLUA("PF0052","",[798.2015],0))
+ActionOverride(Player6,LeaveAreaLUA("PF0052","",[801.1962],0))
+SetGlobal("s#ELORMOD","GLOBAL",2)~ UNSOLVED_JOURNAL @17 EXIT
+END
+
+IF ~Global("s#ELORMOD","GLOBAL",1)~ THEN BEGIN 8
+  SAY @18
+  IF ~~ THEN REPLY @19 GOTO 4
+END
+
+IF ~Global("s#ELORMOD","GLOBAL",2)
+PartyHasItem("MBMOD")~ THEN BEGIN 9
+  SAY @20
+  IF ~~ THEN REPLY @21 GOTO 10
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @22
+  IF ~~ THEN REPLY @23 DO ~EraseJournalEntry(@17)
+TakePartyItem("MBMOD")
+AddexperienceParty(10000)
+GiveItemCreate("SWORD20",Player1,0,0,0)
+~ SOLVED_JOURNAL @24 EXIT
+END
+
+IF ~Global("s#ELORMOD","GLOBAL",2)
+PartyHasItem("ZAT1MOD")~ THEN BEGIN 11
+  SAY @25
+  IF ~~ THEN REPLY @26 GOTO 12
+END
+
+IF ~~ THEN BEGIN 12
+  SAY @27
+  IF ~~ THEN REPLY @28 GOTO 13
+END
+
+IF ~~ THEN BEGIN 13
+  SAY @29
+  IF ~~ THEN DO ~TakePartyItem("ZAT1MOD")
+GiveItemCreate("ZAT2MOD",Player1,0,0,0)
+~ EXIT
+END

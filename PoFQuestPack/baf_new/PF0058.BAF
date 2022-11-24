@@ -1,0 +1,20 @@
+IF
+  OnCreation()
+  Global("EnteredPF0058","PF0058",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0058","PF0058",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(4)
+    DisplayStringHead("BARGMOD",@0)  // @0
+    Wait(6)
+    ForceSpell("BARGMOD",DRYAD_TELEPORT)
+    Wait(1)
+    CreateCreature("BARGMOD",[2377.666],2)  // ~Сторожила дороги~
+    Wait(4)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

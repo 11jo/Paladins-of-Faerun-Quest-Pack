@@ -1,0 +1,72 @@
+
+IF True()
+  Global("S#setAR0020","AR0020",0)
+THEN
+  RESPONSE #100
+    CreateCreature("s#mage1",[680.555],2)    
+    SetGlobal("S#setAR0020","AR0020",1)
+    Continue()
+END
+
+IF
+  Global("Reveal0020","AR0020",0)
+  Dead("LOFLTMOD")  // ~Лидер бродячих кинжалов~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0020","AR0020",1)
+    StartCutSceneMode()
+    ClearAllActions()
+    CreateCreature("SHTAMOD",[834.473],8)  // ~Теневой Вор~
+    Wait(1)
+    DisplayStringHead("SHTAMOD",@0)  // @0
+    Wait(5)
+    GiveItemCreate("CBOW03",Player1,0,0,0)  // ~Bleskova kuse~
+    GiveItemCreate("HAL01",Player1,0,0,0)  // ~Kamenna Halapartna~
+    Wait(2)
+    ActionOverride("SHTAMOD",EscapeArea())
+    EndCutSceneMode()
+    Continue()
+END
+
+IF
+  Global("DEADW","AR0020",0)
+  Dead("PRACMOD")  // ~Верховный священник Цирика~
+THEN
+  RESPONSE #100
+    SetGlobal("DEADW","AR0020",1)
+    StartCutSceneMode()
+    ClearAllActions()
+    CreateCreature("PRTCQMOD",[834.473],8)  // ~Верховный священник Торма~
+    Wait(1)
+    DisplayStringHead("PRTCQMOD",@1)  // @1
+    Wait(5)
+    HideAreaOnMap("PF0081")
+    RevealAreaOnMap("PF0681")
+    Wait(2)
+    ActionOverride("PRTCQMOD",EscapeArea())
+    EndCutSceneMode()
+    Continue()
+END
+
+IF
+  Global("DEADE","AR0020",0)
+  Dead("PTECMOD")  // ~Воинственный священник~
+THEN
+  RESPONSE #100
+    SetGlobal("DEADE","AR0020",1)
+    StartCutSceneMode()
+    ClearAllActions()
+    CreateCreature("CLC3MOD",[834.473],8)  // ~Верховный священник Цирика~
+    Wait(1)
+    DisplayStringHead("CLC3MOD",@1)  // @1
+    Wait(5)
+    HideAreaOnMap("PF8100")
+    RevealAreaOnMap("PF8500")
+    Wait(2)
+    ActionOverride("CLC3MOD",EscapeArea())
+    EndCutSceneMode()
+    Continue()
+END
+
+
+

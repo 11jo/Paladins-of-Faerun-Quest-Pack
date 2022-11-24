@@ -1,0 +1,114 @@
+IF
+  OnCreation()
+  Global("EnteredArea","PF1053",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredArea","PF1053",1)
+    StartCutSceneMode()
+    HideGUI()
+    Explore()
+    MoveViewObject(Player1,INSTANT)
+    Wait(2)
+    DisplayStringHead("ELWINMOD",@0)  // @0
+    Wait(7)
+    TakePartyItem("QI1MOD")
+    TakePartyItem("QI2MOD")
+    TakePartyItem("QI3MOD")
+    Wait(2)
+    DisplayStringHead(Player1,@1)  // @1
+    Wait(6)
+    ActionOverride("ELWINMOD",ForceSpell(Myself,CLERIC_CIRCLE_OF_PROTECTION))
+    Wait(7)
+    ActionOverride("ELWINMOD",ForceSpell(Player1,CLERIC_ARMOR_OF_FAITH))
+    Wait(7)
+    ActionOverride("ELWINMOD",ForceSpell(Myself,CLERIC_DRAW_UPON_HOLY_MIGHT))
+    Wait(10)
+    FadeToColor([10.0],0)
+    CreateCreature("SW1MOD",[455.596],10)  // ~Южанин~
+    CreateCreature("SW2MOD",[637.781],8)  // ~Южанин~
+    CreateCreature("SW3MOD",[827.893],8)  // ~Южанин~
+    CreateCreature("SW4MOD",[265.830],12)  // ~Южанин~
+    CreateCreature("SW5MOD",[173.396],10)  // ~Южанин~
+    PlaySound("NWN2")
+    Wait(6)
+    DisplayStringHead(Player1,@2)  // @2
+    Wait(6)
+    DisplayStringHead("ELWINMOD",@3)  // @3
+    Wait(7)
+    MoveViewObject("Cadp1mod",INSTANT)
+    Wait(1)
+    DisplayStringHead("CADP1MOD",@4)  // @4
+    Wait(2)
+    ActionOverride("CADP1MOD",Attack("SW1MOD"))
+    ActionOverride("SW1MOD",Attack("CADP1MOD"))
+    Wait(8)
+    MoveViewObject("Cadp2mod",INSTANT)
+    Wait(1)
+    DisplayStringHead("CADP2MOD",@5)  // @5
+    ActionOverride("CADP2MOD",Attack("SW2MOD"))
+    ActionOverride("SW2MOD",Attack("CADP2MOD"))
+    Wait(8)
+    MoveViewObject("Cadp3mod",INSTANT)
+    Wait(1)
+    ActionOverride("CADP3MOD",Attack("SW3MOD"))
+    ActionOverride("SW3MOD",Attack("CADP3MOD"))
+    Wait(8)
+    MoveViewObject(Player1,INSTANT)
+    Wait(4)
+    ActionOverride("ELWINMOD",ForceSpell(Player1,CLERIC_CAUSE_SERIOUS_WOUNDS))
+    Wait(1)
+    CreateVisualEffectObject("SPROTECT",Player1)
+    PlaySound("EFF_M23C")
+    Wait(3)
+    ActionOverride("ELWINMOD",ForceSpell(Player1,CLERIC_HEAL))
+    Wait(10)
+    ScreenShake([20.20],50)
+    Wait(10)
+    Wait(4)
+    DisplayStringHead("ELWINMOD",@6)  // @6
+    Wait(7)
+    AddexperienceParty(25000)
+    MoveViewObject("Cadp4mod",INSTANT)
+    Wait(1)
+    ActionOverride(Player2,Attack("SW4MOD"))
+    ActionOverride("CADP4MOD",Attack("SW4MOD"))
+    ActionOverride("SW4MOD",Attack("CADP4MOD"))
+    Wait(4)
+    ActionOverride("CADP4MOD",Kill("SW4MOD"))
+    Wait(8)
+    MoveViewObject("Cadp5mod",INSTANT)
+    Wait(1)
+    DisplayStringHead("SW5MOD",@7)  // @7
+    Wait(5)
+    ActionOverride(Player3,Attack("SW5MOD"))
+    ActionOverride("CADP5MOD",Attack("SW5MOD"))
+    ActionOverride("SW5MOD",EscapeArea())
+    Wait(8)
+    CreateCreature("MESMOD",[773.266],12)  // ~Член Совета магов~
+    MoveViewObject("ELWINMOD",INSTANT)
+    Wait(4)
+    ActionOverride("ELWINMOD",Face(4))
+    Wait(1)
+    DisplayStringHead("ELWINMOD",@8)  // @8
+    Wait(5)
+    DisplayStringHead("MESMOD",@9)  // @9
+    Wait(8)
+    Wait(1)
+    DisplayStringHead("ELWINMOD",@10)  // @10
+    Wait(6)
+    Wait(1)
+    DisplayStringHead("ELWINMOD",@11)  // @11
+    Wait(6)
+    HideAreaOnMap("PF0034")
+    RevealAreaOnMap("PF1034")
+    Wait(4)
+    EndCutSceneMode()
+    UnhideGUI()
+    ActionOverride(Player1,LeaveAreaLUA("PF1034","",[928.711],6))
+    ActionOverride(Player2,LeaveAreaLUA("PF1034","",[900.773],6))
+    ActionOverride(Player3,LeaveAreaLUA("PF1034","",[975.762],6))
+    ActionOverride(Player4,LeaveAreaLUA("PF1034","",[1059.753],6))
+    ActionOverride(Player5,LeaveAreaLUA("PF1034","",[973.831],6))
+    ActionOverride(Player6,LeaveAreaLUA("PF1034","",[1049.816],6))
+END
+

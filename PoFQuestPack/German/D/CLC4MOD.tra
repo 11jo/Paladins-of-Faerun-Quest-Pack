@@ -1,0 +1,29 @@
+@0 = ~Willkommen im Heiligtum unseres Gottes Cyric, das vor allem dank Euch, <CHARNAME>, errichtet wurde. Schön, Euch wiederzusehen.~
+@1 = ~Und ich bin froh, Hohepriester. Warum habt Ihr nach mir geschickt?~
+@2 = ~Es tut mir leid, <CHARNAME>, dass ich Euch wieder störe, aber ich habe einen Auftrag. Die Priester von Torm vergiften wieder einmal unser Leben, und in diesem Moment seid Ihr der Einzige, der uns ein für alle Mal von ihnen befreien kann.~ ~Es tut mir leid, <CHARNAME>, dass ich Euch wieder störe, aber ich habe einen Auftrag. Die Priester von Torm vergiften wieder einmal unser Leben, und in diesem Moment seid Ihr die Einzige, die uns ein für alle Mal von ihnen befreien kann.~
+@3 = ~Es tut mir wirklich leid, aber im Moment habe ich keine Zeit, für Euch zu arbeiten. Vielleicht später.~
+@4 = ~Und was ist es?~
+@5 = ~Weit nördlich von hier in den gefrorenen Ebenen liegt eine Insel, und unter ihr soll sich eine sehr wertvolle historische Schriftrolle befinden. Ein verborgenes Geheimnis über die Konfrontation zwischen Torm und Cyric. Und doch - wir haben erfahren, dass Verehrer von Torm ihre Gruppe von Abenteurern ausgesandt haben, um diese Schriftrolle zu finden.~
+@6 = ~Und was sollen wir tun, Hohepriester?~
+@7 = ~Ich brauche diese Schriftrolle. Ich gebe Euch eine Karte, die Euch zu dem Ort führt, an dem sie sich befindet.~
+@8 = ~Okay, ich werde es tun.~
+@9 = ~Ordnung und Chaos.
+
+Der Kampf geht weiter. Der Hohepriester von Cyric hat uns erneut gerufen, dieses Mal, um die verlorene Schriftrolle zu finden. Er gab uns eine Karte, die uns zum Schatz führen wird. Eine Gruppe von Schatzsuchern, die von den Priestern von Torm angeheuert wurde, machte sich ebenfalls auf die Suche nach der Schriftrolle.~
+@10 = ~Seid Ihr zurück? Wollt Ihr mir helfen?~
+@11 = ~Ja, aber was ist denn los?~
+@12 = ~Nicht jetzt, ich gehe.~
+@13 = ~Habt Ihr die Schriftrolle?~
+@14 = ~Noch nicht.~
+@15 = ~Ja, ich habe diese Schriftrolle.~
+@16 = ~Gute Arbeit. Ich hätte nicht gedacht, dass wir das alles jemals schaffen würden! Danke Cyrik! Ihr habt viel mehr getan, als Ihr Euch vorstellen könnt. Für Euren hingebungsvollen Dienst werde ich Euch diesen Gegenstand schenken und ihr könnt Euch einen dieser Segen aussuchen. Eure Wahl?~
+@17 = ~Verfassung.~
+@18 = ~Ordnung und Chaos.
+
+Mit Hilfe der Karte habt Ihr eine alte Schriftrolle gefunden. Ihr solltet jetzt zum Hohepriester zurückkehren.~
+@19 = ~Ordnung und Chaos.
+
+Der Handlungsstrang ist zu Ende. (Für die Anhänger von Cyric)~
+@20 = ~Intelligenz.~
+@21 = ~Weisheit.~
+

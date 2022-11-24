@@ -1,0 +1,54 @@
+IF
+  OnCreation()
+  Global("EnteredPF0453","PF0453",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0453","PF0453",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(4)
+    CreateCreature("YARPINW",[479.588],0)  // ~Градаковский воин~
+    ActionOverride("YARPINW",MoveToPoint([698.278]))
+    Wait(6)
+    DisplayString("YARPINW",@0)  // @0
+    Wait(5)
+    ActionOverride("YARPINW",MoveToPoint([479.588]))
+    Wait(6)
+    ActionOverride("YARPINW",EscapeArea())
+    Wait(1)
+    CreateCreature("ELWINMOD",[479.588],0)  // ~Элвин~
+    CreateCreature("GFALCON1",[479.588],0)  // ~Графалкон~
+    ActionOverride("ELWINMOD",MoveToPoint([627.262]))
+    ActionOverride("GFALCON1",MoveToPoint([743.308]))
+    Wait(5)
+    CreateCreature("YARPINW",[479.588],0)  // ~Градаковский воин~
+    CreateCreature("YARPINW1",[479.588],0)  // ~Градаковский воин~
+    ActionOverride("YARPINW",MoveToPoint([632.317]))
+    ActionOverride("YARPINW1",MoveToPoint([678.343]))
+    Wait(4)
+    DisplayString("YARPINW",@1)  // @1
+    Wait(6)
+    DisplayString("GFALCON1",@2)  // @2
+    Wait(2)
+    ActionOverride("YARPINW",Attack("GFALCON1"))
+    ActionOverride("YARPINW1",Attack("GFALCON1"))
+    ActionOverride("GFALCON1",Attack("YARPINW"))
+    Wait(5)
+    ActionOverride("GFALCON1",Kill("YARPINW"))
+    ActionOverride("GFALCON1",Attack("YARPINW1"))
+    Wait(4)
+    PlaySound("EFF_M23C")
+    ActionOverride("ELWINMOD",ForceSpell("YARPINW1",WIZARD_MAGIC_MISSILE))
+    Wait(1)
+    ActionOverride("YARPINW1",DestroySelf())
+    Wait(1)
+    DisplayString("ELWINMOD",@3)  // @3
+    Wait(9)
+    DisplayString("GFALCON1",@4)  // @4
+    Wait(8)
+    ActionOverride(Player1,LeaveAreaLUA("PF0053","",[2737.2707],0))
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

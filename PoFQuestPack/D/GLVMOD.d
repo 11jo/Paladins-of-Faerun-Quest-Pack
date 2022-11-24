@@ -1,0 +1,28 @@
+BEGIN ~GLVMOD~
+
+IF ~See(Player1) Global("s#GLVMOD","GLOBAL",0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @2
+  IF ~PartyGoldGT(1000)~ THEN REPLY @3 GOTO 2
+  IF ~!PartyGoldGT(1000)~ THEN REPLY @4 DO ~SetGlobal("s#GLVMOD","GLOBAL",1)~ EXIT
+  IF ~~ THEN REPLY @5 DO ~EscapeArea()~  EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @6
+  IF ~~ THEN REPLY @7 DO ~TakePartyGold(1000)
+RevealAreaOnMap("PF0075")  SetGlobal("s#GLVMOD","GLOBAL",2)
+EscapeArea()~ UNSOLVED_JOURNAL @8 EXIT
+END
+
+IF ~PartyGoldGT(1000)
+Global("s#GLVMOD","GLOBAL",1)~ THEN BEGIN 3
+  SAY @9
+  IF ~~ THEN REPLY @10 GOTO 2
+  IF ~~ THEN REPLY @11 DO ~EscapeArea()~ EXIT
+END
+

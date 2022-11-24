@@ -1,0 +1,59 @@
+IF
+  Global("Reveal0701","PF0701",0)
+  Dead("PALWMOD")  // ~Десница.~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0701","PF0701",1)
+    ClearAllActions()
+    Explore()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    CreateCreature("WTCHMOD",[1545.427],0)  // ~Ведьма~
+    CreateCreature("GUARMOD",[1597.369],0)  // ~Ведьма защитник~
+    CreateCreature("GUARMOD",[1517.513],0)  // ~Ведьма защитник~
+    ActionOverride(Player1,MoveToPoint([1599.546]))
+    ActionOverride(Player2,MoveToPoint([1634.504]))
+    ActionOverride(Player3,MoveToPoint([1665.462]))
+    ActionOverride(Player4,MoveToPoint([1677.558]))
+    ActionOverride(Player5,MoveToPoint([1710.521]))
+    ActionOverride(Player6,MoveToPoint([1734.470]))
+    Wait(3)
+    MoveViewPoint([1599.546],INSTANT)
+    Wait(3)
+    DisplayString("WTCHMOD",@0)  // @0
+    Wait(4)
+    DisplayString(Player1,@1)  // @1
+    Wait(5)
+    DisplayString("WTCHMOD",@2)  // @2
+    Wait(5)
+    ActionOverride("WTCHMOD",Enemy())
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  Global("Reveal0701","PF0701",1)
+  Dead("WTCHMOD")  // ~Ведьма~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0701","PF0701",2)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Explore()
+    Wait(2)
+    ScreenShake([20.20],20)
+    FadeToColor([30.0],0)
+    CreateCreature("WTCH1MOD",[1545.427],0)  // ~Ведьма~
+    ActionOverride(Player1,MoveToPoint([1599.546]))
+    Wait(3)
+    MoveViewPoint([1599.546],INSTANT)
+    Wait(1)
+    DisplayString("WTCH1MOD",@3)  // @3
+    Wait(4)
+    ActionOverride("WTCH1MOD",Enemy())
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

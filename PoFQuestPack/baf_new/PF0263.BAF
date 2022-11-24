@@ -1,0 +1,41 @@
+IF
+  OnCreation()
+  Global("EnteredArea","PF0263",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredArea","PF0263",1)
+    StartCutSceneMode()
+    DisplayStringHead("LETGMOD",@0)  
+    Wait(3)
+    EndCutSceneMode()
+END
+
+IF
+  Global("Reveal0263","PF0263",0)
+  Dead("LUSGCMOD")  
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0263","PF0263",1)
+    PlaySound("NWN1")
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Explore()
+    MoveViewPoint([3096.665],SLOW)
+    CreateCreature("s#mage2",[3030.785],0)  
+    ActionOverride(Player1,MoveToPoint([3103.650]))
+    ActionOverride("s#mage1",MoveToPoint([3073.699]))
+    Wait(6)
+    DisplayStringHead("s#mage2",@1)  
+    Wait(6)
+    UnhideGUI()
+ActionOverride(Player1,LeaveAreaLUA("PF0162","",[1298.1045],9))
+ActionOverride(Player2,LeaveAreaLUA("PF0162","",[1155.1075],0))
+ActionOverride(Player3,LeaveAreaLUA("PF0162","",[1250.1080],0))
+ActionOverride(Player4,LeaveAreaLUA("PF0162","",[1100.1100],0))
+ActionOverride(Player5,LeaveAreaLUA("PF0162","",[1200.1120],0))
+ActionOverride(Player6,LeaveAreaLUA("PF0162","",[1090.1160],0))
+DestroySelf()
+    EndCutSceneMode()
+END
+

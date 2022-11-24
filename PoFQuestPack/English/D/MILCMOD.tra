@@ -1,0 +1,46 @@
+@1 = ~ Are you looking for adventurers, or do you want to join the city guard? ~
+@2 = ~ Sorry, I seem to be mistaken at home. ~
+@3 = ~ Why do I need this? ~
+@4 = ~ You got equipment and a big fee, but then everything will depend on your experience. ~
+@5 = ~ I'm not interested, maybe another time. ~
+@6 = ~ And what is my task, captain? ~
+@7 = ~ Five people were killed last week. Your task is to find the killer and bring him to us. Here is your arrest warrant. ~
+@8 = ~ Do you have any information that would help me in my search? ~
+@9 = ~ Well, we know that the last time he was seen in a tavern in the eastern part of the city. ~
+@10 = ~ Killer.
+
+You entered the service of the city guard of the Gate of Baldur, your task is to track down the killer of 5 people. The last time a killer was seen in a tavern in the eastern part of the city. ~
+@11 = ~ Thank you, goodbye. ~
+@12 = ~ Have you found this killer? ~
+@13 = ~ Yes, I found it. A guild of thieves was hiding under the city, I climbed up with everyone, but I could not cope with their leader Artemis Entreri. I managed to injure him, and even got his weapon, but I do not think that he will escape. It seems to me that he will still be back here captain. ~
+@14 = ~ Not really. A guild of thieves was hiding under the city, I figured out everything, but I could not find their leader anywhere. Anyway, I think the city is safe now. ~
+@15 = ~ Artemis Entreri, here at Baldur's Gate? I thought this killer was hiding somewhere in Kalimshan. However, thanks, here is your reward. ~
+@16 = ~ Killer.
+
+I found the killer of those victims, his name is Artemis Entreri, I managed to injure him, but he escaped from the battle. ~
+@17 = ~ Killer.
+
+In the tavern, one of the visitors told me that someone had seen a local magician talking to a suspicious person, this may be the one I'm looking for. ~
+@18 = ~ Killer.
+
+I found the brother of one of the victims. He told me that before his death, his brother met with a man in the house of the Grand Duke. ~
+@19 = ~ Killer.
+
+I ran into killer Artemis in the city’s sewer. ~
+@20 = ~ Killer.
+
+I didn’t have the courage to fight the best killer of Faeríàn. ~
+@21 = ~ Thank you - and goodbye. ~
+@22 = ~ Is there any other work for me? ~
+@23 = ~ It’s very a pity, many people in the city would like to know who killed their relatives, but anyway, you completed your task. Thank you, here is your reward. ~
+@24 = ~ Killer.
+
+The guild of thieves hiding beneath the city is now over. But I missed Artemis. ~
+@25 = ~ Yes, actually, there is something else. Not so long ago, I received disturbing messages from the village beyond the gates of Balur Gate. Some creatures from the forest attacked the village. One nobleman living there with his family is my friend, help him. ~
+@26 = ~ The nobleman is in danger.
+
+I got the second task from the guard capit at Baldur's Gate. This time I have to deal with some forest creatures that attacked the friend of the captain, a nobleman in the village outside the city walls. ~
+@27 = ~ I will do my best, captain. ~
+@28 = ~ What do you want? ~
+@29 = ~ Nothing, I'm already leaving. ~
+@30 = ~ I appreciate everything you have done for our city <CHARNAME>. ~

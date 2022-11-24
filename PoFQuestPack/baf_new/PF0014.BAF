@@ -1,0 +1,31 @@
+IF
+  OnCreation()
+  Global("EnteredPF0014","PF0014",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0014","PF0014",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Explore()
+    Wait(1)
+    CreateCreature("SHTAMOD",[377.405],0)  // ~Теневой Вор~
+    Wait(2)
+    ActionOverride("SHTAMOD",MoveToPoint([505.930]))
+    Wait(8)
+    DisplayStringHead("SHTAMOD",@0)  
+    Wait(6)
+    ActionOverride("SHTAMOD",EscapeArea())
+    ActionOverride(Player2,LeaveAreaLUA("PF0414","",[400.617],0))
+    ActionOverride(Player1,LeaveAreaLUA("PF0414","",[703.462],10))
+    ActionOverride(Player3,LeaveAreaLUA("PF0414","",[357.585],0))
+    ActionOverride(Player4,LeaveAreaLUA("PF0414","",[456.666],0))
+    ActionOverride(Player5,LeaveAreaLUA("PF0414","",[619.363],0))
+    ActionOverride(Player6,LeaveAreaLUA("PF0414","",[996.815],0))
+//    HideAreaOnMap("PF0033")
+//    RevealAreaOnMap("PF0133")
+    Wait(2)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

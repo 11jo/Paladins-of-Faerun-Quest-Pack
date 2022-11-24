@@ -1,0 +1,21 @@
+@0 = ~ What are you doing here, stranger? Who are you? ~
+@1 = ~ My name is <CHARNAME>, I am looking for the governor of this castle, I need to talk to him. ~
+@2 = ~ Can this be arranged, anything else? ~
+@3 = ~ Yes. Along the way, I saw that there are a lot of prisoners, can I talk to them? ~
+@4 = ~ Are you asking what I'm doing here? I heard that you have problems with the inhabitants of the local forest? ~
+@5 = ~ That I cannot allow you. To do this, you must obtain permission from the governor. ~
+@6 = ~ What about some gold coins for being able to talk to them? ~
+@7 = ~ It doesn’t concern you ... This problem will be solved soon! Anything else? ~
+@8 = ~ Hmmm. Okay, for 2,000 gold, I'll give you the camera keys. ~
+@9 = ~ I don’t have the right amount with me, I will come later. ~
+@10 = ~ I just have the right amount, take it. ~
+@11 = ~ Here, keep the camera keys. ~
+@12 = ~ What, do you still want to pay for the conversation with the prisoners? ~
+@13 = ~ You wanted to talk to the prisoners, so go and say, I gave you the keys. ~
+@14 = ~ Something else? ~
+@15 = ~ I need to talk to the governor. ~
+@16 = ~ It is possible. Here is the key to his room. ~
+@17 = ~ Tethyr.
+
+I received a letter from one of the prisoners, which must be delivered to the forest, but first I need to talk to the governor of the castle. ~
+@18 = ~ Don’t bother, go and talk to the governor, and I need to clean my weapons. ~

@@ -1,0 +1,9 @@
+IF
+  Global("Reveal0145","PF0145",0)
+  Dead("ORCKIMOD")  // ~Ксанголд~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0145","PF0145",1)
+
+END
+

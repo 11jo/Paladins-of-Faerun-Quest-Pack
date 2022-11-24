@@ -1,0 +1,80 @@
+IF
+	Global("RevealArea","PF0034",0)
+	Dead("GGHCMOD")  // Хранитель врат
+THEN
+	RESPONSE #100
+		SetGlobal("RevealArea","PF0034",1)
+END
+
+IF
+	Global("RevealArea","PF0034",1)
+	Dead("HCMOD")  // Архимаг
+THEN
+	RESPONSE #100
+		SetGlobal("RevealArea","PF0034",2)
+		ClearAllActions()
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		BattleSong()
+		ActionOverride(Player1,MoveToPoint([759.477]))
+		ActionOverride(Player2,MoveToPoint([821.467]))
+		ActionOverride(Player3,MoveToPoint([870.412]))
+		ActionOverride(Player4,MoveToPoint([658.451]))
+		ActionOverride(Player5,MoveToPoint([694.372]))
+		ActionOverride(Player6,MoveToPoint([799.351]))
+		MoveViewPoint([741.500],SLOW)
+		Wait(2)
+		CreateCreature("ARTENMOD",[859.613],6)  // Артемис Энтрери
+		CreateCreature("THEF1MOD",[900.643],6)  // Воришка
+		CreateCreature("THEF2MOD",[830.665],6)  // Воришка
+		CreateCreature("THEF3MOD",[887.702],6)  // Воришка
+		CreateCreature("THEF4MOD",[867.733],6)  // Воришка
+		Wait(6)
+		DisplayStringHead("ARTENMOD",77796)  // Снова ты? Тебе недостаточно того, что было в Аскатле?
+		Wait(6)
+		DisplayStringHead(Player1,77797)  // Кто ты такой? И что ты здесь делаешь?
+		Wait(6)
+		DisplayStringHead("ARTENMOD",77798)  // Ну давай познакомимся, я Артемис Энтрери. Я слышал, что ты был арестован в Аскатле, не принимай это близко к сердцу, а теперь проваливай или умрешь.
+		Wait(7)
+		ActionOverride("ARTENMOD",Attack(Player1))
+		ActionOverride(Player1,Attack("ARTENMOD"))  // Артемис Энтрери
+		Wait(15)
+		ClearAllActions()
+		DisplayStringHead("ARTENMOD",77799)  // На это у меня нет времени, займитесь им!
+		Wait(6)
+		ActionOverride("ARTENMOD",EscapeArea())
+		ActionOverride("THEF1MOD",Enemy())
+		ActionOverride("THEF2MOD",Enemy())
+		ActionOverride("THEF3MOD",Enemy())
+		ActionOverride("THEF4MOD",Enemy())
+		Wait(2)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("RevealArea","PF0034",2)
+	Dead("THEF1MOD")  // Воришка
+	Dead("THEF2MOD")  // Воришка
+	Dead("THEF3MOD")  // Воришка
+	Dead("THEF4MOD")  // Воришка
+THEN
+	RESPONSE #100
+		SetGlobal("RevealArea","PF0034",3)
+		ClearAllActions()
+		StartCutSceneMode()
+		Wait(2)
+		DisplayStringHead(Player2,77800)  // <CHARNAME>! Мы должны проследить за ним, он побежал туда.
+		Wait(5)
+		RevealAreaOnMap("PF0020")
+		Wait(2)
+		ActionOverride(Player2,LeaveAreaLUA("PF0020","",[3782.3065],8))
+		ActionOverride(Player1,LeaveAreaLUA("PF0020","",[3818.3026],8))
+		ActionOverride(Player3,LeaveAreaLUA("PF0020","",[3877.3112],8))
+		ActionOverride(Player4,LeaveAreaLUA("PF0020","",[3802.3159],8))
+		ActionOverride(Player5,LeaveAreaLUA("PF0020","",[3660.3114],8))
+		ActionOverride(Player6,LeaveAreaLUA("PF0020","",[3707.3156],8))
+		EndCutSceneMode()
+END
+

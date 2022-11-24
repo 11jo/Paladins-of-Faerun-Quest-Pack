@@ -1,0 +1,24 @@
+IF
+  OnCreation()
+  Global("EnteredArea","PF1319",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredArea","PF1319",1)
+    StartCutSceneMode()
+    HideGUI()
+    Wait(3)
+    ActionOverride(Player1,MoveToPoint([2183.791]))
+    ActionOverride(Player2,MoveToPoint([2257.841]))
+    ActionOverride(Player3,MoveToPoint([2214.871]))
+    ActionOverride(Player4,MoveToPoint([2363.668]))
+    ActionOverride(Player5,MoveToPoint([2142.937]))
+    ActionOverride(Player6,MoveToPoint([2248.988]))
+    MoveViewPoint([2143.745],SLOW)
+    Wait(10)
+    DisplayStringHead("ELVCDMOD",@0)  // @0
+    Wait(7)
+    ActionOverride("ELVCDMOD",Kill("ELVCDMOD"))
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

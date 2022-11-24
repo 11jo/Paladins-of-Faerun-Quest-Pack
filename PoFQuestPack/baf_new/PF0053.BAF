@@ -1,0 +1,124 @@
+IF
+  OnCreation()
+  PartyHasItem("MISCMOD")  // ~Назначение~
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    Explore()
+    MoveViewPoint([1883.1939],INSTANT)
+    StartCutSceneMode()
+    HideGUI()
+    PlaySound("NWN2")
+    CreateCreature("AMAGMOD",[1734.1869],14)  // ~Главный архимаг~
+    CreateCreature("GRADAK",[1822.1920],6)  // ~Градак~
+    CreateCreature("GFALCON",[1807.1995],8)  // ~Графалкон~
+    CreateCreature("CELMMOD",[1619.1897],12)  // ~Элминстер~
+    CreateCreature("CADEPMOD",[1663.2078],10)  // ~Паладин культа~
+    CreateCreature("CADEPMOD",[1873.2138],6)  // ~Паладин культа~
+    CreateCreature("CADEPMOD",[2068.2094],6)  // ~Паладин культа~
+    CreateCreature("CADEPMOD",[2170.1964],4)  // ~Паладин культа~
+    CreateCreature("CADEPMOD",[2116.1816],2)  // ~Паладин культа~
+    CreateCreature("CADEPMOD",[1924.1736],2)  // ~Паладин культа~
+    Wait(3)
+    DisplayString("AMAGMOD",@0)  
+    Wait(4)
+    DisplayString("AMAGMOD",@1)  
+    Wait(7)
+    DisplayString("GRADAK",@2)  
+    Wait(4)
+    CreateVisualEffectObject("SPROTECT","AMAGMOD")
+    Wait(1)
+    CreateVisualEffectObject("SPROTECT","AMAGMOD")
+    Wait(1)
+    CreateVisualEffectObject("SPROTECT","AMAGMOD")
+    Wait(1)
+    ActionOverride("AMAGMOD",ForceSpell("GRADAK",WIZARD_TRUE_SIGHT))
+    Wait(6)
+    CreateVisualEffectObject("SPROTECT","GRADAK")
+    PlaySound("EFF_M23C")
+    ActionOverride("AMAGMOD",ForceSpell("GRADAK",WIZARD_PROTECTION_FROM_ENERGY))
+    Wait(6)
+    CreateVisualEffectObject("SPROTECT","GRADAK")
+    PlaySound("EFF_M23C")
+    ActionOverride("AMAGMOD",ForceSpell("GRADAK",WIZARD_ABSOLUTE_IMMUNITY))
+    Wait(6)
+    CreateVisualEffectObject("SPROTECT","GRADAK")
+    PlaySound("EFF_M23C")
+    ActionOverride("AMAGMOD",ForceSpell("GRADAK",WIZARD_PROTECTION_FROM_ENERGY))
+    Wait(6)
+    CreateVisualEffectObject("SPROTECT","GRADAK")
+    PlaySound("EFF_M23C")
+    Wait(1)
+    ScreenShake([20.20],10)
+    Wait(3)
+    DisplayString("GRADAK",@3)  
+    Wait(3)
+    DisplayString("CELMMOD",@4)  
+    Wait(2)
+    ActionOverride("CELMMOD",EscapeArea())
+    ActionOverride("AMAGMOD",EscapeArea())
+    ActionOverride("GFALCON",EscapeArea())
+    ActionOverride("Gradak",EscapeArea())
+    Wait(5)
+    CreateCreature("YARPINW1",[1425.2037],6)  // ~Градаковский воин~
+    CreateCreature("YARPINW2",[1633.2180],6)  // ~Градаковский воин~
+    CreateCreature("YARPINW3",[1498.2186],4)  // ~Градаковский воин~
+    CreateCreature("YARPINW4",[1633.2180],4)  // ~Градаковский воин~
+    CreateCreature("YARPINW",[2068.2094],6)  
+    CreateCreature("YARPINW",[2170.1964],4)  
+    CreateCreature("YARPINW",[2116.1816],2)  
+    CreateCreature("YARPINW",[2200.1800],2)
+    Wait(1)
+    TakePartyItem("MISCMOD")
+    Wait(1)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  Dead("YARPINW1")
+  Dead("YARPINW2")
+  Dead("YARPINW3")
+  Dead("YARPINW4")  
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(1)
+    CreateCreature("ELWINMOD",[2400.2240],3)
+    ActionOverride(Player1,MoveToPoint([2120.2240]))
+    Wait(4)
+    DisplayStringHead("ELWINMOD",@5)  
+    Wait(4)
+    UnhideGUI()
+ActionOverride(Player1,LeaveAreaLUA("PF0054","",[3380.810],3))
+ActionOverride(Player2,LeaveAreaLUA("PF0054","",[3380.750],3))
+ActionOverride(Player3,LeaveAreaLUA("PF0054","",[3380.870],3))
+ActionOverride(Player4,LeaveAreaLUA("PF0054","",[3300.810],3))
+ActionOverride(Player5,LeaveAreaLUA("PF0054","",[3300.750],3))
+ActionOverride(Player6,LeaveAreaLUA("PF0054","",[3300.870],3))
+    DestroySelf()
+    EndCutSceneMode()
+    HideAreaOnMap("PF0053")
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

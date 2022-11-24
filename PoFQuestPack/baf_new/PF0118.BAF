@@ -1,0 +1,38 @@
+IF
+  OnCreation()
+  Global("EnteredPF0118","PF0118",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0118","PF0118",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    ScreenShake([20.20],10)
+    Wait(3)
+    DisplayString(Player1,@0)  // @0
+    Wait(2)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  Global("Reveal018","PF0118",0)
+  Dead("YARQCP")  // ~Командир Градакова~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal018","PF0118",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    RevealAreaOnMap("PF0019")
+    DisplayString("YARPEN",@1)  // @1
+    Wait(4)
+    DisplayString(Player1,@2)  // @2
+    Wait(3)
+    ForceSpell("YARPEN",DRYAD_TELEPORT)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

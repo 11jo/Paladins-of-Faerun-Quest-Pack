@@ -1,0 +1,18 @@
+IF OnCreation()
+  Global("EnteredPF0162","PF0162",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0162","PF0162",1)    
+    StartCutSceneMode()
+    ClearAllActions()
+    CreateCreature("s#mage2",[1250.1012],10) 
+    PlaySound("NWN1")
+    Wait(1)
+    DisplayStringHead("s#mage2",@0)
+    Wait(2)
+    DisplayStringHead("NASHRMOD", @1)
+    Wait(2)
+    ActionOverride("NASHRMOD",StartDialogue("NASHRMOD",Player1))
+    EndCutSceneMode()
+END
+

@@ -1,0 +1,23 @@
+IF
+  Global("Reveal0300","PF0302",0)
+  Dead("LORUMOD")  // ~Владыка преисподни~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0300","PF0302",1)
+    ClearAllActions()
+    Explore()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    CreateCreature("stgsmod",[897.1117],0)  // ~Лорд  Уилнан~
+    CreateCreature("sdwspmod",[878.1157],0)  // ~Паладин Даввен~
+    Wait(2)
+    ActionOverride(Player1,MoveToPoint([442.810]))
+    Wait(2)
+    ActionOverride("stgsmod",MoveToPoint([482.879]))
+    ActionOverride("sdwspmod",MoveToPoint([551.847]))
+    Wait(4)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

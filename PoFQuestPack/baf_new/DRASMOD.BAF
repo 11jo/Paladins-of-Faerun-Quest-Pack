@@ -1,0 +1,13 @@
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Prep","LOCALS",0)
+THEN
+  RESPONSE #100
+    ApplySpell(Myself,WIZARD_STONE_SKIN)
+    Wait(2)
+    DisplayStringHead(Myself,@0)  // @0
+    Wait(1)
+    ForceSpell(Myself,WIZARD_CONJURE_AIR_ELEMENTAL)
+    SetGlobal("Prep","LOCALS",1)
+END
+

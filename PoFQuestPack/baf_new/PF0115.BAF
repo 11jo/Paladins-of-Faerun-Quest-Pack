@@ -1,0 +1,9 @@
+IF
+  Global("EnteredPF0115","PF0115",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0115","PF0115",1)
+    //Wait(1)
+    //TextScreen("SCENAMOD")
+END
+

@@ -1,0 +1,27 @@
+@0 = ~ You are not the one you pretend to be mortal! Who are you? ~
+@1 = ~ I am <CHARNAME>, but what are you doing here, dragon? ~
+@2 = ~ <CHARNAME> you say, I heard about you and your adventures. What do you need on this island? ~
+@3 = ~ I help the village south of here, it is attacked by pirates and thieves. Do you know anything about this? ~
+@4 = ~ That's how it means you and I have a common enemy <CHARNAME>, a very valuable item was stolen from me. ~
+@5 = ~ Dragon and robbed? Is it even possible? What is this thing? ~
+@6 = ~ For me, dragons are enemies too, die a monster! ~
+@7 = ~ These thieves are very skilled, they stole my powerful magic wand, which I had to guard. This task was assigned to me by a very powerful wizard. I have to get it back at all costs before the master returns. ~
+@8 = ~ I can help you get that rod back, provided I get a reward in return. ~
+@9 = ~ What happened to your thing will dishonor your name, but I don’t have time for that. I'm leaving. ~
+@10 = ~ If you succeed, a very valuable item, a gift from the gods, will be waiting for you, so do you agree <CHARNAME>? ~
+@11 = ~ I will find him. ~
+@12 = ~ Dragon artifact.
+
+On the island, I met a dragon who stole a very valuable rod, I must look for it somewhere on this island. ~
+@13 = ~ Do you have a wand? ~
+@14 = ~ Yes, here it is, I found it at one of the thieves. ~
+@15 = ~ Great, I have a baton and now my name will not be dishonored. Thank you <CHARNAME>, I wish you all good luck and for your courage, I give you this very powerful armor, this is a divine gift. ~
+@16 = ~ Thank you dragon, but I have one request. Could you sometimes fly in the south over the shores of those inhabitants whom I helped? ~
+@17 = ~ Of course, from time to time I will keep an eye on them. Goodbye <CHARNAME>, nice to meet you. ~
+@18 = ~ See you soon. ~
+@19 = ~ Dragon artifact.
+
+I found the dragon's baton from one of the thieves and returned it to the dragon. For this I received a very powerful armor. ~
+@20 = ~ No, not yet, but we are looking for him. ~
+@21 = ~ I changed my mind, instead I will kill you and pick up that item. ~
+@22 = ~ Have you changed your mind and decided to find a rod for me? ~

@@ -1,0 +1,30 @@
+IF
+  OnCreation()
+  Global("EnteredAreaPFB180","PFB180",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredAreaPFB180","PFB180",1)
+    StartCutSceneMode()
+    HideGUI()
+    DisplayStringHead("SVKLMOD",@0)  
+    Wait(6)
+    DisplayStringHead(Player1,@1)  
+    Wait(10)
+    DisplayStringHead("SVKLMOD",@2)  
+    Wait(5)
+    DisplayStringHead(Player1,@3)  
+    FadeToColor([20.0],0)
+    Wait(20)
+    DisplayStringHead("GMSMOD",@4) 
+    Wait(4)
+    GiveItemCreate("IQQMOD",Player1,0,0,0)  // ~Артефакт~
+    ActionOverride(Player2,LeaveAreaLUA("PF0580","",[310.1527],0))
+    ActionOverride(Player1,LeaveAreaLUA("PF0580","",[247.1501],0))
+    ActionOverride(Player3,LeaveAreaLUA("PF0580","",[376.1474],0))
+    ActionOverride(Player4,LeaveAreaLUA("PF0580","",[305.1409],0))
+    ActionOverride(Player5,LeaveAreaLUA("PF0580","",[382.1422],0))
+    ActionOverride(Player6,LeaveAreaLUA("PF0580","",[313.1348],0))
+    EndCutSceneMode()
+    UnhideGUI()
+END
+

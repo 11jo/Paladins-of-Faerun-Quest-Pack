@@ -1,0 +1,12 @@
+@0 = ~ Where did you get the key? Who are you and what do you need? ~
+@1 = ~ My name is <CHARNAME>, and the captain of the guard gave me the key. I need to talk to you. ~
+@2 = ~ What is the stranger about? ~
+@3 = ~ About problems with the inhabitants of the local forest. What is going on here? ~
+@4 = ~ Ah, about that ... I didn’t know that it would all go that far. Well, it started as follows. Recently, a caravan full of weapons and gold passed through a forest; it was intended for me. There were many rare items. But the caravan did not reach the castle, the inhabitants of the forest attacked it and plundered. Since then, military operations have been taking place near the forest. But it will all be over soon, over the next week catapults and flamethrower guns will come to us. We will burn the whole forest. ~
+@5 = ~ I could try to deal with this problem and go to the forest. ~
+@6 = ~ Good, but if you don’t return with my treasures, we will burn the forest. Now get out. I have a lot to do. ~
+@7 = ~ What do you need? Where are my treasures? Get out! ~
+@8 = ~ What do you need? ~
+@9 = ~ In the forest, I came across a forest mistress and killed her. I expect to receive some kind of reward. ~
+@10 = ~ Yes, of course, thanks. Here she is. ~
+@11 = ~ What else do you need? Get out, I'm busy with important things! ~

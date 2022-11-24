@@ -1,0 +1,17 @@
+IF
+  OnCreation()
+  Global("EnteredPF0054","PF0054",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0054","PF0054",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    CreateCreature("ELMSMOD",[3180.800],11)  // ~Элминстер~
+    DisplayStringHead("ELMSMOD",@0)  
+    Wait(6)
+    ActionOverride("ELMSMOD",ForceSpell("ELMSMOD",DRYAD_TELEPORT))
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

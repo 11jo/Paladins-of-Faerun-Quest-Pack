@@ -1,0 +1,76 @@
+IF
+  OnCreation()
+  Global("EnteredPF0002","PF0002",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0002","PF0002",1)
+    Wait(1)
+    ClearAllActions()
+    StartCutSceneMode()
+    Explore()
+    HideGUI()
+    Wait(1)
+    MoveViewPoint([3299.2747],INSTANT)
+    Wait(1)
+    CreateCreature("CONAMOD",[2315.2418],14)  // ~Лавочник~
+    CreateCreature("CONGMOD",[2392.2379],14)  // ~Лавочник~
+    Wait(1)
+    ActionOverride("CONAMOD",MoveToPoint([3299.2747]))
+    ActionOverride("CONGMOD",MoveToPoint([3387.2715]))
+    Wait(8)
+    DisplayStringHead("CONAMOD",@0)  
+    DisplayStringHead("ATKIMOD",@1)  
+    Wait(5)
+    DisplayStringHead("CONAMOD",@2)  
+    Wait(5)
+    DisplayStringHead("ATKIMOD",@3)  
+    Wait(1)
+    ActionOverride("CONAMOD",DestroySelf())
+    ActionOverride("CONGMOD",DestroySelf())
+    Wait(1)
+    FadeToColor([20.0],0)
+    Wait(4)
+    CreateCreature("SERO1MOD",[3299.2747],14)  // ~Слуга лича~
+    CreateCreature("SERO2MOD",[3387.2715],14)  // ~Слуга лича~
+    Wait(8)
+    ClearAllActions()
+    CreateCreature("SEROMOD",[3272.2779],14)  // ~Слуга лича~
+    CreateCreature("SEROMOD",[3196.2792],14)  // ~Слуга лича~
+    CreateCreature("SEROMOD",[3462.2665],14)  // ~Слуга лича~
+    CreateCreature("SEROMOD",[3310.2696],14)  // ~Слуга лича~
+    ActionOverride("SERO1MOD",Attack("ATKIMOD"))
+    UnhideGUI()
+    EndCutSceneMode()
+END
+/*
+IF
+  Global("Reveal0002","PF0002",0)
+  Dead("ATKIMOD")  // ~Торговый король~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0002","PF0002",1)
+    Kill(Player1)
+    Kill(Player2)
+    Kill(Player3)
+    Kill(Player4)
+    Kill(Player5)
+    Kill(Player6)
+END
+*/
+IF
+  Global("Reveal0002","PF0002",0)
+  Dead("SERO2MOD")  // ~Слуга лича~
+  Dead("SERO1MOD")  // ~Слуга лича~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0002","PF0002",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    Wait(2)
+    DisplayStringHead("ATKIMOD",@4)  
+    Wait(5)
+    ActionOverride("ATKIMOD",EscapeArea())
+    AddexperienceParty(5000)
+    EndCutSceneMode()
+END
+

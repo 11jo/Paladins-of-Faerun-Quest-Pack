@@ -1,0 +1,33 @@
+IF
+  Global("Reveal0256","PF0256",0)
+  Dead("GSERMOD")  // ~Главный стражник~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0256","PF0256",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Explore()
+    Wait(2)
+    CreateCreature("ELWINMOD",[3646.3016],6)  // ~Элвин~
+    Wait(1)
+    ActionOverride(Player1,MoveToPoint([3617.2990]))
+    Wait(5)
+    MoveViewPoint([3617.2990],INSTANT)
+    Wait(4)
+    DisplayStringHead("ELWINMOD",@0)  // @0
+    Wait(9)
+    DisplayStringHead(Player1,@1)  // @1
+    Wait(5)
+    RevealAreaOnMap("PF0034")
+    ActionOverride(Player2,LeaveAreaLUA("PF0034","",[880.783],6))
+    ActionOverride(Player1,LeaveAreaLUA("PF0034","",[964.755],6))
+    ActionOverride(Player3,LeaveAreaLUA("PF0034","",[1036.741],6))
+    ActionOverride(Player4,LeaveAreaLUA("PF0034","",[930.869],6))
+    ActionOverride(Player5,LeaveAreaLUA("PF0034","",[1012.849],6))
+    ActionOverride(Player6,LeaveAreaLUA("PF0034","",[1099.835],6))
+    ActionOverride("ELWINMOD",EscapeArea())
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

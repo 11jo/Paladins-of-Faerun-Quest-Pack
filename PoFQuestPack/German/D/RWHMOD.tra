@@ -1,0 +1,19 @@
+@1 = ~Wer seid Ihr, Fremder, warum seid Ihr gekommen?~ ~Wer seid Ihr, Fremde, warum seid Ihr gekommen?~
+@2 = ~Ich bin <CHARNAME>, Ihr habt etwas, das Euch nicht gehört...~
+@3 = ~Das ist also <CHARNAME> und seine Gruppe, hmm, ich habe von Euch gehört. Also, was wollt Ihr jetzt tun? Wollt Ihr uns alle töten und ihn mitnehmen? Das wird Euch nie gelingen, denn wir sind viele.~ ~Das ist also <CHARNAME> und ihre Gruppe, hmm, ich habe von Euch gehört. Also, was wollt Ihr jetzt tun? Wollt Ihr uns alle töten und ihn mitnehmen? Das wird Euch nie gelingen, denn wir sind viele.~
+@4 = ~Wir werden uns um diesen Zauberer kümmern, unterschätzt uns nicht...~
+@5 = ~Nein, ich will nur mit Eurem Anführer und einem ehemaligen Verbündeten des Rates der Magier sprechen, ich wurde geschickt, um mit ihm zu sprechen.~
+@6 = ~Ihr wollt, dass ich das glaube und dann tötet Ihr ihn. Erfolgloser Versuch, bleibt wo Ihr seid.~
+@7 = ~Ich will ihn nicht töten, ich will nur mit ihm reden!~
+@8 = ~Ich werde Euch nicht durchlassen, Ihr seid zu gefährlich für uns.~
+@9 = ~Und wie wäre es mit 2.000 Goldstücken, seid Ihr einverstanden?~
+@10 = ~Ich habe keine Lust, mit Euch zu streiten, ich töte Euch und gehe selbst zu ihm!~
+@11 = ~Nein, das ist nicht genug, aber wenn Ihr den Betrag verdoppelst, lasse ich Euch passieren. Bringt mir 4.000 Gold, und Ihr könnt mit unserem Anführer sprechen.~
+@12 = ~Bestechung.
+
+Wir können zum Tempel der Roten Magier gelangen, wenn wir der Wache 4.000 Goldtore bringen.~
+@13 = ~So, seid ihr einverstanden? 4000 Gold, um den Tempel zu betreten?~
+@14 = ~Ja, hier sind sie...~
+@15 = ~Ich habe es mir anders überlegt, lieber töte ich Euch alle!~
+@16 = ~Ich habe noch keine 4000 Gold, ich komm' später.~
+@17 = ~Wunderbar, ich lasse Euch in den Tempel.~

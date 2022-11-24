@@ -1,0 +1,14 @@
+@1 = ~ Ah nice to see you here, adventurer ... Would you be so kind and don’t tell me your name? ~
+@2 = ~ I am <CHARNAME> .. And who are you? ~
+@3 = ~ I am the mayor of this small town ... I heard about you ... You are brave and experienced <CHARNAME> I only heard good things about you ... Would you like to help me? ~
+@4 = ~ Help you? What should my lord do? ~
+@5 = ~ Yes, I like Mr. <CHARNAME> .. Have you ever heard something about the old castle of illusions in Forgotten Peaks? ~
+@6 = ~ Yes, I heard the mayor ... But many people say that the castle does not exist ... But some say that the castle is ... ~
+@7 = ~ And I will tell you that this castle exists, but it is invisible to an ordinary person ... But I heard rumors about a strange old wizard who can destroy that invisible barrier and hold a small party like you inside the castle. ... ~
+@8 = ~ Go on ... ~
+@9 = ~ This strange wizard wanders around different cities every day ... But his next stop should be in the city of the priests of Squadul .. ~
+@10 = ~ So, I’ll mark this place on the map, and I want you <CHARNAME> to get to the city and find this wizard, if of course it exists .. ~
+@11 = ~ If you find it, then bring it to me, and we can find out what to do next ... I wish you a safe trip ... ~
+@12 = ~ A castle that does not exist.
+
+I spoke with the Mayor of Deep Water, and he told me the story of a child about a castle in Forgotten Peaks, which does not exist, but not all things are false, he heard rumors of a strange old wizard who travels from city to city .. And what a magician can destroy the barrier and open the veil of the castle for a while ... My task is to go to the Escadul and find it, if it exists ... ~

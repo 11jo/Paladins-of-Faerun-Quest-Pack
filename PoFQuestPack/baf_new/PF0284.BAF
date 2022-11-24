@@ -1,0 +1,48 @@
+IF
+  OnCreation()
+  Global("EnteredAreaPF0284","PF0284",0)
+  PartyHasItem("PRTMOD")  // ~Карта свитков~
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredAreaPF0284","PF0284",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    TakePartyItem("PRTMOD")
+    GiveItemCreate("PRT1MOD",Player1,0,0,0)  // ~Карта свитков~
+    CreateCreature("SGMOD",[875.785],0)  // ~Защитник свитка~
+    DisplayStringHead("SGMOD",@0)  
+    Wait(6)
+    DisplayStringHead(Player1,@1)  
+    Wait(6)
+    DisplayStringHead("SGMOD",@2)  
+    Wait(1)
+    ScreenShake([20.20],3)
+    CreateCreature("CLCWMOD",[779.865],0)  // ~Убийца-Цирикист~
+    CreateCreature("CLCWMOD",[947.879],0)  // ~Убийца-Цирикист~
+    ActionOverride("SGMOD",Attack("CLCWMOD"))
+    ActionOverride("CLCWMOD",Attack("SGMOD"))
+    EndCutSceneMode()
+END
+
+IF
+  OnCreation()
+  Global("EnteredAreaPF0284","PF0284",0)
+  PartyHasItem("PRCMOD")  // ~Карта свитков~
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredAreaPF0284","PF0284",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    TakePartyItem("PRCMOD")
+    GiveItemCreate("PRC1MOD",Player1,0,0,0)  // ~Карта свитков~
+    CreateCreature("SGEMOD",[875.785],0)  // ~Защитник свитка~
+    DisplayStringHead("SGEMOD",@0)  
+    Wait(6)
+    DisplayStringHead(Player1,@3)  
+    Wait(6)
+    DisplayStringHead("SGEMOD",@4) 
+    Wait(1)
+    ActionOverride("SGEMOD",Attack(Player1))
+    EndCutSceneMode()
+END
+

@@ -1,0 +1,37 @@
+IF
+  OnCreation()
+  Global("EnteredPF0037","PF0037",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0037","PF0037",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(4)
+    DisplayStringHead("ELMMOD",@0)  // @0
+    Wait(4)
+    DisplayStringHead("ELMMOD",@1)  // @1
+    Wait(8)
+    DisplayStringHead("ELMMOD",@2)  // @2
+    Wait(8)
+    DisplayStringHead("ELMMOD",@3)  // @3
+    Wait(4)
+    ForceSpell("SOLAN",DRYAD_TELEPORT)
+    ForceSpell("SLAINE",DRYAD_TELEPORT)
+    ForceSpell("CHGOOD09",DRYAD_TELEPORT)
+    ForceSpell("DWMSMOD",DRYAD_TELEPORT)
+    DisplayStringHead("ELMMOD",@4)  // @4
+    Wait(4)
+    RevealAreaOnMap("PFEMOD")
+    Wait(6)
+    ActionOverride(Player1,LeaveAreaLUA("AR0020","",[628.555],0))
+    ActionOverride(Player2,LeaveAreaLUA("AR0020","",[589.545],0))
+    ActionOverride(Player3,LeaveAreaLUA("AR0020","",[598.598],0))
+    ActionOverride(Player4,LeaveAreaLUA("AR0020","",[662.612],0))
+    ActionOverride(Player5,LeaveAreaLUA("AR0020","",[657.578],0))
+    ActionOverride(Player6,LeaveAreaLUA("AR0020","",[620.595],0))
+    Wait(4)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

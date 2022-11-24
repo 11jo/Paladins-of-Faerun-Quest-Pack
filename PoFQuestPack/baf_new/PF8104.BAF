@@ -1,0 +1,26 @@
+IF
+  Global("Reveal8104","PF8104",0)
+  PartyHasItem("LETHSMOD")  // ~Поручение~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal8104","PF8104",1)
+    StartCutSceneMode()
+    HideGUI()
+    BattleSong()
+    CreateCreature("PTE1MOD",[281.1286],0)  // ~Воинственный священник~
+    CreateCreature("PTE2MOD",[351.1117],0)  // ~Воинственный священник~
+    CreateCreature("PTE3MOD",[580.1043],0)  // ~Воинственный священник~
+    CreateCreature("PTE4MOD",[1600.1047],0)  // ~Воинственный священник~
+    CreateCreature("PTE5MOD",[1355.1180],0)  // ~Воинственный священник~
+    CreateCreature("PRTE6MOD",[1420.2399],8)  // ~Воинственный священник~
+    CreateCreature("PTE7MOD",[1469.2467],8)  // ~Воинственный священник~
+    CreateCreature("PTE8MOD",[1552.2404],8)  // ~Воинственный священник~
+    CreateCreature("PTE9MOD",[2466.2208],8)  // ~Воинственный священник~
+    CreateCreature("PTE10MOD",[2291.2074],8)  // ~Воинственный священник~
+    CreateCreature("PTECMOD",[1259.3067],8)  // ~Воинственный священник~
+    Wait(5)
+    UnhideGUI()
+    TakePartyItem("LETHSMOD")
+    EndCutSceneMode()
+END
+

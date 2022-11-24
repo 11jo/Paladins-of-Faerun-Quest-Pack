@@ -1,0 +1,14 @@
+@1 = ~Ah, schön Euch hier zu sehen, Abenteurer... Wäret Ihr so freundlich, mir Euren Namen zu sagen?~ ~Ah, schön Euch hier zu sehen, Abenteurerin... Wäret Ihr so freundlich, mir Euren Namen zu sagen?~
+@2 = ~Ich bin <CHARNAME>... Und wer seid Ihr?~
+@3 = ~Ich bin der Bürgermeister dieser kleinen Stadt... Ich habe von Euch gehört... Ihr seid mutig und erfahren, <CHARNAME>. Ich habe nur Gutes über Euch gehört... Möchtet Ihr mir helfen?~
+@4 = ~Euch helfen? Was soll ich tun, mein Herr?~
+@5 = ~Ja, ich bitte darum, <CHARNAME>... Habt Ihr jemals etwas von dem alten Schloss der Illusionen in den Vergessenen Gipfeln gehört?~
+@6 = ~Ja, ich hörte davon, Bürgermeister... Aber viele Leute sagen, dass das Schloss nicht existiert... Aber es gibt Leute, die sagen, dass es das Schloss gibt...~
+@7 = ~Und ich sage Euch, dass dieses Schloss existiert, aber es ist für einen normalen Menschen unsichtbar... Aber ich habe Gerüchte über einen seltsamen alten Zauberer gehört, der diese unsichtbare Barriere zerstören und eine kleine Gruppe wie Euch in das Schloss führen kann...~
+@8 = ~Redet weiter...~
+@9 = ~Dieser seltsame Zauberer wandert jeden Tag durch verschiedene Städte... Aber sein nächster Halt sollte in der Stadt der Priester von Escadula sein...~
+@10 = ~Also, ich werde diesen Ort auf der Karte markieren, und ich möchte, dass Ihr, <CHARNAME>, in die Stadt geht und diesen Zauberer findet, falls es ihn gibt...~
+@11 = ~Wenn Ihr ihn findet, dann bringt ihn zu mir, und wir können herausfinden, wie es weitergeht... Ich wünsche Euch eine gute Reise...~
+@12 = ~Ein Schloss, das es nicht gibt.
+
+Ich sprach mit dem Bürgermeister von Tiefwasser, und er hat mir die Geschichte von einem Schloss in den Vergessenen Bergen erzählt, das nicht existiert, aber nicht alles ist falsch, er hat Gerüchte über einen seltsamen alten Zauberer gehört, der von Stadt zu Stadt reist... Und dass dieser Zauberer die Barriere zerstören und den Schleier des Schlosses für eine Weile lüften kann... Meine Aufgabe ist es, nach Escadula zu gehen und es zu finden, falls es existiert...~

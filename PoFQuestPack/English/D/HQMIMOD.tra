@@ -1,0 +1,21 @@
+@0 = ~ Who are you adventurer? Why did you come to my country? ~
+@1 = ~ My name is <CHARNAME>, I am looking for the daughter of the king king Amn. ~
+@2 = ~ Your Majesty, my name is <CHARNAME>, I was sent here, your son. He spoke of you as a tyrant. ~
+@3 = ~ I came to kill you. I talked with your son, he told me how cruel you are to your people. Now you will die and your tyranny will end. ~
+@4 = ~ Abduction and politics.
+
+I killed the prince’s mother ~
+@5 = ~ So you are looking for his daughter. I thought you were the killer my own son hired. He’s capable of anything. ~
+@6 = ~ This is not so far from the truth, Your Highness. I met your son, and in fact he promised to reward me with dignity if I deal with you, but honestly, you do not look like a terrible ruler. ~
+@7 = ~ Now everything is clear. Just ask anyone here in the castle or elsewhere, and you will see that I am far from tyranny, unlike my son. The reason why this family conflict erupted is that I promised the throne of my daughter, not him. And by the way, thank you for saving her from these thugs that her brother sent for her. ~
+@8 = ~ So the girl who was running away was your daughter? Now I see who is really a tyrant and a terrible ruler. But how does this all relate to the daughter of merchant king Amn? Have you seen her? Have you heard anything about this? ~
+@9 = ~ Yes, of course. She worked for me. She is very interested in politics and wanted to resolve our dispute diplomatically, trying to prevent a war. My son probably didn’t like it, and he grabbed her and imprisoned her. ~
+@10 = ~ So is she alive? Are you sure? ~
+@11 = ~ Yes, I'm sure. And now that you are here, could you help us with our plan, during the execution of which you will save the prince of your king. ~
+@12 = ~ I listen to you carefully. ~
+@13 = ~ But there is one big problem, because he is still my son. As you know, we are on an island, and most of the weapons we make are mine. Therefore, my son buys weapons that are delivered from the mainland. If we could break this connection, we will get a strategic advantage and maybe then we can resolve this conflict. Our scouts tracked the arms dealer’s route and found a place where we could set up an ambush to capture it. Then we will receive information from him where all the military camps of my son are located and I am sure that we will find out where the person you are looking for is located. Are you ready for this? ~
+@14 = ~ Yes, I will help you with this merchant. ~
+@15 = ~ Abduction and politics.
+
+After talking with the High Queen, the ruler of the Moonlight, it became clear to me which of them was a tyrant. This is her son, moonlight prince. I was given the task of finding and capturing an arms dealer, thanks to whom the conflict of the struggle for power should be resolved, and in addition, I can find the daughter of trading king Amn.~
+@16 = ~ And what, do I look like this? Just ask anyone here in the castle or elsewhere, and you will see that I am far from tyranny, unlike my son. The reason why this family conflict erupted is that I promised the throne of my daughter, not him. And by the way, thank you for saving her from these thugs that her brother sent for her. ~

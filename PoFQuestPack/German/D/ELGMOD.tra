@@ -1,0 +1,29 @@
+@0 = ~Hey, was machT Ihr hier?~
+@1 = ~Sagen wir mal, ich suche den Oberzwerg.~
+@2 = ~Ich habe hier das Sagen. Mein Name ist Elgen, ich bin ein Diener des mächtigen Dorn, des Herrschers der Zwerge. Wer seid Ihr?~
+@3 = ~Ich bin <CHARNAME>, ein Zwerg hat mich zu Euch geschickt, er sagte, Ihr wäret in Schwierigkeiten.~
+@4 = ~Wir stellen hier Waffen und Rüstungen aus Mithril her, aber vor kurzem sind hier Duergar aufgetaucht und haben sich im östlichen Teil der Mine niedergelassen. Sie wollen Mithril für sich selbst gewinnen.~
+@5 = ~Warum schickst Ihr nicht eine Nachricht über die Situation an andere Zwerge oder ihre Herrscher?~
+@6 = ~Ich will meine Arbeit nicht verlieren, ich werde wahrscheinlich durch jemand anderen ersetzt. Das Problem ist, dass es schon immer einen Krieg zwischen Grauen und Zwergen gegeben hat, und das kann man nicht ändern! Ich wollte sagen, dass wir mit ihnen nicht verhandeln können, wir müssen sie vernichten. Was wäre, wenn Ihr uns helfen würdet?~
+@7 = ~Ja, ich werde Euch helfen, was soll ich tun?~
+@8 = ~Der Duergar am Eingang riet mir, keinen Fehler zu machen und mich um meine eigenen Angelegenheiten zu kümmern. Und ich stimme ihm zu, viel Glück und auf Wiedersehen!~
+@9 = ~Es gibt 3 Wege, die aus diesem Raum führen, einer ist der, auf dem Ihr gekommen seid, ein anderer führt nach Osten zum Unterschlupf der Grauen, und der letzte westliche Korridor führt zu Monstern, die ebenfalls vernichtet werden müssen. Findet und tötet ihre Anführer und bringt mir ihre Köpfe.~
+@10 = ~Ich ziehe schon los!~
+@11 = ~Mine.
+
+Beim Erkunden bin ich auf den Zwerg Elgen gestoßen, er braucht Hilfe beim Schutz der Mine. Ich stimmte zu, meine Aufgabe ist es, den westlichen und östlichen Flügel der Mine zu erkunden, den Anführer der Duergar und Monster zu töten und den Kopf, oder zumindest ihre Körperteile, zu Elgen zu bringen.~
+@12 = ~Ihr seid zurückgekommen, also habt Ihr beschlossen, uns zu helfen?~
+@13 = ~Nein, ich werde mich nicht einmischen.~
+@14 = ~HaHabt Ihr sie gefunden und vernichtet?~
+@15 = ~Ja, niemand wird Euch mehr belästigen, die Monster sind in ihre Welt zurückgekehrt, und die überlebenden Duergar sind geflohen.~
+@16 = ~Danke <CHARNAME>, Ihr habt uns sehr geholfen, hier ist Eure Belohnung.~
+@17 = ~Danke und auf Wiedersehen.~
+@18 = ~Mine.
+
+Der Anführer der Duergar gibt mir zwei wertvolle Gegenstände, wenn ich die Zwerge im mittleren Teil der Mine loswerde.~
+@19 = ~Mine.
+
+In den Slums traf ich auf einen Reisenden, der Gerüchte über Probleme in den Zwergenminen von Tethyr gehört hat. Ich könnte versuchen, ihnen zu helfen.~
+@20 = ~Mine.
+
+Ich habe sowohl die Monster als auch den Anführer der Grauen gefunden und getötet. Die Zwergenmine ist wieder sicher.~

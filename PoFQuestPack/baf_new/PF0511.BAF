@@ -1,0 +1,86 @@
+IF
+  OnCreation()
+  Global("EnteredPF0511","PF0511",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0511","PF0511",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    PlaySound("MUS2MOD")
+    CreateCreature("HCMOD",[673.1303],10)  // ~Архимаг~
+    CreateCreature("ELMMOD",[825.1243],2)  // ~Элминстер~
+    CreateCreature("Yarpen",[693.1139],0)  // ~Градак~
+    Wait(2)
+    DisplayString("ELWINMOD",@0)  // @0
+    Wait(3)
+    ActionOverride("ELWINMOD",ForceSpell(Player2,DRYAD_TELEPORT))
+    ActionOverride("ELWINMOD",ForceSpell(Player1,DRYAD_TELEPORT))
+    ActionOverride("ELWINMOD",ForceSpell(Player3,DRYAD_TELEPORT))
+    ActionOverride("ELWINMOD",ForceSpell(Player4,DRYAD_TELEPORT))
+    ActionOverride("ELWINMOD",ForceSpell(Player5,DRYAD_TELEPORT))
+    ActionOverride("ELWINMOD",ForceSpell(Player6,DRYAD_TELEPORT))
+    ActionOverride("ELWINMOD",ForceSpell("ELWINMOD",DRYAD_TELEPORT))
+    CreateCreature("ELWIN1",[852.1147],2)  // ~Элвин~
+    Wait(1)
+    ActionOverride(Player2,LeaveAreaLUA("PF0511","",[772.1013],2))
+    ActionOverride(Player1,LeaveAreaLUA("PF0511","",[873.1086],2))
+    ActionOverride(Player3,LeaveAreaLUA("PF0511","",[826.1050],2))
+    ActionOverride(Player4,LeaveAreaLUA("PF0511","",[914.1116],2))
+    ActionOverride(Player5,LeaveAreaLUA("PF0511","",[976.1162],2))
+    ActionOverride(Player6,LeaveAreaLUA("PF0511","",[728.1002],2))
+    Wait(4)
+    DisplayString("HCMOD",@1)  // @1
+    Wait(10)
+    DisplayString("ELWIN1",@2)  // @2
+    Wait(10)
+    DisplayString("ELMMOD",@3)  // @3
+    Wait(10)
+    DisplayString("HCMOD",@4)  // @4
+    Wait(10)
+    DisplayString("ELWIN1",@5)  // @5
+    Wait(6)
+    DisplayString("HCMOD",@6)  // @6
+    Wait(10)
+    DisplayString("ELMMOD",@7)  // @7
+    Wait(10)
+    DisplayString("Yarpen",@8)  // @8
+    Wait(10)
+    DisplayString("ELMMOD",@9)  // @9
+    Wait(10)
+    DisplayString("HCMOD",@10)  // @10
+    Wait(10)
+    DisplayString("ELMMOD",@11)  // @11
+    Wait(10)
+    DisplayString("YARPEN",@12)  // @12
+    Wait(8)
+    ForceSpell("YARPEN",DRYAD_TELEPORT)
+    Wait(3)
+    DisplayString("HCMOD",@13)  // @13
+    Wait(8)
+    DisplayString("ELMMOD",@14)  // @14
+    Wait(6)
+    ForceSpell("ELMMOD",DRYAD_TELEPORT)
+    ForceSpell("ELWIN1",DRYAD_TELEPORT)
+    Wait(3)
+    ActionOverride("HCMOD",StartDialogue("HCMOD",Player1))
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  Global("RevealArea","PF0511",0)
+  Dead("HCMOD")  // ~Архимаг~
+THEN
+  RESPONSE #100
+    SetGlobal("RevealArea","PF0511",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    CreateCreature("GFALCON",[825.1243],0)  // ~Графалкон~
+    ActionOverride("GFALCON",StartDialogue("GFALCON2",Player1))
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

@@ -1,0 +1,18 @@
+@0 = ~Hallo Fremder, wer seid Ihr?~ ~Hallo Fremde, wer seid Ihr?~
+@1 = ~Und was kümmert Euch das? Geht Eures Weges und belästigt mich nicht.~
+@2 = ~Ich bin <CHARNAME> und ich suche hier einen unterirdischen Gang oder so etwas.~
+@3 = ~Es ist klar, was Ihr braucht. Es ist ein ziemlich großes Loch im Boden westlich von hier. Freunde, da ihr dorthin geht, könntet Ihr dem wandernden Barden helfen?~
+@4 = ~Und wie kann ich helfen?~
+@5 = ~Ich habe keine Zeit für so was, danke für die Info. uf Wiedersehen.~
+@6 = ~Nun, aus reiner Neugierde beschloß ich, nachzusehen, wohin dieser unterirdische Gang führt. Wie sich herausstellte, gibt es dort eine Menge böser Kreaturen, und auf der Flucht vor ihnen habe ich meine Harfe verloren. Wenn ihr so freundlich wärt, sie zu finden und mir zurückzugeben, da ich kein Krieger bin...~
+@7 = ~Okay, wenn ich eine Harfe finde, werde ich sie Euch bringen. Bis dahin, auf Wiedersehen.~
+@8 = ~Harfe.
+
+Der wandernde Barde hat im Kerker eine Harfe verloren. Wenn ich sie finde, muss ich zu ihm zurückkehren.~
+@9 = ~Na und? Habt Ihr sie gefunden?~
+@10 = ~Noch nicht.~
+@11 = ~Ja, da ist sie.~
+@12 = ~Danke, mein Freund. Jetzt kann ich wieder meinen Lebensunterhalt verdienen. Auf Wiedersehen.~ ~Danke, meine Freundin. Jetzt kann ich wieder meinen Lebensunterhalt verdienen. Auf Wiedersehen.~
+@13 = ~Harfe.
+
+Ich habe die Harfe gefunden und sie dem Barden zurückgegeben.~

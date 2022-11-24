@@ -1,0 +1,22 @@
+IF
+  OnCreation()
+  Global("EnteredAreaPF0171","PF0171",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredAreaPF0171","PF0171",1)
+    StartCutSceneMode()
+    HideGUI()
+    ActionOverride(Player1,PlayDead(130))
+    ActionOverride(Player2,PlayDead(130))
+    ActionOverride(Player3,PlayDead(130))
+    ActionOverride(Player4,PlayDead(130))
+    ActionOverride(Player5,PlayDead(130))
+    ActionOverride(Player6,PlayDead(130))
+    Wait(8)
+    DisplayStringHead(Player1,@0)  // @0
+    Wait(5)
+    AddJournalEntry(@1,QUEST)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

@@ -1,0 +1,14 @@
+BEGIN ~SHOP1MOD~ 
+
+IF ~True()
+~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN REPLY @2 DO ~StartStore("SHOP1MOD",LastTalkedToBy(Myself))
+~ EXIT
+  IF ~~ THEN REPLY @3 GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @4
+  IF ~~ THEN EXIT
+END

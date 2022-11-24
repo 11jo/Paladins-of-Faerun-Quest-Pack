@@ -1,0 +1,24 @@
+@0 = ~ W-Who are you, stranger, another governor puppet? ~
+@1 = ~ No, my lady. The druid sent me, I must protect you and the treasure that you guard. ~
+@2 = ~ Yes, the governor sent me! ~
+@3 = ~ Tethyr.
+
+Dryad in the Umar Hills asked me for help. Tetira Forest is destroyed by the governor of the local castle. This needs to be investigated. ~
+@4 = ~ Tethyr.
+
+I received a letter from one of the prisoners, which must be delivered to the forest, but first I need to talk to the governor of the castle. ~
+@5 = ~ Tethyr.
+
+I talked with one of the prisoners, he gave me a letter, which I must deliver to the forest, not far from the castle. ~
+@6 = ~ Tethyr.
+
+I gained trust from the inhabitants of the Tetir Forest. Now I need to find the forest mistress, somewhere in the north of the forest. She guards a very powerful weapon, a rune sword. The viceroy is interested in this sword. ~
+@7 = ~ Tethyr.
+
+I decided to kill the forest mistress and help the governor to get the rune sword. The reward is waiting for me. ~
+@8 = ~ Unfortunately, the governor could not be killed, and the attack on the forest has already begun. This weakened me, and the guards were able to steal the rune sword. Bring that sword back! ~
+@9 = ~ I will try my lady. ~
+@10 = ~ They announced a good reward for you, <CHARNAME>! ~
+@11 = ~ Tethyr.
+
+The viceroy began to burn the Tethyr forest and stole the treasure. I have to find him and stop this madness. ~

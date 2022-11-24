@@ -1,0 +1,52 @@
+@0 = ~<CHARNAME>, hallo mein Freund! Leider fand unser Treffen unter für mich ungünstigen Umständen statt!~ ~<CHARNAME>, hallo meine Freundin! Leider fand unser Treffen unter für mich ungünstigen Umständen statt!~
+@1 = ~Kennen wir uns? Warum habt Ihr nach mir geschickt?~
+@2 = ~<CHARNAME>, wir kennen uns nicht, aber ich kannte Gorion gut, er war mein Freund. Warum ich nach Euch geschickt habe? Ich brauche Hilfe, und ich kann mich nicht auf gewöhnliche Söldner verlassen. Ich habe gehört, dass Ihr in der Stadt seid und habe die Gelegenheit ergriffen.~
+@3 = ~Wer genau seid Ihr? Ihr habt einen wunderbaren Leibwächter.~
+@4 = ~Ich bin einer der sechs Handelskönige, die Amn regieren.~
+@5 = ~Ah, davon hatte ich keine Ahnung. Es ist mir eine große Ehre, Sir.~
+@6 = ~"Sir" ist nicht nötig, <CHARNAME>. Ich werde Euch mein Problem vorstellen und Euch bitten, mir zu helfen.~
+@7 = ~Ich höre Euch aufmerksam zu.~
+@8 = ~Vor kurzem hat eine Gruppe Unbekannter, möglicherweise Agenten, meine Tochter entführt. Meine Tochter ist in einen politischen Konflikt auf den nahe gelegenen Inseln verwickelt. Die Hohe Königin sieht sich mit ihrem eigenen Sohn konfrontiert, der sich mit den Nordländern verbündetnhat. Seit vielen Jahren streiten sich die beiden um die Vorherrschaft auf den Inseln. Athkatla hat die Königin und ihre Armee durch meine Tochter mit Ressourcen und Waffen versorgt. Alles geschah unter strengster Geheimhaltung. Aber der Prinz hat irgendwie davon erfahren, und nun ist meine Tochter entführt worden. Ich bitte Euch, zu den Inseln zu reisen und meine Tochter zurückzubringen. Habt Ihr den Mut, diese Aufgabe zu erfüllen? Natürlich wird die Belohnung großzügig ausfallen.~
+@9 = ~Ja, ich werde versuchen, Eure Tochter zurückzuholen. Wie komme ich dorthin?~
+@10 = ~Leider habe ich jetzt keine Zeit dafür. Vielleicht später.~
+@11 = ~Es tut mir leid, <CHARNAME>, aber ich kann nicht warten. Es geht um die Rettung meiner Tochter. Ich werde das jemand anderem anvertrauen müssen. Auf Wiedersehen.~
+@12 = ~Entführung und Politik.
+
+Aufgabe gescheitert.~
+@13 = ~Eines meiner Handelsschiffe wird Euch an den Docks zur Verfügung stehen. Sprecht mit dem Kapitän des Schiffes. Hier ist mein Beschluss. Viel Glück.~
+@14 = ~Auf Wiedersehen.~
+@15 = ~Entführung und Politik.
+
+Die Tochter des Handelskönigs Atkatla wurde entführt. Eure Aufgabe ist es, sie auf den Inseln zu finden, auf denen sie entführt wurde. Ein Handelsschiff erwartet Euch an den Docks.~
+@16 = ~Ihr seid hier allein, aber ich sehe meine Tochter nicht, was hat das zu bedeuten, <CHARNAME>?~
+@17 = ~Leider ist Eure Tochter tot. Ich konnte sie nicht retten.~
+@18 = ~Warum? Was ist passiert?~
+@19 = ~Sie wurde in Mondlicht in einen politischen Konflikt verwickelt und gab dafür ihr Leben. Aber dank ihr konnte dieser Konflikt gelöst werden. Ihr könnt stolz auf sie sein, Sir.~
+@20 = ~Ich hoffe, dass abgesehen von dieser Entscheidung, nichts getan werden konnte. Ich habe hier eine Belohnung für Eure Bemühungen. Übrigens, ein alter Mann hat hier eine Karte seiner Elfenstadt hinterlassen, er wollte, dass Ihr dorthin geht.~
+@21 = ~Es tut mir wirklich leid, was mit EurerTochter passiert ist.~
+@22 = ~Athkatla.
+
+Ich habe einen Boten getroffen, eine hochrangige Person sucht mich, die ich in einem Einkaufsviertel finden kann. Ich muss das überprüfen.~
+@23 = ~Entführung und Politik.
+
+Ich habe in Mondlicht einen Prinzen getroffen, der mit seiner Mutter um die politische Macht konkurriert. Ich hoffe, die Königstochter wird nicht mit Gewalt in den Konflikt hineingezogen. Es ist an der Zeit, seine Mutter zu finden und mit ihr zu sprechen.~
+@24 = ~Entführung und Politik.
+
+Ich habe die Mutter des Prinzen getötet.~
+@25 = ~Entführung und Politik.
+
+Ich half dem Prinzen, Herrscher von Mondlicht zu werden, und fand auch die Tochter des Händlerkönigs.~
+@26 = ~Entführung und Politik.
+
+Ich habe einige falsche Entscheidungen getroffen und deshalb musste die Königstochter sterben. Sie wusste zu viel.~
+@27 = ~Meine Tochter hat mir alles erzählt, <CHARNAME>! Ich verstehe nicht, wie Ihr das tun konntet.~
+@28 = ~Was genau?~
+@29 = ~Ihr habt die Hohe Königin des Mondlichts getötet und dem größten Tyrannen zur Macht verholfen!~
+@30 = ~Vielleicht habe ich die falsche Entscheidung getroffen, aber es gab die Wahl, entweder sie oder er. Ich habe mich für den Prinzen entschieden. Aber meine Aufgabe war es, Eure Tochter zu retten, und das habe ich getan.~
+@31 = ~Ihr versteht also gar nichts, <CHARNAME>? All das wurde von ihrem Sohn geplant, es war eine Falle. Er hielt meine Tochter die ganze Zeit über gefangen. Er hat eine Weile gewartet, um jemanden zu finden, der ihm helfen würde, seine Mutter loszuwerden. Ihr habt genau das getan, was er wollte! Und ich dachte, ich kenne Euch. Raus aus meinem Haus. Obwohl, warte mal, das hätte ich fast vergessen. Ein alter Mann hat hier eine Karte seiner Elfenstadt hinterlassen, er wollte, dass Ihr dorthin geht.~
+@32 = ~Entführung und Politik.
+
+Ich habe die Mutter des Prinzen getötet.~
+@33 = ~Entführung und Politik.
+
+Ich habe dem Mondscheinprinzen zur Macht verholfen und die Tochter des Händlerkönigs von Amn zurückgebracht. Der König warf mich raus, weil ihm meine Entscheidung in Monflicht nicht gefiel.~

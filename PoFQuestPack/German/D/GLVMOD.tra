@@ -1,0 +1,14 @@
+@0 = ~Seid gegrüßt, Abenteurer. Vielleicht seid Ihr an ernsthaften Kämpfen interessiert oder wollt etwas Geld verdienen?~ ~Seid gegrüßt, Abenteurerin. Vielleicht seid Ihr an ernsthaften Kämpfen interessiert oder wollt etwas Geld verdienen?~
+@1 = ~Natürlich, könnt Ihr genaueres sagen?~
+@2 = ~Dies ist ein Gladiatorenkampf in einer Arena in einer Nomadenstadt nahe der Wüste von Anauroch. Dort kämpfen die besten Krieger von Faerûn. Wenn Ihr interessiert seid, verkaufe ich Euch die Karte, die diesen Ort zeigt, für nur 1000 Gold.~
+@3 = ~Okay, bitte schön.~
+@4 = ~Ich habe nicht so viel dabei, ich komme später wieder.~
+@5 = ~Ich bin nicht an Gladiatorenkämpfen interessiert.~
+@6 = ~Danke, hier ist eine Karte, die zeigt, wie man zur Arena kommt.~
+@7 = ~Danke auch Dir. Auf Wiedersehen.~
+@8 = ~Arena der Nomaden.
+
+In Tiefwasser bin ich einem Gladiator begegnet, der mir eine Karte verkauft hat. Dies ist eine Gladiatorenarena in der Stadt der Nomaden, nicht weit von der Wüste Anauroch entfernt.~
+@9 = ~Also wollt Ihr diese Karte?~
+@10 = ~Natürlich, hier sind 1000 Gold.~
+@11 = ~Nein, ich habe meine Meinung geändert. Ich bin nicht interessiert.~

@@ -1,0 +1,29 @@
+@0 = ~ Hey man, what are you doing here? ~
+@1 = ~ Let's say I'm looking for the chief of the gnomes. ~
+@2 = ~ I am in charge here. My name is Elgen, I am the servant of the powerful Dorn, ruler of the dwarves. Who are you? ~
+@3 = ~ I <CHARNAME>, some dwarf sent me to you, he said that you have problems. ~
+@4 = ~ We make mithril weapons and armor here, but recently duergar appeared here and settled in the eastern part of the mine. They want to get mithril for themselves. ~
+@5 = ~ Why not send a message about the situation to other dwarves or their rulers? ~
+@6 = ~ I don’t want to lose my job, they’ll probably replace me with someone else. The problem is that there has always been a war between grays and dwarves, and that cannot be changed! I wanted to say that we cannot negotiate with them, we must destroy them. What if you helped us? ~
+@7 = ~ Yes, I will help you, what do I need to do? ~
+@8 = ~ Duergar at the entrance advised me not to make a mistake and not to go into the wrong. And I agree with him, good luck and goodbye! ~
+@9 = ~ There are 3 paths leading from this room, one on which you came, another on the east leads to the shelter of the grays, and the last western corridor will lead to monsters, which also need to be destroyed. Find and kill their leaders and bring me their heads. ~
+@10 = ~ I'm already moving forward! ~
+@11 = ~ Mine.
+
+During the study, I came across a gnome Elgen, he needs help in protecting the mine. I agreed, my task is to explore the western and eastern wings of the mine, kill the leader of the duergar and monsters and bring the head, or at least their body parts, to Elgen. ~
+@12 = ~ You came back, so you decided to help us? ~
+@13 = ~ No, I will not interfere. ~
+@14 = ~ Have you really found and destroyed them? ~
+@15 = ~ Yes, no one will bother you anymore, the monsters have returned to their world, and the surviving duergar have fled. ~
+@16 = ~ Thank you <CHARNAME>, you helped us a lot, here is your reward. ~
+@17 = ~ Thanks and goodbye. ~
+@18 = ~ Mine.
+
+The duergar leader will give me two valuable items if I get rid of the gnomes in the central part of the mine. ~
+@19 = ~ Mine.
+
+In the slums, I came across a traveler who heard some rumors about problems in the dwarf mines in Tethyr. I could try to help them. ~
+@20 = ~ Mine.
+
+I found and killed both, the monster and the gray leader. The gnome mine is safe again. ~

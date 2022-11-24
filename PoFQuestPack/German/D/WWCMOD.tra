@@ -1,0 +1,42 @@
+@0 = ~Willkommen <CHARNAME>, Ihr seht ein wenig überrascht aus.~
+@1 = ~Euer Soldat hat von einer Nacht im Gefängnis gesprochen.~
+@2 = ~Ja, entschuldigt mich. Er verrichtet seine Pflicht. Die Wachen halten die Ordnung in der Stadt aufrecht und alle, die den Frieden der Bürger verletzen, sperren sie für die Nacht in ein örtliches Gefängnis.~
+@3 = ~Warum stehen wir hier und reden mit Euch, wer seid Ihr?~
+@4 = ~(lächelt) Ich bin der Hauptmann der Wache, Ihr seid wegen Barbarosa hier. Was wisst Ihr über ihn, was habt Ihr dort gemacht?~
+@5 = ~(lügt) Ich ging dorthin, um mich zu amüsieren, das ist nicht verboten.~
+@6 = ~Der Schmied Marian arbeitete für Barbarossa, ich traf ihn in Atkatla, er floh mit einer Karawane von hier. Er bat mich, mit Barbarossa zu verhandeln.~
+@7 = ~Täuscht mich nicht, Kumpel. Ich bin Euer Freund. Barbarossa ist der Feind. Und was habt Ihr da gemacht?~
+@8 = ~(lacht) Ihr wolltet nur in die Stadt gehen und mit dem mächtigsten Schwarzmarktboss in Tiefwasser verhandeln?~
+@9 = ~Marian sagte mir, dass Ihr ihm nicht helfen könnt, also suchte er einen Söldner oder Abenteurer, der ihm hilft.~
+@10 = ~Tiefwasser gehorcht den geheimen Herren, Ihr habt vielleicht schon davon gehört, einige von ihnen haben geheime Informanten in den Handelsgilden und der Diebesgilde.~
+@11 = ~Warum hat sich dieses Mal keiner von ihnen der Barbarossa-Gilde widersetzt?~
+@12 = ~Barbarossa ist sehr gerissen. Obwohl die geheimen Herren ihre Spione fast überall haben, bleibt Barbarossa nicht untätig und lässt die Leichen der toten Spione zurück. Wir brauchen also jemanden, der in ihr Nest eindringen kann.~
+@13 = ~Ja, aber Barbarossa hat mich schon gesehen, wir sind ihm begegnet.~
+@14 = ~Seid vorsichtig, wenn Ihr ihr Hauptquartier betretet, es ist gut bewacht. Der Eingang befindet sich im südöstlichen Teil der Stadt. Eine Belohnung wartet auf Euch, wenn Ihr die Aufgabe erfüllt.~
+@15 = ~Ich werde alles tun, was in meiner Macht steht, denn ich habe versprochen, dem Schmied zu helfen. Danke für die Information.~
+@16 = ~Schmied Marian.
+
+Wir konnten Barbarossa nicht töten, eine Wache erschien und brachte mich zum Hauptmann. Der Hauptmann klärte mich über die Situation auf. Im südöstlichen Teil der Stadt befindet sich der Eingang zur Barbarossa-Gilde.~
+@17 = ~Kümmert Euch um Barbarossa, <CHARNAME>.~
+@18 = ~Ich wurde bereits über Euren Sieg informiert, <CHARNAME>, brillante Arbeit. Ein Kurier von einem der Schattenfürsten kam zu mir, Ihr müsst zur Burg gehen, eine besondere Aufgabe erwartet Euch dort. Hier ist Eure Belohnung, mein Freund.~ ~Ich wurde bereits über Euren Sieg informiert, <CHARNAME>, brillante Arbeit. Ein Kurier von einem der Schattenfürsten kam zu mir, Ihr müsst zur Burg gehen, eine besondere Aufgabe erwartet Euch dort. Hier ist Eure Belohnung, meine Freundin.~
+@19 = ~Schmied Marian.
+
+In Waukeens Promenade traf ich einen verängstigten Schmied aus Tiefwasser. Ich habe viel über diese Stadt der Kaufleute gehört. Er sagte, dass der grausame Barbarossa jetzt den örtlichen Schwarzmarkt beherrscht. Ich muss ihn in einer Taverne oder auf einem Markt der Stadt finden.~
+@20 = ~Schmied Marian.
+
+Der Schmied hat alles gesagt, was Ihr braucht. Er bat Euch, seine Familie in einem Haus im Nordosten von Tiefwasser zu finden. Sobald Ihr sie gefunden habt, müsst Ihr sie zum Hauptquartier der Stadtwache eskortieren.~
+@21 = ~Schmied Marian.
+
+Wir haben Barbarossa angegriffen, aber er ist geflohen, bevor der Kampf begann.~
+@22 = ~Schmied Marian.
+
+Ich habe die Frau des Schmieds vor den Mördern Barbarossas gerettet. Jetzt kenne ich alle drei Passwörter, die man braucht, um die Gilde im Südosten der Stadt zu betreten.
+
+Passwort: Sklave, Markt, Schwarz.~
+@23 = ~Schmied Marian.
+
+Barbarossa, der Chef des Schwarzmarktes in Tiefwasser, wurde aufgehalten.~
+@24 = ~Ein Schattenfürst.
+
+Der Hauptmann der Wache in Tiefwasser schickt mich zum Schattenfürst, offenbar hat er eine besondere Aufgabe für mich. Es ist im Schloss.~
+@25 = ~Danke für alles. Viel Glück.~

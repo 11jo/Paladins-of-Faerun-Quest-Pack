@@ -1,0 +1,13 @@
+IF OnCreation()
+  Global("EnteredPF0148","PF0148",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0148","PF0148",1)
+    StartCutSceneMode()
+    ClearAllActions()
+    PlaySound("NWN2")
+    Wait(1)
+    ActionOverride("LARIMOD",StartDialogue("LARIMOD",Player1))
+    EndCutSceneMode()
+END
+

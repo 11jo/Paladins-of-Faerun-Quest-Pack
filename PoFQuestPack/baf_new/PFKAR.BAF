@@ -1,0 +1,121 @@
+IF
+  OnCreation()
+  Global("EnteredAreaPFKAR","PFKAR1",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredAreaPFKAR","PFKAR1",1)
+    HideGUI()
+    PlaySound("MUS1MOD")
+    StartCutSceneMode()
+    MoveViewPoint([422.401],SLOW)
+    Wait(6)
+    Explore()
+    DisplayStringHead(Player1,@0)  
+    Wait(5)
+    FadeToColor([20.0],0)
+    Wait(20)
+    DisplayStringHead(Player1,@1)  
+    Wait(4)
+    RestParty()
+    Wait(8)
+    CreateCreature("TRBA1MOD",[1104.60],0)  // ~Опытный бандит~
+    CreateCreature("TRBA2MOD",[1146.155],0)  // ~Опытный бандит~
+    CreateCreature("TRBA3MOD",[1251.197],0)  // ~Опытный бандит~
+    DisplayStringHead(Player2,@2) 
+    Wait(3)
+    ActionOverride("TRBA1MOD",MoveToPoint([644.317]))
+    ActionOverride("TRBA2MOD",MoveToPoint([763.354]))
+    ActionOverride("TRBA3MOD",MoveToPoint([789.444]))
+    Wait(3)
+    DisplayStringHead(Player1,@3)  
+    Wait(3)
+    BattleSong()
+    ActionOverride(Player1,Attack("TRBA2MOD"))
+    ActionOverride(Player2,Attack("TRBA1MOD"))
+    ActionOverride(Player3,Attack("TRBA3MOD"))
+    ActionOverride(Player4,Attack("TRBA3MOD"))
+    Wait(1)
+    ActionOverride("TRBA2MOD",Attack(Player1))
+    ActionOverride("TRBA1MOD",Attack(Player2))
+    ActionOverride("TRBA3MOD",Attack(Player3))
+    Wait(15)
+    ActionOverride(Player1,Kill("TRBA2MOD"))
+    Wait(3)
+    ActionOverride(Player2,Kill("TRBA1MOD"))
+    ActionOverride(Player3,Kill("TRBA3MOD"))
+    Wait(2)
+    DisplayStringHead(Player1,@4)  
+    Wait(3)
+    FadeToColor([10.0],0)
+    Wait(10)
+    RestParty()
+    Wait(20)
+    CreateCreature("CRWMOD",[1104.60],0)  // ~Наемник~
+    CreateCreature("CRW1MOD",[1146.155],0)  // ~Наемник~
+    CreateCreature("CRW2MOD",[1251.197],0)  // ~Наемник~
+    CreateCreature("CRW3MOD",[1264.256],0)  // ~Наемник~
+    CreateCreature("CRW4MOD",[1189.234],4)  // ~Наемник~
+    CreateCreature("CRW5MOD",[988.49],4)  // ~Наемник~
+    CreateCreature("CRW6MOD",[1266.349],4)  // ~Наемник~
+    CreateCreature("CRW7MOD",[1113.400],4)  // ~Наемник~
+    CreateCreature("CRW8MOD",[987.309],4)  // ~Наемник~
+    CreateCreature("CRW9MOD",[1168.562],4)  // ~Наемник~
+    Wait(2)
+    DisplayStringHead(Player1,@5)  
+    Wait(5)
+    ActionOverride(Player1,MoveToPoint([730.277]))
+    ActionOverride(Player2,MoveToPoint([838.312]))
+    ActionOverride(Player3,MoveToPoint([846.400]))
+    ActionOverride(Player4,MoveToPoint([969.422]))
+    ActionOverride(Player5,MoveToPoint([1025.539]))
+    ActionOverride(Player6,MoveToPoint([1144.563]))
+    Wait(6)
+    BattleSong()
+    EndCutSceneMode()
+    UnhideGUI()
+END
+
+IF
+  Global("RevealPFKAR","PFKAR1",0)
+  Dead("CRWMOD")  // ~Наемник~
+  Dead("CRW1MOD")  // ~Наемник~
+  Dead("CRW2MOD")  // ~Наемник~
+  Dead("CRW3MOD")  // ~Наемник~
+  Dead("CRW4MOD")  // ~Наемник~
+  Dead("CRW5MOD")  // ~Наемник~
+  Dead("CRW6MOD")  // ~Наемник~
+  Dead("CRW7MOD")  // ~Наемник~
+  Dead("CRW8MOD")  // ~Наемник~
+  Dead("CRW9MOD")  // ~Наемник~
+THEN
+  RESPONSE #100
+    SetGlobal("RevealPFKAR","PFKAR1",1)
+    StartCutSceneMode()
+    HideGUI()
+    Wait(3)
+    DisplayStringHead(Player1,@6)  
+    Wait(2)
+    MoveViewPoint([422.401],SLOW)
+    ActionOverride(Player1,MoveToPoint([581.312]))
+    CreateCreature("PRTDMOD",[422.401],0)  // ~Священник Торма~
+    Wait(7)
+    DisplayStringHead(Player1,@7)  
+    Wait(4)
+    CreateCreature("PRT1MOD",[999.336],0)  // ~Священник Торма~
+    ActionOverride("PRT1MOD",MoveToPoint([652.331]))
+    ActionOverride(Player1,Face(12))
+    Wait(6)
+    DisplayStringHead(Player1,@8) 
+    Wait(7)
+    AddJournalEntry(@9,QUEST)
+    UnhideGUI()
+    RevealAreaOnMap("PF0081")
+    ActionOverride(Player2,LeaveAreaLUA("PF0381","",[688.307],10))
+    ActionOverride(Player1,LeaveAreaLUA("PF0381","",[725.324],10))
+    ActionOverride(Player3,LeaveAreaLUA("PF0381","",[718.355],10))
+    ActionOverride(Player4,LeaveAreaLUA("PF0381","",[679.368],10))
+    ActionOverride(Player5,LeaveAreaLUA("PF0381","",[664.335],10))
+    ActionOverride(Player6,LeaveAreaLUA("PF0381","",[664.297],10))
+    EndCutSceneMode()
+END
+

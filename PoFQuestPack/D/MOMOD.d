@@ -1,0 +1,33 @@
+BEGIN ~MOMOD~
+
+IF ~  NumberOfTimesTalkedTo(0)
+~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2 DO ~EscapeArea()
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @3
+  IF ~~ THEN REPLY @4 GOTO 2
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @5
+  IF ~~ THEN REPLY @6 EXIT
+  IF ~~ THEN REPLY @7 GOTO 3
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @8
+  IF ~~ THEN REPLY @9 DO ~RevealAreaOnMap("PF0004")
+EscapeArea()~ 
+UNSOLVED_JOURNAL @10 EXIT
+END
+
+IF ~  !NumberOfTimesTalkedTo(0)~ THEN BEGIN 4
+  SAY @11
+  IF ~~ THEN REPLY @12 GOTO 3
+  IF ~~ THEN REPLY @13 EXIT
+END

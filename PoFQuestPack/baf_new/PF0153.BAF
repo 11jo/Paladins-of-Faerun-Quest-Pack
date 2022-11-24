@@ -1,0 +1,20 @@
+IF
+  Global("EnteredPF0153","PF0153",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0153","PF0153",1)
+    StartCutSceneMode()
+    HideGUI()
+    Wait(1)
+    ActionOverride(Player1,MoveToPoint([439.561]))
+    Wait(2)
+    DisplayStringHead("CELMMOD",@0)  
+    Wait(8)
+    DisplayStringHead(Player1,@1)  
+    Wait(8)
+    DisplayStringHead("CELMMOD",@2)  
+    Wait(8)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

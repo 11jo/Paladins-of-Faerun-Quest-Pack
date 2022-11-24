@@ -1,0 +1,3994 @@
+@1 = ~Paladine von Faerûn Questpaket~
+@2 = ~Student der Akademie~
+@3 = ~Student~
+@4 = ~Meister~
+@5 = ~Aufseher~
+@6 = ~Abenteurer~
+@7 = ~Elgen, Anführer der Zwerge~
+@8 = ~Elgen~
+@9 = ~Alastor~
+@10 = ~Oberster Erzmagier~
+@11 = ~Bogenschütze von Amn~
+@12 = ~Soldat von Amn~
+@13 = ~Hauptmann der Reiter von Amn~
+@14 = ~Hauptmann von Amn~
+@15 = ~Leibwache~
+@16 = ~Leutnant von Amn~
+@17 = ~Reiter von Amn~
+@18 = ~Meister der Akademie~
+@19 = ~Lord Aragorn~
+@20 = ~Aran~
+@21 = ~Erzmagier~
+@22 = ~Priester von Shevarash~
+
+@24 = ~Ardes, Hohepriester~
+@25 = ~Ardes~
+@26 = ~Ariks~
+@27 = ~Ar-Ju-Nam~
+@28 = ~Artemis~
+@29 = ~Artemis Entreri~
+@30 = ~Crunan~
+@31 = ~Arundel~
+@32 = ~Dieb~
+@33 = ~Meuchelmörder~
+@34 = ~Handelskönig~
+@35 = ~König von Athkatla~
+@36 = ~Augustus~
+@37 = ~Bürger von Baldurs Tor~
+@38 = ~Schurken-Soldat~
+@39 = ~Schurken-Bogenschütze~
+@40 = ~Schurken-Attentäter~
+@41 = ~Barbar des Nordens~
+@42 = ~Barbarossa~
+@43 = ~Wandernder Barde~
+@44 = ~Kevin aus dem Norden~
+@45 = ~Kevin~
+@46 = ~Wächter des Passes~
+@47 = ~Heiliger Zorn~
+@48 = ~Hauptmann der Wache~
+@49 = ~Handelsvertreter~
+@50 = ~Schatzjäger~
+@51 = ~Adoster, Sohn der Dryade~
+@52 = ~Bürger von Baldurs Tor~
+@53 = ~Opas~
+@54 = ~Blutrünstiger Vampir~
+@55 = ~Zauberer~
+@56 = ~Schwester von Bodhi~
+@57 = ~Bürgermeister~
+@58 = ~Hüter der Bruderschaft~
+@59 = ~Margul~
+@60 = ~Mönch der Bruderschaft~
+@61 = ~Paladin des Kults~
+@62 = ~Kultist~
+@63 = ~Katze~
+@64 = ~Meuchelmörder von Cyric~
+@65 = ~Champion~
+@66 = ~Bürger~
+@67 = ~Priester des Blutspeers~
+@68 = ~Priester von Cyric~
+@69 = ~Hohepriester von Cyric~
+@70 = ~Dunkelelfe~
+@71 = ~Priester~
+@72 = ~Pirat von Calimport~
+@73 = ~Verteidiger von Calimport~
+@74 = ~Priesterin der Shaar~
+@75 = ~Bote~
+@76 = ~Verbindungsmann~
+@77 = ~Möchtet Ihr etwas?~
+@78 = ~Feigling~
+@79 = ~Roter Clan~
+@80 = ~Hohepriester von Cyric~
+@81 = ~Zauberer von Niewinter~
+@82 = ~Leiche~
+@83 = ~Priester von Helm~
+@84 = ~Diener des Teufels~
+@85 = ~Marik Kriegsbär~
+@86 = ~Kriegsbär~
+@87 = ~Kaufmann von Dornuv~
+@88 = ~Männnerkörper~
+@89 = ~Dorregaray~
+@90 = ~Wächterdrache~
+@91 = ~Hüter des Relikts~
+@92 = ~Schwarzer Drache~
+@93 = ~Dracorex~
+@94 = ~Bergdruide~
+@95 = ~Hohepriesterin von Eilistraee~
+@96 = ~Hohepriesterin~
+@97 = ~Herrscherin des Hauses Lolth~
+@98 = ~Diener von Eilistraee~
+@99 = ~Anführer der Drow~
+@100 = ~Priesterin von Eilistraee~
+@101 = ~Alter Drache~
+@102 = ~Jarlaxles Drow~
+@103 = ~Jarlaxles Priesterin~
+@104 = ~Drow-Händler~
+@105 = ~Meister der Abtei~
+@106 = ~Fenmarel Mestarine~
+@107 = ~Anführer der Grauen~
+@108 = ~Duergar~
+@109 = ~Zwergenkrieger~
+@110 = ~Frauenkörper~
+@111 = ~Zwergführer~
+@112 = ~Zwerg von Dorn~
+@113 = ~Dhaerovatil~
+@114 = ~Wenn man Dhaerovathil nach seiner Vergangenheit fragt, sagt er, dass er seit Jahren danach strebt, ein Drow-Attentäter zu werden, und jetzt hat er endlich Glück. Es zeigt, dass er noch jung ist und sich gedankenlos in die Schlacht stürzt.~
+@115 = ~Lokaler Priester~
+@116 = ~Miliz~
+@117 = ~Eladriel~
+@118 = ~Elektro~
+@119 = ~Elia~
+@120 = ~Elannan~
+@121 = ~Magierin Elorin~
+@122 = ~Elorin~
+@123 = ~Elenar~
+@124 = ~Elfenkultist~
+@125 = ~Elfenhauptmann~
+@126 = ~Polizei~
+@127 = ~Alvin~
+@128 = ~Elfenkrieger~
+@129 = ~Mitglied des Rates der Magier~
+@130 = ~Lehrling von Elminster~
+@131 = ~Errad~
+@132 = ~Lehrling~
+@133 = ~Herr der Dunkelheit~
+@134 = ~Wächter des Steins~
+@135 = ~Udorril~
+@136 = ~Verteidiger des Bösen~
+@137 = ~Gefallener Paladin~
+@138 = ~Bauer~
+@139 = ~Herrin des Waldes~
+@140 = ~Gefallener Paladin des Ordens~
+@141 = ~Diener des Helm~
+@142 = ~Gradak~
+@143 = ~Frostig~
+@144 = ~Eindringling~
+@145 = ~Geralt~
+@146 = ~Grafalcon~
+@147 = ~Anführer der Gladiatoren~
+@148 = ~Gladiator-Veteran~
+@149 = ~Goldzauberer~
+@150 = ~Anführer der Orks~
+@151 = ~Ork-Bogenschütze~
+@152 = ~Erfahrener Bogenschütze~
+@153 = ~Erfahrener Ork~
+@154 = ~Ork~
+
+@156 = ~Gralamin~
+@157 = ~Schattendieb~
+@158 = ~Gradaks Hauptwache~
+@159 = ~Hauptwache~				   
+@160 = ~Hexenverteidiger~
+@161 = ~Garik~
+@162 = ~Dunkler Priester~
+@163 = ~Wache~
+@164 = ~Hohe Königin~
+@165 = ~Hrothgars Miliz~
+@166 = ~Hrothgar~
+@167 = ~Es ist sinnlos, den großen Hrothgar nach seiner Vergangenheit zu fragen, wenn überall darüber gesprochen wird und seine Abenteuer in Büchern niedergeschrieben sind. Hrothgar ist ein Paladin, Held der nördlichen Länder. Er ist vor 100 Jahren gestorben und hat jetzt dank Euch eine zweite Chance bekommen und man sieht ihm an, dass er sehr dankbar dafür ist. Hundert Jahre später, mit seiner enormen Erfahrung im Rücken, kann er wieder auf Wanderschaft gehen und sich Eurer Gruppe anschließen.~
+@168 = ~Rajskul~
+@169 = ~Tochter des Bürgermeisters~
+@170 = ~Waldläufer~
+@171 = ~Worg-Jäger~
+@172 = ~Gastwirt~
+@173 = ~Wirt von Calimport~
+@174 = ~Hausbesitzer~
+@175 = ~Randolph~
+@176 = ~Lehrling von Irenicus~
+@177 = ~Vershüllter Magier~
+@178 = ~Schattenmagier~
+@179 = ~Patrouille von Irenicus~
+@180 = ~Diener von Jarlaxle~
+@181 = ~Gefängniswärter~
+@182 = ~Dunkle Person~
+@183 = ~Königstochter~
+@184 = ~Kelroth~
+
+
+
+@188 = ~Kelben "Rabenumhang" Arunsan~
+@189 = ~Kelben Arunsan~
+@190 = ~Kronprinz~
+@191 = ~Königliche Garde~ 
+@192 = ~Königlicher Obermatrose~
+@193 = ~Königlicher Matrose~
+@194 = ~Königlicher Zauberer~
+@195 = ~Botschafter des Königs~
+@196 = ~Schiffseigner~
+@197 = ~Lady Aribeth~
+@198 = ~Lokaler Händler~
+@199 = ~Lady Xirathra~
+@200 = ~Gildenmeister von Niewinter~
+@201 = ~Kapitel~
+@202 = ~Hrothgars Leibwächter~
+@203 = ~Zuschauer~
+@204 = ~Anführer der Wandernden Dolche~
+@205 = ~Ja, wir sind bereit zu handeln.~
+@206 = ~Lord Norgold~
+@207 = ~Herr der Untoten~
+@208 = ~Anführer der Jäger~
+@209 = ~Trolljäger~
+
+@211 = ~Lord Lorearten~
+@212 = ~Lord Schildherz~
+@213 = ~Udorri Herr der Toten~
+@214 = ~Udorri~
+@215 = ~Gildenmitglied~
+@216 = ~Luskanischer Gildenmeister~
+@217 = ~Luskaner~
+@218 = ~Luskanischer Magier~
+@219 = ~Lord Wilster~
+@220 = ~Ratsmagier~
+@221 = ~Händler für magische Gegenstände~
+@222 = ~Dieb Marco~
+@223 = ~Marian~
+@224 = ~Mario~
+@225 = ~Marco~
+@226 = ~Dieb Mario~
+@227 = ~Lord Madslave~
+@228 = ~Aluatra~
+@229 = ~Major in der Armee von Calimport~
+
+@231 = ~Söldner~
+@232 = ~Wandernde Dolche~
+@233 = ~Magierschlächter~
+@234 = ~Kvoyan~
+@235 = ~Baldurs Miliz~
+@236 = ~Mönchdes Tempels~
+@237 = ~Norika~
+@238 = ~Sir Munroff~
+@239 = ~Lokaler Elf~
+@240 = ~Lokaler Elf~
+@241 = ~Teril, Anführer der Elfen~
+@242 = ~Teryl~
+@243 = ~Mondelf~
+@244 = ~Schiffskapitän~
+@245 = ~Händler von Memnon~
+@246 = ~Marians Frau~
+@247 = ~Hohepriester~
+@248 = ~Lord Spelloyal~
+@249 = ~Lord Nasher~
+@250 = ~Diener Tom~
+@251 = ~Ninja~
+@252 = ~Nomadenwache~
+@253 = ~Nomade~
+@254 = ~Nordländer~
+@255 = ~Prinz~
+@256 = ~Khalid~
+@257 = ~Niewinter-Armee~
+@258 = ~Ofala Kinderstein~
+@259 = ~Kapitän Nivall~
+@260 = ~Stadtwache~
+@261 = ~Kommandant~
+@262 = ~Königlicher Bogenschütze~
+@263 = ~Wächter von Niewinter~
+@264 = ~Lord Gratius~
+@265 = ~Offizier~
+@266 = ~Neun von Niewinter~
+@267 = ~Königliche Garde~
+@268 = ~Adliger von Niewinter~
+@269 = ~Alter Magier~
+@270 = ~Seltsamer Magier~
+@271 = ~Xangold~
+@272 = ~Ork-Häuptling~
+@273 = ~Ork-Schamane~
+@274 = ~Orog-Mörder~
+@275 = ~Otiros~
+@276 = ~Die rechte Hand~
+@277 = ~Schmuggler Tom~
+@278 = ~Doktor~
+@279 = ~Navigator~
+@280 = ~Piratenführer~
+@281 = ~Elitärer Anhänger von Torm~
+@282 = ~Prinzessin~
+@283 = ~Beschützer~
+@284 = ~Priester von Torm~
+@285 = ~Hohepriester Torm~
+@286 = ~Militanter Priester von Torm~
+@287 = ~Militanter Priester~
+@288 = ~Quarill~
+@289 = ~Raluk~
+@290 = ~Ausgebildeter Jäger~
+@291 = ~Waldläufer Rollard~
+@292 = ~Rächer~
+@293 = ~Ronin~
+@294 = ~Roter Magier~
+@295 = ~Anführer der Magier~
+@296 = ~Anführer der Roten Magier~
+@297 = ~Sir Raleigh~
+@298 = ~Bogenschütze der Südländer~
+@299 = ~Südländer~
+@300 = ~Sarah~
+@301 = ~Zweiter Sarevok~
+@302 = ~Sir Charles~
+@303 = ~Sir Davven Speloyal~
+@304 = ~Paladin Davven~
+@305 = ~Diener des Leichnams~
+@306 = ~Beschützer der Schriftrolle~
+@307 = ~Verlorene Seele~
+@308 = ~Königlicher Ritter~
+@309 = ~Königlicher Bogenschütze~
+@310 = ~König der Untoten~
+@311 = ~Versteinerter Magier~
+@312 = ~Magier der Südländer~
+@313 = ~Sir Solan~
+@314 = ~Zauberer~
+@315 = ~Kapitän des Schiffes~
+@316 = ~Spinnenkönigin~
+@317 = ~Sir Wilnan Tigersole~
+@318 = ~Lord Wilnan~
+@319 = ~Seltsamer Magier~
+@320 = ~Vira~
+@321 = ~Feadu Maidhrim~
+@322 = ~Priester des Shevarash~
+@323 = ~Südländischer Krieger~
+@324 = ~Regimentskommandant~
+@325 = ~Sir William~
+@326 = ~Kommandant der Angreifer~
+@327 = ~Targos~
+@328 = ~Elite von Targos~
+@329 = ~General~
+@330 = ~Tempelwächter~
+@331 = ~Toter Soldat~
+@332 = ~Wächter der Passage~
+@333 = ~Wächter der Passage~
+@334 = ~Wache der Passage~
+@335 = ~Sohn des Generals~
+@336 = ~Anführer der Vergessenen Diebe~
+@337 = ~Toise Horster~
+@338 = ~Henker~
+
+@340 = ~Zauberer Trajak~
+@341 = ~Trajak~
+@342 = ~Reisender aus dem Westen~
+@343 = ~Erfahrener Bandit~
+@344 = ~Bürgermeister von Targos~
+@345 = ~Händler aus dem Norden~
+@346 = ~Vampir aus dem Tempel~
+@347 = ~Priester von Tyr~
+@348 = ~Priester von Ilmater~
+@349 = ~Untoter Paladin~
+@350 = ~Untoter Hexenmeister~
+@351 = ~Untoter Waldläufer~
+@352 = ~Herrscher der Vampire~
+@353 = ~Dorf~
+@354 = ~Bauer~
+@355 = ~Novize von Torm~
+@356 = ~Großer Troll~
+@357 = ~Flüchtling~
+@358 = ~Leonan Fidlerson~
+@359 = ~Leonan~
+@360 = ~Weißer Geist~
+@361 = ~Belnan Wyrmbann~
+@362 = ~Belnan~
+@363 = ~Sicherheit~
+@364 = ~Für den Ruhm von Tiefwasser~
+@365 = ~Weißer Zauberer~
+@366 = ~Reichfalke Fletcher~
+@367 = ~Reichfalke~
+@368 = ~Schattenfürst~
+@369 = ~Feuerwolf~
+@370 = ~Gradaks Wolf~
+@371 = ~Arbeiter~
+@372 = ~Weißer Rakshasa~
+@373 = ~Stoaga Arroway~
+@374 = ~Stoaga~
+@375 = ~Oger-Krieger~
+@376 = ~Hexe~
+@377 = ~Bürgermeister von Tiefwasser~
+@378 = ~Die Elitegarde des Bürgermeisters~
+@379 = ~Leutnant Grün~
+@380 = ~Hauptmann Boris~
+@381 = ~Wache von Tiefwasser~
+@382 = ~Magierhändler~
+
+
+@385 = ~Gradaks Priester~
+@386 = ~Kommandant der Pfadfinder~
+@387 = ~Gradaks Erzmagier~
+@388 = ~Gradaks Magier~
+@389 = ~Gradaks Kommandant~
+@390 = ~Anbeter von Gradak~
+@391 = ~Gradaks Gefängniswärter~
+@392 = ~Gradaks Krieger~
+@393 = ~Gradaks Kämpfer~
+@394 = ~Gradaks Elitewache~
+@395 = ~Wir sind die Elite von Yarpen, bewegt euch nicht...~
+@396 = ~Gradaks Seemann~
+@397 = ~Gradaks Späher~
+@398 = ~Der Weg ist versperrt.~
+@399 = ~Dieser Pfad wurde von innen verbarrikadiert.~
+@400 = ~Verlassenes Haus~
+@401 = ~Da ist nichts zu sehen.~
+@402 = ~Händler~
+@403 = ~Waffenkammer~
+@404 = ~Eingang zur Mühle~
+@405 = ~Taverne bei den Drei Krügen~
+@406 = ~Da ist nichts.~
+@407 = ~Ihr braucht Hilfe, allein werdet Ihr den Weg nicht finden.~
+@408 = ~Diebesgilde: Wandernde Dolche~
+
+@410 = ~Wenn Ihr hinschaut, seht Ihr nur den Laden.~
+@411 = ~Dieser Weg führt nirgendwo hin.~
+@412 = ~Gradaks Vater~
+@413 = ~Die Straße wurde zerstört.~
+@414 = ~Dies ist ein alter runder Tisch, der den Paladinen von Faerûn gehörte.~
+@415 = ~Das Gefängnis ist verschlossen~
+@416 = ~Zerstörtes Schiff~
+@417 = ~Das Tor ist von der anderen Seite verschlossen.~
+@418 = ~Ihr kommt nicht durch~
+@419 = ~Diese Treppe führt nirgendwo hin.~
+@420 = ~EINTRITT VERBOTEN~
+@421 = ~Nur ein Ruheraum.~
+@422 = ~Zerstörte Brücke~
+@423 = ~Das ist eine Waffe für Piraten.~
+
+@425 = ~Ihr könnt hier nichts sehen.~
+@426 = ~Das führt nirgendwo hin.~
+@427 = ~Hier ist nichts.~
+@428 = ~Dieser Weg führt nirgendwo hin.~
+@429 = ~Die Treppe ist zerstört.~
+@430 = ~Die Treppe führt zur Burgmauer hinauf. Der Zutritt ist untersagt..~
+@431 = ~Schatzkammer~
+@432 = ~Der Eingang ist auf der anderen Seite verbarrikadiert~
+@433 = ~Schlüsselstein 2. Wächter~
+@434 = ~Schlüsselstein 3. Wächter~
+@435 = ~Schlüsselstein 4. Wächter~
+@436 = ~Schlüsselstein 5. Wächter~
+@437 = ~Schlüsselstein 6. Wächter~
+@438 = ~Schlüsselstein 1. Wächter~
+@439 = ~Amulett der Hölle~
+@440 = ~Dieses Amulett hat die Form eines fliegenden Feuerballs. Solche Schmuckstücke werden von Anhängern dämonischer Kulte verwendet. Das Amulett zeigt nicht nur, wem genau sein Besitzer dient, sondern hat auch magische Eigenschaften.
+
+EIGENSCHAFTEN:
+
+Feuerwiderstand: 50%
+Erhöht den Schaden durch Feuerangriffe
+
+Kann nur verwendet werden von:
+ bösen Charakteren~
+@441 = ~Ghul-Amulett~
+@442 = ~Dieses Amulett besteht aus den Zähnen von Ghulen. Es sieht nicht sehr hübsch aus, hat aber nützliche Eigenschaften.
+
+EIGENSCHAFTEN:
+
+Schützt vor Lebenskraftentzug
++30 % Widerstand gegen normalen Waffenschaden.~
+
+@443 = ~Geschenk der Götter~
+@444 = ~Diese Kette ist außerordentlich mächtig und viele bezweifeln sogar ihre Existenz. Eines ist klar - Wer sie besitzt, kann viel bewirken.
+
+EIGENSCHAFTEN:
+
++2 auf alle Eigenschaften
+
+Kann nicht verwendet werden von:
+ Magierkiller
+ Kensai~
+
+@445 = ~Schutz des Engels~
+@446 = ~Eines der sehr seltenen Artefakte, das in einem vergessenen Tempel gefunden wurde, der dem Gott des Himmels gewidmet ist.
+
+EIGENSCHAFTEN:
+
++1 auf alle Eigenschaften
++10 % Resistenz gegen Feuer, Blitz, Eis und Gift~
+
+@447 = ~Artefakt~
+@448 = ~Ein Artefakt aus Calimshan.~
+@449 = ~Ein sehr wertvolles Artefakt aus Osthafen im Eiswindtal.~
+@450 = ~Schlachtaxt des Todes~
+@451 = ~Die zweischneidige Axt ist eine der am weitesten verbreiteten Waffen unter den Barbarenstämmen. Diese Waffe besteht aus unglaublich haltbarem Metall, das selbst nach dem heftigsten Kampf nicht im Geringsten stumpf wird oder zerbröckelt. Und selbst schwere Rüstungen retten nicht immer vor seinen Schlägen.
+
+EIGENSCHAFTEN:
+
++1W8 zusätzlicher Hiebschaden
+50 % Chance, das Ziel bei einem gescheiterten Rewttrungswurf sofort zu töten.
+
+ETW0: Bonus von +3
+Schaden: 1W8 +3
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 7
+Waffenfertigkeit: Axt
+Waffentyp: zweihändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern
+ Dieben~
+@452 = ~Axt der Zauberer~
+@453 = ~Wie der Name schon sagt, kann diese Waffe nur von Zauberern benutzt werden. Sie wurde von einem gewissen begabten Zauberkundigen für seine Kollegen geschaffen, die aus verschiedenen Gründen keine schweren Waffen benutzen konnten. Als Basis dient die gewöhnliche Holzfälleraxt, die durch Magie modifiziert wird.
+
+EIGENSCHAFTEN:
+
+Stärke +2,
+30 % Chance, bei einem Treffer einen "Feuerball" zu aktivieren,
+Zauber wirken: "Eile" (3 mal am Tag),
+"verbesserte Unsichtbarkeit" (2 mal täglich).
+
+ETW0: Bonus +2
+Schaden: 1W8 +2
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 5
+Waffenfertigkeit: Axt
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nur verwendet werden von:
+ Magiern~
+@454 = ~Goblin-Axt~
+@455 = ~Bekanntermaßen sind Goblin-Handwerker miserabel. Diese Axt ist eine der Waffen, die sie herzustellen versuchten.
+
+EIGENSCHAFTEN:
+
+-2 Schaden, -1 Beweglichkeit
+
+ETW0: -
+Schaden: 1W8
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 8
+Waffenfertigkeit: Axt
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nur verwendet werden von: -~
+@456 = ~Zweischneidige Axt~
+@457 = ~Die zweischneidige Axt ist eine der am weitesten verbreiteten Waffen unter den Barbarenstämmen. In den Händen ihrer Krieger wurden diese Waffen wirklich effektiv und tödlich.
+
+EIGENSCHAFTEN:
+
++1W8 zusätzlicher Hiebschaden
+5 % Chance, das Ziel bei einem gescheiterten Rettungswurf gegen Tod sofort zu töten.
+
+ETW0: Bonus von +1
+Schaden: 1W8 x2
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 7
+Waffenfertigkeit: Axt
+Waffentyp: zweihändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern
+ Dieben~
+@458 = ~Zweischneidige Axt+1~
+@459 = ~Die zweischneidige Axt ist eine der am weitesten verbreiteten Waffen unter den Barbarenstämmen. In den Händen ihrer Krieger ist diese Waffe wirklich effektiv und tödlich. Diese Axt wurde überarbeitet, um mehr Schaden zu verursachen.
+
+EIGENSCHAFTEN:
+
++1W8 zusätzlicher Hiebschaden
+10 % Chance, das Ziel bei einem gescheiterten Rettungswurf gegen Tod sofort zu töten.
+
+ETW0: Bonus von +2
+Schaden: 1W8 +1
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 7
+Waffenfertigkeit: Axt
+Waffentyp: zweihändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern
+ Dieben
+ Waldläufern~
+@460 = ~Zweischneidige Axt +2~
+@461 = ~Die zweischneidige Axt ist eine der verbreitetsten Waffen unter den Barbarenstämmen. In den Händen ihrer Krieger ist diese Waffe wirklich effektiv und tödlich. Diese Axt wurde modifiziert, um ernsthafteren Schaden zu verursachen.
+
+EIGENSCHAFTEN:
+
++1W8 zusätzlicher Hiebschaden
+Chance von 20 %, das Ziel bei einem gescheiterten Rettungswurf gegen Tod sofort zu töten.
+
+ETW0: Bonus von +3
+Schaden: 1W8 +2
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 7
+Waffenfertigkeit: Axt
+Waffentyp: zweihändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern
+ Dieben~
+@462 = ~Zweischneidige Axt +3~
+@463 = ~Die zweischneidige Axt ist eine der am weitesten verbreiteten Waffen unter den Barbarenstämmen. In den Händen ihrer Krieger ist diese Waffe wirklich effektiv und tödlich. Diese Axt wurde überarbeitet, um mehr Schaden zu verursachen.
+
+EIGENSCHAFTEN:
+
++1W8 zusätzlicher Hiebschaden
+30 % Chance, das Ziel bei einem gescheiterten Rettungswurf sofort zu töten.
+
+ETW0: Bonus von +4
+Schaden: 1W8 +3
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 7
+Waffenfertigkeit: Axt
+Waffentyp: zweihändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern
+ Dieben~
+@464 = ~Schärpe der Gesundheit~
+@465 = ~Verzauberte Gürtel wie dieser sind sind buchstäblich ihr Gewicht in Gold wert, da ihre Träger gegen Gifte immun sind. Dieser Gürtel ist aus Schlangenhaut gefertigt und hat eine ungewöhnliche grün-braune Farbe.
+
+EIGENSCHAFTEN:
+
+Immunität gegen Gift
+Rüstungsklasse +2, +10 Max. Gesundheit~
+@466 = ~Kältegürtel~
+@467 = ~Dieser Gürtel gehörte früher einem Eisriesen, was anhand der Größe des Gegenstands leicht zu erraten ist. Eines Tages drang eine sehr verdächtige Person in seine Höhle ein. Der Körper des Riesen wurde eine Woche später gefunden, und alles mehr oder weniger Wertvolle, einschließlich des Gürtels, war verschwunden.
+	
+EIGENSCHAFTEN:
+
+Immunität gegen Kälteschaden
+Kann 2 Mal am Tag "Kältekegel" wirken.~
+@468 = ~Zwergengürtel~
+@469 = ~Zwerge sind zwar kleinwüchsig, aber sie haben viel Mut und Ausdauer. Dieser Gürtel gehörte einst einem Zwerg namens Grohin, der die Wachen im Reich seiner Sippe befehligte. Sie mussten oft Überfälle abwehren, nicht nur von den Bewohnern der Oberfläche und den Bewohnern des Unterreichs, sondern auch von ihrer eigenen Art. Am Ende waren die Narren, die versucht hatten, sich mit dem Reichtum des Clans davonzumachen, verschwunden, und Grokhin wurde zum Helden.
+
+EIGENSCHAFTEN:
+
+Der Träger des Gürtels übernimmt Führungsaufgaben und erhält +1 Charisma
+
+Kann nicht verwendet werden von:  
+  Magiern	
+  Druiden	
+  Klerikern	
+  Dieben
+  Waldläufern
+  Mönchen~
+@470 = ~Kristallkugel~
+@471 = ~Diese Kugel dient als <CHARNAME> als Kommunikationsmittel mit Großherzog Opas aus Baldurs Tor.~
+@472 = ~Bardenharfe~
+@473 = ~Satans Stiefel~
+@474 = ~Diese Stiefel werden ausschließlich von Wesen aus den Neun Höllen getragen, wenn sie in ihrer menschlichen Gestalt durch Toril laufen. Angesichts der Tatsache, dass dieses Paar Stiefel vom Besitzer getrennt ist, war jemand dumm genug und hatte das Glück, es zu stehlen. Auf alle Fälle ist es am besten, sie nicht zu tragen ... es sei denn, Ihr geht gerne Risiken ein.
+
+EIGENSCHAFTEN:
+
+Feuerwiderstand: +45% Bonus
+Maximale Lebenspunkte: +5 Bonus	
+
+Kann nur verwendet werden von:
+ bösen und chaotischen Charakteren~
+@475 = ~Halbling-Schuhe~
+@476 = ~Halblinge sind kleine, flinke und menschenähnliche Kreaturen. Sie leben in grasbewachsenen Hügellandschaften, in denen sie ihre Hütten bauen. Meistens sind sie ein friedliches Volk, aber bei Gefahr versammeln sie sich und können eine ernstzunehmende Kraft darstellen.
+Es herrscht die Meinung, dass Halblinge überhaupt keine Schuhe brauchen, weil ihre Füße wie Sohlen sind. In ihren Dörfern mögen sie so gut zurechtkommen, aber in den Städten sieht man selten einen barfüßigen Halbling. Diese Schuhe sind sehr robust und erstaunlich leicht.
+
+EIGENSCHAFTEN:
+
+Geschicklichkeit +1
+Rüstungsklasse: +1
+Hast beim Tragen
+
+Kann nur verwendet werden von:
+ Halblingen~
+@477 = ~Stiefel des großartigen Schutzes~
+@478 = ~Diese großartigen Stiefel erhöhen die Verteidigung gegen magische Waffen. Wenn sich ein Feind mit einer solchen Ausrüstung dem Träger der Stiefel nähert, leuchtet um ihn herum ein schwaches violettes Licht und fungiert als Energieschild.
+
+EIGENSCHAFTEN:
+
+15 % Resistenz gegen magische Waffen
++5 Max. Gesundheit~
+@479 = ~Stiefel des Himmels~
+@480 = ~Diese Stiefel sind extrem selten. Gerüchten zufolge werden sie nur von himmlischen Wesen getragen. Sobald diese Stiefel getragen werden, wird der Körper unerwartet leicht und der Träger bewegt sich so schnell, dass es unmöglich ist, ihm zu folgen.
+
+EIGENSCHAFTEN:
+
+"Verbesserter Hast" beim Tragen
+"Hast" wirken 3 Mal am Tag.~
+@481 = ~Zauberschlange~
+@482 = ~Diese Handschuhe werden aus der Haut einer sehr seltenen und vom Aussterben bedrohten Schlangenart hergestellt. Dies ist vor allem ein Verdienst der Alchemisten, die gelernt haben, eine magische Essenz aus den Kreaturen zu extrahieren..
+
+EIGENSCHAFTEN:
+
+Fügt einen zusätzlichen Zauber der 3. Stufe hinzu,
+Rüstungsklasse-Bonus +1,
+50 % Widerstand gegen Gift und Säure~
+@483 = ~Handschuhe des Lebens~
+@484 = ~Diese Handschuhe sieht man oft an den Händen von Elfen, aber nie an den Händen von anderen. Nur die Waldbewohner kennen das Geheimnis ihrer Herstellung, und nur ihre Vertreter können dieses Produkt in vollem Umfang nutzen.
+
+EIGENSCHAFTEN:
+
++1 Intelligenz
++ 10 Max. Gesundheit
+Regeneriert 3 Lebenspunkte pro Runde
+
+Kann nur verwendet werden von:
+ Elfen~
+@485 = ~Handschuhe des Erzmagiers~
+@486 = ~Für Magier sind diese Handschuhe buchstäblich Gold wert, da sie ihre Fähigkeiten erheblich verbessern. Für einen unerfahrenen Laien in Sachen Magie sind sie nichts weiter als ein Teil der Garderobe.
+
+EIGENSCHAFTEN:
+
+fügt 2 Zauber der 4., 5. und 6. Stufe hinzu.
+Die Lesezeit wurde halbiert.~
+@487 = ~Donnerfäuste~
+@488 = ~Diese Handschuhe sind aus echtem Leder gefertigt und fachmännisch mit einem Reißverschluss versehen. Bei Berührung versetzen die Handschuhe dem Ziel einen Blitzschlag.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse +1
+20% Elektrizitätsresistenz
+zusätzlicher Elektrizitätsschaden beim Angriff.
+
+Kann nur verwendet werden von:
+ Mönchen~
+@489 = ~Bastardschwert~
+@490 = ~Das Bastardschwert ist eine ausgezeichnete, vielseitige Waffe, die mit einer oder zwei Händen geführt werden kann. Bei zweihändiger Verwendung führt der Krieger verheerende Schläge aus, verliert aber die Fähigkeit, den Schild zu benutzen. Aber es ist eine langsame Waffe. Bei einhändiger Anwendung kann man einen Schild aufnehmen, aber der verursachte Schaden wird auf das Niveau eines Langschwert reduziert.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 8
+Waffenfertigkeit: Bastardschwert
+Waffentyp: zweihändig
+Mindeststärke: 14
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben~
+@491 = ~Bastardschwert +1~
+@492 = ~Das Bastardschwert ist eine ausgezeichnete, vielseitige Waffe, die mit einer oder zwei Händen geführt werden kann. Bei zweihändiger Verwendung führt der Krieger verheerende Schläge aus, verliert aber die Fähigkeit, den Schild zu benutzen. Aber es ist eine langsame Waffe. Bei einhändiger Anwendung kann man einen Schild aufnehmen, aber der verursachte Schaden wird auf das Niveau eines Langschwert reduziert. Diese Art des zweihändigem Schwerts ist durch magische Kräfte verstärkt, sodass es mehr Schaden anrichten kann.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 + 1
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 8
+Waffenfertigkeit: Bastardschwert
+Waffentyp: zweihändig
+Mindeststärke: 14
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben~
+@493 = ~Bastardschwert +2~
+@494 = ~Das Bastardschwert ist eine ausgezeichnete, vielseitige Waffe, die mit einer oder zwei Händen geführt werden kann. Bei zweihändiger Verwendung führt der Krieger verheerende Schläge aus, verliert aber die Fähigkeit, den Schild zu benutzen. Aber es ist eine langsame Waffe. Bei einhändiger Anwendung kann man einen Schild aufnehmen, aber der verursachte Schaden wird auf das Niveau eines Langschwert reduziert. Diese Art des zweihändigem Schwerts ist durch magische Kräfte verstärkt, sodass es mehr Schaden anrichten kann.
+
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 +2
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 8
+Waffenfertigkeit: Bastardschwert
+Waffentyp: zweihändig
+Mindeststärke: 14
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben~
+@495 = ~Bastardschwert +3~
+@496 = ~Das Bastardschwert ist eine ausgezeichnete, vielseitige Waffe, die mit einer oder zwei Händen geführt werden kann. Bei zweihändiger Verwendung führt der Krieger verheerende Schläge aus, verliert aber die Fähigkeit, den Schild zu benutzen. Aber es ist eine langsame Waffe. Bei einhändiger Anwendung kann man einen Schild aufnehmen, aber der verursachte Schaden wird auf das Niveau eines Langschwert reduziert. Diese Art des zweihändigem Schwerts ist durch magische Kräfte verstärkt, sodass es mehr Schaden anrichten kann.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 +3
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 8
+Waffenfertigkeit: Bastardschwert
+Waffentyp: zweihändig
+Mindeststärke: 14
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben~
+@497 = ~Bastardschwert +4~
+@498 = ~Das Bastardschwert ist eine ausgezeichnete, vielseitige Waffe, die mit einer oder zwei Händen geführt werden kann. Bei zweihändiger Verwendung führt der Krieger verheerende Schläge aus, verliert aber die Fähigkeit, den Schild zu benutzen. Aber es ist eine langsame Waffe. Bei einhändiger Anwendung kann man einen Schild aufnehmen, aber der verursachte Schaden wird auf das Niveau eines Langschwert reduziert. Diese Art des zweihändigem Schwerts ist durch magische Kräfte verstärkt, sodass es mehr Schaden anrichten kann.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 +4
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 8
+Waffenfertigkeit: Bastardschwert
+Waffentyp: zweihändig
+Mindeststärke: 14
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben~
+@499 = ~Stolz des Barbaren~
+@500 = ~Diese Klinge ist mehr als nur eine von Kriegern respektierte Waffe. Es wird in jeder seriösen Schrift erwähnt, die noch an die Zeit des Barbaren Korgan erinnert, einem der gefährlichsten Krieger jener Zeit. Das Schwert, das er führte, hatte außergewöhnliche Kraft. Es verfügte über eine solche Macht, dass ein gewöhnlicher Krieger zu einem ernsthaften Gegner wurde.
+
+Eigenschaften:
+
+Stärke 21, 5 mal am Tag
+Rüstungsklasse: +1 Bonus
+Rüstungsklasse wird -1
+Wut
+
+ETW0: Bonus von +4
+Schaden: 2W5 +4
+Schadensart: Aufschlitzen
+Gewicht: 12
+Geschwindigkeit: 8
+Waffenfertigkeit: Bastardschwert
+Waffentyp: zweihändig
+Mindeststärke: 14
+
+Kann nur verwendet werden von:
+ Kriegern~
+@501 = ~Schwert der Gelassenheit~
+@502 = ~Das Führen dieser Waffe verleiht dem Träger eine Art innere Ruhe und Ausgeglichenheit, wodurch jeder Krieger gelassen in die Schlacht zieht, aber nicht umgekehrt. Feindliche Truppen hingegen sind gezwungen zu fliehen, wenn sie einen Krieger mit selbstsicherem Blick vor sich sehen, der ihnen wie ein furchterregendes Ungeheuer erscheint,, das vor nichts zurückschreckt.
+
+Eigenschaften:
+
+Resistenz gegen Furcht,
+15 % Chance bei jedem Treffer, dass der Feind flieht
+
+ETW0: Bonus von +2
+Schaden: 2W5 +2
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 7
+Waffenfertigkeit: Bastardschwert
+Waffentyp: zweihändig
+Mindeststärke: 12
+
+Kann nur verwendet werden von:
+ Kriegern~
+@503 = ~Verfluchte Klinge~
+@504 = ~Wie der Name schon sagt, ist diese Waffe verflucht. Sie hat negative Auswirkungen auf ihren Besitzer, aber all dies wird die hohe Wirkung der Waffe ausgelichen. Es ist Sache des Kriegers zu entscheiden, ob es sich lohnt, sich mit der Waffe herumzuschlagen.
+
+Eigenschaften:
+
+Verringert Konstitution und Intelligenz um 2, erhöht aber Stärke und Beweglichkeit um 1.
+Erhöht Stärke und Geschicklichkeit um 1 und erlaubt dem Anwender, einmal pro Tag einen Dschinn zu beschwören.
+
+ETW0: Bonus von +3
+Schaden: 2W5 +3
+Schadensart: Aufschlitzen
+Gewicht: 11
+Geschwindigkeit: 7
+Waffenfertigkeit: Bastardschwert
+Waffentyp: zweihändig
+Mindeststärke: 13
+
+Kann nur verwendet werden von:
+ Kriegern~
+@505 = ~Runen-Bastardschwert~
+@506 = ~Diese Waffe ist mit einer besonderen Art von Magie verzaubert, genauer gesagt mit Runenmagie. An der Basis der magischen Runen befindet sich eine "Zeichnung" von Fingern in der Luft, die blau leuchtende Runen bilden. Mit dieser Magie muss der Zauberer nichts sagen, sondern nur mit seinen Händen gestikulieren. Sie ist gefährlicher als die in Faerûn verwendete Magie, und abgesehen von den wenigen erhaltenen Aufzeichnungen über diese Magie wird gesagt, dass sie einst weit verbreitet war.
+
+Eigenschaften:
+
+Der Träger erhält 50 % Resistenz gegen alle Arten von Magie.
+
+ETW0: Bonus von +2
+Schaden: 2W5 +2
+Schadensart: Aufschlitzen
+Gewicht: 12
+Geschwindigkeit: 7
+Waffenfertigkeit: Bastardschwert
+Waffentyp: zweihändig
+Mindeststärke: 12
+
+Kann nur verwendet werden von:
+ Kriegern~
+@507 = ~Ebenholz-Bogen~
+@508 = ~Diese Waffe ist aus dem härtesten Holz in Faerûn gefertigt. Sie ist groß, schwer und klobig, aber wenn Ihr sie benutzt, wird sie beim Feind zusätzlichen Schaden verursachen.
+
+EIGENSCHAFTEN:
+
+Schaden +6
+20 % Chance, das Ziel zu betäuben
+
+ETW0: Bonus von +3
+Schaden: Pfeil +3
+Schadensart: Durchbohren (Schuss)
+Gewicht: 10
+Geschwindigkeit: 9
+Waffenfertigkeit: Langbogen
+Waffentyp: zweihändig
+Mindeststärke: 12
+
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern
+ Klerikern
+ Dieben~
+@509 = ~Magische Spirale~
+@510 = ~Mehrere Runen sind kunstvoll in diese Waffe eingraviert, wodurch sie zusätzlichen Schaden durch Magie verursachen und den Träger davor schützen kann.
+
+EIGENSCHAFTEN:
+
++10 Magieschaden
++10 % Magieresistenz
+
+ETW0: Bonus von +4
+Schaden: Pfeil +4
+Schadensart: Feuer
+Gewicht: 8
+Geschwindigkeit: 6
+Waffenfertigkeit: Leichter Bogen
+Waffentyp: zweihändig
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern~
+@511 = ~Entlader  +3~
+@512 = ~Durch die Art des Angriffs kopiert diese Waffe das berühmte Werk von Gozen, aber hier ging der Schöpfer noch weiter und legte zusätzliche Verzauberungen auf den Bogen. Und ich muss sagen, das Ergebnis war hervorragend.
+
+EIGENSCHAFTEN:
+
+Elektrizitätsangriff,
+benötigt keine Munition.
+Der Besitzer bewegt sich schneller
+kann einmal am Tag den Zauber Hast wirken.
+
+ETW0: Bonus von +3
+Schaden: 1W8 Blitz +3
+Schadensart: Feuer
+Gewicht: 8
+Geschwindigkeit: 4
+Waffenfertigkeit: Leichter Bogen
+Waffentyp: zweihändig
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern~
+@513 = ~Riesenkeule~
+@514 = ~Wie der Name schon sagt, kann nur ein Riese eine solche Waffe führen. Sie ist auch einfach herzustellen: an muss nur einen dickeren Baum brechen und dann Bruchstücke von Schwertern, Speeren, Armbrustbolzen und allem, was man an Eisen und scharfen Gegenständen finden kann, hineinhämmern. Aufgrund seiner Größe ist es sehr schwierig, einem solchen Knüppel auszuweichen.
+
+EIGENSCHAFTEN:
+
+Bei einem Treffer besteht eine Chance von 20 %, das Ziel zu lähmen, eine Chance von 10 %, schwere Blutungen zu verursachen (das Ziel verliert 1/4 seines Lebens).
+5 % Chance, das Ziel sofort zu töten.
+
+ETW0: Bonus von +3
+Schaden: 1W6 +3
+Schadensart: Zertrümmern
+Gewicht: 8
+Geschwindigkeit: 5
+Waffenfertigkeit: Keule
+Waffentyp: einhändig
+Mindeststärke: 7
+
+Kann nicht verwendet werden von:
+ Magiern~
+@515 = ~Stosswellen-Keule~
+@516 = ~Wie der Name schon sagt, entfesselt diese Keule bei einem Angriff eine mächtige Stosswelle, die alles und jeden von seinem Träger wegstößt, egal wer oder was es ist. Es ist wichtig, dass sich die Verbündeten des Besitzers der Keule dies im Hinterkopf behalten und sich im Kampf von ihm fernhalten.
+
+EIGENSCHAFTEN:
+
+Bei einem Angriff besteht eine Chance von 20 %, dass jeder in der Nähe des Schlägerbesitzers zurückgestoßen wird.
+
+ETW0: Bonus von +4
+Schaden: 1W6 +4
+Schadensart: Zertrümmern
+Gewicht: 3
+Geschwindigkeit: 5
+Waffenfertigkeit: Keule
+Waffentyp: einhändig
+Mindeststärke: 7
+
+Kann nicht verwendet werden von:
+ Magiern~
+@517 = ~Frostkeule~
+@518 = ~Diese Waffe gehörte einst dem Anführer eines Eistrollstammes. Wenn man bedenkt, dass sie schnell in die Hände von Abenteurern gelangte, ist es leicht zu erraten, dass die Keule den Vorbesitzern nicht geholfen hat. Bleibt zu hoffen, dass der neue Eigentümer erfolgreicher sein wird.
+
+EIGENSCHAFTEN:
+
++2W6 zusätzlicher Kälteschaden,
+Ermöglicht das Wirken von Zaubersprüchen:
+"Eissturm" (4 mal am Tag),
+"Wasserelementar beschwören" (einmal täglich).
+
+ETW0: Bonus von +5
+Schaden: 1W6 +5
+Schadensart: Zertrümmern
+Gewicht: 5
+Geschwindigkeit: 7
+Waffenfertigkeit: Keule
+Waffentyp: einhändig
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+ Magiern~
+@519 = ~Zorn der Drachen~
+@520 = ~Dieser Flegel soll angeblich aus den Knochen und Schuppen eines schwarzen Drachen gefertigt worden sein. Aus der Spitze fließt ständig Säure, die die haltbarsten Schilde und Rüstungen leicht angreifen kann.
+
+EIGENSCHAFTEN:
+
+Chance von 30 %, bei einem Treffer 2W6 zusätzlichen Säure-Schaden zu verursachen
+20 % Chance, die Verteidigung des Ziels zu schwächen.
+
+ETW0: Bonus von +4
+Schaden: 1W6 +4
+Schadensart: Zertrümmern
+Gewicht: 15
+Geschwindigkeit: 7
+Waffenfertigkeit: Flegel
+Waffentyp: einhändig
+Mindeststärke: 13
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Dieben~
+@521 = ~Herr der Verdammnis~
+@522 = ~Diese mächtige Waffe hat mehr als ein Leben zerstört. Bei einem Treffer scheint die Zeit für den Besitzer des Flegels und seinem Ziel stehen zu bleiben, wodurch Sie den Feind entweder erledigen oder sich schnell zurückziehen können.
+
+EIGENSCHAFTEN:
+
+Bei einem erfolgreichen Angriff 10 % Chance, die Zeit anzuhalten,
+ermöglicht es, einmal täglich "Zeitstopp" zu wirken.
+Der Besitzer ist immun gegen "Zeitstopp".
+
+ETW0: Bonus von +3
+Schaden: 1W6 +3
+Schadensart: Zertrümmern
+Gewicht: 15
+Geschwindigkeit: 5
+Waffenfertigkeit: Flegel
+Waffentyp: einhändig
+Mindeststärke: 13
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Dieben~
+@523 = ~Brecher~
+@524 = ~Diese Waffe wurde speziell entwickelt, um mit schwer gepanzerten Kriegern fertig zu werden. Flegelschläge zermalmen buchstäblich alle Rüstungen und Schilde, aber das Schlimmste ist, dass seine Stacheln mit einem speziellen lähmenden Toxin bedeckt sind.
+
+EIGENSCHAFTEN:
+
++1W6 zusätzlicher Säureschaden,
+15 % Chance, das Ziel bei einem Treffer zu lähmen.
+
+
+ETW0: Bonus von +5
+Schaden: 1W6 +5
+Schadensart: Zertrümmern
+Gewicht: 20
+Geschwindigkeit: 8
+Waffenfertigkeit: Flegel
+Waffentyp: einhändig
+Mindeststärke: 14
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Dieben~
+@525 = ~Robe der Neun von Niewinter~
+@526 = ~Netherils Magier beherrschen seit langem die verschiedenen magischen Hilfsmittel, die uns jeden Tag umgeben. Solche beliebten magischen Dinge wie zum Beispiel eine einfache Robe. Sie ist leicht, einfach und schützt gut vor Magie, was sie zu einem geeigneten Kleidungsstück für einen Magier macht. Aufgrund des magischen Ursprungs dieses Kleidungsstücks kann es nur von Magiern getragen werden, egal ob es sich um eine einfache, zweifache oder mehrfache Klasse handelt. Diese Robe wird von Mitgliedern der Neun von Niewinter getragen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 5
+Magieresistenz: +5 %
+Rettungswürfe: +1 Bonus
+Stärke: 6
+
+Kann nur verwendet werden von:
+ Magier (einfach, zwei- oder mehrklassig)~
+@527 = ~Barbarenkeule~
+@528 = ~Die Barbaren, ein Volksstamm aus dem Norden, wurden in letzter Zeit von den Menschen immer weiter nach Norden gedrängt. Sie versuchten, Frieden zu schließen, aber die Zehn Städte lehnten ab. Ihre einzige Chance besteht darin, sich irgendwo in den Bergen zu verstecken. Zu diesem Zweck hat ihr Schmied eine Waffe geschmiedet, deren Klinge verzaubert ist und eine verheerende Wirkung gegen böse Feinde hat.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +3
+Schaden: 1W6 +1, +4 gegen Böse
+Schadensart: Zertrümmern
+Gewicht: 10
+Geschwindigkeit: 5
+Waffenfertigkeit: Streitkolben
+Waffentyp: einhändig
+Mindeststärke: 12
+Kann nur verwendet werden von:
+Barbaren~
+@529 = ~Grunds Streitkolben~
+@530 = ~Grund war ein berühmter Held der nördlichen Stämme, der die ganze Welt bereist haben soll. Er war ein Jäger, ein Wächter, ein Abenteurer und sogar ein Söldner. Nachdem Grund auf seinen Reisen beträchtliche und reiche Erfahrung gesammelt hatte, kehrte er zu seinem Stamm zurück und wurde schnell sein Anführer. Als die Jahre jedoch schwer auf seinen Schultern zu lasten begannen, verschwand Grund plötzlich. Wohin, weiß niemand.
+
+EIGENSCHAFTEN:
+
+Stärke +1,
+Beweglichkeit +2
+zusätzlichen magischen Schaden.
+
+ETW0: Bonus von +3
+Schaden: 1W6 +3
+Schadensart: Zertrümmern
+Gewicht: 12
+Geschwindigkeit: 6
+Waffenfertigkeit: Streitkolben
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Dieben
+ Druiden~
+@531 = ~Streitkolben des Verfalls~
+@532 = ~Diese Keule wurde von einem Kult erschaffen, der sich in der Anauroch-Wüste versteckt. Nur die wahren Anhänger des Chaos kennen die Art der Verzauberung, mit der die Waffe belegt ist, und können sie in vollem Umfang nutzen. Zwar hat niemand solche Menschen (oder Kreaturen) mit eigenen Augen gesehen, und viele bezweifeln, dass es sie überhaupt gibt, aber die Tatsache, dass die Guten und Edlen diese Waffe nicht einmal berühren können, steht außer Zweifel.
+
+EIGENSCHAFTEN:
+
+Ermöglicht es, die folgenden Zauber zu wirken: "Strahl negativer Energie" (3-mal täglich);
+"Explosion negativer Energie" (2 mal am Tag);
+"Untote erschaffen" (2 mal am Tag).
+
+ETW0: Bonus von +4
+Schaden: 1W6 +4
+Schadensart: Zertrümmern
+Gewicht: 11
+Geschwindigkeit: 5
+Waffenfertigkeit: Streitkolben
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Dieben
+ Druiden
+ Guten Charakteren~
+@533 = ~Buch von Torm~
+@534 = ~Teufelshand~
+@535 = ~Teufelsherz~
+@536 = ~Mithril-Axt~
+@537 = ~Die häufigste Art von Axt, mit einem starken Griff von etwa 1,2 Metern Länge, an dessen Ende sich eine gebogene Klinge befindet. Streitäxte werden auch Breitäxte genannt. Diese Axt besteht ebenfalls aus Mithril, was schwerere Verletzungen zulässt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 + 1
+Schadensart: Schneiden
+Gewicht: 7
+Geschwindigkeit: 7
+Waffenfertigkeit: Äxte
+Waffentyp: Einhändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben~
+@538 = ~Drow-Amulett~
+@539 = ~Derwisch~
+@540 = ~Dokument~
+@541 = ~Dokument für einen Händler aus Tiefwasser.~
+@542 = ~Schlüssel zum Tempel am Osthafen.~
+@543 = ~Schlüssel zur Höhle~
+@544 = ~Falchion~
+@545 = ~Ein Falchion ist ein schweres Schwert mit einer einseitigen Klinge. Die Oberseite der Klinge ist normalerweise gerade, während hier die Kante gebogen ist. Die Klinge dehnt sich zur Spitze hin aus, was ihr die Form eines Paddels verleiht und den verursachten Schaden erhöht. Das Schwert ist schwer, was dieser Waffe ein bedrohliches Aussehen verleiht.
+
+Eigenschaften:
+
+ETW0: -
+Schaden: 1W6 + 1
+Schadensart: Aufschlitzen
+Gewicht: 8
+Geschwindigkeit: 5
+Waffenfertigkeit: Krummsäbel (Scimitar)
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern~
+@546 = ~Falchion +1~
+@547 = ~Ein Falchion ist ein schweres Schwert mit einer einseitigen Klinge. Die Oberseite der Klinge ist normalerweise gerade, während hier die Kante gebogen ist. Die Klinge dehnt sich zur Spitze hin aus, was ihr die Form eines Paddels verleiht und den verursachten Schaden erhöht. Das Schwert ist schwer, was dieser Waffe ein bedrohliches Aussehen verleiht. Diese Art von Falchion wurde für eine bessere Kontrolle im Kampf modifiziert und ist viel mächtiger. Es unterscheidet sich vom klassischen Falchion nur durch einen farbigen Griff.
+
+Eigenschaften:
+
+ETW0: -
+Schaden: 1W6 + 2
+Schadensart: Aufschlitzen
+Gewicht: 8
+Geschwindigkeit: 5
+Waffenfertigkeit: Krummsäbel (Scimitar)
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern~
+@548 = ~Falchion +2~
+@549 = ~Ein Falchion ist ein schweres Schwert mit einer einseitigen Klinge. Die Oberseite der Klinge ist normalerweise gerade, während hier die Kante gebogen ist. Die Klinge dehnt sich zur Spitze hin aus, was ihr die Form eines Paddels verleiht und den verursachten Schaden erhöht. Das Schwert ist schwer, was dieser Waffe ein bedrohliches Aussehen verleiht. Diese Art von Falchion wurde für eine bessere Kontrolle im Kampf modifiziert und ist viel mächtiger. Es unterscheidet sich vom klassischen Falchion nur durch einen farbigen Griff.
+
+Eigenschaften:
+
+ETW0: -
+Schaden: 1W6 + 3
+Schadensart: Aufschlitzen
+Gewicht: 8
+Geschwindigkeit: 5
+Waffenfertigkeit: Krummsäbel (Scimitar)
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern~
+@550 = ~Falchion +3~
+@551 = ~Ein Falchion ist ein schweres Schwert mit einer einseitigen Klinge. Die Oberseite der Klinge ist normalerweise gerade, während hier die Kante gebogen ist. Die Klinge dehnt sich zur Spitze hin aus, was ihr die Form eines Paddels verleiht und den verursachten Schaden erhöht. Das Schwert ist schwer, was dieser Waffe ein bedrohliches Aussehen verleiht. Diese Art von Falchion wurde für eine bessere Kontrolle im Kampf modifiziert und ist viel mächtiger. Es unterscheidet sich vom klassischen Falchion nur durch einen farbigen Griff.
+
+Eigenschaften:
+
+ETW0: -
+Schaden: 1W6 + 4
+Schadensart: Aufschlitzen
+Gewicht: 8
+Geschwindigkeit: 5
+Waffenfertigkeit: Krummsäbel (Scimitar)
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern~
+@552 = ~Zorn des Piraten~
+@553 = ~Zusätzlich zu den Schwertern, Säbeln und anderen Waffen, die von den Piraten benutzt wurden, gab es das sogenannte Falchion, das von einigen Raubzügen mitgebracht wurde. Von dort gelangte es zuerst auf den Kontinent, wo es als Neuheit hergestellt und verkauft wurde, obwohl es nichts Neues oder Ungewöhnliches an dieser Klinge gab.
+
+Eigenschaften:
+
+20 % Chance auf Betäubung
+10 % Chance auf Enthauptung (sofortiger Tod), wenn ein Rettungswurf gegen Lähmung/Gift/Tod misslingt
+
+ETW0: Bonus von +2
+Schaden: 1W6 +3
+Schadensart: Aufschlitzen
+Gewicht: 8
+Geschwindigkeit: 5
+Waffenfertigkeit: Krummsäbel (Scimitar)
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern~
+@554 = ~Tegrodan~
+@555 = ~Ein Schwert, das einst Meister Valredons Palastgeist gehörte. Ein Flaschengeist namens Sarga war der treueste Diener des Magiers und führte unermüdlich alle seine Anweisungen aus. Einmal hatte er Pech und der Meister starb durch das Schwert seines Feindes. Im Sterben gab er dem Geist dieses Schwert. Von diesem Moment an behielt er es für den Rest seines Lebens.
+
+Eigenschaften:
+
+15 % Chance auf Enthauptung (sofortiger Tod), wenn ein Rettungswurf gegen Zauber-/Atemschutzwurf misslingt
+
+"Stärke" wirken 5 Mal pro Tag,
++3 auf die Rüstungsklasse
+
+ETW0: Bonus von +4
+Schaden: 1W6 +5
+Schadensart: Aufschlitzen
+Gewicht: 9
+Geschwindigkeit: 5
+Waffenfertigkeit: Krummsäbel (Scimitar)
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern~
+@556 = ~Falx~
+@557 = ~Die Falx ist eine Kriegswaffe, die von den Barbarenstämmen stammt. Mit voller Wucht eingesetzt kann sie eine Person zerstückeln. Der Griff ist etwa 40 Zoll lang und geht nahtlos in eine 60-70 Zoll lange Klinge über, die einer Sense ähnelt. Die Vorderkante der Falx ist an der Innenseite des Bogens geschliffen.
+
+Eigenschaften:
+
+ETW0: -
+Schaden: 1W10
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 8
+Waffenfertigkeit: Zweihandschwert
+Waffentyp: zweihändig
+Mindeststärke: 12
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern
+ Dieben~
+@558 = ~Falx +1~
+@559 = ~Die Falx ist eine Kriegswaffe, die von den Barbarenstämmen stammt. Mit voller Wucht eingesetzt kann sie eine Person zerstückeln. Der Griff ist etwa 40 Zoll lang und geht nahtlos in eine 60-70 Zoll lange Klinge über, die einer Sense ähnelt. Die Vorderkante der Falx ist an der Innenseite des Bogens geschliffen. Diese Art von Falx wurde auf magische Weise verändert und verbessert. Sie unterscheidet sich von der klassischen Falx durch einen farbigen Griff.
+
+Eigenschaften:
+
+ETW0: -
+Schaden: 1W10 + 1
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 8
+Waffenfertigkeit: Zweihandschwert
+Waffentyp: zweihändig
+Mindeststärke: 12
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern
+ Dieben~
+@560 = ~Falx +2~
+@561 = ~Die Falx ist eine Kriegswaffe, die von den Barbarenstämmen stammt. Mit voller Wucht eingesetzt kann sie eine Person zerstückeln. Der Griff ist etwa 40 Zoll lang und geht nahtlos in eine 60-70 Zoll lange Klinge über, die einer Sense ähnelt. Die Vorderkante der Falx ist an der Innenseite des Bogens geschliffen. Diese Art von Falx wurde auf magische Weise verändert und verbessert. Sie unterscheidet sich von der klassischen Falx durch einen farbigen Griff.
+
+Eigenschaften:
+
+ETW0: -
+Schaden: 1W10 + 2
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 8
+Waffenfertigkeit: Zweihandschwert
+Waffentyp: zweihändig
+Mindeststärke: 12
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern
+ Dieben~
+@562 = ~Falx +3~
+@563 = ~Die Falx ist eine Kriegswaffe, die von den Barbarenstämmen stammt. Mit voller Wucht eingesetzt kann sie eine Person zerstückeln. Der Griff ist etwa 40 Zoll lang und geht nahtlos in eine 60-70 Zoll lange Klinge über, die einer Sense ähnelt. Die Vorderkante der Falx ist an der Innenseite des Bogens geschliffen. Diese Art von Falx wurde auf magische Weise verändert und verbessert. Sie unterscheidet sich von der klassischen Falx durch einen farbigen Griff.
+
+Eigenschaften:
+
+ETW0: -
+Schaden: 1W10 + 3
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 8
+Waffenfertigkeit: Zweihandschwert
+Waffentyp: zweihändig
+Mindeststärke: 12
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern
+ Dieben~
+@564 = ~Ugurischer Dämon~
+@565 = ~Diese Falx gehörte einem außergewöhnlich mächtigen Barbaren, der an allen möglichen Kämpfen und Wettkämpfen mit Waffen teilnahm. Er kannte die Kraft dieser Waffe, die er selbst hergestellt hatte, und er wusste, dass er nicht verlieren konnte und dies nie passierte. Er versetzte alle, die ihn kannten, in Angst und Schrecken, bis er an Altersschwäche starb. Seine Waffe ist verloren gegangen, und nur die Götter wissen, wo sie sich jetzt befindet.
+
+Eigenschaften:
+
++1W6 Schadensbonus
+15% Chance, den Feind bei einem Treffer niederzuschlagen (Schlaf für 8 Sekunden)
+30% Chance, den Feind bei einem Treffer einzuschüchtern (Panik für 15 Sekunden)
+
+ETW0: Bonus von +4
+Schaden: 1W10 + 4
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 7
+Waffenfertigkeit: Zweihandschwert
+Waffentyp: zweihändig
+Mindeststärke: 18
+
+Kann nur verwendet werden von:
+ Kriegern~
+@566 = ~Blutiges Falx~
+@567 = ~Diese Waffe wurde von einem Zwergenschmied geschmiedet. Eines Tages kam ein Fremder mit der Bitte zu ihm, eine Waffe zu schmieden, für die er gut bezahlen würde. Der Zwerg, der eine solche Waffe zum ersten Mal sah, verstand nicht, warum er Metall für solchen Unsinn verwenden sollte, wenn er stattdessen zwei normale Äxte daraus schmieden könnte. Aber der Verdienst war es wert, also beschloss er, es zu versuchen. Er sagte jedoch, dass er in dieser Waffe seine eigenen Entwicklungen einsetzte.
+
+Eigenschaften:
+
+20% Chance, das Ziel für 8 Sekunden zu betäuben
+10% Chance, einen Blitz auszulösen
+
+ETW0: Bonus von +3
+Schaden: 1W10 + 3
+Schadensart: Aufschlitzen
+Gewicht: 9
+Geschwindigkeit: 6
+Waffenfertigkeit: Zweihandschwert
+Waffentyp: zweihändig
+Mindeststärke: 12
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern
+ Dieben~
+@568 = ~Tödliche Bedrohung~
+@569 = ~Dies ist ein furchterregendes Falx, allein die Klinge ist furchteinflößend. Es wuerde einst von den Reservekräften von General Wisten verwendet. Die Aufgabe dieser Einheiten bestand darin, auf Befehl loszulaufen und die Reihen des Feindes zu durchbrechen. Bevor sie begriffen, was geschah, war nur noch etwa ein Drittel der Kampfeinheiten am Leben, und sie sahen mit Entsetzen auf das, was geschah. Ihre Freunde fielen haufenweise zu Boden, und den meisten von ihnen wurden die Gliedmaßen abgetrennt. Der naivste Ausweg aus dieser Situation war der Entschluss zu fliehen.
+
+Eigenschaften:
+
+10% Chance, den Gegner zu durchtrennen (sofortiger Tod)
+
+ETW0: Bonus von +4
+Schaden: 1W10 + 4
+Schadensart: Aufschlitzen
+Gewicht: 9
+Geschwindigkeit: 7
+Waffenfertigkeit: Zweihandschwert
+Waffentyp: zweihändig
+Mindeststärke: 18
+
+Kann nur verwendet werden von:
+ Kriegern~
+@570 = ~Rüstung des Ordens der Paladine von Faerûn~
+@571 = ~In der Bauweise einem Bronzepanzer ähnlich, schützt ein echter Plattenpanzer die am meisten gefährdeten Körperbereiche wie Brust-, Bauch- und Leistengegend mit mehreren Metallplatten, welche durch zahlreiche Lederriemen, Nieten, Scharnieren und Kettengeflecht flexibel miteinander verbunden sind.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 5
+
+THAC0: +2
+Stärke: +1
+Gewicht: 50
+Mindeststärke 17
+
+Stufe: 10
+
+Kann nicht verwendet werden von:
+ Barden
+ Druiden
+ Magiern
+ Dieben~
+@572 = ~Gold und Juwelen~
+@573 = ~Glatiator-Rüstung~
+@574 = ~Die Rüstung, die von Gladiatoren in der Arena am Rande der Wüste von Anorach getragen wird. Die Rüstung ist eine Kombination aus Kettenhemd mit Metallplatten, die lebenswichtige Bereiche wie Brust, Bauch und Leiste bedecken. Sie sieht zwar ähnlich aus wie die Bronzerüstung, aber im Gegensatz zu dieser enthält sie auch Elemente von Kettenhemden und Lederrüstungen. 
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 30
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+ Barden
+ Druiden~
+@575 = ~Breitschwert~
+@576 = ~Dieser Schwerttyp wurde als Kompromiss zwischen Kurz- und Langschwert entwickelt. Das Kurzschwert war für erfahrene Abenteurer nicht sehr mächtig, und das Langschwert schränkte die Möglichkeiten der Spezialisierung stark ein.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8
+Schadensart: Aufschlitzen
+Gewicht: 4
+Geschwindigkeit: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden~
+@577 = ~Breitschwert +1~
+@578 = ~Dieser Schwerttyp wurde als Kompromiss zwischen Kurz- und Langschwert entwickelt. Das Kurzschwert war für erfahrene Abenteurer nicht sehr mächtig, und das Langschwert schränkte die Möglichkeiten der Spezialisierung stark ein.
+
+EIGENSCHAFTEN:
+
+ETW0: -
+Schaden: 1W8
+Schadensart: Aufschlitzen
+Gewicht: 5
+Geschwindigkeit: 4
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern~
+@579 = ~Dieser Schwerttyp wurde als Kompromiss zwischen Kurz- und Langschwert entwickelt. Der ursprüngliche Typ dieses Schwertes mit Verzauberungen war sehr beliebt.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +1
+Schaden: 1W8 +1
+Schadensart: Aufschlitzen
+Gewicht: 5
+Geschwindigkeit: 4
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern~
+@580 = ~Breitschwert+2~
+@581 = ~Diese Art von Schwert wurde als Kompromiss zwischen einem Kurzschwert und einem Langschwert geschaffen. Dieser Typ ist zu einer der am weitesten verbreiteten Waffen unter den Menschen geworden. Und damit eine noch mächtigere Version des Schwertes.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +2
+Schaden: 1W8 +2
+Schadensart: Aufschlitzen
+Gewicht: 5
+Geschwindigkeit: 4
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern~ 
+@582 = ~Breitschwert +3~
+@583 = ~Diese Art von Schwert wurde als Kompromiss zwischen einem Kurzschwert und einem Langschwert geschaffen. Diese Art von Schwert wird von Helden in allen Feldzügen verwendet. Es wurde aus der Originalversion erstellt und mit mächtigen Schmiedeverzauberungen aufgerüstet, um besser töten zu können.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +3
+Schaden: 1W8 +3
+Schadensart: Aufschlitzen
+Gewicht: 5
+Geschwindigkeit: 4
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern~
+@584 = ~Unterdrücker +2~
+@585 = ~Diese Klinge ist für ihre zerstörerische Kraft bekannt. Sie verursacht nicht nur schweren Trefferschaden, sondern kann den Feind auch kurz betäuben, was sie zu einer beeindruckenden Waffe macht.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeit:
+bei einem erfolgreichen Treffer 10% Chance, dass der Feind betäubt wird.
+
+ETW0: Bonus von +2
+Schaden: 1W8 +2
+Schadensart: Aufschlitzen
+Gewicht: 5
+Geschwindigkeit: 4
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern~
+@586 = ~Schwert der Helden +4~
+@587 = ~Vor langer Zeit gehörte dieses Schwert dem Abenteurer Adreno, der einst einen Gegner besiegte, der viel stärker und erfahrener war als er selbst. Dann besiegte er noch stärkere Gegner und so ging es weiter, bis Andreno mitsamt seiner Klinge plötzlich spurlos verschwand.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +4
+Schaden: 1W8 +4
+Schadensart: Aufschlitzen
+Gewicht: 5
+Geschwindigkeit: 2
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern~
+@588 = ~Langschwert des Feuers~
+@589 = ~Verbessertes klassisches Breitschwert.
+Es gibt 4 Arten von Verbesserungen für diese Schwerter:
+Feuerschwert
+Eisschwert
+Giftschwert
+Säureschwert
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8
++1 Feuerschaden
+Schadensart: Aufschlitzen
+Gewicht: 4
+Geschwindigkeit: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke 6
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden~
+@590 = ~Langschwert aus Eis~
+@591 = ~Verbessertes klassisches Langschwert.
+Es gibt 4 Arten von Verbesserungen für diese Schwerter:
+Feuerschwert
+Eisschwert
+Giftschwert
+Säureschwert
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8
++1 Eisschaden
+Schadensart: Aufschlitzen
+Gewicht: 4
+Geschwindigkeit: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke 6
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden~
+@592 = ~Säure-Langschwert~
+@593 = ~Verbessertes klassisches Langschwert.
+Es gibt 4 Arten von Verbesserungen für diese Schwerter:
+Feuerschwert
+Eisschwert
+Giftschwert
+Säureschwert
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8
++1 Hiebschaden
+Schadensart: Aufschlitzen
+Gewicht: 4
+Geschwindigkeit: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke 6
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden~
+@594 = ~Gift-Langschwert~
+@595 = ~Verbessertes klassisches Langschwert.
+Es gibt 4 Arten von Verbesserungen für diese Schwerter:
+Feuerschwert
+Eisschwert
+Giftschwert
+Säureschwert
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8, +1 Giftschaden
+Schadensart: Aufschlitzen
+Gewicht: 4
+Geschwindigkeit: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke 6
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden~
+@596 = ~Hellebarde aus Stein~
+@597 = ~Diese Hellebarde ist ziemlich schwer, als hätte sie statt einer Spitze einen Felsbrocken. Sein Ursprung ist mit der Geschichte einer bestimmten Kriegerin aus den nördlichen Stämmen verbunden, die gegen eine mächtige Hexe kämpfte, die sie jedoch in Stein verwandelte, aber selbst einem ähnlichen Schicksal nicht entging. Das Interessanteste ist, dass jeder die Geschichte anders erzählt, so dass es schwer ist, herauszufinden, wie es wirklich passiert ist.
+
+EIGENSCHAFTEN:
+
++4 zusätzlicher Hiebschaden,
+10 % Chance, das Ziel beim Angriff zu versteinern,
+Gewährt die Fähigkeit, einmal täglich Fleisch zu Stein zu zaubern.
+
+ETW0: Bonus von +2
+Schaden: 1W10+2
+Schadensart: Durchbohren
+Gewicht: 12
+Geschwindigkeit: 9
+Waffenfertigkeit: Hellebarden
+Waffentyp: Zweihändig
+Mindeststärke: 13
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern
+ Dieben~
+@598 = ~Sensenmann des Lichts~
+@599 = ~Die Klinge dieser Hellebarde hat einen rot-goldenen Farbton wie die Flammen eines Lagerfeuers, verströmt intensive Hitze aus wie eine Schmiede und hinterlässt beim Schwingen eine Funkenspur.
+
+EIGENSCHAFTEN:
+
++ 3 zusätzlicher Feuerschaden,
+Gewährt die Fähigkeit, zweimal täglich einen "Feuerball" zu wirken.
+
+ETW0: Bonus von +3
+Schaden: 1W10+3
+Schadensart: Durchbohren
+Gewicht: 10
+Geschwindigkeit: 8
+Waffenfertigkeit: Hellebarden
+Waffentyp: Zweihändig
+Mindeststärke: 13
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern
+ Dieben~
+@600 = ~Hellebarde des Wächters~
+@601 = ~Diese Waffe wird sowohl von der Stadtwache als auch von hochrangigen Persönlichkeiten benutzt. Sie ist so gut gemacht, dass man sich das Bild eines tapferen Soldaten nicht ohne sie vorstellen kann. Die Hellebarde selbst ist unhandlich und schwer und wer damit umzugehen weiß, genießt wohlverdienten Respekt.
+
+EIGENSCHAFTEN:
+
+50 % Chance auf 1W10 zusätzlichen Hiebschaden,
+Stärke ist auf 25 eingestellt
+
+ETW0: Bonus von +4
+Schaden: 1W10+4
+Schadensart: Durchbohren
+Gewicht: 15
+Geschwindigkeit: 9
+Waffenfertigkeit: Hellebarden
+Waffentyp: Zweihändig
+Mindeststärke: 13
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern
+ Dieben~
+@602 = ~Hammer der Wachsamkeit~
+@603 = ~Die Nützlichkeit dieser Waffe kann nicht hoch genug eingeschätzt werden. Der Hammer beginnt schwach zu leuchten, wenn Kreaturen, die Unsichtbarkeit verwenden, in der Nähe sind, und je näher sie sind, desto heller ist das Licht. Schließlich lodert der Hammer hell auf und zerschmettert die Tarnung des Feindes.
+
+EIGENSCHAFTEN:
+
+Alle unsichtbaren Kreaturen verlieren ihre Tarnung in der Nähe des Hammerträgers.
+
+ETW0: Bonus von +3
+Schaden: 1W4 +3
+Schadensart: Zertrümmern
+Gewicht: 6
+Geschwindigkeit: 4
+Waffenfertigkeit: Einhändig
+Waffentyp: Kriegshammer
+Mindeststärke: 9
+
+Kann nicht verwendet werden von:
+ Magiern
+ Dieben
+ Druiden~
+@604 = ~Hammer der Verbannung~
+@605 = ~Diese Waffe wurde speziell entwickelt, um beschworene Kreaturen jeglicher Stärke zu zerstören. Sein Erscheinen war für einige Magier eine sehr unangenehme Überraschung.
+
+EIGENSCHAFTEN:
+
+Bei einem Treffer besteht eine Chance von 20 %, die beschworene Kreatur sofort zu töten.
+
+ETW0: Bonus von +3
+Schaden: 1W4 +3
+Schadensart: Zertrümmern
+Gewicht: 6
+Geschwindigkeit: 4
+Waffenfertigkeit: Einhändig
+Waffentyp: Kriegshammer
+Mindeststärke: 9
+
+Kann nicht verwendet werden von:
+ Magiern
+ Dieben
+ Druiden~
+@606 = ~Hammer der Arglist~
+@607 = ~Vor etwa sechzig Jahren brach an der Schwertküste ein Skandal aus, der alle großen Handelsstädte erfasste. Die Kaufleute überhäuften die Stadtverwaltung mit einer Fülle von Beschwerden über die Unfähigkeit der Wachen, gegen eine Gruppe dreister Diebe vorzugehen, die Häuser und Lagerhäuser überfielen und alles von Wert stahlen. Zwei oder drei Jahre später wurde die Gruppe neutralisiert. Dabei stellte sich heraus, dass die Kriminellen Zauberhämmer benutzten, mit deren Hilfe sie die Wachen und alle potenziellen Zeugen außer Gefecht setzten. Am nächsten Morgen wachten sie mit schrecklichen Kopfschmerzen wieder auf und konnten sich an nichts mehr erinnern.
+
+EIGENSCHAFTEN:
+
+35 % Chance, das Ziel bei einem Treffer einzuschläfern.
+
+ETW0: Bonus von +4
+Schaden: 1W4 +4
+Schadensart: Zertrümmern
+Gewicht: 6
+Geschwindigkeit: 3
+Waffenfertigkeit: Einhändig
+Waffentyp: Kriegshammer
+Mindeststärke: 9
+
+Kann nicht verwendet werden von:
+ Magiern
+ Klerikern
+ Druiden
+ Dieben~
+@608 = ~Klerikermütze~
+@609 = ~Diese Kopfbedeckung ist das Markenzeichen von Klerikern. Sie ist mit einem schwachen Heilzauber versehen, der sich in einer kritischen Situation als nützlich erweisen kann.
+
+EIGENSCHAFTEN:
+
++5 auf maximale Gesundheit
+"leichte Wunden heilen" 3 mal am Tag.
+
+Kann nur verwendet werden von:
+ Klerikern~
+@610 = ~Gehörnter Helm~
+@611 = ~Dieser Helm sieht aus wie das Gesicht eines Dämons. Er könnte sogar einige schwächere Gegner erschrecken.
+
+EIGENSCHAFTEN:
+
+20% Widerstand gegen Nahkampfwaffen,
+15% Blitzresistenz,
+30% Einschüchterung, wenn ein Rettungswurf misslingt.
+
+Kann nicht verwendet werden von:
+ Magiern
+ Barden
+ Dieben~
+@612 = ~Knochenhelm des Barbaren~
+@613 = ~Dieser massive Helm schlenkert auf Kopf und neigt ständig dazu, herunterzufallen oder auf die Nase zu rutschen. Die einzigen, die ihn ohne Beeinträchtigung tragen können, sind Barbaren, deren Schädel etwas größer sind als als die gewöhnlicher Menschen.
+
+EIGENSCHAFTEN:
+
+Schutz vor Betäubung
++20 % Magieresistenz,
++3 auf maximalen Schaden.
+
+Kann nur verwendet werden von:
+ Barbaren~
+@614 = ~Stein der negativen Energie~
+@615 = ~Dieser Stein dient als Gefäß für negative Energie. Etwa einmal am Tag kann die gespeicherte Energie in Form einer starken magischen Explosion freigesetzt werden.
+
+EIGENSCHAFTEN:
+
+"Explosion der negativen Energie" (einmal am Tag),
++10 % Magieresistenz
+
+Kann nur verwendet werden von:
+ Magiern
+ Hexenmeistern~
+@616 = ~Kopf der Hochkönigin~
+@617 = ~Kopf der Hochkönigin des Mondlichts.~
+@618 = ~Zeichnung~
+@619 = ~Aufruf zum Guten~
+@620 = ~Das Khopesh ist eine orientalische Waffe mit einen einem etwa 15 cm langen Griff und einer Klinge. Die Klinge ragt etwa 18 cm weit gerade aus dem Griff heraus und krümmt sich dann auf weiteren 30 cm in eine leichte Sichelform. Das gesamte Schwert ist in der Regel aus Bronze oder Eisen gefertigt.
+
+Eigenschaften:
+
+ETW0: -
+Schaden: 2W4
+Schadensart: Aufschlitzen
+Gewicht: 7
+Geschwindigkeit: 9
+Waffenfertigkeit: Kurzschwert
+Waffentyp: einhändig
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern
+ Dieben~
+@621 = ~Khopesh +1~
+@622 = ~Das Khopesh ist eine orientalische Waffe mit einen einem etwa 15 cm langen Griff und einer Klinge. Die Klinge ragt etwa 18 cm weit gerade aus dem Griff heraus und krümmt sich dann auf weiteren 30 cm in eine leichte Sichelform. Das gesamte Schwert ist in der Regel aus Bronze oder Eisen gefertigt. Diese verbesserte Version des Khopesh unterscheidet sich vom klassischen Typ sowohl in der Effizienz als auch durch seinen farbigen Griff.
+
+Eigenschaften:
+
+ETW0: Bonus von +1
+Schaden: 2W4 + 1
+Schadensart: Durchbohren
+Gewicht: 7
+Geschwindigkeit: 9
+Waffenfertigkeit: Kurzschwert
+Waffentyp: einhändig
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern
+ Dieben~
+@623 = ~Khopesh +2~
+@624 = ~Das Khopesh ist eine orientalische Waffe mit einen einem etwa 15 cm langen Griff und einer Klinge. Die Klinge ragt etwa 18 cm weit gerade aus dem Griff heraus und krümmt sich dann auf weiteren 30 cm in eine leichte Sichelform. Das gesamte Schwert ist in der Regel aus Bronze oder Eisen gefertigt. Diese verbesserte Version des Khopesh unterscheidet sich vom klassischen Typ sowohl in der Effizienz als auch durch seinen farbigen Griff.
+
+Eigenschaften:
+
+ETW0: Bonus von +2
+Schaden: 2W4 + 2
+Schadensart: Durchbohren
+Gewicht: 7
+Geschwindigkeit: 9
+Waffenfertigkeit: Kurzschwert
+Waffentyp: einhändig
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern
+ Dieben~
+@625 = ~Khopesh +3~
+@626 = ~Das Khopesh ist eine orientalische Waffe mit einen einem etwa 15 cm langen Griff und einer Klinge. Die Klinge ragt etwa 18 cm weit gerade aus dem Griff heraus und krümmt sich dann auf weiteren 30 cm in eine leichte Sichelform. Das gesamte Schwert ist in der Regel aus Bronze oder Eisen gefertigt. Diese verbesserte Version des Khopesh unterscheidet sich vom klassischen Typ sowohl in der Effizienz als auch durch seinen farbigen Griff.
+
+Eigenschaften:
+
+ETW0: Bonus von +3
+Schaden: 2W4 + 3
+Schadensart: Durchbohren
+Gewicht: 7
+Geschwindigkeit: 9
+Waffenfertigkeit: Kurzschwert
+Waffentyp: einhändig
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern
+ Dieben~
+@627 = ~Deranez~
+@628 = ~Dies ist eine Nachbildung eines orientalischen Khopesh aus Übersee. Hergestellt für einen der Matrosen, der von einer Seereisen zurückkehrte und es als Andenken mit nach Hause brachte. Die Kopie ist ziemlich genau, ausschließlich aus Eisen gefertigt und mit magischen Runen versehen.
+
+Eigenschaften:
+
+10% Zeitstopp
+Feuerschaden 1-3,
+20 % verlangsamen
+
+ETW0: Bonus von +3
+Schaden: 2W4 + 2
+Schadensart: Aufschlitzen
+Gewicht: 7
+Geschwindigkeit: 9
+Waffenfertigkeit: Kurzschwert
+Waffentyp: einhändig
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern
+ Dieben~
+@629 = ~Waffe des Sklavenhändlers~
+@630 = ~Eine Waffe, die von Sklavenhändlern mitgeführt wird, wenn sie Sklaven während des Baus beaufsichtigten. Obwohl Peitschen ausschließlich zur Bestrafung eingesetzt werden, waren die Peitschen erfolglos, wenn eine Gruppe von Sklaven rebellierte, und sie mussten sich mit etwas anderem  wehren. Allerdings dürfen Waffen nur zur Selbstverteidigung verwendet werden. Aber viele haben gegen die Regel verstoßen.
+
+Eigenschaften:
+
+30 % Bonusschaden 1W4
++10 % Chance auf kritischer Treffer
+
+ETW0: Bonus von +2
+Schaden: 2W4 + 2
+Schadensart: Aufschlitzen
+Gewicht: 7
+Geschwindigkeit: 9
+Waffenfertigkeit: Kurzschwert
+Waffentyp: einhändig
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern
+ Dieben~
+@631 = ~Macht von Ibunez~
+@632 = ~Dieser sehr teure und reich verzierte Khopesh gehörte einst einem der Pharaonen	der 3. Dynastie. Er wurde entwickelt, um die eigene Kraft zu verbessern und die Feinde zu verfluchen. Leider hatte der Pharao wahrscheinlich nicht damit gerechnet, dass diese Waffe für ihn tödlich ist, wenn er sie verliert.
+
+Eigenschaften:
+
+20 % Chance, das Ziel zu vergiften,
+20 % Canche, das Ziel auszuschalten
+50 % Chance, das Ziel krank zu machen
+
+ETW0: Bonus von +3
+Schaden: 2W4 + 3
+Schadensart: Aufschlitzen
+Gewicht: 7
+Geschwindigkeit: 9
+Waffenfertigkeit: Kurzschwert
+Waffentyp: einhändig
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern
+ Dieben~
+@633 = ~Klinge der Dunkelheit~
+@634 = ~Dieses Katana wurde vor etwa 200 Jahren berühmt. Zu dieser Zeit wehrte Niewinter eine Horde Untoter ab, die plötzlich von nahe gelegenen Friedhöfen hereinströmten. Diese Waffe wurde von einem der Neun getragen, dessen Aufgabe es war, die Evakuierung von Bewohnern aus Stadtgebieten abzudecken, die von einer Invasion bedroht waren, zu überwachen. Er hat sich gut geschlagen, aber dann ist er einfach mitsamt seiner Waffe verschwunden. Danach wurde ein gutes Drittel der Stadt von den Leichnamen und ihren Dienern eingenommen, und es dauerte sehr lange, sie zurückzuerobern.
+
+EIGENSCHAFTEN:
+
+Kann nicht von ordentlich guten Charakteren verwendet werden.
+Doppelter Schaden gegen Untote.
+
+ETW0: Bonus von +3
+Schaden: 1W10 +3
+Schadensart: Aufschlitzen
+Gewicht:
+Geschwindigkeit: 2
+Waffenfertigkeit: Katana
+Waffentyp: Einhändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Guten Charakteren
+ Klerikern
+ Magiern
+ Druiden~
+@635 = ~Samurai-Katana~
+@636 = ~Das Katana ist vielleicht die berühmteste Waffe im Arsenal der Kara-Tur-Samurai. Es ist etwas länger als ein normales Schwert und leicht gebogen. Ein Krieger trägt normalerweise eine Waffe auf dem Rücken und kann sie sehr schnell ziehen und angreifen. Es dauert jedoch lange, bis man lernt, wie man ein Katana gut führt, und deshalb verwenden es nur Profis... oder Angeber.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +3
+Schaden: 1W10 +3
+Schadensart: Aufschlitzen
+Gewicht:
+Geschwindigkeit: 1
+Waffenfertigkeit: Katana
+Waffentyp: Zweihändig
+Mindeststärke: 5
+
+Kann nur verwendet werden von:
+Headhunter~
+@637 = ~Katana des Zauberers~
+@638 = ~Diese Waffe wurde von einem Magier aus dem Norden erschaffen, der eine spezielle Technik entwickelte, bei der Stärke und Intelligenz Hand in Hand gehen. Das Katana half ihm, selbst in den schwierigsten Kämpfen die Konzentration zu bewahren. Die Waffe ging später verloren, aber ihr Besitzer überlebte und schaffte es sogar, seine einzigartige Erfahrung an andere weiterzugeben.
+
+EIGENSCHAFTEN:
+
+Erhöht Intelligenz und Weisheit um 2.
+Ermöglicht es, 1 zusätzlichen Zauber von 1 bis 3 zeinzuprägen.
+Stufe.
+
+ETW0: Bonus von +2
+Schaden: 1W10 +2
+Schadensart: Aufschlitzen
+Gewicht:
+Geschwindigkeit: 2
+Waffenfertigkeit: Katana
+Waffentyp: Einhändig
+Mindeststärke: 6
+
+Kann nur verwendet werden von:
+ Magiern
+ Magiern~
+@639 = ~Verzaubertes Katana~
+@640 = ~Verzaubertes Katana
+Ein Katana zu verzaubern ist kein einfacher Prozess. Im Gegensatz zu anderen Waffen ist das Katana schmaler, fast ein perfektes Kampfschwert. Diese Art von Katana wird durch mehrere Zauber verbessert. In den Händen von jemandem wäre es eine wirklich tödliche Waffe.
+
+EIGENSCHAFTEN:
+
+THAC0: Bonus von +1
+Schaden: 1W10 +1
+Schadensart: Aufschlitzen
+Gewicht: 5
+Geschwindigkeit: 3
+Waffenfertigkeit: Katana
+Waffentyp: einhändig
+Mindeststärke 6
+
+Kann nur verwendet werden von:
+ Magiern
+ Magiern~
+@641 = ~Elfenrüstung von Kevhorn~
+@642 = ~Die raffinierte Handwerkskunst der Elfenrasse ermöglicht die Herstellung vieler schöner und nützlicher Dinge. Darunter sind Kettenhemden, die so filigran verarbeitet sind, dass sie unter normaler Kleidung getragen werden können und somit unsichtbar sind. Aufgrund ihrer Leichtigkeit kann sie auch von Dieben und Kriegern/Magiern getragen werden, allerdings mit einigen Einschränkungen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 5
+Gewicht: 7
+Mindeststärke 5
+
+Kann nur verwendet werden von:
+Kevhorn~
+@643 = ~Schwert von Kevhorn~
+@644 = ~Auch als Halbschwert bekannt. Das Bastardschwert hat seinen Namen aufgrund der Tatsache, dass es eine Mischform zwischen einem Zweihandschwert und einem Langschwert ist. Das Bastardschwert hat eine Doppelklinge und einen langen Griff, so dass man es mit beiden Händen greifen kann, wenn man möchte. Die Gesamtlänge des Schwertes liegt im Durchschnitt zwischen 1,2 und 1,5 Metern. In den Griff ist der Namen des Besitzers graviert: Kevhorn
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 8
+Waffenfertigkeit: Bastardschwert
+Waffentyp: einhändig
+Mindeststärke 11
+
+Kann nur verwendet werden von:
+Kevhorn~
+@645 = ~Berechtigung~
+@646 = ~Dies ist die Erlaubnis des Königs von Atkatla.~
+@647 = ~Magischer Speer~
+@648 = ~Diese Waffe wurde von einem wahren Meister hergestellt und ist außerdem mit vielen Zaubern versehen, von denen der Besitzer einige anwenden kann.
+
+EIGENSCHAFTEN:
+
+Ermöglicht das Wirken der folgenden Zauber:
+"Rüstung des Zauberers" - 2 mal am Tag;
+"Pause" - 3 mal am Tag;
+"Blitz" - 3 mal am Tag
+
+ETW0: Bonus von +3
+Schaden: 1W6 +3
+Schadensart: Durchbohren
+Gewicht: 7
+Geschwindigkeit: 3
+Waffenfertigkeit: Zweihändig
+Waffentyp: Speer
+Mindeststärke: 5
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern
+ Dieben~
+@649 = ~Schockspeer~
+@650 = ~Die Spitze dieser Waffe knistert ständig von elektrischen Entladungen. Wenn du das Ziel damit berührst, wird es von einem mächtigen Blitz getroffen.
+
+EIGENSCHAFTEN:
+
+4W6 zusätzlicher elektrischer Schaden.
+
+ETW0: Bonus von +3
+Schaden: 1W6 +3
+Schadensart: Durchbohren
+Gewicht: 7
+Geschwindigkeit: 4
+Waffenfertigkeit: Zweihändig
+Waffentyp: Speer
+Mindeststärke: 5
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern
+ Dieben~
+@651 = ~Rüstung der Neun von Niewinter~
+@652 = ~Die Grundrüstung ist aus dickem Leder und gehärtet. Lederrüstungen sind weich und biegsam; solches Leder wird für Schuhe oder Kleidung verwendet. Weiches Leder bietet immer noch einen besseren Schutz als normale Kleidung. Diese Rüstung wird von den Mitgliedern der Neun von Niewinter getragen.
+
+EIGENSCHAFTEN:
+Rüstungsklasse: 7
+Gewicht: 15
+Mindeststärke: 4
+
+Kann nicht verwendet werden von:
+ Magiern~
+@653 = ~Marcos Bericht~
+@654 = ~Dieses Dokument wurde mir von Marco, Yarpens rechter Hand, übergegeben. Es hat enthält alles, was Yarpen je gemacht hat.~
+@655 = ~Auftrag~
+@656 = ~Dies ist ein Auftrag des Hohepriesters.~
+@657 = ~Ich habe das Lösegeld für Eure Familie auf 10.000 Gold erhöht.~
+@658 = ~Dies ist eine Karte von Faerûn, auf der ein Ort rot markiert ist.~
+@659 = ~Forderung~
+@660 = ~Bürgermeister Silverkin, Eurer Frau und Eurem Kind geht es gut. Wenn Ihr sie zurückhaben wollt, zahlt mir 20.000 für die Frau und 25.000 für das Kind. Bringt das Geld nach Athkatla in die Taverne vor den Stadttoren.~
+@661 = ~Ein Stück Papier~
+@662 = ~Meister, der Schmied Marian hat uns verraten.~
+@663 = ~Oberhaupt~
+@664 = ~Zauberer-Oberhaupt~
+@665 = ~Brief aus dem Dorf~
+@666 = ~Dieser Brief ist an General Targos adressiert.~
+@667 = ~Teil einer sehr mächtigen Waffe.~
+@668 = ~Karte~
+@669 = ~Marians Schlüssel~
+@670 = ~Dies ist der Schlüssel zu den Kerkern von Tiefwasseer~
+@671 = ~Halskette von Marians Frau~
+@672 = ~Leitfaden zur Unsterblichkeit~
+@673 = ~Eines der vier Teile, um eine sehr mächtigen Waffe herzustellen.~
+@674 = ~Elfen-Scharfschützenbogen~
+@675 = ~Sie sind unübertroffene Meister des Bogens, aber es gibt auch solche unter ihnen, die ein Ziel auf jede Entfernung und bei jedem Wetter abwehren können, oft ohne es überhaupt zu sehen. Diese Meister werden "Scharfschützen" genannt und mit großem Respekt behandelt. Ein solcher Schütze kann leicht eine Gruppe von 20-30 Kämpfern töten, und sie werden nie verstehen, wie sie zu Tode gekommen sind.
+
+EIGENSCHAFTEN:
+
+10% Chance, das Ziel sofort zu töten
+Eile
+feuert zwei Pfeile pro Angriff ab.
+
+ETW0: Bonus von +5
+Schaden: Pfeil +5
+Schadensart: Durchbohren (Schuss)
+Gewicht: 5
+Geschwindigkeit: 3
+Waffenfertigkeit: Langbogen
+Waffentyp: zweihändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben~
+@676 = ~Elfenbogen~
+@677 = ~Diese Bögen sind nur in den Händen von elfischen Elite-Bogenschützen und Adligen zu sehen. Gerüchten zufolge wird jeder dieser Bögen monatelang hergestellt und von der Natur selbst gesegnet, weshalb ihn niemand außer einem Elf benutzen kann.
+
+EIGENSCHAFTEN:
+
+Regeneriert 3 Lebensspunkte pro Runde,
+beschleunigte Hast
++ 30 % auf sich "im Schatten verstecken",
+dreimal am Tag "Unsichtbarkeit" beschwören.
+
+ETW0: Bonus von +4
+Schaden: Pfeil +4
+Schadensart: Durchbohren (Schuss)
+Gewicht: 5
+Geschwindigkeit: 4
+Waffenfertigkeit: Langbogen
+Waffentyp: zweihändig
+Mindeststärke: 6
+
+Kann nur verwendet werden von:
+ Elfen~
+@678 = ~Einhornbogen~
+@679 = ~Die Sehne dieser Waffe ist aus der Mähne eines Einhorns geflochten und ist so stark, dass sie praktisch nicht reißen kann. Aufgrund dieser Eigenschaft können mit diesem Bogen zwei Pfeile statt nur einem abgefeuert werden.
+
+EIGENSCHAFTEN:
+
+Schaden +4,
+Anzahl der Angriffe pro Runde um 2 erhöht,
+blendet das Ziel zusätzlich.
+
+ETW0: Bonus von +4
+Schaden: Pfeil +4
+Schadensart: Feuer
+Gewicht: 8
+Geschwindigkeit: 6
+Waffenfertigkeit: Compoundbogen
+Waffentyp: zweihändig
+Mindeststärke: 18
+
+Kann nicht verwendet werden von:
+  Nicht-Elfen-Charakteren
+  Barden
+  Klerikern
+  Magiern
+  Paladinen
+  Dieben~
+@680 = ~~
+@681 = ~Hallo!! Könnt Ihr mir eine Minute geben?~
+@682 = ~Auftrag~
+@683 = ~Auftrag, für die Sicherheit bei der Gründung eines neuen Kultes zum Schutz Faerûns zu sorgen.~
+@684 = ~Mithril-Rüstung~
+@685 = ~Dies ist eine Zwergenrüstung aus Mithril.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 5
+Gewicht: 40
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern
+ Dieben~
+@686 = ~Vampir-Halskette~
+@687 = ~Dies ist ein Zeichen des Friedens zwischen Euch und den Vampiren.~
+@688 = ~Obehaupt der Elfenführer~
+@689 = ~Dies ist das Oberhaupt der örtlichen Elfenführer.~
+@690 = ~Scharfschützen sind eine sehr wirksame, gut ausgebildete Schießeinheit. Sie sind Meister des Bogenschießens und nicht wenige in ihren Reihen stammen aus der Familie der Elfen. Ihre Genauigkeit, Geschwindigkeit und Stärke sind tödlich.
+
+EIGENSCHAFTEN:
+
+10% Chance auf sofortigen Tod
+Geschwindigkeit
+
+ETW0: Bonus von +5
+Schaden: Pfeil +5
+Schadensart: Feuer
+Gewicht: 5
+Geschwindigkeit: 3
+Waffenfertigkeit: Langbogen
+Waffentyp: zweihändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+  Nicht-Elfen-Charaktere 
+  Druiden
+  Klerikern
+  Magiern 
+  Dieben
+  Mönchen~
+@691 = ~Marguls Körper~
+@692 = ~Rausschmeißer +3~
+@693 = ~Der Hauptteil dieses Streitkolbens ist pechschwarz und der Griff ist mit leuchtenden Runen bedeckt. Beim Aufprall verursacht er eine starke Gehirnerschütterung und zwingt den Feind, die Waffe aus seinen Händen zu lösen.
+
+EIGENSCHAFTEN:
+
+35 % Chance, den Feind zu entwaffnen.
+Das Ziel muss einen Rettungswurf gegen Gift mit einem Malus von -5 machen, um zu versuchen, die Waffe zu behalten.
+
+ETW0: Bonus von +3
+Schaden: 2W4 +3
+Schadensart: Zertrümmern
+Gewicht: 12
+Geschwindigkeit: 6
+Waffenfertigkeit: Einhändig
+Waffentyp: Keule
+Mindeststärke: 11
+
+Kann nicht verwendet werden von:
+ Magiern
+ Dieben
+ Druiden~
+@694 = ~Knochenbrecher~
+@695 = ~Diese Waffe verdient ihren Spitznamen zu Recht. Sie ist viel schwerer als eine gewöhnliche Keule und es ist ein Kinderspiel, damit Knochen zu zermalmen. Nur eine schwere Rüstung kann ein Ziel vor ihrem Schlag retten.
+
+EIGENSCHAFTEN:
+
+50 % Chance, das Ziel zu töten, wenn es weniger als 60 Gesundheit hat,
++1W8 zusätzlicher Knüppelschaden.
+
+ETW0: Bonus von +4
+Schaden: 2W4 +4
+Schadensart: Zertrümmern
+Gewicht: 12
+Geschwindigkeit: 7
+Waffenfertigkeit: Einhändig
+Waffentyp: Keule
+Mindeststärke: 11
+
+Kann nicht verwendet werden von:
+ Magiern
+ Klerikern
+ Dieben
+ Druiden~
+@696 = ~Eisbrecher~
+@697 = ~Dieser Streitkolben wurde von einer Gruppe Abenteurer irgendwo in den Bergen des Grats der Welt gefunden und gehörte dem Anführer eines großen Oger-Stammes. Wie es in seinen Besitz gelangte, ist unbekannt.
+
+EIGENSCHAFTEN:
+
+Verleiht die Fähigkeit zu beschwören:
+"Kältekegel" - 3 mal am Tag;
+"Eissturm" - 2 mal am Tag.
+
+ETW0: Bonus von +2
+Schaden: 2W4 +2, 1W4 Kälteschaden
+Schadensart: Zertrümmern
+Gewicht: 10
+Geschwindigkeit: 7
+Waffenfertigkeit: Einhändig
+Waffentyp: Keule
+Mindeststärke: 11
+
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern
+ Dieben~
+@698 = ~Halblingsschleuder~
+@699 = ~Halblinge sind ein kleines Volk, das in Höhlen oder kleinen Häusern lebt, meist in hügeligen Gebieten. Sie sind recht friedlich, aber wenn sie wütend sind, können sie genauso hart kämpfen wie jede Armee. Diese Schleuder ist eine der gebräuchlichsten Halblingswaffen und kann von jedem hergestellt werden. In den Händen dieser Leute funktioniert sie natürlich am besten.	
+
+EIGENSCHAFTEN:
+
++1 Bonus auf Stärke und Beweglichkeit.
+Eile.
+
+ETW0: Bonus von +3
+Schaden: Stein +3
+Schadensart: Zertrümmern (Schuss)
+Gewicht: 1
+Geschwindigkeit: 2
+Waffenfertigkeit: Schleuder
+Waffentyp: zweihändig
+Mindeststärke: 3
+
+Kann nur verwendet werden von:
+Halblingen~
+@700 = ~Große Schleuder~
+@701 = ~Mit dieser Waffe könnt Ihr drei Steine gleichzeitig werfen.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +2
+Schaden: 3x Stein +2
+Schadensart: Zertrümmern (Schuss)
+Gewicht: 1
+Geschwindigkeit: 6
+Waffenfertigkeit: Schleuder
+Waffentyp: zweihändig
+Mindeststärke: 3
+
+Kann nur verwendet werden von:
+ -~
+@702 = ~Schleuder der Überraschung~
+@703 = ~Diese Waffe sollte nur auf eigene Gefahr verwendet werden. Denn jedes Mal, wenn sie eingesetzt wird, löst sie einen zufälligen Zauber der "wilden" Magie aus, so dass sie beide Seiten treffen kann.
+
+EIGENSCHAFTEN:
+
+Nach dem Schuss wird ein zufälliger Zauber aus der Schule der "wilden" Magie ausgelöst
+
+ETW0: Bonus von +3
+Schaden: Stein +3
+Schadensart: Feuer
+Gewicht: 2
+Geschwindigkeit: 4
+Waffenfertigkeit: Schleuder
+Waffentyp: zweihändig
+Mindeststärke: 3
+
+Kann nur verwendet werden von:
+ Magiern~
+@704 = ~Familienanhänger~
+@705 = ~Stab der Elemente: Flammen~
+@706 = ~Es gibt drei mächtige Stäbe in den Reichen, die die Elemente kontrollieren können. Dieser Stab ist für das Feuer zuständig.
+
+EIGENSCHAFTEN:
+
+Feuerwiderstand +15 %,
++1W6 zusätzlicher Feuerschaden,
+"Feuerball" wirken 2 mal am Tag;
+"Feuerelementar beschwören" - einmal am Tag.
+
+ETW0: Bonus von +3
+Schaden: 1W6 +3
+Schadensart: Zertrümmern
+Gewicht: 5
+Geschwindigkeit: 1
+Waffenfertigkeit: Zweihändig
+Waffentyp: Stab
+Mindeststärke: 5
+
+Kann nicht verwendet werden von:
+ -~
+@707 = ~Stab der Elemente: Luft~
+@708 = ~Es gibt drei mächtige Stäbe in den Reichen, die die Elemente kontrollieren können. Dieser Stab ist für die Luft zuständig.
+
+EIGENSCHAFTEN:
+
+Stromwiderstand +15%,
++1W6 zusätzlicher elektrischer Schaden,
+"Blitzschlag" wirken 2 mal am Tag,
+"Luftelementar beschwören" - einmal am Tag.
+
+ETW0: Bonus von +3
+Schaden: 1W6 +3
+Schadensart: Zertrümmern
+Gewicht: 5
+Geschwindigkeit: 1
+Waffenfertigkeit: Zweihändig
+Waffentyp: Stab
+Mindeststärke: 5
+
+Kann nicht verwendet werden von:
+ -~
+@709 = ~Stab der Elemente: Erde~
+@710 = ~Es gibt drei mächtige Stäbe in den Reichen, die die Elemente kontrollieren können. Dieser Stab ist für die Erde zuständig.
+
+EIGENSCHAFTEN:
+
+Säurebeständigkeit +15 %,
++1W6 zusätzlicher Säureschaden,
+"Erdelementar" beschwören einmal am Tag;
+"Meteorschauer" - einmal am Tag.
+
+ETW0: Bonus von +3
+Schaden: 1W6 +3
+Schadensart: Zertrümmern
+Gewicht: 5
+Geschwindigkeit: 1
+Waffenfertigkeit: Zweihändig
+Waffentyp: Stab
+Mindeststärke: 5
+
+Kann nicht verwendet werden von:
+ -~
+@711 = ~Magisches Symbol~
+@712 = ~Der Zauberer Petkul hat Euch dieses Symbol gegeben, wenn Ihr ihn herausfordern wollt, müsst Ihr zu der Turmruine nördlich des Tempels gehen.~
+@713 = ~Zauberstab~
+@714 = ~Eines der vier Teile einer sehr mächtigen Waffe.~
+@715 = ~Zauberstab~
+@716 = ~Blutsauger +3~
+@717 = ~Bluttau ist eine Sekte von skrupellosen Mördern, deren Mitglieder eines gemeinsam haben: den Wunsch, anderen Menschen das Leben zu nehmen. Diese Organisation hat keine eigene Basis, aber Gruppen ihrer Kämpfer finden sich in fast allen größeren Sekten und Kulten. Trotzdem können die Anführer der Blooddew ihre Aktionen bei Bedarf leicht koordinieren. Es wird gemunkelt, dass der Kult den Vampiren dient und seine Vorliebe für Blutvergießen ein Tribut an diese gottlosen Schöpfungen ist. Jeder Kult hat sein eigenes Symbol, an dem ihre Anhänger zu erkennen sind. Das Symbol des Bluttaus ist eine unheimliche Klinge, die das Leben anderer zusammen mit ihrem Blut aussaugt.
+
+EIGENSCHAFTEN:
+
+Bei einem Treffer besteht eine Chance von 20 %, dem Feind 2 Stufen zu entziehen.
+Entzieht dem Ziel 10 Gesundheitspunkte und überträgt sie auf den Besitzer, wodurch er geheilt wird.
+
+ETW0: -
+Schaden: 1W8
+Schadensart: Aufschlitzen
+Gewicht: 7
+Geschwindigkeit: 1
+Waffenfertigkeit: Ninja-To
+Waffentyp: einhändig
+Mindeststärke: 6
+
+Kann nur verwendet werden von:
+ Kriegern
+ Dieben~
+@718 = ~Seledins rechte Hand~
+@719 = ~Die "Hände" sind Zwillingsklingen, die von einem talentierten, aber unerkannten Waffenschmid hergestellt wurden, der aufgrund der Umstände gezwungen war, zum Einbrecher zu werden. Die Klingen sind verzaubert, um die Mängel der jeweils anderen auszugleichen. Schon eine einzelne "Hand" ist eine sehr mächtige Waffe, aber zusammen sind sie unglaublich.
+
+EIGENSCHAFTEN:
+
++5 Kälteschaden
+60 % Chance, das Ziel für 3 Punkte pro Runde zu vergiften (für 3 Runden)
+Stärke +2,
+50 % Chance, das Ziel niederzuschlagen,
+"Stärke"-Zauber wirken (einmal täglich),
+"Hast" (einmal am Tag).
+
+ETW0: -
+Schaden: 1W8
+Schadensart: Aufschlitzen
+Gewicht: 8
+Geschwindigkeit: 2
+Waffenfertigkeit: Ninja-To
+Waffentyp: einhändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern
+ Paladinen~
+@720 = ~Seledines linke Hand~
+@721 = ~Die "Hände" sind Zwillingsklingen, die von einem talentierten, aber unerkannten Waffenschmid hergestellt wurden, der aufgrund der Umstände gezwungen war, zum Einbrecher zu werden. Die Klingen sind verzaubert, um die Mängel der jeweils anderen auszugleichen. Schon eine einzelne "Hand" ist eine sehr mächtige Waffe, aber zusammen sind sie unglaublich.
+
+EIGENSCHAFTEN:
+
+Regeneriert 1 Trefferpunkt pro Runde,
+Beweglichkeit +2,
+Rüstungsklasse +2,
++10 % auf die Fähigkeit, sich "im Schatten zu verstecken",
+Gewährt die Fähigkeit, 2 Mal am Tag "Heilung" zu wirken
+
+ETW0: -
+Schaden: 1W8
+Schadensart: Aufschlitzen
+Gewicht: 8
+Geschwindigkeit: 2
+Waffenfertigkeit: Ninja-To
+Waffentyp: einhändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern
+ Paladinen~
+@722 = ~Rüstung der Nomaden~
+@723 = ~Eine von den nomadischen Banditen der Wüste hergestellte Rüstung. Ihre Eigenschaften ähneln denen einer Lederrüstung mit Metalleinsätzen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 6
+Gewicht: 15
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Magiern~
+@724 = ~Magisches Schwert~
+@725 = ~Diese Art von zweischneidigem Schwert wurde für alle Arten von Magiern entworfen. Diese Art von Schwert kann nur von einem Magier benutzt werden und sonst von niemandem.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8, +1 Schaden durch Magie
+Schadensart: Aufschlitzen
+Gewicht: 4
+Geschwindigkeit: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke 6
+Intelligenz 15
+
+Kann nur verwendet werden von:
+ Magiern~
+@726 = ~Magisches Schwert +1~
+@727 = ~Diese Art von zweischneidigem Schwert wurde für alle Arten von Magiern entworfen. Diese Art von Schwert kann nur von einem Magier benutzt werden und sonst von niemandem.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +1, +2 Schaden durch Magie
+Schadensart: Aufschlitzen
+Gewicht: 4
+Geschwindigkeit: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke 6
+Intelligenz 16
+
+Kann nur verwendet werden von:
+ Magiern~
+@728 = ~Magisches Schwert +2~
+@729 = ~Diese Art von zweischneidigem Schwert wurde für alle Arten von Magiern entworfen. Diese Art von Schwert kann nur von einem Magier benutzt werden und sonst von niemandem.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +2, +3 Schaden durch Magie
+Schadensart: Aufschlitzen
+Gewicht: 4
+Geschwindigkeit: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke 6
+Intelligenz 17
+
+Kann nur verwendet werden von:
+ Magiern~
+@730 = ~Magisches Schwert +3~
+@731 = ~Diese Art von zweischneidigem Schwert wurde für alle Arten von Magiern entworfen. Diese Art von Schwert kann nur von einem Magier benutzt werden und sonst von niemandem.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3, +4 Schaden durch Magie
+Schadensart: Aufschlitzen
+Gewicht: 4
+Geschwindigkeit: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke 6
+Intelligenz 18
+
+Kann nur verwendet werden von:
+ Magiern~
+@732 = ~Pike~
+@733 = ~Diese schweren Stangenwaffen dienen nur einem Zweck - dem Kampf gegen Kavallerie. Ein erfahrener Infanterist kann entweder den Reiter aus dem Sattel reißen oder sein Pferd durchbohren und den Ritter zu Boden zwingen, wo mobilere Kämpfer ihn ohne Einmischung erledigen können.
+
+EIGENSCHAFTEN:
+
+ETW0: -
+Schaden: 3W4
+Schadensart: Durchbohren
+Gewicht: 6
+Geschwindigkeit: 5
+Waffenfertigkeit: Speer
+Waffentyp: zweihändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern~
+@734 = ~Pike +1~
+@735 = ~Dieser Waffentyp wurde in der Stadt der Nomaden in Nord-Calimshan hergestellt. Die Piken erwiesen sich als sehr effektiv bei der schnellen Abwehr von Kavallerieangriffen und breiteten sich bald über die gesamte Schwertküste aus.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +1
+Schaden: 3W4 +1
+Schadensart: Durchbohren
+Gewicht: 6
+Geschwindigkeit: 5
+Waffenfertigkeit: Speer
+Waffentyp: zweihändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern~
+@736 = ~Pike +2~
+@737 = ~Eine andere Art der Pike, ebenfalls in Calimshan erfunden. Diese Waffe ist kürzer und leichter, wodurch sie viel bequemer zu handhaben ist.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +2
+Schaden: 3W4 +2
+Schadensart: Durchbohren
+Gewicht: 5
+Geschwindigkeit: 5
+Waffenfertigkeit: Speer
+Waffentyp: zweihändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern~
+@738 = ~Pike +3~
+@739 = ~Diese Waffe wurde ebenfalls in Calimshan hergestellt und wurde nur von Kommandanten geführt. Dies führte jedoch zu gewissen Problemen, da sich ihre Spitzen von denen der Soldaten unterschieden, was den Schützen half, Offiziere auf dem Schlachtfeld zu identifizieren und zu vernichten.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +3
+Schaden: 3W4 +3
+Schadensart: Durchbohren
+Gewicht: 7
+Geschwindigkeit: 5
+Waffenfertigkeit: Speer
+Waffentyp: zweihändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern~
+@740 = ~Gezackter Spiess~
+@741 = ~Dieser Spiess verdient seinen Namen zu Recht. Die Speerspitze  ist perfekt geschärft und hat zusätzlich scharfe Zacken, die die Rüstung durchbrechen und das Ziel auf der Stelle töten kann.
+
+EIGENSCHAFTEN:
+
+Beim Angriff besteht eine Chance von 10 %, das Ziel sofort zu töten.
+Rettungswurf gegen den Tod hilft nicht.
+
+ETW0: Bonus von +2
+Schaden: 3W4 +2
+Schadensart: Durchbohren
+Gewicht: 6
+Geschwindigkeit: 5
+Waffenfertigkeit: Speer
+Waffentyp: zweihändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern~
+@742 = ~Calimport-Pike~
+@743 = ~Calimport ist eine Stadt mitten in der Calim-Wüste, die in der Vergangenheit oft von Nomaden angegriffen wurde. Diese Piken wurden genau zu dieser Zeit geschaffen. Ihr Hauptunterschied zu Speeren und anderen Arten von Spitzen ist das Vorhandensein von Speerspitzen auf beiden Seiten. Ein gut trainierter und nicht durch Rüstung eingeschränkt Kämpfer ist in der Lage, mit ihr schnelle und tödliche Schläge zu versetzen, während er selbst sich viel weniger bewegt. Mit ihnen waren Leibwächter wichtiger Persönlichkeiten und Elitekämpfern bewaffnet. Wenn der Feind diese Waffe sah, zog er es oft vor, zu fliehen als gegen ihren Träger zu kämpfen.
+
+EIGENSCHAFTEN:
+
+Verursacht mit größerer Wahrscheinlichkeit mehr kritische Treffer als jede andere Waffe in dieser Gattung.
+
+ETW0: Bonus von +3
+Schaden: 3W4 +3
+Schadensart: Durchbohren
+Gewicht: 6
+Geschwindigkeit: 3
+Waffenfertigkeit: Speer
+Waffentyp: zweihändig
+Mindeststärke: 7
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern~
+@744 = ~Ilidurs Pike~
+@745 = ~Ilidur war ein gutmütiger Krieger und Beschützer der Schwachen, aber am bemerkenswertesten war natürlich seine Waffe. Wie er sie bekommen hat, ist unbekannt (Gerüchten zufolge hat er sie gewonnen), aber dass es sich nicht um eine einfache Pike handelt, ist eine Tatsache. Man sagt, sie sei verzaubert und könne den Schlägen konventioneller und magischer Waffen problemlos standhalten.
+
+EIGENSCHAFTEN:
+
+20 % Schadensresistenz gegen konventionelle und magische Waffen.
+
+ETW0: Bonus von +3
+Schaden: 3W4 +3
+Schadensart: Durchbohren
+Gewicht: 6
+Geschwindigkeit: 5
+Waffenfertigkeit: Speer
+Waffentyp: zweihändig
+Mindeststärke: 7
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern~
+@746 = ~Gefängnisschlüssel~
+@747 = ~Öffnet die Tür zu Zelle 1.~
+@748 = ~Öffnet die Tür zu Zelle 2.~
+@749 = ~Öffnet die Tür zu Zelle 3.~
+@750 = ~Öffnet die Tür zu Zelle 4.~
+@751 = ~Öffnet die Tür zu Zelle 5.~
+@752 = ~Öffnet die Tür zum Wachraum.~
+@753 = ~Absorber~
+@754 = ~Diese Rüstung wurde speziell für Magierjäger entwickelt. Sie schützt gut vor Feuer, Kälte, Zaubersprüchen der Zauberschule... im Grunde genommen vor allem, was die meisten Magier normalerweise verwenden. Leider sind Todeszauber nicht in dieser Liste enthalten.
+
+EIGENSCHAFTEN:
+
+20 % Resistenz gegen Feuer, Kälte und Magie.
+
+Rüstungsklasse: -2
+Gewicht: 50
+Stärke: 12
+
+Kann nicht verwendet werden von:
+ Magiern
+ Klerikern
+ Druiden
+ Dieben~
+@755 = ~Dieser Plattenpanzer ist professionell geschmiedet. Es ist strapazierfähig und gleichzeitig sehr leicht. Diese Rüstung wurde von Mitgliedern der Neun von Niewinter getragen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Gewicht: 25
+Mindeststärke 8
+
+Kann nicht verwendet werden von:
+ Barden
+ Magiern
+ Dieben~
+@756 = ~Rüstung der Härte~
+@757 = ~Diese Rüstung hält allen Stichwaffen und etwas Feuer stand.
+
+EIGENSCHAFTEN:
+
+25 % Resistenz gegen Stichwunden, +5% Schutz gegen Feuer.
+
+Rüstungsklasse: 3
+Stärke: 15
+
+Kann nur verwendet werden von:
+ Kriegern
+ Paladinen~
+@758 = ~Magisches Gewand~
+@759 = ~Diese Robe wurde speziell entwickelt, um die Fähigkeiten von Magiern und Klerikern zu verbessern.
+
+EIGENSCHAFTEN:
+
++20 auf maximale Gesundheit,
+fügt 1 zusätzlichen Zauber der Stufen 5 und 6 hinzu.
+
+Rüstungsklasse: 3
+
+Kann nur verwendet werden von:
+ Magiern
+ Klerikern~
+@760 = ~Königliche Rüstung~
+@761 = ~Gottes Rüstung~
+@762 = ~Diese Rüstung ist so gut, dass es sogar schon Kriege um sie gegeben hat. Es heißt, dass sie von einem Krieger getragen wurde, der vom Kriegsgott selbst unterstützt wurde. Ob das stimmt oder nicht, kann niemand mehr sagen.
+
+EIGENSCHAFTEN:
+
++1 Stärke und Beweglichkeit
+
+Rüstungsklasse: -6
+Stärke: 18
+
+Kann nur verwendet werden von:
+ Kriegern~
+@763 = ~Rüstung des Widerstands~
+@764 = ~Diese robuste Rüstung wurde nach dem Tod eines Kultisten zurückgelassen, der ein Banner mit einem brennenden Totenkopf trug. Gut möglich, dass er ein Anführer war, der seine Anhänger in die Schlacht führte.
+
+EIGENSCHAFTEN:
+
++1 Beweglichkeit, +10 % Verteidigung gegen
+konventionelle und magische Waffen
+
+Rüstungsklasse: 0
+Stärke: 20
+
+Kann nur verwendet werden von:
+ Kriegern
+ Waldläufern
+ Paladinen~
+@765 = ~Schriften des Schreckens~
+@766 = ~Diese Rüstung ist mit Runen besetzt, die mysteriös schimmern, wenn sich Feinde dem Träger nähern. Je mehr sich der Feind nähert, desto heller flackern die Symbole, und dann rennt der Feind ohne Grund davon. Es bedarf eines wirklich eisernen Willens (oder einen guten mentalen Schutz), um die Magie der Rüstung zu überwinden.
+
+EIGENSCHAFTEN:
+
+Ein Ziel in der Nähe des Spielers muss einen Rettungswurf würfeln oder fliehen.
+Ermöglicht es, "Umhang der Angst" zu wirken (3 Mal pro Tag).~
+@767 = ~Robe der Stärke~
+@768 = ~Dies ist eine der besten Schutzroben für Zauberkundige. Sie ist nicht leicht zu bekommen, aber sie ist ihren Preis wert.
+
+EIGENSCHAFTEN:
+
+Der gesamte Waffenschaden wird um 5 verringert.
++2 Weisheit und Intelligenz
+
+Rüstungsklasse: -4~
+@769 = ~Robe des Schutzes vor der Kälte~
+@770 = ~Dieses Kleidungsstück wurde im Eis in einer der vielen Höhlen in den Bergen des Grats der Welt gefunden. Seltsamerweise hat ihm ein langer Aufenthalt unter widrigen Bedingungen überhaupt nicht geschadet.
+
+EIGENSCHAFTEN:
+
+50 % Kältebeständigkeit
+Gewährt die Fähigkeit, den Eissturm-Zauber zu wirken (zweimal täglich).
+
+Rüstungsklasse: 0
+Stärke: 12
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden~
+@771 = ~Rüstung der Immunität~
+@772 = ~Diese Rüstung zeichnet sich dadurch aus, als ihr Träger nicht vergiftet werden kann. Selbst das schlimmste Gift in jeder Konzentration wird in Sekundenschnelle neutralisiert. Wer und wie diese wunderbare Rüstung geschaffen hat, ist ein Rätsel.
+
+EIGENSCHAFTEN:
+
+100 % Giftschutz
+
+Rüstungsklasse: 1
+Stärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern~
+@773 = ~Stein~
+@774 = ~Diese Rüstung ist hart wie ein Stein, und es ist leichter, eine Waffe zu zerbrechen, als zu versuchen, ihren Besitzer zu verwunden. Immwerhin hinterlassen Pfeile, Speere und Kurzschwerter nicht einmal einen Kratzer auf ihr. Bei anderen Waffentypen ist die Situation jedoch nicht so rosig.
+
+EIGENSCHAFTEN:
+
+90 % Resistenz gegen Stichschäden
++10 % Resistenz gegen andere Arten von Schaden,
+Geschicklichkeit+1
+
+Rüstungsklasse: 2
+Stärke: 15
+
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern
+ Klerikern
+ Dieben~
+@775 = ~Amulett der Neun von Niewinter~
+@776 = ~Das Amulett besteht aus zwei dicken Scheiben, die an einer Kette aufgereiht sind. In der Mitte der silbernen Scheibe ist das Symbol von Neverwinter eingraviert..~
+@777 = ~Der Brief ist mit Blut geschrieben und besagt: Mission gescheitert.~
+@778 = ~Schriftrolle mit Karte~
+@779 = ~Magisches Relikt~
+@780 = ~Der zweite Teil einer mächtigen magischen Waffe.~
+@781 = ~Alte Schriftrolle~
+@782 = ~Enthält eine historische Abhandlung über den Kampf zwischen Torm und Cyric.~
+@783 = ~Schlüssel zum Grab~
+@784 = ~Der Schlüssel zum Grab befindet sich in der Druidenabtei, wo Ihr das dritte und letzte magische Relikt finden solltet.~
+@785 = ~Absorptionsring~
+@786 = ~Dieser Ring zieht buchstäblich Magie aus der Umgebung und hebt alle Zauber auf. Der Ring kostet ein kleines Vermögen und es gilt als großes Glück, einen solchen Ring zu finden.
+
+EIGENSCHAFTEN:
+
+Magieresistenz +30 %~
+@787 = ~Ring des Klerikers~
+@788 = ~Diese Ringe sind unter Klerikern und darüber hinaus sehr begehrt. Allein das Tragen dieses Schmucks heilt die schwersten Wunden, und dank der zusätzlichen Heilzauber kann der Ring einen Heiler in einer kritischen Situation ersetzen.
+
+EIGENSCHAFTEN:
+
++20 auf maximale Gesundheit,
+3 mal täglich "schwere Wunden heilen".~
+@789 = ~Ring des Himmels~
+@790 = ~Dieser Ring wurde von den himmlischen Wesen benutzt, die für die Erde gegen Dämonen kämpften. Schließlich zogen sich beide Seiten in ihr Gebiet zurück und der Planet wurde von Menschen besiedelt.
+
+Vlatnosti:
+
++10 % Feuerwiderstand, +10 maximale Gesundheit,
+einmal am Tag den Zauber "Tote wiederbeleben" wirken.~
+@791 = ~Der Ring des Friedens~
+@792 = ~Diesen Ring hat Euch der König von Atkathla gegeben.~
+@793 = ~Magischer Beutel~
+@794 = ~Vertrag der Allianz~
+@795 = ~Dieser Brief ist von den Anführern der einzelnen Gruppen unterzeichnet, die sich zum Kampf gegen die Krieger des Südens zusammengeschlossen haben.~
+@796 = ~Schild der Wachen~
+@797 = ~Dieser ein Meter hoher Schild wird hauptsächlich von der Königlichen Garde verwendet. Es deckt den Krieger im Kampf gut ab, ist strapazierfähig und für seine Größe relativ leicht. Aber es erfordert viel Geschick, um ihn effektiv zu handhaben.
+
+EIGENSCHAFTEN:
+
++1 zu Stärke und Beweglichkeit,
++30 % Resistenz gegen Fernkampfangriffe.
+
+Rüstungsklasse Bonus: 2
+Gewicht: 28
+Mindeststärke: 15
+
+Kann nur verwendet werden von:
+ Kriegern
+ Paladinen~
+@798 = ~Sonnenschild~
+@799 = ~Dieser hell leuchtende Schild bietet hervorragenden Schutz für den Träger, schon allein deshalb, weil der Gegner gezwungen ist, sich abzuwenden, um nicht geblendet zu werden. Gerüchten zufolge wurde er von den Anhängern Helms einem bestimmten Helden geschenkt, der ihnen im Kampf gegen den Kult des Blicklosen Auges half.
+
+EIGENSCHAFTEN:
+
++20 auf maximales Leben, Träger vor Blindheit geschützt,
+30 % Chance, das Ziel zu blenden
+Geschicklichkeit +1
+
+Bonus-kRüstungsklasse: 3
+
+Kann nicht verwendet werden von:
+ bösen Charakteren~
+@800 = ~Sturmschild~
+@801 = ~Dieser Schild wurde etwa 25 Meilen von Calimport entfernt in einem abgelegenen Dorf gefunden, kurz bevor es von Nomaden geplündert wurde. Die Einheimischen erzählten, dass eines Nachts ein schreckliches Gewitter über ihrem Dorf ausgebrochen sei. Blitze zuckten fast ohne Unterbrechung, aber seltsamerweise schlug keiner von ihnen in Häuser oder Menschen ein. Am nächsten Morgen nach dem Ende des Sturms fanden die Dorfbewohner einen verkohlten Leichnam mit diesem Schild am Straßenrand. Ob dieser Unbekannte die Ursache des Unwetters war oder im Gegenteil das Dorf davor retten wollte, blieb ein Rätsel.
+
+EIGENSCHAFTEN:
+
++25 % Widerstand gegen Elektrizität,
++10 % Magieresistenz.
+
+AC-Bonus: 1
+
+Kann nicht verwendet werden von:
+ Barde
+ Druiden
+ Magiern
+ Dieben~
+@802 = ~Glaube des Paladins~
+@803 = ~Dieser Schild ist eines der Relikte des Ordens des Strahlenden Herzens. Nur die berühmtesten Paladine trugen ihn.
+
+EIGENSCHAFTEN:
+
++10 % Resistenz gegen Magie, Feuer, Kälte, Elektrizität und Gift;
+Bonus auf Charisma +2
+
+Rüstungsklasse Bonus: +33
+
+Kann nur verwendet werden von:
+ Paladinen~
+@804 = ~Eine Schriftrolle, die es mir ermöglichen sollte, mit den Skeletten zu sprechen.~
+@805 = ~Spinnenkörper von einer Farm~
+@806 = ~Wurfstern~
+@807 = ~Der Wurfstern ist eine Art Dolch, eine der häufigsten Waffen von Meuchelmördern und Dieben. Ein Wurfstern ist etwa so groß wie eine menschliche Hand, aber selbst dieses kleine Werkzeug kann zu einer tödlichen Waffe werden.
+
+EIGENSCHAFTEN:
+
+ETW0: -
+Schaden: 2W4
+Schadensart: Aufschlitzen
+Gewicht: 1
+Geschwindigkeit: 1
+Waffenfertigkeit: Wurfpfeile
+Waffentyp: einhändig
+Mindeststärke: 2
+
+Kann nicht verwendet werden von:
+ -~
+@808 = ~Wurfstern~
+@809 = ~Der Wurfstern ist eine Art Wurfwaffe, einer der häufigsten Ausrüstungsgegenständen von Meuchelmördern und Dieben. Ein Wurfstern ist nur so groß wie eine Handfläche, aber er ist unglaublich genau und tödlich.
+
+EIGENSCHAFTEN:
+
+ETW0: -
+Schaden: 2W4
+Schadensart: Aufschlitzen
+Gewicht: 1
+Geschwindigkeit: 1
+Waffenfertigkeit: Wurfpfeile
+Waffentyp: einhändig
+Mindeststärke: 2
+
+Kann nicht verwendet werden von:
+ -~
+@810 = ~Der Wurfstern ist eine Art Wurfwaffe, einer der häufigsten Ausrüstungsgegenständen von Meuchelmördern und Dieben. Ein Wurfstern ist nur so groß wie eine Handfläche, aber er ist unglaublich genau und tödlich.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +1
+Schaden: 2W4 +1
+Schadensart: Aufschlitzen
+Gewicht: 1
+Geschwindigkeit: 1
+Waffenfertigkeit: Wurfpfeile
+Waffentyp: einhändig
+Mindeststärke: 2
+
+Kann nicht verwendet werden von:
+ -~
+@811 = ~Wurfstern + 1~
+@812 = ~Wurfsterne sind höchst exotische Waffen, die angeblich von Kara-Turs Spionen erfunden wurden. Dieser Typ wurde in der Diebesgilde von Athkatla leicht modifiziert.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +2
+Schaden: 2W4 +2
+Schadensart: Aufschlitzen
+Gewicht: 1
+Geschwindigkeit: 1
+Waffenfertigkeit: Wurfpfeile
+Waffentyp: einhändig
+Mindeststärke: 2
+
+Kann nicht verwendet werden von:
+ -~
+@813 = ~Wurfstern + 2~
+@814 = ~Wurfsterne sind höchst exotische Waffen, die angeblich von Kara-Turs Spionen erfunden wurden. Diese Kopie wurde im Auftrag eines bestimmten Oberhauptes der Meuchelmördergilde mit zusätzlichen Zaubern versehen. Ironischerweise hatte er keine Zeit, seine Errungenschaft zu nutzen, da er bald von einem Attentäter einer rivalisierenden Organisation liquidiert wurde, der die Sterne für sich selbst nahm.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +3
+Schaden: 2W4 +3
+Schadensart: Aufschlitzen
+Gewicht: 1
+Geschwindigkeit: 1
+Waffenfertigkeit: Wurfpfeile
+Waffentyp: einhändig
+Mindeststärke: 2
+
+Kann nicht verwendet werden von:
+ -~
+@815 = ~Zurückkehrender Wurfstern + 3~
+@816 = ~Dieser Wurfstern wurde so modifiziert, dass er nicht im Fleisch des Ziels stecken bleibt, sondern sofort zu seinem Besitzer zurückkehrt, um erneut geworfen zu werden. Es ist auch unmöglich, ihn zu verlieren oder zu stehlen.
+
+EIGENSCHAFTEN:
+
+Der Seestern gelangt sofort nach dem Wurf wieder in die Hände des Besitzers.
+ 
+ETW0: Bonus von +2
+Schaden: 2W4 +2
+Schadensart: Aufschlitzen
+Gewicht: 1
+Geschwindigkeit: 1
+Waffenfertigkeit: Wurfpfeile
+Waffentyp: einhändig
+Mindeststärke: 2
+
+Kann nicht verwendet werden von:
+ -~
+@817 = ~Giftstern +3~
+@818 = ~Eines Tages wurde der Anführer der Diebesgilde, Vaneal, von seinem Rivalen gestürzt. Der Ex-Chef schwor, den Gegner auf schmerzhafteste Art und Weise ins Grab zu schicken. Nachdem er alle verbleibenden Mittel gesammelt hatte, wandte er sich an Zauberer und Alchemisten um Hilfe, die diesen Stern herstellten. Das Gift, mit dem er überzogen war, löste sich schnell in der Wunde auf und der neue Gildenführer starb unter schrecklichen Qualen. Das Gift erwies sich als so wirksam, dass es nicht nur den Schöpfer, sondern auch die Waffe verherrlichte.
+
+EIGENSCHAFTEN:
+
+Bei einem erfolgreichen Treffer wird der Feind vergiftet. Kein Rettungswurf.
+
+ETW0: Bonus von +3
+Schaden: 2W4 +3
+Schadensart: Aufschlitzen
+Gewicht: 1
+Geschwindigkeit: 0
+Waffenfertigkeit: Wurfpfeile
+Waffentyp: einhändig
+Mindeststärke: 2
+
+Kann nicht verwendet werden von:
+ -~
+@819 = ~Schneidstern~
+@820 = ~Dieser Stern unterscheidet sich von einem normalen Stern dadurch, dass er sechs statt vier Klingen hat. Dadurch hat erveine bessere Chance, das Ziel zu treffen und ihm viel schwereren Schaden zuzufügen.
+
+EIGENSCHAFTEN:
+
+Bei einem erfolgreichen Treffer verursacht die Waffe mit 50 % Wahrscheinlichkeit zusätzlich 1W4 Schaden.
+
+ETW0: Bonus von +2
+Schaden: 2W4 +2
+Schadensart: Aufschlitzen
+Gewicht: 1
+Geschwindigkeit: 1
+Waffenfertigkeit: Wurfpfeile
+Waffentyp: einhändig
+Mindeststärke: 2
+
+Kann nicht verwendet werden von:
+ -~
+@821 = ~Lanze~
+@822 = ~Diese Waffe ähnelt einem Speer, hat aber eine längere Spitze. Sie stammt aus Amn, wo Bauernaufstände weit verbreitet waren. Die Lanze ist einfach konstruiert und wird abschätzig als "Waffe der Hinterwäldler" bezeichnet. Diese Version wurde durch Magie leicht verbessert.
+
+EIGENSCHAFTEN:
+
+ETW0: -
+Schaden: 2W6
+Schadensart: Durchbohren
+Gewicht: 8
+Geschwindigkeit: 5
+Waffenfertigkeit: Speer
+Waffentyp: zweihändig
+Mindeststärke: 7
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern
+ Barden~
+@823 = ~Lanze +1~
+@824 = ~Diese Waffe ähnelt einem Speer, hat aber eine längere Spitze. Sie stammt aus Amn, wo Bauernaufstände weit verbreitet waren. Die Lanze ist einfach konstruiert und wird abschätzig als "Waffe der Hinterwäldler" bezeichnet. Die Verzauberungen auf dieser Waffe sind viel stärker als gewöhnlich.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +1
+Schaden: 2W6 +1
+Schadensart: Durchbohren
+Gewicht: 8
+Geschwindigkeit: 5
+Waffenfertigkeit: Speer
+Waffentyp: zweihändig
+Mindeststärke: 7
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern
+ Barden~
+@825 = ~Lanze +2~
+@826 = ~Diese Waffe ähnelt einem Speer, hat aber eine längere Spitze. Sie stammt aus Amn, wo Bauernaufstände weit verbreitet waren. Die Lanze ist einfach konstruiert und wird abschätzig als "Waffe der Hinterwäldler" bezeichnet. Die Verzauberungen auf dieser Waffe sind viel stärker als gewöhnlich.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +2
+Schaden: 2W6 +2
+Schadensart: Durchbohren
+Gewicht: 8
+Geschwindigkeit: 5
+Waffenfertigkeit: Speer
+Waffentyp: zweihändig
+Mindeststärke: 7
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern
+ Barden~
+@827 = ~Lanze +3~
+@828 = ~Diese Waffe ähnelt einem Speer, hat aber eine längere Spitze. Sie stammt aus Amn, wo Bauernaufstände weit verbreitet waren. Die Lanze ist einfach konstruiert und wird abschätzig als "Waffe der Hinterwäldler" bezeichnet. Diese Speere wurden von Rebellenführern benutzt. Unklar bleibt nur, wer genau die Waffe verzaubert hat, und zwar so gut.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +3
+Schaden: 2W6 +3
+Schadensart: Durchbohren
+Gewicht: 8
+Geschwindigkeit: 5
+Waffenfertigkeit: Speer
+Waffentyp: zweihändig
+Mindeststärke: 7
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern
+ Barden~
+@829 = ~Scharfe Lanze~
+@830 = ~Diese Klinge hat eine sehr scharfe Spitze, die fast alle Rüstungen außer den stärksten durchbohren kann. Viele Adlige und ihre Soldaten, die zur Niederschlagung von Aufständen auszogen, unterschätzten diese Waffe, was sie teuer bezahlen mussten.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeit:
+Verursacht bei einem erfolgreichen Treffer zusätzlich 1W4 Stichschaden.
+
+ETW0: Bonus von +3
+Schaden: 2W6 +3
+Schadensart: Durchbohren
+Gewicht: 8
+Geschwindigkeit: 4
+Waffenfertigkeit: Speer
+Waffentyp: zweihändig
+Mindeststärke: 7
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern
+ Barden~
+@831 = ~Waffe der Rebellen~
+@832 = ~Lex war der berühmteste der Rebellenführer und außerdem ein geschickter Lanzenkämpfer. In dem Duell, das darüber entscheiden sollte, wer die Rebellion anführen würde, führte Lex seine Waffe so geschickt, dass er bald keine Rivalen mehr hatte. Nach einer solch überzeugenden Demonstration von Kampffähigkeiten erhob niemand mehr Einwände gegen seine Führung.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +5
+Schaden: 2W6 +5
+Schadensart: Durchbohren
+Gewicht: 8
+Geschwindigkeit: 3
+Waffenfertigkeit: Speer
+Waffentyp: zweihändig
+Mindeststärke: 7
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern
+ Barden~
+@833 = ~Ausgeglichene Lanze~
+@834 = ~In der Regel sind  die handwerklich und aus improvisierten Mitteln hergestellte Lanzen eher unausgewogene Waffen, die besonderes Geschick im Umgang erfordern. Bei diesem Exemplar ist alles anders: Die Spitze besteht aus einer leichten, aber starken Legierung, der Schaft ist gleichmäßig und leicht gekürzt, wodurch die Waffe perfekt ausbalanciert und leicht zu handhaben ist.
+
+EIGENSCHAFTEN:
+
+Im Einsatz kann der Träger nicht verlangsamt werden.
+
+ETW0: Bonus von +2
+Schaden: 2W6 +2
+Schadensart: Durchbohren
+Gewicht: 8
+Geschwindigkeit: 4
+Waffenfertigkeit: Speer
+Waffentyp: zweihändig
+Mindeststärke: 7
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern
+ Barden~
+@835 = ~Schwert der Rechtschaffenen~
+@836 = ~EIGENSCHAFTEN:~
+@837 = ~OEIGENSCHAFTEN:
+
+Schaden: 1W8 +1 plus 1W4 Kälteschaden
+Spezielle Fähigkeiten:
+50 % Chance das Ziel bei einem erfolgreichen Treffer zu betäuben, wenn der Feind keinen Rettungswurf gegen Tod würfelt.
+Schadensart: Aufschlitzen
+Gewicht: 4
+Geschwindigkeitsklasse: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Anforderungen: 6 Stärke
+Verwendet nicht:
+ Druiden
+ Priester
+ Magiern~
+@838 = ~Wirbelwind aus Eis~
+@839 = ~Dieses ungewöhnlich schimmernde Zweihandschwert ist eine ausgezeichnete Waffe. Die durchscheinende Klinge ist kalt wie Eis und rasiermesserscharf geschliffen, aber gleichzeitig splittert kein einziges Stück, auch nicht das kleinste, von ihr ab, ganz gleich, wie hart der Schlag ausgeführt wird. Die Klinge ist außerdem so blitzschnell, dass die Klinge kaum zu sehen ist.
+
+EIGENSCHAFTEN:
+
+Der Träger steht unter der ständigen Wirkung von Eile, 30 % Chance, das Ziel sofort zu töten.
+
+ETW0: Bonus von +3
+Schaden: 1W10 +3
+Schadensart: Aufschlitzen
+Gewicht: 8
+Geschwindigkeit: 5
+Waffenfertigkeit: Zweihandschwert
+Waffentyp: zweihändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern
+ Dieben~
+@840 = ~Zerstörer +3~
+@841 = ~Diese Waffe ist unter Barbaren weit verbreitet. Aufgrund seiner Größe und der Art des Kampfes kann niemand außer ihnen selbst dieses Schwert benutzen..
+
+EIGENSCHAFTEN:
+
+Verursacht bei einem erfolgreichen Treffer zufällig 1-50 Punkte zusätzlichen Schaden
+
+ETW0: Bonus von +3
+Schaden: 1W10 +3
+Schadensart: Aufschlitzen
+Gewicht: 20
+Geschwindigkeit: 10
+Waffenfertigkeit: Zweihandschwert
+Waffentyp: zweihändig
+Mindeststärke: 15
+Kann Pouze verwenden:
+ Barbaren~
+@842 = ~Donnerklinge~
+@843 = ~Dieses Zweihandschwert hat scharfe Zacken auf beiden Seiten der Klinge, der Griff ist mit schwarzem Segeltuch umwickelt, und auf der Klinge selbst ist ein Blitz eingraviert. Es wird gemunkelt, dass die Waffe bei einem Gewitter einen eigenen Willen zu haben scheint und Blitze vom Himmel anzieht.
+
+EIGENSCHAFTEN:
+
+Absorbiert 50 % des Stromschadens.
+Ermöglicht es, 3-mal am Tag "Blitzschlag" zu wirken
+
+ETW0: Bonus von +4
+Schaden: 1W10 +4, 1W10 Blitzschaden
+Schadensart: Aufschlitzen
+Gewicht: 12
+Geschwindigkeit: 10
+Waffenfertigkeit: Zweihandschwert
+Waffentyp: zweihändig
+Mindeststärke: 14
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern
+ Dieben~
+@844 = ~Schwert des Kopfes~
+@845 = ~Diesen ungewöhnlichen Namen erhielt diese Waffe wegen ihres Besitzers, eines Barbaren mit dem Spitznamen "Kopf", der von seinen Stammesangehörigen so genannt wurde. Er war in der Tat eine Führungspersönlichkeit - stark, mutig und weise.	
+
+
+EIGENSCHAFTEN:
+
+Charisma +2.
+10 % Chance, das Ziel bei einem erfolgreichen Angriff in Panik zu versetzen.
+
+ETW0: Bonus von +2
+Schaden: 2W4 +2
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 8
+Waffenfertigkeit: Bastardschwert
+Waffentyp: einhändig
+Mindeststärke: 11
+
+Kann nicht verwendet werden von:
+ Magiern
+ Klerikern
+ Druiden~
+@846 = ~Schwert der Arena~
+@847 = ~Dieses Schwert ist eine der vielen Waffen, die in der Gladiatorenarena verwendet werden. Die Farbe und das Symbol der Arena sind auf dem Griff eingraviert.
+
+EIGENSCHAFTEN:
+
+Kann zweimal täglich "Entzug von Lebenskraft" ausüben
+
+ETW0: Bonus von +2
+Schaden: 2W4 +2
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeit: 8
+Waffenfertigkeit: Bastardschwert
+Waffentyp: einhändig
+Mindeststärke: 11
+
+Kann nicht verwendet werden von:
+ Magiern
+ Klerikern
+ Druiden~
+@848 = ~Reiner Kristall~
+@849 = ~Dieses Schwert erstrahlt in weißem Licht und seine Klinge ist immer makellos sauber. Es heißt, sie sei den Menschen von den Göttern selbst gegeben worden und nur wer reines Herz ist, kann seine volle Kraft erwecken.
+
+EIGENSCHAFTEN:
+
+Magieresistenz +30 %.
+Stärke+1
+ETW0: +3 Boni
+                               
+Schaden: 2W4+3, 2W4 magischer Schaden
+Schadensart: Aufschlitzen
+Gewicht: 8
+Geschwindigkeit: 6
+Waffenfertigkeit: Bastardschwert
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Klerikern
+ Druiden~
+@850 = ~Schurkenklinge~
+@851 = ~Diese Waffe macht ihrem Namen alle Ehre. Einerseits ist sie sehr effektiv im Kampf, andererseits wird der Besitzer hin und wieder geschnitten, egal wie vorsichtig er sie hält.
+
+EIGENSCHAFTEN:
+
+Verwundet den Träger für 2 Treffer/Runde.
+50 % Resistenz gegen Pfeilschaden.
+
+ETW0: Bonus von +2
+Schaden: 1W8+2, 1W6 Giftschaden
+Schadensart: Aufschlitzen
+Gewicht: 4
+Geschwindigkeit: 5
+Waffenfertigkeit: Scimitar
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden~
+@852 = ~Verans Opfer~
+@853 = ~Dieser Krummsäbel gehörte einem Mann namens Veransler. Zufällig war er ein Exilant und diese Waffe war das Einzige, was von Wert war. Während seiner Wanderungen erlangte Veransler einigen Ruhm, so dass ein Teil seines Namens auf die Waffe übertragen wurde. Im Laufe der Zeit geriet das Exil in Vergessenheit, der Krummsäbel jedoch nicht.
+
+EIGENSCHAFTEN:
+
+Stärke und Beweglichkeit+1
+
+ETW0: Bonus von +1
+Schaden: 1W8 +1
+Schadensart: Aufschlitzen
+Gewicht: 4
+Geschwindigkeit: 5
+Waffenfertigkeit: Scimitar
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden~
+@854 = ~Heller Regenbogen~
+@855 = ~Dieser Krummsäbel wechselt jeden Moment die Farbe und schimmert in einer Palette von Farben. Viele Zauberer haben versucht, den Grund dafür herauszufinden, sind ihm aber nie auf den Grund gekommen. Eines ist sicher: Wer immer die Waffe verzaubert hat, war eindeutig ein Genie
+
+EIGENSCHAFTEN:
++15 % Resistenz gegen Feuer, Kälte, Blitz und Gift.
+Farbkugel 3 Mal pro Tag
+
+ETW0: Bonus von +2
+Schaden: 1W8 +2
+Schadensart: Aufschlitzen
+Gewicht: 4
+Geschwindigkeit: 5
+Waffenfertigkeit: Scimitar
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden~
+@856 = ~Macht des Himmels~
+@857 = ~Es heißt, dass dieses Schwert einem Helden von einem Solar gegeben wurde, um das Böse zu bekämpfen. Aber niemand weiß, was diese Person hätte tun können, um eines solchen Geschenks würdig zu sein.Dieses Schwert soll einem Helden von der Sonne gegeben worden sein, um das Böse abzuwehren. Aber niemand weiß, was diese Person hätte tun können, um eines solchen Geschenks würdig zu sein.
+
+EIGENSCHAFTEN:
+
+Doppelter Schaden gegen Untote.
+Nur zum Guten.
+
+ETW0: Bonus von +3
+Schaden: 1W8 +3
+Schadensart: Aufschlitzen
+Gewicht: 6
+Geschwindigkeit: 3
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben~
+@858 = ~Natter +4~
+@859 = ~Der Griff dieses Schwertes ist mit Schlangenhaut umwickelt und mit dem Bild einer Schlange, die ihr Maul öffnet, versehen. Die Klinge ist mit einem tödlichen Gift getränkt, das sich, sobald es in die Blutbahn gelangt, sehr schnell im Körper ausbreitet und das Ziel innerhalb von Minuten in ein frühes Grab bringt.	
+
+EIGENSCHAFTEN:
+
+5 Punkte Giftschaden pro Runde (keine Vergiftung bei erfolgreichem Rettungswurf).
+12 % Chance, das Ziel zu töten
+
+ETW0: Bonus von +4
+Schaden: 1W8 +4
+Schadensart: Aufschlitzen
+Gewicht: 6
+Geschwindigkeit: 4
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben~
+@860 = ~Zerbrechlicher Kristall~
+@861 = ~Neben Metall wurden bei der Herstellung dieses ungewöhnlichen Schwertes auch Fragmente von Kristallen verwendet, die in Höhlen im Norden gefunden wurden. Dies ist eine sehr heimtückische Waffe, denn bei einer Verwundung brechen die Kristalle ab und durchbohren den Körper des Gegners, was zusätzlichen Schaden verursacht. Sie zu entfernen ist keineswegs einfach. Ohne dass man es merkt, lagern sich die Kristalle nach einem Kampf wieder auf der Klinge ab und überziehen sie mit einer dünnen, spröden Schicht.	
+
+EIGENSCHAFTEN:
+
++3W6 zusätzlicher Stichschaden
+
+ETW0: Bonus von +3
+Schaden: 1W8 +3
+Schadensart: Aufschlitzen
+Gewicht: 6
+Geschwindigkeit: 3
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern~
+@862 = ~Optische Täuschung~
+@863 = ~Dieses Kurzschwert ist stark verzaubert, aber das Ritual scheint irgendwann schief gelaufen zu sein. Sein Besitzer ist buchstäblich verschwommen, wird aber weniger beweglich. Nicht jeder kann lernen, damit umzugehen, aber wenn das passiert ist, kann man nur Mitleid mit seinen Feinden haben.
+
+EIGENSCHAFTEN:
+
+- 3 bis Geschicklichkeit,
+der Träger steht unter dem Einfluss des Unschärfezaubers.
+10 % Chance, das Ziel zu verlangsamen
+
+ETW0: Bonus von +2
+Schaden: 1W6+2
+Schadensart: Durchbohren
+Gewicht: 3
+Geschwindigkeit: 0
+Waffenfertigkeit: Kurzschwert
+Waffentyp: einhändig
+Mindeststärke: 5
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern~
+@864 = ~Ork-Plage~
+@865 = ~Diese Waffe ist bei Orks, Goblins und dergleichen sehr beliebt. Das Schwert ist ständig schmutzig, schlecht geschliffen und mit Rost bedeckt, aber das ist seinen Besitzern egal.
+
+EIGENSCHAFTEN:
+
+Bei einem Treffer wird jeglicher Schaden um 3 reduziert,
+Chance von 50 % für 3 Runden, das Ziel mit einer schädlichen Infektionskrankheit zu infizieren.
+
+ETW0: Bonus von +3
+Schaden: 1W6+3
+Schadensart: Durchbohren
+Gewicht: 3
+Geschwindigkeit: 2
+Waffenfertigkeit: Kurzschwert
+Waffentyp: einhändig
+Mindeststärke: 5
+
+Kann nicht verwendet werden von:
+ Magiern
+ Klerikern
+ Druiden~
+@866 = ~Ungeputzte Klinge~
+@867 = ~Die Klinge dieses Kurzschwerts strahlt ein helles Licht aus, das das Ziel kurzzeitig blenden kann. Außerdem können mit dieser Waffe einige Zauber gewirkt werden.
+
+EIGENSCHAFTEN:
+
+Das Ziel wird bei einem Treffer geblendet.
+"Genesung" (2 Mal pro Tag) "Finger des Todes" (1 Mal pro Tag) wirken
+
+ETW0: Bonus von +3
+Schaden: 1W6+3
+Schadensart: Durchbohren
+Gewicht: 3
+Geschwindigkeit: 1
+Waffenfertigkeit: Kurzschwert
+Waffentyp: einhändig
+Mindeststärke: 5
+
+Kann nicht verwendet werden von:
+ Magiern
+ Klerikern
+ Druiden~
+@868 = ~Giftige Zähne~
+@869 = ~Die Klinge dieses Dolches ist auf einer Seite fein gezahnt und stark in Basiliskengift getaucht. Darüber hinaus durchdringt diese Waffe leichte Rüstungen perfekt, was sie in fähigen Händen wirklich tödlich macht.
+
+EIGENSCHAFTEN:
+
++ 2W4 Zusatzschaden,
+100 % Chance, das Ziel zu vergiften (2 Schaden/Runde)
+
+ETW0: Bonus von +2
+Schaden: 1W4 +2
+Schadensart: Durchbohren
+Gewicht: 4
+Geschwindigkeit: 2
+Waffenfertigkeit: Dolche
+Waffentyp: einhändig
+Mindeststärke: 3
+
+Kann nur verwendet werden von:
+ -~
+@870 = ~Pollendolch~
+@871 = ~Diese Waffe blitzt manchmal hell auf und kann einen Gegner für einige Momente blenden. Außerdem ist die Klinge mit magischem Staub bedeckt, der das Ziel verwirren kann.
+
+EIGENSCHAFTEN:
+
+20 % Chance, das Ziel zu blenden,
+20 % Chance, den Feind zu verwirren
+
+ETW0: Bonus von +1
+Schaden: 1W4 +1
+Schadensart: Durchbohren
+Gewicht: 4
+Geschwindigkeit: 2
+Waffenfertigkeit: Dolche
+Waffentyp: einhändig
+Mindeststärke: 3
+
+Kann nicht verwendet werden von:
+ Klerikern~
+@872 = ~Die schlaue Berechnung von Guret~
+@873 = ~Dieser Dolch gehörte einem der berühmtesten Diebe. Er war ein Meister der Verkleidung und der Intrige. Hundertmal entkam er dem Tod und gelangte an die bestbewachten Orte. Leider war Guret gegen seine eigene Taktik machtlos.
+
+EIGENSCHAFTEN:
+
+Verbessertes Tempo, 20 % auf die Fähigkeit, sich im Schatten zu verstecken,
++3 Beweglichkeit
+
+ETW0: Bonus von +4
+Schaden: 1W4 +4
+Schadensart: Durchbohren
+Gewicht: 4
+Geschwindigkeit: 2
+Waffenfertigkeit: Dolche
+Waffentyp: einhändig
+Mindeststärke: 3
+
+Kann nur verwendet werden von:
+ Dieben~
+@874 = ~Klinge der Verzweiflung~
+@875 = ~Jeder, der von dieser Waffe getroffen wurde, wurde schnell zu einem Vollidioten. Sie konnten sich nicht an die Umstände des Kampfes erinnern, da ihr Gedächtnis ausgelöscht war und sie jeden Unsinn über sich ergehen ließen.
+
+EIGENSCHAFTEN:
+
+70% Chance, das Level des Ziels zu ziehen,
+Verleiht die Fähigkeit, Zauber zu wirken:
+"Blindheit" (3-mal täglich), "Taubheit" (3-mal täglich),
+"Gedankenkontrolle" (2 mal täglich).
+
+ETW0: Bonus von +2
+Schaden: 1W8 +2
+Schadensart: Durchbohren
+Gewicht: 3
+Geschwindigkeit: 2
+Waffenfertigkeit: Wakizashi
+Waffentyp: einhändig
+Mindeststärke: 5
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern~
+@876 = ~Die Klinge der Elemente~
+@877 = ~Die Kräfte der Elemente sind in dieser Waffe gebündelt, und wenn sie angegriffen wird, erleidet das Ziel immer Schaden von einem der Elemente. Selbst Schutz vor den Elementen schützt nicht immer vor den Schlägen dieser Klinge.						
+
+EIGENSCHAFTEN:
+
+25 % Chance, Feuerschaden zu verursachen,
+25 % Chance, Blitzschaden zu verursachen,
+25 % Chance, Kälteschaden zu verursachen,
+25 % Chance, Säureschaden zu verursachen.
+
+ETW0: Bonus von +3
+Schaden: 1W8 +3
+Schadensart: Durchbohren
+Gewicht: 3
+Geschwindigkeit: 1
+Waffenfertigkeit: Wakizashi
+Waffentyp: einhändig
+Mindeststärke: 5
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern~
+@878 = ~Ideal~
+@879 = ~Diese Waffe ist das Ergebnis jahrelanger Arbeit eines großen Meisters der Waffenschmiedekunst, der nur wenig Magie in sie einfließen ließ. Doch angesichts ihrer verheerenden Schläge glaubt man es aus irgendeinem Grund jedoch nicht allzu sehr.
+
+EIGENSCHAFTEN:
+
++2 zusätzlicher magischer Schaden.
+
+ETW0: Bonus von +5
+Schaden: 1W8 +6
+Schadensart: Durchbohren
+Gewicht: 4
+Geschwindigkeit: 2
+Waffenfertigkeit: Wakizashi
+Waffentyp: einhändig
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+ Magiern
+ Druiden
+ Klerikern~
+@880 = ~Der Körper des Sohnes des Generals~
+@881 = ~Dies ist der Körper des Sohns von General Targu.~
+@882 = ~Blut eines großen Trolls~
+@883 = ~Blut eines großen Trolls aus den Trolljagdgründen~
+@884 = ~Dreizack~
+@885 = ~Der Dreizack ist eine höchst exotische Waffe, die von der gewöhnlichen Mistgabel abgeleitet wurde. Wie der Name schon sagt, befinden sich am Kopf der Waffe drei Zinken, mit denen man zustechen und leichte Rüstungen durchdringen kann. Die Zinken können von unterschiedlicher Länge und Form sein, und manche Waffen können sich zwischen den Zinken verfangen und einem aus den Händen gerissen werden.
+
+EIGENSCHAFTEN:
+
+ETW0: -
+Schaden: 3W6
+Schadensart: Durchbohren
+Gewicht: 8
+Geschwindigkeit: 7
+Waffenfertigkeit: Hellebarden
+Waffentyp: zweihändig
+Mindeststärke: 9
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern
+ Barden~
+@886 = ~Dreizack +1~
+@887 = ~Der Dreizack ist eine höchst exotische Waffe, die von der gewöhnlichen Mistgabel abgeleitet wurde. Wie der Name schon sagt, befinden sich am Kopf der Waffe drei Zinken, mit denen man zustechen und leichte Rüstungen durchdringen kann. Die Zinken können von unterschiedlicher Länge und Form sein, und manche Waffen können sich zwischen den Zinken verfangen und einem aus den Händen gerissen werden. Diese Waffe ist zusätzlich mit Verzauberungen verstärkt.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +1
+Schaden: 3W6 +1
+Schadensart: Durchbohren
+Gewicht: 8
+Geschwindigkeit: 7
+Waffenfertigkeit: Hellebarden
+Waffentyp: zweihändig
+Mindeststärke: 9
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern
+ Barden~
+@888 = ~Dreizack +2~
+@889 = ~Der Dreizack ist eine höchst exotische Waffe, die von der gewöhnlichen Mistgabel abgeleitet wurde. Wie der Name schon sagt, befinden sich am Kopf der Waffe drei Zinken, mit denen man zustechen und leichte Rüstungen durchdringen kann. Die Zinken können von unterschiedlicher Länge und Form sein, und manche Waffen können sich zwischen den Zinken verfangen und einem aus den Händen gerissen werden. Diese Waffe ist noch weiter verbessert und verzaubert.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +2
+Schaden: 3W6 +2
+Schadensart: Durchbohren
+Gewicht: 8
+Geschwindigkeit: 7
+Waffenfertigkeit: Hellebarden
+Waffentyp: zweihändig
+Mindeststärke: 9
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern
+ Barden~
+@890 = ~Dreizack + 3~
+@891 = ~Der Dreizack ist eine höchst exotische Waffe, die von der gewöhnlichen Mistgabel abgeleitet wurde. Wie der Name schon sagt, befinden sich am Kopf der Waffe drei Zinken, mit denen man zustechen und leichte Rüstungen durchdringen kann. Die Zinken können von unterschiedlicher Länge und Form sein, und manche Waffen können sich zwischen den Zinken verfangen und einem aus den Händen gerissen werden.. Diese Art von Dreizack wurde ursprünglich von Fischern verwendet, um besonders große Fische zu fangen, aber dann bewies er seine Wirksamkeit im Kampf.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +3
+Schaden: 3W6 +3
+Schadensart: Durchbohren
+Gewicht: 8
+Geschwindigkeit: 7
+Waffenfertigkeit: Hellebarden
+Waffentyp: zweihändig
+Mindeststärke: 9
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern
+ Barden~
+@892 = ~Scharfer Dreizack~
+@893 = ~Ein Unwissender könnte sagen, dass der Dreizack nur eine Mistgabel ist, aber das ist bei weitem nicht der Fall. Die Zinken dieser Waffe sind auf eine unglaubliche Schärfe geschliffen, dank der sie Lederrüstungen und gelegentlich Kettenhemden leicht durchdringen können.
+
+EIGENSCHAFTEN:
+
+Füge bei einem erfolgreichen Treffer zu
+3-6 Punkte zusätzlicher Stichschaden.
+
+ETW0: Bonus von +2
+Schaden: 3W6 +2
+Schadensart: Durchbohren
+Gewicht: 8
+Geschwindigkeit: 5
+Waffenfertigkeit: Hellebarden
+Waffentyp: zweihändig
+Mindeststärke: 9
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern
+ Barden~
+@894 = ~Blitzender Dreizack~
+@895 = ~Der Legende nach hat der Herrn der Stürme diese Waffe selbst benutzt. Dafür spricht, dass durch den Dreizack elektrische Entladungen laufen und er geheimnisvoll flimmert. Es ist nicht bekannt, inwieweit die Legende wahr ist, aber niemand war bisher in der Lage, die Waffe nachzubauen.
+
+EIGENSCHAFTEN:
+
+Fähigkeit, "Blitzschlag" 3 Mal am Tag zu verwenden.
+Außerdem besteht bei einem erfolgreichen Angriff eine Chance von 30 % auf 1W4 zusätzlichen elektrischen Schaden.
+
+ETW0: Bonus von +3
+Schaden: 3W6 +3
+Schadensart: Durchbohren
+Gewicht: 8
+Geschwindigkeit: 7
+Waffenfertigkeit: Hellebarden
+Waffentyp: zweihändig
+Mindeststärke: 9
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern
+ Barden~
+@896 = ~König Velsions Dreizack~
+@897 = ~Dieser Dreizack wurde von Velsion, dem Herrn von Tiefwasser, geführt. Diese Waffe hat keine magischen Eigenschaften, aber sie verursacht wirklich ungeheuren Schaden.
+
+EIGENSCHAFTEN:
+
+ETW0: Bonus von +4
+Schaden: 3W6 +4
+Schadensart: Durchbohren
+Gewicht: 8
+Geschwindigkeit: 7
+Waffenfertigkeit: Hellebarden
+Waffentyp: zweihändig
+Mindeststärke: 9
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Dieben
+ Magiern
+ Barden~
+@898 = ~Stab der göttlichen Essenz~
+@899 = ~Ein magischer Stab, der aus zwei magischen Relikten hergestellt wurde, dem Blut eines großen Trolls und einer göttlichen Essenz.
+
+EIGENSCHAFTEN:
+
+Fügt 4-mal täglich +4 Stärke und +4 Konstitution hinzu
+wirft einen Feuerball, 2 Trefferpunkte pro Regeneration/Runde, chaotisch böse Ausrichtung, 0 Ruf.
+
+THAC0: Bonus von +3
+Schaden: 1W6 +3
+Schadensart: Zertrümmern
+Gewicht: 5
+Geschwindigkeit: 1
+Waffenfertigkeit: Zweihändig
+Waffentyp: Loch
+Mindeststärke: 5
+
+Kann nicht verwendet werden von:
+ -~
+@900 = ~Schlüssel zum Grab des Nekromanten.~
+@901 = ~Eine Haarsträhne~
+@902 = ~Viras Haarknoten~
+@903 = ~Dieses Stück Haar wurde vom Kopf der bösen Zauberin Veera genommen.~
+@904 = ~Seltene Relikte~
+@905 = ~Ein sehr ungewöhnlicher Zauberstab, auf dem etwas Text eingraviert ist, aber Ihr könnt diesen nicht lesen.~
+@906 = ~Stab des Schutzes~
+@907 = ~Dieser gravierte Zauberstab kann den Schutz seines Besitzers verbessern.	
+
+EIGENSCHAFTEN:
+
+Kann 3x pro Tag Geisterrüstung erstellen, Verteidigung gegen Magie +20 %~
+@908 = ~Mondrute~
+@909 = ~Dieser Zauberstab hat außergewöhnliche magische Eigenschaften. Das Problem ist, dass er vor Hunderten von Jahren verloren gegangen ist und niemand je von ihm gehört hatte.
+
+EIGENSCHAFTEN:
+
+1x pro Tag einen magischen Kometen erschaffen
+1x pro Tag einen magischen Meteoritenschwarm erschaffen~
+@910 = ~Prana-Stab~
+@911 = ~Dieser Gegenstand ist aus Bronze in Form einer Schnapsflasche.
+
+EIGENSCHAFTEN:
+
+2x tägliches Wischen~
+@912 = ~Das Herz einer Magierin~
+@913 = ~Dieses Herz gehört einer Zauberin aus der Festung nördlich des Düsterwaldes.~
+@914 = ~Schlüssel zum Portal~
+@915 = ~Dies ist der Schlüssel zum Portal zu Yarpens Schloss.
+(Ihr müsst die Aufgabe "Festung de'Arnise" abschließen, bevor Ihr das Portal benutzen könnt.)~
+@916 = ~Marians Verlobungsring.~
+@917 = ~Haftbefehl~
+
+@919 = ~Taverne~
+@920 = ~Taverne zu den Drei Krügne~
+@921 = ~Bögen- und Speere-Herstellung~
+@922 = ~Nomadenhändler~
+@923 = ~Ofala~
+
+@925 = ~Tempel von Tyr~
+@926 = ~Tempel der Shaar~
+@927 = ~Tempel von Helm~
+@928 = ~Diener von Ilmater~
+@929 = ~Tempel von Shevarash~
+
+
+@1000 = ~Dieser Brunnen ist mit einer dunklen, zähen Flüssigkeit gefüllt, die nach Tod und Verfall stinkt.~
+@1001 = ~Euer Traum wurde unterbrochen.~
+@1002 = ~Riesen haben uns angegriffen!~
+@1003 = ~Der unheilvolle Gesang der Sirene hat Euch aus dem Schlaf geweckt.~
+@1004 = ~Dieses Katapult scheint vor nicht allzu langer Zeit benutzt worden zu sein, ist aber jetzt irreparabel kaputt.~
+@1005 = ~Wachkommandant~
+@1006 = ~Gradaks Büro~
+@1007 = ~Hebel vom Tor~
+@1008 = ~Hotel~
+@1009 = ~Verlasst die Stadt~
+@1010 = ~Haus des Bürgermeisters~
+@1011 = ~Seid Ihr so mutig, dass Ihr getrost lügen könnst? Ihr werdet für Euren Mut bezahlen, Abenteurer!~
+@1012 = ~Druidenabtei~
+@1013 = ~Schmied~
+@1014 = ~Zauberstein~
+@1015 = ~Heiliger Stein~
+@1016 = ~Tempelstadt~
+@1017 = ~Taverne zu den Drei Krügen~
+@1018 = ~Friedhof~
+@1019 = ~Was Ihr tutt, ist falsch! Ich werde Euch töten!~
+@1020 = ~Ihr habt die Orks angegriffen.~
+@1021 = ~Ferienhaus~
+@1022 = ~Händler~
+@1023 = ~Wohnsitz des Roten Zauberers~
+@1024 = ~Schloss~
+@1025 = ~Tempel von Tyr~
+@1026 = ~Mondsteinmaske~
+@1027 = ~Tarnkappenturm~
+@1028 = ~Gilde von Luskan~
+@1029 = ~Niewinter-Gilde~
+@1030 = ~Zum Schloss~
+@1031 = ~Docks~
+@1032 = ~Taverne~
+@1033 = ~Leuchtturm~
+@1034 = ~Tempel von Lathander~
+@1035 = ~Stadtwache~
+@1036 = ~Oberhaus~
+@1037 = ~Marktplatz~
+@1038 = ~Die Goblins greifen an.~
+@1039 = ~Ihr wurdet von den durchdringenden Schreien eines Trupps Xvart-Krieger aus dem Schlaf gerissen, als Ihr gerade anfingt, von etwas Schönem zu träumen...~
+@1040 = ~Die Luft stinkt nach Gnollen. Ihr dankt den Göttern dafür, dass Ihr rechtzeitig aufgewacht seid, um nach Eurer Waffe zu greifen.~
+@1041 = ~Schmiede~
+@1042 = ~Heiligtum~
+@1043 = ~Ein paar Vampire nähern sich~
+@1044 = ~Ork-Angriff~
+@1045 = ~Tiefer in den Gang~
+@1046 = ~Elia und die Armee des Kults~
+@1047 = ~Marco~
+@1048 = ~Wächterhau~
+@1049 = ~Vampire greifen Euch an!~
+@1050 = ~Gefängnis~
+@1051 = ~Wachraum~
+@1052 = ~Ihr wurdet von Elfen angegriffen!~
+@1053 = ~Eingang zum Unterreich~
+@1054 = ~Ihr wurdet von einem untoten Paladin angegriffen~ 

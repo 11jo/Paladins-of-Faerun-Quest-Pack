@@ -1,0 +1,294 @@
+IF
+  OnCreation()
+  Global("EnteredArea","PF2057",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredArea","PF2057",1)
+    CreateCreature("NWNGDMOD",[593.1777],8)  // ~Командир~
+    CreateCreature("NWNLMOD",[560.1704],0)  // ~Офицер~
+    CreateCreature("NWNAMOD",[696.1622],10)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[618.1604],10)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[541.1623],6)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[503.1708],4)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[524.1877],0)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[638.1885],0)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[870.1505],12)  // ~Армия Невервинтера~
+    CreateCreature("AAMOD",[645.1444],12)  // ~Студент~
+    PlaySound("NWN2")
+    StartCutSceneMode()
+    HideGUI()
+    Wait(3)
+    ActionOverride(Player1,MoveToPoint([516.1756]))
+    MoveViewPoint([516.1756],SLOW)
+    Wait(6)
+    DisplayStringHead(Player1,@0)  // @0
+    Wait(7)
+    DisplayStringHead("NWNGDMOD",@1)  // @1
+    Wait(6)
+    DisplayStringHead(Player1,@2)  // @2
+    Wait(6)
+    DisplayStringHead("NWNGDMOD",@3)  // @3
+    Wait(6)
+    DisplayStringHead("NWNLMOD",@4)  // @4
+    Wait(6)
+    DisplayStringHead(Player1,@5)  // @5
+    Wait(6)
+    FadeToColor([10.0],0)
+    Wait(5)
+    CreateCreature("NWNG1MOD",[2168.1228],8)  // ~Командир~
+    CreateCreature("NWNLMOD",[2139.1186],0)  // ~Офицер~
+    CreateCreature("NWNAMOD",[2183.1402],10)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[2242.1361],10)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[2160.1157],6)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[2100.1224],4)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[2111.1345],0)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[2432.1150],0)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[870.1505],0)  // ~Армия Невервинтера~
+    CreateCreature("AMOMOD",[2503.1228],0)  // ~Магистр академии~
+    Wait(1)
+    CreateCreature("NWNG2MOD",[2225.326],0)  // ~Командир~
+    CreateCreature("NWNLMOD",[2160.333],0)  // ~Офицер~
+    CreateCreature("NWNAMOD",[1942.593],8)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[1889.212],8)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[2073.371],6)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[2052.440],4)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[1976.576],8)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[2157.606],8)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[2160.486],10)  // ~Армия Невервинтера~
+    CreateCreature("AAMOD",[2219.424],8)  // ~Студент~
+    Wait(2)
+    CreateCreature("SWCMOD",[595.1928],8)  // ~Командир полка~
+    CreateCreature("SWMOD",[533.1991],8)  // ~Южанин~
+    CreateCreature("SWMOD",[664.2004],8)  // ~Южанин~
+    CreateCreature("SWMOD",[294.1512],0)  // ~Южанин~
+    CreateCreature("SMMOD",[961.1433],0)  // ~Южанин~
+    CreateCreature("SAMOD",[898.1919],8)  // ~Южанин~
+    CreateCreature("SMMOD",[401.1978],8)  // ~Южанин~
+    Wait(1)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  Global("Reveal2057","PF2057",0)
+  Dead("SWCMOD")  // ~Командир полка~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal2057","PF2057",1)
+    DisplayStringHead(Player1,@6)  // @6
+    BattleSong()
+    CreateCreature("SWC1MOD",[2372.1480],8)  // ~Командир полка~
+    CreateCreature("SWMOD",[2347.1590],8)  // ~Южанин~
+    CreateCreature("SWMOD",[2365.1675],0)  // ~Южанин~
+    CreateCreature("SWMOD",[2495.1331],0)  // ~Южанин~
+    CreateCreature("SAMOD",[2311.1536],8)  // ~Южанин~
+    CreateCreature("SMMOD",[2447.1595],8)  // ~Южанин~
+    Wait(6)
+END
+
+IF
+  Global("Reveal2057","PF2057",1)
+  Dead("SWC1MOD")  // ~Командир полка~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal2057","PF2057",2)
+    DisplayStringHead(Player1,@7)  // @7
+    BattleSong()
+    CreateCreature("SWC2MOD",[1916.276],0)  // ~Командир полка~
+    CreateCreature("SWMOD",[1811.185],0)  // ~Южанин~
+    CreateCreature("SwMOD",[2102.394],0)  // ~Южанин~
+    CreateCreature("SMMOD",[1875.47],0)  // ~Южанин~
+    CreateCreature("SAMOD",[1922.86],0)  // ~Южанин~
+END
+
+IF
+  Global("Reveal2057","PF2057",2)
+  Dead("SWC2MOD")  // ~Командир полка~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal2057","PF2057",3)
+    DisplayStringHead(Player1,@8)  // @8
+    Wait(4)
+    RestParty()
+    Wait(5)
+    DisplayStringHead(Player1,@9)  // @9
+    CreateCreature("SWC3MOD",[595.1928],8)  // ~Командир полка~
+    CreateCreature("SWMOD",[533.1991],8)  // ~Южанин~
+    CreateCreature("SWMOD",[664.2004],8)  // ~Южанин~
+    CreateCreature("SWMOD",[798.1428],0)  // ~Южанин~
+    CreateCreature("SwMOD",[719.1619],0)  // ~Южанин~
+    CreateCreature("SAMOD",[898.1919],8)  // ~Южанин~
+    CreateCreature("SMMOD",[401.1978],8)  // ~Южанин~
+END
+
+IF
+  Global("Reveal2057","PF2057",3)
+  Dead("SWC3MOD")  // ~Командир полка~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal2057","PF2057",4)
+    DisplayStringHead(Player1,@6)  // @6
+    BattleSong()
+    CreateCreature("SWC4MOD",[2372.1480],8)  // ~Командир полка~
+    CreateCreature("SWMOD",[2347.1590],8)  // ~Южанин~
+    CreateCreature("SWMOD",[2456.1562],8)  // ~Южанин~
+    CreateCreature("SWMOD",[2365.1675],0)  // ~Южанин~
+    CreateCreature("SWMOD",[2495.1331],0)  // ~Южанин~
+    CreateCreature("SWMOD",[2221.1384],0)  // ~Южанин~
+    CreateCreature("SAMOD",[2311.1536],8)  // ~Южанин~
+    CreateCreature("SMMOD",[2447.1595],8)  // ~Южанин~
+    Wait(6)
+END
+
+IF
+  Global("Reveal2057","PF2057",4)
+  Dead("SWC4MOD")  // ~Командир полка~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal2057","PF2057",5)
+    DisplayStringHead(Player1,@7)  // @7
+    BattleSong()
+    CreateCreature("SWC5MOD",[1916.276],0)  // ~Командир полка~
+    CreateCreature("SWMOD",[1811.185],0)  // ~Южанин~
+    CreateCreature("SWMOD",[1952.337],0)  // ~Южанин~
+    CreateCreature("SWMOD",[1997.257],0)  // ~Южанин~
+    CreateCreature("SWMOD",[2083.627],8)  // ~Южанин~
+    CreateCreature("SAMOD",[1830.107],0)  // ~Южанин~
+    CreateCreature("NWNN1MOD",[511.114],0)  // ~Капитан Нивалл~
+    CreateCreature("NWNAMOD",[762.180],14)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[822.150],14)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[650.264],14)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[601.327],14)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[927.347],14)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[861.409],14)  // ~Армия Невервинтера~
+    CreateCreature("NWNAMOD",[769.476],14)  // ~Армия Невервинтера~
+    CreateCreature("AMOMOD",[595.44],0)  // ~Магистр академии~
+    CreateCreature("AMOMOD",[364.375],0)  // ~Магистр академии~
+END
+
+IF
+  Global("Reveal2057","PF2057",5)
+  Dead("SWC5MOD")  // ~Командир полка~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal2057","PF2057",6)
+    DisplayStringHead(Player1,@10)  // @10
+    Wait(6)
+    ActionOverride(Player1,LeaveAreaLUA("PF2057","",[502.154],8))
+    ActionOverride(Player2,LeaveAreaLUA("PF2057","",[439.190],8))
+    ActionOverride(Player3,LeaveAreaLUA("PF2057","",[497.220],8))
+    ActionOverride(Player4,LeaveAreaLUA("PF2057","",[381.256],0))
+    ActionOverride(Player5,LeaveAreaLUA("PF2057","",[453.289],0))
+    ActionOverride(Player6,LeaveAreaLUA("PF2057","",[521.283],0))
+    Wait(1)
+    RestParty()
+    PlaySound("NWN2")
+    Wait(2)
+    DisplayStringHead(Player1,@11)  // @11
+    Wait(6)
+    DisplayStringHead("NWNN1MOD",@12)  // @12
+    Wait(6)
+    FadeToColor([10.0],0)
+    Wait(5)
+    CreateCreature("SWIMOD",[783.612],0)  // ~Командир нападающих~
+    CreateCreature("SWMOD",[605.655],0)  // ~Южанин~
+    CreateCreature("SWMOD",[314.565],0)  // ~Южанин~
+    CreateCreature("SWMOD",[238.471],0)  // ~Южанин~
+    CreateCreature("SWMOD",[1139.290],0)  // ~Южанин~
+    CreateCreature("SMMOD",[616.710],0)  // ~Южанин~
+    CreateCreature("SWMOD",[914.512],8)  // ~Южанин~
+    CreateCreature("SAMOD",[992.361],0)  // ~Южанин~
+    Wait(6)
+    DisplayStringHead("NWNN1MOD",@13)  // @13
+END
+
+IF
+  Global("Dead4","PF2057",0)
+  Dead("NWNGDMOD")  // ~Командир~
+  Dead("NWNG1MOD")  // ~Командир~
+  Dead("NWNG2MOD")  // ~Командир~
+THEN
+  RESPONSE #100
+    SetGlobal("Dead4","PF2057",1)
+    DisplayStringHead(Player1,@14)  // @14
+    Wait(4)
+    Kill(Player1)
+    Kill(Player2)
+    Kill(Player3)
+    Kill(Player4)
+    Kill(Player5)
+    Kill(Player6)
+END
+
+IF
+  Global("Dead","PF2057",0)
+  Dead("NWNGDMOD")  // ~Командир~
+THEN
+  RESPONSE #100
+    SetGlobal("Dead","PF2057",1)
+    DisplayStringHead(Player1,@15)  // @15
+    Wait(4)
+END
+
+IF
+  Global("Dead1","PF2057",0)
+  Dead("NWNG1MOD")  // ~Командир~
+THEN
+  RESPONSE #100
+    SetGlobal("Dead1","PF2057",1)
+    DisplayStringHead(Player1,@16)  // @16
+    Wait(4)
+END
+
+IF
+  Global("Dead2","PF2057",0)
+  Dead("NWNG2MOD")  // ~Командир~
+THEN
+  RESPONSE #100
+    SetGlobal("Dead2","PF2057",1)
+    DisplayStringHead(Player1,@17)  // @17
+    Wait(4)
+END
+
+IF
+  Global("Dead3","PF2057",0)
+  Dead("NWNN1MOD")  // ~Капитан Нивалл~
+THEN
+  RESPONSE #100
+    SetGlobal("Dead3","PF2057",1)
+    DisplayStringHead(Player1,@14)  // @14
+    Wait(4)
+    Kill(Player1)
+    Kill(Player2)
+    Kill(Player3)
+    Kill(Player4)
+    Kill(Player5)
+    Kill(Player6)
+END
+
+IF
+  Global("Reveal2057","PF2057",6)
+  Dead("SWIMOD")  // ~Командир нападающих~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal2057","PF2057",7)
+    DisplayStringHead(Player1,@18)  // @18
+    Wait(4)
+    ActionOverride(Player1,MoveToPoint([552.221]))
+    ActionOverride("NWNN1MOD",MoveToPoint([597.197]))
+    Wait(6)
+    DisplayStringHead("NWNN1MOD",@19)  // @19
+    Wait(6)
+    DisplayStringHead(Player1,@20)  // @20
+    Wait(6)
+    AddexperienceParty(20000)
+    HideAreaOnMap("PF0319")
+    RevealAreaOnMap("PF1319")
+    ActionOverride(Player1,LeaveAreaLUA("PF1319","",[2693.916],4))
+    ActionOverride(Player2,LeaveAreaLUA("PF1319","",[2795.880],4))
+    ActionOverride(Player3,LeaveAreaLUA("PF1319","",[2816.932],4))
+    ActionOverride(Player4,LeaveAreaLUA("PF1319","",[2856.858],4))
+    ActionOverride(Player5,LeaveAreaLUA("PF1319","",[2921.858],4))
+    ActionOverride(Player6,LeaveAreaLUA("PF1319","",[3007.894],4))
+END
+

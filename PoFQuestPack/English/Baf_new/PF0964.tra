@@ -1,0 +1,17 @@
+@0 = ~ Great job <CHARNAME>, I see you brought an old magician with you. Have you encountered any difficulties? ~
+@1 = ~ Yes, we were not the only ones who were looking for a magician, in the village we were faced with four adventurers. ~
+@2 = ~ I guess they won't bother us anymore, right? ~
+@3 = ~ You knew about that, right? ~
+@4 = ~ I heard that the main wizard of Luskan sent one group of adventurers to find the old magician. ~
+@5 = ~ That's why I chose you, <CHARNAME>. I knew that no one could find a magician except you. Here is your reward. ~
+@6 = ~ Excuse me for tearing you away, but what can I do for you? ~
+@7 = ~ Of course you know the magician. ~
+@8 = ~ Obviously, you want to get to the treasures of the dead king, it seems to me. ~
+@9 = ~ Have you already guessed what you need to do to get to this place? ~
+@10 = ~ I mean, I need my magic wand, which ... ~
+@11 = ~ ... I hope he is with you, wizard. ~
+@12 = ~ That is what will be the problem. He was recently stolen by a necromancer, en route from your city. I will mark this place on your map <CHARNAME>, the necromancer must be somewhere nearby. Bring the rod and see what I can do. ~
+@13 = ~ You heard <CHARNAME>, find the rod. For this you will receive a reward. ~
+@14 = ~ Shadow Lord.
+
+I got a new assignment. To find the hidden castle, we need the wizard I found, as well as the magic wand that was stolen from the magician near Deep Water. ~

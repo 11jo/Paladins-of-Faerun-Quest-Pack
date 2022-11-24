@@ -1,0 +1,8 @@
+IF
+  Global("EnteredPF0048","PF0048",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0048","PF0048",1)
+    PlaySound("NWN2")
+END
+

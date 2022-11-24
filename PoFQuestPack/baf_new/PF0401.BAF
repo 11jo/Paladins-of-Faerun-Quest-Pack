@@ -1,0 +1,48 @@
+IF
+  OnCreation()
+  Global("EnteredPF0401","PF0401",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0401","PF0401",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(3)
+    DisplayString("DWOD1MOD",@0)  
+    Wait(4)
+    DisplayString("DUER2MOD",@1)  
+    Wait(4)
+    DisplayString(Player1,@2)  
+    Wait(4)
+    DisplayString("DWOD1MOD",@3)  
+    Wait(4)
+    ActionOverride("DWOD1MOD",Attack("DUER2MOD"))
+    Wait(1)
+    ActionOverride("DUER2MOD",Attack("DWOD1MOD"))
+    Wait(6)
+    ActionOverride("DUER2MOD",Kill("DWOD1MOD"))
+    Wait(1)
+    DisplayString("DUER2MOD",@4)  
+    Wait(4)
+    ActionOverride("DUER2MOD",EscapeArea())
+    Wait(2)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  Global("Reveal0401","PF0401",0)
+    OR(2) 
+    Dead("ELGMOD")  // ~έλόγεν~
+    Dead("ELG1MOD")  // ~έλόγεν~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0401","PF0401",1)
+    ActionOverride(Player2,LeaveAreaLUA("PF04N1","",[981.2195],0))
+    ActionOverride(Player1,LeaveAreaLUA("PF04N1","",[1038.2165],0))
+    ActionOverride(Player3,LeaveAreaLUA("PF04N1","",[1049.2238],0))
+    ActionOverride(Player4,LeaveAreaLUA("PF04N1","",[1049.2308],0))
+    ActionOverride(Player5,LeaveAreaLUA("PF04N1","",[933.2312],0))
+    ActionOverride(Player6,LeaveAreaLUA("PF04N1","",[901.2351],0))
+END
+

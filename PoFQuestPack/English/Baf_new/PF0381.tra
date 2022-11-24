@@ -1,0 +1,10 @@
+@0 = ~ Greetings to you in our small town. I am his mayor. I heard from my sources that a group of bandits attacked you, killed one of the priests and stole the treasury. ~
+@1 = ~ Yes, but these were not bandits. These were the followers of Cyric. ~
+@2 = ~ This is not possible, there is no such grouping. Which of you was among those murderers and robbers? ~
+@3 = ~ Most of our people were very busy. When I arrived, our brother was dead, but there was no treasury. ~
+@4 = ~ So you really haven't seen anyone else. The only one who was there was <CHARNAME> and his entourage. Isn't that weird? ~
+@5 = ~ What are you implying? We were hired to guard the caravan. My friends and I have nothing to do with this incident. ~
+@6 = ~ You have no evidence, just your allegations. There are no witnesses. The only ones who were close to the treasury were you. And since you cannot prove otherwise, you are being driven out of our city and never come back unless you find evidence of your innocence. That concludes our conversation. A guard will accompany you until you leave the city. ~
+@7 = ~ Order and Chaos.
+
+My friends and I were accused of killing and stealing the treasury of Torm priests. We were driven out of town. But the mayor was too one-sided, when I mentioned the word Cyric, he immediately began to hesitate. Something is wrong here, maybe he was the one who authorized the attack on our caravan. ~

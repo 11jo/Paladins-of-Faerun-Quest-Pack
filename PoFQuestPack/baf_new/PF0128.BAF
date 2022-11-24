@@ -1,0 +1,21 @@
+IF
+  OnCreation()
+  Global("EnteredPF0128","PF0128",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0128","PF0128",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(4)
+    ActionOverride(Player1,LeaveAreaLUA("PF0128","",[940.460],0))
+    Wait(4)
+    DisplayString("DRUICMOD",@0)  // @0
+    Wait(11)
+    ActionOverride("DRUICMOD",EscapeArea())
+    Wait(1)
+    ActionOverride(Player1,LeaveAreaLUA("PF0128","",[1929.831],0))
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

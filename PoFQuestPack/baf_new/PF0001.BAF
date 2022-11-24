@@ -1,0 +1,25 @@
+IF
+  Global("s#SKWR4MOD","GLOBAL",0)
+  Dead("SKWR1MOD")  // ~Скелет~
+  Dead("SKWR2MOD")  // ~Скелет~
+THEN
+  RESPONSE #100
+    SetGlobal("s#SKWR4MOD","GLOBAL",1)
+    Wait(2)
+    DisplayStringHead(Player1,@0)  
+    Wait(1)
+    CreateCreature("SKWR3MOD",[447.315],0)  // ~Скелет~
+    CreateCreature("SKWR4MOD",[392.351],0)  // ~Скелет~
+    AddJournalEntry(@1,QUEST)
+END
+
+IF
+  Global("s#SKWR4MOD","GLOBAL",1)
+  Dead("SKWR4MOD")  // ~Скелет~
+THEN
+  RESPONSE #100
+    SetGlobal("s#SKWR4MOD","GLOBAL",2)
+    ScreenShake([20.20],3)
+    SetQuestDone(@2)  
+END
+

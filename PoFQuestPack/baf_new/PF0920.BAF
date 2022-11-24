@@ -1,0 +1,10 @@
+IF
+  Entered(Player1)
+THEN
+  RESPONSE #100
+    Wait(2)
+    ActionOverride(Player1,Face(0))
+    Wait(1)
+    DisplayString(Player1,@0)  // @0
+END
+

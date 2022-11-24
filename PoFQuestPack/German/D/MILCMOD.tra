@@ -1,0 +1,46 @@
+@1 = ~Sucht Ihr Abenteurer oder möchtet Ihr der Stadtwache beitreten?~
+@2 = ~Entschuldigung, ich scheine mich im Hause zu irren.~
+@3 = ~Warum sollte ich das tun?~
+@4 = ~Ihr bekommt eine Ausrüstung und ein großes Honorar, aber dann hängt alles von Eurer Erfahrung ab.~
+@5 = ~Ich bin nicht interessiert, vielleicht ein andermal.~
+@6 = ~Und was ist meine Aufgabe, Hauptmann?~
+@7 = ~Fünf Menschen wurden letzte Woche getötet. Eure Aufgabe ist es, den Mörder zu finden und ihn zu uns zu bringen. Hier ist Euer Haftbefehl.~
+@8 = ~Habt Ihr irgendwelche Hinweise, die mir bei meiner Suche helfen könnten?~
+@9 = ~Nun, wir wissen, dass er das letzte Mal in einer Taverne im Ostteil der Stadt gesehen wurde.~
+@10 = ~Meuchelmörder.
+
+Ihr seid in den Dienst der Stadtwache von Baldurs Tor getreten, Eure Aufgabe ist es, den Mörder von 5 Personen aufzuspüren. Das letzte Mal wurde der Mörder in einer Taverne im Osten der Stadt gesehen.~
+@11 = ~Dankeschön, auf Wiedersehen.~
+@12 = ~Habt Ihr den Mörder gefunden?~
+@13 = ~Ja, ich habe ihn gefunden. Eine Diebesgilde hat sich unter der Stadt versteckt, ich konnte dort eindringen, aber mit ihrem Anführer Artemis Entreri konnte ich es nicht aufnehmen. Es ist mir gelungen, ihn zu verwunden und ihm sogar seine Waffe abzunehmen, aber ich glaube nicht, dass er entkommen wird. Es scheint mir, dass er bald wieder hierher zurückkommen wird, Hauptmann.~
+@14 = ~Nicht wirklich. Eine Diebesgilde hat sich unter der Stadt versteckt, ich habe mich mit allen befasst, aber ich konnte ihren Anführer nirgends finden. Wie auch immer, ich denke, die Stadt ist jetzt sicher.~
+@15 = ~Artemis Entreri, hier in Baldurs Tor? Ich dachte, dieser Mörder würde sich irgendwo in Kalimshan verstecken. Wie auch immer, danke, hier ist Eure Belohnung.~
+@16 = ~Meuchelmörder.
+
+Ich habe den Mörder dieser Opfer gefunden, sein Name ist Artemis Entreri, es ist mir gelungen, ihn zu verletzen, aber er ist dem Kampf entkommen.~
+@17 = ~Meuchelmörder.
+
+In der Taverne erzählte mir einer der Besucher, dass jemand einen lokalen Magier gesehen hat, der mit einer verdächtigen Person gesprochen hat, das könnte derjenige sein, den ich suche.~
+@18 = ~Meuchelmörder.
+
+Ich habe den Bruder von einem der Opfer gefunden. Er erzählte mir, dass sich sein Bruder vor seinem Tod mit einem Mann im Haus des Großherzogs getroffen hat.~
+@19 = ~Meuchelmörder.
+
+Ich habe den Mörder Artemis in der Kanalisation der Stadt getroffen.~
+@20 = ~Meuchelmörder.
+
+Ich hatte nicht den Mut, gegen den besten Mörder von Faerûn zu kämpfen.~
+@21 = ~Dankeschön - und auf Wiedersehen.~
+@22 = ~Gibt es noch andere Arbeit für mich?~
+@23 = ~Es ist sehr schade, viele Leute in der Stadt würden gerne wissen, wer ihre Verwandten getötet hat, aber egal, Ihr habt Eure Aufgabe erfüllt. Danke, hier ist Eure Belohnung.~
+@24 = ~Meuchelmörder.
+
+Die Diebesgilde, die sich unter der Stadt versteckt hat, ist jetzt ereledigt. Aber ich habe Artemis vermisst.~
+@25 = ~Ja, da ist noch etwas anderes. Vor nicht allzu langer Zeit erhielt ich beunruhigende Nachrichten aus einem Dorf jenseits von Balurs Tor. Einige Kreaturen aus dem Wald griffen das Dorf an. Ein Adliger, der dort mit seiner Familie lebt, ist ein Freund von mir, helft ihm.~
+@26 = ~Der Adlige ist in Gefahr.
+
+Ich habe eine zweite Aufgabe vom Hauptmann der Wache von Baldurs Tor erhalten. Diesmal muss ich mich um einige Waldkreaturen kümmern, die den Freund des Hauptmanns, einen Adligen in einem Dorf außerhalb der Stadtmauern, angegriffen haben.~
+@27 = ~Ich werde mein Bestes tun, Hauptmann.~
+@28 = ~Was wollt Ihr?~
+@29 = ~Nichts,  ich wollte gerade gehen.~
+@30 = ~Ich schätze alles, was Ihr für unsere Stadt getan habt, <CHARNAME>.~

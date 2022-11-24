@@ -1,0 +1,24 @@
+@0 = ~Ich entschuldige mich bei Euch. Ich habe der Stadtwache befohlen, jeden aufzuhalten, der hierher kommt und zu mir zu schicken... Wir sind in Schwierigkeiten, wir werden angegriffen.~
+@1 = ~Was ist passiert, Priester?~
+@2 = ~In der Nacht wurden wir von Kreaturen aus den Gräbern angegriffen, darunter eine sehr gefährliche Rasse von Vampiren.~
+@3 = ~Aber wie ist das möglich? Ihr könnt doch nicht zulassen, dass diese Kreaturen an der Oberfläche umherstreifen.~
+@4 = ~Das ist der Fall, <CHARNAME>... Eines Nachts betrat unsere Elitepatrouille den Friedhof... Sie sahen große Gestalten in Rüstungen, und sie sprachen mit den Monstern. Sie verstanden kein Wort, aber waren sich sicher, dass es sich um Befehle handelte.~
+@5 = ~Kennt Ihr meinen Namen, Priester?~
+@6 = ~Ja, ich kenne Euch, Bruder Gorion hat Euch manchmal nach Swickmark gebracht. Ich war damals einer seiner Assistenten. Außerdem war ich wie Ihr sein Schüler. Er war ein sehr weiser Mann, ich bedaure, was passiert ist.~
+@7 = ~Wart Ihr ein Schüler in Swickmark? Ich kann mich nicht an Euch erinnern.~
+@8 = ~Ihr wart zu jung, mein Sohn. Nun zu unserem Problem. Ich kenne Euch, ich weiß, wozu Ihr fähig seid, <CHARNAME>, und ich weiß auch, dass Ihr der Einzige seid, der uns bei der Lösung dieses Problems helfen kann.~ ~Ihr wart zu jung, meine Tochter. Nun zu unserem Problem. Ich kenne Euch, ich weiß, wozu Ihr fähig seid, <CHARNAME>, und ich weiß auch, dass Ihr die Einzige seid, die uns bei der Lösung dieses Problems helfen kann.~
+@9 = ~Wo ist der Friedhof, wo kommen diese Monster her?~
+@10 = ~Ich zeige Euch die Tür, kommt mit mir.~
+@11 = ~Bitte, Ihr müsst herausfinden, was auf dem Friedhof vor sich geht.~
+@12 = ~Ich habe das Gefühl, dass das Böse vom Friedhof verschwunden ist, und wer war sein geheimnisvoller Anführer?~
+@13 = ~Das war Sarevok, mein Bruder.~ ~Das war Sarevok, meine Tochter.~
+@14 = ~Sarevok? Und ich dachte, Ihr hättet ihn bereits getötet?~
+@15 = ~Das dachte ich auch. Aber jemand hat ihn zurückgebracht, und seine Aufgabe war es, den magischen Stein in Eure Stadt zu bringen.~
+@16 = ~Trotzdem danke für die Hilfe, <CHARNAME>. Kann ich etwas für Euch tun?~
+@17 = ~Ja, ich bin auf der Suche nach einem seltsamen Magier, da sich viele bei Euch aufhalten, seid ihr ihm vielleicht begegnet?~
+@18 = ~Ja, ich weiß, von wem Ihr sprecht, er kam vor ein paar Tagen hierher, er fragte mich nach einer Unterkunft, aber in Anbetracht unserer Situation habe ich ihn in ein Dorf nicht weit von hier geschickt. Zeigt mir Eure Karte, ich markiere diesen Ort darauf.~
+@19 = ~Danke, Priester. Viel Glück.~
+@20 = ~Ein Schattenfürst.
+
+In einer Priesterstadt in der Nähe von Soubar erzählte mir der Hohepriester, dass er einen seltsamen Magier in ein Dorf in der Nähe geschickt hat. Er hat diesen Ort auf meiner Karte markiert.~
+@21 = ~Danke für Eure Hilfe, <CHARNAME>. Viel Glück.~

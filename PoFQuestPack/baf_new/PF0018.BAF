@@ -1,0 +1,34 @@
+IF
+  OnCreation()
+  Global("EnteredPF0018","PF0018",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0018","PF0018",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    FadeToColor([30.0],0)
+    ScreenShake([20.20],10)
+    Wait(2)
+    CreateCreature("Yarpen",[667.1017],0)  // ~Градак~
+    CreateCreature("YARPINW",[1124.874],0)  // ~Градаковский воин~
+    CreateCreature("YARPINW",[1148.967],0)  // ~Градаковский воин~
+    CreateCreature("YARPINW",[1174.1083],0)  // ~Градаковский воин~
+    CreateCreature("YARPINW",[1278.1086],0)  // ~Градаковский воин~
+    CreateCreature("YARPINW",[1285.1014],0)  // ~Градаковский воин~
+    CreateCreature("YARPINW",[1284.937],0)  // ~Градаковский воин~
+    CreateCreature("YARPINW",[1501.958],0)  // ~Градаковский воин~
+    CreateCreature("YARPINA",[1435.783],0)  // ~Южный лучник~
+    CreateCreature("YARPINA",[1538.795],0)  // ~Южный лучник~
+    CreateCreature("YARPINA",[1688.821],0)  // ~Южный лучник~
+    CreateCreature("YARPINA",[1711.750],0)  // ~Южный лучник~
+    Wait(6)
+    DisplayStringHead("YARPEN",@1)  // @1
+    Wait(6)
+    ActionOverride("YARPEN",EscapeArea())
+    Wait(2)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

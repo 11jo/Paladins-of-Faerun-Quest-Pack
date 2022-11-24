@@ -1,0 +1,24 @@
+@0 = ~Hey Ihr, wartet!~
+@1 = ~Ja, was braucht Ihr, Bauer?~
+@2 = ~Ich brauche Hilfe, meine Farm wurde von Riesenspinnen angegriffen. Die Farm ist mein Leben, Fremder, bitte rettet meine Farm.~ ~Ich brauche Hilfe, meine Farm wurde von Riesenspinnen angegriffen. Die Farm ist mein Leben, Fremde, bitte rettet meine Farm.~
+@3 = ~Und was bekomme ich dafür, Bauer?~
+@4 = ~Ich habe wirklich nichts, Fremder, nur diesen Hof. Aber Ihr könnt alles mitnehmen, was Ihr dort findet, also helft Ihr mir?~ ~Ich habe wirklich nichts, Fremde, nur diesen Hof. Aber Ihr könnt alles mitnehmen, was Ihr dort findet, also helft Ihr mir?~
+@5 = ~Warum wendet Ihr Euch nicht an Handelstreff um Hilfe? Warum fragt Ihr mich?~
+@6 = ~Handelstreff hat bereits genug Probleme mit diesen Kreaturen, die ganze Umgebung von Handelstreff wurde angegriffen. Sie werden mir hier nicht helfen. Ihr seid meine einzige Chance.~
+@7 = ~Okay, ich werde sehen, was ich tun kann, Bauer.~
+@8 = ~Bauer aus Handelstreff.
+
+In Handelstreff traf ich einen Bauern, dessen Hof von denselben Kreaturen angegriffen wurde, die ganz Handelstreff und Umgebung angriffen. Er bat mich um Hilfe, um seine Farm zu retten.~
+@9 = ~Nicht jetzt, Bauer, wartet ein bisschen. Vielleicht komme ich später wieder.~
+@10 = ~Ihr seid also zurückgekommen, werdet Ihr mir jetzt helfen?~
+@11 = ~Erinnert mich daran, warum Ihr nicht Handelstreff um Hilfe bittet?~
+@12 = ~Kann ich zurück zur Farm gehen?~
+@13 = ~Nein, noch nicht. Ich arbeite daran.~
+@14 = ~Ja, das könnt Ihr. Jetzt droht Euch keine Gefahr mehr.~
+@15 = ~Bauer aus Handelstreff.
+
+Ihr habt den Bauern belogen, dass Ihr seinen Hof befreit habt. Ihr habt ihn in den sicheren Tod geschickt.~
+@16 = ~Ja. Ich habe die Spinnenkönigin getötet, nichts bedroht mehr Euren Hof.~
+@17 = ~Bauer aus Handelstreff.
+
+Die Spinnenkönigin, die sich in einer Höhle in der Nähe des Bauernhofs versteckt hatte, wurde getötet.~

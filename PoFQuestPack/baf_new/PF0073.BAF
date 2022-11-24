@@ -1,0 +1,37 @@
+IF
+  OnCreation()
+  Global("EnteredAreaPF0073","PF0073",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredAreaPF0073","PF0073",1)
+    StartCutSceneMode()
+    HideGUI()
+    Wait(4)
+    DisplayStringHead(Player1,@0)  
+    Wait(5)
+    DisplayStringHead(Player2,@1)  
+    Wait(5)
+    CreateCreature("BHN1MOD",[1061.1182],0)  // ~Охотник за сокровищами~
+    Wait(2)
+    Explore()
+    ActionOverride("BHN1MOD",MoveToPoint([537.338]))
+    Wait(6)
+    DisplayStringHead("BHN1MOD",@2)  
+    ActionOverride("BHN1MOD",EscapeArea())
+    AddJournalEntry(@3,QUEST)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  Global("Reveal0073","PF0073",0)
+  Dead("BH1MOD")  // ~Охотник за сокровищами~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0073","PF0073",1)
+    Wait(2)
+    GiveItemCreate("ARTKMOD",Player1,0,0,0)  // ~Артефакт~
+    GiveItemCreate("MISC07",Player1,10000,0,0)  // ~Золотой~
+    AddJournalEntry(@4,QUEST)
+END
+

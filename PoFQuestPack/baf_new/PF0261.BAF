@@ -1,0 +1,37 @@
+IF
+  Global("Reveal0261","PF0261",0)
+  Dead("DW1MOD")  // ~Воин-дроу~
+  Dead("DW2MOD")  // ~Воин-дроу~
+  Dead("DW3MOD")  // ~Воин-дроу~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0261","PF0261",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    Explore()
+    HideGUI()
+    Wait(2)
+    CreateCreature("QUARMOD",[3460.671],2)  // ~Кварилл~
+    MoveViewPoint([3381.725],SLOW)
+    ActionOverride(Player1,MoveToPoint([3365.729]))
+    Wait(5)
+    ActionOverride(Player1,Face(10))
+    Wait(2)
+    DisplayStringHead("QUARMOD",@0)  // @0
+    Wait(5)
+    DisplayStringHead(Player1,@1)  // @1
+    Wait(3)
+    ForceSpell("QUARMOD",DRYAD_TELEPORT)
+    Wait(1)
+    DisplayStringHead("RWHMNMOD",@2)  // @2
+    Wait(8)
+    ActionOverride(Player2,LeaveAreaLUA("PF0061","",[1845.1244],0))
+    ActionOverride(Player1,LeaveAreaLUA("PF0061","",[1872.1278],0))
+    ActionOverride(Player3,LeaveAreaLUA("PF0061","",[1914.1248],0))
+    ActionOverride(Player4,LeaveAreaLUA("PF0061","",[1849.1205],0))
+    ActionOverride(Player5,LeaveAreaLUA("PF0061","",[1900.1186],0))
+    ActionOverride(Player6,LeaveAreaLUA("PF0061","",[1952.1227],0))
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

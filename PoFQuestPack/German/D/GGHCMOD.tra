@@ -1,0 +1,11 @@
+@1 = ~Bleibt, wo Ihr seid, wer seid Ihr? Man kann hier nicht einfach reinspazieren.~
+@2 = ~Es ist alles in Ordnung, ich bin <CHARNAME>, Alvin schickt mich, ich muss den Erzmagier besuchen, den Gründer des Faerûn-Kults... Lasst mich durch.~
+@3 = ~Ich fürchte, der Erzmagier hat Euch nichts zu sagen. Sagtet Ihr, Euer Name sei <CHARNAME>?~
+@4 = ~Ja, das bin ich.~
+@5 = ~Der Erzmagier sagte, wenn Ihr kommt, muss ich Euch sofort töten, weil Ihr eine Bedrohung seines Plans seid.~
+@6 = ~Bin ich eine Bedrohung? Ich bin hier, um Gradaks Verrat am Kult der Paladine zu stoppen, wisst Ihr etwas über ihn?~
+@7 = ~In der letzten Nacht kam ein Krieger in Rüstung hierher, die Magier nannten ihn "Sir Gradak". Seitdem haben sich die Befehle geändert. Niemand darf den Rat betreten, und wenn eine Gruppe unter der Führung eines Nachkommens von Bhaal eintrifft, muss ich sie sofort aufhalten. Es tut mir leid, <CHARNAME>, aber Befehl ist Befehl!~
+@8 = ~Paladine von Faerûn.
+
+Als wir uns dem Eingang zum Rat der Magier näherten, zu dem uns Alvin geschickt hatte, hielt uns der Wächter auf und sprach von einigen Änderungen der Befehle. Es ist notwendig, die Gruppe unter der Führung eines Nachkommens von Bhaal zu vernichten. Die Dinge beginnen irgendwie kompliziert zu werden, ich weiß nicht einmal, wer für uns und wer gegen uns ist. Es gibt nur einen Weg, das herauszufinden: Wir müssen den Gründer des Paladinkults von Faerûn finden.~
+@9 = ~Hey, was ist hier los, Gradak ist der Feind, nicht ich!~

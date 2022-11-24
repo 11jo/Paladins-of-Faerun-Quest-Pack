@@ -1,0 +1,22 @@
+BEGIN ~SLAINE1~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN REPLY @2 GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @3
+  IF ~~ THEN REPLY @4 GOTO 2
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @5
+  IF ~~ THEN REPLY @7 DO ~RevealAreaOnMap("PF0028")
+AddexperienceParty(30000)
+JoinParty()
+~ UNSOLVED_JOURNAL @6 EXIT
+  IF ~~ THEN REPLY @9 DO ~RevealAreaOnMap("PF0028")
+AddexperienceParty(30000)
+~ UNSOLVED_JOURNAL @8 EXIT
+END

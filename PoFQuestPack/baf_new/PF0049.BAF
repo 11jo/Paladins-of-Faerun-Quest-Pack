@@ -1,0 +1,63 @@
+IF
+  OnCreation()
+  Global("EnteredPF0049","PF0049",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0049","PF0049",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Explore()
+    Wait(1)
+    CreateCreature("SHTAMOD",[2285.2318],0)  // ~Теневой Вор~
+    Wait(2)
+    ActionOverride("SHTAMOD",MoveToPoint([2044.2621]))
+    Wait(8)
+    DisplayStringHead("SHTAMOD",@0)  
+    Wait(8)
+    DisplayStringHead(Player1,@1)  
+    Wait(6)
+    DisplayStringHead("SHTAMOD",@2)  
+    Wait(6)
+    AddJournalEntry(@3,QUEST)
+    ActionOverride("SHTAMOD",EscapeArea())
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  Global("Reveal0049","PF0049",0)
+  Dead("MFTL2MOD")  // ~Бродячие кинжалы~
+  Dead("MFTL3MOD")  // ~Бродячие кинжалы~
+  Dead("MFTL4MOD")  // ~Бродячие кинжалы~
+  Dead("MFTL5MOD")  // ~Бродячие кинжалы~
+  Dead("MFTL6MOD")  // ~Бродячие кинжалы~
+  Dead("MFTL7MOD")  // ~Бродячие кинжалы~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0049","PF0049",1)
+    CreateCreature("MFTL8MOD",[915.1715],0)  // ~Бродячие кинжалы~
+END
+
+IF
+  Global("Reveal0049","PF0049",1)
+  Dead("MFTL8MOD")  // ~Бродячие кинжалы~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0049","PF0049",2)
+    StartCutSceneMode()
+    ScreenShake([20.20],3)
+    CreateCreature("SHTAMOD",[992.1582],0)  // ~Теневой Вор~
+    Wait(1)
+    DisplayStringHead("SHTAMOD",@4)  
+    Wait(6)
+    ActionOverride(Player2,LeaveAreaLUA("PF0149","",[488.1032],8))
+    ActionOverride(Player1,LeaveAreaLUA("PF0149","",[548.1046],8))
+    ActionOverride(Player3,LeaveAreaLUA("PF0149","",[436.1057],8))
+    ActionOverride(Player4,LeaveAreaLUA("PF0149","",[494.1097],8))
+    ActionOverride(Player5,LeaveAreaLUA("PF0149","",[441.1111],8))
+    ActionOverride(Player6,LeaveAreaLUA("PF0149","",[558.1114],8))
+    EscapeArea()
+    EndCutSceneMode()
+END
+

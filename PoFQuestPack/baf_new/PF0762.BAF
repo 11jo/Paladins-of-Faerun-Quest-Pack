@@ -1,0 +1,51 @@
+IF
+  OnCreation()
+  Global("EnteredArea","PF0762",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredArea","PF0762",1)
+    StartCutSceneMode()
+    HideGUI()
+    Explore()
+    MoveViewPoint([689.604],INSTANT)
+    DisplayStringHead(Player1,@0)  // @0
+    Wait(4)
+    DisplayStringHead("NWNMMOD",@1)  // @1
+    Wait(10)
+    DisplayStringHead(Player1,@2)  // @2
+    Wait(4)
+    ActionOverride("NWNMMOD",ForceSpell("NWNMMOD",CLERIC_BLESS))
+    Wait(5)
+    ActionOverride("NWNMMOD",ForceSpell("NWNMMOD",CLERIC_NEGATIVE_PLANE_PROTECTION))
+    Wait(6)
+    ScreenShake([20.20],3)
+    ActionOverride("NWNMMOD",ForceSpell("NWNMMOD",CLERIC_NEGATIVE_PLANE_PROTECTION))
+    Wait(4)
+    CreateCreature("ELAIR01",[689.604],0)  // ~Ёлементаль воздуха~
+    EndCutSceneMode()
+    UnhideGUI()
+    BattleSong()
+    Wait(30)
+    ActionOverride("ELAIR01",DestroySelf())
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(5)
+    CreateVisualEffectObject("SPROTECT","NWNMMOD")
+    PlaySound("EFF_M23C")
+    Wait(2)
+    DisplayStringHead("NWNMMOD",@3)  // @3
+    FadeToColor([20.0],0)
+    AddexperienceParty(10000)
+    EraseJournalEntry(@4)  // @4
+    Wait(4)
+    ActionOverride(Player1,LeaveAreaLUA("PF0462","",[315.438],0))
+    ActionOverride(Player2,LeaveAreaLUA("PF0462","",[353.425],0))
+    ActionOverride(Player3,LeaveAreaLUA("PF0462","",[268.429],0))
+    ActionOverride(Player4,LeaveAreaLUA("PF0462","",[288.501],0))
+    ActionOverride(Player5,LeaveAreaLUA("PF0462","",[352.518],0))
+    ActionOverride(Player6,LeaveAreaLUA("PF0462","",[402.489],0))
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

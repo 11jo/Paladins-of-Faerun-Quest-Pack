@@ -1,0 +1,7 @@
+BEGIN ~SKELGMOD~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN REPLY @3 DO ~Enemy()
+~ UNSOLVED_JOURNAL @2 EXIT
+END

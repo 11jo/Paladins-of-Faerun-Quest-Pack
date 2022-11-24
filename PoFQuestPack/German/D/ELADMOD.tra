@@ -1,0 +1,21 @@
+@1 = ~Hmm, Fremde in meinem Haus, was wollt Ihr von einem alten Elf?~
+@2 = ~Die Tür war offen, ich dachte, jemand sei eingebrochen, ich bin schon weg.~
+@3 = ~Seid Ihr zurück und möchtet wissen, wo der Wald ist?~
+@4 = ~Ja, Elf.~
+@5 = ~Nein, wartet... Ihr seid ein Abenteurer, nicht wahr?~ ~Nein, wartet... Ihr seid eine Abenteurerin, nicht wahr?~
+@6 = ~Ja,  was ist los?~
+@7 = ~Ja, es gibt etwas, was ich gerne herausfinden würde, was im Turlan-Wald nicht weit von hier vor sich geht.~
+@8 = ~Turlan-Wald? Ich habe noch nie von ihm gehört. Wo ist er und was ist das Besondere daran?~
+@9 = ~Der Turlan-Wald liegt nicht weit nördlich von hier. Geht einfach weiter nach Norden. Das Besondere an ihm ist, dass er seit einiger Zeit in einem dunklen Nebel verborgen ist. Schon fünf Abenteurer sind dorthin gegangen, um herauszufinden, was los ist, und kehrten nicht zurück. Wenn Ihr ihn findet und herausfindet, was dort vor sich geht, bekommt Ihr eine anständige Belohnung.~
+@10 = ~Turlan-Wald.
+
+Ein Elf namens Eladriel hat mir von einem geheimnisvollen Wald in der Nähe von Niewinter erzählt. Er möchte, dass ich die Quelle des dunklen Nebels finde, der den Wald einhüllt.~
+@11 = ~Okay, wir werden herausfinden, was los ist.~
+@12 = ~Ich habe gerade keine Zeit, ich komme später wieder.~
+@13 = ~Großartige, brillante Arbeit, ich sah den Nebel um den Wald plötzlich verschwinden. Und was war das?~
+@14 = ~Im Kerker unter dem Wald versteckte sich der Herr der Untoten. Er schuf einen magischen Nebel um den Wald, der die Menschen schwächte und die dunklen Kreaturen stärkte. Sie jagten sie und verwandelten sie dann mit Hilfe von Magie in ihre eigene Art. Ich habe das alles gestoppt, und der Wald ist wieder sicher.~
+@15 = ~Danke, Fremder, wie ich versprochen habe, ist hier ist etwas für Euch. Als ich jung war, bin ich wie Ihr viel gereist. Nehmt dieses Schwert, es hat mir viele Male das Leben gerettet. Ich brauche es nicht mehr. Nun, ich muss mich um meine eigenen Angelegenheiten kümmern. Mach's gut.~
+@16 = ~Turlan-Wald.
+
+Eladriel war erfreut und gab mir sein Schwert.~
+@17 = ~Dankeschön, Elfe.~

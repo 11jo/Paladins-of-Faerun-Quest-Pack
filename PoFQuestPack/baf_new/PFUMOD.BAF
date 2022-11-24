@@ -1,0 +1,13 @@
+IF
+  OnCreation()
+  Global("EnteredAreaPFUMOD","PFUMOD",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredAreaPFUMOD","PFUMOD",1)
+    StartCutSceneMode()
+    ClearAllActions()
+    DisplayStringHead("BMT3MOD",@0)  
+    BattleSong()
+    EndCutSceneMode()
+END
+

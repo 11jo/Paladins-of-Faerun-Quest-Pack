@@ -1,0 +1,24 @@
+@0 = ~Wer seid Ihr, Fremder, eine weitere Marionette des Statthalters?~ ~Wer seid Ihr, Fremde, eine weitere Marionette des Statthalters?~
+@1 = ~Nein, Meine Dame. Der Druide schickt mich, ich muss Euch und den Schatz, den Ihr hütet, beschützen.~
+@2 = ~Ja, der Statthalter schickt mich!~
+@3 = ~Tethyr.
+
+Die Dryade in den Umar-Hügeln hat mich um Hilfe gebeten. Der Wald von Tethyr wird von dem Statthalter der örtlichen Burg zerstört. Das muss untersucht werden.~
+@4 = ~Tethyr.
+
+Ich habe einen Brief von einem der Gefangenen erhalten, der in den Wald gebracht werden muss, aber zuerst muss ich mit dem Statthalter des Schlosses sprechen.~
+@5 = ~Tethyr.
+
+Ich habe mit einem der Gefangenen gesprochen, er hat mir einen Brief gegeben, den ich im Wald in der Nähe der Burg abliefern muss.~
+@6 = ~Tethyr.
+
+Ich habe das Vertrauen der Bewohner des Tethyr-Waldes gewonnen. Jetzt muss ich die Waldherrin finden, irgendwo im Norden des Waldes. Sie bewacht eine sehr mächtige Waffe, ein Runenschwert. Der Statthalter ist an diesem Schwert interessiert.~
+@7 = ~Tethyr.
+
+Ich habe beschlossen, die Waldherrin zu töten und dem Statthalter zu helfen, das Runenschwert zu bekommen. Die Belohnung wartet auf mich.~
+@8 = ~Leider konnte der Statthalter nicht getötet werden und der Angriff auf den Wald hat bereits begonnen. Das schwächte mich, und die Wachen konnten das Runenschwert stehlen. Bringt das Schwert zurück!~
+@9 = ~Ich werde es versuchen, Herrin.~
+@10 = ~Es wurde ein gutes Kopfgeld auf Euch ausgesetzt, <CHARNAME>!~
+@11 = ~Tethyr.
+
+Der Statthalter hat begonnen, den Wald von Tethyr niederzubrennen und den Schatz zu stehlen. Ich muss ihn finden und diesem Wahnsinn Einhalt gebieten.~

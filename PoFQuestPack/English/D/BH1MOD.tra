@@ -1,0 +1,20 @@
+@0 = ~ Who are you and what do you need here? ~
+@1 = ~ I came from the desert north of here, some warriors in black chased me, I hope you know who they are. They said that I stole a very valuable artifact. ~
+@2 = ~ They probably took you for me, I borrowed a rather valuable artifact from them. ~
+@3 = ~ Magic horn? ~
+@4 = ~ True, how do you know that? ~
+@5 = ~ I'm looking for him, so what will the merchant do? ~
+@6 = ~ When you bring me 10,000 gold, I will give you this artifact. ~
+@7 = ~ Okay, here you go. ~
+@8 = ~ Artifact from Kalimshan.
+
+I need 10,000 gold to get the artifact. ~
+@9 = ~ I will bring them to you. ~
+@10 = ~ I think it’s easier for me to take an artifact from your corpse! ~
+@11 = ~ Great, this artifact. But be careful, it is very valuable, keep an eye on the road. ~
+@12 = ~ Thanks for the deal and goodbye. ~
+@13 = ~ Artifact from Kalimshan.
+
+I discovered an artifact from one of the treasure hunters in Kalimshan. ~
+@14 = ~ So you're back, do you have 10,000 gold? ~
+@15 = ~ Not yet. ~

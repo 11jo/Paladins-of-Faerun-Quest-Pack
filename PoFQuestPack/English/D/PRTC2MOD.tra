@@ -1,0 +1,28 @@
+@0 = ~ Welcome to the shrine of our god Torm, built largely thanks to you, <CHARNAME>. Good to see you again. ~
+@1 = ~ And I am glad, high priest. Why did you send for me? ~
+@2 = ~ Sorry <CHARNAME> that I am bothering you again, but I have one assignment. And at that moment, you are the only one who can handle this. ~
+@3 = ~ I'm really sorry, but right now I don’t have time to work for you. Maybe later. ~
+@4 = ~ And what is it? ~
+@5 = ~ Far to the north of here in the frozen plains is an island, and under it should be a very valuable historical scroll. A hidden secret about the confrontation between Torm and Cyric. And yet - we learned that fans of Cyric sent their group of adventurers to find this scroll. ~
+@6 = ~ And what do we need to do for the high priest? ~
+@7 = ~ I need this scroll. I will give you a map that will lead you to the place where it is. ~
+@8 = ~ Okay, I'll do it. ~
+@9 = ~ Order and chaos.
+
+The battle continues. The high priest Torm called us again, this time to find the lost scroll. He gave us a map that will lead us to the treasure. A group of treasure seekers hired by the priests of Cyric also went for the scroll. ~
+@10 = ~ Are you back? Do you want to help me? ~
+@11 = ~ Yes, but what's the matter? ~
+@12 = ~ Not now, I'm leaving. ~
+@13 = ~ Do you have a scroll? ~
+@14 = ~ Not yet. ~
+@15 = ~ Yes, I have this scroll. ~
+@16 = ~ Great job. I did not even expect that we could ever achieve all this! Torm thank you! You have done much more than you can imagine. For your dedicated service, I will bestow this item on you and you can choose one of these blessings. Your choice? ~
+@17 = ~ Constitution. ~
+@18 = ~ Order and chaos.
+
+Using the map, you managed to find an old scroll. Now you must return to the high priest. ~
+@19 = ~ Order and chaos.
+
+The storyline is over. (For the adherents of Torm) ~
+@20 = ~ Intelligence. ~
+@21 = ~ Wisdom. ~

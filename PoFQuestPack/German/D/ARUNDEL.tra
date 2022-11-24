@@ -1,0 +1,31 @@
+@1 = ~Willkommen Abenteurer, was führt Euch und Eure Freunde an einen solch entlegenen Ort?~ ~Willkommen Abenteurerin, was führt Euch und Eure Freunde an einen solch entlegenen Ort?~
+@2 = ~Ich suche Antworten auf einige Fragen, ein Erzmagier schickte mich an diesen Ort.~
+@3 = ~Es ist nicht wichtig, Elf, ich brauche Informationen von Euch!~
+@4 = ~Antworten sagt Ihr? Wer seid Ihr?~
+@5 = ~Mein Name ist <CHARNAME>, ich bin auf der Suche nach einem Paladin namens Gradak. Er hat sich gegen den Orden der Verteidiger von Faerûn gestellt, und ich muss ihn fangen oder vernichten.~
+@6 = ~<CHARNAME>? Held der Schwertküste? Ich habe von Euch gehört, aber ich hätte nie gedacht, Euch in meiner Stadt zu sehen.~ ~<CHARNAME>? Heldin der Schwertküste? Ich habe von Euch gehört, aber ich hätte nie gedacht, Euch in meiner Stadt zu sehen.~
+@7 = ~Ich habe noch nie von ihm gehört, aber ich vertraue Euch. Ich werde versuchen, Euch zu helfen, und ich werde sofort Späher losschicken, und wenn Gradak irgendwo in dieser Gegend ist, werden wir ihn finden!~
+@8 = ~Danke...~
+@9 = ~Aber, nichts ist umsonst... Im Gegenzug würde ich es schätzen, wenn Ihr mir bei der Lösung eines Problems helfen könntet.~
+@10 = ~Probleme, was ist los?~
+@11 = ~Vor ein paar Jahren hat sich eine Zauberin in einer Burg in den Bergen nicht weit von hier niedergelassen. Mein Volk hat dort Häuser, und die Zauberin hat alles zerstört, 3 Dörfer wurden niedergebrannt. Die Leute brauchen meine Hilfe, aber ich habe nicht genug Soldaten und nicht genug Gold, um dieses Problem zu lösen, aber ich glaube, dass Ihr in die Burg eindringen und die Zauberin aufhalten könnt.~
+@12 = ~Nun, ich werde in die Berge gehen, um die Zauberin zu finden, während Ihr versucht, wenigstens ein paar Informationen darüber zu bekommen, wo Gradak zu finden ist.~
+@13 = ~Ich werde alles in meiner Macht stehende tun, <CHARNAME>. Ich wünsche Euch viel Glück. Lebt wohl.~
+@14 = ~Eine Zauberin.
+
+Elf, der Anführer der Waldstadt, hat mich um Hilfe gebeten. Eine gewisse Zauberin hat sich in den Bergen nahe der Stadt niedergelassen und verwüstet die umliegenden Dörfer. Ich muss dorthin gehen, um mehr herauszufinden.~
+@15 = ~Auf Wiedersehen.~
+@16 = ~Ihr seid zurück, also sagt mir, warum Ihr hergekommen seid, Fremder?~ ~Ihr seid zurück, also sagt mir, warum Ihr hergekommen seid, Fremde?~
+@17 = ~Also, was sagt Ihr?~
+@18 = ~Die Zauberin ist tot, aber etwas anderes ist passiert, ich wurde auf dem Rückweg aus den Bergen hier in der Stadt angegriffen.~
+@19 = ~Ja, ich weiß, was passiert ist. Zum Glück haben wir einen der Magier gefangen, obwohl er schon fast tot war, aber mit Hilfe von Tränken haben wir alle Informationen aus ihm herausbekommen!~
+@20 = ~Wie es scheint, hatte die Zauberin eine  magische Kugel, einen sehr mächtigen Gegenstand... Diese Magier haben wahrscheinlich nach einer Kugel gesucht.~
+@21 = ~Ich verstehe nur nicht, warum einer von ihnen sagte, dass sie von Elminster, meinem Freund, hergeschickt wurden.~
+@22 = ~Das stimmt nicht ganz, sie wurden angeblich von jemandem aus dem Rat der Magier geschickt. Ich weiß jedoch nicht, wer er ist. Aber bevor er starb, erzählte uns der Magier noch etwas viel Wichtigeres. Während des Angriffs haben sie einen Magier gefangen genommen, es stellte sich heraus, dass er Euer Freund war, und ich weiß, wo er ist. Ich werde diesen Ort auf Eurer Karte markieren!~
+@23 = ~Paladine von Faerûn.
+
+Arundel erzählte mir, dass Alvin während des Angriffs gefangen genommen wurde, und zeigte mir den Ort, an dem er sich befindet.~
+@24 = ~Danke für alles, vielleicht sehen wir Euch irgendwann wieder.~
+@25 = ~Wenn Ihr nichts sagt, warum sollte ich Euch helfen? Auf Wiedersehen.~
+@26 = ~Bringt mir den Beweis, dass die Zauberin tot ist!~
+@27 = ~Ich danke Euch, dass Ihr uns geholfen habt, die böse Zauberin loszuwerden, und es scheint mir, dass Ihr einige Antworten auf Eurer Fragen finden konntet, nach denen Ihr schon so lange gesucht habt. Auf Wiedersehen.~

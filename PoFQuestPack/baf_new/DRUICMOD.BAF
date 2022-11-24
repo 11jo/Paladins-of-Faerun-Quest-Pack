@@ -1,0 +1,19 @@
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Prep","LOCALS",0)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,WIZARD_TIME_STOP)
+    Wait(2)
+    ApplySpell(Myself,WIZARD_STONE_SKIN)
+    Wait(1)
+    ForceSpell(Myself,CLERIC_HEAL)
+    Wait(2)
+    ForceSpell(Myself,WIZARD_TIME_STOP)
+    Wait(2)
+    ForceSpell(Myself,CLERIC_BLADE_BARRIER)
+    Wait(1)
+    ActionOverride(Myself,Attack(NearestEnemyOf(Myself)))
+    SetGlobal("Prep","LOCALS",1)
+END
+

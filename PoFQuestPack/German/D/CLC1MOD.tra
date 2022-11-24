@@ -1,0 +1,12 @@
+@0 = ~Feigling! Wer seid Ihr?~
+@1 = ~Ich bin, <CHARNAME>, ein Freund von Hrothgar, dem Bürgermeister von Osthafen. Er bat mich, ein Buch zu finden, das aus einem örtlichen Tempel gestohlen wurde. Ihr habt diesen Diebstahl angeordnet. Nun möchte ich herausfinden, wer Ihr seid und warum Ihr es braucht.~ ~Ich bin, <CHARNAME>, eine Freundin von Hrothgar, dem Bürgermeister von Osthafen. Er bat mich, ein Buch zu finden, das aus einem örtlichen Tempel gestohlen wurde. Ihr habt diesen Diebstahl angeordnet. Nun möchte ich herausfinden, wer Ihr seid und warum Ihr es braucht.~
+@2 = ~Ich bin ein Priester von Cyric, mein Orden hat mich hierher geschickt, um dieses Buch zu finden. Es ist von großem Wert für uns. Es erzählt von unserem Rivalen Torm. Ich brauche Schutz, und wenn Ihr mich nach Tiefwasser begleitet, bin ich bereit, Euch sehr großzügig zu belohnen.~
+@3 = ~Und wenn Euer Orden etwas braucht, dann beschließt er, es zu stehlen? Was ist das für ein Glaube? Gebt mir sofort das Buch, oder es wird Gewalt geben. Ich lasse meinen Freund Hrothgar nicht im Stich und beende, was ich begonnen habe.~
+@4 = ~Nun, ich werde Euch nach Tiefwasser begleiten. Aber wird die Belohnung so großzügig sein, dass ich meinen Freund Hrothgar verraten muss?~
+@5 = ~Ordnung und Chaos.
+
+Der Priester von Cyric, der dieses seltene Buch gekauft hatte, versprach, dass er mich großzügig belohnen würde, wenn ich ihn nach Tiefwasser begleitete. Ich willigte ein.~
+@6 = ~Das denke ich, ich werde Euch los und es wird keine Zeugen dafür geben, wer dieses Buch tatsächlich gestohlen hat.~
+@7 = ~Ordnung und Chaos.
+
+Ich habe herausgefunden, dass der Priester von Cyric hinter dem Diebstahl steckt.~

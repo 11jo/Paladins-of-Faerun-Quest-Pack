@@ -1,0 +1,20 @@
+@0 = ~Seid gegrüßt. Mein Name ist Toise Horster und ich arbeite für Aran. Ich habe von Euch gehört und weiß, dass Ihr viel reist. Kann ich Euch ein lohnendes Geschäft anbieten?~
+@1 = ~Und was ist es?~
+@2 = ~Es gibt 3 wertvolle Gegenstände, sie sind magisch und sehr mächtig. Wenn Ihr sie findet, bringt sie mir. Ich bin bereit, für jeden von ihnen 10.000 Gold zu zahlen.~
+@3 = ~Wisst ihr, wo diese Gegenstände sind?~
+@4 = ~Denkt ihr, ich würde so etwas fragen, wenn ich wüsste, wo sie sind? Aber zum Glück lässt sich die Suche ein wenig vereinfachen. Eines dieser seltenen Relikte sollte genau hier in Athkatla sein, das zweite irgendwo im Süden in der Region Kalimport, und das dritte, ich weiß nicht einmal, wo es ungefähr ist. Ein alter Freund von mir will es bei einem Händler in Niewinter gesehen haben. Ich würde also vorschlagen, irgendwo an der Schwertküste nach ihm zu suchen.~
+@5 = ~Ich werde nach diesen Toise-Relikten suchen. Wenn ich etwas finde, komme ich hierher zurück.~
+@6 = ~3 Relikte.
+
+Eines befindet sich in Athkatla, das zweite irgendwo in der Gegend von Kalimport und das dritte an der Schwertküste. Wenn ich diese Relikte finde, wird Toise Horster in Athkatla mir 10.000 Gold für jedes von ihnen zahlen. Ihr könnt sie aber auch selbst behalten. Solche mächtigen Relikte können sehr nützlich sein.~
+@7 = ~Ich bin nicht interessiert. Lebt wohl.~
+@8 = ~3 Relikte.
+
+Aufgabe gescheitert.~
+@9 = ~Habt Ihr das Relikt in Athkatla gefunden?~
+@10 = ~Ja, da ist es.~
+@11 = ~Ja, aber ich behalte es für mich.~
+@12 = ~Habt Ihr das Relikt im Süden gefunden?~
+@13 = ~Habt Ihr das Relikt an der Schwertküste gefunden?~
+@14 = ~Habt Ihr etwas für mich gefunden?~
+@15 = ~Noch nicht.~

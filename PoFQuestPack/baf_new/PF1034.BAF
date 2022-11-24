@@ -1,0 +1,9 @@
+IF
+  OnCreation()
+  Global("EnteredPF1034","PF1034",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF1034","PF1034",1)
+    //TextScreen("SCEN6MOD")
+END
+

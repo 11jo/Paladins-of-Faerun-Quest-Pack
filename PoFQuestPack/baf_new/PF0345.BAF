@@ -1,0 +1,14 @@
+IF
+  Global("Reveal0300","PF0345",0)
+  Dead("LWSEMOD")  // ~Лорд Вильстер~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0300","PF0345",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

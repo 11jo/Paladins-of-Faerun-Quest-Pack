@@ -1,0 +1,263 @@
+
+//PoF Area Links Table
+SRC_AREA  SRC_NWSE  TARGET_ARE  ENTRY_NAME  TRV_TIME  DEF_ENTRY  ENC1     ENC2     ENC3     ENC4     ENC5     ENC_PROB
+
+AR0020    N         PF0003      EXITE     95        1          N        N        N        N        N        0
+AR0020    N         PF0007      EXITX     100      3          N        N        N        N        N        0
+AR0020    N         PF0801      EXITS      75         1          N        N        N        N        N        0
+AR0020    N         PF0009      EXITX      75         1          N        N        N        N        N        0
+AR0020    N         PF0012      EXITSE     68         3          PFRA03        N        N        N        N        90
+AR0020    N         PF0020      EXITS     35         3          PFRA03        N        N        N        N        80
+AR0020    N         PF0025      ENTRANCE###6     100        2          N        N        N        N        N        0
+AR0020    N         PF0026      EXITSW     85        2          N        N        N        N        N        0
+AR0020    N         PF0064      EXITSE     80         3          PFRA03        N        N        N        N        100
+AR0020    N         PF0047      EXITSW     105        1          N        N        N        N        N        0
+AR0020    N         PF0052      EXITSHIP     85        4          N        N        N        N        N        0
+AR0020    N         PF0066      EXITS     68         2          PFRA03        N        N        N        N        90
+AR0020    N         PF0070      EXITS      40         3          PFRA08   N       N        N        N        70
+AR0020    N         PF0075      EXITSE      75         2          PFRA06   N       N        N        N        100
+AR0020    N         PF0081      EXITSW      45         2          PFRA08   N       N        N        N        70
+AR0020    N         PF0082      EXITS      45         2          PFRA08   N       N        N        N        70
+AR0020    N         PF0080      EXITSE     55        1          N        N        N        N        N        0
+AR0020    N         PF0A80      EXITSE     55        1          N        N        N        N        N        0
+AR0020    N         PF0780      ENTRANCE###2     55        1          N        N        N        N        N        0
+AR0020    N         PF0002      EXITS     20        1          N        N        N        N        N        0
+AR0020    N         PF0029      EXITE     36        1          N        N        N        N        N        0
+AR0020    N         PF0050      EXITSE     25         3          PFRA03        N        N        N        N        50
+AR0020    N         PF0056      EXITE     38        3          N        N        N        N        N        0
+AR0020    W         PF0018      EXITX     10        1          N        N        N        N        N        0
+AR0020    S         PF0034      EXITSE     55         1          PFRA03        N        N        N        N        100
+AR0020    S         PF0046      EXITSE     34         2          PFRA03        N        N        N        N        60
+AR0020    S         PF0018      ENTRANCE###1     50        1          N        N        N        N        N        0
+AR0020    S         PF0061      EXITNW     30        1          N        N        N        N        N        0
+AR0020    S         PF0065      EXITE      35         1          PFRA08   N       N        N        N        50
+AR0020    S         PF0072      EXITN      45         3          PFRA06   N       N        N        N        100
+AR0020    S         PF0073      EXITW    45        1          N        N        N        N        N        0
+AR0020    S         PF0076      EXITSE     25         1          PFRA03        N        N        N        N        100
+AR0020    S         PF0077      EXITW     30         2          PFRA03        N        N        N        N        50
+AR0020    S         PF0078      EXITSE     27         2          PFRA03        N        N        N        N        50
+AR0020    S         PF0068      EXITS    0        2          N        N        N        N        N        0
+AR0020    E         PF0001      EXITS      5         1          PFRA08   N       N        N        N        100
+AR0020    E         PF0004      EXITW     28         4          PFRA03        N        N        N        N        70
+AR0020    E         PF0028      EXITS     55         3          PFRA01        N        N        N        N        30
+AR0020    E         PF0033      EXITW    50        2          N        N        N        N        N        0
+AR0020    E         PF0054      EXITW     40         2          PFRA03        N        N        N        N        40
+AR0020    E         PF0053      EXITNW    40        3          N        N        N        N        N        0
+AR0020    E         PF0681      ENTRANCE###1    38        1          N        N        N        N        N        0
+AR0020    E         PF8500      ENTRANCE###1    40        1          N        N        N        N        N        0
+AR0020    E         PF0069      EXITE    20        1          N        N        N        N        N        0
+AR0020    E         PF0016      EXITS    38        3          N        N        N        N        N        0
+AR0020    E         PF0017      EXITSE     50         2          PFRA03        N        N        N        N        50
+AR0020    E         PF0059      EXITW    35        1          N        N        N        N        N        0
+AR0020    E         PF0060      EXITN    34        2          N        N        N        N        N        0
+
+AR2000    W         PF0001      EXITS    2        2          N        N        N        N        N        0
+AR2000    S         PF0072      EXITN      35         1          PFRA06   N       N        N        N        60
+AR2000    E         PF0079      EXITW    2        1          N        N        N        N        N        0
+
+PF0001    N         AR0020      EXITSW     2        1          N        N        N        N        N        0
+
+PF0002    N         PF0020      EXITS     25        1          N        N        N        N        N        0
+PF0002    S         AR0020      EXITNE     20        1          N        N        N        N        N        0
+
+PF0003    E         PF0026      EXITE      3         1          PFRA08   N       N        N        N        90
+
+PF0004    W         PF0020      EXITS      32         1          PFRA04   N       N        N        N        100
+PF0004    S         AR0020      EXITNE     38        2          N        N        N        N        N        0
+
+PF0007    S         PF0026      EXITE     8        2          N        N        N        N        N        0
+
+PF0801    N         PF0047      EXITSW     35        3          N        N        N        N        N        0
+PF0801    W         PF0064      EXITSE     7        2          N        N        N        N        N        0
+PF0801    S         AR0020      EXITNE     70        2          N        N        N        N        N        0
+
+PF0009    S         PF0801      EXITS     1        1          N        N        N        N        N        0
+
+PF0034    W         AR0020      EXITNE     55         4          PFRA03        N        N        N        N        80
+
+PF0012    N         PF0064      EXITSE     15        1          N        N        N        N        N        0
+PF0012    S         AR0020      EXITNE     55        2          N        N        N        N        N        0
+
+PF0014    S         PF0033      EXITW     3        1          N        N        N        N        N        0
+
+PF0016    W         AR0020      EXITNE     38        2          N        N        N        N        N        0
+
+PF0017    N         AR0020      EXITNE     55        2          N        N        N        N        N        0
+PF0017    N         PF0026      EXITSW     130        3          N        N        N        N        N        0
+PF0017    N         PF0020      EXITS     90        2          N        N        N        N        N        0
+PF0017    N         PF0064      EXITSE     110        2          N        N        N        N        N        0
+
+PF0020    N         PF0026      EXITSW     45        2          N        N        N        N        N        0
+PF0020    N         PF0064      EXITSE     35        2          N        N        N        N        N        0
+PF0020    N         PF0070      EXITS     3        1          N        N        N        N        N        0
+PF0020    S         AR0020      EXITNE     38        1          N        N        N        N        N        0
+PF0020    S         PF0050      EXITW      15         1          PFRA03   N       N        N        N        100
+PF0020    E         PF0081      EXITW      60         2          PFRA08   N       N        N        N        80
+
+PF0025    N         PF0058      EXITSW     1        1          N        N        N        N        N        0
+PF0025    S         AR0020      EXITNE     110        3          N        N        N        N        N        0
+PF0025    S         PF0020      EXITS     55        2          N        N        N        N        N        0
+PF0025    S         PF0059      EXITW      100         4          PFRA01   N       N        N        N        100
+
+PF0026    N         PF0003      EXITE     5        1          N        N        N        N        N        0
+PF0026    N         PF0007      EXITX     7        1          N        N        N        N        N        0
+PF0026    S         AR0020      EXITNE     70         4          PFRA03        N        N        N        N        60
+PF0026    S         PF0056      EXITE     36        3          N        N        N        N        N        0
+PF0026    S         PF0064      EXITSE      15         1          PFRA01   N       N        N        N        40
+PF0026    S         PF0020      EXITS     40        2          N        N        N        N        N        0
+
+PF0064    N         PF0026      EXITSW     15        1          N        N        N        N        N        0
+PF0064    S         AR0020      EXITNE     80        2          N        N        N        N        N        0
+PF0064    S         PF0020      EXITS     35        1          N        N        N        N        N        0
+PF0026    S         PF0066      EXITS     10         4          PFRA03        N        N        N        N        10
+PF0064    E         PF0012      EXITSE     3        1          N        N        N        N        N        0
+
+PF0028    W         AR0020      EXITNE     55        3          N        N        N        N        N        0
+
+PF0319    N         PF0020      EXITS     5        1          N        N        N        N        N        0
+PF0319    S         AR0020      EXITNE     30        1          N        N        N        N        N        0
+
+PF0029    N         PF0064      EXITSE     40         3          PFRA03        N        N        N        N        80
+PF0029    N         PF0065      EXITE     5        1          N        N        N        N        N        0
+PF0029    W         AR0020      EXITNE     6        1          N        N        N        N        N        0
+PF0029    S         AR0020      EXITNE     40        2          N        N        N        N        N        0
+
+PF0033    W         AR0020      EXITNE     55        1          N        N        N        N        N        0
+
+PF0039    N         PF0041      EXITS     2        1          N        N        N        N        N        0
+
+PF0040    S         PF0039      EXITS     2        1          N        N        N        N        N        0
+PF0040    S         PF0041      EXITNE     2        1          N        N        N        N        N        0
+
+PF0068    N         AR0900      EXITNW     0        1          N        N        N        N        N        0
+PF0068    N         AR1000      EXITN     0        1          N        N        N        N        N        0
+PF0068    S         AR0400      EXITN     0        1          N        N        N        N        N        0
+PF0068    S         AR0700      EXITNW     1        1          N        N        N        N        N        0
+PF0068    S         AR0300      EXITN     1        1          N        N        N        N        N        0
+PF0068    S         AR0800      EXITN     1        1          N        N        N        N        N        0
+PF0068    E         AR0020      EXITSW     0        1          N        N        N        N        N        0
+PF0068    E         AR0500      EXITSW     0        1          N        N        N        N        N        0
+
+PF0041    N         PF0040      EXITS     2        1          N        N        N        N        N        0
+PF0041    S         PF0039      EXITSW     2        1          N        N        N        N        N        0
+
+PF0046    N         AR0020      EXITNE     45        2          N        N        N        N        N        0
+
+PF0047    S         AR0020      EXITN     110        2          N        N        N        N        N        0
+PF0047    S         PF0064      EXITSW     25        2          N        N        N        N        N        0
+PF0047    E         PF0025      ENTRANCE###6     2         2          PFRA01        N        N        N        N        90
+
+PF0050    N         PF0020      EXITS     14         1          PFRA06        N        N        N        N        70
+PF0050    S         AR0020      EXITNE     28        1          N        N        N        N        N        0
+
+PF0052    S         AR0300      EXITNE     90        2          N        N        N        N        N        0
+PF0052    S         PF0020      EXITS     40        1          N        N        N        N        N        0
+
+PF0054    W         AR0020      EXITNE     50        2          N        N        N        N        N        0
+PF0054    W         PF0055      ENTRANCE###1     10        1          N        N        N        N        N        0
+
+PF0055    N         PF0029      EXITW     80        2          N        N        N        N        N        0
+PF0055    N         AR0020      EXITNE     55        1          N        N        N        N        N        0
+PF0055    N         PF0034      EXITS     10        1          N        N        N        N        N        0
+
+PF0061    N         PF0064      EXITSE     55        2          N        N        N        N        N        0
+PF0061    N         PF0029      EXITE     10        1          N        N        N        N        N        0
+PF0061    W         AR0020      EXITNE     40        1          N        N        N        N        N        0
+PF0061    W         AR2000      EXITNE     20        2          N        N        N        N        N        0
+PF0061    S         PF0034      EXITS     30        1          N        N        N        N        N        0
+
+PF0065    N         PF0064      EXITSE     25         2          PFRA06        N        N        N        N        50
+PF0065    W         PF0020      EXITS     25        1          N        N        N        N        N        0
+PF0065    S         PF0029      EXITE     10        1          N        N        N        N        N        0
+PF0061    S         AR0020      EXITNE     45        1          N        N        N        N        N        0
+
+PF0066    N         PF0064      EXITSE     6        1          N        N        N        N        N        0
+PF0066    S         PF0029      EXITE     15        1          N        N        N        N        N        0
+PF0066    S         AR0020      EXITNE     75        2          N        N        N        N        N        0
+
+PF0067    S         PF0025      EXITS     2        2          N        N        N        N        N        0
+
+PF0069    W         AR0020      EXITNE     35        1          N        N        N        N        N        0
+PF0069    S         PF0046      EXITSE     45        2          N        N        N        N        N        0
+
+PF0053    W         AR0020      EXITNE     45        1          N        N        N        N        N        0
+
+PF0056    S         AR0020      EXITNE     55        1          N        N        N        N        N        0
+PF0056    S         PF0020      EXITS     25        1          N        N        N        N        N        0
+
+PF0059    W         AR0020      EXITNE     38        3          N        N        N        N        N        0
+PF0059    W         PF0060      EXITN     2        1          N        N        N        N        N        0
+
+PF0060    N         PF0061      EXITS     5        2          N        N        N        N        N        0
+PF0060    W         AR0020      EXITNE     35        2          N        N        N        N        N        0
+PF0060    S         PF0059      EXITW     2         2          PFRA01        N        N        N        N        60
+
+PF0070    S         PF0020      EXITS     3        1          N        N        N        N        N        0
+
+PF0072    N         AR2000      EXITNW     40         2          PFRA06        N        N        N        N        50
+PF0072    N         PF0073      EXITW     2         1          PFRA06        N        N        N        N        50
+
+PF0073    N         AR2000      EXITNW     40         1          PFRA06        N        N        N        N        50
+
+PF0075    W         PF0064      EXITSE     45        2          N        N        N        N        N        0
+PF0075    S         PF0020      EXITS     40        3          N        N        N        N        N        0
+PF0075    S         AR0020      EXITNE     65        2          N        N        N        N        N        0
+
+PF1319    W         PF0020      EXITS     5        2          N        N        N        N        N        0
+PF1319    S         AR0020      EXITNE     36        2          N        N        N        N        N        0
+
+PF0076    N         AR0020      EXITNE     28         1          PFRA08        N        N        N        N        80
+PF0076    N         PF0077      EXITW     4        1          N        N        N        N        N        0
+
+PF0077    N         AR2000      EXITSW     5        2          N        N        N        N        N        0
+PF0077    S         PF0076      EXITSE     4        1          N        N        N        N        N        0
+PF0077    S         PF0078      EXITSE     4        1          N        N        N        N        N        0
+
+PF0078    N         AR0020      EXITNE     28         2          PFRA08        N        N        N        N        70
+
+PF0058    S         PF0025      EXITS     2         1          PFRA01        N        N        N        N        100
+
+PF0079    W         AR2000      EXITNE     2        1          N        N        N        N        N        0
+
+PF4001    N         PF0040      EXITS     2        1          N        N        N        N        N        0
+
+PF0081    W         PF0020      EXITS     45         2          PFRA03        N        N        N        N        50
+PF0081    S         AR0020      EXITNE     45         2          PFRA03        N        N        N        N        30
+PF0081    E         PF0078      EXITS     2        1          N        N        N        N        N        0
+
+PF0082    N         PF0083      EXITS     1        1          N        N        N        N        N        0
+
+PF0083    S         PF0082      EXITN     1        1          N        N        N        N        N        0
+
+PF8100    W         PF0020      EXITS     45        2          N        N        N        N        N        0
+PF8100    S         AR2000      EXITNE     45        2          N        N        N        N        N        0
+PF8100    E         PF0020      EXITS     2        1          N        N        N        N        N        0
+
+PF8200    N         PF8300      EXITS     2        1          N        N        N        N        N        0
+PF8200    W         PF8100      EXITE     2        1          N        N        N        N        N        0
+
+PF8300    S         PF8200      EXITN     2        1          N        N        N        N        N        0
+
+PF0681    N         PF0084      EXITS     25        1          N        N        N        N        N        0
+PF0681    W         AR2000      EXITNE     55        1          N        N        N        N        N        0
+
+PF8500    N         PF0084     EXITS     25        1          N        N        N        N        N        0
+PF8500    W         AR2000      EXITNE     55        1          N        N        N        N        N        0
+
+PF0084    S         PF0681      ENTRANCE###1     25        2          N        N        N        N        N        0
+PF0084    S         PF8500      ENTRANCE###1     25        2          N        N        N        N        N        0
+
+PF0A80    N         PF0026     EXITSW     15        2          N        N        N        N        N        0
+PF0A80    N         PF0064     EXITSE     15        1          N        N        N        N        N        0
+PF0A80    S         PF0020     EXITS     25        1          N        N        N        N        N        0
+PF0A80    S         AR2000      EXITNE     55        1          N        N        N        N        N        0
+
+PF0080    N         PF0026     EXITSW     15        2          N        N        N        N        N        0
+PF0080    N         PF0064     EXITSE     15        1          N        N        N        N        N        0
+PF0080    S         PF0020     EXITS     25        1          N        N        N        N        N        0
+PF0080    S         AR2000      EXITNE     55        1          N        N        N        N        N        0
+
+PF0780    W         PF0A80      EXITSE     1        1          N        N        N        N        N        0
+
+PF0680    W         PF0A80      EXITSE     1        1          N        N        N        N        N        0
+PF0680    E         PF0780      ENTRANCE###2     1        1          N        N        N        N        N        0

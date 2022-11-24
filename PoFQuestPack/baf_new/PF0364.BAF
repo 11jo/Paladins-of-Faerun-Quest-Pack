@@ -1,0 +1,46 @@
+IF
+  Global("Reveal0364","PF0364",0)
+  Dead("BMTN1MOD")  // ~Воришка~
+  Dead("BMTN2MOD")  // ~Воришка~
+  PartyHasItem("LETWMOD")  // ~Клочок бумаги~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0364","PF0364",1)
+    CreateCreature("WWCMOD",[513.407],14)  // ~Капитан~
+END
+
+IF
+  OnCreation()
+  Global("EnteredAreaPF0364","PF0364",0)
+  PartyHasItem("WRGMOD")  // ~Кольцо~
+  Dead("BMT1MOD")  // ~Воришка~
+  Dead("BMT2MOD")  // ~Воришка~
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredAreaPF0364","PF0364",1)
+    TakePartyItem("WRGMOD")
+    StartCutSceneMode()
+    HideGUI()
+    CreateCreature("MWMOD",[596.355],0)  // ~Жена Мариана~
+    CreateCreature("MCHMOD",[557.353],0)  // ~Мальчик~
+    CreateCreature("MARIAN",[539.384],2)  // ~Мариан~
+    Wait(3)
+    DisplayStringHead("MARIAN",@0)  
+    Wait(5)
+    ActionOverride("WWCMOD",Face(10))
+    DisplayStringHead("WWCMOD",@1)  
+    Wait(5)
+    DisplayStringHead("MARIAN",@2) 
+    Wait(5)
+    ActionOverride("WWCMOD",Face(14))
+    DisplayStringHead("WWCMOD",@3)  
+    Wait(5)
+    AddJournalEntry(77392,QUEST)
+    ActionOverride("MArian",EscapeArea())
+    ActionOverride("MWMOD",EscapeArea())
+    ActionOverride("MCHMOD",EscapeArea())
+    Wait(4)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

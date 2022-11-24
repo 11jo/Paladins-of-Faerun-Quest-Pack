@@ -1,0 +1,26 @@
+IF
+  OnCreation()
+  Global("EnteredPF0211","PF0211",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0211","PF0211",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(4)
+    CreateCreature("ELMMOD1",[798.408],6)  // ~Элминстер~
+    StartDialogue("ELMMOD2",Player1)
+    Wait(2)
+    EndCutSceneMode()
+    Wait(5)
+    ClearAllActions()
+    StartCutSceneMode()
+    Wait(2)
+    CreateCreature("MOHCMOD",[609.518],10)  // ~Член Совета магов~
+    CreateCreature("MOHCMOD",[785.535],10)  // ~Член Совета магов~
+    DisplayString("MOHCMOD",@0)  // @0
+    Wait(2)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

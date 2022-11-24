@@ -1,0 +1,17 @@
+@0 = ~ Oh, hello <CHARNAME>, yet you got here. Just in time. ~
+@1 = ~ Something happened, Hrothgar? ~
+@2 = ~ About three hours ago a group of thieves broke into our temple and stole a very valuable book that was stored there. ~
+@3 = ~ Did you manage to find out something? What do you want from me? ~
+@4 = ~ I think our priest may know something, go and talk to him in the temple, this is south of here. ~
+@5 = ~ Why is this book so important to Khrodgar? ~
+@6 = ~ I really don’t know this <CHARNAME>, but still I ask you to help me again. ~
+@7 = ~ I'm sorry, but now I already have other things to do. I will try to help you later. ~
+@8 = ~ Of course, I will go and talk with the priest. ~
+@9 = ~ Oh, I almost forgot. You will need a key to get to the temple. After that sad event, the temple is closed to the public. And I have to go, I have a lot to do. ~
+@10 = ~ I was glad to see you, I hope we will see each other again, Hrothgar. ~
+@11 = ~ Hrothgar.
+
+Hrothgar, mayor of East Harbor, asked me to help him again, I have to deal with the theft at a local temple. ~
+@12 = ~ <CHARNAME>, are you back? Can you help us? ~
+@13 = ~ Yes, Hrothgar. I will go and talk with the priest. ~
+@14 = ~ No, I can't yet. ~

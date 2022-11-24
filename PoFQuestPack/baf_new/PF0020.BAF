@@ -1,0 +1,17 @@
+IF
+  Global("Reveal0020","PF0020",0)
+  PartyHasItem("ZAT2MOD")  // ~Îנהונ םא אנוסע~
+THEN
+  RESPONSE #100
+    SetGlobal("Reveal0020","PF0020",1)
+    StartCutSceneMode()
+    HideGUI()
+    CreateCreature("ASSBGMOD",[3390.1570],8)  // ~Óבטיצא~
+    CreateCreature("ASSBGMOD",[3524.1624],8)  // ~Óבטיצא~
+    CreateCreature("ASSBGMOD",[3639.1627],8)  // ~Óבטיצא~
+    TakePartyItem("ZAT2MOD")
+    GiveItemCreate("ZAT3MOD",Player1,0,0,0)  // ~Îנהונ םא אנוסע~
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

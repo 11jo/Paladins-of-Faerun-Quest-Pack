@@ -1,0 +1,10 @@
+@0 = ~<CHARNAME>, ich habe eine kleine Aufgabe für Euch. Ich bin zufrieden mit dem, was Ihr auf der Insel geleistet habt. Deshalb werde ich Euch geheime Informationen verraten. Ich habe ein Geschäftstreffen in den Ebenen in der Nähe von Amn, und ich muss dort sein, um ein für ganz Amn sehr wichtiges Geschäft abzuschließen. Von allen Beratern hat man mich für diese Aufgabe auserwählt und ich wäre froh, wenn Ihr und Eure Gruppe mich als Leibwächter begleiten würdet.~
+@1 = ~Ich habe genug von Politik. Es tut mir leid, aber ich bin nicht interessiert.~
+@2 = ~Warum braucht Ihr solch einen Schutz?~
+@3 = ~Wie ich schon sagte. Es gibt viele Leute, die wollen, dass diese Verhandlungen nicht stattfinden. Natürlich werden Eure Dienste gut bezahlt, Ihr bekommt 5000 Gold.~
+@4 = ~Okay, ich bin einverstanden.~
+@5 = ~Geschäftsüberschneidung.
+
+Ich habe zugestimmt, dass ich und meine Gruppe vorübergehend als persönliche Wache des Handelskönigs von Amn agieren werden.~
+@6 = ~Vergesst es, ich schneide keine Köpfe für 5000 Gold, findet jemand anderen.~
+@7 = ~Ich habe auf Euch gezählt, aber es ist Eure Entscheidung. Lebt wohl.~

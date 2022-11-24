@@ -1,0 +1,81 @@
+IF
+  OnCreation()
+  Global("EnteredPF0136","PF0136",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredPF0136","PF0136",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(4)
+    ActionOverride(Player1,LeaveAreaLUA("PF0136","",[483.543],0))
+    Wait(4)
+    ActionOverride("DRIZAMOD",MoveToPoint([426.565]))
+    Wait(4)
+    DisplayString("DRIZAMOD",@0)  // @0
+    Wait(4)
+    DisplayString("ARTEMIS1",@1)  // @1
+    Wait(4)
+    ActionOverride("DRIZAMOD",Attack("ARTEMIS1"))
+    ActionOverride("ARTEMIS1",Attack("DRIZAMOD"))
+    Wait(3)
+    ClearAllActions()
+    ActionOverride(Player1,LeaveAreaLUA("PF0136","",[675.179],0))
+    Wait(1)
+    ActionOverride("SLAIN",MoveToPoint([699.261]))
+    Wait(6)
+    DisplayString("SLAIN",@2)  // @2
+    Wait(4)
+    DisplayString("YARPEN",@3)  // @3
+    Wait(4)
+    ActionOverride("SLAIN",Attack("YARPEN"))
+    ActionOverride("YARPEN",Attack("SLAIN"))
+    Wait(6)
+    DisplayString("YARPEN",@4)  // @4
+    Wait(2)
+    CreateCreature("YARPICP",[860.273],0)  // ~Командир Градакова~
+    CreateCreature("YARPICP",[815.295],0)  // ~Командир Градакова~
+    CreateCreature("YARPICP",[650.209],0)  // ~Командир Градакова~
+    CreateCreature("YARPICP",[694.269],0)  // ~Командир Градакова~
+    CreateCreature("YARPICP",[599.312],0)  // ~Командир Градакова~
+    CreateCreature("YARPICP",[621.460],0)  // ~Командир Градакова~
+    CreateCreature("YARPICP",[916.400],0)  // ~Командир Градакова~
+    CreateCreature("YARPICP",[693.551],0)  // ~Командир Градакова~
+    CreateCreature("YARPICP",[569.718],0)  // ~Командир Градакова~
+    ActionOverride(Player1,LeaveAreaLUA("PF0136","",[672.830],0))
+    Wait(2)
+    ActionOverride("YARPEN",Enemy())
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  Global("BridgeOpen","GLOBAL",0)
+  Dead("YARPEN")  // ~Градак~
+  Dead("ARTEMIS1")  // ~Артемис~
+THEN
+  RESPONSE #100
+    SetGlobal("BridgeOpen","GLOBAL",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(3)
+    CreateCreature("ELMMOD",[440.800],0)  // ~Элминстер~
+    Wait(1)
+    ActionOverride(Player1,LeaveAreaLUA("PF0136","",[526.774],0))
+    Wait(4)
+    DisplayString("ELMMOD",@5)  // @5
+    Wait(8)
+    DisplayString(Player1,@6)  // @6
+    Wait(4)
+    ActionOverride("ELMMOD",EscapeArea())
+    ClearAllActions()
+    Wait(2)
+    AddexperienceParty(100000)
+    Wait(3)
+    EndCutSceneMode()
+    UnhideGUI()
+    //Wait(1)
+    //TextScreen("SCENEMOD")
+END
+

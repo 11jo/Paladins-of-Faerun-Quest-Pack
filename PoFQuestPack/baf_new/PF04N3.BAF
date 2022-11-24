@@ -1,0 +1,56 @@
+IF
+  OnCreation()
+  PartyHasItem("DHEA1MOD")  // ~Сердце дьявола~
+  PartyHasItem("DHEARMOD")  // ~Сердце дьявола~
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    ActionOverride("Player2",ForceSpell("Player2",DRYAD_TELEPORT))
+    ActionOverride("Player1",ForceSpell("Player1",DRYAD_TELEPORT))
+    ActionOverride("Player3",ForceSpell("Player3",DRYAD_TELEPORT))
+    ActionOverride("Player4",ForceSpell("Player4",DRYAD_TELEPORT))
+    ActionOverride("Player5",ForceSpell("Player5",DRYAD_TELEPORT))
+    ActionOverride("Player6",ForceSpell("Player6",DRYAD_TELEPORT))
+    Wait(1)
+    ActionOverride(Player2,LeaveAreaLUA("PF04N3","",[1299.1997],14))
+    ActionOverride(Player1,LeaveAreaLUA("PF04N3","",[1284.2046],14))
+    ActionOverride(Player3,LeaveAreaLUA("PF04N3","",[1226.2096],14))
+    ActionOverride(Player4,LeaveAreaLUA("PF04N3","",[1165.2072],14))
+    ActionOverride(Player5,LeaveAreaLUA("PF04N3","",[1182.2012],14))
+    ActionOverride(Player6,LeaveAreaLUA("PF04N3","",[1232.1953],14))
+    Wait(2)
+    MoveViewPoint([1231.2027],INSTANT)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF
+  OnCreation()
+  PartyHasItem("DEVHMOD")  // ~Рука дьявола~
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    ActionOverride("Player2",ForceSpell("Player2",DRYAD_TELEPORT))
+    ActionOverride("Player1",ForceSpell("Player1",DRYAD_TELEPORT))
+    ActionOverride("Player3",ForceSpell("Player3",DRYAD_TELEPORT))
+    ActionOverride("Player4",ForceSpell("Player4",DRYAD_TELEPORT))
+    ActionOverride("Player5",ForceSpell("Player5",DRYAD_TELEPORT))
+    ActionOverride("Player6",ForceSpell("Player6",DRYAD_TELEPORT))
+    Wait(1)
+    ActionOverride(Player2,LeaveAreaLUA("PF04N3","",[1726.1313],0))
+    ActionOverride(Player1,LeaveAreaLUA("PF04N3","",[1660.1274],0))
+    ActionOverride(Player3,LeaveAreaLUA("PF04N3","",[1586.1312],0))
+    ActionOverride(Player4,LeaveAreaLUA("PF04N3","",[1612.1383],0))
+    ActionOverride(Player5,LeaveAreaLUA("PF04N3","",[1664.1398],0))
+    ActionOverride(Player6,LeaveAreaLUA("PF04N3","",[1728.1381],0))
+    Wait(2)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+

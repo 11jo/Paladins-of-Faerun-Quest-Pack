@@ -1,0 +1,37 @@
+@0 = ~ It looks like Norik sent you here. ~
+@1 = ~ Yes, I met him. I'm <CHARNAME> and who are you? ~
+@2 = ~ Hm, the famous hero and his company in my temple, it is a great honor, I am Petkul the Dragonfighter. ~
+@3 = ~ Do we know each other? I don't remember you magician. ~
+@4 = ~ Yes, as you said, I am a wizard and I follow the events in Faerun. You are now known throughout western Faerun. ~
+@5 = ~ If you already know everything, maybe you know something about an elven magician who captured me and my group, and subsequently kidnapped Imoyen. ~
+@6 = ~ Oh yes, this one. ~
+@7 = ~ Do you know him? When I got out of the dungeon, I saw how he was arrested for using magic. ~
+@8 = ~ Yes, they say that they forbid the use of magic, and thus maintain order in Atkatla. ~
+@9 = ~ Where can I find the prison they were taken to? ~
+@10 = ~ Even you <CHARNAME> cannot get there, you will have to kill a lot of innocent people, but this is not your style. ~
+@11 = ~ Show me on the map where this is? ~
+@12 = ~ I'm sorry, but I don’t know the exact location, you will have to look for help elsewhere. Now about why you came. ~
+@13 = ~ And what is it? ~
+@14 = ~ A group of vampires lives under our temple, so far we have lived in peace, but recently I had a magic wand stolen. ~
+@15 = ~ So we need to go down and bring this wand back? ~
+@16 = ~ Yes, but that is not all. Somewhere in the same place is stored the second part of a very powerful weapon, a magic book. If someone collects all the necessary four parts, he will receive great power. ~
+@17 = ~ So what should I do? ~
+@18 = ~ You have to find both a magic wand and a book, can I count on you <CHARNAME>? Take this necklace if you have one; vampires won't attack. ~
+@19 = ~ Okay Petkul, I will find both items and bring them back. ~
+@20 = ~ Forbidden Temple.
+
+Petkul, the keeper of the magic wand that was abducted by the vampire clan, asked me to go to the monastery's dungeon and find the wand, as well as the book. ~
+@21 = ~ Something I do not want, I do not want to risk my neck. Maybe later. ~
+@22 = ~ So you help us? ~
+@23 = ~ Yes, I'll see what can be done. ~
+@24 = ~ I don’t have time now. ~
+@25 = ~ Have you found these items? ~
+@26 = ~ Yes, there they are. ~
+@27 = ~ No, not yet. ~
+@28 = ~ Great <CHARNAME>, I also need you to bring me the blood of a large and powerful troll. You will find many trolls north of the monastery. Bring blood to my tower northeast of here. ~
+@29 = ~ Why do you need the blood of a troll wizard? ~
+@30 = ~ You will find out everything in the tower, find and bring me the blood, it's urgent! ~
+@31 = ~ Okay, then see you in the tower. ~
+@32 = ~ Forbidden Temple.
+
+I brought both subjects to Petkul, and he asked me for the last favor. He needs me to get rid of the trolls north of the temple, and then bring the blood of one of them to his tower northeast of the temple. ~

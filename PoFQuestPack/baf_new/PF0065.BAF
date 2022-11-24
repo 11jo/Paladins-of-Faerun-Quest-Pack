@@ -1,0 +1,24 @@
+IF
+  OnCreation()
+  Global("EnteredAreaPF0065","PF0065",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredAreaPF0065","PF0065",1)
+    Weather(RAIN)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    DisplayStringHead("WFGMOD",@0)  
+    Wait(6)
+    DisplayStringHead(Player1,@1)  
+    Wait(6)
+    DisplayStringHead("WFGMOD",@2)  
+    Wait(6)
+    ActionOverride("WFGMOD",Enemy())
+    ActionOverride("WRGMOD",Enemy())
+    ActionOverride("WMGMOD",Enemy())
+    ActionOverride("WASSMOD",Enemy())
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
