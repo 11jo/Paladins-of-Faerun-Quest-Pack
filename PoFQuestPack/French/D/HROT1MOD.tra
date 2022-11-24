@@ -1,0 +1,16 @@
+@0 = ~ I was afraid that my paladin friend did not find anyone who could help us. The mercenaries are not good enough to assist in our position. I do not know what to do next. Demons hid in a cave north of here. We count on your help! ~
+@1 = ~ And what exactly needs to be done, wizard? ~
+@2 = ~ The demon is connected with Hrothgar, so while the demon is alive, Hrothgar will be inside him. If you kill a demon, its body will collapse and Hrothgar will enter our world. ~
+@3 = ~ You have to hurry, <CHARNAME>! the longer the Demon lives, the less likely we can get Hrothgar back! ~
+@4 = ~ I do not want to risk the life of my comrades, ordinary mercenaries can handle this work. ~
+@5 = ~ Okay, I will find and kill the demon. ~
+@6 = ~ This is your decision, but the mercenaries will not be able to cope with this work, I already tried <CHARNAME>! If you agree to free Hrothgar, I will give you one unique thing that I found in my travels. ~
+@7 = ~ Well, you convinced me, maybe it's worth it. ~
+@8 = ~ I already decided. Good luck! ~
+@9 = ~ Great, I'll be waiting for you at the cave entrance in the north when you are ready. ~
+@10 = ~ Hrothgar.
+
+I talked to the wizard from the eastern harbor, I promised to help him revive Hrothgar, the demon is in a cave north of here. ~
+@11 = ~ Are you back? Do you want to help me? ~
+@12 = ~ Yes, I will find and kill the demon. ~
+@13 = ~ No, I'm leaving. ~

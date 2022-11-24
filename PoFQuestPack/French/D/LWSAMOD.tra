@@ -1,0 +1,12 @@
+@1 = ~ Greetings and thanks for saving our village. ~
+@2 = ~ I'm glad I helped you. ~
+@3 = ~ That's what I need from you. You must find the army general Targos and give him this letter. ~
+@4 = ~ Okay, I will do it. Anything else? ~
+@5 = ~ No, thanks again for the help. ~
+@6 = ~ Very nice. Bye. ~
+@7 = ~ Wait a minute, what about the reward? I have some gold, will you take it? ~
+@8 = ~ Mercenary in the army of Targos.
+
+I received a letter from Lord Whistler for transmission to the general. ~
+@9 = ~ No, thank you, leave it to yourself. You will need to rebuild the village. ~
+@10 = ~ Thank you, I will take it. Bye ~

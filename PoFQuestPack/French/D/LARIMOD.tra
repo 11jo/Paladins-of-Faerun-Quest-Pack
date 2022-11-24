@@ -1,0 +1,5 @@
+@0 = ~ Who are you? What are you doing here? ~
+@1 = ~ My name is <CHARNAME>. Obviously you are Lady Aribet? Lord Nasher sent me here. You must tell me what the problem is. ~
+@2 = ~ Lord Nasher sent you to help us? Then let's get straight to the point. As you probably already know, a nearby fortress called Fort Helm was captured by the drow. In addition, they united with the barbarians, and at the moment penetrated into the city. The situation is very serious, and our only chance is to get to the Helm fortress and kill the priest who leads them. Then maybe they will retreat. They are everywhere in the city, be careful, they are very dangerous. At the eastern gate you will find our guide, he will show the road from the city to Fort Helm. I wish you good luck. ~
+@3 = ~ We will need it. Goodbye. ~
+@4 = ~ Priest must be destroyed, <CHARNAME>! ~

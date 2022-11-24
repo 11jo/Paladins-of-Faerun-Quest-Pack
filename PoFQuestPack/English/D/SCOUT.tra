@@ -1,9 +1,9 @@
 @1 = ~ I have to say that you are a very strong and hardy adventurer. And Gradak expected you to come here and defeat several guards. However, he sent us here to deliver your body to him. Can I find out your name before I kill you? ~
 @2 = ~ My name is <CHARNAME>. ~
-@3 = ~ I never heard anything about you, and I don’t understand why they chose you to protect the cult of magicians. I think they messed something up. ~
+@3 = ~ I never heard anything about you, and I donâ€™t understand why they chose you to protect the cult of magicians. I think they messed something up. ~
 @4 = ~ I will find your leader and stop him if you do not want to die here, run after Gradak and tell him that I have something for him! ~
 @5 = ~ My brothers will stop you, you will not kill Gradak. Goodbye and I hope to meet you again. ~
-@6 = ~ Paladins of Faeríàn.
+@6 = ~ Paladins of FaerÃ»n.
 
 Deep in the dungeon leading to Gradak's camp, I found a group of warriors looking for my body. I let their leader run to tell Gradak that I was on his heels. ~
 @7 = ~ When we meet again, this will be the last time. Now get out! ~

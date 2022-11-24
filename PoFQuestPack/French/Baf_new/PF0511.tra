@@ -1,0 +1,15 @@
+@0    = ~< CHARNAME >, you showed up just in time!~
+@1    = ~I can't believe the guard was given a clear order to have you and your group destroyed! I think I underestimated you < CHARNAME >.~
+@2    = ~You underestimated all of us! Me, Grafalcon, < CHARNAME > and even Elminster himself. We thought we were electing you Supreme Magician, and that would help us regain balance in all Féérune. You lied to us!~ 
+@3    = ~Yes, Elvin is absolutely right, you were my friend Tassili, a good friend, and I believed you. Why did you team up with Gradak? Are you afraid of him? Afraid of the protective aura you gave him during the ceremony?~
+@4    = ~No, I'm not afraid of that, because Gradak is my half-brother! I'm surprised you didn't know it before. Everything was planned, I just thought that you, < CHARNAME >, Grafalcon and Alvin would be killed during the struggle to protect the cult from the southerners. But the fact that you survived interferes with the continuation of our plan.~
+@5    = ~Southerners? Who are they?~
+@6    = ~Southerners, this is the name of a group of warriors from southern Féérune. Their leader is Gradak. There was never a true paladin. They say that the southerners in the battle behave like real paladins, but they are actually cunning barbarians!~
+@7    = ~So you think you can destroy all of Féérune? ~
+@8    = ~Yes, we will go from village to village, from city to city, and those who do not join our ranks will be burned at the stake, and the rest will faithfully serve us as slaves! No one will defeat our army~
+@9    = ~As long as I'm alive, no army will dare attack and enslave any part of Féérune!~
+@10   = ~All your power will not be able to compare with the power of protective magic that I gave him, and in combination with 3 magical relics, his power will not be overcome...~
+@11   = ~3 relics, I've never heard of it, but I know of an ambush in a dark forest when you captured my friend Alvin and stole a magic ball from < CHARNAME >. I guess that's one of the three relics...~
+@12   = ~Yeah, Elminster, you're really smart, but it's too late, you know about one of the three relics, and I know where the others are. And it's only a matter of time before I get them. Tassily kill them all! And I'm leaving.~
+@13   = ~Brother! < CHARNAME > is too strong even for me, let's win them together! Why split up.~
+@14   = ~Well, your brother betrayed you and my old friend Tasillo, < CHARNAME >, deal with him. Alvin, I need to find these relics, you need to help me.~

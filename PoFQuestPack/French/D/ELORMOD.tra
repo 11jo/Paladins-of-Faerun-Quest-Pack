@@ -1,0 +1,34 @@
+@0 = ~ Good afternoon, I am Elorion, mage. What do you want? ~
+@1 = ~ I'm looking for answers to some questions. ~
+@2 = ~ Well, ask if I can help with something ... ~
+@3 = ~ My name is <CHARNAME>, I'm looking for one person named Gradak, do you know anything about this? ~
+@4 = ~ Are you the one who stopped Sarevok and his tyranny in the past? ~
+@5 = ~ Yes, it's me, so did you see this person? ~
+@6 = ~ Unfortunately, I don’t know anything about him, maybe you should turn to the Grand Duke Opas. But if you stay here for a while, then I will have a task for you, of course, the reward will be worthy. What do you say? ~
+@7 = ~ Not now, I need to find Gradak, I will visit the Grand Duke, and maybe I'll be back. ~
+@8 = ~ Okay, I have a little time, what do you want? ~
+@9 = ~ Recently, "something" stole my spellbook, without which I have no power. I say “something” because it was definitely not human, I am afraid that it was Rakshasa, a very dangerous creature. ~
+@10 = ~ So what do you want from me? Do I need to find this book? ~
+@11 = ~ Yes, if you bring me a book and kill the thief, I will give you an expensive gift. ~
+@12 = ~ Do you know where he could have taken her? ~
+@13 = ~ Yes, I'm sure it was Rakshasa and he has an Ice Castle on an island in northern Féérune. ~
+@14 = ~ Am I like a seafarer? ~
+@15 = ~ Of course not, but my friend will take you there and will wait for you. So you agree to go there? ~
+@16 = ~ Yes, we are ready. ~
+@17 = ~ Ice Castle.
+
+The mage Elorion of Baldur's Gate has lost his magical power, and a spell book has been stolen from him. He thinks that the thief is Rakshasa, a very dangerous creature located in the north of Faer Ôn in Ice Castle. ~
+@18 = ~ Are you back? Do you want to help me? ~
+@19 = ~ Yes, so what happened? ~
+@20 = ~ Did you succeed? Do you have a book? ~
+@21 = ~ Yes, Rakshasa is dead. When I sailed, I saw the island disappearing in the fog. ~
+@22 = ~ This means that Rakshasa lost power. Thank you, I knew I could count on you. Here is your gift. ~
+@23 = ~ Thanks and goodbye. ~
+@24 = ~ Ice Castle.
+
+On the island, I found Rakshasa and killed him. Yataka also received a spell book, which he subsequently gave to the magician Elorion. ~
+@25 = ~ What do you want <CHARNAME>? ~
+@26 = ~ I have information that they gave you several bags from a mysterious figure who could be a killer and wanted for the murder of five people. ~
+@27 = ~ Yes, that’s true, I took them from him, I’m not going to deny it. But I can’t tell you more, even if I wanted to. I would not have lived an hour if I had said more. The only way I can help is to warn you. Be careful, the one you are looking for is very dangerous. ~
+@28 = ~ At least tell me where I should look for him? ~
+@29 = ~ I'm really sorry, but I can't help you. ~

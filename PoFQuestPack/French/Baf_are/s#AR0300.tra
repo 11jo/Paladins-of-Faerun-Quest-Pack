@@ -1,0 +1,13 @@
+@0 = ~ Message from the Grand Duke of Opas? Speak! ~
+@1 = ~ Yes, I brought a ransom for his wife and daughter. Where are they? ~
+@2 = ~ Not so fast friends, my lord changed the conditions. The buyback price for the Opas family doubles, now it's 10,000 gold. Pass it on to him! Bye. ~
+@3 = ~ (He takes a communicator from his pocket.) ~
+@4 = ~ Grand Duke, are you here? I have a new message from Atkatla for you. ~
+@5 = ~ Yes, I hear <CHARNAME>, did you find my family? ~
+@6 = ~ No, now it requires twice as much. Do I need to return for 5000 gold or continue to follow it? ~
+@7 = ~ I don't have another 5,000 gold, save my family. This equipment must be destroyed after the conversation. ~
+@8 = ~ Okay, I will follow him and save your family. Bye. ~
+@9 = ~ Family.
+
+Now a ransom of 10,000 gold is required, after talking with Danger, I decided to follow this man, he must lead me to the Opas family. ~
+@10 = ~ It's there. ~

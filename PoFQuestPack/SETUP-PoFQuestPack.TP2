@@ -21,6 +21,10 @@ LANGUAGE ~English~
 LANGUAGE ~German~ 
          ~German~ 
          ~PoFQuestPack/German/SETUP-PoFQuestPack.tra~
+		 
+LANGUAGE ~Main English / Francais Partiel~ 
+         ~French~ 
+         ~PoFQuestPack/French/SETUP-PoFQuestPack.tra~
 
 ///////////////////////////////////
 // Start Paladins of Faerun Quest Pack
@@ -5384,12 +5388,10 @@ APPEND ~MASTAREA.2da~ ~PF0080 value~ UNLESS ~PF0080~ //Cult
 APPEND ~MASTAREA.2da~ ~PF0780 value~ UNLESS ~PF0780~ //Cult
 APPEND ~MASTAREA.2da~ ~PF0680 value~ UNLESS ~PF0680~ //Cult
 
-
+COPY ~PoFQuestPack/PVRZ~   ~override~
 
 AT_INTERACTIVE_EXIT ~PoFQuestPack\PoFQuestPack_Inst.bat~
 
 AT_INTERACTIVE_UNINSTALL ~PoFQuestPack\PoFQuestPack_Uninst.bat~
-
-
 
 

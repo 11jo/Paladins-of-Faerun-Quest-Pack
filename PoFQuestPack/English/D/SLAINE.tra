@@ -1,12 +1,12 @@
 @1   = ~So you're the one who helped us in this terrible situation? Um, what's your name as an adventurer? just for you, just Slane...~
-@2   = ~I'm Gorayon's son, a friend of Elminster's... At your service... I was sent here by Elminster to help the city and save you... But I see you saved yourself... You are a very experienced warrior and perhaps you are the one who will help me stop Sir Yarpen from destroying the cities of Faerun...~
-@3   = ~You're right, son of Gorayon... You are the son of the creator of the cult of Faerun... I'm the one you're looking for... I'll help you defeat Yarpen... And I know how to do it...~
+@2   = ~I'm Gorayon's son, a friend of Elminster's... At your service... I was sent here by Elminster to help the city and save you... But I see you saved yourself... You are a very experienced warrior and perhaps you are the one who will help me stop Sir Yarpen from destroying the cities of Faerûn...~
+@3   = ~You're right, son of Gorayon... You are the son of the creator of the cult of Faerûn... I'm the one you're looking for... I'll help you defeat Yarpen... And I know how to do it...~
 @4   = ~How do you tell me Slane...~
 @5   = ~First you have to do something for the city...~
 @6   = ~It's not a problem, tell me what to do, but we don't have much time to spend it...~
 @7   = ~Know what < Invalid Strref -1 > should be here.~
 @8   = ~So, you did a good job of Gorayon's son... Now I have to leave Targos... And go to New Brinlow... Come to me when you're ready... We're gonna talk to my old good friend there... We need him if we want to succeed...~
-@9   = ~Paladins of Faerun.
+@9   = ~Paladins of Faerûn.
 
 Now I spoke with the legendary paladin Slane... He told me he could help me... But first he has to find his friend in New Brinlow... So when I'm ready, I have to get there and find him somewhere in town...~
 @10  = ~Okay, I'll go... Farewell Slane~

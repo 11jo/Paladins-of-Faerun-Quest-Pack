@@ -2,7 +2,7 @@
 @1 = ~ Yes, I spoke with a former gladiator who had previously participated in a gladiatorial tournament, and he told me about this place. ~
 @2 = ~ If you want to take part in the tournament, you have to pay 10,000 gold. ~
 @3 = ~ Here are 10,000 gold. What are the terms and conditions of the battle? ~
-@4 = ~ I don’t have that amount with me. I'll be back later. ~
+@4 = ~ I donâ€™t have that amount with me. I'll be back later. ~
 @5 = ~ I changed my mind. I do not want to fight. Bye. ~
 @6 = ~ Do you want my people to escort you to the gate? ~
 @7 = ~ Yes. ~
@@ -17,7 +17,7 @@
 @16 = ~ You defeated a regular gladiator. Congratulations, here is your reward. 500 gold. Are you ready for the next fight? ~
 @17 = ~ Yes, who is next? ~
 @18 = ~ I need some rest. ~
-@19 = ~ Your next rival will be the overlord of animals from western Faeríàn. For a victory you will receive 1000 gold. ~
+@19 = ~ Your next rival will be the overlord of animals from western FaerÃ»n. For a victory you will receive 1000 gold. ~
 @20 = ~ Then go ahead. ~
 @21 = ~ Beastmaster defeated. Congratulations, here is your reward. 1000 gold. Are you ready for the next battle? ~
 @22 = ~ The next opponent is the wizard from Erlkazar. Get 2000 gold for the victory. ~
