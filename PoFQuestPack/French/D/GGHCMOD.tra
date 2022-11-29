@@ -1,5 +1,5 @@
 @1 = ~ Everyone stay put, who are you? You can't easily get to this place. ~
-@2 = ~ Everything is fine, I <CHARNAME>, Alvin sent me, I need to visit the archmage, the founder of the Féérune cult .. Let me through. ~
+@2 = ~ Everything is fine, I <CHARNAME>, Elwin sent me, I need to visit the archmage, the founder of the Féérune cult .. Let me through. ~
 @3 = ~ I'm afraid the archmage has nothing to tell you. Did you say your name is <CHARNAME>? ~
 @4 = ~ Yes, it's me. ~
 @5 = ~ The archmage said that when you come, I must immediately kill you, because you are a threat to his plan. ~
@@ -7,5 +7,5 @@
 @7 = ~ Last night, a warrior in armor came here, magicians called him "Sir Gradak." Since then, the orders have changed. No one can enter the Council, and if a group arrives led by the offspring of Baal, I must immediately stop them. I'm sorry <CHARNAME>, but order is order! ~
 @8 = ~ Paladins of Féérune.
 
-When we approached the entrance to the Council of Mages, where Alvin sent us, the guard stopped us and spoke of some changes in orders. It is necessary to destroy the group led by the offspring of Baal. Everything starts to get complicated somehow, I don’t even know who is with us and who is against us. There is only one way to find out, we need to get to the founder of the Paladin cult of Féérune. ~
+When we approached the entrance to the Council of Mages, where Elwin sent us, the guard stopped us and spoke of some changes in orders. It is necessary to destroy the group led by the offspring of Baal. Everything starts to get complicated somehow, I don’t even know who is with us and who is against us. There is only one way to find out, we need to get to the founder of the Paladin cult of Féérune. ~
 @9 = ~ Hey, what's going on here, this Gradak is the enemy, not me! ~

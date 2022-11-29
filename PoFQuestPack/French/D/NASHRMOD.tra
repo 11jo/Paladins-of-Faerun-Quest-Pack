@@ -1,37 +1,39 @@
-@0 = ~ Hello <CHARNAME>, welcome to Neverwinter. First of all, let me apologize for such an unceremonious invitation. We would not allow ourselves such actions if it were not for extraordinary circumstances. ~
-@1 = ~ I must say that this is very unexpected! I was not going to visit your city. So what's the matter, sir? ~
-@2 = ~ Quite unexpectedly, Neverwinter found himself in a difficult position. Recently, we had to stop trading with Luskan after their ship was burned in our harbor. Luskan accused us of intentionally destroying their ship. But we found out that the ship was set on fire by one of the members of the Luskan merchant guild located in the port area. ~
-@3 = ~ Why would the Luskan merchant guild destroy its own merchant ship? There is no logic here. ~
-@4 = ~ No, quite the opposite! We are talking about a war between ours and the Luskan trade guilds. Our guild is much stronger, and if the Luskan guild wants to crush all trade for themselves, then they will need at least a medium-sized army! ~
-@5 = ~ So it means that they want to blame it on your trading guild and ultimately on the entire Neverwinter? ~
-@6 = ~ Yes, that’s exactly what will happen, they will indict us and our city will be under siege, no one will enter and not leave Neverwinter. But that is not all. Almost simultaneously with the provocation of Luskan, a nearby fortress called Fort Helm was captured by the drow. This fort defended Neverwinter from enemies for many years and was home to Helm's servants. Perhaps one of them entered into an alliance with the dark elves. Fort Helm was conquered in half an hour. When we found out about this, it was too late. ~
-@7 = ~ Our troops under Lady Aribet were able to repel a drow attack on the city. But they teamed up with the barbarians, who had long sought to destroy the cities of the North. We resist as much as we can, but we do not have enough strength. I heard about you from the merchants from Baldur's Gate, and I am sure that you are the only one who can stop this before it is too late. ~
-@8 = ~ I do not know what you heard sire, but I will try to do my best to save your city. However, it would not hurt me to have suitable equipment, weapons, and the like. ~
-@9 = ~ Well, that’s not a problem, Lord Gratius, the Commander-in-Chief of the Royal Guard will give everything you need. <CHARNAME>! I received a report that the Luskans had broken through the city walls. Go to the western part of the city and deal with their captain, along the way, eliminate any threat to the city. When you deal with their captain, come back. ~
-@10 = ~ Good sire, I set off immediately. ~
-@11 = ~ Neverwinter.
+// Lord Nasher  // Padhiver
 
-Luskans infiltrated the city, Lord Nasher set before me the task of eliminating all Luskans, but the main thing is to find their captain in the western part of the city. ~
-@12 = ~ Well, the captain is dead, but I received a report that a very dangerous wizard from the Luskan magic tower appeared in the south-west of the city. Stop him at all costs! ~
-@13 = ~ Neverwinter.
+@0 = ~Bonjour <CHARNAME>, bienvenue à Padhiver. Tout d'abord, permettez-moi de m'excuser pour vous avoir « invité » sans cérémonie. Nous ne nous permettrions pas un tel affront si les circonstances n'étaient pas extraordinaires.~
+@1 = ~En effet tout ceci est très inattendu ! Je n'avais pas vraiment prévu de visiter votre ville. Alors, que me voulez-vous ?~
+@2 = ~Padhiver s'est soudainement retrouvé dans une position très difficile. Nous avons dû arrêter cesser tout commerce avec Luskan après qu'un de leurs bateaux ait été incendié dans notre port. Luskan nous a accusé d'avoir intentionnellement couler leur navire. Mais nous avons découvert que le navire en question aurait pris feu suite à l'intervention de l'un des membres de la guilde des marchands de Luskan implantée dans la zone portuaire.~
+@3 = ~Pourquoi la guilde des marchands de Luskan détruirait-elle son propre navire ? Ce n'est pas logique.~
+@4 = ~Bien au contraire ! Il s'agit d'une guerre des guildes, entre les negociants de Padhiver et les marchands de Luskan. Notre guilde est bien plus influente et si la guilde de Luskan veut le monopole du commerce, alors il lui faudra au une armée !~
+@5 = ~Ils veulent donc vous faire porter le chapeau !~
+@6 = ~Oui, c'est exactement ce qui se passe, ils vont nous mettre cette affaire sur le dos et notre ville sera assiégée, plus personne ne peut entrer ou sortir de Padhiver. Mais les problèmes ne s'arrêtent pas là. Au même moment, une forteresse voisine appelée Fort Helm a été conquise par des elfes noirs. Ce fort a défendu Padhiver pendant de nombreuses années, elle était le foyer des fidèles de Helm. Peut-être l'un d'entre eux a-t-il conclu une alliance avec les elfes noirs. Il a été pris en moins d'une heure. Quand nous l'avons découvert, il était trop tard~
+@7 = ~Sous les ordres de Dame Aribeth nos troupes ont pu repousser une attaque des elfes noirs. Mais maintenant qu'ils se sont alliés aux barbares du nord, qui souhaitent depuis longtemps détruire les villes établis au nord. Nous résistons autant que possible, mais n'avons pas la force nécessaire. J'ai entendu parler de vous par des marchands venus de la Porte de Baldur, et je crois que vous êtes le seul à pouvoir nous prêter main forte avant qu'il ne soit trop tard.~ ~Sous les ordres de Dame Aribeth nos troupes ont pu repousser une attaque des elfes noirs. Mais maintenant qu'ils se sont alliés aux barbares du nord, qui souhaitent depuis longtemps détruire les villes établis au nord. Nous résistons autant que possible, mais n'avons pas la force nécessaire. J'ai entendu parler de vous par des marchands venus de la Porte de Baldur, et je crois que vous êtes la seule à pouvoir nous prêter main forte avant qu'il ne soit trop tard.~
+@8 = ~Je ne sais pas quelle histoires on raconte à mon sujet, mais je ferai de mon mieux pour préserver votre ville. Néanmoins, je devrais avoir accès à un équipement adéquat, des armes et autres équipements.~
+@9 = ~Ce ne sera pas un problème, le Seigneur Gratius, Commandant en chef de la Garde Royale vous donnera tout ce dont vous avez besoin. <CHARNAME> ! Nous venons de recevoir un rapport indiquant que les soldats de Luskan ont franchi les murs de la ville. Rendez vous à l'ouest de la ville et occupez vous de leur capitaine et éliminez toute menace potentielle pour la ville. Revenez ici quand se sera fait.~
+@10 = ~Très bien, je pars immédiatement~
+@11 = ~ Padhiver
 
-In the south-west of the city, a magician from Luskan appeared, he poses a serious threat to the city, we need to quickly deal with it. ~
-@14 = ~ Take care of this captain <CHARNAME>! ~
-@15 = ~ Great work <CHARNAME>, you returned unscathed and, as I see, you have dealt with the magician. Here is your reward. However, there are still problems - a few minutes ago I received a report from Lady Aribet - the drow and the barbarians broke into the city! Our magician will transfer you to Lady Aribet, give her all possible help! ~
-@16 = ~ Neverwinter.
+Les soldats de Luskan ont infiltré la ville, Le Seigneur Nasher m'a confié la tâche de les éliminer, mais le plus important est de débusquer leur capitaine dans la partie ouest de la ville. ~
+@12 = ~Bien, le capitaine n'est plus, mais j'ai reçu un nouveau rapport, un dangereux sorcier de la tour de mages de Luskan est apparu dans le sud-ouest de la ville. Arrêtez-le à tout prix ~
+@13 = ~ Padhiver
 
-Lord Nasher has a new task for us - to help Lady Aribet. ~
-@17 = ~ The wizard from Luskan must be destroyed, <CHARNAME>! ~
-@18 = ~ Great job <CHARNAME>, you managed to recapture Fort Helm from the enemies! Here is your reward. Now that the immediate danger to the city has passed, we need to deal with the culprit of all these problems. We found out that he is in the Luskan trading guild. Find a liaison at the fountain in the western part of the city, he will lead you to our trading guild. ~
-@19 = ~ Sir, how do I know a messenger? ~
-@20 = ~ Neverwinter.
+Au sud-ouest de la ville, un magicien de Luskan est apparu, il représente une menace sérieuse pour la ville, nous devons nous en occuper rapidement.~
+@14 = ~Chargez-vous de ce capitaine <CHARNAME> !~
+@15 = ~Beau travail <CHARNAME>, vous vous êtes occupé du magicien et êtes revenu indemne. Voici votre récompense. Mais les problèmes continuent - il y a quelques minutes, Dame Aribeth a signaler que des elfes noirs et des barbares ont pénétré dans la ville ! Notre magicien va vous transférer auprès de Dame Aribeth, apportez-lui toute l'aide possible !~
+@16 = ~ Padhiver
 
-At the fountain in the western part of the city you will be waiting for the royal liaison, we must deal with the perpetrator of the destruction of the Luskan ship in the port of Neverwinter.~
-@21 = ~ You can’t worry, take my errand as evidence. Now go, you have to find the culprit and stop this crazy war. ~
-@22 = ~ Take care of the head of the Luskan guild, <CHARNAME>! ~
-@23 = ~ You have done us a great service <CHARNAME>, thank you on behalf of the whole city. You saved a lot of innocent people. Here is your reward. ~
-@24 = ~ Well, in fact, I had little choice whether to help or not. The city was under siege. But I'm glad I figured it out. ~
-@25 = ~ Neverwinter.
+Le Seigneur Nasher a une nouvelle tâche pour nous - assister Dame Aribeth.~
+@17 = ~<CHARNAME>, ce satané magicien doit être détruit ! ~
+@18 = ~Félicitations <CHARNAME>, vous avez réussi à reprendre Fort Helm ! Voici votre récompense. Maintenant que le danger le plus pressant est écarté, nous devons nous occuper du responsable. Nous avons découvert qu'il fait partie de la guilde des marchands de Luskan. Retrouvez votre agent de liaison à la fontaine dans la partie ouest de la ville, il vous mènera à notre guilde des négociants.~
+@19 = ~Comment pourrons-nous nous reconnaître ?~
+@20 = ~ Padhiver
 
-The threat to the city has been eliminated. ~
-@26 = ~ I have to say goodbye to you, thanks again and goodbye. Our magician will send you to the place where you met him. ~
+A la fontaine de la partie ouest de la ville, vous attendrez votre agent de liaison, afin de retrouver l'auteur de la destruction du navire de Luskan dans le port de Padhiver.~
+@21 = ~Ne vous inquiétez pas prenez cette missive de ma part et allez y, ce traître doit être retrouvé, nous devons arrêter cette guerre insensée.~
+@22 = ~Occupez-vous du chef de la guilde Luskan, <CHARNAME> !~
+@23 = ~Vous nous avez rendu un grand service <CHARNAME>, merci au nom de toute la communauté de Padhiver. Vous avez sauvé beaucoup d'innocents. Voici votre récompense.~
+@24 = ~Et bien, je n'avais pas vraiment un choix. La ville était assiégée. Mais je suis ravi d'avoir trouvé une solution.~ ~Et bien, je n'avais pas vraiment un choix. La ville était assiégée. Mais je suis ravie d'avoir trouvé une solution.~
+@25 = ~ Padhiver
+
+Le traître a été éliminé~
+@26 = ~ Je vous dis au revoir et merci. Notre magicien va vous renvoyer à l'endroit où vous l'avez rencontré.~

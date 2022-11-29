@@ -1,28 +1,28 @@
-@0 = ~ Lower your weapon! ~
-@1 = ~ Hey, take it easy! One of the prisoners sent me here, I have a letter for you. ~
-@2 = ~ Come on here. ~
-@3 = ~ It doesn't prove anything! You have 2 options to prove that you are our friend. We need volunteers who will compete in the arena with our prisoners. Or you can save our brothers. They're all going to be executed. ~
-@4 = ~ Let the battle begin! ~
-@5 = ~ You won the duel <CHARNAME>, you earned our trust. Now go to the druid, he is waiting for you. ~
-@6 = ~ Forest lady weakened, the forest began to burn. The viceroy found the sword. ~
-@7 = ~ Yes, I know. <CHARNAME>, I will take care of the forest mistress, you must find the sword and bring it back! ~
-@8 = ~ The tread is dead, I returned with a rune blade. ~
-@9 = ~ Great job <CHARNAME>. We are grateful for all that you have done. We believe that this very powerful sword will be safe only with you. Leave it with you. Now excuse us, we have a lot of work. ~
-@10 = ~ Tethyr.
+@0 = ~Déposer vos armes !~ // Protecteur
+@1 = ~Holà, doucement ! Un des prisonniers m'a demandé de faire passer un message, j'ai une lettre pour vous.~ // Charname
+@2 = ~Donnez-moi ça.~ // Protecteur
+@3 = ~Ça ne prouve pas grand-chose ! Vous avez deux possibilités pour prouver vos intentions. Nous avons besoin de volontaires pour combattre dans l'arène avec nos prisonniers. Ou alors vous pouvez sauver nos frères qui sont sur le point d'être exécutés.~ // Protecteur
+@4 = ~Que le combat commence !~ // Protecteur
+@5 = ~Tu as gagné le duel <CHARNAME> et ainsi obtenu notre confiance. Maintenant rejoignez le druide, il vous attend.~ // Protecteur
+@6 = ~La Maîtresse de la forêt est affaiblie, les bois sont en train de brûler. Le gouverneur a trouvé l'épée.~ // Charname
+@7 = ~Oui <CHARNAME>, je suis au courant. Je m'occupe de la Maîtresse de la forêt. Et toi, tu dois retrouver l'épée et la ramener.~ // Paladin ?
+@8 = ~Le Gouverneur est mort, je suis revenu avec la Lame des runes.~ // Charname
+@9 = ~Excellent travail <CHARNAME>. Nous sommes reconnaissants pour tout ce que tu as fait. Nous pensons que cette épée extrêmement puissante ne sera en sécurité qu'avec toi. Garde-la précieusement. Maintenant pardonne-nous, mais nous avons beaucoup à faire.~ // Paladin ?
+@10 = ~Téthyr.
 
-Dryad in the Umar Hills asked me for help. Tetira Forest is destroyed by the governor of the local castle. This needs to be investigated. ~
-@11 = ~ Tethyr.
+La dryade des collines d'Umar a sollicité mon aide. La forêt de Téthyr est détruite par le gouverneur local. Cette affaire requiert une investigation.~
+@11 = ~Tethyr.
 
-I received a letter from one of the prisoners, which must be delivered to the forest, but first I need to talk to the governor of the castle. ~
-@12 = ~ Tethyr.
+Un des prisonniers ma transmis un message, je dois le porter dans la forêt, mais avant il faut que je m'entretienne avec le propriétaire du château.~
+@12 = ~Téthyr.
 
-I talked with one of the prisoners, he gave me a letter, which I must deliver to the forest, not far from the castle. ~
-@13 = ~ Tethyr.
+J'ai parlé avec un des prisonniers, il m'a confié une missive que je dois délivrer dans la forêt, non loin du château.~
+@13 = ~Téthyr.
 
-I gained trust from the inhabitants of the Tetir Forest. Now I need to find the forest mistress, somewhere in the north of the forest. She guards a very powerful weapon, a rune sword. The viceroy is interested in this sword. ~
-@14 = ~ Tethyr.
+J'ai gagné la confiance des habitants de la forêt de Téthyr. Maintenant, je dois rencontrer la Maîtresse de la forêt, quelque part au nord d'ici. Elle est gardienne la d'une arme très puissante, une épée runique. Le gouverneur est très intéressé par cette épée.~
+@14 = ~Téthyr.
 
-The viceroy began to burn the Tethyr forest and stole the treasure. I have to find him and stop this madness. ~
-@15 = ~ Tethyr.
+Le gouverneur a entrepris de brûler la forêt de Téthyr et a dérobé son trésor. Je dois le retrouver et arrêter cette folie.~
+@15 = ~Téthyr.
 
-Tetirsky forest was saved. As a reward, I received a very powerful rune sword. ~
+La forêt de Téthyr est préservée. En récompense, j'ai reçu une épée runique très puissante.~

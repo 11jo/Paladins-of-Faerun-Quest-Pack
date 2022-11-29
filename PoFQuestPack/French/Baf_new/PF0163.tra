@@ -1,9 +1,11 @@
-@0 = ~ Welcome to our adventurer, under normal circumstances, I would probably guide you and show you our best products, but this is not the right time ... We are here for a different one, right, my friend? ~
-@1 = ~ Of course, but I'm not a friend to you, we barely know each other. Who the hell are you? And why am I here? ~
-@2 = ~ So let me introduce myself, I'm the leader of the Neverwinter trade guild and I sent this for you, because we have a common enemy. ~
-@3 = ~ Hm, you think you're talking about the Luscan Trade Guild? ~
-@4 = ~ You guessed the adventurer, for two months now they have sent killers to us and steal our goods. It must be stopped! ~
-@5 = ~ Don't be offended, but I don't want to interfere in disputes between the Neverwinter guilds. ~
-@6 = ~ I think I have no choice. I am the only one who can penetrate their guild. ~
-@7 = ~ Well, I'm glad to hear ... How much will it cost me? ~
-@8 = ~ I have two tasks for you before you get into the guild and one will be in the guild itself. When you are ready, come to me. ~
+// Guild Head of Neverwinter // Chef de la guilde des négociants
+
+@0 = ~Bien le bonjour cher aventurier, dans des circonstances plus normales, je vous guiderais à travers les lieux et vous montrerais probablement nos meilleurs articles, mais les circonstances non rien d'habituel.... Nous nous rencontrons autour d'un sujet bien différent, n'est-ce pas, mon ami ?~ ~Bien le bonjour chère aventurière, dans des circonstances plus normales, je vous guiderais à travers les lieux et vous montrerais probablement nos meilleurs articles, mais les circonstances non rien d'habituel.... Nous nous rencontrons autour d'un sujet bien différent, n'est-ce pas, mon amie ?~// Chef de la guilde des négociants
+@1 = ~Et bien, ami est un peu fort nous venons à peine de nous rencontrer. Qui êtes-vous donc ? Et qu'est-ce que je fais ici ?~ ~Et bien, amie est un peu fort nous venons à peine de nous rencontrer. Qui êtes-vous donc ? Et qu'est-ce que je fais ici ?~ // Charname
+@2 = ~Alors laissez-moi me présenter, je suis à la tête de la guilde des négociants de Padhiver et je vous ai convoqué, au sujet de notre ennemi commun.~// Chef de la guilde des négociants
+@3 = ~Hum, j'imagine que vous parlez de la guilde des marchands de la ville de Luskan ?~ // Charname
+@4 = ~Vous avez vu juste aventurier, depuis deux mois maintenant ils nous envoient des assassins et des voleurs pour dérober nos marchandises. Cela doit cesser et vite !~ ~Vous avez vu juste aventurière, depuis deux mois maintenant ils nous envoient des assassins et des voleurs pour dérober nos marchandises. Cela doit cesser et vite !~// Chef de la guilde des négociants
+@5 = ~Ne soyez pas offensé, mais je ne tiens pas à m'immiscer dans les conflits entre guildes, qu'elles soient de Padhiver ou d'ailleurs.~ // Charname
+@6 = ~Vous n'avez pas vraiment le choix. Vous êtes le seul à pouvoir pénétrer dans leur guilde.~ ~Vous n'avez pas vraiment le choix. Vous êtes la seule à pouvoir pénétrer dans leur guilde.~ // Chef de la guilde des négociants
+@7 = ~Eh bien, je suis ravi de l'entendre... Qu'attendez-vous de moi ?~ // Charname
+@8 = ~J'ai deux tâches à vous confier avant ça et ensuite il vous faudra pénétrer à l’intérieur même de la guilde. Quand vous serez prêt, venez me voir.~ ~J'ai deux tâches à vous confier avant ça et ensuite il vous faudra pénétrer à l’intérieur même de la guilde. Quand vous serez prête, venez me voir.~ // Chef de la guilde des négociants

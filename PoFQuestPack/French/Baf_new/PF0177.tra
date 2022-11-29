@@ -1,7 +1,7 @@
-@0 = ~ What do you need here? ~
-@1 = ~ Stop the execution, we came for the prisoners! ~
-@2 = ~ This execution is carried out by order of the Viceroy, and you have never been seen here before. Let's do it - either you leave or you can be added to the convicts. ~
-@3 = ~ Try to stop me! ~
-@4 = ~ Thanks for saving me. Is it you again? Did you deliver my message? ~
-@5 = ~ Yes, he did, but your friends doubted something and gave me an ultimatum, or to save you or kill the prisoners in the camp. ~
-@6 = ~ I'm sorry that you were treated like this, but now is not the time to discuss this, the governor may attack the forest at any moment, I will immediately send you to the druid. ~
+@0 = ~Qu'est ce que vous me voulez ?~ // Bourreau
+@1 = ~Interrompez l'exécution, nous sommes venus pour les prisonniers !~ // Charname
+@2 = ~Cette exécution a été ordonnée par le gouverneur, je ne vous ai jamais vu et je ne vous connais pas. Vous avez deux options - soit vous partez, soit vous serez exécuté avec les autres.~ // Bourreau
+@3 = ~En effet vous ne me connaissez pas !~ // Charname
+@4 = ~Merci de m'avoir sauvé. Oh, c'est encore vous ? Avez-vous transmis mon message ?~ // Prisonnier
+@5 = ~Oui, mais vos camarades n'avaient pas confiance en moi et m'ont donné le choix : Aller à votre secours ou tuer leurs propre prisonniers.~ // Charname
+@6 = ~Je suis désolé que vous ayez été traité de la sorte, mais ce n'est pas le lieu pour en discuter, le gouverneur peut attaquer la forêt à tout instant, vous devez immédiatement vous rendre chez le druide.~ // Prisonnier

@@ -1,5 +1,7 @@
-@0 = ~ And what next is the wizard? ~
-@1 = ~ I will try to summon a mighty forest warrior who will help us against the Luskans. But recall, habit can have side effects, in addition to calling a warrior, different monsters may appear, be ready for adventurers. I believe that you will cope with everything that comes out of the portal. ~
-@2 = ~ Good wizard, let's read! ~
-@3 = ~ That's it! The work is done. ~
-@4 = ~ Wizard. The Neverwinter wizard asked me to buy a healing potion and a sharp mind potion in a local temple. ~
+@0 = ~Et ensuite magicien, que ce passe-t-il ?~ // Charname
+@1 = ~Je vais essayer d'invoquer un puissant guerrier des bois qui nous apportera son aide contre Luskan. Mais attention, ce procédé peut avoir des effets indésirables, en plus d'invoquer le guerrier, divers monstres peuvent apparaître, soyez prêts les aventuriers. Je suis convaincu que vous pourraient affronter tout ce qui sortira de ce portail.~ // Ensorceleur
+@2 = ~Merci bien le magicien, il est temps de psalmodier !~ // Charname
+@3 = ~Et voilà le travail ! Nous avons réussi.~ // Ensorceleur
+@4 = ~Magicien. 
+
+L'Ensorceleur de Padhiver m'a confié la tâche d'acheter une potion de soins et une potion de liberté (ou bien est-ce une potion d’intelligence...) au temple du coin.~

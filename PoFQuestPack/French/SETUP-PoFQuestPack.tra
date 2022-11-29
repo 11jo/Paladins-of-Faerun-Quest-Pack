@@ -1,4 +1,4 @@
-@1 = ~Paladins of Féérune Quest Pack~
+@1 = ~Quêtes : Les Paladins de Féérune~
 @2 = ~Student of Academy~
 @3 = ~Student~
 @4 = ~Magister~
@@ -8,18 +8,18 @@
 @8 = ~Elgen~
 @9 = ~Alastor~
 @10 = ~Main archimagus~
-@11 = ~Archer of Amn~
-@12 = ~Soldier of Amn~
+@11 = ~Archer d'Amn~
+@12 = ~Soldat d'Amn~
 @13 = ~Captain of riders from Amn~
 @14 = ~Amnish captain~
-@15 = ~Bodyguard~
+@15 = ~Garde du corps~
 @16 = ~Amnish lieutenant~
 @17 = ~The rider from Amn~
 @18 = ~Magister of academy~
-@19 = ~Lord Aragorn~
+@19 = ~Seigneur Aragorn~
 @20 = ~Aran~
-@21 = ~Archmage~
-@22 = ~Priest of Shevarash~
+@21 = ~Archimage~
+@22 = ~Prêtre de Shevarash~
 
 @24 = ~Ardes, the highest priest~
 @25 = ~Ardes~
@@ -29,15 +29,15 @@
 @29 = ~Artemis Entreri~
 @30 = ~Crunan~
 @31 = ~Arundel~
-@32 = ~Thief~
+@32 = ~Voleur~
 @33 = ~Assassin~
 @34 = ~Trade king~
 @35 = ~Atkatla's king~
 @36 = ~Ogastes~
 @37 = ~Citizen of Baldur's Gate~
-@38 = ~Thug, soldier~
-@39 = ~Thug, archer~
-@40 = ~Thug, murderer~
+@38 = ~Bandit, soldat~
+@39 = ~Bandit, archer~
+@40 = ~Bandit, meurtrier~
 @41 = ~Barbarian of the North~
 @42 = ~Barbarossa~
 @43 = ~The wandering bard~
@@ -45,42 +45,42 @@
 @45 = ~Kevtiln~
 @46 = ~Guard of the pass~
 @47 = ~Sacred rage~
-@48 = ~Captain of guards~
-@49 = ~Trade deputy~
-@50 = ~Treasures hunter~
+@48 = ~Capitaine des gardes~
+@49 = ~Délégué au commerce~
+@50 = ~Chasseur de trésor~
 @51 = ~Adoster Son of the Dryad~
-@52 = ~Citizen of Baldur's Gate~
-@53 = ~Opas~
+@52 = ~Citoyen de la Porte de Baldur~
+@53 = ~Grand Duc Opas~
 @54 = ~Bloodthirsty vampire~
-@55 = ~Wizard~
-@56 = ~Sister of Bodhi~
-@57 = ~Mayor~
+@55 = ~Magicien~
+@56 = ~Sœur de Bodhi~
+@57 = ~Maire~
 @58 = ~Keeper of a brotherhood~
 @59 = ~Margul~
 @60 = ~Monk of Brotherhood~
 @61 = ~Paladin of a cult~
 @62 = ~Follower of a cult~
 @63 = ~Catty~
-@64 = ~Assassin of Cyric~
+@64 = ~Assassin de Cyric~
 @65 = ~Champion~
-@66 = ~Citizen~
+@66 = ~Citoyen~
 @67 = ~Priest of the Bloody Spears~
-@68 = ~Priest of Cyric~
-@69 = ~High priest of Cyric~
+@68 = ~Prêtre de Cyric~
+@69 = ~Haut prêtre de Cyric~
 @70 = ~The elf in dark~
-@71 = ~Priest~
-@72 = ~Pirate of Calimport~
-@73 = ~Defender of Calimport~
-@74 = ~Priestess Shaar~
-@75 = ~Messenger~
-@76 = ~Messenger's guard~
+@71 = ~Prêtre~
+@72 = ~Pirate de Calimport~
+@73 = ~Défenseur de Calimport~
+@74 = ~Prêtresse de Shaar~
+@75 = ~Messager~
+@76 = ~Gardien du messager~
 @77 = ~Do you wish something?~
 @78 = ~Craven~
 @79 = ~Bloody Clan~
-@80 = ~High priest of Cyric~
-@81 = ~Mage of Neverwinter~
-@82 = ~Corpse~
-@83 = ~Priest of Helm~
+@80 = ~Haut prêtre de Cyric~
+@81 = ~Mage de Padhiver~
+@82 = ~Corps~
+@83 = ~Prêtre de Helm~
 @84 = ~Servant of a devil~
 @85 = ~Maric Battlebeard~
 @86 = ~Battlebeard~
@@ -88,17 +88,17 @@
 @88 = ~Man's body~
 @89 = ~Dorregarie~
 @90 = ~Guard dragon~
-@91 = ~Keeper of relics~
-@92 = ~Black dragon~
+@91 = ~Gardien des reliques~
+@92 = ~Dragon noir~
 @93 = ~Dracorex~
 @94 = ~Mining druid~
-@95 = ~High priestess of Eilistraee~
-@96 = ~High priestess~
+@95 = ~Haut prêtresse d'Eilistraee~
+@96 = ~Haut prêtresse~
 @97 = ~Governor of the house Lolth~
 @98 = ~Servant of Eilistraee~
 @99 = ~Leader of drow~
-@100 = ~Priestess Eilistraee~
-@101 = ~Old dragon~
+@100 = ~Prêtresse d'Eilistraee~
+@101 = ~Vieux dragon~
 @102 = ~Jarlaxle's drow~
 @103 = ~Jarlaxle's priest~
 @104 = ~Drow merchant~
@@ -107,13 +107,13 @@
 @107 = ~Leader of Gray One~
 @108 = ~Duergar~
 @109 = ~Gnome warrior~
-@110 = ~Woman's body~
+@110 = ~Corps de femme~
 @111 = ~Dwarf Leader~
 @112 = ~Dwarf of Dorn~
 @113 = ~Dhaerowathil~
 @114 = ~When you ask Dhaerowathil about his past, he says that he for many years tried to obtain to become the drow-murderer, and now at last he was lucky. On it it is visible that it is still young and in fight rushes thoughtlessly.~
 @115 = ~Local priest~
-@116 = ~Militia~
+@116 = ~Milicien~
 @117 = ~Eladriel~
 @118 = ~Electro~
 @119 = ~Eli~
@@ -136,8 +136,8 @@
 @136 = ~Defender of the Evil~
 @137 = ~Fallen paladin~
 @138 = ~Farmer~
-@139 = ~Forest fairy~
-@140 = ~Fallen paladin of Order~
+@139 = ~Fée des Forêts~
+@140 = ~Paladin déchu de l'Ordre~
 @141 = ~Servant of Helm~
 @142 = ~Gradak~
 @143 = ~Frosti~
@@ -148,13 +148,13 @@
 @148 = ~Gladiator veteran~
 @149 = ~Gold sorcerer~
 @150 = ~Leader of orcs~
-@151 = ~Orc archer~
+@151 = ~Archer orc~
 @152 = ~Skilled archer~
 @153 = ~Skilled orc~
 @154 = ~Orc~
 
 @156 = ~Gralamin~
-@157 = ~Shadow Thief~
+@157 = ~Voleur de l'ombre~
 @158 = ~Gradak's Chief Guard~
 @159 = ~Chief Guard~
 @160 = ~Witch defender~
@@ -166,8 +166,8 @@
 @166 = ~Hrotgar~
 @167 = ~To ask great Hrotgar about his past it is useless. Hrotgar is paladin, hero of Northern lands. Now got the second chance thanks to you and it is visible that he is very grateful for it. Hundred years later having behind shoulders huge experience, it can start wanderings again having joined your group.~
 @168 = ~Rajkskul~
-@169 = ~Mayor's daughter~
-@170 = ~Ranger~
+@169 = ~Fille du maire~
+@170 = ~Rôdeur~
 @171 = ~Hunting worg~
 @172 = ~Innkeeper~
 @173 = ~Innkeeper of Calimport~
@@ -179,7 +179,7 @@
 @179 = ~Ireniсus's patrol~
 @180 = ~Jarlaxle's Servant~
 @181 = ~Prison guard~
-@182 = ~Dark person~
+@182 = ~Personnage sombre~
 @183 = ~King's daughter~
 @184 = ~Kelrot~
 
@@ -206,7 +206,7 @@
 @206 = ~Lord Norgold~
 @207 = ~Lord of the Undead~
 @208 = ~Leader of hunters~
-@209 = ~Trolls hunter~
+@209 = ~Chasseur de trolls~
 
 @211 = ~Lord Lorearthen~
 @212 = ~Lord Shieldheart~
@@ -295,7 +295,7 @@
 @295 = ~Head of wizards~
 @296 = ~Head of Red Wizards~
 @297 = ~Sir Raylee~
-@298 = ~Southerners archer~
+@298 = ~Archer du sud~
 @299 = ~Southerner~
 @300 = ~Sarach~
 @301 = ~Second Sarevok~
@@ -309,7 +309,7 @@
 @309 = ~Royal archer~
 @310 = ~Lord of the Undead~
 @311 = ~Skeleton mage~
-@312 = ~Southerners mage~
+@312 = ~Magicien du sud~
 @313 = ~Sir Solan~
 @314 = ~Sorcerer~
 @315 = ~Ship captain~
@@ -320,7 +320,7 @@
 @320 = ~Vira~
 @321 = ~Faed Maedhrym~
 @322 = ~Priest of Shevarash~
-@323 = ~Southerners warrior~
+@323 = ~Guerrier du sud~
 @324 = ~Regimental Commander~
 @325 = ~Sir William~
 @326 = ~Commander of attackers~
@@ -382,24 +382,24 @@
 @382 = ~Merchant mage~
 
 
-@385 = ~Gradak's priest~
+@385 = ~Prêtre de Gradak~
 @386 = ~Scout commander~
-@387 = ~Gradak's archmage~
-@388 = ~Gradak's mage~
+@387 = ~Archimage de Gradak~
+@388 = ~Mage de Gradak~
 @389 = ~Gradak's commander~
-@390 = ~Gradak's priest~
+@390 = ~Prêtre de Gradak~
 @391 = ~Gradak's prison guard~
-@392 = ~Gradak's warrior~
-@393 = ~Gradak's warrior~
+@392 = ~Guerrier de Gradak~
+@393 = ~Guerrier de Gradak~
 @394 = ~Gradak's Elite Guardsman~
 @395 = ~We are Gradak's Elite, do not move...~
-@396 = ~Gradak's sailor~
-@397 = ~Gradak's scout~
-@398 = ~The way is blocked~
+@396 = ~Marin de Gradak~
+@397 = ~Éclaireur de Gradak~
+@398 = ~Le passage est bloqué~
 @399 = ~This way was barricaded from the inside.~
 @400 = ~The abandoned house~
 @401 = ~There is nothing to look.~
-@402 = ~Merchant~
+@402 = ~Marchand~
 @403 = ~Weapon warehouse~
 @404 = ~Entrance to the mill~
 @405 = ~Three Jugs tavern~
@@ -428,7 +428,7 @@
 @428 = ~This way leads nowhere.~
 @429 = ~The ladder is destroyed.~
 @430 = ~Stairs leading to the fortress wall. No entry allowed.~
-@431 = ~Treasury~
+@431 = ~Trésor~
 @432 = ~The entrance is barricaded from the other side.~
 @433 = ~Wardstone of the 2th Guard~
 @434 = ~Wardstone of the 3th Guard~
@@ -439,46 +439,46 @@
 @439 = ~Hell amulet~
 @440 = ~This amulet has the shape of a fireball. It is worn by servants of the Devil, not only to show who they serve, but also because of magical abilities.	
 	
-STATISTICS:  
+PARAMÈTRES :  
 
 Deals 3d6 points of fire damage when a saving throw fails vs. spells
 Fire resistance +50%
 
-Not usable by:
+Inutilisable par :
   Wizard Slayer
   Kensai~
 @441 = ~Ghoul's amulet~
 @442 = ~This amulet is made of a ghoul's tooth. It does not have a very outstanding appearance, but its properties may be useful.
 
-STATISTICS:  
+PARAMÈTRES   
 
 25% chance to drain 1 level from the target (saving throw vs. spells to cancel)
 Immunity to non-magical weapons
 
-Not usable by:
+Inutilisable par :
   Wizard Slayer
   Kensai~
 
 @443 = ~Gift of Gods~
 @444 = ~This extraordinarily powerful relic has sacrificed many lives. Very little is known about her, since no one who has seen her can tell anything about her anymore.
 					
-STATISTICS:  
+PARAMÈTRES   
 
 Bonuses +2 to all basic characteristics (strength, dexterity, etc.)
 
-Not usable by:
+Inutilisable par :
   Wizard Slayer
   Kensai~
 
 @445 = ~Guardianship of Angel~
 @446 = ~This is a very rare artifact found in a forgotten temple dedicated to the god of heaven.
 
-STATISTICS:  
+PARAMÈTRES   
 
 +1 to basic characteristics
 +10% resistance to fire, electricity, cold and poison
 
-Not usable by:
+Inutilisable par :
   Wizard Slayer~
 
 @447 = ~Artifact~
@@ -487,21 +487,21 @@ Not usable by:
 @450 = ~Battle Axe of Death~
 @451 = ~This double-edged axe is popular with barbarians and related folks. Unlike conventional axes, this type of weapon refers to two-handed axes. It's a little heavier, but it also provides better combat properties. The blade of the battle axe is forged from such strong steel that it can cut the enemy with one blow.
 
-STATISTICS:  
+PARAMÈTRES :  
 
 Deals additional 1d8 damage from the second side (slashing)
 50% chance to kill an opponent with one blow (saving throw vs. death/paralysis/poison with a -1 penalty)
 
-THACO: +3 bonus
-Damage: 1d8 +3
-Damage type: slashing
-Weight: 10
-Speed Factor: 7
-Proficiency type: Axe
-Type: 2-handed
-Requires: Strength 10
+TAC0: +3 bonus
+Dégâts : 1d8 +3
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 7
+Type de compétence : Hache
+Type : Arme à deux mains
+Nécessite : Strength 10
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric
@@ -510,58 +510,58 @@ Not usable by:
 @452 = ~Wizard's Axe~
 @453 = ~Only spellcasters can use this special axe. It was created by a sorcerer in order to compensate for the physical weakness of those who use magic and cannot use heavy weapons. Of course, when creating this axe, it was not without a lot of magic.			
 			
-STATISTICS:  
+PARAMÈTRES :  
 			
 Bonus +2 to strength when wearing
 Haste 3 times a day
 Improved Invisibility 2 times a day
 30% chance to trigger a fireball when hitting a target
 
-THACO: +2 bonus
-Damage: 1d8 +2
-Damage type: slashing
-Weight: 10
-Speed Factor: 5
-Proficiency type: Axe
-Type: 1-handed
-Requires: Strength 10
+TAC0: +2 bonus
+Dégâts : 1d8 +2
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 5
+Type de compétence : Hache
+Type : Arme à une main
+Nécessite : Strength 10
 
 Usable by:  
 Mage~
 @454 = ~Goblin's Axe~
 @455 = ~It is known that goblins are not very good warriors, and even less skilled in blacksmithing. This is just one of the copies of the weapons that they are trying to make.
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: -2 penalty
-Dexterity: -1 penalty
+Dégâts : -2 penalty
+Dextérité : -1 penalty
 
-THACO bonus: -
-Damage: 1d8
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Axe
-Type: 1-handed
-Requires: Strength 10~
+TAC0 bonus: -
+Dégâts : 1d8
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Hache
+Type : Arme à une main
+Nécessite : Strength 10~
 @456 = ~Double Poleaxe~
 @457 = ~This double-edged axe is popular with barbarians and related folks. Unlike conventional axes, this type of weapon refers to two-handed axes. It's a little heavier, but it also provides better combat properties.		
 
-STATISTICS:  
+PARAMÈTRES :  
 
 Deals additional 1d8 damage from the second side (slashing)
 5% chance to kill an opponent with one blow (saving throw vs. death/paralysis/poison with a -2 penalty)
 			
-THACO: +1 bonus
-Damage: 1d8
-Damage type: slashing
-Weight: 10
-Speed Factor: 7
-Proficiency type: Axe
-Type: 2-handed
-Requires: Strength 10
+TAC0: +1 bonus
+Dégâts : 1d8
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 7
+Type de compétence : Hache
+Type : Arme à deux mains
+Nécessite : Strength 10
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric
@@ -570,21 +570,21 @@ Not usable by:
 @458 = ~Double Poleaxe +1~
 @459 = ~This double-edged axe is popular with barbarians and related folks. Unlike conventional axes, this type of weapon refers to two-handed axes. It's a little heavier, but it also provides better combat properties. This battle axe is made in such a way as to deal improved damage.
 
-STATISTICS:
+PARAMÈTRES :
 
 Deals additional 1d8 damage from the second side (slashing)
 10% chance to kill the enemy with one blow (saving throw vs. spells/breath)
 
-THACO: +2 bonus
-Damage: 1d8 +1
-Damage type: slashing
-Weight: 10
-Speed Factor: 7
-Proficiency type: Axe
-Type: 2-handed
-Requires: Strength 10
+TAC0: +2 bonus
+Dégâts : 1d8 +1
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 7
+Type de compétence : Hache
+Type : Arme à deux mains
+Nécessite : Strength 10
 
-Not usable by:  
+Inutilisable par :  
   Mage
   Druid
   Cleric
@@ -593,21 +593,21 @@ Not usable by:
 @460 = ~Double Poleaxe +2~
 @461 = ~This double-edged axe is popular with barbarians and related folks. Unlike conventional axes, this type of weapon refers to two-handed axes. It's a little heavier, but it also provides better combat properties. This battle axe is made in such a way as to deal improved damage.
 
-STATISTICS:
+PARAMÈTRES :
 
 Deals additional 1d8 damage from the second side (slashing)
 20% chance to kill an opponent with one blow (saving throw vs. spells/breath)
 
-THACO: +3 bonus
-Damage: 1d8 +2
-Damage type: slashing
-Weight: 10
-Speed Factor: 7
-Proficiency type: Axe
-Type: 2-handed
-Requires: Strength 10
+TAC0: +3 bonus
+Dégâts : 1d8 +2
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 7
+Type de compétence : Hache
+Type : Arme à deux mains
+Nécessite : Strength 10
 
-Not usable by:  
+Inutilisable par :  
   Mage	
   Druid	
   Cleric	
@@ -616,21 +616,21 @@ Not usable by:
 @462 = ~Double Poleaxe +3~
 @463 = ~This double-edged axe is popular with barbarians and related peoples. Unlike conventional axes, this type of weapon refers to two-handed axes. It's a little heavier, but it also provides better combat properties. This battle axe is made in such a way as to deal improved damage.	
 
-STATISTICS:
+PARAMÈTRES :
 
 Deals additional 1d8 damage from the second side (slashing)
 30% chance to kill the enemy with one blow (saving throw vs. spells/breath)
 
-THACO: +4 bonus	
-Damage: 1d8 +3	
-Damage type: slashing	
-Weight: 10	
-Speed Factor: 7	
-Proficiency type: Axe	
-Type: 2-handed	
-Requires: Strength 10
+TAC0: +4 bonus	
+Dégâts : 1d8 +3	
+Type de dégâts : tranchant	
+Poids : 10	
+Facteur de vitesse : 7	
+Type de compétence : Hache	
+Type : Arme à deux mains	
+Nécessite : Strength 10
 
-Not usable by:  
+Inutilisable par :  
   Mage	
   Druid	
   Cleric	
@@ -639,26 +639,26 @@ Not usable by:
 @464 = ~Health Belt~
 @465 = ~This belt is very valuable due to its ability to protect against poison. It is sewn from a snake skin and has a brownish-greenish color.
 
-STATISTICS:  
+PARAMÈTRES :  
 
 Immunity to poison
-Armor class: +2 bonus
+Classe d'armure : +2 bonus
 Bonus to the maximum of health points: +10~
 @466 = ~Frost Belt~
 @467 = ~This belt was made from the skin of an ice giant killed by an unknown person. The giant's body was found in his lair about a week after that.		
 
-STATISTICS:  
+PARAMÈTRES :  
 
 The wearer of the belt is immune to the cold
 Cold Cone 2 times a day~
 @468 = ~The Gnomes' Belt~
 @469 = ~Gnomes, being small in size, are nevertheless famous for their courage and perseverance. This belt once belonged to a gnome named Grokhin, who commanded the city guards. There were legends about his unquestionable authority, and not only dwarves, but also representatives of other races obeyed him.
 
-STATISTICS:  
+PARAMÈTRES :  
 
 The owner of a belt assumes duties of the leader and receives +1 to charisma
 
-Not usable by:  
+Inutilisable par :  
   Mage	
   Druid	
   Cleric	
@@ -671,25 +671,25 @@ Not usable by:
 @473 = ~Boots of a Satan~
 @474 = ~These boots are worn by monsters living in Hell - inhospitable dead spheres surrounding the world. Only a few dared to venture into Hell, and having obtained them, returned back.	
 
-STATISTICS:  
+PARAMÈTRES :  
 
 Fire resistance: +45% bonus
 Maximum health points: +5 bonus			
 
-Not usable by:
+Inutilisable par :
   Good characters~
 @475 = ~Boots of Hafling~
 @476 = ~Halflings are small, agile and human-like creatures. They live in grassy hilly landscapes in which they build their huts. For the most part, they are peaceful people, but in case of danger they gather together and can represent a serious force.
 
 There is an opinion that halflings do not need shoes in principle, because their feet resemble soles. But if this is the case in villages, then in cities you rarely meet a barefoot halfling. These boots are very durable and unexpectedly light.
 
-STATISTICS:  
+PARAMÈTRES :  
 
-Dexterity: +1 bonus
-Armor class: +1 bonus
+Dextérité : +1 bonus
+Classe d'armure : +1 bonus
 Haste when wearing
 
-Not usable by:
+Inutilisable par :
   Mage	
   Bard	
   Thief
@@ -698,38 +698,38 @@ Not usable by:
 @477 = ~Enclosure Boots~
 @478 = ~These wonderful boots are very resistant to magical weapons. When an opponent approaches with a magical weapon, the boots begin to glow with a faint purple glow, enveloping their owner and acting as a kind of energy shield.
 
-STATISTICS:  
+PARAMÈTRES :  
 
 Immunity to magical weapons
 Maximum health points: +5 bonus~
 @479 = ~Boots of Heaven~
 @480 = ~These boots are extremely rare. They are made of the plumage of the wings of an angel. The shoes are extremely light, and the owner immediately feels that he can move easily, quickly and at ease.			
 
-STATISTICS:  
+PARAMÈTRES :  
 
 Improved haste on the owner when wearing
 Cast "Haste" 3 times a day~
 @481 = ~Snake Gloves~
 @482 = ~These gloves are made from the skin of a very rare and almost endangered kind of snake. These snakes are in great demand among alchemists, as they contain a fair amount of magical essence.
 
-STATISTICS:  
+PARAMÈTRES :  
 
 Cast "Breach" 3 times a day
 Poison resistance: +50%
 Acid resistance: +50%
-Armor class: +1 bonus~
+Classe d'armure : +1 bonus~
 @483 = ~Bracers of Health~
 @484 = ~This kind of bracers can only be created by elven blacksmiths, as they require ingredients available only to elves.
 
-STATISTICS:  
+PARAMÈTRES :  
 
-Intelligence: +1 bonus
+Intelligence : +1 bonus
 Maximum health points: +10 bonus
 Regeneration of 3 health points per second~
 @485 = ~Archmage's Bracers~
 @486 = ~Being in the hands, or more precisely, on the hands of a mage, these bracers turn out to be very useful and make life much easier for their owner. However, for those who have not succeeded in magic, this thing will be just a trinket.
 
-STATISTICS:  
+PARAMÈTRES :  
 
 Two additional spell slots of the 4th, 5th and 6th levels
 Spell casting speed increases by 1
@@ -739,27 +739,27 @@ Usable by:
 @487 = ~Thunderstorm Bracers~
 @488 = ~These bracers are made of ordinary leather and decorated with a lightning symbol on the outside. When worn, they emit weak electrical discharges.
 
-STATISTICS:  
+PARAMÈTRES :  
 
-Armor class: +1 bonus
+Classe d'armure : +1 bonus
 Resistance to electricity: +20%
 
-Not usable by:
+Inutilisable par :
   Kensai~
 @489 = ~Bastard sword~
 @490 = ~The hand-and-a-half sword, or bastard sword, is an excellent and versatile weapon. When using it with two hands, the warrior delivers crushing blows, but loses the ability to use the shield. It's a rather slow weapon.
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 2d4
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Bastard sword
-Type: 2-handed
-Requires: Strength 15
+Dégâts : 2d4
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
-Not usable by:
+Inutilisable par :
   Druid
   Cleric
   Mage
@@ -767,17 +767,17 @@ Not usable by:
 @491 = ~Bastard sword +1~
 @492 = ~The hand-and-a-half sword, or bastard sword, is an excellent and versatile weapon. When using it with two hands, the warrior delivers crushing blows, but loses the ability to use the shield. It's a rather slow weapon. This blade is endowed with magical power, so it can cause more damage.
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 2d4 + 1
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Bastard sword
-Type: 2-handed
-Requires: Strength 15
+Dégâts : 2d4 + 1
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
-Not usable by:
+Inutilisable par :
   Druid
   Cleric
   Mage
@@ -785,17 +785,17 @@ Not usable by:
 @493 = ~Bastard sword +2~
 @494 = ~The hand-and-a-half sword, or bastard sword, is an excellent and versatile weapon. When using it with two hands, the warrior delivers crushing blows, but loses the ability to use the shield. It's a rather slow weapon. This blade is endowed with magical power, so it can cause more damage.
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 2d4 +2
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Bastard sword
-Type: 2-handed
-Requires: Strength 15
+Dégâts : 2d4 +2
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
-Not usable by:
+Inutilisable par :
   Druid
   Cleric
   Mage
@@ -803,17 +803,17 @@ Not usable by:
 @495 = ~Bastard sword +3~
 @496 = ~The hand-and-a-half sword, or bastard sword, is an excellent and versatile weapon. When using it with two hands, the warrior delivers crushing blows, but loses the ability to use the shield. It's a rather slow weapon. This blade is endowed with magical power, so it can cause more damage.
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 2d4 +3
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Bastard sword
-Type: 2-handed
-Requires: Strength 15
+Dégâts : 2d4 +3
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
-Not usable by:
+Inutilisable par :
   Druid
   Cleric
   Mage
@@ -821,17 +821,17 @@ Not usable by:
 @497 = ~Bastard sword +4~
 @498 = ~The hand-and-a-half sword, or bastard sword, is an excellent and versatile weapon. When using it with two hands, the warrior delivers crushing blows, but loses the ability to use the shield. It's a rather slow weapon. This blade is endowed with magical power, so it can cause more damage.
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 2d4 +4
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Bastard sword
-Type: 2-handed
-Requires: Strength 15
+Dégâts : 2d4 +4
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
-Not usable by:
+Inutilisable par :
   Druid
   Cleric
   Mage
@@ -839,22 +839,22 @@ Not usable by:
 @499 = ~Pride of the Barbarian~
 @500 = ~This blade is more than just a weapon respected by warriors. He is mentioned in all serious literary works. Some still remember the times of the barbarian Korgan, one of the most dangerous warriors of that time. The sword that belonged to him had an unusual ability. Taking it in his hands, any most seedy warrior became a serious opponent.
 
-STATISTICS:
+PARAMÈTRES :
 
 Strenth: set to 21
-Armor class: +1 bonus
+Classe d'armure : +1 bonus
 Rage
 
-THACO: +4
-Damage: 2d4 +5
-Damage type: slashing
-Weight: 12
-Speed Factor: 8
-Proficiency type: Bastard sword
-Type: 2-handed
-Requires: Strength 15
+TAC0: +4
+Dégâts : 2d4 +5
+Type de dégâts : tranchant
+Poids : 12
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
-Not usable by:
+Inutilisable par :
   Mage
   Cleric
   Thief
@@ -863,21 +863,21 @@ Not usable by:
 @501 = ~Tranquility Sword~
 @502 = ~Possession of this weapon allows the owner to find a kind of harmony with the inner life and balance, thanks to which any warrior enters the battle with calmness and self-confidence. Conversely, enemies are forced to flee from the battlefield, only when they see a warrior with a firm look in front of them, who will stop at nothing.
 
-STATISTICS:
+PARAMÈTRES :
 
 Resistance to Fear
 When hitting the target: 15% chance of the enemy fleeing in a panic
 
-THACO: +2
-Damage: 2d5 +2
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Bastard sword
-Type: 2-handed
-Requires: Strength 15
+TAC0: +2
+Dégâts : 2d5 +2
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
-Not usable by:
+Inutilisable par :
   Mage
   Cleric
   Thief
@@ -886,27 +886,27 @@ Not usable by:
 @503 = ~Damned Blade~
 @504 = ~As the name suggests, this weapon is cursed. It affects the wearer in a negative way, depleting some of its basic characteristics, but all this is compensated by the high efficiency of the blade. Whether it is worth contacting him at all, the warrior must decide for himself.
 
-STATISTICS:
+PARAMÈTRES :
 
 The weapon is cursed
 
 Constitution: -2 penalty
-Intelligence: -2 penalty
-Dexterity: +1 bonus
+Intelligence : -2 penalty
+Dextérité : +1 bonus
 Strength: +1 bonus
 
 Summon Djinni once per day
 
-THACO: +3 bonus
-Damage: 2d4 +3
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Bastard sword
-Type: 2-handed
-Requires: Strength 13
+TAC0: +3 bonus
+Dégâts : 2d4 +3
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 13
 
-Not usable by:
+Inutilisable par :
   Mage
   Cleric
   Thief
@@ -915,7 +915,7 @@ Not usable by:
 @505 = ~Runic bastard sword ~
 @506 = ~This weapon is enchanted with a special kind of magic - rune magic. Runic magic is based on "drawing" runes in the air with your fingers. Thus, the wizard does not need to cast spells, it is enough just to be able to make gestures with his hands. Rune magic is more dangerous than the traditional magic common in Féérune. Unfortunately, at the moment there are only a few scattered notes about it, although it was once used very widely.
 
-STATISTICS:
+PARAMÈTRES :
 
 Fire resistance: +25% bonus
 Cold resistance: +25% bonus
@@ -924,16 +924,16 @@ Acid resistance: +25% bonus
 Magic damage resistance: +25% bonus
 
 
-THACO: +2 bonus
-Damage: 2d45 +2
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Bastard sword
-Type: 2-handed
-Requires: Strength 15
+TAC0: +2 bonus
+Dégâts : 2d45 +2
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
-Not usable by:
+Inutilisable par :
   Mage
   Cleric
   Thief
@@ -942,22 +942,22 @@ Not usable by:
 @507 = ~Ebony Crossbow~
 @508 = ~The tiller of this crossbow is made of very hard ebony wood. The second part of it, the bow, is made of durable but flexible wood, so this instance causes additional damage.			
 
-STATISTICS:  
+PARAMÈTRES :  
 
 When hitting the target:
 Additional damage 6 points
 20% chance to blind the target for 10 seconds
 
-THACO: +3 bonus
-Damage: +3 bonus
-Damage type: piercing
-Weight: 10
-Speed Factor: 9
-Proficiency type: Crossbow
-Type: 2-handed
-Requires: Strength 12
+TAC0: +3 bonus
+Dégâts : +3 bonus
+Type de dégâts : piercing
+Poids : 10
+Facteur de vitesse : 9
+Type de compétence : Crossbow
+Type : Arme à deux mains
+Nécessite : Strength 12
 
-Not usable by:
+Inutilisable par :
   Mage
   Cleric
   Thief
@@ -966,21 +966,21 @@ Not usable by:
 @509 = ~Magic Crossbow~
 @510 = ~Unknown runes are engraved on this crossbow, which, nevertheless, explain the origin of its magical properties. Crossbows of this variety are extremely rare, so finding it is a great success.
 
-STATISTICS:
+PARAMÈTRES :
 
 Deals 10 points of additional magic damage
 Magic Resistance: +10% bonus
 
-THACO: +4 bonus
-Damage: +4 bonus
-Damage type: piercing
-Weight: 8
-Speed Factor: 6
-Proficiency type: Crossbow
-Type: 2-handed
-Requires: Strength 8
+TAC0: +4 bonus
+Dégâts : +4 bonus
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 6
+Type de compétence : Crossbow
+Type : Arme à deux mains
+Nécessite : Strength 8
 
-Not usable by:  
+Inutilisable par :  
   Druid
   Cleric
   Mage
@@ -988,22 +988,22 @@ Not usable by:
 @511 = ~Crossbow of Discharge~
 @512 = ~The name of this crossbow sounds pretty unambiguous. The crossbow is enchanted and can create its own arrows each time, striking with an electric discharge. In addition, the magic of the crossbow affects its owner in such a way as if he was constantly under the effects of haste.
 
-STATISTICS:
+PARAMÈTRES :
 
 Unlimited arrows striking with an electric discharge
 The owner is under the permanent effect of "Improved haste"
 "Haste" for the whole group 1 time per day
 
-THACO: +3
-Damage: 1d8 (electricity) +3
-Damage type: piercing
-Weight: 6
-Speed Factor: 4
-Proficiency type: Crossbow
-Type: 2-handed
-Requires: Strength 8
+TAC0: +3
+Dégâts : 1d8 (electricity) +3
+Type de dégâts : piercing
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : Crossbow
+Type : Arme à deux mains
+Nécessite : Strength 8
 
-Not usable by:  
+Inutilisable par :  
   Druid
   Cleric
   Mage
@@ -1011,83 +1011,83 @@ Not usable by:
 @513 = ~The Giant's Club~
 @514 = ~This is a quite deadly weapon, which is adored by both the giants themselves and their numerous "kin". Due to the giants are not the most skilled craftsmen, they are not concerned about the quality of weapons manufacturing. They simply break off a piece of a massive branch, or even a tree trunk, and hammer sharp stones, spikes or fragments of blades into the pommel. Such a simplified approach does not affect the effectiveness of weapons in any way.
 
-STATISTICS:
+PARAMÈTRES :
 
 20% chance to stun the target for 11 seconds on hit
 5% chance to kill a target with a single hit
 10% chance to deal 1d6 points of additional crushing damage
 
-THACO: +3 bonus
-Damage: 1d6 +3
-Damage type: crushing
-Weight: 8
-Speed Factor: 5
-Proficiency type: Club
-Type: 1-handed
-Requires: Strength 7
+TAC0: +3 bonus
+Dégâts : 1d6 +3
+Type de dégâts : crushing
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Club
+Type : Arme à une main
+Nécessite : Strength 7
 
-Not usable by:
+Inutilisable par :
   Mage
   Monk~
 @515 = ~Throwing Club~
 @516 = ~When hitting a target, this strange club causes repulsive waves that shake the surroundings. This is a rather dangerous weapon, because your companions can be affected by the effects of vibrations.
 
-STATISTICS:
+PARAMÈTRES :
 
 20% chance to throw everyone away from the owner of the club on hit
 
-THACO: +4 bonus
-Damage: 1d6 +4
-Damage type: crushing
-Weight: 3
-Speed Factor: 5
-Proficiency type: Club
-Type: 1-handed
-Requires: Strength 7
+TAC0: +4 bonus
+Dégâts : 1d6 +4
+Type de dégâts : crushing
+Poids : 3
+Facteur de vitesse : 5
+Type de compétence : Club
+Type : Arme à une main
+Nécessite : Strength 7
 
-Not usable by:
+Inutilisable par :
   Mage
   Monk~
 @517 = ~Frosty Club~
 @518 = ~This is the club that the leader of the ice trolls used to own. It looks like she didn't help him or his gang. Nevertheless, the club left over from the leader can still serve well.
 
-STATISTICS:
+PARAMÈTRES :
 
 "Ice Storm" 4 times per day
 Summon an air elemental 1 time a day
 Additional 2d6 points of cold damage
 
-THACO: +4 bonus	
-Damage: 1d6 +4	
-Damage type: crushing	
-Weight: 5	
-Speed Factor: 7	
-Proficiency type: Club	
-Type: 1-handed	
-Requires: Strength 8
+TAC0: +4 bonus	
+Dégâts : 1d6 +4	
+Type de dégâts : crushing	
+Poids : 5	
+Facteur de vitesse : 7	
+Type de compétence : Club	
+Type : Arme à une main	
+Nécessite : Strength 8
 	
-Not usable by:
+Inutilisable par :
   Mage
   Monk~
 @519 = ~Wrath of the Dragon~
 @520 = ~The chain got this name due to its capabilities and power. He is enchanted and acts in such a way that he is constantly moistened with acid. In addition, there is a chance to knock the opponent down.
 
-STATISTICS:
+PARAMÈTRES :
 
 30% chance to knock the enemy down (sleep for 5 seconds)
 20% chance to hit the enemy with poison for 12 seconds
 Additional 2d6 points damage from acid
 
-THACO: +4 bonus
-Damage: 1d6 +4
-Damage type: crushing
-Weight: 15
-Speed Factor: 7
-Proficiency type: Flail/Morningstar
-Type: 1-handed
-Requires: Strength 13
+TAC0: +4 bonus
+Dégâts : 1d6 +4
+Type de dégâts : crushing
+Poids : 15
+Facteur de vitesse : 7
+Type de compétence : Flail/Morningstar
+Type : Arme à une main
+Nécessite : Strength 13
 
-Not usable by:
+Inutilisable par :
   Druid
   Thief
   Monk
@@ -1095,21 +1095,21 @@ Not usable by:
 @521 = ~The Decider of Fate~
 @522 = ~This powerful weapon is able to decide destinies and lives. It makes it possible both to save the life of the owner of the flail, and to deprive the enemy of his life.
 
-STATISTICS:
+PARAMÈTRES :
 
 Regeneration of 2 hit points per second
 10% chance to deal 30 points of fire damage
 
-THACO: +3 bonus
-Damage: 1d6 +3
-Damage type: crushing
-Weight: 15
-Speed Factor: 5
-Proficiency type: Flail/Morningstar
-Type: 1-handed
-Requires: Strength 13
+TAC0: +3 bonus
+Dégâts : 1d6 +3
+Type de dégâts : crushing
+Poids : 15
+Facteur de vitesse : 5
+Type de compétence : Flail/Morningstar
+Type : Arme à une main
+Nécessite : Strength 13
 
-Not usable by:
+Inutilisable par :
   Druid
   Thief
   Monk
@@ -1117,21 +1117,21 @@ Not usable by:
 @523 = ~Shieldcrusher~
 @524 = ~This weapon is designed to fight against shield-bearers. Thanks to the increased damage, the flail easily penetrates shields and paralyzes enemies.
 
-STATISTICS:
+PARAMÈTRES :
 
 50% chance to deal 1d6 of stun damage
 15% chance to stun the target for 8 seconds
 
-THACO: +4 bonus
-Damage: 1d6 +4
-Damage type: crushing
-Weight: 20
-Speed Factor: 8
-Proficiency type: Flail/Morningstar
-Type: 1-handed
-Requires: Strength 14
+TAC0: +4 bonus
+Dégâts : 1d6 +4
+Type de dégâts : crushing
+Poids : 20
+Facteur de vitesse : 8
+Type de compétence : Flail/Morningstar
+Type : Arme à une main
+Nécessite : Strength 14
 
-Not usable by:
+Inutilisable par :
   Druid
   Thief
   Monk
@@ -1139,50 +1139,50 @@ Not usable by:
 @525 = ~Mantle of the Newerwinter Nine~
 @526 = ~Back in the days of Netheril, wizards learned to impart magical properties to things that surround them. The most popular item for casting such spells is an ordinary robe. It is light, cheap and retains enchantments well, which makes it an ideal companion for a mage. However, due to its magical nature, only mages (single, double and multiclass) they can wear such clothes. This is exactly the kind of mantle that members of the Neverwinter Nine wear.
 
-STATISTICS:
+PARAMÈTRES :
 
-Armor class: 5
+Classe d'armure : 5
 Magic resistance: +5%
 Saving throws: +1 bonus
-Requires: Strength 6
+Nécessite : Strength 6
 
 Only usable by:
   Mage (single, dual, & multi-class)~
 @527 = ~Mace of the Barbarian~
 @528 = ~The Barbarians, a northern tribe, have recently been displaced by the invasion of people to the north. They tried to resist it, but their attempts were in vain. Their last chance was to settle somewhere in the mountains. To protect these places from attacks, a local blacksmith forged an enchanted weapon that deals increased damage to evil opponents.
 						
-STATISTICS:  
+PARAMÈTRES :  
 			
-THACO: +3 bonus
-Damage: 1d6 +1, +4 vs. evil
-Damage type: crushing
-Weight: 10
-Speed Factor: 5
-Proficiency type: Mace
-Type: 1-handed
-Requires: Strength 12
+TAC0: +3 bonus
+Dégâts : 1d6 +1, +4 vs. evil
+Type de dégâts : crushing
+Poids : 10
+Facteur de vitesse : 5
+Type de compétence : Mace
+Type : Arme à une main
+Nécessite : Strength 12
 
 Uses only:
   Fighter (single class)~
 @529 = ~Grund's Mace~
 @530 = ~Grund was a famous hero who is said to have traveled through all corners of the world. All his life he traveled as an adventurer, solved riddles, searched for caves, and so on. But over time, he grew old, found a shelter where no one could disturb him. No one has seen him since.
 
-STATISTICS:
+PARAMÈTRES :
 
-Dexterity: +2 bonus
+Dextérité : +2 bonus
 Strength: +1 bonus
 Additional 2 points of magic damage
 
-THACO: +3 bonus
-Damage: 1d6 +3
-Damage type: crushing
-Weight: 12
-Speed Factor: 5
-Proficiency type: Mace
-Type: 1-handed
-Requires: Strength 10
+TAC0: +3 bonus
+Dégâts : 1d6 +3
+Type de dégâts : crushing
+Poids : 12
+Facteur de vitesse : 5
+Type de compétence : Mace
+Type : Arme à une main
+Nécessite : Strength 10
 
-Not usable by:  
+Inutilisable par :  
   Mage	
   Thief	
   Druid
@@ -1190,22 +1190,22 @@ Not usable by:
 @531 = ~Mace of Decomposition~
 @532 = ~This mace is enchanted by dark magic, which is now almost forgotten. Only a few dedicated servants of the Order of Chaos understand the nature of this dark magic and can use it for their own purposes.
 
-STATISTICS:
+PARAMÈTRES :
 
 Animate Dead 2 times per day
 Beam of Negative Energy 3 times per day
 Explosion of Negative Energy 2 times per day
 
-THACO: +4 bonus
-Damage: 1d6 +4
-Damage type: crushing
-Weight: 11
-Speed Factor: 5
-Proficiency type: Maces
-Type: 1-handed
-Requires: Strength 10
+TAC0: +4 bonus
+Dégâts : 1d6 +4
+Type de dégâts : crushing
+Poids : 11
+Facteur de vitesse : 5
+Type de compétence : Maces
+Type : Arme à une main
+Nécessite : Strength 10
 
-Not usable by:  
+Inutilisable par :  
   Mage	
   Thief	
   Druid
@@ -1217,18 +1217,18 @@ Not usable by:
 @536 = ~Mithril Axe~
 @537 = ~The most common types of axes, with a strong handle about 1.2 meters long, at the end of which there is a curved blade. Battle axes are also called broad axes. This axe is also made of mithril, allowing you to inflict more serious injuries.
 
-STATISTICS:
+PARAMÈTRES :
 
-THAC0:  +1 бонус
-Damage: 1d8 +1
-Damage type: slashing
-Weight: 7
-Speed Factor: 6
-Proficiency type: Axes
-Type: 1-handed
-Requires: Strength 6
+TAC0:  +1 бонус
+Dégâts : 1d8 +1
+Type de dégâts : tranchant
+Poids : 7
+Facteur de vitesse : 6
+Type de compétence : Haches
+Type : Arme à une main
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Druid
   Cleric
   Mage
@@ -1243,17 +1243,17 @@ Not usable by:
 @544 = ~Falchion~
 @545 = ~Falchion is a heavy sword with a one-sided blade. The top of the blade is usually straight, while here the edge is curved. Towards the tip, the blade expands, giving it the shape of a blade and increasing the damage inflicted. The sword is quite heavy, which also contributes to terrifying slashing blows.
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 1d6 +1
-Damage type: slashing
-Weight: 8
-Speed Factor: 5
-Proficiency type: Scimitar
-Type: 1-handed
-Requires: Strength 10
+Dégâts : 1d6 +1
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Scimitar
+Type : Arme à une main
+Nécessite : Strength 10
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric
@@ -1261,18 +1261,18 @@ Not usable by:
 @546 = ~Falchion +1~
 @547 = ~Falchion is a heavy sword with a one-sided blade. The top of the blade is usually straight, while here the edge is curved. Towards the tip, the blade expands, giving it the shape of a blade and increasing the damage inflicted. The sword is quite heavy, which also contributes to terrifying slashing blows. This type of falchion is modified for better control in combat, it is much more powerful. Externally, it differs from the classic falchion only with a colorful handle.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +1 bonus
-Damage: 1d6 +2
-Damage type: slashing
-Weight: 8
-Speed Factor: 5
-Proficiency type: Scimitar
-Type: 1-handed
-Requires: Strength 10
+TAC0: +1 bonus
+Dégâts : 1d6 +2
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Scimitar
+Type : Arme à une main
+Nécessite : Strength 10
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric
@@ -1280,18 +1280,18 @@ Not usable by:
 @548 = ~Falchion +2~
 @549 = ~Falchion is a heavy sword with a one-sided blade. The top of the blade is usually straight, while here the edge is curved. Towards the tip, the blade expands, giving it the shape of a blade and increasing the damage inflicted. The sword is quite heavy, which also contributes to terrifying slashing blows. This type of falchion is modified for better control in combat, it is much more powerful. Externally, it differs from the classic falchion only with a colorful handle.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +2 bonus
-Damage: 1d6 +3
-Damage type: slashing
-Weight: 8
-Speed Factor: 5
-Proficiency type: Scimitar
-Type: 1-handed
-Requires: Strength 10
+TAC0: +2 bonus
+Dégâts : 1d6 +3
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Scimitar
+Type : Arme à une main
+Nécessite : Strength 10
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric
@@ -1299,18 +1299,18 @@ Not usable by:
 @550 = ~Falchion +3~
 @551 = ~Falchion is a heavy sword with a one-sided blade. The top of the blade is usually straight, while here the edge is curved. Towards the tip, the blade expands, giving it the shape of a blade and increasing the damage inflicted. The sword is quite heavy, which also contributes to terrifying slashing blows. This type of falchion is modified for better control in combat, it is much more powerful. Externally, it differs from the classic falchion only with a colorful handle.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +3 bonus
-Damage: 1d6 +4
-Damage type: slashing
-Weight: 8
-Speed Factor: 5
-Proficiency type: Scimitar
-Type: 1-handed
-Requires: Strength 10
+TAC0: +3 bonus
+Dégâts : 1d6 +4
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Scimitar
+Type : Arme à une main
+Nécessite : Strength 10
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric
@@ -1318,21 +1318,21 @@ Not usable by:
 @552 = ~Pirate's Wrath~
 @553 = ~Among the swords, sabers and other types of weapons that pirates usually use, there was also this so-called falchion, brought from campaigns among the loot. From them, it first got to the continent, where it began to be produced and sold as a novelty, although there was nothing new or unusual about this blade.
 
-STATISTICS:
+PARAMÈTRES :
 
 20% chance to put the enemy to sleep for 8 seconds
 10% chance to decapitate an opponent (instant death) if a saving throw fails vs. paralysis/poison/death with a +1 bonus
 
-THACO: +2 bonus
-Damage: 1d6 +3
-Damage type: slashing
-Weight: 8
-Speed Factor: 4
-Proficiency type: Scimitar
-Type: 1-handed
-Requires: Strength 10
+TAC0: +2 bonus
+Dégâts : 1d6 +3
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 4
+Type de compétence : Scimitar
+Type : Arme à une main
+Nécessite : Strength 10
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric
@@ -1341,22 +1341,22 @@ Not usable by:
 @554 = ~Tegrodan~
 @555 = ~This is a sword that once belonged to the palace genie of the sorcerer Valredon. A genie named Sar-ga was the wizard's most devoted servant, and constantly fulfilled all his whims. One day the owner was unlucky, and he fell from the enemy's sword. When he was dying, he gave this sword to genie. From that moment on, he kept it throughout his life.
 
-STATISTICS:
+PARAMÈTRES :
 
 15% chance to decapitate an opponent (instant death) when a spell/breath saving throw fails with a +1 bonus
 Cast the spell "Strength" 5 times per day
-Armor class: 3
+Classe d'armure : 3
 
-THACO: +4 bonus
-Damage: 1d6 +5
-Damage type: slashing
-Weight: 8
-Speed Factor: 5
-Proficiency type: Scimitar
-Type: 1-handed
-Requires: Strength 10
+TAC0: +4 bonus
+Dégâts : 1d6 +5
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Scimitar
+Type : Arme à une main
+Nécessite : Strength 10
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric
@@ -1366,17 +1366,17 @@ Not usable by:
 @557 = ~The falx is a combat weapon that came from barbarian tribes. Using it in full force, you can easily cut a person. The handle is about 40 inches long and smoothly turns into a blade 60-70 inches long, resembling
 a scythe blade. The leading edge of the falx is honed along the inner side of the arc.
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 1d10
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Two-handed sword
-Type: 2-handed
-Requires: Strength 12
+Dégâts : 1d10
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 12
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric
@@ -1385,18 +1385,18 @@ Not usable by:
 @559 = ~The falx is a combat weapon that came from barbarian tribes. Using it in full force, you can easily cut a person. The handle is about 40 inches long and smoothly turns into a blade 60-70 inches long, resembling
 a scythe blade. The leading edge of the falx is honed along the inner side of the arc. This type of falx is magically modified and improved. Externally, it does not differ from the classical falx in anything other than a colored handle.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +1 bonus
-Damage: 1d10 +1
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Two-handed sword
-Type: 2-handed
-Requires: Strength 12
+TAC0: +1 bonus
+Dégâts : 1d10 +1
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 12
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric
@@ -1405,18 +1405,18 @@ Not usable by:
 @561 = ~The falx is a combat weapon that came from barbarian tribes. Using it in full force, you can easily cut a person. The handle is about 40 inches long and smoothly turns into a blade 60-70 inches long, resembling
 a scythe blade. The leading edge of the falx is honed along the inner side of the arc. This type of falx is magically modified and improved. Externally, it does not differ from the classical falx in anything other than a colored handle.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +2 bonus
-Damage: 1d10 +2
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Two-handed sword
-Type: 2-handed
-Requires: Strength 12
+TAC0: +2 bonus
+Dégâts : 1d10 +2
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 12
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric
@@ -1425,18 +1425,18 @@ Not usable by:
 @563 = ~The falx is a combat weapon that came from barbarian tribes. Using it in full force, you can easily cut a person. The handle is about 40 inches long and smoothly turns into a blade 60-70 inches long, resembling
 a scythe blade. The leading edge of the falx is honed along the inner side of the arc. This type of falx is magically modified and improved. Externally, it does not differ from the classical falx in anything other than a colored handle.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +3 bonus
-Damage: 1d10 +3
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Two-handed sword
-Type: 2-handed
-Requires: Strength 12
+TAC0: +3 bonus
+Dégâts : 1d10 +3
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 12
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric
@@ -1444,41 +1444,41 @@ Not usable by:
 @564 = ~Ughur Demon~
 @565 = ~This falx belonged exclusively to a mighty barbarian who participated in all kinds of battles and competitions with weapons. He believed in the power of this weapon, which he had made himself, and believed that he could not lose, that this would simply never happen. He terrified everyone who knew him until he died of old age. His weapon is lost, and only the gods know where it is now.
 
-STATISTICS:
+PARAMÈTRES :
 
 Additional damage 1d6 points (slashing)
 30% chance to intimidate the enemy on hit (panic for 15 seconds)
 15% chance to knock down the enemy on hit (sleep for 8 seconds)
 
-THACO: +4 bonus
-Damage: 1d10 +4
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Two-handed sword
-Type: 2-handed
-Requires: Strength 18
+TAC0: +4 bonus
+Dégâts : 1d10 +4
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 18
 
 Usable by:
   Fighter (single class)~
 @566 = ~Bloody Falx~
 @567 = ~This sample of falx was forged by a dwarf blacksmith. One day a stranger came to him with an offer to forge a weapon for which he would pay well. The dwarf, who saw falx for the first time, did not understand why to transfer metal to such nonsense, if two normal axes could be forged instead. But the earnings were worth it, so he decided to try. Nevertheless, the dwarf invested several of his developments in this weapon.
 
-STATISTICS:
+PARAMÈTRES :
 
 20% chance to stun the target for 8 seconds
 10% chance of triggering a lightning bolt
 
-THACO: +3 bonus
-Damage: 1d10 +3
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Two-handed sword
-Type: 2-handed
-Requires: Strength 12
+TAC0: +3 bonus
+Dégâts : 1d10 +3
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 12
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric
@@ -1487,35 +1487,35 @@ Not usable by:
 @569 = ~This is a terrifying falx, just a glance at which inspires fear. It was once used by General Whisten's reserve forces. The task of these forces was to run out on orders and break into the ranks of the enemy. Before it was possible to understand what was happening, only about a third of the combat units remained alive, and they looked at what was happening with horror. Their friends fell to the ground in piles, and most of them had their limbs cut off. The most naive way out of the situation was the decision to flee.
 
 
-STATISTICS:
+PARAMÈTRES :
 
 10% chance to cut the enemy (instant death)
 
-THACO: +4 bonus
-Damage: 1d10 +4
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Two-handed sword
-Type: 2-handed
-Requires: Strength 18
+TAC0: +4 bonus
+Dégâts : 1d10 +4
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 18
 
 Usable by:
   Fighter (single class)~
 @570 = ~Paladins of Féérune Order Armor~
 @571 = ~Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen and groin.  Similar in construction to bronze plate mail, true plate mail comprises of chain and leather.
 
-STATISTICS:
+PARAMÈTRES :
 
-Armor class: 5
-THAC0: +2 bonus
+Classe d'armure : 5
+TAC0: +2 bonus
 Strength: +1 bonus
-Weight: 50
-Requires:
+Poids : 50
+Nécessite :
   Strength 17
   Level 10
 
-Not usable by:
+Inutilisable par :
   Bard
   Druid
   Mage
@@ -1530,13 +1530,13 @@ Not usable by:
 @573 = ~Gladiator Armor~
 @574 = ~Armor used by gladiators in the arena at the gates of the Anauroch Desert. The armor is a combination of chain mail with metal plates that cover vital areas such as the chest, abdomen and groin. Although it looks like a bronze plate armor, but unlike plate armor, this one is supplemented with elements of chain mail and leather armor.
 
-STATISTICS:
+PARAMÈTRES :
 
-Armor class: 3
-Weight: 30
-Requires: Strength 8
+Classe d'armure : 3
+Poids : 30
+Nécessite : Strength 8
 
-Not usable by:
+Inutilisable par :
   Bard
   Druid
   Kensai
@@ -1550,17 +1550,17 @@ Not usable by:
 @575 = ~Broadsword~
 @576 = ~This type of sword was created as a compromise between short and long swords. The short sword was not that powerful for experienced adventurers, and the long sword imposed serious limitations in terms of specialization.
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 1d8
-Damage type: Slashing
-Weight: 5
-Speed Factor: 4
-Proficiency type: Long Sword
-Type: 1-handed
-Requires: Strength 6
+Dégâts : 1d8
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Monk
@@ -1568,35 +1568,35 @@ Not usable by:
 @577 = ~Broadsword +1~
 @578 = ~This type of sword was created as a compromise between short and long swords. The short sword was not that powerful for experienced adventurers, and the long sword imposed serious limitations in terms of specialization.
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 1d8
-Damage type: Slashing
-Weight: 5
-Speed Factor: 4
-Proficiency type: Long Sword
-Type: 1-handed
-Requires: Strength 6
+Dégâts : 1d8
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Monk
   Cleric~
 @579 = ~This type of sword was created as a compromise between short and long swords. The short sword was not that powerful for experienced adventurers, and the long sword imposed serious limitations in terms of specialization. For greater efficiency, this instance of the blade was enchanted.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +1 bonus
-Damage: 1d8 +1
-Damage type: Slashing
-Weight: 5
-Speed Factor: 4
-Proficiency type: Long Sword
-Type: 1-handed
-Requires: Strength 5
+TAC0: +1 bonus
+Dégâts : 1d8 +1
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 5
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Monk
@@ -1604,18 +1604,18 @@ Not usable by:
 @580 = ~Broadsword +2~
 @581 = ~This type of sword was created as a compromise between short and long swords. The short sword was not that powerful for experienced adventurers, and the long sword imposed serious limitations in terms of specialization. This kind of broadsword has become one of the most widely used among people. That is why an even more powerful version of the blade was created.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +2 bonus
-Damage: 1d8 +2
-Damage type: slashing
-Weight: 5
-Speed Factor: 4
-Proficiency type: Long Sword
-Type: 1-handed
-Requires: Strength 5
+TAC0: +2 bonus
+Dégâts : 1d8 +2
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 5
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Monk
@@ -1623,18 +1623,18 @@ Not usable by:
 @582 = ~Broadsword +3~
 @583 = ~This type of sword was created as a compromise between short and long swords. The short sword was not that powerful for experienced adventurers, and the long sword imposed serious limitations in terms of specialization. It is the broadsword that the heroes most often use in all campaigns. This instance of the sword was created from the original version and enhanced with powerful blacksmith charms to improve its power.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +3 bonus
-Damage: 1d8 +3
-Damage type: slashing
-Weight: 5
-Speed Factor: 4
-Proficiency type: Long Sword
-Type: 1-handed
-Requires: Strength 5
+TAC0: +3 bonus
+Dégâts : 1d8 +3
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 5
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Monk
@@ -1642,20 +1642,20 @@ Not usable by:
 @584 = ~Stun Sword +2~
 @585 = ~This sword is known for its stunning power. In addition to the great damage it can do, it can also stun an opponent for a short time, making it a formidable weapon.
 	
-STATISTICS:
+PARAMÈTRES :
 
 10% chance to stun the target for 10 seconds on hit
 
-THACO: +2 bonus
-Damage: 1d8 +2
-Damage type: slashing
-Weight: 5
-Speed Factor: 4
-Proficiency type: Long Sword
-Type: 1-handed
-Requires: Strength 6
+TAC0: +2 bonus
+Dégâts : 1d8 +2
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Monk
@@ -1663,18 +1663,18 @@ Not usable by:
 @586 = ~Hero's Sword~
 @587 = ~This sword was once held in the hand of the adventurer Adreno, who once defeated a strong opponent. Then he defeated an even stronger opponent again, and again... And so it went on until everyone forgot about the sword, because no one knew where Adreno himself had gone.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +4 bonus
-Damage: 1d8 +4
-Damage Type: slashing
-Weight: 5
-Speed Factor: 4
-Proficiency type: Long Sword
-Type: 1-handed
-Requires: Strength 6
+TAC0: +4 bonus
+Dégâts : 1d8 +4
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Monk
@@ -1686,17 +1686,17 @@ Sword of Ice
 Sword of Poison
 Sword of Acid
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 1d8, +1 from fire
-Damage type: slashing
-Weight: 5
-Speed Factor: 4
-Proficiency type: Long Sword
-Type: 1-handed
-Requires: Strength 6
+Dégâts : 1d8, +1 from fire
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Monk
@@ -1708,17 +1708,17 @@ Sword of Ice
 Sword of Poison
 Sword of Acid
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 1d8, +1 from cold
-Damage type: slashing
-Weight: 5
-Speed Factor: 4
-Proficiency type: Long Sword
-Type: 1-handed
-Requires: Strength 6
+Dégâts : 1d8, +1 from cold
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Monk
@@ -1730,17 +1730,17 @@ Sword of Ice
 Sword of Poison
 Sword of Acid
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 1d8, +1 from acid
-Damage type: slashing
-Weight: 5
-Speed Factor: 4
-Proficiency type: Long Sword
-Type: 1-handed
-Requires: Strength 6
+Dégâts : 1d8, +1 from acid
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Monk
@@ -1752,17 +1752,17 @@ Sword of Ice
 Sword of Poison
 Sword of Acid
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 1d8, +1 from poison
-Damage type: slashing
-Weight: 5
-Speed Factor: 4
-Proficiency type: Long Sword
-Type: 1-handed
-Requires: Strength 6
+Dégâts : 1d8, +1 from poison
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Monk
@@ -1770,22 +1770,22 @@ Not usable by:
 @596 = ~Stone Halberd~
 @597 = ~This halberd is very heavy, as if its tip is made of stone. Her origin is associated with the story of a certain warrior from the northern tribes, who fought against a powerful witch, but she turned her into stone, but she herself did not escape a similar fate. They say that the witch's spell has also passed to the halberd. The most interesting thing is that everyone tells this story differently, so now it's impossible to understand how it really was.
 
-STATISTICS:
+PARAMÈTRES :
 
 "Flesh to stone" 1 time per day (saving throw vs. spells to avoid the effect)
 10% chance to turn an opponent into stone (instant death)
 Additional stun damage 4 points
 
-THACO: +2 bonus
-Damage: 1d10 +2
-Damage type: piercing
-Weight: 12
-Speed Factor: 9
-Proficiency type: Halberds
-Type: 2-handed
-Requires: Strength 13
+TAC0: +2 bonus
+Dégâts : 1d10 +2
+Type de dégâts : piercing
+Poids : 12
+Facteur de vitesse : 9
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 13
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Thief
@@ -1794,21 +1794,21 @@ Not usable by:
 @598 = ~Halberd of Dawn~
 @599 = ~The blade of this halberd has a golden-red hue and emits quite a strong heat. The swing of this weapon leaves a trail of fire.
 
-STATISTICS:
+PARAMÈTRES :
 
 +3 points of additional fire damage
 "Fireball" 2 times per day
 
-THACO: +3 bonus
-Damage: 1d10 +3
-Damage type: piercing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Halberds
-Type: 2-handed
-Requires: Strength 13
+TAC0: +3 bonus
+Dégâts : 1d10 +3
+Type de dégâts : piercing
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 13
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Thief
@@ -1817,21 +1817,21 @@ Not usable by:
 @600 = ~Guard's Halberd~
 @601 = ~This weapon is often used by guards, bodyguards, guards and many others. Being the same height as a man dressed from head to toe in armor, this halberd looks like a serious weapon. Anyone who can masterfully handle it deserves every respect.
 
-STATISTICS:
+PARAMÈTRES :
 
 50% chance to deal 1d10 points of additional piercing damage
 Strength: set to 25
 
-THACO: +4 bonus	
-Damage: 1d10 +4	
-Damage type: piercing
-Weight: 15
-Speed Factor: 9
-Proficiency type: Halberds	
-Type: 2-handed
-Requires: Strength 13
+TAC0: +4 bonus	
+Dégâts : 1d10 +4	
+Type de dégâts : piercing
+Poids : 15
+Facteur de vitesse : 9
+Type de compétence : Halberds	
+Type : Arme à deux mains
+Nécessite : Strength 13
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Thief
@@ -1840,20 +1840,20 @@ Not usable by:
 @602 = ~Hammer of Predictability~
 @603 = ~This hammer warns its owner in time that there is someone nearby whose conscience is unclean and who has a reason to hide himself from others, thus providing protection from an unexpected and insidious attack.
 
-STATISTICS:
+PARAMÈTRES :
 
 All invisible creatures around the target become visible when hit by a hammer
 
-THACO: +3 bonus
-Damage: 1d4 +3
-Damage type: crushing
-Weight: 6
-Speed Factor: 4
-Proficiency type: War Hammer
-Type: 1-handed
-Requires: Strength 9
+TAC0: +3 bonus
+Dégâts : 1d4 +3
+Type de dégâts : crushing
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : War Hammer
+Type : Arme à une main
+Nécessite : Strength 9
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Thief
@@ -1861,20 +1861,20 @@ Not usable by:
 @604 = ~Hammer of Release~
 @605 = ~This unusual hammer is very useful, as it has a very valuable ability against summoned creatures. The hammer is enchanted with a special stunning spell, thanks to which it has the ability to recall the summoned creature with a certain chance.
 
-STATISTICS:
+PARAMÈTRES :
 
 20% chance to instantly kill a creature summoned by an opponent on hit
 
-THACO: +3 bonus
-Damage: 1d4 +3
-Damage type: crushing
-Weight: 6
-Speed Factor: 4
-Proficiency type: War Hammer
-Type: 1-handed
-Requires: Strength 9
+TAC0: +3 bonus
+Dégâts : 1d4 +3
+Type de dégâts : crushing
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : War Hammer
+Type : Arme à une main
+Nécessite : Strength 9
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Thief
@@ -1882,20 +1882,20 @@ Not usable by:
 @606 = ~Blacksmith's Hammer~
 @607 = ~Many years ago, an uprising broke out in one of the parts of Féérune, organized by rebels who called themselves Blacksmiths. The reason for their discontent was the inability of the city guards to cope with thieves who steal goods and weapons made by blacksmiths. How the uprising ended is a dark matter, but it is known for sure that the rebels were armed with such weapons.
 
-STATISTICS:
+PARAMÈTRES :
 
 35% chance to knock out an enemy (sleep for 10 seconds)
 
-THACO: +4 bonus
-Damage: 1d4 +4
-Damage type: crushing
-Weight: 6
-Speed Factor: 3
-Proficiency type: War Hammer
-Type: 1-handed
-Requires: Strength 9
+TAC0: +4 bonus
+Dégâts : 1d4 +4
+Type de dégâts : crushing
+Poids : 6
+Facteur de vitesse : 3
+Type de compétence : War Hammer
+Type : Arme à une main
+Nécessite : Strength 9
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Thief
@@ -1903,7 +1903,7 @@ Not usable by:
 @608 = ~Priest's Tiara~
 @609 = ~This is a tiara, a headdress worn by many priests and priests. She is enchanted with divine magic to help the priests in their hard work.
 
-STATISTICS:
+PARAMÈTRES :
 
 Maximum of health points: +5 bonus
 "Healing of Serious Wounds" 3 times per day
@@ -1913,15 +1913,15 @@ Usable by:
 @610 = ~Horned Helmet~
 @611 = ~This helmet resembles the head of a demon. This may frighten some weak-minded opponents.
 
-STATISTICS:
+PARAMÈTRES :
 
-Resistance to slashing damage: +20% bonus
+Resistance to slashing Dégâts : +20% bonus
 Resistance to electricity: +15% bonus
 30% chance to throw the enemy into a panic (saving throw vs. spells to avoid the effect)
 
-Weight: 2
+Poids : 2
 
-Not usable by:
+Inutilisable par :
   Mage
   Bard
   Thief
@@ -1931,19 +1931,19 @@ Not usable by:
 @612 = ~Barbarian's Helmet~
 @613 = ~For the owner of ordinary bodily proportions, this massive helmet will hang on his head and constantly tries to move down on his nose. The only ones who can wear it without problems are barbarians, whose heads are somewhat larger than those of ordinary people.
 
-STATISTICS:
+PARAMÈTRES :
 
 The helmet owner cannot be stunned
 Magic Resistance: +20% bonus
 
-Weight: 2
+Poids : 2
 
 Usable by:
   Barbarian~
 @614 = ~Ioun Stone of Negative Energy~
 @615 = ~This Ioun Stone serves as a receptacle of negative energy. Once a day, a mage can release this energy in the form of a powerful magical burst.
 
-STATISTICS:
+PARAMÈTRES :
 
 "Explosion of negative energy" once per day
 Magic Resistance: +10% bonus
@@ -1957,17 +1957,17 @@ Usable by:
 @619 = ~Khopesh~
 @620 = ~The khopesh is an eastern weapon with a handle about six inches long and a blade. The blade is about eighteen inches from the hilt straight, and then bends in the shape of a sickle for a couple of feet. The blade itself is usually made of bronze or iron.
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 2d4
-Damage type: piercing
-Weight: 7
-Speed Factor: 9
-Proficiency type: Short sword
-Type: 1-handed
+Dégâts : 2d4
+Type de dégâts : piercing
+Poids : 7
+Facteur de vitesse : 9
+Type de compétence : Short sword
+Type : Arme à une main
 Requirements: Strength 8
 
-Not usable by:
+Inutilisable par :
   Cleric
   Mage
   Thief
@@ -1976,18 +1976,18 @@ Not usable by:
 @621 = ~Khopesh +1~
 @622 = ~The khopesh is an eastern weapon with a handle about six inches long and a blade. The blade is about eighteen inches from the hilt straight, and then bends in the shape of a sickle for a couple of feet. The blade itself is usually made of bronze or iron. This improved version of the khopesh differs from the usual one only in efficiency and color of the handle.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +1 bonus
-Damage: 2d4 +1
-Damage type: piercing
-Weight: 7
-Speed Factor: 9
-Proficiency type: Short sword
-Type: 1-handed
-Requires: Strength 8
+TAC0: +1 bonus
+Dégâts : 2d4 +1
+Type de dégâts : piercing
+Poids : 7
+Facteur de vitesse : 9
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 8
 
-Not usable by:
+Inutilisable par :
   Cleric
   Mage
   Thief
@@ -1996,18 +1996,18 @@ Not usable by:
 @623 = ~Khopesh +2~
 @624 = ~The khopesh is an eastern weapon with a handle about six inches long and a blade. The blade is about eighteen inches from the hilt straight, and then bends in the shape of a sickle for a couple of feet. The blade itself is usually made of bronze or iron. This improved version of the khopesh differs from the usual one only in efficiency and color of the handle.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +2 bonus
-Damage: 2d4 +2
-Damage type: piercing
-Weight: 7
-Speed Factor: 9
-Proficiency type: Short sword
-Type: 1-handed
-Requires: Strength 8
+TAC0: +2 bonus
+Dégâts : 2d4 +2
+Type de dégâts : piercing
+Poids : 7
+Facteur de vitesse : 9
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 8
 
-Not usable by:
+Inutilisable par :
   Cleric
   Mage
   Thief
@@ -2016,18 +2016,18 @@ Not usable by:
 @625 = ~Khopesh +3~
 @626 = ~The khopesh is an eastern weapon with a handle about six inches long and a blade. The blade is about eighteen inches from the hilt straight, and then bends in the shape of a sickle for a couple of feet. The blade itself is usually made of bronze or iron. This improved version of a khopesh differs from classical type as effective, so in the picturesque handle.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +3 bonus
-Damage: 2d4 +3
-Damage type: piercing
-Weight: 7
-Speed Factor: 9
-Proficiency type: Short sword
-Type: 1-handed
-Requires: Strength 8
+TAC0: +3 bonus
+Dégâts : 2d4 +3
+Type de dégâts : piercing
+Poids : 7
+Facteur de vitesse : 9
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 8
 
-Not usable by:
+Inutilisable par :
   Cleric
   Mage
   Thief
@@ -2036,22 +2036,22 @@ Not usable by:
 @627 = ~Deranez~
 @628 = ~This is an exact copy of the eastern khopesh. It was made for one of the sailors who returned from a sea trip and brought home a copy of this weapon as a souvenir. The copy is quite accurate, made exclusively of iron, but it is enchanted by another magic.
 
-STATISTICS:
+PARAMÈTRES :
 
 Additional damage of 1d3 points from fire
 10% chance of stopping time
 20% chance to slow down the target for 10 seconds on hit
 
-THACO: +3 bonus
-Damage: 2d4 +2
-Damage type: slashing
-Weight: 7
-Speed Factor: 9
-Proficiency type: Short sword
-Type: 1-handed
-Requires: Strength 8
+TAC0: +3 bonus
+Dégâts : 2d4 +2
+Type de dégâts : tranchant
+Poids : 7
+Facteur de vitesse : 9
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 8
 
-Not usable by:
+Inutilisable par :
   Cleric
   Mage
   Thief
@@ -2060,21 +2060,21 @@ Not usable by:
 @629 = ~Slaver's Blade~
 @630 = ~This is one of those khopesh that are carried by slavers who control slaves on construction. Only whips are usually used as punishment, but if several slaves show disobedience at once, the whips turn out to be ineffective, and you need to defend yourself with something else. Despite the fact that weapons are allowed to be used only in self-defense, many slavers and overseers violate this rule.
 
-STATISTICS:
+PARAMÈTRES :
 
 30% chance to deal 1d4 points of additional piercing damage
 10% chance to increase the probability of a critical hit
 
-THACO: +2 bonus
-Damage: 2d4 +2
-Damage type: slashing
-Weight: 7
-Speed Factor: 9
-Proficiency type: Short sword
-Type: 1-handed
-Requires: Strength 8
+TAC0: +2 bonus
+Dégâts : 2d4 +2
+Type de dégâts : tranchant
+Poids : 7
+Facteur de vitesse : 9
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 8
 
-Not usable by:
+Inutilisable par :
   Cleric
   Mage
   Thief
@@ -2083,22 +2083,22 @@ Not usable by:
 @631 = ~Power of Ibunez~
 @632 = ~This rather expensive and ornate khopesh once belonged to one of the pharaohs of the 3rd dynasty. It was made in order to use it to increase your strength and weaken your enemies. Pharaoh, unfortunately, did not expect that he could lose this weapon, so it became fatal for him.
 
-STATISTICS:
+PARAMÈTRES :
 
 20% chance to poison the target for 10 seconds
 30% chance to silence the target for 15 seconds
 50% chance to send a disease for 12 seconds (2 points of damage per second)
 
-THACO: +3 bonus
-Damage: 2d4 +3
-Damage type: slashing
-Weight: 7
-Speed Factor: 9
-Proficiency type: Short sword
-Type: 1-handed
-Requires: Strength 8
+TAC0: +3 bonus
+Dégâts : 2d4 +3
+Type de dégâts : tranchant
+Poids : 7
+Facteur de vitesse : 9
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 8
 
-Not usable by:
+Inutilisable par :
   Cleric
   Mage
   Thief
@@ -2107,20 +2107,20 @@ Not usable by:
 @633 = ~Blade of Darkness~
 @634 = ~This is the infamous katana, which was owned by a general whose task was to protect Neverwinter at a time when the city was suffering from the invasion of the legions of the undead. Who owned it so far is shrouded in mystery. Only one thing is well known - because of the betrayal of the general, the city fell.
 
-STATISTICS:
+PARAMÈTRES :
 
 Undead take double damage
 
-THACO: +3 bonus
-Damage: 1d10 +3
-Damage type: slashing
-Weight:  6
-Speed Factor: 2
-Proficiency type: Katana
-Type: 1-handed
-Requires: Strength 6
+TAC0: +3 bonus
+Dégâts : 1d10 +3
+Type de dégâts : tranchant
+Poids :  6
+Facteur de vitesse : 2
+Type de compétence : Katana
+Type : Arme à une main
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Good characters
   Cleric
   Mage
@@ -2128,35 +2128,35 @@ Not usable by:
 @635 = ~Samurai Katana~
 @636 = ~This katana, one of the most commonly used weapons in the samurai guild, is one and a half feet longer than the regular version and the size most resembles a two-handed sword. Because of this, the samurai is forced to wear a katana behind his back, from where he can instantly snatch it for protection or attack. This weapon requires the use of special equipment, so it is not available to everyone.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +3 bonus	
-Damage: 1d10 +3	
-Damage type: slashing	
-Weight:  15
-Speed Factor: 1	
-Proficiency type: Katana	
-Type: 2-handed	
-Requires: Strength 5
+TAC0: +3 bonus	
+Dégâts : 1d10 +3	
+Type de dégâts : tranchant	
+Poids :  15
+Facteur de vitesse : 1	
+Type de compétence : Katana	
+Type : Arme à deux mains	
+Nécessite : Strength 5
 	
 Usable by:  
   Bounty Hunter~
 @637 = ~Katana of Concentration~
 @638 = ~This weapon belonged to an unknown combat mage from the North, the lands of the barbarians. He tried to combine his physical strength and mind with weapons. To do this, he created a special katana that allowed him to concentrate. Despite the fact that the method of creating such a katana disappeared with the death of its owner, the katana itself has been well preserved, as well as its magical properties.
 
-STATISTICS:
+PARAMÈTRES :
 
 Increases the wisdom and intelligence of the owner by 2 points
 Adds one additional 1st, 2nd and 3rd level spell
 
-THACO: +2 bonus
-Damage: 1d10 +2
-Damage type: slashing
-Weight:  6
-Speed Factor: 2
-Proficiency type: Katana
-Type: 1-handed
-Requires: Strength 6
+TAC0: +2 bonus
+Dégâts : 1d10 +2
+Type de dégâts : tranchant
+Poids :  6
+Facteur de vitesse : 2
+Type de compétence : Katana
+Type : Arme à une main
+Nécessite : Strength 6
 
 Usable by:  
   Mage
@@ -2164,16 +2164,16 @@ Usable by:
 @639 = ~Enchanted Katana~
 @640 = ~Enchanting a katana is a quite non-trivial task. Unlike other weapons, the katana is already an almost perfect combat sword. This copy of the katana is enhanced with numerous spells. In the right hands, it will be a truly deadly weapon.
 
-STATISTICS:
+PARAMÈTRES :
 
-THAC0: +1 bonus
-Damage: 1d10 +1
-Damage type: slashing 
-Weight: 5
-Speed Factor: 3
-Proficiency type: Katana 
-Type: 1-handed
-Requires: Strength  6
+TAC0: +1 bonus
+Dégâts : 1d10 +1
+Type de dégâts : tranchant 
+Poids : 5
+Facteur de vitesse : 3
+Type de compétence : Katana 
+Type : Arme à une main
+Nécessite : Strength  6
 
 Usable by:  
   Mage
@@ -2181,7 +2181,7 @@ Usable by:
 @641 = ~Kevhorn's Elven Armor~
 @642 = ~The refined skill of the elf race allows you to create many beautiful and useful things. Among them are chain mail, which are so elegantly created that they can be worn under ordinary clothes, making them invisible. Because of its lightness, it allows thieves and warriors/magicians to wear it, but with some restrictions.
 
-STATISTICS:
+PARAMÈTRES :
 
 When wearing:
   Move Silently: penalty -10%
@@ -2189,9 +2189,9 @@ When wearing:
   Find Traps: penalty -5%
   Pick Pockets: penalty -20%
 
-Armor class: 5
-Weight: 7
-Requires: Strength 5
+Classe d'armure : 5
+Poids : 7
+Nécessite : Strength 5
 
 Usable by:
   Kevhorn~
@@ -2200,15 +2200,15 @@ Usable by:
 
 The name of the owner is engraved on the hilt of this sword - "Kevorn".
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 2d4
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Bastard sword
-Type: 1-handed
-Requires: Strength 11
+Dégâts : 2d4
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à une main
+Nécessite : Strength 11
 
 Usable by:
   Kevhorn~
@@ -2217,23 +2217,23 @@ Usable by:
 @647 = ~Spear of Magic~
 @648 = ~This ordinary-looking spear is imbued with magic. An experienced owner who understands magic will be able to read some spells with his help. Those who are at odds with magic are not recommended to use this item.
 
-STATISTICS:
+PARAMÈTRES :
 
 Ability to cast spells:
   Armor - 2 times per day
   Breach - 3 times per day
   Lightning Bolt - 3 times per day
 
-THACO: +3 bonus
-Damage: 1d6 +3
-Damage type: piercing
-Weight: 7
-Speed Factor: 3
-Proficiency type: Spear
-Type: 2-handed
-Requires: Strength 5
+TAC0: +3 bonus
+Dégâts : 1d6 +3
+Type de dégâts : piercing
+Poids : 7
+Facteur de vitesse : 3
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 5
 
-Not usable by:  
+Inutilisable par :  
   Cleric	
   Mage	
   Thief
@@ -2241,20 +2241,20 @@ Not usable by:
 @649 = ~Spear of Discharge~
 @650 = ~The tip of this spear is enchanted in a special way and continuously generates discharges. Plunging into the victim, the spear also strikes her with an electric discharge, which usually ends in death for a weak enemy.	
 
-STATISTICS:
+PARAMÈTRES :
 
 50% chance to deal 6d4 points of additional electrical damage
 
-THACO: +3 bonus
-Damage: 1d6 +3
-Damage type: piercing
-Weight: 7
-Speed Factor: 4
-Proficiency type: Spear
-Type: 2-handed
-Requires: Strength 5
+TAC0: +3 bonus
+Dégâts : 1d6 +3
+Type de dégâts : piercing
+Poids : 7
+Facteur de vitesse : 4
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 5
 
-Not usable by:  
+Inutilisable par :  
   Cleric	
   Mage
   Druid	
@@ -2263,13 +2263,13 @@ Not usable by:
 @651 = ~Armor of the Newerwinter Nine~
 @652 = ~Basic armor made of thick, wax or water-hardened leather. It is sturdy protection, not supple like boots or a cloak. Soft garment leathers like that would offer no more protection than common clothing. This is the kind of armor worn by members of the Neverwinter Nine.
 
-STATISTICS:
+PARAMÈTRES :
 
-Armor class: 7
-Weight: 15
-Requires: Strength 4
+Classe d'armure : 7
+Poids : 15
+Nécessite : Strength 4
 
-Not usable by:
+Inutilisable par :
   Mage~
 @653 = ~Marko's Report~
 @654 = ~This document was given to me by Marko, Gradak's right-hand man. It lists everything Gradak has ever done.~
@@ -2295,22 +2295,22 @@ Not usable by:
 @674 = ~Marksman' Bow~
 @675 = ~Marksmen are one of those who achieve their skills through hard training. They are genuine archery masters, and mainly include elves. Their accuracy, speed and strength are truly deadly.
 
-STATISTICS:
+PARAMÈTRES :
 
 10% chance to instantly kill the target on hit (saving throw vs. paralysis/poison/death with +1 bonus)
 Haste
 Gives you the opportunity to attack twice per round
 
-THACO: +5 bonus
-Damage: +5 bonus
-Damage type: piercing
-Weight: 5
-Speed Factor: 4
-Proficiency type: Long bow
-Type: 2-handed
-Requires: Strength 6
+TAC0: +5 bonus
+Dégâts : +5 bonus
+Type de dégâts : piercing
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long bow
+Type : Arme à deux mains
+Nécessite : Strength 6
 
-Not usable by:  
+Inutilisable par :  
   Druid
   Cleric
   Mage 
@@ -2319,7 +2319,7 @@ Not usable by:
 @676 = ~Elven Bow~
 @677 = ~This kind of bows is found only among elves, and therefore only they can use them. Accordingly, for those who cannot use it, it will be completely useless.
 
-STATISTICS:
+PARAMÈTRES :
 
 Regeneration of 1 health point in 10 seconds
 Haste
@@ -2327,16 +2327,16 @@ Gives you the opportunity to attack twice per round
 Move Silently: +30% bonus
 Invisibility 3 times per day
 
-THACO: +4 bonus
-Damage: +4 bonus
-Damage type: piercing
-Weight: 5
-Speed Factor: 4
-Proficiency type: Long bow
-Type: 2-handed
-Requires: Strength 6
+TAC0: +4 bonus
+Dégâts : +4 bonus
+Type de dégâts : piercing
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long bow
+Type : Arme à deux mains
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Non-Elf characters
   Druid
   Cleric
@@ -2345,21 +2345,21 @@ Not usable by:
 @678 = ~Unicorn Bow~
 @679 = ~The string of this bow is woven from the hair of the mane of a very rare creature - a unicorn. This hair is so strong and elastic that it is ideal for creating a bowstring. In addition, they improve the efficiency of the arrows produced from this bow.
 
-STATISTICS:
+PARAMÈTRES :
 
 Additional stun damage +4 on hit
 Gives you the opportunity to attack three times per round
 
-THACO: +4 bonus
-Damage: +4 bonus
-Damage type: piercing
-Weight: 8
-Speed Factor: 6
-Proficiency type: Long bow
-Type: 2-handed
-Requires: Strength 18
+TAC0: +4 bonus
+Dégâts : +4 bonus
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 6
+Type de compétence : Long bow
+Type : Arme à deux mains
+Nécessite : Strength 18
 
-Not usable by:
+Inutilisable par :
   Good characters
   Non-Elf characters
   Bard
@@ -2373,13 +2373,13 @@ Not usable by:
 @684 = ~Mithril Armor~
 @685 = ~This is armor made by gnomes from mithril.
 
-STATISTICS:
+PARAMÈTRES :
 
-Armor class: 5
-Weight: 5
-Requires: Strength 12
+Classe d'armure : 5
+Poids : 5
+Nécessite : Strength 12
 
-Not usable by:
+Inutilisable par :
   Bard
   Druid 
   Mage 
@@ -2391,22 +2391,22 @@ Not usable by:
 @689 = ~This head belonged to the leader of the local elves.~
 @690 = ~Marksmen are one of those who achieve their skills through hard training. They are genuine archery masters, and mainly include elves. Their accuracy, speed and strength are truly deadly.
 
-STATISTICS:
+PARAMÈTRES :
 
 10% chance to instantly kill the target on hit (saving throw vs. paralysis/poison/death with +1 bonus)
 Haste
 Gives you the opportunity to attack twice per round
 
-THACO: +3 bonus
-Damage: +3 bonus
-Damage type: piercing
-Weight: 4
-Speed Factor: 2
-Proficiency type: Long bow
-Type: 2-handed
-Requires: Strength 6
+TAC0: +3 bonus
+Dégâts : +3 bonus
+Type de dégâts : piercing
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : Long bow
+Type : Arme à deux mains
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Non-Elf characters 
   Druid
   Cleric
@@ -2417,42 +2417,42 @@ Not usable by:
 @692 = ~Morning Star of Fear~
 @693 = ~This weapon causes fear in others just by its appearance. The entire handle with the pommel is painted blue-black. The runes applied on the handle lead the victim into primal horror, which is why she immediately runs away, unless she immediately has a stroke.
 
-STATISTICS:
+PARAMÈTRES :
 
 35% шанс, что жертва выронит оружие от страха при попадании
 80% шанс обратить жертву в панику (спасбросок против дыхания при -5, чтобы избежать эффекта)
 			
-THACO: +3 bonus
-Damage: 2d4 +3
-Damage type: crushing
-Weight: 12
-Speed Factor: 6
-Proficiency type: Flail/Morningstar
-Type: 1-handed
-Requires: Strength 11
+TAC0: +3 bonus
+Dégâts : 2d4 +3
+Type de dégâts : crushing
+Poids : 12
+Facteur de vitesse : 6
+Type de compétence : Flail/Morningstar
+Type : Arme à une main
+Nécessite : Strength 11
 	
-Not usable by:  
+Inutilisable par :  
   Mage		
   Thief	
   Druid~
 @694 = ~Bonecrusher~
 @695 = ~This weapon has received such an unusual name quite deservedly. Although it is not much heavier than other morning stars, its pommel is much harder, and the spikes on it are deadly. Even armor doesn't always help against them.
 
-STATISTICS:
+PARAMÈTRES :
 
 5% chance to instantly kill a creature if saving throw fails vs. paralysis/poison/death
 Additional 1d8 of crushing damage
 
-THACO: +4 bonus
-Damage: 2d4 +4
-Damage type: crushing
-Weight: 12
-Speed Factor: 7
-Proficiency type: Flail/Morningstar
-Type: 1-handed
-Requires: Strength 11
+TAC0: +4 bonus
+Dégâts : 2d4 +4
+Type de dégâts : crushing
+Poids : 12
+Facteur de vitesse : 7
+Type de compétence : Flail/Morningstar
+Type : Arme à une main
+Nécessite : Strength 11
 
-Not usable by:  
+Inutilisable par :  
   Mage	
   Cleric	
   Thief	
@@ -2460,72 +2460,72 @@ Not usable by:
 @696 = ~Morning Star of Ice~
 @697 = ~If you believe the legends, it was this morning star that was used to defeat the cave ogres who once lived in the mountains.
 
-STATISTICS:
+PARAMÈTRES :
 
 Cone of Cold 3 times per day
 Ice Storm 2 times a day
 75% chance to deal 1d4 additional cold damage
 
-THACO: +2 bonus
-Damage: 2d4 +2
-Damage type: crushing
-Weight: 10
-Speed Factor: 7
-Proficiency type: Flail/Morningstar
-Type: 1-handed
-Requires: Strength 11
+TAC0: +2 bonus
+Dégâts : 2d4 +2
+Type de dégâts : crushing
+Poids : 10
+Facteur de vitesse : 7
+Type de compétence : Flail/Morningstar
+Type : Arme à une main
+Nécessite : Strength 11
 
-Not usable by:
+Inutilisable par :
   Druid
   Mage
   Thief~
 @698 = ~Halfling's Sling~
 @699 = ~The halfling race is famous for its exceptional skill in making slings. This instance of the sling is very valuable due to the fact that it is extremely rare. No wonder - the halflings guard their secrets very jealously.
 
-STATISTICS:
+PARAMÈTRES :
 
 Bonuses +1 to strength and dexterity
 Haste
 
-THACO: +3 bonus
-Damage: +3 bonus
-Damage type: missile
-Weight: 1
-Speed Factor: 2
-Proficiency type: Sling
-Type: 1-handed
-Requires: Strength 3
+TAC0: +3 bonus
+Dégâts : +3 bonus
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 2
+Type de compétence : Sling
+Type : Arme à une main
+Nécessite : Strength 3
 
 Usable by:  
   Halfling~
 @700 = ~Roomy Sling~
 @701 = ~This relatively small sling allows you to load three stones into it, which are fired simultaneously. Thus, this sling causes increased damage in comparison with other instances.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +2 bonus
-Damage: +2 bonus
-Damage type: missile
-Weight: 1
-Speed Factor: 6
-Proficiency type: Sling
-Type: 1-handed
-Requires: Strength 3~
+TAC0: +2 bonus
+Dégâts : +2 bonus
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 6
+Type de compétence : Sling
+Type : Arme à une main
+Nécessite : Strength 3~
 @702 = ~Sling of Surprise~
 @703 = ~This enchanted sling can become dangerous for either side. Shots from it generate the most unexpected effects from wild magic. What the effect will be, it is impossible to predict in advance.
 
-STATISTICS:
+PARAMÈTRES :
 
 A shot from a sling causes the effects of wild magic with unpredictable effects
 
-THACO: +3 bonus
-Damage: +3 bonus
-Damage type: missile
-Weight: 2
-Speed Factor: 4
-Proficiency type: Sling
-Type: 1-handed
-Requires: Strength 3
+TAC0: +3 bonus
+Dégâts : +3 bonus
+Type de dégâts : missile
+Poids : 2
+Facteur de vitesse : 4
+Type de compétence : Sling
+Type : Arme à une main
+Nécessite : Strength 3
 
 Usable by:
   Mage~
@@ -2533,57 +2533,57 @@ Usable by:
 @705 = ~Staff of Fire~
 @706 = ~In total, there are three staffs that can control the corresponding elements. Thanks to this, such staffs are in demand and appreciated. This particular instance allows you to control Fire in all its manifestations.
 
-STATISTICS:
+PARAMÈTRES :
 
 +15% bonus to fire resistance
 Fireball 2 times per day
 Conjure Fire Elemental 1 time per day
 Additional damage +1d6 by fire on hit
 
-THACO: +3 bonus
-Damage: 1d6 +3
-Damage type: crushing
-Weight: 5
-Speed Factor: 1
-Proficiency type: Staff
-Type: 2-handed
-Requires: Strength 5~
+TAC0: +3 bonus
+Dégâts : 1d6 +3
+Type de dégâts : crushing
+Poids : 5
+Facteur de vitesse : 1
+Type de compétence : Staff
+Type : Arme à deux mains
+Nécessite : Strength 5~
 @707 = ~Staff of Air~
 @708 = ~In total, there are three staffs that can control the corresponding elements. Thanks to this, such staffs are in demand and appreciated. This particular instance allows you to control Air in all its manifestations.
 
-STATISTICS:
+PARAMÈTRES :
 
 +15% bonus to electricity resistance
 Chain Lightning 2 times per day
 Conjure Air Elemental 1 time per day
 Additional damage +1d6 by electricity on hit
 
-THACO: +3 bonus
-Damage: 1d6 +3
-Damage type: crushing
-Weight: 5
-Speed Factor: 1
-Proficiency type: Staff
-Type: 2-handed
-Requires: Strength 5~
+TAC0: +3 bonus
+Dégâts : 1d6 +3
+Type de dégâts : crushing
+Poids : 5
+Facteur de vitesse : 1
+Type de compétence : Staff
+Type : Arme à deux mains
+Nécessite : Strength 5~
 @709 = ~Staff of Earth~
 @710 = ~In total, there are three staffs that can control the corresponding elements. Thanks to this, such staffs are in demand and appreciated. This particular instance allows you to control Earth in all its manifestations.
 
-STATISTICS:
+PARAMÈTRES :
 
 +15% bonus to acid resistance
 Meteor Swarm 2 times per day
 Conjure Earth Elemental 1 time per day
 Additional damage +1d6 by acid on hit
 		
-THACO: +3 bonus
-Damage: 1d6 +3
-Damage type: crushing
-Weight: 5
-Speed Factor: 1
-Proficiency type: Staff
-Type: 2-handed
-Requires: Strength 5~
+TAC0: +3 bonus
+Dégâts : 1d6 +3
+Type de dégâts : crushing
+Poids : 5
+Facteur de vitesse : 1
+Type de compétence : Staff
+Type : Arme à deux mains
+Nécessite : Strength 5~
 @711 = ~Magic symbol~
 @712 = ~The wizard Petkul gave you this symbol. If you want to challenge him, you have to go to the ruined tower, north of the temple.~
 @713 = ~Magic wand~
@@ -2592,19 +2592,19 @@ Requires: Strength 5~
 @716 = ~Cult Blade~
 @717 = ~Ninjas are skilled warriors and spies, combining the talents of thieves and warriors. Usually they unite into very powerful groups, which are divided into many cults according to their beliefs and life paths. Each cult has its own symbol of power. This is one of them.
 
-STATISTICS:
+PARAMÈTRES :
 
 20% chance to put the target to sleep for 10 seconds when hit
 Poisons the target with poison with damage of 2 points per second
 10% chance to drain 1 level when hit
 
-Damage: 1d8
-Damage type: slashing
-Weight: 7
-Speed Factor: 1
-Proficiency type: Scimitar/Wakizashi/Ninja-To
-Type: 1-handed
-Requires: Strength 6
+Dégâts : 1d8
+Type de dégâts : tranchant
+Poids : 7
+Facteur de vitesse : 1
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 6
 
 Usable by:
   Fighter	
@@ -2612,7 +2612,7 @@ Usable by:
 @718 = ~Urgoth~
 @719 = ~This is the twin brother of the Seledin blade. Both blades were forged at the same time by the same blacksmith, so much so that the abilities of one blade complement the abilities of the other. Alone, these blades are not as strong as in a pair.
 
-STATISTICS:
+PARAMÈTRES :
 
 +2 bonus to Strength
 Haste when wearing
@@ -2620,15 +2620,15 @@ Haste when wearing
 60% chance to poison the target with poison
 Power 3 times a day
 
-Damage: 1d8, +5 by electricity	
-Damage type: slashing
-Weight: 8
-Speed Factor: 2
-Proficiency type: Scimitar/Wakizashi/Ninja-To
-Type: 1-handed
-Requires: Strength 6
+Dégâts : 1d8, +5 by electricity	
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 2
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric
@@ -2637,7 +2637,7 @@ Not usable by:
 @720 = ~Seledin~
 @721 = ~This is the twin brother of the Urgoth blade. Both blades were forged at the same time by the same blacksmith, so much so that the abilities of one blade complement the abilities of the other. Alone, these blades are not as strong as in a pair.
 			
-STATISTICS:  
+PARAMÈTRES :  
 			
 Regeneration of 2 health points per second
 +2 bonus to Dexterity
@@ -2646,15 +2646,15 @@ Regeneration of 2 health points per second
 Lesser Restoration 2 times a day
 Cure Serious Wounds 2 times a day
 			
-Damage: 1d8
-Damage type: slashing
-Weight: 8
-Speed Factor: 2
-Proficiency type: Scimitar/Wakizashi/Ninja-To
-Type: 1-handed
-Requires: Strength 6
+Dégâts : 1d8
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 2
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric
@@ -2663,91 +2663,91 @@ Not usable by:
 @722 = ~Nomad Armor~
 @723 = ~This is armor made by nomads, bandits of the desert. Its properties are similar to leather armor with metal inserts.
 
-STATISTICS:
+PARAMÈTRES :
 
-Armor class: 6
-Weight: 15
-Requires: Strength 6
+Classe d'armure : 6
+Poids : 15
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Mage~
 @724 = ~Blade of Mage~
 @725 = ~This kind of double-edged sword was created for all types of mages. It can only be used by a mage, and no one else.
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 1d8, +1 by magic
-Damage type: slashing
-Weight: 2
-Speed Factor: 5
-Proficiency type: Long sword
-Type: 1-handed
-Requires: Intelligence 15
+Dégâts : 1d8, +1 by magic
+Type de dégâts : tranchant
+Poids : 2
+Facteur de vitesse : 5
+Type de compétence : Long sword
+Type : Arme à une main
+Nécessite : Intelligence 15
 
 Usable by:
   Mage~
 @726 = ~Blade of Mage +1~
 @727 = ~This kind of double-edged sword was created for all types of mages. It can only be used by a mage, and no one else.
 
-STATISTICS:
+PARAMÈTRES :
 
-THAC0: +1 bonus
-Damage: 1d8 +1, +2 by magic
-Damage type: slashing
-Weight: 2
-Speed Factor: 5
-Proficiency type: Long sword
-Type: 1-handed
-Requires: Intelligence 16
+TAC0: +1 bonus
+Dégâts : 1d8 +1, +2 by magic
+Type de dégâts : tranchant
+Poids : 2
+Facteur de vitesse : 5
+Type de compétence : Long sword
+Type : Arme à une main
+Nécessite : Intelligence 16
 
 Usable by:
   Mage~
 @728 = ~Blade of Mage +2~
 @729 = ~This kind of double-edged sword was created for all types of mages. It can only be used by a mage, and no one else.
 
-STATISTICS:
+PARAMÈTRES :
 
-THAC0: +2 bonus
-Damage: 1d8 +2, +3 by magic
-Damage type: slashing
-Weight: 2
-Speed Factor: 5
-Proficiency type: Long sword
-Type: 1-handed
-Requires: Intelligence 17
+TAC0: +2 bonus
+Dégâts : 1d8 +2, +3 by magic
+Type de dégâts : tranchant
+Poids : 2
+Facteur de vitesse : 5
+Type de compétence : Long sword
+Type : Arme à une main
+Nécessite : Intelligence 17
 
 Usable by:
   Mage~
 @730 = ~Blade of Mage +3~
 @731 = ~This kind of double-edged sword was created for all types of mages. It can only be used by a mage, and no one else.
 
-STATISTICS:
+PARAMÈTRES :
 
-THAC0: +3 bonus
-Damage: 1d8 +3, +4 by magic
-Damage type: slashing
-Weight: 2
-Speed Factor: 5
-Proficiency type: Long sword
-Type: 1-handed
-Requires: Intelligence 18
+TAC0: +3 bonus
+Dégâts : 1d8 +3, +4 by magic
+Type de dégâts : tranchant
+Poids : 2
+Facteur de vitesse : 5
+Type de compétence : Long sword
+Type : Arme à une main
+Nécessite : Intelligence 18
 
 Usable by:
   Mage~
 @732 = ~Pike~
 @733 = ~A pike is a pole weapon used to defend against attacks from riders from the ground. It is very effective and irreplaceable due to its design. The peak has a length of two meters and a special pommel, which allows you to hit the protection of both the rider and the horse.
 
-STATISTICS:
+PARAMÈTRES :
 	
-Damage: 3d4
-Damage type: piercing
-Weight: 8
-Speed Factor: 5
-Proficiency type: Spear	
-Type: 2-handed
-Requires: Strength 6
+Dégâts : 3d4
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Spear	
+Type : Arme à deux mains
+Nécessite : Strength 6
 
-Not usable by:  
+Inutilisable par :  
   Cleric	
   Thief	
   Mage
@@ -2755,18 +2755,18 @@ Not usable by:
 @734 = ~Pike +1~
 @735 = ~This kind of pike was created by the blacksmiths of Northern Calimport at the time when the city was attacked by nomads. In battle, she showed high efficiency against mounted riders. Thanks to the determined resistance and losses on the part of the nomads, the latter retreated.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +1 bonus
-Damage: 3d4 +1
-Damage type: piercing
-Weight: 6
-Speed Factor: 5
-Proficiency type: Spear
-Type: 2-handed
-Requires: Strength 6
+TAC0: +1 bonus
+Dégâts : 3d4 +1
+Type de dégâts : piercing
+Poids : 6
+Facteur de vitesse : 5
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 6
 
-Not usable by:  
+Inutilisable par :  
   Cleric	
   Thief	
   Mage
@@ -2774,18 +2774,18 @@ Not usable by:
 @736 = ~Pike +2~
 @737 = ~This kind of pike was created by the blacksmiths of Northern Calimport at the time when the city was attacked by nomads. Unlike the original version, this copy of the pike is shorter by 20 centimeters, due to which its weight is reduced, and it is easier to manage.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +2 bonus
-Damage: 3d4 +2
-Damage type: piercing
-Weight: 5
-Speed Factor: 5
-Proficiency type: Spear
-Type: 2-handed
-Requires: Strength 6
+TAC0: +2 bonus
+Dégâts : 3d4 +2
+Type de dégâts : piercing
+Poids : 5
+Facteur de vitesse : 5
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 6
 
-Not usable by:  
+Inutilisable par :  
   Cleric	
   Thief	
   Mage
@@ -2793,18 +2793,18 @@ Not usable by:
 @738 = ~Pike +3~
 @739 = ~This kind of pike was created by the blacksmiths of Northern Calimport at the time when the city was attacked by nomads. Its peculiarity is a special kind of pommel, which did not allow riders to avoid imminent death.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +3 bonus
-Damage: 3d4 +3
-Damage type: piercing
-Weight: 7
-Speed Factor: 5
-Proficiency type: Spear
-Type: 2-handed
-Requires: Strength 6
+TAC0: +3 bonus
+Dégâts : 3d4 +3
+Type de dégâts : piercing
+Poids : 7
+Facteur de vitesse : 5
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 6
 
-Not usable by:  
+Inutilisable par :  
   Cleric	
   Thief	
   Mage
@@ -2812,20 +2812,20 @@ Not usable by:
 @740 = ~Jagged Pike~
 @741 = ~This is a very dangerous kind of pike, which has an enlarged pommel with very sharp teeth. She has the ability to pierce even the plate armor of knights and kill with a single blow.
 
-STATISTICS:
+PARAMÈTRES :
 
 10% chance to kill the target with one hit (without saving throw)
 			
-THACO: +2 bonus
-Damage: 3d4 +2
-Damage type: piercing
-Weight: 6
-Speed Factor: 5
-Proficiency type: Spear	
-Type: 2-handed
-Requires: Strength 6
+TAC0: +2 bonus
+Dégâts : 3d4 +2
+Type de dégâts : piercing
+Poids : 6
+Facteur de vitesse : 5
+Type de compétence : Spear	
+Type : Arme à deux mains
+Nécessite : Strength 6
 
-Not usable by:  
+Inutilisable par :  
   Cleric	
   Thief	
   Mage
@@ -2833,20 +2833,20 @@ Not usable by:
 @742 = ~Calimport Pike~
 @743 = ~Calimport is a city in the desert, which in ancient times was exhausted by constant raids of nomads, leaving behind only smoking ruins. This continued until a pike was created, inspiring the enemy with fear. It has pommels on both sides of the handle, and has such a terrible appearance that many nomads were frightened and fled from the battlefield instead of fighting.
 
-STATISTICS:
+PARAMÈTRES :
 
 10% chance to turn the target into a panic for 10 seconds on hit (saving throw vs. spells with a +2 bonus to avoid effects)
 
-THACO: +3 bonus
-Damage: 3d4 +3
-Damage type: piercing
-Weight: 6
-Speed Factor: 3
-Proficiency type: Spear
-Type: 2-handed
-Requires: Strength 6
+TAC0: +3 bonus
+Dégâts : 3d4 +3
+Type de dégâts : piercing
+Poids : 6
+Facteur de vitesse : 3
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 6
 
-Not usable by:  
+Inutilisable par :  
   Cleric	
   Thief	
   Mage
@@ -2854,21 +2854,21 @@ Not usable by:
 @744 = ~Ilidur's pike~
 @745 = ~Ilidur was an ordinary adventurer with an unusual weapon. No one had any idea how he got this pike, but they say that he won it in a bet. And so he went from an ordinary adventurer to a famous hero, and all this thanks to the powerful weapons he owned. The pike was once enchanted by a powerful wizard. He put a spell on her that provides resistance to ordinary and magical weapons.
 
-STATISTICS:
+PARAMÈTRES :
 
 +20% bonus to magic damage resistance
 20% chance to gain immunity to normal and magical weapons
 
-THACO: +3 bonus
-Damage: 3d4 +3
-Damage type: piercing
-Weight: 6
-Speed Factor: 5
-Proficiency type: Spear
-Type: 2-handed
-Requires: Strength 6
+TAC0: +3 bonus
+Dégâts : 3d4 +3
+Type de dégâts : piercing
+Poids : 6
+Facteur de vitesse : 5
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 6
 
-Not usable by:  
+Inutilisable par :  
   Cleric	
   Thief	
   Mage
@@ -2884,28 +2884,28 @@ Not usable by:
 @753 = ~Armor of Elements~
 @754 = ~This armor was made by a mage by order of an unknown hunter. He had to protect him from fire and frost spells, as well as magic charms in most cases. Be that as it may, he did not save his owner from death.
 
-STATISTICS:
+PARAMÈTRES :
 
 +20% bonus to fire, cold and magic resistance
 
-Armor Class: -2
-Weight: 50
-Requires: Strength 12
+Classe d'armure : -2
+Poids : 50
+Nécessite : Strength 12
 
-Not usable by:
+Inutilisable par :
   Mage
   Cleric
   Druid
   Thief~
 @755 = ~This plate armor is forged very skillfully. It is durable, and at the same time very light. Such armor is worn by members of the Neverwinter Nine.
 
-STATISTICS:
+PARAMÈTRES :
 
-Armor Class: 1
-Weight: 25
-Requires: Strength 8
+Classe d'armure : 1
+Poids : 25
+Nécessite : Strength 8
 
-Not usable by:
+Inutilisable par :
   Bard
   Mage
   Thief
@@ -2913,13 +2913,13 @@ Not usable by:
 @756 = ~Armor of Hardness~
 @757 = ~This armor partially protects the wearer from any stabbing weapon. On the other side, not everyone can wear this armor because of its weight.
 
-STATISTICS:
+PARAMÈTRES :
 
 +25% bonus to piercing weapon resistance
 +5% fire resistance bonus
 
-Armor Class: 3
-Weight: 80
+Classe d'armure : 3
+Poids : 80
 Required: Strength 15
 
 Usable by:
@@ -2928,13 +2928,13 @@ Usable by:
 @758 = ~Mantle of Magic~
 @759 = ~From the first glance at this robe, it becomes clear that it is intended exclusively for magicians and priests. Thanks to its capabilities, it will greatly facilitate the difficult life of an adventurer to any user of divine or arcane magic.
 
-STATISTICS:
+PARAMÈTRES :
 
 Bonus +20 to the maximum of health points
 One bonus slot for spells of a priest or mage on the 5th and 6th levels
 
-Armor Class: 3
-Weight: 3
+Classe d'armure : 3
+Poids : 3
 
 Usable by:
   Mage
@@ -2943,14 +2943,14 @@ Usable by:
 @761 = ~Armor of God~
 @762 = ~Rumor has it that many battles and wars, including internecine ones, have happened because of this armor. Once this armor was worn by a great warrior, a favorite of the god of war. But how could such a strong warrior lose it?
 
-STATISTICS:
+PARAMÈTRES :
 
 +1 bonus to Strength
 +1 bonus to Dexterity
 
-Armor Class: -6
-Weight: 95
-Requires: Strength 18
+Classe d'armure : -6
+Poids : 95
+Nécessite : Strength 18
 
 Usable by:
   Fighter
@@ -2958,14 +2958,14 @@ Usable by:
 @763 = ~Resistance Armor~
 @764 = ~According to rumors, this virtually indestructible armor was discovered at the site of the death of one of the servants of the Burning Skull sect. Most likely, the armor belonged to their leader, who led one of the sect's groups into battle.
 
-STATISTICS:
+PARAMÈTRES :
 
 +1 Dexterity Bonus
 10% chance to gain immunity to normal and magical weapons with enchantment up to +5
 
-Armor Class: 0
-Weight: 70
-Requires: Strength 20
+Classe d'armure : 0
+Poids : 70
+Nécessite : Strength 20
 
 Usable by:  
   Fighter
@@ -2974,65 +2974,65 @@ Usable by:
 @765 = ~Cloak of Fear~
 @766 = ~This cloak is covered with blue runes that begin to shine brightly whenever a creature with evil intentions approaches its owner. The creature, only when it sees the runes, begins to feel panic fear and runs away if its morale is weak.
 			
-STATISTICS:  
+PARAMÈTRES :  
 			
 Cloak of Fear 3 times a day:
 A creature caught under the spell must make a successful saving throw, or flee in a panic
 
-Weight: 3~
+Poids : 3~
 @767 = ~Protection Robe~
 @768 = ~This robe is one of the most popular among those used by adventurers using magic.
 
-STATISTICS:
+PARAMÈTRES :
 
 Weapon damage reduced by 5%
 +2 bonus to wisdom and intelligence
 
-Armor Class: -4
-Weight: 3
+Classe d'armure : -4
+Poids : 3
 
 Usable by:
   Mage~
 @769 = ~Ice Armor~
 @770 = ~This armor was found in an abandoned ice cave. It seems that due to its origin, it has features related to cold magic.
 
-STATISTICS:
+PARAMÈTRES :
 
 +50% bonus to cold resistance
 Ice Storm 2 times a day
 
-Armor Class: 0
-Requires: Strength 12
+Classe d'armure : 0
+Nécessite : Strength 12
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid~
 @771 = ~Armor of Immunity~
 @772 = ~In the manufacture of this armor, special ingredients were put into it, which enter the body when poisoned. Through this, the owner of the armor is granted full immunity to poisons.
 
-STATISTICS:
+PARAMÈTRES :
 
 Immunity to poisons
 
-Armor Class: 1
-Requires: Strength 10
-Weight: 15
+Classe d'armure : 1
+Nécessite : Strength 10
+Poids : 15
 
-Not usable by:
+Inutilisable par :
   Mage~
 @773 = ~Stone Armor~
 @774 = ~This armor is as hard as a rock. It is almost impossible to break it through with a piercing weapon. And although it is not as effective against other types of weapons, it can still be considered a worthy defense.
 
-STATISTICS:
+PARAMÈTRES :
 
 +90% bonus to piercing damage resistance
 +10% bonus to fire and cold resistances
 +1 bonus to Dexterity
 
-Armor Class: 2
-Requires: Strength 15
+Classe d'armure : 2
+Nécessite : Strength 15
 
-Not usable by:
+Inutilisable par :
   Druid
   Mage
   Cleric
@@ -3050,17 +3050,17 @@ Not usable by:
 @785 = ~Absorption Ring~
 @786 = ~This ring, interacting with magic, begins to emit a dim glow. A faintly discernible, barely noticeable vortex forms above it, sucking magic out of the surrounding space and distributing it around the ring.
 
-STATISTICS:
+PARAMÈTRES :
 
 +30% bonus to magic resistance
 
-Not usable by:
+Inutilisable par :
   Kensai
   Wizard Slayer~
 @787 = ~Priest's Ring~
 @788 = ~This ring is highly valued among the priests for one simple reason.Its miraculous properties can often replace the services of a healer.
 
-STATISTICS:
+PARAMÈTRES :
 
 +10 to maximum health points
 Cure Serious Wounds 3 times a day
@@ -3071,31 +3071,31 @@ Usable by:
 @789 = ~Ring of Heaven~
 @790 = ~This ring was worn by the messengers of Heaven, who in the Original Epochs fought with Hell for power on Earth. In the end, another race came to Earth - humans. This solved all the problems.
 
-STATISTICS:
+PARAMÈTRES :
 
 +10% bonus to fire resistance
 +10 to maximum health points
 Resurrection 1 time a day
 
-Not usable by:
+Inutilisable par :
   Kensai
   Wizard Slayer~
 @791 = ~Ring of Peace~
 @792 = ~This is the ring that the King of Athkatla gave you.~
 @793 = ~Magic bag~
 @794 = ~Treaty of Alliance~
-@795 = ~This is an agreement signed by the leaders of each group on the conclusion of an alliance in the fight against the Southerners.~
+@795 = ~This is an agreement signed by the leaders of each group on the conclusion of an alliance in the fight against the soldats du sud.~
 @796 = ~Shield of Order~
 @797 = ~This shield, 1.5 meters high and 1 m wide, is mainly used by the Royal Guard. It is very durable, and it is not pierced by arrows. Due to its size, it covers almost the entire body. However, due to its large weight, not all warriors can use it.
 
-STATISTICS:
+PARAMÈTRES :
 
 +1 bonus to Strength and Dexterity
 +30% bonus to missile damage resistance
 
-Armor Class: +2 bonus
-Weight: 28
-Requires: Strength 15
+Classe d'armure : +2 bonus
+Poids : 28
+Nécessite : Strength 15
 
 Usable by:
   Fighter
@@ -3103,28 +3103,28 @@ Usable by:
 @798 = ~Sun Shield~
 @799 = ~This brightly shining shield can protect only by reflecting the sun's rays and making the enemy blind. It is said that it was created by the devoted servants of the god Helm for the hero who helped them in the battle against the cult of the Unseeing Eye.
 
-STATISTICS:
+PARAMÈTRES :
 
 +5 bonus to maximum of health points
 30% chance to blind the opponent
 +1 bonus to Dexterity
 
-Armor Class: +3 bonus
-Weight: 2
+Classe d'armure : +3 bonus
+Poids : 2
 
-Not usable by:
+Inutilisable par :
   Mage
   Evil characters~
 @800 = ~Storm Shield~
 @801 = ~This shield was found about 25 miles from Calimport in a remote village, shortly before it was plundered by nomads. Locals said that one night a terrible thunderstorm broke out over their village. Lightning flashed almost without a break, but, oddly enough, none of them hit either houses or people. The next morning, when the bad weather subsided, the villagers found a charred corpse outside the village, next to which this shield was lying. Whether this unknown person was the cause of the storm, or vice versa, wanted to save the village from it, remained a mystery.
 
-STATISTICS:
+PARAMÈTRES :
 
 +25% to electricity resistance
 +10% to magic resistance
 +1 bonus to Armor Class
 
-Not usable by:  
+Inutilisable par :  
   Bard
   Druid
   Mage 
@@ -3132,14 +3132,14 @@ Not usable by:
 @802 = ~Paladin's Faith~
 @803 = ~This shield got its name because of its power, as strong as the paladin's faith.
 
-STATISTICS:
+PARAMÈTRES :
 
 +10% to magic, fire, cold, electricity, acid resistances
 +2 bonus to Charisma
 +3 bonus to Armor Class
 
-Weight: 7
-Requires: Strength 12
+Poids : 7
+Nécessite : Strength 12
 
 Usable by:
   Paladin~
@@ -3148,125 +3148,125 @@ Usable by:
 @806 = ~Shuriken~
 @807 = ~Shuriken, or, colloquially, "star" - is a type of throwing daggers, one of the most common weapons of murderers and thieves. A shuriken is only the size of a human hand, but even such a small weapon can be deadly.
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 2d4
-Damage type: missile
-Weight: 1
-Speed Factor: 1
-Proficiency type: Darts
-Type: 1-handed
-Requires: Strength 2~
+Dégâts : 2d4
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : Darts
+Type : Arme à une main
+Nécessite : Strength 2~
 @808 = ~Shuriken +1~
 @809 = ~Shuriken, or, colloquially, "star" - is a type of throwing daggers, one of the most common weapons of murderers and thieves. A shuriken is only the size of a human hand, but even such a small weapon can be deadly.
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 2d4
-Damage type: missile
-Weight: 1
-Speed Factor: 1
-Proficiency type: Darts
-Type: 1-handed
-Requires: Strength 2~
+Dégâts : 2d4
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : Darts
+Type : Arme à une main
+Nécessite : Strength 2~
 @810 = ~Shuriken, or, colloquially, "star" is a type of throwing daggers, one of the most common weapons of murderers and thieves. Shuriken has an advantage over darts due to higher damage and, often, speed.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +1 bonus
-Damage: 2d4 +1
-Damage type: missile
-Weight: 1
-Speed Factor: 1
-Proficiency type: Darts
-Type: 1-handed
-Requires: Strength 2~
+TAC0: +1 bonus
+Dégâts : 2d4 +1
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : Darts
+Type : Arme à une main
+Nécessite : Strength 2~
 @811 = ~Shuriken +2~
 @812 = ~Shuriken, or, colloquially, "star" is a type of throwing daggers, one of the most common weapons of murderers and thieves. The origin of this copy is far from a mystery - it was made within the walls of the notorious thieves guild of Athkatla.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +2 bonus
-Damage: 2d4 +2
-Damage type: missile
-Weight: 1
-Speed Factor: 1
-Proficiency type: Darts
-Type: 1-handed
-Requires: Strength 2~
+TAC0: +2 bonus
+Dégâts : 2d4 +2
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : Darts
+Type : Arme à une main
+Nécessite : Strength 2~
 @813 = ~Shuriken +3~
 @814 = ~Shuriken, or, colloquially, "star" is a type of throwing daggers, one of the most common weapons of murderers and thieves. This improved version was made by order of one of the masters of the thieves guild, from whom this weapon was subsequently stolen by an unknown assassin.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +3 bonus
-Damage: 2d4 +3
-Damage type: missile
-Weight: 1
-Speed Factor: 1
-Proficiency type: Darts
-Type: 1-handed
-Requires: Strength 2~
+TAC0: +3 bonus
+Dégâts : 2d4 +3
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : Darts
+Type : Arme à une main
+Nécessite : Strength 2~
 @815 = ~Returning Shuriken~
 @816 = ~This shuriken is enchanted in such a way that instead of getting stuck in the victim's body, it strikes her, describes an elliptical trajectory and returns to the owner. As a result, you will never find yourself in a situation where you have nothing to attack the enemy with.
 
-STATISTICS:
+PARAMÈTRES :
 
 The shuriken returns to the hands after the throw
 
-THACO: +2 bonus
-Damage: 2d4 +2
-Damage type: missile
-Weight: 1
-Speed Factor: 1
-Proficiency type: Darts
-Type: 1-handed
-Requires: Strength 2~
+TAC0: +2 bonus
+Dégâts : 2d4 +2
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : Darts
+Type : Arme à une main
+Nécessite : Strength 2~
 @817 = ~Vaneal's Shuriken~
 @818 = ~Vaneal was once the leader of a thieves' guild until he was overthrown by his rival. Vaneal promised him a slow and painful death. He instructed an alchemist to make a poison that slowly penetrates the body, causing severe pain. The poison turned out to be very effective, and glorified not only this shuriken, but also its owner.
 			
-STATISTICS:  
+PARAMÈTRES :  
 			
 At successful hit the opponent will be 			
 it is poisoned. There is no spasbrosk.			
 			
-THACO: +3rd bonus	
-Damage: 2d4 +3	
-Damage type: missile
-Weight: 1	
-Speed Factor: 0	
-Proficiency type: Darts	
-Type: 1-handed	
-Requires: Strength 2~
+TAC0: +3rd bonus	
+Dégâts : 2d4 +3	
+Type de dégâts : missile
+Poids : 1	
+Facteur de vitesse : 0	
+Type de compétence : Darts	
+Type : Arme à une main	
+Nécessite : Strength 2~
 @819 = ~Six-pointed Shuriken~
 @820 = ~This shuriken differs from the usual one in that it has six blades instead of four. It deals increased damage, and this makes it a deadly weapon.
 
-STATISTICS:
+PARAMÈTRES :
 
 50% chance to deal 1d4 points of additional damage on hit
 
-THACO: +2 bonus	
-Damage: 2d4 +2	
-Damage type: missile
-Weight: 1
-Speed Factor: 1
-Proficiency type: Darts
-Type: 1-handed
-Requires: Strength 2~
+TAC0: +2 bonus	
+Dégâts : 2d4 +2	
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : Darts
+Type : Arme à une main
+Nécessite : Strength 2~
 @821 = ~Sulica~
 @822 = ~Sulica is a kind of shaft weapon similar to a spear, but with the only difference that it has a longer pommel. It first appeared during the riots in Athkatla, where peasants often rebelled. That is why this weapon is rightfully considered popular.
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 2d6
-Damage type: piercing
-Weight: 8
-Speed Factor: 5
-Proficiency type: Spear
-Type: 2-handed
-Requires: Strength 7
+Dégâts : 2d6
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 7
 
-Not usable by:
+Inutilisable par :
   Druid
   Cleric
   Thief
@@ -3275,18 +3275,18 @@ Not usable by:
 @823 = ~Sulica +1~
 @824 = ~Sulica is a kind of shaft weapon similar to a spear, but with the only difference that it has a longer pommel. It first appeared during the riots in Athkatla, where peasants often rebelled. That is why this weapon is rightfully considered popular. This is the basic version of the weapon improved by rural blacksmiths.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +1 bonus
-Damage: 2d6 +1
-Damage type: piercing
-Weight: 8
-Speed Factor: 5
-Proficiency type: Spear
-Type: 2-handed
-Requires: Strength 7
+TAC0: +1 bonus
+Dégâts : 2d6 +1
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 7
 
-Not usable by:
+Inutilisable par :
   Druid
   Cleric
   Thief
@@ -3295,18 +3295,18 @@ Not usable by:
 @825 = ~Sulica +2~
 @826 = ~Sulica is a kind of shaft weapon similar to a spear, but with the only difference that it has a longer pommel. It first appeared during the riots in Athkatla, where peasants often rebelled. That is why this weapon is rightfully considered popular. The lack of skill in handling this type of weapon is more than compensated for by the magic contained in it.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +2 bonus
-Damage: 2d6 +2
-Damage type: piercing
-Weight: 8
-Speed Factor: 5
-Proficiency type: Spear
-Type: 2-handed
-Requires: Strength 7
+TAC0: +2 bonus
+Dégâts : 2d6 +2
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 7
 
-Not usable by:
+Inutilisable par :
   Druid
   Cleric
   Thief
@@ -3315,18 +3315,18 @@ Not usable by:
 @827 = ~Sulica +3~
 @828 = ~Sulica is a kind of shaft weapon similar to a spear, but with the only difference that it has a longer pommel. It first appeared during the riots in Athkatla, where peasants often rebelled. That is why this weapon is rightfully considered popular. This powerful weapon was used by rebel leaders.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +3 bonus
-Damage: 2d6 +3
-Damage type: piercing
-Weight: 8
-Speed Factor: 5
-Proficiency type: Spear
-Type: 2-handed
-Requires: Strength 7
+TAC0: +3 bonus
+Dégâts : 2d6 +3
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 7
 
-Not usable by:
+Inutilisable par :
   Druid
   Cleric
   Thief
@@ -3335,20 +3335,20 @@ Not usable by:
 @829 = ~Sharp sulica~
 @830 = ~This sulica has a very sharp pommel, thanks to which it has become a truly destructive weapon. Many enemies of the rebels, underestimating the power of this weapon, deserved a quick death.
 
-STATISTICS:
+PARAMÈTRES :
 
 Deals 1d4 additional damage when hitting a target	
 
-THACO: +3 bonus
-Damage: 2d6 +3
-Damage type: piercing
-Weight: 8
-Speed Factor: 4
-Proficiency type: Spear
-Type: 2-handed
-Requires: Strength 7
+TAC0: +3 bonus
+Dégâts : 2d6 +3
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 4
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 7
 
-Not usable by:
+Inutilisable par :
   Druid
   Cleric
   Thief
@@ -3357,18 +3357,18 @@ Not usable by:
 @831 = ~Rebel's Weapon~
 @832 = ~The most famous among the rebels, a certain Lex, once owned this sulica, the best of all that ever existed. This weapon was so powerful that there was never any doubt who would be chosen as the leader of the rebels. The enemies of the rebels should have thought twice before venturing to confront the squad that Lex led.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +5 bonus
-Damage: 2d6 +5
-Damage type: piercing
-Weight: 8
-Speed Factor: 3
-Proficiency type: Spear
-Type: 2-handed
-Requires: Strength 7
+TAC0: +5 bonus
+Dégâts : 2d6 +5
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 3
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 7
 
-Not usable by:
+Inutilisable par :
   Druid
   Cleric
   Thief
@@ -3377,62 +3377,62 @@ Not usable by:
 @833 = ~Sulica of Balance~
 @834 = ~Most of the sulicas that are in use, due to their length and weight, are not balanced. But this special specimen has a pommel made of light metal, which helped to improve the overall balance of the sulica and made it a fairly fast and effective weapon.
 
-STATISTICS:
+PARAMÈTRES :
 
 When equipped, the owner is under the permanent effect of "Free Action"
 
-THACO: +2 bonus
-Damage: 2d6 +2
-Damage type: piercing
-Weight: 8
-Speed Factor: 4
-Proficiency type: Spear
-Type: 2-handed
-Requires: Strength 7
+TAC0: +2 bonus
+Dégâts : 2d6 +2
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 4
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 7
 
-Not usable by:
+Inutilisable par :
   Druid
   Cleric
   Thief
   Mage
   Bard~
 @835 = ~Sword of the Righteous~
-@836 = ~STATISTICS:
+@836 = ~PARAMÈTRES :
 ~
-@837 = ~STATISTICS:
+@837 = ~PARAMÈTRES :
 
 50% chance to stun the target on a successful hit (saving throw against death to avoid the effect)
 
-Damage: 1D8 +1, +1d4 by cold
-Damage type: slashing
-Weight: 4
-Speed Factor: 5
-Proficiency type:  Bastard sword
-Type: 1-handed
-Requires: Strength 6
+Dégâts : 1D8 +1, +1d4 by cold
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 5
+Type de compétence :  Bastard sword
+Type : Arme à une main
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Druid 
   Priest 
   Mage~
 @838 = ~Blade of Lightness~
 @839 = ~This unusual "two-handed" is an example of a perfectly crafted blade. It is perfectly balanced and has an unusually small weight for such a class of weapons. As a consequence, in battle they can be wielded at a very high speed. The blade of the sword is polished so thoroughly that it easily pierces the target when struck with the blade.
 
-STATISTICS:
+PARAMÈTRES :
 
 The owner of the sword is under the permanent effect of Haste
 10% chance to instantly kill the target with one hit
 
-THACO: +3 bonus
-Damage: 1d10 +3
-Damage type: slashing
-Weight: 8
-Speed Factor: 5
-Proficiency type: Two-handed sword
-Type: 2-handed
-Requires: Strength 10
+TAC0: +3 bonus
+Dégâts : 1d10 +3
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 10
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric
@@ -3441,39 +3441,39 @@ Not usable by:
 @840 = ~Blade of Rage~
 @841 = ~This sword is very popular among barbarians and other related tribes for its increased damage. Unfortunately, because of its weight, no one else can use it.
 
-STATISTICS:
+PARAMÈTRES :
 
 50% chance to deal 2d10 points of additional damage when successfully hitting the target
 
-THACO: +3 bonus
-Damage: 1d10 +3
-Damage type: slashing
-Weight: 20
-Speed Factor: 10
-Proficiency type: Two-handed sword
-Type: 2-handed
-Requires: Strength 15
+TAC0: +3 bonus
+Dégâts : 1d10 +3
+Type de dégâts : tranchant
+Poids : 20
+Facteur de vitesse : 10
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
 Usable by:
   Barbarian~
 @842 = ~Thunder Blade~
 @843 = ~This sword has a special serrated blade, on which a lightning bolt is engraved. Its handle is made of a dark, almost black, material. It is rumored that during a thunderstorm, this blade becomes uncontrollable.
 
-STATISTICS:
+PARAMÈTRES :
 
 +50% bonus to electricity resistance
 Lightning Bolt 3 times per day
 
-THACO: +4 bonus
-Damage: 1d10 +4, 1d10 by electricity
-Damage type: slashing
-Weight: 12
-Speed Factor: 10
-Proficiency type: Two-handed sword
-Type: 2-handed
-Requires: Strength 14
+TAC0: +4 bonus
+Dégâts : 1d10 +4, 1d10 by electricity
+Type de dégâts : tranchant
+Poids : 12
+Facteur de vitesse : 10
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 14
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric
@@ -3482,21 +3482,21 @@ Not usable by:
 @844 = ~Barbarian's Pride~
 @845 = ~The blade received such an unusual name due to the fact that it once belonged to a barbarian, whom everyone admired for his strength, abilities and bravery.
 
-STATISTICS:
+PARAMÈTRES :
 
 +2 bonus to charisma
 10% chance of causing the target to panic on hit
 
-THACO: +2 bonus
-Damage: 2d4 +2
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Bastard sword
-Type: 1-handed
-Requires: Strength 11
+TAC0: +2 bonus
+Dégâts : 2d4 +2
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à une main
+Nécessite : Strength 11
 
-Not usable by:
+Inutilisable par :
   Mage
   Cleric
   Druid
@@ -3504,20 +3504,20 @@ Not usable by:
 @846 = ~Arena Sword~
 @847 = ~This blade is one of the many weapons used in the gladiator arena. This copy differs from the usual one-and-a-half sword only by the arena symbol engraved on the handle.
 
-STATISTICS:
+PARAMÈTRES :
 
-Armor Class:  2
+Classe d'armure :  2
 
-THACO: +2 bonus
-Damage: 2d4 +2
-Damage type: slashing
-Weight: 10
-Speed Factor: 8
-Proficiency type: Bastard sword
-Type: 1-handed
-Requires: Strength 11
+TAC0: +2 bonus
+Dégâts : 2d4 +2
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à une main
+Nécessite : Strength 11
 
-Not usable by:
+Inutilisable par :
   Mage	
   Cleric	
   Druid
@@ -3525,20 +3525,20 @@ Not usable by:
 @848 = ~Crystal Sword~
 @849 = ~This sword has a transparent blade of a bluish hue, as if made of crystal. However, unlike crystal, the blade material is extremely durable and lightweight.
 
-STATISTICS:
+PARAMÈTRES :
 
 +30% bonus to magic resistance
 +1 bonus to Strength
                                
-Damage: 2d4+3, 2d4 by magic
-Damage type: slashing
-Weight: 8
-Speed Factor: 6
-Proficiency type: Bastard sword
-Type: 1-handed
-Requires: Strength 10
+Dégâts : 2d4+3, 2d4 by magic
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 6
+Type de compétence : Bastard sword
+Type : Arme à une main
+Nécessite : Strength 10
 
-Not usable by:
+Inutilisable par :
   Mage	
   Cleric
   Druid
@@ -3546,81 +3546,81 @@ Not usable by:
 @850 = ~Victim's Scimitar~
 @851 = ~This scimitar is very insidious. On the one side, this is a very effective weapon, on the other - it requires a certain sacrifice for its services. The owner of the clinic will lose 1 health point every 2 rounds the entire time it is in the hand.
 
-STATISTICS:
+PARAMÈTRES :
 
 Deals 1 point of poison damage in 2 rounds while the weapon is in hand
 +50% bonus to resistance to slashing damage
 			
-THACO: +2 bonus
-Damage: 1d8+2, 1d6 by poison
-Damage type: slashing
-Weight: 4
-Speed Factor: 5
-Proficiency type: Scimitar/Wakizashi/Ninja-To
-Type: 1-handed
-Requires: Strength 10
+TAC0: +2 bonus
+Dégâts : 1d8+2, 1d6 by poison
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 5
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 10
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid~
 @852 = ~Veransler's Scimitar~
 @853 = ~This scimitar was once owned by someone Veransler. Since Veransler was a poor man whose only valuable thing was this scimitar, he named this scimitar after himself. As expected, the name of the owner was forgotten, but not the name of the scimitar itself.
 
-STATISTICS:
+PARAMÈTRES :
 
 +1 bonus to Strength
 +1 bonus to Dexterity
 
-THACO: +1 bonus
-Damage: 1d8 +1
-Damage type: slashing
-Weight: 4
-Speed Factor: 5
-Proficiency type: Scimitar/Wakizashi/Ninja-To
-Type: 1-handed
-Requires: Strength 10
+TAC0: +1 bonus
+Dégâts : 1d8 +1
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 5
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 10
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid~
 @854 = ~Rainbow Scimitar~
 @855 = ~The appearance of this scimitar is very remarkable. Its color changes every second. Many have tried to find out the nature of this phenomenon, but the only explanation that could be obtained is that it has something to do with the magic of the blade.
 
-STATISTICS:
+PARAMÈTRES :
 
 +15% bonus to fire, cold, electricity and acid resistance
 Chromatic Orb 3 times per day
 
-THACO: +2 bonus
-Damage: 1d8 +2
-Damage type: slashing
-Weight: 4
-Speed Factor: 5
-Proficiency type: Scimitar/Wakizashi/Ninja-To
-Type: 1-handed
-Requires: Strength 10
+TAC0: +2 bonus
+Dégâts : 1d8 +2
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 5
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 10
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid~
 @856 = ~Power of Heaven~
 @857 = ~It is said that this blade was given to the hero a long time ago by one of the angels to protect him from Evil. It remains unknown how a mere mortal could win the favor of angels.
 
-STATISTICS:
+PARAMÈTRES :
 
 Double damage vs. undead
 Can only be used by good characters
 
-THACO: +3 bonus
-Damage: 1d8 +3
-Damage type: slashing
-Weight: 4
-Speed Factor: 4
-Proficiency type: Long sword
-Type: 1-handed
-Requires: Strength 6
+TAC0: +3 bonus
+Dégâts : 1d8 +3
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 4
+Type de compétence : Long sword
+Type : Arme à une main
+Nécessite : Strength 6
 
-Not usable by:  
+Inutilisable par :  
   Druid 	
   Cleric 	
   Mage	
@@ -3629,20 +3629,20 @@ Not usable by:
 @858 = ~Snake Blade~
 @859 = ~The handle of this weapon is wrapped around the symbol of a snake with its tongue sticking out. The blade of the blade is impregnated with a deadly poison, which, after entering the victim's blood, begins to act immediately.
 
-STATISTICS:
+PARAMÈTRES :
 
 12% chance to kill the victim with a one hit if the saving throw vs. paralysis/poison/death fails
 			
-THACO: +4 bonus
-Damage: 1d8 +4, +5 by poison
-Damage type: slashing
-Weight: 4
-Speed Factor: 4
-Proficiency type: Long sword
-Type: 1-handed
-Requires: Strength 6
+TAC0: +4 bonus
+Dégâts : 1d8 +4, +5 by poison
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 4
+Type de compétence : Long sword
+Type : Arme à une main
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Druid
   Cleric
   Mage
@@ -3650,42 +3650,42 @@ Not usable by:
 @860 = ~Spiked Blade~
 @861 = ~This unusual weapon is made of enchanted crystal ore. Its blade is covered with a very thin layer of sharp crystals. Hitting the enemy, the blade leaves crystal fragments in his body, thus causing additional damage. Due to the fact that the blade is enchanted, the crystal layer on its blade is constantly being updated.
 
-STATISTICS:
+PARAMÈTRES :
 
 +3d6 points of additional piercing damage
 
-THACO: +3 bonus
-Damage: 1d8 +3
-Damage type: slashing
-Weight: 4
-Speed Factor: 3
-Proficiency type: Long sword
-Type: 1-handed
-Requires: Strength 6
+TAC0: +3 bonus
+Dégâts : 1d8 +3
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 3
+Type de compétence : Long sword
+Type : Arme à une main
+Nécessite : Strength 6
 
-Not usable by:
+Inutilisable par :
   Druid 	
   Cleric 	
   Mage~
 @862 = ~Whistling Blade~
 @863 = ~This is a very popular, and at the same time very dangerous blade. Its name comes from the sound it makes when swinging. The impact of this extremely fast blade is almost impossible to avoid. Thanks to its speed, the enemy will only see your blurred silhouette.
 
-STATISTICS:
+PARAMÈTRES :
 
 When hitting the target, a disease is imposed (-3 point penalty to Dexterity)
 10% chance to slow down the target by 1 turn
 The owner of the blade is blurred
 
-THACO: +2 bonus
-Damage: 1d6 +2
-Damage type: piercing
-Weight: 3
-Speed Factor: 0
-Proficiency type: Short sword
-Type: 1-handed
-Requires: Strength 5
+TAC0: +2 bonus
+Dégâts : 1d6 +2
+Type de dégâts : piercing
+Poids : 3
+Facteur de vitesse : 0
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 5
 
-Not usable by:
+Inutilisable par :
   Druid
   Cleric
   Mage
@@ -3693,60 +3693,60 @@ Not usable by:
 @864 = ~Orcish Fang~
 @865 = ~This short sword with a special ornament, which gives out its belonging to the genus of orcs, is a very common weapon. It is used mainly by orcs, but goblinoid races also do not neglect this kind of swords. This copy, as usual, is blunted and contains a fair layer of rust, but at least it is suitable for use.
 
-STATISTICS:
+PARAMÈTRES :
 
 50% chance to poison the target on hit (2 points of damage per round)
 
-THACO: +3 bonus
-Damage: 1d6 +3, +3 by poison
-Damage type: piercing
-Weight: 3
-Speed Factor: 2
-Proficiency type: Short sword
-Type: 1-handed
-Requires: Strength 5
+TAC0: +3 bonus
+Dégâts : 1d6 +3, +3 by poison
+Type de dégâts : piercing
+Poids : 3
+Facteur de vitesse : 2
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 5
 
-Not usable by:
+Inutilisable par :
   Mage
   Cleric
   Druid~
 @866 = ~Blade of Murder~
 @867 = ~The blade of this sword emits a rather bright white light. When struck, the magic of the blade is able to stun the enemy. In addition, the owner of the blade can cast powerful spells of the wizard.
 
-STATISTICS:
+PARAMÈTRES :
 
 15% chance to stun the target for 1 round on hit
 Disintegrate 2 times per day
 Finger of Death 1 time per day
 
-THACO: +3 bonus
-Damage: 1d6 +3
-Damage type: piercing
-Weight: 3
-Speed Factor: 1
-Proficiency type: Short sword
-Type: 1-handed
-Requires: Strength 5
+TAC0: +3 bonus
+Dégâts : 1d6 +3
+Type de dégâts : piercing
+Poids : 3
+Facteur de vitesse : 1
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 5
 
-Not usable by:
+Inutilisable par :
   Mage
   Cleric
   Druid~
 @868 = ~Toothy Dagger~
 @869 = ~This dagger got such an unusual name due to its jagged blade. It is very sharp, perfectly penetrates the flesh, and in addition, it is soaked with basilisk poison, which acts instantly.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +2 bonus
-Damage: 1d4 +2, +2d4 by poison
-Damage type: piercing
-Weight: 4
-Speed Factor: 2
-Proficiency type: Daggers
-Type: 1-handed
-Requires: Strength 3
+TAC0: +2 bonus
+Dégâts : 1d4 +2, +2d4 by poison
+Type de dégâts : piercing
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : Daggers
+Type : Arme à une main
+Nécessite : Strength 3
 
-Not usable by:
+Inutilisable par :
   Mage
   Cleric
   Druid
@@ -3754,103 +3754,103 @@ Not usable by:
 @870 = ~Dagger of Gleam~
 @871 = ~The blade of this dagger emits a dazzling light. Due to the fact that it is showered with magic dust, it makes it possible to blind and stun enemies.
 
-STATISTICS:
+PARAMÈTRES :
 
 20% chance to blind the target for 5 seconds on impact
 20% chance to stun the target for 8 seconds on impact
 
-THACO: +1 bonus
-Damage: 1d4 +1
-Damage type: piercing
-Weight: 4
-Speed Factor: 2
-Proficiency type: Daggers
-Type: 1-handed
-Requires: Strength 3
+TAC0: +1 bonus
+Dégâts : 1d4 +1
+Type de dégâts : piercing
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : Daggers
+Type : Arme à une main
+Nécessite : Strength 3
 
-Not usable by:
+Inutilisable par :
   Cleric~
 @872 = ~Gureh's Dagger~
 @873 = ~This dagger belonged to Gureh, one of the most famous thieves. He was a master of disguise and intrigue. It was not difficult for him to skillfully avoid death or get to the most guarded places. However, one day his tactics failed, which led to a sad ending.
 
-STATISTICS:
+PARAMÈTRES :
 
 Improved Haste when wearing
 +3 bonus to Dexterity
 +20% bonus to Move Silently
 
-THACO: +4 bonus
-Damage: 1d4 +4
-Damage type: piercing
-Weight: 4
-Speed Factor: 2
-Proficiency type: Daggers
-Type: 1-handed
-Requires: Strength 3
+TAC0: +4 bonus
+Dégâts : 1d4 +4
+Type de dégâts : piercing
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : Daggers
+Type : Arme à une main
+Nécessite : Strength 3
 
 Usable by:
   Thief~
 @874 = ~Blade of Madness~
 @875 = ~Rumor has it that anyone who has tasted this weapon on their own skin will be touched by the mind and will drag out a miserable existence. But they will not be able to confirm or refute this theory due to memory loss, and moreover, they usually carry such nonsense that listening to such a thing means wasting time.
 
-STATISTICS:
+PARAMÈTRES :
 
 70% chance to drain 1 level when hitting a target
 Deafness 3 times per day
 Blindness 3 times per day
 Dire Charm 2 times per day
 
-THACO: +2 bonus
-Damage: 1d8 +2
-Damage type: piercing
-Weight: 3
-Speed Factor: 2
-Proficiency type: Scimitar/Wakizashi/Ninja-To
-Type: 1-handed
-Requires: Strength 5
+TAC0: +2 bonus
+Dégâts : 1d8 +2
+Type de dégâts : piercing
+Poids : 3
+Facteur de vitesse : 2
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 5
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric~
 @876 = ~Wakizashi of Elements~
 @877 = ~This enchanted blade has truly unique capabilities. He can hit the enemy with fire, cold, electricity and poison. Even if the enemy is resistant, for example, to frost, this will not help him much.
 
-STATISTICS:
+PARAMÈTRES :
 
 25% chance to deal additional 1d8 fire damage
 25% chance to deal additional 1d8 cold damage
 25% chance to deal additional 1d8 electricity damage
 25% chance to deal additional 1d8 poison damage
 
-THACO: +3 bonus
-Damage: 1d8 +3
-Damage type: piercing
-Weight: 3
-Speed Factor: 1
-Proficiency type: Scimitar/Wakizashi/Ninja-To
-Type: 1-handed
-Requires: Strength 5
+TAC0: +3 bonus
+Dégâts : 1d8 +3
+Type de dégâts : piercing
+Poids : 3
+Facteur de vitesse : 1
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 5
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric~
 @878 = ~Angloerth~
 @879 = ~This blade is the result of many years of work by a great master weaponsmith, who invested only a small piece of magic in it. However, given its power, this is not really believed.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +5 bonus
-Damage: 1d8 +6, +2 by magic
-Damage type: piercing
-Weight: 4
-Speed Factor: 2
-Proficiency type: Scimitar/Wakizashi/Ninja-To
-Type: 1-handed
-Requires: Strength 8
+TAC0: +5 bonus
+Dégâts : 1d8 +6, +2 by magic
+Type de dégâts : piercing
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 8
 
-Not usable by:
+Inutilisable par :
   Mage
   Druid
   Cleric~
@@ -3861,17 +3861,17 @@ Not usable by:
 @884 = ~Trident~
 @885 = ~This is one of the varieties of shaft weapons, similar to a pitchfork, which is used against horsemen. The difference from halberds is in another pommel, which has three teeth, hence the name "trident". The design of the top of the trident has no established canons, so tridents can be found in the most bizarre form.
 
-STATISTICS:
+PARAMÈTRES :
 
-Damage: 3d6
-Damage type: piercing
-Weight: 12
-Speed Factor: 7
-Proficiency type: Halberds
-Type: 2-handed
-Requires: Strength 9
+Dégâts : 3d6
+Type de dégâts : piercing
+Poids : 12
+Facteur de vitesse : 7
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 9
 
-Not usable by:
+Inutilisable par :
   Druid	
   Cleric	
   Thief	
@@ -3881,18 +3881,18 @@ Not usable by:
 @886 = ~Trident +1~
 @887 = ~This is one of the varieties of shaft weapons, similar to a pitchfork, which is used against horsemen. The difference from halberds is in another pommel, which has three teeth, hence the name "trident". The design of the top of the trident has no established canons, so tridents can be found in the most bizarre form. This instance of the trident is more effective in comparison with the basic version.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +1 bonus
-Damage: 3d6 +1
-Damage type: piercing
-Weight: 12
-Speed Factor: 7
-Proficiency type: Halberds
-Type: 2-handed
-Requires: Strength 9
+TAC0: +1 bonus
+Dégâts : 3d6 +1
+Type de dégâts : piercing
+Poids : 12
+Facteur de vitesse : 7
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 9
 
-Not usable by:
+Inutilisable par :
   Druid	
   Cleric	
   Thief	
@@ -3902,18 +3902,18 @@ Not usable by:
 @888 = ~Trident +2~
 @889 = ~This is one of the varieties of shaft weapons, similar to a pitchfork, which is used against horsemen. The difference from halberds is in another pommel, which has three teeth, hence the name "trident". The design of the top of the trident has no established canons, so tridents can be found in the most bizarre form. This instance of the trident was created in order to reflect the blows of most of the melee weapons, simply stuck between the teeth of the pommel.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +2 bonus
-Damage: 3d6 +2
-Damage type: piercing
-Weight: 8
-Speed Factor: 7
-Proficiency type: Halberds
-Type: 2-handed
-Requires: Strength 9
+TAC0: +2 bonus
+Dégâts : 3d6 +2
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 7
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 9
 
-Not usable by:
+Inutilisable par :
   Druid
   Cleric
   Thief
@@ -3923,18 +3923,18 @@ Not usable by:
 @890 = ~Trident +3~
 @891 = ~This is one of the varieties of shaft weapons, similar to a pitchfork, which is used against horsemen. The difference from halberds is in another pommel, which has three teeth, hence the name "trident". The design of the top of the trident has no established canons, so tridents can be found in the most bizarre form. This version of the trident was used by the residents of Waterdeep, who liked it for religious reasons. It reminds them of the weapons their gods use.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +3 bonus
-Damage: 3d6 +3
-Damage type: piercing
-Weight: 12
-Speed Factor: 7
-Proficiency type: Halberds
-Type: 2-handed
-Requires: Strength 9
+TAC0: +3 bonus
+Dégâts : 3d6 +3
+Type de dégâts : piercing
+Poids : 12
+Facteur de vitesse : 7
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 9
 
-Not usable by:
+Inutilisable par :
   Druid	
   Cleric	
   Thief	
@@ -3944,20 +3944,20 @@ Not usable by:
 @892 = ~Sharp trident~
 @893 = ~Someone ignorant may say that the trident is an ordinary pitchfork, but this is far from the case. The teeth of this instance of the trident are sharpened to an incredible sharpness, thanks to which they can easily penetrate leather armor, and on occasion, chain mail.
 
-STATISTICS:
+PARAMÈTRES :
 
 1d6 additional piercing damage when hitting the target
 
-THACO: +2 bonus
-Damage: 3d6 +2
-Damage type: piercing
-Weight: 12
-Speed Factor: 5
-Proficiency type: Halberds
-Type: 2-handed
-Requires: Strength 9
+TAC0: +2 bonus
+Dégâts : 3d6 +2
+Type de dégâts : piercing
+Poids : 12
+Facteur de vitesse : 5
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 9
 
-Not usable by:
+Inutilisable par :
   Druid	
   Cleric	
   Thief	
@@ -3967,21 +3967,21 @@ Not usable by:
 @894 = ~Trident of Lightning~
 @895 = ~Since ancient times, it was believed that only sea gods could use these weapons, who vented their anger on navigators with thunder and lightning. Over time, these superstitions became legends. And to this day, no one even knows how "legendary" this trident is.
 
-STATISTICS:
+PARAMÈTRES :
 
 30% chance to deal 1d4 additional electrical damage
 Lightning Bolt 3 times per day
 
-THACO: +3 bonus
-Damage: 3d6 +3
-Damage type: piercing
-Weight: 12
-Speed Factor: 5
-Proficiency type: Halberds
-Type: 2-handed
-Requires: Strength 9
+TAC0: +3 bonus
+Dégâts : 3d6 +3
+Type de dégâts : piercing
+Poids : 12
+Facteur de vitesse : 5
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 9
 
-Not usable by:
+Inutilisable par :
   Druid	
   Cleric	
   Thief	
@@ -3991,18 +3991,18 @@ Not usable by:
 @896 = ~King Welsion's Trident~
 @897 = ~This trident belonged to the king of Waterdeep, Welsion. This weapon does not have any special features, except that it is capable of causing fatal damage.
 
-STATISTICS:
+PARAMÈTRES :
 
-THACO: +4 bonus
-Damage: 3d6 +4
-Damage type: piercing
-Weight: 8
-Speed Factor: 7
-Proficiency type: Halberds
-Type: 2-handed
-Requires: Strength 9
+TAC0: +4 bonus
+Dégâts : 3d6 +4
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 7
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 9
 
-Not usable by:  
+Inutilisable par :  
   Druid	
   Cleric	
   Thief	
@@ -4012,7 +4012,7 @@ Not usable by:
 @898 = ~Staff of divine essence~
 @899 = ~This is a magic staff created from two magical relics - the blood of a big troll and divine essence.
 
-STATISTICS:
+PARAMÈTRES :
 
 +4 bonus to Constitution
 +4 bonus to Strength
@@ -4021,14 +4021,14 @@ Fireball 4 times per day
 Character changes to chaotic-evil
 Reputation is set to 0
 
-THAC0: +3 bonus
-Damage: 1d6 +3
-Damage type: crushing
-Weight: 5
-Speed Factor: 1
-Proficiency type: Staff
-Type: 2-handed
-Requires: Strength 5~
+TAC0: +3 bonus
+Dégâts : 1d6 +3
+Type de dégâts : crushing
+Poids : 5
+Facteur de vitesse : 1
+Type de compétence : Staff
+Type : Arme à deux mains
+Nécessite : Strength 5~
 @900 = ~This is the key to the necromancer's grave~
 @901 = ~Bunch of hair~
 @902 = ~Bunch of Vira's hair~
@@ -4038,28 +4038,28 @@ Requires: Strength 5~
 @906 = ~Wand of Protection~
 @907 = ~A shield is engraved on the top of the wand, which speaks for itself about the purpose of this object.
 
-STATISTICS:
+PARAMÈTRES :
 
 Ghost Armor 3 times per day
 
-Weight: 1~
+Poids : 1~
 @908 = ~Moon Wand~
 @909 = ~This wand has unusual magical properties. The problem is that it was lost more than a hundred years ago, and no one has heard of it since.
 
-STATISTICS:
+PARAMÈTRES :
 
 Meteor Swarm 1 time per day
 Comet 1 time per day
 
-Weight: 1~
+Poids : 1~
 @910 = ~Wand of Wish~
 @911 = ~This wand is made of bronze, with a pommel in the shape of a genie bottle.
 
-STATISTICS:
+PARAMÈTRES :
 
 Wish 2 time per day
 
-Weight: 1~
+Poids : 1~
 @912 = ~Witch's Heart~
 @913 = ~This heart belongs to the witch from the fortress north of the High Forest.~
 @914 = ~Key to the portal~

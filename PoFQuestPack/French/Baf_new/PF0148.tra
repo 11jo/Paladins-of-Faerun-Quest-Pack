@@ -1,13 +1,15 @@
-@0    = ~I welcome you to Neverwinter, though not under very favorable circumstances. I suppose we can go straight to the case. It all began a long time ago, in a nearby fortress called Fort Helm.~
-@1    = ~This fort for many years defended the gates of Neverwinter from enemies. It was home to Helm's employees. Once one of them entered into an alliance with the dark elves, drow. Fort Helm was conquered in about half an hour. When we found out, it was too late.~
-@2    = ~With the help of Targu, we stopped the drow invasion. But they united with the barbarians, who had long sought to destroy the cities of the North. Thousands of them came here, we resist as much as we can, but we do not have so much strength. Our only hope is you. Lady Aribet will tell you what your task will be.~
-@3    = ~Yes, as you have heard, the situation is serious, our only chance is to get to Helm Fortress unnoticed and kill the priest who runs them. Then maybe they'll back off. They are everywhere in the city, as you go out, be careful, they are very dangerous. At the east gate you will find our friend who confesses the best in the district and he will take you from town to Fort Helm. I wish you good luck to adventurers.~
-@4    = ~Do you understand? Do you need anything else?~
-@5    = ~Ne to ne je mi to jasné, jen než budu pryè, zkuste kontaktovat mé pøátelé a se ke mnì pøipojí v Helmovì tvrzi. Ještì bych potøeboval nìjaké vybavení.~
-@6    = ~Tady mùj pøítel nalevo ode mnì t dá co budeš potøebovat. I'll try to find your friends. Thank you for your help.~
-@7    = ~When you need a gun, you can come to me.~
-@8    = ~All right, I like it, I'll try to do whatever I can for your town. Goodbye.~
-@9    = ~One more thing. I called three of my best people. I think I definitely need help until you get back with your friends.~
-@10   = ~So you're gonna kick the ass of these barbarians?~
-@11   = ~I'm sure you'll need a thief!~
-@12   = ~If you want someone to look after your back, I'm the one you need.~
+@0    = ~Je vous souhaite la bienvenue à Padhiver, bien que les circonstances ne soient pas très propices aux réjouissances. J'irais donc droit au but. Tout a commencé il y a fort longtemps, dans une forteresse voisine du nom de Fort Helm.~
+@1    = ~Pendant de nombreuses années, cette forteresse a défendu les frontières de Padhiver contre ses ennemis. C'était la maison des serviteurs de Helm. Un jour, l'un d'entre eux s'est rallié à des elfes venu des profondeurs, les elfes noirs. Fort Helm a été conquis en moins d'une heure. Quand nous l'avons découvert, il était déjà trop tard.~
+@2    = ~Avec l'aide de Targos, nous sommes parvenus à stopper l'invasion des elfes noirs. Mais maintenant ils ont ralliés les barbares, qui désirent s'emparer des villes du Nord depuis longtemps. Des milliers d'entre eux sont à nos portes, nous résistons autant que nous le pouvons, mais nous ne disposons pas des forces nécessaires. Notre seul espoir, c'est vous. Dame Aribeth vous expliquera quelle sera votre tâche.~
+@3    = ~Oui, comme vous l'avez compris, la situation est grave, notre seule solution est d'atteindre la forteresse de Helm sans se faire remarquer et d'éliminer le prêtre qui la contrôle. Alors peut-être qu'enfin ils renonceront. Ils sont déjà en train d'envahir la ville, faites très attention, ce sont des adversaires redoutables. Rendez vous à la porte Est, vous trouverez un de nos amis qui est le meilleur dans son domaine, il vous conduira à la forteresse. Je vous souhaite bonne chance dans cette aventure.~
+@4    = ~Vous avez bien tout compris ? Avez-vous besoin d'autre informations ?~
+@5    = ~Non, la situation est claire, essayez de contacter mes alliés et rejoignez-moi au à la forteresse. Avant de partir, j'aurais bien besoin d'un peu d'équipement.~
+@6    = ~Mon camarade à ma gauche vous fournira ce dont vous avez besoin. Je vais essayer de contacter vos amis. Nous vous remercions pour votre aide.~
+@7    = ~Quand vous avez besoin d'une arme, vous pouvez vous adresser à moi.~
+@8    = ~Très bien, ce plan me convient, je vais tenter l'impossible pour sauver la cité. Nous nous reverrons plus tard.~
+@9    = ~Une dernière chose. J'ai convoqué trois de mes meilleurs éléments. Je pense que vous allez avoir besoin d'aide jusqu'à ce que vous retrouviez vos camarades.~
+@10   = ~Alors vous allez botter le cul de ces barbares ?~
+@11   = ~Je suis sûr qu'un bon voleur vous sera indispensable !~
+@12   = ~Si vous avez besoin qu'on surveille vos arrières, je suis la personne qu'il vous faut.~
+
+// Not found in BCS...
