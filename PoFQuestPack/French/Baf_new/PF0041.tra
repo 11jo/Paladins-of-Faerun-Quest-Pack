@@ -1,4 +1,4 @@
-@0 = ~ Help me! ~
-@1 = ~ Hey you two, leave her alone! ~
-@2 = ~ Who the hell are you? I will kill you! ~
-@3 = ~ <CHARNAME>, don't let yourself be fooled! Do not believe this prince, he is a tyrant! ~
+@0 = ~Aidez-moi s'il vous plaît !~ // Princesse
+@1 = ~Hé vous deux, lâchez-la !~ // Charname
+@2 = ~Qui es-tu, bon sang ? Peu importe tu es un homme mort !~ ~Qui es-tu, bon sang ? Peu importe tu es un femme morte !~ // Homme du nord~
+@3 = ~<CHARNAME>, ne vous laissez pas abuser ! Ce prince est un tyran !~ // The elf in dark

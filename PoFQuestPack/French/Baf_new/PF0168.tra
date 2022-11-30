@@ -1,21 +1,23 @@
-@0 = ~ Just try to intervene in our showdown on the island and your daughter will die! ~
-@1 = ~ <CHARNAME> thanks for saving my daughter. I heard that you sorted out the problems in the Moonlight. I am glad that I chose you for this task. Here is your reward. Oh, and I would like to talk about one more question ... ~
-@2 = ~ Atkutla.
+@0 = ~Essayez seulement de vous mêler de nos affaires sur cette île et votre fille mourra !~ // Dark person~ // The Dark One
+@1 = ~<CHARNAME> merci d'avoir sauvé ma fille. J'ai entendu dire que vous aviez résolu les problèmes des îles Moonshae. Je suis heureux de vous avoir choisi pour cette mission. Voici votre récompense. Oh ! Et je souhaiterais m'entretenir avec vous, au sujet d'une autre affaire...~ // Trade king
+@2 = ~Athkatla.
 
-I met a messenger, I am looking for one high-ranking person, I can find him in a shopping area. I need to check it out. ~
-@3 = ~ Abduction and politics.
+J'ai rencontré un messager, une personne de haut rang cherche à me rencontrer, je peux la trouver au District des Affaires. Je devrais probablement y aller.~
+@3 = ~Enlèvement et politique.
 
-The daughter of the trading king Atkatla was kidnapped. Your task is to find her on the islands where she was abducted. A merchant ship awaits you at the docks. ~
-@4 = ~ Abduction and politics.
+La fille du Roi des Affaires d'Atkatla a été enlevée. Notre tâche est de retrouver sa trace dans les îles où elle a été emmenée. Un navire marchand nous attends sur les quais.~
+@4 = ~Enlèvement et politique.
 
-I met a prince competing with his mother for political power in the moonlight. I hope the king's daughter wasn't dragged into the conflict by force. The time has come to find his mother and talk to her. ~
-@5 = ~ Abduction and politics.
+J'ai rencontré un prince, il est en compétition avec sa mère pour prendre le pouvoir dans les Îles Moonshae. J'espère que la fille du Roi des Affaires d'Atkatla n'a pas été impliquée dans ce conflit. Le temps est venu de rencontrer cette Grande Dame et de lui parler.~
+@5 = ~Enlèvement et politique.
 
-After talking with the High Queen, the ruler of the Moonlight, it became clear to me which of them was a tyrant. This is her son, moonlight prince. I was given the task of finding and capturing an arms dealer, thanks to whom the conflict of the struggle for power should be resolved, and in addition, I can find the daughter of trading king Amn.~
-@6 = ~ Abduction and politics.
+Après avoir discuté avec la grande Reine, souveraine des îles Moonshae, il m'est apparu clairement que son fils, le prince des îles Moonshae était un tyran. On m'a confié la tâche de débusquer et capturer un trafiquant d'armes, sa capture pourrait mettre fin au conflit Ce faisant, il se pourrait bien que je retrouve la fille du Roi des Affaires.~
+@6 = ~Enlèvement et politique.
 
-I managed to find an arms dealer who supplied him to the prince, the son of the queen. We knocked out all the information from him, including about the place where the prince holds the daughter of King Amn. ~
-@7 = ~ Abduction and politics. I resolved the dispute in the Moonlight and found the king's daughter. ~
-@8 = ~ I am very happy. that you helped me deal with problems at this business meeting. Here is your reward. ~
-@9 = ~ And now I have to go, a lot of things. Thanks again and goodbye. ~
-@10 = ~ Goodbye ~
+J'ai réussi à trouver le trafiquant d'armes qui fournissait ses armes au prince. Nous lui avons soutiré toutes les informations possibles, y compris le lieu où le prince retient prisonnière la fille du Roi des Affaires.~
+@7 = ~Enlèvement et politique. 
+
+J'ai résolu le conflit qui déchiré les îles Moonshae et retrouvé la fille du Roi des Affaires.~
+@8 = ~Je suis vraiment reconnaissant pour votre aide dans se litige commercial. Voici votre récompense.~ // Trade king
+@9 = ~Et maintenant, il est temps pour moi de partir, beaucoup de choses son restées en suspens. Encore merci et au revoir.~ // Trade king
+@10 = ~Au revoir~ // Charname
