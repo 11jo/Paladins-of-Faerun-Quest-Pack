@@ -7,17 +7,17 @@ THEN
     StartCutSceneMode()
     HideGUI()
     BattleSong()
-    CreateCreature("PTE1MOD",[281.1286],0)  // ~Воинственный священник~
-    CreateCreature("PTE2MOD",[351.1117],0)  // ~Воинственный священник~
-    CreateCreature("PTE3MOD",[580.1043],0)  // ~Воинственный священник~
-    CreateCreature("PTE4MOD",[1600.1047],0)  // ~Воинственный священник~
-    CreateCreature("PTE5MOD",[1355.1180],0)  // ~Воинственный священник~
-    CreateCreature("PRTE6MOD",[1420.2399],8)  // ~Воинственный священник~
-    CreateCreature("PTE7MOD",[1469.2467],8)  // ~Воинственный священник~
-    CreateCreature("PTE8MOD",[1552.2404],8)  // ~Воинственный священник~
-    CreateCreature("PTE9MOD",[2466.2208],8)  // ~Воинственный священник~
-    CreateCreature("PTE10MOD",[2291.2074],8)  // ~Воинственный священник~
-    CreateCreature("PTECMOD",[1259.3067],8)  // ~Воинственный священник~
+    CreateCreature("XGpte1",[281.1286],0)  // ~Воинственный священник~
+    CreateCreature("XGpte2",[351.1117],0)  // ~Воинственный священник~
+    CreateCreature("XGpte3",[580.1043],0)  // ~Воинственный священник~
+    CreateCreature("XGpte4",[1600.1047],0)  // ~Воинственный священник~
+    CreateCreature("XGpte5",[1355.1180],0)  // ~Воинственный священник~
+    CreateCreature("XGprte6",[1420.2399],8)  // ~Воинственный священник~
+    CreateCreature("XGpte7",[1469.2467],8)  // ~Воинственный священник~
+    CreateCreature("XGpte8",[1552.2404],8)  // ~Воинственный священник~
+    CreateCreature("XGpte9",[2466.2208],8)  // ~Воинственный священник~
+    CreateCreature("XGpte10",[2291.2074],8)  // ~Воинственный священник~
+    CreateCreature("XGptec",[1259.3067],8)  // ~Воинственный священник~
     Wait(5)
     UnhideGUI()
     TakePartyItem("LETHSMOD")

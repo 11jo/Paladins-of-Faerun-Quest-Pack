@@ -6,29 +6,29 @@ THEN
     SetGlobal("EnteredPF0062","PF0062",1)
     PlaySound("NWN2")
     Wait(4)
-    CreateCreature("LUSCMOD",[593.82],14)  // ~Капитан~
-    CreateCreature("LUSW1MOD",[547.147],14)  // ~Лусканец~
-    CreateCreature("LUSW2MOD",[677.103],14)  // ~Лусканец~
-    CreateCreature("LUSW2MOD",[404.714],14)  // ~Лусканец~
-    CreateCreature("LUSW2MOD",[1586.95],14)  // ~Лусканец~
-    CreateCreature("LUSW2MOD",[1842.256],14)  // ~Лусканец~
-    CreateCreature("CONCMOD",[1222.1628],0)  // ~Связной~
+    CreateCreature("XGLUSC",[593.82],14)  // ~Капитан~
+    CreateCreature("XGLUSW1",[547.147],14)  // ~Лусканец~
+    CreateCreature("XGLUSW2",[677.103],14)  // ~Лусканец~
+    CreateCreature("XGLUSW2",[404.714],14)  // ~Лусканец~
+    CreateCreature("XGLUSW2",[1586.95],14)  // ~Лусканец~
+    CreateCreature("XGLUSW2",[1842.256],14)  // ~Лусканец~
+    CreateCreature("XGCONC",[1222.1628],0)  // ~Связной~
     Wait(4)
 END
 
 IF
   Global("Reveal0062","PF0062",0)
-  Dead("LUSCMOD")  // ~Капитан~
+  Dead("XGLUSC")  // ~Капитан~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0062","PF0062",1)
     Explore()
     PlaySound("NWN1")
     Wait(2)
-    CreateCreature("LUSW2MOD",[2082.3333],4)  // ~Лусканец~
-    CreateCreature("LUSW2MOD",[1438.2876],0)  // ~Лусканец~
-    CreateCreature("LUSW2MOD",[1838.3419],6)  // ~Лусканец~
-    CreateCreature("LUSW2MOD",[1650.3364],6)  // ~Лусканец~
-    CreateCreature("LUSWZMOD",[1689.3397],6)  // ~Чародей Лускана~
+    CreateCreature("XGLUSW2",[2082.3333],4)  // ~Лусканец~
+    CreateCreature("XGLUSW2",[1438.2876],0)  // ~Лусканец~
+    CreateCreature("XGLUSW2",[1838.3419],6)  // ~Лусканец~
+    CreateCreature("XGLUSW2",[1650.3364],6)  // ~Лусканец~
+    CreateCreature("XGluswz",[1689.3397],6)  // ~Чародей Лускана~
 END
 

@@ -9,7 +9,7 @@ THEN
     Explore()
     MoveViewObject(Player1,INSTANT)
     Wait(2)
-    DisplayStringHead("ELWINMOD",@0)  // @0
+    DisplayStringHead("XGELWIN",@0)  // @0
     Wait(7)
     TakePartyItem("QI1MOD")
     TakePartyItem("QI2MOD")
@@ -17,87 +17,87 @@ THEN
     Wait(2)
     DisplayStringHead(Player1,@1)  // @1
     Wait(6)
-    ActionOverride("ELWINMOD",ForceSpell(Myself,CLERIC_CIRCLE_OF_PROTECTION))
+    ActionOverride("XGELWIN",ForceSpell(Myself,CLERIC_CIRCLE_OF_PROTECTION))
     Wait(7)
-    ActionOverride("ELWINMOD",ForceSpell(Player1,CLERIC_ARMOR_OF_FAITH))
+    ActionOverride("XGELWIN",ForceSpell(Player1,CLERIC_ARMOR_OF_FAITH))
     Wait(7)
-    ActionOverride("ELWINMOD",ForceSpell(Myself,CLERIC_DRAW_UPON_HOLY_MIGHT))
+    ActionOverride("XGELWIN",ForceSpell(Myself,CLERIC_DRAW_UPON_HOLY_MIGHT))
     Wait(10)
     FadeToColor([10.0],0)
-    CreateCreature("SW1MOD",[455.596],10)  // ~Южанин~
-    CreateCreature("SW2MOD",[637.781],8)  // ~Южанин~
-    CreateCreature("SW3MOD",[827.893],8)  // ~Южанин~
-    CreateCreature("SW4MOD",[265.830],12)  // ~Южанин~
-    CreateCreature("SW5MOD",[173.396],10)  // ~Южанин~
+    CreateCreature("XGSW1",[455.596],10)  // ~Южанин~
+    CreateCreature("XGSW2",[637.781],8)  // ~Южанин~
+    CreateCreature("XGSW3",[827.893],8)  // ~Южанин~
+    CreateCreature("XGSW4",[265.830],12)  // ~Южанин~
+    CreateCreature("XGSW5",[173.396],10)  // ~Южанин~
     PlaySound("NWN2")
     Wait(6)
     DisplayStringHead(Player1,@2)  // @2
     Wait(6)
-    DisplayStringHead("ELWINMOD",@3)  // @3
+    DisplayStringHead("XGELWIN",@3)  // @3
     Wait(7)
-    MoveViewObject("Cadp1mod",INSTANT)
+    MoveViewObject("XGCADP1",INSTANT)
     Wait(1)
-    DisplayStringHead("CADP1MOD",@4)  // @4
+    DisplayStringHead("XGCADP1",@4)  // @4
     Wait(2)
-    ActionOverride("CADP1MOD",Attack("SW1MOD"))
-    ActionOverride("SW1MOD",Attack("CADP1MOD"))
+    ActionOverride("XGCADP1",Attack("XGSW1"))
+    ActionOverride("XGSW1",Attack("XGCADP1"))
     Wait(8)
-    MoveViewObject("Cadp2mod",INSTANT)
+    MoveViewObject("XGCADP2",INSTANT)
     Wait(1)
-    DisplayStringHead("CADP2MOD",@5)  // @5
-    ActionOverride("CADP2MOD",Attack("SW2MOD"))
-    ActionOverride("SW2MOD",Attack("CADP2MOD"))
+    DisplayStringHead("XGCADP2",@5)  // @5
+    ActionOverride("XGCADP2",Attack("XGSW2"))
+    ActionOverride("XGSW2",Attack("XGCADP2"))
     Wait(8)
-    MoveViewObject("Cadp3mod",INSTANT)
+    MoveViewObject("XGCADP3",INSTANT)
     Wait(1)
-    ActionOverride("CADP3MOD",Attack("SW3MOD"))
-    ActionOverride("SW3MOD",Attack("CADP3MOD"))
+    ActionOverride("XGCADP3",Attack("XGSW3"))
+    ActionOverride("XGSW3",Attack("XGCADP3"))
     Wait(8)
     MoveViewObject(Player1,INSTANT)
     Wait(4)
-    ActionOverride("ELWINMOD",ForceSpell(Player1,CLERIC_CAUSE_SERIOUS_WOUNDS))
+    ActionOverride("XGELWIN",ForceSpell(Player1,CLERIC_CAUSE_SERIOUS_WOUNDS))
     Wait(1)
     CreateVisualEffectObject("SPROTECT",Player1)
     PlaySound("EFF_M23C")
     Wait(3)
-    ActionOverride("ELWINMOD",ForceSpell(Player1,CLERIC_HEAL))
+    ActionOverride("XGELWIN",ForceSpell(Player1,CLERIC_HEAL))
     Wait(10)
     ScreenShake([20.20],50)
     Wait(10)
     Wait(4)
-    DisplayStringHead("ELWINMOD",@6)  // @6
+    DisplayStringHead("XGELWIN",@6)  // @6
     Wait(7)
     AddexperienceParty(25000)
-    MoveViewObject("Cadp4mod",INSTANT)
+    MoveViewObject("XGCADP4",INSTANT)
     Wait(1)
-    ActionOverride(Player2,Attack("SW4MOD"))
-    ActionOverride("CADP4MOD",Attack("SW4MOD"))
-    ActionOverride("SW4MOD",Attack("CADP4MOD"))
+    ActionOverride(Player2,Attack("XGSW4"))
+    ActionOverride("XGCADP4",Attack("XGSW4"))
+    ActionOverride("XGSW4",Attack("XGCADP4"))
     Wait(4)
-    ActionOverride("CADP4MOD",Kill("SW4MOD"))
+    ActionOverride("XGCADP4",Kill("XGSW4"))
     Wait(8)
-    MoveViewObject("Cadp5mod",INSTANT)
+    MoveViewObject("XGCADP5",INSTANT)
     Wait(1)
-    DisplayStringHead("SW5MOD",@7)  // @7
+    DisplayStringHead("XGSW5",@7)  // @7
     Wait(5)
-    ActionOverride(Player3,Attack("SW5MOD"))
-    ActionOverride("CADP5MOD",Attack("SW5MOD"))
-    ActionOverride("SW5MOD",EscapeArea())
+    ActionOverride(Player3,Attack("XGSW5"))
+    ActionOverride("XGCADP5",Attack("XGSW5"))
+    ActionOverride("XGSW5",EscapeArea())
     Wait(8)
-    CreateCreature("MESMOD",[773.266],12)  // ~Член Совета магов~
-    MoveViewObject("ELWINMOD",INSTANT)
+    CreateCreature("XGMES",[773.266],12)  // ~Член Совета магов~
+    MoveViewObject("XGELWIN",INSTANT)
     Wait(4)
-    ActionOverride("ELWINMOD",Face(4))
+    ActionOverride("XGELWIN",Face(4))
     Wait(1)
-    DisplayStringHead("ELWINMOD",@8)  // @8
+    DisplayStringHead("XGELWIN",@8)  // @8
     Wait(5)
-    DisplayStringHead("MESMOD",@9)  // @9
+    DisplayStringHead("XGMES",@9)  // @9
     Wait(8)
     Wait(1)
-    DisplayStringHead("ELWINMOD",@10)  // @10
+    DisplayStringHead("XGELWIN",@10)  // @10
     Wait(6)
     Wait(1)
-    DisplayStringHead("ELWINMOD",@11)  // @11
+    DisplayStringHead("XGELWIN",@11)  // @11
     Wait(6)
     HideAreaOnMap("PF0034")
     RevealAreaOnMap("PF1034")

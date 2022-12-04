@@ -1,4 +1,4 @@
-BEGIN ~LETGCMOD~
+BEGIN ~XGLETGC~
 
 IF ~NumtimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
@@ -9,12 +9,12 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @4
-  IF ~~ THEN REPLY @7 DO ~SetGlobal("Letgcmod","GLOBAL",1)
+  IF ~~ THEN REPLY @7 DO ~SetGlobal("XGLETGC","GLOBAL",1)
 EraseJournalEntry(@6)
 ~ UNSOLVED_JOURNAL @5 EXIT
 END
 
-IF ~Global("Letgcmod","GLOBAL",1)
+IF ~Global("XGLETGC","GLOBAL",1)
 PartyHasItem("GD1MOD")
 PartyHasItem("GD3MOD")
 PartyHasItem("GD2MOD")~ THEN BEGIN 2
@@ -22,14 +22,14 @@ PartyHasItem("GD2MOD")~ THEN BEGIN 2
   IF ~~ THEN DO ~GiveItemCreate("MISC07",Player1,4000,0,0)
 EraseJournalEntry(@5)
 AddexperienceParty(5000)
-SetGlobal("Letgcmod","GLOBAL",2)
+SetGlobal("XGLETGC","GLOBAL",2)
 TakePartyItem("GD1MOD")
 TakePartyItem("GD2MOD")
 TakePartyItem("GD3MOD")
 ~ UNSOLVED_JOURNAL @9 EXIT
 END
 
-IF ~Global("Letgcmod","GLOBAL",1)
+IF ~Global("XGLETGC","GLOBAL",1)
 OR(3)
 !PartyHasItem("GD1MOD")
 !PartyHasItem("GD3MOD")
@@ -39,14 +39,14 @@ OR(3)
   IF ~~ THEN EXIT
 END
 
-IF ~Global("Letgcmod","GLOBAL",2)
-Dead("LUSGWMOD")~ THEN BEGIN 4
+IF ~Global("XGLETGC","GLOBAL",2)
+Dead("XGLUSGW")~ THEN BEGIN 4
   SAY @11
   IF ~~ THEN REPLY @12 GOTO 6
 END
 
-IF ~Global("Letgcmod","GLOBAL",2)
-!Dead("LUSGWMOD")~ THEN BEGIN 5
+IF ~Global("XGLETGC","GLOBAL",2)
+!Dead("XGLUSGW")~ THEN BEGIN 5
   SAY @13
   IF ~~ THEN EXIT
 END
@@ -56,13 +56,13 @@ IF ~~ THEN BEGIN 6
   IF ~~ THEN REPLY @15 DO ~GiveItemCreate("POTN52",Player1,20,0,0)
 EraseJournalEntry(@9)
 AddexperienceParty(5000)
-SetGlobal("Letgcmod","GLOBAL",3)
+SetGlobal("XGLETGC","GLOBAL",3)
 ~ EXIT
 END
 
-IF ~Global("Letgcmod","GLOBAL",3)~ THEN BEGIN 7
+IF ~Global("XGLETGC","GLOBAL",3)~ THEN BEGIN 7
   SAY @16
-  IF ~~ THEN REPLY @17 DO ~SetGlobal("Letgcmod","GLOBAL",3)
+  IF ~~ THEN REPLY @17 DO ~SetGlobal("XGLETGC","GLOBAL",3)
 ~ EXIT
   IF ~~ THEN REPLY @18 DO ~ActionOverride(Player1,LeaveAreaLUA("PF0263","",[1295.905],0))
 ActionOverride(Player2,LeaveAreaLUA("PF0263","",[1266.905],0))
@@ -70,11 +70,11 @@ ActionOverride(Player3,LeaveAreaLUA("PF0263","",[1336.905],0))
 ActionOverride(Player4,LeaveAreaLUA("PF0263","",[1297.965],0))
 ActionOverride(Player5,LeaveAreaLUA("PF0263","",[1247.930],0))
 ActionOverride(Player6,LeaveAreaLUA("PF0263","",[1216.899],0))
-SetGlobal("Letgcmod","GLOBAL",4)
+SetGlobal("XGLETGC","GLOBAL",4)
 ~ EXIT
 END
 
-IF ~Global("Letgcmod","GLOBAL",4)~ THEN BEGIN 8
+IF ~Global("XGLETGC","GLOBAL",4)~ THEN BEGIN 8
   SAY @19
   IF ~~ THEN EXIT
 END

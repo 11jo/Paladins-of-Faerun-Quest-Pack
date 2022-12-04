@@ -9,10 +9,10 @@ THEN
     HideGUI()
     Explore()
     Wait(4)
-    CreateCreature("ESMILMOD",[2996.797],0)  // ~Священник~
-    CreateCreature("ESMILMOD",[3175.864],0)  // ~Священник~
-    CreateCreature("ESMILMOD",[3191.751],0)  // ~Священник~
-    CreateCreature("ESMILMOD",[3060.718],0)  // ~Священник~
+    CreateCreature("XGESMIL",[2996.797],0)  // ~Священник~
+    CreateCreature("XGESMIL",[3175.864],0)  // ~Священник~
+    CreateCreature("XGESMIL",[3191.751],0)  // ~Священник~
+    CreateCreature("XGESMIL",[3060.718],0)  // ~Священник~
     Wait(4)
     MoveViewPoint([3145.794],SLOW)
     ActionOverride(Player2,MoveToPoint([3094.761]))
@@ -22,7 +22,7 @@ THEN
     ActionOverride(Player5,MoveToPoint([3174.795]))
     ActionOverride(Player6,MoveToPoint([3152.769]))
     Wait(12)
-    DisplayStringHead("ESMILMOD",@0)  // @0
+    DisplayStringHead("XGESMIL",@0)  // @0
     Wait(6)
     ActionOverride(Player2,LeaveAreaLUA("PF0129","",[267.190],0))
     ActionOverride(Player1,LeaveAreaLUA("PF0129","",[124.171],0))
@@ -30,7 +30,7 @@ THEN
     ActionOverride(Player4,LeaveAreaLUA("PF0129","",[254.244],0))
     ActionOverride(Player5,LeaveAreaLUA("PF0129","",[373.239],0))
     ActionOverride(Player6,LeaveAreaLUA("PF0129","",[445.255],0))
-    ActionOverride("ESMILMOD",EscapeArea())
+    ActionOverride("XGESMIL",EscapeArea())
     Wait(2)
     UnhideGUI()
     EndCutSceneMode()

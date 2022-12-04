@@ -3,8 +3,8 @@ IF
   Global("S#setAR0527","AR0527",0)
 THEN
   RESPONSE #100
-    CreateCreature("PASMOD",[405.345],14)
-    CreateCreature("PASMOD",[489.183],0)
+    CreateCreature("XGPAS",[405.345],14)
+    CreateCreature("XGPAS",[489.183],0)
     SetGlobal("S#setAR0527","AR0527",1)
 END
 

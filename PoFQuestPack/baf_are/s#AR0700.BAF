@@ -3,8 +3,8 @@ IF
   Global("S#setAR0700","AR0700",0)
 THEN
   RESPONSE #100
-    CreateCreature("MARIAN",[3218.1742],0)
-    CreateCreature("MAGTMOD",[450.3766],0)
+    CreateCreature("XGMARAN",[3218.1742],0)
+    CreateCreature("XGMAGT",[450.3766],0)
     SetGlobal("S#setAR0700","AR0700",1)
 END
 

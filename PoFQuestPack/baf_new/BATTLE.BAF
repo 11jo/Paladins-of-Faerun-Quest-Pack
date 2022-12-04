@@ -8,7 +8,7 @@ THEN
     ClearAllActions()
     FadeToColor([20.10],1)
     Wait(8)
-    CreateCreature("PRDMOD",[1446.2047],10)  // ~Пленник~
+    CreateCreature("XGprd",[1446.2047],10)  // ~Пленник~
     Wait(4)
     ActionOverride(Player2,LeaveAreaLUA("PF0077","",[1312.2001],12))
     ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1535.1982],0))
@@ -19,11 +19,11 @@ THEN
     ClearAllActions()
     Wait(5)
     MoveViewPoint([1464.1871],INSTANT)
-    ActionOverride("TWRMOD",EscapeArea())
+    ActionOverride("XGtwr",EscapeArea())
     Wait(6)
-    DisplayStringHead("TWRCMOD",@0)  // @0
+    DisplayStringHead("XGtwrc",@0)  // @0
     Wait(5)
-    ActionOverride("PRDMOD",Enemy())
+    ActionOverride("XGprd",Enemy())
     BattleSong()
     UnhideGUI()
     EndCutSceneMode()
@@ -31,22 +31,22 @@ END
 
 IF
   PartyHasItem("PLET1MOD")  // ~Письмо~
-  Dead("PRDMOD")  // ~Пленник~
+  Dead("XGprd")  // ~Пленник~
 THEN
   RESPONSE #100
     StartCutSceneMode()
     HideGUI()
     Wait(1)
-    DisplayStringHead("TWRCMOD",@1)  // @1
+    DisplayStringHead("XGtwrc",@1)  // @1
     FadeToColor([80.0],0)
     Wait(5)
-    CreateCreature("PRD1MOD",[1446.2047],10)  // ~Пленник~
+    CreateCreature("XGprd1",[1446.2047],10)  // ~Пленник~
     Wait(8)
     ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1507.1986],0))
     Wait(5)
-    DisplayStringHead("TWRCMOD",@0)  // @0
+    DisplayStringHead("XGtwrc",@0)  // @0
     Wait(4)
-    ActionOverride("PRD1MOD",Enemy())
+    ActionOverride("XGprd1",Enemy())
     BattleSong()
     UnhideGUI()
     EndCutSceneMode()
@@ -54,22 +54,22 @@ END
 
 IF
   PartyHasItem("PLET1MOD")  // ~Письмо~
-  Dead("PRD1MOD")  // ~Пленник~
+  Dead("XGprd1")  // ~Пленник~
 THEN
   RESPONSE #100
     StartCutSceneMode()
     HideGUI()
     Wait(1)
-    DisplayStringHead("TWRCMOD",@1)  // @1
+    DisplayStringHead("XGtwrc",@1)  // @1
     FadeToColor([80.0],0)
     Wait(5)
-    CreateCreature("PRD2MOD",[1446.2047],10)  // ~Пленник~
+    CreateCreature("XGprd2",[1446.2047],10)  // ~Пленник~
     Wait(8)
     ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1507.1986],0))
     Wait(5)
-    DisplayStringHead("TWRCMOD",@0)  // @0
+    DisplayStringHead("XGtwrc",@0)  // @0
     Wait(4)
-    ActionOverride("PRD2MOD",Enemy())
+    ActionOverride("XGprd2",Enemy())
     BattleSong()
     UnhideGUI()
     EndCutSceneMode()
@@ -77,7 +77,7 @@ END
 
 IF
   PartyHasItem("PLET1MOD")  // ~Письмо~
-  Dead("PRD2MOD")  // ~Пленник~
+  Dead("XGprd2")  // ~Пленник~
 THEN
   RESPONSE #100
     StartCutSceneMode()
@@ -89,14 +89,14 @@ END
 
 IF
   PartyHasItem("PLET1MOD")  // ~Письмо~
-  Dead("PRD2MOD")  // ~Пленник~
-  Dead("PRD1MOD")  // ~Пленник~
-  Dead("PRDMOD")  // ~Пленник~
+  Dead("XGprd2")  // ~Пленник~
+  Dead("XGprd1")  // ~Пленник~
+  Dead("XGprd")  // ~Пленник~
 THEN
   RESPONSE #100
     StartCutSceneMode()
     Wait(1)
-    DisplayStringHead("TWRCMOD",@2)  // @2
+    DisplayStringHead("XGtwrc",@2)  // @2
     Wait(8)
     FadeToColor([80.0],0)
     ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1042.1978],0))

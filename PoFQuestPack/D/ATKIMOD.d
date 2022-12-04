@@ -1,6 +1,6 @@
-BEGIN ~ATKIMOD~
+BEGIN ~XGATKI~
 
-IF ~Global("s#ATKIMOD","GLOBAL",0)~ THEN BEGIN 0
+IF ~Global("s#XGATKI","GLOBAL",0)~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
 END
@@ -28,18 +28,18 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @11
-  IF ~~ THEN DO ~ SetGlobal("s#ATKIMOD","GLOBAL",1)
+  IF ~~ THEN DO ~ SetGlobal("s#XGATKI","GLOBAL",1)
 EscapeArea()~ SOLVED_JOURNAL @12 EXIT
 END
 
 IF ~~ THEN BEGIN 6
   SAY @13
   IF ~~ THEN REPLY @14 DO ~GiveItemCreate("kiitmod",Player1,0,0,0)
-SetGlobal("s#ATKIMOD","GLOBAL",2)
+SetGlobal("s#XGATKI","GLOBAL",2)
 RevealAreaOnMap("PF0040")~ UNSOLVED_JOURNAL @15 EXIT
 END
 
-IF ~Global("s#ATKIMOD","GLOBAL",2)
+IF ~Global("s#XGATKI","GLOBAL",2)
 PartyHasItem("HQMOD")~ THEN BEGIN 7
   SAY @16
   IF ~~ THEN REPLY @17 DO ~TakePartyItem("HQMOD")~ GOTO 8
@@ -62,8 +62,8 @@ GiveItemCreate("MISC07",Player1,2000,0,0)
 ~ SOLVED_JOURNAL @26 EXIT
 END
 
-IF ~Global("s#ATKIMOD","GLOBAL",2)
-Dead("HQMIMOD")
+IF ~Global("s#XGATKI","GLOBAL",2)
+Dead("XGhqmi")
 !PartyHasItem("HQMOD")~ THEN BEGIN 10
   SAY @27
   IF ~~ THEN REPLY @28 GOTO 11

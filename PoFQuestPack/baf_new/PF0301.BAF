@@ -1,6 +1,6 @@
 IF
   Global("Reveal0301","PF0301",0)
-  Dead("VAMPMOD")  // ~Вампир~
+  Dead("XGVAMP")  // ~Вампир~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0301","PF0301",1)
@@ -9,7 +9,7 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(2)
-    CreateCreature("SWILLMOD",[188.346],0)  // ~Сэр Уильям~
+    CreateCreature("XGSWILL",[188.346],0)  // ~Сэр Уильям~
     Wait(2)
     ActionOverride(Player1,MoveToPoint([181.270]))
     Wait(3)
@@ -19,7 +19,7 @@ END
 
 IF
   Global("Reveal0301","PF0301",1)
-  Dead("LORUMOD")  // ~Владыка преисподни~
+  Dead("XGLORU")  // ~Владыка преисподни~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0301","PF0301",2)
@@ -28,18 +28,18 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(2)
-    CreateCreature("stgsmod",[112.291],0)  // ~Лорд  Уилнан~
-    CreateCreature("sdwspmod",[114.245],0)  // ~Паладин Даввен~
+    CreateCreature("XGSTGS",[112.291],0)  // ~Лорд  Уилнан~
+    CreateCreature("XGSDWSP",[114.245],0)  // ~Паладин Даввен~
     Wait(2)
-    DisplayString("SWILLMOD",@0)  // @0
+    DisplayString("XGSWILL",@0)  // @0
     Wait(4)
     EraseJournalEntry(@1)  // @1
     EraseJournalEntry(@2)  // @2
     AddexperienceParty(10000)
     GivePartyGold(2000)
-    ActionOverride("SWILLMOD",EscapeArea())
-    ActionOverride("stgsmod",EscapeArea())
-    ActionOverride("sdwspmod",EscapeArea())
+    ActionOverride("XGSWILL",EscapeArea())
+    ActionOverride("XGSTGS",EscapeArea())
+    ActionOverride("XGSDWSP",EscapeArea())
     Wait(2)
     UnhideGUI()
     EndCutSceneMode()

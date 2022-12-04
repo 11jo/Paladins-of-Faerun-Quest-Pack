@@ -1,4 +1,4 @@
-BEGIN ~SKLLMOD~
+BEGIN ~XGSKLL~
 
 IF ~NumTimesTalkeDTo(0)~ THEN BEGIN 0
   SAY @1

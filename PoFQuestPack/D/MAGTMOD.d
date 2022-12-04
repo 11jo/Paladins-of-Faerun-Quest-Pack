@@ -1,4 +1,4 @@
-BEGIN ~MAGTMOD~
+BEGIN ~XGMAGT~
 
 IF ~NumTimesTalkedTo(0)
 !PartyHasItem("GLAVE07")

@@ -9,48 +9,48 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Explore()
-    ActionOverride("GFALCON1",Attack("GRADAK1"))
+    ActionOverride("XGFALC1",Attack("XGRADA1"))
     Wait(1)
-    ActionOverride("GRADAK1",Attack("GFALCON1"))
+    ActionOverride("XGRADA1",Attack("XGFALC1"))
     Wait(4)
-    ActionOverride("EMAG1MOD",ForceSpell("GFALCON1",WIZARD_SLOW))
+    ActionOverride("XGEMAG1",ForceSpell("XGFALC1",WIZARD_SLOW))
     Wait(6)
-    ActionOverride("EMAG2MOD",ForceSpell("GFALCON1",WIZARD_LIGHTNING_BOLT))
+    ActionOverride("XGEMAG2",ForceSpell("XGFALC1",WIZARD_LIGHTNING_BOLT))
     Wait(6)
     Wait(4)
-    DisplayString("GRADAK1",@0)  // @0
+    DisplayString("XGRADA1",@0)  // @0
     Wait(6)
     Wait(3)
-    DisplayString("GFALCON1",@1)  // @1
+    DisplayString("XGFALC1",@1)  // @1
     Wait(6)
     Wait(3)
-    ActionOverride("EMAG1MOD",ForceSpell("GFALCON1",WIZARD_FEEBLEMIND))
+    ActionOverride("XGEMAG1",ForceSpell("XGFALC1",WIZARD_FEEBLEMIND))
     Wait(6)
-    ActionOverride("EMAG2MOD",ForceSpell("GFALCON1",WIZARD_CONFUSION))
+    ActionOverride("XGEMAG2",ForceSpell("XGFALC1",WIZARD_CONFUSION))
     Wait(6)
     Wait(3)
     ScreenShake([20.20],40)
-    CreateCreature("ELWINMOD",[834.906],0)  // ~Элвин~
+    CreateCreature("XGELWIN",[834.906],0)  // ~Элвин~
     Wait(2)
-    ActionOverride("GRADAK1",Kill("GFALCON1"))
+    ActionOverride("XGRADA1",Kill("XGFALC1"))
     Wait(1)
-    DisplayString("ELWINMOD",@2)  // @2
+    DisplayString("XGELWIN",@2)  // @2
     Wait(1)
-    ActionOverride("ELWINMOD",ForceSpell("GRADAK1",WIZARD_CHAIN_LIGHTNING))
+    ActionOverride("XGELWIN",ForceSpell("XGRADA1",WIZARD_CHAIN_LIGHTNING))
     Wait(6)
-    ActionOverride("ELWINMOD",ForceSpell("GRADAK1",WIZARD_MAGIC_MISSILE))
-    ActionOverride("EMAG1MOD",MoveToPoint([811.963]))
-    ActionOverride("EMAG2MOD",MoveToPoint([871.978]))
+    ActionOverride("XGELWIN",ForceSpell("XGRADA1",WIZARD_MAGIC_MISSILE))
+    ActionOverride("XGEMAG1",MoveToPoint([811.963]))
+    ActionOverride("XGEMAG2",MoveToPoint([871.978]))
     Wait(5)
-    ActionOverride("EMAG1MOD",ForceSpell("ELWINMOD",WIZARD_IMPRISONMENT))
+    ActionOverride("XGEMAG1",ForceSpell("XGELWIN",WIZARD_IMPRISONMENT))
     Wait(6)
-    ForceSpell("EMAG2MOD",DRYAD_TELEPORT)
-    ForceSpell("EMAG1MOD",DRYAD_TELEPORT)
-    ForceSpell("ELWINMOD",DRYAD_TELEPORT)
+    ForceSpell("XGEMAG2",DRYAD_TELEPORT)
+    ForceSpell("XGEMAG1",DRYAD_TELEPORT)
+    ForceSpell("XGELWIN",DRYAD_TELEPORT)
     Wait(4)
     FadeToColor([20.0],0)
-    ActionOverride("GRADAK1",DestroySelf())
-    CreateCreature("FNGRADAK",[676.1310],10)  // ~Градак~
+    ActionOverride("XGRADA1",DestroySelf())
+    CreateCreature("XGfngra",[676.1310],10)  // ~Градак~
     Wait(4)
     UnhideGUI()
     EndCutSceneMode()
@@ -58,7 +58,7 @@ END
 
 IF
   Global("Reveal1234","PF1234",0)
-  Dead("FNGRADAK")  // ~Градак~
+  Dead("XGfngra")  // ~Градак~
 THEN
   RESPONSE #100
     SetGlobal("Reveal1234","PF1234",1)
@@ -67,35 +67,35 @@ THEN
     HideGUI()
     Explore()
     Wait(6)
-    CreateCreature("CELMMOD",[1027.1015],2)  // ~Элминстер~
+    CreateCreature("XGCELM",[1027.1015],2)  // ~Элминстер~
     ScreenShake([20.20],3)
     Wait(6)
     ActionOverride(Player1,MoveToPoint([946.1058]))
     MoveViewPoint([1027.1015],SLOW)
     Wait(4)
-    DisplayStringHead("CELMMOD",@3)  // @3
+    DisplayStringHead("XGCELM",@3)  // @3
     Wait(10)
     DisplayStringHead(Player1,@4)  // @4
     Wait(10)
-    DisplayStringHead("CELMMOD",@5)  // @5
+    DisplayStringHead("XGCELM",@5)  // @5
     Wait(6)
-    ForceSpell("CELMMOD",DRYAD_TELEPORT)
-    CreateCreature("ELWINMOD",[1574.1142],2)  // ~Элвин~
-    ActionOverride("ELWINMOD",MoveToPoint([1122.1078]))
+    ForceSpell("XGCELM",DRYAD_TELEPORT)
+    CreateCreature("XGELWIN",[1574.1142],2)  // ~Элвин~
+    ActionOverride("XGELWIN",MoveToPoint([1122.1078]))
     Wait(6)
-    DisplayStringHead("ELWINMOD",@6)  // @6
+    DisplayStringHead("XGELWIN",@6)  // @6
     Wait(10)
     DisplayStringHead(Player1,@7)  // @7
     Wait(10)
-    DisplayStringHead("ELWINMOD",@8)  // @8
+    DisplayStringHead("XGELWIN",@8)  // @8
     Wait(10)
-    DisplayStringHead("ELWINMOD",@9)  // @9
+    DisplayStringHead("XGELWIN",@9)  // @9
     Wait(10)
     DisplayStringHead(Player1,@10)  // @10
     Wait(10)
-    DisplayStringHead("ELWINMOD",@11)  // @11
+    DisplayStringHead("XGELWIN",@11)  // @11
     Wait(10)
-    DisplayStringHead("ELWINMOD",@12)  // @12
+    DisplayStringHead("XGELWIN",@12)  // @12
     Wait(10)
     SetQuestDone(@13)  // @13
     ReputationInc(2)

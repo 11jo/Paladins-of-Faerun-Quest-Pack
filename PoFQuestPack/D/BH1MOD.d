@@ -1,6 +1,6 @@
-BEGIN ~BH1MOD~
+BEGIN ~XGBH1~
 
-IF ~Global("s#BH1MOD","GLOBAL",0)~ THEN BEGIN 0
+IF ~Global("s#XGBH1","GLOBAL",0)~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
 END
@@ -18,7 +18,7 @@ END
 IF ~~ THEN BEGIN 3
   SAY @6
   IF ~PartyGoldGT(10000)~ THEN REPLY @7 DO ~TakePartyGold(10000)~ UNSOLVED_JOURNAL @8 GOTO 4
-  IF ~!PartyGoldGT(10000)~ THEN REPLY @9 DO ~SetGlobal("s#BH1MOD","GLOBAL",1)~ UNSOLVED_JOURNAL @8 EXIT
+  IF ~!PartyGoldGT(10000)~ THEN REPLY @9 DO ~SetGlobal("s#XGBH1","GLOBAL",1)~ UNSOLVED_JOURNAL @8 EXIT
   IF ~~ THEN REPLY @10 DO ~Enemy()~ EXIT
 END
 
@@ -31,10 +31,10 @@ ActionOverride(Player3,LeaveAreaLUA("AR2000","",[4099.2802],2))
 ActionOverride(Player4,LeaveAreaLUA("AR2000","",[4111.2868],2))
 ActionOverride(Player5,LeaveAreaLUA("AR2000","",[4044.2883],2))
 ActionOverride(Player6,LeaveAreaLUA("AR2000","",[3968.2907],2))
-SetGlobal("s#BH1MOD","GLOBAL",2)~ UNSOLVED_JOURNAL @13 EXIT
+SetGlobal("s#XGBH1","GLOBAL",2)~ UNSOLVED_JOURNAL @13 EXIT
 END
 
-IF ~Global("s#FAMOD","GLOBAL",1)~ THEN BEGIN 5
+IF ~Global("s#XGfa","GLOBAL",1)~ THEN BEGIN 5
   SAY @14
   IF ~PartyGoldGT(10000)~ THEN REPLY @7 DO ~TakePartyGold(10000)~ UNSOLVED_JOURNAL @8 GOTO 4
   IF ~!PartyGoldGT(10000)~ THEN REPLY @15 EXIT

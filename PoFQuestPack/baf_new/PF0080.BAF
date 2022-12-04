@@ -1,13 +1,13 @@
 IF
   Global("DEADW","PF0080",0)
-  Dead("DRE1MOD")  // ~Прислуга Элистрая~
-  Dead("DRE2MOD")  // ~Прислуга Элистрая~
-  Dead("DRE3MOD")  // ~Прислуга Элистрая~
-  Dead("DRE4MOD")  // ~Прислуга Элистрая~
+  Dead("XGdre1")  // ~Прислуга Элистрая~
+  Dead("XGdre2")  // ~Прислуга Элистрая~
+  Dead("XGdre3")  // ~Прислуга Элистрая~
+  Dead("XGdre4")  // ~Прислуга Элистрая~
 THEN
   RESPONSE #100
     SetGlobal("DEADW","PF0080",1)
-    ActionOverride("DWQMOD",StartDialogue("DWQ1MOD",Player1))
+    ActionOverride("XGdwq",StartDialogue("DWQ1MOD",Player1))
 END
 
 IF
@@ -19,14 +19,14 @@ THEN
     StartCutSceneMode()
     HideGUI()
     TakePartyItem("MSQMOD")
-    CreateCreature("DWQMOD",[4933.2629],0)  // ~Дхаероватил~
-    CreateCreature("DRE1MOD",[4912.2703],0)  // ~Прислуга Элистрая~
-    CreateCreature("DRE2MOD",[4879.2675],0)  // ~Прислуга Элистрая~
-    CreateCreature("DRE3MOD",[4957.2683],0)  // ~Прислуга Элистрая~
-    CreateCreature("DRE4MOD",[5004.2734],0)  // ~Прислуга Элистрая~
-    CreateCreature("DDRWMOD",[5033.2721],0)  // ~Дроу-жрица~
-    CreateCreature("DDRWMOD",[4834.2714],0)  // ~Дроу-жрица~
-    CreateCreature("DDRWMOD",[4911.2522],0)  // ~Дроу-жрица~
+    CreateCreature("XGdwq",[4933.2629],0)  // ~Дхаероватил~
+    CreateCreature("XGdre1",[4912.2703],0)  // ~Прислуга Элистрая~
+    CreateCreature("XGdre2",[4879.2675],0)  // ~Прислуга Элистрая~
+    CreateCreature("XGdre3",[4957.2683],0)  // ~Прислуга Элистрая~
+    CreateCreature("XGdre4",[5004.2734],0)  // ~Прислуга Элистрая~
+    CreateCreature("XGddrw",[5033.2721],0)  // ~Дроу-жрица~
+    CreateCreature("XGddrw",[4834.2714],0)  // ~Дроу-жрица~
+    CreateCreature("XGddrw",[4911.2522],0)  // ~Дроу-жрица~
     ActionOverride(Player2,LeaveAreaLUA("PF0080","",[4840.2773],8))
     ActionOverride(Player1,LeaveAreaLUA("PF0080","",[4877.2745],8))
     ActionOverride(Player3,LeaveAreaLUA("PF0080","",[4930.2796],8))
@@ -34,13 +34,13 @@ THEN
     ActionOverride(Player5,LeaveAreaLUA("PF0080","",[4913.2845],8))
     ActionOverride(Player6,LeaveAreaLUA("PF0080","",[5025.2840],8))
     Wait(3)
-    ActionOverride("DRE1MOD",StartDialogue("DRE1MOD",Player1))
+    ActionOverride("XGdre1",StartDialogue("XGdre1",Player1))
     EndCutSceneMode()
 END
 
 IF
   Global("DIALOGD","PF0080",0)
-  InParty("DWQMOD")  // ~Дхаероватил~
+  InParty("XGdwq")  // ~Дхаероватил~
 THEN
   RESPONSE #100
     SetGlobal("DIALOGD","PF0080",1)

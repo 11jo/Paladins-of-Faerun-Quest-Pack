@@ -1,4 +1,4 @@
-BEGIN ~ESBRMOD~ 4
+BEGIN ~XGESBR~ 4
 
 IF ~True()~ THEN BEGIN 0
   SAY @1
@@ -13,6 +13,6 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @5
-  IF ~~ THEN DO ~StartStore("ESBRMOD",LastTalkedToBy(Myself))
+  IF ~~ THEN DO ~StartStore("XGESBR",LastTalkedToBy(Myself))
 ~ EXIT
 END

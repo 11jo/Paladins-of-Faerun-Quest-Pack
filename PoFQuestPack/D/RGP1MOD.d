@@ -1,4 +1,4 @@
-BEGIN ~RGP1MOD~
+BEGIN ~XGrgp1~
 
 IF ~See(Player1)
 NumtimesTalkedTo(0)~ THEN BEGIN 0

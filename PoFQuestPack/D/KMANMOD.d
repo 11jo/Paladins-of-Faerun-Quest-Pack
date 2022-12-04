@@ -1,4 +1,4 @@
-BEGIN ~KMANMOD~
+BEGIN ~XGKMAN~
 
 IF ~Numtimestalkedto(0)~ THEN BEGIN 0
   SAY @1

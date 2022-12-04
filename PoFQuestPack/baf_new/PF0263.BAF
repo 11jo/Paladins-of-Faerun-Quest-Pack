@@ -5,14 +5,14 @@ THEN
   RESPONSE #100
     SetGlobal("EnteredArea","PF0263",1)
     StartCutSceneMode()
-    DisplayStringHead("LETGMOD",@0)  
+    DisplayStringHead("XGLETG",@0)  
     Wait(3)
     EndCutSceneMode()
 END
 
 IF
   Global("Reveal0263","PF0263",0)
-  Dead("LUSGCMOD")  
+  Dead("XGLUSGC")  
 THEN
   RESPONSE #100
     SetGlobal("Reveal0263","PF0263",1)

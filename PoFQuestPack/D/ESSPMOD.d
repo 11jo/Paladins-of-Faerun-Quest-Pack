@@ -1,4 +1,4 @@
-BEGIN ~ESSPMOD~
+BEGIN ~XGESSP~
 
 IF ~See(Player1)
 NumTimesTalkeDTo(0)~ THEN BEGIN 0

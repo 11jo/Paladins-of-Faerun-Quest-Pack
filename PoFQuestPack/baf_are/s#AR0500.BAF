@@ -3,7 +3,7 @@ IF
   Global("S#setAR0500","AR0500",0)
 THEN
   RESPONSE #100
-    CreateCreature("KPOSMOD",[266.3591],10)
+    CreateCreature("XGKPOS",[266.3591],10)
     SetGlobal("S#setAR0500","AR0500",1)
     Continue()
 END

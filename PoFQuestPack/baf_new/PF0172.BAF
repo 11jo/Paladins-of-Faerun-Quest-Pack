@@ -17,11 +17,11 @@ THEN
     ActionOverride(Player5,MoveToPoint([525.457]))
     ActionOverride(Player6,MoveToPoint([557.376]))
     Wait(7)
-    DisplayStringHead("PRMOD",@0)  
+    DisplayStringHead("XGPR",@0)  
     Wait(6)
     DisplayStringHead(Player1,@1)  
     Wait(6)
-    DisplayStringHead("PRMOD",@2)  
+    DisplayStringHead("XGPR",@2)  
     Wait(5)
     UnhideGUI()
     EndCutSceneMode()
@@ -29,19 +29,19 @@ END
 
 IF
   Global("Reveal0172","PF0172",0)
-  Dead("NIN1MOD")  // ~Ниндзя~
-  Dead("NIN2MOD")  // ~Ниндзя~
-  Dead("NIN3MOD")  // ~Ниндзя~
-  Dead("NIN4MOD")  // ~Ниндзя~
-  Dead("NIN5MOD")  // ~Ниндзя~
-  Dead("PRMOD")  // ~Отрекшийся~
+  Dead("XGNIN1")  // ~Ниндзя~
+  Dead("XGNIN2")  // ~Ниндзя~
+  Dead("XGNIN3")  // ~Ниндзя~
+  Dead("XGNIN4")  // ~Ниндзя~
+  Dead("XGNIN5")  // ~Ниндзя~
+  Dead("XGPR")  // ~Отрекшийся~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0172","PF0172",1)
     Wait(2)
-    CreateCreature("PRMOD",[477.276],14)  // ~Отрекшийся~
-    CreateCreature("NIN6MOD",[650.218],2)  // ~Ниндзя~
-    CreateCreature("NIN7MOD",[1061.1182],4)  // ~Ниндзя~
+    CreateCreature("XGPR",[477.276],14)  // ~Отрекшийся~
+    CreateCreature("XGNIN6",[650.218],2)  // ~Ниндзя~
+    CreateCreature("XGNIN7",[1061.1182],4)  // ~Ниндзя~
     ClearAllActions()
     DisplayStringHead(Player1,@3) 
     Wait(5)

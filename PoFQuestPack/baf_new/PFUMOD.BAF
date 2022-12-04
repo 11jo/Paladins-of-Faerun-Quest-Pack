@@ -6,7 +6,7 @@ THEN
     SetGlobal("EnteredAreaPFUMOD","PFUMOD",1)
     StartCutSceneMode()
     ClearAllActions()
-    DisplayStringHead("BMT3MOD",@0)  
+    DisplayStringHead("XGBMT3",@0)  
     BattleSong()
     EndCutSceneMode()
 END

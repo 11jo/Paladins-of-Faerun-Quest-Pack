@@ -1,19 +1,19 @@
 IF
   OnCreation()
   Global("EnteredAreaPF0864","PF0864",0)
-  PartyHasItem("WRGMOD")  // ~Кольцо~
+  PartyHasItem("XGWRG")  // ~Кольцо~
 THEN
   RESPONSE #100
     SetGlobal("EnteredAreaPF0864","PF0864",1)
-    CreateCreature("BMT1MOD",[1264.680],0)  // ~Воришка~
-    CreateCreature("BMT2MOD",[1179.839],10)  // ~Воришка~
+    CreateCreature("XGBMT1",[1264.680],0)  // ~Воришка~
+    CreateCreature("XGBMT2",[1179.839],10)  // ~Воришка~
     DisplayString(Player1,@0)  
 END
 
 IF
   Global("Reveal0864","PF0864",0)
-  Dead("BMT1MOD")  // ~Воришка~
-  Dead("BMT2MOD")  // ~Воришка~
+  Dead("XGBMT1")  // ~Воришка~
+  Dead("XGBMT2")  // ~Воришка~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0864","PF0864",1)
@@ -24,17 +24,17 @@ THEN
     ActionOverride(Player1,MoveToPoint([1262.820]))
     ActionOverride(Player1,Face(10))
     Wait(4)
-    ActionOverride("MWMOD",Face(2))
+    ActionOverride("XGMW",Face(2))
     Wait(2)
-    CreateCreature("WWMOD",[844.573],0)  // ~Стража~
-    DisplayStringHead("MWMOD",@1)  
+    CreateCreature("XGWW",[844.573],0)  // ~Стража~
+    DisplayStringHead("XGMW",@1)  
     Wait(4)
     DisplayStringHead(Player1,@2)  
     Wait(4)
-    DisplayStringHead("MWMOD",@3)  
-    ActionOverride("WWMOD",MoveToPoint([1201.803]))
+    DisplayStringHead("XGMW",@3)  
+    ActionOverride("XGWW",MoveToPoint([1201.803]))
     Wait(4)
-    DisplayStringHead("WWMOD",@4)  // ~Нет, я могу заверить вас, мадам, что ваш муж находится у капитана городской стражи, пожалуйста пошлите все со мной.~
+    DisplayStringHead("XGWW",@4)  // ~Нет, я могу заверить вас, мадам, что ваш муж находится у капитана городской стражи, пожалуйста пошлите все со мной.~
     Wait(6)
     ActionOverride(Player2,LeaveAreaLUA("PF0364","",[534.487],6))
     ActionOverride(Player1,LeaveAreaLUA("PF0364","",[581.452],6))
@@ -42,9 +42,9 @@ THEN
     ActionOverride(Player4,LeaveAreaLUA("PF0364","",[660.435],6))
     ActionOverride(Player5,LeaveAreaLUA("PF0364","",[619.477],6))
     ActionOverride(Player6,LeaveAreaLUA("PF0364","",[591.512],6))
-    ActionOverride("MWMOD",EscapeArea())
-    ActionOverride("MCHMOD",EscapeArea())
-    ActionOverride("WWMOD",EscapeArea())
+    ActionOverride("XGMW",EscapeArea())
+    ActionOverride("XGMCH",EscapeArea())
+    ActionOverride("XGWW",EscapeArea())
     UnhideGUI()
     EndCutSceneMode()
 END

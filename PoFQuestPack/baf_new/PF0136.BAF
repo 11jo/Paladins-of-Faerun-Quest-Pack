@@ -10,49 +10,49 @@ THEN
     Wait(4)
     ActionOverride(Player1,LeaveAreaLUA("PF0136","",[483.543],0))
     Wait(4)
-    ActionOverride("DRIZAMOD",MoveToPoint([426.565]))
+    ActionOverride("XGDRIZA",MoveToPoint([426.565]))
     Wait(4)
-    DisplayString("DRIZAMOD",@0)  // @0
+    DisplayString("XGDRIZA",@0)  // @0
     Wait(4)
-    DisplayString("ARTEMIS1",@1)  // @1
+    DisplayString("XGARTE1",@1)  // @1
     Wait(4)
-    ActionOverride("DRIZAMOD",Attack("ARTEMIS1"))
-    ActionOverride("ARTEMIS1",Attack("DRIZAMOD"))
+    ActionOverride("XGDRIZA",Attack("XGARTE1"))
+    ActionOverride("XGARTE1",Attack("XGDRIZA"))
     Wait(3)
     ClearAllActions()
     ActionOverride(Player1,LeaveAreaLUA("PF0136","",[675.179],0))
     Wait(1)
-    ActionOverride("SLAIN",MoveToPoint([699.261]))
+    ActionOverride("XGSLAIN",MoveToPoint([699.261]))
     Wait(6)
-    DisplayString("SLAIN",@2)  // @2
+    DisplayString("XGSLAIN",@2)  // @2
     Wait(4)
-    DisplayString("YARPEN",@3)  // @3
+    DisplayString("XGYARPN",@3)  // @3
     Wait(4)
-    ActionOverride("SLAIN",Attack("YARPEN"))
-    ActionOverride("YARPEN",Attack("SLAIN"))
+    ActionOverride("XGSLAIN",Attack("XGYARPN"))
+    ActionOverride("XGYARPN",Attack("XGSLAIN"))
     Wait(6)
-    DisplayString("YARPEN",@4)  // @4
+    DisplayString("XGYARPN",@4)  // @4
     Wait(2)
-    CreateCreature("YARPICP",[860.273],0)  // ~Командир Градакова~
-    CreateCreature("YARPICP",[815.295],0)  // ~Командир Градакова~
-    CreateCreature("YARPICP",[650.209],0)  // ~Командир Градакова~
-    CreateCreature("YARPICP",[694.269],0)  // ~Командир Градакова~
-    CreateCreature("YARPICP",[599.312],0)  // ~Командир Градакова~
-    CreateCreature("YARPICP",[621.460],0)  // ~Командир Градакова~
-    CreateCreature("YARPICP",[916.400],0)  // ~Командир Градакова~
-    CreateCreature("YARPICP",[693.551],0)  // ~Командир Градакова~
-    CreateCreature("YARPICP",[569.718],0)  // ~Командир Градакова~
+    CreateCreature("XGYARP",[860.273],0)  // ~Командир Градакова~
+    CreateCreature("XGYARP",[815.295],0)  // ~Командир Градакова~
+    CreateCreature("XGYARP",[650.209],0)  // ~Командир Градакова~
+    CreateCreature("XGYARP",[694.269],0)  // ~Командир Градакова~
+    CreateCreature("XGYARP",[599.312],0)  // ~Командир Градакова~
+    CreateCreature("XGYARP",[621.460],0)  // ~Командир Градакова~
+    CreateCreature("XGYARP",[916.400],0)  // ~Командир Градакова~
+    CreateCreature("XGYARP",[693.551],0)  // ~Командир Градакова~
+    CreateCreature("XGYARP",[569.718],0)  // ~Командир Градакова~
     ActionOverride(Player1,LeaveAreaLUA("PF0136","",[672.830],0))
     Wait(2)
-    ActionOverride("YARPEN",Enemy())
+    ActionOverride("XGYARPN",Enemy())
     UnhideGUI()
     EndCutSceneMode()
 END
 
 IF
   Global("BridgeOpen","GLOBAL",0)
-  Dead("YARPEN")  // ~Градак~
-  Dead("ARTEMIS1")  // ~Артемис~
+  Dead("XGYARPN")  // ~Градак~
+  Dead("XGARTE1")  // ~Артемис~
 THEN
   RESPONSE #100
     SetGlobal("BridgeOpen","GLOBAL",1)
@@ -60,15 +60,15 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(3)
-    CreateCreature("ELMMOD",[440.800],0)  // ~Элминстер~
+    CreateCreature("XGELM",[440.800],0)  // ~Элминстер~
     Wait(1)
     ActionOverride(Player1,LeaveAreaLUA("PF0136","",[526.774],0))
     Wait(4)
-    DisplayString("ELMMOD",@5)  // @5
+    DisplayString("XGELM",@5)  // @5
     Wait(8)
     DisplayString(Player1,@6)  // @6
     Wait(4)
-    ActionOverride("ELMMOD",EscapeArea())
+    ActionOverride("XGELM",EscapeArea())
     ClearAllActions()
     Wait(2)
     AddexperienceParty(100000)

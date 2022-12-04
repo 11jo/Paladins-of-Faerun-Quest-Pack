@@ -1,6 +1,6 @@
-BEGIN ~DRB2MOD~
+BEGIN ~XGdrb2~
 
-IF ~Dead("DRBSMOD")~ THEN BEGIN 0
+IF ~Dead("XGdrbs")~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN DO ~ReputationInc(1)
 EraseJournalEntry(@1)
@@ -19,7 +19,7 @@ ActionOverride(Player6,LeaveAreaLUA("PFA480","",[530.521],0))
 EscapeArea()~ SOLVED_JOURNAL @6 EXIT
 END
 
-IF ~!Dead("DRBSMOD")~ THEN BEGIN 1
+IF ~!Dead("XGdrbs")~ THEN BEGIN 1
   SAY @7
   IF ~~ THEN EXIT
 END

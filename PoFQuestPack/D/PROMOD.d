@@ -1,6 +1,6 @@
-BEGIN ~PROMOD~
+BEGIN ~XGpro~
 
-IF ~Global("s#PROMOD","GLOBAL",0)~ THEN BEGIN 0
+IF ~Global("s#XGpro","GLOBAL",0)~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
 END
@@ -18,17 +18,17 @@ END
 IF ~~ THEN BEGIN 3
   SAY @6
   IF ~~ THEN DO ~RevealAreaOnMap("PF0077")
-SetGlobal("s#PROMOD","GLOBAL",1)~ EXIT
+SetGlobal("s#XGpro","GLOBAL",1)~ EXIT
 END
 
-IF ~!Dead("FLMOD")
-Global("s#PROMOD","GLOBAL",1)~ THEN BEGIN 4
+IF ~!Dead("XGfl")
+Global("s#XGpro","GLOBAL",1)~ THEN BEGIN 4
   SAY @7
   IF ~~ THEN EXIT
 END
 
-IF ~Dead("FLMOD")
-Global("s#PROMOD","GLOBAL",1)~ THEN BEGIN 5
+IF ~Dead("XGfl")
+Global("s#XGpro","GLOBAL",1)~ THEN BEGIN 5
   SAY @8
   IF ~~ THEN REPLY @9 GOTO 6
 END
@@ -36,10 +36,10 @@ END
 IF ~~ THEN BEGIN 6
   SAY @10
   IF ~~ THEN DO ~GivePartyGold(3000)
-SetGlobal("s#PROMOD","GLOBAL",2)~ EXIT
+SetGlobal("s#XGpro","GLOBAL",2)~ EXIT
 END
 
-IF ~Global("s#PROMOD","GLOBAL",2)~ THEN BEGIN 7
+IF ~Global("s#XGpro","GLOBAL",2)~ THEN BEGIN 7
   SAY @11
   IF ~~ THEN EXIT
 END

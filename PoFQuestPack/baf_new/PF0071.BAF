@@ -8,11 +8,11 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(3)
-    DisplayStringHead("MSLC1MOD",@0)  // @0
+    DisplayStringHead("XGMSLC1",@0)  // @0
     Wait(6)
     DisplayStringHead(Player1,@1)  // @1
     Wait(4)
-    ActionOverride("MSLC1MOD",EscapeArea())
+    ActionOverride("XGMSLC1",EscapeArea())
     Wait(4)
     FadeToColor([20.0],0)
     Wait(4)
@@ -29,39 +29,39 @@ THEN
     ScreenShake([20.20],3)
     PlaySound("EFF_M83")
     Wait(2)
-    CreateCreature("PIRM1MOD",[424.1002],8)  // ~Пират~
-    CreateCreature("PIRM2MOD",[512.1022],8)  // ~Пират~
-    CreateCreature("PIRM3MOD",[649.1137],8)  // ~Пират~
-    CreateCreature("PIRM4MOD",[745.1246],8)  // ~Пират~
-    CreateCreature("PIRM5MOD",[946.1317],8)  // ~Пират~
-    CreateCreature("PIRM6MOD",[777.1058],8)  // ~Пират~
-    CreateCreature("PIRM7MOD",[1064.1388],8)  // ~Пират~
-    CreateCreature("PIRM8MOD",[1151.1331],0)  // ~Пират~
+    CreateCreature("XGPIRM1",[424.1002],8)  // ~Пират~
+    CreateCreature("XGPIRM2",[512.1022],8)  // ~Пират~
+    CreateCreature("XGPIRM3",[649.1137],8)  // ~Пират~
+    CreateCreature("XGPIRM4",[745.1246],8)  // ~Пират~
+    CreateCreature("XGPIRM5",[946.1317],8)  // ~Пират~
+    CreateCreature("XGPIRM6",[777.1058],8)  // ~Пират~
+    CreateCreature("XGPIRM7",[1064.1388],8)  // ~Пират~
+    CreateCreature("XGPIRM8",[1151.1331],0)  // ~Пират~
     UnhideGUI()
     EndCutSceneMode()
 END
 
 IF
   Global("Reveal0071","PF0071",0)
-  Dead("PIRM1MOD")  // ~Пират~
-  Dead("PIRM2MOD")  // ~Пират~
-  Dead("PIRM3MOD")  // ~Пират~
-  Dead("PIRM4MOD")  // ~Пират~
-  Dead("PIRM5MOD")  // ~Пират~
-  Dead("PIRM6MOD")  // ~Пират~
-  Dead("PIRM7MOD")  // ~Пират~
-  Dead("PIRM8MOD")  // ~Пират~
+  Dead("XGPIRM1")  // ~Пират~
+  Dead("XGPIRM2")  // ~Пират~
+  Dead("XGPIRM3")  // ~Пират~
+  Dead("XGPIRM4")  // ~Пират~
+  Dead("XGPIRM5")  // ~Пират~
+  Dead("XGPIRM6")  // ~Пират~
+  Dead("XGPIRM7")  // ~Пират~
+  Dead("XGPIRM8")  // ~Пират~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0071","PF0071",1)
-    CreateCreature("MSLC1MOD",[1131.1473],8)  // ~Капитан корабля~
+    CreateCreature("XGMSLC1",[1131.1473],8)  // ~Капитан корабля~
     Explore()
     StartCutSceneMode()
     HideGUI()
     ActionOverride(Player1,MoveToPoint([1135.1438]))
     MoveViewPoint([1135.1438],INSTANT)
     Wait(5)
-    DisplayStringHead("MSLC1MOD",@2)  // @2
+    DisplayStringHead("XGMSLC1",@2)  // @2
     Wait(5)
     ActionOverride(Player2,LeaveAreaLUA("PF0071","",[2266.357],0))
     ActionOverride(Player1,LeaveAreaLUA("PF0071","",[2230.327],0))
@@ -75,8 +75,8 @@ END
 
 IF
   Global("Reveal0071","PF0071",1)
-  Dead("PIRC1MOD")  // ~Капитан пиратов~
-  Dead("PIRKMOD")  // ~Штурман~
+  Dead("XGPIRC1")  // ~Капитан пиратов~
+  Dead("XGPIRK")  // ~Штурман~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0071","PF0071",2)
@@ -94,8 +94,8 @@ END
 
 IF
   Global("Reveal0071","PF0071",2)
-  Dead("PIRC2MOD")  // ~Капитан пиратов~
-  Dead("PIRK2MOD")  // ~Штурман~
+  Dead("XGPIRC2")  // ~Капитан пиратов~
+  Dead("XGPIRK2")  // ~Штурман~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0071","PF0071",3)
@@ -109,24 +109,24 @@ THEN
     ActionOverride(Player5,LeaveAreaLUA("PF0071","",[1089.3204],0))
     ActionOverride(Player6,LeaveAreaLUA("PF0071","",[1176.3177],0))
     Wait(5)
-    DisplayStringHead("MSLC1MOD",@4)  // @4
+    DisplayStringHead("XGMSLC1",@4)  // @4
     Wait(5)
     BattleSong()
     ScreenShake([20.20],3)
     PlaySound("EFF_M83")
     Wait(3)
-    CreateCreature("PIRS1MOD",[787.3032],8)  // ~Пират~
-    CreateCreature("PIRS2MOD",[832.3194],8)  // ~Пират~
-    CreateCreature("PIRS3MOD",[939.3234],8)  // ~Пират~
-    CreateCreature("PIRS4MOD",[1054.3365],8)  // ~Пират~
-    CreateCreature("PIRS5MOD",[1169.3430],8)  // ~Пират~
-    CreateCreature("PIRC3MOD",[1532.3551],6)  // ~Капитан пиратов~
+    CreateCreature("XGPIRS1",[787.3032],8)  // ~Пират~
+    CreateCreature("XGPIRS2",[832.3194],8)  // ~Пират~
+    CreateCreature("XGPIRS3",[939.3234],8)  // ~Пират~
+    CreateCreature("XGPIRS4",[1054.3365],8)  // ~Пират~
+    CreateCreature("XGPIRS5",[1169.3430],8)  // ~Пират~
+    CreateCreature("XGPIRC3",[1532.3551],6)  // ~Капитан пиратов~
     EndCutSceneMode()
 END
 
 IF
   Global("Reveal0071","PF0071",3)
-  Dead("PIRC3MOD")  // ~Капитан пиратов~
+  Dead("XGPIRC3")  // ~Капитан пиратов~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0071","PF0071",4)

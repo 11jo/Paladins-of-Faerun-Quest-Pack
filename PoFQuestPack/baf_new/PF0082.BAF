@@ -1,28 +1,28 @@
 IF
   Global("Reveal0082","PF0082",0)
-  PartyHasItem("HSRMOD")  // ~Рисунок~
+  PartyHasItem("XGhsr")  // ~Рисунок~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0082","PF0082",1)
     HideGUI()
-    CreateCreature("HSRMOD",[2109.1924],0)  // ~Рейнджер~
-    TakePartyItem("HSRMOD")
+    CreateCreature("XGhsr",[2109.1924],0)  // ~Рейнджер~
+    TakePartyItem("XGhsr")
     StartCutSceneMode()
     Wait(2)
-    DisplayStringHead("HSRMOD",@0)  
+    DisplayStringHead("XGhsr",@0)  
     Wait(1)
     DisplayStringHead(Player1,@1)  
     Wait(2)
-    ActionOverride("HSRMOD",PlayDead(300))
+    ActionOverride("XGhsr",PlayDead(300))
     ActionOverride(Player1,Face(8))
     Wait(3)
-    DisplayStringHead("HSRMOD",@2)  
+    DisplayStringHead("XGhsr",@2)  
     Wait(5)
     DisplayStringHead(Player1,@3)  
     Wait(5)
-    DisplayStringHead("HSRMOD",@4)  
+    DisplayStringHead("XGhsr",@4)  
     Wait(3)
-    Kill("HSRMOD")
+    Kill("XGhsr")
     RevealAreaOnMap("PF0083")
     UnhideGUI()
     AddJournalEntry(@5,QUEST)
@@ -32,21 +32,21 @@ END
 IF
   Global("Reveal0082","PF0082",1)
   PartyHasItem("CDMOD")  // ~Кинжал~
-  Dead("CHFMOD")  // ~Убийца-Цирикист~
+  Dead("XGchf")  // ~Убийца-Цирикист~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0082","PF0082",2)
     HideGUI()
     StartCutSceneMode()
-    CreateCreature("PRTMOD",[1680.230],0)  // ~Священник Торма~
-    ActionOverride("PRTMOD",MoveToPoint([1378.81]))
+    CreateCreature("XGprt",[1680.230],0)  // ~Священник Торма~
+    ActionOverride("XGprt",MoveToPoint([1378.81]))
     Wait(8)
     ActionOverride(Player1,Face(12))
-    DisplayStringHead("PRTMOD",@6)  
+    DisplayStringHead("XGprt",@6)  
     Wait(15)
     DisplayStringHead(Player1,@7)  
     Wait(15)
-    DisplayStringHead("PRTMOD",@8)  
+    DisplayStringHead("XGprt",@8)  
     Wait(8)
     TakePartyItem("CDMOD")
     Wait(1)

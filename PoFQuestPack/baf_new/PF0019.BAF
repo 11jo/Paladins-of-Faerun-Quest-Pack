@@ -8,11 +8,11 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(4)
-    CreateCreature("Yarpen",[550.1733],4)  // ~Градак~
+    CreateCreature("XGYARPN",[550.1733],4)  // ~Градак~
     Wait(2)
-    DisplayString("YARPEN",@0)  // @0
+    DisplayString("XGYARPN",@0)  // @0
     Wait(3)
-    ActionOverride("Yarpen",EscapeArea())
+    ActionOverride("XGYARPN",EscapeArea())
     RevealAreaOnMap("PF0319")
     Wait(2)
     UnhideGUI()

@@ -1,4 +1,4 @@
-BEGIN ~ELWIN1~
+BEGIN ~XGELWI1~
 
 IF ~NumTimesTAlkedTo(0)~ THEN BEGIN 0
   SAY @0

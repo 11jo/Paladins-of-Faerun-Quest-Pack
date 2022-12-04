@@ -8,31 +8,31 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(1)
-    DisplayStringHead("PROS1MOD",@0)  // @0
+    DisplayStringHead("XGPROS1",@0)  // @0
     Wait(2)
     DisplayStringHead(Player1,@1)  // @1
     Wait(4)
-    ActionOverride("MERSMOD",Face(0))
+    ActionOverride("XGMERS",Face(0))
     Wait(1)
-    DisplayStringHead("MERSMOD",@2)  // @2
+    DisplayStringHead("XGMERS",@2)  // @2
     Wait(2)
     DisplayStringHead(Player1,@3)  // @3
     Wait(4)
-    DisplayStringHead("MERSMOD",@4)  // @4
+    DisplayStringHead("XGMERS",@4)  // @4
     Wait(2)
-    ActionOverride("MERSMOD",Enemy())
-    ActionOverride("MERS1MOD",Enemy())
+    ActionOverride("XGMERS",Enemy())
+    ActionOverride("XGMERS1",Enemy())
     UnhideGUI()
     EndCutSceneMode()
 END
 
 IF
   Global("Reveal0262","PF0262",0)
-  Dead("MERSMOD")  // ~Наемник~
-  Dead("MERS1MOD")  // ~Наемник~
+  Dead("XGMERS")  // ~Наемник~
+  Dead("XGMERS1")  // ~Наемник~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0262","PF0262",1)
-    DisplayStringHead("PROS1MOD",@5)  // @5
+    DisplayStringHead("XGPROS1",@5)  // @5
 END
 

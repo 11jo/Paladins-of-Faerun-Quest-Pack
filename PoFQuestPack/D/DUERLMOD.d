@@ -1,4 +1,4 @@
-BEGIN ~DUERLMOD~
+BEGIN ~XGDUERL~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @0
@@ -21,7 +21,7 @@ ActionOverride(Player5,LeaveAreaLUA("PF04N2","",[2968.2292],0))
 ActionOverride(Player6,LeaveAreaLUA("PF04N2","",[2928.2247],0))~ UNSOLVED_JOURNAL @7 EXIT
 END
 
-IF ~!NumTimesTalkedTo(0) Dead("ELGMOD")~ THEN BEGIN 3
+IF ~!NumTimesTalkedTo(0) Dead("XGELG")~ THEN BEGIN 3
   SAY @8
   IF ~~ THEN REPLY @9 DO ~GiveItemCreate("CCLUB01",Player1,0,0,0)
 GiveItemCreate("PLAT5",Player1,0,0,0)~ 

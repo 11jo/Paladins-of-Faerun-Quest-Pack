@@ -1,4 +1,4 @@
-BEGIN ~MYHSMOD~
+BEGIN ~XGmyhs~
 
 IF ~True()~ THEN BEGIN 0
   SAY @0

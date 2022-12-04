@@ -1,4 +1,4 @@
-BEGIN ~YARPEN~
+BEGIN ~XGYARPN~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
@@ -15,7 +15,7 @@ IF ~~ THEN BEGIN 2
   IF ~~ THEN REPLY @5 DO ~EscapeArea()
 ClearAllActions()
 StartCutSceneMode()
-CreateCreature("ELMMOD2",[794.1277],0)
+CreateCreature("XGELM2",[794.1277],0)
 EndCutSceneMode()
 ~ EXIT
 END

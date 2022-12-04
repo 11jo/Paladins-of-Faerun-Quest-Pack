@@ -19,7 +19,7 @@ THEN
     Wait(15)
     DisplayStringHead(Player1,@0)  
     Wait(5)
-    DisplayStringHead("MITRMOD",@1)  
+    DisplayStringHead("XGmitr",@1)  
     Wait(4)
     UnhideGUI()
     EndCutSceneMode()
@@ -27,29 +27,29 @@ END
 
 IF
   Global("Reveal0639","PF0639",0)
-  Dead("NORUMOD")  // ~Личная охрана~
-  Dead("NORU1MOD")  // ~Личная охрана~
+  Dead("XGnoru")  // ~Личная охрана~
+  Dead("XGnoru1")  // ~Личная охрана~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0639","PF0639",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
-    CreateCreature("KNIGXMOD",[660.700],0)  // ~Рыцарь~
-    CreateCreature("HQMIMOD",[613.723],0)  // ~Верховная королева~
-    CreateCreature("CLELFMOD",[674.706],0)  // ~Эльф в темном~
+    CreateCreature("XGknigx",[660.700],0)  // ~Рыцарь~
+    CreateCreature("XGhqmi",[613.723],0)  // ~Верховная королева~
+    CreateCreature("XGclelf",[674.706],0)  // ~Эльф в темном~
     Wait(2)
-    ActionOverride("HQMIMOD",MoveToPoint([619.590]))
-    ActionOverride("KNIGXMOD",MoveToPoint([540.565]))
-    ActionOverride("CLELFMOD",MoveToPoint([727.596]))
+    ActionOverride("XGhqmi",MoveToPoint([619.590]))
+    ActionOverride("XGknigx",MoveToPoint([540.565]))
+    ActionOverride("XGclelf",MoveToPoint([727.596]))
     Wait(6)
-    DisplayStringHead("HQMIMOD",@2)  
+    DisplayStringHead("XGhqmi",@2)  
     Wait(5)
-    DisplayStringHead("HQMIMOD",@3) 
+    DisplayStringHead("XGhqmi",@3) 
     Wait(5)
     FadeToColor([20.0],0)
     Wait(15)
-    DisplayStringHead("HQMIMOD",@4)  
+    DisplayStringHead("XGhqmi",@4)  
     Wait(5)
     GiveItemCreate("MS03",Player1,0,0,0)  // ~Ledova zhouba~
     AddexperienceParty(20250)
@@ -57,7 +57,7 @@ THEN
     ReputationInc(1)
     Wait(5)
     AddJournalEntry(@5,QUEST)
-    CreateCreature("KDMOD",[660.700],0)  // ~Дочь короля~
+    CreateCreature("XGkd",[660.700],0)  // ~Дочь короля~
     Wait(6)
     ActionOverride(Player1,MoveToPoint([613.723]))
     Wait(3)

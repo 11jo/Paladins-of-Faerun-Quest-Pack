@@ -1,4 +1,4 @@
-BEGIN ~OLDMMOD~
+BEGIN ~XGOLDM~
 
 IF ~See(Player1)
 NumTimesTalkedTo(0)~ THEN BEGIN 0

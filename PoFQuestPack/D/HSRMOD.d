@@ -1,4 +1,4 @@
-BEGIN ~HSRMOD~
+BEGIN ~XGhsr~
 
 IF ~See(Player1)~ THEN BEGIN 0
   SAY @0
@@ -17,7 +17,7 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @6
-  IF ~~ THEN DO ~GiveItemCreate("HSRMOD",Player1,0,0,0)
+  IF ~~ THEN DO ~GiveItemCreate("XGhsr",Player1,0,0,0)
 ActionOverride(Player2,LeaveAreaLUA("PF0082","",[2029.2013],0))
 ActionOverride(Player1,LeaveAreaLUA("PF0082","",[2092.2015],0))
 ActionOverride(Player3,LeaveAreaLUA("PF0082","",[2016.1957],0))

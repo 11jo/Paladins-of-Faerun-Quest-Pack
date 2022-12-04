@@ -1,4 +1,4 @@
-BEGIN ~DRCMOD~
+BEGIN ~XGdrc~
 
 IF ~See(Player1)
 NumtimestalkedTo(0)~ THEN BEGIN 0

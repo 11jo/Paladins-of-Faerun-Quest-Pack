@@ -7,21 +7,21 @@ THEN
     ClearAllActions()
     HideGUI()
     StartCutSceneMode()
-    DisplayStringHead("DRLUMOD",@0) 
+    DisplayStringHead("XGdrlu",@0) 
     Wait(5)
-    ActionOverride("DRLUMOD",Attack(Player1))
+    ActionOverride("XGdrlu",Attack(Player1))
     DisplayStringHead(Player2,@1)  
     Wait(4)
     DisplayStringHead(Player3,@2)  
     Wait(3)
     ScreenShake([20.20],3)
-    ActionOverride("DREUMOD",Attack("DRLUMOD"))
+    ActionOverride("XGdreu",Attack("XGdrlu"))
     Wait(5)
-    DisplayStringHead("DRLUMOD",@3)  
+    DisplayStringHead("XGdrlu",@3)  
     Wait(2)
-    ActionOverride("DREUMOD",Kill("DRLUMOD"))
+    ActionOverride("XGdreu",Kill("XGdrlu"))
     Wait(1)
-    DisplayStringHead("DREUMOD",@4)  
+    DisplayStringHead("XGdreu",@4)  
     Wait(5)
     AddJournalEntry(@5,QUEST)
     ActionOverride(Player2,LeaveAreaLUA("PFA480","",[403.562],0))
@@ -41,23 +41,23 @@ THEN
   RESPONSE #100
     SetGlobal("Reveal0580","PF0580",1)
     TakePartyItem("IQQMOD")
-    CreateCreature("elfwmod",[500.1881],0)  // ~Эльфийский воин~
-    CreateCreature("drwemod",[572.1832],0)  // ~Прислуга Элистрая~
-    CreateCreature("elfwmod",[1250.2241],0)  // ~Эльфийский воин~
-    CreateCreature("drwemod",[1289.2313],0)  // ~Прислуга Элистрая~
-    CreateCreature("elfwmod",[1248.3105],0)  // ~Эльфийский воин~
-    CreateCreature("drwemod",[1309.3192],0)  // ~Прислуга Элистрая~
-    CreateCreature("elfwmod",[1226.3358],0)  // ~Эльфийский воин~
-    CreateCreature("drwemod",[2089.2336],0)  // ~Прислуга Элистрая~
-    CreateCreature("elfwmod",[2286.2617],0)  // ~Эльфийский воин~
-    CreateCreature("drwemod",[2795.2166],0)  // ~Прислуга Элистрая~
-    CreateCreature("elfwmod",[2885.2194],0)  // ~Эльфийский воин~
-    CreateCreature("drwemod",[3026.1797],0)  // ~Прислуга Элистрая~
-    CreateCreature("elfwmod",[3637.1413],0)  // ~Эльфийский воин~
-    CreateCreature("drwemod",[3906.1121],0)  // ~Прислуга Элистрая~
-    CreateCreature("elfwmod",[4094.1215],0)  // ~Эльфийский воин~
-    CreateCreature("drwemod",[3791.2985],0)  // ~Прислуга Элистрая~
-    CreateCreature("elfwmod",[3885.3038],0)  // ~Эльфийский воин~
-    CreateCreature("drwemod",[2936.2618],0)  // ~Прислуга Элистрая~
+    CreateCreature("XGelfw",[500.1881],0)  // ~Эльфийский воин~
+    CreateCreature("XGdrwe",[572.1832],0)  // ~Прислуга Элистрая~
+    CreateCreature("XGelfw",[1250.2241],0)  // ~Эльфийский воин~
+    CreateCreature("XGdrwe",[1289.2313],0)  // ~Прислуга Элистрая~
+    CreateCreature("XGelfw",[1248.3105],0)  // ~Эльфийский воин~
+    CreateCreature("XGdrwe",[1309.3192],0)  // ~Прислуга Элистрая~
+    CreateCreature("XGelfw",[1226.3358],0)  // ~Эльфийский воин~
+    CreateCreature("XGdrwe",[2089.2336],0)  // ~Прислуга Элистрая~
+    CreateCreature("XGelfw",[2286.2617],0)  // ~Эльфийский воин~
+    CreateCreature("XGdrwe",[2795.2166],0)  // ~Прислуга Элистрая~
+    CreateCreature("XGelfw",[2885.2194],0)  // ~Эльфийский воин~
+    CreateCreature("XGdrwe",[3026.1797],0)  // ~Прислуга Элистрая~
+    CreateCreature("XGelfw",[3637.1413],0)  // ~Эльфийский воин~
+    CreateCreature("XGdrwe",[3906.1121],0)  // ~Прислуга Элистрая~
+    CreateCreature("XGelfw",[4094.1215],0)  // ~Эльфийский воин~
+    CreateCreature("XGdrwe",[3791.2985],0)  // ~Прислуга Элистрая~
+    CreateCreature("XGelfw",[3885.3038],0)  // ~Эльфийский воин~
+    CreateCreature("XGdrwe",[2936.2618],0)  // ~Прислуга Элистрая~
 END
 

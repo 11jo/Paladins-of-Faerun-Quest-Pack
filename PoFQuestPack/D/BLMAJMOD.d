@@ -1,6 +1,6 @@
-BEGIN ~BLMAJMOD~
+BEGIN ~XGBLMAJ~
 
-IF ~Global("s#BLMAJMOD","GLOBAL",0)~ THEN BEGIN 0
+IF ~Global("s#XGBLMAJ","GLOBAL",0)~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
 END
@@ -32,7 +32,7 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @12
-  IF ~~ THEN REPLY @13 DO ~SetGlobal("s#BLMAJMOD","GLOBAL",1)
+  IF ~~ THEN REPLY @13 DO ~SetGlobal("s#XGBLMAJ","GLOBAL",1)
 ActionOverride(Player2,LeaveAreaLUA("PF0420","",[463.410],8))
 ActionOverride(Player1,LeaveAreaLUA("PF0420","",[440.438],8))
 ActionOverride(Player3,LeaveAreaLUA("PF0420","",[508.462],8))
@@ -41,19 +41,19 @@ ActionOverride(Player5,LeaveAreaLUA("PF0420","",[569.473],8))
 ActionOverride(Player6,LeaveAreaLUA("PF0420","",[614.435],8))~ UNSOLVED_JOURNAL @14 EXIT
 END
 
-IF ~Global("s#BLMAJMOD","GLOBAL",1)
+IF ~Global("s#XGBLMAJ","GLOBAL",1)
 PartyHasItem("mrbomod")~ THEN BEGIN 7
   SAY @15
-  IF ~~ THEN REPLY @16 DO ~SetGlobal("s#BLMAJMOD","GLOBAL",2)~ GOTO 9
+  IF ~~ THEN REPLY @16 DO ~SetGlobal("s#XGBLMAJ","GLOBAL",2)~ GOTO 9
 END
 
-IF ~Global("s#BLMAJMOD","GLOBAL",1)
+IF ~Global("s#XGBLMAJ","GLOBAL",1)
 !PartyHasItem("mrbomod")~ THEN BEGIN 8
   SAY @17
   IF ~~ THEN EXIT
 END
 
-IF ~Global("s#BLMAJMOD","GLOBAL",2)~ THEN BEGIN 9
+IF ~Global("s#XGBLMAJ","GLOBAL",2)~ THEN BEGIN 9
   SAY @18 
   IF ~~ THEN REPLY @19 GOTO 10
 END
@@ -66,7 +66,7 @@ END
 
 IF ~~ THEN BEGIN 11
   SAY @23
-  IF ~~ THEN REPLY @24 DO ~SetGlobal("s#BLMAJMOD","GLOBAL",3)
+  IF ~~ THEN REPLY @24 DO ~SetGlobal("s#XGBLMAJ","GLOBAL",3)
 GiveItemCreate("BGSDMOD",Player1,0,0,0)
 TakePartyItem("mrbomod")
 GiveItemCreate("MISC07",Player1,5000,0,0)
@@ -82,7 +82,7 @@ END
 IF ~~ THEN BEGIN 12
   SAY @26
   IF ~~ THEN DO ~TakePartyItem("mrbomod")
-SetGlobal("s#BLMAJMOD","GLOBAL",4)
+SetGlobal("s#XGBLMAJ","GLOBAL",4)
 EscapeArea()~ EXIT
 END
 

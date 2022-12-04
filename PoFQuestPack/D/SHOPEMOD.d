@@ -1,8 +1,8 @@
-BEGIN ~SHOPEMOD~ 2
+BEGIN ~XGshope~ 2
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
-  IF ~~ THEN REPLY @2 DO ~StartStore("SHOPEMOD",LastTalkedToBy(Myself))
+  IF ~~ THEN REPLY @2 DO ~StartStore("XGshope",LastTalkedToBy(Myself))
 ~ EXIT
   IF ~~ THEN REPLY @3 GOTO 1
 END

@@ -15,9 +15,9 @@ THEN
     ActionOverride(Player6,MoveToPoint([2248.988]))
     MoveViewPoint([2143.745],SLOW)
     Wait(10)
-    DisplayStringHead("ELVCDMOD",@0)  // @0
+    DisplayStringHead("XGELVCD",@0)  // @0
     Wait(7)
-    ActionOverride("ELVCDMOD",Kill("ELVCDMOD"))
+    ActionOverride("XGELVCD",Kill("XGELVCD"))
     UnhideGUI()
     EndCutSceneMode()
 END

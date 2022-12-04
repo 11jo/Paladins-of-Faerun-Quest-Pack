@@ -43,8 +43,8 @@ IF ~NumTimesTalkedTo(1)~ THEN BEGIN 7
   IF ~~ THEN REPLY @2 GOTO 12
 END
 
-IF ~PArtyHasItem("WHMOD")
-Dead("WTCH1MOD")~ THEN BEGIN 8
+IF ~PArtyHasItem("XGWH")
+Dead("XGWTCH1")~ THEN BEGIN 8
   SAY @17
   IF ~~ THEN REPLY @18 GOTO 9
 END
@@ -61,7 +61,7 @@ END
 
 IF ~~ THEN BEGIN 11
   SAY @22
-  IF ~~ THEN REPLY @24 DO ~TakePartyItem("WHMOD")
+  IF ~~ THEN REPLY @24 DO ~TakePartyItem("XGWH")
 ~ UNSOLVED_JOURNAL @23 GOTO 20
 END
 
@@ -104,7 +104,7 @@ SetNumTimesTalkedTo(2)
 END
 
 IF ~NumTimesTalkedTo(2)
-!PArtyHasItem("WHMOD")~ THEN BEGIN 19
+!PArtyHasItem("XGWH")~ THEN BEGIN 19
   SAY @26
   IF ~~ THEN EXIT
 END

@@ -1,4 +1,4 @@
-BEGIN ~NWNWMOD~
+BEGIN ~XGNWNW~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1

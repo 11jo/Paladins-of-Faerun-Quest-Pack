@@ -1,9 +1,9 @@
-BEGIN ~STROLMOD~
+BEGIN ~XGSTROL~
 
 IF ~True()
-Global("s#STROLMOD","GLOBAL",0)~ THEN BEGIN 0
+Global("s#XGSTROL","GLOBAL",0)~ THEN BEGIN 0
   SAY @0
-  IF ~~ THEN REPLY @1 DO ~SetGlobal("s#STROLMOD","GLOBAL",1)
+  IF ~~ THEN REPLY @1 DO ~SetGlobal("s#XGSTROL","GLOBAL",1)
     ActionOverride(Player2,LeaveAreaLUA("PF0168","",[669.314],8))
     ActionOverride(Player1,LeaveAreaLUA("PF0168","",[801.389],8))
     ActionOverride(Player3,LeaveAreaLUA("PF0168","",[621.376],8))

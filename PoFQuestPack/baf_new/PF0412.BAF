@@ -9,12 +9,12 @@ THEN
     HideGUI()
     Wait(2)
     Explore()
-    CreateCreature("WMLPGMOD",[1082.742],6)  // ~Ёлитный охранник~
+    CreateCreature("XGWMLPG",[1082.742],6)  // ~Ёлитный охранник~
     Wait(4)
     ActionOverride(Player1,MoveToPoint([993.710]))
     MoveViewPoint([1082.742],SLOW)
     Wait(8)
-    DisplayString("WMLPGMOD",@0)  
+    DisplayString("XGWMLPG",@0)  
     Wait(10)
     SetQuestDone(@1)  
     EraseJournalEntry(@2) 

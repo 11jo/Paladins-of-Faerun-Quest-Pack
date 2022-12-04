@@ -7,10 +7,10 @@ THEN
     StartCutSceneMode()
     HideGUI()
     PlaySound("Mus2mod")
-    CreateCreature("CHFMOD",[3483.572],0)  // ~Убийца-Цирикист~
-    ActionOverride("CHFMOD",MoveToPoint([3731.424]))
+    CreateCreature("XGchf",[3483.572],0)  // ~Убийца-Цирикист~
+    ActionOverride("XGchf",MoveToPoint([3731.424]))
     Wait(5)
-    ActionOverride("CHFMOD",Enemy())
+    ActionOverride("XGchf",Enemy())
     EndCutSceneMode()
     UnhideGUI()
     AddexperienceParty(5000)

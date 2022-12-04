@@ -1,4 +1,4 @@
-BEGIN ~SRWZ1MOD~
+BEGIN ~XGSRWZ1~
 
 IF ~True() See(Player1)~ THEN BEGIN 0
   SAY @0

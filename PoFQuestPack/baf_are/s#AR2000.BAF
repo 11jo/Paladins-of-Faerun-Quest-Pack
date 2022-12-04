@@ -3,9 +3,9 @@ IF
   Global("S#setAR2000","AR2000",0)
 THEN
   RESPONSE #100
-    CreateCreature("VINTRMOD",[1673.2381],0)
-    CreateCreature("BHCMOD",[1811.1417],0)
-    CreateCreature("FAMOD",[3664.2200],0)
+    CreateCreature("XGVINTR",[1673.2381],0)
+    CreateCreature("XGBHC",[1811.1417],0)
+    CreateCreature("XGfa",[3664.2200],0)
     SetGlobal("S#setAR2000","AR2000",1)
     Continue()
 END
@@ -32,14 +32,14 @@ THEN
     StartCutSceneMode() 
     HideGUI()
     Explore()
-    CreateCreature("PRMOD",[3802.2404],0)  // ~Отрекшийся~
-    CreateCreature("PR1MOD",[3763.2454],0)  // ~Отрекшийся~
-    ActionOverride("PRMOD",MoveToPoint([3995.2685]))
-    ActionOverride("PR1MOD",MoveToPoint([4037.2645]))
+    CreateCreature("XGPR",[3802.2404],0)  // ~Отрекшийся~
+    CreateCreature("XGPR1",[3763.2454],0)  // ~Отрекшийся~
+    ActionOverride("XGPR",MoveToPoint([3995.2685]))
+    ActionOverride("XGPR1",MoveToPoint([4037.2645]))
     Wait(6)
     DisplayStringHead(Player1,@0)  
     Wait(5)
-    DisplayStringHead("PRMOD",@1)  
+    DisplayStringHead("XGPR",@1)  
     Wait(8)
     UnhideGUI()
     ActionOverride(Player2,LeaveAreaLUA("PF0072","",[896.1296],2))
@@ -48,8 +48,8 @@ THEN
     ActionOverride(Player4,LeaveAreaLUA("PF0072","",[1021.1259],2))
     ActionOverride(Player5,LeaveAreaLUA("PF0072","",[1025.1338],2))
     ActionOverride(Player6,LeaveAreaLUA("PF0072","",[963.1188],2))
-    ActionOverride("PRMOD",EscapeArea())
-    ActionOverride("PR1MOD",EscapeArea())
+    ActionOverride("XGPR",EscapeArea())
+    ActionOverride("XGPR1",EscapeArea())
     EndCutSceneMode()
     Continue()
 END

@@ -1,24 +1,24 @@
 IF
   Global("Reveal0059","PF0059",0)
-  Dead("RANMMOD")  // ~Рэйнджер Ролард~
+  Dead("XGRANM")  // ~Рэйнджер Ролард~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0059","PF0059",1)
     BattleSong()
-    CreateCreature("TROR2MOD",[1831.1302],8)  // ~Опытный орк~
-    CreateCreature("TROR2MOD",[1767.1389],8)  // ~Опытный орк~
-    CreateCreature("TROR2MOD",[1671.1434],8)  // ~Опытный орк~
-    CreateCreature("TROR2MOD",[2236.1230],0)  // ~Опытный орк~
-    CreateCreature("TROR2MOD",[2354.1167],0)  // ~Опытный орк~
-    CreateCreature("TROR2MOD",[2068.830],0)  // ~Опытный орк~
-    CreateCreature("TROR2MOD",[2030.889],0)  // ~Опытный орк~
-    CreateCreature("TROR2MOD",[2205.940],0)  // ~Опытный орк~
-    CreateCreature("TROR2MOD",[1930.830],0)  // ~Опытный орк~
-    CreateCreature("TROR2MOD",[2687.854],0)  // ~Опытный орк~
-    CreateCreature("TROR2MOD",[2778.975],8)  // ~Опытный орк~
-    CreateCreature("TROR2MOD",[2896.993],8)  // ~Опытный орк~
-    CreateCreature("TROR2MOD",[2992.875],0)  // ~Опытный орк~
-    CreateCreature("ASSFMOD",[712.709],12)  // ~Ассасин~
+    CreateCreature("XGTROR2",[1831.1302],8)  // ~Опытный орк~
+    CreateCreature("XGTROR2",[1767.1389],8)  // ~Опытный орк~
+    CreateCreature("XGTROR2",[1671.1434],8)  // ~Опытный орк~
+    CreateCreature("XGTROR2",[2236.1230],0)  // ~Опытный орк~
+    CreateCreature("XGTROR2",[2354.1167],0)  // ~Опытный орк~
+    CreateCreature("XGTROR2",[2068.830],0)  // ~Опытный орк~
+    CreateCreature("XGTROR2",[2030.889],0)  // ~Опытный орк~
+    CreateCreature("XGTROR2",[2205.940],0)  // ~Опытный орк~
+    CreateCreature("XGTROR2",[1930.830],0)  // ~Опытный орк~
+    CreateCreature("XGTROR2",[2687.854],0)  // ~Опытный орк~
+    CreateCreature("XGTROR2",[2778.975],8)  // ~Опытный орк~
+    CreateCreature("XGTROR2",[2896.993],8)  // ~Опытный орк~
+    CreateCreature("XGTROR2",[2992.875],0)  // ~Опытный орк~
+    CreateCreature("XGASSF",[712.709],12)  // ~Ассасин~
     Wait(6)
 END
 

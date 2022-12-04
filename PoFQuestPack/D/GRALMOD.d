@@ -1,4 +1,4 @@
-BEGIN ~GRALMOD~
+BEGIN ~XGGRAL~
 
 IF ~NumTimesTalkedTo(0)
 See(Player1)~ THEN BEGIN 0

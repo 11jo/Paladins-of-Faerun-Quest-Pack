@@ -1,11 +1,11 @@
 IF
   Global("Reveal0384","PF0384",0)
-  PartyHasItem("PRT1MOD")  // ~Карта свитков~
+  PartyHasItem("XGprt1")  // ~Карта свитков~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0384","PF0384",1)
-    TakePartyItem("PRT1MOD")
-    CreateCreature("CLCUMOD",[1218.2105],8)  // ~Убийца-Цирикист~
+    TakePartyItem("XGprt1")
+    CreateCreature("XGclcu",[1218.2105],8)  // ~Убийца-Цирикист~
 END
 
 IF
@@ -15,12 +15,12 @@ THEN
   RESPONSE #100
     SetGlobal("Reveal0384","PF0384",1)
     TakePartyItem("PRC1MOD")
-    CreateCreature("PREEMOD",[1218.2105],8)  // ~Элита приверженцев торма~
+    CreateCreature("XGpree",[1218.2105],8)  // ~Элита приверженцев торма~
 END
 
 IF
   Global("Reveal0384","PF0384",1)
-  Dead("CLCUMOD")  // ~Убийца-Цирикист~
+  Dead("XGclcu")  // ~Убийца-Цирикист~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0384","PF0384",2)
@@ -36,7 +36,7 @@ END
 
 IF
   Global("Reveal0384","PF0384",1)
-  Dead("PREEMOD")  // ~Элита приверженцев торма~
+  Dead("XGpree")  // ~Элита приверженцев торма~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0384","PF0384",2)
@@ -52,7 +52,7 @@ END
 
 IF
   Global("DIEL","PF0384",0)
-  Dead("FIRQMOD")  // ~Демон~
+  Dead("XGfirq")  // ~Демон~
 THEN
   RESPONSE #100
     SetGlobal("DIEL","PF0384",1)
@@ -66,7 +66,7 @@ END
 
 IF
   Global("DIEL","PF0384",1)
-  Dead("FIRQ1MOD")  // ~Демон~
+  Dead("XGfirq1")  // ~Демон~
 THEN
   RESPONSE #100
     SetGlobal("DIEL","PF0384",2)

@@ -1,6 +1,6 @@
-BEGIN ~WWCMOD~
+BEGIN ~XGWWC~
 
-IF ~Global("s#WWCMOD","GLOBAL",0)~ THEN BEGIN 0
+IF ~Global("s#XGWWC","GLOBAL",0)~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
 END
@@ -38,18 +38,18 @@ END
 
 IF ~~ THEN BEGIN 7
   SAY @14
-  IF ~~ THEN REPLY @15 DO ~SetGlobal("s#WWCMOD","GLOBAL",1)~ 
+  IF ~~ THEN REPLY @15 DO ~SetGlobal("s#XGWWC","GLOBAL",1)~ 
 UNSOLVED_JOURNAL @16 EXIT
 END
 
-IF ~Global("s#WWCMOD","GLOBAL",1) !Dead("BARB1MOD")~ THEN BEGIN 8
+IF ~Global("s#XGWWC","GLOBAL",1) !Dead("XGBARB1")~ THEN BEGIN 8
   SAY @17
   IF ~~ THEN EXIT
 END
 
-IF ~Global("s#WWCMOD","GLOBAL",1) Dead("BARB1MOD")~ THEN BEGIN 9
+IF ~Global("s#XGWWC","GLOBAL",1) Dead("XGBARB1")~ THEN BEGIN 9
   SAY @18
-  IF ~~ THEN DO ~SetGlobal("s#WWCMOD","GLOBAL",2)
+  IF ~~ THEN DO ~SetGlobal("s#XGWWC","GLOBAL",2)
 GiveItemCreate("MISC07",Player1,5000,0,0)
 EraseJournalEntry(@19)
 EraseJournalEntry(@20)
@@ -61,7 +61,7 @@ AddExperienceParty(10000)~
 UNSOLVED_JOURNAL @24 EXIT
 END
 
-IF ~Global("s#WWCMOD","GLOBAL",2)~ THEN BEGIN 10
+IF ~Global("s#XGWWC","GLOBAL",2)~ THEN BEGIN 10
   SAY @25
   IF ~~ THEN EXIT
 END

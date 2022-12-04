@@ -1,11 +1,11 @@
 IF
   Global("Reveal0081","PF0081",0)
-  Dead("CHFMOD")  // ~Убийца-Цирикист~
+  Dead("XGchf")  // ~Убийца-Цирикист~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0081","PF0081",1)
     StartCutSceneMode()
-    ActionOverride("MYHSMOD",StartDialogue("MYHSMOD",Player1))
+    ActionOverride("XGmyhs",StartDialogue("XGmyhs",Player1))
     EndCutSceneMode()
 END
 

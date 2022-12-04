@@ -1,4 +1,4 @@
-BEGIN ~TAROMOD~
+BEGIN ~XGTARO~
 
 IF ~  NumberOfTimesTalkedTo(0)
 ~ THEN BEGIN 0

@@ -1,4 +1,4 @@
-BEGIN ~HARMOD~
+BEGIN ~XGHAR~
 
 IF ~PartyHasItem("ZAT4MOD")
 See(Player1)~ THEN BEGIN 0

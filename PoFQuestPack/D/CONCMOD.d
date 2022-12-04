@@ -1,4 +1,4 @@
-BEGIN ~CONCMOD~
+BEGIN ~XGCONC~
 
 IF ~NumTimesTalkedTo(0)
 PartyHasItem("LETLMOD")~ THEN BEGIN 0

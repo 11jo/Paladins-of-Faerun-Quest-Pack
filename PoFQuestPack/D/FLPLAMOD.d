@@ -1,4 +1,4 @@
-BEGIN ~FLPLAMOD~
+BEGIN ~XGFLPLA~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
@@ -32,8 +32,8 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @13
-  IF ~~ THEN REPLY @15 DO ~CreateCreature("TRBAMOD",[644.374],0)
-CreateCreature("TRBAMOD",[673.342],0)
+  IF ~~ THEN REPLY @15 DO ~CreateCreature("XGTRBA",[644.374],0)
+CreateCreature("XGTRBA",[673.342],0)
 Wait(2)
 DestroySelf()
 ~ UNSOLVED_JOURNAL @14 EXIT

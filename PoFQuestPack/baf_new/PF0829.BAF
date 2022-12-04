@@ -1,6 +1,6 @@
 IF
   OnCreation()
-  Dead("SARMOD")  // ~Саревок~
+  Dead("XGSAR")  // ~Саревок~
 THEN
   RESPONSE #100
     DisplayStringHead(Player1,@0)  // @0
@@ -15,7 +15,7 @@ END
 
 IF
   OnCreation()
-  Dead("ESDLMOD")  // ~Повелитель тьмы~
+  Dead("XGESDL")  // ~Повелитель тьмы~
 THEN
   RESPONSE #100
     DisplayStringHead(Player1,@0)  // @0

@@ -9,23 +9,23 @@ THEN
     HideGUI()
     Explore()
     MoveViewPoint([711.574],SLOW)
-    DisplayStringHead("LETGCMOD",@0)  // @0
+    DisplayStringHead("XGLETGC",@0)  // @0
     Wait(8)
     DisplayStringHead(Player1,@1)  // @1
     Wait(8)
-    DisplayStringHead("LETGCMOD",@2)  // @2
+    DisplayStringHead("XGLETGC",@2)  // @2
     Wait(8)
     DisplayStringHead(Player1,@3)  // @3
     Wait(8)
-    DisplayStringHead("LETGCMOD",@4)  // @4
+    DisplayStringHead("XGLETGC",@4)  // @4
     Wait(8)
     DisplayStringHead(Player1,@5)  // @5
     Wait(8)
-    DisplayStringHead("LETGCMOD",@6)  // @6
+    DisplayStringHead("XGLETGC",@6)  // @6
     Wait(8)
     DisplayStringHead(Player1,@7)  // @7
     Wait(8)
-    DisplayStringHead("LETGCMOD",@8)  // @8
+    DisplayStringHead("XGLETGC",@8)  // @8
     Wait(8)
     UnhideGUI()
     EndCutSceneMode()

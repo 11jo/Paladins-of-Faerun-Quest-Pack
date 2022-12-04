@@ -2,17 +2,17 @@ IF
   OnCreation()
 THEN
   RESPONSE #100
-    CreateCreature("BAR1MOD",[255.798],10)  // ~Варвар~
-    CreateCreature("BAR1MOD",[405.839],10)  // ~Варвар~
-    CreateCreature("BAR1MOD",[275.920],10)  // ~Варвар~
-    CreateCreature("BAR1MOD",[394.906],10)  // ~Варвар~
-    CreateCreature("BAR1MOD",[318.862],10)  // ~Варвар~
-    CreateCreature("BAR1MOD",[519.896],10)  // ~Варвар~
-    CreateCreature("BAR1MOD",[609.910],10)  // ~Варвар~
-    CreateCreature("BAR1MOD",[539.999],10)  // ~Варвар~
-    CreateCreature("BAR1MOD",[489.1088],10)  // ~Варвар~
-    CreateCreature("BAR1MOD",[237.1167],10)  // ~Варвар~
-    CreateCreature("BAR1MOD",[1346.887],10)  // ~Варвар~
-    CreateCreature("BAR1MOD",[1318.823],10)  // ~Варвар~
+    CreateCreature("XGbar1",[255.798],10)  // ~Варвар~
+    CreateCreature("XGbar1",[405.839],10)  // ~Варвар~
+    CreateCreature("XGbar1",[275.920],10)  // ~Варвар~
+    CreateCreature("XGbar1",[394.906],10)  // ~Варвар~
+    CreateCreature("XGbar1",[318.862],10)  // ~Варвар~
+    CreateCreature("XGbar1",[519.896],10)  // ~Варвар~
+    CreateCreature("XGbar1",[609.910],10)  // ~Варвар~
+    CreateCreature("XGbar1",[539.999],10)  // ~Варвар~
+    CreateCreature("XGbar1",[489.1088],10)  // ~Варвар~
+    CreateCreature("XGbar1",[237.1167],10)  // ~Варвар~
+    CreateCreature("XGbar1",[1346.887],10)  // ~Варвар~
+    CreateCreature("XGbar1",[1318.823],10)  // ~Варвар~
 END
 

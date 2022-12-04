@@ -8,19 +8,19 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(4)
-    DisplayStringHead("ELMMOD",@0)  // @0
+    DisplayStringHead("XGELM",@0)  // @0
     Wait(4)
-    DisplayStringHead("ELMMOD",@1)  // @1
+    DisplayStringHead("XGELM",@1)  // @1
     Wait(8)
-    DisplayStringHead("ELMMOD",@2)  // @2
+    DisplayStringHead("XGELM",@2)  // @2
     Wait(8)
-    DisplayStringHead("ELMMOD",@3)  // @3
+    DisplayStringHead("XGELM",@3)  // @3
     Wait(4)
-    ForceSpell("SOLAN",DRYAD_TELEPORT)
-    ForceSpell("SLAINE",DRYAD_TELEPORT)
+    ForceSpell("XGSOLAN",DRYAD_TELEPORT)
+    ForceSpell("XGSLAIE",DRYAD_TELEPORT)
     ForceSpell("CHGOOD09",DRYAD_TELEPORT)
-    ForceSpell("DWMSMOD",DRYAD_TELEPORT)
-    DisplayStringHead("ELMMOD",@4)  // @4
+    ForceSpell("XGDWMS",DRYAD_TELEPORT)
+    DisplayStringHead("XGELM",@4)  // @4
     Wait(4)
     RevealAreaOnMap("PFEMOD")
     Wait(6)

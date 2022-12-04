@@ -1,4 +1,4 @@
-BEGIN ~DRA1MOD~
+BEGIN ~XGDRA1~
 
 IF ~PartyHasItem("AMMOD")
 PartyHasItem("AM1MOD")

@@ -1,6 +1,6 @@
-BEGIN ~NWNM1MOD~
+BEGIN ~XGNWNM1~
 
-IF ~Global("Nwnmmod","pf0462",2)~ THEN BEGIN 0
+IF ~Global("XGNWNM","pf0462",2)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN EXIT
 END

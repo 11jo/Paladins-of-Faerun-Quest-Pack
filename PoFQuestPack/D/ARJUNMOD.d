@@ -1,4 +1,4 @@
-BEGIN ~ARJUNMOD~
+BEGIN ~XGARJUN~
 
 IF ~  See(Player1)
 NumberOfTimesTalkedTo(0)

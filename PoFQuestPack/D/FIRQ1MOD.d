@@ -1,4 +1,4 @@
-BEGIN ~FIRQ1MOD~
+BEGIN ~XGfirq1~
 
 IF ~See(Player1)~ THEN BEGIN 0
   SAY @1

@@ -7,18 +7,18 @@ THEN
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
-    CreateCreature("KASSMOD",[1020.406],0)  // ~Темная особа~
-    CreateCreature("amnkmod",[266.522],10)  // ~Личная охрана~
-    CreateCreature("amnkmod",[600.515],0)  // ~Личная охрана~
-    CreateCreature("amnkmod",[528.294],8)  // ~Личная охрана~
-    CreateCreature("amnkmod",[682.462],0)  // ~Личная охрана~
-    CreateCreature("amnkmod",[1016.373],2)  // ~Личная охрана~
-    CreateCreature("atkimod",[913.327],0)  // ~Торговый король~
+    CreateCreature("XGKASS",[1020.406],0)  // ~Темная особа~
+    CreateCreature("XGAMNK",[266.522],10)  // ~Личная охрана~
+    CreateCreature("XGAMNK",[600.515],0)  // ~Личная охрана~
+    CreateCreature("XGAMNK",[528.294],8)  // ~Личная охрана~
+    CreateCreature("XGAMNK",[682.462],0)  // ~Личная охрана~
+    CreateCreature("XGAMNK",[1016.373],2)  // ~Личная охрана~
+    CreateCreature("XGATKI",[913.327],0)  // ~Торговый король~
     Wait(2)
-    DisplayStringHead("KASSMOD",@0)  
+    DisplayStringHead("XGKASS",@0)  
     Wait(6)
     UnhideGUI()
-    ActionOverride("KASSMOD",EscapeArea())
+    ActionOverride("XGKASS",EscapeArea())
     EndCutSceneMode()
 END
 
@@ -34,10 +34,10 @@ THEN
     HideGUI()
     FadeToColor([20.0],0)
     Wait(5)
-    CreateCreature("KD1MOD",[981.347],0)  // ~Дочь короля~
+    CreateCreature("XGkd1",[981.347],0)  // ~Дочь короля~
     Wait(8)
     TakePartyItem("LETAMOD")
-    DisplayStringHead("ATKIMOD",@1)  
+    DisplayStringHead("XGATKI",@1)  
     Wait(5)
     GiveItemCreate("MISC07",Player1,5000,0,0)  // ~Золотой~
     UnhideGUI()
@@ -48,30 +48,30 @@ THEN
     EraseJournalEntry(@6)  
     SetQuestDone(@7)  
     AddexperienceParty(10000)
-    ActionOverride("ATKIMOD",StartDialogue("ATKIMOD1",Player1))
+    ActionOverride("XGATKI",StartDialogue("XGATKI1",Player1))
     EndCutSceneMode()
 END
 
 IF
   OnCreation()
   Global("s#PF0168","PF0168",0)
-  Global("s#STROLMOD","GLOBAL",1)
+  Global("s#XGSTROL","GLOBAL",1)
 THEN
   RESPONSE #100
     SetGlobal("s#PF0168","PF0168",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
-    CreateCreature("atkimod",[913.327],0)  // ~Торговый король~
+    CreateCreature("XGATKI",[913.327],0)  // ~Торговый король~
     Wait(2)
-    DisplayStringHead("atkimod",@8)
+    DisplayStringHead("XGATKI",@8)
     GiveItemCreate("MISC07",Player1,5000,0,0)  
     Wait(6)
-    DisplayStringHead("atkimod",@9)
+    DisplayStringHead("XGATKI",@9)
     Wait(6)
     DisplayStringHead(Player1,@10)
     Wait(2)
     UnhideGUI()
-    ActionOverride("atkimod",EscapeArea())
+    ActionOverride("XGATKI",EscapeArea())
     EndCutSceneMode()
 END

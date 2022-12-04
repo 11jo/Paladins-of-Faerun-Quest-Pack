@@ -5,10 +5,10 @@ THEN
   RESPONSE #100
     ClearAllActions()
     StartCutSceneMode()
-    CreateCreature("COWMOD",[2472.1665],8)  // ~Волшебник в Рясе~
-    CreateCreature("COW1MOD",[2383.1699],8)  // ~Волшебник в Рясе~
-    CreateCreature("COW2MOD",[2553.1714],8)  // ~Волшебник в Рясе~
-    CreateCreature("COW3MOD",[2293.1754],8)  // ~Волшебник в Рясе~
+    CreateCreature("XGCOW",[2472.1665],8)  // ~Волшебник в Рясе~
+    CreateCreature("XGCOW1",[2383.1699],8)  // ~Волшебник в Рясе~
+    CreateCreature("XGCOW2",[2553.1714],8)  // ~Волшебник в Рясе~
+    CreateCreature("XGCOW3",[2293.1754],8)  // ~Волшебник в Рясе~
     ClearAllActions()
     Explore()
     ActionOverride(Player1,JumpToPoint([2474.1582]))
@@ -32,63 +32,63 @@ THEN
     ClearAllActions()
     PlaySound("MUSMOD")
     Wait(3)
-    DisplayString("COWMOD",@0)  // @0
+    DisplayString("XGCOW",@0)  // @0
     Wait(4)
     DisplayString(Player1,@1)  // @1
     Wait(6)
-    DisplayString("COWMOD",@2)  // @2
+    DisplayString("XGCOW",@2)  // @2
     Wait(7)
-    CreateCreature("ELWINMOD",[2235.2136],8)  // ~Элвин~
-    ActionOverride("ELWINMOD",MoveToPoint([2298.1816]))
+    CreateCreature("XGELWIN",[2235.2136],8)  // ~Элвин~
+    ActionOverride("XGELWIN",MoveToPoint([2298.1816]))
     Wait(6)
-    ActionOverride("COW3MOD",Face(0))
-    DisplayString("COW3MOD",@3)  // @3
+    ActionOverride("XGCOW3",Face(0))
+    DisplayString("XGCOW3",@3)  // @3
     Wait(3)
-    DisplayString("COWMOD",@4)  // @4
+    DisplayString("XGCOW",@4)  // @4
     Wait(2)
     TakePartyItem("MAGGMOD")
-    DisplayString("ELWINMOD",@5)  // @5
+    DisplayString("XGELWIN",@5)  // @5
     Wait(5)
-    DisplayString("COWMOD",@6)  // @6
+    DisplayString("XGCOW",@6)  // @6
     Wait(2)
-    ActionOverride("COWMOD",Face(0))
-    ActionOverride("COW1MOD",Face(0))
-    ActionOverride("COW2MOD",Face(0))
-    ActionOverride("ELWINMOD",ForceSpell("COW3MOD",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
-    DisplayString("COW3MOD",@9)  
+    ActionOverride("XGCOW",Face(0))
+    ActionOverride("XGCOW1",Face(0))
+    ActionOverride("XGCOW2",Face(0))
+    ActionOverride("XGELWIN",ForceSpell("XGCOW3",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
+    DisplayString("XGCOW3",@9)  
     Wait(2)
     ActionOverride(Player2,MoveToPoint([2019.2318]))
-    CreateVisualEffectObject("SPROTECT","COWMOD")
+    CreateVisualEffectObject("SPROTECT","XGCOW")
     Wait(1)
-    CreateVisualEffectObject("SPROTECT","COW1MOD")
+    CreateVisualEffectObject("SPROTECT","XGCOW1")
     Wait(1)
-    CreateVisualEffectObject("SPROTECT","COW2MOD")
+    CreateVisualEffectObject("SPROTECT","XGCOW2")
     Wait(1)
-    ActionOverride("COW2MOD",ForceSpell("ELWINMOD",CLERIC_MAGIC_STONE))
+    ActionOverride("XGCOW2",ForceSpell("XGELWIN",CLERIC_MAGIC_STONE))
     ActionOverride(Player3,MoveToPoint([2090.2343]))
     Wait(1)
-    DisplayString("ELWINMOD",@7)  // @7
+    DisplayString("XGELWIN",@7)  // @7
     Wait(4)
-    ActionOverride("COW1MOD",ForceSpell("ELWINMOD",WIZARD_MAGIC_MISSILE))
+    ActionOverride("XGCOW1",ForceSpell("XGELWIN",WIZARD_MAGIC_MISSILE))
     Wait(1)
-    ActionOverride("COWMOD",ForceSpell("ELWINMOD",WIZARD_FLAME_ARROW))
+    ActionOverride("XGCOW",ForceSpell("XGELWIN",WIZARD_FLAME_ARROW))
     Wait(2)
-    ActionOverride("ELWINMOD",ForceSpell("COW1MOD",WIZARD_FLESH_TO_STONE))
+    ActionOverride("XGELWIN",ForceSpell("XGCOW1",WIZARD_FLESH_TO_STONE))
     Wait(1)
-    ActionOverride("ELWINMOD",ForceSpell("COW1MOD",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
+    ActionOverride("XGELWIN",ForceSpell("XGCOW1",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
     Wait(1)
-    DisplayString("COWMOD",@8)  // @8
+    DisplayString("XGCOW",@8)  // @8
     Wait(2)
     ActionOverride(Player6,MoveToPoint([2181.2396]))
-    ActionOverride("COWMOD",MoveToPoint([2293.1754]))
+    ActionOverride("XGCOW",MoveToPoint([2293.1754]))
     Wait(3)
-    ActionOverride("ELWINMOD",ForceSpell("COW2MOD",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
+    ActionOverride("XGELWIN",ForceSpell("XGCOW2",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
     Wait(3)
-    ActionOverride("COWMOD",ForceSpell("ELWINMOD",WIZARD_IMPRISONMENT))
+    ActionOverride("XGCOW",ForceSpell("XGELWIN",WIZARD_IMPRISONMENT))
     Wait(2)
-    ActionOverride("COWMOD",ForceSpell("ELWINMOD",DRYAD_TELEPORT))
+    ActionOverride("XGCOW",ForceSpell("XGELWIN",DRYAD_TELEPORT))
     Wait(2)
-    ForceSpell("COWMOD",DRYAD_TELEPORT)
+    ForceSpell("XGCOW",DRYAD_TELEPORT)
     UnhideGUI()
     EndCutSceneMode()
 END

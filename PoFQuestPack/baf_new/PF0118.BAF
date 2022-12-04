@@ -18,7 +18,7 @@ END
 
 IF
   Global("Reveal018","PF0118",0)
-  Dead("YARQCP")  // ~Командир Градакова~
+  Dead("XGyarqc")  // ~Командир Градакова~
 THEN
   RESPONSE #100
     SetGlobal("Reveal018","PF0118",1)
@@ -27,11 +27,11 @@ THEN
     HideGUI()
     Wait(2)
     RevealAreaOnMap("PF0019")
-    DisplayString("YARPEN",@1)  // @1
+    DisplayString("XGYARPN",@1)  // @1
     Wait(4)
     DisplayString(Player1,@2)  // @2
     Wait(3)
-    ForceSpell("YARPEN",DRYAD_TELEPORT)
+    ForceSpell("XGYARPN",DRYAD_TELEPORT)
     UnhideGUI()
     EndCutSceneMode()
 END

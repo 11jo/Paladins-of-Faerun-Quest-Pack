@@ -19,36 +19,36 @@ THEN
     Wait(8)
     DisplayStringHead(Player1,@0)  
     Wait(6)
-    DisplayStringHead("NORXMOD",@1)  
+    DisplayStringHead("XGnorx",@1)  
     Wait(2)
-    CreateCreature("KNIGXMOD",[2778.2693],0)  // ~Рыцарь~
-    CreateCreature("KNIGYMOD",[2731.2745],0)  // ~Рыцарь~
+    CreateCreature("XGknigx",[2778.2693],0)  // ~Рыцарь~
+    CreateCreature("XGknigy",[2731.2745],0)  // ~Рыцарь~
     Wait(3)
-    ActionOverride("KNIGXMOD",MoveToPoint([2531.2463]))
-    ActionOverride("KNIGYMOD",MoveToPoint([2366.2499]))
+    ActionOverride("XGknigx",MoveToPoint([2531.2463]))
+    ActionOverride("XGknigy",MoveToPoint([2366.2499]))
     Wait(5)
-    ActionOverride(Player1,Attack("NORYMOD"))
-    ActionOverride("NORYMOD",Attack(Player1))
-    ActionOverride("KNIGXMOD",Attack("NORZMOD"))
-    ActionOverride("NORZMOD",Attack("KNIGXMOD"))
-    ActionOverride("KNIGYMOD",Attack("NORXMOD"))
-    ActionOverride("NORXMOD",Attack("KNIGYMOD"))
+    ActionOverride(Player1,Attack("XGnory"))
+    ActionOverride("XGnory",Attack(Player1))
+    ActionOverride("XGknigx",Attack("XGnorz"))
+    ActionOverride("XGnorz",Attack("XGknigx"))
+    ActionOverride("XGknigy",Attack("XGnorx"))
+    ActionOverride("XGnorx",Attack("XGknigy"))
     BattleSong()
     Wait(10)
-    ActionOverride("NORXMOD",Kill("KNIGYMOD"))
-    ActionOverride("NORZMOD",Kill("KNIGXMOD"))
-    ActionOverride(Player1,Kill("NORYMOD"))
+    ActionOverride("XGnorx",Kill("XGknigy"))
+    ActionOverride("XGnorz",Kill("XGknigx"))
+    ActionOverride(Player1,Kill("XGnory"))
     Wait(4)
-    DisplayStringHead("NORXMOD",@2) 
+    DisplayStringHead("XGnorx",@2) 
     Wait(4)
     DisplayStringHead(Player1,@3)  
     Wait(1)
     FadeToColor([20.0],0)
-    ActionOverride("NORXMOD",DestroySelf())
-    ActionOverride("MITRMOD",DestroySelf())
+    ActionOverride("XGnorx",DestroySelf())
+    ActionOverride("XGmitr",DestroySelf())
     Wait(2)
-    CreateCreature("NORXMOD",[2765.317],0)  // ~Северянин~
-    CreateCreature("MITRMOD",[2734.305],0)  // ~Лавочник~
+    CreateCreature("XGnorx",[2765.317],0)  // ~Северянин~
+    CreateCreature("XGmitr",[2734.305],0)  // ~Лавочник~
     ActionOverride(Player2,LeaveAreaLUA("PF0039","",[2694.543],8))
     ActionOverride(Player1,LeaveAreaLUA("PF0039","",[2752.518],8))
     ActionOverride(Player3,LeaveAreaLUA("PF0039","",[2814.550],8))
@@ -57,17 +57,17 @@ THEN
     ActionOverride(Player6,LeaveAreaLUA("PF0039","",[2837.643],8))
     MoveViewPoint([2734.305],SLOW)
     Wait(10)
-    DisplayStringHead("NORXMOD",@4) 
+    DisplayStringHead("XGnorx",@4) 
     Wait(5)
     FadeToColor([20.0],0)
     BattleSong()
-    ActionOverride("NORXMOD",DestroySelf())
-    ActionOverride("MITRMOD",DestroySelf())
+    ActionOverride("XGnorx",DestroySelf())
+    ActionOverride("XGmitr",DestroySelf())
     Wait(10)
-    CreateCreature("NOREMOD",[2884.442],0)  // ~Северянин~
-    CreateCreature("NOREMOD",[2810.447],0)  // ~Северянин~
-    CreateCreature("NOREMOD",[2727.430],0)  // ~Северянин~
-    CreateCreature("NOREMOD",[2669.406],0)  // ~Северянин~
+    CreateCreature("XGnore",[2884.442],0)  // ~Северянин~
+    CreateCreature("XGnore",[2810.447],0)  // ~Северянин~
+    CreateCreature("XGnore",[2727.430],0)  // ~Северянин~
+    CreateCreature("XGnore",[2669.406],0)  // ~Северянин~
     Wait(5)
     UnhideGUI()
     EndCutSceneMode()

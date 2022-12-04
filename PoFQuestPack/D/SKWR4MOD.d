@@ -1,4 +1,4 @@
-BEGIN ~SKWR4MOD~
+BEGIN ~XGskwr4~
 
 IF ~PartyHasItem("SKMOD")
 NumTimesTalkedTo(0)~ THEN BEGIN 0
@@ -9,7 +9,7 @@ ActionOverride(Player3,LeaveAreaLUA("PF0101","",[682.1840],8))
 ActionOverride(Player4,LeaveAreaLUA("PF0101","",[629.1862],8))
 ActionOverride(Player5,LeaveAreaLUA("PF0101","",[704.1874],8))
 ActionOverride(Player6,LeaveAreaLUA("PF0101","",[651.1924],8))
-ActionOverride("SKWR3MOD",EscapeArea())
+ActionOverride("XGskwr3",EscapeArea())
 EscapeArea()
 TakePartyItem("SKMOD")~ UNSOLVED_JOURNAL @2 EXIT
 END

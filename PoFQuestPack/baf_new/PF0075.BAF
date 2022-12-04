@@ -4,9 +4,9 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("EnteredArea","PF0075",1)
-    CreateCreature("MGGMOD",[1428.1217],12)  // ~Чародей~
-    CreateCreature("BSMN1MOD",[1728.1226],4)  // ~Хозяин зверей~
-    CreateCreature("CAT2MOD",[1714.1184],4)  // ~Пантера~
+    CreateCreature("XGMGG",[1428.1217],12)  // ~Чародей~
+    CreateCreature("XGBSMN1",[1728.1226],4)  // ~Хозяин зверей~
+    CreateCreature("XGCAT2",[1714.1184],4)  // ~Пантера~
     StartCutSceneMode()
     Explore()
     HideGUI()
@@ -22,29 +22,29 @@ THEN
     Wait(5)
     MoveViewPoint([1230.980],INSTANT)
     Wait(2)
-    DisplayStringHead("RALMOD",@1)  
+    DisplayStringHead("XGRAL",@1)  
     Wait(4)
     MoveViewPoint([1546.1221],INSTANT)
     PlaySound("MUS3MOD")
-    DisplayStringHead("BSMN1MOD",@2) 
+    DisplayStringHead("XGBSMN1",@2) 
     Wait(1)
-    ActionOverride("CAT2MOD",Attack("MGGMOD"))
+    ActionOverride("XGCAT2",Attack("XGMGG"))
     Wait(1)
-    ActionOverride("MGGMOD",ForceSpell("CAT2MOD",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
+    ActionOverride("XGMGG",ForceSpell("XGCAT2",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
     Wait(6)
-    DisplayStringHead("BSMN1MOD",@3)  
+    DisplayStringHead("XGBSMN1",@3)  
     Wait(6)
-    ActionOverride("BSMN1MOD",Attack("MGGMOD"))
+    ActionOverride("XGBSMN1",Attack("XGMGG"))
     Wait(4)
-    ActionOverride("MGGMOD",ForceSpell("BSMN1MOD",WIZARD_SLOW))
+    ActionOverride("XGMGG",ForceSpell("XGBSMN1",WIZARD_SLOW))
     Wait(3)
-    ActionOverride("MGGMOD",ForceSpell("MGGMOD",WIZARD_FIRE_SHIELD_RED))
+    ActionOverride("XGMGG",ForceSpell("XGMGG",WIZARD_FIRE_SHIELD_RED))
     Wait(3)
-    ActionOverride("MGGMOD",ForceSpell("BSMN1MOD",WIZARD_CONE_OF_COLD))
+    ActionOverride("XGMGG",ForceSpell("XGBSMN1",WIZARD_CONE_OF_COLD))
     Wait(3)
-    ActionOverride("MGGMOD",ForceSpell("BSMN1MOD",WIZARD_POWER_WORD_STUN))
+    ActionOverride("XGMGG",ForceSpell("XGBSMN1",WIZARD_POWER_WORD_STUN))
     Wait(3)
-    ActionOverride("MGGMOD",Attack("BSMN1MOD"))
+    ActionOverride("XGMGG",Attack("XGBSMN1"))
     Wait(10)
     UnhideGUI()
     EndCutSceneMode()
@@ -52,45 +52,45 @@ END
 
 IF
   Global("Reveal0075","PF0075",0)
-  Dead("BSMN1MOD")  // ~Хозяин зверей~
+  Dead("XGBSMN1")  // ~Хозяин зверей~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0075","PF0075",1)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
-    DisplayStringHead("RALMOD",@4)  
+    DisplayStringHead("XGRAL",@4)  
     Wait(5)
     ActionOverride(Player3,LeaveAreaLUA("PF0075","",[1012.819],0))
     ActionOverride(Player5,LeaveAreaLUA("PF0075","",[1093.760],0))
-    ActionOverride("MGGMOD",EscapeArea())
+    ActionOverride("XGMGG",EscapeArea())
     EndCutSceneMode()
 END
 
 IF
   Global("Reveal0075","PF0075",0)
-  Dead("MGGMOD")  // ~Чародей~
+  Dead("XGMGG")  // ~Чародей~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0075","PF0075",1)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
-    DisplayStringHead("RALMOD",@5) 
+    DisplayStringHead("XGRAL",@5) 
     Wait(5)
     ActionOverride(Player3,LeaveAreaLUA("PF0075","",[1012.819],0))
     ActionOverride(Player5,LeaveAreaLUA("PF0075","",[1093.760],0))
-    ActionOverride("BSMN1MOD",EscapeArea())
+    ActionOverride("XGBSMN1",EscapeArea())
     EndCutSceneMode()
 END
 
 IF
   Global("Reveal0075","PF0075",1)
-  Dead("FIGGMOD")  // ~Гладиатор~
+  Dead("XGFIGG")  // ~Гладиатор~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0075","PF0075",2)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
-    DisplayStringHead("RALMOD",@6) 
+    DisplayStringHead("XGRAL",@6) 
     Wait(5)
     ActionOverride(Player1,LeaveAreaLUA("PF0075","",[1012.819],0))
     EndCutSceneMode()
@@ -98,13 +98,13 @@ END
 
 IF
   Global("Reveal0075","PF0075",2)
-  Dead("BSMSEMOD")  // ~Хозяин зверей~
+  Dead("XGBSMSE")  // ~Хозяин зверей~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0075","PF0075",3)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
-    DisplayStringHead("RALMOD",@7)  
+    DisplayStringHead("XGRAL",@7)  
     Wait(5)
     ActionOverride(Player1,LeaveAreaLUA("PF0075","",[1012.819],0))
     EndCutSceneMode()
@@ -112,13 +112,13 @@ END
 
 IF
   Global("Reveal0075","PF0075",3)
-  Dead("MGG1MOD")  // ~Квоян~
+  Dead("XGMGG1")  // ~Квоян~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0075","PF0075",4)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
-    DisplayStringHead("RALMOD",@8)  
+    DisplayStringHead("XGRAL",@8)  
     Wait(5)
     ActionOverride(Player1,LeaveAreaLUA("PF0075","",[1012.819],0))
     EndCutSceneMode()
@@ -126,13 +126,13 @@ END
 
 IF
   Global("Reveal0075","PF0075",4)
-  Dead("RGGMOD")  // ~Гладиатор~
+  Dead("XGRGG")  // ~Гладиатор~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0075","PF0075",5)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
-    DisplayStringHead("RALMOD",@9)  
+    DisplayStringHead("XGRAL",@9)  
     Wait(5)
     ActionOverride(Player1,LeaveAreaLUA("PF0075","",[1012.819],0))
     EndCutSceneMode()
@@ -140,13 +140,13 @@ END
 
 IF
   Global("Reveal0075","PF0075",5)
-  Dead("DGMOD")  // ~Воинственный Медведь~
+  Dead("XGDG")  // ~Воинственный Медведь~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0075","PF0075",6)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
-    DisplayStringHead("RALMOD",@10)  
+    DisplayStringHead("XGRAL",@10)  
     Wait(5)
     ActionOverride(Player1,LeaveAreaLUA("PF0075","",[1012.819],0))
     EndCutSceneMode()
@@ -154,13 +154,13 @@ END
 
 IF
   Global("Reveal0075","PF0075",6)
-  Dead("BARGGMOD")  // ~Кевтилн~
+  Dead("XGBARGG")  // ~Кевтилн~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0075","PF0075",7)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
-    DisplayStringHead("RALMOD",@11) 
+    DisplayStringHead("XGRAL",@11) 
     Wait(5)
     ActionOverride(Player1,LeaveAreaLUA("PF0075","",[1012.819],0))
     EndCutSceneMode()
@@ -168,13 +168,13 @@ END
 
 IF
   Global("Reveal0075","PF0075",7)
-  Dead("CHGMOD")  // ~Чемпион~
+  Dead("XGCHG")  // ~Чемпион~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0075","PF0075",8)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
-    DisplayStringHead("RALMOD",@12)  
+    DisplayStringHead("XGRAL",@12)  
     Wait(5)
     ActionOverride(Player1,LeaveAreaLUA("PF0075","",[1012.819],0))
     EndCutSceneMode()

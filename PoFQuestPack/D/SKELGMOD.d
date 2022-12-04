@@ -1,4 +1,4 @@
-BEGIN ~SKELGMOD~
+BEGIN ~XGSKELG~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1

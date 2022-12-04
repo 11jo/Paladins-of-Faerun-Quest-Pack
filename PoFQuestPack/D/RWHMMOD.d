@@ -1,4 +1,4 @@
-BEGIN ~RWHMMOD~
+BEGIN ~XGRWHM~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
@@ -34,18 +34,18 @@ IF ~~ THEN BEGIN 6
   SAY @13
   IF ~~ THEN REPLY @16 DO ~GiveItemCreate("QI2MOD",Player1,0,0,0)
 AddexperienceParty(6000)
-CreateCreature("DW1MOD",[3329.874],8)
-CreateCreature("DW2MOD",[3346.856],8)
-CreateCreature("DW3MOD",[3375.914],8)
+CreateCreature("XGDW1",[3329.874],8)
+CreateCreature("XGDW2",[3346.856],8)
+CreateCreature("XGDW3",[3375.914],8)
 ClearAllActions()
-DisplayString("DW1MOD",@14)
+DisplayString("XGDW1",@14)
 Wait(4)
-DisplayString("RWHMNMOD",@15)
+DisplayString("XGRWHMN",@15)
 Wait(1)
-ActionOverride("DW1MOD",Attack("RWHMNMOD"))
-ActionOverride("DW2MOD",Attack("RW3MOD"))
-ActionOverride("DW3MOD",Attack(Player1))
-ActionOverride("RWHMNMOD",ForceSpell("DW1MOD",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
+ActionOverride("XGDW1",Attack("XGRWHMN"))
+ActionOverride("XGDW2",Attack("XGRW3"))
+ActionOverride("XGDW3",Attack(Player1))
+ActionOverride("XGRWHMN",ForceSpell("XGDW1",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
 Wait(1)
 ~ EXIT
 END

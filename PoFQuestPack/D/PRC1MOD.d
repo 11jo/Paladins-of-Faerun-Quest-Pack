@@ -11,12 +11,12 @@ IF ~~ THEN BEGIN 1
   IF ~~ THEN DO ~FadeToColor([5.0],0)
 TakePartyItem("ARTK1MOD")
 Wait(2)
-CreateCreature("PRMOD",[828.1472],10)
-CreateCreature("PRMOD",[757.1123],0)
-CreateCreature("NINMOD",[982.1133],0)
-CreateCreature("NINMOD",[1100.1244],4)
-CreateCreature("NINMOD",[1191.1331],4)
-CreateCreature("NINMOD",[1089.1439],0)
+CreateCreature("XGPR",[828.1472],10)
+CreateCreature("XGPR",[757.1123],0)
+CreateCreature("XGNIN",[982.1133],0)
+CreateCreature("XGNIN",[1100.1244],4)
+CreateCreature("XGNIN",[1191.1331],4)
+CreateCreature("XGNIN",[1089.1439],0)
 Enemy()~ UNSOLVED_JOURNAL @4 EXIT
 END
 

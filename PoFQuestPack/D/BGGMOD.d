@@ -1,4 +1,4 @@
-BEGIN ~BGGMOD~
+BEGIN ~XGBGG~
 
 IF ~NumTimesTAlkedto(0)
 See(Player1)~ THEN BEGIN 0

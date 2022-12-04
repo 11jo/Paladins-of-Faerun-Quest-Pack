@@ -1,4 +1,4 @@
-BEGIN ~HROTHMOD~
+BEGIN ~XGHROTH~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1

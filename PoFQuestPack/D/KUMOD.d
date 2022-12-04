@@ -1,4 +1,4 @@
-BEGIN ~KUMOD~
+BEGIN ~XGku~
 
 IF ~See(PlayER1)
 NumTimesTalkedTo(0)~ THEN BEGIN 0
@@ -16,7 +16,7 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @7
-  IF ~~ THEN REPLY @8 DO ~GiveItemCreate("KUMOD",Player1,0,0,0)
+  IF ~~ THEN REPLY @8 DO ~GiveItemCreate("XGku",Player1,0,0,0)
 EscapeArea()~ 
 UNSOLVED_JOURNAL @9 EXIT
 END

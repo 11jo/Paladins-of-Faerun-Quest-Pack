@@ -1,4 +1,4 @@
-BEGIN ~NWNLGMOD~
+BEGIN ~XGNWNLG~
 
 IF ~  NumberOfTimesTalkedTo(0)
 ~ THEN BEGIN 0

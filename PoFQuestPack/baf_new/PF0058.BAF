@@ -8,11 +8,11 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(4)
-    DisplayStringHead("BARGMOD",@0)  // @0
+    DisplayStringHead("XGBARG",@0)  // @0
     Wait(6)
-    ForceSpell("BARGMOD",DRYAD_TELEPORT)
+    ForceSpell("XGBARG",DRYAD_TELEPORT)
     Wait(1)
-    CreateCreature("BARGMOD",[2377.666],2)  // ~Сторожила дороги~
+    CreateCreature("XGBARG",[2377.666],2)  // ~Сторожила дороги~
     Wait(4)
     UnhideGUI()
     EndCutSceneMode()

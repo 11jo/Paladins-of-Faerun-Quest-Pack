@@ -1,4 +1,4 @@
-BEGIN ~SORMOD2~
+BEGIN ~XGsor2~
 
 IF ~True()~ THEN BEGIN 0
   SAY @0

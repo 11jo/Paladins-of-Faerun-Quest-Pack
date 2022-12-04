@@ -12,40 +12,40 @@ THEN
     Wait(1)
     MoveViewPoint([3299.2747],INSTANT)
     Wait(1)
-    CreateCreature("CONAMOD",[2315.2418],14)  // ~Лавочник~
-    CreateCreature("CONGMOD",[2392.2379],14)  // ~Лавочник~
+    CreateCreature("XGcona",[2315.2418],14)  // ~Лавочник~
+    CreateCreature("XGCONG",[2392.2379],14)  // ~Лавочник~
     Wait(1)
-    ActionOverride("CONAMOD",MoveToPoint([3299.2747]))
-    ActionOverride("CONGMOD",MoveToPoint([3387.2715]))
+    ActionOverride("XGcona",MoveToPoint([3299.2747]))
+    ActionOverride("XGCONG",MoveToPoint([3387.2715]))
     Wait(8)
-    DisplayStringHead("CONAMOD",@0)  
-    DisplayStringHead("ATKIMOD",@1)  
+    DisplayStringHead("XGcona",@0)  
+    DisplayStringHead("XGATKI",@1)  
     Wait(5)
-    DisplayStringHead("CONAMOD",@2)  
+    DisplayStringHead("XGcona",@2)  
     Wait(5)
-    DisplayStringHead("ATKIMOD",@3)  
+    DisplayStringHead("XGATKI",@3)  
     Wait(1)
-    ActionOverride("CONAMOD",DestroySelf())
-    ActionOverride("CONGMOD",DestroySelf())
+    ActionOverride("XGcona",DestroySelf())
+    ActionOverride("XGCONG",DestroySelf())
     Wait(1)
     FadeToColor([20.0],0)
     Wait(4)
-    CreateCreature("SERO1MOD",[3299.2747],14)  // ~Слуга лича~
-    CreateCreature("SERO2MOD",[3387.2715],14)  // ~Слуга лича~
+    CreateCreature("XGsero1",[3299.2747],14)  // ~Слуга лича~
+    CreateCreature("XGsero2",[3387.2715],14)  // ~Слуга лича~
     Wait(8)
     ClearAllActions()
-    CreateCreature("SEROMOD",[3272.2779],14)  // ~Слуга лича~
-    CreateCreature("SEROMOD",[3196.2792],14)  // ~Слуга лича~
-    CreateCreature("SEROMOD",[3462.2665],14)  // ~Слуга лича~
-    CreateCreature("SEROMOD",[3310.2696],14)  // ~Слуга лича~
-    ActionOverride("SERO1MOD",Attack("ATKIMOD"))
+    CreateCreature("XGSERO",[3272.2779],14)  // ~Слуга лича~
+    CreateCreature("XGSERO",[3196.2792],14)  // ~Слуга лича~
+    CreateCreature("XGSERO",[3462.2665],14)  // ~Слуга лича~
+    CreateCreature("XGSERO",[3310.2696],14)  // ~Слуга лича~
+    ActionOverride("XGsero1",Attack("XGATKI"))
     UnhideGUI()
     EndCutSceneMode()
 END
 /*
 IF
   Global("Reveal0002","PF0002",0)
-  Dead("ATKIMOD")  // ~Торговый король~
+  Dead("XGATKI")  // ~Торговый король~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0002","PF0002",1)
@@ -59,17 +59,17 @@ END
 */
 IF
   Global("Reveal0002","PF0002",0)
-  Dead("SERO2MOD")  // ~Слуга лича~
-  Dead("SERO1MOD")  // ~Слуга лича~
+  Dead("XGsero2")  // ~Слуга лича~
+  Dead("XGsero1")  // ~Слуга лича~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0002","PF0002",1)
     ClearAllActions()
     StartCutSceneMode()
     Wait(2)
-    DisplayStringHead("ATKIMOD",@4)  
+    DisplayStringHead("XGATKI",@4)  
     Wait(5)
-    ActionOverride("ATKIMOD",EscapeArea())
+    ActionOverride("XGATKI",EscapeArea())
     AddexperienceParty(5000)
     EndCutSceneMode()
 END

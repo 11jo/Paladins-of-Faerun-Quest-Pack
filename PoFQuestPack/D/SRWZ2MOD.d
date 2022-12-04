@@ -14,8 +14,8 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @6
-  IF ~~ THEN REPLY @7 DO ~ForceSpell("SRWZ1MOD",DRYAD_TELEPORT)
-GiveItemCreate("TRWMOD",Player1,0,0,0)
+  IF ~~ THEN REPLY @7 DO ~ForceSpell("XGSRWZ1",DRYAD_TELEPORT)
+GiveItemCreate("XGTRW",Player1,0,0,0)
 EraseJournalEntry(@8)
 EraseJournalEntry(@9)
 EraseJournalEntry(@10)

@@ -9,16 +9,16 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(4)
-    DisplayStringHead("TWRMOD",@0)  // @0
+    DisplayStringHead("XGtwr",@0)  // @0
     Wait(5)
     DisplayStringHead(Player1,@1)  
     Wait(5)
-    DisplayStringHead("TWRMOD",@2)  
+    DisplayStringHead("XGtwr",@2)  
     TakePartyItem("PLETMOD")
     Wait(5)
-    DisplayStringHead("TWRMOD",@3)  
+    DisplayStringHead("XGtwr",@3)  
     Wait(8)
-    ActionOverride("TWRMOD",StartDialogue("TWRMOD",Player1))
+    ActionOverride("XGtwr",StartDialogue("XGtwr",Player1))
     Wait(1)
     UnhideGUI()
     EndCutSceneMode()
@@ -45,25 +45,25 @@ THEN
     ActionOverride(Player4,MoveToPoint([1582.1914]))
     Wait(9)
     MoveViewPoint([1464.1871],INSTANT)
-    ActionOverride("TWRMOD",EscapeArea())
+    ActionOverride("XGtwr",EscapeArea())
     Wait(6)
-    CreateCreature("PRDMOD",[1446.2047],10)  // ~Пленник~
+    CreateCreature("XGprd",[1446.2047],10)  // ~Пленник~
     Wait(5)
-    DisplayStringHead("TWRCMOD",@4)  
+    DisplayStringHead("XGtwrc",@4)  
     Wait(5)
-    ActionOverride("PRDMOD",Enemy())
+    ActionOverride("XGprd",Enemy())
     BattleSong()
     EndCutSceneMode()
 END
 
 IF
   PartyHasItem("PLET1MOD")  // ~Письмо~
-  Dead("PRDMOD")  // ~Пленник~
+  Dead("XGprd")  // ~Пленник~
 THEN
   RESPONSE #100
     StartCutSceneMode()
     Wait(1)
-    DisplayStringHead("TWRCMOD",@5)  
+    DisplayStringHead("XGtwrc",@5)  
     Wait(8)
     FadeToColor([80.0],0)
     ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1042.1978],0))
@@ -75,16 +75,16 @@ END
 
 IF
   Global("Reveal0077","PF0077",0)
-  Dead("TMER7MOD")  // ~Наемник~
-  Dead("TMER8MOD")  // ~Наемник~
-  Dead("TMER9MOD")  // ~Наемник~
-  Dead("TASSMOD")  // ~Наемный убийца~
+  Dead("XGtmer7")  // ~Наемник~
+  Dead("XGtmer8")  // ~Наемник~
+  Dead("XGtmer9")  // ~Наемник~
+  Dead("XGtass")  // ~Наемный убийца~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0077","PF0077",1)
     StartCutSceneMode()
     Wait(1)
-    CreateCreature("DRC1MOD",[961.206],14)  // ~Паладин~
+    CreateCreature("XGdrc1",[961.206],14)  // ~Паладин~
     Wait(3)
     ActionOverride(Player1,MoveToPoint([988.236]))
     Wait(7)
@@ -92,7 +92,7 @@ THEN
     Wait(3)
     DisplayStringHead(Player1,@6)  
     Wait(8)
-    DisplayStringHead("DRC1MOD",@7)  
+    DisplayStringHead("XGdrc1",@7)  
     Wait(8)
     HideAreaOnMap("PF0076")
     RevealAreaOnMap("PF0078")
@@ -106,18 +106,18 @@ THEN
   RESPONSE #100
     SetGlobal("Reveal0077","PF0077",2)
     StartCutSceneMode()
-    ActionOverride("DRC1MOD",MoveToPoint([1747.501]))
-    ActionOverride("FLMOD",MoveToPoint([1825.515]))
+    ActionOverride("XGdrc1",MoveToPoint([1747.501]))
+    ActionOverride("XGfl",MoveToPoint([1825.515]))
     Wait(15)
-    ActionOverride("DRC1MOD",Face(0))
-    ActionOverride("FLMOD",Face(0))
+    ActionOverride("XGdrc1",Face(0))
+    ActionOverride("XGfl",Face(0))
     Wait(1)
     DisplayStringHead(Player1,@8)  
     Wait(8)
-    DisplayStringHead("DRC1MOD",@9)  
+    DisplayStringHead("XGdrc1",@9)  
     Wait(10)
-    ActionOverride("DRC1MOD",EscapeArea())
-    ActionOverride("FLMOD",EscapeArea())
+    ActionOverride("XGdrc1",EscapeArea())
+    ActionOverride("XGfl",EscapeArea())
     HideAreaOnMap("PF0076")
     HideAreaOnMap("PF0078")
     EraseJournalEntry(@10)  
@@ -132,11 +132,11 @@ END
 
 IF
   Global("DEAD","PF0077",0)
-  Dead("WAR01MOD")  // ~Солдат~
-  Dead("WAR02MOD")  // ~Солдат~
+  Dead("XGwar01")  // ~Солдат~
+  Dead("XGwar02")  // ~Солдат~
 THEN
   RESPONSE #100
     SetGlobal("DEAD","PF0077",1)
-    ActionOverride("DR01MOD",StartDialogue("DR01MOD",Player1))
+    ActionOverride("XGdr01",StartDialogue("XGdr01",Player1))
 END
 

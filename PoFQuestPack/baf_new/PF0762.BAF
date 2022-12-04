@@ -10,16 +10,16 @@ THEN
     MoveViewPoint([689.604],INSTANT)
     DisplayStringHead(Player1,@0)  // @0
     Wait(4)
-    DisplayStringHead("NWNMMOD",@1)  // @1
+    DisplayStringHead("XGNWNM",@1)  // @1
     Wait(10)
     DisplayStringHead(Player1,@2)  // @2
     Wait(4)
-    ActionOverride("NWNMMOD",ForceSpell("NWNMMOD",CLERIC_BLESS))
+    ActionOverride("XGNWNM",ForceSpell("XGNWNM",CLERIC_BLESS))
     Wait(5)
-    ActionOverride("NWNMMOD",ForceSpell("NWNMMOD",CLERIC_NEGATIVE_PLANE_PROTECTION))
+    ActionOverride("XGNWNM",ForceSpell("XGNWNM",CLERIC_NEGATIVE_PLANE_PROTECTION))
     Wait(6)
     ScreenShake([20.20],3)
-    ActionOverride("NWNMMOD",ForceSpell("NWNMMOD",CLERIC_NEGATIVE_PLANE_PROTECTION))
+    ActionOverride("XGNWNM",ForceSpell("XGNWNM",CLERIC_NEGATIVE_PLANE_PROTECTION))
     Wait(4)
     CreateCreature("ELAIR01",[689.604],0)  // ~Ёлементаль воздуха~
     EndCutSceneMode()
@@ -31,10 +31,10 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(5)
-    CreateVisualEffectObject("SPROTECT","NWNMMOD")
+    CreateVisualEffectObject("SPROTECT","XGNWNM")
     PlaySound("EFF_M23C")
     Wait(2)
-    DisplayStringHead("NWNMMOD",@3)  // @3
+    DisplayStringHead("XGNWNM",@3)  // @3
     FadeToColor([20.0],0)
     AddexperienceParty(10000)
     EraseJournalEntry(@4)  // @4

@@ -1,4 +1,4 @@
-BEGIN ~CLC1MOD~
+BEGIN ~XGclc1~
 
 IF ~True()~ THEN BEGIN 0
   SAY @0

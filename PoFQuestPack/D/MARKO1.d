@@ -17,6 +17,6 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @7
-  IF ~~ THEN DO ~GiveItemCreate("MARMOD",Player1,0,0,0)
+  IF ~~ THEN DO ~GiveItemCreate("XGMAR",Player1,0,0,0)
 ~ UNSOLVED_JOURNAL @8 EXIT
 END

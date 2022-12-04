@@ -7,12 +7,12 @@ THEN
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
-    CreateCreature("FNASMOD",[3062.2592],15)  // ~Слуга Хельма~
+    CreateCreature("XGFNAS",[3062.2592],15)  // ~Слуга Хельма~
     MoveViewPoint([3124.2674],SLOW)
     Wait(5)
-    DisplayStringHead("FNASMOD",@0)  // @0
+    DisplayStringHead("XGFNAS",@0)  // @0
     Wait(4)
-    ActionOverride("FNASMOD",EscapeArea())
+    ActionOverride("XGFNAS",EscapeArea())
     Wait(2)
     AddexperienceParty(10000)
     UnhideGUI()

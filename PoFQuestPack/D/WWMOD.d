@@ -1,4 +1,4 @@
-BEGIN ~WWMOD~ 2
+BEGIN ~XGWW~ 2
 
 IF ~RandomNum(4,1)
 !InPartySlot(LastTalkedToBy,0)~ THEN BEGIN 0

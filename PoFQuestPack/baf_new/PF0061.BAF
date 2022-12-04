@@ -9,14 +9,14 @@ THEN
     HideGUI()
     Explore()
     Wait(2)
-    CreateCreature("GFALCON",[1793.1362],10)  // ~Графалкон~
+    CreateCreature("XGFALCO",[1793.1362],10)  // ~Графалкон~
     MoveViewPoint([1793.1362],SLOW)
     ActionOverride(Player1,MoveToPoint([1854.1334]))
     Wait(6)
     DisplayStringHead(Player1,@0)  // @0
     Wait(7)
     Wait(4)
-    DisplayStringHead("GFALCON",@1)  // @1
+    DisplayStringHead("XGFALCO",@1)  // @1
     Wait(12)
     Wait(3)
     ReputationInc(1)
@@ -30,7 +30,7 @@ THEN
     ActionOverride(Player4,LeaveAreaLUA("AR0020","",[662.612],0))
     ActionOverride(Player5,LeaveAreaLUA("AR0020","",[657.578],0))
     ActionOverride(Player6,LeaveAreaLUA("AR0020","",[620.595],0))
-    ActionOverride("GFALCON",EscapeArea())
+    ActionOverride("XGFALCO",EscapeArea())
     UnhideGUI()
     EndCutSceneMode()
 END
@@ -38,7 +38,7 @@ END
 IF
   Global("Reveal0061","PF0061",0)
   PartyHasItem("QI2MOD")  // ~Магическая реликвия~
-  Dead("RWHMMOD")  // ~Глава волшебников~
+  Dead("XGRWHM")  // ~Глава волшебников~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0061","PF0061",1)
@@ -47,14 +47,14 @@ THEN
     HideGUI()
     Explore()
     Wait(2)
-    CreateCreature("GFALCON",[1793.1362],10)  // ~Графалкон~
+    CreateCreature("XGFALCO",[1793.1362],10)  // ~Графалкон~
     MoveViewPoint([1793.1362],SLOW)
     ActionOverride(Player1,MoveToPoint([1854.1334]))
     Wait(4)
     DisplayStringHead(Player1,@3)  // @3
     Wait(7)
     Wait(4)
-    DisplayStringHead("GFALCON",@4)  // @4
+    DisplayStringHead("XGFALCO",@4)  // @4
     Wait(12)
     Wait(3)
     ReputationInc(-1)
@@ -67,7 +67,7 @@ THEN
     ActionOverride(Player4,LeaveAreaLUA("AR0020","",[662.612],0))
     ActionOverride(Player5,LeaveAreaLUA("AR0020","",[657.578],0))
     ActionOverride(Player6,LeaveAreaLUA("AR0020","",[620.595],0))
-    ActionOverride("GFALCON",EscapeArea())
+    ActionOverride("XGFALCO",EscapeArea())
     UnhideGUI()
     EndCutSceneMode()
 END

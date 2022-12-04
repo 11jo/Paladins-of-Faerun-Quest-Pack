@@ -1,4 +1,4 @@
-BEGIN ~DREQMOD~
+BEGIN ~XGdreq~
 
 IF ~See(Player1)~ THEN BEGIN 0
   SAY @0

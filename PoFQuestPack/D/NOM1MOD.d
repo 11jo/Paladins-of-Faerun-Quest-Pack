@@ -1,4 +1,4 @@
-BEGIN ~NOM1MOD~
+BEGIN ~XGNOM1~
 
 IF ~NumTimesTAlkedTo(0)~ THEN BEGIN 0
   SAY @1

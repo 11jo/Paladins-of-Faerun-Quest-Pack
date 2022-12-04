@@ -7,7 +7,7 @@ THEN
     ClearAllActions()
     PlaySound("NWN2")
     Wait(1)
-    ActionOverride("LARIMOD",StartDialogue("LARIMOD",Player1))
+    ActionOverride("XGLARI",StartDialogue("XGLARI",Player1))
     EndCutSceneMode()
 END
 

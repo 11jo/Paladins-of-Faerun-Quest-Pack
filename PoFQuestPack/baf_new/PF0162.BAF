@@ -10,9 +10,9 @@ THEN
     Wait(1)
     DisplayStringHead("s#mage2",@0)
     Wait(2)
-    DisplayStringHead("NASHRMOD", @1)
+    DisplayStringHead("XGNASHR", @1)
     Wait(2)
-    ActionOverride("NASHRMOD",StartDialogue("NASHRMOD",Player1))
+    ActionOverride("XGNASHR",StartDialogue("XGNASHR",Player1))
     EndCutSceneMode()
 END
 

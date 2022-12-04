@@ -1,6 +1,6 @@
-BEGIN ~ELORMOD~
+BEGIN ~XGELOR~
 
-IF ~Global("s#ELORMOD","GLOBAL",0)~ THEN BEGIN 0
+IF ~Global("s#XGELOR","GLOBAL",0)~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
 END
@@ -17,7 +17,7 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @6
-  IF ~~ THEN REPLY @7 DO ~SetGlobal("s#ELORMOD","GLOBAL",1)~ EXIT
+  IF ~~ THEN REPLY @7 DO ~SetGlobal("s#XGELOR","GLOBAL",1)~ EXIT
   IF ~~ THEN REPLY @8 GOTO 4
 END
 
@@ -45,15 +45,15 @@ ActionOverride(Player3,LeaveAreaLUA("PF0052","",[665.1979],0))
 ActionOverride(Player4,LeaveAreaLUA("PF0052","",[683.2059],0))
 ActionOverride(Player5,LeaveAreaLUA("PF0052","",[798.2015],0))
 ActionOverride(Player6,LeaveAreaLUA("PF0052","",[801.1962],0))
-SetGlobal("s#ELORMOD","GLOBAL",2)~ UNSOLVED_JOURNAL @17 EXIT
+SetGlobal("s#XGELOR","GLOBAL",2)~ UNSOLVED_JOURNAL @17 EXIT
 END
 
-IF ~Global("s#ELORMOD","GLOBAL",1)~ THEN BEGIN 8
+IF ~Global("s#XGELOR","GLOBAL",1)~ THEN BEGIN 8
   SAY @18
   IF ~~ THEN REPLY @19 GOTO 4
 END
 
-IF ~Global("s#ELORMOD","GLOBAL",2)
+IF ~Global("s#XGELOR","GLOBAL",2)
 PartyHasItem("MBMOD")~ THEN BEGIN 9
   SAY @20
   IF ~~ THEN REPLY @21 GOTO 10
@@ -68,7 +68,7 @@ GiveItemCreate("SWORD20",Player1,0,0,0)
 ~ SOLVED_JOURNAL @24 EXIT
 END
 
-IF ~Global("s#ELORMOD","GLOBAL",2)
+IF ~Global("s#XGELOR","GLOBAL",2)
 PartyHasItem("ZAT1MOD")~ THEN BEGIN 11
   SAY @25
   IF ~~ THEN REPLY @26 GOTO 12

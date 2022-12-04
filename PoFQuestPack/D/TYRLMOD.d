@@ -1,4 +1,4 @@
-BEGIN ~TYRLMOD~ 2
+BEGIN ~XGTYRL~ 2
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
@@ -8,7 +8,7 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @4
-  IF ~~ THEN DO ~StartStore("TYRLMOD",LastTalkedToBy(Myself))
+  IF ~~ THEN DO ~StartStore("XGTYRL",LastTalkedToBy(Myself))
 SetNumTimesTalkedTo(0)
 ~ EXIT
 END

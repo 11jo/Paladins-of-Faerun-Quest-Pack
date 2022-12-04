@@ -1,6 +1,6 @@
 IF
   Global("Reveal0145","PF0145",0)
-  Dead("ORCKIMOD")  // ~Ксанголд~
+  Dead("XGorcki")  // ~Ксанголд~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0145","PF0145",1)

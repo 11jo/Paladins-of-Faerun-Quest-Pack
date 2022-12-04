@@ -1,4 +1,4 @@
-BEGIN ~RANMMOD~
+BEGIN ~XGRANM~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
@@ -62,10 +62,10 @@ IF ~~ THEN BEGIN 9
   SAY @15
   IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("PF0060")
 Wait(1)
-CreateCreature("ASSFMOD",[337.282],10)
-DisplayString("ASSFMOD",@17)
-ActionOverride("ASSFMOD",Attack("RANMMOD"))
-ActionOverride("ASSFMOD",Kill("RANMMOD"))
+CreateCreature("XGASSF",[337.282],10)
+DisplayString("XGASSF",@17)
+ActionOverride("XGASSF",Attack("XGRANM"))
+ActionOverride("XGASSF",Kill("XGRANM"))
 Wait(3)
 ~ UNSOLVED_JOURNAL @16 EXIT
 END
@@ -84,10 +84,10 @@ IF ~~ THEN BEGIN 12
   SAY @15
   IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("PF0060")
 Wait(1)
-CreateCreature("ASSFMOD",[337.282],10)
-DisplayString("ASSFMOD",@17)
-ActionOverride("ASSFMOD",Attack("RANMMOD"))
-ActionOverride("ASSFMOD",Kill("RANMMOD"))
+CreateCreature("XGASSF",[337.282],10)
+DisplayString("XGASSF",@17)
+ActionOverride("XGASSF",Attack("XGRANM"))
+ActionOverride("XGASSF",Kill("XGRANM"))
 Wait(3)
 ~ UNSOLVED_JOURNAL @16 EXIT
 END
@@ -106,10 +106,10 @@ IF ~~ THEN BEGIN 15
   SAY @15
   IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("PF0060")
 Wait(1)
-CreateCreature("ASSFMOD",[337.282],10)
-DisplayString("ASSFMOD",@17)
-ActionOverride("ASSFMOD",Attack("RANMMOD"))
-ActionOverride("ASSFMOD",Kill("RANMMOD"))
+CreateCreature("XGASSF",[337.282],10)
+DisplayString("XGASSF",@17)
+ActionOverride("XGASSF",Attack("XGRANM"))
+ActionOverride("XGASSF",Kill("XGRANM"))
 Wait(3)
 ~ UNSOLVED_JOURNAL @16 EXIT
 END
@@ -128,10 +128,10 @@ IF ~~ THEN BEGIN 18
   SAY @15
   IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("PF0060")
 Wait(1)
-CreateCreature("ASSFMOD",[337.282],10)
-DisplayString("ASSFMOD",@17)
-ActionOverride("ASSFMOD",Attack("RANMMOD"))
-ActionOverride("ASSFMOD",Kill("RANMMOD"))
+CreateCreature("XGASSF",[337.282],10)
+DisplayString("XGASSF",@17)
+ActionOverride("XGASSF",Attack("XGRANM"))
+ActionOverride("XGASSF",Kill("XGRANM"))
 Wait(3)
 ~ UNSOLVED_JOURNAL @16 EXIT
 END
@@ -150,10 +150,10 @@ IF ~~ THEN BEGIN 21
   SAY @15
   IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("PF0060")
 Wait(1)
-CreateCreature("ASSFMOD",[337.282],10)
-DisplayString("ASSFMOD",@17)
-ActionOverride("ASSFMOD",Attack("RANMMOD"))
-ActionOverride("ASSFMOD",Kill("RANMMOD"))
+CreateCreature("XGASSF",[337.282],10)
+DisplayString("XGASSF",@17)
+ActionOverride("XGASSF",Attack("XGRANM"))
+ActionOverride("XGASSF",Kill("XGRANM"))
 Wait(3)
 ~ UNSOLVED_JOURNAL @16 EXIT
 END
@@ -177,10 +177,10 @@ IF ~~ THEN BEGIN 25
   SAY @15
   IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("PF0060")
 Wait(1)
-CreateCreature("ASSFMOD",[337.282],10)
-DisplayString("ASSFMOD",@17)
-ActionOverride("ASSFMOD",Attack("RANMMOD"))
-ActionOverride("ASSFMOD",Kill("RANMMOD"))
+CreateCreature("XGASSF",[337.282],10)
+DisplayString("XGASSF",@17)
+ActionOverride("XGASSF",Attack("XGRANM"))
+ActionOverride("XGASSF",Kill("XGRANM"))
 Wait(3)
 ~ UNSOLVED_JOURNAL @16 EXIT
 END

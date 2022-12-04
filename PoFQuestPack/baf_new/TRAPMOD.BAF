@@ -6,23 +6,23 @@ THEN
     StartCutSceneMode()
     MoveViewPoint([2714.1534],SLOW)
     Wait(2)
-    ForceSpell("RWMOD",DRYAD_TELEPORT)
+    ForceSpell("XGRW",DRYAD_TELEPORT)
     Wait(4)
-    DisplayStringHead("Gradak",@0)  // @0
+    DisplayStringHead("XGRADAK",@0)  // @0
     Wait(4)
     EndCutSceneMode()
     Wait(12)
     StartCutSceneMode()
     ClearAllActions()
-    CreateCreature("JARMOD",[2755.1558],6)  // ~Слуга Джарлакс~
-    CreateCreature("Drw1mod",[2754.1516],0)  // ~Дроу~
-    CreateCreature("Drw2mod",[2707.1518],0)  // ~Дроу~
-    DisplayStringHead("JARMOD",@1)  // @1
+    CreateCreature("XGJAR",[2755.1558],6)  // ~Слуга Джарлакс~
+    CreateCreature("XGDRW1",[2754.1516],0)  // ~Дроу~
+    CreateCreature("XGDRW2",[2707.1518],0)  // ~Дроу~
+    DisplayStringHead("XGJAR",@1)  // @1
     Wait(4)
-    DisplayStringHead("Gradak",@2)  // @2
+    DisplayStringHead("XGRADAK",@2)  // @2
     Wait(3)
-    ForceSpell("Gradak",DRYAD_TELEPORT)
-    ForceSpell("JARMOD",DRYAD_TELEPORT)
+    ForceSpell("XGRADAK",DRYAD_TELEPORT)
+    ForceSpell("XGJAR",DRYAD_TELEPORT)
     EndCutSceneMode()
 END
 

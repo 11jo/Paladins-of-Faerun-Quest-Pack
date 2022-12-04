@@ -1,4 +1,4 @@
-BEGIN ~FLMOD~
+BEGIN ~XGfl~
 
 IF ~See(Player1)
 NumTimestalkedTo(0)~ THEN BEGIN 0
@@ -19,13 +19,13 @@ IF ~~ THEN BEGIN 1
 BattleSong()
 HideAreaOnMap("PF0076")
 RevealAreaOnMap("PF0078")
-CreateCreature("TMER7MOD",[1330.171],14)
-CreateCreature("TMER8MOD",[1327.255],14)
-CreateCreature("TMER9MOD",[1328.319],14)
-CreateCreature("TASSMOD",[1357.268],14)
+CreateCreature("XGtmer7",[1330.171],14)
+CreateCreature("XGtmer8",[1327.255],14)
+CreateCreature("XGtmer9",[1328.319],14)
+CreateCreature("XGtass",[1357.268],14)
 ActionOverride(Player1,MoveToPoint([1463.329]))
 Wait(5)
-DisplayStringHead("TASSMOD",@10)
+DisplayStringHead("XGtass",@10)
 EndCutSceneMode()~ 
 UNSOLVED_JOURNAL @11 EXIT
 END

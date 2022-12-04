@@ -1,9 +1,9 @@
-BEGIN ~SHOP2MOD~ 2
+BEGIN ~XGSHOP2~ 2
 
 IF ~True()
 ~ THEN BEGIN 0
   SAY @1
-  IF ~~ THEN REPLY @2 DO ~StartStore("SHOP2MOD",LastTalkedToBy(Myself))
+  IF ~~ THEN REPLY @2 DO ~StartStore("XGSHOP2",LastTalkedToBy(Myself))
 ~ EXIT
   IF ~~ THEN REPLY @3 GOTO 1
 END

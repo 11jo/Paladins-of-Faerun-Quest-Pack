@@ -10,12 +10,12 @@ THEN
     Wait(2)
     DisplayStringHead(Player1,@0)  
     Wait(5)
-    DisplayStringHead("PRT1MOD",@1) 
+    DisplayStringHead("XGprt1",@1) 
     Wait(5)
-    CreateCreature("PRTCMOD",[753.397],0)  // ~Верховный священник Торма~
-    ActionOverride("PRTCMOD",MoveToPoint([459.407]))
+    CreateCreature("XGprtc",[753.397],0)  // ~Верховный священник Торма~
+    ActionOverride("XGprtc",MoveToPoint([459.407]))
     Wait(5)
-    ActionOverride("PRTCMOD",StartDialogue("PRTCMOD",Player1))
+    ActionOverride("XGprtc",StartDialogue("XGprtc",Player1))
     EndCutSceneMode()
     UnhideGUI()
 END

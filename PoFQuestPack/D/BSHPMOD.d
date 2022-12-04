@@ -1,8 +1,8 @@
-BEGIN ~BSHPMOD~ 2
+BEGIN ~XGbshp~ 2
 
 IF ~True()~ THEN BEGIN 0
   SAY @0
-  IF ~~ THEN REPLY @1 DO ~StartStore("BSHPMOD",LastTalkedToBy())~ GOTO 2
+  IF ~~ THEN REPLY @1 DO ~StartStore("XGbshp",LastTalkedToBy())~ GOTO 2
   IF ~~ THEN REPLY @2 GOTO 1
 END
 

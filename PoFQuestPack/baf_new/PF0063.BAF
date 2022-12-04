@@ -11,27 +11,27 @@ THEN
     Wait(2)
     MoveViewPoint([2918.1145],SLOW)
     Wait(4)
-    DisplayStringHead("LETG4MOD",@0)  // @0
+    DisplayStringHead("XGletg4",@0)  // @0
     Wait(4)
-    ActionOverride("LETG4MOD",Attack("LUSG4MOD"))
+    ActionOverride("XGletg4",Attack("XGLUSG4"))
     Wait(1)
-    ActionOverride("LUSG4MOD",Attack("LETG4MOD"))
+    ActionOverride("XGLUSG4",Attack("XGletg4"))
     Wait(10)
-    ActionOverride("LETG4MOD",Kill("LUSG4MOD"))
+    ActionOverride("XGletg4",Kill("XGLUSG4"))
     Wait(4)
-    DisplayStringHead("LETG4MOD",@4)  // ~Ты это заслужил!~
-    CreateCreature("LETG3MOD",[2908.804],0)  // ~Контрабандист~
-    CreateCreature("LETG1MOD",[2856.806],0)  // ~Контрабандист~
-    CreateCreature("LETG2MOD",[2792.814],0)  // ~Контрабандист~
-    ActionOverride("LETG3MOD",MoveToPoint([2925.1090]))
-    ActionOverride("LETG1MOD",MoveToPoint([2799.1121]))
-    ActionOverride("LETG2MOD",MoveToPoint([2883.1105]))
+    DisplayStringHead("XGletg4",@4)  // ~Ты это заслужил!~
+    CreateCreature("XGLETG3",[2908.804],0)  // ~Контрабандист~
+    CreateCreature("XGletg1",[2856.806],0)  // ~Контрабандист~
+    CreateCreature("XGletg2",[2792.814],0)  // ~Контрабандист~
+    ActionOverride("XGLETG3",MoveToPoint([2925.1090]))
+    ActionOverride("XGletg1",MoveToPoint([2799.1121]))
+    ActionOverride("XGletg2",MoveToPoint([2883.1105]))
     Wait(4)
-    DisplayStringHead("LETG3MOD",@1)  // @1
+    DisplayStringHead("XGLETG3",@1)  // @1
     Wait(5)
     DisplayStringHead(Player1,@2)  // @2
     Wait(5)
-    DisplayStringHead("LETG3MOD",@3)  // @3
+    DisplayStringHead("XGLETG3",@3)  // @3
     Wait(5)
     ActionOverride(Player1,LeaveAreaLUA("PF0163","",[757.519],0))
     ActionOverride(Player2,LeaveAreaLUA("PF0163","",[713.527],0))
@@ -39,9 +39,9 @@ THEN
     ActionOverride(Player4,LeaveAreaLUA("PF0163","",[640.565],0))
     ActionOverride(Player5,LeaveAreaLUA("PF0163","",[677.612],0))
     ActionOverride(Player6,LeaveAreaLUA("PF0163","",[639.763],0))
-    ActionOverride("LETG3MOD",EscapeArea())
-    ActionOverride("LETG1MOD",EscapeArea())
-    ActionOverride("LETG2MOD",EscapeArea())
+    ActionOverride("XGLETG3",EscapeArea())
+    ActionOverride("XGletg1",EscapeArea())
+    ActionOverride("XGletg2",EscapeArea())
     UnhideGUI()
     EndCutSceneMode()
 END
@@ -54,9 +54,9 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("Reveal0063","PF0063",1)
-    ActionOverride("LUSN1MOD",Enemy())
-    ActionOverride("LUSN2MOD",Enemy())
-    ActionOverride("LUSN3MOD",Enemy())
-    ActionOverride("LUSN4MOD",Enemy())
+    ActionOverride("XGLUSN1",Enemy())
+    ActionOverride("XGLUSN2",Enemy())
+    ActionOverride("XGLUSN3",Enemy())
+    ActionOverride("XGLUSN4",Enemy())
 END
 

@@ -1,4 +1,4 @@
-BEGIN ~PAL1MOD~
+BEGIN ~XGPAL1~
 
 IF ~See(Player1) NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @0

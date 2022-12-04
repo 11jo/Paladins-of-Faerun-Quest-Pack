@@ -9,13 +9,13 @@ THEN
     HideGUI()
     Explore()
     Wait(1)
-    CreateCreature("SHTAMOD",[377.405],0)  // ~Теневой Вор~
+    CreateCreature("XGSHTA",[377.405],0)  // ~Теневой Вор~
     Wait(2)
-    ActionOverride("SHTAMOD",MoveToPoint([505.930]))
+    ActionOverride("XGSHTA",MoveToPoint([505.930]))
     Wait(8)
-    DisplayStringHead("SHTAMOD",@0)  
+    DisplayStringHead("XGSHTA",@0)  
     Wait(6)
-    ActionOverride("SHTAMOD",EscapeArea())
+    ActionOverride("XGSHTA",EscapeArea())
     ActionOverride(Player2,LeaveAreaLUA("PF0414","",[400.617],0))
     ActionOverride(Player1,LeaveAreaLUA("PF0414","",[703.462],10))
     ActionOverride(Player3,LeaveAreaLUA("PF0414","",[357.585],0))

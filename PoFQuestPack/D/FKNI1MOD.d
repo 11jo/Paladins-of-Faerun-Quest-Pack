@@ -23,14 +23,14 @@ END
 IF ~~ THEN BEGIN 4
   SAY @8
   IF ~~ THEN REPLY @10 DO ~ClearAllActions()
-CreateCreature("knwizmod",[2536.538],0)
+CreateCreature("XGKNWIZ",[2536.538],0)
 ClearAllActions()
 Wait(1)
 DisplayString("FKNI1MOD",@9)
 Wait(1)
 ForceSpell("FKNI1MOD",DRYAD_TELEPORT)
-ForceSpell("knwizmod",DRYAD_TELEPORT)
+ForceSpell("XGKNWIZ",DRYAD_TELEPORT)
 Wait(1)
-CreateCreature("AJANMODB",[582.2006],0)
+CreateCreature("XGAJANB",[582.2006],0)
 ~ EXIT
 END

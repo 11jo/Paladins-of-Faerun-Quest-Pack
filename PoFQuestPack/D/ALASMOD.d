@@ -1,4 +1,4 @@
-BEGIN ~ALASMOD~
+BEGIN ~XGALAS~
 
 IF ~NumTimesTalkedTO(0)
 See(Player1)~ THEN BEGIN 0

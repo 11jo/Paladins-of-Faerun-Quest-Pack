@@ -1,4 +1,4 @@
-BEGIN ~BOYMOD~
+BEGIN ~XGBOY~
 
 IF ~NumTimesTalkedTo(0)
 See(PLAYER1)~ THEN BEGIN 0

@@ -4,41 +4,41 @@ THEN
   RESPONSE #100
     Wait(3)
     StartCutSceneMode()
-    CreateCreature("PIRM1MOD",[1674.791],0)  // ~Пират~
-    CreateCreature("PIRM2MOD",[1720.831],0)  // ~Пират~
-    CreateCreature("PIRM3MOD",[1765.866],0)  // ~Пират~
+    CreateCreature("XGPIRM1",[1674.791],0)  // ~Пират~
+    CreateCreature("XGPIRM2",[1720.831],0)  // ~Пират~
+    CreateCreature("XGPIRM3",[1765.866],0)  // ~Пират~
     Explore()
-    ActionOverride("PIRM1MOD",MoveToPoint([1903.640]))
-    ActionOverride("PIRM2MOD",MoveToPoint([1933.667]))
-    ActionOverride("PIRM3MOD",MoveToPoint([1970.699]))
+    ActionOverride("XGPIRM1",MoveToPoint([1903.640]))
+    ActionOverride("XGPIRM2",MoveToPoint([1933.667]))
+    ActionOverride("XGPIRM3",MoveToPoint([1970.699]))
     Wait(5)
-    DisplayStringHead("PIRMSMOD",@0)  // @0
+    DisplayStringHead("XGPIRMS",@0)  // @0
     Wait(4)
     ScreenShake([20.20],3)
-    CreateCreature("MTRMOD",[1627.817],0)  // ~Лавочник~
-    ActionOverride("PIRM1MOD",Face(2))
-    ActionOverride("PIRM2MOD",Face(2))
-    ActionOverride("PIRM3MOD",Face(2))
-    ActionOverride("PIRM2MOD",DisplayStringHead(Myself,@1))  // @1
-    ActionOverride("PIRM2MOD",PlaySound("TUTHH04"))
-    ActionOverride("PIRM1MOD",PlaySound("TUTHH04"))
+    CreateCreature("XGMTR",[1627.817],0)  // ~Лавочник~
+    ActionOverride("XGPIRM1",Face(2))
+    ActionOverride("XGPIRM2",Face(2))
+    ActionOverride("XGPIRM3",Face(2))
+    ActionOverride("XGPIRM2",DisplayStringHead(Myself,@1))  // @1
+    ActionOverride("XGPIRM2",PlaySound("TUTHH04"))
+    ActionOverride("XGPIRM1",PlaySound("TUTHH04"))
     SmallWait(7)
-    ActionOverride("MTRMOD",ForceSpell("PIRM1MOD",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
-    ActionOverride("MTRMOD",ForceSpell("PIRM2MOD",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
-    ActionOverride("MTRMOD",ForceSpell("PIRM3MOD",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
-    ActionOverride("MTRMOD",CreateVisualEffectObject("ICFIRSDI","PIRM2MOD"))
-    ActionOverride("MTRMOD",CreateVisualEffectObject("ICFIRSDI","PIRM3MOD"))
-    ActionOverride("MTRMOD",CreateVisualEffectObject("ICFIRSDI","PIRM1MOD"))
+    ActionOverride("XGMTR",ForceSpell("XGPIRM1",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
+    ActionOverride("XGMTR",ForceSpell("XGPIRM2",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
+    ActionOverride("XGMTR",ForceSpell("XGPIRM3",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
+    ActionOverride("XGMTR",CreateVisualEffectObject("ICFIRSDI","XGPIRM2"))
+    ActionOverride("XGMTR",CreateVisualEffectObject("ICFIRSDI","XGPIRM3"))
+    ActionOverride("XGMTR",CreateVisualEffectObject("ICFIRSDI","XGPIRM1"))
     PlaySound("EFF_M20")
     Wait(2)
-    ActionOverride("MTRMOD",CreateVisualEffectObject("SPFIREPI","PIRM1MOD"))
-    ActionOverride("MTRMOD",CreateVisualEffectObject("SPFIREPI","PIRM2MOD"))
-    ActionOverride("MTRMOD",CreateVisualEffectObject("SPFIREPI","PIRM3MOD"))
+    ActionOverride("XGMTR",CreateVisualEffectObject("SPFIREPI","XGPIRM1"))
+    ActionOverride("XGMTR",CreateVisualEffectObject("SPFIREPI","XGPIRM2"))
+    ActionOverride("XGMTR",CreateVisualEffectObject("SPFIREPI","XGPIRM3"))
     PlaySound("EFF_M13")
     Wait(6)
     CreateCreature("AMNG1",[1720.831],0)  // ~Амнский солдат~
     CreateCreature("AMNG2",[1765.866],0)  // ~Амнский солдат~
-    ActionOverride("MTRMOD",MoveToPoint([1903.640]))
+    ActionOverride("XGMTR",MoveToPoint([1903.640]))
     ActionOverride("AMNG1",MoveToPoint([1933.667]))
     ActionOverride("AMNG2",MoveToPoint([1970.699]))
     Wait(6)
@@ -46,13 +46,13 @@ THEN
     Wait(5)
     DisplayStringHead(Player1,@3)  // @3
     Wait(5)
-    DisplayStringHead("MTRMOD",@4)  // @4
+    DisplayStringHead("XGMTR",@4)  // @4
     Wait(8)
     DisplayStringHead(Player1,@5)  // @5
     Wait(5)
-    DisplayStringHead("MTRMOD",@6)  // @6
+    DisplayStringHead("XGMTR",@6)  // @6
     Wait(8)
-    DisplayStringHead("MTRMOD",@7)  // @7
+    DisplayStringHead("XGMTR",@7)  // @7
     Wait(5)
     GiveItemCreate("MISC07",Player1,6000,0,0)  // ~Золотой~
     GiveItemCreate("MS01",Player1,0,0,0)  // ~Вышибала+3~

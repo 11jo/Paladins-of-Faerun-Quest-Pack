@@ -1,4 +1,4 @@
-BEGIN ~DWQMOD~
+BEGIN ~XGdwq~
 
 IF ~True()
 NumTimesTalkedTo(0)~ THEN BEGIN 0

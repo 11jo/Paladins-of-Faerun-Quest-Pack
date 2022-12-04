@@ -1,6 +1,6 @@
-BEGIN ~MYESMOD~
+BEGIN ~XGMYES~
 
-IF ~Global("s#MYESMOD","GLOBAL",0)~ THEN BEGIN 0
+IF ~Global("s#XGMYES","GLOBAL",0)~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
 END
@@ -27,7 +27,7 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @10
-  IF ~~ THEN DO ~SetGlobal("s#MYESMOD","GLOBAL",1)
+  IF ~~ THEN DO ~SetGlobal("s#XGMYES","GLOBAL",1)
 ActionOverride(Player2,LeaveAreaLUA("PF0029","",[1348.533],0))
 ActionOverride(Player1,LeaveAreaLUA("PF0029","",[1396.542],0))
 ActionOverride(Player3,LeaveAreaLUA("PF0029","",[1460.557],0))
@@ -36,14 +36,14 @@ ActionOverride(Player5,LeaveAreaLUA("PF0029","",[1408.619],0))
 ActionOverride(Player6,LeaveAreaLUA("PF0029","",[1354.606],0))~ EXIT
 END
 
-IF ~Global("s#MYESMOD","GLOBAL",1)
-OR(2) !Dead("ESDLMOD")  !Dead("SARMOD")~ THEN BEGIN 6
+IF ~Global("s#XGMYES","GLOBAL",1)
+OR(2) !Dead("XGESDL")  !Dead("XGSAR")~ THEN BEGIN 6
   SAY @11
   IF ~~ THEN EXIT
 END
 
-IF ~Global("s#MYESMOD","GLOBAL",1)
-OR(2) Dead("ESDLMOD")  Dead("SARMOD")~ THEN BEGIN 7
+IF ~Global("s#XGMYES","GLOBAL",1)
+OR(2) Dead("XGESDL")  Dead("XGSAR")~ THEN BEGIN 7
   SAY @12
   IF ~~ THEN REPLY @13 GOTO 8
 END
@@ -60,12 +60,12 @@ END
 
 IF ~~ THEN BEGIN 10
   SAY @18
-  IF ~~ THEN REPLY @19 DO ~SetGlobal("s#MYESMOD","GLOBAL",2)
+  IF ~~ THEN REPLY @19 DO ~SetGlobal("s#XGMYES","GLOBAL",2)
 RevealAreaOnMap("PF0065")~ 
 UNSOLVED_JOURNAL @20 EXIT
 END
 
-IF ~Global("s#MYESMOD","GLOBAL",2)~ THEN BEGIN 11
+IF ~Global("s#XGMYES","GLOBAL",2)~ THEN BEGIN 11
   SAY @21
   IF ~~ THEN EXIT
 END

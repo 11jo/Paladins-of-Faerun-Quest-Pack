@@ -1,4 +1,4 @@
-BEGIN ~LOVT1MOD~
+BEGIN ~XGLOVT1~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @0

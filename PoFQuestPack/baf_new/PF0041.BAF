@@ -9,38 +9,38 @@ THEN
     HideGUI()
     Explore()
     Wait(4)
-    CreateCreature("PRINMOD",[2391.31],0)  // ~Принцесса~
-    ActionOverride("PRINMOD",MoveToPoint([2249.207]))
+    CreateCreature("XGprin",[2391.31],0)  // ~Принцесса~
+    ActionOverride("XGprin",MoveToPoint([2249.207]))
     Wait(6)
-    DisplayStringHead("PRINMOD",@0)  
-    ActionOverride("PRINMOD",MoveToPoint([1412.614]))
+    DisplayStringHead("XGprin",@0)  
+    ActionOverride("XGprin",MoveToPoint([1412.614]))
     Wait(8)
-    ActionOverride("PRINMOD",DestroySelf())
+    ActionOverride("XGprin",DestroySelf())
     Wait(6)
     DisplayStringHead(Player1,@1)  
     Wait(4)
-    DisplayStringHead("NOREQMOD",@2)  
+    DisplayStringHead("XGnoreq",@2)  
     Wait(4)
-    ActionOverride("NOREQMOD",Attack(Player1))
-    ActionOverride("TRBAQMOD",Attack(Player1))
+    ActionOverride("XGnoreq",Attack(Player1))
+    ActionOverride("XGtrbaq",Attack(Player1))
     UnhideGUI()
     EndCutSceneMode()
 END
 
 IF
   Global("Reveal0041","PF0041",0)
-  Dead("NOREQMOD")  // ~Северянин~
-  Dead("TRBAQMOD")  // ~Опытный бандит~
+  Dead("XGnoreq")  // ~Северянин~
+  Dead("XGtrbaq")  // ~Опытный бандит~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0041","PF0041",1)
     StartCutSceneMode()
-    CreateCreature("CLELFMOD",[2030.445],0)  // ~Эльф в темном~
+    CreateCreature("XGclelf",[2030.445],0)  // ~Эльф в темном~
     ActionOverride(Player1,MoveToPoint([1997.423]))
     Wait(8)
-    DisplayStringHead("CLELFMOD",@3)  
+    DisplayStringHead("XGclelf",@3)  
     Wait(7)
-    ForceSpell("CLELFMOD",DRYAD_TELEPORT)
+    ForceSpell("XGclelf",DRYAD_TELEPORT)
     EndCutSceneMode()
 END
 

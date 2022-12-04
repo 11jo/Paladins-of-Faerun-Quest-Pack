@@ -2,12 +2,12 @@ IF
   OnCreation()
 THEN
   RESPONSE #100
-    CreateCreature("SARWMOD",[751.425],10)  // ~Äגאנפ~
-    CreateCreature("SARWMOD",[692.454],10)  // ~Äגאנפ~
-    CreateCreature("SARWMOD",[613.440],10)  // ~Äגאנפ~
-    CreateCreature("SARWMOD",[496.464],10)  // ~Äגאנפ~
-    CreateCreature("SARWMOD",[356.402],10)  // ~Äגאנפ~
-    CreateCreature("SARWMOD",[187.426],10)  // ~Äגאנפ~
-    CreateCreature("SARWMOD",[89.391],10)  // ~Äגאנפ~
+    CreateCreature("XGsarw",[751.425],10)  // ~Äגאנפ~
+    CreateCreature("XGsarw",[692.454],10)  // ~Äגאנפ~
+    CreateCreature("XGsarw",[613.440],10)  // ~Äגאנפ~
+    CreateCreature("XGsarw",[496.464],10)  // ~Äגאנפ~
+    CreateCreature("XGsarw",[356.402],10)  // ~Äגאנפ~
+    CreateCreature("XGsarw",[187.426],10)  // ~Äגאנפ~
+    CreateCreature("XGsarw",[89.391],10)  // ~Äגאנפ~
 END
 

@@ -1,4 +1,4 @@
-BEGIN ~MOHDMOD~
+BEGIN ~XGMOHD~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
@@ -8,6 +8,6 @@ ActionOverride(Player3,LeaveAreaLUA("PF1234","",[1059.956],2))
 ActionOverride(Player4,LeaveAreaLUA("PF1234","",[1017.930],2))
 ActionOverride(Player5,LeaveAreaLUA("PF1234","",[1014.895],2))
 ActionOverride(Player6,LeaveAreaLUA("PF1234","",[1211.1006],2))
-ActionOverride("MOHDMOD",EscapeArea())
+ActionOverride("XGMOHD",EscapeArea())
 ~ EXIT
 END

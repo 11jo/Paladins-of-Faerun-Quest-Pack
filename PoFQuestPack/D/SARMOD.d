@@ -1,4 +1,4 @@
-BEGIN ~SARMOD~
+BEGIN ~XGSAR~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @0
@@ -35,11 +35,11 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @16
-  IF ~~ THEN DO ~DisplayStringHead("SARMOD",@17)
+  IF ~~ THEN DO ~DisplayStringHead("XGSAR",@17)
 Wait(6)
 ScreenShake([20.20],3)
-CreateCreature("ESDLMOD",[2189.2476],0)
+CreateCreature("XGESDL",[2189.2476],0)
 Wait(1)
-ActionOverride("SARMOD",Attack("ESDLMOD"))
+ActionOverride("XGSAR",Attack("XGESDL"))
 EraseJournalEntry(@11)~ SOLVED_JOURNAL @18 EXIT
 END

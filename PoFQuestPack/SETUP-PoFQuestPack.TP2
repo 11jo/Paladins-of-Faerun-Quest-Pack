@@ -57,2994 +57,2994 @@ COPY_EXISTING ~AR1005.are~ ~override~
 // Setup  Actors
 //////////////////////////////////
 
-COPY ~PoFQuestPack/Actors/AAMOD.CRE~         ~override/AAMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGAA.CRE~         ~override/XGAA.CRE~          
   SAY NAME1 @2 
   SAY NAME2 @3 
 
-COPY ~PoFQuestPack/Actors/ADEPTMOD.CRE~      ~override/ADEPTMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGADEPT.CRE~      ~override/XGADEPT.CRE~       
   SAY NAME1 @4 
   SAY NAME2 @4 
 
-COPY ~PoFQuestPack/Actors/ADOBMOD.CRE~       ~override/ADOBMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGADOB.CRE~       ~override/XGADOB.CRE~        
   SAY NAME1 @5 
   SAY NAME2 @5 
 
-COPY ~PoFQuestPack/Actors/ADVMOD.CRE~        ~override/ADVMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGADV.CRE~        ~override/XGADV.CRE~         
   SAY NAME1 @6 
   SAY NAME2 @6 
 
-COPY ~PoFQuestPack/Actors/AJANMOD.CRE~       ~override/AJANMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGAJAN.CRE~       ~override/XGAJAN.CRE~        
 
-COPY ~PoFQuestPack/Actors/AJANMODB.CRE~      ~override/AJANMODB.CRE~       
+COPY ~PoFQuestPack/Actors/XGAJANB.CRE~      ~override/XGAJANB.CRE~       
   SAY NAME1 @7 
   SAY NAME2 @8 
 
-COPY ~PoFQuestPack/Actors/AJANMODC.CRE~      ~override/AJANMODC.CRE~       
+COPY ~PoFQuestPack/Actors/XGAJANC.CRE~      ~override/XGAJANC.CRE~       
 
-COPY ~PoFQuestPack/Actors/ALASMOD.CRE~       ~override/ALASMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGALAS.CRE~       ~override/XGALAS.CRE~        
   SAY NAME1 @9 
   SAY NAME2 @9 
 
-COPY ~PoFQuestPack/Actors/AMAGMOD.CRE~       ~override/AMAGMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGAMAG.CRE~       ~override/XGAMAG.CRE~        
   SAY NAME1 @10 
   SAY NAME2 @10 
 
-COPY ~PoFQuestPack/Actors/AMNA1MOD.CRE~      ~override/AMNA1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGAMNA1.CRE~      ~override/XGAMNA1.CRE~       
   SAY NAME1 @11 
   SAY NAME2 @11 
 
-COPY ~PoFQuestPack/Actors/AMNAMOD.CRE~       ~override/AMNAMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGAMNA.CRE~       ~override/XGAMNA.CRE~        
   SAY NAME1 @12 
   SAY NAME2 @12 
 
-COPY ~PoFQuestPack/Actors/AMNCCMOD.CRE~      ~override/AMNCCMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGAMNCC.CRE~      ~override/XGAMNCC.CRE~       
   SAY NAME1 @13 
   SAY NAME2 @13 
 
-COPY ~PoFQuestPack/Actors/AMNCMOD.CRE~       ~override/AMNCMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGAMNC.CRE~       ~override/XGAMNC.CRE~        
   SAY NAME1 @14 
   SAY NAME2 @14 
 
-COPY ~PoFQuestPack/Actors/AMNKMOD.CRE~       ~override/AMNKMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGAMNK.CRE~       ~override/XGAMNK.CRE~        
   SAY NAME1 @15 
   SAY NAME2 @15 
 
-COPY ~PoFQuestPack/Actors/AMNLMOD.CRE~       ~override/AMNLMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGAMNL.CRE~       ~override/XGAMNL.CRE~        
   SAY NAME1 @16 
   SAY NAME2 @16 
 
-COPY ~PoFQuestPack/Actors/AMNMOD.CRE~        ~override/AMNMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGAMN.CRE~        ~override/XGAMN.CRE~         
   SAY NAME1 @17 
   SAY NAME2 @17 
 
-COPY ~PoFQuestPack/Actors/AMNSEMOD.CRE~      ~override/AMNSEMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGAMNSE.CRE~      ~override/XGAMNSE.CRE~       
 
-COPY ~PoFQuestPack/Actors/AMNSMOD.CRE~       ~override/AMNSMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGAMNS.CRE~       ~override/XGAMNS.CRE~        
 
-COPY ~PoFQuestPack/Actors/AMOMOD.CRE~        ~override/AMOMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGAMO.CRE~        ~override/XGAMO.CRE~         
   SAY NAME1 @18 
   SAY NAME2 @18 
 
-COPY ~PoFQuestPack/Actors/APRMOD.CRE~        ~override/APRMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGAPR.CRE~        ~override/XGAPR.CRE~         
 
-COPY ~PoFQuestPack/Actors/ARAGORN.CRE~       ~override/ARAGORN.CRE~        
+COPY ~PoFQuestPack/Actors/XGARAG.CRE~       ~override/XGARAG.CRE~        
   SAY NAME1 @19 
   SAY NAME2 @19 
 
-COPY ~PoFQuestPack/Actors/ARANLMOD.CRE~      ~override/ARANLMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGARANL.CRE~      ~override/XGARANL.CRE~       
 
-COPY ~PoFQuestPack/Actors/ARANMOD.CRE~       ~override/ARANMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGARAN.CRE~       ~override/XGARAN.CRE~        
   SAY NAME1 @20 
   SAY NAME2 @20 
 
-COPY ~PoFQuestPack/Actors/ARCMAMOD.CRE~      ~override/ARCMAMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGARCMA.CRE~      ~override/XGARCMA.CRE~       
   SAY NAME1 @21 
   SAY NAME2 @21 
 
-COPY ~PoFQuestPack/Actors/ARDESMOD.CRE~      ~override/ARDESMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGARDES.CRE~      ~override/XGARDES.CRE~       
   SAY NAME1 @24 
   SAY NAME2 @25 
 
-COPY ~PoFQuestPack/Actors/ARIXMOD.CRE~       ~override/ARIXMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGARIX.CRE~       ~override/XGARIX.CRE~        
   SAY NAME1 @26 
   SAY NAME2 @26 
 
-COPY ~PoFQuestPack/Actors/ARJUNMOD.CRE~      ~override/ARJUNMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGARJUN.CRE~      ~override/XGARJUN.CRE~       
   SAY NAME1 @27 
   SAY NAME2 @27 
 
-COPY ~PoFQuestPack/Actors/ARTBGMOD.CRE~      ~override/ARTBGMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGARTBG.CRE~      ~override/XGARTBG.CRE~       
   SAY NAME1 @28 
   SAY NAME2 @28 
 
-COPY ~PoFQuestPack/Actors/ARTEMIS1.CRE~      ~override/ARTEMIS1.CRE~       
+COPY ~PoFQuestPack/Actors/XGARTE1.CRE~      ~override/XGARTE1.CRE~       
   SAY NAME1 @28 
   SAY NAME2 @28 
 
-COPY ~PoFQuestPack/Actors/ARTEMIS2.CRE~      ~override/ARTEMIS2.CRE~       
+COPY ~PoFQuestPack/Actors/XGARTE2.CRE~      ~override/XGARTE2.CRE~       
   SAY NAME1 @28 
   SAY NAME2 @28 
 
-COPY ~PoFQuestPack/Actors/ARTENMOD.CRE~      ~override/ARTENMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGARTEN.CRE~      ~override/XGARTEN.CRE~       
   SAY NAME1 @29 
   SAY NAME2 @29 
 
-COPY ~PoFQuestPack/Actors/ARUNDMOD.CRE~      ~override/ARUNDMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGARUND.CRE~      ~override/XGARUND.CRE~       
   SAY NAME1 @30 
   SAY NAME2 @30 
 
-COPY ~PoFQuestPack/Actors/ARUNMOD.CRE~       ~override/ARUNMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGARUN.CRE~       ~override/XGARUN.CRE~        
   SAY NAME1 @31 
   SAY NAME2 @31 
 
-COPY ~PoFQuestPack/Actors/ASS1MOD.CRE~       ~override/ASS1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGASS1.CRE~       ~override/XGASS1.CRE~        
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~PoFQuestPack/Actors/ASS2MOD.CRE~       ~override/ASS2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGASS2.CRE~       ~override/XGASS2.CRE~        
   SAY NAME1 @33 
   SAY NAME2 @33 
 
-COPY ~PoFQuestPack/Actors/ASS3MOD.CRE~       ~override/ASS3MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGASS3.CRE~       ~override/XGASS3.CRE~        
   SAY NAME1 @33 
   SAY NAME2 @33 
 
-COPY ~PoFQuestPack/Actors/ASSBGMOD.CRE~      ~override/ASSBGMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGASSBG.CRE~      ~override/XGASSBG.CRE~       
 
-COPY ~PoFQuestPack/Actors/ASSFMOD.CRE~       ~override/ASSFMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGASSF.CRE~       ~override/XGASSF.CRE~        
 
-COPY ~PoFQuestPack/Actors/ATKIMOD.CRE~       ~override/ATKIMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGATKI.CRE~       ~override/XGATKI.CRE~        
   SAY NAME1 @34 
   SAY NAME2 @34 
 
-COPY ~PoFQuestPack/Actors/ATKIMOD1.CRE~      ~override/ATKIMOD1.CRE~       
+COPY ~PoFQuestPack/Actors/XGATKI1.CRE~      ~override/XGATKI1.CRE~       
   SAY NAME1 @35 
   SAY NAME2 @35 
 
-COPY ~PoFQuestPack/Actors/AUGUSMOD.CRE~      ~override/AUGUSMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGAUGUS.CRE~      ~override/XGAUGUS.CRE~       
   SAY NAME1 @36 
   SAY NAME2 @36 
 
-COPY ~PoFQuestPack/Actors/BACTWMOD.CRE~      ~override/BACTWMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBACTW.CRE~      ~override/XGBACTW.CRE~       
   SAY NAME1 @37 
   SAY NAME2 @37 
 
-COPY ~PoFQuestPack/Actors/BAN1AMOD.CRE~      ~override/BAN1AMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBAN1A.CRE~      ~override/XGBAN1A.CRE~       
   SAY NAME1 @38 
   SAY NAME2 @38 
 
-COPY ~PoFQuestPack/Actors/BAN1BMOD.CRE~      ~override/BAN1BMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBAN1B.CRE~      ~override/XGBAN1B.CRE~       
   SAY NAME1 @38 
   SAY NAME2 @38 
 
-COPY ~PoFQuestPack/Actors/BAN1MOD.CRE~       ~override/BAN1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBAN1.CRE~       ~override/XGBAN1.CRE~        
   SAY NAME1 @38 
   SAY NAME2 @38 
 
-COPY ~PoFQuestPack/Actors/BAN2MOD.CRE~       ~override/BAN2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBAN2.CRE~       ~override/XGBAN2.CRE~        
   SAY NAME1 @39 
   SAY NAME2 @39 
 
-COPY ~PoFQuestPack/Actors/BAN3MOD.CRE~       ~override/BAN3MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBAN3.CRE~       ~override/XGBAN3.CRE~        
   SAY NAME1 @40 
   SAY NAME2 @40 
 
-COPY ~PoFQuestPack/Actors/BAR1MOD.CRE~       ~override/BAR1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGbar1.CRE~       ~override/XGbar1.CRE~        
   SAY NAME1 @41 
 
-COPY ~PoFQuestPack/Actors/BARB1MOD.CRE~      ~override/BARB1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBARB1.CRE~      ~override/XGBARB1.CRE~       
   SAY NAME1 @42 
   SAY NAME2 @42 
 
-COPY ~PoFQuestPack/Actors/BARBAMOD.CRE~      ~override/BARBAMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBARBA.CRE~      ~override/XGBARBA.CRE~       
 
-COPY ~PoFQuestPack/Actors/BARBAROS.CRE~      ~override/BARBAROS.CRE~       
+COPY ~PoFQuestPack/Actors/XGBAROS.CRE~      ~override/XGBAROS.CRE~       
   SAY NAME1 @42 
   SAY NAME2 @42 
 
-COPY ~PoFQuestPack/Actors/BARBMOD.CRE~       ~override/BARBMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBARB.CRE~       ~override/XGBARB.CRE~        
   SAY NAME1 @42 
   SAY NAME2 @42 
 
-COPY ~PoFQuestPack/Actors/BARDMOD.CRE~       ~override/BARDMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBARD.CRE~       ~override/XGBARD.CRE~        
   SAY NAME1 @43 
   SAY NAME2 @43 
 
-COPY ~PoFQuestPack/Actors/BARFMOD.CRE~       ~override/BARFMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBARF.CRE~       ~override/XGBARF.CRE~        
 
-COPY ~PoFQuestPack/Actors/BARGGMOD.CRE~      ~override/BARGGMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBARGG.CRE~      ~override/XGBARGG.CRE~       
   SAY NAME1 @44 
   SAY NAME2 @45 
 
-COPY ~PoFQuestPack/Actors/BARGMOD.CRE~       ~override/BARGMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBARG.CRE~       ~override/XGBARG.CRE~        
   SAY NAME1 @46 
   SAY NAME2 @46 
 
-COPY ~PoFQuestPack/Actors/BERMOD.CRE~        ~override/BERMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGBER.CRE~        ~override/XGBER.CRE~         
   SAY NAME1 @47 
   SAY NAME2 @47 
 
-COPY ~PoFQuestPack/Actors/BG1MOD.CRE~        ~override/BG1MOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGBG1.CRE~        ~override/XGBG1.CRE~         
 
-COPY ~PoFQuestPack/Actors/BGCGMOD.CRE~       ~override/BGCGMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBGCG.CRE~       ~override/XGBGCG.CRE~        
   SAY NAME1 @48 
 
-COPY ~PoFQuestPack/Actors/BGGMOD.CRE~        ~override/BGGMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGBGG.CRE~        ~override/XGBGG.CRE~         
 
-COPY ~PoFQuestPack/Actors/BGMERMOD.CRE~      ~override/BGMERMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBGMER.CRE~      ~override/XGBGMER.CRE~       
 
-COPY ~PoFQuestPack/Actors/BGONMOD.CRE~       ~override/BGONMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBGON.CRE~       ~override/XGBGON.CRE~        
   SAY NAME1 @49 
   SAY NAME2 @49 
 
-COPY ~PoFQuestPack/Actors/BGPS1MOD.CRE~      ~override/BGPS1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBGPS1.CRE~      ~override/XGBGPS1.CRE~       
 
-COPY ~PoFQuestPack/Actors/BGPS2MOD.CRE~      ~override/BGPS2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBGPS2.CRE~      ~override/XGBGPS2.CRE~       
 
-COPY ~PoFQuestPack/Actors/BGPS3MOD.CRE~      ~override/BGPS3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBGPS3.CRE~      ~override/XGBGPS3.CRE~       
 
-COPY ~PoFQuestPack/Actors/BH1MOD.CRE~        ~override/BH1MOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGBH1.CRE~        ~override/XGBH1.CRE~         
   SAY NAME1 @50 
   SAY NAME2 @50 
 
-COPY ~PoFQuestPack/Actors/BHCMOD.CRE~        ~override/BHCMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGBHC.CRE~        ~override/XGBHC.CRE~         
   SAY NAME1 @51 
   SAY NAME2 @51 
 
-COPY ~PoFQuestPack/Actors/BHMOD.CRE~         ~override/BHMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGBH.CRE~         ~override/XGBH.CRE~          
   SAY NAME1 @50 
   SAY NAME2 @50 
 
-COPY ~PoFQuestPack/Actors/BHN1MOD.CRE~       ~override/BHN1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBHN1.CRE~       ~override/XGBHN1.CRE~        
   SAY NAME1 @50 
   SAY NAME2 @50 
 
-COPY ~PoFQuestPack/Actors/BHNMOD.CRE~        ~override/BHNMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGBHN.CRE~        ~override/XGBHN.CRE~         
   SAY NAME1 @50 
   SAY NAME2 @50 
 
-COPY ~PoFQuestPack/Actors/BLACKMOD.CRE~      ~override/BLACKMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBLACK.CRE~      ~override/XGBLACK.CRE~       
 
-COPY ~PoFQuestPack/Actors/BLCITMOD.CRE~      ~override/BLCITMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBLCIT.CRE~      ~override/XGBLCIT.CRE~       
   SAY NAME1 @52 
   SAY NAME2 @52 
 
-COPY ~PoFQuestPack/Actors/BLMAJMOD.CRE~      ~override/BLMAJMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBLMAJ.CRE~      ~override/XGBLMAJ.CRE~       
   SAY NAME1 @53 
   SAY NAME2 @53 
 
-COPY ~PoFQuestPack/Actors/BLVMMOD.CRE~       ~override/BLVMMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBLVM.CRE~       ~override/XGBLVM.CRE~        
   SAY NAME1 @54 
   SAY NAME2 @54 
 
-COPY ~PoFQuestPack/Actors/BLWIMOD.CRE~       ~override/BLWIMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBLWI.CRE~       ~override/XGBLWI.CRE~        
   SAY NAME1 @55 
   SAY NAME2 @55 
 
-COPY ~PoFQuestPack/Actors/BMT1MOD.CRE~       ~override/BMT1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBMT1.CRE~       ~override/XGBMT1.CRE~        
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~PoFQuestPack/Actors/BMT2MOD.CRE~       ~override/BMT2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBMT2.CRE~       ~override/XGBMT2.CRE~        
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~PoFQuestPack/Actors/BMT3MOD.CRE~       ~override/BMT3MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBMT3.CRE~       ~override/XGBMT3.CRE~        
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~PoFQuestPack/Actors/BMTMOD.CRE~        ~override/BMTMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGBMT.CRE~        ~override/XGBMT.CRE~         
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~PoFQuestPack/Actors/BMTN1MOD.CRE~      ~override/BMTN1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBMTN1.CRE~      ~override/XGBMTN1.CRE~       
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~PoFQuestPack/Actors/BMTN2MOD.CRE~      ~override/BMTN2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBMTN2.CRE~      ~override/XGBMTN2.CRE~       
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~PoFQuestPack/Actors/BMTN3MOD.CRE~      ~override/BMTN3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBMTN3.CRE~      ~override/XGBMTN3.CRE~       
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~PoFQuestPack/Actors/BMTNMOD.CRE~       ~override/BMTNMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBMTN.CRE~       ~override/XGBMTN.CRE~        
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~PoFQuestPack/Actors/BODSMOD.CRE~       ~override/BODSMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBODS.CRE~       ~override/XGBODS.CRE~        
   SAY NAME1 @56 
   SAY NAME2 @56 
 
-COPY ~PoFQuestPack/Actors/BOYMOD.CRE~        ~override/BOYMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGBOY.CRE~        ~override/XGBOY.CRE~         
 
-COPY ~PoFQuestPack/Actors/BRMAYMOD.CRE~      ~override/BRMAYMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBRMAY.CRE~      ~override/XGBRMAY.CRE~       
   SAY NAME1 @57 
   SAY NAME2 @57 
 
-COPY ~PoFQuestPack/Actors/BRMILMOD.CRE~      ~override/BRMILMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBRMIL.CRE~      ~override/XGBRMIL.CRE~       
   SAY NAME1 @58 
   SAY NAME2 @58 
 
-COPY ~PoFQuestPack/Actors/BRMOCMOD.CRE~      ~override/BRMOCMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBRMOC.CRE~      ~override/XGBRMOC.CRE~       
   SAY NAME1 @59 
   SAY NAME2 @59 
 
-COPY ~PoFQuestPack/Actors/BRMOMOD.CRE~       ~override/BRMOMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGBRMO.CRE~       ~override/XGBRMO.CRE~        
   SAY NAME1 @60 
   SAY NAME2 @60 
 
-COPY ~PoFQuestPack/Actors/brumod.cre~        ~override/brumod.cre~         
+COPY ~PoFQuestPack/Actors/XGbru.cre~        ~override/XGbru.cre~         
 
-COPY ~PoFQuestPack/Actors/bshpmod.cre~       ~override/bshpmod.cre~        
+COPY ~PoFQuestPack/Actors/XGbshp.cre~       ~override/XGbshp.cre~        
 
-COPY ~PoFQuestPack/Actors/BSMN1MOD.CRE~      ~override/BSMN1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBSMN1.CRE~      ~override/XGBSMN1.CRE~       
 
-COPY ~PoFQuestPack/Actors/BSMSEMOD.CRE~      ~override/BSMSEMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBSMSE.CRE~      ~override/XGBSMSE.CRE~       
 
-COPY ~PoFQuestPack/Actors/BSMSNMOD.CRE~      ~override/BSMSNMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGBSMSN.CRE~      ~override/XGBSMSN.CRE~       
 
-COPY ~PoFQuestPack/Actors/CADEPMOD.CRE~      ~override/CADEPMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGCADEP.CRE~      ~override/XGCADEP.CRE~       
   SAY NAME1 @61 
   SAY NAME2 @61 
 
-COPY ~PoFQuestPack/Actors/CADP1MOD.CRE~      ~override/CADP1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGCADP1.CRE~      ~override/XGCADP1.CRE~       
   SAY NAME1 @61 
   SAY NAME2 @61 
 
-COPY ~PoFQuestPack/Actors/CADP2MOD.CRE~      ~override/CADP2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGCADP2.CRE~      ~override/XGCADP2.CRE~       
   SAY NAME1 @61 
   SAY NAME2 @61 
 
-COPY ~PoFQuestPack/Actors/CADP3MOD.CRE~      ~override/CADP3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGCADP3.CRE~      ~override/XGCADP3.CRE~       
   SAY NAME1 @61 
   SAY NAME2 @61 
 
-COPY ~PoFQuestPack/Actors/CADP4MOD.CRE~      ~override/CADP4MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGCADP4.CRE~      ~override/XGCADP4.CRE~       
   SAY NAME1 @61 
   SAY NAME2 @61 
 
-COPY ~PoFQuestPack/Actors/CADP5MOD.CRE~      ~override/CADP5MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGCADP5.CRE~      ~override/XGCADP5.CRE~       
   SAY NAME1 @61 
   SAY NAME2 @61 
 
-COPY ~PoFQuestPack/Actors/CAPRMOD.CRE~       ~override/CAPRMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGCAPR.CRE~       ~override/XGCAPR.CRE~        
   SAY NAME1 @62 
   SAY NAME2 @62 
 
-COPY ~PoFQuestPack/Actors/CAPRMOD1.CRE~      ~override/CAPRMOD1.CRE~       
+COPY ~PoFQuestPack/Actors/XGCAPR1.CRE~      ~override/XGCAPR1.CRE~       
   SAY NAME1 @62 
   SAY NAME2 @62 
 
-COPY ~PoFQuestPack/Actors/CAPRMOD2.CRE~      ~override/CAPRMOD2.CRE~       
+COPY ~PoFQuestPack/Actors/XGCAPR2.CRE~      ~override/XGCAPR2.CRE~       
   SAY NAME1 @62 
   SAY NAME2 @62 
 
-COPY ~PoFQuestPack/Actors/CAPRMOD3.CRE~      ~override/CAPRMOD3.CRE~       
+COPY ~PoFQuestPack/Actors/XGCAPR3.CRE~      ~override/XGCAPR3.CRE~       
   SAY NAME1 @62 
   SAY NAME2 @62 
 
-COPY ~PoFQuestPack/Actors/CAPRMOD4.CRE~      ~override/CAPRMOD4.CRE~       
+COPY ~PoFQuestPack/Actors/XGCAPR4.CRE~      ~override/XGCAPR4.CRE~       
   SAY NAME1 @62 
   SAY NAME2 @62 
 
-COPY ~PoFQuestPack/Actors/CARMOD.CRE~        ~override/CARMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGCAR.CRE~        ~override/XGCAR.CRE~         
   SAY NAME1 @10 
   SAY NAME2 @10 
 
-COPY ~PoFQuestPack/Actors/CAT1MOD.CRE~       ~override/CAT1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGCAT1.CRE~       ~override/XGCAT1.CRE~        
 
-COPY ~PoFQuestPack/Actors/CAT2MOD.CRE~       ~override/CAT2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGCAT2.CRE~       ~override/XGCAT2.CRE~        
 
-COPY ~PoFQuestPack/Actors/CATNMOD.CRE~       ~override/CATNMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGCATN.CRE~       ~override/XGCATN.CRE~        
 
-COPY ~PoFQuestPack/Actors/cattmod.cre~       ~override/cattmod.cre~        
+COPY ~PoFQuestPack/Actors/XGcatt.cre~       ~override/XGcatt.cre~        
 
-COPY ~PoFQuestPack/Actors/CATTY.CRE~         ~override/CATTY.CRE~          
+COPY ~PoFQuestPack/Actors/XGCATTY.CRE~         ~override/XGCATTY.CRE~          
   SAY NAME1 @63 
   SAY NAME2 @63 
 
-COPY ~PoFQuestPack/Actors/cdxveorb.cre~      ~override/cdxveorb.cre~       
+COPY ~PoFQuestPack/Actors/XGcdxve.cre~      ~override/XGcdxve.cre~       
 
-COPY ~PoFQuestPack/Actors/CELMMOD.CRE~       ~override/CELMMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGCELM.CRE~       ~override/XGCELM.CRE~        
 
-COPY ~PoFQuestPack/Actors/CGMOD.CRE~         ~override/CGMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGCG.CRE~         ~override/XGCG.CRE~          
 
-COPY ~PoFQuestPack/Actors/chfmod.cre~        ~override/chfmod.cre~         
+COPY ~PoFQuestPack/Actors/XGchf.cre~        ~override/XGchf.cre~         
   SAY NAME1 @64 
   SAY NAME2 @64 
 
-COPY ~PoFQuestPack/Actors/CHGMOD.CRE~        ~override/CHGMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGCHG.CRE~        ~override/XGCHG.CRE~         
   SAY NAME1 @65 
   SAY NAME2 @65 
 
-COPY ~PoFQuestPack/Actors/CIT1MOD.CRE~       ~override/CIT1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGCIT1.CRE~       ~override/XGCIT1.CRE~        
 
-COPY ~PoFQuestPack/Actors/CIT2MOD.CRE~       ~override/CIT2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGCIT2.CRE~       ~override/XGCIT2.CRE~        
 
-COPY ~PoFQuestPack/Actors/CITMOD.CRE~        ~override/CITMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGCIT.CRE~        ~override/XGCIT.CRE~         
   SAY NAME1 @66 
   SAY NAME2 @66 
 
-COPY ~PoFQuestPack/Actors/CLBMOD.CRE~        ~override/CLBMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGCLB.CRE~        ~override/XGCLB.CRE~         
   SAY NAME1 @67 
   SAY NAME2 @67 
 
-COPY ~PoFQuestPack/Actors/clc1mod.cre~       ~override/clc1mod.cre~        
+COPY ~PoFQuestPack/Actors/XGclc1.cre~       ~override/XGclc1.cre~        
   SAY NAME1 @68 
   SAY NAME2 @68 
 
-COPY ~PoFQuestPack/Actors/clc2mod.cre~       ~override/clc2mod.cre~        
+COPY ~PoFQuestPack/Actors/XGclc2.cre~       ~override/XGclc2.cre~        
   SAY NAME1 @69 
   SAY NAME2 @69 
 
-COPY ~PoFQuestPack/Actors/clc3mod.cre~       ~override/clc3mod.cre~        
+COPY ~PoFQuestPack/Actors/XGclc3.cre~       ~override/XGclc3.cre~        
   SAY NAME1 @69 
   SAY NAME2 @69 
 
-COPY ~PoFQuestPack/Actors/clc4mod.cre~       ~override/clc4mod.cre~        
+COPY ~PoFQuestPack/Actors/XGclc4.cre~       ~override/XGclc4.cre~        
   SAY NAME1 @69 
   SAY NAME2 @69 
 
-COPY ~PoFQuestPack/Actors/clcmod.cre~        ~override/clcmod.cre~         
+COPY ~PoFQuestPack/Actors/XGclc.cre~        ~override/XGclc.cre~         
   SAY NAME1 @68 
   SAY NAME2 @68 
 
-COPY ~PoFQuestPack/Actors/clcumod.cre~       ~override/clcumod.cre~        
+COPY ~PoFQuestPack/Actors/XGclcu.cre~       ~override/XGclcu.cre~        
   SAY NAME1 @64 
   SAY NAME2 @64 
 
-COPY ~PoFQuestPack/Actors/clcwmod.cre~       ~override/clcwmod.cre~        
+COPY ~PoFQuestPack/Actors/XGclcw.cre~       ~override/XGclcw.cre~        
   SAY NAME1 @64 
   SAY NAME2 @64 
 
-COPY ~PoFQuestPack/Actors/clelfmod.cre~      ~override/clelfmod.cre~       
+COPY ~PoFQuestPack/Actors/XGclelf.cre~      ~override/XGclelf.cre~       
   SAY NAME1 @70 
   SAY NAME2 @70 
 
-COPY ~PoFQuestPack/Actors/clevmod.cre~       ~override/clevmod.cre~        
+COPY ~PoFQuestPack/Actors/XGclev.cre~       ~override/XGclev.cre~        
   SAY NAME1 @70 
   SAY NAME2 @70 
 
-COPY ~PoFQuestPack/Actors/CLMOD.CRE~         ~override/CLMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGCL.CRE~         ~override/XGCL.CRE~          
   SAY NAME1 @71 
   SAY NAME2 @71 
 
-COPY ~PoFQuestPack/Actors/CLPIRMOD.CRE~      ~override/CLPIRMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGCLPIR.CRE~      ~override/XGCLPIR.CRE~       
   SAY NAME1 @72 
   SAY NAME2 @72 
 
-COPY ~PoFQuestPack/Actors/CLPRMOD.CRE~       ~override/CLPRMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGCLPR.CRE~       ~override/XGCLPR.CRE~        
   SAY NAME1 @73 
   SAY NAME2 @73 
 
-COPY ~PoFQuestPack/Actors/clsmod.cre~        ~override/clsmod.cre~         
+COPY ~PoFQuestPack/Actors/XGcls.cre~        ~override/XGcls.cre~         
   SAY NAME1 @74 
   SAY NAME2 @74 
 
-COPY ~PoFQuestPack/Actors/conamod.cre~       ~override/conamod.cre~        
+COPY ~PoFQuestPack/Actors/XGcona.cre~       ~override/XGcona.cre~        
 
-COPY ~PoFQuestPack/Actors/CONCMOD.CRE~       ~override/CONCMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGCONC.CRE~       ~override/XGCONC.CRE~        
   SAY NAME1 @75 
   SAY NAME2 @75 
 
-COPY ~PoFQuestPack/Actors/CONG1MOD.CRE~      ~override/CONG1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGCONG1.CRE~      ~override/XGCONG1.CRE~       
   SAY NAME1 @76 
   SAY NAME2 @76 
 
-COPY ~PoFQuestPack/Actors/CONG2MOD.CRE~      ~override/CONG2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGCONG2.CRE~      ~override/XGCONG2.CRE~       
   SAY NAME1 @76 
   SAY NAME2 @76 
 
-COPY ~PoFQuestPack/Actors/CONG3MOD.CRE~      ~override/CONG3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGCONG3.CRE~      ~override/XGCONG3.CRE~       
   SAY NAME1 @76 
   SAY NAME2 @76 
 
-COPY ~PoFQuestPack/Actors/CONG4MOD.CRE~      ~override/CONG4MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGCONG4.CRE~      ~override/XGCONG4.CRE~       
   SAY NAME1 @76 
   SAY NAME2 @76 
 
-COPY ~PoFQuestPack/Actors/CONGMOD.CRE~       ~override/CONGMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGCONG.CRE~       ~override/XGCONG.CRE~        
 
-COPY ~PoFQuestPack/Actors/CONLMOD.CRE~       ~override/CONLMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGCONL.CRE~       ~override/XGCONL.CRE~        
   SAY NAME1 @75 
   SAY NAME2 @75 
 
-COPY ~PoFQuestPack/Actors/CONTMOD.CRE~       ~override/CONTMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGCONT.CRE~       ~override/XGCONT.CRE~        
   SAY NAME1 @75 
   SAY NAME2 @75 
 
-COPY ~PoFQuestPack/Actors/cookmod.cre~       ~override/cookmod.cre~        
+COPY ~PoFQuestPack/Actors/XGcook.cre~       ~override/XGcook.cre~        
   SAY 0xa4 @77 
 
-COPY ~PoFQuestPack/Actors/COW1MOD.CRE~       ~override/COW1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGCOW1.CRE~       ~override/XGCOW1.CRE~        
 
-COPY ~PoFQuestPack/Actors/COW2MOD.CRE~       ~override/COW2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGCOW2.CRE~       ~override/XGCOW2.CRE~        
 
-COPY ~PoFQuestPack/Actors/COW3MOD.CRE~       ~override/COW3MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGCOW3.CRE~       ~override/XGCOW3.CRE~        
 
-COPY ~PoFQuestPack/Actors/COWMOD.CRE~        ~override/COWMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGCOW.CRE~        ~override/XGCOW.CRE~         
 
-COPY ~PoFQuestPack/Actors/CRUMOD.CRE~        ~override/CRUMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGCRU.CRE~        ~override/XGCRU.CRE~         
   SAY NAME1 @78 
   SAY NAME2 @78 
 
-COPY ~PoFQuestPack/Actors/crw1mod.cre~       ~override/crw1mod.cre~        
+COPY ~PoFQuestPack/Actors/XGcrw1.cre~       ~override/XGcrw1.cre~        
 
-COPY ~PoFQuestPack/Actors/crw2mod.cre~       ~override/crw2mod.cre~        
+COPY ~PoFQuestPack/Actors/XGcrw2.cre~       ~override/XGcrw2.cre~        
 
-COPY ~PoFQuestPack/Actors/crw3mod.cre~       ~override/crw3mod.cre~        
+COPY ~PoFQuestPack/Actors/XGcrw3.cre~       ~override/XGcrw3.cre~        
 
-COPY ~PoFQuestPack/Actors/crw4mod.cre~       ~override/crw4mod.cre~        
+COPY ~PoFQuestPack/Actors/XGcrw4.cre~       ~override/XGcrw4.cre~        
 
-COPY ~PoFQuestPack/Actors/crw5mod.cre~       ~override/crw5mod.cre~        
+COPY ~PoFQuestPack/Actors/XGcrw5.cre~       ~override/XGcrw5.cre~        
 
-COPY ~PoFQuestPack/Actors/crw6mod.cre~       ~override/crw6mod.cre~        
+COPY ~PoFQuestPack/Actors/XGcrw6.cre~       ~override/XGcrw6.cre~        
 
-COPY ~PoFQuestPack/Actors/crw7mod.cre~       ~override/crw7mod.cre~        
+COPY ~PoFQuestPack/Actors/XGcrw7.cre~       ~override/XGcrw7.cre~        
 
-COPY ~PoFQuestPack/Actors/crw8mod.cre~       ~override/crw8mod.cre~        
+COPY ~PoFQuestPack/Actors/XGcrw8.cre~       ~override/XGcrw8.cre~        
 
-COPY ~PoFQuestPack/Actors/crw9mod.cre~       ~override/crw9mod.cre~        
+COPY ~PoFQuestPack/Actors/XGcrw9.cre~       ~override/XGcrw9.cre~        
 
-COPY ~PoFQuestPack/Actors/crwmod.cre~        ~override/crwmod.cre~         
+COPY ~PoFQuestPack/Actors/XGcrw.cre~        ~override/XGcrw.cre~         
 
-COPY ~PoFQuestPack/Actors/CVAMPMOD.CRE~      ~override/CVAMPMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGCVAMP.CRE~      ~override/XGCVAMP.CRE~       
   SAY NAME1 @79 
   SAY NAME2 @79 
 
-COPY ~PoFQuestPack/Actors/CYRMOD.CRE~        ~override/CYRMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGCYR.CRE~        ~override/XGCYR.CRE~         
   SAY NAME1 @80 
   SAY NAME2 @80 
 
-COPY ~PoFQuestPack/Actors/d1mod.cre~         ~override/d1mod.cre~          
+COPY ~PoFQuestPack/Actors/XGd1.cre~         ~override/XGd1.cre~          
 
-COPY ~PoFQuestPack/Actors/d2mod.cre~         ~override/d2mod.cre~          
+COPY ~PoFQuestPack/Actors/XGd2.cre~         ~override/XGd2.cre~          
 
-COPY ~PoFQuestPack/Actors/d3mod.cre~         ~override/d3mod.cre~          
+COPY ~PoFQuestPack/Actors/XGd3.cre~         ~override/XGd3.cre~          
 
-COPY ~PoFQuestPack/Actors/d4mod.cre~         ~override/d4mod.cre~          
+COPY ~PoFQuestPack/Actors/XGd4.cre~         ~override/XGd4.cre~          
 
-COPY ~PoFQuestPack/Actors/DBMOD.CRE~         ~override/DBMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGDB.CRE~         ~override/XGDB.CRE~          
   SAY NAME1 @82 
   SAY NAME2 @82 
 
-COPY ~PoFQuestPack/Actors/DCAPMOD.CRE~       ~override/DCAPMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGDCAP.CRE~       ~override/XGDCAP.CRE~        
   SAY NAME1 @61 
   SAY NAME2 @61 
 
-COPY ~PoFQuestPack/Actors/ddrwmod.cre~       ~override/ddrwmod.cre~        
+COPY ~PoFQuestPack/Actors/XGddrw.cre~       ~override/XGddrw.cre~        
 
-COPY ~PoFQuestPack/Actors/DEV1MOD.CRE~       ~override/DEV1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGDEV1.CRE~       ~override/XGDEV1.CRE~        
   SAY NAME1 @84 
   SAY NAME2 @84 
 
-COPY ~PoFQuestPack/Actors/DEV2MOD.CRE~       ~override/DEV2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGDEV2.CRE~       ~override/XGDEV2.CRE~        
   SAY NAME1 @84 
   SAY NAME2 @84 
 
-COPY ~PoFQuestPack/Actors/DEVILMOD.CRE~      ~override/DEVILMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGDEVIL.CRE~      ~override/XGDEVIL.CRE~       
 
-COPY ~PoFQuestPack/Actors/DGMOD.CRE~         ~override/DGMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGDG.CRE~         ~override/XGDG.CRE~          
   SAY NAME1 @85 
   SAY NAME2 @86 
 
-COPY ~PoFQuestPack/Actors/DMERMOD.CRE~       ~override/DMERMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGDMER.CRE~       ~override/XGDMER.CRE~        
   SAY NAME1 @87 
   SAY NAME2 @87 
 
-COPY ~PoFQuestPack/Actors/dmmod.cre~         ~override/dmmod.cre~          
+COPY ~PoFQuestPack/Actors/XGdm.cre~         ~override/XGdm.cre~          
   SAY NAME1 @88 
   SAY NAME2 @88 
 
-COPY ~PoFQuestPack/Actors/DORREMOD.CRE~      ~override/DORREMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGDORRE.CRE~      ~override/XGDORRE.CRE~       
   SAY NAME1 @89 
   SAY NAME2 @89 
 
-COPY ~PoFQuestPack/Actors/dr01mod.cre~       ~override/dr01mod.cre~        
+COPY ~PoFQuestPack/Actors/XGdr01.cre~       ~override/XGdr01.cre~        
 
-COPY ~PoFQuestPack/Actors/DRA1MOD.CRE~       ~override/DRA1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGDRA1.CRE~       ~override/XGDRA1.CRE~        
   SAY NAME1 @90 
   SAY NAME2 @90 
 
-COPY ~PoFQuestPack/Actors/DRAG1MOD.CRE~      ~override/DRAG1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGDRAG1.CRE~      ~override/XGDRAG1.CRE~       
   SAY NAME1 @91 
   SAY NAME2 @91 
 
-COPY ~PoFQuestPack/Actors/DRAGMOD.CRE~       ~override/DRAGMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGDRAG.CRE~       ~override/XGDRAG.CRE~        
   SAY NAME1 @92 
   SAY NAME2 @92 
 
-COPY ~PoFQuestPack/Actors/DRAKOMOD.CRE~      ~override/DRAKOMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGDRAKO.CRE~      ~override/XGDRAKO.CRE~       
   SAY NAME1 @93 
   SAY NAME2 @93 
 
-COPY ~PoFQuestPack/Actors/DRASMOD.CRE~       ~override/DRASMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGDRAS.CRE~       ~override/XGDRAS.CRE~        
   SAY NAME1 @94 
   SAY NAME2 @94 
 
-COPY ~PoFQuestPack/Actors/drb1mod.cre~       ~override/drb1mod.cre~        
+COPY ~PoFQuestPack/Actors/XGdrb1.cre~       ~override/XGdrb1.cre~        
   SAY NAME1 @95 
   SAY NAME2 @96 
 
-COPY ~PoFQuestPack/Actors/drb2mod.cre~       ~override/drb2mod.cre~        
+COPY ~PoFQuestPack/Actors/XGdrb2.cre~       ~override/XGdrb2.cre~        
   SAY NAME1 @95 
   SAY NAME2 @96 
 
-COPY ~PoFQuestPack/Actors/drbsmod.cre~       ~override/drbsmod.cre~        
+COPY ~PoFQuestPack/Actors/XGdrbs.cre~       ~override/XGdrbs.cre~        
   SAY NAME1 @97 
   SAY NAME2 @97 
 
-COPY ~PoFQuestPack/Actors/drc1mod.cre~       ~override/drc1mod.cre~        
+COPY ~PoFQuestPack/Actors/XGdrc1.cre~       ~override/XGdrc1.cre~        
 
-COPY ~PoFQuestPack/Actors/drcmod.cre~        ~override/drcmod.cre~         
+COPY ~PoFQuestPack/Actors/XGdrc.cre~        ~override/XGdrc.cre~         
 
-COPY ~PoFQuestPack/Actors/dre1mod.cre~       ~override/dre1mod.cre~        
+COPY ~PoFQuestPack/Actors/XGdre1.cre~       ~override/XGdre1.cre~        
   SAY NAME1 @98 
   SAY NAME2 @98 
 
-COPY ~PoFQuestPack/Actors/dre2mod.cre~       ~override/dre2mod.cre~        
+COPY ~PoFQuestPack/Actors/XGdre2.cre~       ~override/XGdre2.cre~        
   SAY NAME1 @98 
   SAY NAME2 @98 
 
-COPY ~PoFQuestPack/Actors/dre3mod.cre~       ~override/dre3mod.cre~        
+COPY ~PoFQuestPack/Actors/XGdre3.cre~       ~override/XGdre3.cre~        
   SAY NAME1 @98 
   SAY NAME2 @98 
 
-COPY ~PoFQuestPack/Actors/dre4mod.cre~       ~override/dre4mod.cre~        
+COPY ~PoFQuestPack/Actors/XGdre4.cre~       ~override/XGdre4.cre~        
   SAY NAME1 @98 
   SAY NAME2 @98 
 
-COPY ~PoFQuestPack/Actors/DRECMOD.CRE~       ~override/DRECMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGDREC.CRE~       ~override/XGDREC.CRE~        
   SAY NAME1 @99 
   SAY NAME2 @99 
 
-COPY ~PoFQuestPack/Actors/dreqmod.cre~       ~override/dreqmod.cre~        
+COPY ~PoFQuestPack/Actors/XGdreq.cre~       ~override/XGdreq.cre~        
   SAY NAME1 @100 
   SAY NAME2 @100 
 
-COPY ~PoFQuestPack/Actors/dreumod.cre~       ~override/dreumod.cre~        
+COPY ~PoFQuestPack/Actors/XGdreu.cre~       ~override/XGdreu.cre~        
   SAY NAME1 @100 
   SAY NAME2 @100 
 
-COPY ~PoFQuestPack/Actors/drgmod.cre~        ~override/drgmod.cre~         
+COPY ~PoFQuestPack/Actors/XGdrg.cre~        ~override/XGdrg.cre~         
   SAY NAME1 @101 
   SAY NAME2 @101 
 
-COPY ~PoFQuestPack/Actors/DRIZ2MOD.CRE~      ~override/DRIZ2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGDRIZ2.CRE~      ~override/XGDRIZ2.CRE~       
 
-COPY ~PoFQuestPack/Actors/DRIZAMOD.CRE~      ~override/DRIZAMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGDRIZA.CRE~      ~override/XGDRIZA.CRE~       
 
-COPY ~PoFQuestPack/Actors/DRIZMOD.CRE~       ~override/DRIZMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGDRIZ.CRE~       ~override/XGDRIZ.CRE~        
 
-COPY ~PoFQuestPack/Actors/drl1mod.cre~       ~override/drl1mod.cre~        
+COPY ~PoFQuestPack/Actors/XGdrl1.cre~       ~override/XGdrl1.cre~        
 
-COPY ~PoFQuestPack/Actors/drl2mod.cre~       ~override/drl2mod.cre~        
+COPY ~PoFQuestPack/Actors/XGdrl2.cre~       ~override/XGdrl2.cre~        
 
-COPY ~PoFQuestPack/Actors/drl3mod.cre~       ~override/drl3mod.cre~        
+COPY ~PoFQuestPack/Actors/XGdrl3.cre~       ~override/XGdrl3.cre~        
 
-COPY ~PoFQuestPack/Actors/drlqmod.cre~       ~override/drlqmod.cre~        
+COPY ~PoFQuestPack/Actors/XGdrlq.cre~       ~override/XGdrlq.cre~        
 
-COPY ~PoFQuestPack/Actors/drlumod.cre~       ~override/drlumod.cre~        
+COPY ~PoFQuestPack/Actors/XGdrlu.cre~       ~override/XGdrlu.cre~        
 
-COPY ~PoFQuestPack/Actors/drmod.cre~         ~override/drmod.cre~          
+COPY ~PoFQuestPack/Actors/XGdr.cre~         ~override/XGdr.cre~          
 
-COPY ~PoFQuestPack/Actors/DROW1MOD.CRE~      ~override/DROW1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGDROW1.CRE~      ~override/XGDROW1.CRE~       
   SAY NAME1 @102 
   SAY NAME2 @102 
 
-COPY ~PoFQuestPack/Actors/DROW2MOD.CRE~      ~override/DROW2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGDROW2.CRE~      ~override/XGDROW2.CRE~       
   SAY NAME1 @103 
   SAY NAME2 @103 
 
-COPY ~PoFQuestPack/Actors/drqqmod.cre~       ~override/drqqmod.cre~        
+COPY ~PoFQuestPack/Actors/XGdrqq.cre~       ~override/XGdrqq.cre~        
   SAY NAME1 @100 
   SAY NAME2 @100 
 
-COPY ~PoFQuestPack/Actors/DRTRMOD.CRE~       ~override/DRTRMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGDRTR.CRE~       ~override/XGDRTR.CRE~        
   SAY NAME1 @104 
   SAY NAME2 @104 
 
-COPY ~PoFQuestPack/Actors/DRUICMOD.CRE~      ~override/DRUICMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGDRUIC.CRE~      ~override/XGDRUIC.CRE~       
   SAY NAME1 @105 
   SAY NAME2 @105 
 
-COPY ~PoFQuestPack/Actors/DRW1MOD.CRE~       ~override/DRW1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGDRW1.CRE~       ~override/XGDRW1.CRE~        
 
-COPY ~PoFQuestPack/Actors/DRW2MOD.CRE~       ~override/DRW2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGDRW2.CRE~       ~override/XGDRW2.CRE~        
 
-COPY ~PoFQuestPack/Actors/DRWCMOD.CRE~       ~override/DRWCMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGDRWC.CRE~       ~override/XGDRWC.CRE~        
   SAY NAME1 @99 
   SAY NAME2 @99 
 
-COPY ~PoFQuestPack/Actors/drwemod.cre~       ~override/drwemod.cre~        
+COPY ~PoFQuestPack/Actors/XGdrwe.cre~       ~override/XGdrwe.cre~        
   SAY NAME1 @98 
   SAY NAME2 @98 
 
-COPY ~PoFQuestPack/Actors/DRZMOD.CRE~        ~override/DRZMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGDRZ.CRE~        ~override/XGDRZ.CRE~         
 
-COPY ~PoFQuestPack/Actors/drzzmod.cre~       ~override/drzzmod.cre~        
+COPY ~PoFQuestPack/Actors/XGdrzz.cre~       ~override/XGdrzz.cre~        
 
-COPY ~PoFQuestPack/Actors/dsqmod.cre~        ~override/dsqmod.cre~         
+COPY ~PoFQuestPack/Actors/XGdsq.cre~        ~override/XGdsq.cre~         
   SAY NAME1 @106 
   SAY NAME2 @106 
 
-COPY ~PoFQuestPack/Actors/DUEL1MOD.CRE~      ~override/DUEL1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGDUEL1.CRE~      ~override/XGDUEL1.CRE~       
   SAY NAME1 @107 
   SAY NAME2 @107 
 
-COPY ~PoFQuestPack/Actors/DUER1MOD.CRE~      ~override/DUER1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGDUER1.CRE~      ~override/XGDUER1.CRE~       
   SAY NAME1 @108 
   SAY NAME2 @108 
 
-COPY ~PoFQuestPack/Actors/DUER2MOD.CRE~      ~override/DUER2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGDUER2.CRE~      ~override/XGDUER2.CRE~       
   SAY NAME1 @108 
   SAY NAME2 @108 
 
-COPY ~PoFQuestPack/Actors/DUERCMOD.CRE~      ~override/DUERCMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGDUERC.CRE~      ~override/XGDUERC.CRE~       
   SAY NAME1 @107 
   SAY NAME2 @107 
 
-COPY ~PoFQuestPack/Actors/DUERLMOD.CRE~      ~override/DUERLMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGDUERL.CRE~      ~override/XGDUERL.CRE~       
   SAY NAME1 @107 
   SAY NAME2 @107 
 
-COPY ~PoFQuestPack/Actors/DUERMOD.CRE~       ~override/DUERMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGDUER.CRE~       ~override/XGDUER.CRE~        
 
-COPY ~PoFQuestPack/Actors/DUERNMOD.CRE~      ~override/DUERNMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGDUERN.CRE~      ~override/XGDUERN.CRE~       
   SAY NAME1 @108 
   SAY NAME2 @108 
 
-COPY ~PoFQuestPack/Actors/DW1MOD.CRE~        ~override/DW1MOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGDW1.CRE~        ~override/XGDW1.CRE~         
 
-COPY ~PoFQuestPack/Actors/DW2MOD.CRE~        ~override/DW2MOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGDW2.CRE~        ~override/XGDW2.CRE~         
 
-COPY ~PoFQuestPack/Actors/DW3MOD.CRE~        ~override/DW3MOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGDW3.CRE~        ~override/XGDW3.CRE~         
 
-COPY ~PoFQuestPack/Actors/DWAAMOD.CRE~       ~override/DWAAMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGDWAA.CRE~       ~override/XGDWAA.CRE~        
   SAY NAME1 @109 
   SAY NAME2 @109 
 
-COPY ~PoFQuestPack/Actors/DWAMOD.CRE~        ~override/DWAMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGDWA.CRE~        ~override/XGDWA.CRE~         
   SAY NAME1 @109 
   SAY NAME2 @109 
 
-COPY ~PoFQuestPack/Actors/dwmod.cre~         ~override/dwmod.cre~          
+COPY ~PoFQuestPack/Actors/XGdw.cre~         ~override/XGdw.cre~          
   SAY NAME1 @110 
   SAY NAME2 @110 
 
-COPY ~PoFQuestPack/Actors/DWMSMOD.CRE~       ~override/DWMSMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGDWMS.CRE~       ~override/XGDWMS.CRE~        
   SAY NAME1 @111 
   SAY NAME2 @111 
 
-COPY ~PoFQuestPack/Actors/DWOD1MOD.CRE~      ~override/DWOD1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGDWOD1.CRE~      ~override/XGDWOD1.CRE~       
   SAY NAME1 @112 
   SAY NAME2 @112 
 
-COPY ~PoFQuestPack/Actors/DWODEMOD.CRE~      ~override/DWODEMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGDWODE.CRE~      ~override/XGDWODE.CRE~       
   SAY NAME1 @112 
   SAY NAME2 @112 
 
-COPY ~PoFQuestPack/Actors/DWODMOD.CRE~       ~override/DWODMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGDWOD.CRE~       ~override/XGDWOD.CRE~        
   SAY NAME1 @112 
   SAY NAME2 @112 
 
-COPY ~PoFQuestPack/Actors/dwqmod.cre~        ~override/dwqmod.cre~         
+COPY ~PoFQuestPack/Actors/XGdwq.cre~        ~override/XGdwq.cre~         
   SAY NAME1 @113 
   SAY NAME2 @113 
   SAY 0x1cc @114 
 
-COPY ~PoFQuestPack/Actors/EHCLMOD.CRE~       ~override/EHCLMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGEHCL.CRE~       ~override/XGEHCL.CRE~        
   SAY NAME1 @115 
   SAY NAME2 @115 
 
-COPY ~PoFQuestPack/Actors/ehmilmod.cre~      ~override/ehmilmod.cre~       
+COPY ~PoFQuestPack/Actors/XGehmil.cre~      ~override/XGehmil.cre~       
   SAY NAME1 @116 
   SAY NAME2 @116 
 
-COPY ~PoFQuestPack/Actors/ELADMOD.CRE~       ~override/ELADMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGELAD.CRE~       ~override/XGELAD.CRE~        
   SAY NAME1 @117 
   SAY NAME2 @117 
 
-COPY ~PoFQuestPack/Actors/ELECMOD.CRE~       ~override/ELECMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGELEC.CRE~       ~override/XGELEC.CRE~        
   SAY NAME1 @118 
   SAY NAME2 @118 
 
-COPY ~PoFQuestPack/Actors/elfcfmod.cre~      ~override/elfcfmod.cre~       
+COPY ~PoFQuestPack/Actors/XGelfcf.cre~      ~override/XGelfcf.cre~       
 
-COPY ~PoFQuestPack/Actors/elfcmmod.cre~      ~override/elfcmmod.cre~       
+COPY ~PoFQuestPack/Actors/XGelfcm.cre~      ~override/XGelfcm.cre~       
 
-COPY ~PoFQuestPack/Actors/elfmmod.cre~       ~override/elfmmod.cre~        
+COPY ~PoFQuestPack/Actors/XGelfm.cre~       ~override/XGelfm.cre~        
 
-COPY ~PoFQuestPack/Actors/elfwmod.cre~       ~override/elfwmod.cre~        
+COPY ~PoFQuestPack/Actors/XGelfw.cre~       ~override/XGelfw.cre~        
 
-COPY ~PoFQuestPack/Actors/ELG1MOD.CRE~       ~override/ELG1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGELG1.CRE~       ~override/XGELG1.CRE~        
   SAY NAME1 @7 
   SAY NAME2 @8 
 
-COPY ~PoFQuestPack/Actors/ELGMOD.CRE~        ~override/ELGMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGELG.CRE~        ~override/XGELG.CRE~         
   SAY NAME1 @7 
   SAY NAME2 @8 
 
-COPY ~PoFQuestPack/Actors/ELIAHMOD.CRE~      ~override/ELIAHMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGELIAH.CRE~      ~override/XGELIAH.CRE~       
   SAY NAME1 @119 
   SAY NAME2 @119 
 
-COPY ~PoFQuestPack/Actors/ELLANMOD.CRE~      ~override/ELLANMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGELLAN.CRE~      ~override/XGELLAN.CRE~       
   SAY NAME1 @120 
   SAY NAME2 @120 
 
-COPY ~PoFQuestPack/Actors/ELMMOD.CRE~        ~override/ELMMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGELM.CRE~        ~override/XGELM.CRE~         
 
-COPY ~PoFQuestPack/Actors/ELMMOD1.CRE~       ~override/ELMMOD1.CRE~        
+COPY ~PoFQuestPack/Actors/XGELM1.CRE~       ~override/XGELM1.CRE~        
 
-COPY ~PoFQuestPack/Actors/ELMMOD2.CRE~       ~override/ELMMOD2.CRE~        
+COPY ~PoFQuestPack/Actors/XGELM2.CRE~       ~override/XGELM2.CRE~        
 
-COPY ~PoFQuestPack/Actors/ELMMOD3.CRE~       ~override/ELMMOD3.CRE~        
+COPY ~PoFQuestPack/Actors/XGELM3.CRE~       ~override/XGELM3.CRE~        
 
-COPY ~PoFQuestPack/Actors/ELMMOD4.CRE~       ~override/ELMMOD4.CRE~        
+COPY ~PoFQuestPack/Actors/XGELM4.CRE~       ~override/XGELM4.CRE~        
 
-COPY ~PoFQuestPack/Actors/elmsmod.cre~       ~override/elmsmod.cre~        
+COPY ~PoFQuestPack/Actors/XGelms.cre~       ~override/XGelms.cre~        
 
-COPY ~PoFQuestPack/Actors/ELORMOD.CRE~       ~override/ELORMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGELOR.CRE~       ~override/XGELOR.CRE~        
   SAY NAME1 @121 
   SAY NAME2 @122 
 
-COPY ~PoFQuestPack/Actors/ELVCDMOD.CRE~      ~override/ELVCDMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGELVCD.CRE~      ~override/XGELVCD.CRE~       
   SAY NAME1 @123 
   SAY NAME2 @123 
 
-COPY ~PoFQuestPack/Actors/ELVCLMOD.CRE~      ~override/ELVCLMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGELVCL.CRE~      ~override/XGELVCL.CRE~       
   SAY NAME1 @124 
   SAY NAME2 @124 
 
-COPY ~PoFQuestPack/Actors/ELVCPMOD.CRE~      ~override/ELVCPMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGELVCP.CRE~      ~override/XGELVCP.CRE~       
   SAY NAME1 @125 
   SAY NAME2 @125 
 
-COPY ~PoFQuestPack/Actors/elvemod.cre~       ~override/elvemod.cre~        
+COPY ~PoFQuestPack/Actors/XGelve.cre~       ~override/XGelve.cre~        
 
-COPY ~PoFQuestPack/Actors/ELVGUMOD.CRE~      ~override/ELVGUMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGELVGU.CRE~      ~override/XGELVGU.CRE~       
   SAY NAME1 @126 
   SAY NAME2 @126 
 
-COPY ~PoFQuestPack/Actors/ELVWCMOD.CRE~      ~override/ELVWCMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGELVWC.CRE~      ~override/XGELVWC.CRE~       
   SAY NAME1 @123 
   SAY NAME2 @123 
 
-COPY ~PoFQuestPack/Actors/ELVWDMOD.CRE~      ~override/ELVWDMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGELVWD.CRE~      ~override/XGELVWD.CRE~       
 
-COPY ~PoFQuestPack/Actors/ELVWRMOD.CRE~      ~override/ELVWRMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGELVWR.CRE~      ~override/XGELVWR.CRE~       
 
-COPY ~PoFQuestPack/Actors/ELWIN1.CRE~        ~override/ELWIN1.CRE~         
+COPY ~PoFQuestPack/Actors/XGELWI1.CRE~        ~override/XGELWI1.CRE~         
   SAY NAME1 @127 
   SAY NAME2 @127 
 
-COPY ~PoFQuestPack/Actors/ELWINMOD.CRE~      ~override/ELWINMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGELWIN.CRE~      ~override/XGELWIN.CRE~       
   SAY NAME1 @127 
   SAY NAME2 @127 
 
-COPY ~PoFQuestPack/Actors/ELWRMOD.CRE~       ~override/ELWRMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGELWR.CRE~       ~override/XGELWR.CRE~        
   SAY NAME1 @128 
   SAY NAME2 @128 
 
-COPY ~PoFQuestPack/Actors/ELWRMOD1.CRE~      ~override/ELWRMOD1.CRE~       
+COPY ~PoFQuestPack/Actors/XGELWR1.CRE~      ~override/XGELWR1.CRE~       
   SAY NAME1 @128 
   SAY NAME2 @128 
 
-COPY ~PoFQuestPack/Actors/ELWRMOD2.CRE~      ~override/ELWRMOD2.CRE~       
+COPY ~PoFQuestPack/Actors/XGELWR2.CRE~      ~override/XGELWR2.CRE~       
   SAY NAME1 @128 
   SAY NAME2 @128 
 
-COPY ~PoFQuestPack/Actors/ELWRMOD3.CRE~      ~override/ELWRMOD3.CRE~       
+COPY ~PoFQuestPack/Actors/XGELWR3.CRE~      ~override/XGELWR3.CRE~       
   SAY NAME1 @128 
   SAY NAME2 @128 
 
-COPY ~PoFQuestPack/Actors/EMAG1MOD.CRE~      ~override/EMAG1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGEMAG1.CRE~      ~override/XGEMAG1.CRE~       
   SAY NAME1 @129 
   SAY NAME2 @129 
 
-COPY ~PoFQuestPack/Actors/EMAG2MOD.CRE~      ~override/EMAG2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGEMAG2.CRE~      ~override/XGEMAG2.CRE~       
   SAY NAME1 @129 
   SAY NAME2 @129 
 
-COPY ~PoFQuestPack/Actors/EMAPRMOD.CRE~      ~override/EMAPRMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGEMAPR.CRE~      ~override/XGEMAPR.CRE~       
   SAY NAME1 @130 
   SAY NAME2 @130 
 
-COPY ~PoFQuestPack/Actors/EMYL.CRE~          ~override/EMYL.CRE~           
+COPY ~PoFQuestPack/Actors/XGEMYL.CRE~          ~override/XGEMYL.CRE~           
 
-COPY ~PoFQuestPack/Actors/ERLRMOD.CRE~       ~override/ERLRMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGERLR.CRE~       ~override/XGERLR.CRE~        
 
-COPY ~PoFQuestPack/Actors/ERRADMOD.CRE~      ~override/ERRADMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGERRAD.CRE~      ~override/XGERRAD.CRE~       
   SAY NAME1 @131 
   SAY NAME2 @131 
 
-COPY ~PoFQuestPack/Actors/ESAPMOD.CRE~       ~override/ESAPMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGESAP.CRE~       ~override/XGESAP.CRE~        
   SAY NAME1 @132 
   SAY NAME2 @132 
 
-COPY ~PoFQuestPack/Actors/ESBLMOD.CRE~       ~override/ESBLMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGESBL.CRE~       ~override/XGESBL.CRE~        
 
-COPY ~PoFQuestPack/Actors/ESBRMOD.CRE~       ~override/ESBRMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGESBR.CRE~       ~override/XGESBR.CRE~        
 
-COPY ~PoFQuestPack/Actors/ESDLMOD.CRE~       ~override/ESDLMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGESDL.CRE~       ~override/XGESDL.CRE~        
   SAY NAME1 @133 
   SAY NAME2 @133 
 
-COPY ~PoFQuestPack/Actors/ESMILMOD.CRE~      ~override/ESMILMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGESMIL.CRE~      ~override/XGESMIL.CRE~       
 
-COPY ~PoFQuestPack/Actors/ESSPMOD.CRE~       ~override/ESSPMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGESSP.CRE~       ~override/XGESSP.CRE~        
   SAY NAME1 @134 
   SAY NAME2 @134 
 
-COPY ~PoFQuestPack/Actors/ESUDMOD.CRE~       ~override/ESUDMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGESUD.CRE~       ~override/XGESUD.CRE~        
   SAY NAME1 @135 
   SAY NAME2 @135 
 
-COPY ~PoFQuestPack/Actors/EVPROMOD.CRE~      ~override/EVPROMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGEVPRO.CRE~      ~override/XGEVPRO.CRE~       
   SAY NAME1 @136 
   SAY NAME2 @136 
 
-COPY ~PoFQuestPack/Actors/FALPLMOD.CRE~      ~override/FALPLMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGFALPL.CRE~      ~override/XGFALPL.CRE~       
   SAY NAME1 @137 
   SAY NAME2 @137 
 
-COPY ~PoFQuestPack/Actors/famod.cre~         ~override/famod.cre~          
+COPY ~PoFQuestPack/Actors/XGfa.cre~         ~override/XGfa.cre~          
   SAY NAME1 @138 
   SAY NAME2 @138 
 
-COPY ~PoFQuestPack/Actors/FIGGMOD.CRE~       ~override/FIGGMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGFIGG.CRE~       ~override/XGFIGG.CRE~        
 
-COPY ~PoFQuestPack/Actors/FIRLSMOD.CRE~      ~override/FIRLSMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGFIRLS.CRE~      ~override/XGFIRLS.CRE~       
 
-COPY ~PoFQuestPack/Actors/firq1mod.cre~      ~override/firq1mod.cre~       
+COPY ~PoFQuestPack/Actors/XGfirq1.cre~      ~override/XGfirq1.cre~       
 
-COPY ~PoFQuestPack/Actors/firqmod.cre~       ~override/firqmod.cre~        
+COPY ~PoFQuestPack/Actors/XGfirq.cre~       ~override/XGfirq.cre~        
 
-COPY ~PoFQuestPack/Actors/FKIN1MOD.CRE~      ~override/FKIN1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGFKIN1.CRE~      ~override/XGFKIN1.CRE~       
   SAY NAME1 @35 
   SAY NAME2 @35 
 
-COPY ~PoFQuestPack/Actors/FKIN2MOD.CRE~      ~override/FKIN2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGFKIN2.CRE~      ~override/XGFKIN2.CRE~       
   SAY NAME1 @35 
   SAY NAME2 @35 
 
-COPY ~PoFQuestPack/Actors/FKIN3MOD.CRE~      ~override/FKIN3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGFKIN3.CRE~      ~override/XGFKIN3.CRE~       
   SAY NAME1 @35 
   SAY NAME2 @35 
 
-COPY ~PoFQuestPack/Actors/flmod.cre~         ~override/flmod.cre~          
+COPY ~PoFQuestPack/Actors/XGfl.cre~         ~override/XGfl.cre~          
   SAY NAME1 @139 
   SAY NAME2 @139 
 
-COPY ~PoFQuestPack/Actors/FLPLAMOD.CRE~      ~override/FLPLAMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGFLPLA.CRE~      ~override/XGFLPLA.CRE~       
   SAY NAME1 @137 
   SAY NAME2 @140 
 
-COPY ~PoFQuestPack/Actors/FNASMOD.CRE~       ~override/FNASMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGFNAS.CRE~       ~override/XGFNAS.CRE~        
   SAY NAME1 @141 
   SAY NAME2 @141 
 
-COPY ~PoFQuestPack/Actors/fngradak.cre~      ~override/fngradak.cre~       
+COPY ~PoFQuestPack/Actors/XGfngra.cre~      ~override/XGfngra.cre~       
   SAY NAME1 @142 
   SAY NAME2 @142 
 
-COPY ~PoFQuestPack/Actors/FROSTY.CRE~        ~override/FROSTY.CRE~         
+COPY ~PoFQuestPack/Actors/XGFROST.CRE~        ~override/XGFROST.CRE~         
   SAY NAME1 @143 
   SAY NAME2 @143 
 
-COPY ~PoFQuestPack/Actors/GAMOD.CRE~         ~override/GAMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGGA.CRE~         ~override/XGGA.CRE~          
   SAY NAME1 @144 
   SAY NAME2 @144 
 
-COPY ~PoFQuestPack/Actors/GERALT.CRE~        ~override/GERALT.CRE~         
+COPY ~PoFQuestPack/Actors/XGGERAL.CRE~        ~override/XGGERAL.CRE~         
   SAY NAME1 @145 
   SAY NAME2 @145 
 
-COPY ~PoFQuestPack/Actors/GFALCON.CRE~       ~override/GFALCON.CRE~        
+COPY ~PoFQuestPack/Actors/XGFALCO.CRE~       ~override/XGFALCO.CRE~        
   SAY NAME1 @146 
   SAY NAME2 @146 
 
-COPY ~PoFQuestPack/Actors/GFALCON1.CRE~      ~override/GFALCON1.CRE~       
+COPY ~PoFQuestPack/Actors/XGFALC1.CRE~      ~override/XGFALC1.CRE~       
   SAY NAME1 @146 
   SAY NAME2 @146 
 
-COPY ~PoFQuestPack/Actors/GFALCON3.CRE~      ~override/GFALCON3.CRE~       
+COPY ~PoFQuestPack/Actors/XGFALC3.CRE~      ~override/XGFALC3.CRE~       
   SAY NAME1 @146 
   SAY NAME2 @146 
 
-COPY ~PoFQuestPack/Actors/gghcmod.cre~       ~override/gghcmod.cre~        
+COPY ~PoFQuestPack/Actors/XGgghc.cre~       ~override/XGgghc.cre~        
 
-COPY ~PoFQuestPack/Actors/ghuldmod.cre~      ~override/ghuldmod.cre~       
+COPY ~PoFQuestPack/Actors/XGghuld.cre~      ~override/XGghuld.cre~       
 
-COPY ~PoFQuestPack/Actors/GIRLMOD.CRE~       ~override/GIRLMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGGIRL.CRE~       ~override/XGGIRL.CRE~        
 
-COPY ~PoFQuestPack/Actors/GLAMOD.CRE~        ~override/GLAMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGGLA.CRE~        ~override/XGGLA.CRE~         
 
-COPY ~PoFQuestPack/Actors/GLCMOD.CRE~        ~override/GLCMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGGLC.CRE~        ~override/XGGLC.CRE~         
   SAY NAME1 @147 
 
-COPY ~PoFQuestPack/Actors/GLMOD.CRE~         ~override/GLMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGGL.CRE~         ~override/XGGL.CRE~          
 
-COPY ~PoFQuestPack/Actors/GLVMOD.CRE~        ~override/GLVMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGGLV.CRE~        ~override/XGGLV.CRE~         
   SAY NAME1 @148 
   SAY NAME2 @148 
 
-COPY ~PoFQuestPack/Actors/gmsmod.cre~        ~override/gmsmod.cre~         
+COPY ~PoFQuestPack/Actors/XGgms.cre~        ~override/XGgms.cre~         
   SAY NAME1 @149 
   SAY NAME2 @149 
 
-COPY ~PoFQuestPack/Actors/GOB1MOD.CRE~       ~override/GOB1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGGOB1.CRE~       ~override/XGGOB1.CRE~        
   SAY NAME1 @150 
   SAY NAME2 @150 
 
-COPY ~PoFQuestPack/Actors/GOB2MOD.CRE~       ~override/GOB2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGGOB2.CRE~       ~override/XGGOB2.CRE~        
   SAY NAME1 @151 
   SAY NAME2 @151 
 
-COPY ~PoFQuestPack/Actors/GOB3MOD.CRE~       ~override/GOB3MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGGOB3.CRE~       ~override/XGGOB3.CRE~        
   SAY NAME1 @152 
   SAY NAME2 @153 
 
-COPY ~PoFQuestPack/Actors/GOB4MOD.CRE~       ~override/GOB4MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGGOB4.CRE~       ~override/XGGOB4.CRE~        
   SAY NAME1 @154 
   SAY NAME2 @154 
 
-COPY ~PoFQuestPack/Actors/GOBA1MOD.CRE~      ~override/GOBA1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGGOBA1.CRE~      ~override/XGGOBA1.CRE~       
   SAY NAME1 @150 
   SAY NAME2 @150 
 
-COPY ~PoFQuestPack/Actors/GOBA3MOD.CRE~      ~override/GOBA3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGGOBA3.CRE~      ~override/XGGOBA3.CRE~       
   SAY NAME1 @152 
   SAY NAME2 @153 
 
-COPY ~PoFQuestPack/Actors/GOBLMOD.CRE~       ~override/GOBLMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGGOBL.CRE~       ~override/XGGOBL.CRE~        
   SAY NAME1 @150 
   SAY NAME2 @150 
 
-COPY ~PoFQuestPack/Actors/GRADAK.CRE~        ~override/GRADAK.CRE~         
+COPY ~PoFQuestPack/Actors/XGRADAK.CRE~        ~override/XGRADAK.CRE~         
   SAY NAME1 @142 
   SAY NAME2 @142 
 
-COPY ~PoFQuestPack/Actors/GRADAK1.CRE~       ~override/GRADAK1.CRE~        
+COPY ~PoFQuestPack/Actors/XGRADA1.CRE~       ~override/XGRADA1.CRE~        
   SAY NAME1 @142 
   SAY NAME2 @142 
 
-COPY ~PoFQuestPack/Actors/GRAL1MOD.CRE~      ~override/GRAL1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGGRAL1.CRE~      ~override/XGGRAL1.CRE~       
   SAY NAME1 @156 
   SAY NAME2 @156 
 
-COPY ~PoFQuestPack/Actors/GRALMOD.CRE~       ~override/GRALMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGGRAL.CRE~       ~override/XGGRAL.CRE~        
   SAY NAME1 @156 
   SAY NAME2 @156 
 
-COPY ~PoFQuestPack/Actors/GREMOD.CRE~        ~override/GREMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGGRE.CRE~        ~override/XGGRE.CRE~         
   SAY NAME1 @15 
   SAY NAME2 @15 
 
-COPY ~PoFQuestPack/Actors/GRSHTMOD.CRE~      ~override/GRSHTMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGGRSHT.CRE~      ~override/XGGRSHT.CRE~       
   SAY NAME1 @157 
   SAY NAME2 @157 
 
-COPY ~PoFQuestPack/Actors/GSERMOD.CRE~       ~override/GSERMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGGSER.CRE~       ~override/XGGSER.CRE~        
   SAY NAME1 @158 
   SAY NAME2 @159 
 
-COPY ~PoFQuestPack/Actors/GUARMOD.CRE~       ~override/GUARMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGGUAR.CRE~       ~override/XGGUAR.CRE~        
   SAY NAME1 @160 
   SAY NAME2 @160 
 
-COPY ~PoFQuestPack/Actors/GWYNBLAD.CRE~      ~override/GWYNBLAD.CRE~       
+COPY ~PoFQuestPack/Actors/XGGWYNB.CRE~      ~override/XGGWYNB.CRE~       
 
-COPY ~PoFQuestPack/Actors/HARMOD.CRE~        ~override/HARMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGHAR.CRE~        ~override/XGHAR.CRE~         
   SAY NAME1 @161 
   SAY NAME2 @161 
 
-COPY ~PoFQuestPack/Actors/HCMOD.CRE~         ~override/HCMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGHC.CRE~         ~override/XGHC.CRE~          
   SAY NAME1 @21 
   SAY NAME2 @21 
 
-COPY ~PoFQuestPack/Actors/HCMOD1.CRE~        ~override/HCMOD1.CRE~         
+COPY ~PoFQuestPack/Actors/XGHC1.CRE~        ~override/XGHC1.CRE~         
   SAY NAME1 @21 
   SAY NAME2 @21 
 
-COPY ~PoFQuestPack/Actors/HELCMOD.CRE~       ~override/HELCMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGHELC.CRE~       ~override/XGHELC.CRE~        
   SAY NAME1 @162 
   SAY NAME2 @162 
 
-COPY ~PoFQuestPack/Actors/HGHPRMOD.CRE~      ~override/HGHPRMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGHGHPR.CRE~      ~override/XGHGHPR.CRE~       
 
-COPY ~PoFQuestPack/Actors/hkmod.cre~         ~override/hkmod.cre~          
+COPY ~PoFQuestPack/Actors/XGhk.cre~         ~override/XGhk.cre~          
   SAY NAME1 @163 
   SAY NAME2 @163 
 
-COPY ~PoFQuestPack/Actors/HMER2MOD.CRE~      ~override/HMER2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGHMER2.CRE~      ~override/XGHMER2.CRE~       
 
-COPY ~PoFQuestPack/Actors/HMERCMOD.CRE~      ~override/HMERCMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGHMERC.CRE~      ~override/XGHMERC.CRE~       
 
-COPY ~PoFQuestPack/Actors/HMERMOD.CRE~       ~override/HMERMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGHMER.CRE~       ~override/XGHMER.CRE~        
 
-COPY ~PoFQuestPack/Actors/HOB1MOD.CRE~       ~override/HOB1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGHOB1.CRE~       ~override/XGHOB1.CRE~        
 
-COPY ~PoFQuestPack/Actors/HOB2AMOD.CRE~      ~override/HOB2AMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGHOB2A.CRE~      ~override/XGHOB2A.CRE~       
 
-COPY ~PoFQuestPack/Actors/HOB2BMOD.CRE~      ~override/HOB2BMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGHOB2B.CRE~      ~override/XGHOB2B.CRE~       
 
-COPY ~PoFQuestPack/Actors/HOB2MOD.CRE~       ~override/HOB2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGHOB2.CRE~       ~override/XGHOB2.CRE~        
 
-COPY ~PoFQuestPack/Actors/HOB3MOD.CRE~       ~override/HOB3MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGHOB3.CRE~       ~override/XGHOB3.CRE~        
 
-COPY ~PoFQuestPack/Actors/hqevmod.cre~       ~override/hqevmod.cre~        
+COPY ~PoFQuestPack/Actors/XGhqev.cre~       ~override/XGhqev.cre~        
   SAY NAME1 @164 
   SAY NAME2 @164 
 
-COPY ~PoFQuestPack/Actors/hqmimod.cre~       ~override/hqmimod.cre~        
+COPY ~PoFQuestPack/Actors/XGhqmi.cre~       ~override/XGhqmi.cre~        
   SAY NAME1 @164 
   SAY NAME2 @164 
 
-COPY ~PoFQuestPack/Actors/HRMILMOD.CRE~      ~override/HRMILMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGHRMIL.CRE~      ~override/XGHRMIL.CRE~       
   SAY NAME1 @165 
   SAY NAME2 @165 
 
-COPY ~PoFQuestPack/Actors/HROT1MOD.CRE~      ~override/HROT1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGHROT1.CRE~      ~override/XGHROT1.CRE~       
   SAY NAME1 @166 
   SAY NAME2 @166 
 
-COPY ~PoFQuestPack/Actors/hrot2mod.cre~      ~override/hrot2mod.cre~       
+COPY ~PoFQuestPack/Actors/XGhrot2.cre~      ~override/XGhrot2.cre~       
   SAY NAME1 @166 
   SAY NAME2 @166 
   SAY 0x1cc @167 
 
-COPY ~PoFQuestPack/Actors/HROTHMOD.CRE~      ~override/HROTHMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGHROTH.CRE~      ~override/XGHROTH.CRE~       
   SAY NAME1 @166 
   SAY NAME2 @166 
 
-COPY ~PoFQuestPack/Actors/hrqnmod.cre~       ~override/hrqnmod.cre~        
+COPY ~PoFQuestPack/Actors/XGhrqn.cre~       ~override/XGhrqn.cre~        
   SAY NAME1 @168 
   SAY NAME2 @168 
 
-COPY ~PoFQuestPack/Actors/hsdmod.cre~        ~override/hsdmod.cre~         
+COPY ~PoFQuestPack/Actors/XGhsd.cre~        ~override/XGhsd.cre~         
   SAY NAME1 @169 
   SAY NAME2 @169 
 
-COPY ~PoFQuestPack/Actors/hsr1mod.cre~       ~override/hsr1mod.cre~        
+COPY ~PoFQuestPack/Actors/XGhsr1.cre~       ~override/XGhsr1.cre~        
   SAY NAME1 @170 
   SAY NAME2 @170 
 
-COPY ~PoFQuestPack/Actors/hsrmod.cre~        ~override/hsrmod.cre~         
+COPY ~PoFQuestPack/Actors/XGhsr.cre~        ~override/XGhsr.cre~         
   SAY NAME1 @170 
   SAY NAME2 @170 
 
-COPY ~PoFQuestPack/Actors/HUWMOD.CRE~        ~override/HUWMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGHUW.CRE~        ~override/XGHUW.CRE~         
   SAY NAME1 @171 
   SAY NAME2 @171 
 
-COPY ~PoFQuestPack/Actors/IMOENMOD.CRE~      ~override/IMOENMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGIMOEN.CRE~      ~override/XGIMOEN.CRE~       
 
-COPY ~PoFQuestPack/Actors/INKEBMOD.CRE~      ~override/INKEBMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGINKEB.CRE~      ~override/XGINKEB.CRE~       
   SAY NAME1 @172 
   SAY NAME2 @172 
 
-COPY ~PoFQuestPack/Actors/INKECMOD.CRE~      ~override/INKECMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGINKEC.CRE~      ~override/XGINKEC.CRE~       
   SAY NAME1 @173 
   SAY NAME2 @173 
 
-COPY ~PoFQuestPack/Actors/innhsmod.cre~      ~override/innhsmod.cre~       
+COPY ~PoFQuestPack/Actors/XGinnhs.cre~      ~override/XGinnhs.cre~       
 
-COPY ~PoFQuestPack/Actors/INNKEMOD.CRE~      ~override/INNKEMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGINNKE.CRE~      ~override/XGINNKE.CRE~       
   SAY NAME1 @174 
   SAY NAME2 @174 
 
-COPY ~PoFQuestPack/Actors/INNKWMOD.CRE~      ~override/INNKWMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGINNKW.CRE~      ~override/XGINNKW.CRE~       
 
-COPY ~PoFQuestPack/Actors/INNMOD.CRE~        ~override/INNMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGINN.CRE~        ~override/XGINN.CRE~         
   SAY NAME1 @175 
   SAY NAME2 @175 
 
-COPY ~PoFQuestPack/Actors/IRAPRMOD.CRE~      ~override/IRAPRMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGIRAPR.CRE~      ~override/XGIRAPR.CRE~       
   SAY NAME1 @176 
   SAY NAME2 @176 
 
-COPY ~PoFQuestPack/Actors/IRENMMOD.CRE~      ~override/IRENMMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGIRENM.CRE~      ~override/XGIRENM.CRE~       
   SAY NAME1 @177 
   SAY NAME2 @177 
 
-COPY ~PoFQuestPack/Actors/IRENMOD.CRE~       ~override/IRENMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGIREN.CRE~       ~override/XGIREN.CRE~        
 
-COPY ~PoFQuestPack/Actors/IRENWMOD.CRE~      ~override/IRENWMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGIRENW.CRE~      ~override/XGIRENW.CRE~       
   SAY NAME1 @178 
   SAY NAME2 @178 
 
-COPY ~PoFQuestPack/Actors/IRSENMOD.CRE~      ~override/IRSENMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGIRSEN.CRE~      ~override/XGIRSEN.CRE~       
   SAY NAME1 @179 
   SAY NAME2 @179 
 
-COPY ~PoFQuestPack/Actors/IWDGMOD.CRE~       ~override/IWDGMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGIWDG.CRE~       ~override/XGIWDG.CRE~        
   SAY NAME1 @126 
   SAY NAME2 @126 
 
-COPY ~PoFQuestPack/Actors/iwdgsmod.cre~      ~override/iwdgsmod.cre~       
+COPY ~PoFQuestPack/Actors/XGiwdgs.cre~      ~override/XGiwdgs.cre~       
   SAY NAME1 @126 
   SAY NAME2 @126 
 
-COPY ~PoFQuestPack/Actors/JARMOD.CRE~        ~override/JARMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGJAR.CRE~        ~override/XGJAR.CRE~         
   SAY NAME1 @180 
   SAY NAME2 @180 
 
-COPY ~PoFQuestPack/Actors/JESTER.CRE~        ~override/JESTER.CRE~         
+COPY ~PoFQuestPack/Actors/XGJESTE.CRE~        ~override/XGJESTE.CRE~         
 
-COPY ~PoFQuestPack/Actors/JONMOD.CRE~        ~override/JONMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGJON.CRE~        ~override/XGJON.CRE~         
 
-COPY ~PoFQuestPack/Actors/JONWMOD.CRE~       ~override/JONWMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGJONW.CRE~       ~override/XGJONW.CRE~        
 
-COPY ~PoFQuestPack/Actors/JOWCMOD.CRE~       ~override/JOWCMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGJOWC.CRE~       ~override/XGJOWC.CRE~        
   SAY NAME1 @181 
   SAY NAME2 @181 
 
-COPY ~PoFQuestPack/Actors/KAPBGMOD.CRE~      ~override/KAPBGMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGKAPBG.CRE~      ~override/XGKAPBG.CRE~       
 
-COPY ~PoFQuestPack/Actors/KASSMOD.CRE~       ~override/KASSMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGKASS.CRE~       ~override/XGKASS.CRE~        
   SAY NAME1 @182 
   SAY NAME2 @182 
 
-COPY ~PoFQuestPack/Actors/kd1mod.cre~        ~override/kd1mod.cre~         
+COPY ~PoFQuestPack/Actors/XGkd1.cre~        ~override/XGkd1.cre~         
   SAY NAME1 @183 
   SAY NAME2 @183 
 
-COPY ~PoFQuestPack/Actors/kdmod.cre~         ~override/kdmod.cre~          
+COPY ~PoFQuestPack/Actors/XGkd.cre~         ~override/XGkd.cre~          
   SAY NAME1 @183 
   SAY NAME2 @183 
 
-COPY ~PoFQuestPack/Actors/KELRMOD.CRE~       ~override/KELRMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGKELR.CRE~       ~override/XGKELR.CRE~        
   SAY NAME1 @184 
   SAY NAME2 @184 
 
-COPY ~PoFQuestPack/Actors/KELROTH.CRE~       ~override/KELROTH.CRE~        
+COPY ~PoFQuestPack/Actors/XGKELRO.CRE~       ~override/XGKELRO.CRE~        
   SAY NAME1 @184 
   SAY NAME2 @184 
 
-COPY ~PoFQuestPack/Actors/KFOL1MOD.CRE~      ~override/KFOL1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGKFOL1.CRE~      ~override/XGKFOL1.CRE~       
 
-COPY ~PoFQuestPack/Actors/KHWMOD.CRE~        ~override/KHWMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGKHW.CRE~        ~override/XGKHW.CRE~         
   SAY NAME1 @188 
   SAY NAME2 @189 
 
-COPY ~PoFQuestPack/Actors/KIFOLMOD.CRE~      ~override/KIFOLMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGKIFOL.CRE~      ~override/XGKIFOL.CRE~       
   SAY NAME1 @190 
   SAY NAME2 @190 
 
-COPY ~PoFQuestPack/Actors/KINGGMOD.CRE~      ~override/KINGGMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGKINGG.CRE~      ~override/XGKINGG.CRE~       
   SAY NAME1 @191 
   SAY NAME2 @191 
 
-COPY ~PoFQuestPack/Actors/KMANMOD.CRE~       ~override/KMANMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGKMAN.CRE~       ~override/XGKMAN.CRE~        
   SAY NAME1 @192 
   SAY NAME2 @193 
 
-COPY ~PoFQuestPack/Actors/knig1mod.cre~      ~override/knig1mod.cre~       
+COPY ~PoFQuestPack/Actors/XGknig1.cre~      ~override/XGknig1.cre~       
   SAY NAME1 @15 
   SAY NAME2 @15 
 
-COPY ~PoFQuestPack/Actors/knig2mod.cre~      ~override/knig2mod.cre~       
+COPY ~PoFQuestPack/Actors/XGknig2.cre~      ~override/XGknig2.cre~       
   SAY NAME1 @15 
   SAY NAME2 @15 
 
-COPY ~PoFQuestPack/Actors/KNIGAMOD.CRE~      ~override/KNIGAMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGKNIGA.CRE~      ~override/XGKNIGA.CRE~       
 
-COPY ~PoFQuestPack/Actors/KNIGEMOD.CRE~      ~override/KNIGEMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGKNIGE.CRE~      ~override/XGKNIGE.CRE~       
 
-COPY ~PoFQuestPack/Actors/kniggmod.cre~      ~override/kniggmod.cre~       
+COPY ~PoFQuestPack/Actors/XGknigg.cre~      ~override/XGknigg.cre~       
 
-COPY ~PoFQuestPack/Actors/knigmod.cre~       ~override/knigmod.cre~        
+COPY ~PoFQuestPack/Actors/XGknig.cre~       ~override/XGknig.cre~        
 
-COPY ~PoFQuestPack/Actors/knigxmod.cre~      ~override/knigxmod.cre~       
+COPY ~PoFQuestPack/Actors/XGknigx.cre~      ~override/XGknigx.cre~       
 
-COPY ~PoFQuestPack/Actors/knigymod.cre~      ~override/knigymod.cre~       
+COPY ~PoFQuestPack/Actors/XGknigy.cre~      ~override/XGknigy.cre~       
 
-COPY ~PoFQuestPack/Actors/KNWIZMOD.CRE~      ~override/KNWIZMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGKNWIZ.CRE~      ~override/XGKNWIZ.CRE~       
   SAY NAME1 @194 
   SAY NAME2 @194 
 
-COPY ~PoFQuestPack/Actors/kosmod.cre~        ~override/kosmod.cre~         
+COPY ~PoFQuestPack/Actors/XGkos.cre~        ~override/XGkos.cre~         
 
-COPY ~PoFQuestPack/Actors/KPOSMOD.CRE~       ~override/KPOSMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGKPOS.CRE~       ~override/XGKPOS.CRE~        
   SAY NAME1 @195 
   SAY NAME2 @195 
 
-COPY ~PoFQuestPack/Actors/kspmod.cre~        ~override/kspmod.cre~         
+COPY ~PoFQuestPack/Actors/XGksp.cre~        ~override/XGksp.cre~         
   SAY NAME1 @196 
   SAY NAME2 @196 
 
-COPY ~PoFQuestPack/Actors/kumod.cre~         ~override/kumod.cre~          
+COPY ~PoFQuestPack/Actors/XGku.cre~         ~override/XGku.cre~          
 
-COPY ~PoFQuestPack/Actors/LARIMOD.CRE~       ~override/LARIMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGLARI.CRE~       ~override/XGLARI.CRE~        
   SAY NAME1 @197 
   SAY NAME2 @197 
 
-COPY ~PoFQuestPack/Actors/LCMERMOD.CRE~      ~override/LCMERMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLCMER.CRE~      ~override/XGLCMER.CRE~       
   SAY NAME1 @198 
   SAY NAME2 @198 
 
-COPY ~PoFQuestPack/Actors/LDXYMOD.CRE~       ~override/LDXYMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGLDXY.CRE~       ~override/XGLDXY.CRE~        
   SAY NAME1 @199 
   SAY NAME2 @199 
 
-COPY ~PoFQuestPack/Actors/LETG1MOD.CRE~      ~override/LETG1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGletg1.CRE~      ~override/XGletg1.CRE~       
 
-COPY ~PoFQuestPack/Actors/LETG2MOD.CRE~      ~override/LETG2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGletg2.CRE~      ~override/XGletg2.CRE~       
 
-COPY ~PoFQuestPack/Actors/LETG3MOD.CRE~      ~override/LETG3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLETG3.CRE~      ~override/XGLETG3.CRE~       
 
-COPY ~PoFQuestPack/Actors/LETG4MOD.CRE~      ~override/LETG4MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGletg4.CRE~      ~override/XGletg4.CRE~       
 
-COPY ~PoFQuestPack/Actors/LETGCMOD.CRE~      ~override/LETGCMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLETGC.CRE~      ~override/XGLETGC.CRE~       
   SAY NAME1 @200 
   SAY NAME2 @201 
 
-COPY ~PoFQuestPack/Actors/LETGMOD.CRE~       ~override/LETGMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGLETG.CRE~       ~override/XGLETG.CRE~        
 
-COPY ~PoFQuestPack/Actors/LHBDGMOD.CRE~      ~override/LHBDGMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLHBDG.CRE~      ~override/XGLHBDG.CRE~       
   SAY NAME1 @202 
   SAY NAME2 @202 
 
-COPY ~PoFQuestPack/Actors/LKG1MOD.CRE~       ~override/LKG1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGLKG1.CRE~       ~override/XGLKG1.CRE~        
   SAY NAME1 @203 
   SAY NAME2 @203 
 
-COPY ~PoFQuestPack/Actors/LKG2MOD.CRE~       ~override/LKG2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGLKG2.CRE~       ~override/XGLKG2.CRE~        
   SAY NAME1 @203 
   SAY NAME2 @203 
 
-COPY ~PoFQuestPack/Actors/LKGMOD.CRE~        ~override/LKGMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGLKG.CRE~        ~override/XGLKG.CRE~         
   SAY NAME1 @203 
   SAY NAME2 @203 
 
-COPY ~PoFQuestPack/Actors/LOFLTMOD.CRE~      ~override/LOFLTMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLOFLT.CRE~      ~override/XGLOFLT.CRE~       
   SAY NAME1 @204 
   SAY NAME2 @204 
 
-COPY ~PoFQuestPack/Actors/LOHORMOD.CRE~      ~override/LOHORMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLOHOR.CRE~      ~override/XGLOHOR.CRE~       
   SAY NAME1 @205 
   SAY NAME2 @205 
 
-COPY ~PoFQuestPack/Actors/LONORMOD.CRE~      ~override/LONORMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLONOR.CRE~      ~override/XGLONOR.CRE~       
   SAY NAME1 @206 
   SAY NAME2 @206 
 
-COPY ~PoFQuestPack/Actors/LORUMOD.CRE~       ~override/LORUMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGLORU.CRE~       ~override/XGLORU.CRE~        
   SAY NAME1 @207 
   SAY NAME2 @207 
 
-COPY ~PoFQuestPack/Actors/LOVCTMOD.CRE~      ~override/LOVCTMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLOVCT.CRE~      ~override/XGLOVCT.CRE~       
   SAY NAME1 @208 
   SAY NAME2 @208 
 
-COPY ~PoFQuestPack/Actors/LOVT1MOD.CRE~      ~override/LOVT1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLOVT1.CRE~      ~override/XGLOVT1.CRE~       
   SAY NAME1 @208 
   SAY NAME2 @208 
 
-COPY ~PoFQuestPack/Actors/LOVTMOD.CRE~       ~override/LOVTMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGLOVT.CRE~       ~override/XGLOVT.CRE~        
   SAY NAME1 @209 
   SAY NAME2 @209 
 
-COPY ~PoFQuestPack/Actors/LRLOMOD.CRE~       ~override/LRLOMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGLRLO.CRE~       ~override/XGLRLO.CRE~        
   SAY NAME1 @211 
   SAY NAME2 @211 
 
-COPY ~PoFQuestPack/Actors/LRSHMOD.CRE~       ~override/LRSHMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGLRSH.CRE~       ~override/XGLRSH.CRE~        
   SAY NAME1 @212 
   SAY NAME2 @212 
 
-COPY ~PoFQuestPack/Actors/LUMOD.CRE~         ~override/LUMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGLU.CRE~         ~override/XGLU.CRE~          
   SAY NAME1 @213 
   SAY NAME2 @214 
 
-COPY ~PoFQuestPack/Actors/LUSCMOD.CRE~       ~override/LUSCMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGLUSC.CRE~       ~override/XGLUSC.CRE~        
 
-COPY ~PoFQuestPack/Actors/LUSG1MOD.CRE~      ~override/LUSG1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLUSG1.CRE~      ~override/XGLUSG1.CRE~       
 
-COPY ~PoFQuestPack/Actors/LUSG2MOD.CRE~      ~override/LUSG2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLUSG2.CRE~      ~override/XGLUSG2.CRE~       
 
-COPY ~PoFQuestPack/Actors/LUSG3MOD.CRE~      ~override/LUSG3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLUSG3.CRE~      ~override/XGLUSG3.CRE~       
   SAY NAME1 @215 
   SAY NAME2 @215 
 
-COPY ~PoFQuestPack/Actors/LUSG4MOD.CRE~      ~override/LUSG4MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLUSG4.CRE~      ~override/XGLUSG4.CRE~       
   SAY NAME1 @215 
   SAY NAME2 @215 
 
-COPY ~PoFQuestPack/Actors/LUSGCMOD.CRE~      ~override/LUSGCMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLUSGC.CRE~      ~override/XGLUSGC.CRE~       
   SAY NAME1 @216 
   SAY NAME2 @201 
 
-COPY ~PoFQuestPack/Actors/LUSGMOD.CRE~       ~override/LUSGMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGLUSG.CRE~       ~override/XGLUSG.CRE~        
   SAY NAME1 @215 
   SAY NAME2 @215 
 
-COPY ~PoFQuestPack/Actors/LUSGNMOD.CRE~      ~override/LUSGNMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLUSGN.CRE~      ~override/XGLUSGN.CRE~       
   SAY NAME1 @215 
   SAY NAME2 @215 
 
-COPY ~PoFQuestPack/Actors/LUSGWMOD.CRE~      ~override/LUSGWMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLUSGW.CRE~      ~override/XGLUSGW.CRE~       
 
-COPY ~PoFQuestPack/Actors/LUSN1MOD.CRE~      ~override/LUSN1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLUSN1.CRE~      ~override/XGLUSN1.CRE~       
   SAY NAME1 @215 
   SAY NAME2 @215 
 
-COPY ~PoFQuestPack/Actors/LUSN2MOD.CRE~      ~override/LUSN2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLUSN2.CRE~      ~override/XGLUSN2.CRE~       
   SAY NAME1 @215 
   SAY NAME2 @215 
 
-COPY ~PoFQuestPack/Actors/LUSN3MOD.CRE~      ~override/LUSN3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLUSN3.CRE~      ~override/XGLUSN3.CRE~       
   SAY NAME1 @215 
   SAY NAME2 @215 
 
-COPY ~PoFQuestPack/Actors/LUSN4MOD.CRE~      ~override/LUSN4MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLUSN4.CRE~      ~override/XGLUSN4.CRE~       
   SAY NAME1 @215 
   SAY NAME2 @215 
 
-COPY ~PoFQuestPack/Actors/LUSQ1MOD.CRE~      ~override/LUSQ1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLUSQ1.CRE~      ~override/XGLUSQ1.CRE~       
   SAY NAME1 @217 
   SAY NAME2 @217 
 
-COPY ~PoFQuestPack/Actors/LUSQ2MOD.CRE~      ~override/LUSQ2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLUSQ2.CRE~      ~override/XGLUSQ2.CRE~       
   SAY NAME1 @217 
   SAY NAME2 @217 
 
-COPY ~PoFQuestPack/Actors/LUSQ3MOD.CRE~      ~override/LUSQ3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLUSQ3.CRE~      ~override/XGLUSQ3.CRE~       
   SAY NAME1 @217 
   SAY NAME2 @217 
 
-COPY ~PoFQuestPack/Actors/LUSW1MOD.CRE~      ~override/LUSW1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLUSW1.CRE~      ~override/XGLUSW1.CRE~       
   SAY NAME1 @217 
   SAY NAME2 @217 
 
-COPY ~PoFQuestPack/Actors/LUSW2MOD.CRE~      ~override/LUSW2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLUSW2.CRE~      ~override/XGLUSW2.CRE~       
   SAY NAME1 @217 
   SAY NAME2 @217 
 
-COPY ~PoFQuestPack/Actors/LUSW3MOD.CRE~      ~override/LUSW3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGLUSW3.CRE~      ~override/XGLUSW3.CRE~       
   SAY NAME1 @217 
   SAY NAME2 @217 
 
-COPY ~PoFQuestPack/Actors/LUSWMOD.CRE~       ~override/LUSWMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGLUSW.CRE~       ~override/XGLUSW.CRE~        
   SAY NAME1 @217 
   SAY NAME2 @217 
 
-COPY ~PoFQuestPack/Actors/LUSWZMOD.CRE~      ~override/LUSWZMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGluswz.CRE~      ~override/XGluswz.CRE~       
   SAY NAME1 @218 
   SAY NAME2 @218 
 
-COPY ~PoFQuestPack/Actors/LWRAMOD.CRE~       ~override/LWRAMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGLWRA.CRE~       ~override/XGLWRA.CRE~        
   SAY NAME1 @170 
   SAY NAME2 @170 
 
-COPY ~PoFQuestPack/Actors/LWREMOD.CRE~       ~override/LWREMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGLWRE.CRE~       ~override/XGLWRE.CRE~        
   SAY NAME1 @170 
   SAY NAME2 @170 
 
-COPY ~PoFQuestPack/Actors/LWSAMOD.CRE~       ~override/LWSAMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGLWSA.CRE~       ~override/XGLWSA.CRE~        
   SAY NAME1 @219 
   SAY NAME2 @219 
 
-COPY ~PoFQuestPack/Actors/LWSEMOD.CRE~       ~override/LWSEMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGLWSE.CRE~       ~override/XGLWSE.CRE~        
   SAY NAME1 @219 
   SAY NAME2 @219 
 
-COPY ~PoFQuestPack/Actors/MAGEAMOD.CRE~      ~override/MAGEAMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMAGEA.CRE~      ~override/XGMAGEA.CRE~       
   SAY NAME1 @220 
   SAY NAME2 @220 
 
-COPY ~PoFQuestPack/Actors/MAGTMOD.CRE~       ~override/MAGTMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGMAGT.CRE~       ~override/XGMAGT.CRE~        
   SAY NAME1 @221 
 
-COPY ~PoFQuestPack/Actors/MAR1MOD.CRE~       ~override/MAR1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGMAR1.CRE~       ~override/XGMAR1.CRE~        
   SAY NAME1 @222 
   SAY NAME2 @222 
 
-COPY ~PoFQuestPack/Actors/MARIAMOD.CRE~      ~override/MARIAMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMARIA.CRE~      ~override/XGMARIA.CRE~       
 
-COPY ~PoFQuestPack/Actors/MARIAN.CRE~        ~override/MARIAN.CRE~         
+COPY ~PoFQuestPack/Actors/XGMARAN.CRE~        ~override/XGMARAN.CRE~         
   SAY NAME1 @223 
   SAY NAME2 @223 
 
-COPY ~PoFQuestPack/Actors/MARIOMOD.CRE~      ~override/MARIOMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMARIO.CRE~      ~override/XGMARIO.CRE~       
   SAY NAME1 @224 
   SAY NAME2 @224 
 
-COPY ~PoFQuestPack/Actors/MARKOMOD.CRE~      ~override/MARKOMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMARKO.CRE~      ~override/XGMARKO.CRE~       
   SAY NAME1 @225 
   SAY NAME2 @225 
 
-COPY ~PoFQuestPack/Actors/MARMOD.CRE~        ~override/MARMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGMAR.CRE~        ~override/XGMAR.CRE~         
   SAY NAME1 @226 
   SAY NAME2 @226 
 
-COPY ~PoFQuestPack/Actors/MAYBMOD.CRE~       ~override/MAYBMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGMAYB.CRE~       ~override/XGMAYB.CRE~        
 
-COPY ~PoFQuestPack/Actors/MAYORMOD.CRE~      ~override/MAYORMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMAYOR.CRE~      ~override/XGMAYOR.CRE~       
   SAY NAME1 @227 
   SAY NAME2 @227 
 
-COPY ~PoFQuestPack/Actors/MAYWMOD.CRE~       ~override/MAYWMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGMAYW.CRE~       ~override/XGMAYW.CRE~        
   SAY NAME1 @228 
   SAY NAME2 @228 
 
-COPY ~PoFQuestPack/Actors/MCALAMOD.CRE~      ~override/MCALAMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMCALA.CRE~      ~override/XGMCALA.CRE~       
   SAY NAME1 @229 
   SAY NAME2 @229 
 
-COPY ~PoFQuestPack/Actors/MCHMOD.CRE~        ~override/MCHMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGMCH.CRE~        ~override/XGMCH.CRE~         
 
-COPY ~PoFQuestPack/Actors/MERAMOD.CRE~       ~override/MERAMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGMERA.CRE~       ~override/XGMERA.CRE~        
 
-COPY ~PoFQuestPack/Actors/MERMOD.CRE~        ~override/MERMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGMER.CRE~        ~override/XGMER.CRE~         
   SAY NAME1 @231 
   SAY NAME2 @231 
 
-COPY ~PoFQuestPack/Actors/MERS1MOD.CRE~      ~override/MERS1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMERS1.CRE~      ~override/XGMERS1.CRE~       
 
-COPY ~PoFQuestPack/Actors/MERSMOD.CRE~       ~override/MERSMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGMERS.CRE~       ~override/XGMERS.CRE~        
 
-COPY ~PoFQuestPack/Actors/MESMOD.CRE~        ~override/MESMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGMES.CRE~        ~override/XGMES.CRE~         
   SAY NAME1 @129 
   SAY NAME2 @129 
 
-COPY ~PoFQuestPack/Actors/MFTL1MOD.CRE~      ~override/MFTL1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMFTL1.CRE~      ~override/XGMFTL1.CRE~       
   SAY NAME1 @232 
   SAY NAME2 @232 
 
-COPY ~PoFQuestPack/Actors/MFTL2MOD.CRE~      ~override/MFTL2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMFTL2.CRE~      ~override/XGMFTL2.CRE~       
   SAY NAME1 @232 
   SAY NAME2 @232 
 
-COPY ~PoFQuestPack/Actors/MFTL3MOD.CRE~      ~override/MFTL3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMFTL3.CRE~      ~override/XGMFTL3.CRE~       
   SAY NAME1 @232 
   SAY NAME2 @232 
 
-COPY ~PoFQuestPack/Actors/MFTL4MOD.CRE~      ~override/MFTL4MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMFTL4.CRE~      ~override/XGMFTL4.CRE~       
   SAY NAME1 @232 
   SAY NAME2 @232 
 
-COPY ~PoFQuestPack/Actors/MFTL5MOD.CRE~      ~override/MFTL5MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMFTL5.CRE~      ~override/XGMFTL5.CRE~       
   SAY NAME1 @232 
   SAY NAME2 @232 
 
-COPY ~PoFQuestPack/Actors/MFTL6MOD.CRE~      ~override/MFTL6MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMFTL6.CRE~      ~override/XGMFTL6.CRE~       
   SAY NAME1 @232 
   SAY NAME2 @232 
 
-COPY ~PoFQuestPack/Actors/MFTL7MOD.CRE~      ~override/MFTL7MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMFTL7.CRE~      ~override/XGMFTL7.CRE~       
   SAY NAME1 @232 
   SAY NAME2 @232 
 
-COPY ~PoFQuestPack/Actors/MFTL8MOD.CRE~      ~override/MFTL8MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMFTL8.CRE~      ~override/XGMFTL8.CRE~       
   SAY NAME1 @232 
   SAY NAME2 @232 
 
-COPY ~PoFQuestPack/Actors/MFTLMOD.CRE~       ~override/MFTLMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGMFTL.CRE~       ~override/XGMFTL.CRE~        
   SAY NAME1 @232 
   SAY NAME2 @232 
 
-COPY ~PoFQuestPack/Actors/MGASMOD.CRE~       ~override/MGASMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGMGAS.CRE~       ~override/XGMGAS.CRE~        
   SAY NAME1 @233 
   SAY NAME2 @233 
 
-COPY ~PoFQuestPack/Actors/MGG1MOD.CRE~       ~override/MGG1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGMGG1.CRE~       ~override/XGMGG1.CRE~        
   SAY NAME1 @234 
   SAY NAME2 @234 
 
-COPY ~PoFQuestPack/Actors/MGGMOD.CRE~        ~override/MGGMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGMGG.CRE~        ~override/XGMGG.CRE~         
 
-COPY ~PoFQuestPack/Actors/MILAMOD.CRE~       ~override/MILAMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGMILA.CRE~       ~override/XGMILA.CRE~        
   SAY NAME1 @235 
   SAY NAME2 @235 
 
-COPY ~PoFQuestPack/Actors/MILCMOD.CRE~       ~override/MILCMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGMILC.CRE~       ~override/XGMILC.CRE~        
   SAY NAME1 @126 
   SAY NAME2 @126 
 
-COPY ~PoFQuestPack/Actors/MILMOD.CRE~        ~override/MILMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGMIL.CRE~        ~override/XGMIL.CRE~         
   SAY NAME1 @126 
   SAY NAME2 @126 
 
-COPY ~PoFQuestPack/Actors/MINMOD.CRE~        ~override/MINMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGMIN.CRE~        ~override/XGMIN.CRE~         
 
-COPY ~PoFQuestPack/Actors/mitrmod.cre~       ~override/mitrmod.cre~        
+COPY ~PoFQuestPack/Actors/XGmitr.cre~       ~override/XGmitr.cre~        
 
-COPY ~PoFQuestPack/Actors/MOHCAMOD.CRE~      ~override/MOHCAMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMOHCA.CRE~      ~override/XGMOHCA.CRE~       
   SAY NAME1 @129 
   SAY NAME2 @129 
 
-COPY ~PoFQuestPack/Actors/MOHCMOD.CRE~       ~override/MOHCMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGMOHC.CRE~       ~override/XGMOHC.CRE~        
   SAY NAME1 @129 
   SAY NAME2 @129 
 
-COPY ~PoFQuestPack/Actors/MOHDMOD.CRE~       ~override/MOHDMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGMOHD.CRE~       ~override/XGMOHD.CRE~        
   SAY NAME1 @129 
   SAY NAME2 @129 
 
-COPY ~PoFQuestPack/Actors/MOMOD.CRE~         ~override/MOMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGMO.CRE~         ~override/XGMO.CRE~          
 
-COPY ~PoFQuestPack/Actors/MONKCMOD.CRE~      ~override/MONKCMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMONKC.CRE~      ~override/XGMONKC.CRE~       
   SAY NAME1 @236 
   SAY NAME2 @236 
 
-COPY ~PoFQuestPack/Actors/MONORMOD.CRE~      ~override/MONORMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMONOR.CRE~      ~override/XGMONOR.CRE~       
   SAY NAME1 @237 
   SAY NAME2 @237 
 
-COPY ~PoFQuestPack/Actors/MOOMMOD.CRE~       ~override/MOOMMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGMOOM.CRE~       ~override/XGMOOM.CRE~        
   SAY NAME1 @238 
   SAY NAME2 @238 
 
-COPY ~PoFQuestPack/Actors/MOON1MOD.CRE~      ~override/MOON1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMOON1.CRE~      ~override/XGMOON1.CRE~       
   SAY NAME1 @239 
   SAY NAME2 @239 
 
-COPY ~PoFQuestPack/Actors/MOON2MOD.CRE~      ~override/MOON2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMOON2.CRE~      ~override/XGMOON2.CRE~       
   SAY NAME1 @240 
   SAY NAME2 @240 
 
-COPY ~PoFQuestPack/Actors/MOONLMOD.CRE~      ~override/MOONLMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMOONL.CRE~      ~override/XGMOONL.CRE~       
   SAY NAME1 @241 
   SAY NAME2 @242 
 
-COPY ~PoFQuestPack/Actors/MOONMOD.CRE~       ~override/MOONMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGMOON.CRE~       ~override/XGMOON.CRE~        
   SAY NAME1 @243 
   SAY NAME2 @243 
 
-COPY ~PoFQuestPack/Actors/MSALMOD.CRE~       ~override/MSALMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGMSAL.CRE~       ~override/XGMSAL.CRE~        
 
-COPY ~PoFQuestPack/Actors/MSLC1MOD.CRE~      ~override/MSLC1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMSLC1.CRE~      ~override/XGMSLC1.CRE~       
   SAY NAME1 @244 
   SAY NAME2 @244 
 
-COPY ~PoFQuestPack/Actors/MSLC2MOD.CRE~      ~override/MSLC2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGMSLC2.CRE~      ~override/XGMSLC2.CRE~       
   SAY NAME1 @244 
   SAY NAME2 @244 
 
-COPY ~PoFQuestPack/Actors/MTRMOD.CRE~        ~override/MTRMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGMTR.CRE~        ~override/XGMTR.CRE~         
   SAY NAME1 @245 
 
-COPY ~PoFQuestPack/Actors/MWMOD.CRE~         ~override/MWMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGMW.CRE~         ~override/XGMW.CRE~          
   SAY NAME1 @246 
   SAY NAME2 @246 
 
-COPY ~PoFQuestPack/Actors/mybg1mod.cre~      ~override/mybg1mod.cre~       
+COPY ~PoFQuestPack/Actors/XGmybg1.cre~      ~override/XGmybg1.cre~       
   SAY NAME1 @15 
   SAY NAME2 @15 
 
-COPY ~PoFQuestPack/Actors/mybgmod.cre~       ~override/mybgmod.cre~        
+COPY ~PoFQuestPack/Actors/XGmybg.cre~       ~override/XGmybg.cre~        
   SAY NAME1 @15 
   SAY NAME2 @15 
 
-COPY ~PoFQuestPack/Actors/MYESMOD.CRE~       ~override/MYESMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGMYES.CRE~       ~override/XGMYES.CRE~        
   SAY NAME1 @247 
   SAY NAME2 @247 
 
-COPY ~PoFQuestPack/Actors/myhsmod.cre~       ~override/myhsmod.cre~        
+COPY ~PoFQuestPack/Actors/XGmyhs.cre~       ~override/XGmyhs.cre~        
   SAY NAME1 @248 
   SAY NAME2 @248 
 
-COPY ~PoFQuestPack/Actors/NASHRMOD.CRE~      ~override/NASHRMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGNASHR.CRE~      ~override/XGNASHR.CRE~       
   SAY NAME1 @249 
   SAY NAME2 @249 
 
-COPY ~PoFQuestPack/Actors/NASMOD.CRE~        ~override/NASMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGNAS.CRE~        ~override/XGNAS.CRE~         
   SAY NAME1 @250 
   SAY NAME2 @250 
 
-COPY ~PoFQuestPack/Actors/NIN1MOD.CRE~       ~override/NIN1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNIN1.CRE~       ~override/XGNIN1.CRE~        
   SAY NAME1 @251 
   SAY NAME2 @251 
 
-COPY ~PoFQuestPack/Actors/NIN2MOD.CRE~       ~override/NIN2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNIN2.CRE~       ~override/XGNIN2.CRE~        
   SAY NAME1 @251 
   SAY NAME2 @251 
 
-COPY ~PoFQuestPack/Actors/NIN3MOD.CRE~       ~override/NIN3MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNIN3.CRE~       ~override/XGNIN3.CRE~        
   SAY NAME1 @251 
   SAY NAME2 @251 
 
-COPY ~PoFQuestPack/Actors/NIN4MOD.CRE~       ~override/NIN4MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNIN4.CRE~       ~override/XGNIN4.CRE~        
   SAY NAME1 @251 
   SAY NAME2 @251 
 
-COPY ~PoFQuestPack/Actors/NIN5MOD.CRE~       ~override/NIN5MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNIN5.CRE~       ~override/XGNIN5.CRE~        
   SAY NAME1 @251 
   SAY NAME2 @251 
 
-COPY ~PoFQuestPack/Actors/NIN6MOD.CRE~       ~override/NIN6MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNIN6.CRE~       ~override/XGNIN6.CRE~        
   SAY NAME1 @251 
   SAY NAME2 @251 
 
-COPY ~PoFQuestPack/Actors/NIN7MOD.CRE~       ~override/NIN7MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNIN7.CRE~       ~override/XGNIN7.CRE~        
   SAY NAME1 @251 
   SAY NAME2 @251 
 
-COPY ~PoFQuestPack/Actors/NIN8MOD.CRE~       ~override/NIN8MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNIN8.CRE~       ~override/XGNIN8.CRE~        
   SAY NAME1 @251 
   SAY NAME2 @251 
 
-COPY ~PoFQuestPack/Actors/NINMOD.CRE~        ~override/NINMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGNIN.CRE~        ~override/XGNIN.CRE~         
   SAY NAME1 @251 
   SAY NAME2 @251 
 
-COPY ~PoFQuestPack/Actors/NOBGMOD.CRE~       ~override/NOBGMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNOBG.CRE~       ~override/XGNOBG.CRE~        
 
-COPY ~PoFQuestPack/Actors/NOM1MOD.CRE~       ~override/NOM1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNOM1.CRE~       ~override/XGNOM1.CRE~        
   SAY NAME1 @252 
   SAY NAME2 @252 
 
-COPY ~PoFQuestPack/Actors/NOMMOD.CRE~        ~override/NOMMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGNOM.CRE~        ~override/XGNOM.CRE~         
   SAY NAME1 @253 
   SAY NAME2 @253 
 
-COPY ~PoFQuestPack/Actors/NOMNMOD.CRE~       ~override/NOMNMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNOMN.CRE~       ~override/XGNOMN.CRE~        
   SAY NAME1 @252 
   SAY NAME2 @252 
 
-COPY ~PoFQuestPack/Actors/nor1mod.cre~       ~override/nor1mod.cre~        
+COPY ~PoFQuestPack/Actors/XGnor1.cre~       ~override/XGnor1.cre~        
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~PoFQuestPack/Actors/nor2mod.cre~       ~override/nor2mod.cre~        
+COPY ~PoFQuestPack/Actors/XGnor2.cre~       ~override/XGnor2.cre~        
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~PoFQuestPack/Actors/norcemod.cre~      ~override/norcemod.cre~       
+COPY ~PoFQuestPack/Actors/XGnorce.cre~      ~override/XGnorce.cre~       
 
-COPY ~PoFQuestPack/Actors/norcmod.cre~       ~override/norcmod.cre~        
+COPY ~PoFQuestPack/Actors/XGnorc.cre~       ~override/XGnorc.cre~        
 
-COPY ~PoFQuestPack/Actors/noremod.cre~       ~override/noremod.cre~        
+COPY ~PoFQuestPack/Actors/XGnore.cre~       ~override/XGnore.cre~        
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~PoFQuestPack/Actors/noreqmod.cre~      ~override/noreqmod.cre~       
+COPY ~PoFQuestPack/Actors/XGnoreq.cre~      ~override/XGnoreq.cre~       
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~PoFQuestPack/Actors/normod.cre~        ~override/normod.cre~         
+COPY ~PoFQuestPack/Actors/XGnor.cre~        ~override/XGnor.cre~         
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~PoFQuestPack/Actors/norpamod.cre~      ~override/norpamod.cre~       
+COPY ~PoFQuestPack/Actors/XGnorpa.cre~      ~override/XGnorpa.cre~       
   SAY NAME1 @255 
   SAY NAME2 @255 
 
-COPY ~PoFQuestPack/Actors/norpmod.cre~       ~override/norpmod.cre~        
+COPY ~PoFQuestPack/Actors/XGnorp.cre~       ~override/XGnorp.cre~        
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~PoFQuestPack/Actors/norremod.cre~      ~override/norremod.cre~       
+COPY ~PoFQuestPack/Actors/XGnorre.cre~      ~override/XGnorre.cre~       
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~PoFQuestPack/Actors/nortemod.cre~      ~override/nortemod.cre~       
+COPY ~PoFQuestPack/Actors/XGnorte.cre~      ~override/XGnorte.cre~       
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~PoFQuestPack/Actors/noru1mod.cre~      ~override/noru1mod.cre~       
+COPY ~PoFQuestPack/Actors/XGnoru1.cre~      ~override/XGnoru1.cre~       
   SAY NAME1 @15 
   SAY NAME2 @15 
 
-COPY ~PoFQuestPack/Actors/norumod.cre~       ~override/norumod.cre~        
+COPY ~PoFQuestPack/Actors/XGnoru.cre~       ~override/XGnoru.cre~        
   SAY NAME1 @15 
   SAY NAME2 @15 
 
-COPY ~PoFQuestPack/Actors/norwemod.cre~      ~override/norwemod.cre~       
+COPY ~PoFQuestPack/Actors/XGnorwe.cre~      ~override/XGnorwe.cre~       
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~PoFQuestPack/Actors/norxmod.cre~       ~override/norxmod.cre~        
+COPY ~PoFQuestPack/Actors/XGnorx.cre~       ~override/XGnorx.cre~        
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~PoFQuestPack/Actors/norymod.cre~       ~override/norymod.cre~        
+COPY ~PoFQuestPack/Actors/XGnory.cre~       ~override/XGnory.cre~        
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~PoFQuestPack/Actors/norzmod.cre~       ~override/norzmod.cre~        
+COPY ~PoFQuestPack/Actors/XGnorz.cre~       ~override/XGnorz.cre~        
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~PoFQuestPack/Actors/NPC1MOD.CRE~       ~override/NPC1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNPC1.CRE~       ~override/XGNPC1.CRE~        
 
-COPY ~PoFQuestPack/Actors/NPC2MOD.CRE~       ~override/NPC2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNPC2.CRE~       ~override/XGNPC2.CRE~        
 
-COPY ~PoFQuestPack/Actors/NPC3MOD.CRE~       ~override/NPC3MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNPC3.CRE~       ~override/XGNPC3.CRE~        
 
-COPY ~PoFQuestPack/Actors/NPC4MOD.CRE~       ~override/NPC4MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNPC4.CRE~       ~override/XGNPC4.CRE~        
   SAY NAME2 @256 
 
-COPY ~PoFQuestPack/Actors/NS1MOD.CRE~        ~override/NS1MOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGNS1.CRE~        ~override/XGNS1.CRE~         
 
-COPY ~PoFQuestPack/Actors/NWMC1MOD.CRE~      ~override/NWMC1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGnwmc1.CRE~      ~override/XGnwmc1.CRE~       
 
-COPY ~PoFQuestPack/Actors/NWNAMOD.CRE~       ~override/NWNAMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNWNA.CRE~       ~override/XGNWNA.CRE~        
   SAY NAME1 @257 
   SAY NAME2 @257 
 
-COPY ~PoFQuestPack/Actors/NWNAPMOD.CRE~      ~override/NWNAPMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGNWNAP.CRE~      ~override/XGNWNAP.CRE~       
   SAY NAME1 @132 
   SAY NAME2 @132 
 
-COPY ~PoFQuestPack/Actors/NWNBMOD.CRE~       ~override/NWNBMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNWNB.CRE~       ~override/XGNWNB.CRE~        
   SAY NAME1 @258 
   SAY NAME2 @258 
 
-COPY ~PoFQuestPack/Actors/NWNC2MOD.CRE~      ~override/NWNC2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGNWNC2.CRE~      ~override/XGNWNC2.CRE~       
 
-COPY ~PoFQuestPack/Actors/NWNC3MOD.CRE~      ~override/NWNC3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGnwnc3.CRE~      ~override/XGnwnc3.CRE~       
 
-COPY ~PoFQuestPack/Actors/NWNCNMOD.CRE~      ~override/NWNCNMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGNWNCN.CRE~      ~override/XGNWNCN.CRE~       
   SAY NAME1 @259 
   SAY NAME2 @259 
 
-COPY ~PoFQuestPack/Actors/NWNCSMOD.CRE~      ~override/NWNCSMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGnwncs.CRE~      ~override/XGnwncs.CRE~       
 
-COPY ~PoFQuestPack/Actors/NWNCWMOD.CRE~      ~override/NWNCWMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGnwncw.CRE~      ~override/XGnwncw.CRE~       
   SAY NAME1 @260 
   SAY NAME2 @260 
 
-COPY ~PoFQuestPack/Actors/NWNG1MOD.CRE~      ~override/NWNG1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGNWNG1.CRE~      ~override/XGNWNG1.CRE~       
   SAY NAME1 @261 
   SAY NAME2 @261 
 
-COPY ~PoFQuestPack/Actors/NWNG2MOD.CRE~      ~override/NWNG2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGNWNG2.CRE~      ~override/XGNWNG2.CRE~       
   SAY NAME1 @261 
   SAY NAME2 @261 
 
-COPY ~PoFQuestPack/Actors/NWNGCMOD.CRE~      ~override/NWNGCMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGNWNGC.CRE~      ~override/XGNWNGC.CRE~       
   SAY NAME1 @262 
   SAY NAME2 @262 
 
-COPY ~PoFQuestPack/Actors/NWNGDMOD.CRE~      ~override/NWNGDMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGNWNGD.CRE~      ~override/XGNWNGD.CRE~       
   SAY NAME1 @261 
   SAY NAME2 @261 
 
-COPY ~PoFQuestPack/Actors/NWNGMOD.CRE~       ~override/NWNGMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNWNG.CRE~       ~override/XGNWNG.CRE~        
   SAY NAME1 @263 
   SAY NAME2 @263 
 
-COPY ~PoFQuestPack/Actors/NWNLGMOD.CRE~      ~override/NWNLGMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGNWNLG.CRE~      ~override/XGNWNLG.CRE~       
   SAY NAME1 @264 
   SAY NAME2 @264 
 
-COPY ~PoFQuestPack/Actors/NWNLMOD.CRE~       ~override/NWNLMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNWNL.CRE~       ~override/XGNWNL.CRE~        
   SAY NAME1 @265 
   SAY NAME2 @265 
 
-COPY ~PoFQuestPack/Actors/NWNM1MOD.CRE~      ~override/NWNM1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGNWNM1.CRE~      ~override/XGNWNM1.CRE~       
 
-COPY ~PoFQuestPack/Actors/NWNMMOD.CRE~       ~override/NWNMMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNWNM.CRE~       ~override/XGNWNM.CRE~        
 
-COPY ~PoFQuestPack/Actors/NWNN1MOD.CRE~      ~override/NWNN1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGNWNN1.CRE~      ~override/XGNWNN1.CRE~       
   SAY NAME1 @259 
   SAY NAME2 @259 
 
-COPY ~PoFQuestPack/Actors/NWNNMOD.CRE~       ~override/NWNNMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNWNN.CRE~       ~override/XGNWNN.CRE~        
   SAY NAME1 @266 
   SAY NAME2 @266 
 
-COPY ~PoFQuestPack/Actors/NWNRGMOD.CRE~      ~override/NWNRGMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGNWNRG.CRE~      ~override/XGNWNRG.CRE~       
   SAY NAME1 @267 
   SAY NAME2 @267 
 
-COPY ~PoFQuestPack/Actors/NWNSFMOD.CRE~      ~override/NWNSFMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGNWNSF.CRE~      ~override/XGNWNSF.CRE~       
 
-COPY ~PoFQuestPack/Actors/NWNSMOD.CRE~       ~override/NWNSMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNWNS.CRE~       ~override/XGNWNS.CRE~        
 
-COPY ~PoFQuestPack/Actors/NWNWMOD.CRE~       ~override/NWNWMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGNWNW.CRE~       ~override/XGNWNW.CRE~        
   SAY NAME1 @268 
 
-COPY ~PoFQuestPack/Actors/OLDMMOD.CRE~       ~override/OLDMMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGOLDM.CRE~       ~override/XGOLDM.CRE~        
   SAY NAME1 @269 
   SAY NAME2 @269 
 
-COPY ~PoFQuestPack/Actors/OLDWMOD.CRE~       ~override/OLDWMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGOLDW.CRE~       ~override/XGOLDW.CRE~        
   SAY NAME1 @270 
   SAY NAME2 @270 
 
-COPY ~PoFQuestPack/Actors/OR1KIMOD.CRE~      ~override/OR1KIMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGOR1KI.CRE~      ~override/XGOR1KI.CRE~       
   SAY NAME1 @271 
   SAY NAME2 @271 
 
-COPY ~PoFQuestPack/Actors/ORC1MOD.CRE~       ~override/ORC1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGORC1.CRE~       ~override/XGORC1.CRE~        
 
-COPY ~PoFQuestPack/Actors/ORC2MOD.CRE~       ~override/ORC2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGORC2.CRE~       ~override/XGORC2.CRE~        
 
-COPY ~PoFQuestPack/Actors/ORCCMOD.CRE~       ~override/ORCCMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGORCC.CRE~       ~override/XGORCC.CRE~        
   SAY NAME1 @272 
   SAY NAME2 @272 
 
-COPY ~PoFQuestPack/Actors/ORCHMOD.CRE~       ~override/ORCHMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGORCH.CRE~       ~override/XGORCH.CRE~        
   SAY NAME1 @272 
   SAY NAME2 @272 
 
-COPY ~PoFQuestPack/Actors/ORCKIMOD.CRE~      ~override/ORCKIMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGorcki.CRE~      ~override/XGorcki.CRE~       
   SAY NAME1 @271 
   SAY NAME2 @271 
 
-COPY ~PoFQuestPack/Actors/ORCMMOD.CRE~       ~override/ORCMMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGORCM.CRE~       ~override/XGORCM.CRE~        
 
-COPY ~PoFQuestPack/Actors/ORCPMOD.CRE~       ~override/ORCPMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGORCP.CRE~       ~override/XGORCP.CRE~        
 
-COPY ~PoFQuestPack/Actors/ORHSMOD.CRE~       ~override/ORHSMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGORHS.CRE~       ~override/XGORHS.CRE~        
   SAY NAME1 @273 
   SAY NAME2 @273 
 
-COPY ~PoFQuestPack/Actors/OROGMOD.CRE~       ~override/OROGMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGOROG.CRE~       ~override/XGOROG.CRE~        
   SAY NAME1 @274 
   SAY NAME2 @274 
 
-COPY ~PoFQuestPack/Actors/OTIRMOD.CRE~       ~override/OTIRMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGOTIR.CRE~       ~override/XGOTIR.CRE~        
   SAY NAME1 @275 
   SAY NAME2 @275 
 
-COPY ~PoFQuestPack/Actors/PAL1MOD.CRE~       ~override/PAL1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGPAL1.CRE~       ~override/XGPAL1.CRE~        
 
-COPY ~PoFQuestPack/Actors/PALWMOD.CRE~       ~override/PALWMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGPALW.CRE~       ~override/XGPALW.CRE~        
   SAY NAME1 @276 
   SAY NAME2 @276 
 
-COPY ~PoFQuestPack/Actors/PASMOD.CRE~        ~override/PASMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGPAS.CRE~        ~override/XGPAS.CRE~         
 
-COPY ~PoFQuestPack/Actors/PASTMOD.CRE~       ~override/PASTMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGPAST.CRE~       ~override/XGPAST.CRE~        
   SAY NAME1 @277 
   SAY NAME2 @277 
 
-COPY ~PoFQuestPack/Actors/PEASMOD.CRE~       ~override/PEASMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGPEAS.CRE~       ~override/XGPEAS.CRE~        
 
-COPY ~PoFQuestPack/Actors/PETTMOD.CRE~       ~override/PETTMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGPETT.CRE~       ~override/XGPETT.CRE~        
 
-COPY ~PoFQuestPack/Actors/phimod.cre~        ~override/phimod.cre~         
+COPY ~PoFQuestPack/Actors/XGphi.cre~        ~override/XGphi.cre~         
   SAY NAME1 @278 
   SAY NAME2 @278 
 
-COPY ~PoFQuestPack/Actors/PIR1MOD.CRE~       ~override/PIR1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGPIR1.CRE~       ~override/XGPIR1.CRE~        
 
-COPY ~PoFQuestPack/Actors/PIR2MOD.CRE~       ~override/PIR2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGPIR2.CRE~       ~override/XGPIR2.CRE~        
 
-COPY ~PoFQuestPack/Actors/PIR3MOD.CRE~       ~override/PIR3MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGPIR3.CRE~       ~override/XGPIR3.CRE~        
 
-COPY ~PoFQuestPack/Actors/PIR4MOD.CRE~       ~override/PIR4MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGPIR4.CRE~       ~override/XGPIR4.CRE~        
 
-COPY ~PoFQuestPack/Actors/PIR5MOD.CRE~       ~override/PIR5MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGPIR5.CRE~       ~override/XGPIR5.CRE~        
 
-COPY ~PoFQuestPack/Actors/PIR6MOD.CRE~       ~override/PIR6MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGPIR6.CRE~       ~override/XGPIR6.CRE~        
 
-COPY ~PoFQuestPack/Actors/PIR7MOD.CRE~       ~override/PIR7MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGPIR7.CRE~       ~override/XGPIR7.CRE~        
 
-COPY ~PoFQuestPack/Actors/PIR8MOD.CRE~       ~override/PIR8MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGPIR8.CRE~       ~override/XGPIR8.CRE~        
 
-COPY ~PoFQuestPack/Actors/PIRA1MOD.CRE~      ~override/PIRA1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRA1.CRE~      ~override/XGPIRA1.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRC1MOD.CRE~      ~override/PIRC1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRC1.CRE~      ~override/XGPIRC1.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRC2MOD.CRE~      ~override/PIRC2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRC2.CRE~      ~override/XGPIRC2.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRC3MOD.CRE~      ~override/PIRC3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRC3.CRE~      ~override/XGPIRC3.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRCMOD.CRE~       ~override/PIRCMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGPIRC.CRE~       ~override/XGPIRC.CRE~        
 
-COPY ~PoFQuestPack/Actors/PIRD1MOD.CRE~      ~override/PIRD1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRD1.CRE~      ~override/XGPIRD1.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRD2MOD.CRE~      ~override/PIRD2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRD2.CRE~      ~override/XGPIRD2.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRD3MOD.CRE~      ~override/PIRD3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRD3.CRE~      ~override/XGPIRD3.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRD4MOD.CRE~      ~override/PIRD4MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRD4.CRE~      ~override/XGPIRD4.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRK2MOD.CRE~      ~override/PIRK2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRK2.CRE~      ~override/XGPIRK2.CRE~       
   SAY NAME1 @279 
   SAY NAME2 @279 
 
-COPY ~PoFQuestPack/Actors/PIRK3MOD.CRE~      ~override/PIRK3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRK3.CRE~      ~override/XGPIRK3.CRE~       
   SAY NAME1 @279 
   SAY NAME2 @279 
 
-COPY ~PoFQuestPack/Actors/PIRKMOD.CRE~       ~override/PIRKMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGPIRK.CRE~       ~override/XGPIRK.CRE~        
   SAY NAME1 @279 
   SAY NAME2 @279 
 
-COPY ~PoFQuestPack/Actors/PIRM1MOD.CRE~      ~override/PIRM1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRM1.CRE~      ~override/XGPIRM1.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRM2MOD.CRE~      ~override/PIRM2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRM2.CRE~      ~override/XGPIRM2.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRM3MOD.CRE~      ~override/PIRM3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRM3.CRE~      ~override/XGPIRM3.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRM4MOD.CRE~      ~override/PIRM4MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRM4.CRE~      ~override/XGPIRM4.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRM5MOD.CRE~      ~override/PIRM5MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRM5.CRE~      ~override/XGPIRM5.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRM6MOD.CRE~      ~override/PIRM6MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRM6.CRE~      ~override/XGPIRM6.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRM7MOD.CRE~      ~override/PIRM7MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRM7.CRE~      ~override/XGPIRM7.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRM8MOD.CRE~      ~override/PIRM8MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRM8.CRE~      ~override/XGPIRM8.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRMGMOD.CRE~      ~override/PIRMGMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRMG.CRE~      ~override/XGPIRMG.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRMMOD.CRE~       ~override/PIRMMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGPIRM.CRE~       ~override/XGPIRM.CRE~        
 
-COPY ~PoFQuestPack/Actors/PIRMOD.CRE~        ~override/PIRMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGPIR.CRE~        ~override/XGPIR.CRE~         
 
-COPY ~PoFQuestPack/Actors/PIRMSMOD.CRE~      ~override/PIRMSMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRMS.CRE~      ~override/XGPIRMS.CRE~       
   SAY NAME1 @280 
   SAY NAME2 @280 
 
-COPY ~PoFQuestPack/Actors/PIRS1MOD.CRE~      ~override/PIRS1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRS1.CRE~      ~override/XGPIRS1.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRS2MOD.CRE~      ~override/PIRS2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRS2.CRE~      ~override/XGPIRS2.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRS3MOD.CRE~      ~override/PIRS3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRS3.CRE~      ~override/XGPIRS3.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRS4MOD.CRE~      ~override/PIRS4MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRS4.CRE~      ~override/XGPIRS4.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRS5MOD.CRE~      ~override/PIRS5MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRS5.CRE~      ~override/XGPIRS5.CRE~       
 
-COPY ~PoFQuestPack/Actors/PIRS6MOD.CRE~      ~override/PIRS6MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPIRS6.CRE~      ~override/XGPIRS6.CRE~       
 
-COPY ~PoFQuestPack/Actors/PR1MOD.CRE~        ~override/PR1MOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGPR1.CRE~        ~override/XGPR1.CRE~         
 
-COPY ~PoFQuestPack/Actors/pracmod.cre~       ~override/pracmod.cre~        
+COPY ~PoFQuestPack/Actors/XGprac.cre~       ~override/XGprac.cre~        
   SAY NAME1 @69 
   SAY NAME2 @69 
 
-COPY ~PoFQuestPack/Actors/prcdmod.cre~       ~override/prcdmod.cre~        
+COPY ~PoFQuestPack/Actors/XGprcd.cre~       ~override/XGprcd.cre~        
 
-COPY ~PoFQuestPack/Actors/PRCMOD.CRE~        ~override/PRCMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGPRC.CRE~        ~override/XGPRC.CRE~         
 
-COPY ~PoFQuestPack/Actors/prd1mod.cre~       ~override/prd1mod.cre~        
+COPY ~PoFQuestPack/Actors/XGprd1.cre~       ~override/XGprd1.cre~        
 
-COPY ~PoFQuestPack/Actors/prd2mod.cre~       ~override/prd2mod.cre~        
+COPY ~PoFQuestPack/Actors/XGprd2.cre~       ~override/XGprd2.cre~        
 
-COPY ~PoFQuestPack/Actors/prd3mod.cre~       ~override/prd3mod.cre~        
+COPY ~PoFQuestPack/Actors/XGprd3.cre~       ~override/XGprd3.cre~        
 
-COPY ~PoFQuestPack/Actors/prdmod.cre~        ~override/prdmod.cre~         
+COPY ~PoFQuestPack/Actors/XGprd.cre~        ~override/XGprd.cre~         
 
-COPY ~PoFQuestPack/Actors/precmod.cre~       ~override/precmod.cre~        
+COPY ~PoFQuestPack/Actors/XGprec.cre~       ~override/XGprec.cre~        
   SAY NAME1 @69 
   SAY NAME2 @69 
 
-COPY ~PoFQuestPack/Actors/preemod.cre~       ~override/preemod.cre~        
+COPY ~PoFQuestPack/Actors/XGpree.cre~       ~override/XGpree.cre~        
   SAY NAME1 @281 
   SAY NAME2 @281 
 
-COPY ~PoFQuestPack/Actors/prinmod.cre~       ~override/prinmod.cre~        
+COPY ~PoFQuestPack/Actors/XGprin.cre~       ~override/XGprin.cre~        
   SAY NAME1 @282 
   SAY NAME2 @282 
 
-COPY ~PoFQuestPack/Actors/PRMOD.CRE~         ~override/PRMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGPR.CRE~         ~override/XGPR.CRE~          
 
-COPY ~PoFQuestPack/Actors/PRNMOD.CRE~        ~override/PRNMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGPRN.CRE~        ~override/XGPRN.CRE~         
 
-COPY ~PoFQuestPack/Actors/pro1mod.cre~       ~override/pro1mod.cre~        
+COPY ~PoFQuestPack/Actors/XGpro1.cre~       ~override/XGpro1.cre~        
   SAY NAME1 @283 
   SAY NAME2 @283 
 
-COPY ~PoFQuestPack/Actors/promod.cre~        ~override/promod.cre~         
+COPY ~PoFQuestPack/Actors/XGpro.cre~        ~override/XGpro.cre~         
   SAY NAME1 @283 
   SAY NAME2 @283 
 
-COPY ~PoFQuestPack/Actors/PROS1MOD.CRE~      ~override/PROS1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGPROS1.CRE~      ~override/XGPROS1.CRE~       
 
-COPY ~PoFQuestPack/Actors/prqmod.cre~        ~override/prqmod.cre~         
+COPY ~PoFQuestPack/Actors/XGprq.cre~        ~override/XGprq.cre~         
 
-COPY ~PoFQuestPack/Actors/prt1mod.cre~       ~override/prt1mod.cre~        
+COPY ~PoFQuestPack/Actors/XGprt1.cre~       ~override/XGprt1.cre~        
   SAY NAME1 @284 
   SAY NAME2 @284 
 
-COPY ~PoFQuestPack/Actors/prtc2mod.cre~      ~override/prtc2mod.cre~       
+COPY ~PoFQuestPack/Actors/XGprtc2.cre~      ~override/XGprtc2.cre~       
   SAY NAME1 @285 
   SAY NAME2 @285 
 
-COPY ~PoFQuestPack/Actors/prtcmod.cre~       ~override/prtcmod.cre~        
+COPY ~PoFQuestPack/Actors/XGprtc.cre~       ~override/XGprtc.cre~        
   SAY NAME1 @285 
   SAY NAME2 @285 
 
-COPY ~PoFQuestPack/Actors/prtcqmod.cre~      ~override/prtcqmod.cre~       
+COPY ~PoFQuestPack/Actors/XGprtcq.cre~      ~override/XGprtcq.cre~       
   SAY NAME1 @285 
   SAY NAME2 @285 
 
-COPY ~PoFQuestPack/Actors/prtdmod.cre~       ~override/prtdmod.cre~        
+COPY ~PoFQuestPack/Actors/XGprtd.cre~       ~override/XGprtd.cre~        
   SAY NAME1 @284 
   SAY NAME2 @284 
 
-COPY ~PoFQuestPack/Actors/prte1mod.cre~      ~override/prte1mod.cre~       
+COPY ~PoFQuestPack/Actors/XGprte1.cre~      ~override/XGprte1.cre~       
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/prte2mod.cre~      ~override/prte2mod.cre~       
+COPY ~PoFQuestPack/Actors/XGprte2.cre~      ~override/XGprte2.cre~       
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/prte3mod.cre~      ~override/prte3mod.cre~       
+COPY ~PoFQuestPack/Actors/XGprte3.cre~      ~override/XGprte3.cre~       
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/prte4mod.cre~      ~override/prte4mod.cre~       
+COPY ~PoFQuestPack/Actors/XGprte4.cre~      ~override/XGprte4.cre~       
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/prte5mod.cre~      ~override/prte5mod.cre~       
+COPY ~PoFQuestPack/Actors/XGprte5.cre~      ~override/XGprte5.cre~       
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/prte6mod.cre~      ~override/prte6mod.cre~       
+COPY ~PoFQuestPack/Actors/XGprte6.cre~      ~override/XGprte6.cre~       
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/prte7mod.cre~      ~override/prte7mod.cre~       
+COPY ~PoFQuestPack/Actors/XGprte7.cre~      ~override/XGprte7.cre~       
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/prtemod.cre~       ~override/prtemod.cre~        
+COPY ~PoFQuestPack/Actors/XGprte.cre~       ~override/XGprte.cre~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/prtmod.cre~        ~override/prtmod.cre~         
+COPY ~PoFQuestPack/Actors/XGprt.cre~        ~override/XGprt.cre~         
   SAY NAME1 @284 
   SAY NAME2 @284 
 
-COPY ~PoFQuestPack/Actors/prtwmod.cre~       ~override/prtwmod.cre~        
+COPY ~PoFQuestPack/Actors/XGprtw.cre~       ~override/XGprtw.cre~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/pte10mod.cre~      ~override/pte10mod.cre~       
+COPY ~PoFQuestPack/Actors/XGpte10.cre~      ~override/XGpte10.cre~       
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/pte1mod.cre~       ~override/pte1mod.cre~        
+COPY ~PoFQuestPack/Actors/XGpte1.cre~       ~override/XGpte1.cre~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/pte2mod.cre~       ~override/pte2mod.cre~        
+COPY ~PoFQuestPack/Actors/XGpte2.cre~       ~override/XGpte2.cre~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/pte3mod.cre~       ~override/pte3mod.cre~        
+COPY ~PoFQuestPack/Actors/XGpte3.cre~       ~override/XGpte3.cre~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/pte4mod.cre~       ~override/pte4mod.cre~        
+COPY ~PoFQuestPack/Actors/XGpte4.cre~       ~override/XGpte4.cre~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/pte5mod.cre~       ~override/pte5mod.cre~        
+COPY ~PoFQuestPack/Actors/XGpte5.cre~       ~override/XGpte5.cre~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/pte6mod.cre~       ~override/pte6mod.cre~        
+COPY ~PoFQuestPack/Actors/XGpte6.cre~       ~override/XGpte6.cre~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/pte7mod.cre~       ~override/pte7mod.cre~        
+COPY ~PoFQuestPack/Actors/XGpte7.cre~       ~override/XGpte7.cre~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/pte8mod.cre~       ~override/pte8mod.cre~        
+COPY ~PoFQuestPack/Actors/XGpte8.cre~       ~override/XGpte8.cre~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/pte9mod.cre~       ~override/pte9mod.cre~        
+COPY ~PoFQuestPack/Actors/XGpte9.cre~       ~override/XGpte9.cre~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/ptecmod.cre~       ~override/ptecmod.cre~        
+COPY ~PoFQuestPack/Actors/XGptec.cre~       ~override/XGptec.cre~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~PoFQuestPack/Actors/QSEROMOD.CRE~      ~override/QSEROMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGQSERO.CRE~      ~override/XGQSERO.CRE~       
 
-COPY ~PoFQuestPack/Actors/QUARMOD.CRE~       ~override/QUARMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGQUAR.CRE~       ~override/XGQUAR.CRE~        
   SAY NAME1 @288 
   SAY NAME2 @288 
 
-COPY ~PoFQuestPack/Actors/RALMOD.CRE~        ~override/RALMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGRAL.CRE~        ~override/XGRAL.CRE~         
   SAY NAME1 @289 
   SAY NAME2 @289 
 
-COPY ~PoFQuestPack/Actors/RAN1MOD.CRE~       ~override/RAN1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGRAN1.CRE~       ~override/XGRAN1.CRE~        
 
-COPY ~PoFQuestPack/Actors/RANGMOD.CRE~       ~override/RANGMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGRANG.CRE~       ~override/XGRANG.CRE~        
   SAY NAME1 @290 
   SAY NAME2 @290 
 
-COPY ~PoFQuestPack/Actors/RANMMOD.CRE~       ~override/RANMMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGRANM.CRE~       ~override/XGRANM.CRE~        
   SAY NAME1 @291 
   SAY NAME2 @291 
 
-COPY ~PoFQuestPack/Actors/RAVENMOD.CRE~      ~override/RAVENMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGRAVEN.CRE~      ~override/XGRAVEN.CRE~       
   SAY NAME1 @292 
   SAY NAME2 @292 
 
-COPY ~PoFQuestPack/Actors/regmod.cre~        ~override/regmod.cre~         
+COPY ~PoFQuestPack/Actors/XGreg.cre~        ~override/XGreg.cre~         
 
-COPY ~PoFQuestPack/Actors/RGGMOD.CRE~        ~override/RGGMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGRGG.CRE~        ~override/XGRGG.CRE~         
 
-COPY ~PoFQuestPack/Actors/rgp1mod.cre~       ~override/rgp1mod.cre~        
+COPY ~PoFQuestPack/Actors/XGrgp1.cre~       ~override/XGrgp1.cre~        
 
-COPY ~PoFQuestPack/Actors/rgpmod.cre~        ~override/rgpmod.cre~         
+COPY ~PoFQuestPack/Actors/XGrgp.cre~        ~override/XGrgp.cre~         
 
-COPY ~PoFQuestPack/Actors/rgqmod.cre~        ~override/rgqmod.cre~         
+COPY ~PoFQuestPack/Actors/XGrgq.cre~        ~override/XGrgq.cre~         
   SAY NAME1 @170 
   SAY NAME2 @170 
 
-COPY ~PoFQuestPack/Actors/RONINMOD.CRE~      ~override/RONINMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGRONIN.CRE~      ~override/XGRONIN.CRE~       
   SAY NAME1 @293 
   SAY NAME2 @293 
 
-COPY ~PoFQuestPack/Actors/RW1MOD.CRE~        ~override/RW1MOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGRW1.CRE~        ~override/XGRW1.CRE~         
   SAY NAME1 @294 
   SAY NAME2 @294 
 
-COPY ~PoFQuestPack/Actors/RW2MOD.CRE~        ~override/RW2MOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGRW2.CRE~        ~override/XGRW2.CRE~         
   SAY NAME1 @294 
   SAY NAME2 @294 
 
-COPY ~PoFQuestPack/Actors/RW3MOD.CRE~        ~override/RW3MOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGRW3.CRE~        ~override/XGRW3.CRE~         
   SAY NAME1 @294 
   SAY NAME2 @294 
 
-COPY ~PoFQuestPack/Actors/RWHMMOD.CRE~       ~override/RWHMMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGRWHM.CRE~       ~override/XGRWHM.CRE~        
   SAY NAME1 @295 
   SAY NAME2 @295 
 
-COPY ~PoFQuestPack/Actors/RWHMNMOD.CRE~      ~override/RWHMNMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGRWHMN.CRE~      ~override/XGRWHMN.CRE~       
   SAY NAME1 @295 
   SAY NAME2 @295 
 
-COPY ~PoFQuestPack/Actors/RWHMOD.CRE~        ~override/RWHMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGRWH.CRE~        ~override/XGRWH.CRE~         
   SAY NAME1 @296 
   SAY NAME2 @296 
 
-COPY ~PoFQuestPack/Actors/RWMOD.CRE~         ~override/RWMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGRW.CRE~         ~override/XGRW.CRE~          
   SAY NAME1 @294 
   SAY NAME2 @294 
 
-COPY ~PoFQuestPack/Actors/RYLEEMOD.CRE~      ~override/RYLEEMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGRYLEE.CRE~      ~override/XGRYLEE.CRE~       
   SAY NAME1 @297 
   SAY NAME2 @297
 
-COPY ~PoFQuestPack/Actors/s#helm01.cre~         ~override/s#helm01.cre~          
+COPY ~PoFQuestPack/Actors/XGhelm1.cre~         ~override/XGhelm1.cre~          
   SAY NAME1 @83 
   SAY NAME2 @83
 
-COPY ~PoFQuestPack/Actors/s#ilmat1.cre~         ~override/s#ilmat1.cre~          
+COPY ~PoFQuestPack/Actors/XGilmt1.cre~         ~override/XGilmt1.cre~          
   SAY NAME1 @348 
   SAY NAME2 @348 
 
-COPY ~PoFQuestPack/Actors/s#inn01.cre~         ~override/s#inn01.cre~          
+COPY ~PoFQuestPack/Actors/XGinn01.cre~         ~override/XGinn01.cre~          
   SAY NAME1 @172 
   SAY NAME2 @172 
 
-COPY ~PoFQuestPack/Actors/s#inn02.cre~         ~override/s#inn02.cre~          
+COPY ~PoFQuestPack/Actors/XGinn02.cre~         ~override/XGinn02.cre~          
   SAY NAME1 @172 
   SAY NAME2 @172
 
-COPY ~PoFQuestPack/Actors/s#mage1.cre~         ~override/s#mage1.cre~          
+COPY ~PoFQuestPack/Actors/XGmage1.cre~         ~override/XGmage1.cre~          
   SAY NAME1 @81 
   SAY NAME2 @81
 
-COPY ~PoFQuestPack/Actors/s#mage2.cre~         ~override/s#mage2.cre~          
+COPY ~PoFQuestPack/Actors/XGmage2.cre~         ~override/XGmage2.cre~          
   SAY NAME1 @81 
   SAY NAME2 @81
 
-COPY ~PoFQuestPack/Actors/S#SHEV01.cre~         ~override/S#SHEV01.cre~          
+COPY ~PoFQuestPack/Actors/XGSHEV1.cre~         ~override/XGSHEV1.cre~          
   SAY NAME1 @22 
   SAY NAME2 @22
 
-COPY ~PoFQuestPack/Actors/s#shop01.cre~         ~override/s#shop01.cre~          
+COPY ~PoFQuestPack/Actors/XGsho01.cre~         ~override/XGsho01.cre~          
   SAY NAME1 @402 
   SAY NAME2 @402
 
-COPY ~PoFQuestPack/Actors/SABAT.CRE~         ~override/SABAT.CRE~          
+COPY ~PoFQuestPack/Actors/XGSABAT.CRE~         ~override/XGSABAT.CRE~          
   SAY NAME1 @68 
   SAY NAME2 @68 
 
-COPY ~PoFQuestPack/Actors/SALCMOD.CRE~       ~override/SALCMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGSALC.CRE~       ~override/XGSALC.CRE~        
 
-COPY ~PoFQuestPack/Actors/SALMOD.CRE~        ~override/SALMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGSAL.CRE~        ~override/XGSAL.CRE~         
 
-COPY ~PoFQuestPack/Actors/SAMOD.CRE~         ~override/SAMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGSA.CRE~         ~override/XGSA.CRE~          
   SAY NAME1 @298 
   SAY NAME2 @299 
 
-COPY ~PoFQuestPack/Actors/SARAMOD.CRE~       ~override/SARAMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGSARA.CRE~       ~override/XGSARA.CRE~        
   SAY NAME1 @300 
   SAY NAME2 @300 
 
-COPY ~PoFQuestPack/Actors/SAREVMOD.CRE~      ~override/SAREVMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGSAREV.CRE~      ~override/XGSAREV.CRE~       
   SAY NAME1 @301 
   SAY NAME2 @301 
 
-COPY ~PoFQuestPack/Actors/SARMOD.CRE~        ~override/SARMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGSAR.CRE~        ~override/XGSAR.CRE~         
 
-COPY ~PoFQuestPack/Actors/sarwmod.cre~       ~override/sarwmod.cre~        
+COPY ~PoFQuestPack/Actors/XGsarw.cre~       ~override/XGsarw.cre~        
 
-COPY ~PoFQuestPack/Actors/SCHARMOD.CRE~      ~override/SCHARMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGSCHAR.CRE~      ~override/XGSCHAR.CRE~       
   SAY NAME1 @302 
   SAY NAME2 @302 
 
-COPY ~PoFQuestPack/Actors/SDWSPMOD.CRE~      ~override/SDWSPMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGSDWSP.CRE~      ~override/XGSDWSP.CRE~       
   SAY NAME1 @303 
   SAY NAME2 @304 
 
-COPY ~PoFQuestPack/Actors/sero1mod.cre~      ~override/sero1mod.cre~       
+COPY ~PoFQuestPack/Actors/XGsero1.cre~      ~override/XGsero1.cre~       
   SAY NAME1 @305 
   SAY NAME2 @305 
 
-COPY ~PoFQuestPack/Actors/sero2mod.cre~      ~override/sero2mod.cre~       
+COPY ~PoFQuestPack/Actors/XGsero2.cre~      ~override/XGsero2.cre~       
   SAY NAME1 @305 
   SAY NAME2 @305 
 
-COPY ~PoFQuestPack/Actors/SEROMOD.CRE~       ~override/SEROMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGSERO.CRE~       ~override/XGSERO.CRE~        
   SAY NAME1 @305 
   SAY NAME2 @305 
 
-COPY ~PoFQuestPack/Actors/sgemod.cre~        ~override/sgemod.cre~         
+COPY ~PoFQuestPack/Actors/XGsge.cre~        ~override/XGsge.cre~         
   SAY NAME1 @306 
   SAY NAME2 @306 
 
-COPY ~PoFQuestPack/Actors/sgmod.cre~         ~override/sgmod.cre~          
+COPY ~PoFQuestPack/Actors/XGsg.cre~         ~override/XGsg.cre~          
   SAY NAME1 @306 
   SAY NAME2 @306 
 
-COPY ~PoFQuestPack/Actors/SHDMOD.CRE~        ~override/SHDMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGSHD.CRE~        ~override/XGSHD.CRE~         
   SAY NAME1 @307 
   SAY NAME2 @307 
 
-COPY ~PoFQuestPack/Actors/SHOP1MOD.CRE~      ~override/SHOP1MOD.CRE~  
+COPY ~PoFQuestPack/Actors/XGSHOP1.CRE~      ~override/XGSHOP1.CRE~  
 
-COPY ~PoFQuestPack/Actors/SHOP2MOD.CRE~      ~override/SHOP2MOD.CRE~      
+COPY ~PoFQuestPack/Actors/XGSHOP2.CRE~      ~override/XGSHOP2.CRE~      
 
-COPY ~PoFQuestPack/Actors/shop4mod.cre~      ~override/shop4mod.cre~       
+COPY ~PoFQuestPack/Actors/XGshop4.cre~      ~override/XGshop4.cre~       
 
-COPY ~PoFQuestPack/Actors/shopemod.cre~      ~override/shopemod.cre~       
+COPY ~PoFQuestPack/Actors/XGshope.cre~      ~override/XGshope.cre~       
 
-COPY ~PoFQuestPack/Actors/SHOPFMOD.CRE~      ~override/SHOPFMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGSHOPF.CRE~      ~override/XGSHOPF.CRE~       
 
-COPY ~PoFQuestPack/Actors/shopwmod.cre~      ~override/shopwmod.cre~       
+COPY ~PoFQuestPack/Actors/XGshopw.cre~      ~override/XGshopw.cre~       
 
-COPY ~PoFQuestPack/Actors/SHTAMOD.CRE~       ~override/SHTAMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGSHTA.CRE~       ~override/XGSHTA.CRE~        
 
-COPY ~PoFQuestPack/Actors/SKEL1MOD.CRE~      ~override/SKEL1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGSKEL1.CRE~      ~override/XGSKEL1.CRE~       
   SAY NAME1 @308 
   SAY NAME2 @308 
 
-COPY ~PoFQuestPack/Actors/SKELAMOD.CRE~      ~override/SKELAMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGSKELA.CRE~      ~override/XGSKELA.CRE~       
   SAY NAME1 @309 
   SAY NAME2 @309 
 
-COPY ~PoFQuestPack/Actors/skeldmod.cre~      ~override/skeldmod.cre~       
+COPY ~PoFQuestPack/Actors/XGskeld.cre~      ~override/XGskeld.cre~       
 
-COPY ~PoFQuestPack/Actors/SKELGMOD.CRE~      ~override/SKELGMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGSKELG.CRE~      ~override/XGSKELG.CRE~       
   SAY NAME1 @308 
   SAY NAME2 @308 
 
-COPY ~PoFQuestPack/Actors/SKELWMOD.CRE~      ~override/SKELWMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGSKELW.CRE~      ~override/XGSKELW.CRE~       
 
-COPY ~PoFQuestPack/Actors/SKLLMOD.CRE~       ~override/SKLLMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGSKLL.CRE~       ~override/XGSKLL.CRE~        
   SAY NAME1 @310 
   SAY NAME2 @310 
 
-COPY ~PoFQuestPack/Actors/SKLMGMOD.CRE~      ~override/SKLMGMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGSKLMG.CRE~      ~override/XGSKLMG.CRE~       
   SAY NAME1 @311 
   SAY NAME2 @311 
 
-COPY ~PoFQuestPack/Actors/skwr1mod.cre~      ~override/skwr1mod.cre~       
+COPY ~PoFQuestPack/Actors/XGskwr1.cre~      ~override/XGskwr1.cre~       
 
-COPY ~PoFQuestPack/Actors/skwr2mod.cre~      ~override/skwr2mod.cre~       
+COPY ~PoFQuestPack/Actors/XGskwr2.cre~      ~override/XGskwr2.cre~       
 
-COPY ~PoFQuestPack/Actors/skwr3mod.cre~      ~override/skwr3mod.cre~       
+COPY ~PoFQuestPack/Actors/XGskwr3.cre~      ~override/XGskwr3.cre~       
 
-COPY ~PoFQuestPack/Actors/skwr4mod.cre~      ~override/skwr4mod.cre~       
+COPY ~PoFQuestPack/Actors/XGskwr4.cre~      ~override/XGskwr4.cre~       
 
-COPY ~PoFQuestPack/Actors/SLAIN.CRE~         ~override/SLAIN.CRE~          
+COPY ~PoFQuestPack/Actors/XGSLAIN.CRE~         ~override/XGSLAIN.CRE~          
   SAY NAME1 @146 
   SAY NAME2 @146 
 
-COPY ~PoFQuestPack/Actors/SLAINE.CRE~        ~override/SLAINE.CRE~         
+COPY ~PoFQuestPack/Actors/XGSLAIE.CRE~        ~override/XGSLAIE.CRE~         
   SAY NAME1 @146 
   SAY NAME2 @146 
 
-COPY ~PoFQuestPack/Actors/SLAINE1.CRE~       ~override/SLAINE1.CRE~        
+COPY ~PoFQuestPack/Actors/XGSLAI1.CRE~       ~override/XGSLAI1.CRE~        
   SAY NAME1 @146 
   SAY NAME2 @146 
 
-COPY ~PoFQuestPack/Actors/SLAINE2.CRE~       ~override/SLAINE2.CRE~        
+COPY ~PoFQuestPack/Actors/XGSLAI2.CRE~       ~override/XGSLAI2.CRE~        
   SAY NAME1 @146 
   SAY NAME2 @146 
 
-COPY ~PoFQuestPack/Actors/SMMOD.CRE~         ~override/SMMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGSM.CRE~         ~override/XGSM.CRE~          
   SAY NAME1 @312 
   SAY NAME2 @299 
 
-COPY ~PoFQuestPack/Actors/SNAKMOD.CRE~       ~override/SNAKMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGSNAK.CRE~       ~override/XGSNAK.CRE~        
 
-COPY ~PoFQuestPack/Actors/SOLAN.CRE~         ~override/SOLAN.CRE~          
+COPY ~PoFQuestPack/Actors/XGSOLAN.CRE~         ~override/XGSOLAN.CRE~          
   SAY NAME1 @313 
   SAY NAME2 @313 
 
-COPY ~PoFQuestPack/Actors/SORMOD.CRE~        ~override/SORMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGsor.CRE~        ~override/XGsor.CRE~         
   SAY NAME1 @314 
   SAY NAME2 @314 
 
-COPY ~PoFQuestPack/Actors/SORMOD1.CRE~        ~override/SORMOD1.CRE~         
+COPY ~PoFQuestPack/Actors/XGsor1.CRE~        ~override/XGsor1.CRE~         
   SAY NAME1 @314 
   SAY NAME2 @314
 
-COPY ~PoFQuestPack/Actors/SORMOD2.CRE~        ~override/SORMOD2.CRE~         
+COPY ~PoFQuestPack/Actors/XGsor2.CRE~        ~override/XGsor2.CRE~         
   SAY NAME1 @314 
   SAY NAME2 @314
 
-COPY ~PoFQuestPack/Actors/SOWMOD.CRE~        ~override/SOWMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGSOW.CRE~        ~override/XGSOW.CRE~         
   SAY NAME1 @315 
   SAY NAME2 @315 
 
-COPY ~PoFQuestPack/Actors/spqmod.cre~        ~override/spqmod.cre~         
+COPY ~PoFQuestPack/Actors/XGspq.cre~        ~override/XGspq.cre~         
   SAY NAME1 @316 
   SAY NAME2 @316 
 
-COPY ~PoFQuestPack/Actors/SRWZ1MOD.CRE~      ~override/SRWZ1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGSRWZ1.CRE~      ~override/XGSRWZ1.CRE~       
 
-COPY ~PoFQuestPack/Actors/STGSMOD.CRE~       ~override/STGSMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGSTGS.CRE~       ~override/XGSTGS.CRE~        
   SAY NAME1 @317 
   SAY NAME2 @318 
 
-COPY ~PoFQuestPack/Actors/STMAGMOD.CRE~      ~override/STMAGMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGSTMAG.CRE~      ~override/XGSTMAG.CRE~       
   SAY NAME1 @319 
   SAY NAME2 @319 
 
-COPY ~PoFQuestPack/Actors/STROLMOD.CRE~      ~override/STROLMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGSTROL.CRE~      ~override/XGSTROL.CRE~       
 
-COPY ~PoFQuestPack/Actors/STRWMOD.CRE~       ~override/STRWMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGSTRW.CRE~       ~override/XGSTRW.CRE~        
   SAY NAME1 @320 
   SAY NAME2 @320 
 
-COPY ~PoFQuestPack/Actors/STRWZMOD.CRE~      ~override/STRWZMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGSTRWZ.CRE~      ~override/XGSTRWZ.CRE~       
 
-COPY ~PoFQuestPack/Actors/SUELFMOD.CRE~      ~override/SUELFMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGSUELF.CRE~      ~override/XGSUELF.CRE~       
 
-COPY ~PoFQuestPack/Actors/SULFMOD.CRE~       ~override/SULFMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGSULF.CRE~       ~override/XGSULF.CRE~        
 
-COPY ~PoFQuestPack/Actors/svklmod.cre~       ~override/svklmod.cre~        
+COPY ~PoFQuestPack/Actors/XGsvkl.cre~       ~override/XGsvkl.cre~        
   SAY NAME1 @321 
 
-COPY ~PoFQuestPack/Actors/svkmod.cre~        ~override/svkmod.cre~         
+COPY ~PoFQuestPack/Actors/XGsvk.cre~        ~override/XGsvk.cre~         
   SAY NAME1 @322 
   SAY NAME2 @322 
 
-COPY ~PoFQuestPack/Actors/SW1MOD.CRE~        ~override/SW1MOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGSW1.CRE~        ~override/XGSW1.CRE~         
   SAY NAME1 @323 
   SAY NAME2 @299 
 
-COPY ~PoFQuestPack/Actors/SW2MOD.CRE~        ~override/SW2MOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGSW2.CRE~        ~override/XGSW2.CRE~         
   SAY NAME1 @323 
   SAY NAME2 @299 
 
-COPY ~PoFQuestPack/Actors/SW3MOD.CRE~        ~override/SW3MOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGSW3.CRE~        ~override/XGSW3.CRE~         
   SAY NAME1 @323 
   SAY NAME2 @299 
 
-COPY ~PoFQuestPack/Actors/SW4MOD.CRE~        ~override/SW4MOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGSW4.CRE~        ~override/XGSW4.CRE~         
   SAY NAME1 @323 
   SAY NAME2 @299 
 
-COPY ~PoFQuestPack/Actors/SW5MOD.CRE~        ~override/SW5MOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGSW5.CRE~        ~override/XGSW5.CRE~         
   SAY NAME1 @323 
   SAY NAME2 @299 
 
-COPY ~PoFQuestPack/Actors/SWC1MOD.CRE~       ~override/SWC1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGSWC1.CRE~       ~override/XGSWC1.CRE~        
   SAY NAME1 @324 
   SAY NAME2 @324 
 
-COPY ~PoFQuestPack/Actors/SWC2MOD.CRE~       ~override/SWC2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGSWC2.CRE~       ~override/XGSWC2.CRE~        
   SAY NAME1 @324 
   SAY NAME2 @324 
 
-COPY ~PoFQuestPack/Actors/SWC3MOD.CRE~       ~override/SWC3MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGSWC3.CRE~       ~override/XGSWC3.CRE~        
   SAY NAME1 @324 
   SAY NAME2 @324 
 
-COPY ~PoFQuestPack/Actors/SWC4MOD.CRE~       ~override/SWC4MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGSWC4.CRE~       ~override/XGSWC4.CRE~        
   SAY NAME1 @324 
   SAY NAME2 @324 
 
-COPY ~PoFQuestPack/Actors/SWC5MOD.CRE~       ~override/SWC5MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGSWC5.CRE~       ~override/XGSWC5.CRE~        
   SAY NAME1 @324 
   SAY NAME2 @324 
 
-COPY ~PoFQuestPack/Actors/SWCMOD.CRE~        ~override/SWCMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGSWC.CRE~        ~override/XGSWC.CRE~         
   SAY NAME1 @324 
   SAY NAME2 @324 
 
-COPY ~PoFQuestPack/Actors/SWILLMOD.CRE~      ~override/SWILLMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGSWILL.CRE~      ~override/XGSWILL.CRE~       
   SAY NAME1 @325 
   SAY NAME2 @325 
 
-COPY ~PoFQuestPack/Actors/SWIMOD.CRE~        ~override/SWIMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGSWI.CRE~        ~override/XGSWI.CRE~         
   SAY NAME1 @326 
   SAY NAME2 @326 
 
-COPY ~PoFQuestPack/Actors/SWMOD.CRE~         ~override/SWMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGSW.CRE~         ~override/XGSW.CRE~          
   SAY NAME1 @323 
   SAY NAME2 @299 
 
-COPY ~PoFQuestPack/Actors/TAORMOD.CRE~       ~override/TAORMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGTAOR.CRE~       ~override/XGTAOR.CRE~        
   SAY NAME1 @327 
   SAY NAME2 @327 
 
-COPY ~PoFQuestPack/Actors/TARAMOD.CRE~       ~override/TARAMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGTARA.CRE~       ~override/XGTARA.CRE~        
   SAY NAME1 @328 
   SAY NAME2 @328 
 
-COPY ~PoFQuestPack/Actors/TARO1MOD.CRE~      ~override/TARO1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGTARO1.CRE~      ~override/XGTARO1.CRE~       
   SAY NAME1 @329 
   SAY NAME2 @329 
 
-COPY ~PoFQuestPack/Actors/TAROMOD.CRE~       ~override/TAROMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGTARO.CRE~       ~override/XGTARO.CRE~        
   SAY NAME1 @329 
   SAY NAME2 @329 
 
-COPY ~PoFQuestPack/Actors/tassmod.cre~       ~override/tassmod.cre~        
+COPY ~PoFQuestPack/Actors/XGtass.cre~       ~override/XGtass.cre~        
   SAY NAME1 @33 
   SAY NAME2 @33 
 
-COPY ~PoFQuestPack/Actors/tdrmod.cre~        ~override/tdrmod.cre~         
+COPY ~PoFQuestPack/Actors/XGtdr.cre~        ~override/XGtdr.cre~         
 
-COPY ~PoFQuestPack/Actors/tdrqmod.cre~       ~override/tdrqmod.cre~        
+COPY ~PoFQuestPack/Actors/XGtdrq.cre~       ~override/XGtdrq.cre~        
 
-COPY ~PoFQuestPack/Actors/TEMGMOD.CRE~       ~override/TEMGMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGTEMG.CRE~       ~override/XGTEMG.CRE~        
   SAY NAME1 @330 
   SAY NAME2 @330 
 
-COPY ~PoFQuestPack/Actors/TESTMOD.CRE~       ~override/TESTMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGTEST.CRE~       ~override/XGTEST.CRE~        
 
-COPY ~PoFQuestPack/Actors/TGDMOD.CRE~        ~override/TGDMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGTGD.CRE~        ~override/XGTGD.CRE~         
   SAY NAME1 @331 
   SAY NAME2 @331 
 
-COPY ~PoFQuestPack/Actors/TGFC1MOD.CRE~      ~override/TGFC1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGTGFC1.CRE~      ~override/XGTGFC1.CRE~       
   SAY NAME1 @332 
   SAY NAME2 @332 
 
-COPY ~PoFQuestPack/Actors/TGFC2MOD.CRE~      ~override/TGFC2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGTGFC2.CRE~      ~override/XGTGFC2.CRE~       
   SAY NAME1 @333 
   SAY NAME2 @333 
 
-COPY ~PoFQuestPack/Actors/TGFC3MOD.CRE~      ~override/TGFC3MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGTGFC3.CRE~      ~override/XGTGFC3.CRE~       
   SAY NAME1 @334 
   SAY NAME2 @334 
 
-COPY ~PoFQuestPack/Actors/TGFC4MOD.CRE~      ~override/TGFC4MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGTGFC4.CRE~      ~override/XGTGFC4.CRE~       
   SAY NAME1 @334 
   SAY NAME2 @334 
 
-COPY ~PoFQuestPack/Actors/TGFC5MOD.CRE~      ~override/TGFC5MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGTGFC5.CRE~      ~override/XGTGFC5.CRE~       
   SAY NAME1 @332 
   SAY NAME2 @332 
 
-COPY ~PoFQuestPack/Actors/TGFCHMOD.CRE~      ~override/TGFCHMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGTGFCH.CRE~      ~override/XGTGFCH.CRE~       
   SAY NAME1 @332 
   SAY NAME2 @332 
 
-COPY ~PoFQuestPack/Actors/TGSMOD.CRE~        ~override/TGSMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGTGS.CRE~        ~override/XGTGS.CRE~         
   SAY NAME1 @335 
   SAY NAME2 @335 
 
-COPY ~PoFQuestPack/Actors/thef1mod.cre~      ~override/thef1mod.cre~       
+COPY ~PoFQuestPack/Actors/XGthef1.cre~      ~override/XGthef1.cre~       
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~PoFQuestPack/Actors/thef2mod.cre~      ~override/thef2mod.cre~       
+COPY ~PoFQuestPack/Actors/XGthef2.cre~      ~override/XGthef2.cre~       
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~PoFQuestPack/Actors/thef3mod.cre~      ~override/thef3mod.cre~       
+COPY ~PoFQuestPack/Actors/XGthef3.cre~      ~override/XGthef3.cre~       
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~PoFQuestPack/Actors/thef4mod.cre~      ~override/thef4mod.cre~       
+COPY ~PoFQuestPack/Actors/XGthef4.cre~      ~override/XGthef4.cre~       
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~PoFQuestPack/Actors/THFCMOD.CRE~       ~override/THFCMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGTHFC.CRE~       ~override/XGTHFC.CRE~        
   SAY NAME1 @336 
   SAY NAME2 @336 
 
-COPY ~PoFQuestPack/Actors/thfmod.cre~        ~override/thfmod.cre~         
+COPY ~PoFQuestPack/Actors/XGthf.cre~        ~override/XGthf.cre~         
   SAY NAME1 @337 
   SAY NAME2 @337 
 
-COPY ~PoFQuestPack/Actors/THIEFMOD.CRE~      ~override/THIEFMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGTHIEF.CRE~      ~override/XGTHIEF.CRE~       
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~PoFQuestPack/Actors/tmer1mod.cre~      ~override/tmer1mod.cre~       
+COPY ~PoFQuestPack/Actors/XGtmer1.cre~      ~override/XGtmer1.cre~       
 
-COPY ~PoFQuestPack/Actors/tmer2mod.cre~      ~override/tmer2mod.cre~       
+COPY ~PoFQuestPack/Actors/XGtmer2.cre~      ~override/XGtmer2.cre~       
 
-COPY ~PoFQuestPack/Actors/tmer3mod.cre~      ~override/tmer3mod.cre~       
+COPY ~PoFQuestPack/Actors/XGtmer3.cre~      ~override/XGtmer3.cre~       
 
-COPY ~PoFQuestPack/Actors/tmer4mod.cre~      ~override/tmer4mod.cre~       
+COPY ~PoFQuestPack/Actors/XGtmer4.cre~      ~override/XGtmer4.cre~       
 
-COPY ~PoFQuestPack/Actors/tmer5mod.cre~      ~override/tmer5mod.cre~       
+COPY ~PoFQuestPack/Actors/XGtmer5.cre~      ~override/XGtmer5.cre~       
 
-COPY ~PoFQuestPack/Actors/tmer6mod.cre~      ~override/tmer6mod.cre~       
+COPY ~PoFQuestPack/Actors/XGtmer6.cre~      ~override/XGtmer6.cre~       
 
-COPY ~PoFQuestPack/Actors/tmer7mod.cre~      ~override/tmer7mod.cre~       
+COPY ~PoFQuestPack/Actors/XGtmer7.cre~      ~override/XGtmer7.cre~       
 
-COPY ~PoFQuestPack/Actors/tmer8mod.cre~      ~override/tmer8mod.cre~       
+COPY ~PoFQuestPack/Actors/XGtmer8.cre~      ~override/XGtmer8.cre~       
 
-COPY ~PoFQuestPack/Actors/tmer9mod.cre~      ~override/tmer9mod.cre~       
+COPY ~PoFQuestPack/Actors/XGtmer9.cre~      ~override/XGtmer9.cre~       
 
-COPY ~PoFQuestPack/Actors/tmerkmod.cre~      ~override/tmerkmod.cre~       
+COPY ~PoFQuestPack/Actors/XGtmerk.cre~      ~override/XGtmerk.cre~       
   SAY NAME1 @338 
   SAY NAME2 @338 
 
-COPY ~PoFQuestPack/Actors/tmermod.cre~       ~override/tmermod.cre~        
+COPY ~PoFQuestPack/Actors/XGtmer.cre~       ~override/XGtmer.cre~        
 
-COPY ~PoFQuestPack/Actors/tmernmod.cre~      ~override/tmernmod.cre~       
+COPY ~PoFQuestPack/Actors/XGtmern.cre~      ~override/XGtmern.cre~       
 
-COPY ~PoFQuestPack/Actors/TRAEKMOD.CRE~      ~override/TRAEKMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGTRAEK.CRE~      ~override/XGTRAEK.CRE~       
   SAY NAME1 @340 
   SAY NAME2 @341 
 
-COPY ~PoFQuestPack/Actors/TRAVMOD.CRE~       ~override/TRAVMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGTRAV.CRE~       ~override/XGTRAV.CRE~        
   SAY NAME1 @342 
 
-COPY ~PoFQuestPack/Actors/trba1mod.cre~      ~override/trba1mod.cre~       
+COPY ~PoFQuestPack/Actors/XGtrba1.cre~      ~override/XGtrba1.cre~       
   SAY NAME1 @343 
   SAY NAME2 @343 
 
-COPY ~PoFQuestPack/Actors/trba2mod.cre~      ~override/trba2mod.cre~       
+COPY ~PoFQuestPack/Actors/XGtrba2.cre~      ~override/XGtrba2.cre~       
   SAY NAME1 @343 
   SAY NAME2 @343 
 
-COPY ~PoFQuestPack/Actors/trba3mod.cre~      ~override/trba3mod.cre~       
+COPY ~PoFQuestPack/Actors/XGtrba3.cre~      ~override/XGtrba3.cre~       
   SAY NAME1 @343 
   SAY NAME2 @343 
 
-COPY ~PoFQuestPack/Actors/TRBACMOD.CRE~      ~override/TRBACMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGTRBAC.CRE~      ~override/XGTRBAC.CRE~       
 
-COPY ~PoFQuestPack/Actors/TRBAMOD.CRE~       ~override/TRBAMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGTRBA.CRE~       ~override/XGTRBA.CRE~        
   SAY NAME1 @343 
   SAY NAME2 @343 
 
-COPY ~PoFQuestPack/Actors/TRBANMOD.CRE~      ~override/TRBANMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGTRBAN.CRE~      ~override/XGTRBAN.CRE~       
   SAY NAME1 @343 
   SAY NAME2 @343 
 
-COPY ~PoFQuestPack/Actors/trbaqmod.cre~      ~override/trbaqmod.cre~       
+COPY ~PoFQuestPack/Actors/XGtrbaq.cre~      ~override/XGtrbaq.cre~       
   SAY NAME1 @343 
   SAY NAME2 @343 
 
-COPY ~PoFQuestPack/Actors/TRMYMOD.CRE~       ~override/TRMYMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGTRMY.CRE~       ~override/XGTRMY.CRE~        
   SAY NAME1 @344 
   SAY NAME2 @344 
 
-COPY ~PoFQuestPack/Actors/TRNMOD.CRE~        ~override/TRNMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGTRN.CRE~        ~override/XGTRN.CRE~         
   SAY NAME1 @345 
   SAY NAME2 @345 
 
-COPY ~PoFQuestPack/Actors/TROR1MOD.CRE~      ~override/TROR1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGTROR1.CRE~      ~override/XGTROR1.CRE~       
   SAY NAME1 @153 
   SAY NAME2 @153 
 
-COPY ~PoFQuestPack/Actors/TROR2MOD.CRE~      ~override/TROR2MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGTROR2.CRE~      ~override/XGTROR2.CRE~       
   SAY NAME1 @153 
   SAY NAME2 @153 
 
-COPY ~PoFQuestPack/Actors/TROR4MOD.CRE~      ~override/TROR4MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGTROR4.CRE~      ~override/XGTROR4.CRE~       
   SAY NAME1 @153 
   SAY NAME2 @153 
 
-COPY ~PoFQuestPack/Actors/TRORAMOD.CRE~      ~override/TRORAMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGTRORA.CRE~      ~override/XGTRORA.CRE~       
   SAY NAME1 @153 
   SAY NAME2 @153 
 
-COPY ~PoFQuestPack/Actors/TRORCMOD.CRE~      ~override/TRORCMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGTRORC.CRE~      ~override/XGTRORC.CRE~       
   SAY NAME1 @153 
   SAY NAME2 @153 
 
-COPY ~PoFQuestPack/Actors/TVAMPMOD.CRE~      ~override/TVAMPMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGTVAMP.CRE~      ~override/XGTVAMP.CRE~       
   SAY NAME1 @346 
   SAY NAME2 @346 
 
-COPY ~PoFQuestPack/Actors/twr1mod.cre~       ~override/twr1mod.cre~        
+COPY ~PoFQuestPack/Actors/XGtwr1.cre~       ~override/XGtwr1.cre~        
 
-COPY ~PoFQuestPack/Actors/twrcmod.cre~       ~override/twrcmod.cre~        
+COPY ~PoFQuestPack/Actors/XGtwrc.cre~       ~override/XGtwrc.cre~        
   SAY NAME1 @170 
   SAY NAME2 @170 
 
-COPY ~PoFQuestPack/Actors/twrmod.cre~        ~override/twrmod.cre~         
+COPY ~PoFQuestPack/Actors/XGtwr.cre~        ~override/XGtwr.cre~         
   SAY NAME1 @170 
   SAY NAME2 @170 
 
-COPY ~PoFQuestPack/Actors/TYRCMOD.CRE~       ~override/TYRCMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGTYRC.CRE~       ~override/XGTYRC.CRE~        
   SAY NAME1 @347 
   SAY NAME2 @347 
 
-COPY ~PoFQuestPack/Actors/TYRLMOD.CRE~       ~override/TYRLMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGTYRL.CRE~       ~override/XGTYRL.CRE~        
   SAY NAME1 @347 
   SAY NAME2 @347 
 
-COPY ~PoFQuestPack/Actors/UBDWIMOD.CRE~      ~override/UBDWIMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGUBDWI.CRE~      ~override/XGUBDWI.CRE~       
 
-COPY ~PoFQuestPack/Actors/UNPALMOD.CRE~      ~override/UNPALMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGUNPAL.CRE~      ~override/XGUNPAL.CRE~       
   SAY NAME1 @349 
   SAY NAME2 @349 
 
-COPY ~PoFQuestPack/Actors/UNWIMOD.CRE~       ~override/UNWIMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGUNWI.CRE~       ~override/XGUNWI.CRE~        
   SAY NAME1 @350 
   SAY NAME2 @350 
 
-COPY ~PoFQuestPack/Actors/URANMOD.CRE~       ~override/URANMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGURAN.CRE~       ~override/XGURAN.CRE~        
   SAY NAME1 @351 
 
-COPY ~PoFQuestPack/Actors/URUK1MOD.CRE~      ~override/URUK1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGURUK1.CRE~      ~override/XGURUK1.CRE~       
   SAY NAME1 @329 
   SAY NAME2 @329 
 
-COPY ~PoFQuestPack/Actors/UWMMOD.CRE~        ~override/UWMMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGUWM.CRE~        ~override/XGUWM.CRE~         
 
-COPY ~PoFQuestPack/Actors/VAMPMMOD.CRE~      ~override/VAMPMMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGVAMPM.CRE~      ~override/XGVAMPM.CRE~       
   SAY NAME1 @352 
   SAY NAME2 @352 
 
-COPY ~PoFQuestPack/Actors/VAMPMOD.CRE~       ~override/VAMPMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGVAMP.CRE~       ~override/XGVAMP.CRE~        
 
-COPY ~PoFQuestPack/Actors/VILFMOD.CRE~       ~override/VILFMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGVILF.CRE~       ~override/XGVILF.CRE~        
   SAY NAME1 @353 
   SAY NAME2 @353 
 
-COPY ~PoFQuestPack/Actors/VILMMOD.CRE~       ~override/VILMMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGVILM.CRE~       ~override/XGVILM.CRE~        
   SAY NAME1 @354 
   SAY NAME2 @354 
 
-COPY ~PoFQuestPack/Actors/VINTRMOD.CRE~      ~override/VINTRMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGVINTR.CRE~      ~override/XGVINTR.CRE~       
   SAY NAME1 @355 
   SAY NAME2 @355 
 
-COPY ~PoFQuestPack/Actors/VIRAMOD.CRE~       ~override/VIRAMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGVIRA.CRE~       ~override/XGVIRA.CRE~        
   SAY NAME1 @320 
   SAY NAME2 @320 
 
-COPY ~PoFQuestPack/Actors/VLTRMOD.CRE~       ~override/VLTRMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGVLTR.CRE~       ~override/XGVLTR.CRE~        
   SAY NAME1 @356 
   SAY NAME2 @356 
 
-COPY ~PoFQuestPack/Actors/WAN1MOD.CRE~       ~override/WAN1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGWAN1.CRE~       ~override/XGWAN1.CRE~        
   SAY NAME1 @357 
   SAY NAME2 @357 
 
-COPY ~PoFQuestPack/Actors/WAN2MOD.CRE~       ~override/WAN2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGWAN2.CRE~       ~override/XGWAN2.CRE~        
   SAY NAME1 @357 
   SAY NAME2 @357 
 
-COPY ~PoFQuestPack/Actors/war01mod.cre~      ~override/war01mod.cre~       
+COPY ~PoFQuestPack/Actors/XGwar01.cre~      ~override/XGwar01.cre~       
 
-COPY ~PoFQuestPack/Actors/war02mod.cre~      ~override/war02mod.cre~       
+COPY ~PoFQuestPack/Actors/XGwar02.cre~      ~override/XGwar02.cre~       
 
-COPY ~PoFQuestPack/Actors/WASSMOD.CRE~       ~override/WASSMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGWASS.CRE~       ~override/XGWASS.CRE~        
   SAY NAME1 @358 
   SAY NAME2 @359 
 
-COPY ~PoFQuestPack/Actors/WDJIMOD.CRE~       ~override/WDJIMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGWDJI.CRE~       ~override/XGWDJI.CRE~        
   SAY NAME1 @360 
   SAY NAME2 @360 
 
-COPY ~PoFQuestPack/Actors/WFGMOD.CRE~        ~override/WFGMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGWFG.CRE~        ~override/XGWFG.CRE~         
   SAY NAME1 @361 
   SAY NAME2 @362 
 
-COPY ~PoFQuestPack/Actors/WGMOD.CRE~         ~override/WGMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGWG.CRE~         ~override/XGWG.CRE~          
   SAY NAME1 @363 
   SAY NAME2 @363 
   SAY 0xa4 @364 
 
-COPY ~PoFQuestPack/Actors/WHMOD.CRE~         ~override/WHMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGWH.CRE~         ~override/XGWH.CRE~          
   SAY NAME1 @365 
   SAY NAME2 @365 
 
-COPY ~PoFQuestPack/Actors/WMAGMOD.CRE~       ~override/WMAGMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGWMAG.CRE~       ~override/XGWMAG.CRE~        
 
-COPY ~PoFQuestPack/Actors/WMGMOD.CRE~        ~override/WMGMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGWMG.CRE~        ~override/XGWMG.CRE~         
   SAY NAME1 @366 
   SAY NAME2 @367 
 
-COPY ~PoFQuestPack/Actors/WMLMOD.CRE~        ~override/WMLMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGWML.CRE~        ~override/XGWML.CRE~         
   SAY NAME1 @368 
   SAY NAME2 @368 
 
-COPY ~PoFQuestPack/Actors/WMLPGMOD.CRE~      ~override/WMLPGMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGWMLPG.CRE~      ~override/XGWMLPG.CRE~       
   SAY 0xa4 @364 
 
-COPY ~PoFQuestPack/Actors/WNECMOD.CRE~       ~override/WNECMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGWNEC.CRE~       ~override/XGWNEC.CRE~        
 
-COPY ~PoFQuestPack/Actors/WNMOD.CRE~         ~override/WNMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGWN.CRE~         ~override/XGWN.CRE~          
 
-COPY ~PoFQuestPack/Actors/WOLFFMOD.CRE~      ~override/WOLFFMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGWOLFF.CRE~      ~override/XGWOLFF.CRE~       
   SAY NAME1 @369 
   SAY NAME2 @369 
 
-COPY ~PoFQuestPack/Actors/WOLFMOD.CRE~       ~override/WOLFMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGWOLF.CRE~       ~override/XGWOLF.CRE~        
   SAY NAME1 @370 
   SAY NAME2 @370 
 
-COPY ~PoFQuestPack/Actors/WORGMOD.CRE~       ~override/WORGMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGWORG.CRE~       ~override/XGWORG.CRE~        
 
-COPY ~PoFQuestPack/Actors/WORKMOD.CRE~       ~override/WORKMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGWORK.CRE~       ~override/XGWORK.CRE~        
   SAY NAME1 @371 
   SAY NAME2 @371 
 
-COPY ~PoFQuestPack/Actors/WORMOD.CRE~        ~override/WORMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGWOR.CRE~        ~override/XGWOR.CRE~         
   SAY NAME1 @371 
   SAY NAME2 @371 
 
-COPY ~PoFQuestPack/Actors/WORNMOD.CRE~       ~override/WORNMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGWORN.CRE~       ~override/XGWORN.CRE~        
   SAY NAME1 @371 
   SAY NAME2 @371 
 
-COPY ~PoFQuestPack/Actors/WPGMOD.CRE~        ~override/WPGMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGWPG.CRE~        ~override/XGWPG.CRE~         
   SAY NAME1 @15 
   SAY NAME2 @15 
 
-COPY ~PoFQuestPack/Actors/WRAKMOD.CRE~       ~override/WRAKMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGWRAK.CRE~       ~override/XGWRAK.CRE~        
   SAY NAME1 @372 
   SAY NAME2 @372 
 
-COPY ~PoFQuestPack/Actors/WRGMOD.CRE~        ~override/WRGMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGWRG.CRE~        ~override/XGWRG.CRE~         
   SAY NAME1 @373 
   SAY NAME2 @374 
 
-COPY ~PoFQuestPack/Actors/WRIDAMOD.CRE~      ~override/WRIDAMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGwrida.CRE~      ~override/XGwrida.CRE~       
   SAY NAME1 @375 
   SAY NAME2 @375 
 
-COPY ~PoFQuestPack/Actors/WRRIDMOD.CRE~      ~override/WRRIDMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGwrrid.CRE~      ~override/XGwrrid.CRE~       
   SAY NAME1 @375 
   SAY NAME2 @375 
 
-COPY ~PoFQuestPack/Actors/WTCH1MOD.CRE~      ~override/WTCH1MOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGWTCH1.CRE~      ~override/XGWTCH1.CRE~       
   SAY NAME1 @376 
   SAY NAME2 @376 
 
-COPY ~PoFQuestPack/Actors/WTCHMOD.CRE~       ~override/WTCHMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGWTCH.CRE~       ~override/XGWTCH.CRE~        
   SAY NAME1 @376 
   SAY NAME2 @376 
 
-COPY ~PoFQuestPack/Actors/WTCMOD.CRE~        ~override/WTCMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGWTC.CRE~        ~override/XGWTC.CRE~         
 
-COPY ~PoFQuestPack/Actors/WTDMYMOD.CRE~      ~override/WTDMYMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGWTDMY.CRE~      ~override/XGWTDMY.CRE~       
   SAY NAME1 @377 
   SAY NAME2 @377 
 
-COPY ~PoFQuestPack/Actors/WTG1MOD.CRE~       ~override/WTG1MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGWTG1.CRE~       ~override/XGWTG1.CRE~        
   SAY NAME1 @378 
   SAY NAME2 @378 
 
-COPY ~PoFQuestPack/Actors/WTG2MOD.CRE~       ~override/WTG2MOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGWTG2.CRE~       ~override/XGWTG2.CRE~        
   SAY NAME1 @379 
   SAY NAME2 @379 
 
-COPY ~PoFQuestPack/Actors/WTGCMOD.CRE~       ~override/WTGCMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGWTGC.CRE~       ~override/XGWTGC.CRE~        
   SAY NAME1 @380 
   SAY NAME2 @380 
 
-COPY ~PoFQuestPack/Actors/WTGMOD.CRE~        ~override/WTGMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGWTG.CRE~        ~override/XGWTG.CRE~         
   SAY NAME1 @381 
   SAY NAME2 @381 
 
-COPY ~PoFQuestPack/Actors/WTMERMOD.CRE~      ~override/WTMERMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGWTMER.CRE~      ~override/XGWTMER.CRE~       
   SAY NAME1 @382 
   SAY NAME2 @382 
 
-COPY ~PoFQuestPack/Actors/wulfmod.cre~       ~override/wulfmod.cre~        
+COPY ~PoFQuestPack/Actors/XGwulf.cre~       ~override/XGwulf.cre~        
 
-COPY ~PoFQuestPack/Actors/WWCMOD.CRE~        ~override/WWCMOD.CRE~         
+COPY ~PoFQuestPack/Actors/XGWWC.CRE~        ~override/XGWWC.CRE~         
   SAY NAME1 @48 
 
-COPY ~PoFQuestPack/Actors/WWMOD.CRE~         ~override/WWMOD.CRE~          
+COPY ~PoFQuestPack/Actors/XGWW.CRE~         ~override/XGWW.CRE~          
   SAY NAME1 @163 
   SAY NAME2 @163 
 
-COPY ~PoFQuestPack/Actors/YARFMOD.CRE~       ~override/YARFMOD.CRE~        
+COPY ~PoFQuestPack/Actors/XGYARF.CRE~       ~override/XGYARF.CRE~        
   SAY NAME1 @385 
   SAY NAME2 @385 
 
-COPY ~PoFQuestPack/Actors/yarpcl.cre~        ~override/yarpcl.cre~         
+COPY ~PoFQuestPack/Actors/XGyarcl.cre~        ~override/XGyarcl.cre~         
   SAY NAME1 @386 
   SAY NAME2 @386 
 
-COPY ~PoFQuestPack/Actors/YARPEHM.CRE~       ~override/YARPEHM.CRE~        
+COPY ~PoFQuestPack/Actors/XGYARHM.CRE~       ~override/XGYARHM.CRE~        
   SAY NAME1 @387 
   SAY NAME2 @387 
 
-COPY ~PoFQuestPack/Actors/YARPEN.CRE~        ~override/YARPEN.CRE~         
+COPY ~PoFQuestPack/Actors/XGYARPN.CRE~        ~override/XGYARPN.CRE~         
   SAY NAME1 @142 
   SAY NAME2 @142 
 
-COPY ~PoFQuestPack/Actors/YARPENM.CRE~       ~override/YARPENM.CRE~        
+COPY ~PoFQuestPack/Actors/XGYARNM.CRE~       ~override/XGYARNM.CRE~        
   SAY NAME1 @388 
   SAY NAME2 @388 
 
-COPY ~PoFQuestPack/Actors/YARPICP.CRE~       ~override/YARPICP.CRE~        
+COPY ~PoFQuestPack/Actors/XGYARP.CRE~       ~override/XGYARP.CRE~        
   SAY NAME1 @389 
   SAY NAME2 @389 
 
-COPY ~PoFQuestPack/Actors/YARPICP1.CRE~      ~override/YARPICP1.CRE~       
+COPY ~PoFQuestPack/Actors/XGYARP1.CRE~      ~override/XGYARP1.CRE~       
   SAY NAME1 @389 
   SAY NAME2 @389 
 
-COPY ~PoFQuestPack/Actors/YARPINA.CRE~       ~override/YARPINA.CRE~        
+COPY ~PoFQuestPack/Actors/XGYARPA.CRE~       ~override/XGYARPA.CRE~        
   SAY NAME1 @298 
   SAY NAME2 @298 
 
-COPY ~PoFQuestPack/Actors/YARPINC.CRE~       ~override/YARPINC.CRE~        
+COPY ~PoFQuestPack/Actors/XGYARPC.CRE~       ~override/XGYARPC.CRE~        
   SAY NAME1 @390 
   SAY NAME2 @390 
 
-COPY ~PoFQuestPack/Actors/YARPINJ.CRE~       ~override/YARPINJ.CRE~        
+COPY ~PoFQuestPack/Actors/XGYARPJ.CRE~       ~override/XGYARPJ.CRE~        
   SAY NAME1 @391 
   SAY NAME2 @181 
 
-COPY ~PoFQuestPack/Actors/YARPINW.CRE~       ~override/YARPINW.CRE~        
+COPY ~PoFQuestPack/Actors/XGYARPW.CRE~       ~override/XGYARPW.CRE~        
   SAY NAME1 @392 
   SAY NAME2 @393 
 
-COPY ~PoFQuestPack/Actors/YARPINW1.CRE~      ~override/YARPINW1.CRE~       
+COPY ~PoFQuestPack/Actors/XGYARW1.CRE~      ~override/XGYARW1.CRE~       
   SAY NAME1 @392 
   SAY NAME2 @393 
 
-COPY ~PoFQuestPack/Actors/YARPINW2.CRE~      ~override/YARPINW2.CRE~       
+COPY ~PoFQuestPack/Actors/XGYARW2.CRE~      ~override/XGYARW2.CRE~       
   SAY NAME1 @392 
   SAY NAME2 @393 
 
-COPY ~PoFQuestPack/Actors/YARPINW3.CRE~      ~override/YARPINW3.CRE~       
+COPY ~PoFQuestPack/Actors/XGYARW3.CRE~      ~override/XGYARW3.CRE~       
   SAY NAME1 @392 
   SAY NAME2 @393 
 
-COPY ~PoFQuestPack/Actors/YARPINW4.CRE~      ~override/YARPINW4.CRE~       
+COPY ~PoFQuestPack/Actors/XGYARW4.CRE~      ~override/XGYARW4.CRE~       
   SAY NAME1 @392 
   SAY NAME2 @393 
 
-COPY ~PoFQuestPack/Actors/YARPINW5.CRE~      ~override/YARPINW5.CRE~       
+COPY ~PoFQuestPack/Actors/XGYARW5.CRE~      ~override/XGYARW5.CRE~       
   SAY NAME1 @392 
   SAY NAME2 @393 
 
-COPY ~PoFQuestPack/Actors/YARPINW6.CRE~      ~override/YARPINW6.CRE~       
+COPY ~PoFQuestPack/Actors/XGYARW6.CRE~      ~override/XGYARW6.CRE~       
   SAY NAME1 @392 
   SAY NAME2 @393 
 
-COPY ~PoFQuestPack/Actors/YARPLMOD.CRE~      ~override/YARPLMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGYARPL.CRE~      ~override/XGYARPL.CRE~       
   SAY NAME1 @394 
   SAY NAME2 @394 
   SAY 0xa4 @395 
 
-COPY ~PoFQuestPack/Actors/YARPPMOD.CRE~      ~override/YARPPMOD.CRE~       
+COPY ~PoFQuestPack/Actors/XGYARPP.CRE~      ~override/XGYARPP.CRE~       
   SAY NAME1 @396 
   SAY NAME2 @396 
 
-COPY ~PoFQuestPack/Actors/YARPSCL.CRE~       ~override/YARPSCL.CRE~        
+COPY ~PoFQuestPack/Actors/XGYARPS.CRE~       ~override/XGYARPS.CRE~        
   SAY NAME1 @386 
   SAY NAME2 @386 
 
-COPY ~PoFQuestPack/Actors/YARPSCO.CRE~       ~override/YARPSCO.CRE~        
+COPY ~PoFQuestPack/Actors/XGYARPO.CRE~       ~override/XGYARPO.CRE~        
   SAY NAME1 @397 
   SAY NAME2 @397 
 
-COPY ~PoFQuestPack/Actors/yarqcp.cre~        ~override/yarqcp.cre~         
+COPY ~PoFQuestPack/Actors/XGyarqc.cre~        ~override/XGyarqc.cre~         
   SAY NAME1 @389 
   SAY NAME2 @389 
 
-COPY ~PoFQuestPack/Actors/zmod.cre~          ~override/zmod.cre~           
+COPY ~PoFQuestPack/Actors/XGz.cre~          ~override/XGz.cre~           
 
 
 //////////////////////////////////
@@ -4164,7 +4164,7 @@ COPY ~PoFQuestPack/Items/GD3MOD.ITM~         ~override/GD3MOD.ITM~
   SAY UNIDENTIFIED_DESC @572 
   SAY DESC @572 
 
-COPY ~PoFQuestPack/Items/GLAMOD.ITM~         ~override/GLAMOD.ITM~         
+COPY ~PoFQuestPack/Items/XGGLA.ITM~         ~override/XGGLA.ITM~         
   SAY NAME2 @573 
   SAY DESC @574 
 
@@ -4274,7 +4274,7 @@ COPY ~PoFQuestPack/Items/hqmod.itm~          ~override/hqmod.itm~
   SAY UNIDENTIFIED_DESC @617 
   SAY DESC @617 
 
-COPY ~PoFQuestPack/Items/hsrmod.itm~         ~override/hsrmod.itm~         
+COPY ~PoFQuestPack/Items/XGhsr.itm~         ~override/XGhsr.itm~         
   SAY NAME1 @618 
   SAY NAME2 @618 
   SAY UNIDENTIFIED_DESC @618 
@@ -4360,7 +4360,7 @@ COPY ~PoFQuestPack/Items/KIITMOD.ITM~        ~override/KIITMOD.ITM~
   SAY UNIDENTIFIED_DESC @646 
   SAY DESC @646 
 
-COPY ~PoFQuestPack/Items/kumod.itm~          ~override/kumod.itm~          
+COPY ~PoFQuestPack/Items/XGku.itm~          ~override/XGku.itm~          
 
 COPY ~PoFQuestPack/Items/LANCE02.ITM~        ~override/LANCE02.ITM~        
   SAY NAME2 @647 
@@ -4437,11 +4437,11 @@ COPY ~PoFQuestPack/Items/MAPMOD.ITM~         ~override/MAPMOD.ITM~
   SAY NAME1 @668 
   SAY NAME2 @668 
 
-COPY ~PoFQuestPack/Items/MAR1MOD.ITM~        ~override/MAR1MOD.ITM~        
+COPY ~PoFQuestPack/Items/XGMAR1.ITM~        ~override/XGMAR1.ITM~        
   SAY NAME2 @669 
   SAY DESC @670 
 
-COPY ~PoFQuestPack/Items/MARMOD.ITM~         ~override/MARMOD.ITM~         
+COPY ~PoFQuestPack/Items/XGMAR.ITM~         ~override/XGMAR.ITM~         
   SAY NAME2 @671 
 
 COPY ~PoFQuestPack/Items/MBMOD.ITM~          ~override/MBMOD.ITM~          
@@ -4572,7 +4572,7 @@ COPY ~PoFQuestPack/Items/NINJA03.ITM~        ~override/NINJA03.ITM~
   SAY NAME2 @720 
   SAY DESC @721 
 
-COPY ~PoFQuestPack/Items/NOMZMOD.ITM~        ~override/NOMZMOD.ITM~        
+COPY ~PoFQuestPack/Items/XGNOMZ.ITM~        ~override/XGNOMZ.ITM~        
   SAY NAME2 @722 
   SAY DESC @723 
 
@@ -4738,19 +4738,19 @@ COPY ~PoFQuestPack/Items/prc1mod.itm~        ~override/prc1mod.itm~
   SAY UNIDENTIFIED_DESC @658 
   SAY DESC @658 
 
-COPY ~PoFQuestPack/Items/prcmod.itm~         ~override/prcmod.itm~         
+COPY ~PoFQuestPack/Items/XGPRC.itm~         ~override/XGPRC.itm~         
   SAY NAME1 @778 
   SAY NAME2 @778 
   SAY UNIDENTIFIED_DESC @658 
   SAY DESC @658 
 
-COPY ~PoFQuestPack/Items/prt1mod.itm~        ~override/prt1mod.itm~        
+COPY ~PoFQuestPack/Items/XGprt1.itm~        ~override/XGprt1.itm~        
   SAY NAME1 @778 
   SAY NAME2 @778 
   SAY UNIDENTIFIED_DESC @658 
   SAY DESC @658 
 
-COPY ~PoFQuestPack/Items/prtmod.itm~         ~override/prtmod.itm~         
+COPY ~PoFQuestPack/Items/XGprt.itm~         ~override/XGprt.itm~         
   SAY NAME1 @778 
   SAY NAME2 @778 
   SAY UNIDENTIFIED_DESC @658 
@@ -5085,7 +5085,7 @@ COPY ~PoFQuestPack/Items/TRID07.ITM~         ~override/TRID07.ITM~
   SAY UNIDENTIFIED_DESC @885 
   SAY DESC @897 
 
-COPY ~PoFQuestPack/Items/TRWMOD.ITM~         ~override/TRWMOD.ITM~         
+COPY ~PoFQuestPack/Items/XGTRW.ITM~         ~override/XGTRW.ITM~         
   SAY NAME2 @898 
   SAY DESC @899 
 
@@ -5116,7 +5116,7 @@ COPY ~PoFQuestPack/Items/WAND3.ITM~          ~override/WAND3.ITM~
   SAY NAME2 @910 
   SAY DESC @911 
 
-COPY ~PoFQuestPack/Items/WHMOD.ITM~          ~override/WHMOD.ITM~          
+COPY ~PoFQuestPack/Items/XGWH.ITM~          ~override/XGWH.ITM~          
   SAY NAME1 @912 
   SAY UNIDENTIFIED_DESC @913 
 
@@ -5128,7 +5128,7 @@ COPY ~PoFQuestPack/Items/WRD1MOD.ITM~        ~override/WRD1MOD.ITM~
   SAY UNIDENTIFIED_DESC @915 
   SAY DESC @915 
 
-COPY ~PoFQuestPack/Items/WRGMOD.ITM~         ~override/WRGMOD.ITM~         
+COPY ~PoFQuestPack/Items/XGWRG.ITM~         ~override/XGWRG.ITM~         
   SAY UNIDENTIFIED_DESC @916 
   SAY DESC @916 
 
@@ -5180,68 +5180,68 @@ COPY ~PoFQuestPack/Items/ZATMOD.ITM~         ~override/ZATMOD.ITM~
 //////////////////////////////////
 
 
-COPY ~PoFQuestPack/Stores/BARFMOD.STO~       ~override/BARFMOD.STO~        
+COPY ~PoFQuestPack/Stores/XGBARF.STO~       ~override/XGBARF.STO~        
   SAY NAME2 @919 
 
-COPY ~PoFQuestPack/Stores/BG1MOD.STO~        ~override/BG1MOD.STO~         
+COPY ~PoFQuestPack/Stores/XGBG1.STO~        ~override/XGBG1.STO~         
   SAY NAME2 @919 
 
-COPY ~PoFQuestPack/Stores/bshpmod.sto~       ~override/bshpmod.sto~
+COPY ~PoFQuestPack/Stores/XGbshp.sto~       ~override/XGbshp.sto~
 
-COPY ~PoFQuestPack/Stores/CLSMOD.STO~      ~override/CLSMOD.STO~
+COPY ~PoFQuestPack/Stores/XGcls.STO~      ~override/XGcls.STO~
   SAY NAME2 @926        
 
-COPY ~PoFQuestPack/Stores/ESBLMOD.STO~       ~override/ESBLMOD.STO~        
+COPY ~PoFQuestPack/Stores/XGESBL.STO~       ~override/XGESBL.STO~        
 
-COPY ~PoFQuestPack/Stores/ESBRMOD.STO~       ~override/ESBRMOD.STO~        
+COPY ~PoFQuestPack/Stores/XGESBR.STO~       ~override/XGESBR.STO~        
   SAY NAME2 @920 
 
-COPY ~PoFQuestPack/Stores/kosmod.sto~        ~override/kosmod.sto~         
+COPY ~PoFQuestPack/Stores/XGkos.sto~        ~override/XGkos.sto~         
   SAY NAME2 @921 
 
-COPY ~PoFQuestPack/Stores/NS1MOD.STO~        ~override/NS1MOD.STO~         
+COPY ~PoFQuestPack/Stores/XGNS1.STO~        ~override/XGNS1.STO~         
   SAY NAME2 @922 
 
-COPY ~PoFQuestPack/Stores/NWNBMOD.STO~       ~override/NWNBMOD.STO~        
+COPY ~PoFQuestPack/Stores/XGNWNB.STO~       ~override/XGNWNB.STO~        
   SAY NAME2 @923 
 
-COPY ~PoFQuestPack/Stores/SHOP1MOD.STO~      ~override/SHOP1MOD.STO~       
+COPY ~PoFQuestPack/Stores/XGSHOP1.STO~      ~override/XGSHOP1.STO~       
 
-COPY ~PoFQuestPack/Stores/SHOP2MOD.STO~      ~override/SHOP2MOD.STO~       
+COPY ~PoFQuestPack/Stores/XGSHOP2.STO~      ~override/XGSHOP2.STO~       
 
-COPY ~PoFQuestPack/Stores/shop4mod.sto~      ~override/shop4mod.sto~       
+COPY ~PoFQuestPack/Stores/XGshop4.sto~      ~override/XGshop4.sto~       
 
-COPY ~PoFQuestPack/Stores/shopemod.sto~      ~override/shopemod.sto~       
+COPY ~PoFQuestPack/Stores/XGshope.sto~      ~override/XGshope.sto~       
 
-COPY ~PoFQuestPack/Stores/SHOPFMOD.STO~      ~override/SHOPFMOD.STO~      
+COPY ~PoFQuestPack/Stores/XGSHOPF.STO~      ~override/XGSHOPF.STO~      
   
-COPY ~PoFQuestPack/Stores/shopwmod.sto~      ~override/shopwmod.sto~
+COPY ~PoFQuestPack/Stores/XGshopw.sto~      ~override/XGshopw.sto~
 
-COPY ~PoFQuestPack/Stores/CLERSMOD.STO~      ~override/CLERSMOD.STO~
+COPY ~PoFQuestPack/Stores/XGCLERS.STO~      ~override/XGCLERS.STO~
 
-COPY ~PoFQuestPack/Stores/INNKWMOD.sto~      ~override/INNKWMOD.sto~
+COPY ~PoFQuestPack/Stores/XGINNKW.sto~      ~override/XGINNKW.sto~
 
-COPY ~PoFQuestPack/Stores/SHOP3MOD.STO~      ~override/SHOP3MOD.STO~
+COPY ~PoFQuestPack/Stores/XGSHOP3.STO~      ~override/XGSHOP3.STO~
 
-COPY ~PoFQuestPack/Stores/TYRLMOD.STO~       ~override/TYRLMOD.STO~        
+COPY ~PoFQuestPack/Stores/XGTYRL.STO~       ~override/XGTYRL.STO~        
   SAY NAME2 @925  
  
-COPY ~PoFQuestPack/Stores/s#HELM01.sto~       ~override/s#HELM01.sto~        
+COPY ~PoFQuestPack/Stores/XGhelm1.sto~       ~override/XGhelm1.sto~        
   SAY NAME2 @927 
  
-COPY ~PoFQuestPack/Stores/s#ilmat1.sto~       ~override/s#ilmat1.sto~        
+COPY ~PoFQuestPack/Stores/XGilmt1.sto~       ~override/XGilmt1.sto~        
   SAY NAME2 @928 
  
-COPY ~PoFQuestPack/Stores/s#inn01.sto~       ~override/s#inn01.sto~        
+COPY ~PoFQuestPack/Stores/XGinn01.sto~       ~override/XGinn01.sto~        
   SAY NAME2 @172 
  
-COPY ~PoFQuestPack/Stores/s#inn02.sto~       ~override/s#inn02.sto~        
+COPY ~PoFQuestPack/Stores/XGinn02.sto~       ~override/XGinn02.sto~        
   SAY NAME2 @172
  
-COPY ~PoFQuestPack/Stores/s#shev01.sto~       ~override/s#shev01.sto~        
+COPY ~PoFQuestPack/Stores/XGSHEV1.sto~       ~override/XGSHEV1.sto~        
   SAY NAME2 @929
  
-COPY ~PoFQuestPack/Stores/s#SHOP01.sto~       ~override/s#SHOP01.sto~        
+COPY ~PoFQuestPack/Stores/XGsho01.sto~       ~override/XGsho01.sto~        
   SAY NAME2 @402        
 
 //////////////////////////////////

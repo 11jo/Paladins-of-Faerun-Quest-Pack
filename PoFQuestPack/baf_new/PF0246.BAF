@@ -12,18 +12,18 @@ THEN
     Wait(2)
     DisplayStringHead(Player1,@0)  // @0
     Wait(4)
-    CreateCreature("TVAMPMOD",[1004.1600],0)  // ~Вампир из храма~
-    CreateCreature("TVAMPMOD",[1246.1544],0)  // ~Вампир из храма~
-    CreateCreature("TVAMPMOD",[1267.1449],0)  // ~Вампир из храма~
-    CreateCreature("CVAMPMOD",[1079.1621],0)  // ~Клан красных~
-    CreateCreature("CVAMPMOD",[1190.1587],0)  // ~Клан красных~
-    CreateCreature("CVAMPMOD",[1207.1420],0)  // ~Клан красных~
+    CreateCreature("XGTVAMP",[1004.1600],0)  // ~Вампир из храма~
+    CreateCreature("XGTVAMP",[1246.1544],0)  // ~Вампир из храма~
+    CreateCreature("XGTVAMP",[1267.1449],0)  // ~Вампир из храма~
+    CreateCreature("XGCVAMP",[1079.1621],0)  // ~Клан красных~
+    CreateCreature("XGCVAMP",[1190.1587],0)  // ~Клан красных~
+    CreateCreature("XGCVAMP",[1207.1420],0)  // ~Клан красных~
     Wait(1)
-    DisplayString("TVAMPMOD",@1)  // @1
+    DisplayString("XGTVAMP",@1)  // @1
     Wait(4)
     DisplayString(Player1,@2)  // @2
     Wait(4)
-    DisplayString("TVAMPMOD",@3)  // @3
+    DisplayString("XGTVAMP",@3)  // @3
     Wait(4)
     ActionOverride(Player1,MoveToPoint([3041.1817]))
     ActionOverride(Player2,MoveToPoint([3017.1848]))
@@ -31,18 +31,18 @@ THEN
     ActionOverride(Player4,MoveToPoint([2942.1851]))
     ActionOverride(Player5,MoveToPoint([2985.1830]))
     ActionOverride(Player6,MoveToPoint([3020.1797]))
-    ActionOverride("TVAMPMOD",MoveToPoint([3171.1827]))
-    ActionOverride("CVAMPMOD",MoveToPoint([2691.1962]))
+    ActionOverride("XGTVAMP",MoveToPoint([3171.1827]))
+    ActionOverride("XGCVAMP",MoveToPoint([2691.1962]))
     Wait(2)
     MoveViewPoint([3025.1863],INSTANT)
     Wait(10)
-    DisplayString("TVAMPMOD",@4)  // @4
+    DisplayString("XGTVAMP",@4)  // @4
     Wait(4)
-    DisplayString("VAMPMMOD",@5)  // @5
+    DisplayString("XGVAMPM",@5)  // @5
     Wait(5)
     DisplayString(Player1,@6)  // @6
     Wait(5)
-    DisplayString("VAMPMMOD",@7)  // @7
+    DisplayString("XGVAMPM",@7)  // @7
     Wait(3)
     UnhideGUI()
     EndCutSceneMode()

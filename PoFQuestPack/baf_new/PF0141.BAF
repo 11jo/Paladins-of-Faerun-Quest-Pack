@@ -1,6 +1,6 @@
 IF
   Global("Reveal0141","PF0141",0)
-  Dead("HQMIMOD")  // ~Верховная королева~
+  Dead("XGhqmi")  // ~Верховная королева~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0141","PF0141",1)
@@ -9,15 +9,15 @@ THEN
     Wait(3)
     PlaySound("lrSCRN4")
     ActionOverride(Player1,Face(0))
-    CreateCreature("KNIG1MOD",[1150.851],0)  // ~Личная охрана~
-    CreateCreature("KNIG2MOD",[1216.835],0)  // ~Личная охрана~
+    CreateCreature("XGknig1",[1150.851],0)  // ~Личная охрана~
+    CreateCreature("XGknig2",[1216.835],0)  // ~Личная охрана~
     Wait(4)
-    ActionOverride("KNIG1MOD",MoveToPoint([970.480]))
-    ActionOverride("KNIG2MOD",MoveToPoint([865.528]))
+    ActionOverride("XGknig1",MoveToPoint([970.480]))
+    ActionOverride("XGknig2",MoveToPoint([865.528]))
     Wait(7)
     MoveViewPoint([970.480],SLOW)
     Wait(2)
-    DisplayStringHead("KNIG1MOD",@0)  
+    DisplayStringHead("XGknig1",@0)  
     Wait(6)
     FadeToColor([20.0],0)
     Wait(7)

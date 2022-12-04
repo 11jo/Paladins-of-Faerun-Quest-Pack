@@ -7,13 +7,13 @@ THEN
     StartCutSceneMode()
     ClearAllActions()
     HideGUI()
-    CreateCreature("GRADAK",[3299.2183],10)  // ~Градак~
-    CreateCreature("RWMOD",[3365.2156],2)  // ~Красный маг~
+    CreateCreature("XGRADAK",[3299.2183],10)  // ~Градак~
+    CreateCreature("XGRW",[3365.2156],2)  // ~Красный маг~
     MoveViewPoint([473.1003],SLOW)
     ActionOverride(Player1,MoveToPoint([3510.2272]))
     Wait(3)
-    ActionOverride("GRADAK",EscapeArea())
-    ActionOverride("RWMOD",EscapeArea())
+    ActionOverride("XGRADAK",EscapeArea())
+    ActionOverride("XGRW",EscapeArea())
     Wait(2)
     UnhideGUI()
     EndCutSceneMode()
@@ -21,8 +21,8 @@ END
 
 IF
   Global("Reveal0160","PF0160",0)
-  Dead("Drw1mod")  // ~Дроу~
-  Dead("Drw2mod")  // ~Дроу~
+  Dead("XGDRW1")  // ~Дроу~
+  Dead("XGDRW2")  // ~Дроу~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0160","PF0160",1)

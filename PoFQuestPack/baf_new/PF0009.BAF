@@ -16,28 +16,28 @@ THEN
     ActionOverride(Player5,MoveToPoint([989.787]))
     ActionOverride(Player6,MoveToPoint([976.866]))
     Wait(5)
-    CreateCreature("HRQNMOD",[436.990],0)  // ~Ражкскул~
-    CreateCreature("HMER2MOD",[449.936],0)  // ~Капитан Наемников~
-    ActionOverride("HRQNMOD",MoveToPoint([850.891]))
-    ActionOverride("HMER2MOD",MoveToPoint([742.738]))
+    CreateCreature("XGhrqn",[436.990],0)  // ~Ражкскул~
+    CreateCreature("XGHMER2",[449.936],0)  // ~Капитан Наемников~
+    ActionOverride("XGhrqn",MoveToPoint([850.891]))
+    ActionOverride("XGHMER2",MoveToPoint([742.738]))
     Wait(2)
     MoveViewPoint([902.797],INSTANT)
     Wait(2)
-    ActionOverride("HRQNMOD",StartDialogue("H1MOD",Player1))
+    ActionOverride("XGhrqn",StartDialogue("H1MOD",Player1))
     UnhideGUI()
     EndCutSceneMode()
 END
 
 IF
   Global("Reveal0009","PF0009",0)
-  Dead("ESUDMOD")  // ~Удоррил~
+  Dead("XGESUD")  // ~Удоррил~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0009","PF0009",1)
-    CreateCreature("HROTHMOD",[915.797],6)  // ~Хротгар~
+    CreateCreature("XGHROTH",[915.797],6)  // ~Хротгар~
     StartCutSceneMode()
     Wait(1)
-    ActionOverride("HROTHMOD",StartDialogue("H2MOD",Player1))
+    ActionOverride("XGHROTH",StartDialogue("H2MOD",Player1))
     EndCutSceneMode()
 END
 

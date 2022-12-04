@@ -7,11 +7,11 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(1)
-    DisplayStringHead("SHTAMOD",@0)  
+    DisplayStringHead("XGSHTA",@0)  
     Wait(4)
-    DisplayStringHead("SHTAMOD",@1)  
+    DisplayStringHead("XGSHTA",@1)  
     Wait(3)
-    Kill("SHTAMOD")
+    Kill("XGSHTA")
     DisplayStringHead(Player1,@2)  
     UnhideGUI()
     EndCutSceneMode()
@@ -19,7 +19,7 @@ END
 
 IF
   Global("Reveal0149","PF0149",0)
-  Dead("LOFLTMOD")  // ~Ћидер брод€чих кинжалов~
+  Dead("XGLOFLT")  // ~Ћидер брод€чих кинжалов~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0149","PF0149",1)

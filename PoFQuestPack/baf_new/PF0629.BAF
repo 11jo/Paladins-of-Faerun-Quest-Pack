@@ -1,6 +1,6 @@
 IF
   Global("Reveal0629","PF0629",0)
-  Dead("SARMOD")  // ~Саревок~
+  Dead("XGSAR")  // ~Саревок~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0629","PF0629",1)
@@ -44,16 +44,16 @@ END
 
 IF
   Global("Reveal0629","PF0629",0)
-  Dead("ESDLMOD")  // ~Повелитель тьмы~
+  Dead("XGESDL")  // ~Повелитель тьмы~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0629","PF0629",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
-    DisplayStringHead("SARMOD",@1)  
+    DisplayStringHead("XGSAR",@1)  
     Wait(6)
-    ForceSpell("SARMOD",DRYAD_TELEPORT)
+    ForceSpell("XGSAR",DRYAD_TELEPORT)
     Wait(2)
     ScreenShake([20.20],20)
     Wait(6)

@@ -7,21 +7,21 @@ THEN
   RESPONSE #100
     SetGlobal("EnteredAreaAR1100","AR1100",1)
     StartCutSceneMode()
-    CreateCreature("RGQMOD",[4549.3046],1)  // ~Рейнджер~
-    CreateCreature("DRMOD",[4618.3070],7)  // ~Дриада~
+    CreateCreature("XGrgq",[4549.3046],1)  // ~Рейнджер~
+    CreateCreature("XGdr",[4618.3070],7)  // ~Дриада~
     MoveViewPoint([4618.3070],SLOW)
     HideGUI()
     ActionOverride(Player1,MoveToPoint([4663.3185]))
     Wait(5)
-    DisplayStringHead("RGQMOD",@0)  // @0
+    DisplayStringHead("XGrgq",@0)  // @0
     Wait(5)
-    DisplayStringHead("DRMOD",@1)  // @1
+    DisplayStringHead("XGdr",@1)  // @1
     Wait(5)
-    DisplayStringHead("RGQMOD",@2)  // @2
+    DisplayStringHead("XGrgq",@2)  // @2
     Wait(5)
-    ActionOverride("DRMOD",Face(0))
+    ActionOverride("XGdr",Face(0))
     Wait(2)
-    ActionOverride("DRMOD",StartDialogue("DRMOD",Player1))
+    ActionOverride("XGdr",StartDialogue("XGdr",Player1))
     UnhideGUI()
     EndCutSceneMode()
     Continue()
@@ -32,7 +32,7 @@ END
   Global("S#setAR1100","AR1100",0)
 THEN
   RESPONSE #100
-    CreateCreature("BOYMOD",[4785.3079],0)
+    CreateCreature("XGBOY",[4785.3079],0)
     SetGlobal("S#setAR1100","AR1100",1)
     Continue()
 END

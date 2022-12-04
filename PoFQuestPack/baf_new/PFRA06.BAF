@@ -2,14 +2,14 @@ IF
   OnCreation()
 THEN
   RESPONSE #100
-    CreateCreature("NOMMOD",[290.256],10)  // ~кочевник~
-    CreateCreature("NOMMOD",[204.310],10)  // ~кочевник~
-    CreateCreature("NOMMOD",[371.331],10)  // ~кочевник~
-    CreateCreature("NOMMOD",[284.429],10)  // ~кочевник~
-    CreateCreature("NOMMOD",[394.508],10)  // ~кочевник~
-    CreateCreature("NOMMOD",[551.460],10)  // ~кочевник~
-    CreateCreature("NOMMOD",[626.390],10)  // ~кочевник~
-    CreateCreature("NOMMOD",[739.759],10)  // ~кочевник~
-    CreateCreature("NOMMOD",[952.798],10)  // ~кочевник~
+    CreateCreature("XGNOM",[290.256],10)  // ~кочевник~
+    CreateCreature("XGNOM",[204.310],10)  // ~кочевник~
+    CreateCreature("XGNOM",[371.331],10)  // ~кочевник~
+    CreateCreature("XGNOM",[284.429],10)  // ~кочевник~
+    CreateCreature("XGNOM",[394.508],10)  // ~кочевник~
+    CreateCreature("XGNOM",[551.460],10)  // ~кочевник~
+    CreateCreature("XGNOM",[626.390],10)  // ~кочевник~
+    CreateCreature("XGNOM",[739.759],10)  // ~кочевник~
+    CreateCreature("XGNOM",[952.798],10)  // ~кочевник~
 END
 

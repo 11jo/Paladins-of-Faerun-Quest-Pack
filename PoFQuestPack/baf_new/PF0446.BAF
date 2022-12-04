@@ -6,23 +6,23 @@ THEN
     SetGlobal("s#PF0446","PF0446",1)
     ClearAllActions()
     StartCutSceneMode()
-    CreateCreature("SRWZ1MOD",[428.583],0)
+    CreateCreature("XGSRWZ1",[428.583],0)
     TakePartyItem("TRBLMOD")
 //    Wait(1)
-//    ActionOverride("SRWZ1MOD",StartDialogue("SRWZ1MOD",Player1))
+//    ActionOverride("XGSRWZ1",StartDialogue("XGSRWZ1",Player1))
     EndCutSceneMode()
 END
 
 IF
   Global("s#PF0446","PF0446",1)
-  HPLT("SRWZ1MOD",60)  // ~Чародей~
+  HPLT("XGSRWZ1",60)  // ~Чародей~
 THEN
   RESPONSE #100
     SetGlobal("s#PF0446","PF0446",2)
     ClearAllActions()
     StartCutSceneMode()
     Wait(1)
-    ActionOverride("SRWZ1MOD",StartDialogue("SRWZ2MOD",Player1))
+    ActionOverride("XGSRWZ1",StartDialogue("SRWZ2MOD",Player1))
     EndCutSceneMode()
 END
 

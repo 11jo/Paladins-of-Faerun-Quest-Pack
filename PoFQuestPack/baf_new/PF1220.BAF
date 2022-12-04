@@ -8,57 +8,57 @@ THEN
     HideGUI()
     FadeToColor([20.10],5)
     Wait(6)
-    CreateCreature("SALCMOD",[975.1486],0)  // ~Капитан~
-    ActionOverride("SALCMOD",MoveToPoint([775.1353]))
+    CreateCreature("XGSALC",[975.1486],0)  // ~Капитан~
+    ActionOverride("XGSALC",MoveToPoint([775.1353]))
     Wait(4)
     ScreenShake([20.20],2)
     PlaySound("EFF_M83")
     Wait(2)
     ScreenShake([20.20],2)
     PlaySound("EFF_M83")
-    DisplayStringHead("SALCMOD",@0)  // @0
+    DisplayStringHead("XGSALC",@0)  // @0
     Wait(5)
-    ActionOverride("SALCMOD",EscapeArea())
+    ActionOverride("XGSALC",EscapeArea())
     ScreenShake([20.20],2)
     PlaySound("EFF_M83")
     FadeFromColor([5.5],1)
-    CreateCreature("PIR1MOD",[608.1171],0)  // ~Пират~
-    CreateCreature("PIR2MOD",[820.1215],0)  // ~Пират~
-    CreateCreature("PIR3MOD",[930.1260],0)  // ~Пират~
-    CreateCreature("PIR4MOD",[770.1392],0)  // ~Пират~
-    CreateCreature("PIR5MOD",[933.1490],0)  // ~Пират~
-    CreateCreature("PIR6MOD",[1025.1371],0)  // ~Пират~
-    CreateCreature("PIR7MOD",[1032.1575],0)  // ~Пират~
-    CreateCreature("PIR8MOD",[1330.1554],0)  // ~Пират~
+    CreateCreature("XGPIR1",[608.1171],0)  // ~Пират~
+    CreateCreature("XGPIR2",[820.1215],0)  // ~Пират~
+    CreateCreature("XGPIR3",[930.1260],0)  // ~Пират~
+    CreateCreature("XGPIR4",[770.1392],0)  // ~Пират~
+    CreateCreature("XGPIR5",[933.1490],0)  // ~Пират~
+    CreateCreature("XGPIR6",[1025.1371],0)  // ~Пират~
+    CreateCreature("XGPIR7",[1032.1575],0)  // ~Пират~
+    CreateCreature("XGPIR8",[1330.1554],0)  // ~Пират~
     UnhideGUI()
     EndCutSceneMode()
 END
 
 IF
   Global("Reveal1220","PF1220",0)
-  Dead("PIR1MOD")  // ~Пират~
-  Dead("PIR2MOD")  // ~Пират~
-  Dead("PIR3MOD")  // ~Пират~
-  Dead("PIR4MOD")  // ~Пират~
-  Dead("PIR5MOD")  // ~Пират~
-  Dead("PIR6MOD")  // ~Пират~
-  Dead("PIR7MOD")  // ~Пират~
-  Dead("PIR8MOD")  // ~Пират~
+  Dead("XGPIR1")  // ~Пират~
+  Dead("XGPIR2")  // ~Пират~
+  Dead("XGPIR3")  // ~Пират~
+  Dead("XGPIR4")  // ~Пират~
+  Dead("XGPIR5")  // ~Пират~
+  Dead("XGPIR6")  // ~Пират~
+  Dead("XGPIR7")  // ~Пират~
+  Dead("XGPIR8")  // ~Пират~
 THEN
   RESPONSE #100
     SetGlobal("Reveal1220","PF1220",1)
     FadeFromColor([5.5],1)
     StartCutSceneMode()
     HideGUI()
-    CreateCreature("SALCMOD",[1464.1721],2)  // ~Капитан~
-    CreateCreature("PIRCMOD",[1407.1769],10)  // ~Капитан пиратов~
+    CreateCreature("XGSALC",[1464.1721],2)  // ~Капитан~
+    CreateCreature("XGPIRC",[1407.1769],10)  // ~Капитан пиратов~
     ActionOverride(Player1,LeaveAreaLUA("PF1220","",[1361.1699],14))
-    ActionOverride("SALCMOD",Attack("PIRCMOD"))
-    ActionOverride("PIRCMOD",Attack("SALCMOD"))
+    ActionOverride("XGSALC",Attack("XGPIRC"))
+    ActionOverride("XGPIRC",Attack("XGSALC"))
     Wait(6)
-    Kill("PIRCMOD")
+    Kill("XGPIRC")
     Wait(2)
-    DisplayStringHead("SALCMOD",@1)  // @1
+    DisplayStringHead("XGSALC",@1)  // @1
     Wait(5)
     FadeToColor([10.10],2)
     ActionOverride(Player2,LeaveAreaLUA("AR0300","",[1640.3172],10))

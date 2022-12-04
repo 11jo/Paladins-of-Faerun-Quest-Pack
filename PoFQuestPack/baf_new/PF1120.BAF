@@ -1,6 +1,6 @@
 IF
   Global("Reveal120","PF1120",0)
-  HPLT("ARTBGMOD",120)  // ~Артемис~
+  HPLT("XGARTBG",120)  // ~Артемис~
 THEN
   RESPONSE #100
     SetGlobal("Reveal1120","PF1120",1)
@@ -11,9 +11,9 @@ THEN
     GiveItemCreate("KAT01",Player1,0,0,0)  // ~Zbran temnoty~
     GiveItemCreate("ZAT5MOD",Player1,0,0,0)  // ~Ордер на арест~
     ClearAllActions()
-    DisplayStringHead("ARTBGMOD",@1)  // @1
+    DisplayStringHead("XGARTBG",@1)  // @1
     Wait(5)
-    ActionOverride("ARTBGMOD",EscapeArea())
+    ActionOverride("XGARTBG",EscapeArea())
     Wait(3)
     ActionOverride(Player2,LeaveAreaLUA("PF0020","",[282.1732],0))
     ActionOverride(Player1,LeaveAreaLUA("PF0020","",[248.1687],0))

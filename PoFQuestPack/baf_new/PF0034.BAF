@@ -1,6 +1,6 @@
 IF
 	Global("RevealArea","PF0034",0)
-	Dead("GGHCMOD")  // Хранитель врат
+	Dead("XGgghc")  // Хранитель врат
 THEN
 	RESPONSE #100
 		SetGlobal("RevealArea","PF0034",1)
@@ -8,7 +8,7 @@ END
 
 IF
 	Global("RevealArea","PF0034",1)
-	Dead("HCMOD")  // Архимаг
+	Dead("XGHC")  // Архимаг
 THEN
 	RESPONSE #100
 		SetGlobal("RevealArea","PF0034",2)
@@ -25,29 +25,29 @@ THEN
 		ActionOverride(Player6,MoveToPoint([799.351]))
 		MoveViewPoint([741.500],SLOW)
 		Wait(2)
-		CreateCreature("ARTENMOD",[859.613],6)  // Артемис Энтрери
-		CreateCreature("THEF1MOD",[900.643],6)  // Воришка
-		CreateCreature("THEF2MOD",[830.665],6)  // Воришка
-		CreateCreature("THEF3MOD",[887.702],6)  // Воришка
-		CreateCreature("THEF4MOD",[867.733],6)  // Воришка
+		CreateCreature("XGARTEN",[859.613],6)  // Артемис Энтрери
+		CreateCreature("XGthef1",[900.643],6)  // Воришка
+		CreateCreature("XGthef2",[830.665],6)  // Воришка
+		CreateCreature("XGthef3",[887.702],6)  // Воришка
+		CreateCreature("XGthef4",[867.733],6)  // Воришка
 		Wait(6)
-		DisplayStringHead("ARTENMOD",77796)  // Снова ты? Тебе недостаточно того, что было в Аскатле?
+		DisplayStringHead("XGARTEN",77796)  // Снова ты? Тебе недостаточно того, что было в Аскатле?
 		Wait(6)
 		DisplayStringHead(Player1,77797)  // Кто ты такой? И что ты здесь делаешь?
 		Wait(6)
-		DisplayStringHead("ARTENMOD",77798)  // Ну давай познакомимся, я Артемис Энтрери. Я слышал, что ты был арестован в Аскатле, не принимай это близко к сердцу, а теперь проваливай или умрешь.
+		DisplayStringHead("XGARTEN",77798)  // Ну давай познакомимся, я Артемис Энтрери. Я слышал, что ты был арестован в Аскатле, не принимай это близко к сердцу, а теперь проваливай или умрешь.
 		Wait(7)
-		ActionOverride("ARTENMOD",Attack(Player1))
-		ActionOverride(Player1,Attack("ARTENMOD"))  // Артемис Энтрери
+		ActionOverride("XGARTEN",Attack(Player1))
+		ActionOverride(Player1,Attack("XGARTEN"))  // Артемис Энтрери
 		Wait(15)
 		ClearAllActions()
-		DisplayStringHead("ARTENMOD",77799)  // На это у меня нет времени, займитесь им!
+		DisplayStringHead("XGARTEN",77799)  // На это у меня нет времени, займитесь им!
 		Wait(6)
-		ActionOverride("ARTENMOD",EscapeArea())
-		ActionOverride("THEF1MOD",Enemy())
-		ActionOverride("THEF2MOD",Enemy())
-		ActionOverride("THEF3MOD",Enemy())
-		ActionOverride("THEF4MOD",Enemy())
+		ActionOverride("XGARTEN",EscapeArea())
+		ActionOverride("XGthef1",Enemy())
+		ActionOverride("XGthef2",Enemy())
+		ActionOverride("XGthef3",Enemy())
+		ActionOverride("XGthef4",Enemy())
 		Wait(2)
 		UnhideGUI()
 		EndCutSceneMode()
@@ -55,10 +55,10 @@ END
 
 IF
 	Global("RevealArea","PF0034",2)
-	Dead("THEF1MOD")  // Воришка
-	Dead("THEF2MOD")  // Воришка
-	Dead("THEF3MOD")  // Воришка
-	Dead("THEF4MOD")  // Воришка
+	Dead("XGthef1")  // Воришка
+	Dead("XGthef2")  // Воришка
+	Dead("XGthef3")  // Воришка
+	Dead("XGthef4")  // Воришка
 THEN
 	RESPONSE #100
 		SetGlobal("RevealArea","PF0034",3)

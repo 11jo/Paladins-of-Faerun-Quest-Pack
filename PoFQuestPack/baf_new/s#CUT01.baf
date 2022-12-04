@@ -2,7 +2,7 @@ IF
   True()
 THEN
   RESPONSE #100
-    CutSceneId("SRWZ1MOD")
+    CutSceneId("XGSRWZ1")
     Wait(2)
 CreateVisualEffect("spcrtwpn",[550.510])
     Wait(4)

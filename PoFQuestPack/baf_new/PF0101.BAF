@@ -1,12 +1,12 @@
 IF
-  Global("s#SABAT","GLOBAL",0)
-  Dead("SABAT")  // ~Священник Цирика~
+  Global("s#XGSABAT","GLOBAL",0)
+  Dead("XGSABAT")  // ~Священник Цирика~
 THEN
   RESPONSE #100
-    SetGlobal("s#SABAT","GLOBAL",1) 
+    SetGlobal("s#XGSABAT","GLOBAL",1) 
     ClearAllActions()
     StartCutSceneMode()
-    CreateCreature("SKWR4MOD",[2421.1987],4)  // ~Скелет~
+    CreateCreature("XGskwr4",[2421.1987],4)  // ~Скелет~
     Wait(1)
     DisplayStringHead(Player1,@0) 
     Wait(6) 
@@ -16,7 +16,7 @@ THEN
     ActionOverride(Player4,LeaveAreaLUA("PF0001","",[775.469],0))
     ActionOverride(Player5,LeaveAreaLUA("PF0001","",[838.458],0))
     ActionOverride(Player6,LeaveAreaLUA("PF0001","",[805.431],0))
-    ActionOverride("SKWR4MOD",EscapeArea())
+    ActionOverride("XGskwr4",EscapeArea())
     EndCutSceneMode()
 END
 

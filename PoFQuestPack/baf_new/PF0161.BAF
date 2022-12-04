@@ -1,6 +1,6 @@
 IF
   Global("Reveal0161","PF0161",0)
-  Dead("RWHMMOD")  // ~Глава волшебников~
+  Dead("XGRWHM")  // ~Глава волшебников~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0161","PF0161",1)
@@ -9,17 +9,17 @@ THEN
     HideGUI()
     Explore()
     Wait(2)
-    CreateCreature("QUARMOD",[3460.671],2)  // ~Кварилл~
+    CreateCreature("XGQUAR",[3460.671],2)  // ~Кварилл~
     MoveViewPoint([3381.725],SLOW)
     ActionOverride(Player1,MoveToPoint([3365.729]))
     Wait(5)
     ActionOverride(Player1,Face(10))
     Wait(2)
-    DisplayStringHead("QUARMOD",@0)  // ~Спасибо за помощь! Есть ли что-нибудь, что я могу сделать для вас?~
+    DisplayStringHead("XGQUAR",@0)  // ~Спасибо за помощь! Есть ли что-нибудь, что я могу сделать для вас?~
     Wait(5)
     DisplayStringHead(Player1,@1)  // @1
     Wait(3)
-    ForceSpell("QUARMOD",DRYAD_TELEPORT)
+    ForceSpell("XGQUAR",DRYAD_TELEPORT)
     Wait(1)
     AddexperienceParty(6000)
     UnhideGUI()

@@ -16,33 +16,33 @@ THEN
     ActionOverride(Player5,LeaveAreaLUA("AR1000","",[2471.195],0))
     ActionOverride(Player6,LeaveAreaLUA("AR1000","",[2519.139],0))
     Wait(2)
-    CreateCreature("ARTEMIS1",[2237.907],0)  // ~Артемис~
-    CreateCreature("WAN1MOD",[2195.874],0)  // ~Беглец~
-    CreateCreature("WAN2MOD",[2354.921],0)  // ~Беглец~
-    CreateCreature("AMNCMOD",[2155.890],0)  // ~Амнский капитан~
+    CreateCreature("XGARTE1",[2237.907],0)  // ~Артемис~
+    CreateCreature("XGWAN1",[2195.874],0)  // ~Беглец~
+    CreateCreature("XGWAN2",[2354.921],0)  // ~Беглец~
+    CreateCreature("XGAMNC",[2155.890],0)  // ~Амнский капитан~
     ScreenShake([20.20],20)
     Wait(4)
-    ActionOverride("ARTEMIS1",MoveToPoint([2532.342]))
-    ActionOverride("WAN1MOD",MoveToPoint([2490.365]))
-    ActionOverride("WAN2MOD",MoveToPoint([2588.367]))
+    ActionOverride("XGARTE1",MoveToPoint([2532.342]))
+    ActionOverride("XGWAN1",MoveToPoint([2490.365]))
+    ActionOverride("XGWAN2",MoveToPoint([2588.367]))
     Wait(5)
-    DisplayString("ARTEMIS1",@0)  // @0
+    DisplayString("XGARTE1",@0)  // @0
     Wait(2)
     DisplayString("Player1",@1)  // @1
     Wait(2)
-    DisplayString("ARTEMIS1",@2)  // @2
+    DisplayString("XGARTE1",@2)  // @2
     Wait(2)
-    ActionOverride("ARTEMIS1",Attack(Player1))
+    ActionOverride("XGARTE1",Attack(Player1))
     Wait(2)
     ActionOverride(Player1,PlayDead(100))
     Wait(1)
-    ActionOverride("ARTEMIS1",EscapeArea())
-    ActionOverride("WAN1MOD",EscapeArea())
-    ActionOverride("WAN2MOD",EscapeArea())
+    ActionOverride("XGARTE1",EscapeArea())
+    ActionOverride("XGWAN1",EscapeArea())
+    ActionOverride("XGWAN2",EscapeArea())
     Wait(3)
-    ActionOverride("AMNCMOD",MoveToPoint([2532.342]))
+    ActionOverride("XGAMNC",MoveToPoint([2532.342]))
     Wait(10)
-    DisplayString("AMNCMOD",@3)  // @3
+    DisplayString("XGAMNC",@3)  // @3
     Wait(3)
     ActionOverride(Player2,LeaveAreaLUA("AR1005","",[1111.340],0))
     ActionOverride(Player1,LeaveAreaLUA("AR1005","",[1235.428],0))
@@ -58,7 +58,7 @@ IF
   Global("S#setAR1000","AR1000",0)
 THEN
   RESPONSE #100
-    CreateCreature("ELWINMOD",[2789.1883],0)
+    CreateCreature("XGELWIN",[2789.1883],0)
     SetGlobal("S#setAR1000","AR1000",1)
     Continue()
 END
@@ -71,23 +71,23 @@ THEN
   RESPONSE #100
     SetGlobal("S#opasAR1000","AR1000",1)
     StartCutSceneMode()
-    CreateCreature("BGONMOD",[2170.2233],0)  // ~Торговый заместитель~
-    CreateCreature("THIEFMOD",[2235.2241],4)  // ~Воришка~
+    CreateCreature("XGBGON",[2170.2233],0)  // ~Торговый заместитель~
+    CreateCreature("XGTHIEF",[2235.2241],4)  // ~Воришка~
     Wait(4)
     ActionOverride(Player1,MoveToPoint([2203.2299]))
     MoveViewPoint([2170.2233],SLOW)
-    DisplayStringHead("THIEFMOD",@4)  // @4
+    DisplayStringHead("XGTHIEF",@4)  // @4
     Wait(5)
     DisplayStringHead(Player1,@5)  // @5
     Wait(5)
-    DisplayStringHead("THIEFMOD",@6)  // @6
+    DisplayStringHead("XGTHIEF",@6)  // @6
     Wait(6)
     DisplayStringHead(Player1,@7)  // @7
     Wait(6)
     TakePartyItem("LETT1MOD")
-    DisplayStringHead("BGONMOD",@8)  // @8
+    DisplayStringHead("XGBGON",@8)  // @8
     Wait(5)
-    ActionOverride("THIEFMOD",Enemy())
+    ActionOverride("XGTHIEF",Enemy())
     EndCutSceneMode()
     Continue()
 END

@@ -9,47 +9,47 @@ THEN
     HideGUI()
     Explore()
     Wait(1)
-    CreateCreature("SHTAMOD",[2285.2318],0)  // ~Теневой Вор~
+    CreateCreature("XGSHTA",[2285.2318],0)  // ~Теневой Вор~
     Wait(2)
-    ActionOverride("SHTAMOD",MoveToPoint([2044.2621]))
+    ActionOverride("XGSHTA",MoveToPoint([2044.2621]))
     Wait(8)
-    DisplayStringHead("SHTAMOD",@0)  
+    DisplayStringHead("XGSHTA",@0)  
     Wait(8)
     DisplayStringHead(Player1,@1)  
     Wait(6)
-    DisplayStringHead("SHTAMOD",@2)  
+    DisplayStringHead("XGSHTA",@2)  
     Wait(6)
     AddJournalEntry(@3,QUEST)
-    ActionOverride("SHTAMOD",EscapeArea())
+    ActionOverride("XGSHTA",EscapeArea())
     UnhideGUI()
     EndCutSceneMode()
 END
 
 IF
   Global("Reveal0049","PF0049",0)
-  Dead("MFTL2MOD")  // ~Бродячие кинжалы~
-  Dead("MFTL3MOD")  // ~Бродячие кинжалы~
-  Dead("MFTL4MOD")  // ~Бродячие кинжалы~
-  Dead("MFTL5MOD")  // ~Бродячие кинжалы~
-  Dead("MFTL6MOD")  // ~Бродячие кинжалы~
-  Dead("MFTL7MOD")  // ~Бродячие кинжалы~
+  Dead("XGMFTL2")  // ~Бродячие кинжалы~
+  Dead("XGMFTL3")  // ~Бродячие кинжалы~
+  Dead("XGMFTL4")  // ~Бродячие кинжалы~
+  Dead("XGMFTL5")  // ~Бродячие кинжалы~
+  Dead("XGMFTL6")  // ~Бродячие кинжалы~
+  Dead("XGMFTL7")  // ~Бродячие кинжалы~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0049","PF0049",1)
-    CreateCreature("MFTL8MOD",[915.1715],0)  // ~Бродячие кинжалы~
+    CreateCreature("XGMFTL8",[915.1715],0)  // ~Бродячие кинжалы~
 END
 
 IF
   Global("Reveal0049","PF0049",1)
-  Dead("MFTL8MOD")  // ~Бродячие кинжалы~
+  Dead("XGMFTL8")  // ~Бродячие кинжалы~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0049","PF0049",2)
     StartCutSceneMode()
     ScreenShake([20.20],3)
-    CreateCreature("SHTAMOD",[992.1582],0)  // ~Теневой Вор~
+    CreateCreature("XGSHTA",[992.1582],0)  // ~Теневой Вор~
     Wait(1)
-    DisplayStringHead("SHTAMOD",@4)  
+    DisplayStringHead("XGSHTA",@4)  
     Wait(6)
     ActionOverride(Player2,LeaveAreaLUA("PF0149","",[488.1032],8))
     ActionOverride(Player1,LeaveAreaLUA("PF0149","",[548.1046],8))

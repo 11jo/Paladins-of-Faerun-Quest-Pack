@@ -1,4 +1,4 @@
-BEGIN ~KSPMOD~
+BEGIN ~XGksp~
 
 IF ~NumTimesTalkedTo(0)
 See(Player1)

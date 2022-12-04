@@ -1,6 +1,6 @@
 IF
   Global("Reveal0701","PF0701",0)
-  Dead("PALWMOD")  // ~Десница.~
+  Dead("XGPALW")  // ~Десница.~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0701","PF0701",1)
@@ -9,9 +9,9 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(2)
-    CreateCreature("WTCHMOD",[1545.427],0)  // ~Ведьма~
-    CreateCreature("GUARMOD",[1597.369],0)  // ~Ведьма защитник~
-    CreateCreature("GUARMOD",[1517.513],0)  // ~Ведьма защитник~
+    CreateCreature("XGWTCH",[1545.427],0)  // ~Ведьма~
+    CreateCreature("XGGUAR",[1597.369],0)  // ~Ведьма защитник~
+    CreateCreature("XGGUAR",[1517.513],0)  // ~Ведьма защитник~
     ActionOverride(Player1,MoveToPoint([1599.546]))
     ActionOverride(Player2,MoveToPoint([1634.504]))
     ActionOverride(Player3,MoveToPoint([1665.462]))
@@ -21,20 +21,20 @@ THEN
     Wait(3)
     MoveViewPoint([1599.546],INSTANT)
     Wait(3)
-    DisplayString("WTCHMOD",@0)  // @0
+    DisplayString("XGWTCH",@0)  // @0
     Wait(4)
     DisplayString(Player1,@1)  // @1
     Wait(5)
-    DisplayString("WTCHMOD",@2)  // @2
+    DisplayString("XGWTCH",@2)  // @2
     Wait(5)
-    ActionOverride("WTCHMOD",Enemy())
+    ActionOverride("XGWTCH",Enemy())
     UnhideGUI()
     EndCutSceneMode()
 END
 
 IF
   Global("Reveal0701","PF0701",1)
-  Dead("WTCHMOD")  // ~Ведьма~
+  Dead("XGWTCH")  // ~Ведьма~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0701","PF0701",2)
@@ -45,14 +45,14 @@ THEN
     Wait(2)
     ScreenShake([20.20],20)
     FadeToColor([30.0],0)
-    CreateCreature("WTCH1MOD",[1545.427],0)  // ~Ведьма~
+    CreateCreature("XGWTCH1",[1545.427],0)  // ~Ведьма~
     ActionOverride(Player1,MoveToPoint([1599.546]))
     Wait(3)
     MoveViewPoint([1599.546],INSTANT)
     Wait(1)
-    DisplayString("WTCH1MOD",@3)  // @3
+    DisplayString("XGWTCH1",@3)  // @3
     Wait(4)
-    ActionOverride("WTCH1MOD",Enemy())
+    ActionOverride("XGWTCH1",Enemy())
     UnhideGUI()
     EndCutSceneMode()
 END

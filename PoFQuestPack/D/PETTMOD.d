@@ -1,4 +1,4 @@
-BEGIN ~PETTMOD~ 4
+BEGIN ~XGPETT~ 4
 
 IF ~True()~ THEN BEGIN 0
   SAY @1
@@ -13,6 +13,6 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @5
-  IF ~~ THEN DO ~StartStore("BAR1MOD",LastTalkedToBy(Myself))
+  IF ~~ THEN DO ~StartStore("XGbar1",LastTalkedToBy(Myself))
 ~ EXIT
 END

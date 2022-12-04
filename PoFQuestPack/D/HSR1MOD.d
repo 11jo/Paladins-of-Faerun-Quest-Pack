@@ -1,4 +1,4 @@
-BEGIN ~HSR1MOD~
+BEGIN ~XGhsr1~
 
 IF ~See(Player1)~ THEN BEGIN 0
   SAY @0

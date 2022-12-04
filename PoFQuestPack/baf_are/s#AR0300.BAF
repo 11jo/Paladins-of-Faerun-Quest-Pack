@@ -7,11 +7,11 @@ THEN
     CreateCreature("amng1",[2998.385],0)
     CreateCreature("amng1",[3005.577],8)
     CreateCreature("amng1",[2844.455],12)
-    CreateCreature("amncmod",[3159.474],12)
-    CreateCreature("kassmod",[3059.479],0)
-    CreateCreature("kassmod",[2956.457],0)
-    CreateCreature("mtrmod",[2256.3004],8)
-    CreateCreature("kspmod",[1725.3612],8)
+    CreateCreature("XGAMNC",[3159.474],12)
+    CreateCreature("XGKASS",[3059.479],0)
+    CreateCreature("XGKASS",[2956.457],0)
+    CreateCreature("XGMTR",[2256.3004],8)
+    CreateCreature("XGksp",[1725.3612],8)
     SetGlobal("S#setAR0300","AR0300",1)
     Continue()
 END
@@ -26,35 +26,35 @@ THEN
     StartCutSceneMode()
     Explore()
     Wait(1)
-    CreateCreature("THIEFMOD",[2076.2840],10)  // ~Воришка~
-    ActionOverride("THIEFMOD",MoveToPoint([1686.3099]))
+    CreateCreature("XGTHIEF",[2076.2840],10)  // ~Воришка~
+    ActionOverride("XGTHIEF",MoveToPoint([1686.3099]))
     Wait(6)
     ActionOverride(Player1,Face(10))
     Wait(1)
-    DisplayString("THIEFMOD",@0)  // @0
+    DisplayString("XGTHIEF",@0)  // @0
     Wait(4)
     DisplayString(Player1,@1)  // @1
     Wait(6)
-    DisplayString("THIEFMOD",@2)  // @2
+    DisplayString("XGTHIEF",@2)  // @2
     Wait(9)
     GiveItemCreate("LETT1MOD",Player1,0,0,0)  // ~Письмо~
-    ActionOverride("THIEFMOD",EscapeArea())
+    ActionOverride("XGTHIEF",EscapeArea())
     Wait(3)
     DisplayStringHead(Player1,@3)  // @3
     Wait(5)
     DisplayStringHead(Player1,@4)  // @4
     Wait(5)
-    DisplayStringHead("BLMAJMOD",@5)  // @5
+    DisplayStringHead("XGBLMAJ",@5)  // @5
     Wait(5)
     DisplayStringHead(Player1,@6)  // @6
     Wait(5)
-    DisplayStringHead("BLMAJMOD",@7)  // @7
+    DisplayStringHead("XGBLMAJ",@7)  // @7
     Wait(5)
     DisplayStringHead(Player1,@8)  // @8
     Wait(5)
     AddJournalEntry(@9,QUEST)
     TakePartyItem("BGSDMOD")
-    CreateCreature("THIEFMOD",[2004.236],8)  // ~Воришка~
+    CreateCreature("XGTHIEF",[2004.236],8)  // ~Воришка~
     ActionOverride(Player2,LeaveAreaLUA("AR0300","",[2166.495],6))
     ActionOverride(Player1,LeaveAreaLUA("AR0300","",[2139.541],6))
     ActionOverride(Player3,LeaveAreaLUA("AR0300","",[2246.542],6))

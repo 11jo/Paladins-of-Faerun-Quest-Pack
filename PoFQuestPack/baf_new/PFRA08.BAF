@@ -2,14 +2,14 @@ IF
   OnCreation()
 THEN
   RESPONSE #100
-    CreateCreature("ELVEMOD",[290.256],10)  // ~Ёльфийский воин~
-    CreateCreature("ELVEMOD",[204.310],10)  // ~Ёльфийский воин~
-    CreateCreature("ELVEMOD",[371.331],10)  // ~Ёльфийский воин~
-    CreateCreature("ELVEMOD",[284.429],10)  // ~Ёльфийский воин~
-    CreateCreature("ELVEMOD",[394.508],10)  // ~Ёльфийский воин~
-    CreateCreature("ELVEMOD",[551.460],10)  // ~Ёльфийский воин~
-    CreateCreature("ELVEMOD",[626.390],10)  // ~Ёльфийский воин~
-    CreateCreature("ELVEMOD",[739.759],10)  // ~Ёльфийский воин~
-    CreateCreature("ELVEMOD",[952.798],10)  // ~Ёльфийский воин~
+    CreateCreature("XGelve",[290.256],10)  // ~Ёльфийский воин~
+    CreateCreature("XGelve",[204.310],10)  // ~Ёльфийский воин~
+    CreateCreature("XGelve",[371.331],10)  // ~Ёльфийский воин~
+    CreateCreature("XGelve",[284.429],10)  // ~Ёльфийский воин~
+    CreateCreature("XGelve",[394.508],10)  // ~Ёльфийский воин~
+    CreateCreature("XGelve",[551.460],10)  // ~Ёльфийский воин~
+    CreateCreature("XGelve",[626.390],10)  // ~Ёльфийский воин~
+    CreateCreature("XGelve",[739.759],10)  // ~Ёльфийский воин~
+    CreateCreature("XGelve",[952.798],10)  // ~Ёльфийский воин~
 END
 

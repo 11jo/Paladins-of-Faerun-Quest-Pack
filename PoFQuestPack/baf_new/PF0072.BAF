@@ -6,32 +6,32 @@ THEN
     SetGlobal("RevealPF0072","PF0072",1)
     ClearAllActions()
     StartCutSceneMode()
-    CreateCreature("PRQMOD",[828.1370],10)  // ~Отрекшийся~
+    CreateCreature("XGprq",[828.1370],10)  // ~Отрекшийся~
     Wait(2)
-    ActionOverride("PRQMOD",StartDialogue("PRC1MOD",Player1))
+    ActionOverride("XGprq",StartDialogue("PRC1MOD",Player1))
     EndCutSceneMode()
 END
 
 IF
   Global("DEAD0","PF0072",0)
-  Dead("PRQMOD")  // ~Отрекшийся~
+  Dead("XGprq")  // ~Отрекшийся~
 THEN
   RESPONSE #100
     SetGlobal("DEAD0","PF0072",1)
     Wait(1)
     StartCutSceneMode()
-    CreateCreature("BHCMOD",[1339.1489],0)  // ~Адостер Сын Дриады~
-    ActionOverride("BHCMOD",MoveToPoint([1040.1334]))
+    CreateCreature("XGBHC",[1339.1489],0)  // ~Адостер Сын Дриады~
+    ActionOverride("XGBHC",MoveToPoint([1040.1334]))
     Wait(12)
     ActionOverride(Player1,MoveToPoint([916.1288]))
     DisplayStringHead(Player1,@0)  
     Wait(5)
-    DisplayStringHead("BHCMOD",@1)  
+    DisplayStringHead("XGBHC",@1)  
     Wait(8)
     TakePartyItem("ARKT1MOD")
     GiveItemCreate("MISC07",Player1,5000,0,0)  // ~Золотой~
     GiveItemCreate("FALX05",Player1,0,0,0)  // ~Угхуровский демон~
-    ActionOverride("BHCMOD",EscapeArea())
+    ActionOverride("XGBHC",EscapeArea())
     SetQuestDone(@2)  
     EraseJournalEntry(@3) 
     EraseJournalEntry(@4)  

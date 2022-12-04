@@ -9,7 +9,7 @@ THEN
     HideGUI()
     Wait(3)
     FadeToColor([10.0],0)
-    CreateCreature("ELWINMOD",[2132.1383],10)  // ~Элвин~
+    CreateCreature("XGELWIN",[2132.1383],10)  // ~Элвин~
     Wait(4)
     ActionOverride(Player1,LeaveAreaLUA("PF0328","",[2145.1312],2))
     ActionOverride(Player2,LeaveAreaLUA("PF0328","",[2180.1335],2))
@@ -18,13 +18,13 @@ THEN
     ActionOverride(Player5,LeaveAreaLUA("PF0328","",[2211.1313],2))
     ActionOverride(Player6,LeaveAreaLUA("PF0328","",[2159.1292],2))
     Wait(6)
-    DisplayStringHead("ELWINMOD",@0)  // @0
+    DisplayStringHead("XGELWIN",@0)  // @0
     Wait(4)
     DisplayStringHead(Player1,@1)  // @1
     Wait(4)
-    DisplayStringHead("ELWINMOD",@2)  // @2
+    DisplayStringHead("XGELWIN",@2)  // @2
     Wait(4)
-    ForceSpell("ELWINMOD",DRYAD_TELEPORT)
+    ForceSpell("XGELWIN",DRYAD_TELEPORT)
     Wait(1)
     ActionOverride(Player1,LeaveAreaLUA("PF1053","",[993.316],6))
     ActionOverride(Player2,LeaveAreaLUA("PF1053","",[507.1049],8))

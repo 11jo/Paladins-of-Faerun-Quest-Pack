@@ -1,6 +1,6 @@
-BEGIN ~MARIAN~
+BEGIN ~XGMARAN~
 
-IF ~See(Player1) Global("s#MARIAN","GLOBAL",0)~ THEN BEGIN 0
+IF ~See(Player1) Global("s#XGMARAN","GLOBAL",0)~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
 END
@@ -13,25 +13,25 @@ END
 IF ~~ THEN BEGIN 2
   SAY @4
   IF ~~ THEN REPLY @5 GOTO 3
-  IF ~~ THEN REPLY @6 DO ~SetGlobal("s#MARIAN","GLOBAL",1)~ EXIT
+  IF ~~ THEN REPLY @6 DO ~SetGlobal("s#XGMARAN","GLOBAL",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN 3
   SAY @7
   IF ~~ THEN REPLY @8 DO ~RevealAreaOnMap("PF0064")
-SetGlobal("s#MARIAN","GLOBAL",2)~ 
+SetGlobal("s#XGMARAN","GLOBAL",2)~ 
 JOURNAL @9 EXIT
 END
 
-IF ~ Global("s#MARIAN","GLOBAL",1)~ THEN BEGIN 4
+IF ~ Global("s#XGMARAN","GLOBAL",1)~ THEN BEGIN 4
   SAY @10
   IF ~~ THEN REPLY @11 GOTO 2
   IF ~~ THEN REPLY @6 EXIT
 END
 
-IF ~Global("s#MARIAN","GLOBAL",2) PArtyHasItem("LETWMOD")~ THEN BEGIN 5
+IF ~Global("s#XGMARAN","GLOBAL",2) PArtyHasItem("LETWMOD")~ THEN BEGIN 5
   SAY @12
-  IF ~~ THEN REPLY @13 DO ~TakePartyItem("MARMOD")
+  IF ~~ THEN REPLY @13 DO ~TakePartyItem("XGMAR")
 TakePartyItem("LETWMOD")~ GOTO 6
 END
 
@@ -43,11 +43,11 @@ END
 IF ~~ THEN BEGIN 7
   SAY @16
   IF ~~ THEN DO ~EscapeArea()
-GiveItemCreate("WRGMOD",Player1,0,0,0)~ 
+GiveItemCreate("XGWRG",Player1,0,0,0)~ 
 UNSOLVED_JOURNAL @17 EXIT
 END
 
-IF ~Global("s#MARIAN","GLOBAL",2) !PArtyHasItem("LETWMOD")~ THEN BEGIN 8
+IF ~Global("s#XGMARAN","GLOBAL",2) !PArtyHasItem("LETWMOD")~ THEN BEGIN 8
   SAY @12
   IF ~~ THEN REPLY @18 EXIT
 END

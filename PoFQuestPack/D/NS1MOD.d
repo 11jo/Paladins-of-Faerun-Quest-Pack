@@ -1,9 +1,9 @@
-BEGIN ~NS1MOD~ 2
+BEGIN ~XGNS1~ 2
 
 IF ~True()
 ~ THEN BEGIN 0
   SAY @0
-  IF ~~ THEN REPLY @1 DO ~StartStore("NS1MOD",LastTalkedToBy())~ EXIT
+  IF ~~ THEN REPLY @1 DO ~StartStore("XGNS1",LastTalkedToBy())~ EXIT
   IF ~~ THEN REPLY @2 GOTO 1
 END
 

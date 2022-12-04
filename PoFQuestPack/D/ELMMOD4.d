@@ -1,4 +1,4 @@
-BEGIN ~ELMMOD4~
+BEGIN ~XGELM4~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1

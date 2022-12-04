@@ -29,7 +29,7 @@ END
 
 IF
   Global("Reveal0403","PF0403",0)
-  Dead("DEVILMOD")  // ~Гитиянки~
+  Dead("XGDEVIL")  // ~Гитиянки~
   PartyHasItem("DEVHMOD")  // ~Рука дьявола~
 THEN
   RESPONSE #100

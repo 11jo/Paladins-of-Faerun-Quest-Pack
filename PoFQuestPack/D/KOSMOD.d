@@ -1,4 +1,4 @@
-BEGIN ~KOSMOD~ 2
+BEGIN ~XGkos~ 2
 
 IF ~NumTimesTalkedto(0)~ THEN BEGIN 0
   SAY @1
@@ -8,7 +8,7 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @4
-  IF ~~ THEN DO ~StartStore("KOSMOD",LastTalkedToBy)
+  IF ~~ THEN DO ~StartStore("XGkos",LastTalkedToBy)
 SetNumTimesTalkedTo(0)
 ~ EXIT
 END

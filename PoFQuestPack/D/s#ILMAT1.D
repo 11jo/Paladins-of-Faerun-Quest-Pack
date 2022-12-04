@@ -1,4 +1,4 @@
-BEGIN ~s#ILMAT1~ 
+BEGIN ~s#ilmat1~ 
 
 IF ~True()~ THEN BEGIN 0
   SAY @0
@@ -8,7 +8,7 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @3
-  IF ~~ THEN DO ~StartStore("s#ILMAT1",LastTalkedToBy())~ EXIT
+  IF ~~ THEN DO ~StartStore("s#ilmat1",LastTalkedToBy())~ EXIT
 END
 
 IF ~~ THEN BEGIN 2

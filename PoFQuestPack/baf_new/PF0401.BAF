@@ -8,23 +8,23 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(3)
-    DisplayString("DWOD1MOD",@0)  
+    DisplayString("XGDWOD1",@0)  
     Wait(4)
-    DisplayString("DUER2MOD",@1)  
+    DisplayString("XGDUER2",@1)  
     Wait(4)
     DisplayString(Player1,@2)  
     Wait(4)
-    DisplayString("DWOD1MOD",@3)  
+    DisplayString("XGDWOD1",@3)  
     Wait(4)
-    ActionOverride("DWOD1MOD",Attack("DUER2MOD"))
+    ActionOverride("XGDWOD1",Attack("XGDUER2"))
     Wait(1)
-    ActionOverride("DUER2MOD",Attack("DWOD1MOD"))
+    ActionOverride("XGDUER2",Attack("XGDWOD1"))
     Wait(6)
-    ActionOverride("DUER2MOD",Kill("DWOD1MOD"))
+    ActionOverride("XGDUER2",Kill("XGDWOD1"))
     Wait(1)
-    DisplayString("DUER2MOD",@4)  
+    DisplayString("XGDUER2",@4)  
     Wait(4)
-    ActionOverride("DUER2MOD",EscapeArea())
+    ActionOverride("XGDUER2",EscapeArea())
     Wait(2)
     UnhideGUI()
     EndCutSceneMode()
@@ -33,8 +33,8 @@ END
 IF
   Global("Reveal0401","PF0401",0)
     OR(2) 
-    Dead("ELGMOD")  // ~έλόγεν~
-    Dead("ELG1MOD")  // ~έλόγεν~
+    Dead("XGELG")  // ~έλόγεν~
+    Dead("XGELG1")  // ~έλόγεν~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0401","PF0401",1)

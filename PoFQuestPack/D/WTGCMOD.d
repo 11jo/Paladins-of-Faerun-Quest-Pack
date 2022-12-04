@@ -1,4 +1,4 @@
-BEGIN ~WTGCMOD~
+BEGIN ~XGWTGC~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1

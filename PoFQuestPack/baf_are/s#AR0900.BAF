@@ -3,7 +3,7 @@ IF
   Global("S#setAR0900","AR0900",0)
 THEN
   RESPONSE #100
-    CreateCreature("SORMOD1",[4604.840],0)
+    CreateCreature("XGsor1",[4604.840],0)
     SetGlobal("S#setAR0900","AR0900",1)
     Continue()
 END

@@ -1,7 +1,7 @@
-BEGIN ~LOFLTMOD~
+BEGIN ~XGLOFLT~
 
 IF ~See(Player1)
-Global("s#LOFLTMOD","GLOBAL",0)~ THEN BEGIN 0
+Global("s#XGLOFLT","GLOBAL",0)~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
 END
@@ -23,7 +23,7 @@ ActionOverride(Player3,LeaveAreaLUA("PF0014","",[495.923],0))
 ActionOverride(Player4,LeaveAreaLUA("PF0014","",[439.955],0))
 ActionOverride(Player5,LeaveAreaLUA("PF0014","",[469.1022],0))
 ActionOverride(Player6,LeaveAreaLUA("PF0014","",[528.1016],0))
-SetGlobal("s#LOFLTMOD","GLOBAL",1)
+SetGlobal("s#XGLOFLT","GLOBAL",1)
 EscapeArea()~ 
 SOLVED_JOURNAL @7 EXIT
 END

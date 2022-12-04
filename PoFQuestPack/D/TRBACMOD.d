@@ -1,4 +1,4 @@
-BEGIN ~TRBACMOD~
+BEGIN ~XGTRBAC~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @0
@@ -8,5 +8,5 @@ END
 IF ~~ THEN BEGIN 1
   SAY @2
   IF ~~ THEN DO ~EscapeArea()
-StartDialogueNoSet("CLC1MOD")~ EXIT
+StartDialogueNoSet("XGclc1")~ EXIT
 END

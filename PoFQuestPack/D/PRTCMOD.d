@@ -1,4 +1,4 @@
-BEGIN ~PRTCMOD~
+BEGIN ~XGprtc~
 
 IF ~True()~ THEN BEGIN 0
   SAY @0

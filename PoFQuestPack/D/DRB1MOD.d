@@ -1,19 +1,19 @@
-BEGIN ~DRB1MOD~
+BEGIN ~XGdrb1~
 
-IF ~Global("s#DRB1MOD","GLOBAL",0)
-!Dead("DRE1MOD")
-!Dead("DRE2MOD")
-!Dead("DRE3MOD")
-!Dead("DRE4MOD")~ THEN BEGIN 0
+IF ~Global("s#XGdrb1","GLOBAL",0)
+!Dead("XGdre1")
+!Dead("XGdre2")
+!Dead("XGdre3")
+!Dead("XGdre4")~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 2
 END
 
 IF ~NumTimesTalkedTo(0)
-Dead("DRE1MOD")
-Dead("DRE2MOD")
-Dead("DRE3MOD")
-Dead("DRE4MOD")~ THEN BEGIN 1
+Dead("XGdre1")
+Dead("XGdre2")
+Dead("XGdre3")
+Dead("XGdre4")~ THEN BEGIN 1
   SAY @2
   IF ~~ THEN REPLY @3 GOTO 5
   IF ~~ THEN REPLY @4 GOTO 6
@@ -42,7 +42,7 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @12
-  IF ~~ THEN DO ~SetGlobal("s#DRB1MOD","GLOBAL",1)~ UNSOLVED_JOURNAL @13 EXIT
+  IF ~~ THEN DO ~SetGlobal("s#XGdrb1","GLOBAL",1)~ UNSOLVED_JOURNAL @13 EXIT
 END
 
 IF ~~ THEN BEGIN 6
@@ -51,14 +51,14 @@ IF ~~ THEN BEGIN 6
 ReputationInc(-1)~ SOLVED_JOURNAL @15 EXIT
 END
 
-IF ~Global("s#DRB1MOD","GLOBAL",1)
-Dead("DRGMOD")~ THEN BEGIN 7
+IF ~Global("s#XGdrb1","GLOBAL",1)
+Dead("XGdrg")~ THEN BEGIN 7
   SAY @16
   IF ~~ THEN REPLY @6 GOTO 3
 END
 
-IF ~Global("s#DRB1MOD","GLOBAL",1)
-!Dead("DRGMOD")~ THEN BEGIN 8
+IF ~Global("s#XGdrb1","GLOBAL",1)
+!Dead("XGdrg")~ THEN BEGIN 8
   SAY @17
   IF ~~ THEN EXIT
 END

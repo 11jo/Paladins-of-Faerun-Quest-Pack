@@ -1,4 +1,4 @@
-BEGIN ~GFALCON3~
+BEGIN ~XGFALC3~
 
 IF ~PartyHasItem("QI1MOD")
 PartyHasItem("QI2MOD")~ THEN BEGIN 0

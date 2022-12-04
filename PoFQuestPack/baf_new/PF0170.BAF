@@ -1,11 +1,11 @@
 IF
   Global("Reveal0170","PF0170",0)
-  Dead("HOB2AMOD")  // ~Ёлитный хобгоблин~
-  Dead("HOB2BMOD")  // ~Ёлитный хобгоблин~
+  Dead("XGHOB2A")  // ~Ёлитный хобгоблин~
+  Dead("XGHOB2B")  // ~Ёлитный хобгоблин~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0170","PF0170",1)
     Wait(1)
-    ActionOverride("NOBGMOD",StartDialogue("NOBGMOD",Player1))
+    ActionOverride("XGNOBG",StartDialogue("XGNOBG",Player1))
 END
 

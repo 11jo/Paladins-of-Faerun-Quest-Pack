@@ -1,8 +1,8 @@
-BEGIN ~BG1MOD~ 4
+BEGIN ~XGBG1~ 4
 
 IF ~True()~ THEN BEGIN 0
   SAY @1
-  IF ~~ THEN REPLY @2 DO ~StartStore("BG1MOD",LastTalkedToBy(Myself))
+  IF ~~ THEN REPLY @2 DO ~StartStore("XGBG1",LastTalkedToBy(Myself))
 ~ EXIT
   IF ~~ THEN REPLY @3 GOTO 1
 END

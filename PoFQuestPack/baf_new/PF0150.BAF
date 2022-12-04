@@ -1,6 +1,6 @@
 IF
   Global("Reveal0150","PF0150",0)
-  Dead("CRUMOD")  // ~Крэйвен~
+  Dead("XGCRU")  // ~Крэйвен~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0150","PF0150",1)
@@ -9,49 +9,49 @@ THEN
     HideGUI()
     Explore()
     Wait(2)
-    CreateCreature("BAN1AMOD",[2294.787],0)  // ~Разбойник, воин~
-    ActionOverride("BAN1AMOD",MoveToPoint([2085.972]))
+    CreateCreature("XGBAN1A",[2294.787],0)  // ~Разбойник, воин~
+    ActionOverride("XGBAN1A",MoveToPoint([2085.972]))
     Wait(2)
     ActionOverride(Player1,MoveToPoint([2029.1031]))
     Wait(2)
     MoveViewPoint([2099.980],INSTANT)
     Wait(1)
-    DisplayStringHead("BAN1AMOD",@0)  
+    DisplayStringHead("XGBAN1A",@0)  
     Wait(5)
     DisplayStringHead(Player1,@1)  
     Wait(5)
-    ActionOverride("BAN1AMOD",EscapeArea())
+    ActionOverride("XGBAN1A",EscapeArea())
     Wait(6)
-    CreateCreature("BAN1BMOD",[1658.707],0)  // ~Разбойник, воин~
-    CreateCreature("MAYWMOD",[1580.702],0)  // ~Алуатра~
-    CreateCreature("MAYBMOD",[1655.661],0)  // ~Мальчик~
-    ActionOverride("BAN1BMOD",MoveToPoint([1947.960]))
-    ActionOverride("MAYWMOD",MoveToPoint([1880.963]))
-    ActionOverride("MAYBMOD",MoveToPoint([1980.914]))
+    CreateCreature("XGBAN1B",[1658.707],0)  // ~Разбойник, воин~
+    CreateCreature("XGMAYW",[1580.702],0)  // ~Алуатра~
+    CreateCreature("XGMAYB",[1655.661],0)  // ~Мальчик~
+    ActionOverride("XGBAN1B",MoveToPoint([1947.960]))
+    ActionOverride("XGMAYW",MoveToPoint([1880.963]))
+    ActionOverride("XGMAYB",MoveToPoint([1980.914]))
     Wait(5)
-    CreateCreature("BLMAJMOD",[2421.925],0)  // ~Опас~
-    ActionOverride("BLMAJMOD",MoveToPoint([2127.1102]))
+    CreateCreature("XGBLMAJ",[2421.925],0)  // ~Опас~
+    ActionOverride("XGBLMAJ",MoveToPoint([2127.1102]))
     ActionOverride(Player1,Face(6))
     DisplayStringHead(Player1,@2)  
     Wait(5)
-    DisplayStringHead("BLMAJMOD",@3)  
+    DisplayStringHead("XGBLMAJ",@3)  
     Wait(4)
     AddexperienceParty(5000)
-    ActionOverride("BAN1BMOD",EscapeArea())
-    ActionOverride("MAYWMOD",EscapeArea())
-    ActionOverride("MAYBMOD",EscapeArea())
-    ActionOverride("BLMAJMOD",EscapeArea())
+    ActionOverride("XGBAN1B",EscapeArea())
+    ActionOverride("XGMAYW",EscapeArea())
+    ActionOverride("XGMAYB",EscapeArea())
+    ActionOverride("XGBLMAJ",EscapeArea())
     Wait(2)
-    CreateCreature("BAN1AMOD",[2294.787],0)  // ~Разбойник, воин~
-    ActionOverride("BAN1AMOD",MoveToPoint([2085.972]))
+    CreateCreature("XGBAN1A",[2294.787],0)  // ~Разбойник, воин~
+    ActionOverride("XGBAN1A",MoveToPoint([2085.972]))
     Wait(4)
     ActionOverride(Player1,Face(10))
     Wait(1)
-    DisplayStringHead("BAN1AMOD",@4)  
+    DisplayStringHead("XGBAN1A",@4)  
     Wait(7)
     DisplayStringHead(Player1,@5)  
     Wait(8)
-    DisplayStringHead("BAN1AMOD",@6)  
+    DisplayStringHead("XGBAN1A",@6)  
     Wait(8)
     EraseJournalEntry(@7)  
     EraseJournalEntry(@8)  
@@ -71,7 +71,7 @@ END
 
 IF
   Global("Reveal0150","PF0150",0)
-  Global("s#CRUMOD","GLOBAL",1)
+  Global("s#XGCRU","GLOBAL",1)
 THEN
   RESPONSE #100
     SetGlobal("Reveal0150","PF0150",1)
@@ -80,8 +80,8 @@ THEN
     HideGUI()
     Explore()
     Wait(2)
-    CreateCreature("BAN1AMOD",[2294.787],0)  // ~Разбойник, воин~
-    ActionOverride("BAN1AMOD",MoveToPoint([2085.972]))
+    CreateCreature("XGBAN1A",[2294.787],0)  // ~Разбойник, воин~
+    ActionOverride("XGBAN1A",MoveToPoint([2085.972]))
     Wait(2)
     ActionOverride(Player1,MoveToPoint([2029.1031]))
     Wait(2)
@@ -89,27 +89,27 @@ THEN
     Wait(1)
     DisplayStringHead(Player1,@1)  
     Wait(5)
-    ActionOverride("BAN1AMOD",EscapeArea())
+    ActionOverride("XGBAN1A",EscapeArea())
     Wait(6)
-    CreateCreature("BAN1BMOD",[1658.707],0)  // ~Разбойник, воин~
-    CreateCreature("MAYWMOD",[1580.702],0)  // ~Алуатра~
-    CreateCreature("MAYBMOD",[1655.661],0)  // ~Мальчик~
-    ActionOverride("BAN1BMOD",MoveToPoint([1947.960]))
-    ActionOverride("MAYWMOD",MoveToPoint([1880.963]))
-    ActionOverride("MAYBMOD",MoveToPoint([1980.914]))
+    CreateCreature("XGBAN1B",[1658.707],0)  // ~Разбойник, воин~
+    CreateCreature("XGMAYW",[1580.702],0)  // ~Алуатра~
+    CreateCreature("XGMAYB",[1655.661],0)  // ~Мальчик~
+    ActionOverride("XGBAN1B",MoveToPoint([1947.960]))
+    ActionOverride("XGMAYW",MoveToPoint([1880.963]))
+    ActionOverride("XGMAYB",MoveToPoint([1980.914]))
     Wait(5)
-    CreateCreature("BLMAJMOD",[2421.925],0)  // ~Опас~
-    ActionOverride("BLMAJMOD",MoveToPoint([2127.1102]))
+    CreateCreature("XGBLMAJ",[2421.925],0)  // ~Опас~
+    ActionOverride("XGBLMAJ",MoveToPoint([2127.1102]))
     ActionOverride(Player1,Face(6))
     DisplayStringHead(Player1,@2)  
     Wait(5)
-    DisplayStringHead("BLMAJMOD",@3)  
+    DisplayStringHead("XGBLMAJ",@3)  
     Wait(4)
     AddexperienceParty(5000)
-    ActionOverride("BAN1BMOD",EscapeArea())
-    ActionOverride("MAYWMOD",EscapeArea())
-    ActionOverride("MAYBMOD",EscapeArea())
-    ActionOverride("BLMAJMOD",EscapeArea())
+    ActionOverride("XGBAN1B",EscapeArea())
+    ActionOverride("XGMAYW",EscapeArea())
+    ActionOverride("XGMAYB",EscapeArea())
+    ActionOverride("XGBLMAJ",EscapeArea())
     Wait(2)
     EraseJournalEntry(@7)  
     EraseJournalEntry(@8)  

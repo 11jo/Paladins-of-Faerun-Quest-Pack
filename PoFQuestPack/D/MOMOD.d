@@ -1,4 +1,4 @@
-BEGIN ~MOMOD~
+BEGIN ~XGMO~
 
 IF ~  NumberOfTimesTalkedTo(0)
 ~ THEN BEGIN 0

@@ -1,4 +1,4 @@
-BEGIN ~s#SHOP01~
+BEGIN ~s#shop01~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @0
@@ -8,7 +8,7 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @3
-  IF ~~ THEN DO ~StartStore("s#SHOP01",LastTalkedToBy(Myself))~ EXIT
+  IF ~~ THEN DO ~StartStore("s#shop01",LastTalkedToBy(Myself))~ EXIT
 END
 
 IF ~~ THEN BEGIN 2

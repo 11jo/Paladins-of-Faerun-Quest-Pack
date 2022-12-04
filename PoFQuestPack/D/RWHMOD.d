@@ -1,4 +1,4 @@
-BEGIN ~RWHMOD~
+BEGIN ~XGRWH~
 
 IF ~See(Player1)
 NumTimesTAlkedTo(0)~ THEN BEGIN 0
@@ -9,8 +9,8 @@ END
 IF ~~ THEN BEGIN 1
   SAY @3
   IF ~~ THEN REPLY @4 DO ~Enemy()
-ActionOverride("RW2MOD",Enemy())
-ActionOverride("RW3MOD",Enemy())
+ActionOverride("XGRW2",Enemy())
+ActionOverride("XGRW3",Enemy())
 ~ EXIT
   IF ~~ THEN REPLY @5 GOTO 2
 END
@@ -24,8 +24,8 @@ IF ~~ THEN BEGIN 3
   SAY @8
   IF ~~ THEN REPLY @9 GOTO 4
   IF ~~ THEN REPLY @10 DO ~Enemy()
-ActionOverride("RW2MOD",Enemy())
-ActionOverride("RW3MOD",Enemy())
+ActionOverride("XGRW2",Enemy())
+ActionOverride("XGRW3",Enemy())
 ~ EXIT
 END
 
@@ -40,8 +40,8 @@ PartyGoldGT(4000)~ THEN BEGIN 5
   SAY @13
   IF ~~ THEN REPLY @14 GOTO 7
   IF ~~ THEN REPLY @15 DO ~Enemy()
-ActionOverride("RW2MOD",Enemy())
-ActionOverride("RW3MOD",Enemy())
+ActionOverride("XGRW2",Enemy())
+ActionOverride("XGRW3",Enemy())
 ~ EXIT
 END
 
@@ -50,8 +50,8 @@ IF ~NumTimesTalkedTo(1)
   SAY @13
   IF ~~ THEN REPLY @16 EXIT
   IF ~~ THEN REPLY @15 DO ~Enemy()
-ActionOverride("RW2MOD",Enemy())
-ActionOverride("RW3MOD",Enemy())
+ActionOverride("XGRW2",Enemy())
+ActionOverride("XGRW3",Enemy())
 ~ EXIT
 END
 

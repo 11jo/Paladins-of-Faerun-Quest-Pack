@@ -7,10 +7,10 @@ THEN
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
-    CreateCreature("ELMSMOD",[3180.800],11)  // ~Элминстер~
-    DisplayStringHead("ELMSMOD",@0)  
+    CreateCreature("XGelms",[3180.800],11)  // ~Элминстер~
+    DisplayStringHead("XGelms",@0)  
     Wait(6)
-    ActionOverride("ELMSMOD",ForceSpell("ELMSMOD",DRYAD_TELEPORT))
+    ActionOverride("XGelms",ForceSpell("XGelms",DRYAD_TELEPORT))
     UnhideGUI()
     EndCutSceneMode()
 END

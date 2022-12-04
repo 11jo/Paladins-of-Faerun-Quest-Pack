@@ -1,4 +1,4 @@
-BEGIN ~BARBAROS~
+BEGIN ~XGBAROS~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @0
@@ -13,6 +13,6 @@ END
 IF ~~ THEN BEGIN 2
   SAY @4
   IF ~~ THEN REPLY @5 DO ~EscapeArea()
-ActionOverride("BMTN1MOD",Enemy())
-ActionOverride("BMTN2MOD",Enemy())~ SOLVED_JOURNAL @6 EXIT
+ActionOverride("XGBMTN1",Enemy())
+ActionOverride("XGBMTN2",Enemy())~ SOLVED_JOURNAL @6 EXIT
 END

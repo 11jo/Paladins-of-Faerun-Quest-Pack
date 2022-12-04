@@ -9,14 +9,14 @@ THEN
     StartCutSceneMode()
     Explore()
     Wait(2)
-    CreateCreature("ELWINMOD",[904.521],0)  // ~Элвин~
+    CreateCreature("XGELWIN",[904.521],0)  // ~Элвин~
     OpenDoor("DOOR05")
     Wait(1)
-    ActionOverride("ELWINMOD",MoveToPoint([1144.498]))
+    ActionOverride("XGELWIN",MoveToPoint([1144.498]))
     Wait(4)
     OpenDoor("DOOR04")
     Wait(1)
-    DisplayString("ELWINMOD",@0)  // @0
+    DisplayString("XGELWIN",@0)  // @0
     Wait(4)
     DisplayString(Player1,@1)  // @1
     Wait(2)
@@ -25,9 +25,9 @@ THEN
     OpenDoor("DOOR11")
     OpenDoor("DOOR10")
     OpenDoor("SECRET03")
-    DisplayString("ELWINMOD",@2)  // @2
+    DisplayString("XGELWIN",@2)  // @2
     Wait(4)
-    ActionOverride("ELWINMOD",EscapeArea())
+    ActionOverride("XGELWIN",EscapeArea())
     EndCutSceneMode()
     Continue()
 END

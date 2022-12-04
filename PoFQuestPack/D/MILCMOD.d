@@ -1,4 +1,4 @@
-BEGIN ~MILCMOD~
+BEGIN ~XGMILC~
 
 IF ~NumTimesTalkeDto(0)~ THEN BEGIN 0
   SAY @1

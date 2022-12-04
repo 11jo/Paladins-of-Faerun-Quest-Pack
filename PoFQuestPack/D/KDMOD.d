@@ -1,8 +1,8 @@
-BEGIN ~KDMOD~
+BEGIN ~XGkd~
 
 IF ~NumTimesTalkedto(0)~ THEN BEGIN 0
   SAY @0
-  IF ~~ THEN REPLY @1 DO ~ActionOverride("KDMOD",escapearea())
+  IF ~~ THEN REPLY @1 DO ~ActionOverride("XGkd",escapearea())
 TakePartyitem("HQMOD")
 ActionOverride(Player2,LeaveAreaLUA("AR0300","",[1273.3131],0))
 ActionOverride(Player1,LeaveAreaLUA("AR0300","",[1337.3176],0))

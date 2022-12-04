@@ -2,14 +2,14 @@ IF
   OnCreation()
 THEN
   RESPONSE #100
-    CreateCreature("TRBA1MOD",[353.381],10)  // ~Опытный бандит~
-    CreateCreature("TRBA1MOD",[249.468],10)  // ~Опытный бандит~
-    CreateCreature("TRBA1MOD",[308.566],10)  // ~Опытный бандит~
-    CreateCreature("TRBA1MOD",[445.545],10)  // ~Опытный бандит~
-    CreateCreature("TRBA1MOD",[1339.447],10)  // ~Опытный бандит~
-    CreateCreature("TRBA1MOD",[1388.344],10)  // ~Опытный бандит~
-    CreateCreature("TRBA1MOD",[1368.207],10)  // ~Опытный бандит~
-    CreateCreature("TRBA1MOD",[1056.442],10)  // ~Опытный бандит~
-    CreateCreature("TRBA1MOD",[2303.222],10)  // ~Опытный бандит~
+    CreateCreature("XGtrba1",[353.381],10)  // ~Опытный бандит~
+    CreateCreature("XGtrba1",[249.468],10)  // ~Опытный бандит~
+    CreateCreature("XGtrba1",[308.566],10)  // ~Опытный бандит~
+    CreateCreature("XGtrba1",[445.545],10)  // ~Опытный бандит~
+    CreateCreature("XGtrba1",[1339.447],10)  // ~Опытный бандит~
+    CreateCreature("XGtrba1",[1388.344],10)  // ~Опытный бандит~
+    CreateCreature("XGtrba1",[1368.207],10)  // ~Опытный бандит~
+    CreateCreature("XGtrba1",[1056.442],10)  // ~Опытный бандит~
+    CreateCreature("XGtrba1",[2303.222],10)  // ~Опытный бандит~
 END
 

@@ -1,4 +1,4 @@
-BEGIN ~TWRMOD~
+BEGIN ~XGtwr~
 
 IF ~True()
 NumTimesTalkedTo(0)~ THEN BEGIN 0

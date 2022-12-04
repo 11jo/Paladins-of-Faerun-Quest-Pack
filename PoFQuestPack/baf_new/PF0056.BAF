@@ -10,14 +10,14 @@ THEN
     Explore()
     PlaySound("MUS3MOD")
     Wait(2)
-    DisplayStringHead("RW1MOD",@0)  // @0
+    DisplayStringHead("XGRW1",@0)  // @0
     Wait(4)
     DisplayStringHead(Player2,@1)  // @1
     Wait(4)
     DisplayStringHead(Player1,@2)  // @2
     Wait(4)
-    ActionOverride("RW1MOD",MoveToPoint([1053.932]))
-    ActionOverride("RW1MOD",Face(12))
+    ActionOverride("XGRW1",MoveToPoint([1053.932]))
+    ActionOverride("XGRW1",Face(12))
     ActionOverride(Player1,MoveToPoint([1230.870]))
     ActionOverride(Player2,MoveToPoint([1236.947]))
     ActionOverride(Player3,MoveToPoint([1242.1017]))
@@ -27,7 +27,7 @@ THEN
     Wait(8)
     MoveViewPoint([2010.2694],FAST)
     Wait(4)
-    DisplayStringHead("RW1MOD",@3)  // @3
+    DisplayStringHead("XGRW1",@3)  // @3
     Wait(2)
     UnhideGUI()
     EndCutSceneMode()

@@ -1,13 +1,13 @@
 IF
   Global("RevealPFKAR","PFKAR2",0)
-  Dead("PRTEMOD")  // ~Воинственный священник~
-  Dead("PRTE1MOD")  // ~Воинственный священник~
-  Dead("PRTE2MOD")  // ~Воинственный священник~
-  Dead("PRTE3MOD")  // ~Воинственный священник~
-  Dead("PRTE4MOD")  // ~Воинственный священник~
-  Dead("PRTE5MOD")  // ~Воинственный священник~
-  Dead("PRTE6MOD")  // ~Воинственный священник~
-  Dead("PRTE7MOD")  // ~Воинственный священник~
+  Dead("XGprte")  // ~Воинственный священник~
+  Dead("XGprte1")  // ~Воинственный священник~
+  Dead("XGprte2")  // ~Воинственный священник~
+  Dead("XGprte3")  // ~Воинственный священник~
+  Dead("XGprte4")  // ~Воинственный священник~
+  Dead("XGprte5")  // ~Воинственный священник~
+  Dead("XGprte6")  // ~Воинственный священник~
+  Dead("XGprte7")  // ~Воинственный священник~
 THEN
   RESPONSE #100
     SetGlobal("RevealPFKAR","PFKAR2",1)
@@ -18,11 +18,11 @@ THEN
     Wait(2)
     MoveViewPoint([422.401],SLOW)
     ActionOverride(Player2,MoveToPoint([581.312]))
-    CreateCreature("PRTEMOD",[422.401],0)  // ~Воинственный священник~
+    CreateCreature("XGprte",[422.401],0)  // ~Воинственный священник~
     Wait(12)
-    ActionOverride(Player2,Attack("PRTEMOD"))
+    ActionOverride(Player2,Attack("XGprte"))
     Wait(2)
-    ActionOverride(Player2,Kill("PRTEMOD"))
+    ActionOverride(Player2,Kill("XGprte"))
     Wait(1)
     DisplayStringHead(Player2,@1)  
     Wait(5)

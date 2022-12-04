@@ -9,34 +9,34 @@ THEN
     HideGUI()
     PlaySound("NWN2")
     Wait(2)
-    CreateCreature("NWNCNMOD",[1249.999],4)  // ~Капитан Нивалл~
+    CreateCreature("XGNWNCN",[1249.999],4)  // ~Капитан Нивалл~
     Wait(1)
     ActionOverride(Player1,MoveToPoint([1169.997]))
     Wait(3)
     MoveViewPoint([1169.997],SLOW)
     Wait(2)
-    DisplayString("NWNCNMOD",@0)  // @0
+    DisplayString("XGNWNCN",@0)  // @0
     Wait(6)
     DisplayString(Player1,@1)  // @1
     Wait(6)
-    DisplayString("NWNCNMOD",@2)  // @2
+    DisplayString("XGNWNCN",@2)  // @2
     Wait(6)
     DisplayString(Player1,@3)  // @3
     Wait(6)
-    DisplayString("NWNCNMOD",@4)  // @4
+    DisplayString("XGNWNCN",@4)  // @4
     Wait(9)
     Wait(2)
     DisplayString(Player1,@5)  // @5
     Wait(9)
     Wait(2)
-    DisplayString("NWNCNMOD",@6)  // @6
+    DisplayString("XGNWNCN",@6)  // @6
     Wait(10)
     Wait(2)
     DisplayString(Player1,@7)  // @7
     Wait(4)
-    CreateCreature("Taormod",[1161.267],0)  // ~Таораг~
-    CreateCreature("OTIRMOD",[2109.1226],0)  // ~Отирос~
-    CreateCreature("ELLANMOD",[852.2123],0)  // ~Элланнан~
+    CreateCreature("XGTAOR",[1161.267],0)  // ~Таораг~
+    CreateCreature("XGOTIR",[2109.1226],0)  // ~Отирос~
+    CreateCreature("XGELLAN",[852.2123],0)  // ~Элланнан~
     ClearAllActions()
     Wait(4)
     UnhideGUI()
@@ -45,9 +45,9 @@ END
 
 IF
   Global("RevealArea","PF0057",1)
-  Dead("TAORMOD")  // ~Таораг~
-  Dead("OTIRMOD")  // ~Отирос~
-  Dead("ELLANMOD")  // ~Элланнан~
+  Dead("XGTAOR")  // ~Таораг~
+  Dead("XGOTIR")  // ~Отирос~
+  Dead("XGELLAN")  // ~Элланнан~
 THEN
   RESPONSE #100
     SetGlobal("RevealArea","PF0057",2)
@@ -58,11 +58,11 @@ THEN
     FadeToColor([20.0],0)
     ActionOverride(Player1,LeaveAreaLUA("PF0057","",[1169.997],12))
     Wait(6)
-    DisplayString("NWNCNMOD",@8)  // @8
+    DisplayString("XGNWNCN",@8)  // @8
     Wait(8)
-    DisplayString("NWNCNMOD",@9)  // @9
+    DisplayString("XGNWNCN",@9)  // @9
     Wait(8)
-    DisplayString("NWNCNMOD",@10)  // @10
+    DisplayString("XGNWNCN",@10)  // @10
     Wait(8)
     ActionOverride(Player1,LeaveAreaLUA("PF1057","",[1019.1212],10))
     ActionOverride(Player2,LeaveAreaLUA("PF1057","",[411.1440],12))
