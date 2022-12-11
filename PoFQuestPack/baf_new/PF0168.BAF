@@ -24,7 +24,7 @@ END
 
 IF
   Global("Reveal0168","PF0168",0)
-  PartyHasItem("LETAMOD")  // ~Письмо~
+  PartyHasItem("XGleta")  // ~Письмо~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0168","PF0168",1)
@@ -36,7 +36,7 @@ THEN
     Wait(5)
     CreateCreature("XGkd1",[981.347],0)  // ~Дочь короля~
     Wait(8)
-    TakePartyItem("LETAMOD")
+    TakePartyItem("XGleta")
     DisplayStringHead("XGATKI",@1)  
     Wait(5)
     GiveItemCreate("MISC07",Player1,5000,0,0)  // ~Золотой~

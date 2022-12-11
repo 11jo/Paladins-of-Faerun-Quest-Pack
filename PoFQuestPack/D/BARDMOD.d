@@ -18,13 +18,13 @@ UNSOLVED_JOURNAL @8 EXIT
 END
 
 IF ~NumTimesTalkedTo(1)
-    !PartyHasItem("BHARFMOD")~ THEN BEGIN 3
+    !PartyHasItem("XGBHARF")~ THEN BEGIN 3
   SAY @9
   IF ~~ THEN REPLY @10 EXIT
 END
 
 IF ~NumTimesTalkedTo(1)
-    PartyHasItem("BHARFMOD")~ THEN BEGIN 4
+    PartyHasItem("XGBHARF")~ THEN BEGIN 4
   SAY @9
   IF ~~ THEN REPLY @11 GOTO 5
 END

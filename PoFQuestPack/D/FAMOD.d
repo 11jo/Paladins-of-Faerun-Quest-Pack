@@ -28,7 +28,7 @@ IF ~Global("s#XGfa","GLOBAL",1)~ THEN BEGIN 4
 END
 
 IF ~Global("s#XGfa","GLOBAL",2)
-!PartyHasItem("SPBMOD")~ THEN BEGIN 5
+!PartyHasItem("XGspb")~ THEN BEGIN 5
   SAY @12
   IF ~~ THEN REPLY @13 EXIT
   IF ~~ THEN REPLY @14 DO ~ReputationInc(-2)
@@ -36,9 +36,9 @@ EscapeArea()~ SOLVED_JOURNAL @15 EXIT
 END
 
 IF ~Global("s#XGfa","GLOBAL",2)
-PartyHasItem("SPBMOD")~ THEN BEGIN 6
+PartyHasItem("XGspb")~ THEN BEGIN 6
   SAY @12
-  IF ~~ THEN REPLY @16 DO ~TakePartyItem("SPBMOD")
+  IF ~~ THEN REPLY @16 DO ~TakePartyItem("XGspb")
 AddExperienceParty(5000)
 EraseJournalEntry(@8)
 EscapeArea()~ SOLVED_JOURNAL @17 EXIT

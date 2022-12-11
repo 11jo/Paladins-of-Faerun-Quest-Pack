@@ -47,13 +47,13 @@ IF ~~ THEN BEGIN 8
 END
 
 IF ~!Dead("Marko")
-!PartyHasItem("letermod")~ THEN BEGIN 9
+!PartyHasItem("XGLETER")~ THEN BEGIN 9
   SAY @18
   IF ~~ THEN EXIT
 END
 
 IF ~!Dead("Marko")
-PartyHasItem("letermod")~ THEN BEGIN 10
+PartyHasItem("XGLETER")~ THEN BEGIN 10
   SAY @19
   IF ~~ THEN REPLY @20 GOTO 11
 END

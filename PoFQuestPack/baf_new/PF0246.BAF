@@ -1,7 +1,7 @@
 IF
   OnCreation()
   Global("EnteredAreaPF0246","PF0246",0)
-  PartyHasItem("MNEK1MOD")  // ~ќжерелье вампира~
+  PartyHasItem("XGMNEK1")  // ~ќжерелье вампира~
 THEN
   RESPONSE #100
     SetGlobal("EnteredAreaPF0246","PF0246",1)

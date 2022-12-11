@@ -1,6 +1,6 @@
 IF
   Global("Reveal0047","PF0047",0)
-  PartyHasItem("DBOOKMOD")  // ~Книга Торма~
+  PartyHasItem("XGDBOOK")  // ~Книга Торма~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0047","PF0047",1)
@@ -20,12 +20,12 @@ THEN
     Wait(10)
     DisplayStringHead("XGprt",@4)  
     Wait(20)
-    GiveItemCreate("HAM3",Player1,0,0,0)  // ~Neusinajici kladivo~
+    GiveItemCreate("XGHAM3",Player1,0,0,0)  // ~Neusinajici kladivo~
     DisplayStringHead(Player1,@5)  
     Wait(10)
     DisplayStringHead("XGprt",@6)  
     Wait(5)
-    TakePartyItem("DBOOKMOD")
+    TakePartyItem("XGDBOOK")
     SetQuestDone(@7)  
     EraseJournalEntry(@8)  
     EraseJournalEntry(@9)  

@@ -33,7 +33,7 @@ END
 IF ~~ THEN BEGIN 6
   SAY @10
   IF ~~ THEN REPLY @11 DO ~SetNumTimesTalkedTo(1)~ UNSOLVED_JOURNAL @12 EXIT
-  IF ~~ THEN REPLY @13 DO ~GiveItemCreate("MISCMOD",Player1,0,0,0)
+  IF ~~ THEN REPLY @13 DO ~GiveItemCreate("XGMISC",Player1,0,0,0)
 ActionOverride(Player2,LeaveAreaLUA("PF0053","",[2300.2250],0))
 ActionOverride(Player1,LeaveAreaLUA("PF0053","",[1824.1854],0))
 ActionOverride(Player3,LeaveAreaLUA("PF0053","",[2250.2350],0))
@@ -44,7 +44,7 @@ END
 
 IF ~NumTimesTalkedTo(1)~ THEN BEGIN 7
   SAY @14
-  IF ~~ THEN REPLY @13 DO ~GiveItemCreate("MISCMOD",Player1,0,0,0)
+  IF ~~ THEN REPLY @13 DO ~GiveItemCreate("XGMISC",Player1,0,0,0)
 ActionOverride(Player2,LeaveAreaLUA("PF0053","",[2300.2250],0))
 ActionOverride(Player1,LeaveAreaLUA("PF0053","",[1824.1854],0))
 ActionOverride(Player3,LeaveAreaLUA("PF0053","",[2250.2350],0))

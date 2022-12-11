@@ -20,7 +20,7 @@ END
 IF ~~ THEN BEGIN 3
   SAY @6
   IF ~~ THEN REPLY @7 DO ~ReputationInc(-1)
-GiveItemCreate("SWORD20",Player1,0,0,0)
+GiveItemCreate("XGSWO20",Player1,0,0,0)
 ~ EXIT
   IF ~~ THEN REPLY @8 DO ~Enemy()
 ~ EXIT

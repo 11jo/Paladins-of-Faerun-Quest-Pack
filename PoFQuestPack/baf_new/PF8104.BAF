@@ -1,6 +1,6 @@
 IF
   Global("Reveal8104","PF8104",0)
-  PartyHasItem("LETHSMOD")  // ~Поручение~
+  PartyHasItem("XGleths")  // ~Поручение~
 THEN
   RESPONSE #100
     SetGlobal("Reveal8104","PF8104",1)
@@ -20,7 +20,7 @@ THEN
     CreateCreature("XGptec",[1259.3067],8)  // ~Воинственный священник~
     Wait(5)
     UnhideGUI()
-    TakePartyItem("LETHSMOD")
+    TakePartyItem("XGleths")
     EndCutSceneMode()
 END
 

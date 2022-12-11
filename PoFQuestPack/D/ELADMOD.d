@@ -42,6 +42,6 @@ END
 
 IF ~~ THEN BEGIN 7
   SAY @15
-  IF ~~ THEN REPLY @17 DO ~GiveItemCreate("SWORD09",Player1,0,0,0)
+  IF ~~ THEN REPLY @17 DO ~GiveItemCreate("XGSWOR9",Player1,0,0,0)
 EscapeArea()~ SOLVED_JOURNAL @16 EXIT
 END

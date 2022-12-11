@@ -3,7 +3,7 @@ BEGIN ~XGtwr~
 IF ~True()
 NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @0
-  IF ~~ THEN REPLY @1 DO ~GiveItemCreate("PLET1MOD",Player1,0,0,0)~ EXIT
+  IF ~~ THEN REPLY @1 DO ~GiveItemCreate("XGplet1",Player1,0,0,0)~ EXIT
   IF ~~ THEN REPLY @2 DO ~ActionOverride(Player2,LeaveAreaLUA("PF0177","",[1845.1244],0))
 ActionOverride(Player1,LeaveAreaLUA("PF0177","",[1872.1278],0))
 ActionOverride(Player3,LeaveAreaLUA("PF0177","",[1914.1248],0))

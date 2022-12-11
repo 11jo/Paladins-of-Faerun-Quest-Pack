@@ -23,7 +23,7 @@ END
 
 IF ~!NumTimesTalkedTo(0) Dead("XGELG")~ THEN BEGIN 3
   SAY @8
-  IF ~~ THEN REPLY @9 DO ~GiveItemCreate("CCLUB01",Player1,0,0,0)
-GiveItemCreate("PLAT5",Player1,0,0,0)~ 
+  IF ~~ THEN REPLY @9 DO ~GiveItemCreate("XGCLUB1",Player1,0,0,0)
+GiveItemCreate("XGPLAT5",Player1,0,0,0)~ 
 SOLVED_JOURNAL @10 EXIT
 END

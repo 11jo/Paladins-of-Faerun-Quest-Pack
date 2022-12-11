@@ -1,6 +1,6 @@
 IF
   Global("RevealArea0328","PF0328",0)
-  PartyHasItem("QI3MOD")  // ~Магическая реликвия~
+  PartyHasItem("XGQI3")  // ~Магическая реликвия~
 THEN
   RESPONSE #100
     SetGlobal("RevealArea0328","PF0328",1)

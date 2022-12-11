@@ -48,9 +48,9 @@ END
 
 IF
   Global("Reveal0063","PF0063",0)
-  PartyHasItem("GD1MOD")  // ~Золото и драгоценности~
-  PartyHasItem("GD2MOD")  // ~Золото и драгоценности~
-  PartyHasItem("GD3MOD")  // ~Золото и драгоценности~
+  PartyHasItem("XGGD1")  // ~Золото и драгоценности~
+  PartyHasItem("XGGD2")  // ~Золото и драгоценности~
+  PartyHasItem("XGGD3")  // ~Золото и драгоценности~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0063","PF0063",1)

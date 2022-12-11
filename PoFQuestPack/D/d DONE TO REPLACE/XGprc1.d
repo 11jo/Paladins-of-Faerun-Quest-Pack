@@ -1,4 +1,4 @@
-BEGIN ~PRC1MOD~
+BEGIN ~XGprc1~
 
 IF ~True()~ THEN BEGIN 0
   SAY @0
@@ -9,7 +9,7 @@ END
 IF ~~ THEN BEGIN 1
   SAY @3
   IF ~~ THEN DO ~FadeToColor([5.0],0)
-TakePartyItem("ARTK1MOD")
+TakePartyItem("XGartk1")
 Wait(2)
 CreateCreature("XGPR",[828.1472],10)
 CreateCreature("XGPR",[757.1123],0)
@@ -22,7 +22,7 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @5
-  IF ~~ THEN DO ~TakePartyItem("ARTK1MOD")
+  IF ~~ THEN DO ~TakePartyItem("XGartk1")
 StartCutScene("BATMOD")
 EscapeArea()~ EXIT
 END

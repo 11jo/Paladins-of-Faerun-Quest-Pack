@@ -17,10 +17,10 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @7
-  IF ~~ THEN REPLY @9 DO ~GiveItemCreate("LWLETMOD",Player1,0,0,0)
+  IF ~~ THEN REPLY @9 DO ~GiveItemCreate("XGLWLET",Player1,0,0,0)
 ReputationInc(1)
 ~ UNSOLVED_JOURNAL @8 EXIT
   IF ~~ THEN REPLY @10 DO ~GivePartyGold(5000)
-GiveItemCreate("LWLETMOD",Player1,0,0,0)
+GiveItemCreate("XGLWLET",Player1,0,0,0)
 ~ UNSOLVED_JOURNAL @8 EXIT
 END

@@ -15,25 +15,25 @@ EraseJournalEntry(@6)
 END
 
 IF ~Global("XGLETGC","GLOBAL",1)
-PartyHasItem("GD1MOD")
-PartyHasItem("GD3MOD")
-PartyHasItem("GD2MOD")~ THEN BEGIN 2
+PartyHasItem("XGGD1")
+PartyHasItem("XGGD3")
+PartyHasItem("XGGD2")~ THEN BEGIN 2
   SAY @8
   IF ~~ THEN DO ~GiveItemCreate("MISC07",Player1,4000,0,0)
 EraseJournalEntry(@5)
 AddexperienceParty(5000)
 SetGlobal("XGLETGC","GLOBAL",2)
-TakePartyItem("GD1MOD")
-TakePartyItem("GD2MOD")
-TakePartyItem("GD3MOD")
+TakePartyItem("XGGD1")
+TakePartyItem("XGGD2")
+TakePartyItem("XGGD3")
 ~ UNSOLVED_JOURNAL @9 EXIT
 END
 
 IF ~Global("XGLETGC","GLOBAL",1)
 OR(3)
-!PartyHasItem("GD1MOD")
-!PartyHasItem("GD3MOD")
-!PartyHasItem("GD2MOD")
+!PartyHasItem("XGGD1")
+!PartyHasItem("XGGD3")
+!PartyHasItem("XGGD2")
 ~ THEN BEGIN 3
   SAY @10
   IF ~~ THEN EXIT

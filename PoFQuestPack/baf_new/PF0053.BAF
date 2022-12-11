@@ -1,6 +1,6 @@
 IF
   OnCreation()
-  PartyHasItem("MISCMOD")  // ~Назначение~
+  PartyHasItem("XGMISC")  // ~Назначение~
 THEN
   RESPONSE #100
     ClearAllActions()
@@ -69,7 +69,7 @@ THEN
     CreateCreature("XGYARPW",[2116.1816],2)  
     CreateCreature("XGYARPW",[2200.1800],2)
     Wait(1)
-    TakePartyItem("MISCMOD")
+    TakePartyItem("XGMISC")
     Wait(1)
     UnhideGUI()
     EndCutSceneMode()

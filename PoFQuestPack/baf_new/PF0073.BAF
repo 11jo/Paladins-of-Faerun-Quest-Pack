@@ -30,7 +30,7 @@ THEN
   RESPONSE #100
     SetGlobal("Reveal0073","PF0073",1)
     Wait(2)
-    GiveItemCreate("ARTKMOD",Player1,0,0,0)  // ~Артефакт~
+    GiveItemCreate("XGARTK",Player1,0,0,0)  // ~Артефакт~
     GiveItemCreate("MISC07",Player1,10000,0,0)  // ~Золотой~
     AddJournalEntry(@4,QUEST)
 END

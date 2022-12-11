@@ -27,10 +27,10 @@ SetGlobal("s#XGTRAEK","GLOBAL",1)~ UNSOLVED_JOURNAL @10 EXIT
   IF ~~ THEN REPLY @11 DO ~SetGlobal("s#XGTRAEK","GLOBAL",2)~ EXIT
 END
 
-IF ~PartyHasItem("SAKMOD")~ THEN BEGIN 5
+IF ~PartyHasItem("XGSAK")~ THEN BEGIN 5
   SAY @12
   IF ~~ THEN REPLY @13 DO ~EraseJournalEntry(@10)
-TakePartyItem("SAKMOD")
+TakePartyItem("XGSAK")
 AddXPObject(Player1,4500)
 AddXPObject(Player2,4500)
 AddXPObject(Player3,4500)

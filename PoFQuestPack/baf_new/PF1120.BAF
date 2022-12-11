@@ -8,8 +8,8 @@ THEN
     DisplayString(Player1,@0)  // @0
     StartCutSceneMode()
     HideGUI()
-    GiveItemCreate("KAT01",Player1,0,0,0)  // ~Zbran temnoty~
-    GiveItemCreate("ZAT5MOD",Player1,0,0,0)  // ~Ордер на арест~
+    GiveItemCreate("XGKAT01",Player1,0,0,0)  // ~Zbran temnoty~
+    GiveItemCreate("XGZAT5",Player1,0,0,0)  // ~Ордер на арест~
     ClearAllActions()
     DisplayStringHead("XGARTBG",@1)  // @1
     Wait(5)

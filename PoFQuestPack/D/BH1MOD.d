@@ -24,7 +24,7 @@ END
 
 IF ~~ THEN BEGIN 4
   SAY @11
-  IF ~~ THEN REPLY @12 DO ~GiveItemCreate("ARTKMOD",Player1,0,0,0)
+  IF ~~ THEN REPLY @12 DO ~GiveItemCreate("XGARTK",Player1,0,0,0)
 ActionOverride(Player2,LeaveAreaLUA("AR2000","",[3979.2796],2))
 ActionOverride(Player1,LeaveAreaLUA("AR2000","",[4019.2743],2))
 ActionOverride(Player3,LeaveAreaLUA("AR2000","",[4099.2802],2))

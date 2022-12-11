@@ -99,11 +99,11 @@ THEN
     Wait(10)
     SetQuestDone(@13)  // @13
     ReputationInc(2)
-    GiveItemCreate("SUD07",Player1,0,0,0)  // ~Vyvazena sudlice~
-    GiveItemCreate("GLAVE05",Player1,0,0,0)  // ~Меч героев~
-    GiveItemCreate("TRID07",Player1,0,0,0)  // ~Trojzubec krale Welsiona~
-    GiveItemCreate("STAR07",Player1,0,0,0)  // ~Шестичленная морская звезда~
-    GiveItemCreate("FALCH06",Player1,0,0,0)  // ~Тегродан~
+    GiveItemCreate("XGSUD07",Player1,0,0,0)  // ~Vyvazena sudlice~
+    GiveItemCreate("XGGLAV5",Player1,0,0,0)  // ~Меч героев~
+    GiveItemCreate("XGTRI7",Player1,0,0,0)  // ~Trojzubec krale Welsiona~
+    GiveItemCreate("XGSTAR7",Player1,0,0,0)  // ~Шестичленная морская звезда~
+    GiveItemCreate("XGFALH6",Player1,0,0,0)  // ~Тегродан~
     AddexperienceParty(21250)
     UnhideGUI()
     Wait(4)

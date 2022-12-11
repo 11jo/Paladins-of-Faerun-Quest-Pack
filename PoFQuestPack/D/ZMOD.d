@@ -30,11 +30,11 @@ END
 IF ~~ THEN BEGIN 5
   SAY @11
   IF ~~ THEN DO ~TakePartyGold(2000)
-GiveItemCreate("PK1MOD",Player1,0,0,0)
-GiveItemCreate("PK2MOD",Player1,0,0,0)
-GiveItemCreate("PK3MOD",Player1,0,0,0)
-GiveItemCreate("PK4MOD",Player1,0,0,0)
-GiveItemCreate("PK5MOD",Player1,0,0,0)
+GiveItemCreate("XGpk1",Player1,0,0,0)
+GiveItemCreate("XGpk2",Player1,0,0,0)
+GiveItemCreate("XGpk3",Player1,0,0,0)
+GiveItemCreate("XGpk4",Player1,0,0,0)
+GiveItemCreate("XGpk5",Player1,0,0,0)
 SetGlobal("s#XGz","GLOBAL",2)~ EXIT
 END
 
@@ -45,20 +45,20 @@ PartyGoldGT(2000)~ THEN BEGIN 6
 END
 
 IF ~Global("s#XGz","GLOBAL",2)
-!PartyHasItem("PLETMOD")~ THEN BEGIN 7
+!PartyHasItem("XGplet")~ THEN BEGIN 7
   SAY @13
   IF ~~ THEN EXIT
 END
 
 IF ~Global("s#XGz","GLOBAL",2)
-PartyHasItem("PLETMOD")~ THEN BEGIN 8
+PartyHasItem("XGplet")~ THEN BEGIN 8
   SAY @14
   IF ~~ THEN REPLY @15 GOTO 9
 END
 
 IF ~~ THEN BEGIN 9
   SAY @16
-  IF ~~ THEN DO ~GiveItemCreate("PKCMOD",Player1,0,0,0)
+  IF ~~ THEN DO ~GiveItemCreate("XGpkc",Player1,0,0,0)
 CloseDoor("DOOR01")
 CloseDoor("DOOR02")
 CloseDoor("DOOR03")

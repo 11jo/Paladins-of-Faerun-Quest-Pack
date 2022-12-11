@@ -17,7 +17,7 @@ THEN
     Wait(20)
     DisplayStringHead("XGgms",@4) 
     Wait(4)
-    GiveItemCreate("IQQMOD",Player1,0,0,0)  // ~Артефакт~
+    GiveItemCreate("XGiqq",Player1,0,0,0)  // ~Артефакт~
     ActionOverride(Player2,LeaveAreaLUA("PF0580","",[310.1527],0))
     ActionOverride(Player1,LeaveAreaLUA("PF0580","",[247.1501],0))
     ActionOverride(Player3,LeaveAreaLUA("PF0580","",[376.1474],0))

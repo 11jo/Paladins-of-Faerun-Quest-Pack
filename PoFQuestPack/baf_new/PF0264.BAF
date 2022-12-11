@@ -10,7 +10,7 @@ THEN
     HideGUI()
     DisplayStringHead(Player1,@0) 
     Wait(4)
-    GiveItemCreate("LETWMOD",Player1,0,0,0)  // ~Клочок бумаги~
+    GiveItemCreate("XGLETW",Player1,0,0,0)  // ~Клочок бумаги~
     MoveViewPoint([370.388],SLOW)
     ActionOverride("XGWW",MoveToPoint([398.389]))
     ActionOverride(Player1,MoveToPoint([341.369]))

@@ -10,18 +10,18 @@ END
 
 IF
   Global("Reveal0020","AR0020",0)
-  Dead("XGLOFLT")  // ~Лидер бродячих кинжалов~
+  Dead("XGLOFLT")  // ~Лидер бродячих кинжалов~ Leader of Vagrant Daggers
 THEN
   RESPONSE #100
     SetGlobal("Reveal0020","AR0020",1)
     StartCutSceneMode()
     ClearAllActions()
-    CreateCreature("XGSHTA",[834.473],8)  // ~Теневой Вор~
+    CreateCreature("XGSHTA",[834.473],8)  // ~Теневой Вор~ // Voleur de l'ombre // Shadow Thief
     Wait(1)
     DisplayStringHead("XGSHTA",@0)  // @0
     Wait(5)
-    GiveItemCreate("CBOW03",Player1,0,0,0)  // ~Bleskova kuse~
-    GiveItemCreate("HAL01",Player1,0,0,0)  // ~Kamenna Halapartna~
+    GiveItemCreate("XGCBOW3",Player1,0,0,0)  // ~Bleskova kuse~ // Crossbow of Discharge
+    GiveItemCreate("XGHAL01",Player1,0,0,0)  // ~Kamenna Halapartna~ // Stone Halberd
     Wait(2)
     ActionOverride("XGSHTA",EscapeArea())
     EndCutSceneMode()
@@ -30,13 +30,13 @@ END
 
 IF
   Global("DEADW","AR0020",0)
-  Dead("XGprac")  // ~Верховный священник Цирика~
+  Dead("XGprac")  // ~Верховный священник Цирика~ // Grand pretre de Cyric // High priest of Cyric
 THEN
   RESPONSE #100
     SetGlobal("DEADW","AR0020",1)
     StartCutSceneMode()
     ClearAllActions()
-    CreateCreature("XGprtcq",[834.473],8)  // ~Верховный священник Торма~
+    CreateCreature("XGprtcq",[834.473],8)  // ~Верховный священник Торма~ // Grand pretre de Torm // High priest of Torm
     Wait(1)
     DisplayStringHead("XGprtcq",@1)  // @1
     Wait(5)
@@ -50,13 +50,13 @@ END
 
 IF
   Global("DEADE","AR0020",0)
-  Dead("XGptec")  // ~Воинственный священник~
+  Dead("XGptec")  // ~Воинственный священник~ //Pretre combattant
 THEN
   RESPONSE #100
     SetGlobal("DEADE","AR0020",1)
     StartCutSceneMode()
     ClearAllActions()
-    CreateCreature("XGclc3",[834.473],8)  // ~Верховный священник Цирика~
+    CreateCreature("XGclc3",[834.473],8)  // ~Верховный священник Цирика~ // Grand pretre de Cyric // High priest of Cyric
     Wait(1)
     DisplayStringHead("XGclc3",@1)  // @1
     Wait(5)

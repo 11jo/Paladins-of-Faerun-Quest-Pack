@@ -2,7 +2,7 @@ BEGIN ~XGclc2~
 
 IF ~See(Player1) Global("s#XGclc2","GLOBAL",0)~ THEN BEGIN 0
   SAY @0
-  IF ~~ THEN DO ~GiveItemCreate("HAM3",Player1,0,0,0)
+  IF ~~ THEN DO ~GiveItemCreate("XGHAM3",Player1,0,0,0)
 SetGlobal("s#XGclc2","GLOBAL",1)
 ReputationInc(-1)
 AddExperienceParty(4000)~ UNSOLVED_JOURNAL @1 EXIT
@@ -59,7 +59,7 @@ END
 
 IF ~~ THEN BEGIN 8
   SAY @18
-  IF ~~ THEN REPLY @19 DO ~GiveItemCreate("LETHSMOD",Player1,0,0,0)
+  IF ~~ THEN REPLY @19 DO ~GiveItemCreate("XGleths",Player1,0,0,0)
 SetGlobal("s#XGclc2","GLOBAL",3)~ UNSOLVED_JOURNAL @20 EXIT
 END
 

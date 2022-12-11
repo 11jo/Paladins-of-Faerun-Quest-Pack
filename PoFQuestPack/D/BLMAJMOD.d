@@ -42,13 +42,13 @@ ActionOverride(Player6,LeaveAreaLUA("PF0420","",[614.435],8))~ UNSOLVED_JOURNAL 
 END
 
 IF ~Global("s#XGBLMAJ","GLOBAL",1)
-PartyHasItem("mrbomod")~ THEN BEGIN 7
+PartyHasItem("XGMRBO")~ THEN BEGIN 7
   SAY @15
   IF ~~ THEN REPLY @16 DO ~SetGlobal("s#XGBLMAJ","GLOBAL",2)~ GOTO 9
 END
 
 IF ~Global("s#XGBLMAJ","GLOBAL",1)
-!PartyHasItem("mrbomod")~ THEN BEGIN 8
+!PartyHasItem("XGMRBO")~ THEN BEGIN 8
   SAY @17
   IF ~~ THEN EXIT
 END
@@ -67,8 +67,8 @@ END
 IF ~~ THEN BEGIN 11
   SAY @23
   IF ~~ THEN REPLY @24 DO ~SetGlobal("s#XGBLMAJ","GLOBAL",3)
-GiveItemCreate("BGSDMOD",Player1,0,0,0)
-TakePartyItem("mrbomod")
+GiveItemCreate("XGBGSD",Player1,0,0,0)
+TakePartyItem("XGMRBO")
 GiveItemCreate("MISC07",Player1,5000,0,0)
 ActionOverride(Player2,LeaveAreaLUA("PF1220","",[680.1318],0))
 ActionOverride(Player1,LeaveAreaLUA("PF1220","",[727.1309],0))
@@ -81,7 +81,7 @@ END
 
 IF ~~ THEN BEGIN 12
   SAY @26
-  IF ~~ THEN DO ~TakePartyItem("mrbomod")
+  IF ~~ THEN DO ~TakePartyItem("XGMRBO")
 SetGlobal("s#XGBLMAJ","GLOBAL",4)
 EscapeArea()~ EXIT
 END

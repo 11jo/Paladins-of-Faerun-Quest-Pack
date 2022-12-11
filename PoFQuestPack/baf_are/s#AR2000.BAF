@@ -12,19 +12,19 @@ END
 
 IF
   Global("QUEST1","AR2000",0)
-  PartyHasItem("ARTKMOD")  // ~Артефакт~
+  PartyHasItem("XGARTK")  // ~Артефакт~
 THEN
   RESPONSE #100
     SetGlobal("QUEST1","AR2000",1)
     Wait(1)
-    TakePartyItem("ARTKMOD")
-    GiveItemCreate("ARTK1MOD",Player1,0,0,0)  // ~Артефакт~
+    TakePartyItem("XGARTK")
+    GiveItemCreate("XGartk1",Player1,0,0,0)  // ~Артефакт~
     Continue()
 END
 
 IF
   Global("QUEST1","AR2000",1)
-  PartyHasItem("ARTK1MOD")  // ~Артефакт~
+  PartyHasItem("XGartk1")  // ~Артефакт~
 THEN
   RESPONSE #100
     SetGlobal("QUEST1","AR2000",2)

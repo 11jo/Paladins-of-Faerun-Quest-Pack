@@ -1,6 +1,6 @@
 IF
   Global("RevealPF0278","PF0278",0)
-  PartyHasItem("BSWORD09")  // ~Рунический меч-бастарда~
+  PartyHasItem("XGBSWO9")  // ~Рунический меч-бастарда~
 THEN
   RESPONSE #100
     SetGlobal("RevealPF0278","PF0278",1)

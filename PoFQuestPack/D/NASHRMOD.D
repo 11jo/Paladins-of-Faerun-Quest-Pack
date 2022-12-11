@@ -47,9 +47,9 @@ IF ~Global("s#XGNASHR","GLOBAL",2)
 Dead("XGluswz")~ THEN BEGIN 8
   SAY @15
   IF ~~ THEN DO ~AddexperienceParty(10000)
-GiveItemCreate("FALX06",Player1,1,0,0)
+GiveItemCreate("XGFALX6",Player1,1,0,0)
 SetGlobal("s#XGNASHR","GLOBAL",3)
-TakePartyItem("LUSWQMOD")
+TakePartyItem("XGLUSWQ")
 ActionOverride(Player1,LeaveAreaLUA("PF0148","",[530.420],13))
 ActionOverride(Player2,LeaveAreaLUA("PF0148","",[470.470],12))
 ActionOverride(Player3,LeaveAreaLUA("PF0148","",[510.550],12))
@@ -74,7 +74,7 @@ END
 
 IF ~~ THEN BEGIN 11
   SAY @21
-  IF ~~ THEN DO ~GiveItemCreate("Letlmod",Player1,0,0,0)~ EXIT
+  IF ~~ THEN DO ~GiveItemCreate("XGLETL",Player1,0,0,0)~ EXIT
 END
 
 IF ~Global("s#XGNASHR","GLOBAL",4)

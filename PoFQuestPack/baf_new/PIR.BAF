@@ -55,8 +55,8 @@ THEN
     DisplayStringHead("XGMTR",@7)  // @7
     Wait(5)
     GiveItemCreate("MISC07",Player1,6000,0,0)  // ~Золотой~
-    GiveItemCreate("MS01",Player1,0,0,0)  // ~Вышибала+3~
-    GiveItemCreate("TRID06",Player1,0,0,0)  // ~Трезубец молнии~
+    GiveItemCreate("XGMS01",Player1,0,0,0)  // ~Вышибала+3~
+    GiveItemCreate("XGTRI6",Player1,0,0,0)  // ~Трезубец молнии~
     SetQuestDone(@8)  
     EraseJournalEntry(@9)  
     EraseJournalEntry(@10) 

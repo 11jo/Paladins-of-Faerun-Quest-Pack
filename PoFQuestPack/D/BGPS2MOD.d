@@ -1,6 +1,6 @@
 BEGIN ~XGBGPS2~
 
-IF ~PartyHasItem("ZATMOD")~ THEN BEGIN 0
+IF ~PartyHasItem("XGZAT")~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
 END
@@ -15,14 +15,14 @@ END
 IF ~~ THEN BEGIN 2
   SAY @6
   IF ~~ THEN REPLY @8 DO ~TakePartyGold(100)
-TakePartyItem("ZATMOD")
-GiveItemCreate("ZAT1MOD",Player1,0,0,0)
+TakePartyItem("XGZAT")
+GiveItemCreate("XGZAT1",Player1,0,0,0)
 ~ UNSOLVED_JOURNAL @7 EXIT
 END
 
 IF ~~ THEN BEGIN 3
   SAY @6
-  IF ~~ THEN REPLY @8 DO ~TakePartyItem("ZATMOD")
-GiveItemCreate("ZAT1MOD",Player1,0,0,0)
+  IF ~~ THEN REPLY @8 DO ~TakePartyItem("XGZAT")
+GiveItemCreate("XGZAT1",Player1,0,0,0)
 ~ UNSOLVED_JOURNAL @7 EXIT
 END

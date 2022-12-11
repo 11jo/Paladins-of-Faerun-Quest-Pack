@@ -1,13 +1,13 @@
 IF
   OnCreation()
-  PartyHasItem("DHEA1MOD")  // ~Сердце дьявола~
-  PartyHasItem("DHEARMOD")  // ~Сердце дьявола~
+  PartyHasItem("XGDHEA1")  // ~Сердце дьявола~
+  PartyHasItem("XGDHEAR")  // ~Сердце дьявола~
 THEN
   RESPONSE #100
     ClearAllActions()
     StartCutSceneMode()
-    TakePartyItem("DHEA1MOD")
-    TakePartyItem("DHEARMOD")
+    TakePartyItem("XGDHEA1")
+    TakePartyItem("XGDHEAR")
     Wait(2)
     ActionOverride("Player2",ForceSpell("Player2",DRYAD_TELEPORT))
     ActionOverride("Player1",ForceSpell("Player1",DRYAD_TELEPORT))
@@ -30,7 +30,7 @@ END
 IF
   Global("Reveal0403","PF0403",0)
   Dead("XGDEVIL")  // ~Гитиянки~
-  PartyHasItem("DEVHMOD")  // ~Рука дьявола~
+  PartyHasItem("XGDEVH")  // ~Рука дьявола~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0403","PF0403",1)

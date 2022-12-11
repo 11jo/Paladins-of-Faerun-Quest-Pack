@@ -31,7 +31,7 @@ END
 
 IF
   Global("Reveal0082","PF0082",1)
-  PartyHasItem("CDMOD")  // ~Кинжал~
+  PartyHasItem("XGcd")  // ~Кинжал~
   Dead("XGchf")  // ~Убийца-Цирикист~
 THEN
   RESPONSE #100
@@ -48,7 +48,7 @@ THEN
     Wait(15)
     DisplayStringHead("XGprt",@8)  
     Wait(8)
-    TakePartyItem("CDMOD")
+    TakePartyItem("XGcd")
     Wait(1)
     ActionOverride(Player2,LeaveAreaLUA("PF0081","",[1119.198],8))
     ActionOverride(Player1,LeaveAreaLUA("PF0081","",[1077.235],8))

@@ -66,7 +66,7 @@ END
 
 IF
   Global("S#opasAR1000","AR1000",0)
-  PartyHasItem("LETT1MOD")  // ~Письмо~
+  PartyHasItem("XGLETT1")  // ~Письмо~
 THEN
   RESPONSE #100
     SetGlobal("S#opasAR1000","AR1000",1)
@@ -84,7 +84,7 @@ THEN
     Wait(6)
     DisplayStringHead(Player1,@7)  // @7
     Wait(6)
-    TakePartyItem("LETT1MOD")
+    TakePartyItem("XGLETT1")
     DisplayStringHead("XGBGON",@8)  // @8
     Wait(5)
     ActionOverride("XGTHIEF",Enemy())
@@ -94,7 +94,7 @@ END
 
 IF
   Global("S#opasAR1000","AR1000",1)
-  PartyHasItem("LETT2MOD")  // ~Карта местности~
+  PartyHasItem("XGLETT2")  // ~Карта местности~
 THEN
   RESPONSE #100
     SetGlobal("S#opasAR1000","AR1000",2)
@@ -102,7 +102,7 @@ THEN
     DisplayStringHead(Player1,@9)  // @9
     AddJournalEntry(@10,QUEST)
     Wait(4)
-    TakePartyItem("LETT2MOD")
+    TakePartyItem("XGLETT2")
     RevealAreaOnMap("PF0050")
     EndCutSceneMode()
     Continue()

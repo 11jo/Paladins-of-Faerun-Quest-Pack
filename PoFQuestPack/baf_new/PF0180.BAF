@@ -34,7 +34,7 @@ THEN
     Wait(5)  
     Wait(5)
     AddJournalEntry(@9,QUEST)
-    GiveItemCreate("MSQMOD",Player1,0,0,0)  // ~Семейный кулон~
+    GiveItemCreate("XGmsq",Player1,0,0,0)  // ~Семейный кулон~
     ActionOverride("XGcls",EscapeArea())
     EndCutSceneMode()
     UnhideGUI()

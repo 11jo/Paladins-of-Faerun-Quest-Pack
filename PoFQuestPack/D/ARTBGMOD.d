@@ -20,15 +20,15 @@ IF ~~ THEN BEGIN 3
   IF ~~ THEN REPLY @8 DO ~EscapeArea()
 ~ GOTO 4
   IF ~~ THEN REPLY @10 DO ~Enemy()
-TakePartyItem("Zat4mod")
+TakePartyItem("XGZAT4")
 ~ UNSOLVED_JOURNAL @9 EXIT
 END
 
 IF ~~ THEN BEGIN 4
   SAY @11
   IF ~~ THEN DO ~EscapeArea()
-TakePartyItem("ZAT4MOD")
-GiveItemCreate("ZAT6MOD",Player1,0,0,0)
+TakePartyItem("XGZAT4")
+GiveItemCreate("XGZAT6",Player1,0,0,0)
 ActionOverride(Player2,LeaveAreaLUA("PF0020","",[282.1732],0))
 ActionOverride(Player1,LeaveAreaLUA("PF0020","",[248.1687],0))
 ActionOverride(Player3,LeaveAreaLUA("PF0020","",[279.1645],0))

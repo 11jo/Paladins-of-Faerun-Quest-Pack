@@ -1,5 +1,5 @@
 IF
-  PartyHasItem("TGBODMOD")
+  PartyHasItem("XGTGBOD")
 THEN
   RESPONSE #100
 ClearAllActions()

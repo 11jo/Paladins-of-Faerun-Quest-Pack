@@ -1,7 +1,7 @@
 IF
   OnCreation()
   Global("EnteredArea","PF0077",0)
-  PartyHasItem("PLETMOD")  // ~Письмо~
+  PartyHasItem("XGplet")  // ~Письмо~
 THEN
   RESPONSE #100
     SetGlobal("EnteredArea","PF0077",1)
@@ -14,7 +14,7 @@ THEN
     DisplayStringHead(Player1,@1)  
     Wait(5)
     DisplayStringHead("XGtwr",@2)  
-    TakePartyItem("PLETMOD")
+    TakePartyItem("XGplet")
     Wait(5)
     DisplayStringHead("XGtwr",@3)  
     Wait(8)
@@ -26,7 +26,7 @@ END
 
 IF
   Global("QUEST","PF0077",0)
-  PartyHasItem("PLET1MOD")  // ~Письмо~
+  PartyHasItem("XGplet1")  // ~Письмо~
 THEN
   RESPONSE #100
     SetGlobal("QUEST","PF0077",1)
@@ -57,7 +57,7 @@ THEN
 END
 
 IF
-  PartyHasItem("PLET1MOD")  // ~Письмо~
+  PartyHasItem("XGplet1")  // ~Письмо~
   Dead("XGprd")  // ~Пленник~
 THEN
   RESPONSE #100
@@ -68,7 +68,7 @@ THEN
     FadeToColor([80.0],0)
     ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1042.1978],0))
     Wait(8)
-    TakePartyItem("PLET1MOD")
+    TakePartyItem("XGplet1")
     ReputationInc(-1)
     EndCutSceneMode()
 END
@@ -101,7 +101,7 @@ END
 
 IF
   Global("Reveal0077","PF0077",1)
-  PartyHasItem("BSWORD09")  // ~Рунический меч-бастарда~
+  PartyHasItem("XGBSWO9")  // ~Рунический меч-бастарда~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0077","PF0077",2)

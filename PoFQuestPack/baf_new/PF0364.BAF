@@ -2,7 +2,7 @@ IF
   Global("Reveal0364","PF0364",0)
   Dead("XGBMTN1")  // ~Воришка~
   Dead("XGBMTN2")  // ~Воришка~
-  PartyHasItem("LETWMOD")  // ~Клочок бумаги~
+  PartyHasItem("XGLETW")  // ~Клочок бумаги~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0364","PF0364",1)

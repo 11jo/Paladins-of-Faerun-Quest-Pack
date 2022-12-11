@@ -54,7 +54,7 @@ IF ~Global("s#XGELOR","GLOBAL",1)~ THEN BEGIN 8
 END
 
 IF ~Global("s#XGELOR","GLOBAL",2)
-PartyHasItem("MBMOD")~ THEN BEGIN 9
+PartyHasItem("XGMB")~ THEN BEGIN 9
   SAY @20
   IF ~~ THEN REPLY @21 GOTO 10
 END
@@ -62,14 +62,14 @@ END
 IF ~~ THEN BEGIN 10
   SAY @22
   IF ~~ THEN REPLY @23 DO ~EraseJournalEntry(@17)
-TakePartyItem("MBMOD")
+TakePartyItem("XGMB")
 AddexperienceParty(10000)
-GiveItemCreate("SWORD20",Player1,0,0,0)
+GiveItemCreate("XGSWO20",Player1,0,0,0)
 ~ SOLVED_JOURNAL @24 EXIT
 END
 
 IF ~Global("s#XGELOR","GLOBAL",2)
-PartyHasItem("ZAT1MOD")~ THEN BEGIN 11
+PartyHasItem("XGZAT1")~ THEN BEGIN 11
   SAY @25
   IF ~~ THEN REPLY @26 GOTO 12
 END
@@ -81,7 +81,7 @@ END
 
 IF ~~ THEN BEGIN 13
   SAY @29
-  IF ~~ THEN DO ~TakePartyItem("ZAT1MOD")
-GiveItemCreate("ZAT2MOD",Player1,0,0,0)
+  IF ~~ THEN DO ~TakePartyItem("XGZAT1")
+GiveItemCreate("XGZAT2",Player1,0,0,0)
 ~ EXIT
 END

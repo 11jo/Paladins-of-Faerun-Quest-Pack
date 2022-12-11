@@ -18,7 +18,7 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @6
-  IF ~~ THEN REPLY @7 DO ~GiveItemCreate("PLETMOD",Player1,0,0,0)~ 
+  IF ~~ THEN REPLY @7 DO ~GiveItemCreate("XGplet",Player1,0,0,0)~ 
 UNSOLVED_JOURNAL @8 EXIT
 END
 

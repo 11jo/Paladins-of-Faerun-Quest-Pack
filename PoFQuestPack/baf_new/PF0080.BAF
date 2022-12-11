@@ -12,13 +12,13 @@ END
 
 IF
   Global("Reveal0080","PF0080",0)
-  PartyHasItem("MSQMOD")  // ~Семейный кулон~
+  PartyHasItem("XGmsq")  // ~Семейный кулон~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0080","PF0080",1)
     StartCutSceneMode()
     HideGUI()
-    TakePartyItem("MSQMOD")
+    TakePartyItem("XGmsq")
     CreateCreature("XGdwq",[4933.2629],0)  // ~Дхаероватил~
     CreateCreature("XGdre1",[4912.2703],0)  // ~Прислуга Элистрая~
     CreateCreature("XGdre2",[4879.2675],0)  // ~Прислуга Элистрая~

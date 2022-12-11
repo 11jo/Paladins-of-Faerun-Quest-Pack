@@ -1,7 +1,7 @@
 BEGIN ~XGFALC3~
 
-IF ~PartyHasItem("QI1MOD")
-PartyHasItem("QI2MOD")~ THEN BEGIN 0
+IF ~PartyHasItem("XGQI1")
+PartyHasItem("XGQI2")~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
 END

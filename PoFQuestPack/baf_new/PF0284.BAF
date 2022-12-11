@@ -34,7 +34,7 @@ THEN
     ClearAllActions()
     StartCutSceneMode()
     TakePartyItem("XGPRC")
-    GiveItemCreate("PRC1MOD",Player1,0,0,0)  // ~Карта свитков~
+    GiveItemCreate("XGprc1",Player1,0,0,0)  // ~Карта свитков~
     CreateCreature("XGsge",[875.785],0)  // ~Защитник свитка~
     DisplayStringHead("XGsge",@0)  
     Wait(6)

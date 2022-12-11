@@ -36,11 +36,11 @@ END
 
 IF
   Global("Reveal0580","PF0580",0)
-  PartyHasItem("IQQMOD")  // ~Артефакт~
+  PartyHasItem("XGiqq")  // ~Артефакт~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0580","PF0580",1)
-    TakePartyItem("IQQMOD")
+    TakePartyItem("XGiqq")
     CreateCreature("XGelfw",[500.1881],0)  // ~Эльфийский воин~
     CreateCreature("XGdrwe",[572.1832],0)  // ~Прислуга Элистрая~
     CreateCreature("XGelfw",[1250.2241],0)  // ~Эльфийский воин~

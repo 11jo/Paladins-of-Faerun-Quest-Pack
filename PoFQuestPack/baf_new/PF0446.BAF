@@ -1,13 +1,13 @@
 IF
   Global("s#PF0446","PF0446",0)
-  PartyHasItem("TRBLMOD")  // ~Кровь большого тролля~
+  PartyHasItem("XGTRBL")  // ~Кровь большого тролля~
 THEN
   RESPONSE #100
     SetGlobal("s#PF0446","PF0446",1)
     ClearAllActions()
     StartCutSceneMode()
     CreateCreature("XGSRWZ1",[428.583],0)
-    TakePartyItem("TRBLMOD")
+    TakePartyItem("XGTRBL")
 //    Wait(1)
 //    ActionOverride("XGSRWZ1",StartDialogue("XGSRWZ1",Player1))
     EndCutSceneMode()

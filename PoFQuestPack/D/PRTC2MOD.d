@@ -31,38 +31,38 @@ IF ~Global("s#XGprtc2","GLOBAL",1)~ THEN BEGIN 4
 END
 
 IF ~Global("s#XGprtc2","GLOBAL",2)
-!PartyHasItem("QITMOD")~ THEN BEGIN 5
+!PartyHasItem("XGqit")~ THEN BEGIN 5
   SAY @13
   IF ~~ THEN REPLY @14 EXIT
 END
 
 IF ~Global("s#XGprtc2","GLOBAL",2)
-PartyHasItem("QITMOD")~ THEN BEGIN 6
+PartyHasItem("XGqit")~ THEN BEGIN 6
   SAY @13
   IF ~~ THEN REPLY @15 GOTO 7
 END
 
 IF ~~ THEN BEGIN 7
   SAY @16
-  IF ~~ THEN REPLY @17 DO ~GiveItemCreate("IK06",Player1,0,0,0)
+  IF ~~ THEN REPLY @17 DO ~GiveItemCreate("XGIK06",Player1,0,0,0)
 AddexperienceParty(5000)
-TakePartyItem("QITMOD")
+TakePartyItem("XGqit")
 EraseJournalEntry(@9)
 EraseJournalEntry(@18)
 GiveItemCreate("BOOK03",Player1,0,0,0)
 EscapeArea()
 ~ SOLVED_JOURNAL @19 EXIT
-  IF ~~ THEN REPLY @20 DO ~GiveItemCreate("IK06",Player1,0,0,0)
+  IF ~~ THEN REPLY @20 DO ~GiveItemCreate("XGIK06",Player1,0,0,0)
 AddexperienceParty(5000)
-TakePartyItem("QITMOD")
+TakePartyItem("XGqit")
 EraseJournalEntry(@9)
 EraseJournalEntry(@18)
 GiveItemCreate("BOOK06",Player1,0,0,0)
 EscapeArea()
 ~ SOLVED_JOURNAL @19 EXIT
-  IF ~~ THEN REPLY @21 DO ~GiveItemCreate("IK06",Player1,0,0,0)
+  IF ~~ THEN REPLY @21 DO ~GiveItemCreate("XGIK06",Player1,0,0,0)
 AddexperienceParty(5000)
-TakePartyItem("QITMOD")
+TakePartyItem("XGqit")
 EraseJournalEntry(@9)
 EraseJournalEntry(@18)
 GiveItemCreate("BOOK08",Player1,0,0,0)

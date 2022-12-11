@@ -1,21 +1,21 @@
 BEGIN ~XGDRA1~
 
-IF ~PartyHasItem("AMMOD")
-PartyHasItem("AM1MOD")
-PartyHasItem("AM2MOD")
-PartyHasItem("AM3MOD")
-PartyHasItem("AM4MOD")
-PartyHasItem("AM5MOD")~ THEN BEGIN 0
+IF ~PartyHasItem("XGAM")
+PartyHasItem("XGAM1")
+PartyHasItem("XGAM2")
+PartyHasItem("XGAM3")
+PartyHasItem("XGAM4")
+PartyHasItem("XGAM5")~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 2
 END
 
-IF ~!PartyHasItem("AMMOD")
-!PartyHasItem("AM1MOD")
-!PartyHasItem("AM2MOD")
-!PartyHasItem("AM3MOD")
-!PartyHasItem("AM4MOD")
-!PartyHasItem("AM5MOD")~ THEN BEGIN 1
+IF ~!PartyHasItem("XGAM")
+!PartyHasItem("XGAM1")
+!PartyHasItem("XGAM2")
+!PartyHasItem("XGAM3")
+!PartyHasItem("XGAM4")
+!PartyHasItem("XGAM5")~ THEN BEGIN 1
   SAY @3
   IF ~~ THEN REPLY @4 EXIT
   IF ~~ THEN REPLY @6 DO ~Enemy()
@@ -24,12 +24,12 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @7
-  IF ~~ THEN REPLY @9 DO ~TakePartyItem("AMMOD")
-TakePartyItem("AM1MOD")
-TakePartyItem("AM2MOD")
-TakePartyItem("AM3MOD")
-TakePartyItem("AM4MOD")
-TakePartyItem("AM5MOD")
+  IF ~~ THEN REPLY @9 DO ~TakePartyItem("XGAM")
+TakePartyItem("XGAM1")
+TakePartyItem("XGAM2")
+TakePartyItem("XGAM3")
+TakePartyItem("XGAM4")
+TakePartyItem("XGAM5")
 AddexperienceParty(50000)
 PickUpItem("ANMOD")
 EscapeArea()

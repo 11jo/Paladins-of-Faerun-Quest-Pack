@@ -1,6 +1,6 @@
 BEGIN ~XGBGPS1~
 
-IF ~PartyHasItem("ZATMOD")~ THEN BEGIN 0
+IF ~PartyHasItem("XGZAT")~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
 END

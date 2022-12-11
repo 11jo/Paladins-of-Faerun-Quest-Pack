@@ -46,7 +46,7 @@ END
 
 IF ~~ THEN BEGIN 8
   SAY @18
-  IF ~~ THEN REPLY @19 DO ~GiveItemCreate("SKMOD",Player1,0,0,0)  SetGlobal("s#VINTRELL","GLOBAL",2)~ EXIT
+  IF ~~ THEN REPLY @19 DO ~GiveItemCreate("XGsk",Player1,0,0,0)  SetGlobal("s#VINTRELL","GLOBAL",2)~ EXIT
 END
 
 IF ~  Global("s#VINTRELL","GLOBAL",1)

@@ -24,7 +24,7 @@ END
 IF ~~ THEN BEGIN 4
   SAY @9
   IF ~~ THEN REPLY @10 DO ~SetGlobal("s#XGhrot2","GLOBAL",2)
-GiveItemCreate("ESHMOD",Player1,0,0,0)
+GiveItemCreate("XGesh",Player1,0,0,0)
 EscapeArea()~ 
 UNSOLVED_JOURNAL @11 EXIT
 END

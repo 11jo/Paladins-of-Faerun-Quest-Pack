@@ -1,6 +1,6 @@
 IF
   Global("Reveal0412","PF0412",0)
-  PartyHasItem("AMUL3")  // ~Bozsky dar~
+  PartyHasItem("XGAMUL3")  // ~Bozsky dar~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0412","PF0412",1)

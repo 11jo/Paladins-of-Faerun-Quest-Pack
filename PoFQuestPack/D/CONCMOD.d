@@ -1,7 +1,7 @@
 BEGIN ~XGCONC~
 
 IF ~NumTimesTalkedTo(0)
-PartyHasItem("LETLMOD")~ THEN BEGIN 0
+PartyHasItem("XGLETL")~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
 END

@@ -16,7 +16,7 @@ END
 IF ~~ THEN BEGIN 2
   SAY @6
   IF ~~ THEN DO ~GiveItemCreate("MISC07",Player1,15000,0,0)
-GiveItemCreate("SWORD18",Player1,0,0,0)
+GiveItemCreate("XGSWO18",Player1,0,0,0)
 ActionOverride(Player2,LeaveAreaLUA("PF0014","",[491.986],0))
 ActionOverride(Player1,LeaveAreaLUA("PF0014","",[542.955],0))
 ActionOverride(Player3,LeaveAreaLUA("PF0014","",[495.923],0))

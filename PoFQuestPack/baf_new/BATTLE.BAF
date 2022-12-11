@@ -30,7 +30,7 @@ THEN
 END
 
 IF
-  PartyHasItem("PLET1MOD")  // ~Письмо~
+  PartyHasItem("XGplet1")  // ~Письмо~
   Dead("XGprd")  // ~Пленник~
 THEN
   RESPONSE #100
@@ -53,7 +53,7 @@ THEN
 END
 
 IF
-  PartyHasItem("PLET1MOD")  // ~Письмо~
+  PartyHasItem("XGplet1")  // ~Письмо~
   Dead("XGprd1")  // ~Пленник~
 THEN
   RESPONSE #100
@@ -76,7 +76,7 @@ THEN
 END
 
 IF
-  PartyHasItem("PLET1MOD")  // ~Письмо~
+  PartyHasItem("XGplet1")  // ~Письмо~
   Dead("XGprd2")  // ~Пленник~
 THEN
   RESPONSE #100
@@ -88,7 +88,7 @@ THEN
 END
 
 IF
-  PartyHasItem("PLET1MOD")  // ~Письмо~
+  PartyHasItem("XGplet1")  // ~Письмо~
   Dead("XGprd2")  // ~Пленник~
   Dead("XGprd1")  // ~Пленник~
   Dead("XGprd")  // ~Пленник~

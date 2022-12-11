@@ -29,10 +29,10 @@ IF ~ Global("s#XGMARAN","GLOBAL",1)~ THEN BEGIN 4
   IF ~~ THEN REPLY @6 EXIT
 END
 
-IF ~Global("s#XGMARAN","GLOBAL",2) PArtyHasItem("LETWMOD")~ THEN BEGIN 5
+IF ~Global("s#XGMARAN","GLOBAL",2) PArtyHasItem("XGLETW")~ THEN BEGIN 5
   SAY @12
   IF ~~ THEN REPLY @13 DO ~TakePartyItem("XGMAR")
-TakePartyItem("LETWMOD")~ GOTO 6
+TakePartyItem("XGLETW")~ GOTO 6
 END
 
 IF ~~ THEN BEGIN 6
@@ -47,7 +47,7 @@ GiveItemCreate("XGWRG",Player1,0,0,0)~
 UNSOLVED_JOURNAL @17 EXIT
 END
 
-IF ~Global("s#XGMARAN","GLOBAL",2) !PArtyHasItem("LETWMOD")~ THEN BEGIN 8
+IF ~Global("s#XGMARAN","GLOBAL",2) !PArtyHasItem("XGLETW")~ THEN BEGIN 8
   SAY @12
   IF ~~ THEN REPLY @18 EXIT
 END

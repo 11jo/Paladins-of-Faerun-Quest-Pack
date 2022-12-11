@@ -47,29 +47,29 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @18
-  IF ~~ THEN REPLY @19 DO ~GiveItemCreate("MNEK1MOD",Player1,0,0,0)
+  IF ~~ THEN REPLY @19 DO ~GiveItemCreate("XGMNEK1",Player1,0,0,0)
 SetGlobal("s#XGSTRWZ","GLOBAL",2)~ UNSOLVED_JOURNAL @20 EXIT
   IF ~~ THEN REPLY @21 DO ~SetGlobal("s#XGSTRWZ","GLOBAL",1)~ EXIT
 END
 
 IF ~Global("s#XGSTRWZ","GLOBAL",1)~ THEN BEGIN 10
   SAY @22
-  IF ~~ THEN REPLY @23 DO ~GiveItemCreate("MNEK1MOD",Player1,0,0,0)
+  IF ~~ THEN REPLY @23 DO ~GiveItemCreate("XGMNEK1",Player1,0,0,0)
 SetGlobal("s#XGSTRWZ","GLOBAL",2)~ UNSOLVED_JOURNAL @20 EXIT
   IF ~~ THEN REPLY @24 EXIT
 END
 
 IF ~Global("s#XGSTRWZ","GLOBAL",2)
-PartyHasITem("mwandmod")
-PartyHasITem("mbookmod")~ THEN BEGIN 11
+PartyHasITem("XGMWAND")
+PartyHasITem("XGMBOOK")~ THEN BEGIN 11
   SAY @25
-  IF ~~ THEN REPLY @26 DO ~TakePartyITem("mwandmod")
-TakePartyITem("mbookmod")~ GOTO 13
+  IF ~~ THEN REPLY @26 DO ~TakePartyITem("XGMWAND")
+TakePartyITem("XGMBOOK")~ GOTO 13
 END
 
 IF ~Global("s#XGSTRWZ","GLOBAL",2)
-!PartyHasITem("mwandmod")
-!PartyHasITem("mbookmod")~ THEN BEGIN 12
+!PartyHasITem("XGMWAND")
+!PartyHasITem("XGMBOOK")~ THEN BEGIN 12
   SAY @25
   IF ~~ THEN REPLY @27 EXIT
 END
@@ -81,7 +81,7 @@ END
 
 IF ~~ THEN BEGIN 14
   SAY @30
-  IF ~~ THEN REPLY @31 DO ~TakePartyItem("MNEK1MOD")
+  IF ~~ THEN REPLY @31 DO ~TakePartyItem("XGMNEK1")
 RevealAreaOnMap("PF0069")
 EscapeArea()~ UNSOLVED_JOURNAL @32 EXIT
 END

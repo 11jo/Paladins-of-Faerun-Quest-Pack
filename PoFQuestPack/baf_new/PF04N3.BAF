@@ -1,7 +1,7 @@
 IF
   OnCreation()
-  PartyHasItem("DHEA1MOD")  // ~Сердце дьявола~
-  PartyHasItem("DHEARMOD")  // ~Сердце дьявола~
+  PartyHasItem("XGDHEA1")  // ~Сердце дьявола~
+  PartyHasItem("XGDHEAR")  // ~Сердце дьявола~
 THEN
   RESPONSE #100
     ClearAllActions()
@@ -29,7 +29,7 @@ END
 
 IF
   OnCreation()
-  PartyHasItem("DEVHMOD")  // ~Рука дьявола~
+  PartyHasItem("XGDEVH")  // ~Рука дьявола~
 THEN
   RESPONSE #100
     ClearAllActions()

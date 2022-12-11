@@ -19,6 +19,6 @@ EraseJournalEntry(@9)
 RevealAreaOnMap("PF0047")
 GivePartyGold(4000)
 AddExperienceParty(10000)
-GiveItemCreate("NINJA01",Player1,0,0,0)
+GiveItemCreate("XGNINJ1",Player1,0,0,0)
 EscapeArea()~ SOLVED_JOURNAL @10 EXIT
 END

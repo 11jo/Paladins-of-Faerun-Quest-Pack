@@ -54,7 +54,7 @@ THEN
 END
 
 IF  Global("s#PF1020","PF1020",0)
-  PartyHasItem("MRBOMOD")
+  PartyHasItem("XGMRBO")
 THEN
   RESPONSE #100
     SetGlobal("s#PF1020","PF1020",1)

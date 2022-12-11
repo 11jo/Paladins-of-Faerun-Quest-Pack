@@ -19,33 +19,33 @@ SOLVED_JOURNAL @8 EXIT
 END
 
 IF ~ Global("s#XGthf","GLOBAL",1)
-PartyHasItem("BRAC1")~ THEN BEGIN 3
+PartyHasItem("XGBRAC1")~ THEN BEGIN 3
   SAY @9
   IF ~~ THEN REPLY @10 DO ~GiveItemCreate("MISC07",Player1,10000,0,0)
-TakePartyItem("BRAC1")~ EXIT
+TakePartyItem("XGBRAC1")~ EXIT
   IF ~~ THEN REPLY @11 EXIT
 END
 
 IF ~ Global("s#XGthf","GLOBAL",1)
-PartyHasItem("BOOT4")~ THEN BEGIN 4
+PartyHasItem("XGBOOT4")~ THEN BEGIN 4
   SAY @12
   IF ~~ THEN REPLY @10 DO ~GiveItemCreate("MISC07",Player1,10000,0,0)
-TakePartyItem("BOOT4")~ EXIT
+TakePartyItem("XGBOOT4")~ EXIT
   IF ~~ THEN REPLY @11 EXIT
 END
 
 IF ~ Global("s#XGthf","GLOBAL",1)
-PartyHasItem("SWORD02")~ THEN BEGIN 5
+PartyHasItem("XGSWOR2")~ THEN BEGIN 5
   SAY @13
   IF ~~ THEN REPLY @10 DO ~GiveItemCreate("MISC07",Player1,10000,0,0)
-TakePartyItem("SWORD02")~ EXIT
+TakePartyItem("XGSWOR2")~ EXIT
   IF ~~ THEN REPLY @11 EXIT
 END
 
 IF ~ Global("s#XGthf","GLOBAL",1)
-OR(3) !PartyHasItem("BRAC1")
-      !PartyHasItem("BOOT4")
-      !PartyHasItem("SWORD02")~ THEN BEGIN 6
+OR(3) !PartyHasItem("XGBRAC1")
+      !PartyHasItem("XGBOOT4")
+      !PartyHasItem("XGSWOR2")~ THEN BEGIN 6
   SAY @14
   IF ~~ THEN REPLY @15 EXIT
 END

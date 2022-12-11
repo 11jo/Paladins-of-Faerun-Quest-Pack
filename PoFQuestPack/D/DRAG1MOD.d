@@ -29,9 +29,9 @@ IF ~~ THEN BEGIN 4
 UNSOLVED_JOURNAL @12 EXIT
 END
 
-IF ~Global("s#XGDRAG1","GLOBAL",2)  PartyHasItem("WAMOD")~ THEN BEGIN 5
+IF ~Global("s#XGDRAG1","GLOBAL",2)  PartyHasItem("XGWA")~ THEN BEGIN 5
   SAY @13
-  IF ~~ THEN REPLY @14 DO ~TakePartyItem("WAMOD")~ GOTO 6
+  IF ~~ THEN REPLY @14 DO ~TakePartyItem("XGWA")~ GOTO 6
 END
 
 IF ~~ THEN BEGIN 6
@@ -41,11 +41,11 @@ END
 
 IF ~~ THEN BEGIN 7
   SAY @17
-  IF ~~ THEN REPLY @18 DO ~GiveItemCreate("PLAT4",Player1,0,0,0)
+  IF ~~ THEN REPLY @18 DO ~GiveItemCreate("XGPLAT4",Player1,0,0,0)
 EscapeArea()~ SOLVED_JOURNAL @19 EXIT
 END
 
-IF ~Global("s#XGDRAG1","GLOBAL",2)  !PartyHasItem("WAMOD")~ THEN BEGIN 8
+IF ~Global("s#XGDRAG1","GLOBAL",2)  !PartyHasItem("XGWA")~ THEN BEGIN 8
   SAY @13
   IF ~~ THEN REPLY @20 EXIT
   IF ~~ THEN REPLY @21 DO ~Enemy()

@@ -9,7 +9,7 @@ IF ~~ THEN BEGIN 1
   SAY @2
   IF ~~ THEN REPLY @3 GOTO 2
   IF ~~ THEN REPLY @4 
-DO ~GiveItemCreate("LSMOD",Player1,0,0,0)
+DO ~GiveItemCreate("XGls",Player1,0,0,0)
 ActionOverride(Player2,LeaveAreaLUA("PF0064","",[716.2359],12))
 ActionOverride(Player1,LeaveAreaLUA("PF0064","",[675.2334],12))
 ActionOverride(Player3,LeaveAreaLUA("PF0064","",[691.2405],12))

@@ -18,13 +18,13 @@ END
 
 IF
   OnCreation()
-  PartyHasItem("LSMOD")  // ~Карта местности~
+  PartyHasItem("XGls")  // ~Карта местности~
 THEN
   RESPONSE #100
     ClearAllActions()
     Explore()
     HideGUI()
-    TakePartyItem("LSMOD")
+    TakePartyItem("XGls")
     StartCutSceneMode()
     CreateCreature("XGclc1",[1055.2238],0)  // ~Священник Цирика~
     CreateCreature("XGclc2",[1106.2317],0)  // ~Верховный священник Цирика~

@@ -128,9 +128,9 @@ END
 IF ~Global("s#XGRAL","GLOBAL",8)
 Dead("XGCHG")~ THEN BEGIN 18
   SAY @33
-  IF ~~ THEN REPLY @34 DO ~GiveItemCreate("FALX07",Player1,0,0,0)
-GiveItemCreate("PIKA05",Player1,0,0,0)
-GiveItemCreate("SWORD05",Player1,0,0,0)
+  IF ~~ THEN REPLY @34 DO ~GiveItemCreate("XGFALX7",Player1,0,0,0)
+GiveItemCreate("XGPIK5",Player1,0,0,0)
+GiveItemCreate("XGSWOR5",Player1,0,0,0)
 SetGlobal("s#XGRAL","GLOBAL",9)~ EXIT
 END
 

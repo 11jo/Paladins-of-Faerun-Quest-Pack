@@ -37,8 +37,8 @@ END
 IF ~Global("s#XGELG","GLOBAL",2) Dead("XGDUERL") 
 Dead("XGDEVIL")~ THEN BEGIN 6
   SAY @14
-  IF ~~ THEN REPLY @15 DO ~TakePartyItem("MOONHMOD")
-TakePartyItem("DEVHMOD")~ GOTO 7
+  IF ~~ THEN REPLY @15 DO ~TakePartyItem("XGMOONH")
+TakePartyItem("XGDEVH")~ GOTO 7
 END
 
 IF ~~ THEN BEGIN 7

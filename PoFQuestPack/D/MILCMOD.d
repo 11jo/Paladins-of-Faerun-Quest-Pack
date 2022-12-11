@@ -23,16 +23,16 @@ IF ~~ THEN BEGIN 3
   SAY @9
   IF ~~ THEN REPLY @11 DO ~GiveItemCreate("SW1H09",Player1,0,0,0)
 GiveItemCreate("PLAT02",Player1,0,0,0)
-GiveItemCreate("ZATMOD",Player1,0,0,0)
+GiveItemCreate("XGZAT",Player1,0,0,0)
 ~ UNSOLVED_JOURNAL @10 EXIT
 END
 
-IF ~PartyHasItem("ZAT5MOD")~ THEN BEGIN 4
+IF ~PartyHasItem("XGZAT5")~ THEN BEGIN 4
   SAY @12
   IF ~~ THEN REPLY @13 GOTO 6
 END
 
-IF ~PartyHasItem("ZAT6MOD")~ THEN BEGIN 5
+IF ~PartyHasItem("XGZAT6")~ THEN BEGIN 5
   SAY @12
   IF ~~ THEN REPLY @14 GOTO 7
 END
@@ -40,7 +40,7 @@ END
 IF ~~ THEN BEGIN 6
   SAY @15
   IF ~~ THEN REPLY @21 DO ~SetNumTimesTalkedTo(2)
-TakePartyItem("ZAT5MOD")
+TakePartyItem("XGZAT5")
 EraseJournalEntry(@10)
 EraseJournalEntry(@17)
 EraseJournalEntry(@18)
@@ -60,7 +60,7 @@ EraseJournalEntry(@17)
 EraseJournalEntry(@18)
 EraseJournalEntry(@19)
 EraseJournalEntry(@20)
-TakePartyItem("ZAT6MOD")
+TakePartyItem("XGZAT6")
 GiveItemCreate("MISC07",Player1,5000,0,0)
 ~ SOLVED_JOURNAL @24 EXIT
   IF ~~ THEN REPLY @22 GOTO 9

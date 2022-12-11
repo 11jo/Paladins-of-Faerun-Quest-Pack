@@ -28,7 +28,7 @@ THEN
     SetGlobal("Reveal0160","PF0160",1)
     DisplayStringHead(Player1,@0)  // @0
     Wait(4)
-    GiveItemCreate("QI1MOD",Player1,0,0,0)  // ~Магическая реликвия~
+    GiveItemCreate("XGQI1",Player1,0,0,0)  // ~Магическая реликвия~
     AddexperienceParty(24000)
 END
 

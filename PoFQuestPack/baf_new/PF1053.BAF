@@ -11,9 +11,9 @@ THEN
     Wait(2)
     DisplayStringHead("XGELWIN",@0)  // @0
     Wait(7)
-    TakePartyItem("QI1MOD")
-    TakePartyItem("QI2MOD")
-    TakePartyItem("QI3MOD")
+    TakePartyItem("XGQI1")
+    TakePartyItem("XGQI2")
+    TakePartyItem("XGQI3")
     Wait(2)
     DisplayStringHead(Player1,@1)  // @1
     Wait(6)

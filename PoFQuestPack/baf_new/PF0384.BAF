@@ -10,11 +10,11 @@ END
 
 IF
   Global("Reveal0384","PF0384",0)
-  PartyHasItem("PRC1MOD")  // ~Карта свитков~
+  PartyHasItem("XGprc1")  // ~Карта свитков~
 THEN
   RESPONSE #100
     SetGlobal("Reveal0384","PF0384",1)
-    TakePartyItem("PRC1MOD")
+    TakePartyItem("XGprc1")
     CreateCreature("XGpree",[1218.2105],8)  // ~Элита приверженцев торма~
 END
 
@@ -24,7 +24,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("Reveal0384","PF0384",2)
-    GiveItemCreate("QITMOD",Player1,0,0,0)  // ~Старый ситок~
+    GiveItemCreate("XGqit",Player1,0,0,0)  // ~Старый ситок~
     AddJournalEntry(78978,QUEST)
     ActionOverride(Player2,LeaveAreaLUA("PF0681","",[1410.2512],0))
     ActionOverride(Player1,LeaveAreaLUA("PF0681","",[1388.2458],0))
@@ -40,7 +40,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("Reveal0384","PF0384",2)
-    GiveItemCreate("QICMOD",Player1,0,0,0)  // ~Старый ситок~
+    GiveItemCreate("XGqic",Player1,0,0,0)  // ~Старый ситок~
     AddJournalEntry(78978,QUEST)
     ActionOverride(Player2,LeaveAreaLUA("PF8500","",[1410.2512],0))
     ActionOverride(Player1,LeaveAreaLUA("PF8500","",[1388.2458],0))

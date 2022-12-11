@@ -1,6 +1,6 @@
 BEGIN ~XGHAR~
 
-IF ~PartyHasItem("ZAT4MOD")
+IF ~PartyHasItem("XGZAT4")
 See(Player1)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1

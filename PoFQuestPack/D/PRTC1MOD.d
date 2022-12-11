@@ -36,7 +36,7 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @12
-  IF ~~ THEN DO ~GiveItemCreate("IK07",Player1,0,0,0)
+  IF ~~ THEN DO ~GiveItemCreate("XGIK07",Player1,0,0,0)
 ReputationInc(2)
 EraseJournalEntry(@13)
 EraseJournalEntry(@14)

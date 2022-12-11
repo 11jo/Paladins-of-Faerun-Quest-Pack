@@ -25,7 +25,7 @@ END
 
 IF ~Global("s#XGWML","GLOBAL",1) 
 Dead("XGWNEC")
-PartyHasItem("MWDMOD")~ THEN BEGIN 4
+PartyHasItem("XGMWD")~ THEN BEGIN 4
   SAY @10
   IF ~~ THEN REPLY @11 GOTO 5
 END
@@ -43,14 +43,14 @@ END
 IF ~~ THEN BEGIN 7
   SAY @16
   IF ~~ THEN REPLY @17 DO ~AddExperienceParty(20000)
-TakePartyItem("MWDMOD")
+TakePartyItem("XGMWD")
 SetGlobal("s#XGWML","GLOBAL",2)
 RevealAreaOnMap("PF0012")~ UNSOLVED_JOURNAL @18 EXIT
 END
 
 IF ~Global("s#XGWML","GLOBAL",1) 
 !Dead("XGWNEC")
-!PartyHasItem("MWDMOD")~ THEN BEGIN 8
+!PartyHasItem("XGMWD")~ THEN BEGIN 8
   SAY @10
   IF ~~ THEN REPLY @19 EXIT
 END

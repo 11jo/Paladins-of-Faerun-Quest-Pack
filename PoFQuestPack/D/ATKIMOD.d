@@ -34,15 +34,15 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @13
-  IF ~~ THEN REPLY @14 DO ~GiveItemCreate("kiitmod",Player1,0,0,0)
+  IF ~~ THEN REPLY @14 DO ~GiveItemCreate("XGKIIT",Player1,0,0,0)
 SetGlobal("s#XGATKI","GLOBAL",2)
 RevealAreaOnMap("PF0040")~ UNSOLVED_JOURNAL @15 EXIT
 END
 
 IF ~Global("s#XGATKI","GLOBAL",2)
-PartyHasItem("HQMOD")~ THEN BEGIN 7
+PartyHasItem("XGhq")~ THEN BEGIN 7
   SAY @16
-  IF ~~ THEN REPLY @17 DO ~TakePartyItem("HQMOD")~ GOTO 8
+  IF ~~ THEN REPLY @17 DO ~TakePartyItem("XGhq")~ GOTO 8
 END
 
 IF ~~ THEN BEGIN 8
@@ -64,7 +64,7 @@ END
 
 IF ~Global("s#XGATKI","GLOBAL",2)
 Dead("XGhqmi")
-!PartyHasItem("HQMOD")~ THEN BEGIN 10
+!PartyHasItem("XGhq")~ THEN BEGIN 10
   SAY @27
   IF ~~ THEN REPLY @28 GOTO 11
 END

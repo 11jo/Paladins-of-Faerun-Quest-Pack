@@ -32,13 +32,13 @@ ActionOverride(Player6,LeaveAreaLUA("PF0000","",[640.900],0))
 END
 
 IF ~Global("s#XGTRAEK","GLOBAL",1)
-  !PartyHasItem("SAKMOD")~ THEN BEGIN 3
+  !PartyHasItem("XGSAK")~ THEN BEGIN 3
   SAY @6
   IF ~~ THEN REPLY @7 EXIT
 END
 
 IF ~Global("s#XGTRAEK","GLOBAL",1)
-  PartyHasItem("SAKMOD")~ THEN BEGIN 4
+  PartyHasItem("XGSAK")~ THEN BEGIN 4
   SAY @8
   IF ~~ THEN REPLY @9 DO ~ActionOverride(Player1,LeaveAreaLUA("PF0000","",[890.790],9))
 ActionOverride(Player2,LeaveAreaLUA("PF0000","",[610.780],0))

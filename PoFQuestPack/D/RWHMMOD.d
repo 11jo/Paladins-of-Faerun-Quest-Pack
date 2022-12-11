@@ -32,7 +32,7 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @13
-  IF ~~ THEN REPLY @16 DO ~GiveItemCreate("QI2MOD",Player1,0,0,0)
+  IF ~~ THEN REPLY @16 DO ~GiveItemCreate("XGQI2",Player1,0,0,0)
 AddexperienceParty(6000)
 CreateCreature("XGDW1",[3329.874],8)
 CreateCreature("XGDW2",[3346.856],8)

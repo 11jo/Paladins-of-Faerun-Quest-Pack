@@ -1,6 +1,6 @@
 IF
   OnCreation()
-  PartyHasItem("MAGGMOD")  // ~Часть очень мощного оружия.~
+  PartyHasItem("XGMAGG")  // ~Часть очень мощного оружия.~
 THEN
   RESPONSE #100
     ClearAllActions()
@@ -46,7 +46,7 @@ THEN
     Wait(3)
     DisplayString("XGCOW",@4)  // @4
     Wait(2)
-    TakePartyItem("MAGGMOD")
+    TakePartyItem("XGMAGG")
     DisplayString("XGELWIN",@5)  // @5
     Wait(5)
     DisplayString("XGCOW",@6)  // @6
