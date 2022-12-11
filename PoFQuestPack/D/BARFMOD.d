@@ -13,6 +13,6 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @5
-  IF ~~ THEN DO ~StartStore("PPINN01",LastTalkedToBy(Myself))
+  IF ~~ THEN DO ~StartStore("XGBARF",LastTalkedToBy(Myself))
 ~ EXIT
 END

@@ -5204,6 +5204,8 @@ COPY ~PoFQuestPack/Stores/XGNS1.STO~        ~override/XGNS1.STO~
 
 COPY ~PoFQuestPack/Stores/XGNWNB.STO~       ~override/XGNWNB.STO~        
   SAY NAME2 @923 
+  
+COPY ~PoFQuestPack/Stores/XGNWNSF.STO~      ~override/XGNWNSF.STO~ 
 
 COPY ~PoFQuestPack/Stores/XGSHOP1.STO~      ~override/XGSHOP1.STO~       
 
