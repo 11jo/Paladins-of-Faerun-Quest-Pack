@@ -23,7 +23,7 @@ THEN
     Wait(2)
     MoveViewPoint([902.797],INSTANT)
     Wait(2)
-    ActionOverride("XGhrqn",StartDialogue("H1MOD",Player1))
+    ActionOverride("XGhrqn",StartDialogue("XGH1",Player1))
     UnhideGUI()
     EndCutSceneMode()
 END
@@ -37,7 +37,7 @@ THEN
     CreateCreature("XGHROTH",[915.797],6)  // ~Õנמעדאנ~
     StartCutSceneMode()
     Wait(1)
-    ActionOverride("XGHROTH",StartDialogue("H2MOD",Player1))
+    ActionOverride("XGHROTH",StartDialogue("XGH2",Player1))
     EndCutSceneMode()
 END
 

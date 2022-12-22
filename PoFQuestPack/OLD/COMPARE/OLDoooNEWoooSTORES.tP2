@@ -1,0 +1,59 @@
+STORES..............
+
+BARFMOD => XGBARF
+BG1MOD => XGBG1
+bshpmod => XGbshp
+CLERSMOD => XGCLERS
+CLSMOD => XGcls
+ESBLMOD => XGESBL
+ESBRMOD => XGESBR 
+INNKWMOD => XGINNKW
+WTSMOD => PPINN01
+kosmod => XGkos  
+NS1MOD => XGNS1  
+NWNBMOD => XGNWNB 
+nwnsmod => XGNWNS
+SHSFMOD => XGNWNSF
+//s#HELM01 => s#HELM01         
+//s#ilmat1 => s#ilmat1         
+//s#inn01 => s#inn01         
+//s#inn02 => s#inn02         
+/////////// s#inn03 (unused)                           
+//s#shev01 => s#shev01        
+//s#SHOP01 => s#SHOP01
+SHOP1MOD => XGSHOP1
+SHOP2MOD => XGSHOP2
+SHOP3MOD => XGSHOP3
+shop4mod => XGshop4
+shopemod => XGshope
+SHOPFMOD => XGSHOPF
+shopwmod => XGshopw
+TYRLMOD => XGTYRL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

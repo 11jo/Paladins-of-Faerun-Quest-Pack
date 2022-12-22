@@ -7,7 +7,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("DEADW","PF0080",1)
-    ActionOverride("XGdwq",StartDialogue("DWQ1MOD",Player1))
+    ActionOverride("XGdwq",StartDialogue("XGdwq1",Player1))
 END
 
 IF

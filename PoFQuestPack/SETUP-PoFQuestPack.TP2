@@ -1428,6 +1428,10 @@ COPY ~PoFQuestPack/Actors/XGLOVT1.CRE~      ~override/XGLOVT1.CRE~
 COPY ~PoFQuestPack/Actors/XGLOVT.CRE~       ~override/XGLOVT.CRE~        
   SAY NAME1 @209 
   SAY NAME2 @209 
+  
+COPY ~PoFQuestPack/Actors/XGLRDR.CRE~       ~override/XGLRDR.CRE~        
+  SAY NAME1 @1065 
+  SAY NAME2 @1066 
 
 COPY ~PoFQuestPack/Actors/XGLRLO.CRE~       ~override/XGLRLO.CRE~        
   SAY NAME1 @211 
@@ -2311,35 +2315,35 @@ COPY ~PoFQuestPack/Actors/XGRYLEE.CRE~      ~override/XGRYLEE.CRE~
   SAY NAME1 @297 
   SAY NAME2 @297
 
-COPY ~PoFQuestPack/Actors/XGhelm1.cre~         ~override/XGhelm1.cre~          
+COPY ~PoFQuestPack/Actors/s#helm01.cre~         ~override/s#helm01.cre~          
   SAY NAME1 @83 
   SAY NAME2 @83
 
-COPY ~PoFQuestPack/Actors/XGilmt1.cre~         ~override/XGilmt1.cre~          
+COPY ~PoFQuestPack/Actors/s#ilmat1.cre~         ~override/s#ilmat1.cre~          
   SAY NAME1 @348 
   SAY NAME2 @348 
 
-COPY ~PoFQuestPack/Actors/XGinn01.cre~         ~override/XGinn01.cre~          
+COPY ~PoFQuestPack/Actors/s#inn01.cre~         ~override/s#inn01.cre~          
   SAY NAME1 @172 
   SAY NAME2 @172 
 
-COPY ~PoFQuestPack/Actors/XGinn02.cre~         ~override/XGinn02.cre~          
+COPY ~PoFQuestPack/Actors/s#inn02.cre~         ~override/s#inn02.cre~          
   SAY NAME1 @172 
   SAY NAME2 @172
 
-COPY ~PoFQuestPack/Actors/XGmage1.cre~         ~override/XGmage1.cre~          
+COPY ~PoFQuestPack/Actors/s#mage1.cre~         ~override/s#mage1.cre~          
   SAY NAME1 @81 
   SAY NAME2 @81
 
-COPY ~PoFQuestPack/Actors/XGmage2.cre~         ~override/XGmage2.cre~          
+COPY ~PoFQuestPack/Actors/s#mage2.cre~         ~override/s#mage2.cre~          
   SAY NAME1 @81 
   SAY NAME2 @81
 
-COPY ~PoFQuestPack/Actors/XGSHEV1.cre~         ~override/XGSHEV1.cre~          
+COPY ~PoFQuestPack/Actors/S#SHEV01.cre~         ~override/S#SHEV01.cre~          
   SAY NAME1 @22 
   SAY NAME2 @22
 
-COPY ~PoFQuestPack/Actors/XGsho01.cre~         ~override/XGsho01.cre~          
+COPY ~PoFQuestPack/Actors/s#SHOP01.cre~         ~override/s#SHOP01.cre~          
   SAY NAME1 @402 
   SAY NAME2 @402
 
@@ -3776,7 +3780,11 @@ COPY ~PoFQuestPack/Areas/PFUMOD.ARE~         ~override/PFUMOD.ARE~
 // Setup  Items
 //////////////////////////////////
 
-
+COPY ~PoFQuestPack/Items/XGcd.ITM~         ~override/XGcd.ITM~  // Addition CDMOD.itm - XGcd.ITM
+  SAY NAME1 @1060 
+  SAY NAME2 @1061  
+  SAY DESC @1062 
+  
 COPY ~PoFQuestPack/Items/XGAM1.ITM~         ~override/XGAM1.ITM~         
   SAY NAME1 @433 
 
@@ -3878,7 +3886,10 @@ COPY ~PoFQuestPack/Items/XGBGSD.ITM~        ~override/XGBGSD.ITM~
 COPY ~PoFQuestPack/Items/XGBHARF.ITM~       ~override/XGBHARF.ITM~       
   SAY NAME1 @472 
 
-COPY ~PoFQuestPack/Items/XGBOOKP.ITM~         ~override/XGBOOKP.ITM~         
+COPY ~PoFQuestPack/Items/XGBOOKP.ITM~         ~override/XGBOOKP.ITM~   // Addition (description)
+  SAY NAME1 @2000
+  SAY NAME2 @2003 
+  SAY DESC @2002        
 
 COPY ~PoFQuestPack/Items/XGBOOT1.ITM~          ~override/XGBOOT1.ITM~          
   SAY NAME2 @473 
@@ -5207,6 +5218,8 @@ COPY ~PoFQuestPack/Stores/XGNWNB.STO~       ~override/XGNWNB.STO~
   
 COPY ~PoFQuestPack/Stores/XGNWNSF.STO~      ~override/XGNWNSF.STO~ 
 
+COPY ~PoFQuestPack/Stores/XGNWNS.STO~      ~override/XGNWNS.STO~
+
 COPY ~PoFQuestPack/Stores/XGSHOP1.STO~      ~override/XGSHOP1.STO~       
 
 COPY ~PoFQuestPack/Stores/XGSHOP2.STO~      ~override/XGSHOP2.STO~       
@@ -5228,22 +5241,22 @@ COPY ~PoFQuestPack/Stores/XGSHOP3.STO~      ~override/XGSHOP3.STO~
 COPY ~PoFQuestPack/Stores/XGTYRL.STO~       ~override/XGTYRL.STO~        
   SAY NAME2 @925  
  
-COPY ~PoFQuestPack/Stores/XGhelm1.sto~       ~override/XGhelm1.sto~        
+COPY ~PoFQuestPack/Stores/s#HELM01.sto~       ~override/s#HELM01.sto~        
   SAY NAME2 @927 
  
-COPY ~PoFQuestPack/Stores/XGilmt1.sto~       ~override/XGilmt1.sto~        
+COPY ~PoFQuestPack/Stores/s#ilmat1.sto~       ~override/s#ilmat1.sto~        
   SAY NAME2 @928 
  
-COPY ~PoFQuestPack/Stores/XGinn01.sto~       ~override/XGinn01.sto~        
+COPY ~PoFQuestPack/Stores/s#inn01.sto~       ~override/s#inn01.sto~        
   SAY NAME2 @172 
  
-COPY ~PoFQuestPack/Stores/XGinn02.sto~       ~override/XGinn02.sto~        
+COPY ~PoFQuestPack/Stores/s#inn02.sto~       ~override/s#inn02.sto~        
   SAY NAME2 @172
  
-COPY ~PoFQuestPack/Stores/XGSHEV1.sto~       ~override/XGSHEV1.sto~        
+COPY ~PoFQuestPack/Stores/S#SHEV01.sto~       ~override/S#SHEV01.sto~        
   SAY NAME2 @929
  
-COPY ~PoFQuestPack/Stores/XGsho01.sto~       ~override/XGsho01.sto~        
+COPY ~PoFQuestPack/Stores/s#SHOP01.sto~       ~override/s#SHOP01.sto~        
   SAY NAME2 @402        
 
 //////////////////////////////////

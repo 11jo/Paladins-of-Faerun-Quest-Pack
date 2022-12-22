@@ -22,7 +22,7 @@ THEN
     ClearAllActions()
     StartCutSceneMode()
     Wait(1)
-    ActionOverride("XGSRWZ1",StartDialogue("SRWZ2MOD",Player1))
+    ActionOverride("XGSRWZ1",StartDialogue("XGSRWZ2",Player1))
     EndCutSceneMode()
 END
 

@@ -79,7 +79,7 @@ THEN
     HideGUI()
     Wait(2)
     CreateCreature("XGFALCO",[825.1243],0)  // ~Графалкон~
-    ActionOverride("XGFALCO",StartDialogue("XGFALCO2",Player1))
+    ActionOverride("XGFALCO",StartDialogue("XGFALC2",Player1))
     UnhideGUI()
     EndCutSceneMode()
 END

@@ -5,6 +5,6 @@ THEN
   RESPONSE #100
     SetGlobal("Reveal8201","PF8201",1)
     ClearAllActions()
-    ActionOverride("XGhsr",StartDialogue("HSR2MOD",Player1))
+    ActionOverride("XGhsr",StartDialogue("XGhsr2",Player1))
 END
 

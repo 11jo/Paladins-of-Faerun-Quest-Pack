@@ -4139,3 +4139,812 @@ Weight: 1~
 @1054 = ~You were attacked by an undead paladin~
 @1055 = ~This small and rather unremarkable silver pendant is made in the form of a tiny sword, it hangs on a thin chain and is designed to be worn around the neck, under clothes.~
 @1056 = ~As with other magical bags, this one appears to be a common cloth sack of about 2 feet by 4 feet size. The bag of holding opens into a nondimensional space, and its inside is larger than its outside dimensions. Regardless of what is put into this item, the bag always weighs a fixed amount.~
+
+///Additions///
+
+////Dagger (cdmod.ITM / Xcd.ITM) Order and Chaos quest.////
+@1060 = ~Dagger~
+@1061 = ~Dagger~
+@1062 = ~The Cyric emblem is carved on the handle.~
+//@1063 = ~The Cyric emblem is carved on the handle.~
+
+/////XGLRDR.CRE - LRDRMOD.CRE///// Not present but in tra folder
+@1065 = ~Lord Dread~ // Lord Dread
+@1066 = ~Lord Dread~ // Lord Dread
+
+////XGBOOKP.itm - BOOKPR.itm////
+@2000 = ~Grimoire~
+@2003 = ~Grimoire des interprètes~ ~Grimoire des d'Oghmatiques~
+@2001 = ~Tuto knihu vytvoøili Oghmovi stoupenci pro skupinu dobrodruhù, kteøí se snažili zmìnit svìt. Tato skupina ještì donedávna bloudila Faerunem a každého, kdo jim zkøížil cestu, se snažili nauèit jejich podivnému jazyku, kterému øíkali "ÈEŠTINA". Pomocí této knihy dobrodruzi rozmlouvali s Oghmovými knìžími, kteøí jim byli èasto velmi nápomocni pøi tomto nelehkém úkolu. 
+
+
+Na první stránce je ponìkud podivné vìnování:
+
+
+  My BG2CZ team vìnujeme tuto knihu tobì, <CHARNAME>, aby ti navždy pøipomínala skupinu dobrodruhù, kteøi pøipravili Faerun na tvùj pøíchod a nauèili zdejší lid mluvit tvým rodným jazykem. Až tì nìkdy rozèílí nìjaký hloupý Imp nebo Drow, kterého jsme nedokázali dobøe nauèit tvojí mateøštinou, døív než nás za toho nebožáka prokleješ, mìl bys nás pochválit za každého, kterého jsme tvojí mateøštinu nauèili dobøe.
+
+
+Na druhé stránce je seznam všech, kteøí se na tomto úsilí podíleli:
+
+
+Vùdce družiny, ke konci pouti šílenstvím pronásledovaný:
+    Adam "Christof" Rambousek
+Podìkování patøí všem stejnou mìrou, nebo� nechci na nikoho zapomenout.
+
+Písmo a vhodné magické pomùcky pro ostatní vytvoøili:
+    Payoch
+    PeZ
+
+Skloòování jména hrdiny zaøídil z nejvìtší èásti:
+    Josef Drobný
+
+Vystoupení, jichž si jistojistì povšimnete:
+    Korgan - Thalen, Mirek Pospíšil
+    Lilarcor - Somnambulus
+
+Jazyk èeský obyvatele Faerunu nauèili:
+    Josef Drobný
+    Mirek Pospíšil
+    Eljarad
+    Jiøí "Arahant" Holeèek,
+    Thalen
+    Lukáš Rubeš
+    Jiøí Havlík
+    Zdenìk Králíèek
+    Zuzka Trundová
+    David "IN" Hanáèek
+    Jiøí Šimša
+    Martin Mostek
+    Foolisher
+    Adam Wicher, Petr Matušina, Tomáš Hertl, Jaroslav Matoušek, Ondra Vencovský, Declon, Ady, Mikis, Martin Olšovský, Jan Klos, Matouš Jaluška, Pavel Stingl, Tomáš "Claar" Jiroušek, Somnambulus, Lucie Šmídová, Arthur, Jiøí "Bur" Rubeš, Mirek, Shadow, Jiøí Janák, Marcus de Tycho, Panamon, Pavel Køikava, Martin Koèí, PeZ, Pavel Kelbl, Tomáš Jantaè, Tomahawk, Mirek Krupa, Kuba Verbovský, Tomáš "Gyngy" Repák, QaQ, Vojtìch Šefler, Lukáš "BIT-mág" Dunajèík, Bypass, Honza Haubner, Lishak, Jan Kravèík, Martin Zmeškal, Radek "Spider" Prùcha, S. Sejkora, Gawein, Runner, Pavel "pauL" Dvoøák, Peter Kremel, Redman, Dawe, Mirek Sadílek 
+
+S mnohými èesky promluvili a chyb vyvarovati se jim radili:
+    CEON
+    Divoška Jája
+    Jan Kravèík
+    Jan Novotný
+    Jiøí "Bur" Rubeš
+    Lojza
+    Pavel Kuèera
+    POLIS
+    Snah
+    Tomáš Písek
+    Vladimír Vanìk
+    Zdendys
+
+
+Na dalších stranách je velmi obsáhlý slovník, který družina zøejmì velmi èasto používala, protože stránky jsou pomuchlané a èasto pokapané inkoustem a rùznými jinými tekutinami.
+
+--= Kouzla =--
+
+Illusion/Phantasm - Iluze/Pøeludy
+Necromancy - Nekromancie
+Summoning - Povolávání
+Conjuration - Stvoøení
+Alteration - Promìny
+Abjuration - Ochrana
+Divination - Vìštìní
+Enchantment/Charm - Oèarování/Zmámení
+Evocation - Vyvolání
+Invocation - Invokace
+
+ÈARODÌJ
+úroveò 1
+
+anglicky - èeština (cz manual)
+
+Armor - Zbroj (Brnìní)
+Blindness - Slepota (Oslep)
+Burning Hands - Hoøící ruce
+Charm person - Zmam osobu (Oèaruj osobu)
+Chill touch - Mrazivý dotyk (Dotyk zimy)
+Chromatic orb - Barevná koule (Barevný orb)
+Colour spray - Barevná sprška
+Find familiar - Vyvolej pøítelíèka (Vyvolej pøítele)
+Friends - Pøátelé
+Grease - Sádlo (Tuk)
+Identify - Urèení (Rozpoznej)
+Infravision - Infravidìní
+Larloch’s Minor Drain - Larchovo menší vysátí
+Magic Missile - Magická støela (Kouzelná støela)
+Nahal's Reckless Dweomer - Nahalùv nevypoèitatelný dweomer
+Protection from Evil - Ochrana pøed zlem
+Protection from Petrification - Ochrana pøed zkamenìním
+Reflected Image - Odražený obraz
+Shield - Štít
+Shocking Grasp - Dìsivé sevøení
+Sleep - Spánek
+Spook - Strašidlo
+
+
+úroveò 2
+
+Agannazar’s Scorcher - Agannazarùv žár
+Blur - Rozmazání (Rozmaž)
+Chaos Shield - Chaotický štít
+Deafness - Hluchota
+Detect Invisibility - Najdi neviditelnost (Odhal neviditelnost)
+Ghoul Touch - Dotyk ghúla
+Glitterdust - Tøpytivý prach
+Horror - Dìs (Horor)
+Invisibility - Neviditelnost
+Knock - Zaklep
+Know Alignment - Poznej pøesvìdèení (Urèi pøesvìdèení)
+Luck - Štìstí
+Melf’s Acid Arrow - Melfùv kyselinový šíp (Melfùv kyselý šíp)
+Mirror Image - Zrcadlový obraz
+Power Word: Sleep - Mocné slovo: Spi
+Ray of Enfeeblement - Paprsek oslabení
+Resist Fear - Odolej strachu
+Stinking Cloud - Smrdící mrak (Smrdutý mrak)
+Strength - Síla
+Vocalize - Hlas (Ozvuè)
+Web - Pavuèina (Sí�)
+
+
+úroveò 3
+
+Clairvoyance - Jasnozøivost
+Detect Illusion - Odhal pøelud
+Dire Charm - Silná náklonnost (Strašlivé oèarování)
+Dispel Magic - Rozptyl magii
+Fireball - Ohnivá koule
+Flame Arrow - Ohnivý šíp
+Ghost Armor - Pøízraèná zbroj (Stínová zbroj)
+Haste - Spìch
+Hold Person - Drž osobu (Svaž postavu)
+Hold Undead - Drž nemrtvého (Svaž nemrtvého)
+Invisibility 10’ radius - Neviditelnost, polomìr 3 m
+Lightning Bolt - Blesk
+Melf’s Minute Meteors - Melfovy drobné meteory
+Minor Spell Deflection - Slabší odražení kouzla (Menší odražení kouzla)
+Monster Summoning I - Povolávání pøíšer I (Pøivolávání nestvùr I)
+Non-detection - Nezjistitelnost
+Protection From Cold - Ochrana pøed chladem
+Protection From Fire - Ochrana pøed ohnìm
+Protection from Normal Missiles - Ochrana pøed normálními støelami
+Remove Magic - Odstraò magii
+Skull Trap - Past lebka (Nastraž lebku)
+Slow - Zpomalení (Zpomal)
+Spell Thrust - Sejmi kouzlo
+Vampiric Touch - Upíøí dotyk (Dotyk upíra)
+
+
+úroveò 4
+
+Confusion - Zmatek (Zmatení)
+Contagion - Nákaza
+Emotion: Hopelessness - Emoce: Beznadìj
+Enchanted Weapon - Vyèaruj zbraò
+Farsight - Bystrozrakost (Dalekozrakost)
+Fireshield (Blue) - Ohnivý štít (Modrý)
+Fireshield (Red) - Ohnivý štít (Èervený)
+Greater Malison - Nepøíjemnosti (Velká zloba)
+Ice Storm - Ledová bouøe
+Improved Invisibility - Vylepšená neviditelnost (Zdokonalená neviditelnost)
+Minor Globe of Invulnerability - Menší koule nezranitelnosti
+Minor Sequencer - Slabší poøadaè kouzel (Menší poøadaè)
+Monster Summoning II - Povolávání pøíšer II (Pøivolávání nestvùr II)
+Otiluke’s Resilient Sphere - Otilukova nezdolná koule
+Polymorph Other - Promìò jiné (Zmìò jiné)
+Polymorph Self - Promìò sebe (Zmìò sebe)
+Remove Curse - Zruš kletbu (Sejmi kletbu)
+Secret Word - Tajné slovo
+Spider Spawn - Pavouèí zárodek
+Spirit Armor - Duševní zbroj (Zbroj duchù)
+Stoneskin - Kamenná kùže
+Teleport Field - Teleportaèní pole
+Wizard Eye - Èarodìjovo oko (Oko kouzelníka)
+
+
+úroveò 5
+
+Animate Dead - Oživ nemrtvé (Oživlá smrt)
+Breach - Zlom
+Chaos 
+Cloudkill - Smrtící mrak (Vražedný mrak)
+Cone of Cold - Kužel mrazu (Kužel chladu)
+Conjure Lesser Air Elemental - Vyvolej slabšího vzdušného elementála (Vyvolání slabšího elementála vzduchu)
+Conjure Lesser Earth Elemental - Vyvolej slabšího elementála zemì (Vyvolání slabšího elementála zemì)
+Conjure Lesser Fire Elemental - Vyvolej slabšího ohnivého elementála (Vyvolání slabšího elementála ohnì)
+Domination - Ovládnutí (Nadvláda)
+Feeblemind - Slabomyslnost
+Hold Monster - Drž pøíšeru (Svaž nestvùru)
+Lower Resistance - Zeslab odolnost
+Minor Spell Turning - Slabší odvracení kouzla (Menší odvracení kouzla)
+Monster Summoning III - Povolávání pøíšer III (Pøivolávání nestvùr III)
+Oracle - Vìštírna
+Phantom Blade - Stínový meè
+Protection From Acid - Ochrana pøed kyselinou
+Protection From Electricity - Ochrana pøed elektøinou
+Protection from Normal Weapons - Ochrana pøed normálními zbranìmi
+Shadow Door - Stínové dveøe (Nastiò dveøe)
+Spell Immunity - Odolnost proti kouzlu
+Spell Shield - Kouzelný štít
+Sunfire - Sluneèní žár
+
+
+úroveò 6
+
+Carrion Summons - Povolej mrchožrouta (Pøivolej èerva)
+Chain Lightning - Øetìzový blesk
+Conjure Air Elemental - Vyvolej vzdušného elementála (Vyvolání elementála vzduchu)
+Conjure Earth Elemental - Vyvolej elementála zemì (Vyvolání elementála zemì)
+Conjure Fire Elemental - Vyvolej ohnivého elementála (Vyvolání elementála ohnì)
+Contingency - Eventualita
+Death Fog - Smrtící mlha
+Death Spell - Kouzlo smrti
+Disintegrate - Rozložení
+Flesh to Stone - Maso na kámen
+Globe of Invulnerability - Koule nezranitelnosti
+Improved Haste - Zdokonalený spìch
+Invisible Stalker - Neviditelný stopaø
+Mislead - Sple�
+Pierce Magic - Proraž kouzlo (Magický prùnik)
+Power Word Silence - Mocné slovo: Ticho
+Protection From Magic Energy - Ochrana pøed magickou energií
+Protection from Magical Weapons - Ochrana pøed magickými zbranìmi
+Spell Deflection - Odražení kouzla
+Stone to Flesh - Kámen na maso
+Summon Nishruu - Pøivolej Nishruu
+Tenser’s Transformation - Tenserova pøemìna
+True Sight - Pravdivé vidìní (Skuteèné vidìní)
+Wyvern Call - Povolej wyverna
+
+
+úroveò 7
+
+Cacofiend - Kakodémon
+Control Undead - Ovládni nemrtvého
+Delayed Blast Fireball - Zpoždìná výbušná koule (Nekontaktní výbušná ohnivá koule)
+Finger of Death - Prst smrti
+Improved Chaos Shield - Vylepšený chaotický štít
+Limited Wish - Omezené pøání
+Mantle - Pláš�
+Mass Invisibility - Hromadná neviditelnost
+Mordenkainen’s Sword - Mordenkainenùv meè
+Power Word, Stun - Mocné slovo: Omraè
+Prismatic Spray - Duhová sprška (Duhový sprej)
+Project Image - Vytvoø obraz
+Protection from the Elements - Ochrana pøed elementy (Ochrana pøed elementály)
+Ruby Ray of Reversal - Zpìtný rubínový paprsek
+Spell Sequencer - Poøadaè kouzel (Kouzelný poøadaè)
+Spell Turning - Odvracení kouzla
+Sphere of Chaos - Koule chaosu
+Summon Djinni - Pøivolej džina
+Summon Efreeti - Pøivolej ifríta
+Summon Hakeashar - Pøivolej Hakeashara
+Khelben’s Warding Whip - Khelbenùv obranný šleh
+
+
+úroveò 8
+
+Abi-Dalzim’s Horrid Wilting - Strašlivé vadnutí Abi-Dalzima
+Bigby's Clenched Fist - Bigbyho sevøená pìst
+Improved Mantle - Zdokonalený pláš�
+Incendiary Cloud - Zápalný mrak
+Maze - Labyrint
+Pierce Shield - Pronikni štítem
+Power Word Blind - Mocné slovo: Oslep
+Protection from Energy - Ochrana pøed energií
+Simulacrum - Dvojník
+Spell Trigger - Kouzelná spouš�
+Summon Fiend - Pøivolej démona
+Symbol, Death - Symbol, Smrt
+Symbol, Fear - Symbol, Strach
+Symbol, Stun - Symbol, Omraè
+
+
+úroveò 9
+
+Absolute Immunity - Absolutní odolnost
+Bigby's Crushing Hand - Bigbyho drtící ruka
+Black Blade of Disaster - Èerný meè katastrof
+Chain Contingency - Øetìzová eventualita
+Energy Drain - Vysátí energie (Vysaj energii)
+Freedom - Svoboda
+Gate - Brána
+Imprisonment - Uvìznìní
+Meteor Swarm - Meteorický roj
+Power Word, Kill - Mocné slovo: Zabij
+Shapechange - Promìna (Zmìò tvar)
+Spellstrike - Kouzelný úder
+Spell Trap - Past na kouzla (Kouzelná past)
+Time Stop - Zastav èas
+Wail of the Banshee - Kvílení bánší (Kvílení Banshee)
+Wish - Pøání
+
+
+úroveò 10
+Comet - Kometa
+Dragon's Breath - Draèí dech
+Energy Blades - Energetické èepele
+Improved Alacrity - Vylepšená hbitost
+Summon Dark Planetar - Povolej Temného Planetara
+Summon Planetar - Povolej Planetara
+
+
+KNÌZ
+úroveò 1
+
+Armor of Faith - Brnìní víry
+Bless - Požehnání (Požehnej)
+Command Word: Die - Pøíkaz: Usni
+Cure Light Wounds - Vyleè lehká zranìní (Uzdrav lehká zranìní)
+Detect Evil - Najdi zlo (Odhal zlo)
+Doom - Záhuba
+Entangle - Zapletení (Zaple�)
+Magical Stone - Magický kámen (Kouzelný kámen)
+Protection from Evil - Ochrana pøed zlem (Ochraò pøed zlem)
+Remove Fear - Odstraò strach (Zbav strachu)
+Sanctuary - Útoèištì (Svatynì)
+Shillelagh - Sukovice
+
+
+úroveò 2
+
+Aid - Posílení (Pomož)
+Barkskin - Kùra (Kùže z kùry)
+Chant - Žalm (Liturgický zpìv)
+Charm Person or Mammal - Zmam osobu nebo savce (Oèaruj osobu nebo savce)
+Draw Upon Holy Might - Posílení svatou mocí (Èerpej posvátnou moc)
+Find Traps - Najdi pasti
+Flame Blade - Plamenná èepel (Ohnivý meè)
+Goodberry - Bobulky (Dobré bobule)
+Hold Person - Drž osobu (Svaž postavu)
+Know Alignment - Poznej pøesvìdèení (Urèi pøesvìdèení)
+Resist Fire and Cold - Odolej ohni a mrazu (Odolej ohni a chladu)
+Silence, 15’ Radius - Ticho, polomìr 5 m (Ticho, 15' kolem)
+Slow Poison - Zpomal jed (Zpomal otravu)
+Spiritual Hammer - Duchovní kladivo
+
+
+úroveò 3
+
+Animate Dead - Oživ nemrtvé (Oživlá smrt)
+Call Lightning - Pøivolej blesk (Sešli blesk)
+Cure Disease - Uzdrav nemocného
+Cure Medium Wounds - Vyleè støední zranìní (Uzdrav støední zranìní)
+Dispel Magic - Rozptyl magii
+Glyph of Warding - Runa ochrany (Ochranná runa)
+Hold Animal - Drž zvíøe (Svaž zvíøe)
+Holy Smite - Svatý úder
+Invisibility Purge - Zrušení neviditelnosti (Vyèisti neviditelnost)
+Miscast Magic - Narušení magie (Poškoï magii)
+Protection from Fire - Ochrana pøed ohnìm (Ochraò pøed ohnìm)
+Remove Curse - Zruš kletbu (Sejmi kletbu)
+Remove Paralysis - Odstraò ochromení
+Rigid Thinking - Otupìlá mysl (Strnulé myšlení)
+Strength of One - Síla Jednoho
+Summon Insects - Povolej hmyz (Pøivolej hmyz)
+Unholy Blight - Bezbožná zkáza
+Zone of Sweet Air - Oblast èerstvého vzduchu (Zóna pøíjemného vzduchu)
+
+
+úroveò 4
+
+Animal Summoning I - Povolávání zvíøat I (Pøivolání zvíøat I)
+Call Woodland Beings - Vyvolej lesní bytost
+Cause Serious Wounds - Zpùsob tìžká zranìní 
+Cloak of Fear - Pláš� strachu
+Cure Serious Wounds - Vyleè tìžká zranìní (Uzdrav tìžká zranìní)
+Death Ward - Odraz smrt
+Defensive Harmony - Obranná harmonie (Obranná svornost)
+Farsight - Dalekozrakost
+Free Action - Volná akce (Uvolni)
+Holy Power - Svatá síla
+Lesser Restoration - Slabší obnova (Menší obnova)
+Mental Domination - Duševní ovládnutí (Duševní nadvláda)
+Negative Plane Protection - Ochrana pøed negativní sférou (Ochraò pøed negativní dimenzí)
+Neutralize Poison - Neutralizuj jed
+Poison - Otrav
+Protection From Evil 10’ Radius - Ochrana pøed zlem, polomìr 3 m (Ochraò pøed zlem v okruhu 10')
+Protection From Lightning - Ochrana pøed bleskem (Ochraò pøed bleskem)
+
+
+úroveò 5
+
+Animal Summoning II - Povolávání zvíøat II (Pøivolání zvíøat I)
+Cause Critical Wounds - Zpùsob kritická zranìní
+Chaotic Commands - Zmatené pøíkazy
+Cure Critical Wounds - Vyleè kritická zranìní (Uzdrav kritická zranìní)
+Champion’s Strength - Hrdinská síla (Síla šampióna)
+Flame Strike - Plamenný úder (Plamenný útok)
+Greater Command - Vìtší pøíkaz
+Insect Plague - Epidemie hmyzu
+Iron Skins - Železná kùže
+Magic Resistance - Odolnost proti magii
+Mass Cure - Hromadné léèení
+Pixie Dust - Prach skøítkù
+Raise Dead - Oživ mrtvého
+Repulse Undead - Odraz nemrtvého
+Righteous Magic - Spravedlivá magie
+Slay Living - Zabij živé
+True Seeing - Pravdivé vidìní (Skuteèné vidìní)
+
+
+úroveò 6
+
+Aerial Servant - Vzdušný sluha (Vzdušný služebník)
+Animal Summoning III - Povolávání zvíøat III (Pøivolání zvíøat I)
+Blade Barrier - Hradba meèù (Pøehrada z meèù)
+Bolt of Glory - Blesk slávy
+Conjure Animals - Vyvolej zvíøata
+Conjure Fire Elemental - Vyvolej ohnivého elementála (Vyvolání elementála ohnì)
+Dolorous Decay - Bolestivá hniloba
+False Dawn - Falešné svítání
+Fire Seeds - Žhavé uhlíky (Semena ohnì)
+Harm - Zraò
+Heal - Uzdrav
+Physical Mirror - Fyzické zrcadlo
+Sol’s Searing Orb - Solùv žhavý kámen (Solùv žhavý orb)
+Wondrous Recall - Bájeèná vzpomínka
+
+
+úroveò 7
+
+Confusion - Zmatek (Zmatení)
+Conjure Earth Elemental - Vyvolej elementála zemì (Vyvolání elementála zemì)
+Creeping Doom - Plíživá záhuba
+Earthquake - Zemìtøesení
+Finger of Death - Prst smrti
+Fire Storm - Ohnivá bouøe
+Gate - Brána
+Holy Word - Svaté slovo
+Nature’s Beauty - Kráska (Krasavice)
+Greater Restoration - Silnìjší obnova (Vìtší obnova)
+Resurrection - Vzkøíšení
+Shield of the Archons - Štít Archonù
+Sunray - Sluneèní paprsek
+Symbol, Stun - Symbol, Omraè
+Symbol, Death - Symbol, Smrt
+Symbol, Fear - Symbol, Strach
+Unholy Word - Bezbožné slovo
+
+
+úroveò: za zásluhy
+
+Aura of Flaming Death - Aura plamenné smrti
+Elemental Summoning - Povolávání elementálù
+Elemental Transformation (Earth) - Pøemìna v elementála (Zemì)
+Elemental Transformation (Fire) - Pøemìna v elementála (Oheò)
+Globe of Blades - Koule èepelí
+Greater Elemental Summoning - Silnìjší povolávání elementálù
+Implosion - Pohlcení
+Mass Raise Dead - Hromadné oživení mrtvých
+Storm of Vengeance - Pomsta z nebes
+Summon Deva - Povolej Devu
+Summon Fallen Deva - Povolej padlou Devu
+
+
+--= mìsta, vesnice, místa =--
+
+Umar hills - Umaøina vrchovina
+Imnesvale - Imneské údolí
+Windspear Hills - Vìtrné vršky
+Trademeet - Trhov
+Cloakwood - Zahalený les
+Wood of Sharp Teeth - Les Ostrých zubù
+Cloudpeaks - Mraèné vrchy
+Underdark - Podtemno
+Waterdeep - Hlubina
+Inner sea - Vnitøní moøe
+Forest of Tethir - Tethirský les
+
+City o' Coin - Mìsto Mincí
+Spellhold - Èarotvrz
+Asylum - Leèebna
+Lower tombs - Spodní hrobky
+
+Bridge district - Most
+Docks district - Pøístavní ètvr�
+Government District - Vládní ètvr�
+Graveyard District - Høbitov
+Slums District - Chudinská ètvr�
+Temple District - Chrámová ètvr�
+Waukeen's Promenade - Waukeenina Promenáda
+
+Friendly Arms - Pøátelská náruè
+Candlekeep - Svítící tvrz
+Baldur's Gate - Baldurova Brána
+Sword Coast - Meèové pobøeží
+
+hospody, hostince a jiné budovy:
+
+Five Flagons - U Pìti džbánkù
+Copper Coronet - U Mìdìné èelenky
+Adventurer's Mart - Dobrodruhùv krámek
+Sea's Bounty - Moøská štìdrost
+Crooked Crane - U Køivého jeøába
+Lady Galvena's Parlor - Salon Paní Galveny
+Vulgar Monkey - U Sprosté opice
+Den of Seven vales - Doupì sedmi zahalených
+
+Sdružení, gildy, spolky:
+
+Cowled wizards - Zahalení èarodìjové
+Night Knives - Dýky noci
+Most Noble Order of the Radiant Heart - Nejurozenìjší Øád Záøícího srdce
+Council of Six - Rada šesti
+Flaming Fist - Ohnivá pìst
+Iron Throne - Železný trùn
+Shadow Thieves - Stínoví zlodìji
+Shadow Druids - Stinoví druidové
+Zhents,Zhentarim - Zhentové, Zhentarimové
+Seven Suns - Sedm sluncí
+Mechant League - Kupecký svaz
+Harpers - Harfeníci
+Harper Hold - Pevnost Harfeníkù
+Sigil theatre troupe (group) - Sigilská herecká skupina (spoleènost)
+Enlightened Ones - Osvícení
+Cult of the Eyeless - Kult Bezokých
+Gibbering Twelve - Drmolící dvanáctka
+guild - gilda
+Avariel - Avarielové
+
+obecné termíny, hodnosti, dohodnuté pøeklady:
+
+fair folk - slièný/ušlechtilý lid
+rivvin - rivvin
+rivvil - rivvil
+dweomer - dweomer
+
+Magistrate - Magistrát
+
+Staff of Thunder and Lightning - Hùl hromu a blesku
+Rhynn Lanthorn - Rhynnská lampa
+plannar sphere - planární koule
+scimitar - scimitar
+Nether scroll - Podzemní svitek
+Tear of Bhaal - Bhaalova slza
+Jan Jansen's Flasher Master Bruiser - Mistrovský Oslepovaè Rváèù Jana Jansena
+Volo's Guides - Volo'ùv prùvodce
+Pit of the Faithless - Jáma Nevìøících
+Mithril Token - Mithrilový žeton
+cabin - srub
+
+Blackrazor - Èerná èepel
+
+Temple of the dawn - Chrám úsvitu
+Temple of the Watcher - Chrám Strážce
+Temple of the Stormlord - Chrám Pána bouøí
+
+Shadow altar - Oltáø stínù
+Shadow portal - Portál stínù
+Shadow Lord - Lord stínù
+
+Time of Troubles - Doba nesnází
+The Year of The Burning Sky - rok Planoucího nebe
+The Year of the Harvest of Scales - rok Skliznì šupin
+Scale - Šupina
+Seeker - Pátraè
+
+PLANESCAPE ODKAZY
+Plane - sféra
+tiefling - tiefling
+Doomguard - Strážci zkázy
+Plane of Air - Sféra vzduchu
+Primes (napr. obyvatelé zakladni sfery) - Základníci
+Plane of Dust - Sféra prachu
+Quasi-Elemental Plane of Dust - Kvazi-elementální Sféra prachu
+Planeswalker - Poutník sfér
+Prime Material (plane) -  Základní materiální (sféra)
+Outer Planes - Vnìjší sféry
+Abyss - Peklo
+Lady of Pain - Paní bolesti
+Blood War - Válka krve
+Astral - Astrální (sféra)
+multiverse - mnohovesmír
+cambion - cambion
+Fated - Osudoví
+
+--= rasy, povolání =--
+
+dwarf - trpaslík
+halfling - pùlèík
+half-elf - pùl-elf
+half-orc - pùl-ork
+gnome - gnóm
+
+fighter - bojovník
+ranger - hranièáø 
+paladin
+cleric - klerik
+druid
+thief - zlodìj
+bard
+mage - mág
+wizard - èarodìj
+sorcerer - zaklínaè
+monk - mnich
+barbarian - barbar
+
+potvory:
+
+beholder - beholder
+carrion crawler - mrchožrout
+djinn - džin
+drow - drow
+dryad - dryáda
+gargoyle - gargoyla 
+genie - džin
+ghoul - ghùl
+giant - obr
+gibberling - divous
+Grey ones - Šediví
+griffon - gryf
+hobgoblin - skurut
+jelly - rosol
+kobold - kobold
+lich - lich
+Mimic - Mimik
+mindflayer - mozkožrout
+miniature giant space hamster - zmenšený obøí kosmický køeèek
+necromancer - nekromant
+ogre - zlobr
+ooze - sliz
+orog - orog
+rakshasa - rakshasa
+red dragon - rudý drak
+shadow dragon - stínový drak
+silver dragon - støíbrný drak
+skeleton - kostlivec
+spectre - spektra
+spirit - duch
+werewolf - vlkodlak
+wolfwere - dlakovlk
+wyrm - plaz
+wyvern - wyvern
+
+tituly, jména:
+
+Shadowmaster - Stínový pán
+Shade Lord - Pán Pøízrakù
+Morninglord - Pán úsvitu
+Stormlord - Pán bouøí
+Dawnbringer - Nositel úsvitu
+Great Guard - Vyšší stráž
+Herald - Herold
+High Heralds - Vrchní Heroldové
+Chief Inspector - Šéfinspektor
+weaponmaster - zbrojmistr
+master of weapons - mistr zbrojir
+viceregent - místodržící
+Fairy Queen - Královna víl
+Challenge Master - Mistr vyzyvatel
+Spider Queen - Pavouèí královna
+Matron - Matka
+Handmaiden - Služebnice
+High Merchant - První kupec
+Shark-Father - Žraloèí otec
+Exile - Vyhnanec (pojmenování Irenica u elfù)
+Coordinator - Koordinátor (pojmenování Irenica v Léèebnì)
+guildmaster - gildmistr
+Avatar - Avatar
+Pirate Lord - Pán pirátù
+One = Jediný
+
+Raging One - Zuøivý
+Hidden - Skrytý
+Unseeing Eye - Nevidoucí oko
+
+Renal Bloodscalp - Renal Bloodscalp
+Korgan Bloodaxe - Korgan Krvavá sekera
+Gorf the Squisher - Gorf Drtiè
+Lolth - Lolth   (pavouèí bohynì)
+
+HIERARCHIE DRUIDÙ
+1 - Initiate = Zasvìcenec
+2 - Druid = Druid
+3 - Archdruid = Arcidruid
+4 - Great Druid = Veledruid
+5 - Grand Druid = Hierofant (muž) / Flaminika (žena)
+
+
+--= BOŽSTVA =--
+
+Auril - bohynì chladu, zimy
+Azuth - bohynì èarodìjù a mágù
+Bane - bùh svárù, tyranie, nenávisti
+Beshaba - bohynì smùly, nehod
+Bhaal - bùh smrti (zvláštì násilné a rituální)
+Chauntea - bohynì zemìdìlství, pøírody 
+Cyric - bùh smrti, lží, tyranie, vraždìní 
+Deneir - bùh literatury, gramotnosti, patron umìlcù
+Eldath - bohynì vodopádù, pramenù, klidu, stálosti, tichých míst
+Gond - bùh zruènosti, budování
+Helm - bùh strážcù a ochráncù
+Ilmater - Plaèící bùh - bùh vytrvalosti, utrpení, muèednictví
+Lathander - Pán úsvitu - bùh jara, úsvitu, narození, obnovy 
+Leira - bohynì klamù, iluzí
+Lliira - bohynì radosti, štìstí, tance, svobody
+Loviatar - bohynì bolesti, utrpení
+Malar - bùh bestií, divoèiny, lovu
+Mask (=Maska) - bùh zlodìjù, intrik
+Mielikki - Paní lesa - bohynì lesù a lesních bytostí
+Milil - bùh poezie, písní, výmluvnosti
+Myrkul - bùh mrtvých
+Mystra - Paní záhad - bohynì magie
+Oghma - bùh vìdìní, vynálezù
+Selune - bohynì mìsíce, hvìzd a navigátorù
+Shar - bohynì temnoty, noci, ztráty, zapomnìní
+Silvanus - bùh pøírody
+Sune - bohynì lásky, krásy, vášnì
+Talona - bohynì jedù, chorob
+Talos - Pán bouøí - bùh bouøí, požárù, zemìtøesení, tornád, nièení všeobecnì
+Temopus - bùh války
+Torm - bùh oddanosti, vìrnosti, patron paladinù
+Tymora - Dáma štìstìny - bohynì štìstí, zruènosti, vítìzství
+Tyr - bùh spravedlnosti
+Umberlee - Královna dìvka - bohynì moøí, vod, vln
+Waukeen - bohynì obchodu, penìz, bohatství
+
+všemu tomu velí Ao
+
+
+ELFÍ BOHOVÉ
+celý panteon se nazývá Seldarin
+Corellon Larethian - tvùrce elfù, hlava elfího panteonu
+    ohlednì pohlaví, cituji "Corellon manifests as either gender"
+Aerdrie Faenya - bohynì vzduchu, poèasí, úrodnosti
+Deep Sashelas - bùh moøí
+Erevan Ilesere - bùh zmìn, zlodìjù
+Fenmarel Mestarine - bùh vyvrhel
+Hanali Celanil - bohynì romantiky, krásy
+Labelas Enoreth - bùh èasu, dlouhovìkosti
+Rillifane Rallathil - bùh divoèiny a divokých elfù
+Sehanine - bohynì mìsíce
+Solonor Thelandira - bùh lovu, lukostøelcù
+
+TRPASLIÈÍ BOHOVÉ
+Moradin - tvùrce trpaslièí rasy, hlava trpaslièího panteonu
+Abbathor - jediný zlý trpaslièí bùh
+Berronar Truesilver - bohynì manželství, lásky, domácího krbu
+Clangeddin Silverbeard - bùh válek
+Dugmaren Brightmantle - bùh experimentù, vynálezù, objevù
+Dumathoin - bùh hornictví, prùzkumu podzemí
+Gorm Gultyn - ochránce a strážce trpaslièí rasy
+Haela Brightaxe - bohynì váleèníkù, cestovatelù
+Marthammor Duin - vùh poutníkù
+Sharindlar - bohynì léèení, smilování
+Vergdain - bùh štìstí, bohatství
+
+BOHOVÉ PÙLÈÍKÙ
+Yondalla - hlava panteonu, ochránkynì pùlèíkù
+Arvoreen - bùh války
+Brandobaris - bùh dobrodruhù, zlodìjù
+Cyrrollalee - bohynì domova, pøátelství, dùvìry
+Sheela Peryroyl - bohynì pøírody, poèasí, zemìdìlství, lásky
+Urogalan - bùh smrti, zemì
+Tymora - viz výše, pùlèíci ji pøijali za svou :)
+
+BOHOVÉ GNÓMÙ
+Garl Glittergold - hlava gnómího panteonu, bùh moudrosti
+Baervan Wildwanderer - bùh cestování, pøírody
+Baravar Cloakshadow - bùh iluzí, klamù, podvodù
+Flandal Steelskin - bùh hornictví, kováøù
+Gaerdal Ironhand - bùh války
+Segojan Earthcaller - bùh pøírody
+Urdlen - bùh zla, zkaženosti, krvežíznivosti
+Gond Wonderbringer - viz výše, to víte bùh zruènosti :)
+
+BOHOVÉ JINÝCH RAS
+jen malý výbìr
+
+DRACI
+Asgorath - ten hlavní bùh
+Zorquan - bùh "draèství" (tedy stavu, kde je nìkdo drakem :)
+Xymor - bùh spravedlnosti
+Hlal - bùh humoru
+
+DROWOVÉ
+Lolth (nebo Lloth) - nejznámnìjší drowí bohynì, Pavouèí královna
+Eilistraee - bohynì dobrých drowù (co prosím? :)
+Ghaunadaur - bùh rebelù
+Vhaeraun - bùh zlodìjù
+
+MOZKOŽROUTI
+Ilsensine - jeden z hlavních bohù, podle nìj jednou illithidé ovládnou svìt
+
+ZLOBØI A TROLLOVÉ
+Vaprak - jednoruký bùh šílenství a vraždìní~

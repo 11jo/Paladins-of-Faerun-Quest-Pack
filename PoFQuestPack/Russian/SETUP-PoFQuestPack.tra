@@ -500,7 +500,7 @@ THACO:  +3 бонус
 —ила+2, 
 30%-шанс при ударе активировать "огненный шар", 
 дает выозможность колдовать заклинани€: "спешка" (3 раза в день), 
-улучшенна€ невидимость" (2 раза в день).			
+"улучшенна€ невидимость" (2 раза в день).			
 			
 THACO:  +2 бонус	
 ”рон:  1d8 +2	
@@ -3818,6 +3818,815 @@ THAC0:  +3 бонус
 @1052 = ~Ќа нас напали эльфы!~
 @1053 = ~¬ход в јндердарк~
 @1054 = ~“ы напал на паладина нежить~
+
+///Additions///
+
+////Dagger (cdmod.ITM / Xcd.ITM) Order and Chaos quest.////
+@1060 = ~Dagger~
+@1061 = ~Dagger~
+@1062 = ~The Cyric emblem is carved on the handle.~
+//@1063 = ~The Cyric emblem is carved on the handle.~
+
+/////XGLRDR.CRE - LRDRMOD.CRE///// Not present but in tra folder
+@1065 = ~Lord Dread~ // Lord Dread
+@1066 = ~Lord Dread~ // Lord Dread
+
+////XGBOOKP.itm - BOOKPR.itm////
+@2000 = ~Grimoire~
+@2003 = ~Grimoire des interpretes~ ~Grimoire des d'Oghmatiques~
+@2001 = ~Tuto knihu vytvooili Oghmovi stoupenci pro skupinu dobrodruhu, kteoi se snazili zminit svit. Tato skupina jesti donedavna bloudila Faerunem a kazdeho, kdo jim zkoizil cestu, se snazili naueit jejich podivnemu jazyku, kteremu oikali "EESTINA". Pomoci teto knihy dobrodruzi rozmlouvali s Oghmovymi knizimi, kteoi jim byli easto velmi napomocni poi tomto nelehkem ukolu. 
+
+
+Na prvni strance je ponikud podivne vinovani:
+
+
+  My BG2CZ team vinujeme tuto knihu tobi, <CHARNAME>, aby ti navzdy poipominala skupinu dobrodruhu, kteoi poipravili Faerun na tvuj poichod a naueili zdejsi lid mluvit tvym rodnym jazykem. Az ti nikdy rozeili nijaky hloupy Imp nebo Drow, ktereho jsme nedokazali doboe naueit tvoji mateostinou, doiv nez nas za toho nebozaka proklejes, mil bys nas pochvalit za kazdeho, ktereho jsme tvoji mateostinu naueili doboe.
+
+
+Na druhe strance je seznam vsech, kteoi se na tomto usili podileli:
+
+
+Vudce druziny, ke konci pouti silenstvim pronasledovany:
+    Adam "Christof" Rambousek
+Podikovani patoi vsem stejnou mirou, nebo? nechci na nikoho zapomenout.
+
+Pismo a vhodne magicke pomucky pro ostatni vytvooili:
+    Payoch
+    PeZ
+
+Sklooovani jmena hrdiny zaoidil z nejvitsi easti:
+    Josef Drobny
+
+Vystoupeni, jichz si jistojisti povsimnete:
+    Korgan - Thalen, Mirek Pospisil
+    Lilarcor - Somnambulus
+
+Jazyk eesky obyvatele Faerunu naueili:
+    Josef Drobny
+    Mirek Pospisil
+    Eljarad
+    Jioi "Arahant" Holeeek,
+    Thalen
+    Lukas Rubes
+    Jioi Havlik
+    Zdenik Kralieek
+    Zuzka Trundova
+    David "IN" Hanaeek
+    Jioi Simsa
+    Martin Mostek
+    Foolisher
+    Adam Wicher, Petr Matusina, Tomas Hertl, Jaroslav Matousek, Ondra Vencovsky, Declon, Ady, Mikis, Martin Olsovsky, Jan Klos, Matous Jaluska, Pavel Stingl, Tomas "Claar" Jirousek, Somnambulus, Lucie Smidova, Arthur, Jioi "Bur" Rubes, Mirek, Shadow, Jioi Janak, Marcus de Tycho, Panamon, Pavel Koikava, Martin Koei, PeZ, Pavel Kelbl, Tomas Jantae, Tomahawk, Mirek Krupa, Kuba Verbovsky, Tomas "Gyngy" Repak, QaQ, Vojtich Sefler, Lukas "BIT-mag" Dunajeik, Bypass, Honza Haubner, Lishak, Jan Kraveik, Martin Zmeskal, Radek "Spider" Prucha, S. Sejkora, Gawein, Runner, Pavel "pauL" Dvooak, Peter Kremel, Redman, Dawe, Mirek Sadilek 
+
+S mnohymi eesky promluvili a chyb vyvarovati se jim radili:
+    CEON
+    Divoska Jaja
+    Jan Kraveik
+    Jan Novotny
+    Jioi "Bur" Rubes
+    Lojza
+    Pavel Kueera
+    POLIS
+    Snah
+    Tomas Pisek
+    Vladimir Vanik
+    Zdendys
+
+
+Na dalsich stranach je velmi obsahly slovnik, ktery druzina zoejmi velmi easto pouzivala, protoze stranky jsou pomuchlane a easto pokapane inkoustem a ruznymi jinymi tekutinami.
+
+--= Kouzla =--
+
+Illusion/Phantasm - Iluze/Poeludy
+Necromancy - Nekromancie
+Summoning - Povolavani
+Conjuration - Stvooeni
+Alteration - Prominy
+Abjuration - Ochrana
+Divination - Vistini
+Enchantment/Charm - Oearovani/Zmameni
+Evocation - Vyvolani
+Invocation - Invokace
+
+EARODIJ
+uroveo 1
+
+anglicky - eestina (cz manual)
+
+Armor - Zbroj (Brnini)
+Blindness - Slepota (Oslep)
+Burning Hands - Hooici ruce
+Charm person - Zmam osobu (Oearuj osobu)
+Chill touch - Mrazivy dotyk (Dotyk zimy)
+Chromatic orb - Barevna koule (Barevny orb)
+Colour spray - Barevna sprska
+Find familiar - Vyvolej poitelieka (Vyvolej poitele)
+Friends - Poatele
+Grease - Sadlo (Tuk)
+Identify - Ureeni (Rozpoznej)
+Infravision - Infravidini
+LarlochТs Minor Drain - Larchovo mensi vysati
+Magic Missile - Magicka stoela (Kouzelna stoela)
+Nahal's Reckless Dweomer - Nahaluv nevypoeitatelny dweomer
+Protection from Evil - Ochrana poed zlem
+Protection from Petrification - Ochrana poed zkameninim
+Reflected Image - Odrazeny obraz
+Shield - Stit
+Shocking Grasp - Disive sevoeni
+Sleep - Spanek
+Spook - Strasidlo
+
+
+uroveo 2
+
+AgannazarТs Scorcher - Agannazaruv zar
+Blur - Rozmazani (Rozmaz)
+Chaos Shield - Chaoticky stit
+Deafness - Hluchota
+Detect Invisibility - Najdi neviditelnost (Odhal neviditelnost)
+Ghoul Touch - Dotyk ghula
+Glitterdust - Topytivy prach
+Horror - Dis (Horor)
+Invisibility - Neviditelnost
+Knock - Zaklep
+Know Alignment - Poznej poesvideeni (Urei poesvideeni)
+Luck - Stisti
+MelfТs Acid Arrow - Melfuv kyselinovy sip (Melfuv kysely sip)
+Mirror Image - Zrcadlovy obraz
+Power Word: Sleep - Mocne slovo: Spi
+Ray of Enfeeblement - Paprsek oslabeni
+Resist Fear - Odolej strachu
+Stinking Cloud - Smrdici mrak (Smrduty mrak)
+Strength - Sila
+Vocalize - Hlas (Ozvue)
+Web - Pavueina (Si?)
+
+
+uroveo 3
+
+Clairvoyance - Jasnozoivost
+Detect Illusion - Odhal poelud
+Dire Charm - Silna naklonnost (Straslive oearovani)
+Dispel Magic - Rozptyl magii
+Fireball - Ohniva koule
+Flame Arrow - Ohnivy sip
+Ghost Armor - Poizraena zbroj (Stinova zbroj)
+Haste - Spich
+Hold Person - Drz osobu (Svaz postavu)
+Hold Undead - Drz nemrtveho (Svaz nemrtveho)
+Invisibility 10Т radius - Neviditelnost, polomir 3 m
+Lightning Bolt - Blesk
+MelfТs Minute Meteors - Melfovy drobne meteory
+Minor Spell Deflection - Slabsi odrazeni kouzla (Mensi odrazeni kouzla)
+Monster Summoning I - Povolavani poiser I (Poivolavani nestvur I)
+Non-detection - Nezjistitelnost
+Protection From Cold - Ochrana poed chladem
+Protection From Fire - Ochrana poed ohnim
+Protection from Normal Missiles - Ochrana poed normalnimi stoelami
+Remove Magic - Odstrao magii
+Skull Trap - Past lebka (Nastraz lebku)
+Slow - Zpomaleni (Zpomal)
+Spell Thrust - Sejmi kouzlo
+Vampiric Touch - Upioi dotyk (Dotyk upira)
+
+
+uroveo 4
+
+Confusion - Zmatek (Zmateni)
+Contagion - Nakaza
+Emotion: Hopelessness - Emoce: Beznadij
+Enchanted Weapon - Vyearuj zbrao
+Farsight - Bystrozrakost (Dalekozrakost)
+Fireshield (Blue) - Ohnivy stit (Modry)
+Fireshield (Red) - Ohnivy stit (Eerveny)
+Greater Malison - Nepoijemnosti (Velka zloba)
+Ice Storm - Ledova bouoe
+Improved Invisibility - Vylepsena neviditelnost (Zdokonalena neviditelnost)
+Minor Globe of Invulnerability - Mensi koule nezranitelnosti
+Minor Sequencer - Slabsi pooadae kouzel (Mensi pooadae)
+Monster Summoning II - Povolavani poiser II (Poivolavani nestvur II)
+OtilukeТs Resilient Sphere - Otilukova nezdolna koule
+Polymorph Other - Promio jine (Zmio jine)
+Polymorph Self - Promio sebe (Zmio sebe)
+Remove Curse - Zrus kletbu (Sejmi kletbu)
+Secret Word - Tajne slovo
+Spider Spawn - Pavouei zarodek
+Spirit Armor - Dusevni zbroj (Zbroj duchu)
+Stoneskin - Kamenna kuze
+Teleport Field - Teleportaeni pole
+Wizard Eye - Earodijovo oko (Oko kouzelnika)
+
+
+uroveo 5
+
+Animate Dead - Oziv nemrtve (Ozivla smrt)
+Breach - Zlom
+Chaos 
+Cloudkill - Smrtici mrak (Vrazedny mrak)
+Cone of Cold - Kuzel mrazu (Kuzel chladu)
+Conjure Lesser Air Elemental - Vyvolej slabsiho vzdusneho elementala (Vyvolani slabsiho elementala vzduchu)
+Conjure Lesser Earth Elemental - Vyvolej slabsiho elementala zemi (Vyvolani slabsiho elementala zemi)
+Conjure Lesser Fire Elemental - Vyvolej slabsiho ohniveho elementala (Vyvolani slabsiho elementala ohni)
+Domination - Ovladnuti (Nadvlada)
+Feeblemind - Slabomyslnost
+Hold Monster - Drz poiseru (Svaz nestvuru)
+Lower Resistance - Zeslab odolnost
+Minor Spell Turning - Slabsi odvraceni kouzla (Mensi odvraceni kouzla)
+Monster Summoning III - Povolavani poiser III (Poivolavani nestvur III)
+Oracle - Vistirna
+Phantom Blade - Stinovy mee
+Protection From Acid - Ochrana poed kyselinou
+Protection From Electricity - Ochrana poed elektoinou
+Protection from Normal Weapons - Ochrana poed normalnimi zbranimi
+Shadow Door - Stinove dveoe (Nastio dveoe)
+Spell Immunity - Odolnost proti kouzlu
+Spell Shield - Kouzelny stit
+Sunfire - Sluneeni zar
+
+
+uroveo 6
+
+Carrion Summons - Povolej mrchozrouta (Poivolej eerva)
+Chain Lightning - Oetizovy blesk
+Conjure Air Elemental - Vyvolej vzdusneho elementala (Vyvolani elementala vzduchu)
+Conjure Earth Elemental - Vyvolej elementala zemi (Vyvolani elementala zemi)
+Conjure Fire Elemental - Vyvolej ohniveho elementala (Vyvolani elementala ohni)
+Contingency - Eventualita
+Death Fog - Smrtici mlha
+Death Spell - Kouzlo smrti
+Disintegrate - Rozlozeni
+Flesh to Stone - Maso na kamen
+Globe of Invulnerability - Koule nezranitelnosti
+Improved Haste - Zdokonaleny spich
+Invisible Stalker - Neviditelny stopao
+Mislead - Sple?
+Pierce Magic - Proraz kouzlo (Magicky prunik)
+Power Word Silence - Mocne slovo: Ticho
+Protection From Magic Energy - Ochrana poed magickou energii
+Protection from Magical Weapons - Ochrana poed magickymi zbranimi
+Spell Deflection - Odrazeni kouzla
+Stone to Flesh - Kamen na maso
+Summon Nishruu - Poivolej Nishruu
+TenserТs Transformation - Tenserova poemina
+True Sight - Pravdive vidini (Skuteene vidini)
+Wyvern Call - Povolej wyverna
+
+
+uroveo 7
+
+Cacofiend - Kakodemon
+Control Undead - Ovladni nemrtveho
+Delayed Blast Fireball - Zpozdina vybusna koule (Nekontaktni vybusna ohniva koule)
+Finger of Death - Prst smrti
+Improved Chaos Shield - Vylepseny chaoticky stit
+Limited Wish - Omezene poani
+Mantle - Plas?
+Mass Invisibility - Hromadna neviditelnost
+MordenkainenТs Sword - Mordenkainenuv mee
+Power Word, Stun - Mocne slovo: Omrae
+Prismatic Spray - Duhova sprska (Duhovy sprej)
+Project Image - Vytvoo obraz
+Protection from the Elements - Ochrana poed elementy (Ochrana poed elementaly)
+Ruby Ray of Reversal - Zpitny rubinovy paprsek
+Spell Sequencer - Pooadae kouzel (Kouzelny pooadae)
+Spell Turning - Odvraceni kouzla
+Sphere of Chaos - Koule chaosu
+Summon Djinni - Poivolej dzina
+Summon Efreeti - Poivolej ifrita
+Summon Hakeashar - Poivolej Hakeashara
+KhelbenТs Warding Whip - Khelbenuv obranny sleh
+
+
+uroveo 8
+
+Abi-DalzimТs Horrid Wilting - Straslive vadnuti Abi-Dalzima
+Bigby's Clenched Fist - Bigbyho sevoena pist
+Improved Mantle - Zdokonaleny plas?
+Incendiary Cloud - Zapalny mrak
+Maze - Labyrint
+Pierce Shield - Pronikni stitem
+Power Word Blind - Mocne slovo: Oslep
+Protection from Energy - Ochrana poed energii
+Simulacrum - Dvojnik
+Spell Trigger - Kouzelna spous?
+Summon Fiend - Poivolej demona
+Symbol, Death - Symbol, Smrt
+Symbol, Fear - Symbol, Strach
+Symbol, Stun - Symbol, Omrae
+
+
+uroveo 9
+
+Absolute Immunity - Absolutni odolnost
+Bigby's Crushing Hand - Bigbyho drtici ruka
+Black Blade of Disaster - Eerny mee katastrof
+Chain Contingency - Oetizova eventualita
+Energy Drain - Vysati energie (Vysaj energii)
+Freedom - Svoboda
+Gate - Brana
+Imprisonment - Uviznini
+Meteor Swarm - Meteoricky roj
+Power Word, Kill - Mocne slovo: Zabij
+Shapechange - Promina (Zmio tvar)
+Spellstrike - Kouzelny uder
+Spell Trap - Past na kouzla (Kouzelna past)
+Time Stop - Zastav eas
+Wail of the Banshee - Kvileni bansi (Kvileni Banshee)
+Wish - Poani
+
+
+uroveo 10
+Comet - Kometa
+Dragon's Breath - Draei dech
+Energy Blades - Energeticke eepele
+Improved Alacrity - Vylepsena hbitost
+Summon Dark Planetar - Povolej Temneho Planetara
+Summon Planetar - Povolej Planetara
+
+
+KNIZ
+uroveo 1
+
+Armor of Faith - Brnini viry
+Bless - Pozehnani (Pozehnej)
+Command Word: Die - Poikaz: Usni
+Cure Light Wounds - Vylee lehka zranini (Uzdrav lehka zranini)
+Detect Evil - Najdi zlo (Odhal zlo)
+Doom - Zahuba
+Entangle - Zapleteni (Zaple?)
+Magical Stone - Magicky kamen (Kouzelny kamen)
+Protection from Evil - Ochrana poed zlem (Ochrao poed zlem)
+Remove Fear - Odstrao strach (Zbav strachu)
+Sanctuary - Utoeisti (Svatyni)
+Shillelagh - Sukovice
+
+
+uroveo 2
+
+Aid - Posileni (Pomoz)
+Barkskin - Kura (Kuze z kury)
+Chant - Zalm (Liturgicky zpiv)
+Charm Person or Mammal - Zmam osobu nebo savce (Oearuj osobu nebo savce)
+Draw Upon Holy Might - Posileni svatou moci (Eerpej posvatnou moc)
+Find Traps - Najdi pasti
+Flame Blade - Plamenna eepel (Ohnivy mee)
+Goodberry - Bobulky (Dobre bobule)
+Hold Person - Drz osobu (Svaz postavu)
+Know Alignment - Poznej poesvideeni (Urei poesvideeni)
+Resist Fire and Cold - Odolej ohni a mrazu (Odolej ohni a chladu)
+Silence, 15Т Radius - Ticho, polomir 5 m (Ticho, 15' kolem)
+Slow Poison - Zpomal jed (Zpomal otravu)
+Spiritual Hammer - Duchovni kladivo
+
+
+uroveo 3
+
+Animate Dead - Oziv nemrtve (Ozivla smrt)
+Call Lightning - Poivolej blesk (Sesli blesk)
+Cure Disease - Uzdrav nemocneho
+Cure Medium Wounds - Vylee stoedni zranini (Uzdrav stoedni zranini)
+Dispel Magic - Rozptyl magii
+Glyph of Warding - Runa ochrany (Ochranna runa)
+Hold Animal - Drz zvioe (Svaz zvioe)
+Holy Smite - Svaty uder
+Invisibility Purge - Zruseni neviditelnosti (Vyeisti neviditelnost)
+Miscast Magic - Naruseni magie (Poskoi magii)
+Protection from Fire - Ochrana poed ohnim (Ochrao poed ohnim)
+Remove Curse - Zrus kletbu (Sejmi kletbu)
+Remove Paralysis - Odstrao ochromeni
+Rigid Thinking - Otupila mysl (Strnule mysleni)
+Strength of One - Sila Jednoho
+Summon Insects - Povolej hmyz (Poivolej hmyz)
+Unholy Blight - Bezbozna zkaza
+Zone of Sweet Air - Oblast eerstveho vzduchu (Zona poijemneho vzduchu)
+
+
+uroveo 4
+
+Animal Summoning I - Povolavani zvioat I (Poivolani zvioat I)
+Call Woodland Beings - Vyvolej lesni bytost
+Cause Serious Wounds - Zpusob tizka zranini 
+Cloak of Fear - Plas? strachu
+Cure Serious Wounds - Vylee tizka zranini (Uzdrav tizka zranini)
+Death Ward - Odraz smrt
+Defensive Harmony - Obranna harmonie (Obranna svornost)
+Farsight - Dalekozrakost
+Free Action - Volna akce (Uvolni)
+Holy Power - Svata sila
+Lesser Restoration - Slabsi obnova (Mensi obnova)
+Mental Domination - Dusevni ovladnuti (Dusevni nadvlada)
+Negative Plane Protection - Ochrana poed negativni sferou (Ochrao poed negativni dimenzi)
+Neutralize Poison - Neutralizuj jed
+Poison - Otrav
+Protection From Evil 10Т Radius - Ochrana poed zlem, polomir 3 m (Ochrao poed zlem v okruhu 10')
+Protection From Lightning - Ochrana poed bleskem (Ochrao poed bleskem)
+
+
+uroveo 5
+
+Animal Summoning II - Povolavani zvioat II (Poivolani zvioat I)
+Cause Critical Wounds - Zpusob kriticka zranini
+Chaotic Commands - Zmatene poikazy
+Cure Critical Wounds - Vylee kriticka zranini (Uzdrav kriticka zranini)
+ChampionТs Strength - Hrdinska sila (Sila sampiona)
+Flame Strike - Plamenny uder (Plamenny utok)
+Greater Command - Vitsi poikaz
+Insect Plague - Epidemie hmyzu
+Iron Skins - Zelezna kuze
+Magic Resistance - Odolnost proti magii
+Mass Cure - Hromadne leeeni
+Pixie Dust - Prach skoitku
+Raise Dead - Oziv mrtveho
+Repulse Undead - Odraz nemrtveho
+Righteous Magic - Spravedliva magie
+Slay Living - Zabij zive
+True Seeing - Pravdive vidini (Skuteene vidini)
+
+
+uroveo 6
+
+Aerial Servant - Vzdusny sluha (Vzdusny sluzebnik)
+Animal Summoning III - Povolavani zvioat III (Poivolani zvioat I)
+Blade Barrier - Hradba meeu (Poehrada z meeu)
+Bolt of Glory - Blesk slavy
+Conjure Animals - Vyvolej zvioata
+Conjure Fire Elemental - Vyvolej ohniveho elementala (Vyvolani elementala ohni)
+Dolorous Decay - Bolestiva hniloba
+False Dawn - Falesne svitani
+Fire Seeds - Zhave uhliky (Semena ohni)
+Harm - Zrao
+Heal - Uzdrav
+Physical Mirror - Fyzicke zrcadlo
+SolТs Searing Orb - Soluv zhavy kamen (Soluv zhavy orb)
+Wondrous Recall - Bajeena vzpominka
+
+
+uroveo 7
+
+Confusion - Zmatek (Zmateni)
+Conjure Earth Elemental - Vyvolej elementala zemi (Vyvolani elementala zemi)
+Creeping Doom - Pliziva zahuba
+Earthquake - Zemitoeseni
+Finger of Death - Prst smrti
+Fire Storm - Ohniva bouoe
+Gate - Brana
+Holy Word - Svate slovo
+NatureТs Beauty - Kraska (Krasavice)
+Greater Restoration - Silnijsi obnova (Vitsi obnova)
+Resurrection - Vzkoiseni
+Shield of the Archons - Stit Archonu
+Sunray - Sluneeni paprsek
+Symbol, Stun - Symbol, Omrae
+Symbol, Death - Symbol, Smrt
+Symbol, Fear - Symbol, Strach
+Unholy Word - Bezbozne slovo
+
+
+uroveo: za zasluhy
+
+Aura of Flaming Death - Aura plamenne smrti
+Elemental Summoning - Povolavani elementalu
+Elemental Transformation (Earth) - Poemina v elementala (Zemi)
+Elemental Transformation (Fire) - Poemina v elementala (Oheo)
+Globe of Blades - Koule eepeli
+Greater Elemental Summoning - Silnijsi povolavani elementalu
+Implosion - Pohlceni
+Mass Raise Dead - Hromadne oziveni mrtvych
+Storm of Vengeance - Pomsta z nebes
+Summon Deva - Povolej Devu
+Summon Fallen Deva - Povolej padlou Devu
+
+
+--= mista, vesnice, mista =--
+
+Umar hills - Umaoina vrchovina
+Imnesvale - Imneske udoli
+Windspear Hills - Vitrne vrsky
+Trademeet - Trhov
+Cloakwood - Zahaleny les
+Wood of Sharp Teeth - Les Ostrych zubu
+Cloudpeaks - Mraene vrchy
+Underdark - Podtemno
+Waterdeep - Hlubina
+Inner sea - Vnitoni mooe
+Forest of Tethir - Tethirsky les
+
+City o' Coin - Misto Minci
+Spellhold - Earotvrz
+Asylum - Leeebna
+Lower tombs - Spodni hrobky
+
+Bridge district - Most
+Docks district - Poistavni etvr?
+Government District - Vladni etvr?
+Graveyard District - Hobitov
+Slums District - Chudinska etvr?
+Temple District - Chramova etvr?
+Waukeen's Promenade - Waukeenina Promenada
+
+Friendly Arms - Poatelska narue
+Candlekeep - Svitici tvrz
+Baldur's Gate - Baldurova Brana
+Sword Coast - Meeove poboezi
+
+hospody, hostince a jine budovy:
+
+Five Flagons - U Piti dzbanku
+Copper Coronet - U Midine eelenky
+Adventurer's Mart - Dobrodruhuv kramek
+Sea's Bounty - Mooska stidrost
+Crooked Crane - U Koiveho jeoaba
+Lady Galvena's Parlor - Salon Pani Galveny
+Vulgar Monkey - U Sproste opice
+Den of Seven vales - Doupi sedmi zahalenych
+
+Sdruzeni, gildy, spolky:
+
+Cowled wizards - Zahaleni earodijove
+Night Knives - Dyky noci
+Most Noble Order of the Radiant Heart - Nejurozenijsi Oad Zaoiciho srdce
+Council of Six - Rada sesti
+Flaming Fist - Ohniva pist
+Iron Throne - Zelezny trun
+Shadow Thieves - Stinovi zlodiji
+Shadow Druids - Stinovi druidove
+Zhents,Zhentarim - Zhentove, Zhentarimove
+Seven Suns - Sedm slunci
+Mechant League - Kupecky svaz
+Harpers - Harfenici
+Harper Hold - Pevnost Harfeniku
+Sigil theatre troupe (group) - Sigilska herecka skupina (spoleenost)
+Enlightened Ones - Osviceni
+Cult of the Eyeless - Kult Bezokych
+Gibbering Twelve - Drmolici dvanactka
+guild - gilda
+Avariel - Avarielove
+
+obecne terminy, hodnosti, dohodnute poeklady:
+
+fair folk - slieny/uslechtily lid
+rivvin - rivvin
+rivvil - rivvil
+dweomer - dweomer
+
+Magistrate - Magistrat
+
+Staff of Thunder and Lightning - Hul hromu a blesku
+Rhynn Lanthorn - Rhynnska lampa
+plannar sphere - planarni koule
+scimitar - scimitar
+Nether scroll - Podzemni svitek
+Tear of Bhaal - Bhaalova slza
+Jan Jansen's Flasher Master Bruiser - Mistrovsky Oslepovae Rvaeu Jana Jansena
+Volo's Guides - Volo'uv pruvodce
+Pit of the Faithless - Jama Nevioicich
+Mithril Token - Mithrilovy zeton
+cabin - srub
+
+Blackrazor - Eerna eepel
+
+Temple of the dawn - Chram usvitu
+Temple of the Watcher - Chram Strazce
+Temple of the Stormlord - Chram Pana bouoi
+
+Shadow altar - Oltao stinu
+Shadow portal - Portal stinu
+Shadow Lord - Lord stinu
+
+Time of Troubles - Doba nesnazi
+The Year of The Burning Sky - rok Planouciho nebe
+The Year of the Harvest of Scales - rok Sklizni supin
+Scale - Supina
+Seeker - Patrae
+
+PLANESCAPE ODKAZY
+Plane - sfera
+tiefling - tiefling
+Doomguard - Strazci zkazy
+Plane of Air - Sfera vzduchu
+Primes (napr. obyvatele zakladni sfery) - Zakladnici
+Plane of Dust - Sfera prachu
+Quasi-Elemental Plane of Dust - Kvazi-elementalni Sfera prachu
+Planeswalker - Poutnik sfer
+Prime Material (plane) -  Zakladni materialni (sfera)
+Outer Planes - Vnijsi sfery
+Abyss - Peklo
+Lady of Pain - Pani bolesti
+Blood War - Valka krve
+Astral - Astralni (sfera)
+multiverse - mnohovesmir
+cambion - cambion
+Fated - Osudovi
+
+--= rasy, povolani =--
+
+dwarf - trpaslik
+halfling - puleik
+half-elf - pul-elf
+half-orc - pul-ork
+gnome - gnom
+
+fighter - bojovnik
+ranger - hranieao 
+paladin
+cleric - klerik
+druid
+thief - zlodij
+bard
+mage - mag
+wizard - earodij
+sorcerer - zaklinae
+monk - mnich
+barbarian - barbar
+
+potvory:
+
+beholder - beholder
+carrion crawler - mrchozrout
+djinn - dzin
+drow - drow
+dryad - dryada
+gargoyle - gargoyla 
+genie - dzin
+ghoul - ghul
+giant - obr
+gibberling - divous
+Grey ones - Sedivi
+griffon - gryf
+hobgoblin - skurut
+jelly - rosol
+kobold - kobold
+lich - lich
+Mimic - Mimik
+mindflayer - mozkozrout
+miniature giant space hamster - zmenseny oboi kosmicky koeeek
+necromancer - nekromant
+ogre - zlobr
+ooze - sliz
+orog - orog
+rakshasa - rakshasa
+red dragon - rudy drak
+shadow dragon - stinovy drak
+silver dragon - stoibrny drak
+skeleton - kostlivec
+spectre - spektra
+spirit - duch
+werewolf - vlkodlak
+wolfwere - dlakovlk
+wyrm - plaz
+wyvern - wyvern
+
+tituly, jmena:
+
+Shadowmaster - Stinovy pan
+Shade Lord - Pan Poizraku
+Morninglord - Pan usvitu
+Stormlord - Pan bouoi
+Dawnbringer - Nositel usvitu
+Great Guard - Vyssi straz
+Herald - Herold
+High Heralds - Vrchni Heroldove
+Chief Inspector - Sefinspektor
+weaponmaster - zbrojmistr
+master of weapons - mistr zbrojir
+viceregent - mistodrzici
+Fairy Queen - Kralovna vil
+Challenge Master - Mistr vyzyvatel
+Spider Queen - Pavouei kralovna
+Matron - Matka
+Handmaiden - Sluzebnice
+High Merchant - Prvni kupec
+Shark-Father - Zraloei otec
+Exile - Vyhnanec (pojmenovani Irenica u elfu)
+Coordinator - Koordinator (pojmenovani Irenica v Leeebni)
+guildmaster - gildmistr
+Avatar - Avatar
+Pirate Lord - Pan piratu
+One = Jediny
+
+Raging One - Zuoivy
+Hidden - Skryty
+Unseeing Eye - Nevidouci oko
+
+Renal Bloodscalp - Renal Bloodscalp
+Korgan Bloodaxe - Korgan Krvava sekera
+Gorf the Squisher - Gorf Drtie
+Lolth - Lolth   (pavouei bohyni)
+
+HIERARCHIE DRUIDU
+1 - Initiate = Zasvicenec
+2 - Druid = Druid
+3 - Archdruid = Arcidruid
+4 - Great Druid = Veledruid
+5 - Grand Druid = Hierofant (muz) / Flaminika (zena)
+
+
+--= BOZSTVA =--
+
+Auril - bohyni chladu, zimy
+Azuth - bohyni earodiju a magu
+Bane - buh svaru, tyranie, nenavisti
+Beshaba - bohyni smuly, nehod
+Bhaal - buh smrti (zvlasti nasilne a ritualni)
+Chauntea - bohyni zemidilstvi, poirody 
+Cyric - buh smrti, lzi, tyranie, vrazdini 
+Deneir - buh literatury, gramotnosti, patron umilcu
+Eldath - bohyni vodopadu, pramenu, klidu, stalosti, tichych mist
+Gond - buh zruenosti, budovani
+Helm - buh strazcu a ochrancu
+Ilmater - Plaeici buh - buh vytrvalosti, utrpeni, mueednictvi
+Lathander - Pan usvitu - buh jara, usvitu, narozeni, obnovy 
+Leira - bohyni klamu, iluzi
+Lliira - bohyni radosti, stisti, tance, svobody
+Loviatar - bohyni bolesti, utrpeni
+Malar - buh bestii, divoeiny, lovu
+Mask (=Maska) - buh zlodiju, intrik
+Mielikki - Pani lesa - bohyni lesu a lesnich bytosti
+Milil - buh poezie, pisni, vymluvnosti
+Myrkul - buh mrtvych
+Mystra - Pani zahad - bohyni magie
+Oghma - buh vidini, vynalezu
+Selune - bohyni misice, hvizd a navigatoru
+Shar - bohyni temnoty, noci, ztraty, zapomnini
+Silvanus - buh poirody
+Sune - bohyni lasky, krasy, vasni
+Talona - bohyni jedu, chorob
+Talos - Pan bouoi - buh bouoi, pozaru, zemitoeseni, tornad, nieeni vseobecni
+Temopus - buh valky
+Torm - buh oddanosti, virnosti, patron paladinu
+Tymora - Dama stistiny - bohyni stisti, zruenosti, vitizstvi
+Tyr - buh spravedlnosti
+Umberlee - Kralovna divka - bohyni mooi, vod, vln
+Waukeen - bohyni obchodu, peniz, bohatstvi
+
+vsemu tomu veli Ao
+
+
+ELFI BOHOVE
+cely panteon se nazyva Seldarin
+Corellon Larethian - tvurce elfu, hlava elfiho panteonu
+    ohledni pohlavi, cituji "Corellon manifests as either gender"
+Aerdrie Faenya - bohyni vzduchu, poeasi, urodnosti
+Deep Sashelas - buh mooi
+Erevan Ilesere - buh zmin, zlodiju
+Fenmarel Mestarine - buh vyvrhel
+Hanali Celanil - bohyni romantiky, krasy
+Labelas Enoreth - buh easu, dlouhovikosti
+Rillifane Rallathil - buh divoeiny a divokych elfu
+Sehanine - bohyni misice
+Solonor Thelandira - buh lovu, lukostoelcu
+
+TRPASLIEI BOHOVE
+Moradin - tvurce trpasliei rasy, hlava trpaslieiho panteonu
+Abbathor - jediny zly trpasliei buh
+Berronar Truesilver - bohyni manzelstvi, lasky, domaciho krbu
+Clangeddin Silverbeard - buh valek
+Dugmaren Brightmantle - buh experimentu, vynalezu, objevu
+Dumathoin - buh hornictvi, pruzkumu podzemi
+Gorm Gultyn - ochrance a strazce trpasliei rasy
+Haela Brightaxe - bohyni valeeniku, cestovatelu
+Marthammor Duin - vuh poutniku
+Sharindlar - bohyni leeeni, smilovani
+Vergdain - buh stisti, bohatstvi
+
+BOHOVE PULEIKU
+Yondalla - hlava panteonu, ochrankyni puleiku
+Arvoreen - buh valky
+Brandobaris - buh dobrodruhu, zlodiju
+Cyrrollalee - bohyni domova, poatelstvi, duviry
+Sheela Peryroyl - bohyni poirody, poeasi, zemidilstvi, lasky
+Urogalan - buh smrti, zemi
+Tymora - viz vyse, puleici ji poijali za svou :)
+
+BOHOVE GNOMU
+Garl Glittergold - hlava gnomiho panteonu, buh moudrosti
+Baervan Wildwanderer - buh cestovani, poirody
+Baravar Cloakshadow - buh iluzi, klamu, podvodu
+Flandal Steelskin - buh hornictvi, kovaou
+Gaerdal Ironhand - buh valky
+Segojan Earthcaller - buh poirody
+Urdlen - buh zla, zkazenosti, krveziznivosti
+Gond Wonderbringer - viz vyse, to vite buh zruenosti :)
+
+BOHOVE JINYCH RAS
+jen maly vybir
+
+DRACI
+Asgorath - ten hlavni buh
+Zorquan - buh "draestvi" (tedy stavu, kde je nikdo drakem :)
+Xymor - buh spravedlnosti
+Hlal - buh humoru
+
+DROWOVE
+Lolth (nebo Lloth) - nejznamnijsi drowi bohyni, Pavouei kralovna
+Eilistraee - bohyni dobrych drowu (co prosim? :)
+Ghaunadaur - buh rebelu
+Vhaeraun - buh zlodiju
+
+MOZKOZROUTI
+Ilsensine - jeden z hlavnich bohu, podle nij jednou illithide ovladnou svit
+
+ZLOBOI A TROLLOVE
+Vaprak - jednoruky buh silenstvi a vrazdini~
 
 
 
