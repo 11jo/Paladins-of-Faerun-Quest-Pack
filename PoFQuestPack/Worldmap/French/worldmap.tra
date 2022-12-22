@@ -18,7 +18,7 @@
 @POF_74349 = "Eauprofonde"
 @POF_74568 = "Château###des###Montagnes###Floconeigeuses"
 @POF_74570 = "Village###Abandonné"
-@POF_74560 = "Cité###des###Prêtres"
+@POF_74560 = "Cité###des###Prêtres" // Har Al-Dur
 @POF_74579 = "Village"
 @POF_75566 = "Îles###Moonshae"
 @POF_75430 = "District###des###Affaires"

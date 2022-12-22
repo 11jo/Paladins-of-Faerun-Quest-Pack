@@ -5,11 +5,11 @@ copy PoFQuestPack\audio .\override
 
 cd .\override
 
-oggdec *.ogg
+oggdec XG*.ogg
 
 del oggdec.exe
 
-del *.ogg
+del XG*.ogg
 
 cd..
 
