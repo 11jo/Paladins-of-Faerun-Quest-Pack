@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredArea","PF1319",0)
+  Global("EnteredArea","XG1319",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","PF1319",1)
+    SetGlobal("EnteredArea","XG1319",1)
     StartCutSceneMode()
     HideGUI()
     Wait(3)

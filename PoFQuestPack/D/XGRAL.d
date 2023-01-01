@@ -19,12 +19,12 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @8
-  IF ~~ THEN DO ~ActionOverride(Player2,LeaveAreaLUA("PF0075","",[2844.1827],0))
-ActionOverride(Player1,LeaveAreaLUA("PF0075","",[2915.1818],0))
-ActionOverride(Player3,LeaveAreaLUA("PF0075","",[2846.1881],0))
-ActionOverride(Player4,LeaveAreaLUA("PF0075","",[2919.1918],0))
-ActionOverride(Player5,LeaveAreaLUA("PF0075","",[2894.1962],0))
-ActionOverride(Player6,LeaveAreaLUA("PF0075","",[2985.1967],0))~ EXIT
+  IF ~~ THEN DO ~ActionOverride(Player2,LeaveAreaLUA("XG0075","",[2844.1827],0))
+ActionOverride(Player1,LeaveAreaLUA("XG0075","",[2915.1818],0))
+ActionOverride(Player3,LeaveAreaLUA("XG0075","",[2846.1881],0))
+ActionOverride(Player4,LeaveAreaLUA("XG0075","",[2919.1918],0))
+ActionOverride(Player5,LeaveAreaLUA("XG0075","",[2894.1962],0))
+ActionOverride(Player6,LeaveAreaLUA("XG0075","",[2985.1967],0))~ EXIT
 END
 
 IF ~~ THEN BEGIN 4
@@ -41,7 +41,7 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @15
-  IF ~~ THEN DO ~ActionOverride(Player1,LeaveAreaLUA("PF0075","",[1313.1221],12))
+  IF ~~ THEN DO ~ActionOverride(Player1,LeaveAreaLUA("XG0075","",[1313.1221],12))
 CreateCreature("XGFIGG",[1767.1245],4)~ EXIT
 END
 
@@ -55,7 +55,7 @@ END
 IF ~~ THEN BEGIN 8
   SAY @19
   IF ~~ THEN REPLY @20 DO ~SetGlobal("s#XGRAL","GLOBAL",3)
-ActionOverride(Player1,LeaveAreaLUA("PF0075","",[1313.1221],12))
+ActionOverride(Player1,LeaveAreaLUA("XG0075","",[1313.1221],12))
 CreateCreature("XGBSMSE",[1767.1245],4)~ EXIT
 END
 
@@ -69,7 +69,7 @@ END
 IF ~~ THEN BEGIN 10
   SAY @22
   IF ~~ THEN DO ~SetGlobal("s#XGRAL","GLOBAL",4)
-ActionOverride(Player1,LeaveAreaLUA("PF0075","",[1313.1221],12))
+ActionOverride(Player1,LeaveAreaLUA("XG0075","",[1313.1221],12))
 CreateCreature("XGMGG1",[1767.1245],4)~ EXIT
 END
 
@@ -83,7 +83,7 @@ END
 IF ~~ THEN BEGIN 12
   SAY @25
   IF ~~ THEN DO ~SetGlobal("s#XGRAL","GLOBAL",5)
-ActionOverride(Player1,LeaveAreaLUA("PF0075","",[1313.1221],12))
+ActionOverride(Player1,LeaveAreaLUA("XG0075","",[1313.1221],12))
 CreateCreature("XGRGG",[1767.1245],4)~ EXIT
 END
 
@@ -97,7 +97,7 @@ END
 IF ~~ THEN BEGIN 14
   SAY @28
   IF ~~ THEN DO ~SetGlobal("s#XGRAL","GLOBAL",6)
-ActionOverride(Player1,LeaveAreaLUA("PF0075","",[1313.1221],12))
+ActionOverride(Player1,LeaveAreaLUA("XG0075","",[1313.1221],12))
 CreateCreature("XGDG",[1767.1245],4)~ EXIT
 END
 
@@ -111,7 +111,7 @@ END
 IF ~~ THEN BEGIN 16
   SAY @31
   IF ~~ THEN DO ~SetGlobal("s#XGRAL","GLOBAL",7)
-ActionOverride(Player1,LeaveAreaLUA("PF0075","",[1313.1221],12))
+ActionOverride(Player1,LeaveAreaLUA("XG0075","",[1313.1221],12))
 CreateCreature("XGBARGG",[1767.1245],4)~ EXIT
 END
 
@@ -120,7 +120,7 @@ Dead("XGBARGG")~ THEN BEGIN 17
   SAY @32
   IF ~~ THEN REPLY @30 DO ~SetGlobal("s#XGRAL","GLOBAL",8)
 GiveItemCreate("MISC07",Player1,8000,0,0)
-ActionOverride(Player1,LeaveAreaLUA("PF0075","",[1313.1221],12))
+ActionOverride(Player1,LeaveAreaLUA("XG0075","",[1313.1221],12))
 CreateCreature("XGCHG",[1767.1245],4)~ EXIT
   IF ~~ THEN REPLY @18 EXIT
 END

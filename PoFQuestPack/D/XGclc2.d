@@ -22,7 +22,7 @@ END
 IF ~~ THEN BEGIN 3
   SAY @7
   IF ~~ THEN REPLY @8 DO ~SetGlobal("s#XGclc2","GLOBAL",2)
-RevealAreaOnMap("PF8200")~ UNSOLVED_JOURNAL @9 EXIT
+RevealAreaOnMap("XG8200")~ UNSOLVED_JOURNAL @9 EXIT
 END
 
 IF ~Global("s#XGclc2","GLOBAL",2)

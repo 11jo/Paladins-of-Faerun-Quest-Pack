@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredAreaPF0039","PF0039",0)
+  Global("EnteredAreaXG0039","XG0039",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredAreaPF0039","PF0039",1)
+    SetGlobal("EnteredAreaXG0039","XG0039",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -49,12 +49,12 @@ THEN
     Wait(2)
     CreateCreature("XGnorx",[2765.317],0)  // ~Северянин~
     CreateCreature("XGmitr",[2734.305],0)  // ~Лавочник~
-    ActionOverride(Player2,LeaveAreaLUA("PF0039","",[2694.543],8))
-    ActionOverride(Player1,LeaveAreaLUA("PF0039","",[2752.518],8))
-    ActionOverride(Player3,LeaveAreaLUA("PF0039","",[2814.550],8))
-    ActionOverride(Player4,LeaveAreaLUA("PF0039","",[2806.608],8))
-    ActionOverride(Player5,LeaveAreaLUA("PF0039","",[2716.599],8))
-    ActionOverride(Player6,LeaveAreaLUA("PF0039","",[2837.643],8))
+    ActionOverride(Player2,LeaveAreaLUA("XG0039","",[2694.543],8))
+    ActionOverride(Player1,LeaveAreaLUA("XG0039","",[2752.518],8))
+    ActionOverride(Player3,LeaveAreaLUA("XG0039","",[2814.550],8))
+    ActionOverride(Player4,LeaveAreaLUA("XG0039","",[2806.608],8))
+    ActionOverride(Player5,LeaveAreaLUA("XG0039","",[2716.599],8))
+    ActionOverride(Player6,LeaveAreaLUA("XG0039","",[2837.643],8))
     MoveViewPoint([2734.305],SLOW)
     Wait(10)
     DisplayStringHead("XGnorx",@4) 

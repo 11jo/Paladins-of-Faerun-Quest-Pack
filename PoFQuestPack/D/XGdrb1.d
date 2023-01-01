@@ -32,12 +32,12 @@ END
 IF ~~ THEN BEGIN 4
   SAY @9
   IF ~~ THEN REPLY @10 DO ~EscapeArea()
-ActionOverride(Player2,LeaveAreaLUA("PFB180","",[479.313],8))
-ActionOverride(Player1,LeaveAreaLUA("PFB180","",[429.318],8))
-ActionOverride(Player3,LeaveAreaLUA("PFB180","",[542.330],8))
-ActionOverride(Player4,LeaveAreaLUA("PFB180","",[356.381],8))
-ActionOverride(Player5,LeaveAreaLUA("PFB180","",[626.398],8))
-ActionOverride(Player6,LeaveAreaLUA("PFB180","",[520.555],8))~ UNSOLVED_JOURNAL @11 EXIT
+ActionOverride(Player2,LeaveAreaLUA("XGb180","",[479.313],8))
+ActionOverride(Player1,LeaveAreaLUA("XGb180","",[429.318],8))
+ActionOverride(Player3,LeaveAreaLUA("XGb180","",[542.330],8))
+ActionOverride(Player4,LeaveAreaLUA("XGb180","",[356.381],8))
+ActionOverride(Player5,LeaveAreaLUA("XGb180","",[626.398],8))
+ActionOverride(Player6,LeaveAreaLUA("XGb180","",[520.555],8))~ UNSOLVED_JOURNAL @11 EXIT
 END
 
 IF ~~ THEN BEGIN 5

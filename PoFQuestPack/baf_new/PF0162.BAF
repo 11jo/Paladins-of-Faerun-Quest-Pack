@@ -1,12 +1,12 @@
 IF OnCreation()
-  Global("EnteredPF0162","PF0162",0)
+  Global("EnteredXG0162","XG0162",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0162","PF0162",1)    
+    SetGlobal("EnteredXG0162","XG0162",1)    
     StartCutSceneMode()
     ClearAllActions()
     CreateCreature("s#mage2",[1250.1012],10) 
-    PlaySound("NWN1")
+    PlaySound("XGNWN1")
     Wait(1)
     DisplayStringHead("s#mage2",@0)
     Wait(2)

@@ -1,9 +1,9 @@
 IF
-  Global("RevealArea0328","PF0328",0)
+  Global("RevealArea0328","XG0328",0)
   PartyHasItem("XGQI3")  // ~Магическая реликвия~
 THEN
   RESPONSE #100
-    SetGlobal("RevealArea0328","PF0328",1)
+    SetGlobal("RevealArea0328","XG0328",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -11,12 +11,12 @@ THEN
     FadeToColor([10.0],0)
     CreateCreature("XGELWIN",[2132.1383],10)  // ~Элвин~
     Wait(4)
-    ActionOverride(Player1,LeaveAreaLUA("PF0328","",[2145.1312],2))
-    ActionOverride(Player2,LeaveAreaLUA("PF0328","",[2180.1335],2))
-    ActionOverride(Player3,LeaveAreaLUA("PF0328","",[2226.1364],2))
-    ActionOverride(Player4,LeaveAreaLUA("PF0328","",[2259.1334],2))
-    ActionOverride(Player5,LeaveAreaLUA("PF0328","",[2211.1313],2))
-    ActionOverride(Player6,LeaveAreaLUA("PF0328","",[2159.1292],2))
+    ActionOverride(Player1,LeaveAreaLUA("XG0328","",[2145.1312],2))
+    ActionOverride(Player2,LeaveAreaLUA("XG0328","",[2180.1335],2))
+    ActionOverride(Player3,LeaveAreaLUA("XG0328","",[2226.1364],2))
+    ActionOverride(Player4,LeaveAreaLUA("XG0328","",[2259.1334],2))
+    ActionOverride(Player5,LeaveAreaLUA("XG0328","",[2211.1313],2))
+    ActionOverride(Player6,LeaveAreaLUA("XG0328","",[2159.1292],2))
     Wait(6)
     DisplayStringHead("XGELWIN",@0)  // @0
     Wait(4)
@@ -26,12 +26,12 @@ THEN
     Wait(4)
     ForceSpell("XGELWIN",DRYAD_TELEPORT)
     Wait(1)
-    ActionOverride(Player1,LeaveAreaLUA("PF1053","",[993.316],6))
-    ActionOverride(Player2,LeaveAreaLUA("PF1053","",[507.1049],8))
-    ActionOverride(Player3,LeaveAreaLUA("PF1053","",[209.200],0))
-    ActionOverride(Player4,LeaveAreaLUA("PF1053","",[742.326],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF1053","",[836.480],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF1053","",[1045.547],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG1053","",[993.316],6))
+    ActionOverride(Player2,LeaveAreaLUA("XG1053","",[507.1049],8))
+    ActionOverride(Player3,LeaveAreaLUA("XG1053","",[209.200],0))
+    ActionOverride(Player4,LeaveAreaLUA("XG1053","",[742.326],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG1053","",[836.480],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG1053","",[1045.547],0))
     UnhideGUI()
     EndCutSceneMode()
 END

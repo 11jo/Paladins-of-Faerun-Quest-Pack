@@ -1,17 +1,17 @@
 IF
-	Global("RevealArea","PF0034",0)
+	Global("RevealArea","XG0034",0)
 	Dead("XGgghc")  // Хранитель врат
 THEN
 	RESPONSE #100
-		SetGlobal("RevealArea","PF0034",1)
+		SetGlobal("RevealArea","XG0034",1)
 END
 
 IF
-	Global("RevealArea","PF0034",1)
+	Global("RevealArea","XG0034",1)
 	Dead("XGHC")  // Архимаг
 THEN
 	RESPONSE #100
-		SetGlobal("RevealArea","PF0034",2)
+		SetGlobal("RevealArea","XG0034",2)
 		ClearAllActions()
 		StartCutSceneMode()
 		HideGUI()
@@ -54,27 +54,27 @@ THEN
 END
 
 IF
-	Global("RevealArea","PF0034",2)
+	Global("RevealArea","XG0034",2)
 	Dead("XGthef1")  // Воришка
 	Dead("XGthef2")  // Воришка
 	Dead("XGthef3")  // Воришка
 	Dead("XGthef4")  // Воришка
 THEN
 	RESPONSE #100
-		SetGlobal("RevealArea","PF0034",3)
+		SetGlobal("RevealArea","XG0034",3)
 		ClearAllActions()
 		StartCutSceneMode()
 		Wait(2)
 		DisplayStringHead(Player2,77800)  // <CHARNAME>! Мы должны проследить за ним, он побежал туда.
 		Wait(5)
-		RevealAreaOnMap("PF0020")
+		RevealAreaOnMap("XG0020")
 		Wait(2)
-		ActionOverride(Player2,LeaveAreaLUA("PF0020","",[3782.3065],8))
-		ActionOverride(Player1,LeaveAreaLUA("PF0020","",[3818.3026],8))
-		ActionOverride(Player3,LeaveAreaLUA("PF0020","",[3877.3112],8))
-		ActionOverride(Player4,LeaveAreaLUA("PF0020","",[3802.3159],8))
-		ActionOverride(Player5,LeaveAreaLUA("PF0020","",[3660.3114],8))
-		ActionOverride(Player6,LeaveAreaLUA("PF0020","",[3707.3156],8))
+		ActionOverride(Player2,LeaveAreaLUA("XG0020","",[3782.3065],8))
+		ActionOverride(Player1,LeaveAreaLUA("XG0020","",[3818.3026],8))
+		ActionOverride(Player3,LeaveAreaLUA("XG0020","",[3877.3112],8))
+		ActionOverride(Player4,LeaveAreaLUA("XG0020","",[3802.3159],8))
+		ActionOverride(Player5,LeaveAreaLUA("XG0020","",[3660.3114],8))
+		ActionOverride(Player6,LeaveAreaLUA("XG0020","",[3707.3156],8))
 		EndCutSceneMode()
 END
 

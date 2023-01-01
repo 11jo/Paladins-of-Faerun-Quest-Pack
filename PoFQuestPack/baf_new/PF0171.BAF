@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredAreaPF0171","PF0171",0)
+  Global("EnteredAreaXG0171","XG0171",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredAreaPF0171","PF0171",1)
+    SetGlobal("EnteredAreaXG0171","XG0171",1)
     StartCutSceneMode()
     HideGUI()
     ActionOverride(Player1,PlayDead(130))

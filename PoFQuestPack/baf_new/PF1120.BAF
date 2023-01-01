@@ -1,9 +1,9 @@
 IF
-  Global("Reveal120","PF1120",0)
+  Global("Reveal120","XG1120",0)
   HPLT("XGARTBG",120)  // ~Артемис~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal1120","PF1120",1)
+    SetGlobal("Reveal1120","XG1120",1)
     Wait(1)
     DisplayString(Player1,@0)  // @0
     StartCutSceneMode()
@@ -15,12 +15,12 @@ THEN
     Wait(5)
     ActionOverride("XGARTBG",EscapeArea())
     Wait(3)
-    ActionOverride(Player2,LeaveAreaLUA("PF0020","",[282.1732],0))
-    ActionOverride(Player1,LeaveAreaLUA("PF0020","",[248.1687],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF0020","",[279.1645],0))
-    ActionOverride(Player4,LeaveAreaLUA("PF0020","",[361.1670],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF0020","",[431.1723],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF0020","",[499.1689],0))
+    ActionOverride(Player2,LeaveAreaLUA("XG0020","",[282.1732],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0020","",[248.1687],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG0020","",[279.1645],0))
+    ActionOverride(Player4,LeaveAreaLUA("XG0020","",[361.1670],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG0020","",[431.1723],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG0020","",[499.1689],0))
     UnhideGUI()
     EndCutSceneMode()
 END

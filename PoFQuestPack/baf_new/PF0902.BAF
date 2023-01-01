@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredPF0902","PF0902",0)
+  Global("EnteredXG0902","XG0902",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0902","PF0902",1)
+    SetGlobal("EnteredXG0902","XG0902",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -32,11 +32,11 @@ THEN
 END
 
 IF
-  Global("Reveal0902","PF0902",0)
+  Global("Reveal0902","XG0902",0)
   Dead("XGESUD")  // ~Удоррил~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0902","PF0902",1)
+    SetGlobal("Reveal0902","XG0902",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

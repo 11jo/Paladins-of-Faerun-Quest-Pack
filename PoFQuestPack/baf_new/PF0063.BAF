@@ -1,13 +1,13 @@
 IF
   OnCreation()
-  Global("EnteredArea","PF0063",0)
+  Global("EnteredArea","XG0063",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","PF0063",1)
+    SetGlobal("EnteredArea","XG0063",1)
     StartCutSceneMode()
     HideGUI()
     Wait(3)
-    PlaySound("MUS3MOD")
+    PlaySound("XGMUS3")
     Wait(2)
     MoveViewPoint([2918.1145],SLOW)
     Wait(4)
@@ -33,12 +33,12 @@ THEN
     Wait(5)
     DisplayStringHead("XGLETG3",@3)  // @3
     Wait(5)
-    ActionOverride(Player1,LeaveAreaLUA("PF0163","",[757.519],0))
-    ActionOverride(Player2,LeaveAreaLUA("PF0163","",[713.527],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF0163","",[789.565],4))
-    ActionOverride(Player4,LeaveAreaLUA("PF0163","",[640.565],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF0163","",[677.612],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF0163","",[639.763],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0163","",[757.519],0))
+    ActionOverride(Player2,LeaveAreaLUA("XG0163","",[713.527],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG0163","",[789.565],4))
+    ActionOverride(Player4,LeaveAreaLUA("XG0163","",[640.565],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG0163","",[677.612],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG0163","",[639.763],0))
     ActionOverride("XGLETG3",EscapeArea())
     ActionOverride("XGletg1",EscapeArea())
     ActionOverride("XGletg2",EscapeArea())
@@ -47,13 +47,13 @@ THEN
 END
 
 IF
-  Global("Reveal0063","PF0063",0)
+  Global("Reveal0063","XG0063",0)
   PartyHasItem("XGGD1")  // ~Золото и драгоценности~
   PartyHasItem("XGGD2")  // ~Золото и драгоценности~
   PartyHasItem("XGGD3")  // ~Золото и драгоценности~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0063","PF0063",1)
+    SetGlobal("Reveal0063","XG0063",1)
     ActionOverride("XGLUSN1",Enemy())
     ActionOverride("XGLUSN2",Enemy())
     ActionOverride("XGLUSN3",Enemy())

@@ -7,7 +7,7 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @2
-  IF ~~ THEN REPLY @3 DO ~RevealAreaOnMap("PF8300")~ 
+  IF ~~ THEN REPLY @3 DO ~RevealAreaOnMap("XG8300")~ 
 UNSOLVED_JOURNAL @4 GOTO 2
 END
 

@@ -8,7 +8,7 @@ THEN
     MoveViewPoint([1883.1939],INSTANT)
     StartCutSceneMode()
     HideGUI()
-    PlaySound("NWN2")
+    PlaySound("XGNWN2")
     CreateCreature("XGAMAG",[1734.1869],14)  // ~Главный архимаг~
     CreateCreature("XGRADAK",[1822.1920],6)  // ~Градак~
     CreateCreature("XGFALCO",[1807.1995],8)  // ~Графалкон~
@@ -92,15 +92,15 @@ THEN
     DisplayStringHead("XGELWIN",@5)  
     Wait(4)
     UnhideGUI()
-ActionOverride(Player1,LeaveAreaLUA("PF0054","",[3380.810],3))
-ActionOverride(Player2,LeaveAreaLUA("PF0054","",[3380.750],3))
-ActionOverride(Player3,LeaveAreaLUA("PF0054","",[3380.870],3))
-ActionOverride(Player4,LeaveAreaLUA("PF0054","",[3300.810],3))
-ActionOverride(Player5,LeaveAreaLUA("PF0054","",[3300.750],3))
-ActionOverride(Player6,LeaveAreaLUA("PF0054","",[3300.870],3))
+ActionOverride(Player1,LeaveAreaLUA("XG0054","",[3380.810],3))
+ActionOverride(Player2,LeaveAreaLUA("XG0054","",[3380.750],3))
+ActionOverride(Player3,LeaveAreaLUA("XG0054","",[3380.870],3))
+ActionOverride(Player4,LeaveAreaLUA("XG0054","",[3300.810],3))
+ActionOverride(Player5,LeaveAreaLUA("XG0054","",[3300.750],3))
+ActionOverride(Player6,LeaveAreaLUA("XG0054","",[3300.870],3))
     DestroySelf()
     EndCutSceneMode()
-    HideAreaOnMap("PF0053")
+    HideAreaOnMap("XG0053")
 END
 
 

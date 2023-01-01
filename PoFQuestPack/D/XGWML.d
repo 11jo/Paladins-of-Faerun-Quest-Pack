@@ -19,7 +19,7 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @7
-  IF ~~ THEN REPLY @8 DO ~RevealAreaOnMap("PF0029")
+  IF ~~ THEN REPLY @8 DO ~RevealAreaOnMap("XG0029")
 SetGlobal("s#XGWML","GLOBAL",1)~ UNSOLVED_JOURNAL @9 EXIT
 END
 
@@ -45,7 +45,7 @@ IF ~~ THEN BEGIN 7
   IF ~~ THEN REPLY @17 DO ~AddExperienceParty(20000)
 TakePartyItem("XGMWD")
 SetGlobal("s#XGWML","GLOBAL",2)
-RevealAreaOnMap("PF0012")~ UNSOLVED_JOURNAL @18 EXIT
+RevealAreaOnMap("XG0012")~ UNSOLVED_JOURNAL @18 EXIT
 END
 
 IF ~Global("s#XGWML","GLOBAL",1) 

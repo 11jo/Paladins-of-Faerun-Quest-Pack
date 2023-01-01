@@ -32,11 +32,11 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @12
-  IF ~~ THEN DO ~ActionOverride(Player2,LeaveAreaLUA("PF0081","",[1424.1150],0))
-ActionOverride(Player1,LeaveAreaLUA("PF0081","",[1498.1121],0))
-ActionOverride(Player3,LeaveAreaLUA("PF0081","",[1458.1082],0))
-ActionOverride(Player4,LeaveAreaLUA("PF0081","",[1412.1097],0))
-ActionOverride(Player5,LeaveAreaLUA("PF0081","",[1452.1067],0))
-ActionOverride(Player6,LeaveAreaLUA("PF0081","",[1430.1009],0))
+  IF ~~ THEN DO ~ActionOverride(Player2,LeaveAreaLUA("XG0081","",[1424.1150],0))
+ActionOverride(Player1,LeaveAreaLUA("XG0081","",[1498.1121],0))
+ActionOverride(Player3,LeaveAreaLUA("XG0081","",[1458.1082],0))
+ActionOverride(Player4,LeaveAreaLUA("XG0081","",[1412.1097],0))
+ActionOverride(Player5,LeaveAreaLUA("XG0081","",[1452.1067],0))
+ActionOverride(Player6,LeaveAreaLUA("XG0081","",[1430.1009],0))
 AddExperienceParty(5000)~ UNSOLVED_JOURNAL @13 EXIT
 END

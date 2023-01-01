@@ -103,7 +103,7 @@ THEN
     AddJournalEntry(@10,QUEST)
     Wait(4)
     TakePartyItem("XGLETT2")
-    RevealAreaOnMap("PF0050")
+    RevealAreaOnMap("XG0050")
     EndCutSceneMode()
     Continue()
 END

@@ -1,14 +1,14 @@
 IF
   OnCreation()
-  Global("EnteredPF0056","PF0056",0)
+  Global("EnteredXG0056","XG0056",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0056","PF0056",1)
+    SetGlobal("EnteredXG0056","XG0056",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
     Explore()
-    PlaySound("MUS3MOD")
+    PlaySound("XGMUS3")
     Wait(2)
     DisplayStringHead("XGRW1",@0)  // @0
     Wait(4)

@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredArea","PF1053",0)
+  Global("EnteredArea","XG1053",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","PF1053",1)
+    SetGlobal("EnteredArea","XG1053",1)
     StartCutSceneMode()
     HideGUI()
     Explore()
@@ -29,7 +29,7 @@ THEN
     CreateCreature("XGSW3",[827.893],8)  // ~Южанин~
     CreateCreature("XGSW4",[265.830],12)  // ~Южанин~
     CreateCreature("XGSW5",[173.396],10)  // ~Южанин~
-    PlaySound("NWN2")
+    PlaySound("XGNWN2")
     Wait(6)
     DisplayStringHead(Player1,@2)  // @2
     Wait(6)
@@ -99,16 +99,16 @@ THEN
     Wait(1)
     DisplayStringHead("XGELWIN",@11)  // @11
     Wait(6)
-    HideAreaOnMap("PF0034")
-    RevealAreaOnMap("PF1034")
+    HideAreaOnMap("XG0034")
+    RevealAreaOnMap("XG1034")
     Wait(4)
     EndCutSceneMode()
     UnhideGUI()
-    ActionOverride(Player1,LeaveAreaLUA("PF1034","",[928.711],6))
-    ActionOverride(Player2,LeaveAreaLUA("PF1034","",[900.773],6))
-    ActionOverride(Player3,LeaveAreaLUA("PF1034","",[975.762],6))
-    ActionOverride(Player4,LeaveAreaLUA("PF1034","",[1059.753],6))
-    ActionOverride(Player5,LeaveAreaLUA("PF1034","",[973.831],6))
-    ActionOverride(Player6,LeaveAreaLUA("PF1034","",[1049.816],6))
+    ActionOverride(Player1,LeaveAreaLUA("XG1034","",[928.711],6))
+    ActionOverride(Player2,LeaveAreaLUA("XG1034","",[900.773],6))
+    ActionOverride(Player3,LeaveAreaLUA("XG1034","",[975.762],6))
+    ActionOverride(Player4,LeaveAreaLUA("XG1034","",[1059.753],6))
+    ActionOverride(Player5,LeaveAreaLUA("XG1034","",[973.831],6))
+    ActionOverride(Player6,LeaveAreaLUA("XG1034","",[1049.816],6))
 END
 

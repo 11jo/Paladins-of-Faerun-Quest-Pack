@@ -10,12 +10,12 @@ EraseJournalEntry(@4)
 EraseJournalEntry(@5)
 AddExperienceParty(50000)
 GiveItemCreate("XGMBOW1",Player1,0,0,0)
-ActionOverride(Player2,LeaveAreaLUA("PFA480","",[403.562],0))
-ActionOverride(Player1,LeaveAreaLUA("PFA480","",[429.599],0))
-ActionOverride(Player3,LeaveAreaLUA("PFA480","",[483.561],0))
-ActionOverride(Player4,LeaveAreaLUA("PFA480","",[407.505],0))
-ActionOverride(Player5,LeaveAreaLUA("PFA480","",[479.463],0))
-ActionOverride(Player6,LeaveAreaLUA("PFA480","",[530.521],0))
+ActionOverride(Player2,LeaveAreaLUA("XGa480","",[403.562],0))
+ActionOverride(Player1,LeaveAreaLUA("XGa480","",[429.599],0))
+ActionOverride(Player3,LeaveAreaLUA("XGa480","",[483.561],0))
+ActionOverride(Player4,LeaveAreaLUA("XGa480","",[407.505],0))
+ActionOverride(Player5,LeaveAreaLUA("XGa480","",[479.463],0))
+ActionOverride(Player6,LeaveAreaLUA("XGa480","",[530.521],0))
 EscapeArea()~ SOLVED_JOURNAL @6 EXIT
 END
 

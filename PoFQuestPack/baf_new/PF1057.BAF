@@ -1,11 +1,11 @@
 IF
   OnCreation()
-  Global("EnteredArea","PF1057",0)
+  Global("EnteredArea","XG1057",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","PF1057",1)
+    SetGlobal("EnteredArea","XG1057",1)
     HideGUI()
-    PlaySound("NWN1")
+    PlaySound("XGNWN1")
     StartCutSceneMode()
     Wait(3)
     ActionOverride("XGNWNCN",MoveToPoint([1265.1001]))
@@ -27,11 +27,11 @@ THEN
     Wait(9)
     EndCutSceneMode()
     UnhideGUI()
-    ActionOverride(Player1,LeaveAreaLUA("PF2057","",[239.1481],0))
-    ActionOverride(Player2,LeaveAreaLUA("PF2057","",[229.1447],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF2057","",[227.1533],0))
-    ActionOverride(Player4,LeaveAreaLUA("PF2057","",[137.1434],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF2057","",[116.1487],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF2057","",[137.1544],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG2057","",[239.1481],0))
+    ActionOverride(Player2,LeaveAreaLUA("XG2057","",[229.1447],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG2057","",[227.1533],0))
+    ActionOverride(Player4,LeaveAreaLUA("XG2057","",[137.1434],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG2057","",[116.1487],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG2057","",[137.1544],0))
 END
 

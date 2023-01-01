@@ -112,10 +112,10 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @31
-  IF ~~ THEN DO ~ActionOverride(Player2,LeaveAreaLUA("PFUMOD","",[1171.1783],14))
-ActionOverride(Player1,LeaveAreaLUA("PFUMOD","",[1200.1756],14))
-ActionOverride(Player3,LeaveAreaLUA("PFUMOD","",[1199.1716],14))
-ActionOverride(Player4,LeaveAreaLUA("PFUMOD","",[1148.1723],14))
-ActionOverride(Player5,LeaveAreaLUA("PFUMOD","",[1217.1763],14))
-ActionOverride(Player6,LeaveAreaLUA("PFUMOD","",[1097.1792],14))~ EXIT
+  IF ~~ THEN DO ~ActionOverride(Player2,LeaveAreaLUA("XGUMOD","",[1171.1783],14))
+ActionOverride(Player1,LeaveAreaLUA("XGUMOD","",[1200.1756],14))
+ActionOverride(Player3,LeaveAreaLUA("XGUMOD","",[1199.1716],14))
+ActionOverride(Player4,LeaveAreaLUA("XGUMOD","",[1148.1723],14))
+ActionOverride(Player5,LeaveAreaLUA("XGUMOD","",[1217.1763],14))
+ActionOverride(Player6,LeaveAreaLUA("XGUMOD","",[1097.1792],14))~ EXIT
 END

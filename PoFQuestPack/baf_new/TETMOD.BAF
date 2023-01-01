@@ -1,18 +1,18 @@
 IF
   True()
-  Global("Reveal0077","PF0077",0)
+  Global("Reveal0077","XG0077",0)
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0077","PF0077",1)
+    SetGlobal("Reveal0077","XG0077",1)
     StartCutSceneMode()
     FadeToColor([20.0],0)
     CreateCreature("XGprd",[1446.2047],10)  // ~Пленник~
-    ActionOverride(Player2,LeaveAreaLUA("PF0077","",[1074.2015],0))
-    ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1042.1978],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF0077","",[1111.1951],0))
-    ActionOverride(Player4,LeaveAreaLUA("PF0077","",[1183.1993],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF0077","",[1088.2065],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF0077","",[1170.2062],0))
+    ActionOverride(Player2,LeaveAreaLUA("XG0077","",[1074.2015],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0077","",[1042.1978],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG0077","",[1111.1951],0))
+    ActionOverride(Player4,LeaveAreaLUA("XG0077","",[1183.1993],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG0077","",[1088.2065],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG0077","",[1170.2062],0))
     MoveViewPoint([1042.1978],INSTANT)
     ActionOverride("XGtwr",EscapeArea())
     CreateCreature("XGtwr",[1061.1182],0)  // ~Рейнджер~
@@ -29,11 +29,11 @@ THEN
 END
 
 IF
-  Global("Reveal0077","PF0077",1)
+  Global("Reveal0077","XG0077",1)
   Dead("XGprd")  // ~Пленник~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0077","PF0077",2)
+    SetGlobal("Reveal0077","XG0077",2)
     StartCutSceneMode()
     HideGUI()
     Wait(1)
@@ -51,11 +51,11 @@ THEN
 END
 
 IF
-  Global("Reveal0077","PF0077",2)
+  Global("Reveal0077","XG0077",2)
   Dead("XGprd1")  // ~Пленник~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0077","PF0077",3)
+    SetGlobal("Reveal0077","XG0077",3)
     StartCutSceneMode()
     HideGUI()
     Wait(1)
@@ -73,11 +73,11 @@ THEN
 END
 
 IF
-  Global("Reveal0077","PF0077",3)
+  Global("Reveal0077","XG0077",3)
   Dead("XGprd2")  // ~Пленник~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0077","PF0077",4)
+    SetGlobal("Reveal0077","XG0077",4)
     StartCutSceneMode()
     HideGUI()
     Wait(1)

@@ -23,7 +23,7 @@ END
 
 IF ~~ THEN BEGIN 4
   SAY @10
-  IF ~~ THEN REPLY @11 DO ~RevealAreaOnMap("PF0001")
+  IF ~~ THEN REPLY @11 DO ~RevealAreaOnMap("XG0001")
 SetGlobal("s#XGVINEL","GLOBAL",1)~ UNSOLVED_JOURNAL @12 EXIT
 END
 

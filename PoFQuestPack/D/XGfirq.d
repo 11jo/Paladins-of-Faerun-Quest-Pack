@@ -21,12 +21,12 @@ END
 IF ~~ THEN BEGIN 2
   SAY @9
   IF ~~ THEN DO ~AddexperienceParty(5550)
-ActionOverride(Player2,LeaveAreaLUA("PF0384","",[2725.1056],0))
-ActionOverride(Player1,LeaveAreaLUA("PF0384","",[2688.1031],0))
-ActionOverride(Player3,LeaveAreaLUA("PF0384","",[2678.995],0))
-ActionOverride(Player4,LeaveAreaLUA("PF0384","",[2642.1067],0))
-ActionOverride(Player5,LeaveAreaLUA("PF0384","",[2836.1029],0))
-ActionOverride(Player6,LeaveAreaLUA("PF0384","",[2824.1077],0))
+ActionOverride(Player2,LeaveAreaLUA("XG0384","",[2725.1056],0))
+ActionOverride(Player1,LeaveAreaLUA("XG0384","",[2688.1031],0))
+ActionOverride(Player3,LeaveAreaLUA("XG0384","",[2678.995],0))
+ActionOverride(Player4,LeaveAreaLUA("XG0384","",[2642.1067],0))
+ActionOverride(Player5,LeaveAreaLUA("XG0384","",[2836.1029],0))
+ActionOverride(Player6,LeaveAreaLUA("XG0384","",[2824.1077],0))
 EscapeArea()
 ~ EXIT
 END

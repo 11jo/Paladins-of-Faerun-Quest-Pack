@@ -1,11 +1,11 @@
 IF
   OnCreation()
-  Global("EnteredAreaPFTORM","PFTORM",0)
+  Global("EnteredAreaXGTORM","XGTORM",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredAreaPFTORM","PFTORM",1)
+    SetGlobal("EnteredAreaXGTORM","XGTORM",1)
     HideGUI()
-    PlaySound("MUS2MOD")
+    PlaySound("XGMUS2")
     StartCutSceneMode()
     Wait(2)
     DisplayStringHead(Player1,@0)  

@@ -1,14 +1,14 @@
 IF
-  Global("RevealPF0278","PF0278",0)
+  Global("RevealXG0278","XG0278",0)
   PartyHasItem("XGBSWO9")  // ~Рунический меч-бастарда~
 THEN
   RESPONSE #100
-    SetGlobal("RevealPF0278","PF0278",1)
-    ActionOverride(Player2,LeaveAreaLUA("PF0077","",[1756.574],8))
-    ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1811.556],8))
-    ActionOverride(Player3,LeaveAreaLUA("PF0077","",[1876.604],8))
-    ActionOverride(Player4,LeaveAreaLUA("PF0077","",[1719.638],8))
-    ActionOverride(Player5,LeaveAreaLUA("PF0077","",[1788.668],8))
-    ActionOverride(Player6,LeaveAreaLUA("PF0077","",[1752.716],8))
+    SetGlobal("RevealXG0278","XG0278",1)
+    ActionOverride(Player2,LeaveAreaLUA("XG0077","",[1756.574],8))
+    ActionOverride(Player1,LeaveAreaLUA("XG0077","",[1811.556],8))
+    ActionOverride(Player3,LeaveAreaLUA("XG0077","",[1876.604],8))
+    ActionOverride(Player4,LeaveAreaLUA("XG0077","",[1719.638],8))
+    ActionOverride(Player5,LeaveAreaLUA("XG0077","",[1788.668],8))
+    ActionOverride(Player6,LeaveAreaLUA("XG0077","",[1752.716],8))
 END
 

@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0061","PF0061",0)
+  Global("Reveal0061","XG0061",0)
   PartyHasItem("XGQI2")  // ~Магическая реликвия~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0061","PF0061",1)
+    SetGlobal("Reveal0061","XG0061",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -23,7 +23,7 @@ THEN
     DisplayStringHead(Player1,@2)  // @2
     Wait(5)
     AddJournalEntry(0,79132)
-    HideAreaOnMap("PF0061")
+    HideAreaOnMap("XG0061")
     ActionOverride(Player1,LeaveAreaLUA("AR0020","",[628.555],0))
     ActionOverride(Player2,LeaveAreaLUA("AR0020","",[589.545],0))
     ActionOverride(Player3,LeaveAreaLUA("AR0020","",[598.598],0))
@@ -36,12 +36,12 @@ THEN
 END
 
 IF
-  Global("Reveal0061","PF0061",0)
+  Global("Reveal0061","XG0061",0)
   PartyHasItem("XGQI2")  // ~Магическая реликвия~
   Dead("XGRWHM")  // ~Глава волшебников~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0061","PF0061",1)
+    SetGlobal("Reveal0061","XG0061",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -60,7 +60,7 @@ THEN
     ReputationInc(-1)
     DisplayStringHead(Player1,@2)  // @2
     Wait(5)
-    HideAreaOnMap("PF0061")
+    HideAreaOnMap("XG0061")
     ActionOverride(Player1,LeaveAreaLUA("AR0020","",[628.555],0))
     ActionOverride(Player2,LeaveAreaLUA("AR0020","",[589.545],0))
     ActionOverride(Player3,LeaveAreaLUA("AR0020","",[598.598],0))

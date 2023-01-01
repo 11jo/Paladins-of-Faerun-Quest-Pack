@@ -18,7 +18,7 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @7
-  IF ~~ THEN REPLY @8 DO ~RevealAreaOnMap("PF0064")
+  IF ~~ THEN REPLY @8 DO ~RevealAreaOnMap("XG0064")
 SetGlobal("s#XGMARAN","GLOBAL",2)~ 
 JOURNAL @9 EXIT
 END

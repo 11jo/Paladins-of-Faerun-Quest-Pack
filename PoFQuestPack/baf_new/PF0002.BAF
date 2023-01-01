@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredPF0002","PF0002",0)
+  Global("EnteredXG0002","XG0002",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0002","PF0002",1)
+    SetGlobal("EnteredXG0002","XG0002",1)
     Wait(1)
     ClearAllActions()
     StartCutSceneMode()
@@ -44,11 +44,11 @@ THEN
 END
 /*
 IF
-  Global("Reveal0002","PF0002",0)
+  Global("Reveal0002","XG0002",0)
   Dead("XGATKI")  // ~Торговый король~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0002","PF0002",1)
+    SetGlobal("Reveal0002","XG0002",1)
     Kill(Player1)
     Kill(Player2)
     Kill(Player3)
@@ -58,12 +58,12 @@ THEN
 END
 */
 IF
-  Global("Reveal0002","PF0002",0)
+  Global("Reveal0002","XG0002",0)
   Dead("XGsero2")  // ~Слуга лича~
   Dead("XGsero1")  // ~Слуга лича~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0002","PF0002",1)
+    SetGlobal("Reveal0002","XG0002",1)
     ClearAllActions()
     StartCutSceneMode()
     Wait(2)

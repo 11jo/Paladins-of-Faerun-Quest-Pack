@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0020","PF0020",0)
+  Global("Reveal0020","XG0020",0)
   PartyHasItem("XGZAT2")  // ~Îנהונ םא אנוסע~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0020","PF0020",1)
+    SetGlobal("Reveal0020","XG0020",1)
     StartCutSceneMode()
     HideGUI()
     CreateCreature("XGASSBG",[3390.1570],8)  // ~Óבטיצא~

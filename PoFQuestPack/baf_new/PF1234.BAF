@@ -1,11 +1,11 @@
 IF
   OnCreation()
-  Global("EnteredPF1234","PF1234",0)
+  Global("EnteredXG1234","XG1234",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF1234","PF1234",1)
+    SetGlobal("EnteredXG1234","XG1234",1)
     ClearAllActions()
-    PlaySound("MUS3MOD")
+    PlaySound("XGMUS3")
     StartCutSceneMode()
     HideGUI()
     Explore()
@@ -57,11 +57,11 @@ THEN
 END
 
 IF
-  Global("Reveal1234","PF1234",0)
+  Global("Reveal1234","XG1234",0)
   Dead("XGfngra")  // ~Градак~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal1234","PF1234",1)
+    SetGlobal("Reveal1234","XG1234",1)
     StartCutSceneMode()
     FadeToColor([20.0],0)
     HideGUI()

@@ -1,10 +1,10 @@
 IF
   OnCreation()
-  Global("EnteredArea","PF0163",0)
+  Global("EnteredArea","XG0163",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","PF0163",1)
-    PlaySound("NWN1")
+    SetGlobal("EnteredArea","XG0163",1)
+    PlaySound("XGNWN1")
     StartCutSceneMode()
     HideGUI()
     Explore()

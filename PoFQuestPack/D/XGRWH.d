@@ -57,11 +57,11 @@ END
 
 IF ~~ THEN BEGIN 7
   SAY @17
-  IF ~~ THEN DO ~ActionOverride(Player1,LeaveAreaLUA("PF0261","",[836.338],0))
-ActionOverride(Player2,LeaveAreaLUA("PF0261","",[896.324],0))
-ActionOverride(Player3,LeaveAreaLUA("PF0261","",[792.321],0))
-ActionOverride(Player4,LeaveAreaLUA("PF0261","",[793.270],0))
-ActionOverride(Player5,LeaveAreaLUA("PF0261","",[855.254],0))
-ActionOverride(Player6,LeaveAreaLUA("PF0261","",[923.294],0))
+  IF ~~ THEN DO ~ActionOverride(Player1,LeaveAreaLUA("XG0261","",[836.338],0))
+ActionOverride(Player2,LeaveAreaLUA("XG0261","",[896.324],0))
+ActionOverride(Player3,LeaveAreaLUA("XG0261","",[792.321],0))
+ActionOverride(Player4,LeaveAreaLUA("XG0261","",[793.270],0))
+ActionOverride(Player5,LeaveAreaLUA("XG0261","",[855.254],0))
+ActionOverride(Player6,LeaveAreaLUA("XG0261","",[923.294],0))
 ~ EXIT
 END

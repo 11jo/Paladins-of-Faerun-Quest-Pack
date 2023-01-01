@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredPF0029","PF0029",0)
+  Global("EnteredXG0029","XG0029",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0029","PF0029",1)
+    SetGlobal("EnteredXG0029","XG0029",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -24,12 +24,12 @@ THEN
     Wait(12)
     DisplayStringHead("XGESMIL",@0)  // @0
     Wait(6)
-    ActionOverride(Player2,LeaveAreaLUA("PF0129","",[267.190],0))
-    ActionOverride(Player1,LeaveAreaLUA("PF0129","",[124.171],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF0129","",[123.215],0))
-    ActionOverride(Player4,LeaveAreaLUA("PF0129","",[254.244],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF0129","",[373.239],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF0129","",[445.255],0))
+    ActionOverride(Player2,LeaveAreaLUA("XG0129","",[267.190],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0129","",[124.171],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG0129","",[123.215],0))
+    ActionOverride(Player4,LeaveAreaLUA("XG0129","",[254.244],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG0129","",[373.239],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG0129","",[445.255],0))
     ActionOverride("XGESMIL",EscapeArea())
     Wait(2)
     UnhideGUI()

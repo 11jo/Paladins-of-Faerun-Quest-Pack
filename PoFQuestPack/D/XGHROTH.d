@@ -50,7 +50,7 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @19
-  IF ~~ THEN DO ~RevealAreaOnMap("PF0801")
+  IF ~~ THEN DO ~RevealAreaOnMap("XG0801")
 EscapeArea()
 ~ UNSOLVED_JOURNAL @20 EXIT
 END
@@ -69,7 +69,7 @@ END
 
 IF ~~ THEN BEGIN 12
   SAY @19
-  IF ~~ THEN DO ~RevealAreaOnMap("PF0801")
+  IF ~~ THEN DO ~RevealAreaOnMap("XG0801")
 EscapeArea()
 ~ UNSOLVED_JOURNAL @20 EXIT
 END
@@ -82,7 +82,7 @@ END
 
 IF ~~ THEN BEGIN 14
   SAY @19
-  IF ~~ THEN DO ~RevealAreaOnMap("PF0801")
+  IF ~~ THEN DO ~RevealAreaOnMap("XG0801")
 EscapeArea()
 ~ UNSOLVED_JOURNAL @20 EXIT
 END

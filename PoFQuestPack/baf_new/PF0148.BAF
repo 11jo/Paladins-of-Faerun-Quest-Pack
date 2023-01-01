@@ -1,11 +1,11 @@
 IF OnCreation()
-  Global("EnteredPF0148","PF0148",0)
+  Global("EnteredXG0148","XG0148",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0148","PF0148",1)
+    SetGlobal("EnteredXG0148","XG0148",1)
     StartCutSceneMode()
     ClearAllActions()
-    PlaySound("NWN2")
+    PlaySound("XGNWN2")
     Wait(1)
     ActionOverride("XGLARI",StartDialogue("XGLARI",Player1))
     EndCutSceneMode()

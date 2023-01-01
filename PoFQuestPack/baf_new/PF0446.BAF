@@ -1,9 +1,9 @@
 IF
-  Global("s#PF0446","PF0446",0)
+  Global("s#XG0446","XG0446",0)
   PartyHasItem("XGTRBL")  // ~Кровь большого тролля~
 THEN
   RESPONSE #100
-    SetGlobal("s#PF0446","PF0446",1)
+    SetGlobal("s#XG0446","XG0446",1)
     ClearAllActions()
     StartCutSceneMode()
     CreateCreature("XGSRWZ1",[428.583],0)
@@ -14,11 +14,11 @@ THEN
 END
 
 IF
-  Global("s#PF0446","PF0446",1)
+  Global("s#XG0446","XG0446",1)
   HPLT("XGSRWZ1",60)  // ~Чародей~
 THEN
   RESPONSE #100
-    SetGlobal("s#PF0446","PF0446",2)
+    SetGlobal("s#XG0446","XG0446",2)
     ClearAllActions()
     StartCutSceneMode()
     Wait(1)

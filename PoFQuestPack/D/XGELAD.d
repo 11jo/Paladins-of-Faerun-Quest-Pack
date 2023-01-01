@@ -22,7 +22,7 @@ END
 
 IF ~~ THEN BEGIN 4
   SAY @9
-  IF ~~ THEN REPLY @11 DO ~RevealAreaOnMap("PF0003")
+  IF ~~ THEN REPLY @11 DO ~RevealAreaOnMap("XG0003")
 ~ UNSOLVED_JOURNAL @10 EXIT
   IF ~~ THEN REPLY @12 DO ~SetNumTimesTalkedTo(1)
 ~ EXIT
@@ -30,7 +30,7 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @9
-  IF ~~ THEN REPLY @11 DO ~RevealAreaOnMap("PF0003")
+  IF ~~ THEN REPLY @11 DO ~RevealAreaOnMap("XG0003")
 SetNumTimesTalkedTo(2)
 ~ UNSOLVED_JOURNAL @10 EXIT
 END

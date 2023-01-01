@@ -29,11 +29,11 @@ IF ~~ THEN BEGIN 4
   IF ~~ THEN DO ~EscapeArea()
 TakePartyItem("XGZAT4")
 GiveItemCreate("XGZAT6",Player1,0,0,0)
-ActionOverride(Player2,LeaveAreaLUA("PF0020","",[282.1732],0))
-ActionOverride(Player1,LeaveAreaLUA("PF0020","",[248.1687],0))
-ActionOverride(Player3,LeaveAreaLUA("PF0020","",[279.1645],0))
-ActionOverride(Player4,LeaveAreaLUA("PF0020","",[361.1670],0))
-ActionOverride(Player5,LeaveAreaLUA("PF0020","",[431.1723],0))
-ActionOverride(Player6,LeaveAreaLUA("PF0020","",[499.1689],0))
+ActionOverride(Player2,LeaveAreaLUA("XG0020","",[282.1732],0))
+ActionOverride(Player1,LeaveAreaLUA("XG0020","",[248.1687],0))
+ActionOverride(Player3,LeaveAreaLUA("XG0020","",[279.1645],0))
+ActionOverride(Player4,LeaveAreaLUA("XG0020","",[361.1670],0))
+ActionOverride(Player5,LeaveAreaLUA("XG0020","",[431.1723],0))
+ActionOverride(Player6,LeaveAreaLUA("XG0020","",[499.1689],0))
 ~ UNSOLVED_JOURNAL @12 EXIT
 END

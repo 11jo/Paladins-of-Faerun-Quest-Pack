@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0202","PF0202",0)
+  Global("Reveal0202","XG0202",0)
   Dead("XGGRAL")  // ~Граламин~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0202","PF0202",1)
+    SetGlobal("Reveal0202","XG0202",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -28,12 +28,12 @@ THEN
     Wait(3)
     ForceSpell("XGGRAL1",DRYAD_TELEPORT)
     Wait(1)
-    ActionOverride(Player2,LeaveAreaLUA("PF0203","",[840.1051],6))
-    ActionOverride(Player1,LeaveAreaLUA("PF0203","",[871.1127],6))
-    ActionOverride(Player3,LeaveAreaLUA("PF0203","",[969.1088],6))
-    ActionOverride(Player4,LeaveAreaLUA("PF0203","",[746.1145],6))
-    ActionOverride(Player5,LeaveAreaLUA("PF0203","",[861.1219],6))
-    ActionOverride(Player6,LeaveAreaLUA("PF0203","",[951.1199],6))
+    ActionOverride(Player2,LeaveAreaLUA("XG0203","",[840.1051],6))
+    ActionOverride(Player1,LeaveAreaLUA("XG0203","",[871.1127],6))
+    ActionOverride(Player3,LeaveAreaLUA("XG0203","",[969.1088],6))
+    ActionOverride(Player4,LeaveAreaLUA("XG0203","",[746.1145],6))
+    ActionOverride(Player5,LeaveAreaLUA("XG0203","",[861.1219],6))
+    ActionOverride(Player6,LeaveAreaLUA("XG0203","",[951.1199],6))
     UnhideGUI()
     EndCutSceneMode()
 END

@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredPF0049","PF0049",0)
+  Global("EnteredXG0049","XG0049",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0049","PF0049",1)
+    SetGlobal("EnteredXG0049","XG0049",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -26,7 +26,7 @@ THEN
 END
 
 IF
-  Global("Reveal0049","PF0049",0)
+  Global("Reveal0049","XG0049",0)
   Dead("XGMFTL2")  // ~Ѕрод€чие кинжалы~
   Dead("XGMFTL3")  // ~Ѕрод€чие кинжалы~
   Dead("XGMFTL4")  // ~Ѕрод€чие кинжалы~
@@ -35,28 +35,28 @@ IF
   Dead("XGMFTL7")  // ~Ѕрод€чие кинжалы~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0049","PF0049",1)
+    SetGlobal("Reveal0049","XG0049",1)
     CreateCreature("XGMFTL8",[915.1715],0)  // ~Ѕрод€чие кинжалы~
 END
 
 IF
-  Global("Reveal0049","PF0049",1)
+  Global("Reveal0049","XG0049",1)
   Dead("XGMFTL8")  // ~Ѕрод€чие кинжалы~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0049","PF0049",2)
+    SetGlobal("Reveal0049","XG0049",2)
     StartCutSceneMode()
     ScreenShake([20.20],3)
     CreateCreature("XGSHTA",[992.1582],0)  // ~“еневой ¬ор~
     Wait(1)
     DisplayStringHead("XGSHTA",@4)  
     Wait(6)
-    ActionOverride(Player2,LeaveAreaLUA("PF0149","",[488.1032],8))
-    ActionOverride(Player1,LeaveAreaLUA("PF0149","",[548.1046],8))
-    ActionOverride(Player3,LeaveAreaLUA("PF0149","",[436.1057],8))
-    ActionOverride(Player4,LeaveAreaLUA("PF0149","",[494.1097],8))
-    ActionOverride(Player5,LeaveAreaLUA("PF0149","",[441.1111],8))
-    ActionOverride(Player6,LeaveAreaLUA("PF0149","",[558.1114],8))
+    ActionOverride(Player2,LeaveAreaLUA("XG0149","",[488.1032],8))
+    ActionOverride(Player1,LeaveAreaLUA("XG0149","",[548.1046],8))
+    ActionOverride(Player3,LeaveAreaLUA("XG0149","",[436.1057],8))
+    ActionOverride(Player4,LeaveAreaLUA("XG0149","",[494.1097],8))
+    ActionOverride(Player5,LeaveAreaLUA("XG0149","",[441.1111],8))
+    ActionOverride(Player6,LeaveAreaLUA("XG0149","",[558.1114],8))
     EscapeArea()
     EndCutSceneMode()
 END

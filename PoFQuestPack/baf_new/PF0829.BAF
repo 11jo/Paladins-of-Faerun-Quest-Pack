@@ -5,12 +5,12 @@ THEN
   RESPONSE #100
     DisplayStringHead(Player1,@0)  // @0
     Wait(5)
-    ActionOverride(Player2,LeaveAreaLUA("PF0029","",[1343.525],0))
-    ActionOverride(Player1,LeaveAreaLUA("PF0029","",[1402.537],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF0029","",[1470.552],0))
-    ActionOverride(Player4,LeaveAreaLUA("PF0029","",[1331.591],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF0029","",[1389.608],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF0029","",[1452.628],0))
+    ActionOverride(Player2,LeaveAreaLUA("XG0029","",[1343.525],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0029","",[1402.537],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG0029","",[1470.552],0))
+    ActionOverride(Player4,LeaveAreaLUA("XG0029","",[1331.591],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG0029","",[1389.608],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG0029","",[1452.628],0))
 END
 
 IF
@@ -20,11 +20,11 @@ THEN
   RESPONSE #100
     DisplayStringHead(Player1,@0)  // @0
     Wait(5)
-    ActionOverride(Player2,LeaveAreaLUA("PF0029","",[1343.525],0))
-    ActionOverride(Player1,LeaveAreaLUA("PF0029","",[1402.537],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF0029","",[1470.552],0))
-    ActionOverride(Player4,LeaveAreaLUA("PF0029","",[1331.591],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF0029","",[1389.608],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF0029","",[1452.628],0))
+    ActionOverride(Player2,LeaveAreaLUA("XG0029","",[1343.525],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0029","",[1402.537],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG0029","",[1470.552],0))
+    ActionOverride(Player4,LeaveAreaLUA("XG0029","",[1331.591],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG0029","",[1389.608],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG0029","",[1452.628],0))
 END
 

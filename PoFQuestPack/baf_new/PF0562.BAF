@@ -1,8 +1,8 @@
 IF
-  Global("EnteredPF0562","PF0562",0)
+  Global("EnteredXG0562","XG0562",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0562","PF0562",1)
+    SetGlobal("EnteredXG0562","XG0562",1)
     EraseJournalEntry(@0)  // @0
 END
 

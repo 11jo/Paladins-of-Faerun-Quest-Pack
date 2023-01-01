@@ -1,10 +1,10 @@
 IF
   OnCreation()
-  Global("EnteredAreaPF0284","PF0284",0)
+  Global("EnteredAreaXG0284","XG0284",0)
   PartyHasItem("XGprt")  // ~Карта свитков~
 THEN
   RESPONSE #100
-    SetGlobal("EnteredAreaPF0284","PF0284",1)
+    SetGlobal("EnteredAreaXG0284","XG0284",1)
     ClearAllActions()
     StartCutSceneMode()
     TakePartyItem("XGprt")
@@ -26,11 +26,11 @@ END
 
 IF
   OnCreation()
-  Global("EnteredAreaPF0284","PF0284",0)
+  Global("EnteredAreaXG0284","XG0284",0)
   PartyHasItem("XGPRC")  // ~Карта свитков~
 THEN
   RESPONSE #100
-    SetGlobal("EnteredAreaPF0284","PF0284",1)
+    SetGlobal("EnteredAreaXG0284","XG0284",1)
     ClearAllActions()
     StartCutSceneMode()
     TakePartyItem("XGPRC")

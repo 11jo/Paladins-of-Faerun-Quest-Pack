@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredPF1020","PF1020",0)
+  Global("EnteredXG1020","XG1020",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF1020","PF1020",1)
+    SetGlobal("EnteredXG1020","XG1020",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -38,7 +38,7 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(2)
-    PlaySound("lrscrn4")
+    PlaySound("XGSCRN4")
     Wait(4)
     CreateCreature("XGMIL",[558.2593],0)  // ~Милиция~
     CreateCreature("XGMIL",[658.2641],0)  // ~Милиция~
@@ -53,11 +53,11 @@ THEN
     EndCutSceneMode()
 END
 
-IF  Global("s#PF1020","PF1020",0)
+IF  Global("s#XG1020","XG1020",0)
   PartyHasItem("XGMRBO")
 THEN
   RESPONSE #100
-    SetGlobal("s#PF1020","PF1020",1)
+    SetGlobal("s#XG1020","XG1020",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -65,7 +65,7 @@ THEN
     DisplayString("Player1",@6)
     Wait(4)
 ForceSpell(Player1,DRYAD_TELEPORT)
-ActionOverride(Player1,LeaveAreaLUA("PF0720","",[1000.750],0))
+ActionOverride(Player1,LeaveAreaLUA("XG0720","",[1000.750],0))
     UnhideGUI()
     EndCutSceneMode()
 END

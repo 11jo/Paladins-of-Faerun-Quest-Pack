@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredPF0058","PF0058",0)
+  Global("EnteredXG0058","XG0058",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0058","PF0058",1)
+    SetGlobal("EnteredXG0058","XG0058",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

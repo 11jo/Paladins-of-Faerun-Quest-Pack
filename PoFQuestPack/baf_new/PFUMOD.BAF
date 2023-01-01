@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredAreaPFUMOD","PFUMOD",0)
+  Global("EnteredAreaXGUMOD","XGUMOD",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredAreaPFUMOD","PFUMOD",1)
+    SetGlobal("EnteredAreaXGUMOD","XGUMOD",1)
     StartCutSceneMode()
     ClearAllActions()
     DisplayStringHead("XGBMT3",@0)  

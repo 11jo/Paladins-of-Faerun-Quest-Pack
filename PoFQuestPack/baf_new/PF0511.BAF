@@ -1,13 +1,13 @@
 IF
   OnCreation()
-  Global("EnteredPF0511","PF0511",0)
+  Global("EnteredXG0511","XG0511",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0511","PF0511",1)
+    SetGlobal("EnteredXG0511","XG0511",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
-    PlaySound("MUS2MOD")
+    PlaySound("XGMUS2")
     CreateCreature("XGHC",[673.1303],10)  // ~Архимаг~
     CreateCreature("XGELM",[825.1243],2)  // ~Элминстер~
     CreateCreature("XGYARPN",[693.1139],0)  // ~Градак~
@@ -23,12 +23,12 @@ THEN
     ActionOverride("XGELWIN",ForceSpell("XGELWIN",DRYAD_TELEPORT))
     CreateCreature("XGELWI1",[852.1147],2)  // ~Элвин~
     Wait(1)
-    ActionOverride(Player2,LeaveAreaLUA("PF0511","",[772.1013],2))
-    ActionOverride(Player1,LeaveAreaLUA("PF0511","",[873.1086],2))
-    ActionOverride(Player3,LeaveAreaLUA("PF0511","",[826.1050],2))
-    ActionOverride(Player4,LeaveAreaLUA("PF0511","",[914.1116],2))
-    ActionOverride(Player5,LeaveAreaLUA("PF0511","",[976.1162],2))
-    ActionOverride(Player6,LeaveAreaLUA("PF0511","",[728.1002],2))
+    ActionOverride(Player2,LeaveAreaLUA("XG0511","",[772.1013],2))
+    ActionOverride(Player1,LeaveAreaLUA("XG0511","",[873.1086],2))
+    ActionOverride(Player3,LeaveAreaLUA("XG0511","",[826.1050],2))
+    ActionOverride(Player4,LeaveAreaLUA("XG0511","",[914.1116],2))
+    ActionOverride(Player5,LeaveAreaLUA("XG0511","",[976.1162],2))
+    ActionOverride(Player6,LeaveAreaLUA("XG0511","",[728.1002],2))
     Wait(4)
     DisplayString("XGHC",@1)  // @1
     Wait(10)
@@ -69,11 +69,11 @@ THEN
 END
 
 IF
-  Global("RevealArea","PF0511",0)
+  Global("RevealArea","XG0511",0)
   Dead("XGHC")  // ~Архимаг~
 THEN
   RESPONSE #100
-    SetGlobal("RevealArea","PF0511",1)
+    SetGlobal("RevealArea","XG0511",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

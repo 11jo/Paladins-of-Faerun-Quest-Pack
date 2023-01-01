@@ -18,7 +18,7 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @7
-  IF ~~ THEN DO ~RevealAreaOnMap("PF0046")
+  IF ~~ THEN DO ~RevealAreaOnMap("XG0046")
 EscapeArea()
 ~ UNSOLVED_JOURNAL @8 EXIT
 END

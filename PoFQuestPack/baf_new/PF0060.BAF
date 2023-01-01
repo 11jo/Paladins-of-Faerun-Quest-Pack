@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0060","PF0060",0)
+  Global("Reveal0060","XG0060",0)
   PartyHasItem("XGQI1")  // ~Магическая реликвия~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0060","PF0060",1)
+    SetGlobal("Reveal0060","XG0060",1)
     StartCutSceneMode()
     HideGUI()
     CreateCreature("XGELWIN",[403.816],7)  // ~Элвин~
@@ -23,7 +23,7 @@ THEN
     DisplayStringHead("XGELWIN",@6)  // @6
     Wait(12)
     AddJournalEntry(0,79131)
-    RevealAreaOnMap("PF0061")
+    RevealAreaOnMap("XG0061")
     ForceSpell("XGELWIN",DRYAD_TELEPORT)
     UnhideGUI()
     EndCutSceneMode()

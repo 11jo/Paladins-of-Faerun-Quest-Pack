@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredPF0118","PF0118",0)
+  Global("EnteredXG0118","XG0118",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0118","PF0118",1)
+    SetGlobal("EnteredXG0118","XG0118",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -17,16 +17,16 @@ THEN
 END
 
 IF
-  Global("Reveal018","PF0118",0)
+  Global("Reveal018","XG0118",0)
   Dead("XGyarqc")  // ~Командир Градакова~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal018","PF0118",1)
+    SetGlobal("Reveal018","XG0118",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
     Wait(2)
-    RevealAreaOnMap("PF0019")
+    RevealAreaOnMap("XG0019")
     DisplayString("XGYARPN",@1)  // @1
     Wait(4)
     DisplayString(Player1,@2)  // @2

@@ -1,10 +1,10 @@
 IF
   OnCreation()
-  Global("EnteredAreaPF0246","PF0246",0)
+  Global("EnteredAreaXG0246","XG0246",0)
   PartyHasItem("XGMNEK1")  // ~ќжерелье вампира~
 THEN
   RESPONSE #100
-    SetGlobal("EnteredAreaPF0246","PF0246",1)
+    SetGlobal("EnteredAreaXG0246","XG0246",1)
     ClearAllActions()
     Explore()
     StartCutSceneMode()

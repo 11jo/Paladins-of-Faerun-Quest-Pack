@@ -12,12 +12,12 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @4
-  IF ~~ THEN DO ~ActionOverride(Player1,LeaveAreaLUA("PF0162","",[1298.1045],10))
-ActionOverride(Player2,LeaveAreaLUA("PF0162","",[1155.1075],0))
-ActionOverride(Player3,LeaveAreaLUA("PF0162","",[1250.1080],0))
-ActionOverride(Player4,LeaveAreaLUA("PF0162","",[1100.1100],0))
-ActionOverride(Player5,LeaveAreaLUA("PF0162","",[1200.1120],0))
-ActionOverride(Player6,LeaveAreaLUA("PF0162","",[1090.1160],0))
+  IF ~~ THEN DO ~ActionOverride(Player1,LeaveAreaLUA("XG0162","",[1298.1045],10))
+ActionOverride(Player2,LeaveAreaLUA("XG0162","",[1155.1075],0))
+ActionOverride(Player3,LeaveAreaLUA("XG0162","",[1250.1080],0))
+ActionOverride(Player4,LeaveAreaLUA("XG0162","",[1100.1100],0))
+ActionOverride(Player5,LeaveAreaLUA("XG0162","",[1200.1120],0))
+ActionOverride(Player6,LeaveAreaLUA("XG0162","",[1090.1160],0))
 DestroySelf()~ EXIT
 END
 

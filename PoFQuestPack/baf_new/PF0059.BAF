@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0059","PF0059",0)
+  Global("Reveal0059","XG0059",0)
   Dead("XGRANM")  // ~Рэйнджер Ролард~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0059","PF0059",1)
+    SetGlobal("Reveal0059","XG0059",1)
     BattleSong()
     CreateCreature("XGTROR2",[1831.1302],8)  // ~Опытный орк~
     CreateCreature("XGTROR2",[1767.1389],8)  // ~Опытный орк~

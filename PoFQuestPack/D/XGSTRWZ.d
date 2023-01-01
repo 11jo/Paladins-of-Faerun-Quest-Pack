@@ -82,6 +82,6 @@ END
 IF ~~ THEN BEGIN 14
   SAY @30
   IF ~~ THEN REPLY @31 DO ~TakePartyItem("XGMNEK1")
-RevealAreaOnMap("PF0069")
+RevealAreaOnMap("XG0069")
 EscapeArea()~ UNSOLVED_JOURNAL @32 EXIT
 END

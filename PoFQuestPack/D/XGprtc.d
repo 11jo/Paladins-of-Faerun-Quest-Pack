@@ -34,11 +34,11 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @11
-  IF ~~ THEN DO ~ActionOverride(Player2,LeaveAreaLUA("PFKAR1","",[659.363],14))
-ActionOverride(Player1,LeaveAreaLUA("PFKAR1","",[438.436],14))
-ActionOverride(Player3,LeaveAreaLUA("PFKAR1","",[682.642],14))
-ActionOverride(Player4,LeaveAreaLUA("PFKAR1","",[881.569],14))
-ActionOverride(Player5,LeaveAreaLUA("PFKAR1","",[927.807],14))
-ActionOverride(Player6,LeaveAreaLUA("PFKAR1","",[1190.752],14))
+  IF ~~ THEN DO ~ActionOverride(Player2,LeaveAreaLUA("XGKAR1","",[659.363],14))
+ActionOverride(Player1,LeaveAreaLUA("XGKAR1","",[438.436],14))
+ActionOverride(Player3,LeaveAreaLUA("XGKAR1","",[682.642],14))
+ActionOverride(Player4,LeaveAreaLUA("XGKAR1","",[881.569],14))
+ActionOverride(Player5,LeaveAreaLUA("XGKAR1","",[927.807],14))
+ActionOverride(Player6,LeaveAreaLUA("XGKAR1","",[1190.752],14))
 EscapeArea()~ UNSOLVED_JOURNAL @12 EXIT
 END

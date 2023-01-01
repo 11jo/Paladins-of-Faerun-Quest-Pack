@@ -1,10 +1,10 @@
 IF
   OnCreation()
-  Global("EnteredArea","PF0077",0)
+  Global("EnteredArea","XG0077",0)
   PartyHasItem("XGplet")  // ~Письмо~
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","PF0077",1)
+    SetGlobal("EnteredArea","XG0077",1)
     Wait(5)
     StartCutSceneMode()
     HideGUI()
@@ -25,22 +25,22 @@ THEN
 END
 
 IF
-  Global("QUEST","PF0077",0)
+  Global("QUEST","XG0077",0)
   PartyHasItem("XGplet1")  // ~Письмо~
 THEN
   RESPONSE #100
-    SetGlobal("QUEST","PF0077",1)
+    SetGlobal("QUEST","XG0077",1)
     StartCutSceneMode()
     Explore()
     FadeToColor([50.50],0)
     Wait(8)
     Wait(4)
-    ActionOverride(Player2,LeaveAreaLUA("PF0077","",[1312.2001],12))
-    ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1535.1982],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF0077","",[1330.1956],12))
-    ActionOverride(Player4,LeaveAreaLUA("PF0077","",[1582.1914],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF0077","",[1388.1838],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF0077","",[1542.1894],0))
+    ActionOverride(Player2,LeaveAreaLUA("XG0077","",[1312.2001],12))
+    ActionOverride(Player1,LeaveAreaLUA("XG0077","",[1535.1982],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG0077","",[1330.1956],12))
+    ActionOverride(Player4,LeaveAreaLUA("XG0077","",[1582.1914],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG0077","",[1388.1838],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG0077","",[1542.1894],0))
     ActionOverride(Player2,MoveToPoint([1312.2001]))
     ActionOverride(Player4,MoveToPoint([1582.1914]))
     Wait(9)
@@ -66,7 +66,7 @@ THEN
     DisplayStringHead("XGtwrc",@5)  
     Wait(8)
     FadeToColor([80.0],0)
-    ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1042.1978],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0077","",[1042.1978],0))
     Wait(8)
     TakePartyItem("XGplet1")
     ReputationInc(-1)
@@ -74,14 +74,14 @@ THEN
 END
 
 IF
-  Global("Reveal0077","PF0077",0)
+  Global("Reveal0077","XG0077",0)
   Dead("XGtmer7")  // ~Наемник~
   Dead("XGtmer8")  // ~Наемник~
   Dead("XGtmer9")  // ~Наемник~
   Dead("XGtass")  // ~Наемный убийца~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0077","PF0077",1)
+    SetGlobal("Reveal0077","XG0077",1)
     StartCutSceneMode()
     Wait(1)
     CreateCreature("XGdrc1",[961.206],14)  // ~Паладин~
@@ -94,17 +94,17 @@ THEN
     Wait(8)
     DisplayStringHead("XGdrc1",@7)  
     Wait(8)
-    HideAreaOnMap("PF0076")
-    RevealAreaOnMap("PF0078")
+    HideAreaOnMap("XG0076")
+    RevealAreaOnMap("XG0078")
     EndCutSceneMode()
 END
 
 IF
-  Global("Reveal0077","PF0077",1)
+  Global("Reveal0077","XG0077",1)
   PartyHasItem("XGBSWO9")  // ~Рунический меч-бастарда~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0077","PF0077",2)
+    SetGlobal("Reveal0077","XG0077",2)
     StartCutSceneMode()
     ActionOverride("XGdrc1",MoveToPoint([1747.501]))
     ActionOverride("XGfl",MoveToPoint([1825.515]))
@@ -118,8 +118,8 @@ THEN
     Wait(10)
     ActionOverride("XGdrc1",EscapeArea())
     ActionOverride("XGfl",EscapeArea())
-    HideAreaOnMap("PF0076")
-    HideAreaOnMap("PF0078")
+    HideAreaOnMap("XG0076")
+    HideAreaOnMap("XG0078")
     EraseJournalEntry(@10)  
     EraseJournalEntry(@11)  
     EraseJournalEntry(@12)  
@@ -131,12 +131,12 @@ THEN
 END
 
 IF
-  Global("DEAD","PF0077",0)
+  Global("DEAD","XG0077",0)
   Dead("XGwar01")  // ~Солдат~
   Dead("XGwar02")  // ~Солдат~
 THEN
   RESPONSE #100
-    SetGlobal("DEAD","PF0077",1)
+    SetGlobal("DEAD","XG0077",1)
     ActionOverride("XGdr01",StartDialogue("XGdr01",Player1))
 END
 

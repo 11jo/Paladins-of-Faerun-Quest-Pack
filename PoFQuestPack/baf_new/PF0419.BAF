@@ -1,19 +1,19 @@
 IF
   OnCreation()
-  Global("EnteredPF0419","PF0419",0)
+  Global("EnteredXG0419","XG0419",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0419","PF0419",1)
+    SetGlobal("EnteredXG0419","XG0419",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
     CreateCreature("XGHC1",[1362.927],0)  // ~Архимаг~
     CreateCreature("XGYARPN",[1379.1089],0)  // ~Градак~
-    PlaySound("FMOD")
+    PlaySound("XGF")
     Wait(2)
     FadeToColor([30.0],0)
     Wait(1)
-    ActionOverride(Player1,LeaveAreaLUA("PF0419","",[1123.892],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0419","",[1123.892],0))
     Wait(8)
     DisplayString("XGYARPN",@0)  // @0
     Wait(4)
@@ -63,17 +63,17 @@ THEN
     Wait(1)
     ActionOverride("XGHC1",ForceSpell("XGSUELF",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
     Wait(6)
-    ActionOverride(Player1,LeaveAreaLUA("PF0419","",[251.1822],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0419","",[251.1822],0))
     UnhideGUI()
     EndCutSceneMode()
 END
 
 IF
-  Global("RevealArea0419","PF0419",0)
+  Global("RevealArea0419","XG0419",0)
   Dead("XGHC1")  // ~Архимаг~
 THEN
   RESPONSE #100
-    SetGlobal("RevealArea0419","PF0419",1)
+    SetGlobal("RevealArea0419","XG0419",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -83,7 +83,7 @@ THEN
     Wait(2)
     DisplayString("XGELWIN",@7)  // @7
     Wait(10)
-    RevealAreaOnMap("PF0025")
+    RevealAreaOnMap("XG0025")
     Wait(4)
     ForceSpell("XGELWIN",DRYAD_TELEPORT)
     Wait(4)

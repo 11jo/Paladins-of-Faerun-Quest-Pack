@@ -1,7 +1,7 @@
 
 cd .\override
 
-del pf*.tis
+del XG*.tis
 del pf*.PVRZ
 del XG*.wav
 

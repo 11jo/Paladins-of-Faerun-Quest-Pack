@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredPF0168","PF0168",0)
+  Global("EnteredXG0168","XG0168",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0168","PF0168",1)
+    SetGlobal("EnteredXG0168","XG0168",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -23,11 +23,11 @@ THEN
 END
 
 IF
-  Global("Reveal0168","PF0168",0)
+  Global("Reveal0168","XG0168",0)
   PartyHasItem("XGleta")  // ~Письмо~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0168","PF0168",1)
+    SetGlobal("Reveal0168","XG0168",1)
     ClearAllActions()
     Explore()
     StartCutSceneMode()
@@ -54,11 +54,11 @@ END
 
 IF
   OnCreation()
-  Global("s#PF0168","PF0168",0)
+  Global("s#XG0168","XG0168",0)
   Global("s#XGSTROL","GLOBAL",1)
 THEN
   RESPONSE #100
-    SetGlobal("s#PF0168","PF0168",1)
+    SetGlobal("s#XG0168","XG0168",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

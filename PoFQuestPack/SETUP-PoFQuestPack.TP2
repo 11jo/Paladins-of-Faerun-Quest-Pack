@@ -7,24 +7,24 @@ AUTHOR ~Weidu packaged and fixed by Serdrick & Gorion~
 README ~PoFQuestPack/Readme_PoFQuestPack_%LANGUAGE%.txt~
 ~PoFQuestPack/Readme_PoFQuestPack_english.txt~
 
-AUTO_TRA ~PoFQuestPack/%s/d~
-AUTO_TRA ~PoFQuestPack/%s/Baf_new~
+AUTO_TRA ~PoFQuestPack/Languages/%s/d~
+AUTO_TRA ~PoFQuestPack/Languages/%s/Baf_new~
 
 LANGUAGE ~Russian~ 
          ~russian~ 
-         ~PoFQuestPack/russian/SETUP-PoFQuestPack.tra~
+         ~PoFQuestPack/Languages/Russian/SETUP-PoFQuestPack.tra~
 
 LANGUAGE ~English~ 
          ~english~ 
-         ~PoFQuestPack/english/SETUP-PoFQuestPack.tra~
+         ~PoFQuestPack/Languages/English/SETUP-PoFQuestPack.tra~
 
 LANGUAGE ~German~ 
          ~German~ 
-         ~PoFQuestPack/German/SETUP-PoFQuestPack.tra~
+         ~PoFQuestPack/Languages/German/SETUP-PoFQuestPack.tra~
 		 
 LANGUAGE ~Main English / Francais Partiel~ 
          ~French~ 
-         ~PoFQuestPack/French/SETUP-PoFQuestPack.tra~
+         ~PoFQuestPack/Languages/French/SETUP-PoFQuestPack.tra~
 
 ///////////////////////////////////
 // Start Paladins of Faerun Quest Pack
@@ -3056,40 +3056,40 @@ COPY ~PoFQuestPack/Actors/XGz.cre~          ~override/XGz.cre~
 //////////////////////////////////
 
 
-COPY ~PoFQuestPack/Areas/PF0000.ARE~         ~override/PF0000.ARE~         
+COPY ~PoFQuestPack/Areas/XG0000.ARE~         ~override/XG0000.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf0001.are~         ~override/pf0001.are~         
+COPY ~PoFQuestPack/Areas/XG0001.are~         ~override/XG0001.are~         
 
-COPY ~PoFQuestPack/Areas/PF0002.ARE~         ~override/PF0002.ARE~         
+COPY ~PoFQuestPack/Areas/XG0002.ARE~         ~override/XG0002.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0003.ARE~         ~override/PF0003.ARE~         
+COPY ~PoFQuestPack/Areas/XG0003.ARE~         ~override/XG0003.ARE~         
   SAY 0x26b0 @398
   SAY 0x2838 @1000
   SAY 0x3284 @1001 
 
-COPY ~PoFQuestPack/Areas/PF0004.ARE~         ~override/PF0004.ARE~ 
+COPY ~PoFQuestPack/Areas/XG0004.ARE~         ~override/XG0004.ARE~ 
   SAY 0xD68 @1002        
 
-COPY ~PoFQuestPack/Areas/PF0007.ARE~         ~override/PF0007.ARE~         
+COPY ~PoFQuestPack/Areas/XG0007.ARE~         ~override/XG0007.ARE~         
   SAY 0x3104 @399
   SAY 0x3344 @1001 
 
-COPY ~PoFQuestPack/Areas/PF0009.ARE~         ~override/PF0009.ARE~         
+COPY ~PoFQuestPack/Areas/XG0009.ARE~         ~override/XG0009.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0012.ARE~         ~override/PF0012.ARE~         
+COPY ~PoFQuestPack/Areas/XG0012.ARE~         ~override/XG0012.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0013.ARE~         ~override/PF0013.ARE~         
+COPY ~PoFQuestPack/Areas/XG0013.ARE~         ~override/XG0013.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0014.ARE~         ~override/PF0014.ARE~
+COPY ~PoFQuestPack/Areas/XG0014.ARE~         ~override/XG0014.ARE~
   SAY 0x5C8 @1003         
 
-COPY ~PoFQuestPack/Areas/PF0015.ARE~         ~override/PF0015.ARE~         
+COPY ~PoFQuestPack/Areas/XG0015.ARE~         ~override/XG0015.ARE~         
   SAY 0x464 @400
 //  SAY 0x7A8 ~В Тайный проход~ 
 
-COPY ~PoFQuestPack/Areas/PF0016.ARE~         ~override/PF0016.ARE~         
+COPY ~PoFQuestPack/Areas/XG0016.ARE~         ~override/XG0016.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf0017.are~         ~override/pf0017.are~ 
+COPY ~PoFQuestPack/Areas/XG0017.are~         ~override/XG0017.are~ 
   SAY 0x4780 @1004
   SAY 0x4844 @1004
   SAY 0x4908 @1004
@@ -3097,30 +3097,30 @@ COPY ~PoFQuestPack/Areas/pf0017.are~         ~override/pf0017.are~
   SAY 0x5610 @1006 
   SAY 0x5644 @1007        
 
-COPY ~PoFQuestPack/Areas/PF0018.ARE~         ~override/PF0018.ARE~         
+COPY ~PoFQuestPack/Areas/XG0018.ARE~         ~override/XG0018.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0019.ARE~         ~override/PF0019.ARE~         
+COPY ~PoFQuestPack/Areas/XG0019.ARE~         ~override/XG0019.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0020.ARE~         ~override/PF0020.ARE~         
+COPY ~PoFQuestPack/Areas/XG0020.ARE~         ~override/XG0020.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0024.ARE~         ~override/PF0024.ARE~         
+COPY ~PoFQuestPack/Areas/XG0024.ARE~         ~override/XG0024.ARE~         
   SAY 0x2884 @401 
   SAY 0x2b94 @402 
   SAY 0x2D1C @1008
 
-COPY ~PoFQuestPack/Areas/PF0025.ARE~         ~override/PF0025.ARE~
+COPY ~PoFQuestPack/Areas/XG0025.ARE~         ~override/XG0025.ARE~
   SAY 0x1390 @1008        
 
-COPY ~PoFQuestPack/Areas/PF0026.ARE~         ~override/PF0026.ARE~
+COPY ~PoFQuestPack/Areas/XG0026.ARE~         ~override/XG0026.ARE~
   SAY 0x28B0 @1009
   SAY 0x28E4 @1009
   SAY 0x2918 @1010          
 
-COPY ~PoFQuestPack/Areas/PF0028.ARE~         ~override/PF0028.ARE~
+COPY ~PoFQuestPack/Areas/XG0028.ARE~         ~override/XG0028.ARE~
   SAY 0x105C @1011 
   SAY 0x1124 @1012         
 
-COPY ~PoFQuestPack/Areas/PF0029.ARE~         ~override/PF0029.ARE~         
+COPY ~PoFQuestPack/Areas/XG0029.ARE~         ~override/XG0029.ARE~         
   SAY 0x1bc4 @403 
   SAY 0x1e10 @404
   SAY 0x205C @1013
@@ -3131,34 +3131,34 @@ COPY ~PoFQuestPack/Areas/PF0029.ARE~         ~override/PF0029.ARE~
   SAY 0x2894 @1017
   SAY 0x28C8 @1018 
 
-COPY ~PoFQuestPack/Areas/PF0030.ARE~         ~override/PF0030.ARE~         
+COPY ~PoFQuestPack/Areas/XG0030.ARE~         ~override/XG0030.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0033.ARE~         ~override/PF0033.ARE~         
+COPY ~PoFQuestPack/Areas/XG0033.ARE~         ~override/XG0033.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf0034.are~         ~override/pf0034.are~         
+COPY ~PoFQuestPack/Areas/XG0034.are~         ~override/XG0034.are~         
 
-COPY ~PoFQuestPack/Areas/PF0039.ARE~         ~override/PF0039.ARE~         
+COPY ~PoFQuestPack/Areas/XG0039.ARE~         ~override/XG0039.ARE~         
   SAY 0x339c @406 
   SAY 0x3460 @406
   SAY 0x3854 @1019 
 
-COPY ~PoFQuestPack/Areas/PF0040.ARE~         ~override/PF0040.ARE~         
+COPY ~PoFQuestPack/Areas/XG0040.ARE~         ~override/XG0040.ARE~         
   SAY 0x2334 @401 
   SAY 0x23f8 @401 
 
-COPY ~PoFQuestPack/Areas/PF0041.ARE~         ~override/PF0041.ARE~         
+COPY ~PoFQuestPack/Areas/XG0041.ARE~         ~override/XG0041.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0045.ARE~         ~override/PF0045.ARE~         
+COPY ~PoFQuestPack/Areas/XG0045.ARE~         ~override/XG0045.ARE~         
   SAY 0x5240 @407 
   SAY 0x58EC @1020
 
-COPY ~PoFQuestPack/Areas/PF0046.ARE~         ~override/PF0046.ARE~         
+COPY ~PoFQuestPack/Areas/XG0046.ARE~         ~override/XG0046.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0047.ARE~         ~override/PF0047.ARE~
+COPY ~PoFQuestPack/Areas/XG0047.ARE~         ~override/XG0047.ARE~
   SAY 0x16A0 @1021 
   SAY 0x1764 @1022         
 
-COPY ~PoFQuestPack/Areas/PF0048.ARE~         ~override/PF0048.ARE~
+COPY ~PoFQuestPack/Areas/XG0048.ARE~         ~override/XG0048.ARE~
 //  SAY 0x4410 ~Командующий обороной Невервинтера Дилан, красный тигр приветствует вас. Наша госпожа леди Арибет сказала , что вам может понадобиться помощь в спасении этого города?  Вы заинтересованы в моих услугах?~
 //  SAY 0x44D8 ~Штаб леди Арибет~
 //  SAY 0x450C ~Аристократическая вилла~
@@ -3167,14 +3167,14 @@ COPY ~PoFQuestPack/Areas/PF0048.ARE~         ~override/PF0048.ARE~
 //  SAY 0x45A8 ~Северные ворота~
 //  SAY 0x45DC ~Восточные ворота~         
 
-COPY ~PoFQuestPack/Areas/PF0049.ARE~         ~override/PF0049.ARE~         
+COPY ~PoFQuestPack/Areas/XG0049.ARE~         ~override/XG0049.ARE~         
   SAY 0x2444 @408 
 
-COPY ~PoFQuestPack/Areas/PF0050.ARE~         ~override/PF0050.ARE~         
+COPY ~PoFQuestPack/Areas/XG0050.ARE~         ~override/XG0050.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0052.ARE~         ~override/PF0052.ARE~         
+COPY ~PoFQuestPack/Areas/XG0052.ARE~         ~override/XG0052.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0053.ARE~         ~override/PF0053.ARE~
+COPY ~PoFQuestPack/Areas/XG0053.ARE~         ~override/XG0053.ARE~
 //  SAY 0x3104 ~Она лишь служит в качестве места для сна~
 //  SAY 0x31C8 ~Она лишь служит в качестве места для сна~
 //  SAY 0x3350 ~Она лишь служит в качестве места для сна~
@@ -3184,34 +3184,34 @@ COPY ~PoFQuestPack/Areas/PF0053.ARE~         ~override/PF0053.ARE~
 //  SAY 0x3BE8 ~Место проведения ритуала~ 
 //  SAY 0x3C1C ~Вход в секретный проход~         
 
-COPY ~PoFQuestPack/Areas/pf0054.are~         ~override/pf0054.are~
-//  SAY 0x463C ~Крепость Градака~         
+COPY ~PoFQuestPack/Areas/XG0054.are~         ~override/XG0054.are~
+//  SAY 0x463C ~Крепость Градака~  Refuge (de Gradak)       
 
-COPY ~PoFQuestPack/Areas/PF0055.ARE~         ~override/PF0055.ARE~         
+COPY ~PoFQuestPack/Areas/XG0055.ARE~         ~override/XG0055.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0056.ARE~         ~override/PF0056.ARE~         
+COPY ~PoFQuestPack/Areas/XG0056.ARE~         ~override/XG0056.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0057.ARE~         ~override/PF0057.ARE~         
+COPY ~PoFQuestPack/Areas/XG0057.ARE~         ~override/XG0057.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0058.ARE~         ~override/PF0058.ARE~         
+COPY ~PoFQuestPack/Areas/XG0058.ARE~         ~override/XG0058.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0059.ARE~         ~override/PF0059.ARE~         
+COPY ~PoFQuestPack/Areas/XG0059.ARE~         ~override/XG0059.ARE~         
   SAY 0x2270 @410 
 
-COPY ~PoFQuestPack/Areas/PF0060.ARE~         ~override/PF0060.ARE~         
+COPY ~PoFQuestPack/Areas/XG0060.ARE~         ~override/XG0060.ARE~         
   SAY 0x7e0 @411 
   SAY 0x8a4 @411 
 
-COPY ~PoFQuestPack/Areas/PF0061.ARE~         ~override/PF0061.ARE~
+COPY ~PoFQuestPack/Areas/XG0061.ARE~         ~override/XG0061.ARE~
   SAY 0xB34 @1023
 
-COPY ~PoFQuestPack/Areas/PF0062.ARE~         ~override/PF0062.ARE~
+COPY ~PoFQuestPack/Areas/XG0062.ARE~         ~override/XG0062.ARE~
   SAY 0x27C4 @1024
   SAY 0x27F8 @1025
   SAY 0x282C @1026 
   SAY 0x2860 @1027         
 
-COPY ~PoFQuestPack/Areas/PF0063.ARE~         ~override/PF0063.ARE~
+COPY ~PoFQuestPack/Areas/XG0063.ARE~         ~override/XG0063.ARE~
   SAY 0x2D9C @1028
   SAY 0x2DD0 @1029 
   SAY 0x2E04 @1030
@@ -3219,7 +3219,7 @@ COPY ~PoFQuestPack/Areas/PF0063.ARE~         ~override/PF0063.ARE~
   SAY 0x2E6C @1032
   SAY 0x2EA0 @1033         
 
-COPY ~PoFQuestPack/Areas/PF0064.ARE~         ~override/PF0064.ARE~
+COPY ~PoFQuestPack/Areas/XG0064.ARE~         ~override/XG0064.ARE~
   SAY 0x3B0C @1001
   SAY 0x3BD4 @1024
   SAY 0x3C08 @1034
@@ -3227,550 +3227,550 @@ COPY ~PoFQuestPack/Areas/PF0064.ARE~         ~override/PF0064.ARE~
   SAY 0x3C70 @1036
   SAY 0x3CA4 @1037         
 
-COPY ~PoFQuestPack/Areas/PF0065.ARE~         ~override/PF0065.ARE~
+COPY ~PoFQuestPack/Areas/XG0065.ARE~         ~override/XG0065.ARE~
   SAY 0x23E0 @1038         
 
-COPY ~PoFQuestPack/Areas/PF0066.ARE~         ~override/PF0066.ARE~         
+COPY ~PoFQuestPack/Areas/XG0066.ARE~         ~override/XG0066.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0067.ARE~         ~override/PF0067.ARE~         
+COPY ~PoFQuestPack/Areas/XG0067.ARE~         ~override/XG0067.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0068.ARE~         ~override/PF0068.ARE~         
+COPY ~PoFQuestPack/Areas/XG0068.ARE~         ~override/XG0068.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0069.ARE~         ~override/PF0069.ARE~
+COPY ~PoFQuestPack/Areas/XG0069.ARE~         ~override/XG0069.ARE~
   SAY 0x495C @1039 
   SAY 0x4960 @1040         
 
-COPY ~PoFQuestPack/Areas/PF0070.ARE~         ~override/PF0070.ARE~         
+COPY ~PoFQuestPack/Areas/XG0070.ARE~         ~override/XG0070.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf0071.are~         ~override/pf0071.are~         
+COPY ~PoFQuestPack/Areas/XG0071.are~         ~override/XG0071.are~         
 
-COPY ~PoFQuestPack/Areas/pf0072.are~         ~override/pf0072.are~
+COPY ~PoFQuestPack/Areas/XG0072.are~         ~override/XG0072.are~
   SAY 0x2450 @1001         
 
-COPY ~PoFQuestPack/Areas/pf0073.are~         ~override/pf0073.are~         
+COPY ~PoFQuestPack/Areas/XG0073.are~         ~override/XG0073.are~         
 
-COPY ~PoFQuestPack/Areas/PF0075.ARE~         ~override/PF0075.ARE~         
+COPY ~PoFQuestPack/Areas/XG0075.ARE~         ~override/XG0075.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf0076.are~         ~override/pf0076.are~         
+COPY ~PoFQuestPack/Areas/XG0076.are~         ~override/XG0076.are~         
 
-COPY ~PoFQuestPack/Areas/PF0077.ARE~         ~override/PF0077.ARE~
+COPY ~PoFQuestPack/Areas/XG0077.ARE~         ~override/XG0077.ARE~
   SAY 0x20C8 @1001         
 
-COPY ~PoFQuestPack/Areas/PF0078.are~         ~override/PF0078.are~         
+COPY ~PoFQuestPack/Areas/XG0078.are~         ~override/XG0078.are~         
 
-COPY ~PoFQuestPack/Areas/PF0079.are~         ~override/PF0079.are~         
+COPY ~PoFQuestPack/Areas/XG0079.are~         ~override/XG0079.are~         
 
-COPY ~PoFQuestPack/Areas/pf0080.are~         ~override/pf0080.are~
+COPY ~PoFQuestPack/Areas/XG0080.are~         ~override/XG0080.are~
   SAY 0x26CC @1041
   SAY 0x2700 @1042         
 
-COPY ~PoFQuestPack/Areas/PF0081.are~         ~override/PF0081.are~         
+COPY ~PoFQuestPack/Areas/XG0081.are~         ~override/XG0081.are~         
 
-COPY ~PoFQuestPack/Areas/pf0082.are~         ~override/pf0082.are~         
+COPY ~PoFQuestPack/Areas/XG0082.are~         ~override/XG0082.are~         
 
-COPY ~PoFQuestPack/Areas/PF0083.are~         ~override/PF0083.are~         
+COPY ~PoFQuestPack/Areas/XG0083.are~         ~override/XG0083.are~         
 
-COPY ~PoFQuestPack/Areas/pf0084.are~         ~override/pf0084.are~         
+COPY ~PoFQuestPack/Areas/XG0084.are~         ~override/XG0084.are~         
 
-COPY ~PoFQuestPack/Areas/pf0101.are~         ~override/pf0101.are~         
+COPY ~PoFQuestPack/Areas/XG0101.are~         ~override/XG0101.are~         
   SAY 0x1280 @398 
 
-COPY ~PoFQuestPack/Areas/PF0112.ARE~         ~override/PF0112.ARE~         
+COPY ~PoFQuestPack/Areas/XG0112.ARE~         ~override/XG0112.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0114.ARE~         ~override/PF0114.ARE~         
+COPY ~PoFQuestPack/Areas/XG0114.ARE~         ~override/XG0114.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf0115.are~         ~override/pf0115.are~
+COPY ~PoFQuestPack/Areas/XG0115.are~         ~override/XG0115.are~
   SAY 0x16A0 @1043 
   SAY 0x16A4 @1044 
   SAY 0x1768 @1045         
 
-COPY ~PoFQuestPack/Areas/PF0116.ARE~         ~override/PF0116.ARE~
+COPY ~PoFQuestPack/Areas/XG0116.ARE~         ~override/XG0116.ARE~
   SAY 0x6010 @1046
   SAY 0x6044 @1047         
 
-COPY ~PoFQuestPack/Areas/PF0117.ARE~         ~override/PF0117.ARE~         
+COPY ~PoFQuestPack/Areas/XG0117.ARE~         ~override/XG0117.ARE~         
   SAY 0x1f40 @412 
 
-COPY ~PoFQuestPack/Areas/PF0118.ARE~         ~override/PF0118.ARE~         
+COPY ~PoFQuestPack/Areas/XG0118.ARE~         ~override/XG0118.ARE~         
   SAY 0x1cd4 @413         
 
-COPY ~PoFQuestPack/Areas/PF0120.ARE~         ~override/PF0120.ARE~         
+COPY ~PoFQuestPack/Areas/XG0120.ARE~         ~override/XG0120.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0124.ARE~         ~override/PF0124.ARE~         
+COPY ~PoFQuestPack/Areas/XG0124.ARE~         ~override/XG0124.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0126.ARE~         ~override/PF0126.ARE~         
+COPY ~PoFQuestPack/Areas/XG0126.ARE~         ~override/XG0126.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0128.ARE~         ~override/PF0128.ARE~         
+COPY ~PoFQuestPack/Areas/XG0128.ARE~         ~override/XG0128.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0129.ARE~         ~override/PF0129.ARE~         
+COPY ~PoFQuestPack/Areas/XG0129.ARE~         ~override/XG0129.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0130.ARE~         ~override/PF0130.ARE~         
+COPY ~PoFQuestPack/Areas/XG0130.ARE~         ~override/XG0130.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0133.ARE~         ~override/PF0133.ARE~         
+COPY ~PoFQuestPack/Areas/XG0133.ARE~         ~override/XG0133.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0139.ARE~         ~override/PF0139.ARE~         
+COPY ~PoFQuestPack/Areas/XG0139.ARE~         ~override/XG0139.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0140.ARE~         ~override/PF0140.ARE~         
+COPY ~PoFQuestPack/Areas/XG0140.ARE~         ~override/XG0140.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0141.ARE~         ~override/PF0141.ARE~ 
+COPY ~PoFQuestPack/Areas/XG0141.ARE~         ~override/XG0141.ARE~ 
 
-COPY ~PoFQuestPack/Areas/PF0145.ARE~         ~override/PF0145.ARE~         
+COPY ~PoFQuestPack/Areas/XG0145.ARE~         ~override/XG0145.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0146.ARE~         ~override/PF0146.ARE~         
+COPY ~PoFQuestPack/Areas/XG0146.ARE~         ~override/XG0146.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0147.ARE~         ~override/PF0147.ARE~         
+COPY ~PoFQuestPack/Areas/XG0147.ARE~         ~override/XG0147.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0148.ARE~         ~override/PF0148.ARE~         
+COPY ~PoFQuestPack/Areas/XG0148.ARE~         ~override/XG0148.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0149.ARE~         ~override/PF0149.ARE~         
+COPY ~PoFQuestPack/Areas/XG0149.ARE~         ~override/XG0149.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0150.ARE~         ~override/PF0150.ARE~         
+COPY ~PoFQuestPack/Areas/XG0150.ARE~         ~override/XG0150.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0152.ARE~         ~override/PF0152.ARE~         
+COPY ~PoFQuestPack/Areas/XG0152.ARE~         ~override/XG0152.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0153.ARE~         ~override/PF0153.ARE~         
+COPY ~PoFQuestPack/Areas/XG0153.ARE~         ~override/XG0153.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0154.ARE~         ~override/PF0154.ARE~         
+COPY ~PoFQuestPack/Areas/XG0154.ARE~         ~override/XG0154.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0156.ARE~         ~override/PF0156.ARE~         
+COPY ~PoFQuestPack/Areas/XG0156.ARE~         ~override/XG0156.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0158.ARE~         ~override/PF0158.ARE~         
+COPY ~PoFQuestPack/Areas/XG0158.ARE~         ~override/XG0158.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0159.ARE~         ~override/PF0159.ARE~         
+COPY ~PoFQuestPack/Areas/XG0159.ARE~         ~override/XG0159.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0160.ARE~         ~override/PF0160.ARE~         
+COPY ~PoFQuestPack/Areas/XG0160.ARE~         ~override/XG0160.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0161.ARE~         ~override/PF0161.ARE~         
+COPY ~PoFQuestPack/Areas/XG0161.ARE~         ~override/XG0161.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0162.ARE~         ~override/PF0162.ARE~         
+COPY ~PoFQuestPack/Areas/XG0162.ARE~         ~override/XG0162.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0163.ARE~         ~override/PF0163.ARE~         
+COPY ~PoFQuestPack/Areas/XG0163.ARE~         ~override/XG0163.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0164.ARE~         ~override/PF0164.ARE~         
+COPY ~PoFQuestPack/Areas/XG0164.ARE~         ~override/XG0164.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0165.ARE~         ~override/PF0165.ARE~         
+COPY ~PoFQuestPack/Areas/XG0165.ARE~         ~override/XG0165.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0166.ARE~         ~override/PF0166.ARE~         
+COPY ~PoFQuestPack/Areas/XG0166.ARE~         ~override/XG0166.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0167.ARE~         ~override/PF0167.ARE~         
+COPY ~PoFQuestPack/Areas/XG0167.ARE~         ~override/XG0167.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0168.ARE~         ~override/PF0168.ARE~         
+COPY ~PoFQuestPack/Areas/XG0168.ARE~         ~override/XG0168.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0169.ARE~         ~override/PF0169.ARE~         
+COPY ~PoFQuestPack/Areas/XG0169.ARE~         ~override/XG0169.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0170.ARE~         ~override/PF0170.ARE~         
+COPY ~PoFQuestPack/Areas/XG0170.ARE~         ~override/XG0170.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf0171.are~         ~override/pf0171.are~         
+COPY ~PoFQuestPack/Areas/XG0171.are~         ~override/XG0171.are~         
   SAY 0x1c88 @416
   SAY 0x21C4 @1001 
 
-COPY ~PoFQuestPack/Areas/PF0172.ARE~         ~override/PF0172.ARE~         
+COPY ~PoFQuestPack/Areas/XG0172.ARE~         ~override/XG0172.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf0176.are~         ~override/pf0176.are~         
+COPY ~PoFQuestPack/Areas/XG0176.are~         ~override/XG0176.are~         
 
-COPY ~PoFQuestPack/Areas/pf0177.are~         ~override/pf0177.are~         
+COPY ~PoFQuestPack/Areas/XG0177.are~         ~override/XG0177.are~         
 
-COPY ~PoFQuestPack/Areas/PF0178.are~         ~override/PF0178.are~         
+COPY ~PoFQuestPack/Areas/XG0178.are~         ~override/XG0178.are~         
 
-COPY ~PoFQuestPack/Areas/PF0179.are~         ~override/PF0179.are~         
+COPY ~PoFQuestPack/Areas/XG0179.are~         ~override/XG0179.are~         
 
-COPY ~PoFQuestPack/Areas/pf0180.are~         ~override/pf0180.are~         
+COPY ~PoFQuestPack/Areas/XG0180.are~         ~override/XG0180.are~         
 
-COPY ~PoFQuestPack/Areas/PF0181.are~         ~override/PF0181.are~         
+COPY ~PoFQuestPack/Areas/XG0181.are~         ~override/XG0181.are~         
 
-COPY ~PoFQuestPack/Areas/PF0182.are~         ~override/PF0182.are~         
+COPY ~PoFQuestPack/Areas/XG0182.are~         ~override/XG0182.are~         
 
-COPY ~PoFQuestPack/Areas/PF0183.are~         ~override/PF0183.are~         
+COPY ~PoFQuestPack/Areas/XG0183.are~         ~override/XG0183.are~         
 
-COPY ~PoFQuestPack/Areas/pf0184.are~         ~override/pf0184.are~         
+COPY ~PoFQuestPack/Areas/XG0184.are~         ~override/XG0184.are~         
 
-COPY ~PoFQuestPack/Areas/PF0201.ARE~         ~override/PF0201.ARE~         
+COPY ~PoFQuestPack/Areas/XG0201.ARE~         ~override/XG0201.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0202.ARE~         ~override/PF0202.ARE~         
+COPY ~PoFQuestPack/Areas/XG0202.ARE~         ~override/XG0202.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0203.ARE~         ~override/PF0203.ARE~         
+COPY ~PoFQuestPack/Areas/XG0203.ARE~         ~override/XG0203.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0211.ARE~         ~override/PF0211.ARE~         
+COPY ~PoFQuestPack/Areas/XG0211.ARE~         ~override/XG0211.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0212.ARE~         ~override/PF0212.ARE~         
+COPY ~PoFQuestPack/Areas/XG0212.ARE~         ~override/XG0212.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0213.ARE~         ~override/PF0213.ARE~         
+COPY ~PoFQuestPack/Areas/XG0213.ARE~         ~override/XG0213.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0214.ARE~         ~override/PF0214.ARE~         
+COPY ~PoFQuestPack/Areas/XG0214.ARE~         ~override/XG0214.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf0215.are~         ~override/pf0215.are~
+COPY ~PoFQuestPack/Areas/XG0215.are~         ~override/XG0215.are~
   SAY 0x35CC @1043
   SAY 0x3694 @1048          
 
-COPY ~PoFQuestPack/Areas/PF0217.ARE~         ~override/PF0217.ARE~         
+COPY ~PoFQuestPack/Areas/XG0217.ARE~         ~override/XG0217.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0219.ARE~         ~override/PF0219.ARE~         
+COPY ~PoFQuestPack/Areas/XG0219.ARE~         ~override/XG0219.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0220.ARE~         ~override/PF0220.ARE~         
+COPY ~PoFQuestPack/Areas/XG0220.ARE~         ~override/XG0220.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0224.ARE~         ~override/PF0224.ARE~         
+COPY ~PoFQuestPack/Areas/XG0224.ARE~         ~override/XG0224.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0226.ARE~         ~override/PF0226.ARE~         
+COPY ~PoFQuestPack/Areas/XG0226.ARE~         ~override/XG0226.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0228.ARE~         ~override/PF0228.ARE~         
+COPY ~PoFQuestPack/Areas/XG0228.ARE~         ~override/XG0228.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0229.ARE~         ~override/PF0229.ARE~         
+COPY ~PoFQuestPack/Areas/XG0229.ARE~         ~override/XG0229.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0230.ARE~         ~override/PF0230.ARE~        
+COPY ~PoFQuestPack/Areas/XG0230.ARE~         ~override/XG0230.ARE~        
 
-COPY ~PoFQuestPack/Areas/PF0239.ARE~         ~override/PF0239.ARE~         
+COPY ~PoFQuestPack/Areas/XG0239.ARE~         ~override/XG0239.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0240.ARE~         ~override/PF0240.ARE~         
+COPY ~PoFQuestPack/Areas/XG0240.ARE~         ~override/XG0240.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0245.ARE~         ~override/PF0245.ARE~         
+COPY ~PoFQuestPack/Areas/XG0245.ARE~         ~override/XG0245.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0246.ARE~         ~override/PF0246.ARE~
+COPY ~PoFQuestPack/Areas/XG0246.ARE~         ~override/XG0246.ARE~
   SAY 0x3784 @1049          
 
-COPY ~PoFQuestPack/Areas/PF0247.ARE~         ~override/PF0247.ARE~         
+COPY ~PoFQuestPack/Areas/XG0247.ARE~         ~override/XG0247.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0256.ARE~         ~override/PF0256.ARE~         
+COPY ~PoFQuestPack/Areas/XG0256.ARE~         ~override/XG0256.ARE~         
   SAY 0x1454 @417 
 
-COPY ~PoFQuestPack/Areas/PF0259.ARE~         ~override/PF0259.ARE~         
+COPY ~PoFQuestPack/Areas/XG0259.ARE~         ~override/XG0259.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0261.ARE~         ~override/PF0261.ARE~         
+COPY ~PoFQuestPack/Areas/XG0261.ARE~         ~override/XG0261.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0262.ARE~         ~override/PF0262.ARE~         
+COPY ~PoFQuestPack/Areas/XG0262.ARE~         ~override/XG0262.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0263.ARE~         ~override/PF0263.ARE~
+COPY ~PoFQuestPack/Areas/XG0263.ARE~         ~override/XG0263.ARE~
 //  SAY 0x4BD4 @1001          
 
-COPY ~PoFQuestPack/Areas/PF0264.ARE~         ~override/PF0264.ARE~         
+COPY ~PoFQuestPack/Areas/XG0264.ARE~         ~override/XG0264.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0265.ARE~         ~override/PF0265.ARE~         
+COPY ~PoFQuestPack/Areas/XG0265.ARE~         ~override/XG0265.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0266.ARE~         ~override/PF0266.ARE~         
+COPY ~PoFQuestPack/Areas/XG0266.ARE~         ~override/XG0266.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0269.ARE~         ~override/PF0269.ARE~         
+COPY ~PoFQuestPack/Areas/XG0269.ARE~         ~override/XG0269.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0271.ARE~         ~override/PF0271.ARE~         
+COPY ~PoFQuestPack/Areas/XG0271.ARE~         ~override/XG0271.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf0276.are~         ~override/pf0276.are~
+COPY ~PoFQuestPack/Areas/XG0276.are~         ~override/XG0276.are~
   SAY 0x258C @1050
   SAY 0x25C0 @1051         
 
-COPY ~PoFQuestPack/Areas/PF0278.are~         ~override/PF0278.are~
+COPY ~PoFQuestPack/Areas/XG0278.are~         ~override/XG0278.are~
   SAY 0x1E54 @1050
   SAY 0x1E88 @1051          
 
-COPY ~PoFQuestPack/Areas/PF0279.are~         ~override/PF0279.are~         
+COPY ~PoFQuestPack/Areas/XG0279.are~         ~override/XG0279.are~         
 
-COPY ~PoFQuestPack/Areas/pf0280.are~         ~override/pf0280.are~         
+COPY ~PoFQuestPack/Areas/XG0280.are~         ~override/XG0280.are~         
 
-COPY ~PoFQuestPack/Areas/PF0281.are~         ~override/PF0281.are~         
+COPY ~PoFQuestPack/Areas/XG0281.are~         ~override/XG0281.are~         
 
-COPY ~PoFQuestPack/Areas/pf0284.are~         ~override/pf0284.are~         
+COPY ~PoFQuestPack/Areas/XG0284.are~         ~override/XG0284.are~         
 
-COPY ~PoFQuestPack/Areas/PF0301.ARE~         ~override/PF0301.ARE~         
+COPY ~PoFQuestPack/Areas/XG0301.ARE~         ~override/XG0301.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0302.ARE~         ~override/PF0302.ARE~         
+COPY ~PoFQuestPack/Areas/XG0302.ARE~         ~override/XG0302.ARE~         
   SAY 0x2664 @418 
   SAY 0x2728 @418
   SAY 0x5A18 @1001
   SAY 0x5A1C @1001 
 
-COPY ~PoFQuestPack/Areas/PF0311.ARE~         ~override/PF0311.ARE~         
+COPY ~PoFQuestPack/Areas/XG0311.ARE~         ~override/XG0311.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0312.ARE~         ~override/PF0312.ARE~         
+COPY ~PoFQuestPack/Areas/XG0312.ARE~         ~override/XG0312.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0313.ARE~         ~override/PF0313.ARE~         
+COPY ~PoFQuestPack/Areas/XG0313.ARE~         ~override/XG0313.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf0315.are~         ~override/pf0315.are~         
+COPY ~PoFQuestPack/Areas/XG0315.are~         ~override/XG0315.are~         
 
-COPY ~PoFQuestPack/Areas/PF0317.ARE~         ~override/PF0317.ARE~         
+COPY ~PoFQuestPack/Areas/XG0317.ARE~         ~override/XG0317.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0319.ARE~         ~override/PF0319.ARE~         
+COPY ~PoFQuestPack/Areas/XG0319.ARE~         ~override/XG0319.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0320.ARE~         ~override/PF0320.ARE~         
+COPY ~PoFQuestPack/Areas/XG0320.ARE~         ~override/XG0320.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0324.ARE~         ~override/PF0324.ARE~        
+COPY ~PoFQuestPack/Areas/XG0324.ARE~         ~override/XG0324.ARE~        
 
-COPY ~PoFQuestPack/Areas/PF0328.ARE~         ~override/PF0328.ARE~         
+COPY ~PoFQuestPack/Areas/XG0328.ARE~         ~override/XG0328.ARE~         
   SAY 0x4250 @419 
 
-COPY ~PoFQuestPack/Areas/PF0329.ARE~         ~override/PF0329.ARE~         
+COPY ~PoFQuestPack/Areas/XG0329.ARE~         ~override/XG0329.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0330.ARE~         ~override/PF0330.ARE~         
+COPY ~PoFQuestPack/Areas/XG0330.ARE~         ~override/XG0330.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0339.ARE~         ~override/PF0339.ARE~
+COPY ~PoFQuestPack/Areas/XG0339.ARE~         ~override/XG0339.ARE~
   SAY 0x25EC @1001         
 
-COPY ~PoFQuestPack/Areas/PF0340.ARE~         ~override/PF0340.ARE~         
+COPY ~PoFQuestPack/Areas/XG0340.ARE~         ~override/XG0340.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0345.ARE~         ~override/PF0345.ARE~         
+COPY ~PoFQuestPack/Areas/XG0345.ARE~         ~override/XG0345.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0346.ARE~         ~override/PF0346.ARE~         
+COPY ~PoFQuestPack/Areas/XG0346.ARE~         ~override/XG0346.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0347.ARE~         ~override/PF0347.ARE~         
+COPY ~PoFQuestPack/Areas/XG0347.ARE~         ~override/XG0347.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0359.ARE~         ~override/PF0359.ARE~         
+COPY ~PoFQuestPack/Areas/XG0359.ARE~         ~override/XG0359.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0362.ARE~         ~override/PF0362.ARE~         
+COPY ~PoFQuestPack/Areas/XG0362.ARE~         ~override/XG0362.ARE~         
   SAY 0x4b0 @420 
 
-COPY ~PoFQuestPack/Areas/PF0363.ARE~         ~override/PF0363.ARE~         
+COPY ~PoFQuestPack/Areas/XG0363.ARE~         ~override/XG0363.ARE~         
   SAY 0x9b4 @421 
 
-COPY ~PoFQuestPack/Areas/PF0364.ARE~         ~override/PF0364.ARE~         
+COPY ~PoFQuestPack/Areas/XG0364.ARE~         ~override/XG0364.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0365.ARE~         ~override/PF0365.ARE~         
+COPY ~PoFQuestPack/Areas/XG0365.ARE~         ~override/XG0365.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0369.ARE~         ~override/PF0369.ARE~         
+COPY ~PoFQuestPack/Areas/XG0369.ARE~         ~override/XG0369.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0371.ARE~         ~override/PF0371.ARE~         
+COPY ~PoFQuestPack/Areas/XG0371.ARE~         ~override/XG0371.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf0380.are~         ~override/pf0380.are~         
+COPY ~PoFQuestPack/Areas/XG0380.are~         ~override/XG0380.are~         
 
-COPY ~PoFQuestPack/Areas/PF0381.are~         ~override/PF0381.are~         
+COPY ~PoFQuestPack/Areas/XG0381.are~         ~override/XG0381.are~         
 
-COPY ~PoFQuestPack/Areas/pf0384.are~         ~override/pf0384.are~         
+COPY ~PoFQuestPack/Areas/XG0384.are~         ~override/XG0384.are~         
 
-COPY ~PoFQuestPack/Areas/PF0401.ARE~         ~override/PF0401.ARE~
+COPY ~PoFQuestPack/Areas/XG0401.ARE~         ~override/XG0401.ARE~
   SAY 0x300C @1052         
 
-COPY ~PoFQuestPack/Areas/PF0402.ARE~         ~override/PF0402.ARE~
+COPY ~PoFQuestPack/Areas/XG0402.ARE~         ~override/XG0402.ARE~
   SAY 0x28E0 @1001         
 
-COPY ~PoFQuestPack/Areas/PF0403.ARE~         ~override/PF0403.ARE~         
+COPY ~PoFQuestPack/Areas/XG0403.ARE~         ~override/XG0403.ARE~         
   SAY 0x2bb4 @422 
 
-COPY ~PoFQuestPack/Areas/PF0411.ARE~         ~override/PF0411.ARE~         
+COPY ~PoFQuestPack/Areas/XG0411.ARE~         ~override/XG0411.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0412.ARE~         ~override/PF0412.ARE~         
+COPY ~PoFQuestPack/Areas/XG0412.ARE~         ~override/XG0412.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0413.ARE~         ~override/PF0413.ARE~         
+COPY ~PoFQuestPack/Areas/XG0413.ARE~         ~override/XG0413.ARE~         
   SAY 0x354 @423 
 
-COPY ~PoFQuestPack/Areas/PF0414.ARE~         ~override/PF0414.ARE~         
+COPY ~PoFQuestPack/Areas/XG0414.ARE~         ~override/XG0414.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0415.ARE~         ~override/PF0415.ARE~         
+COPY ~PoFQuestPack/Areas/XG0415.ARE~         ~override/XG0415.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0417.ARE~         ~override/PF0417.ARE~         
+COPY ~PoFQuestPack/Areas/XG0417.ARE~         ~override/XG0417.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0419.ARE~         ~override/PF0419.ARE~         
+COPY ~PoFQuestPack/Areas/XG0419.ARE~         ~override/XG0419.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0420.ARE~         ~override/PF0420.ARE~         
+COPY ~PoFQuestPack/Areas/XG0420.ARE~         ~override/XG0420.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0424.ARE~         ~override/PF0424.ARE~         
+COPY ~PoFQuestPack/Areas/XG0424.ARE~         ~override/XG0424.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0426.ARE~         ~override/PF0426.ARE~         
+COPY ~PoFQuestPack/Areas/XG0426.ARE~         ~override/XG0426.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0429.ARE~         ~override/PF0429.ARE~         
+COPY ~PoFQuestPack/Areas/XG0429.ARE~         ~override/XG0429.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0439.ARE~         ~override/PF0439.ARE~
+COPY ~PoFQuestPack/Areas/XG0439.ARE~         ~override/XG0439.ARE~
   SAY 0xDB4 @1001          
 
-COPY ~PoFQuestPack/Areas/pf0440.are~         ~override/pf0440.are~ 
+COPY ~PoFQuestPack/Areas/XG0440.are~         ~override/XG0440.are~ 
 
-COPY ~PoFQuestPack/Areas/PF0446.ARE~         ~override/PF0446.ARE~         
+COPY ~PoFQuestPack/Areas/XG0446.ARE~         ~override/XG0446.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0447.ARE~         ~override/PF0447.ARE~         
+COPY ~PoFQuestPack/Areas/XG0447.ARE~         ~override/XG0447.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0462.ARE~         ~override/PF0462.ARE~         
+COPY ~PoFQuestPack/Areas/XG0462.ARE~         ~override/XG0462.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0464.ARE~         ~override/PF0464.ARE~         
+COPY ~PoFQuestPack/Areas/XG0464.ARE~         ~override/XG0464.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf0480.are~         ~override/pf0480.are~
+COPY ~PoFQuestPack/Areas/XG0480.are~         ~override/XG0480.are~
   SAY 0xA7C @1001         
 
-COPY ~PoFQuestPack/Areas/PF0481.are~         ~override/PF0481.are~         
+COPY ~PoFQuestPack/Areas/XG0481.are~         ~override/XG0481.are~         
 
-COPY ~PoFQuestPack/Areas/PF04N1.ARE~         ~override/PF04N1.ARE~
+COPY ~PoFQuestPack/Areas/XG04N1.ARE~         ~override/XG04N1.ARE~
   SAY 0x2DEC @1052         
 
-COPY ~PoFQuestPack/Areas/PF04N2.ARE~         ~override/PF04N2.ARE~
+COPY ~PoFQuestPack/Areas/XG04N2.ARE~         ~override/XG04N2.ARE~
   SAY 0x186C @1001         
 
-COPY ~PoFQuestPack/Areas/PF04N3.ARE~         ~override/PF04N3.ARE~         
+COPY ~PoFQuestPack/Areas/XG04N3.ARE~         ~override/XG04N3.ARE~         
   SAY 0x2bb4 @422 
 
-COPY ~PoFQuestPack/Areas/PF0511.ARE~         ~override/PF0511.ARE~         
+COPY ~PoFQuestPack/Areas/XG0511.ARE~         ~override/XG0511.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0515.ARE~         ~override/PF0515.ARE~         
+COPY ~PoFQuestPack/Areas/XG0515.ARE~         ~override/XG0515.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0517.ARE~         ~override/PF0517.ARE~         
+COPY ~PoFQuestPack/Areas/XG0517.ARE~         ~override/XG0517.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0520.ARE~         ~override/PF0520.ARE~         
+COPY ~PoFQuestPack/Areas/XG0520.ARE~         ~override/XG0520.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0524.ARE~         ~override/PF0524.ARE~         
+COPY ~PoFQuestPack/Areas/XG0524.ARE~         ~override/XG0524.ARE~         
   SAY 0x4b0 @401 
 
-COPY ~PoFQuestPack/Areas/PF0526.ARE~         ~override/PF0526.ARE~         
+COPY ~PoFQuestPack/Areas/XG0526.ARE~         ~override/XG0526.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0529.ARE~         ~override/PF0529.ARE~
+COPY ~PoFQuestPack/Areas/XG0529.ARE~         ~override/XG0529.ARE~
   SAY 0x1604 @1001
 
-COPY ~PoFQuestPack/Areas/PF0539.ARE~         ~override/PF0539.ARE~
+COPY ~PoFQuestPack/Areas/XG0539.ARE~         ~override/XG0539.ARE~
   SAY 0x1D88 @1001         
 
-COPY ~PoFQuestPack/Areas/PF0547.ARE~         ~override/PF0547.ARE~         
+COPY ~PoFQuestPack/Areas/XG0547.ARE~         ~override/XG0547.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0548.ARE~         ~override/PF0548.ARE~         
+COPY ~PoFQuestPack/Areas/XG0548.ARE~         ~override/XG0548.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0562.ARE~         ~override/PF0562.ARE~         
+COPY ~PoFQuestPack/Areas/XG0562.ARE~         ~override/XG0562.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0564.ARE~         ~override/PF0564.ARE~         
+COPY ~PoFQuestPack/Areas/XG0564.ARE~         ~override/XG0564.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf0580.are~         ~override/pf0580.are~         
+COPY ~PoFQuestPack/Areas/XG0580.are~         ~override/XG0580.are~         
 
-COPY ~PoFQuestPack/Areas/PF0581.are~         ~override/PF0581.are~         
+COPY ~PoFQuestPack/Areas/XG0581.are~         ~override/XG0581.are~         
 
-COPY ~PoFQuestPack/Areas/PF0615.ARE~         ~override/PF0615.ARE~         
+COPY ~PoFQuestPack/Areas/XG0615.ARE~         ~override/XG0615.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0620.ARE~         ~override/PF0620.ARE~         
+COPY ~PoFQuestPack/Areas/XG0620.ARE~         ~override/XG0620.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0624.ARE~         ~override/PF0624.ARE~         
+COPY ~PoFQuestPack/Areas/XG0624.ARE~         ~override/XG0624.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0629.ARE~         ~override/PF0629.ARE~ 
+COPY ~PoFQuestPack/Areas/XG0629.ARE~         ~override/XG0629.ARE~ 
 
-COPY ~PoFQuestPack/Areas/PF0639.ARE~         ~override/PF0639.ARE~         
+COPY ~PoFQuestPack/Areas/XG0639.ARE~         ~override/XG0639.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0647.ARE~         ~override/PF0647.ARE~         
+COPY ~PoFQuestPack/Areas/XG0647.ARE~         ~override/XG0647.ARE~         
   SAY 0x16c0 @427 
 
-COPY ~PoFQuestPack/Areas/PF0648.ARE~         ~override/PF0648.ARE~         
+COPY ~PoFQuestPack/Areas/XG0648.ARE~         ~override/XG0648.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0662.ARE~         ~override/PF0662.ARE~         
+COPY ~PoFQuestPack/Areas/XG0662.ARE~         ~override/XG0662.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf0680.are~         ~override/pf0680.are~         
+COPY ~PoFQuestPack/Areas/XG0680.are~         ~override/XG0680.are~         
 
-COPY ~PoFQuestPack/Areas/pf0681.are~         ~override/pf0681.are~         
+COPY ~PoFQuestPack/Areas/XG0681.are~         ~override/XG0681.are~         
 
-COPY ~PoFQuestPack/Areas/PF0701.ARE~         ~override/PF0701.ARE~         
+COPY ~PoFQuestPack/Areas/XG0701.ARE~         ~override/XG0701.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0702.ARE~         ~override/PF0702.ARE~         
+COPY ~PoFQuestPack/Areas/XG0702.ARE~         ~override/XG0702.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0715.ARE~         ~override/PF0715.ARE~         
+COPY ~PoFQuestPack/Areas/XG0715.ARE~         ~override/XG0715.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0720.ARE~         ~override/PF0720.ARE~         
+COPY ~PoFQuestPack/Areas/XG0720.ARE~         ~override/XG0720.ARE~         
   SAY 0x1170 @428 
   SAY 0x1234 @428 
   SAY 0x13bc @429 
 
-COPY ~PoFQuestPack/Areas/PF0729.ARE~         ~override/PF0729.ARE~         
+COPY ~PoFQuestPack/Areas/XG0729.ARE~         ~override/XG0729.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0747.ARE~         ~override/PF0747.ARE~         
+COPY ~PoFQuestPack/Areas/XG0747.ARE~         ~override/XG0747.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0748.ARE~         ~override/PF0748.ARE~         
+COPY ~PoFQuestPack/Areas/XG0748.ARE~         ~override/XG0748.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0762.ARE~         ~override/PF0762.ARE~         
+COPY ~PoFQuestPack/Areas/XG0762.ARE~         ~override/XG0762.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0764.ARE~         ~override/PF0764.ARE~         
+COPY ~PoFQuestPack/Areas/XG0764.ARE~         ~override/XG0764.ARE~         
   SAY 0x5c0 @430 
 
-COPY ~PoFQuestPack/Areas/pf0780.are~         ~override/pf0780.are~ 
+COPY ~PoFQuestPack/Areas/XG0780.are~         ~override/XG0780.are~ 
   SAY 0x3648 @1053        
 
-COPY ~PoFQuestPack/Areas/pf0801.are~         ~override/pf0801.are~         
+COPY ~PoFQuestPack/Areas/XG0801.are~         ~override/XG0801.are~         
 
-COPY ~PoFQuestPack/Areas/PF0803.ARE~         ~override/PF0803.ARE~         
+COPY ~PoFQuestPack/Areas/XG0803.ARE~         ~override/XG0803.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0815.ARE~         ~override/PF0815.ARE~         
+COPY ~PoFQuestPack/Areas/XG0815.ARE~         ~override/XG0815.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0820.ARE~         ~override/PF0820.ARE~
+COPY ~PoFQuestPack/Areas/XG0820.ARE~         ~override/XG0820.ARE~
   SAY 0x41C @1001          
 
-COPY ~PoFQuestPack/Areas/PF0829.ARE~         ~override/PF0829.ARE~         
+COPY ~PoFQuestPack/Areas/XG0829.ARE~         ~override/XG0829.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0864.ARE~         ~override/PF0864.ARE~         
+COPY ~PoFQuestPack/Areas/XG0864.ARE~         ~override/XG0864.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf0880.are~         ~override/pf0880.are~         
+COPY ~PoFQuestPack/Areas/XG0880.are~         ~override/XG0880.are~         
 
-COPY ~PoFQuestPack/Areas/PF0901.ARE~         ~override/PF0901.ARE~
+COPY ~PoFQuestPack/Areas/XG0901.ARE~         ~override/XG0901.ARE~
   SAY 0x4FD4 @1054
 
-COPY ~PoFQuestPack/Areas/PF0902.ARE~         ~override/PF0902.ARE~         
+COPY ~PoFQuestPack/Areas/XG0902.ARE~         ~override/XG0902.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0903.ARE~         ~override/PF0903.ARE~         
+COPY ~PoFQuestPack/Areas/XG0903.ARE~         ~override/XG0903.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0920.ARE~         ~override/PF0920.ARE~         
+COPY ~PoFQuestPack/Areas/XG0920.ARE~         ~override/XG0920.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0964.ARE~         ~override/PF0964.ARE~         
+COPY ~PoFQuestPack/Areas/XG0964.ARE~         ~override/XG0964.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF0A80.are~         ~override/PF0A80.are~
+COPY ~PoFQuestPack/Areas/XG0A80.are~         ~override/XG0A80.are~
   SAY 0x24AC @1041
   SAY 0x24E0 @1042         
 
-COPY ~PoFQuestPack/Areas/PF1020.ARE~         ~override/PF1020.ARE~         
+COPY ~PoFQuestPack/Areas/XG1020.ARE~         ~override/XG1020.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF1034.ARE~         ~override/PF1034.ARE~         
+COPY ~PoFQuestPack/Areas/XG1034.ARE~         ~override/XG1034.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF1053.ARE~         ~override/PF1053.ARE~         
+COPY ~PoFQuestPack/Areas/XG1053.ARE~         ~override/XG1053.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF1057.ARE~         ~override/PF1057.ARE~         
+COPY ~PoFQuestPack/Areas/XG1057.ARE~         ~override/XG1057.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf1080.are~         ~override/pf1080.are~         
+COPY ~PoFQuestPack/Areas/XG1080.are~         ~override/XG1080.are~         
 
-COPY ~PoFQuestPack/Areas/PF1120.ARE~         ~override/PF1120.ARE~         
+COPY ~PoFQuestPack/Areas/XG1120.ARE~         ~override/XG1120.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF1134.ARE~         ~override/PF1134.ARE~         
+COPY ~PoFQuestPack/Areas/XG1134.ARE~         ~override/XG1134.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF1220.ARE~         ~override/PF1220.ARE~         
+COPY ~PoFQuestPack/Areas/XG1220.ARE~         ~override/XG1220.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF1234.ARE~         ~override/PF1234.ARE~         
+COPY ~PoFQuestPack/Areas/XG1234.ARE~         ~override/XG1234.ARE~         
 
-COPY ~PoFQuestPack/Areas/pf1319.are~         ~override/pf1319.are~         
+COPY ~PoFQuestPack/Areas/XG1319.are~         ~override/XG1319.are~         
 
-COPY ~PoFQuestPack/Areas/PF2057.ARE~         ~override/PF2057.ARE~         
+COPY ~PoFQuestPack/Areas/XG2057.ARE~         ~override/XG2057.ARE~         
 
-COPY ~PoFQuestPack/Areas/PF4000.are~         ~override/PF4000.are~         
+COPY ~PoFQuestPack/Areas/XG4000.are~         ~override/XG4000.are~         
 
-COPY ~PoFQuestPack/Areas/pf4001.are~         ~override/pf4001.are~         
+COPY ~PoFQuestPack/Areas/XG4001.are~         ~override/XG4001.are~         
 
-COPY ~PoFQuestPack/Areas/PF8100.are~         ~override/PF8100.are~         
+COPY ~PoFQuestPack/Areas/XG8100.are~         ~override/XG8100.are~         
 
-COPY ~PoFQuestPack/Areas/pf8103.are~         ~override/pf8103.are~         
+COPY ~PoFQuestPack/Areas/XG8103.are~         ~override/XG8103.are~         
 
-COPY ~PoFQuestPack/Areas/PF8104.are~         ~override/PF8104.are~         
+COPY ~PoFQuestPack/Areas/XG8104.are~         ~override/XG8104.are~         
 
-COPY ~PoFQuestPack/Areas/PF8200.are~         ~override/PF8200.are~         
+COPY ~PoFQuestPack/Areas/XG8200.are~         ~override/XG8200.are~         
 
-COPY ~PoFQuestPack/Areas/PF8201.are~         ~override/PF8201.are~         
+COPY ~PoFQuestPack/Areas/XG8201.are~         ~override/XG8201.are~         
 
-COPY ~PoFQuestPack/Areas/PF8300.are~         ~override/PF8300.are~         
+COPY ~PoFQuestPack/Areas/XG8300.are~         ~override/XG8300.are~         
 
-COPY ~PoFQuestPack/Areas/PF8301.are~         ~override/PF8301.are~         
+COPY ~PoFQuestPack/Areas/XG8301.are~         ~override/XG8301.are~         
 
-COPY ~PoFQuestPack/Areas/PF8400.are~         ~override/PF8400.are~         
+COPY ~PoFQuestPack/Areas/XG8400.are~         ~override/XG8400.are~         
 
-COPY ~PoFQuestPack/Areas/pf8500.are~         ~override/pf8500.are~         
+COPY ~PoFQuestPack/Areas/XG8500.are~         ~override/XG8500.are~         
 
-COPY ~PoFQuestPack/Areas/pfa180.are~         ~override/pfa180.are~         
+COPY ~PoFQuestPack/Areas/XGa180.are~         ~override/XGa180.are~         
 
-COPY ~PoFQuestPack/Areas/pfa280.are~         ~override/pfa280.are~         
+COPY ~PoFQuestPack/Areas/XGa280.are~         ~override/XGa280.are~         
 
-COPY ~PoFQuestPack/Areas/pfa380.are~         ~override/pfa380.are~         
+COPY ~PoFQuestPack/Areas/XGa380.are~         ~override/XGa380.are~         
 
-COPY ~PoFQuestPack/Areas/pfa480.are~         ~override/pfa480.are~
+COPY ~PoFQuestPack/Areas/XGa480.are~         ~override/XGa480.are~
   SAY 0x44C @1001         
 
-COPY ~PoFQuestPack/Areas/pfb180.are~         ~override/pfb180.are~        
+COPY ~PoFQuestPack/Areas/XGb180.are~         ~override/XGb180.are~        
 
-COPY ~PoFQuestPack/Areas/PFKAR1.are~         ~override/PFKAR1.are~         
+COPY ~PoFQuestPack/Areas/XGKAR1.are~         ~override/XGKAR1.are~         
   SAY 0x1060 @431 
 
-COPY ~PoFQuestPack/Areas/PFKAR2.are~         ~override/PFKAR2.are~         
+COPY ~PoFQuestPack/Areas/XGKAR2.are~         ~override/XGKAR2.are~         
   SAY 0x1280 @431 
 
-COPY ~PoFQuestPack/Areas/PFRA01.are~         ~override/PFRA01.are~        
+COPY ~PoFQuestPack/Areas/XGRA01.are~         ~override/XGRA01.are~        
 
-COPY ~PoFQuestPack/Areas/PFRA03.are~         ~override/PFRA03.are~         
+COPY ~PoFQuestPack/Areas/XGRA03.are~         ~override/XGRA03.are~         
 
-COPY ~PoFQuestPack/Areas/PFRA04.are~         ~override/PFRA04.are~         
+COPY ~PoFQuestPack/Areas/XGRA04.are~         ~override/XGRA04.are~         
 
-COPY ~PoFQuestPack/Areas/PFRA06.are~         ~override/PFRA06.are~         
+COPY ~PoFQuestPack/Areas/XGRA06.are~         ~override/XGRA06.are~         
 
-COPY ~PoFQuestPack/Areas/PFRA08.are~         ~override/PFRA08.are~         
+COPY ~PoFQuestPack/Areas/XGRA08.are~         ~override/XGRA08.are~         
 
-COPY ~PoFQuestPack/Areas/PFTORM.are~         ~override/PFTORM.are~         
+COPY ~PoFQuestPack/Areas/XGTORM.are~         ~override/XGTORM.are~         
 
-COPY ~PoFQuestPack/Areas/PFUMOD.ARE~         ~override/PFUMOD.ARE~         
+COPY ~PoFQuestPack/Areas/XGUMOD.ARE~         ~override/XGUMOD.ARE~         
   SAY 0x3040 @432 
   SAY 0x32A4 @1001
 
@@ -3889,7 +3889,7 @@ COPY ~PoFQuestPack/Items/XGBHARF.ITM~       ~override/XGBHARF.ITM~
 COPY ~PoFQuestPack/Items/XGBOOKP.ITM~         ~override/XGBOOKP.ITM~   // Addition (description)
   SAY NAME1 @2000
   SAY NAME2 @2003 
-  SAY DESC @2002        
+  SAY DESC @2001        
 
 COPY ~PoFQuestPack/Items/XGBOOT1.ITM~          ~override/XGBOOT1.ITM~          
   SAY NAME2 @473 
@@ -5272,10 +5272,10 @@ COMPILE ~PoFQuestPack/Baf_new~
 //////////////////////////////////
 
 EXTEND_TOP ~ar0020.bcs~                 ~PoFQuestPack/baf_are/s#AR0020.baf~
-USING ~PoFQuestPack/%s/baf_are/s#AR0020.tra~
+USING ~PoFQuestPack/Languages/%s/baf_are/s#AR0020.tra~
 
 EXTEND_TOP ~ar0300.bcs~                 ~PoFQuestPack/baf_are/s#AR0300.baf~
-USING ~PoFQuestPack/%s/baf_are/s#AR0300.tra~
+USING ~PoFQuestPack/Languages/%s/baf_are/s#AR0300.tra~
 
 EXTEND_TOP ~ar0305.bcs~                 ~PoFQuestPack/baf_are/s#AR0305.baf~
 
@@ -5288,7 +5288,7 @@ EXTEND_TOP ~ar0527.bcs~                 ~PoFQuestPack/baf_are/s#AR0527.baf~
 EXTEND_TOP ~ar0528.bcs~                 ~PoFQuestPack/baf_are/s#AR0528.baf~
 
 EXTEND_TOP ~ar0602.bcs~                 ~PoFQuestPack/baf_are/s#AR0602.baf~
-USING ~PoFQuestPack/%s/baf_are/s#AR0602.tra~
+USING ~PoFQuestPack/Languages/%s/baf_are/s#AR0602.tra~
 
 EXTEND_BOTTOM ~ar0700.bcs~                 ~PoFQuestPack/baf_are/s#AR0700.baf~
 
@@ -5297,20 +5297,20 @@ EXTEND_TOP ~ar0800.bcs~                 ~PoFQuestPack/baf_are/s#AR0800.baf~
 EXTEND_TOP ~ar0900.bcs~                 ~PoFQuestPack/baf_are/s#AR0900.baf~
 
 EXTEND_TOP ~ar1000.bcs~                 ~PoFQuestPack/baf_are/s#AR1000.baf~
-USING ~PoFQuestPack/%s/baf_are/s#AR1000.tra~
+USING ~PoFQuestPack/Languages/%s/baf_are/s#AR1000.tra~
 
 EXTEND_TOP ~ar1005.bcs~                 ~PoFQuestPack/baf_are/s#AR1005.baf~
-USING ~PoFQuestPack/%s/baf_are/s#AR1005.tra~
+USING ~PoFQuestPack/Languages/%s/baf_are/s#AR1005.tra~
 
 EXTEND_TOP ~ar1100.bcs~                 ~PoFQuestPack/baf_are/s#AR1100.baf~
-USING ~PoFQuestPack/%s/baf_are/s#AR1100.tra~
+USING ~PoFQuestPack/Languages/%s/baf_are/s#AR1100.tra~
 
 EXTEND_TOP ~ar1500.bcs~                 ~PoFQuestPack/baf_are/s#AR1500.baf~
 
 EXTEND_TOP ~ar1602.bcs~                 ~PoFQuestPack/baf_are/s#AR1602.baf~
 
 EXTEND_TOP ~ar2000.bcs~                 ~PoFQuestPack/baf_are/s#AR2000.baf~
-USING ~PoFQuestPack/%s/baf_are/s#AR2000.tra~
+USING ~PoFQuestPack/Languages/%s/baf_are/s#AR2000.tra~
 
 
 
@@ -5335,74 +5335,75 @@ USING ~PoFQuestPack/%s/baf_are/s#AR2000.tra~
 
 
 // Append mastarea.2da with the new areas
-APPEND ~MASTAREA.2da~ ~PF0001 value~ UNLESS ~PF0001~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0002 value~ UNLESS ~PF0002~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0003 value~ UNLESS ~PF0003~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0004 value~ UNLESS ~PF0004~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0007 value~ UNLESS ~PF0007~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0801 value~ UNLESS ~PF0801~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0009 value~ UNLESS ~PF0009~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0034 value~ UNLESS ~PF0034~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0012 value~ UNLESS ~PF0012~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0014 value~ UNLESS ~PF0014~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0016 value~ UNLESS ~PF0016~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0017 value~ UNLESS ~PF0017~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0018 value~ UNLESS ~PF0018~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0019 value~ UNLESS ~PF0019~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0020 value~ UNLESS ~PF0020~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0025 value~ UNLESS ~PF0025~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0026 value~ UNLESS ~PF0026~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0064 value~ UNLESS ~PF0064~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0028 value~ UNLESS ~PF0028~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0319 value~ UNLESS ~PF0319~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0029 value~ UNLESS ~PF0029~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0033 value~ UNLESS ~PF0033~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0039 value~ UNLESS ~PF0039~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0040 value~ UNLESS ~PF0040~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0068 value~ UNLESS ~PF0068~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0041 value~ UNLESS ~PF0041~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0046 value~ UNLESS ~PF0046~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0047 value~ UNLESS ~PF0047~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0062 value~ UNLESS ~PF0062~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0050 value~ UNLESS ~PF0050~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0052 value~ UNLESS ~PF0052~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0054 value~ UNLESS ~PF0054~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0055 value~ UNLESS ~PF0055~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0061 value~ UNLESS ~PF0061~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0065 value~ UNLESS ~PF0065~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0066 value~ UNLESS ~PF0066~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0067 value~ UNLESS ~PF0067~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0069 value~ UNLESS ~PF0069~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0053 value~ UNLESS ~PF0053~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0056 value~ UNLESS ~PF0056~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0059 value~ UNLESS ~PF0059~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0060 value~ UNLESS ~PF0060~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0070 value~ UNLESS ~PF0070~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0072 value~ UNLESS ~PF0072~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0073 value~ UNLESS ~PF0073~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0075 value~ UNLESS ~PF0075~ //Cult
-APPEND ~MASTAREA.2da~ ~PF1319 value~ UNLESS ~PF1319~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0076 value~ UNLESS ~PF0076~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0077 value~ UNLESS ~PF0077~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0078 value~ UNLESS ~PF0078~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0058 value~ UNLESS ~PF0058~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0079 value~ UNLESS ~PF0079~ //Cult
-APPEND ~MASTAREA.2da~ ~PF4001 value~ UNLESS ~PF4001~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0081 value~ UNLESS ~PF0081~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0082 value~ UNLESS ~PF0082~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0083 value~ UNLESS ~PF0083~ //Cult
-APPEND ~MASTAREA.2da~ ~PF8100 value~ UNLESS ~PF8100~ //Cult
-APPEND ~MASTAREA.2da~ ~PF8200 value~ UNLESS ~PF8200~ //Cult
-APPEND ~MASTAREA.2da~ ~PF8300 value~ UNLESS ~PF8300~ //Cult
-APPEND ~MASTAREA.2da~ ~PFKAR2 value~ UNLESS ~PFKAR2~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0681 value~ UNLESS ~PF0681~ //Cult
-APPEND ~MASTAREA.2da~ ~PF8500 value~ UNLESS ~PF8500~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0084 value~ UNLESS ~PF0084~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0A80 value~ UNLESS ~PF0A80~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0080 value~ UNLESS ~PF0080~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0780 value~ UNLESS ~PF0780~ //Cult
-APPEND ~MASTAREA.2da~ ~PF0680 value~ UNLESS ~PF0680~ //Cult
-
+APPEND ~MASTAREA.2da~ ~XG0001 value~ UNLESS ~XG0001~ // Grotte des Marchands // Tradmith Cave //
+APPEND ~MASTAREA.2da~ ~XG0002 value~ UNLESS ~XG0002~ // Plaines Etincelantes // The Shining Plains //
+APPEND ~MASTAREA.2da~ ~XG0003 value~ UNLESS ~XG0003~ // Bois de Turlan // Turlan Forest //
+APPEND ~MASTAREA.2da~ ~XG0004 value~ UNLESS ~XG0004~ // Mines de Feu vagabondes // Wandering Fire Mines //
+APPEND ~MASTAREA.2da~ ~XG0007 value~ UNLESS ~XG0007~ // Le Fort de la Sorciere // Witch's Strength //
+APPEND ~MASTAREA.2da~ ~XG0801 value~ UNLESS ~XG0801~ // Camp Hrothgar // Hrothgar Camp //
+APPEND ~MASTAREA.2da~ ~XG0009 value~ UNLESS ~XG0009~ // Maison des Morts-vivants // Undead Housing //
+APPEND ~MASTAREA.2da~ ~XG0034 value~ UNLESS ~XG0034~ // Le Conseil des Mages  // Council of Mages //
+APPEND ~MASTAREA.2da~ ~XG0012 value~ UNLESS ~XG0012~ // Chateau des Collines Oubliees // Castle Forgotten Hills //
+APPEND ~MASTAREA.2da~ ~XG0014 value~ UNLESS ~XG0014~ // Ile du pirate (Mer des etoiles dechues) //  Pirate island //
+APPEND ~MASTAREA.2da~ ~XG0016 value~ UNLESS ~XG0016~ // Passe du Geant // Pass //
+APPEND ~MASTAREA.2da~ ~XG0017 value~ UNLESS ~XG0017~ // Tour de Gradak // Tower of Gradak //
+APPEND ~MASTAREA.2da~ ~XG0018 value~ UNLESS ~XG0018~ // Camp Secret de Gradak
+APPEND ~MASTAREA.2da~ ~XG0019 value~ UNLESS ~XG0019~ // Navire de Gradak // Ship of Gradak //
+APPEND ~MASTAREA.2da~ ~XG0020 value~ UNLESS ~XG0020~ // Porte de Baldur  // Baldur's Gate  //
+APPEND ~MASTAREA.2da~ ~XG0025 value~ UNLESS ~XG0025~ // Quais de Targos // Docks of Targos //
+APPEND ~MASTAREA.2da~ ~XG0026 value~ UNLESS ~XG0026~ // Haute Foret // The High Forest //
+APPEND ~MASTAREA.2da~ ~XG0064 value~ UNLESS ~XG0064~ // Eauprofonde // Waterdeep //
+APPEND ~MASTAREA.2da~ ~XG0028 value~ UNLESS ~XG0028~ // Chateau des Montagnes Floconeigeuses // Fort on Snowflake mountains //
+APPEND ~MASTAREA.2da~ ~XG0319 value~ UNLESS ~XG0319~ // Village Abandonne // Abandoned Village //
+APPEND ~MASTAREA.2da~ ~XG0029 value~ UNLESS ~XG0029~ // Cite des Pretres (Pres de Berdusk) // Priests City // Har Al-Dur //
+APPEND ~MASTAREA.2da~ ~XG0033 value~ UNLESS ~XG0033~ // Village (pres de Teziir) // Village //
+APPEND ~MASTAREA.2da~ ~XG0039 value~ UNLESS ~XG0039~ // Iles Moonshae // Moonshae Isles //
+APPEND ~MASTAREA.2da~ ~XG0040 value~ UNLESS ~XG0040~ // Iles Moonshae // Moonshae Isles //
+APPEND ~MASTAREA.2da~ ~XG0068 value~ UNLESS ~XG0068~ // District des Affaires // Business district //
+APPEND ~MASTAREA.2da~ ~XG0041 value~ UNLESS ~XG0041~ // Iles Moonshae // Moonshae Isles //
+APPEND ~MASTAREA.2da~ ~XG0046 value~ UNLESS ~XG0046~ // Temple oublie // Forgotten Temple //
+APPEND ~MASTAREA.2da~ ~XG0047 value~ UNLESS ~XG0047~ // Port de l'Est (Icewind Dale) // East Harbor //
+APPEND ~MASTAREA.2da~ ~XG0062 value~ UNLESS ~XG0062~ // Padhiver // Neverwinter 
+APPEND ~MASTAREA.2da~ ~XG0050 value~ UNLESS ~XG0050~ // Montagnes (sous le festival) // Mountains //
+APPEND ~MASTAREA.2da~ ~XG0052 value~ UNLESS ~XG0052~ // Forteresse Glacee // Ice Castle //
+APPEND ~MASTAREA.2da~ ~XG0054 value~ UNLESS ~XG0054~ // Refuge (de Gradak) // Shelter //
+APPEND ~MASTAREA.2da~ ~XG0055 value~ UNLESS ~XG0055~ // Tour de Gradak (bis) // Tower of Gradak //
+APPEND ~MASTAREA.2da~ ~XG0061 value~ UNLESS ~XG0061~ // Foret (vers les Montagnes du Couchant) // Forest //
+APPEND ~MASTAREA.2da~ ~XG0065 value~ UNLESS ~XG0065~ // Village (pres de Soubar) // Village //
+APPEND ~MASTAREA.2da~ ~XG0066 value~ UNLESS ~XG0066~ // Col de la Foret // Pass //
+APPEND ~MASTAREA.2da~ ~XG0067 value~ UNLESS ~XG0067~ // Vallee de L'Epine Dorsale // Valley of Icewind Dale //
+APPEND ~MASTAREA.2da~ ~XG0069 value~ UNLESS ~XG0069~ // Chasse aux Trolls // Hunting Trolls //
+APPEND ~MASTAREA.2da~ ~XG0053 value~ UNLESS ~XG0053~ // Le culte // Cult //
+APPEND ~MASTAREA.2da~ ~XG0056 value~ UNLESS ~XG0056~ // Vallee // Valley // 
+APPEND ~MASTAREA.2da~ ~XG0059 value~ UNLESS ~XG0059~ // Village (Floconeigeuse) // Village //
+APPEND ~MASTAREA.2da~ ~XG0060 value~ UNLESS ~XG0060~ // Montagnes (Floconeigeuse) // Mountains //
+APPEND ~MASTAREA.2da~ ~XG0070 value~ UNLESS ~XG0070~ // Ferme (pres du Gue de la Dague) // Farm //
+APPEND ~MASTAREA.2da~ ~XG0072 value~ UNLESS ~XG0072~ // Desert Calim (pres de Memnon) // Calim Desert //
+APPEND ~MASTAREA.2da~ ~XG0073 value~ UNLESS ~XG0073~ // Desert Calim  (pres de Darromar)// Calim Desert //
+APPEND ~MASTAREA.2da~ ~XG0075 value~ UNLESS ~XG0075~ // Arene // Arena //
+APPEND ~MASTAREA.2da~ ~XG1319 value~ UNLESS ~XG1319~ // Village Abandonne (bis) // Abandoned Village //
+APPEND ~MASTAREA.2da~ ~XG0076 value~ UNLESS ~XG0076~ // Foret de Tethyr // Forest of Tehyr //
+APPEND ~MASTAREA.2da~ ~XG0077 value~ UNLESS ~XG0077~ // Foret de Tethyr // Forest of Tehyr //
+APPEND ~MASTAREA.2da~ ~XG0078 value~ UNLESS ~XG0078~ // Chateau-Tethyr // Castle of Tehyr //
+APPEND ~MASTAREA.2da~ ~XG0058 value~ UNLESS ~XG0058~ // Vallee de L'Epine Dorsale // Valley of Icewind Dale //
+APPEND ~MASTAREA.2da~ ~XG0079 value~ UNLESS ~XG0079~ // Ferme (pres d'Esmeltaran) // Farm //
+APPEND ~MASTAREA.2da~ ~XG4001 value~ UNLESS ~XG4001~ // Iles Moonshae // Moonshae Isles //
+APPEND ~MASTAREA.2da~ ~XG0081 value~ UNLESS ~XG0081~ // Montagnes du Couchant // Twilight Mountains //
+APPEND ~MASTAREA.2da~ ~XG0082 value~ UNLESS ~XG0082~ // Montagnes du Couchant // Twilight Mountains //
+APPEND ~MASTAREA.2da~ ~XG0083 value~ UNLESS ~XG0083~ // Montagnes du Couchant // Twilight Mountains //
+APPEND ~MASTAREA.2da~ ~XG0133 value~ UNLESS ~XG0133~ // Village (pres de Teziir) (bis) // Village //  
+APPEND ~MASTAREA.2da~ ~XG8100 value~ UNLESS ~XG8100~ // Montagnes du Couchant (bis) // Twilight Mountains //
+APPEND ~MASTAREA.2da~ ~XG8200 value~ UNLESS ~XG8200~ // Montagnes du Couchant (bis) // Twilight Mountains //
+APPEND ~MASTAREA.2da~ ~XG8300 value~ UNLESS ~XG8300~ // Montagnes du Couchant (bis) // Twilight Mountains //
+APPEND ~MASTAREA.2da~ ~XGKAR2 value~ UNLESS ~XGKAR2~ // Caravane // Caravan //
+APPEND ~MASTAREA.2da~ ~XG0681 value~ UNLESS ~XG0681~ // Monastere des admirateur de Torm // Torm admirers Monastery //
+APPEND ~MASTAREA.2da~ ~XG8500 value~ UNLESS ~XG8500~ // Monastere des admirateurs de Cyric // Cyric admirers Monastery //
+APPEND ~MASTAREA.2da~ ~XG0084 value~ UNLESS ~XG0084~ // La Plaine Gelee // The Frozen Plain //
+APPEND ~MASTAREA.2da~ ~XG0A80 value~ UNLESS ~XG0A80~ // Siluvanede
+APPEND ~MASTAREA.2da~ ~XG0080 value~ UNLESS ~XG0080~ // Siluvanede (bis)
+APPEND ~MASTAREA.2da~ ~XG0780 value~ UNLESS ~XG0780~ // Camp Eilistraee
+APPEND ~MASTAREA.2da~ ~XG0680 value~ UNLESS ~XG0680~ // Foret (vers Padhiver) // Forest //
+                                                     
 COPY ~PoFQuestPack/PVRZ~   ~override~
 
 AT_INTERACTIVE_EXIT ~PoFQuestPack\PoFQuestPack_Inst.bat~

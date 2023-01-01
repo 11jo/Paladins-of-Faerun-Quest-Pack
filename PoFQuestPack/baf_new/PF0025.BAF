@@ -1,13 +1,13 @@
 IF
   OnCreation()
-  Global("EnteredPF0025","PF0025",0)
+  Global("EnteredXG0025","XG0025",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0025","PF0025",1)
+    SetGlobal("EnteredXG0025","XG0025",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
-    PlaySound("MUS3MOD")
+    PlaySound("XGMUS3")
     Wait(2)
     DisplayStringHead(Player1,@0)  // @0
     Wait(4)
@@ -30,7 +30,7 @@ THEN
     ActionOverride("XGYARPW",Attack("XGIWDG"))
     Wait(1)
     ActionOverride("XGIWDG",Attack("XGYARPW"))
-    ActionOverride(Player1,LeaveAreaLUA("PF0025","",[548.938],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0025","",[548.938],0))
     Wait(8)
     Wait(4)
     ScreenShake([20.20],20)
@@ -54,11 +54,11 @@ THEN
     CreateCreature("XGDWA",[777.1422],0)  // ~Гном воин~
     CreateCreature("XGDWA",[1032.1990],0)  // ~Гном воин~
     ClearAllActions()
-    ActionOverride(Player1,LeaveAreaLUA("PF0025","",[1062.2209],8))
+    ActionOverride(Player1,LeaveAreaLUA("XG0025","",[1062.2209],8))
     Wait(6)
     DisplayStringHead(Player1,@1)  // @1
     Wait(6)
-    ActionOverride(Player1,LeaveAreaLUA("PF0025","",[2317.899],8))
+    ActionOverride(Player1,LeaveAreaLUA("XG0025","",[2317.899],8))
     Wait(2)
     UnhideGUI()
     EndCutSceneMode()
@@ -67,18 +67,18 @@ THEN
 END
 
 IF
-  Global("RevealArea","PF0025",0)
+  Global("RevealArea","XG0025",0)
   Dead("XGYARP")  // ~Командир Градакова~
 THEN
   RESPONSE #100
-    SetGlobal("RevealArea","PF0025",1)
+    SetGlobal("RevealArea","XG0025",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
     Wait(3)
     CreateCreature("XGYARPN",[225.282],8)  // ~Градак~
     CreateCreature("XGSLAIE",[219.196],0)  // ~Графалкон~
-    ActionOverride(Player1,LeaveAreaLUA("PF0025","",[274.127],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0025","",[274.127],0))
     Wait(4)
     DisplayString("XGYARPN",@2)  // @2
     Wait(4)

@@ -49,23 +49,23 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @19
-  IF ~~ THEN DO ~ActionOverride(Player2,LeaveAreaLUA("PF0002","",[3604.2868],6))
-ActionOverride(Player1,LeaveAreaLUA("PF0002","",[3514.2882],6))
-ActionOverride(Player3,LeaveAreaLUA("PF0002","",[3428.2985],6))
-ActionOverride(Player4,LeaveAreaLUA("PF0002","",[3528.3005],6))
-ActionOverride(Player5,LeaveAreaLUA("PF0002","",[3592.2984],6))
-ActionOverride(Player6,LeaveAreaLUA("PF0002","",[3629.2929],6))
+  IF ~~ THEN DO ~ActionOverride(Player2,LeaveAreaLUA("XG0002","",[3604.2868],6))
+ActionOverride(Player1,LeaveAreaLUA("XG0002","",[3514.2882],6))
+ActionOverride(Player3,LeaveAreaLUA("XG0002","",[3428.2985],6))
+ActionOverride(Player4,LeaveAreaLUA("XG0002","",[3528.3005],6))
+ActionOverride(Player5,LeaveAreaLUA("XG0002","",[3592.2984],6))
+ActionOverride(Player6,LeaveAreaLUA("XG0002","",[3629.2929],6))
 ~ UNSOLVED_JOURNAL @20 EXIT
 END
 
 IF ~NumTimesTalkedTo(1)~ THEN BEGIN 10
   SAY @21
-  IF ~~ THEN REPLY @22 DO ~ActionOverride(Player2,LeaveAreaLUA("PF0002","",[3604.2868],6))
-ActionOverride(Player1,LeaveAreaLUA("PF0002","",[3514.2882],6))
-ActionOverride(Player3,LeaveAreaLUA("PF0002","",[3428.2985],6))
-ActionOverride(Player4,LeaveAreaLUA("PF0002","",[3528.3005],6))
-ActionOverride(Player5,LeaveAreaLUA("PF0002","",[3592.2984],6))
-ActionOverride(Player6,LeaveAreaLUA("PF0002","",[3629.2929],6))
+  IF ~~ THEN REPLY @22 DO ~ActionOverride(Player2,LeaveAreaLUA("XG0002","",[3604.2868],6))
+ActionOverride(Player1,LeaveAreaLUA("XG0002","",[3514.2882],6))
+ActionOverride(Player3,LeaveAreaLUA("XG0002","",[3428.2985],6))
+ActionOverride(Player4,LeaveAreaLUA("XG0002","",[3528.3005],6))
+ActionOverride(Player5,LeaveAreaLUA("XG0002","",[3592.2984],6))
+ActionOverride(Player6,LeaveAreaLUA("XG0002","",[3629.2929],6))
 ~ UNSOLVED_JOURNAL @20 EXIT
   IF ~~ THEN REPLY @23 EXIT
 END

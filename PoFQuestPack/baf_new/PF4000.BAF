@@ -1,13 +1,13 @@
 IF
   OnCreation()
-  Global("EnteredAreaPF4000","PF4000",0)
+  Global("EnteredAreaXG4000","XG4000",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredAreaPF4000","PF4000",1)
+    SetGlobal("EnteredAreaXG4000","XG4000",1)
     StartCutSceneMode()
     ClearAllActions()
     HideGUI()
-    PlaySound("MUS2MOD")
+    PlaySound("XGMUS2")
     Wait(10)
     CreateCreature("XGknig2",[163.613],0)  // ~Личная охрана~
     Wait(6)
@@ -23,8 +23,8 @@ THEN
     Wait(1)
     DisplayStringHead(Player3,@1) 
     Wait(1)
-    HideAreaOnMap("PF0041")
-    RevealAreaOnMap("PF4001")
+    HideAreaOnMap("XG0041")
+    RevealAreaOnMap("XG4001")
     EndCutSceneMode()
     UnhideGUI()
 END

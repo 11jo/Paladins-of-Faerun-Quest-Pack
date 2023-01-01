@@ -50,12 +50,12 @@ Dead("XGluswz")~ THEN BEGIN 8
 GiveItemCreate("XGFALX6",Player1,1,0,0)
 SetGlobal("s#XGNASHR","GLOBAL",3)
 TakePartyItem("XGLUSWQ")
-ActionOverride(Player1,LeaveAreaLUA("PF0148","",[530.420],13))
-ActionOverride(Player2,LeaveAreaLUA("PF0148","",[470.470],12))
-ActionOverride(Player3,LeaveAreaLUA("PF0148","",[510.550],12))
-ActionOverride(Player4,LeaveAreaLUA("PF0148","",[425.510],12))
-ActionOverride(Player5,LeaveAreaLUA("PF0148","",[455.600],12))
-ActionOverride(Player6,LeaveAreaLUA("PF0148","",[380.570],12))~ UNSOLVED_JOURNAL @16 EXIT
+ActionOverride(Player1,LeaveAreaLUA("XG0148","",[530.420],13))
+ActionOverride(Player2,LeaveAreaLUA("XG0148","",[470.470],12))
+ActionOverride(Player3,LeaveAreaLUA("XG0148","",[510.550],12))
+ActionOverride(Player4,LeaveAreaLUA("XG0148","",[425.510],12))
+ActionOverride(Player5,LeaveAreaLUA("XG0148","",[455.600],12))
+ActionOverride(Player6,LeaveAreaLUA("XG0148","",[380.570],12))~ UNSOLVED_JOURNAL @16 EXIT
 END
 
 IF ~Global("s#XGNASHR","GLOBAL",2)

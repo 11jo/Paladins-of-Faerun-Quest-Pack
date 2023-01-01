@@ -1,13 +1,13 @@
 IF
   OnCreation()
-  Global("EnteredAreaPF0964","PF0964",0)
+  Global("EnteredAreaXG0964","XG0964",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredAreaPF0964","PF0964",1)
+    SetGlobal("EnteredAreaXG0964","XG0964",1)
     StartCutSceneMode()
     HideGUI()
     Wait(4)
-    PlaySound("NWN1")
+    PlaySound("XGNWN1")
     Wait(1)
     DisplayStringHead("XGWML",@0)  
     Wait(6)
@@ -38,7 +38,7 @@ THEN
     Wait(9)
     DisplayStringHead("XGWML",@13)  
     Wait(6)
-    RevealAreaOnMap("PF0066")
+    RevealAreaOnMap("XG0066")
     AddJournalEntry(@14,QUEST)
     UnhideGUI()
     EndCutSceneMode()

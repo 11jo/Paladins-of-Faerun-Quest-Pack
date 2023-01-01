@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0701","PF0701",0)
+  Global("Reveal0701","XG0701",0)
   Dead("XGPALW")  // ~Десница.~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0701","PF0701",1)
+    SetGlobal("Reveal0701","XG0701",1)
     ClearAllActions()
     Explore()
     StartCutSceneMode()
@@ -33,11 +33,11 @@ THEN
 END
 
 IF
-  Global("Reveal0701","PF0701",1)
+  Global("Reveal0701","XG0701",1)
   Dead("XGWTCH")  // ~Ведьма~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0701","PF0701",2)
+    SetGlobal("Reveal0701","XG0701",2)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

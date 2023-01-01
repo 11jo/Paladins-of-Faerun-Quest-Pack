@@ -12,7 +12,7 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @5
-  IF ~~ THEN REPLY @7 DO ~RevealAreaOnMap("PF0020")
+  IF ~~ THEN REPLY @7 DO ~RevealAreaOnMap("XG0020")
 AddexperienceParty(20000)
 ForceSpell(Myself,DRYAD_TELEPORT)
 ~ UNSOLVED_JOURNAL @6 EXIT

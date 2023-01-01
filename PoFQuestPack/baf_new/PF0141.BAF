@@ -1,13 +1,13 @@
 IF
-  Global("Reveal0141","PF0141",0)
+  Global("Reveal0141","XG0141",0)
   Dead("XGhqmi")  // ~Верховная королева~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0141","PF0141",1)
+    SetGlobal("Reveal0141","XG0141",1)
     StartCutSceneMode()
     HideGUI()
     Wait(3)
-    PlaySound("lrSCRN4")
+    PlaySound("XGSCRN4")
     ActionOverride(Player1,Face(0))
     CreateCreature("XGknig1",[1150.851],0)  // ~Личная охрана~
     CreateCreature("XGknig2",[1216.835],0)  // ~Личная охрана~
@@ -22,12 +22,12 @@ THEN
     FadeToColor([20.0],0)
     Wait(7)
     ReputationInc(-1)
-    ActionOverride(Player2,LeaveAreaLUA("PF4000","",[153.192],0))
-    ActionOverride(Player1,LeaveAreaLUA("PF4000","",[217.173],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF4000","",[69.226],0))
-    ActionOverride(Player4,LeaveAreaLUA("PF4000","",[152.251],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF4000","",[48.328],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF4000","",[168.322],0))
+    ActionOverride(Player2,LeaveAreaLUA("XG4000","",[153.192],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG4000","",[217.173],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG4000","",[69.226],0))
+    ActionOverride(Player4,LeaveAreaLUA("XG4000","",[152.251],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG4000","",[48.328],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG4000","",[168.322],0))
     UnhideGUI()
     EndCutSceneMode()
 END

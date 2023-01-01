@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0047","PF0047",0)
+  Global("Reveal0047","XG0047",0)
   PartyHasItem("XGDBOOK")  // ~Книга Торма~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0047","PF0047",1)
+    SetGlobal("Reveal0047","XG0047",1)
     HideGUI()
     StartCutSceneMode()
     CreateCreature("XGprt",[3010.2159],12)  // ~Священник Торма~

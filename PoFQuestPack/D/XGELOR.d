@@ -38,13 +38,13 @@ END
 
 IF ~~ THEN BEGIN 7
   SAY @15
-  IF ~~ THEN REPLY @16 DO ~RevealAreaOnMap("PF0052")
-ActionOverride(Player2,LeaveAreaLUA("PF0052","",[683.1902],0))
-ActionOverride(Player1,LeaveAreaLUA("PF0052","",[777.1912],0))
-ActionOverride(Player3,LeaveAreaLUA("PF0052","",[665.1979],0))
-ActionOverride(Player4,LeaveAreaLUA("PF0052","",[683.2059],0))
-ActionOverride(Player5,LeaveAreaLUA("PF0052","",[798.2015],0))
-ActionOverride(Player6,LeaveAreaLUA("PF0052","",[801.1962],0))
+  IF ~~ THEN REPLY @16 DO ~RevealAreaOnMap("XG0052")
+ActionOverride(Player2,LeaveAreaLUA("XG0052","",[683.1902],0))
+ActionOverride(Player1,LeaveAreaLUA("XG0052","",[777.1912],0))
+ActionOverride(Player3,LeaveAreaLUA("XG0052","",[665.1979],0))
+ActionOverride(Player4,LeaveAreaLUA("XG0052","",[683.2059],0))
+ActionOverride(Player5,LeaveAreaLUA("XG0052","",[798.2015],0))
+ActionOverride(Player6,LeaveAreaLUA("XG0052","",[801.1962],0))
 SetGlobal("s#XGELOR","GLOBAL",2)~ UNSOLVED_JOURNAL @17 EXIT
 END
 

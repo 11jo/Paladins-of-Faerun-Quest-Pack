@@ -5,7 +5,7 @@ NumTimestalkedTo(0)~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
   IF ~~ THEN REPLY @2 DO ~Enemy()
-    HideAreaOnMap("PF0078")
+    HideAreaOnMap("XG0078")
     EraseJournalEntry(@3)  
     EraseJournalEntry(@4)  
     EraseJournalEntry(@5)  
@@ -17,8 +17,8 @@ IF ~~ THEN BEGIN 1
   SAY @8
   IF ~~ THEN REPLY @9 DO ~StartCutSceneMode()
 BattleSong()
-HideAreaOnMap("PF0076")
-RevealAreaOnMap("PF0078")
+HideAreaOnMap("XG0076")
+RevealAreaOnMap("XG0078")
 CreateCreature("XGtmer7",[1330.171],14)
 CreateCreature("XGtmer8",[1327.255],14)
 CreateCreature("XGtmer9",[1328.319],14)

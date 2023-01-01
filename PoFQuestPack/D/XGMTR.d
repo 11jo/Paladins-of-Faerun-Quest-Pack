@@ -32,12 +32,12 @@ END
 IF ~~ THEN BEGIN 5
   SAY @11
   IF ~~ THEN REPLY @12 DO ~EscapeArea()
-RevealAreaOnMap("PF0071")
-ActionOverride(Player2,LeaveAreaLUA("PF0071","",[451.953],0))
-ActionOverride(Player1,LeaveAreaLUA("PF0071","",[492.929],0))
-ActionOverride(Player3,LeaveAreaLUA("PF0071","",[414.916],0))
-ActionOverride(Player4,LeaveAreaLUA("PF0071","",[448.877],0))
-ActionOverride(Player5,LeaveAreaLUA("PF0071","",[499.867],0))
-ActionOverride(Player6,LeaveAreaLUA("PF0071","",[505.916],0))
+RevealAreaOnMap("XG0071")
+ActionOverride(Player2,LeaveAreaLUA("XG0071","",[451.953],0))
+ActionOverride(Player1,LeaveAreaLUA("XG0071","",[492.929],0))
+ActionOverride(Player3,LeaveAreaLUA("XG0071","",[414.916],0))
+ActionOverride(Player4,LeaveAreaLUA("XG0071","",[448.877],0))
+ActionOverride(Player5,LeaveAreaLUA("XG0071","",[499.867],0))
+ActionOverride(Player6,LeaveAreaLUA("XG0071","",[505.916],0))
 ~ UNSOLVED_JOURNAL @13 EXIT
 END

@@ -1,10 +1,10 @@
 IF
   OnCreation()
-  Global("EnteredPF0062","PF0062",0)
+  Global("EnteredXG0062","XG0062",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0062","PF0062",1)
-    PlaySound("NWN2")
+    SetGlobal("EnteredXG0062","XG0062",1)
+    PlaySound("XGNWN2")
     Wait(4)
     CreateCreature("XGLUSC",[593.82],14)  // ~Капитан~
     CreateCreature("XGLUSW1",[547.147],14)  // ~Лусканец~
@@ -17,13 +17,13 @@ THEN
 END
 
 IF
-  Global("Reveal0062","PF0062",0)
+  Global("Reveal0062","XG0062",0)
   Dead("XGLUSC")  // ~Капитан~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0062","PF0062",1)
+    SetGlobal("Reveal0062","XG0062",1)
     Explore()
-    PlaySound("NWN1")
+    PlaySound("XGNWN1")
     Wait(2)
     CreateCreature("XGLUSW2",[2082.3333],4)  // ~Лусканец~
     CreateCreature("XGLUSW2",[1438.2876],0)  // ~Лусканец~

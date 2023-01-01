@@ -34,22 +34,22 @@ IF ~~ THEN BEGIN 6
   SAY @10
   IF ~~ THEN REPLY @11 DO ~SetNumTimesTalkedTo(1)~ UNSOLVED_JOURNAL @12 EXIT
   IF ~~ THEN REPLY @13 DO ~GiveItemCreate("XGMISC",Player1,0,0,0)
-ActionOverride(Player2,LeaveAreaLUA("PF0053","",[2300.2250],0))
-ActionOverride(Player1,LeaveAreaLUA("PF0053","",[1824.1854],0))
-ActionOverride(Player3,LeaveAreaLUA("PF0053","",[2250.2350],0))
-ActionOverride(Player4,LeaveAreaLUA("PF0053","",[2170.2400],0))
-ActionOverride(Player5,LeaveAreaLUA("PF0053","",[2300.2400],0))
-ActionOverride(Player6,LeaveAreaLUA("PF0053","",[2400.2280],0))~ EXIT
+ActionOverride(Player2,LeaveAreaLUA("XG0053","",[2300.2250],0))
+ActionOverride(Player1,LeaveAreaLUA("XG0053","",[1824.1854],0))
+ActionOverride(Player3,LeaveAreaLUA("XG0053","",[2250.2350],0))
+ActionOverride(Player4,LeaveAreaLUA("XG0053","",[2170.2400],0))
+ActionOverride(Player5,LeaveAreaLUA("XG0053","",[2300.2400],0))
+ActionOverride(Player6,LeaveAreaLUA("XG0053","",[2400.2280],0))~ EXIT
 END
 
 IF ~NumTimesTalkedTo(1)~ THEN BEGIN 7
   SAY @14
   IF ~~ THEN REPLY @13 DO ~GiveItemCreate("XGMISC",Player1,0,0,0)
-ActionOverride(Player2,LeaveAreaLUA("PF0053","",[2300.2250],0))
-ActionOverride(Player1,LeaveAreaLUA("PF0053","",[1824.1854],0))
-ActionOverride(Player3,LeaveAreaLUA("PF0053","",[2250.2350],0))
-ActionOverride(Player4,LeaveAreaLUA("PF0053","",[2170.2400],0))
-ActionOverride(Player5,LeaveAreaLUA("PF0053","",[2300.2400],0))
-ActionOverride(Player6,LeaveAreaLUA("PF0053","",[2400.2280],0))~ UNSOLVED_JOURNAL @12 EXIT
+ActionOverride(Player2,LeaveAreaLUA("XG0053","",[2300.2250],0))
+ActionOverride(Player1,LeaveAreaLUA("XG0053","",[1824.1854],0))
+ActionOverride(Player3,LeaveAreaLUA("XG0053","",[2250.2350],0))
+ActionOverride(Player4,LeaveAreaLUA("XG0053","",[2170.2400],0))
+ActionOverride(Player5,LeaveAreaLUA("XG0053","",[2300.2400],0))
+ActionOverride(Player6,LeaveAreaLUA("XG0053","",[2400.2280],0))~ UNSOLVED_JOURNAL @12 EXIT
   IF ~~ THEN REPLY @15 DO ~SetNumTimesTalkedTo(1)~ EXIT
 END

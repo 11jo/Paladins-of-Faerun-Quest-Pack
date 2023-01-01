@@ -36,7 +36,7 @@ IF ~~ THEN BEGIN 6
   SAY @13
   IF ~~ THEN REPLY @14 DO ~GiveItemCreate("XGKIIT",Player1,0,0,0)
 SetGlobal("s#XGATKI","GLOBAL",2)
-RevealAreaOnMap("PF0040")~ UNSOLVED_JOURNAL @15 EXIT
+RevealAreaOnMap("XG0040")~ UNSOLVED_JOURNAL @15 EXIT
 END
 
 IF ~Global("s#XGATKI","GLOBAL",2)
@@ -57,7 +57,7 @@ EraseJournalEntry(@15)
 EraseJournalEntry( @23)
 EraseJournalEntry(@24)
 EraseJournalEntry(@25)
-RevealAreaOnMap("PF0080")
+RevealAreaOnMap("XG0080")
 GiveItemCreate("MISC07",Player1,2000,0,0)
 ~ SOLVED_JOURNAL @26 EXIT
 END
@@ -81,6 +81,6 @@ EraseJournalEntry(@15)
 EraseJournalEntry( @23)
 EraseJournalEntry(@32)
 EraseJournalEntry(@25)
-RevealAreaOnMap("PF0080")
+RevealAreaOnMap("XG0080")
 ReputationInc(-2)~ SOLVED_JOURNAL @33 EXIT
 END

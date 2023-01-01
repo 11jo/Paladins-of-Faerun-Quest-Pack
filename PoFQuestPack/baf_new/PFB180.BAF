@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredAreaPFB180","PFB180",0)
+  Global("EnteredAreaXGb180","XGb180",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredAreaPFB180","PFB180",1)
+    SetGlobal("EnteredAreaXGb180","XGb180",1)
     StartCutSceneMode()
     HideGUI()
     DisplayStringHead("XGsvkl",@0)  
@@ -18,12 +18,12 @@ THEN
     DisplayStringHead("XGgms",@4) 
     Wait(4)
     GiveItemCreate("XGiqq",Player1,0,0,0)  // ~Артефакт~
-    ActionOverride(Player2,LeaveAreaLUA("PF0580","",[310.1527],0))
-    ActionOverride(Player1,LeaveAreaLUA("PF0580","",[247.1501],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF0580","",[376.1474],0))
-    ActionOverride(Player4,LeaveAreaLUA("PF0580","",[305.1409],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF0580","",[382.1422],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF0580","",[313.1348],0))
+    ActionOverride(Player2,LeaveAreaLUA("XG0580","",[310.1527],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0580","",[247.1501],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG0580","",[376.1474],0))
+    ActionOverride(Player4,LeaveAreaLUA("XG0580","",[305.1409],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG0580","",[382.1422],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG0580","",[313.1348],0))
     EndCutSceneMode()
     UnhideGUI()
 END

@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredPF0401","PF0401",0)
+  Global("EnteredXG0401","XG0401",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0401","PF0401",1)
+    SetGlobal("EnteredXG0401","XG0401",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -31,18 +31,18 @@ THEN
 END
 
 IF
-  Global("Reveal0401","PF0401",0)
+  Global("Reveal0401","XG0401",0)
     OR(2) 
     Dead("XGELG")  // ~έλόγεν~
     Dead("XGELG1")  // ~έλόγεν~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0401","PF0401",1)
-    ActionOverride(Player2,LeaveAreaLUA("PF04N1","",[981.2195],0))
-    ActionOverride(Player1,LeaveAreaLUA("PF04N1","",[1038.2165],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF04N1","",[1049.2238],0))
-    ActionOverride(Player4,LeaveAreaLUA("PF04N1","",[1049.2308],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF04N1","",[933.2312],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF04N1","",[901.2351],0))
+    SetGlobal("Reveal0401","XG0401",1)
+    ActionOverride(Player2,LeaveAreaLUA("XG04N1","",[981.2195],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG04N1","",[1038.2165],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG04N1","",[1049.2238],0))
+    ActionOverride(Player4,LeaveAreaLUA("XG04N1","",[1049.2308],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG04N1","",[933.2312],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG04N1","",[901.2351],0))
 END
 

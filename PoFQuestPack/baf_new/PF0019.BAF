@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredPF0019","PF0019",0)
+  Global("EnteredXG0019","XG0019",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0019","PF0019",1)
+    SetGlobal("EnteredXG0019","XG0019",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -13,7 +13,7 @@ THEN
     DisplayString("XGYARPN",@0)  // @0
     Wait(3)
     ActionOverride("XGYARPN",EscapeArea())
-    RevealAreaOnMap("PF0319")
+    RevealAreaOnMap("XG0319")
     Wait(2)
     UnhideGUI()
     EndCutSceneMode()

@@ -1,5 +1,5 @@
 IF
-  Global("RevealPFKAR","PFKAR2",0)
+  Global("RevealPFKAR","XGKAR2",0)
   Dead("XGprte")  // ~Воинственный священник~
   Dead("XGprte1")  // ~Воинственный священник~
   Dead("XGprte2")  // ~Воинственный священник~
@@ -10,7 +10,7 @@ IF
   Dead("XGprte7")  // ~Воинственный священник~
 THEN
   RESPONSE #100
-    SetGlobal("RevealPFKAR","PFKAR2",1)
+    SetGlobal("RevealPFKAR","XGKAR2",1)
     StartCutSceneMode()
     HideGUI()
     Wait(3)
@@ -27,13 +27,13 @@ THEN
     DisplayStringHead(Player2,@1)  
     Wait(5)
     UnhideGUI()
-    RevealAreaOnMap("PF8100")
-    ActionOverride(Player2,LeaveAreaLUA("PF8100","",[1119.198],8))
-    ActionOverride(Player1,LeaveAreaLUA("PF8100","",[1077.235],8))
-    ActionOverride(Player3,LeaveAreaLUA("PF8100","",[1161.243],8))
-    ActionOverride(Player4,LeaveAreaLUA("PF8100","",[1162.305],8))
-    ActionOverride(Player5,LeaveAreaLUA("PF8100","",[1057.315],8))
-    ActionOverride(Player6,LeaveAreaLUA("PF8100","",[1153.352],8))
+    RevealAreaOnMap("XG8100")
+    ActionOverride(Player2,LeaveAreaLUA("XG8100","",[1119.198],8))
+    ActionOverride(Player1,LeaveAreaLUA("XG8100","",[1077.235],8))
+    ActionOverride(Player3,LeaveAreaLUA("XG8100","",[1161.243],8))
+    ActionOverride(Player4,LeaveAreaLUA("XG8100","",[1162.305],8))
+    ActionOverride(Player5,LeaveAreaLUA("XG8100","",[1057.315],8))
+    ActionOverride(Player6,LeaveAreaLUA("XG8100","",[1153.352],8))
     EndCutSceneMode()
 END
 

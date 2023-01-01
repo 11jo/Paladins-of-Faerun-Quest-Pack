@@ -64,12 +64,12 @@ IF ~Global("XGLETGC","GLOBAL",3)~ THEN BEGIN 7
   SAY @16
   IF ~~ THEN REPLY @17 DO ~SetGlobal("XGLETGC","GLOBAL",3)
 ~ EXIT
-  IF ~~ THEN REPLY @18 DO ~ActionOverride(Player1,LeaveAreaLUA("PF0263","",[1295.905],0))
-ActionOverride(Player2,LeaveAreaLUA("PF0263","",[1266.905],0))
-ActionOverride(Player3,LeaveAreaLUA("PF0263","",[1336.905],0))
-ActionOverride(Player4,LeaveAreaLUA("PF0263","",[1297.965],0))
-ActionOverride(Player5,LeaveAreaLUA("PF0263","",[1247.930],0))
-ActionOverride(Player6,LeaveAreaLUA("PF0263","",[1216.899],0))
+  IF ~~ THEN REPLY @18 DO ~ActionOverride(Player1,LeaveAreaLUA("XG0263","",[1295.905],0))
+ActionOverride(Player2,LeaveAreaLUA("XG0263","",[1266.905],0))
+ActionOverride(Player3,LeaveAreaLUA("XG0263","",[1336.905],0))
+ActionOverride(Player4,LeaveAreaLUA("XG0263","",[1297.965],0))
+ActionOverride(Player5,LeaveAreaLUA("XG0263","",[1247.930],0))
+ActionOverride(Player6,LeaveAreaLUA("XG0263","",[1216.899],0))
 SetGlobal("XGLETGC","GLOBAL",4)
 ~ EXIT
 END

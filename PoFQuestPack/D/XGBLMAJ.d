@@ -33,12 +33,12 @@ END
 IF ~~ THEN BEGIN 6
   SAY @12
   IF ~~ THEN REPLY @13 DO ~SetGlobal("s#XGBLMAJ","GLOBAL",1)
-ActionOverride(Player2,LeaveAreaLUA("PF0420","",[463.410],8))
-ActionOverride(Player1,LeaveAreaLUA("PF0420","",[440.438],8))
-ActionOverride(Player3,LeaveAreaLUA("PF0420","",[508.462],8))
-ActionOverride(Player4,LeaveAreaLUA("PF0420","",[499.492],8))
-ActionOverride(Player5,LeaveAreaLUA("PF0420","",[569.473],8))
-ActionOverride(Player6,LeaveAreaLUA("PF0420","",[614.435],8))~ UNSOLVED_JOURNAL @14 EXIT
+ActionOverride(Player2,LeaveAreaLUA("XG0420","",[463.410],8))
+ActionOverride(Player1,LeaveAreaLUA("XG0420","",[440.438],8))
+ActionOverride(Player3,LeaveAreaLUA("XG0420","",[508.462],8))
+ActionOverride(Player4,LeaveAreaLUA("XG0420","",[499.492],8))
+ActionOverride(Player5,LeaveAreaLUA("XG0420","",[569.473],8))
+ActionOverride(Player6,LeaveAreaLUA("XG0420","",[614.435],8))~ UNSOLVED_JOURNAL @14 EXIT
 END
 
 IF ~Global("s#XGBLMAJ","GLOBAL",1)
@@ -70,12 +70,12 @@ IF ~~ THEN BEGIN 11
 GiveItemCreate("XGBGSD",Player1,0,0,0)
 TakePartyItem("XGMRBO")
 GiveItemCreate("MISC07",Player1,5000,0,0)
-ActionOverride(Player2,LeaveAreaLUA("PF1220","",[680.1318],0))
-ActionOverride(Player1,LeaveAreaLUA("PF1220","",[727.1309],0))
-ActionOverride(Player3,LeaveAreaLUA("PF1220","",[665.1288],0))
-ActionOverride(Player4,LeaveAreaLUA("PF1220","",[699.1256],0))
-ActionOverride(Player5,LeaveAreaLUA("PF1220","",[755.1246],0))
-ActionOverride(Player6,LeaveAreaLUA("PF1220","",[770.1300],0))
+ActionOverride(Player2,LeaveAreaLUA("XG1220","",[680.1318],0))
+ActionOverride(Player1,LeaveAreaLUA("XG1220","",[727.1309],0))
+ActionOverride(Player3,LeaveAreaLUA("XG1220","",[665.1288],0))
+ActionOverride(Player4,LeaveAreaLUA("XG1220","",[699.1256],0))
+ActionOverride(Player5,LeaveAreaLUA("XG1220","",[755.1246],0))
+ActionOverride(Player6,LeaveAreaLUA("XG1220","",[770.1300],0))
 ~ UNSOLVED_JOURNAL @25 EXIT
 END
 

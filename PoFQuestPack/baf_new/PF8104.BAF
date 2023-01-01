@@ -1,9 +1,9 @@
 IF
-  Global("Reveal8104","PF8104",0)
+  Global("Reveal8104","XG8104",0)
   PartyHasItem("XGleths")  // ~Поручение~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal8104","PF8104",1)
+    SetGlobal("Reveal8104","XG8104",1)
     StartCutSceneMode()
     HideGUI()
     BattleSong()

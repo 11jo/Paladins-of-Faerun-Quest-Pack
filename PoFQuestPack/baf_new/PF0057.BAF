@@ -1,13 +1,13 @@
 IF
   True()
-  Global("RevealArea","PF0057",0)
+  Global("RevealArea","XG0057",0)
 THEN
   RESPONSE #100
-    SetGlobal("RevealArea","PF0057",1)
+    SetGlobal("RevealArea","XG0057",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
-    PlaySound("NWN2")
+    PlaySound("XGNWN2")
     Wait(2)
     CreateCreature("XGNWNCN",[1249.999],4)  // ~Капитан Нивалл~
     Wait(1)
@@ -44,19 +44,19 @@ THEN
 END
 
 IF
-  Global("RevealArea","PF0057",1)
+  Global("RevealArea","XG0057",1)
   Dead("XGTAOR")  // ~Таораг~
   Dead("XGOTIR")  // ~Отирос~
   Dead("XGELLAN")  // ~Элланнан~
 THEN
   RESPONSE #100
-    SetGlobal("RevealArea","PF0057",2)
+    SetGlobal("RevealArea","XG0057",2)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
     Wait(3)
     FadeToColor([20.0],0)
-    ActionOverride(Player1,LeaveAreaLUA("PF0057","",[1169.997],12))
+    ActionOverride(Player1,LeaveAreaLUA("XG0057","",[1169.997],12))
     Wait(6)
     DisplayString("XGNWNCN",@8)  // @8
     Wait(8)
@@ -64,12 +64,12 @@ THEN
     Wait(8)
     DisplayString("XGNWNCN",@10)  // @10
     Wait(8)
-    ActionOverride(Player1,LeaveAreaLUA("PF1057","",[1019.1212],10))
-    ActionOverride(Player2,LeaveAreaLUA("PF1057","",[411.1440],12))
-    ActionOverride(Player3,LeaveAreaLUA("PF1057","",[370.1440],12))
-    ActionOverride(Player4,LeaveAreaLUA("PF1057","",[362.1488],12))
-    ActionOverride(Player5,LeaveAreaLUA("PF1057","",[420.1475],12))
-    ActionOverride(Player6,LeaveAreaLUA("PF1057","",[423.1529],12))
+    ActionOverride(Player1,LeaveAreaLUA("XG1057","",[1019.1212],10))
+    ActionOverride(Player2,LeaveAreaLUA("XG1057","",[411.1440],12))
+    ActionOverride(Player3,LeaveAreaLUA("XG1057","",[370.1440],12))
+    ActionOverride(Player4,LeaveAreaLUA("XG1057","",[362.1488],12))
+    ActionOverride(Player5,LeaveAreaLUA("XG1057","",[420.1475],12))
+    ActionOverride(Player6,LeaveAreaLUA("XG1057","",[423.1529],12))
     UnhideGUI()
     EndCutSceneMode()
 END

@@ -13,6 +13,6 @@ END
 IF ~~ THEN BEGIN 2
   SAY @4
   IF ~~ THEN REPLY @5 DO ~AddExperienceParty(10000)
-RevealAreaOnMap("PF0055")
+RevealAreaOnMap("XG0055")
 EscapeArea()~ UNSOLVED_JOURNAL @6 EXIT
 END

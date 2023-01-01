@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredAreaPF8100","PF8100",0)
+  Global("EnteredAreaXG8100","XG8100",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredAreaPF8100","PF8100",1)
+    SetGlobal("EnteredAreaXG8100","XG8100",1)
     StartCutSceneMode()
     HideGUI()
     DisplayStringHead(Player1,@0) 
@@ -12,12 +12,12 @@ THEN
     Wait(5)
     DisplayStringHead(Player1,@2)  
     Wait(5)
-    ActionOverride(Player2,LeaveAreaLUA("PF8400","",[1550.1323],8))
-    ActionOverride(Player1,LeaveAreaLUA("PF8400","",[1509.1374],8))
-    ActionOverride(Player3,LeaveAreaLUA("PF8400","",[1618.1407],8))
-    ActionOverride(Player4,LeaveAreaLUA("PF8400","",[1649.1368],8))
-    ActionOverride(Player5,LeaveAreaLUA("PF8400","",[1552.1439],8))
-    ActionOverride(Player6,LeaveAreaLUA("PF8400","",[1654.1468],8))
+    ActionOverride(Player2,LeaveAreaLUA("XG8400","",[1550.1323],8))
+    ActionOverride(Player1,LeaveAreaLUA("XG8400","",[1509.1374],8))
+    ActionOverride(Player3,LeaveAreaLUA("XG8400","",[1618.1407],8))
+    ActionOverride(Player4,LeaveAreaLUA("XG8400","",[1649.1368],8))
+    ActionOverride(Player5,LeaveAreaLUA("XG8400","",[1552.1439],8))
+    ActionOverride(Player6,LeaveAreaLUA("XG8400","",[1654.1468],8))
     UnhideGUI()
     EndCutSceneMode()
 END

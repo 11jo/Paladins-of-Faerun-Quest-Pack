@@ -47,7 +47,7 @@ THEN
     Wait(9)
     DisplayString("XGFALC1",@4)  // @4
     Wait(8)
-    ActionOverride(Player1,LeaveAreaLUA("PF0053","",[2737.2707],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0053","",[2737.2707],0))
     UnhideGUI()
     EndCutSceneMode()
 END

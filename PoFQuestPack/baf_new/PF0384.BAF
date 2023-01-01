@@ -1,80 +1,80 @@
 IF
-  Global("Reveal0384","PF0384",0)
+  Global("Reveal0384","XG0384",0)
   PartyHasItem("XGprt1")  // ~Карта свитков~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0384","PF0384",1)
+    SetGlobal("Reveal0384","XG0384",1)
     TakePartyItem("XGprt1")
     CreateCreature("XGclcu",[1218.2105],8)  // ~Убийца-Цирикист~
 END
 
 IF
-  Global("Reveal0384","PF0384",0)
+  Global("Reveal0384","XG0384",0)
   PartyHasItem("XGprc1")  // ~Карта свитков~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0384","PF0384",1)
+    SetGlobal("Reveal0384","XG0384",1)
     TakePartyItem("XGprc1")
     CreateCreature("XGpree",[1218.2105],8)  // ~Элита приверженцев торма~
 END
 
 IF
-  Global("Reveal0384","PF0384",1)
+  Global("Reveal0384","XG0384",1)
   Dead("XGclcu")  // ~Убийца-Цирикист~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0384","PF0384",2)
+    SetGlobal("Reveal0384","XG0384",2)
     GiveItemCreate("XGqit",Player1,0,0,0)  // ~Старый ситок~
     AddJournalEntry(78978,QUEST)
-    ActionOverride(Player2,LeaveAreaLUA("PF0681","",[1410.2512],0))
-    ActionOverride(Player1,LeaveAreaLUA("PF0681","",[1388.2458],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF0681","",[1425.2575],0))
-    ActionOverride(Player4,LeaveAreaLUA("PF0681","",[1351.2608],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF0681","",[1288.2589],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF0681","",[1367.2673],0))
+    ActionOverride(Player2,LeaveAreaLUA("XG0681","",[1410.2512],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0681","",[1388.2458],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG0681","",[1425.2575],0))
+    ActionOverride(Player4,LeaveAreaLUA("XG0681","",[1351.2608],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG0681","",[1288.2589],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG0681","",[1367.2673],0))
 END
 
 IF
-  Global("Reveal0384","PF0384",1)
+  Global("Reveal0384","XG0384",1)
   Dead("XGpree")  // ~Элита приверженцев торма~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0384","PF0384",2)
+    SetGlobal("Reveal0384","XG0384",2)
     GiveItemCreate("XGqic",Player1,0,0,0)  // ~Старый ситок~
     AddJournalEntry(78978,QUEST)
-    ActionOverride(Player2,LeaveAreaLUA("PF8500","",[1410.2512],0))
-    ActionOverride(Player1,LeaveAreaLUA("PF8500","",[1388.2458],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF8500","",[1425.2575],0))
-    ActionOverride(Player4,LeaveAreaLUA("PF8500","",[1351.2608],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF8500","",[1288.2589],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF8500","",[1367.2673],0))
+    ActionOverride(Player2,LeaveAreaLUA("XG8500","",[1410.2512],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG8500","",[1388.2458],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG8500","",[1425.2575],0))
+    ActionOverride(Player4,LeaveAreaLUA("XG8500","",[1351.2608],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG8500","",[1288.2589],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG8500","",[1367.2673],0))
 END
 
 IF
-  Global("DIEL","PF0384",0)
+  Global("DIEL","XG0384",0)
   Dead("XGfirq")  // ~Демон~
 THEN
   RESPONSE #100
-    SetGlobal("DIEL","PF0384",1)
-    ActionOverride(Player2,LeaveAreaLUA("PF0384","",[2725.1056],0))
-    ActionOverride(Player1,LeaveAreaLUA("PF0384","",[2688.1031],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF0384","",[2678.995],0))
-    ActionOverride(Player4,LeaveAreaLUA("PF0384","",[2642.1067],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF0384","",[2836.1029],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF0384","",[2824.1077],0))
+    SetGlobal("DIEL","XG0384",1)
+    ActionOverride(Player2,LeaveAreaLUA("XG0384","",[2725.1056],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0384","",[2688.1031],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG0384","",[2678.995],0))
+    ActionOverride(Player4,LeaveAreaLUA("XG0384","",[2642.1067],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG0384","",[2836.1029],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG0384","",[2824.1077],0))
 END
 
 IF
-  Global("DIEL","PF0384",1)
+  Global("DIEL","XG0384",1)
   Dead("XGfirq1")  // ~Демон~
 THEN
   RESPONSE #100
-    SetGlobal("DIEL","PF0384",2)
-    ActionOverride(Player2,LeaveAreaLUA("PF0384","",[1093.1629],0))
-    ActionOverride(Player1,LeaveAreaLUA("PF0384","",[1072.1590],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF0384","",[1112.1583],0))
-    ActionOverride(Player4,LeaveAreaLUA("PF0384","",[1073.1538],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF0384","",[1069.1501],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF0384","",[1116.1493],0))
+    SetGlobal("DIEL","XG0384",2)
+    ActionOverride(Player2,LeaveAreaLUA("XG0384","",[1093.1629],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0384","",[1072.1590],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG0384","",[1112.1583],0))
+    ActionOverride(Player4,LeaveAreaLUA("XG0384","",[1073.1538],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG0384","",[1069.1501],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG0384","",[1116.1493],0))
 END
 

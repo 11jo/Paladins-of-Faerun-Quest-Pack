@@ -1,22 +1,22 @@
 IF
   OnCreation()
-  Global("EnteredAreaPF0864","PF0864",0)
+  Global("EnteredAreaXG0864","XG0864",0)
   PartyHasItem("XGWRG")  // ~Кольцо~
 THEN
   RESPONSE #100
-    SetGlobal("EnteredAreaPF0864","PF0864",1)
+    SetGlobal("EnteredAreaXG0864","XG0864",1)
     CreateCreature("XGBMT1",[1264.680],0)  // ~Воришка~
     CreateCreature("XGBMT2",[1179.839],10)  // ~Воришка~
     DisplayString(Player1,@0)  
 END
 
 IF
-  Global("Reveal0864","PF0864",0)
+  Global("Reveal0864","XG0864",0)
   Dead("XGBMT1")  // ~Воришка~
   Dead("XGBMT2")  // ~Воришка~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0864","PF0864",1)
+    SetGlobal("Reveal0864","XG0864",1)
     Explore()
     StartCutSceneMode()
     HideGUI()
@@ -36,12 +36,12 @@ THEN
     Wait(4)
     DisplayStringHead("XGWW",@4)  // ~Нет, я могу заверить вас, мадам, что ваш муж находится у капитана городской стражи, пожалуйста пошлите все со мной.~
     Wait(6)
-    ActionOverride(Player2,LeaveAreaLUA("PF0364","",[534.487],6))
-    ActionOverride(Player1,LeaveAreaLUA("PF0364","",[581.452],6))
-    ActionOverride(Player3,LeaveAreaLUA("PF0364","",[624.416],6))
-    ActionOverride(Player4,LeaveAreaLUA("PF0364","",[660.435],6))
-    ActionOverride(Player5,LeaveAreaLUA("PF0364","",[619.477],6))
-    ActionOverride(Player6,LeaveAreaLUA("PF0364","",[591.512],6))
+    ActionOverride(Player2,LeaveAreaLUA("XG0364","",[534.487],6))
+    ActionOverride(Player1,LeaveAreaLUA("XG0364","",[581.452],6))
+    ActionOverride(Player3,LeaveAreaLUA("XG0364","",[624.416],6))
+    ActionOverride(Player4,LeaveAreaLUA("XG0364","",[660.435],6))
+    ActionOverride(Player5,LeaveAreaLUA("XG0364","",[619.477],6))
+    ActionOverride(Player6,LeaveAreaLUA("XG0364","",[591.512],6))
     ActionOverride("XGMW",EscapeArea())
     ActionOverride("XGMCH",EscapeArea())
     ActionOverride("XGWW",EscapeArea())

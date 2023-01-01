@@ -60,7 +60,7 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @15
-  IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("PF0060")
+  IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("XG0060")
 Wait(1)
 CreateCreature("XGASSF",[337.282],10)
 DisplayString("XGASSF",@17)
@@ -82,7 +82,7 @@ END
 
 IF ~~ THEN BEGIN 12
   SAY @15
-  IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("PF0060")
+  IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("XG0060")
 Wait(1)
 CreateCreature("XGASSF",[337.282],10)
 DisplayString("XGASSF",@17)
@@ -104,7 +104,7 @@ END
 
 IF ~~ THEN BEGIN 15
   SAY @15
-  IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("PF0060")
+  IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("XG0060")
 Wait(1)
 CreateCreature("XGASSF",[337.282],10)
 DisplayString("XGASSF",@17)
@@ -126,7 +126,7 @@ END
 
 IF ~~ THEN BEGIN 18
   SAY @15
-  IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("PF0060")
+  IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("XG0060")
 Wait(1)
 CreateCreature("XGASSF",[337.282],10)
 DisplayString("XGASSF",@17)
@@ -148,7 +148,7 @@ END
 
 IF ~~ THEN BEGIN 21
   SAY @15
-  IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("PF0060")
+  IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("XG0060")
 Wait(1)
 CreateCreature("XGASSF",[337.282],10)
 DisplayString("XGASSF",@17)
@@ -175,7 +175,7 @@ END
 
 IF ~~ THEN BEGIN 25
   SAY @15
-  IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("PF0060")
+  IF ~~ THEN REPLY @18 DO ~RevealAreaOnMap("XG0060")
 Wait(1)
 CreateCreature("XGASSF",[337.282],10)
 DisplayString("XGASSF",@17)

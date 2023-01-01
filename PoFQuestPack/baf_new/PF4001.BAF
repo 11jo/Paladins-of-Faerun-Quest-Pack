@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredArea","PF4001",0)
+  Global("EnteredArea","XG4001",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","PF4001",1)
-    HideAreaOnMap("PF0041")
+    SetGlobal("EnteredArea","XG4001",1)
+    HideAreaOnMap("XG0041")
 END
 

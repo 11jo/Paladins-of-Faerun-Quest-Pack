@@ -18,7 +18,7 @@ END
 IF ~~ THEN BEGIN 3
   SAY @6
   IF ~~ THEN REPLY @7 DO ~SetGlobal("s#XGfa","GLOBAL",2)
-RevealAreaonMap("PF0079")~ UNSOLVED_JOURNAL @8 EXIT
+RevealAreaonMap("XG0079")~ UNSOLVED_JOURNAL @8 EXIT
   IF ~~ THEN REPLY @9 DO ~SetGlobal("s#XGfa","GLOBAL",1)~ EXIT
 END
 

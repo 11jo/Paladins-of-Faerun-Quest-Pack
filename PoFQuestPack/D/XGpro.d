@@ -17,7 +17,7 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @6
-  IF ~~ THEN DO ~RevealAreaOnMap("PF0077")
+  IF ~~ THEN DO ~RevealAreaOnMap("XG0077")
 SetGlobal("s#XGpro","GLOBAL",1)~ EXIT
 END
 

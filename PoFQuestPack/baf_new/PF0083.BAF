@@ -1,12 +1,12 @@
 IF
-  Global("Reveal0083","PF0083",0)
+  Global("Reveal0083","XG0083",0)
   PartyHasItem("XGcd")  // ~Кинжал~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0083","PF0083",1)
+    SetGlobal("Reveal0083","XG0083",1)
     StartCutSceneMode()
     HideGUI()
-    PlaySound("Mus2mod")
+    PlaySound("XGMUS2")
     CreateCreature("XGchf",[3483.572],0)  // ~Убийца-Цирикист~
     ActionOverride("XGchf",MoveToPoint([3731.424]))
     Wait(5)

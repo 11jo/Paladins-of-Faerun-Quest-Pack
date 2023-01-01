@@ -10,12 +10,12 @@ THEN
     Wait(8)
     CreateCreature("XGprd",[1446.2047],10)  // ~Пленник~
     Wait(4)
-    ActionOverride(Player2,LeaveAreaLUA("PF0077","",[1312.2001],12))
-    ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1535.1982],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF0077","",[1330.1956],12))
-    ActionOverride(Player4,LeaveAreaLUA("PF0077","",[1582.1914],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF0077","",[1388.1838],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF0077","",[1542.1894],0))
+    ActionOverride(Player2,LeaveAreaLUA("XG0077","",[1312.2001],12))
+    ActionOverride(Player1,LeaveAreaLUA("XG0077","",[1535.1982],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG0077","",[1330.1956],12))
+    ActionOverride(Player4,LeaveAreaLUA("XG0077","",[1582.1914],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG0077","",[1388.1838],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG0077","",[1542.1894],0))
     ClearAllActions()
     Wait(5)
     MoveViewPoint([1464.1871],INSTANT)
@@ -42,7 +42,7 @@ THEN
     Wait(5)
     CreateCreature("XGprd1",[1446.2047],10)  // ~Пленник~
     Wait(8)
-    ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1507.1986],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0077","",[1507.1986],0))
     Wait(5)
     DisplayStringHead("XGtwrc",@0)  // @0
     Wait(4)
@@ -65,7 +65,7 @@ THEN
     Wait(5)
     CreateCreature("XGprd2",[1446.2047],10)  // ~Пленник~
     Wait(8)
-    ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1507.1986],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0077","",[1507.1986],0))
     Wait(5)
     DisplayStringHead("XGtwrc",@0)  // @0
     Wait(4)
@@ -99,7 +99,7 @@ THEN
     DisplayStringHead("XGtwrc",@2)  // @2
     Wait(8)
     FadeToColor([80.0],0)
-    ActionOverride(Player1,LeaveAreaLUA("PF0077","",[1042.1978],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0077","",[1042.1978],0))
     Wait(8)
     ReputationInc(-1)
     EndCutSceneMode()

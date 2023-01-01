@@ -32,7 +32,7 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @13
-  IF ~~ THEN REPLY @15 DO ~RevealAreaOnMap("PF0026")
+  IF ~~ THEN REPLY @15 DO ~RevealAreaOnMap("XG0026")
 AddexperienceParty(1000)
 Enemy()
 ~ UNSOLVED_JOURNAL @14 EXIT

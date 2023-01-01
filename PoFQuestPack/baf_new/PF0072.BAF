@@ -1,9 +1,9 @@
 IF
-  Global("RevealPF0072","PF0072",0)
+  Global("RevealXG0072","XG0072",0)
   PartyHasItem("XGartk1")  // ~Артефакт~
 THEN
   RESPONSE #100
-    SetGlobal("RevealPF0072","PF0072",1)
+    SetGlobal("RevealXG0072","XG0072",1)
     ClearAllActions()
     StartCutSceneMode()
     CreateCreature("XGprq",[828.1370],10)  // ~Отрекшийся~
@@ -13,11 +13,11 @@ THEN
 END
 
 IF
-  Global("DEAD0","PF0072",0)
+  Global("DEAD0","XG0072",0)
   Dead("XGprq")  // ~Отрекшийся~
 THEN
   RESPONSE #100
-    SetGlobal("DEAD0","PF0072",1)
+    SetGlobal("DEAD0","XG0072",1)
     Wait(1)
     StartCutSceneMode()
     CreateCreature("XGBHC",[1339.1489],0)  // ~Адостер Сын Дриады~

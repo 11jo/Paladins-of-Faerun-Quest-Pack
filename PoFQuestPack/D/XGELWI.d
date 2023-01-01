@@ -48,7 +48,7 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @20
-  IF ~~ THEN REPLY @22 DO ~RevealAreaOnMap("PF0053")
+  IF ~~ THEN REPLY @22 DO ~RevealAreaOnMap("XG0053")
 GiveItemCreate("MISC07",Player1,5000,0,0)
 EscapeArea()
 //TextScreen("SCENPMOD")
@@ -82,7 +82,7 @@ END
 
 IF ~~ THEN BEGIN 15
   SAY @20
-  IF ~~ THEN REPLY @22 DO ~RevealAreaOnMap("PF0053")
+  IF ~~ THEN REPLY @22 DO ~RevealAreaOnMap("XG0053")
 GiveItemCreate("MISC07",Player1,5000,0,0)
 EscapeArea()
 //TextScreen("SCENPMOD")

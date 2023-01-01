@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0082","PF0082",0)
+  Global("Reveal0082","XG0082",0)
   PartyHasItem("XGhsr")  // ~Рисунок~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0082","PF0082",1)
+    SetGlobal("Reveal0082","XG0082",1)
     HideGUI()
     CreateCreature("XGhsr",[2109.1924],0)  // ~Рейнджер~
     TakePartyItem("XGhsr")
@@ -23,19 +23,19 @@ THEN
     DisplayStringHead("XGhsr",@4)  
     Wait(3)
     Kill("XGhsr")
-    RevealAreaOnMap("PF0083")
+    RevealAreaOnMap("XG0083")
     UnhideGUI()
     AddJournalEntry(@5,QUEST)
     EndCutSceneMode()
 END
 
 IF
-  Global("Reveal0082","PF0082",1)
+  Global("Reveal0082","XG0082",1)
   PartyHasItem("XGcd")  // ~Кинжал~
   Dead("XGchf")  // ~Убийца-Цирикист~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0082","PF0082",2)
+    SetGlobal("Reveal0082","XG0082",2)
     HideGUI()
     StartCutSceneMode()
     CreateCreature("XGprt",[1680.230],0)  // ~Священник Торма~
@@ -50,12 +50,12 @@ THEN
     Wait(8)
     TakePartyItem("XGcd")
     Wait(1)
-    ActionOverride(Player2,LeaveAreaLUA("PF0081","",[1119.198],8))
-    ActionOverride(Player1,LeaveAreaLUA("PF0081","",[1077.235],8))
-    ActionOverride(Player3,LeaveAreaLUA("PF0081","",[1161.243],8))
-    ActionOverride(Player4,LeaveAreaLUA("PF0081","",[1162.305],8))
-    ActionOverride(Player5,LeaveAreaLUA("PF0081","",[1057.315],8))
-    ActionOverride(Player6,LeaveAreaLUA("PF0081","",[1153.352],8))
+    ActionOverride(Player2,LeaveAreaLUA("XG0081","",[1119.198],8))
+    ActionOverride(Player1,LeaveAreaLUA("XG0081","",[1077.235],8))
+    ActionOverride(Player3,LeaveAreaLUA("XG0081","",[1161.243],8))
+    ActionOverride(Player4,LeaveAreaLUA("XG0081","",[1162.305],8))
+    ActionOverride(Player5,LeaveAreaLUA("XG0081","",[1057.315],8))
+    ActionOverride(Player6,LeaveAreaLUA("XG0081","",[1153.352],8))
     EndCutSceneMode()
     UnhideGUI()
 END

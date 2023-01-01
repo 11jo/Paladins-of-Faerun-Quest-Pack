@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredPF0028","PF0028",0)
+  Global("EnteredXG0028","XG0028",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0028","PF0028",1)
+    SetGlobal("EnteredXG0028","XG0028",1)
     //TextScreen("SCEN5MOD")
 END
 

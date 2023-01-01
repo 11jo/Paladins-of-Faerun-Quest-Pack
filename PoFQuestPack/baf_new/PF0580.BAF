@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredAreaPF0580","PF0580",0)
+  Global("EnteredAreaXG0580","XG0580",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredAreaPF0580","PF0580",1)
+    SetGlobal("EnteredAreaXG0580","XG0580",1)
     ClearAllActions()
     HideGUI()
     StartCutSceneMode()
@@ -24,22 +24,22 @@ THEN
     DisplayStringHead("XGdreu",@4)  
     Wait(5)
     AddJournalEntry(@5,QUEST)
-    ActionOverride(Player2,LeaveAreaLUA("PFA480","",[403.562],0))
-    ActionOverride(Player1,LeaveAreaLUA("PFA480","",[429.599],0))
-    ActionOverride(Player3,LeaveAreaLUA("PFA480","",[483.561],0))
-    ActionOverride(Player4,LeaveAreaLUA("PFA480","",[407.505],0))
-    ActionOverride(Player5,LeaveAreaLUA("PFA480","",[479.463],0))
-    ActionOverride(Player6,LeaveAreaLUA("PFA480","",[530.521],0))
+    ActionOverride(Player2,LeaveAreaLUA("XGa480","",[403.562],0))
+    ActionOverride(Player1,LeaveAreaLUA("XGa480","",[429.599],0))
+    ActionOverride(Player3,LeaveAreaLUA("XGa480","",[483.561],0))
+    ActionOverride(Player4,LeaveAreaLUA("XGa480","",[407.505],0))
+    ActionOverride(Player5,LeaveAreaLUA("XGa480","",[479.463],0))
+    ActionOverride(Player6,LeaveAreaLUA("XGa480","",[530.521],0))
     UnhideGUI()
     EndCutSceneMode()
 END
 
 IF
-  Global("Reveal0580","PF0580",0)
+  Global("Reveal0580","XG0580",0)
   PartyHasItem("XGiqq")  // ~Артефакт~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0580","PF0580",1)
+    SetGlobal("Reveal0580","XG0580",1)
     TakePartyItem("XGiqq")
     CreateCreature("XGelfw",[500.1881],0)  // ~Эльфийский воин~
     CreateCreature("XGdrwe",[572.1832],0)  // ~Прислуга Элистрая~

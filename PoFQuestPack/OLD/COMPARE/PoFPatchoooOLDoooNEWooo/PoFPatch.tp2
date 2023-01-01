@@ -1,0 +1,182 @@
+/////////////////////////////////////////////
+/////////    Items for creatures    ///////// 
+///////////////////////////////////////////
+DEFINE_ASSOCIATIVE_ARRAY filenames_to_change BEGIN
+
+//////  LISTE ITEMS HERE   /////// 
+  
+  END
+
+COPY ~creature~ ~override~
+  READ_LONG  0x2bc itm_off ELSE 0  // Offset to Items ?? 0x02bc ??// IESDP CRE file format
+  READ_LONG  0x2c0 itm_num ELSE 0  // Count of Items ?? 0x02c0 ??// IESDP CRE file format  
+  FOR (index = 0; index < itm_num; ++index) BEGIN
+    SET currentitem = itm_off + index * 0x14
+    READ_ASCII currentitem currentitem_name (8) NULL
+    TO_LOWER ~%currentitem_name%~
+    PATCH_IF (VARIABLE_IS_SET $filenames_to_change(~currentitem_name~)) BEGIN
+      SPRINT currentitem_newname $filenames_to_change(~currentitem_name~)
+      WRITE_ASCII currentitem currentitem_newname (8)
+    END
+  END
+ 
+
+/////////////////////////////////////////////
+///////// Items for areas    ///////// 
+///////////////////////////////////////////
+DEFINE_ASSOCIATIVE_ARRAY filenames_to_change BEGIN
+
+//////  LISTE ITEMS HERE   ///////
+
+  END
+
+COPY ~area~ ~override~
+  READ_LONG  0x0078 itm_off ELSE 0  // Offset to Items // IESDP ARE file format 
+  READ_LONG  0x0076 itm_num ELSE 0  // Count of Items // IESDP ARE file format   
+  FOR (index = 0; index < itm_num; ++index) BEGIN
+    SET currentitem = itm_off + index * 0x14
+    READ_ASCII currentitem currentitem_name (8) NULL
+    TO_LOWER ~%currentitem_name%~
+    PATCH_IF (VARIABLE_IS_SET $filenames_to_change(~currentitem_name~)) BEGIN
+      SPRINT currentitem_newname $filenames_to_change(~currentitem_name~)
+      WRITE_ASCII currentitem currentitem_newname (8)
+    END
+  END
+
+
+/////////////////////////////////////////////
+///////// Creatures for areas    /////////
+///////////////////////////////////////////
+DEFINE_ASSOCIATIVE_ARRAY filenames_to_change BEGIN
+
+   
+   //////  LISTE CREs HERE  ///////
+   
+   
+  END
+
+COPY ~area~ ~override~
+  READ_LONG  0x0054 cre_off ELSE 0  // Offset to actors // IESDP ARE file format 
+  READ_LONG  0x0058 cre_num ELSE 0  // Count of actors // IESDP ARE file format   
+  FOR (index = 0; index < cre_num; ++index) BEGIN
+    SET currentcreature = cre_off + index * 0x14
+    READ_ASCII currentcreature currentcreature_name (8) NULL
+    TO_LOWER ~%currentcreature_name%~
+    PATCH_IF (VARIABLE_IS_SET $filenames_to_change(~currentcreature_name~)) BEGIN
+      SPRINT currentitem_newname $filenames_to_change(~currentcreature_name~)
+      WRITE_ASCII currentcreature currentcreature_newname (8)
+    END
+  END
+  
+
+  
+///////////  TODO  ///////////Same files for AREAS / CONTAINERS (should be added to container as well ? Or it is part of areas)...
+/*- TODO....Files association are (itm,sto,cre, ??) ; cre(itm,bam, ??) ; itm(bam, ??) ; wav ???
+	- are ( itm, sto, cre, wav, mos, wed, bmp, (? ogg ?), (? PVRZ ?), (? bam ?) )
+	- cre ( itm, (? bam ?) )
+	- itm ( bam )
+	- sto ( itm, cre )
+	- D ( ???? )*/
+
+  
+/////////////////////////////////////////////
+/////////  TODO   BMP for areas    ///////// 
+///////////////////////////////////////////
+
+
+/////////////////////////////////////////////
+///////// TODO    Stores for areas    /////////
+///////////////////////////////////////////
+DEFINE_ASSOCIATIVE_ARRAY filenames_to_change BEGIN
+
+//////  LISTE STOs HERE   ///////
+
+  END
+
+COPY ~area~ ~override~
+  READ_LONG  0x0078 sto_off ELSE 0  // TODO 
+  READ_LONG  0x0076 sto_num ELSE 0  // TODO  
+  FOR (index = 0; index < itm_num; ++index) BEGIN
+    SET currentstore = sto_off + index * 0x14
+    READ_ASCII currentstore currentstore_name (8) NULL
+    TO_LOWER ~%currentstore_name%~
+    PATCH_IF (VARIABLE_IS_SET $filenames_to_change(~currentstore_name~)) BEGIN
+      SPRINT currentitem_newname $filenames_to_change(~currentstore_name~)
+      WRITE_ASCII currentstore currentstore_newname (8)
+    END
+  END
+  
+  
+/////////////////////////////////////////////
+///////// TODO    Bam for items    ///////// 
+///////////////////////////////////////////
+DEFINE_ASSOCIATIVE_ARRAY filenames_to_change BEGIN
+
+//////  LISTE BAMs HERE  ///////
+
+  END
+
+COPY ~item~ ~override~ // Changes will come beloow
+  READ_LONG  0x0078 itm_off ELSE 0  // ???????? // IESDP ARE file format 
+  READ_LONG  0x0076 itm_num ELSE 0  // ???????? // IESDP ARE file format   
+  FOR (index = 0; index < itm_num; ++index) BEGIN
+    SET currentitem = itm_off + index * 0x14
+    READ_ASCII currentitem currentitem_name (8) NULL
+    TO_LOWER ~%currentitem_name%~
+    PATCH_IF (VARIABLE_IS_SET $filenames_to_change(~currentitem_name~)) BEGIN
+      SPRINT currentitem_newname $filenames_to_change(~currentitem_name~)
+      WRITE_ASCII currentitem currentitem_newname (8)
+    END
+  END
+
+  
+//////////////////////////////////////
+///////// TODO   Creatures for  Stores       ///////////
+////////////////////////////////////
+DEFINE_ASSOCIATIVE_ARRAY filenames_to_change BEGIN
+
+   
+   //////  LISTE CREs HERE  ///////
+   
+   
+  END
+
+COPY ~store~ ~override~  // Creature ? // Area ?
+  READ_LONG  0x2bc itm_off ELSE 0
+  READ_LONG  0x2c0 itm_num ELSE 0
+  FOR (index = 0; index < itm_num; ++index) BEGIN
+    SET currentstore = sto_off + index * 0x14
+    READ_ASCII currentstore currentstore_name (8) NULL
+    TO_LOWER ~%currentstore_name%~
+    PATCH_IF (VARIABLE_IS_SET $filenames_to_change(~currentstore_name~)) BEGIN
+      SPRINT currentitem_newname $filenames_to_change(~currentstore_name~)
+      WRITE_ASCII currentstore currentstore_newname (8)
+    END
+  END
+  
+  
+  
+  
+  ////////////////////////////////////
+///////// TODO   ?? Dialogs ??    ///////// FOR CREATURES
+//////////////////////////////////
+DEFINE_ASSOCIATIVE_ARRAY filenames_to_change BEGIN
+
+   
+   
+   
+   
+  END
+
+COPY ~dialog~ ~override~ // creature ? // area ?
+  READ_LONG  0x2bc itm_off ELSE 0
+  READ_LONG  0x2c0 itm_num ELSE 0
+  FOR (index = 0; index < itm_num; ++index) BEGIN
+    SET currentdialog = d_off + index * 0x14
+    READ_ASCII currentdialog currentdialog_name (8) NULL
+    TO_LOWER ~%currentdialog_name%~
+    PATCH_IF (VARIABLE_IS_SET $filenames_to_change(~currentdialog_name~)) BEGIN
+      SPRINT currentitem_newname $filenames_to_change(~currentdialog_name~)
+      WRITE_ASCII currentdialog currentdialog_newname (8)
+    END
+  END

@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0064","PF0064",0)
+  Global("Reveal0064","XG0064",0)
   Dead("XGBMTN3")  // ~Воришка~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0064","PF0064",1)
+    SetGlobal("Reveal0064","XG0064",1)
     StartCutSceneMode()
     HideGUI()
     CreateCreature("XGWWC",[2712.2879],0)  // ~Капитан~
@@ -42,13 +42,13 @@ THEN
     EraseJournalEntry(@6)  
     AddexperienceParty(5000)
     AddJournalEntry(@7,QUEST)
-    RevealAreaOnMap("PFKAR2")
-    ActionOverride(Player2,LeaveAreaLUA("PFKAR2","",[705.266],2))
-    ActionOverride(Player1,LeaveAreaLUA("PFKAR2","",[706.201],2))
-    ActionOverride(Player3,LeaveAreaLUA("PFKAR2","",[781.233],2))
-    ActionOverride(Player4,LeaveAreaLUA("PFKAR2","",[866.317],2))
-    ActionOverride(Player5,LeaveAreaLUA("PFKAR2","",[881.401],2))
-    ActionOverride(Player6,LeaveAreaLUA("PFKAR2","",[938.304],2))
+    RevealAreaOnMap("XGKAR2")
+    ActionOverride(Player2,LeaveAreaLUA("XGKAR2","",[705.266],2))
+    ActionOverride(Player1,LeaveAreaLUA("XGKAR2","",[706.201],2))
+    ActionOverride(Player3,LeaveAreaLUA("XGKAR2","",[781.233],2))
+    ActionOverride(Player4,LeaveAreaLUA("XGKAR2","",[866.317],2))
+    ActionOverride(Player5,LeaveAreaLUA("XGKAR2","",[881.401],2))
+    ActionOverride(Player6,LeaveAreaLUA("XGKAR2","",[938.304],2))
     EndCutSceneMode()
     UnhideGUI()
 END

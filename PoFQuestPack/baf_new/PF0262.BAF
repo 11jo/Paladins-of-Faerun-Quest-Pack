@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredAreaPF0262","PF0262",0)
+  Global("EnteredAreaXG0262","XG0262",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredAreaPF0262","PF0262",1)
+    SetGlobal("EnteredAreaXG0262","XG0262",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -27,12 +27,12 @@ THEN
 END
 
 IF
-  Global("Reveal0262","PF0262",0)
+  Global("Reveal0262","XG0262",0)
   Dead("XGMERS")  // ~Наемник~
   Dead("XGMERS1")  // ~Наемник~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0262","PF0262",1)
+    SetGlobal("Reveal0262","XG0262",1)
     DisplayStringHead("XGPROS1",@5)  // @5
 END
 

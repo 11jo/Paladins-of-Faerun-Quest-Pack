@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredPF0414","PF0414",0)
+  Global("EnteredXG0414","XG0414",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0414","PF0414",1)
+    SetGlobal("EnteredXG0414","XG0414",1)
     ClearAllActions()
     Explore()
     StartCutSceneMode()
@@ -30,12 +30,12 @@ THEN
     Wait(6)
     AddJournalEntry(@10,QUEST)
     Wait(2)
-    ActionOverride(Player2,LeaveAreaLUA("PF0014","",[491.986],0))
-    ActionOverride(Player1,LeaveAreaLUA("PF0014","",[542.955],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF0014","",[495.923],0))
-    ActionOverride(Player4,LeaveAreaLUA("PF0014","",[439.955],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF0014","",[469.1022],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF0014","",[528.1016],0))
+    ActionOverride(Player2,LeaveAreaLUA("XG0014","",[491.986],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0014","",[542.955],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG0014","",[495.923],0))
+    ActionOverride(Player4,LeaveAreaLUA("XG0014","",[439.955],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG0014","",[469.1022],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG0014","",[528.1016],0))
     UnhideGUI()
     EndCutSceneMode()
 END

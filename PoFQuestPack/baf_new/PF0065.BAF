@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredAreaPF0065","PF0065",0)
+  Global("EnteredAreaXG0065","XG0065",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredAreaPF0065","PF0065",1)
+    SetGlobal("EnteredAreaXG0065","XG0065",1)
     Weather(RAIN)
     ClearAllActions()
     StartCutSceneMode()

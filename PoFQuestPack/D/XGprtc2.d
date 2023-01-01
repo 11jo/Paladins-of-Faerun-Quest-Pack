@@ -18,7 +18,7 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @7
-  IF ~~ THEN REPLY @8 DO ~RevealAreaOnMap("PF0084") 
+  IF ~~ THEN REPLY @8 DO ~RevealAreaOnMap("XG0084") 
 SetGlobal("s#XGprtc2","GLOBAL",2)
 GiveItemCreate("XGprt",Player1,0,0,0)~ 
 UNSOLVED_JOURNAL @9 EXIT

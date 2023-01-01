@@ -16,7 +16,7 @@ IF ~~ THEN BEGIN 2
   IF ~~ THEN REPLY @6 DO ~EraseJournalEntry(@7)
 EraseJournalEntry(@8)
 EraseJournalEntry(@9)
-RevealAreaOnMap("PF0047")
+RevealAreaOnMap("XG0047")
 GivePartyGold(4000)
 AddExperienceParty(10000)
 GiveItemCreate("XGNINJ1",Player1,0,0,0)

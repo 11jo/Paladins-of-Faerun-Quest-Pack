@@ -24,6 +24,6 @@ END
 
 IF ~~ THEN BEGIN 4
   SAY @5
-  IF ~~ THEN REPLY @7 DO ~RevealAreaOnMap("PF0059")
+  IF ~~ THEN REPLY @7 DO ~RevealAreaOnMap("XG0059")
 ~ UNSOLVED_JOURNAL @6 EXIT
 END

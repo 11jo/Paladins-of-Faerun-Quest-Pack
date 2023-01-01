@@ -1,8 +1,8 @@
 IF
-  Global("EnteredPF0117","PF0117",0)
+  Global("EnteredXG0117","XG0117",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0117","PF0117",1)
+    SetGlobal("EnteredXG0117","XG0117",1)
     //Wait(1)
     //TextScreen("SCENKMOD")
 END

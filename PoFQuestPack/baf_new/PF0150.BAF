@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0150","PF0150",0)
+  Global("Reveal0150","XG0150",0)
   Dead("XGCRU")  // ~Крэйвен~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0150","PF0150",1)
+    SetGlobal("Reveal0150","XG0150",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -60,21 +60,21 @@ THEN
     EraseJournalEntry(@11)  
     SetQuestDone(@12)  
     UnhideGUI()
-    ActionOverride(Player2,LeaveAreaLUA("PF0020","",[3782.3065],8))
-    ActionOverride(Player1,LeaveAreaLUA("PF0020","",[3818.3026],8))
-    ActionOverride(Player3,LeaveAreaLUA("PF0020","",[3877.3112],8))
-    ActionOverride(Player4,LeaveAreaLUA("PF0020","",[3802.3159],8))
-    ActionOverride(Player5,LeaveAreaLUA("PF0020","",[3660.3114],8))
-    ActionOverride(Player6,LeaveAreaLUA("PF0020","",[3707.3156],8))
+    ActionOverride(Player2,LeaveAreaLUA("XG0020","",[3782.3065],8))
+    ActionOverride(Player1,LeaveAreaLUA("XG0020","",[3818.3026],8))
+    ActionOverride(Player3,LeaveAreaLUA("XG0020","",[3877.3112],8))
+    ActionOverride(Player4,LeaveAreaLUA("XG0020","",[3802.3159],8))
+    ActionOverride(Player5,LeaveAreaLUA("XG0020","",[3660.3114],8))
+    ActionOverride(Player6,LeaveAreaLUA("XG0020","",[3707.3156],8))
     EndCutSceneMode()
 END
 
 IF
-  Global("Reveal0150","PF0150",0)
+  Global("Reveal0150","XG0150",0)
   Global("s#XGCRU","GLOBAL",1)
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0150","PF0150",1)
+    SetGlobal("Reveal0150","XG0150",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -118,12 +118,12 @@ THEN
     EraseJournalEntry(@11)  
     SetQuestDone(@12)  
     UnhideGUI()
-    ActionOverride(Player2,LeaveAreaLUA("PF0020","",[3782.3065],8))
-    ActionOverride(Player1,LeaveAreaLUA("PF0020","",[3818.3026],8))
-    ActionOverride(Player3,LeaveAreaLUA("PF0020","",[3877.3112],8))
-    ActionOverride(Player4,LeaveAreaLUA("PF0020","",[3802.3159],8))
-    ActionOverride(Player5,LeaveAreaLUA("PF0020","",[3660.3114],8))
-    ActionOverride(Player6,LeaveAreaLUA("PF0020","",[3707.3156],8))
+    ActionOverride(Player2,LeaveAreaLUA("XG0020","",[3782.3065],8))
+    ActionOverride(Player1,LeaveAreaLUA("XG0020","",[3818.3026],8))
+    ActionOverride(Player3,LeaveAreaLUA("XG0020","",[3877.3112],8))
+    ActionOverride(Player4,LeaveAreaLUA("XG0020","",[3802.3159],8))
+    ActionOverride(Player5,LeaveAreaLUA("XG0020","",[3660.3114],8))
+    ActionOverride(Player6,LeaveAreaLUA("XG0020","",[3707.3156],8))
     EndCutSceneMode()
 END
 

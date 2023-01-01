@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredPF0009","PF0009",0)
+  Global("EnteredXG0009","XG0009",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0009","PF0009",1)
+    SetGlobal("EnteredXG0009","XG0009",1)
     ClearAllActions()
     Explore()
     StartCutSceneMode()
@@ -29,11 +29,11 @@ THEN
 END
 
 IF
-  Global("Reveal0009","PF0009",0)
+  Global("Reveal0009","XG0009",0)
   Dead("XGESUD")  // ~Óהמננטכ~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0009","PF0009",1)
+    SetGlobal("Reveal0009","XG0009",1)
     CreateCreature("XGHROTH",[915.797],6)  // ~Õנמעדאנ~
     StartCutSceneMode()
     Wait(1)

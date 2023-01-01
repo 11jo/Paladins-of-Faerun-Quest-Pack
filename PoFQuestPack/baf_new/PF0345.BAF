@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0300","PF0345",0)
+  Global("Reveal0300","XG0345",0)
   Dead("XGLWSE")  // ~Лорд Вильстер~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0300","PF0345",1)
+    SetGlobal("Reveal0300","XG0345",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

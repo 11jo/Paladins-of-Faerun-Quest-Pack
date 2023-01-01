@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredArea","PF0263",0)
+  Global("EnteredArea","XG0263",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","PF0263",1)
+    SetGlobal("EnteredArea","XG0263",1)
     StartCutSceneMode()
     DisplayStringHead("XGLETG",@0)  
     Wait(3)
@@ -11,12 +11,12 @@ THEN
 END
 
 IF
-  Global("Reveal0263","PF0263",0)
+  Global("Reveal0263","XG0263",0)
   Dead("XGLUSGC")  
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0263","PF0263",1)
-    PlaySound("NWN1")
+    SetGlobal("Reveal0263","XG0263",1)
+    PlaySound("XGNWN1")
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -29,12 +29,12 @@ THEN
     DisplayStringHead("s#mage2",@1)  
     Wait(6)
     UnhideGUI()
-ActionOverride(Player1,LeaveAreaLUA("PF0162","",[1298.1045],9))
-ActionOverride(Player2,LeaveAreaLUA("PF0162","",[1155.1075],0))
-ActionOverride(Player3,LeaveAreaLUA("PF0162","",[1250.1080],0))
-ActionOverride(Player4,LeaveAreaLUA("PF0162","",[1100.1100],0))
-ActionOverride(Player5,LeaveAreaLUA("PF0162","",[1200.1120],0))
-ActionOverride(Player6,LeaveAreaLUA("PF0162","",[1090.1160],0))
+ActionOverride(Player1,LeaveAreaLUA("XG0162","",[1298.1045],9))
+ActionOverride(Player2,LeaveAreaLUA("XG0162","",[1155.1075],0))
+ActionOverride(Player3,LeaveAreaLUA("XG0162","",[1250.1080],0))
+ActionOverride(Player4,LeaveAreaLUA("XG0162","",[1100.1100],0))
+ActionOverride(Player5,LeaveAreaLUA("XG0162","",[1200.1120],0))
+ActionOverride(Player6,LeaveAreaLUA("XG0162","",[1090.1160],0))
 DestroySelf()
     EndCutSceneMode()
 END

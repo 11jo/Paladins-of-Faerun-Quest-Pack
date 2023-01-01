@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredPF0639","PF0639",0)
+  Global("EnteredXG0639","XG0639",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0639","PF0639",1)
+    SetGlobal("EnteredXG0639","XG0639",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -26,12 +26,12 @@ THEN
 END
 
 IF
-  Global("Reveal0639","PF0639",0)
+  Global("Reveal0639","XG0639",0)
   Dead("XGnoru")  // ~Личная охрана~
   Dead("XGnoru1")  // ~Личная охрана~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0639","PF0639",1)
+    SetGlobal("Reveal0639","XG0639",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -64,12 +64,12 @@ THEN
     GiveItemCreate("XGleta",Player1,0,0,0)  // ~Письмо~
     DisplayStringHead(Player1,@6)  
     Wait(5)
-    ActionOverride(Player2,LeaveAreaLUA("PF0168","",[669.314],8))
-    ActionOverride(Player1,LeaveAreaLUA("PF0168","",[801.389],8))
-    ActionOverride(Player3,LeaveAreaLUA("PF0168","",[621.376],8))
-    ActionOverride(Player4,LeaveAreaLUA("PF0168","",[604.295],8))
-    ActionOverride(Player5,LeaveAreaLUA("PF0168","",[691.469],8))
-    ActionOverride(Player6,LeaveAreaLUA("PF0168","",[906.557],8))
+    ActionOverride(Player2,LeaveAreaLUA("XG0168","",[669.314],8))
+    ActionOverride(Player1,LeaveAreaLUA("XG0168","",[801.389],8))
+    ActionOverride(Player3,LeaveAreaLUA("XG0168","",[621.376],8))
+    ActionOverride(Player4,LeaveAreaLUA("XG0168","",[604.295],8))
+    ActionOverride(Player5,LeaveAreaLUA("XG0168","",[691.469],8))
+    ActionOverride(Player6,LeaveAreaLUA("XG0168","",[906.557],8))
     UnhideGUI()
     EndCutSceneMode()
 END

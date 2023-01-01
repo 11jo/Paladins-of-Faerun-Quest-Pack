@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredArea","PF0762",0)
+  Global("EnteredArea","XG0762",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","PF0762",1)
+    SetGlobal("EnteredArea","XG0762",1)
     StartCutSceneMode()
     HideGUI()
     Explore()
@@ -39,12 +39,12 @@ THEN
     AddexperienceParty(10000)
     EraseJournalEntry(@4)  // @4
     Wait(4)
-    ActionOverride(Player1,LeaveAreaLUA("PF0462","",[315.438],0))
-    ActionOverride(Player2,LeaveAreaLUA("PF0462","",[353.425],0))
-    ActionOverride(Player3,LeaveAreaLUA("PF0462","",[268.429],0))
-    ActionOverride(Player4,LeaveAreaLUA("PF0462","",[288.501],0))
-    ActionOverride(Player5,LeaveAreaLUA("PF0462","",[352.518],0))
-    ActionOverride(Player6,LeaveAreaLUA("PF0462","",[402.489],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0462","",[315.438],0))
+    ActionOverride(Player2,LeaveAreaLUA("XG0462","",[353.425],0))
+    ActionOverride(Player3,LeaveAreaLUA("XG0462","",[268.429],0))
+    ActionOverride(Player4,LeaveAreaLUA("XG0462","",[288.501],0))
+    ActionOverride(Player5,LeaveAreaLUA("XG0462","",[352.518],0))
+    ActionOverride(Player6,LeaveAreaLUA("XG0462","",[402.489],0))
     UnhideGUI()
     EndCutSceneMode()
 END

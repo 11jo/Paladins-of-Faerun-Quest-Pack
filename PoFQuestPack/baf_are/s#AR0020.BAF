@@ -40,8 +40,8 @@ THEN
     Wait(1)
     DisplayStringHead("XGprtcq",@1)  // @1
     Wait(5)
-    HideAreaOnMap("PF0081")
-    RevealAreaOnMap("PF0681")
+    HideAreaOnMap("XG0081")
+    RevealAreaOnMap("XG0681")
     Wait(2)
     ActionOverride("XGprtcq",EscapeArea())
     EndCutSceneMode()
@@ -60,8 +60,8 @@ THEN
     Wait(1)
     DisplayStringHead("XGclc3",@1)  // @1
     Wait(5)
-    HideAreaOnMap("PF8100")
-    RevealAreaOnMap("PF8500")
+    HideAreaOnMap("XG8100")
+    RevealAreaOnMap("XG8500")
     Wait(2)
     ActionOverride("XGclc3",EscapeArea())
     EndCutSceneMode()
