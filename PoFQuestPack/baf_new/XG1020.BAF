@@ -1,0 +1,84 @@
+IF
+  OnCreation()
+  Global("EnteredXG1020","XG1020",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredXG1020","XG1020",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    ForceSpell("XG1020",CUTSCENE_METEOR_SWARM)
+    Wait(1)
+    ClearAllActions()
+    CreateCreature("XGBRMOC",[565.2472],0)  // ~Маргул~
+    Wait(2)
+    DisplayString("XGBRMOC",@0)  // @0
+    Wait(4)
+    DisplayString("XGBRMOC",@1)  // @1
+    Wait(4)
+    DisplayString(Player1,@2)  // @2
+    Wait(4)
+    DisplayString("XGBRMOC",@3)  // @3
+    Wait(4)
+    DisplayString("XGBRMOC",@4)  // @4
+    Wait(2)
+    CreateCreature("XGBRMO",[362.2419],0)  // ~Брат монахов~
+    CreateCreature("XGBRMIL",[662.2549],0)  // ~Хранитель братства~
+    CreateCreature("XGBRMIL",[678.2050],0)  // ~Хранитель братства~
+    CreateCreature("XGBRMIL",[993.2175],0)  // ~Хранитель братства~
+    ClearAllActions()
+    Wait(2)
+    ForceSpell("XGBRMOC",DRYAD_TELEPORT)
+    Wait(2)
+    EndCutSceneMode()
+    Wait(1)
+    UnhideGUI()
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
+    PlaySound("XGSCRN4")
+    Wait(4)
+    CreateCreature("XGMIL",[558.2593],0)  // ~Милиция~
+    CreateCreature("XGMIL",[658.2641],0)  // ~Милиция~
+    CreateCreature("XGMIL",[477.2432],0)  // ~Милиция~
+    CreateCreature("XGMIL",[458.2477],0)  // ~Милиция~
+    CreateCreature("XGMIL",[587.2542],0)  // ~Милиция~
+    ClearAllActions()
+    Wait(2)
+    DisplayString("XGMIL",@5)  // @5
+    Wait(4)
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+IF  Global("s#XG1020","XG1020",0)
+  PartyHasItem("XGMRBO")
+THEN
+  RESPONSE #100
+    SetGlobal("s#XG1020","XG1020",1)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(4)
+    DisplayString("Player1",@6)
+    Wait(4)
+ForceSpell(Player1,DRYAD_TELEPORT)
+ActionOverride(Player1,LeaveAreaLUA("XG0720","",[1000.750],0))
+    UnhideGUI()
+    EndCutSceneMode()
+END
+
+
+
+
+
+
+
+
+
+
+
+
+

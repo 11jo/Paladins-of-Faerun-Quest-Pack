@@ -23,6 +23,6 @@ END
 IF ~~ THEN BEGIN 2
   SAY @5
   IF ~~ THEN DO ~TakePartyItem("XGartk1")
-StartCutScene("BATMOD")
+StartCutScene("XGBAT")
 EscapeArea()~ EXIT
 END

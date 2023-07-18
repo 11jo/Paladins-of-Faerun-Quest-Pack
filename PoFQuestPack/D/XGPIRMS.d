@@ -9,18 +9,18 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @5
-  IF ~~ THEN DO ~StartCutScene("PIR")
+  IF ~~ THEN DO ~StartCutScene("XGPIR")
 ~ EXIT
 END
 
 IF ~~ THEN BEGIN 2
   SAY @6
-  IF ~~ THEN DO ~StartCutScene("PIR")
+  IF ~~ THEN DO ~StartCutScene("XGPIR")
 ~ EXIT
 END
 
 IF ~~ THEN BEGIN 3
   SAY @7
-  IF ~~ THEN DO ~StartCutScene("PIR")
+  IF ~~ THEN DO ~StartCutScene("XGPIR")
 ~ EXIT
 END
