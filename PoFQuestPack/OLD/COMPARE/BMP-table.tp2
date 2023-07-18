@@ -1,6 +1,6 @@
-BMPS..........
+// BMP..........
 
-"PF0000HT				 =>				   XG0000HT"
+"PF0000HT" => "XG0000HT"
 "PF0000LM" => "XG0000LM"
 "PF0000SR" => "XG0000SR"
 "PF0001HT" => "XG0001HT"

@@ -1541,7 +1541,7 @@ DEFINE_PATCH_MACRO UPDATE_POF_CRE_NAMES_ON_AREA BEGIN
   READ_LONG  0x58 cre_num ELSE 0
   PATCH_PRINT ~PRE-LOOP~
   FOR (index = 0; index < cre_num; ++index) BEGIN
-    SET currentcreature = cre_off + index * 0x110
+    SET currentcreature = cre_off + index * 0x110 + 0x80
     READ_ASCII currentcreature currentcreature_name (8) NULL
     TO_UPPER currentcreature_name
     PATCH_PRINT ~INDEX: %index% NAME: %currentcreature_name%~

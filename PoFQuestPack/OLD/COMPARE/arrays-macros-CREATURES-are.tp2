@@ -1,4 +1,7 @@
-CREATURES...........
+// CREATURES...ARE
+
+
+ACTION_DEFINE_ASSOCIATIVE_ARRAY UPDATE_POF_CRE_NAMES_ON_AREA BEGIN
 
 "AAMOD" => "XGAA"
 "ADEPTMOD" => "XGADEPT"
@@ -887,3 +890,22 @@ CREATURES...........
 "YARPINW5" => "XGYARW5"
 "YARPINW6" => "XGYARW6"
 "ZMOD" => "XGZ"
+
+END
+// Creatures in AREAS
+DEFINE_PATCH_MACRO UPDATE_POF_CRE_NAMES_ON_AREA BEGIN
+  READ_LONG  0x54 cre_off ELSE 0
+  READ_LONG  0x58 cre_num ELSE 0
+  PATCH_PRINT ~PRE-LOOP~
+  FOR (index = 0; index < cre_num; ++index) BEGIN
+    SET currentcreature = cre_off + index * 0x110 + 0x80
+    READ_ASCII currentcreature currentcreature_name (8) NULL
+    TO_UPPER currentcreature_name
+    PATCH_PRINT ~INDEX: %index% NAME: %currentcreature_name%~
+    PATCH_IF (VARIABLE_IS_SET $creature_filenames_to_change(~%currentcreature_name%~)) BEGIN
+      SPRINT currentcreature_newname $creature_filenames_to_change(~%currentcreature_name%~)
+      PATCH_PRINT ~INDEX: %index% NAME: %currentcreature_name% NEWNAME: %currentcreature_newname%~
+      WRITE_ASCIIE currentcreature ~%currentcreature_newname%~ (8)
+    END
+  END
+END
