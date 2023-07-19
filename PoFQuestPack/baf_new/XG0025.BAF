@@ -67,11 +67,11 @@ THEN
 END
 
 IF
-  Global("RevealArea","XG0025",0)
+  Global("RevealAreaXG0025","XG0025",0)
   Dead("XGYARP")  // ~Командир Градакова~
 THEN
   RESPONSE #100
-    SetGlobal("RevealArea","XG0025",1)
+    SetGlobal("RevealAreaXG0025","XG0025",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

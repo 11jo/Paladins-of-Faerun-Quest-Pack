@@ -26,12 +26,12 @@ THEN
 END
 
 IF
-  Global("Reveal0639","XG0639",0)
+  Global("RevealXG0639","XG0639",0)
   Dead("XGnoru")  // ~Личная охрана~
   Dead("XGnoru1")  // ~Личная охрана~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0639","XG0639",1)
+    SetGlobal("RevealXG0639","XG0639",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

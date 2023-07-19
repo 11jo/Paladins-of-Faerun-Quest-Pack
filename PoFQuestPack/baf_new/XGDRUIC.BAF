@@ -1,6 +1,6 @@
 IF
   See(NearestEnemyOf(Myself))
-  Global("Prep","LOCALS",0)
+  Global("XGPrep","LOCALS",0)
 THEN
   RESPONSE #100
     ForceSpell(Myself,WIZARD_TIME_STOP)
@@ -14,6 +14,6 @@ THEN
     ForceSpell(Myself,CLERIC_BLADE_BARRIER)
     Wait(1)
     ActionOverride(Myself,Attack(NearestEnemyOf(Myself)))
-    SetGlobal("Prep","LOCALS",1)
+    SetGlobal("XGPrep","LOCALS",1)
 END
 

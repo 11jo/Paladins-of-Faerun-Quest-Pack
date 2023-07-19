@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredPF0037","PF0037",0)
+  Global("EnteredXG0037","XG0037",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0037","PF0037",1)
+    SetGlobal("EnteredXG0037","XG0037",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -18,11 +18,11 @@ THEN
     Wait(4)
     ForceSpell("XGSOLAN",DRYAD_TELEPORT)
     ForceSpell("XGSLAIE",DRYAD_TELEPORT)
-    ForceSpell("CHGOOD09",DRYAD_TELEPORT)
+    ForceSpell("CHGOOD09",DRYAD_TELEPORT) // Original game cre (Ellésime)
     ForceSpell("XGDWMS",DRYAD_TELEPORT)
     DisplayStringHead("XGELM",@4)  // @4
     Wait(4)
-    RevealAreaOnMap("PFEMOD")
+    RevealAreaOnMap("XGUMOD")
     Wait(6)
     ActionOverride(Player1,LeaveAreaLUA("AR0020","",[628.555],0))
     ActionOverride(Player2,LeaveAreaLUA("AR0020","",[589.545],0))

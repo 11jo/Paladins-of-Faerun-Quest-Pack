@@ -9,12 +9,12 @@ THEN
     TakePartyItem("XGDHEA1")
     TakePartyItem("XGDHEAR")
     Wait(2)
-    ActionOverride("Player2",ForceSpell("Player2",DRYAD_TELEPORT))
-    ActionOverride("Player1",ForceSpell("Player1",DRYAD_TELEPORT))
-    ActionOverride("Player3",ForceSpell("Player3",DRYAD_TELEPORT))
-    ActionOverride("Player4",ForceSpell("Player4",DRYAD_TELEPORT))
-    ActionOverride("Player5",ForceSpell("Player5",DRYAD_TELEPORT))
-    ActionOverride("Player6",ForceSpell("Player6",DRYAD_TELEPORT))
+    ActionOverride(Player2,ForceSpell(Player2,DRYAD_TELEPORT))
+    ActionOverride(Player1,ForceSpell(Player1,DRYAD_TELEPORT))
+    ActionOverride(Player3,ForceSpell(Player3,DRYAD_TELEPORT))
+    ActionOverride(Player4,ForceSpell(Player4,DRYAD_TELEPORT))
+    ActionOverride(Player5,ForceSpell(Player5,DRYAD_TELEPORT))
+    ActionOverride(Player6,ForceSpell(Player6,DRYAD_TELEPORT))
     Wait(1)
     ActionOverride(Player2,LeaveAreaLUA("XG0403","",[1299.1997],14))
     ActionOverride(Player1,LeaveAreaLUA("XG0403","",[1284.2046],14))
@@ -28,20 +28,20 @@ THEN
 END
 
 IF
-  Global("Reveal0403","XG0403",0)
+  Global("RevealXG0403","XG0403",0)
   Dead("XGDEVIL")  // ~Гитиянки~
   PartyHasItem("XGDEVH")  // ~Рука дьявола~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0403","XG0403",1)
+    SetGlobal("RevealXG0403","XG0403",1)
     StartCutSceneMode()
     Wait(2)
-    ActionOverride("Player2",ForceSpell("Player2",DRYAD_TELEPORT))
-    ActionOverride("Player1",ForceSpell("Player1",DRYAD_TELEPORT))
-    ActionOverride("Player3",ForceSpell("Player3",DRYAD_TELEPORT))
-    ActionOverride("Player4",ForceSpell("Player4",DRYAD_TELEPORT))
-    ActionOverride("Player5",ForceSpell("Player5",DRYAD_TELEPORT))
-    ActionOverride("Player6",ForceSpell("Player6",DRYAD_TELEPORT))
+    ActionOverride(Player2,ForceSpell(Player2,DRYAD_TELEPORT))
+    ActionOverride(Player1,ForceSpell(Player1,DRYAD_TELEPORT))
+    ActionOverride(Player3,ForceSpell(Player3,DRYAD_TELEPORT))
+    ActionOverride(Player4,ForceSpell(Player4,DRYAD_TELEPORT))
+    ActionOverride(Player5,ForceSpell(Player5,DRYAD_TELEPORT))
+    ActionOverride(Player6,ForceSpell(Player6,DRYAD_TELEPORT))
     Wait(1)
     ActionOverride(Player2,LeaveAreaLUA("XG0403","",[1726.1313],0))
     ActionOverride(Player1,LeaveAreaLUA("XG0403","",[1660.1274],0))

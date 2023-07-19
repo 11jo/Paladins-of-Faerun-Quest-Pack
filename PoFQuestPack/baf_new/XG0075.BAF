@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredArea","XG0075",0)
+  Global("EnteredAreaXG0075","XG0075",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","XG0075",1)
+    SetGlobal("EnteredAreaXG0075","XG0075",1)
     CreateCreature("XGMGG",[1428.1217],12)  // ~Чародей~
     CreateCreature("XGBSMN1",[1728.1226],4)  // ~Хозяин зверей~
     CreateCreature("XGCAT2",[1714.1184],4)  // ~Пантера~
@@ -51,11 +51,11 @@ THEN
 END
 
 IF
-  Global("Reveal0075","XG0075",0)
+  Global("RevealXG0075","XG0075",0)
   Dead("XGBSMN1")  // ~Хозяин зверей~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0075","XG0075",1)
+    SetGlobal("RevealXG0075","XG0075",1)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
     DisplayStringHead("XGRAL",@4)  
@@ -67,11 +67,11 @@ THEN
 END
 
 IF
-  Global("Reveal0075","XG0075",0)
+  Global("RevealXG0075","XG0075",0)
   Dead("XGMGG")  // ~Чародей~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0075","XG0075",1)
+    SetGlobal("RevealXG0075","XG0075",1)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
     DisplayStringHead("XGRAL",@5) 
@@ -83,11 +83,11 @@ THEN
 END
 
 IF
-  Global("Reveal0075","XG0075",1)
+  Global("RevealXG0075","XG0075",1)
   Dead("XGFIGG")  // ~Гладиатор~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0075","XG0075",2)
+    SetGlobal("RevealXG0075","XG0075",2)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
     DisplayStringHead("XGRAL",@6) 
@@ -97,11 +97,11 @@ THEN
 END
 
 IF
-  Global("Reveal0075","XG0075",2)
+  Global("RevealXG0075","XG0075",2)
   Dead("XGBSMSE")  // ~Хозяин зверей~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0075","XG0075",3)
+    SetGlobal("RevealXG0075","XG0075",3)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
     DisplayStringHead("XGRAL",@7)  
@@ -111,11 +111,11 @@ THEN
 END
 
 IF
-  Global("Reveal0075","XG0075",3)
+  Global("RevealXG0075","XG0075",3)
   Dead("XGMGG1")  // ~Квоян~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0075","XG0075",4)
+    SetGlobal("RevealXG0075","XG0075",4)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
     DisplayStringHead("XGRAL",@8)  
@@ -125,11 +125,11 @@ THEN
 END
 
 IF
-  Global("Reveal0075","XG0075",4)
+  Global("RevealXG0075","XG0075",4)
   Dead("XGRGG")  // ~Гладиатор~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0075","XG0075",5)
+    SetGlobal("RevealXG0075","XG0075",5)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
     DisplayStringHead("XGRAL",@9)  
@@ -139,11 +139,11 @@ THEN
 END
 
 IF
-  Global("Reveal0075","XG0075",5)
+  Global("RevealXG0075","XG0075",5)
   Dead("XGDG")  // ~Воинственный Медведь~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0075","XG0075",6)
+    SetGlobal("RevealXG0075","XG0075",6)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
     DisplayStringHead("XGRAL",@10)  
@@ -153,11 +153,11 @@ THEN
 END
 
 IF
-  Global("Reveal0075","XG0075",6)
+  Global("RevealXG0075","XG0075",6)
   Dead("XGBARGG")  // ~Кевтилн~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0075","XG0075",7)
+    SetGlobal("RevealXG0075","XG0075",7)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
     DisplayStringHead("XGRAL",@11) 
@@ -167,11 +167,11 @@ THEN
 END
 
 IF
-  Global("Reveal0075","XG0075",7)
+  Global("RevealXG0075","XG0075",7)
   Dead("XGCHG")  // ~Чемпион~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0075","XG0075",8)
+    SetGlobal("RevealXG0075","XG0075",8)
     StartCutSceneMode()
     MoveViewPoint([1230.980],INSTANT)
     DisplayStringHead("XGRAL",@12)  

@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredArea","XG2057",0)
+  Global("EnteredAreaXG2057","XG2057",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","XG2057",1)
+    SetGlobal("EnteredAreaXG2057","XG2057",1)
     CreateCreature("XGNWNGD",[593.1777],8)  // ~Командир~
     CreateCreature("XGNWNL",[560.1704],0)  // ~Офицер~
     CreateCreature("XGNWNA",[696.1622],10)  // ~Армия Невервинтера~
@@ -70,11 +70,11 @@ THEN
 END
 
 IF
-  Global("Reveal2057","XG2057",0)
+  Global("RevealXG2057","XG2057",0)
   Dead("XGSWC")  // ~Командир полка~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal2057","XG2057",1)
+    SetGlobal("RevealXG2057","XG2057",1)
     DisplayStringHead(Player1,@6)  // @6
     BattleSong()
     CreateCreature("XGSWC1",[2372.1480],8)  // ~Командир полка~
@@ -87,11 +87,11 @@ THEN
 END
 
 IF
-  Global("Reveal2057","XG2057",1)
+  Global("RevealXG2057","XG2057",1)
   Dead("XGSWC1")  // ~Командир полка~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal2057","XG2057",2)
+    SetGlobal("RevealXG2057","XG2057",2)
     DisplayStringHead(Player1,@7)  // @7
     BattleSong()
     CreateCreature("XGSWC2",[1916.276],0)  // ~Командир полка~
@@ -102,11 +102,11 @@ THEN
 END
 
 IF
-  Global("Reveal2057","XG2057",2)
+  Global("RevealXG2057","XG2057",2)
   Dead("XGSWC2")  // ~Командир полка~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal2057","XG2057",3)
+    SetGlobal("RevealXG2057","XG2057",3)
     DisplayStringHead(Player1,@8)  // @8
     Wait(4)
     RestParty()
@@ -122,11 +122,11 @@ THEN
 END
 
 IF
-  Global("Reveal2057","XG2057",3)
+  Global("RevealXG2057","XG2057",3)
   Dead("XGSWC3")  // ~Командир полка~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal2057","XG2057",4)
+    SetGlobal("RevealXG2057","XG2057",4)
     DisplayStringHead(Player1,@6)  // @6
     BattleSong()
     CreateCreature("XGSWC4",[2372.1480],8)  // ~Командир полка~
@@ -141,11 +141,11 @@ THEN
 END
 
 IF
-  Global("Reveal2057","XG2057",4)
+  Global("RevealXG2057","XG2057",4)
   Dead("XGSWC4")  // ~Командир полка~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal2057","XG2057",5)
+    SetGlobal("RevealXG2057","XG2057",5)
     DisplayStringHead(Player1,@7)  // @7
     BattleSong()
     CreateCreature("XGSWC5",[1916.276],0)  // ~Командир полка~
@@ -167,11 +167,11 @@ THEN
 END
 
 IF
-  Global("Reveal2057","XG2057",5)
+  Global("RevealXG2057","XG2057",5)
   Dead("XGSWC5")  // ~Командир полка~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal2057","XG2057",6)
+    SetGlobal("RevealXG2057","XG2057",6)
     DisplayStringHead(Player1,@10)  // @10
     Wait(6)
     ActionOverride(Player1,LeaveAreaLUA("XG2057","",[502.154],8))
@@ -203,13 +203,13 @@ THEN
 END
 
 IF
-  Global("Dead4","XG2057",0)
+  Global("XHDead4","XG2057",0)
   Dead("XGNWNGD")  // ~Командир~
   Dead("XGNWNG1")  // ~Командир~
   Dead("XGNWNG2")  // ~Командир~
 THEN
   RESPONSE #100
-    SetGlobal("Dead4","XG2057",1)
+    SetGlobal("XHDead4","XG2057",1)
     DisplayStringHead(Player1,@14)  // @14
     Wait(4)
     Kill(Player1)
@@ -221,41 +221,41 @@ THEN
 END
 
 IF
-  Global("Dead","XG2057",0)
+  Global("XGDead","XG2057",0)
   Dead("XGNWNGD")  // ~Командир~
 THEN
   RESPONSE #100
-    SetGlobal("Dead","XG2057",1)
+    SetGlobal("XGDead","XG2057",1)
     DisplayStringHead(Player1,@15)  // @15
     Wait(4)
 END
 
 IF
-  Global("Dead1","XG2057",0)
+  Global("XGDead1","XG2057",0)
   Dead("XGNWNG1")  // ~Командир~
 THEN
   RESPONSE #100
-    SetGlobal("Dead1","XG2057",1)
+    SetGlobal("XGDead1","XG2057",1)
     DisplayStringHead(Player1,@16)  // @16
     Wait(4)
 END
 
 IF
-  Global("Dead2","XG2057",0)
+  Global("XGDead2","XG2057",0)
   Dead("XGNWNG2")  // ~Командир~
 THEN
   RESPONSE #100
-    SetGlobal("Dead2","XG2057",1)
+    SetGlobal("XGDead2","XG2057",1)
     DisplayStringHead(Player1,@17)  // @17
     Wait(4)
 END
 
 IF
-  Global("Dead3","XG2057",0)
+  Global("XGDead3","XG2057",0)
   Dead("XGNWNN1")  // ~Капитан Нивалл~
 THEN
   RESPONSE #100
-    SetGlobal("Dead3","XG2057",1)
+    SetGlobal("XGDead3","XG2057",1)
     DisplayStringHead(Player1,@14)  // @14
     Wait(4)
     Kill(Player1)
@@ -267,11 +267,11 @@ THEN
 END
 
 IF
-  Global("Reveal2057","XG2057",6)
+  Global("RevealXG2057","XG2057",6)
   Dead("XGSWI")  // ~Командир нападающих~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal2057","XG2057",7)
+    SetGlobal("RevealXG2057","XG2057",7)
     DisplayStringHead(Player1,@18)  // @18
     Wait(4)
     ActionOverride(Player1,MoveToPoint([552.221]))

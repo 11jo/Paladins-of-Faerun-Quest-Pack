@@ -1,11 +1,11 @@
 IF
-  Global("Reveal0364","XG0364",0)
+  Global("RevealXG0364","XG0364",0)
   Dead("XGBMTN1")  // ~Воришка~
   Dead("XGBMTN2")  // ~Воришка~
   PartyHasItem("XGLETW")  // ~Клочок бумаги~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0364","XG0364",1)
+    SetGlobal("RevealXG0364","XG0364",1)
     CreateCreature("XGWWC",[513.407],14)  // ~Капитан~
 END
 

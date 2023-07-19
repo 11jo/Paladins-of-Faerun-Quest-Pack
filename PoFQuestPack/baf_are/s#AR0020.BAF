@@ -29,16 +29,16 @@ THEN
 END
 
 IF
-  Global("DEADW","AR0020",0)
+  Global("XGDEADW","AR0020",0)
   Dead("XGprac")  // ~Верховный священник Цирика~ // Grand pretre de Cyric // High priest of Cyric
 THEN
   RESPONSE #100
-    SetGlobal("DEADW","AR0020",1)
+    SetGlobal("XGDEADW","AR0020",1)
     StartCutSceneMode()
     ClearAllActions()
     CreateCreature("XGprtcq",[834.473],8)  // ~Верховный священник Торма~ // Grand pretre de Torm // High priest of Torm
     Wait(1)
-    DisplayStringHead("XGprtcq",@1)  // @1
+    DisplayStringHead("XGprtcq",@1)
     Wait(5)
     HideAreaOnMap("XG0081")
     RevealAreaOnMap("XG0681")
@@ -49,11 +49,11 @@ THEN
 END
 
 IF
-  Global("DEADE","AR0020",0)
-  Dead("XGptec")  // ~Воинственный священник~ //Pretre combattant
+  Global("XGDEADE","AR0020",0)
+  Dead("XGptec")  // ~Воинственный священник~ // pretre combattant
 THEN
   RESPONSE #100
-    SetGlobal("DEADE","AR0020",1)
+    SetGlobal("XGDEADE","AR0020",1)
     StartCutSceneMode()
     ClearAllActions()
     CreateCreature("XGclc3",[834.473],8)  // ~Верховный священник Цирика~ // Grand pretre de Cyric // High priest of Cyric

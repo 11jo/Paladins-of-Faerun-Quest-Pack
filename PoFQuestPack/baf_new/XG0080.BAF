@@ -1,21 +1,21 @@
 IF
-  Global("DEADW","XG0080",0)
-  Dead("XGdre1")  // ~Прислуга Элистрая~
-  Dead("XGdre2")  // ~Прислуга Элистрая~
-  Dead("XGdre3")  // ~Прислуга Элистрая~
-  Dead("XGdre4")  // ~Прислуга Элистрая~
+  Global("XGDEADW","XG0080",0)
+  Dead("XGdre1")  // Прислуга Элистрая // Fidele d'Eilistraee
+  Dead("XGdre2")  // Прислуга Элистрая // Fidele d'Eilistraee
+  Dead("XGdre3")  // Прислуга Элистрая // Fidele d'Eilistraee
+  Dead("XGdre4")  // Прислуга Элистрая // Fidele d'Eilistraee
 THEN
   RESPONSE #100
-    SetGlobal("DEADW","XG0080",1)
+    SetGlobal("XGDEADW","XG0080",1)
     ActionOverride("XGdwq",StartDialogue("XGdwq1",Player1))
 END
 
 IF
-  Global("Reveal0080","XG0080",0)
+  Global("RevealXG0080","XG0080",0)
   PartyHasItem("XGmsq")  // ~Семейный кулон~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0080","XG0080",1)
+    SetGlobal("RevealXG0080","XG0080",1)
     StartCutSceneMode()
     HideGUI()
     TakePartyItem("XGmsq")
@@ -39,11 +39,11 @@ THEN
 END
 
 IF
-  Global("DIALOGD","XG0080",0)
+  Global("XGDIALOGD","XG0080",0)
   InParty("XGdwq")  // ~Дхаероватил~
 THEN
   RESPONSE #100
-    SetGlobal("DIALOGD","XG0080",1)
+    SetGlobal("XGDIALOGD","XG0080",1)
     ActionOverride(Player2,LeaveAreaLUA("XG0480","",[403.562],0))
     ActionOverride(Player1,LeaveAreaLUA("XG0480","",[429.599],0))
     ActionOverride(Player3,LeaveAreaLUA("XG0480","",[483.561],0))

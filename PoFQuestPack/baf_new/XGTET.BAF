@@ -1,9 +1,9 @@
 IF
   True()
-  Global("Reveal0077","XG0077",0)
+  Global("RevealXG0077","XG0077",0)
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0077","XG0077",1)
+    SetGlobal("RevealXG0077","XG0077",1)
     StartCutSceneMode()
     FadeToColor([20.0],0)
     CreateCreature("XGprd",[1446.2047],10)  // ~Пленник~
@@ -29,11 +29,11 @@ THEN
 END
 
 IF
-  Global("Reveal0077","XG0077",1)
+  Global("RevealXG0077","XG0077",1)
   Dead("XGprd")  // ~Пленник~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0077","XG0077",2)
+    SetGlobal("RevealXG0077","XG0077",2)
     StartCutSceneMode()
     HideGUI()
     Wait(1)
@@ -51,11 +51,11 @@ THEN
 END
 
 IF
-  Global("Reveal0077","XG0077",2)
+  Global("RevealXG0077","XG0077",2)
   Dead("XGprd1")  // ~Пленник~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0077","XG0077",3)
+    SetGlobal("RevealXG0077","XG0077",3)
     StartCutSceneMode()
     HideGUI()
     Wait(1)
@@ -73,11 +73,11 @@ THEN
 END
 
 IF
-  Global("Reveal0077","XG0077",3)
+  Global("RevealXG0077","XG0077",3)
   Dead("XGprd2")  // ~Пленник~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0077","XG0077",4)
+    SetGlobal("RevealXG0077","XG0077",4)
     StartCutSceneMode()
     HideGUI()
     Wait(1)

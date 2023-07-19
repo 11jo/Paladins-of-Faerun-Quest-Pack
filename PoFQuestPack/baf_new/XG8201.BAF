@@ -1,9 +1,9 @@
 IF
-  Global("Reveal8201","XG8201",0)
+  Global("RevealXG8201","XG8201",0)
   HPLT("XGhsr",20)  // ~Рейнджер~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal8201","XG8201",1)
+    SetGlobal("RevealXG8201","XG8201",1)
     ClearAllActions()
     ActionOverride("XGhsr",StartDialogue("XGhsr2",Player1))
 END

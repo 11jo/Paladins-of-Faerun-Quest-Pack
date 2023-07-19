@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredArea","XG1053",0)
+  Global("EnteredAreaXG1053","XG1053",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","XG1053",1)
+    SetGlobal("EnteredAreaXG1053","XG1053",1)
     StartCutSceneMode()
     HideGUI()
     Explore()

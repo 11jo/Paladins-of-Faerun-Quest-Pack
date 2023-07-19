@@ -26,7 +26,7 @@ THEN
 END
 
 IF
-  Global("Reveal0049","XG0049",0)
+  Global("RevealXG0049","XG0049",0)
   Dead("XGMFTL2")  // ~Ѕрод€чие кинжалы~
   Dead("XGMFTL3")  // ~Ѕрод€чие кинжалы~
   Dead("XGMFTL4")  // ~Ѕрод€чие кинжалы~
@@ -35,16 +35,16 @@ IF
   Dead("XGMFTL7")  // ~Ѕрод€чие кинжалы~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0049","XG0049",1)
+    SetGlobal("RevealXG0049","XG0049",1)
     CreateCreature("XGMFTL8",[915.1715],0)  // ~Ѕрод€чие кинжалы~
 END
 
 IF
-  Global("Reveal0049","XG0049",1)
+  Global("RevealXG0049","XG0049",1)
   Dead("XGMFTL8")  // ~Ѕрод€чие кинжалы~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0049","XG0049",2)
+    SetGlobal("RevealXG0049","XG0049",2)
     StartCutSceneMode()
     ScreenShake([20.20],3)
     CreateCreature("XGSHTA",[992.1582],0)  // ~“еневой ¬ор~

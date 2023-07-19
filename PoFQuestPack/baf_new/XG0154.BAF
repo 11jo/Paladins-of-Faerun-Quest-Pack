@@ -20,14 +20,14 @@ THEN
 END
 
 IF
-  Global("Reveal0300","XG0154",0)
+  Global("RevealAR0300","XG0154",0)
   Dead("XGYARW1")  // ~Градаковский воин~
   Dead("XGYARW2")  // ~Градаковский воин~
   Dead("XGYARW3")  // ~Градаковский воин~
   Dead("XGYARW4")  // ~Градаковский воин~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0300","XG0154",1)
+    SetGlobal("RevealAR0300","XG0154",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

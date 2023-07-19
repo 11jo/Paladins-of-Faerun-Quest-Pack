@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredArea","XG0762",0)
+  Global("EnteredAreaXG0762","XG0762",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","XG0762",1)
+    SetGlobal("EnteredAreaXG0762","XG0762",1)
     StartCutSceneMode()
     HideGUI()
     Explore()
@@ -21,7 +21,7 @@ THEN
     ScreenShake([20.20],3)
     ActionOverride("XGNWNM",ForceSpell("XGNWNM",CLERIC_NEGATIVE_PLANE_PROTECTION))
     Wait(4)
-    CreateCreature("ELAIR01",[689.604],0)  // ~Ёлементаль воздуха~
+    CreateCreature("ELAIR01",[689.604],0)  // ~Ёлементаль воздуха~ ?l?mentaire d'air original game
     EndCutSceneMode()
     UnhideGUI()
     BattleSong()

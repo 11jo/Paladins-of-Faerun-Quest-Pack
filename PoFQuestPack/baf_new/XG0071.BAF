@@ -42,7 +42,7 @@ THEN
 END
 
 IF
-  Global("Reveal0071","XG0071",0)
+  Global("RevealXG0071","XG0071",0)
   Dead("XGPIRM1")  // ~Пират~
   Dead("XGPIRM2")  // ~Пират~
   Dead("XGPIRM3")  // ~Пират~
@@ -53,7 +53,7 @@ IF
   Dead("XGPIRM8")  // ~Пират~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0071","XG0071",1)
+    SetGlobal("RevealXG0071","XG0071",1)
     CreateCreature("XGMSLC1",[1131.1473],8)  // ~Капитан корабля~
     Explore()
     StartCutSceneMode()
@@ -74,12 +74,12 @@ THEN
 END
 
 IF
-  Global("Reveal0071","XG0071",1)
+  Global("RevealXG0071","XG0071",1)
   Dead("XGPIRC1")  // ~Капитан пиратов~
   Dead("XGPIRK")  // ~Штурман~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0071","XG0071",2)
+    SetGlobal("RevealXG0071","XG0071",2)
     Wait(5)
     DisplayString(Player1,@3)  // @3
     Wait(4)
@@ -93,12 +93,12 @@ THEN
 END
 
 IF
-  Global("Reveal0071","XG0071",2)
+  Global("RevealXG0071","XG0071",2)
   Dead("XGPIRC2")  // ~Капитан пиратов~
   Dead("XGPIRK2")  // ~Штурман~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0071","XG0071",3)
+    SetGlobal("RevealXG0071","XG0071",3)
     Wait(5)
     DisplayString(Player1,@3)  // @3
     Wait(4)
@@ -125,11 +125,11 @@ THEN
 END
 
 IF
-  Global("Reveal0071","XG0071",3)
+  Global("RevealXG0071","XG0071",3)
   Dead("XGPIRC3")  // ~Капитан пиратов~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0071","XG0071",4)
+    SetGlobal("RevealXG0071","XG0071",4)
     StartCutSceneMode()
     HideGUI()
     Wait(3)

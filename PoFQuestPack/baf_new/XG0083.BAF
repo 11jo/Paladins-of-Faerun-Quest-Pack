@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0083","XG0083",0)
+  Global("RevealXG0083","XG0083",0)
   PartyHasItem("XGcd")  // ~Кинжал~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0083","XG0083",1)
+    SetGlobal("RevealXG0083","XG0083",1)
     StartCutSceneMode()
     HideGUI()
     PlaySound("XGMUS2")

@@ -62,7 +62,7 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(4)
-    DisplayString("Player1",@6)
+    DisplayString(Player1,@6)
     Wait(4)
 ForceSpell(Player1,DRYAD_TELEPORT)
 ActionOverride(Player1,LeaveAreaLUA("XG0720","",[1000.750],0))

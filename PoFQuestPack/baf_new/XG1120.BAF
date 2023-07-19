@@ -1,9 +1,9 @@
 IF
-  Global("Reveal120","XG1120",0)
+  Global("RevealXG1120","XG1120",0)
   HPLT("XGARTBG",120)  // ~Артемис~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal1120","XG1120",1)
+    SetGlobal("RevealXG1120","XG1120",1)
     Wait(1)
     DisplayString(Player1,@0)  // @0
     StartCutSceneMode()

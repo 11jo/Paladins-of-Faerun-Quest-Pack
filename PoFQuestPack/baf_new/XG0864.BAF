@@ -11,12 +11,12 @@ THEN
 END
 
 IF
-  Global("Reveal0864","XG0864",0)
+  Global("RevealXG0864","XG0864",0)
   Dead("XGBMT1")  // ~Воришка~
   Dead("XGBMT2")  // ~Воришка~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0864","XG0864",1)
+    SetGlobal("RevealXG0864","XG0864",1)
     Explore()
     StartCutSceneMode()
     HideGUI()

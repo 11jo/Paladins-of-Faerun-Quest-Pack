@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredArea","XG1220",0)
+  Global("EnteredAreaXG1220","XG1220",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","XG1220",1)
+    SetGlobal("EnteredAreaXG1220","XG1220",1)
     StartCutSceneMode()
     HideGUI()
     FadeToColor([20.10],5)
@@ -35,7 +35,7 @@ THEN
 END
 
 IF
-  Global("Reveal1220","XG1220",0)
+  Global("RevealXG1220","XG1220",0)
   Dead("XGPIR1")  // ~Пират~
   Dead("XGPIR2")  // ~Пират~
   Dead("XGPIR3")  // ~Пират~
@@ -46,7 +46,7 @@ IF
   Dead("XGPIR8")  // ~Пират~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal1220","XG1220",1)
+    SetGlobal("RevealXG1220","XG1220",1)
     FadeFromColor([5.5],1)
     StartCutSceneMode()
     HideGUI()

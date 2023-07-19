@@ -11,11 +11,11 @@ THEN
 END
 
 IF
-  Global("QUEST1","AR2000",0)
+  Global("XGQUEST1","AR2000",0)
   PartyHasItem("XGARTK")  // ~Артефакт~
 THEN
   RESPONSE #100
-    SetGlobal("QUEST1","AR2000",1)
+    SetGlobal("XGQUEST1","AR2000",1)
     Wait(1)
     TakePartyItem("XGARTK")
     GiveItemCreate("XGartk1",Player1,0,0,0)  // ~Артефакт~
@@ -23,11 +23,11 @@ THEN
 END
 
 IF
-  Global("QUEST1","AR2000",1)
+  Global("XGQUEST1","AR2000",1)
   PartyHasItem("XGartk1")  // ~Артефакт~
 THEN
   RESPONSE #100
-    SetGlobal("QUEST1","AR2000",2)
+    SetGlobal("XGQUEST1","AR2000",2)
     Wait(1)
     StartCutSceneMode() 
     HideGUI()

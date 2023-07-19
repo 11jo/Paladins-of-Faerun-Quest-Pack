@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0150","XG0150",0)
+  Global("RevealXG0150","XG0150",0)
   Dead("XGCRU")  // ~Крэйвен~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0150","XG0150",1)
+    SetGlobal("RevealXG0150","XG0150",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -70,11 +70,11 @@ THEN
 END
 
 IF
-  Global("Reveal0150","XG0150",0)
+  Global("RevealXG0150","XG0150",0)
   Global("s#XGCRU","GLOBAL",1)
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0150","XG0150",1)
+    SetGlobal("RevealXG0150","XG0150",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0330","XG0330",0)
+  Global("RevealXG0330","XG0330",0)
   Dead("XGARDES")  
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0330","XG0330",1)
+    SetGlobal("RevealXG0330","XG0330",1)
     PlaySound("XGNWN1")
     ClearAllActions()
     StartCutSceneMode()

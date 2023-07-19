@@ -1,9 +1,9 @@
 IF
-  Global("RevealArea0328","XG0328",0)
+  Global("RevealAreaXG0328","XG0328",0)
   PartyHasItem("XGQI3")  // ~Магическая реликвия~
 THEN
   RESPONSE #100
-    SetGlobal("RevealArea0328","XG0328",1)
+    SetGlobal("RevealAreaXG0328","XG0328",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredArea","XG0063",0)
+  Global("EnteredAreaXG0063","XG0063",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","XG0063",1)
+    SetGlobal("EnteredAreaXG0063","XG0063",1)
     StartCutSceneMode()
     HideGUI()
     Wait(3)
@@ -47,13 +47,13 @@ THEN
 END
 
 IF
-  Global("Reveal0063","XG0063",0)
+  Global("RevealXG0063","XG0063",0)
   PartyHasItem("XGGD1")  // ~Золото и драгоценности~
   PartyHasItem("XGGD2")  // ~Золото и драгоценности~
   PartyHasItem("XGGD3")  // ~Золото и драгоценности~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0063","XG0063",1)
+    SetGlobal("RevealXG0063","XG0063",1)
     ActionOverride("XGLUSN1",Enemy())
     ActionOverride("XGLUSN2",Enemy())
     ActionOverride("XGLUSN3",Enemy())

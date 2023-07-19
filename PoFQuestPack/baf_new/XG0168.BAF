@@ -23,11 +23,11 @@ THEN
 END
 
 IF
-  Global("Reveal0168","XG0168",0)
+  Global("RevealXG0168","XG0168",0)
   PartyHasItem("XGleta")  // ~Письмо~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0168","XG0168",1)
+    SetGlobal("RevealXG0168","XG0168",1)
     ClearAllActions()
     Explore()
     StartCutSceneMode()

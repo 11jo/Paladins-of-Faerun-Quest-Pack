@@ -1,11 +1,11 @@
 IF
-  Global("Reveal0261","XG0261",0)
+  Global("RevealXG0261","XG0261",0)
   Dead("XGDW1")  // ~Воин-дроу~
   Dead("XGDW2")  // ~Воин-дроу~
   Dead("XGDW3")  // ~Воин-дроу~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0261","XG0261",1)
+    SetGlobal("RevealXG0261","XG0261",1)
     ClearAllActions()
     StartCutSceneMode()
     Explore()

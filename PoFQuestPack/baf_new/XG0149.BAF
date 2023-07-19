@@ -18,11 +18,11 @@ THEN
 END
 
 IF
-  Global("Reveal0149","XG0149",0)
+  Global("RevealXG0149","XG0149",0)
   Dead("XGLOFLT")  // ~Ћидер брод€чих кинжалов~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0149","XG0149",1)
+    SetGlobal("RevealXG0149","XG0149",1)
     ActionOverride(Player2,LeaveAreaLUA("XG0014","",[491.986],0))
     ActionOverride(Player1,LeaveAreaLUA("XG0014","",[542.955],0))
     ActionOverride(Player3,LeaveAreaLUA("XG0014","",[495.923],0))

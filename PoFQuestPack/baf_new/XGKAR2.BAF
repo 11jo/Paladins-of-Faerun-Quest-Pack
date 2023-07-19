@@ -1,5 +1,5 @@
 IF
-  Global("RevealPFKAR","XGKAR2",0)
+  Global("RevealXGKAR2","XGKAR2",0)
   Dead("XGprte")  // ~Воинственный священник~
   Dead("XGprte1")  // ~Воинственный священник~
   Dead("XGprte2")  // ~Воинственный священник~
@@ -10,7 +10,7 @@ IF
   Dead("XGprte7")  // ~Воинственный священник~
 THEN
   RESPONSE #100
-    SetGlobal("RevealPFKAR","XGKAR2",1)
+    SetGlobal("RevealXGKAR2","XGKAR2",1)
     StartCutSceneMode()
     HideGUI()
     Wait(3)

@@ -1,9 +1,9 @@
 IF
   True()
-  Global("RevealArea","XG0057",0)
+  Global("RevealAreaXG0057","XG0057",0)
 THEN
   RESPONSE #100
-    SetGlobal("RevealArea","XG0057",1)
+    SetGlobal("RevealAreaXG0057","XG0057",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -44,13 +44,13 @@ THEN
 END
 
 IF
-  Global("RevealArea","XG0057",1)
+  Global("RevealAreaXG0057","XG0057",1)
   Dead("XGTAOR")  // ~Таораг~
   Dead("XGOTIR")  // ~Отирос~
   Dead("XGELLAN")  // ~Элланнан~
 THEN
   RESPONSE #100
-    SetGlobal("RevealArea","XG0057",2)
+    SetGlobal("RevealAreaXG0057","XG0057",2)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

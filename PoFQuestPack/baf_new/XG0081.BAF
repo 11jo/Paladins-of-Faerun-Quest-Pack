@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0081","XG0081",0)
+  Global("RevealXG0081","XG0081",0)
   Dead("XGchf")  // ~Убийца-Цирикист~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0081","XG0081",1)
+    SetGlobal("RevealXG0081","XG0081",1)
     StartCutSceneMode()
     ActionOverride("XGmyhs",StartDialogue("XGmyhs",Player1))
     EndCutSceneMode()

@@ -30,7 +30,7 @@ THEN
     Wait(5)
     HideGUI()
     ClearAllActions()
-    PlaySound("MUSMOD")
+    PlaySound("XGMUS1")
     Wait(3)
     DisplayString("XGCOW",@0)  // @0
     Wait(4)

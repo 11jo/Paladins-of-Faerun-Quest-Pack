@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0141","XG0141",0)
+  Global("RevealXG0141","XG0141",0)
   Dead("XGhqmi")  // ~Верховная королева~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0141","XG0141",1)
+    SetGlobal("RevealXG0141","XG0141",1)
     StartCutSceneMode()
     HideGUI()
     Wait(3)

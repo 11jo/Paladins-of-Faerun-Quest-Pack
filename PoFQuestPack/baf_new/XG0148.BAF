@@ -1,4 +1,5 @@
-IF OnCreation()
+IF 
+ OnCreation()
   Global("EnteredXG0148","XG0148",0)
 THEN
   RESPONSE #100

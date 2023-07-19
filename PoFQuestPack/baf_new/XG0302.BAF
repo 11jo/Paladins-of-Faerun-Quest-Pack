@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0300","XG0302",0)
+  Global("RevealAR0300","XG0302",0)
   Dead("XGLORU")  // ~Владыка преисподни~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0300","XG0302",1)
+    SetGlobal("RevealAR0300","XG0302",1)
     ClearAllActions()
     Explore()
     StartCutSceneMode()

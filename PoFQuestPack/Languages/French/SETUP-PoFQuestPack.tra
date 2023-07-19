@@ -10,8 +10,8 @@
 @10 = ~Main archimagus~
 @11 = ~Archer d'Amn~
 @12 = ~Soldat d'Amn~
-@13 = ~Captain of riders from Amn~
-@14 = ~Amnish captain~
+@13 = ~Capitaine des cavaliers d'Amn~
+@14 = ~Capitaine amnien~
 @15 = ~Garde du corps~
 @16 = ~Amnish lieutenant~
 @17 = ~The rider from Amn~
@@ -95,7 +95,7 @@
 @95 = ~Haut prêtresse d'Eilistraee~
 @96 = ~Haut prêtresse~
 @97 = ~Governor of the house Lolth~
-@98 = ~Servant of Eilistraee~
+@98 = ~Fidèle d'Eilistraee~
 @99 = ~Leader of drow~
 @100 = ~Prêtresse d'Eilistraee~
 @101 = ~Vieux dragon~
@@ -179,7 +179,7 @@
 @179 = ~Ireniсus's patrol~
 @180 = ~Jarlaxle's Servant~
 @181 = ~Prison guard~
-@182 = ~Personnage sombre~ // Le Sombre
+@182 = ~Personnage sombre~ // Le Sombre // Furtif // Éclaireur// s#AR0300.BAF XGKASS.cre
 @183 = ~King's daughter~
 @184 = ~Kelrot~
 
@@ -193,7 +193,7 @@
 @193 = ~Royal sailor~
 @194 = ~Royal wizard~
 @195 = ~King's ambassador~
-@196 = ~Shipowner~
+@196 = ~Shipowner~  // Marin // Capitaine
 @197 = ~Lady Aribet~
 @198 = ~Local merchant~
 @199 = ~Lady Ksiratra~
@@ -242,7 +242,7 @@
 @242 = ~Teril~
 @243 = ~Lunar elf~
 @244 = ~Captain~
-@245 = ~Merchant from Memnon~
+@245 = ~Marchand originaire de Memnon~  // Ville de Calimshan XGMTR
 @246 = ~Marian's wife~
 @247 = ~High priest~
 @248 = ~Lord Spelloyal~
@@ -665,7 +665,7 @@ Inutilisable par :
   Thief
   Ranger
   Monk~
-@470 = ~Crystal Sphere~
+@470 = ~Cristal de communication~ // pierre de communication s#AR0300
 @471 = ~This sphere serves as a communicator for <CHARNAME> with Opas, the Grand Duke of Baldur's Gate.~
 @472 = ~Bard's harp~
 @473 = ~Boots of a Satan~

@@ -20,12 +20,12 @@ THEN
 END
 
 IF
-  Global("Reveal0160","XG0160",0)
+  Global("RevealXG0160","XG0160",0)
   Dead("XGDRW1")  // ~Дроу~
   Dead("XGDRW2")  // ~Дроу~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0160","XG0160",1)
+    SetGlobal("RevealXG0160","XG0160",1)
     DisplayStringHead(Player1,@0)  // @0
     Wait(4)
     GiveItemCreate("XGQI1",Player1,0,0,0)  // ~Магическая реликвия~

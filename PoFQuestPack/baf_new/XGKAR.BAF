@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredAreaPFKAR","XGKAR1",0)
+  Global("EnteredAreaXGKAR1","XGKAR1",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredAreaPFKAR","XGKAR1",1)
+    SetGlobal("EnteredAreaXGKAR1","XGKAR1",1)
     HideGUI()
     PlaySound("XGMUS1")
     StartCutSceneMode()
@@ -76,7 +76,7 @@ THEN
 END
 
 IF
-  Global("RevealPFKAR","XGKAR1",0)
+  Global("RevealXGKAR1","XGKAR1",0)
   Dead("XGcrw")  // ~Наемник~
   Dead("XGcrw1")  // ~Наемник~
   Dead("XGcrw2")  // ~Наемник~
@@ -89,7 +89,7 @@ IF
   Dead("XGcrw9")  // ~Наемник~
 THEN
   RESPONSE #100
-    SetGlobal("RevealPFKAR","XGKAR1",1)
+    SetGlobal("RevealXGKAR1","XGKAR1",1)
     StartCutSceneMode()
     HideGUI()
     Wait(3)

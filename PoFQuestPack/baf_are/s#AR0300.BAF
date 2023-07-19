@@ -4,14 +4,14 @@ IF
   Global("S#setAR0300","AR0300",0)
 THEN
   RESPONSE #100
-    CreateCreature("amng1",[2998.385],0)
+    CreateCreature("amng1",[2998.385],0)  // Soldat amnien original game
     CreateCreature("amng1",[3005.577],8)
     CreateCreature("amng1",[2844.455],12)
-    CreateCreature("XGAMNC",[3159.474],12)
+    CreateCreature("XGAMNC",[3159.474],12 // Capitaine amnien
     CreateCreature("XGKASS",[3059.479],0)
-    CreateCreature("XGKASS",[2956.457],0)
-    CreateCreature("XGMTR",[2256.3004],8)
-    CreateCreature("XGksp",[1725.3612],8)
+    CreateCreature("XGKASS",[2956.457],0) // @182 // Eclaireur ?
+    CreateCreature("XGMTR",[2256.3004],8) // Marchand originaire de Memnon
+    CreateCreature("XGksp",[1725.3612],8) // Marin // Capitaine
     SetGlobal("S#setAR0300","AR0300",1)
     Continue()
 END

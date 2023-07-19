@@ -57,11 +57,11 @@ THEN
 END
 
 IF
-  Global("Reveal1234","XG1234",0)
+  Global("RevealXG1234","XG1234",0)
   Dead("XGfngra")  // ~Градак~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal1234","XG1234",1)
+    SetGlobal("RevealXG1234","XG1234",1)
     StartCutSceneMode()
     FadeToColor([20.0],0)
     HideGUI()

@@ -1,14 +1,14 @@
 IF
   OnCreation()
-  Global("EnteredPF0136","PF0136",0)
+  Global("EnteredXG0136","XG0136",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredPF0136","PF0136",1)
+    SetGlobal("EnteredXG0136","XG0136",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
     Wait(4)
-    ActionOverride(Player1,LeaveAreaLUA("PF0136","",[483.543],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0136","",[483.543],0))
     Wait(4)
     ActionOverride("XGDRIZA",MoveToPoint([426.565]))
     Wait(4)
@@ -20,7 +20,7 @@ THEN
     ActionOverride("XGARTE1",Attack("XGDRIZA"))
     Wait(3)
     ClearAllActions()
-    ActionOverride(Player1,LeaveAreaLUA("PF0136","",[675.179],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0136","",[675.179],0))
     Wait(1)
     ActionOverride("XGSLAIN",MoveToPoint([699.261]))
     Wait(6)
@@ -42,7 +42,7 @@ THEN
     CreateCreature("XGYARP",[916.400],0)  // ~Командир Градакова~
     CreateCreature("XGYARP",[693.551],0)  // ~Командир Градакова~
     CreateCreature("XGYARP",[569.718],0)  // ~Командир Градакова~
-    ActionOverride(Player1,LeaveAreaLUA("PF0136","",[672.830],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0136","",[672.830],0))
     Wait(2)
     ActionOverride("XGYARPN",Enemy())
     UnhideGUI()
@@ -50,19 +50,19 @@ THEN
 END
 
 IF
-  Global("BridgeOpen","GLOBAL",0)
+  Global("XGBridgeOpen","GLOBAL",0)
   Dead("XGYARPN")  // ~Градак~
   Dead("XGARTE1")  // ~Артемис~
 THEN
   RESPONSE #100
-    SetGlobal("BridgeOpen","GLOBAL",1)
+    SetGlobal("XGBridgeOpen","GLOBAL",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
     Wait(3)
     CreateCreature("XGELM",[440.800],0)  // ~Элминстер~
     Wait(1)
-    ActionOverride(Player1,LeaveAreaLUA("PF0136","",[526.774],0))
+    ActionOverride(Player1,LeaveAreaLUA("XG0136","",[526.774],0))
     Wait(4)
     DisplayString("XGELM",@5)  // @5
     Wait(8)

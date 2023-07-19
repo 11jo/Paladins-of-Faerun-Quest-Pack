@@ -27,12 +27,12 @@ THEN
 END
 
 IF
-  Global("Reveal0262","XG0262",0)
+  Global("RevealXG0262","XG0262",0)
   Dead("XGMERS")  // ~Наемник~
   Dead("XGMERS1")  // ~Наемник~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0262","XG0262",1)
+    SetGlobal("RevealXG0262","XG0262",1)
     DisplayStringHead("XGPROS1",@5)  // @5
 END
 

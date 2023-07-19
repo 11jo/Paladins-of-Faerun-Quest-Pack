@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0161","XG0161",0)
+  Global("RevealXG0161","XG0161",0)
   Dead("XGRWHM")  // ~Глава волшебников~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0161","XG0161",1)
+    SetGlobal("RevealXG0161","XG0161",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

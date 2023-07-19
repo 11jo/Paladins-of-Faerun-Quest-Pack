@@ -1,9 +1,9 @@
 IF
   OnCreation()
-  Global("EnteredArea","XG0263",0)
+  Global("EnteredAreaXG0263","XG0263",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","XG0263",1)
+    SetGlobal("EnteredAreaXG0263","XG0263",1)
     StartCutSceneMode()
     DisplayStringHead("XGLETG",@0)  
     Wait(3)
@@ -11,11 +11,11 @@ THEN
 END
 
 IF
-  Global("Reveal0263","XG0263",0)
+  Global("RevealXG0263","XG0263",0)
   Dead("XGLUSGC")  
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0263","XG0263",1)
+    SetGlobal("RevealXG0263","XG0263",1)
     PlaySound("XGNWN1")
     ClearAllActions()
     StartCutSceneMode()

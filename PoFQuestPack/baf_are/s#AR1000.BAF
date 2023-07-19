@@ -28,7 +28,7 @@ THEN
     Wait(5)
     DisplayString("XGARTE1",@0)  // @0
     Wait(2)
-    DisplayString("Player1",@1)  // @1
+    DisplayString(Player1,@1)  // @1
     Wait(2)
     DisplayString("XGARTE1",@2)  // @2
     Wait(2)

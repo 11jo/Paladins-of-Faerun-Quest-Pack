@@ -32,11 +32,11 @@ THEN
 END
 
 IF
-  Global("Reveal0902","XG0902",0)
+  Global("RevealXG0902","XG0902",0)
   Dead("XGESUD")  // ~Удоррил~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0902","XG0902",1)
+    SetGlobal("RevealXG0902","XG0902",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

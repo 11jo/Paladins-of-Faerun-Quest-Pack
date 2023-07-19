@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0064","XG0064",0)
+  Global("RevealXG0064","XG0064",0)
   Dead("XGBMTN3")  // ~Воришка~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0064","XG0064",1)
+    SetGlobal("RevealXG0064","XG0064",1)
     StartCutSceneMode()
     HideGUI()
     CreateCreature("XGWWC",[2712.2879],0)  // ~Капитан~

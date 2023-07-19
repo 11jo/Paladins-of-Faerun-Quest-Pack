@@ -17,11 +17,11 @@ THEN
 END
 
 IF
-  Global("Reveal0062","XG0062",0)
+  Global("RevealXG0062","XG0062",0)
   Dead("XGLUSC")  // ~Капитан~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0062","XG0062",1)
+    SetGlobal("RevealXG0062","XG0062",1)
     Explore()
     PlaySound("XGNWN1")
     Wait(2)

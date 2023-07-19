@@ -28,7 +28,7 @@ THEN
 END
 
 IF
-  Global("Reveal0172","XG0172",0)
+  Global("RevealXG0172","XG0172",0)
   Dead("XGNIN1")  // ~Ниндзя~
   Dead("XGNIN2")  // ~Ниндзя~
   Dead("XGNIN3")  // ~Ниндзя~
@@ -37,7 +37,7 @@ IF
   Dead("XGPR")  // ~Отрекшийся~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0172","XG0172",1)
+    SetGlobal("RevealXG0172","XG0172",1)
     Wait(2)
     CreateCreature("XGPR",[477.276],14)  // ~Отрекшийся~
     CreateCreature("XGNIN6",[650.218],2)  // ~Ниндзя~

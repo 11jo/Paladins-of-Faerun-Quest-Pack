@@ -1,10 +1,10 @@
 IF
-  Global("Reveal0264","XG0264",0)
+  Global("RevealXG0264","XG0264",0)
   Dead("XGBMTN2")  // ~Воришка~
   Dead("XGBMTN1")  // ~Воришка~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0264","XG0264",1)
+    SetGlobal("RevealXG0264","XG0264",1)
     Explore()
     StartCutSceneMode()
     HideGUI()

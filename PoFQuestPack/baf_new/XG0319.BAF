@@ -10,11 +10,11 @@ THEN
 END
 
 IF
-  Global("Reveal0319","XG0319",0)
+  Global("RevealXG0319","XG0319",0)
   Dead("XGyarcl")  // ~Командир разведчиков~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0319","XG0319",1)
+    SetGlobal("RevealXG0319","XG0319",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

@@ -69,11 +69,11 @@ THEN
 END
 
 IF
-  Global("RevealArea0419","XG0419",0)
+  Global("RevealAreaXG0419","XG0419",0)
   Dead("XGHC1")  // ~Архимаг~
 THEN
   RESPONSE #100
-    SetGlobal("RevealArea0419","XG0419",1)
+    SetGlobal("RevealAreaXG0419","XG0419",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

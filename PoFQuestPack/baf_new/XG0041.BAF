@@ -28,12 +28,12 @@ THEN
 END
 
 IF
-  Global("Reveal0041","XG0041",0)
+  Global("RevealXG0041","XG0041",0)
   Dead("XGnoreq")  // ~Северянин~
   Dead("XGtrbaq")  // ~Опытный бандит~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0041","XG0041",1)
+    SetGlobal("RevealXG0041","XG0041",1)
     StartCutSceneMode()
     CreateCreature("XGclelf",[2030.445],0)  // ~Эльф в темном~
     ActionOverride(Player1,MoveToPoint([1997.423]))

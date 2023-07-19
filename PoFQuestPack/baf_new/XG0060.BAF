@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0060","XG0060",0)
+  Global("RevealXG0060","XG0060",0)
   PartyHasItem("XGQI1")  // ~Магическая реликвия~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0060","XG0060",1)
+    SetGlobal("RevealXG0060","XG0060",1)
     StartCutSceneMode()
     HideGUI()
     CreateCreature("XGELWIN",[403.816],7)  // ~Элвин~

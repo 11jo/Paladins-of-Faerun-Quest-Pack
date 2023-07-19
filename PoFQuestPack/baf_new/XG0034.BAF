@@ -1,17 +1,17 @@
 IF
-	Global("RevealArea","XG0034",0)
+	Global("RevealAreaXG0034","XG0034",0)
 	Dead("XGgghc")  // Хранитель врат
 THEN
 	RESPONSE #100
-		SetGlobal("RevealArea","XG0034",1)
+		SetGlobal("RevealAreaXG0034","XG0034",1)
 END
 
 IF
-	Global("RevealArea","XG0034",1)
+	Global("RevealAreaXG0034","XG0034",1)
 	Dead("XGHC")  // Архимаг
 THEN
 	RESPONSE #100
-		SetGlobal("RevealArea","XG0034",2)
+		SetGlobal("RevealAreaXG0034","XG0034",2)
 		ClearAllActions()
 		StartCutSceneMode()
 		HideGUI()
@@ -54,14 +54,14 @@ THEN
 END
 
 IF
-	Global("RevealArea","XG0034",2)
+	Global("RevealAreaXG0034","XG0034",2)
 	Dead("XGthef1")  // Воришка
 	Dead("XGthef2")  // Воришка
 	Dead("XGthef3")  // Воришка
 	Dead("XGthef4")  // Воришка
 THEN
 	RESPONSE #100
-		SetGlobal("RevealArea","XG0034",3)
+		SetGlobal("RevealAreaXG0034","XG0034",3)
 		ClearAllActions()
 		StartCutSceneMode()
 		Wait(2)

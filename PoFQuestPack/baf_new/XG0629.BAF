@@ -1,9 +1,9 @@
 IF
-  Global("Reveal0629","XG0629",0)
+  Global("RevealXG0629","XG0629",0)
   Dead("XGSAR")  // ~Саревок~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0629","XG0629",1)
+    SetGlobal("RevealXG0629","XG0629",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
@@ -43,11 +43,11 @@ THEN
 END
 
 IF
-  Global("Reveal0629","XG0629",0)
+  Global("RevealXG0629","XG0629",0)
   Dead("XGESDL")  // ~Повелитель тьмы~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0629","XG0629",1)
+    SetGlobal("RevealXG0629","XG0629",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

@@ -31,13 +31,13 @@ THEN
 END
 
 IF
-  Global("Reveal0401","XG0401",0)
+  Global("RevealXG0401","XG0401",0)
     OR(2) 
     Dead("XGELG")  // ~έλόγεν~
     Dead("XGELG1")  // ~έλόγεν~
 THEN
   RESPONSE #100
-    SetGlobal("Reveal0401","XG0401",1)
+    SetGlobal("RevealXG0401","XG0401",1)
     ActionOverride(Player2,LeaveAreaLUA("XG04N1","",[981.2195],0))
     ActionOverride(Player1,LeaveAreaLUA("XG04N1","",[1038.2165],0))
     ActionOverride(Player3,LeaveAreaLUA("XG04N1","",[1049.2238],0))
