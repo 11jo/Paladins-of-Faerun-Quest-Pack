@@ -3083,7 +3083,7 @@ PRINT ~END WED in areas~
 PRINT ~         ~
 END
 */
-
+/*
 MKDIR ~weidu_external/PoFQuestPack/Areas~
 
 ACTION_BASH_FOR ~PoFQuestPack/Areas~ ~^.+$~ BEGIN
@@ -3096,7 +3096,7 @@ PRINT ~         ~
 PRINT ~END creature in areas~
 PRINT ~         ~
 END
-
+*/
 COPY ~weidu_external/PoFQuestPack/Areas/XG0000.ARE~         ~override/XG0000.ARE~         
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0001.are~         ~override/XG0001.are~         
