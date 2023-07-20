@@ -3,7 +3,7 @@
 
 copy PoFQuestPack\tisunpack.exe .\override
 
-copy PoFQuestPack\tiz .\override
+copy PoFQuestPack\OLD.tiz .\override
 
 cd .\override
 

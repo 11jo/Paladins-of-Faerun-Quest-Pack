@@ -1,34 +1,37 @@
 /*************************************************************************
  * Paladins of Faerun Quest Pack  - v3
  **************************************************************************/
-BACKUP ~PoFQuestPack/backup~  
+ 
+ 
+BACKUP ~PoFQuestPack/backup~
 AUTHOR ~Weidu packaged and fixed by Serdrick & Gorion~
 
-README ~PoFQuestPack/Readme_PoFQuestPack_%LANGUAGE%.txt~
-~PoFQuestPack/Readme_PoFQuestPack_english.txt~
+README ~PoFQuestPack/Readme_PoFQuestPack_%LANGUAGE%.txt~ ~PoFQuestPack/Readme_PoFQuestPack_english.txt~
 
 AUTO_TRA ~PoFQuestPack/Languages/%s/d~
 AUTO_TRA ~PoFQuestPack/Languages/%s/Baf_new~
 
-LANGUAGE ~Russian~ 
-         ~russian~ 
+LANGUAGE ~Russian~
+         ~russian~
          ~PoFQuestPack/Languages/Russian/SETUP-PoFQuestPack.tra~
 
-LANGUAGE ~English~ 
-         ~english~ 
+LANGUAGE ~English~
+         ~english~
          ~PoFQuestPack/Languages/English/SETUP-PoFQuestPack.tra~
 
-LANGUAGE ~German~ 
-         ~German~ 
+LANGUAGE ~German~
+         ~German~
          ~PoFQuestPack/Languages/German/SETUP-PoFQuestPack.tra~
 		 
-LANGUAGE ~Main English / Francais Partiel~ 
-         ~French~ 
+LANGUAGE ~Main English / Francais Partiel~
+         ~French~
          ~PoFQuestPack/Languages/French/SETUP-PoFQuestPack.tra~
+
 
 ///////////////////////////////////
 // Start Paladins of Faerun Quest Pack
 //////////////////////////////////
+
 
 BEGIN @1
 
@@ -62,97 +65,101 @@ COPY_EXISTING ~AR1005.are~ ~override~
 MKDIR ~weidu_external/PoFQuestPack/Actors~
 
 ACTION_BASH_FOR ~PoFQuestPack/Actors~ ~^.+$~ BEGIN
+
 PRINT ~         ~
 PRINT ~START item on creature~
 PRINT ~         ~
+
   COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%BASH_FOR_FILESPEC%~
     LPM UPDATE_POF_ITEM_NAMES_ON_CRE
+	
 PRINT ~         ~
 PRINT ~END item on creature~
 PRINT ~         ~
+
 END
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGAA.CRE~         ~override/XGAA.CRE~          
-  SAY NAME1 @2 
-  SAY NAME2 @3 
+COPY ~weidu_external/PoFQuestPack/Actors/XGAA.CRE~			~override/XGAA.CRE~
+  SAY NAME1 @2
+  SAY NAME2 @3
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGADEPT.CRE~      ~override/XGADEPT.CRE~       
-  SAY NAME1 @4 
-  SAY NAME2 @4 
+COPY ~weidu_external/PoFQuestPack/Actors/XGADEPT.CRE~			~override/XGADEPT.CRE~
+  SAY NAME1 @4
+  SAY NAME2 @4
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGADOB.CRE~       ~override/XGADOB.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGADOB.CRE~			~override/XGADOB.CRE~
   SAY NAME1 @5 
   SAY NAME2 @5 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGADV.CRE~        ~override/XGADV.CRE~         
-  SAY NAME1 @6 
-  SAY NAME2 @6 
+COPY ~weidu_external/PoFQuestPack/Actors/XGADV.CRE~			~override/XGADV.CRE~
+  SAY NAME1 @6
+  SAY NAME2 @6
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGAJAN.CRE~       ~override/XGAJAN.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGAJAN.CRE~			~override/XGAJAN.CRE~
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGAJANB.CRE~      ~override/XGAJANB.CRE~       
-  SAY NAME1 @7 
-  SAY NAME2 @8 
+COPY ~weidu_external/PoFQuestPack/Actors/XGAJANB.CRE~			~override/XGAJANB.CRE~
+  SAY NAME1 @7
+  SAY NAME2 @8
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGAJANC.CRE~      ~override/XGAJANC.CRE~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGAJANC.CRE~			~override/XGAJANC.CRE~
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGALAS.CRE~       ~override/XGALAS.CRE~        
-  SAY NAME1 @9 
-  SAY NAME2 @9 
+COPY ~weidu_external/PoFQuestPack/Actors/XGALAS.CRE~			~override/XGALAS.CRE~        
+  SAY NAME1 @9
+  SAY NAME2 @9
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGAMAG.CRE~       ~override/XGAMAG.CRE~        
-  SAY NAME1 @10 
-  SAY NAME2 @10 
+COPY ~weidu_external/PoFQuestPack/Actors/XGAMAG.CRE~			~override/XGAMAG.CRE~
+  SAY NAME1 @10
+  SAY NAME2 @10
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGAMNA1.CRE~      ~override/XGAMNA1.CRE~       
-  SAY NAME1 @11 
-  SAY NAME2 @11 
+COPY ~weidu_external/PoFQuestPack/Actors/XGAMNA1.CRE~			~override/XGAMNA1.CRE~
+  SAY NAME1 @11
+  SAY NAME2 @11
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGAMNA.CRE~       ~override/XGAMNA.CRE~        
-  SAY NAME1 @12 
-  SAY NAME2 @12 
+COPY ~weidu_external/PoFQuestPack/Actors/XGAMNA.CRE~			~override/XGAMNA.CRE~
+  SAY NAME1 @12
+  SAY NAME2 @12
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGAMNCC.CRE~      ~override/XGAMNCC.CRE~       
-  SAY NAME1 @13 
-  SAY NAME2 @13 
+COPY ~weidu_external/PoFQuestPack/Actors/XGAMNCC.CRE~			~override/XGAMNCC.CRE~
+  SAY NAME1 @13
+  SAY NAME2 @13
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGAMNC.CRE~       ~override/XGAMNC.CRE~        
-  SAY NAME1 @14 
-  SAY NAME2 @14 
+COPY ~weidu_external/PoFQuestPack/Actors/XGAMNC.CRE~			~override/XGAMNC.CRE~
+  SAY NAME1 @14
+  SAY NAME2 @14
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGAMNK.CRE~       ~override/XGAMNK.CRE~        
-  SAY NAME1 @15 
-  SAY NAME2 @15 
+COPY ~weidu_external/PoFQuestPack/Actors/XGAMNK.CRE~			~override/XGAMNK.CRE~
+  SAY NAME1 @15
+  SAY NAME2 @15
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGAMNL.CRE~       ~override/XGAMNL.CRE~        
-  SAY NAME1 @16 
-  SAY NAME2 @16 
+COPY ~weidu_external/PoFQuestPack/Actors/XGAMNL.CRE~			~override/XGAMNL.CRE~
+  SAY NAME1 @16
+  SAY NAME2 @16
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGAMN.CRE~        ~override/XGAMN.CRE~         
-  SAY NAME1 @17 
-  SAY NAME2 @17 
+COPY ~weidu_external/PoFQuestPack/Actors/XGAMN.CRE~			~override/XGAMN.CRE~
+  SAY NAME1 @17
+  SAY NAME2 @17
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGAMNSE.CRE~      ~override/XGAMNSE.CRE~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGAMNSE.CRE~			~override/XGAMNSE.CRE~
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGAMNS.CRE~       ~override/XGAMNS.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGAMNS.CRE~			~override/XGAMNS.CRE~
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGAMO.CRE~        ~override/XGAMO.CRE~         
-  SAY NAME1 @18 
-  SAY NAME2 @18 
+COPY ~weidu_external/PoFQuestPack/Actors/XGAMO.CRE~			~override/XGAMO.CRE~
+  SAY NAME1 @18
+  SAY NAME2 @18
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGAPR.CRE~        ~override/XGAPR.CRE~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGAPR.CRE~			~override/XGAPR.CRE~
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGARAG.CRE~       ~override/XGARAG.CRE~        
-  SAY NAME1 @19 
-  SAY NAME2 @19 
+COPY ~weidu_external/PoFQuestPack/Actors/XGARAG.CRE~			~override/XGARAG.CRE~
+  SAY NAME1 @19
+  SAY NAME2 @19
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGARANL.CRE~      ~override/XGARANL.CRE~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGARANL.CRE~			~override/XGARANL.CRE~
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGARAN.CRE~       ~override/XGARAN.CRE~        
-  SAY NAME1 @20 
-  SAY NAME2 @20 
+COPY ~weidu_external/PoFQuestPack/Actors/XGARAN.CRE~			~override/XGARAN.CRE~
+  SAY NAME1 @20
+  SAY NAME2 @20
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGARCMA.CRE~      ~override/XGARCMA.CRE~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGARCMA.CRE~			~override/XGARCMA.CRE~
   SAY NAME1 @21 
   SAY NAME2 @21 
 
@@ -3069,76 +3076,86 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGz.cre~          ~override/XGz.cre~
 //////////////////////////////////
 // Setup Areas
 //////////////////////////////////
+
+
 /*
 MKDIR ~weidu_external/PoFQuestPack/Areas~
 
 ACTION_BASH_FOR ~PoFQuestPack/Areas~ ~^.+$~ BEGIN
+
 PRINT ~         ~
 PRINT ~START WED in areas~
 PRINT ~         ~
+
   COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%BASH_FOR_FILESPEC%~
     LPM UPDATE_POF_WED_NAMES_ON_AREA
+	
 PRINT ~         ~
 PRINT ~END WED in areas~
 PRINT ~         ~
+
 END
 */
 /*
 MKDIR ~weidu_external/PoFQuestPack/Areas~
 
 ACTION_BASH_FOR ~PoFQuestPack/Areas~ ~^.+$~ BEGIN
+
 PRINT ~         ~
 PRINT ~START creature in areas~
 PRINT ~         ~
+
   COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%BASH_FOR_FILESPEC%~
     LPM UPDATE_POF_CRE_NAMES_ON_AREA
+	
 PRINT ~         ~
 PRINT ~END creature in areas~
 PRINT ~         ~
+
 END
 */
-COPY ~weidu_external/PoFQuestPack/Areas/XG0000.ARE~         ~override/XG0000.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0000.ARE~         ~override/XG0000.ARE~
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0001.are~         ~override/XG0001.are~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0001.ARE~         ~override/XG0001.ARE~
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0002.ARE~         ~override/XG0002.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0002.ARE~         ~override/XG0002.ARE~
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0003.ARE~         ~override/XG0003.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0003.ARE~			~override/XG0003.ARE~
   SAY 0x26b0 @398
   SAY 0x2838 @1000
   SAY 0x3284 @1001 
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0004.ARE~         ~override/XG0004.ARE~ 
-  SAY 0xD68 @1002        
+COPY ~weidu_external/PoFQuestPack/Areas/XG0004.ARE~         ~override/XG0004.ARE~
+  SAY 0xD68 @1002
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0007.ARE~         ~override/XG0007.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0007.ARE~         ~override/XG0007.ARE~
   SAY 0x3104 @399
-  SAY 0x3344 @1001 
+  SAY 0x3344 @1001
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0009.ARE~         ~override/XG0009.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0009.ARE~         ~override/XG0009.ARE~
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0012.ARE~         ~override/XG0012.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0012.ARE~         ~override/XG0012.ARE~
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0013.ARE~         ~override/XG0013.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0013.ARE~         ~override/XG0013.ARE~
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0014.ARE~         ~override/XG0014.ARE~
-  SAY 0x5C8 @1003         
+  SAY 0x5C8 @1003
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0015.ARE~         ~override/XG0015.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0015.ARE~         ~override/XG0015.ARE~
   SAY 0x464 @400
-//  SAY 0x7A8 ~  ~ 
+// SAY 0x7A8 ~~
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0016.ARE~         ~override/XG0016.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0016.ARE~			~override/XG0016.ARE~
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0017.are~         ~override/XG0017.are~ 
+COPY ~weidu_external/PoFQuestPack/Areas/XG0017.ARE~			~override/XG0017.ARE~
   SAY 0x4780 @1004
   SAY 0x4844 @1004
   SAY 0x4908 @1004
-  SAY 0x55DC @1005 
-  SAY 0x5610 @1006 
-  SAY 0x5644 @1007        
+  SAY 0x55DC @1005
+  SAY 0x5610 @1006
+  SAY 0x5644 @1007
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0018.ARE~         ~override/XG0018.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0018.ARE~         ~override/XG0018.ARE~
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0019.ARE~         ~override/XG0019.ARE~         
 
@@ -3200,37 +3217,37 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0047.ARE~         ~override/XG0047.ARE
   SAY 0x1764 @1022         
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0048.ARE~         ~override/XG0048.ARE~
-//  SAY 0x4410 ~~
-//  SAY 0x44D8 ~~
-//  SAY 0x450C ~~
-//  SAY 0x4540 ~~
-//  SAY 0x4574 @1032
-//  SAY 0x45A8 ~~
-//  SAY 0x45DC ~~
+// SAY 0x4410 ~~
+// SAY 0x44D8 ~~
+// SAY 0x450C ~~
+// SAY 0x4540 ~~
+// SAY 0x4574 @1032
+// SAY 0x45A8 ~~
+// SAY 0x45DC ~~
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0049.ARE~         ~override/XG0049.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0049.ARE~         ~override/XG0049.ARE~
   SAY 0x2444 @408 
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0050.ARE~         ~override/XG0050.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0050.ARE~         ~override/XG0050.ARE~
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0052.ARE~         ~override/XG0052.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0052.ARE~         ~override/XG0052.ARE~
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0053.ARE~         ~override/XG0053.ARE~
-//  SAY 0x3104 ~~
-//  SAY 0x31C8 ~~
-//  SAY 0x3350 ~~
-//  SAY 0x3414 ~~
-//  SAY 0x3B80 @1022
-//  SAY 0x3BB4 ~~
-//  SAY 0x3BE8 ~~
-//  SAY 0x3C1C ~~
+// SAY 0x3104 ~~
+// SAY 0x31C8 ~~
+// SAY 0x3350 ~~
+// SAY 0x3414 ~~
+// SAY 0x3B80 @1022
+// SAY 0x3BB4 ~~
+// SAY 0x3BE8 ~~
+// SAY 0x3C1C ~~
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0054.are~         ~override/XG0054.are~
-//  SAY 0x463C ~~  Refuge (de Gradak)       
+COPY ~weidu_external/PoFQuestPack/Areas/XG0054.are~			~override/XG0054.are~
+// SAY 0x463C ~~  Refuge (de Gradak)       
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0055.ARE~         ~override/XG0055.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0055.ARE~			~override/XG0055.ARE~
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0056.ARE~         ~override/XG0056.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0056.ARE~			~override/XG0056.ARE~
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0057.ARE~         ~override/XG0057.ARE~         
 
@@ -3480,7 +3497,7 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0261.ARE~         ~override/XG0261.ARE
 COPY ~weidu_external/PoFQuestPack/Areas/XG0262.ARE~         ~override/XG0262.ARE~         
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0263.ARE~         ~override/XG0263.ARE~
-//  SAY 0x4BD4 @1001          
+// SAY 0x4BD4 @1001          
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0264.ARE~         ~override/XG0264.ARE~         
 
@@ -3816,1415 +3833,1415 @@ COPY ~weidu_external/PoFQuestPack/Areas/XGUMOD.ARE~         ~override/XGUMOD.ARE
   SAY 0x32A4 @1001
 
 
-
 //////////////////////////////////
 // Setup  Items
 //////////////////////////////////
 
-COPY ~PoFQuestPack/Items/XGcd.ITM~         ~override/XGcd.ITM~  // Addition CDMOD.itm - XGcd.ITM
-  SAY NAME1 @1060 
-  SAY NAME2 @1061  
-  SAY DESC @1062 
-  
-COPY ~PoFQuestPack/Items/XGAM1.ITM~         ~override/XGAM1.ITM~         
-  SAY NAME1 @433 
 
-COPY ~PoFQuestPack/Items/XGAM2.ITM~         ~override/XGAM2.ITM~         
-  SAY NAME1 @434 
+COPY ~PoFQuestPack/Items/XGcd.ITM~			~override/XGcd.ITM~ // Addition CDMOD.ITM - XGcd.ITM
+  SAY NAME1 @1060
+  SAY NAME2 @1061
+  SAY DESC @1062
 
-COPY ~PoFQuestPack/Items/XGAM3.ITM~         ~override/XGAM3.ITM~         
+COPY ~PoFQuestPack/Items/XGAM1.ITM~			~override/XGAM1.ITM~
+  SAY NAME1 @433
+
+COPY ~PoFQuestPack/Items/XGAM2.ITM~			~override/XGAM2.ITM~
+  SAY NAME1 @434
+
+COPY ~PoFQuestPack/Items/XGAM3.ITM~			~override/XGAM3.ITM~
   SAY NAME1 @435 
 
-COPY ~PoFQuestPack/Items/XGAM4.ITM~         ~override/XGAM4.ITM~         
-  SAY NAME1 @436 
+COPY ~PoFQuestPack/Items/XGAM4.ITM~			~override/XGAM4.ITM~
+  SAY NAME1 @436
 
-COPY ~PoFQuestPack/Items/XGAM5.ITM~         ~override/XGAM5.ITM~         
-  SAY NAME1 @437 
+COPY ~PoFQuestPack/Items/XGAM5.ITM~			~override/XGAM5.ITM~
+  SAY NAME1 @437
 
-COPY ~PoFQuestPack/Items/XGAM.ITM~          ~override/XGAM.ITM~          
-  SAY NAME1 @438 
+COPY ~PoFQuestPack/Items/XGAM.ITM~			~override/XGAM.ITM~
+  SAY NAME1 @438
 
-COPY ~PoFQuestPack/Items/XGAMUL1.ITM~          ~override/XGAMUL1.ITM~          
-  SAY NAME2 @439 
-  SAY DESC @440 
+COPY ~PoFQuestPack/Items/XGAMUL1.ITM~			~override/XGAMUL1.ITM~
+  SAY NAME2 @439
+  SAY DESC @440
 
-COPY ~PoFQuestPack/Items/XGAMUL2.ITM~          ~override/XGAMUL2.ITM~          
-  SAY NAME2 @441 
-  SAY DESC @442 
+COPY ~PoFQuestPack/Items/XGAMUL2.ITM~			~override/XGAMUL2.ITM~
+  SAY NAME2 @441
+  SAY DESC @442
 
-COPY ~PoFQuestPack/Items/XGAMUL3.ITM~          ~override/XGAMUL3.ITM~          
-  SAY NAME2 @443 
-  SAY DESC @444 
+COPY ~PoFQuestPack/Items/XGAMUL3.ITM~			~override/XGAMUL3.ITM~
+  SAY NAME2 @443
+  SAY DESC @444
 
-COPY ~PoFQuestPack/Items/XGAMUL4.ITM~          ~override/XGAMUL4.ITM~          
-  SAY NAME2 @445 
-  SAY DESC @446 
+COPY ~PoFQuestPack/Items/XGAMUL4.ITM~			~override/XGAMUL4.ITM~
+  SAY NAME2 @445
+  SAY DESC @446
 
-COPY ~PoFQuestPack/Items/XGartk1.itm~       ~override/XGartk1.itm~       
-  SAY NAME1 @447 
-  SAY NAME2 @447 
-  SAY UNIDENTIFIED_DESC @448 
-  SAY DESC @448 
+COPY ~PoFQuestPack/Items/XGartk1.ITM~			~override/XGartk1.ITM~
+  SAY NAME1 @447
+  SAY NAME2 @447
+  SAY UNIDENTIFIED_DESC @448
+  SAY DESC @448
 
-COPY ~PoFQuestPack/Items/XGARTK.ITM~        ~override/XGARTK.ITM~        
-  SAY NAME1 @447 
-  SAY NAME2 @447 
-  SAY UNIDENTIFIED_DESC @448 
-  SAY DESC @448 
+COPY ~PoFQuestPack/Items/XGARTK.ITM~			~override/XGARTK.ITM~
+  SAY NAME1 @447
+  SAY NAME2 @447
+  SAY UNIDENTIFIED_DESC @448
+  SAY DESC @448
 
-COPY ~PoFQuestPack/Items/XGART.ITM~         ~override/XGART.ITM~         
-  SAY NAME1 @447 
-  SAY NAME2 @447 
-  SAY UNIDENTIFIED_DESC @449 
-  SAY DESC @449 
+COPY ~PoFQuestPack/Items/XGART.ITM~			~override/XGART.ITM~
+  SAY NAME1 @447
+  SAY NAME2 @447
+  SAY UNIDENTIFIED_DESC @449
+  SAY DESC @449
 
-COPY ~PoFQuestPack/Items/XGAXE01.ITM~          ~override/XGAXE01.ITM~          
-  SAY NAME2 @450 
-  SAY DESC @451 
+COPY ~PoFQuestPack/Items/XGAXE01.ITM~			~override/XGAXE01.ITM~
+  SAY NAME2 @450
+  SAY DESC @451
 
-COPY ~PoFQuestPack/Items/XGAXE02.ITM~          ~override/XGAXE02.ITM~          
-  SAY NAME2 @452 
-  SAY DESC @453 
+COPY ~PoFQuestPack/Items/XGAXE02.ITM~			~override/XGAXE02.ITM~
+  SAY NAME2 @452
+  SAY DESC @453
 
-COPY ~PoFQuestPack/Items/XGAXE03.ITM~          ~override/XGAXE03.ITM~          
-  SAY NAME2 @454 
-  SAY DESC @455 
+COPY ~PoFQuestPack/Items/XGAXE03.ITM~			~override/XGAXE03.ITM~
+  SAY NAME2 @454
+  SAY DESC @455
 
-COPY ~PoFQuestPack/Items/XGAXE04.ITM~          ~override/XGAXE04.ITM~          
-  SAY NAME2 @456 
-  SAY DESC @457 
+COPY ~PoFQuestPack/Items/XGAXE04.ITM~			~override/XGAXE04.ITM~
+  SAY NAME2 @456
+  SAY DESC @457
 
-COPY ~PoFQuestPack/Items/XGAXE05.ITM~          ~override/XGAXE05.ITM~          
-  SAY NAME2 @458 
-  SAY DESC @459 
+COPY ~PoFQuestPack/Items/XGAXE05.ITM~			~override/XGAXE05.ITM~
+  SAY NAME2 @458
+  SAY DESC @459
 
-COPY ~PoFQuestPack/Items/XGAXE06.ITM~          ~override/XGAXE06.ITM~          
-  SAY NAME2 @460 
-  SAY DESC @461 
+COPY ~PoFQuestPack/Items/XGAXE06.ITM~			~override/XGAXE06.ITM~
+  SAY NAME2 @460
+  SAY DESC @461
 
-COPY ~PoFQuestPack/Items/XGAXE07.ITM~          ~override/XGAXE07.ITM~          
+COPY ~PoFQuestPack/Items/XGAXE07.ITM~			~override/XGAXE07.ITM~
   SAY NAME2 @462 
-  SAY DESC @463 
+  SAY DESC @463
 
-COPY ~PoFQuestPack/Items/XGBELT1.ITM~          ~override/XGBELT1.ITM~          
-  SAY NAME2 @464 
-  SAY DESC @465 
+COPY ~PoFQuestPack/Items/XGBELT1.ITM~			~override/XGBELT1.ITM~
+  SAY NAME2 @464
+  SAY DESC @465
 
-COPY ~PoFQuestPack/Items/XGBELT2.ITM~          ~override/XGBELT2.ITM~          
-  SAY NAME2 @466 
-  SAY DESC @467 
+COPY ~PoFQuestPack/Items/XGBELT2.ITM~			~override/XGBELT2.ITM~
+  SAY NAME2 @466
+  SAY DESC @467
 
-COPY ~PoFQuestPack/Items/XGBELT3.ITM~          ~override/XGBELT3.ITM~          
-  SAY NAME2 @468 
-  SAY DESC @469 
+COPY ~PoFQuestPack/Items/XGBELT3.ITM~			~override/XGBELT3.ITM~
+  SAY NAME2 @468
+  SAY DESC @469
 
-COPY ~PoFQuestPack/Items/XGBGSD.ITM~        ~override/XGBGSD.ITM~        
-  SAY NAME1 @470 
-  SAY NAME2 @470 
-  SAY UNIDENTIFIED_DESC @471 
-  SAY DESC @471 
+COPY ~PoFQuestPack/Items/XGBGSD.ITM~			~override/XGBGSD.ITM~
+  SAY NAME1 @470
+  SAY NAME2 @470
+  SAY UNIDENTIFIED_DESC @471
+  SAY DESC @471
 
-COPY ~PoFQuestPack/Items/XGBHARF.ITM~       ~override/XGBHARF.ITM~       
-  SAY NAME1 @472 
+COPY ~PoFQuestPack/Items/XGBHARF.ITM~			~override/XGBHARF.ITM~
+  SAY NAME1 @472
 
-COPY ~PoFQuestPack/Items/XGBOOKP.ITM~         ~override/XGBOOKP.ITM~   // Addition (description)
+COPY ~PoFQuestPack/Items/XGBOOKP.ITM~			~override/XGBOOKP.ITM~ // Addition (description)
   SAY NAME1 @2000
-  SAY NAME2 @2003 
-  SAY DESC @2001        
+  SAY NAME2 @2003
+  SAY DESC @2001
 
-COPY ~PoFQuestPack/Items/XGBOOT1.ITM~          ~override/XGBOOT1.ITM~          
-  SAY NAME2 @473 
-  SAY DESC @474 
+COPY ~PoFQuestPack/Items/XGBOOT1.ITM~			~override/XGBOOT1.ITM~
+  SAY NAME2 @473
+  SAY DESC @474
 
-COPY ~PoFQuestPack/Items/XGBOOT2.ITM~          ~override/XGBOOT2.ITM~          
-  SAY NAME2 @475 
-  SAY DESC @476 
+COPY ~PoFQuestPack/Items/XGBOOT2.ITM~			~override/XGBOOT2.ITM~
+  SAY NAME2 @475
+  SAY DESC @476
 
-COPY ~PoFQuestPack/Items/XGBOOT3.ITM~          ~override/XGBOOT3.ITM~          
+COPY ~PoFQuestPack/Items/XGBOOT3.ITM~			~override/XGBOOT3.ITM~
   SAY NAME2 @477 
   SAY DESC @478 
 
-COPY ~PoFQuestPack/Items/XGBOOT4.ITM~          ~override/XGBOOT4.ITM~          
+COPY ~PoFQuestPack/Items/XGBOOT4.ITM~			~override/XGBOOT4.ITM~
   SAY NAME2 @479 
   SAY DESC @480 
 
-COPY ~PoFQuestPack/Items/XGBRAC1.ITM~          ~override/XGBRAC1.ITM~          
+COPY ~PoFQuestPack/Items/XGBRAC1.ITM~			~override/XGBRAC1.ITM~
   SAY NAME2 @481 
   SAY DESC @482 
 
-COPY ~PoFQuestPack/Items/XGBRAC2.ITM~          ~override/XGBRAC2.ITM~          
+COPY ~PoFQuestPack/Items/XGBRAC2.ITM~			~override/XGBRAC2.ITM~
   SAY NAME2 @483 
   SAY DESC @484 
 
-COPY ~PoFQuestPack/Items/XGBRAC3.ITM~          ~override/XGBRAC3.ITM~          
+COPY ~PoFQuestPack/Items/XGBRAC3.ITM~			~override/XGBRAC3.ITM~
   SAY NAME2 @485 
   SAY DESC @486 
 
-COPY ~PoFQuestPack/Items/XGBRAC4.ITM~          ~override/XGBRAC4.ITM~          
+COPY ~PoFQuestPack/Items/XGBRAC4.ITM~			~override/XGBRAC4.ITM~
   SAY NAME2 @487 
   SAY DESC @488 
 
-COPY ~PoFQuestPack/Items/XGBSWO1.ITM~       ~override/XGBSWO1.ITM~       
+COPY ~PoFQuestPack/Items/XGBSWO1.ITM~			~override/XGBSWO1.ITM~
   SAY NAME1 @489 
   SAY NAME2 @489 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @490 
 
-COPY ~PoFQuestPack/Items/XGBSWO2.ITM~       ~override/XGBSWO2.ITM~       
+COPY ~PoFQuestPack/Items/XGBSWO2.ITM~			~override/XGBSWO2.ITM~
   SAY NAME1 @489 
   SAY NAME2 @491 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @492 
 
-COPY ~PoFQuestPack/Items/XGBSWO3.ITM~       ~override/XGBSWO3.ITM~       
+COPY ~PoFQuestPack/Items/XGBSWO3.ITM~			~override/XGBSWO3.ITM~
   SAY NAME1 @489 
   SAY NAME2 @493 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @494 
 
-COPY ~PoFQuestPack/Items/XGBSWO4.ITM~       ~override/XGBSWO4.ITM~       
+COPY ~PoFQuestPack/Items/XGBSWO4.ITM~			~override/XGBSWO4.ITM~
   SAY NAME1 @489 
   SAY NAME2 @495 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @496 
 
-COPY ~PoFQuestPack/Items/XGBSWO5.ITM~       ~override/XGBSWO5.ITM~       
+COPY ~PoFQuestPack/Items/XGBSWO5.ITM~			~override/XGBSWO5.ITM~
   SAY NAME1 @489 
   SAY NAME2 @497 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @498 
 
-COPY ~PoFQuestPack/Items/XGBSWO6.ITM~       ~override/XGBSWO6.ITM~       
+COPY ~PoFQuestPack/Items/XGBSWO6.ITM~			~override/XGBSWO6.ITM~
   SAY NAME1 @489 
   SAY NAME2 @499 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @500 
 
-COPY ~PoFQuestPack/Items/XGBSWO7.ITM~       ~override/XGBSWO7.ITM~       
+COPY ~PoFQuestPack/Items/XGBSWO7.ITM~			~override/XGBSWO7.ITM~
   SAY NAME1 @489 
   SAY NAME2 @501 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @502 
 
-COPY ~PoFQuestPack/Items/XGBSWO8.ITM~       ~override/XGBSWO8.ITM~       
+COPY ~PoFQuestPack/Items/XGBSWO8.ITM~			~override/XGBSWO8.ITM~
   SAY NAME1 @489 
   SAY NAME2 @503 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @504 
 
-COPY ~PoFQuestPack/Items/XGBSWO9.ITM~       ~override/XGBSWO9.ITM~       
+COPY ~PoFQuestPack/Items/XGBSWO9.ITM~			~override/XGBSWO9.ITM~
   SAY NAME1 @489 
   SAY NAME2 @505 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @506 
 
-COPY ~PoFQuestPack/Items/XGCBOW1.ITM~         ~override/XGCBOW1.ITM~         
+COPY ~PoFQuestPack/Items/XGCBOW1.ITM~			~override/XGCBOW1.ITM~
   SAY NAME2 @507 
   SAY DESC @508 
 
-COPY ~PoFQuestPack/Items/XGCBOW2.ITM~         ~override/XGCBOW2.ITM~         
+COPY ~PoFQuestPack/Items/XGCBOW2.ITM~			~override/XGCBOW2.ITM~
   SAY NAME2 @509 
   SAY DESC @510 
 
-COPY ~PoFQuestPack/Items/XGCBOW3.ITM~         ~override/XGCBOW3.ITM~         
+COPY ~PoFQuestPack/Items/XGCBOW3.ITM~			~override/XGCBOW3.ITM~
   SAY NAME2 @511 
   SAY DESC @512 
 
-COPY ~PoFQuestPack/Items/XGCLUB1.ITM~        ~override/XGCLUB1.ITM~        
+COPY ~PoFQuestPack/Items/XGCLUB1.ITM~			~override/XGCLUB1.ITM~
   SAY NAME2 @513 
   SAY DESC @514 
 
-COPY ~PoFQuestPack/Items/XGCLUB2.ITM~        ~override/XGCLUB2.ITM~        
+COPY ~PoFQuestPack/Items/XGCLUB2.ITM~			~override/XGCLUB2.ITM~
   SAY NAME2 @515 
   SAY DESC @516 
 
-COPY ~PoFQuestPack/Items/XGCLUB3.ITM~        ~override/XGCLUB3.ITM~        
+COPY ~PoFQuestPack/Items/XGCLUB3.ITM~			~override/XGCLUB3.ITM~
   SAY NAME2 @517 
   SAY DESC @518 
 
-COPY ~PoFQuestPack/Items/XGFLAI1.ITM~       ~override/XGFLAI1.ITM~       
+COPY ~PoFQuestPack/Items/XGFLAI1.ITM~			~override/XGFLAI1.ITM~
   SAY NAME2 @519 
   SAY DESC @520 
 
-COPY ~PoFQuestPack/Items/XGFLAI2.ITM~       ~override/XGFLAI2.ITM~       
+COPY ~PoFQuestPack/Items/XGFLAI2.ITM~			~override/XGFLAI2.ITM~
   SAY NAME2 @521 
   SAY DESC @522 
 
-COPY ~PoFQuestPack/Items/XGFLAI3.ITM~       ~override/XGFLAI3.ITM~       
+COPY ~PoFQuestPack/Items/XGFLAI3.ITM~			~override/XGFLAI3.ITM~
   SAY NAME2 @523 
   SAY DESC @524 
 
-COPY ~PoFQuestPack/Items/XGCLCK1.ITM~       ~override/XGCLCK1.ITM~       
+COPY ~PoFQuestPack/Items/XGCLCK1.ITM~			~override/XGCLCK1.ITM~
   SAY NAME1 @525 
   SAY NAME2 @525 
   SAY UNIDENTIFIED_DESC @526 
   SAY DESC @526 
 
-COPY ~PoFQuestPack/Items/XGCMA01.ITM~        ~override/XGCMA01.ITM~        
+COPY ~PoFQuestPack/Items/XGCMA01.ITM~			~override/XGCMA01.ITM~
   SAY NAME2 @527 
   SAY DESC @528 
 
-COPY ~PoFQuestPack/Items/XGCMA02.ITM~        ~override/XGCMA02.ITM~        
+COPY ~PoFQuestPack/Items/XGCMA02.ITM~			~override/XGCMA02.ITM~
   SAY NAME2 @529 
   SAY DESC @530 
 
-COPY ~PoFQuestPack/Items/XGCMA03.ITM~        ~override/XGCMA03.ITM~        
+COPY ~PoFQuestPack/Items/XGCMA03.ITM~			~override/XGCMA03.ITM~
   SAY NAME2 @531 
   SAY DESC @532 
 
-COPY ~PoFQuestPack/Items/XGDBOOK.ITM~       ~override/XGDBOOK.ITM~       
+COPY ~PoFQuestPack/Items/XGDBOOK.ITM~			~override/XGDBOOK.ITM~
   SAY NAME1 @533 
   SAY NAME2 @533 
   SAY UNIDENTIFIED_DESC @533 
   SAY DESC @533 
 
-COPY ~PoFQuestPack/Items/XGDEVH.ITM~        ~override/XGDEVH.ITM~        
+COPY ~PoFQuestPack/Items/XGDEVH.ITM~			~override/XGDEVH.ITM~
   SAY NAME1 @534 
   SAY NAME2 @534 
 
-COPY ~PoFQuestPack/Items/XGDHEA1.ITM~       ~override/XGDHEA1.ITM~       
+COPY ~PoFQuestPack/Items/XGDHEA1.ITM~			~override/XGDHEA1.ITM~
   SAY NAME1 @535 
   SAY NAME2 @535 
 
-COPY ~PoFQuestPack/Items/XGDHEAR.ITM~       ~override/XGDHEAR.ITM~       
+COPY ~PoFQuestPack/Items/XGDHEAR.ITM~			~override/XGDHEAR.ITM~
   SAY NAME1 @535 
   SAY NAME2 @535 
 
-COPY ~PoFQuestPack/Items/XGDOAX.ITM~        ~override/XGDOAX.ITM~        
+COPY ~PoFQuestPack/Items/XGDOAX.ITM~			~override/XGDOAX.ITM~
   SAY NAME2 @536 
   SAY DESC @537 
 
-COPY ~PoFQuestPack/Items/XGdram.itm~        ~override/XGdram.itm~        
+COPY ~PoFQuestPack/Items/XGdram.ITM~			~override/XGdram.ITM~
   SAY NAME2 @538 
 
-COPY ~PoFQuestPack/Items/XGERKEY.ITM~       ~override/XGERKEY.ITM~       
+COPY ~PoFQuestPack/Items/XGERKEY.ITM~			~override/XGERKEY.ITM~
   SAY NAME1 @539 
   SAY NAME2 @539 
   SAY UNIDENTIFIED_DESC @539 
   SAY DESC @539 
 
-COPY ~PoFQuestPack/Items/XGESD.ITM~         ~override/XGESD.ITM~         
+COPY ~PoFQuestPack/Items/XGESD.ITM~			~override/XGESD.ITM~
   SAY NAME1 @540 
   SAY NAME2 @540 
   SAY DESC @541 
 
-COPY ~PoFQuestPack/Items/XGesh.itm~         ~override/XGesh.itm~         
+COPY ~PoFQuestPack/Items/XGesh.ITM~			~override/XGesh.ITM~
   SAY UNIDENTIFIED_DESC @542 
   SAY DESC @542 
 
-COPY ~PoFQuestPack/Items/XGESK.ITM~         ~override/XGESK.ITM~         
+COPY ~PoFQuestPack/Items/XGESK.ITM~			~override/XGESK.ITM~
   SAY NAME1 @543 
   SAY NAME2 @543 
 
-COPY ~PoFQuestPack/Items/XGFALH1.ITM~        ~override/XGFALH1.ITM~        
-  SAY NAME1 @544 
-  SAY NAME2 @544 
-  SAY UNIDENTIFIED_DESC @545 
-  SAY DESC @545 
+COPY ~PoFQuestPack/Items/XGFALH1.ITM~			~override/XGFALH1.ITM~
+  SAY NAME1 @544
+  SAY NAME2 @544
+  SAY UNIDENTIFIED_DESC @545
+  SAY DESC @545
 
-COPY ~PoFQuestPack/Items/XGFALH2.ITM~        ~override/XGFALH2.ITM~        
+COPY ~PoFQuestPack/Items/XGFALH2.ITM~			~override/XGFALH2.ITM~
   SAY NAME1 @544 
   SAY NAME2 @546 
   SAY UNIDENTIFIED_DESC @545 
   SAY DESC @547 
 
-COPY ~PoFQuestPack/Items/XGFALH3.ITM~        ~override/XGFALH3.ITM~        
+COPY ~PoFQuestPack/Items/XGFALH3.ITM~			~override/XGFALH3.ITM~
   SAY NAME1 @544 
   SAY NAME2 @548 
   SAY UNIDENTIFIED_DESC @545 
   SAY DESC @549 
 
-COPY ~PoFQuestPack/Items/XGFALH4.ITM~        ~override/XGFALH4.ITM~        
+COPY ~PoFQuestPack/Items/XGFALH4.ITM~			~override/XGFALH4.ITM~
   SAY NAME1 @544 
   SAY NAME2 @550 
   SAY UNIDENTIFIED_DESC @545 
   SAY DESC @551 
 
-COPY ~PoFQuestPack/Items/XGFALH5.ITM~        ~override/XGFALH5.ITM~        
+COPY ~PoFQuestPack/Items/XGFALH5.ITM~			~override/XGFALH5.ITM~
   SAY NAME1 @544 
   SAY NAME2 @552 
   SAY UNIDENTIFIED_DESC @545 
   SAY DESC @553 
 
-COPY ~PoFQuestPack/Items/XGFALH6.ITM~        ~override/XGFALH6.ITM~        
+COPY ~PoFQuestPack/Items/XGFALH6.ITM~			~override/XGFALH6.ITM~
   SAY NAME1 @544 
   SAY NAME2 @554 
   SAY UNIDENTIFIED_DESC @545 
   SAY DESC @555 
 
-COPY ~PoFQuestPack/Items/XGFALX1.ITM~         ~override/XGFALX1.ITM~         
+COPY ~PoFQuestPack/Items/XGFALX1.ITM~			~override/XGFALX1.ITM~
   SAY NAME1 @556 
   SAY NAME2 @556 
   SAY UNIDENTIFIED_DESC @557 
   SAY DESC @557 
 
-COPY ~PoFQuestPack/Items/XGFALX2.ITM~         ~override/XGFALX2.ITM~         
+COPY ~PoFQuestPack/Items/XGFALX2.ITM~			~override/XGFALX2.ITM~
   SAY NAME1 @556 
   SAY NAME2 @558 
   SAY UNIDENTIFIED_DESC @557 
   SAY DESC @559 
 
-COPY ~PoFQuestPack/Items/XGFALX3.ITM~         ~override/XGFALX3.ITM~         
+COPY ~PoFQuestPack/Items/XGFALX3.ITM~			~override/XGFALX3.ITM~
   SAY NAME1 @556 
   SAY NAME2 @560 
   SAY UNIDENTIFIED_DESC @557 
   SAY DESC @561 
 
-COPY ~PoFQuestPack/Items/XGFALX4.ITM~         ~override/XGFALX4.ITM~         
+COPY ~PoFQuestPack/Items/XGFALX4.ITM~			~override/XGFALX4.ITM~
   SAY NAME1 @556 
   SAY NAME2 @562 
   SAY UNIDENTIFIED_DESC @557 
   SAY DESC @563 
 
-COPY ~PoFQuestPack/Items/XGFALX5.ITM~         ~override/XGFALX5.ITM~         
+COPY ~PoFQuestPack/Items/XGFALX5.ITM~			~override/XGFALX5.ITM~
   SAY NAME1 @556 
   SAY NAME2 @564 
   SAY UNIDENTIFIED_DESC @557 
   SAY DESC @565 
 
-COPY ~PoFQuestPack/Items/XGFALX6.ITM~         ~override/XGFALX6.ITM~         
+COPY ~PoFQuestPack/Items/XGFALX6.ITM~			~override/XGFALX6.ITM~
   SAY NAME1 @556 
   SAY NAME2 @566 
   SAY UNIDENTIFIED_DESC @557 
   SAY DESC @567 
 
-COPY ~PoFQuestPack/Items/XGFALX7.ITM~         ~override/XGFALX7.ITM~         
+COPY ~PoFQuestPack/Items/XGFALX7.ITM~			~override/XGFALX7.ITM~
   SAY NAME1 @556 
   SAY NAME2 @568 
   SAY UNIDENTIFIED_DESC @557 
   SAY DESC @569 
 
-COPY ~PoFQuestPack/Items/XGFAR.ITM~         ~override/XGFAR.ITM~         
+COPY ~PoFQuestPack/Items/XGFAR.ITM~			~override/XGFAR.ITM~
   SAY NAME2 @570 
   SAY DESC @571 
 
-COPY ~PoFQuestPack/Items/XGGD1.ITM~         ~override/XGGD1.ITM~         
+COPY ~PoFQuestPack/Items/XGGD1.ITM~			~override/XGGD1.ITM~
   SAY NAME1 @572 
   SAY NAME2 @572 
   SAY UNIDENTIFIED_DESC @572 
   SAY DESC @572 
 
-COPY ~PoFQuestPack/Items/XGGD2.ITM~         ~override/XGGD2.ITM~         
+COPY ~PoFQuestPack/Items/XGGD2.ITM~			~override/XGGD2.ITM~
   SAY NAME1 @572 
   SAY NAME2 @572 
   SAY UNIDENTIFIED_DESC @572 
   SAY DESC @572 
 
-COPY ~PoFQuestPack/Items/XGGD3.ITM~         ~override/XGGD3.ITM~         
+COPY ~PoFQuestPack/Items/XGGD3.ITM~			~override/XGGD3.ITM~
   SAY NAME1 @572 
   SAY NAME2 @572 
   SAY UNIDENTIFIED_DESC @572 
   SAY DESC @572 
 
-COPY ~PoFQuestPack/Items/XGGLA.ITM~         ~override/XGGLA.ITM~         
+COPY ~PoFQuestPack/Items/XGGLA.ITM~			~override/XGGLA.ITM~
   SAY NAME2 @573 
   SAY DESC @574 
 
-COPY ~PoFQuestPack/Items/XGGLAVE.ITM~          ~override/XGGLAVE.ITM~          
+COPY ~PoFQuestPack/Items/XGGLAVE.ITM~			~override/XGGLAVE.ITM~
   SAY NAME1 @575 
   SAY NAME2 @575 
   SAY UNIDENTIFIED_DESC @576 
   SAY DESC @576 
 
-COPY ~PoFQuestPack/Items/XGGLAV1.ITM~        ~override/XGGLAV1.ITM~        
+COPY ~PoFQuestPack/Items/XGGLAV1.ITM~			~override/XGGLAV1.ITM~
   SAY NAME1 @575 
   SAY NAME2 @577 
   SAY UNIDENTIFIED_DESC @578 
   SAY DESC @579 
 
-COPY ~PoFQuestPack/Items/XGGLAV2.ITM~        ~override/XGGLAV2.ITM~        
+COPY ~PoFQuestPack/Items/XGGLAV2.ITM~			~override/XGGLAV2.ITM~
   SAY NAME1 @575 
   SAY NAME2 @580 
   SAY UNIDENTIFIED_DESC @578 
   SAY DESC @581 
 
-COPY ~PoFQuestPack/Items/XGGLAV3.ITM~        ~override/XGGLAV3.ITM~        
+COPY ~PoFQuestPack/Items/XGGLAV3.ITM~			~override/XGGLAV3.ITM~
   SAY NAME1 @575 
   SAY NAME2 @582 
   SAY UNIDENTIFIED_DESC @578 
   SAY DESC @583 
 
-COPY ~PoFQuestPack/Items/XGGLAV4.ITM~        ~override/XGGLAV4.ITM~        
+COPY ~PoFQuestPack/Items/XGGLAV4.ITM~			~override/XGGLAV4.ITM~
   SAY NAME1 @575 
   SAY NAME2 @584 
   SAY UNIDENTIFIED_DESC @578 
   SAY DESC @585 
 
-COPY ~PoFQuestPack/Items/XGGLAV5.ITM~        ~override/XGGLAV5.ITM~        
+COPY ~PoFQuestPack/Items/XGGLAV5.ITM~			~override/XGGLAV5.ITM~
   SAY NAME1 @575 
   SAY NAME2 @586 
   SAY UNIDENTIFIED_DESC @578 
   SAY DESC @587 
 
-COPY ~PoFQuestPack/Items/XGGLAV7.ITM~        ~override/XGGLAV7.ITM~        
+COPY ~PoFQuestPack/Items/XGGLAV7.ITM~			~override/XGGLAV7.ITM~
   SAY NAME1 @575 
   SAY NAME2 @588 
   SAY UNIDENTIFIED_DESC @576 
   SAY DESC @589 
 
-COPY ~PoFQuestPack/Items/XGGLAV8.ITM~        ~override/XGGLAV8.ITM~        
+COPY ~PoFQuestPack/Items/XGGLAV8.ITM~			~override/XGGLAV8.ITM~
   SAY NAME1 @575 
   SAY NAME2 @590 
   SAY UNIDENTIFIED_DESC @576 
   SAY DESC @591 
 
-COPY ~PoFQuestPack/Items/XGGLAV9.ITM~        ~override/XGGLAV9.ITM~        
+COPY ~PoFQuestPack/Items/XGGLAV9.ITM~			~override/XGGLAV9.ITM~
   SAY NAME1 @575 
   SAY NAME2 @592 
   SAY UNIDENTIFIED_DESC @576 
   SAY DESC @593 
 
-COPY ~PoFQuestPack/Items/XGLAV10.ITM~        ~override/XGLAV10.ITM~        
+COPY ~PoFQuestPack/Items/XGLAV10.ITM~			~override/XGLAV10.ITM~
   SAY NAME1 @575 
   SAY NAME2 @594 
   SAY UNIDENTIFIED_DESC @576 
   SAY DESC @595 
 
-COPY ~PoFQuestPack/Items/XGHAL01.ITM~          ~override/XGHAL01.ITM~          
+COPY ~PoFQuestPack/Items/XGHAL01.ITM~			~override/XGHAL01.ITM~
   SAY NAME2 @596 
   SAY DESC @597 
 
-COPY ~PoFQuestPack/Items/XGHAL02.ITM~          ~override/XGHAL02.ITM~          
+COPY ~PoFQuestPack/Items/XGHAL02.ITM~			~override/XGHAL02.ITM~
   SAY NAME2 @598 
   SAY DESC @599 
 
-COPY ~PoFQuestPack/Items/XGHAL03.ITM~          ~override/XGHAL03.ITM~          
+COPY ~PoFQuestPack/Items/XGHAL03.ITM~			~override/XGHAL03.ITM~
   SAY NAME2 @600 
   SAY DESC @601 
 
-COPY ~PoFQuestPack/Items/XGHAM3.ITM~           ~override/XGHAM3.ITM~           
+COPY ~PoFQuestPack/Items/XGHAM3.ITM~			~override/XGHAM3.ITM~
   SAY NAME2 @602 
   SAY DESC @603 
 
-COPY ~PoFQuestPack/Items/XGHAMM1.ITM~          ~override/XGHAMM1.ITM~          
+COPY ~PoFQuestPack/Items/XGHAMM1.ITM~			~override/XGHAMM1.ITM~
   SAY NAME2 @604 
   SAY DESC @605 
 
-COPY ~PoFQuestPack/Items/XGHAMM2.ITM~          ~override/XGHAMM2.ITM~          
+COPY ~PoFQuestPack/Items/XGHAMM2.ITM~			~override/XGHAMM2.ITM~
   SAY NAME2 @606 
   SAY DESC @607 
 
-COPY ~PoFQuestPack/Items/XGHELM1.ITM~          ~override/XGHELM1.ITM~          
+COPY ~PoFQuestPack/Items/XGHELM1.ITM~			~override/XGHELM1.ITM~
   SAY NAME2 @608 
   SAY DESC @609 
 
-COPY ~PoFQuestPack/Items/XGHELM2.ITM~          ~override/XGHELM2.ITM~          
+COPY ~PoFQuestPack/Items/XGHELM2.ITM~			~override/XGHELM2.ITM~
   SAY NAME2 @610 
   SAY DESC @611 
 
-COPY ~PoFQuestPack/Items/XGHELM3.ITM~          ~override/XGHELM3.ITM~          
+COPY ~PoFQuestPack/Items/XGHELM3.ITM~			~override/XGHELM3.ITM~
   SAY NAME2 @612 
   SAY DESC @613 
 
-COPY ~PoFQuestPack/Items/XGHELM4.ITM~          ~override/XGHELM4.ITM~          
+COPY ~PoFQuestPack/Items/XGHELM4.ITM~			~override/XGHELM4.ITM~
   SAY NAME2 @614 
   SAY DESC @615 
 
-COPY ~PoFQuestPack/Items/XGhq.itm~          ~override/XGhq.itm~          
+COPY ~PoFQuestPack/Items/XGhq.ITM~			~override/XGhq.ITM~
   SAY NAME1 @616 
   SAY NAME2 @616 
   SAY UNIDENTIFIED_DESC @617 
   SAY DESC @617 
 
-COPY ~PoFQuestPack/Items/XGhsr.itm~         ~override/XGhsr.itm~         
+COPY ~PoFQuestPack/Items/XGhsr.ITM~			~override/XGhsr.ITM~
   SAY NAME1 @618 
   SAY NAME2 @618 
   SAY UNIDENTIFIED_DESC @618 
   SAY DESC @618 
 
-COPY ~PoFQuestPack/Items/XGIK01.ITM~           ~override/XGIK01.ITM~           
+COPY ~PoFQuestPack/Items/XGIK01.ITM~			~override/XGIK01.ITM~
   SAY NAME1 @619 
   SAY NAME2 @619 
   SAY UNIDENTIFIED_DESC @620 
   SAY DESC @620 
 
-COPY ~PoFQuestPack/Items/XGIK02.ITM~           ~override/XGIK02.ITM~           
+COPY ~PoFQuestPack/Items/XGIK02.ITM~			~override/XGIK02.ITM~
   SAY NAME1 @619 
   SAY NAME2 @621 
   SAY UNIDENTIFIED_DESC @620 
   SAY DESC @622 
 
-COPY ~PoFQuestPack/Items/XGIK03.ITM~           ~override/XGIK03.ITM~           
+COPY ~PoFQuestPack/Items/XGIK03.ITM~			~override/XGIK03.ITM~
   SAY NAME1 @619 
   SAY NAME2 @623 
   SAY UNIDENTIFIED_DESC @620 
   SAY DESC @624 
 
-COPY ~PoFQuestPack/Items/XGIK04.ITM~           ~override/XGIK04.ITM~           
+COPY ~PoFQuestPack/Items/XGIK04.ITM~			~override/XGIK04.ITM~
   SAY NAME1 @619 
   SAY NAME2 @625 
   SAY UNIDENTIFIED_DESC @620 
   SAY DESC @626 
 
-COPY ~PoFQuestPack/Items/XGIK05.ITM~           ~override/XGIK05.ITM~           
+COPY ~PoFQuestPack/Items/XGIK05.ITM~			~override/XGIK05.ITM~
   SAY NAME1 @619 
   SAY NAME2 @627 
   SAY UNIDENTIFIED_DESC @620 
   SAY DESC @628 
 
-COPY ~PoFQuestPack/Items/XGIK06.ITM~           ~override/XGIK06.ITM~           
+COPY ~PoFQuestPack/Items/XGIK06.ITM~			~override/XGIK06.ITM~
   SAY NAME1 @619 
   SAY NAME2 @629 
   SAY UNIDENTIFIED_DESC @620 
   SAY DESC @630 
 
-COPY ~PoFQuestPack/Items/XGIK07.ITM~           ~override/XGIK07.ITM~           
+COPY ~PoFQuestPack/Items/XGIK07.ITM~			~override/XGIK07.ITM~
   SAY NAME1 @619 
   SAY NAME2 @631 
   SAY UNIDENTIFIED_DESC @620 
   SAY DESC @632 
 
-COPY ~PoFQuestPack/Items/XGiqq.itm~         ~override/XGiqq.itm~         
+COPY ~PoFQuestPack/Items/XGiqq.ITM~			~override/XGiqq.ITM~
   SAY NAME1 @447 
   SAY NAME2 @447 
 
-COPY ~PoFQuestPack/Items/XGKAT01.ITM~          ~override/XGKAT01.ITM~          
+COPY ~PoFQuestPack/Items/XGKAT01.ITM~			~override/XGKAT01.ITM~
   SAY NAME2 @633 
   SAY DESC @634 
 
-COPY ~PoFQuestPack/Items/XGKAT02.ITM~          ~override/XGKAT02.ITM~          
+COPY ~PoFQuestPack/Items/XGKAT02.ITM~			~override/XGKAT02.ITM~
   SAY NAME2 @635 
   SAY DESC @636 
 
-COPY ~PoFQuestPack/Items/XGKAT03.ITM~          ~override/XGKAT03.ITM~          
+COPY ~PoFQuestPack/Items/XGKAT03.ITM~			~override/XGKAT03.ITM~
   SAY NAME2 @637 
   SAY DESC @638 
 
-COPY ~PoFQuestPack/Items/XGKAT04.ITM~          ~override/XGKAT04.ITM~          
+COPY ~PoFQuestPack/Items/XGKAT04.ITM~			~override/XGKAT04.ITM~
   SAY NAME2 @639 
   SAY DESC @640 
 
-COPY ~PoFQuestPack/Items/XGKEV1.ITM~        ~override/XGKEV1.ITM~        
+COPY ~PoFQuestPack/Items/XGKEV1.ITM~			~override/XGKEV1.ITM~
   SAY NAME1 @641 
   SAY NAME2 @641 
   SAY UNIDENTIFIED_DESC @642 
   SAY DESC @642 
 
-COPY ~PoFQuestPack/Items/XGKEV2.ITM~        ~override/XGKEV2.ITM~        
+COPY ~PoFQuestPack/Items/XGKEV2.ITM~			~override/XGKEV2.ITM~
   SAY NAME1 @643 
   SAY NAME2 @643 
   SAY UNIDENTIFIED_DESC @644 
   SAY DESC @644 
 
-COPY ~PoFQuestPack/Items/XGKIIT.ITM~        ~override/XGKIIT.ITM~        
+COPY ~PoFQuestPack/Items/XGKIIT.ITM~			~override/XGKIIT.ITM~
   SAY NAME1 @645 
-  SAY NAME2 @645 
+  SAY NAME2 @645
   SAY UNIDENTIFIED_DESC @646 
   SAY DESC @646 
 
-COPY ~PoFQuestPack/Items/XGku.itm~          ~override/XGku.itm~          
+COPY ~PoFQuestPack/Items/XGku.ITM~			~override/XGku.ITM~
 
-COPY ~PoFQuestPack/Items/XGLAN02.ITM~        ~override/XGLAN02.ITM~        
+COPY ~PoFQuestPack/Items/XGLAN02.ITM~			~override/XGLAN02.ITM~
   SAY NAME2 @647 
   SAY DESC @648 
 
-COPY ~PoFQuestPack/Items/XGLAN03.ITM~        ~override/XGLAN03.ITM~        
+COPY ~PoFQuestPack/Items/XGLAN03.ITM~			~override/XGLAN03.ITM~
   SAY NAME2 @649 
   SAY DESC @650 
 
-COPY ~PoFQuestPack/Items/XGLEAT1.ITM~       ~override/XGLEAT1.ITM~       
+COPY ~PoFQuestPack/Items/XGLEAT1.ITM~			~override/XGLEAT1.ITM~
   SAY NAME1 @651 
   SAY NAME2 @651 
   SAY UNIDENTIFIED_DESC @652 
   SAY DESC @652 
 
-COPY ~PoFQuestPack/Items/XGleta.itm~        ~override/XGleta.itm~        
+COPY ~PoFQuestPack/Items/XGleta.ITM~			~override/XGleta.ITM~
 
-COPY ~PoFQuestPack/Items/XGLETER.ITM~       ~override/XGLETER.ITM~       
-  SAY NAME1 @653 
+COPY ~PoFQuestPack/Items/XGLETER.ITM~			~override/XGLETER.ITM~
+  SAY NAME1 @653
   SAY UNIDENTIFIED_DESC @654 
 
-COPY ~PoFQuestPack/Items/XGleths.itm~       ~override/XGleths.itm~       
+COPY ~PoFQuestPack/Items/XGleths.ITM~			~override/XGleths.ITM~
   SAY NAME1 @655 
   SAY NAME2 @655 
   SAY UNIDENTIFIED_DESC @656 
   SAY DESC @656 
 
-COPY ~PoFQuestPack/Items/XGLETL.ITM~        ~override/XGLETL.ITM~        
+COPY ~PoFQuestPack/Items/XGLETL.ITM~			~override/XGLETL.ITM~
   SAY NAME1 @655 
   SAY NAME2 @655 
 
-COPY ~PoFQuestPack/Items/XGLETT1.ITM~       ~override/XGLETT1.ITM~       
+COPY ~PoFQuestPack/Items/XGLETT1.ITM~			~override/XGLETT1.ITM~
   SAY UNIDENTIFIED_DESC @657 
   SAY DESC @657 
 
-COPY ~PoFQuestPack/Items/XGLETT2.ITM~       ~override/XGLETT2.ITM~       
+COPY ~PoFQuestPack/Items/XGLETT2.ITM~			~override/XGLETT2.ITM~
   SAY UNIDENTIFIED_DESC @658 
   SAY DESC @658 
 
-COPY ~PoFQuestPack/Items/XGLETT.ITM~        ~override/XGLETT.ITM~        
+COPY ~PoFQuestPack/Items/XGLETT.ITM~			~override/XGLETT.ITM~
   SAY NAME1 @659 
   SAY NAME2 @659 
   SAY UNIDENTIFIED_DESC @660 
   SAY DESC @660 
 
-COPY ~PoFQuestPack/Items/XGLETW.ITM~        ~override/XGLETW.ITM~        
+COPY ~PoFQuestPack/Items/XGLETW.ITM~			~override/XGLETW.ITM~
   SAY NAME1 @661 
   SAY NAME2 @661 
   SAY UNIDENTIFIED_DESC @662 
   SAY DESC @662 
 
-COPY ~PoFQuestPack/Items/XGls.itm~          ~override/XGls.itm~          
+COPY ~PoFQuestPack/Items/XGls.ITM~			~override/XGls.ITM~
   SAY UNIDENTIFIED_DESC @658 
   SAY DESC @658 
 
-COPY ~PoFQuestPack/Items/XGLUSWQ.ITM~       ~override/XGLUSWQ.ITM~       
+COPY ~PoFQuestPack/Items/XGLUSWQ.ITM~			~override/XGLUSWQ.ITM~
   SAY NAME1 @663 
   SAY NAME2 @663 
   SAY UNIDENTIFIED_DESC @664 
   SAY DESC @664 
 
-COPY ~PoFQuestPack/Items/XGLWLET.ITM~       ~override/XGLWLET.ITM~       
+COPY ~PoFQuestPack/Items/XGLWLET.ITM~			~override/XGLWLET.ITM~
   SAY NAME1 @665 
   SAY NAME2 @665 
   SAY DESC @666 
 
-COPY ~PoFQuestPack/Items/XGMAGG.ITM~        ~override/XGMAGG.ITM~        
+COPY ~PoFQuestPack/Items/XGMAGG.ITM~			~override/XGMAGG.ITM~
   SAY NAME1 @667 
   SAY NAME2 @667 
   SAY UNIDENTIFIED_DESC @667 
   SAY DESC @667 
 
-COPY ~PoFQuestPack/Items/XGMAP.ITM~         ~override/XGMAP.ITM~         
+COPY ~PoFQuestPack/Items/XGMAP.ITM~			~override/XGMAP.ITM~
   SAY NAME1 @668 
   SAY NAME2 @668 
 
-COPY ~PoFQuestPack/Items/XGMAR1.ITM~        ~override/XGMAR1.ITM~        
+COPY ~PoFQuestPack/Items/XGMAR1.ITM~			~override/XGMAR1.ITM~
   SAY NAME2 @669 
   SAY DESC @670 
 
-COPY ~PoFQuestPack/Items/XGMAR.ITM~         ~override/XGMAR.ITM~         
+COPY ~PoFQuestPack/Items/XGMAR.ITM~			~override/XGMAR.ITM~
   SAY NAME2 @671 
 
-COPY ~PoFQuestPack/Items/XGMB.ITM~          ~override/XGMB.ITM~          
+COPY ~PoFQuestPack/Items/XGMB.ITM~			~override/XGMB.ITM~
 
-COPY ~PoFQuestPack/Items/XGMBOOK.ITM~       ~override/XGMBOOK.ITM~       
+COPY ~PoFQuestPack/Items/XGMBOOK.ITM~			~override/XGMBOOK.ITM~
   SAY NAME1 @672 
   SAY NAME2 @672 
   SAY UNIDENTIFIED_DESC @673 
   SAY DESC @673 
 
-COPY ~PoFQuestPack/Items/XGMBOW1.ITM~         ~override/XGMBOW1.ITM~         
+COPY ~PoFQuestPack/Items/XGMBOW1.ITM~			~override/XGMBOW1.ITM~
   SAY NAME2 @674 
   SAY DESC @675 
 
-COPY ~PoFQuestPack/Items/XGMBOW2.ITM~         ~override/XGMBOW2.ITM~         
+COPY ~PoFQuestPack/Items/XGMBOW2.ITM~			~override/XGMBOW2.ITM~
   SAY NAME2 @676 
   SAY DESC @677 
 
-COPY ~PoFQuestPack/Items/XGMBOW3.ITM~         ~override/XGMBOW3.ITM~         
+COPY ~PoFQuestPack/Items/XGMBOW3.ITM~			~override/XGMBOW3.ITM~
   SAY NAME2 @678 
   SAY DESC @679 
 
-COPY ~PoFQuestPack/Items/XGMCA.ITM~         ~override/XGMCA.ITM~         
+COPY ~PoFQuestPack/Items/XGMCA.ITM~			~override/XGMCA.ITM~
   SAY NAME2 ~~ [-1] 
   SAY UNIDENTIFIED_DESC ~~ [-1] 
   SAY DESC @681 
 
-COPY ~PoFQuestPack/Items/XGMISC.ITM~        ~override/XGMISC.ITM~        
+COPY ~PoFQuestPack/Items/XGMISC.ITM~			~override/XGMISC.ITM~
   SAY NAME1 @682 
   SAY NAME2 @682 
   SAY UNIDENTIFIED_DESC @683 
   SAY DESC @683 
 
-COPY ~PoFQuestPack/Items/XGMIT.ITM~         ~override/XGMIT.ITM~         
+COPY ~PoFQuestPack/Items/XGMIT.ITM~			~override/XGMIT.ITM~
   SAY NAME2 @684 
   SAY DESC @685 
 
-COPY ~PoFQuestPack/Items/XGMNEK1.ITM~       ~override/XGMNEK1.ITM~       
+COPY ~PoFQuestPack/Items/XGMNEK1.ITM~			~override/XGMNEK1.ITM~
   SAY NAME1 @686 
   SAY NAME2 @686 
   SAY UNIDENTIFIED_DESC @687 
   SAY DESC @687 
 
-COPY ~PoFQuestPack/Items/XGMOONH.ITM~       ~override/XGMOONH.ITM~       
+COPY ~PoFQuestPack/Items/XGMOONH.ITM~			~override/XGMOONH.ITM~
   SAY NAME1 @688 
   SAY NAME2 @688 
   SAY UNIDENTIFIED_DESC @689 
 
-COPY ~PoFQuestPack/Items/XGMOONS.ITM~       ~override/XGMOONS.ITM~       
+COPY ~PoFQuestPack/Items/XGMOONS.ITM~			~override/XGMOONS.ITM~
   SAY NAME2 @674 
   SAY DESC @690 
 
-COPY ~PoFQuestPack/Items/XGMPLAT.ITM~       ~override/XGMPLAT.ITM~       
+COPY ~PoFQuestPack/Items/XGMPLAT.ITM~			~override/XGMPLAT.ITM~
   SAY NAME2 @511 
   SAY DESC @512 
 
-COPY ~PoFQuestPack/Items/XGMRBO.ITM~        ~override/XGMRBO.ITM~        
+COPY ~PoFQuestPack/Items/XGMRBO.ITM~			~override/XGMRBO.ITM~
   SAY NAME1 @691 
   SAY NAME2 @691 
 
-COPY ~PoFQuestPack/Items/XGMS01.ITM~           ~override/XGMS01.ITM~           
+COPY ~PoFQuestPack/Items/XGMS01.ITM~			~override/XGMS01.ITM~
   SAY NAME2 @692 
   SAY DESC @693 
 
-COPY ~PoFQuestPack/Items/XGMS02.ITM~           ~override/XGMS02.ITM~           
+COPY ~PoFQuestPack/Items/XGMS02.ITM~			~override/XGMS02.ITM~
   SAY NAME2 @694 
   SAY DESC @695 
 
-COPY ~PoFQuestPack/Items/XGMS03.ITM~           ~override/XGMS03.ITM~           
+COPY ~PoFQuestPack/Items/XGMS03.ITM~			~override/XGMS03.ITM~
   SAY NAME2 @696 
   SAY DESC @697 
 
-COPY ~PoFQuestPack/Items/XGSLIN1.ITM~       ~override/XGSLIN1.ITM~       
+COPY ~PoFQuestPack/Items/XGSLIN1.ITM~			~override/XGSLIN1.ITM~
   SAY NAME2 @698 
   SAY DESC @699 
 
-COPY ~PoFQuestPack/Items/XGSLIN2.ITM~       ~override/XGSLIN2.ITM~       
+COPY ~PoFQuestPack/Items/XGSLIN2.ITM~			~override/XGSLIN2.ITM~
   SAY NAME2 @700 
   SAY DESC @701 
 
-COPY ~PoFQuestPack/Items/XGSLIN3.ITM~       ~override/XGSLIN3.ITM~       
+COPY ~PoFQuestPack/Items/XGSLIN3.ITM~			~override/XGSLIN3.ITM~
   SAY NAME2 @702 
   SAY DESC @703 
 
-COPY ~PoFQuestPack/Items/XGmsq.itm~         ~override/XGmsq.itm~         
+COPY ~PoFQuestPack/Items/XGmsq.ITM~			~override/XGmsq.ITM~
   SAY NAME1 @704 
   SAY NAME2 @704 
 
-COPY ~PoFQuestPack/Items/XGSTA1.ITM~       ~override/XGSTA1.ITM~       
+COPY ~PoFQuestPack/Items/XGSTA1.ITM~			~override/XGSTA1.ITM~
   SAY NAME2 @705 
   SAY DESC @706 
 
-COPY ~PoFQuestPack/Items/XGSTA2.ITM~       ~override/XGSTA2.ITM~       
+COPY ~PoFQuestPack/Items/XGSTA2.ITM~			~override/XGSTA2.ITM~
   SAY NAME2 @707 
   SAY DESC @708 
 
-COPY ~PoFQuestPack/Items/XGSTA3.ITM~       ~override/XGSTA3.ITM~       
+COPY ~PoFQuestPack/Items/XGSTA3.ITM~			~override/XGSTA3.ITM~
   SAY NAME2 @709 
   SAY DESC @710 
 
-COPY ~PoFQuestPack/Items/XGMTOK.ITM~        ~override/XGMTOK.ITM~        
+COPY ~PoFQuestPack/Items/XGMTOK.ITM~			~override/XGMTOK.ITM~
   SAY NAME1 @711 
   SAY NAME2 @711 
   SAY UNIDENTIFIED_DESC @712 
   SAY DESC @712 
 
-COPY ~PoFQuestPack/Items/XGMWAND.ITM~       ~override/XGMWAND.ITM~       
+COPY ~PoFQuestPack/Items/XGMWAND.ITM~			~override/XGMWAND.ITM~
   SAY NAME1 @713 
   SAY NAME2 @713 
   SAY UNIDENTIFIED_DESC @714 
   SAY DESC @714 
 
-COPY ~PoFQuestPack/Items/XGMWD.ITM~         ~override/XGMWD.ITM~         
+COPY ~PoFQuestPack/Items/XGMWD.ITM~			~override/XGMWD.ITM~
   SAY NAME1 @715 
   SAY NAME2 @715 
   SAY UNIDENTIFIED_DESC @715 
   SAY DESC @715 
 
-COPY ~PoFQuestPack/Items/XGNINJ1.ITM~        ~override/XGNINJ1.ITM~        
+COPY ~PoFQuestPack/Items/XGNINJ1.ITM~			~override/XGNINJ1.ITM~
   SAY NAME2 @716 
   SAY DESC @717 
 
-COPY ~PoFQuestPack/Items/XGNINJ2.ITM~        ~override/XGNINJ2.ITM~        
+COPY ~PoFQuestPack/Items/XGNINJ2.ITM~			~override/XGNINJ2.ITM~
   SAY NAME2 @718 
   SAY DESC @719 
 
-COPY ~PoFQuestPack/Items/XGNINJ3.ITM~        ~override/XGNINJ3.ITM~        
+COPY ~PoFQuestPack/Items/XGNINJ3.ITM~			~override/XGNINJ3.ITM~
   SAY NAME2 @720 
   SAY DESC @721 
 
-COPY ~PoFQuestPack/Items/XGNOMZ.ITM~        ~override/XGNOMZ.ITM~        
+COPY ~PoFQuestPack/Items/XGNOMZ.ITM~			~override/XGNOMZ.ITM~
   SAY NAME2 @722 
   SAY DESC @723 
 
-COPY ~PoFQuestPack/Items/XGODSW.ITM~           ~override/XGODSW.ITM~           
+COPY ~PoFQuestPack/Items/XGODSW.ITM~			~override/XGODSW.ITM~
   SAY NAME2 @724 
   SAY DESC @725 
 
-COPY ~PoFQuestPack/Items/XGODSW1.ITM~         ~override/XGODSW1.ITM~         
+COPY ~PoFQuestPack/Items/XGODSW1.ITM~			~override/XGODSW1.ITM~
   SAY NAME2 @726 
   SAY DESC @727 
 
-COPY ~PoFQuestPack/Items/XGODSW2.ITM~         ~override/XGODSW2.ITM~         
+COPY ~PoFQuestPack/Items/XGODSW2.ITM~			~override/XGODSW2.ITM~
   SAY NAME2 @728 
   SAY DESC @729 
 
-COPY ~PoFQuestPack/Items/XGODSW3.ITM~         ~override/XGODSW3.ITM~         
+COPY ~PoFQuestPack/Items/XGODSW3.ITM~			~override/XGODSW3.ITM~
   SAY NAME2 @730 
   SAY DESC @731 
 
-COPY ~PoFQuestPack/Items/XGPIK1.ITM~         ~override/XGPIK1.ITM~         
+COPY ~PoFQuestPack/Items/XGPIK1.ITM~			~override/XGPIK1.ITM~
   SAY NAME1 @732 
   SAY NAME2 @732 
   SAY UNIDENTIFIED_DESC @733 
   SAY DESC @733 
 
-COPY ~PoFQuestPack/Items/XGPIK2.ITM~         ~override/XGPIK2.ITM~         
+COPY ~PoFQuestPack/Items/XGPIK2.ITM~			~override/XGPIK2.ITM~
   SAY NAME1 @732 
   SAY NAME2 @734 
   SAY UNIDENTIFIED_DESC @733 
   SAY DESC @735 
 
-COPY ~PoFQuestPack/Items/XGPIK3.ITM~         ~override/XGPIK3.ITM~         
+COPY ~PoFQuestPack/Items/XGPIK3.ITM~			~override/XGPIK3.ITM~
   SAY NAME1 @732 
   SAY NAME2 @736 
   SAY UNIDENTIFIED_DESC @733 
   SAY DESC @737 
 
-COPY ~PoFQuestPack/Items/XGPIK4.ITM~         ~override/XGPIK4.ITM~         
+COPY ~PoFQuestPack/Items/XGPIK4.ITM~			~override/XGPIK4.ITM~
   SAY NAME1 @732 
   SAY NAME2 @738 
   SAY UNIDENTIFIED_DESC @733 
   SAY DESC @739 
 
-COPY ~PoFQuestPack/Items/XGPIK5.ITM~         ~override/XGPIK5.ITM~         
+COPY ~PoFQuestPack/Items/XGPIK5.ITM~			~override/XGPIK5.ITM~
   SAY NAME1 @732 
   SAY NAME2 @740 
   SAY UNIDENTIFIED_DESC @733 
   SAY DESC @741 
 
-COPY ~PoFQuestPack/Items/XGPIK6.ITM~         ~override/XGPIK6.ITM~         
+COPY ~PoFQuestPack/Items/XGPIK6.ITM~			~override/XGPIK6.ITM~
   SAY NAME1 @732 
   SAY NAME2 @742 
   SAY UNIDENTIFIED_DESC @733 
   SAY DESC @743 
 
-COPY ~PoFQuestPack/Items/XGPIK7.ITM~         ~override/XGPIK7.ITM~         
+COPY ~PoFQuestPack/Items/XGPIK7.ITM~			~override/XGPIK7.ITM~
   SAY NAME1 @732 
   SAY NAME2 @744 
   SAY UNIDENTIFIED_DESC @733 
   SAY DESC @745 
 
-COPY ~PoFQuestPack/Items/XGpk1.itm~         ~override/XGpk1.itm~         
+COPY ~PoFQuestPack/Items/XGpk1.ITM~			~override/XGpk1.ITM~
   SAY NAME1 @746 
   SAY NAME2 @746 
   SAY UNIDENTIFIED_DESC @747 
   SAY DESC @747 
 
-COPY ~PoFQuestPack/Items/XGpk2.itm~         ~override/XGpk2.itm~         
+COPY ~PoFQuestPack/Items/XGpk2.ITM~			~override/XGpk2.ITM~
   SAY NAME1 @746 
   SAY NAME2 @746 
   SAY UNIDENTIFIED_DESC @748 
   SAY DESC @748 
 
-COPY ~PoFQuestPack/Items/XGpk3.itm~         ~override/XGpk3.itm~         
+COPY ~PoFQuestPack/Items/XGpk3.ITM~			~override/XGpk3.ITM~
   SAY NAME1 @746 
   SAY NAME2 @746 
   SAY UNIDENTIFIED_DESC @749 
   SAY DESC @749 
 
-COPY ~PoFQuestPack/Items/XGpk4.itm~         ~override/XGpk4.itm~         
+COPY ~PoFQuestPack/Items/XGpk4.ITM~			~override/XGpk4.ITM~
   SAY NAME1 @746 
   SAY NAME2 @746 
   SAY UNIDENTIFIED_DESC @750 
   SAY DESC @750 
 
-COPY ~PoFQuestPack/Items/XGpk5.itm~         ~override/XGpk5.itm~         
+COPY ~PoFQuestPack/Items/XGpk5.ITM~			~override/XGpk5.ITM~
   SAY NAME1 @746 
   SAY NAME2 @746 
   SAY UNIDENTIFIED_DESC @751 
   SAY DESC @751 
 
-COPY ~PoFQuestPack/Items/XGpkc.itm~         ~override/XGpkc.itm~         
+COPY ~PoFQuestPack/Items/XGpkc.ITM~			~override/XGpkc.ITM~
   SAY UNIDENTIFIED_DESC @752 
   SAY DESC @752 
 
-COPY ~PoFQuestPack/Items/XGPLAT1.ITM~          ~override/XGPLAT1.ITM~          
+COPY ~PoFQuestPack/Items/XGPLAT1.ITM~			~override/XGPLAT1.ITM~
   SAY NAME2 @753 
   SAY DESC @754 
 
-COPY ~PoFQuestPack/Items/XGPLA1M.ITM~       ~override/XGPLA1M.ITM~       
+COPY ~PoFQuestPack/Items/XGPLA1M.ITM~			~override/XGPLA1M.ITM~
   SAY NAME1 @651 
   SAY NAME2 @651 
   SAY UNIDENTIFIED_DESC @755 
   SAY DESC @755 
 
-COPY ~PoFQuestPack/Items/XGPLAT2.ITM~          ~override/XGPLAT2.ITM~          
+COPY ~PoFQuestPack/Items/XGPLAT2.ITM~			~override/XGPLAT2.ITM~
   SAY NAME2 @756 
   SAY DESC @757 
 
-COPY ~PoFQuestPack/Items/XGPLAT3.ITM~          ~override/XGPLAT3.ITM~          
+COPY ~PoFQuestPack/Items/XGPLAT3.ITM~			~override/XGPLAT3.ITM~
   SAY NAME2 @758 
   SAY DESC @759 
 
-COPY ~PoFQuestPack/Items/XGPLA30.ITM~         ~override/XGPLA30.ITM~         
+COPY ~PoFQuestPack/Items/XGPLA30.ITM~			~override/XGPLA30.ITM~
   SAY NAME2 @760 
   SAY DESC @571 
 
-COPY ~PoFQuestPack/Items/XGPLAT4.ITM~          ~override/XGPLAT4.ITM~          
+COPY ~PoFQuestPack/Items/XGPLAT4.ITM~			~override/XGPLAT4.ITM~
   SAY NAME2 @761 
   SAY DESC @762 
 
-COPY ~PoFQuestPack/Items/XGPLAT5.ITM~          ~override/XGPLAT5.ITM~          
+COPY ~PoFQuestPack/Items/XGPLAT5.ITM~			~override/XGPLAT5.ITM~
   SAY NAME2 @763 
   SAY DESC @764 
 
-COPY ~PoFQuestPack/Items/XGplat6.ITM~          ~override/XGplat6.ITM~          
+COPY ~PoFQuestPack/Items/XGplat6.ITM~			~override/XGplat6.ITM~
   SAY NAME2 @765 
   SAY DESC @766 
 
-COPY ~PoFQuestPack/Items/XGPLAT7.ITM~          ~override/XGPLAT7.ITM~          
+COPY ~PoFQuestPack/Items/XGPLAT7.ITM~			~override/XGPLAT7.ITM~
   SAY NAME2 @767 
   SAY DESC @768 
 
-COPY ~PoFQuestPack/Items/XGPLAT8.ITM~          ~override/XGPLAT8.ITM~          
+COPY ~PoFQuestPack/Items/XGPLAT8.ITM~			~override/XGPLAT8.ITM~
   SAY NAME2 @769 
   SAY DESC @770 
 
-COPY ~PoFQuestPack/Items/XGPLAT9.ITM~          ~override/XGPLAT9.ITM~          
+COPY ~PoFQuestPack/Items/XGPLAT9.ITM~			~override/XGPLAT9.ITM~
   SAY NAME2 @771 
   SAY DESC @772 
 
-COPY ~PoFQuestPack/Items/XGPLAM1.ITM~         ~override/XGPLAM1.ITM~         
+COPY ~PoFQuestPack/Items/XGPLAM1.ITM~			~override/XGPLAM1.ITM~
   SAY NAME2 @773 
   SAY DESC @774 
 
-COPY ~PoFQuestPack/Items/XGPLD.ITM~         ~override/XGPLD.ITM~         
+COPY ~PoFQuestPack/Items/XGPLD.ITM~			~override/XGPLD.ITM~
   SAY NAME1 @775 
   SAY NAME2 @775 
   SAY UNIDENTIFIED_DESC @776 
   SAY DESC @776 
 
-COPY ~PoFQuestPack/Items/XGplet1.itm~       ~override/XGplet1.itm~       
+COPY ~PoFQuestPack/Items/XGplet1.ITM~			~override/XGplet1.ITM~
   SAY UNIDENTIFIED_DESC @777 
   SAY DESC @777 
 
-COPY ~PoFQuestPack/Items/XGplet.itm~        ~override/XGplet.itm~        
+COPY ~PoFQuestPack/Items/XGplet.ITM~			~override/XGplet.ITM~
   SAY UNIDENTIFIED_DESC @777 
   SAY DESC @777 
 
-COPY ~PoFQuestPack/Items/XGprc1.itm~        ~override/XGprc1.itm~        
+COPY ~PoFQuestPack/Items/XGprc1.ITM~			~override/XGprc1.ITM~
   SAY NAME1 @778 
   SAY NAME2 @778 
   SAY UNIDENTIFIED_DESC @658 
   SAY DESC @658 
 
-COPY ~PoFQuestPack/Items/XGPRC.itm~         ~override/XGPRC.itm~         
+COPY ~PoFQuestPack/Items/XGPRC.ITM~			~override/XGPRC.ITM~
   SAY NAME1 @778 
   SAY NAME2 @778 
   SAY UNIDENTIFIED_DESC @658 
   SAY DESC @658 
 
-COPY ~PoFQuestPack/Items/XGprt1.itm~        ~override/XGprt1.itm~        
+COPY ~PoFQuestPack/Items/XGprt1.ITM~			~override/XGprt1.ITM~
   SAY NAME1 @778 
   SAY NAME2 @778 
   SAY UNIDENTIFIED_DESC @658 
   SAY DESC @658 
 
-COPY ~PoFQuestPack/Items/XGprt.itm~         ~override/XGprt.itm~         
+COPY ~PoFQuestPack/Items/XGprt.ITM~			~override/XGprt.ITM~
   SAY NAME1 @778 
   SAY NAME2 @778 
   SAY UNIDENTIFIED_DESC @658 
   SAY DESC @658 
 
-COPY ~PoFQuestPack/Items/XGQI1.ITM~         ~override/XGQI1.ITM~         
+COPY ~PoFQuestPack/Items/XGQI1.ITM~			~override/XGQI1.ITM~
   SAY NAME1 @779 
   SAY NAME2 @779 
   SAY UNIDENTIFIED_DESC @667 
   SAY DESC @667 
 
-COPY ~PoFQuestPack/Items/XGQI2.ITM~         ~override/XGQI2.ITM~         
+COPY ~PoFQuestPack/Items/XGQI2.ITM~			~override/XGQI2.ITM~
   SAY NAME1 @779 
   SAY NAME2 @779 
   SAY UNIDENTIFIED_DESC @780 
   SAY DESC @780 
 
-COPY ~PoFQuestPack/Items/XGQI3.ITM~         ~override/XGQI3.ITM~         
+COPY ~PoFQuestPack/Items/XGQI3.ITM~			~override/XGQI3.ITM~
   SAY NAME1 @779 
   SAY NAME2 @779 
   SAY UNIDENTIFIED_DESC @667 
   SAY DESC @667 
 
-COPY ~PoFQuestPack/Items/XGqic.itm~         ~override/XGqic.itm~         
+COPY ~PoFQuestPack/Items/XGqic.ITM~			~override/XGqic.ITM~
   SAY NAME1 @781 
   SAY NAME2 @781 
   SAY UNIDENTIFIED_DESC @782 
   SAY DESC @782 
 
-COPY ~PoFQuestPack/Items/XGqi.itm~          ~override/XGqi.itm~          
+COPY ~PoFQuestPack/Items/XGqi.ITM~			~override/XGqi.ITM~
   SAY NAME1 @781 
   SAY NAME2 @781 
   SAY UNIDENTIFIED_DESC @782 
   SAY DESC @782 
 
-COPY ~PoFQuestPack/Items/XGqit.itm~         ~override/XGqit.itm~         
+COPY ~PoFQuestPack/Items/XGqit.ITM~			~override/XGqit.ITM~
   SAY NAME1 @781 
   SAY NAME2 @781 
   SAY UNIDENTIFIED_DESC @782 
   SAY DESC @782 
 
-COPY ~PoFQuestPack/Items/XGQKEY.ITM~        ~override/XGQKEY.ITM~        
+COPY ~PoFQuestPack/Items/XGQKEY.ITM~			~override/XGQKEY.ITM~
   SAY NAME1 @783 
   SAY NAME2 @783 
   SAY UNIDENTIFIED_DESC @784 
   SAY DESC @784 
 
-COPY ~PoFQuestPack/Items/XGRING1.ITM~          ~override/XGRING1.ITM~          
+COPY ~PoFQuestPack/Items/XGRING1.ITM~			~override/XGRING1.ITM~
   SAY NAME2 @785 
   SAY DESC @786 
 
-COPY ~PoFQuestPack/Items/XGRING2.ITM~          ~override/XGRING2.ITM~          
+COPY ~PoFQuestPack/Items/XGRING2.ITM~			~override/XGRING2.ITM~
   SAY NAME2 @787 
   SAY DESC @788 
 
-COPY ~PoFQuestPack/Items/XGRING3.ITM~          ~override/XGRING3.ITM~          
+COPY ~PoFQuestPack/Items/XGRING3.ITM~			~override/XGRING3.ITM~
   SAY NAME2 @789 
   SAY DESC @790 
 
-COPY ~PoFQuestPack/Items/XGRING.ITM~        ~override/XGRING.ITM~        
+COPY ~PoFQuestPack/Items/XGRING.ITM~			~override/XGRING.ITM~
   SAY NAME1 @791 
   SAY NAME2 @791 
   SAY UNIDENTIFIED_DESC @792 
   SAY DESC @792 
 
-COPY ~PoFQuestPack/Items/XGS.ITM~              ~override/XGS.ITM~              
+COPY ~PoFQuestPack/Items/XGS.ITM~			~override/XGS.ITM~
 
-COPY ~PoFQuestPack/Items/XGSAK.ITM~         ~override/XGSAK.ITM~         
+COPY ~PoFQuestPack/Items/XGSAK.ITM~			~override/XGSAK.ITM~
   SAY NAME1 @793 
   SAY NAME2 @793 
 
-COPY ~PoFQuestPack/Items/XGSCR.ITM~         ~override/XGSCR.ITM~         
+COPY ~PoFQuestPack/Items/XGSCR.ITM~			~override/XGSCR.ITM~
   SAY NAME1 @794 
   SAY NAME2 @794 
   SAY DESC @795 
 
-COPY ~PoFQuestPack/Items/XGSHLD1.ITM~          ~override/XGSHLD1.ITM~          
+COPY ~PoFQuestPack/Items/XGSHLD1.ITM~			~override/XGSHLD1.ITM~
   SAY NAME2 @796 
   SAY DESC @797 
 
-COPY ~PoFQuestPack/Items/XGSHLD2.ITM~          ~override/XGSHLD2.ITM~          
+COPY ~PoFQuestPack/Items/XGSHLD2.ITM~			~override/XGSHLD2.ITM~
   SAY NAME2 @798 
   SAY DESC @799 
 
-COPY ~PoFQuestPack/Items/XGSHLD3.ITM~          ~override/XGSHLD3.ITM~          
+COPY ~PoFQuestPack/Items/XGSHLD3.ITM~			~override/XGSHLD3.ITM~
   SAY NAME2 @800 
   SAY DESC @801 
 
-COPY ~PoFQuestPack/Items/XGSHLD4.ITM~          ~override/XGSHLD4.ITM~          
+COPY ~PoFQuestPack/Items/XGSHLD4.ITM~			~override/XGSHLD4.ITM~
   SAY NAME2 @802 
   SAY DESC @803 
 
-COPY ~PoFQuestPack/Items/XGSHL.ITM~         ~override/XGSHL.ITM~         
+COPY ~PoFQuestPack/Items/XGSHL.ITM~			~override/XGSHL.ITM~
 
-COPY ~PoFQuestPack/Items/XGsk.itm~          ~override/XGsk.itm~          
+COPY ~PoFQuestPack/Items/XGsk.ITM~			~override/XGsk.ITM~
   SAY UNIDENTIFIED_DESC @804 
   SAY DESC @804 
 
-COPY ~PoFQuestPack/Items/XGspb.itm~         ~override/XGspb.itm~         
+COPY ~PoFQuestPack/Items/XGspb.ITM~			~override/XGspb.ITM~
   SAY NAME1 @805 
   SAY NAME2 @805 
 
-COPY ~PoFQuestPack/Items/XGSTAR1.ITM~         ~override/XGSTAR1.ITM~         
+COPY ~PoFQuestPack/Items/XGSTAR1.ITM~			~override/XGSTAR1.ITM~
   SAY NAME1 @806 
   SAY NAME2 @806 
   SAY UNIDENTIFIED_DESC @807 
   SAY DESC @807 
 
-COPY ~PoFQuestPack/Items/XGSTAR2.ITM~         ~override/XGSTAR2.ITM~         
+COPY ~PoFQuestPack/Items/XGSTAR2.ITM~			~override/XGSTAR2.ITM~
   SAY NAME1 @806 
   SAY NAME2 @808 
   SAY UNIDENTIFIED_DESC @809 
   SAY DESC @810 
 
-COPY ~PoFQuestPack/Items/XGSTAR3.ITM~         ~override/XGSTAR3.ITM~         
+COPY ~PoFQuestPack/Items/XGSTAR3.ITM~			~override/XGSTAR3.ITM~
   SAY NAME1 @806 
   SAY NAME2 @811 
   SAY UNIDENTIFIED_DESC @809 
   SAY DESC @812 
 
-COPY ~PoFQuestPack/Items/XGSTAR4.ITM~         ~override/XGSTAR4.ITM~         
+COPY ~PoFQuestPack/Items/XGSTAR4.ITM~			~override/XGSTAR4.ITM~
   SAY NAME1 @806 
   SAY NAME2 @813 
   SAY UNIDENTIFIED_DESC @809 
   SAY DESC @814 
 
-COPY ~PoFQuestPack/Items/XGSTAR5.ITM~         ~override/XGSTAR5.ITM~         
+COPY ~PoFQuestPack/Items/XGSTAR5.ITM~			~override/XGSTAR5.ITM~
   SAY NAME1 @806 
   SAY NAME2 @815 
   SAY UNIDENTIFIED_DESC @809 
   SAY DESC @816 
 
-COPY ~PoFQuestPack/Items/XGSTAR6.ITM~         ~override/XGSTAR6.ITM~         
+COPY ~PoFQuestPack/Items/XGSTAR6.ITM~			~override/XGSTAR6.ITM~
   SAY NAME1 @806 
   SAY NAME2 @817 
   SAY UNIDENTIFIED_DESC @809 
   SAY DESC @818 
 
-COPY ~PoFQuestPack/Items/XGSTAR7.ITM~         ~override/XGSTAR7.ITM~         
+COPY ~PoFQuestPack/Items/XGSTAR7.ITM~			~override/XGSTAR7.ITM~
   SAY NAME1 @806 
   SAY NAME2 @819 
   SAY UNIDENTIFIED_DESC @809 
   SAY DESC @820 
 
-COPY ~PoFQuestPack/Items/XGSTAR.ITM~        ~override/XGSTAR.ITM~        
+COPY ~PoFQuestPack/Items/XGSTAR.ITM~			~override/XGSTAR.ITM~
 
-COPY ~PoFQuestPack/Items/XGSUD01.ITM~          ~override/XGSUD01.ITM~          
+COPY ~PoFQuestPack/Items/XGSUD01.ITM~			~override/XGSUD01.ITM~
   SAY NAME1 @821 
   SAY NAME2 @821 
   SAY UNIDENTIFIED_DESC @822 
   SAY DESC @822 
 
-COPY ~PoFQuestPack/Items/XGSUD02.ITM~          ~override/XGSUD02.ITM~          
+COPY ~PoFQuestPack/Items/XGSUD02.ITM~			~override/XGSUD02.ITM~
   SAY NAME1 @821 
   SAY NAME2 @823 
   SAY UNIDENTIFIED_DESC @822 
   SAY DESC @824 
 
-COPY ~PoFQuestPack/Items/XGSUD03.ITM~          ~override/XGSUD03.ITM~          
+COPY ~PoFQuestPack/Items/XGSUD03.ITM~			~override/XGSUD03.ITM~
   SAY NAME1 @821 
   SAY NAME2 @825 
   SAY UNIDENTIFIED_DESC @822 
   SAY DESC @826 
 
-COPY ~PoFQuestPack/Items/XGSUD04.ITM~          ~override/XGSUD04.ITM~          
+COPY ~PoFQuestPack/Items/XGSUD04.ITM~			~override/XGSUD04.ITM~
   SAY NAME1 @821 
   SAY NAME2 @827 
   SAY UNIDENTIFIED_DESC @822 
   SAY DESC @828 
 
-COPY ~PoFQuestPack/Items/XGSUD05.ITM~          ~override/XGSUD05.ITM~          
+COPY ~PoFQuestPack/Items/XGSUD05.ITM~			~override/XGSUD05.ITM~
   SAY NAME1 @821 
   SAY NAME2 @829 
   SAY UNIDENTIFIED_DESC @822 
   SAY DESC @830 
 
-COPY ~PoFQuestPack/Items/XGSUD06.ITM~          ~override/XGSUD06.ITM~          
+COPY ~PoFQuestPack/Items/XGSUD06.ITM~			~override/XGSUD06.ITM~
   SAY NAME1 @821 
   SAY NAME2 @831 
   SAY UNIDENTIFIED_DESC @822 
   SAY DESC @832 
 
-COPY ~PoFQuestPack/Items/XGSUD07.ITM~          ~override/XGSUD07.ITM~          
+COPY ~PoFQuestPack/Items/XGSUD07.ITM~			~override/XGSUD07.ITM~
   SAY NAME1 @821 
   SAY NAME2 @833 
   SAY UNIDENTIFIED_DESC @822 
   SAY DESC @834 
 
-COPY ~PoFQuestPack/Items/XGSWFJ.ITM~        ~override/XGSWFJ.ITM~        
+COPY ~PoFQuestPack/Items/XGSWFJ.ITM~			~override/XGSWFJ.ITM~
   SAY NAME1 @835 
   SAY NAME2 @835 
   SAY UNIDENTIFIED_DESC @836 
   SAY DESC @837 
 
-COPY ~PoFQuestPack/Items/XGSWOJ.ITM~        ~override/XGSWOJ.ITM~        
+COPY ~PoFQuestPack/Items/XGSWOJ.ITM~			~override/XGSWOJ.ITM~
 
-COPY ~PoFQuestPack/Items/XGSWOR1.ITM~        ~override/XGSWOR1.ITM~        
+COPY ~PoFQuestPack/Items/XGSWOR1.ITM~			~override/XGSWOR1.ITM~
   SAY NAME2 @838 
   SAY DESC @839 
 
-COPY ~PoFQuestPack/Items/XGSWOR2.ITM~        ~override/XGSWOR2.ITM~        
+COPY ~PoFQuestPack/Items/XGSWOR2.ITM~			~override/XGSWOR2.ITM~
   SAY NAME2 @840 
   SAY DESC @841 
 
-COPY ~PoFQuestPack/Items/XGSWOR3.ITM~        ~override/XGSWOR3.ITM~        
+COPY ~PoFQuestPack/Items/XGSWOR3.ITM~			~override/XGSWOR3.ITM~
   SAY NAME2 @842 
   SAY DESC @843 
 
-COPY ~PoFQuestPack/Items/XGSWOR4.ITM~        ~override/XGSWOR4.ITM~        
+COPY ~PoFQuestPack/Items/XGSWOR4.ITM~			~override/XGSWOR4.ITM~
   SAY NAME2 @844 
   SAY DESC @845 
 
-COPY ~PoFQuestPack/Items/XGSWOR5.ITM~        ~override/XGSWOR5.ITM~        
+COPY ~PoFQuestPack/Items/XGSWOR5.ITM~			~override/XGSWOR5.ITM~
   SAY NAME2 @846 
   SAY DESC @847 
 
-COPY ~PoFQuestPack/Items/XGSWOR6.ITM~        ~override/XGSWOR6.ITM~        
+COPY ~PoFQuestPack/Items/XGSWOR6.ITM~			~override/XGSWOR6.ITM~
   SAY NAME2 @848 
   SAY DESC @849 
 
-COPY ~PoFQuestPack/Items/XGSWOR7.ITM~        ~override/XGSWOR7.ITM~        
+COPY ~PoFQuestPack/Items/XGSWOR7.ITM~			~override/XGSWOR7.ITM~
   SAY NAME2 @850 
   SAY DESC @851 
 
-COPY ~PoFQuestPack/Items/XGSWOR8.ITM~        ~override/XGSWOR8.ITM~        
+COPY ~PoFQuestPack/Items/XGSWOR8.ITM~			~override/XGSWOR8.ITM~
   SAY NAME2 @852 
   SAY DESC @853 
 
-COPY ~PoFQuestPack/Items/XGSWOR9.ITM~        ~override/XGSWOR9.ITM~        
+COPY ~PoFQuestPack/Items/XGSWOR9.ITM~			~override/XGSWOR9.ITM~
   SAY NAME2 @854 
   SAY DESC @855 
 
-COPY ~PoFQuestPack/Items/XGSWO10.ITM~        ~override/XGSWO10.ITM~        
+COPY ~PoFQuestPack/Items/XGSWO10.ITM~			~override/XGSWO10.ITM~
   SAY NAME2 @856 
   SAY DESC @857 
 
-COPY ~PoFQuestPack/Items/XGSWO11.ITM~        ~override/XGSWO11.ITM~        
+COPY ~PoFQuestPack/Items/XGSWO11.ITM~			~override/XGSWO11.ITM~
   SAY NAME2 @858 
   SAY DESC @859 
 
-COPY ~PoFQuestPack/Items/XGSWO12.ITM~        ~override/XGSWO12.ITM~        
+COPY ~PoFQuestPack/Items/XGSWO12.ITM~			~override/XGSWO12.ITM~
   SAY NAME2 @860 
   SAY DESC @861 
 
-COPY ~PoFQuestPack/Items/XGSWO13.ITM~        ~override/XGSWO13.ITM~        
+COPY ~PoFQuestPack/Items/XGSWO13.ITM~			~override/XGSWO13.ITM~
   SAY NAME2 @862 
   SAY DESC @863 
 
-COPY ~PoFQuestPack/Items/XGSWO14.ITM~        ~override/XGSWO14.ITM~        
+COPY ~PoFQuestPack/Items/XGSWO14.ITM~			~override/XGSWO14.ITM~
   SAY NAME2 @864 
   SAY DESC @865 
 
-COPY ~PoFQuestPack/Items/XGSWO15.ITM~        ~override/XGSWO15.ITM~        
+COPY ~PoFQuestPack/Items/XGSWO15.ITM~			~override/XGSWO15.ITM~
   SAY NAME2 @866 
   SAY DESC @867 
 
-COPY ~PoFQuestPack/Items/XGSWO16.ITM~        ~override/XGSWO16.ITM~        
+COPY ~PoFQuestPack/Items/XGSWO16.ITM~			~override/XGSWO16.ITM~
   SAY NAME2 @868 
   SAY DESC @869 
 
-COPY ~PoFQuestPack/Items/XGSWO17.ITM~        ~override/XGSWO17.ITM~        
+COPY ~PoFQuestPack/Items/XGSWO17.ITM~			~override/XGSWO17.ITM~
   SAY NAME2 @870 
   SAY DESC @871 
 
-COPY ~PoFQuestPack/Items/XGSWO18.ITM~        ~override/XGSWO18.ITM~        
+COPY ~PoFQuestPack/Items/XGSWO18.ITM~			~override/XGSWO18.ITM~
   SAY NAME2 @872 
   SAY DESC @873 
 
-COPY ~PoFQuestPack/Items/XGSWO19.ITM~        ~override/XGSWO19.ITM~        
+COPY ~PoFQuestPack/Items/XGSWO19.ITM~			~override/XGSWO19.ITM~
   SAY NAME2 @874 
   SAY DESC @875 
 
-COPY ~PoFQuestPack/Items/XGSWO20.ITM~        ~override/XGSWO20.ITM~        
+COPY ~PoFQuestPack/Items/XGSWO20.ITM~			~override/XGSWO20.ITM~
   SAY NAME2 @876 
   SAY DESC @877 
 
-COPY ~PoFQuestPack/Items/XGSWO21.ITM~        ~override/XGSWO21.ITM~        
+COPY ~PoFQuestPack/Items/XGSWO21.ITM~			~override/XGSWO21.ITM~
   SAY NAME2 @878 
   SAY DESC @879 
 
-COPY ~PoFQuestPack/Items/XGTGBOD.ITM~       ~override/XGTGBOD.ITM~       
+COPY ~PoFQuestPack/Items/XGTGBOD.ITM~			~override/XGTGBOD.ITM~
   SAY NAME1 @880 
   SAY NAME2 @880 
   SAY DESC @881 
 
 
-COPY ~PoFQuestPack/Items/XGTRBL.ITM~        ~override/XGTRBL.ITM~        
+COPY ~PoFQuestPack/Items/XGTRBL.ITM~			~override/XGTRBL.ITM~
   SAY NAME1 @882 
   SAY NAME2 @882 
   SAY UNIDENTIFIED_DESC @883 
   SAY DESC @883 
 
-COPY ~PoFQuestPack/Items/XGTRI1.ITM~         ~override/XGTRI1.ITM~         
+COPY ~PoFQuestPack/Items/XGTRI1.ITM~			~override/XGTRI1.ITM~
   SAY NAME1 @884 
   SAY NAME2 @884 
   SAY UNIDENTIFIED_DESC @885 
   SAY DESC @885 
 
-COPY ~PoFQuestPack/Items/XGTRI2.ITM~         ~override/XGTRI2.ITM~         
+COPY ~PoFQuestPack/Items/XGTRI2.ITM~			~override/XGTRI2.ITM~
   SAY NAME1 @884 
   SAY NAME2 @886 
   SAY UNIDENTIFIED_DESC @885 
   SAY DESC @887 
 
-COPY ~PoFQuestPack/Items/XGTRI3.ITM~         ~override/XGTRI3.ITM~         
+COPY ~PoFQuestPack/Items/XGTRI3.ITM~			~override/XGTRI3.ITM~
   SAY NAME1 @884 
   SAY NAME2 @888 
   SAY UNIDENTIFIED_DESC @885 
   SAY DESC @889 
 
-COPY ~PoFQuestPack/Items/XGTRI4.ITM~         ~override/XGTRI4.ITM~         
+COPY ~PoFQuestPack/Items/XGTRI4.ITM~			~override/XGTRI4.ITM~
   SAY NAME1 @884 
   SAY NAME2 @890 
   SAY UNIDENTIFIED_DESC @885 
   SAY DESC @891 
 
-COPY ~PoFQuestPack/Items/XGTRI5.ITM~         ~override/XGTRI5.ITM~         
+COPY ~PoFQuestPack/Items/XGTRI5.ITM~			~override/XGTRI5.ITM~
   SAY NAME1 @884 
   SAY NAME2 @892 
   SAY UNIDENTIFIED_DESC @885 
   SAY DESC @893 
 
-COPY ~PoFQuestPack/Items/XGTRI6.ITM~         ~override/XGTRI6.ITM~         
+COPY ~PoFQuestPack/Items/XGTRI6.ITM~			~override/XGTRI6.ITM~
   SAY NAME1 @884 
   SAY NAME2 @894 
   SAY UNIDENTIFIED_DESC @885 
   SAY DESC @895 
 
-COPY ~PoFQuestPack/Items/XGTRI7.ITM~         ~override/XGTRI7.ITM~         
+COPY ~PoFQuestPack/Items/XGTRI7.ITM~			~override/XGTRI7.ITM~
   SAY NAME1 @884 
   SAY NAME2 @896 
   SAY UNIDENTIFIED_DESC @885 
   SAY DESC @897 
 
-COPY ~PoFQuestPack/Items/XGTRW.ITM~         ~override/XGTRW.ITM~         
+COPY ~PoFQuestPack/Items/XGTRW.ITM~			~override/XGTRW.ITM~
   SAY NAME2 @898 
   SAY DESC @899 
 
-COPY ~PoFQuestPack/Items/XGUKEY.ITM~        ~override/XGUKEY.ITM~        
+COPY ~PoFQuestPack/Items/XGUKEY.ITM~			~override/XGUKEY.ITM~
   SAY UNIDENTIFIED_DESC @900 
   SAY DESC @900 
 
-COPY ~PoFQuestPack/Items/XGVR.ITM~          ~override/XGVR.ITM~          
+COPY ~PoFQuestPack/Items/XGVR.ITM~			~override/XGVR.ITM~
   SAY NAME1 @901 
   SAY NAME2 @902 
   SAY DESC @903 
 
-COPY ~PoFQuestPack/Items/XGWA.ITM~          ~override/XGWA.ITM~          
+COPY ~PoFQuestPack/Items/XGWA.ITM~			~override/XGWA.ITM~
   SAY NAME1 @904 
   SAY NAME2 @904 
   SAY UNIDENTIFIED_DESC @905 
   SAY DESC @905 
 
-COPY ~PoFQuestPack/Items/XGWAND1.ITM~          ~override/XGWAND1.ITM~          
+COPY ~PoFQuestPack/Items/XGWAND1.ITM~			~override/XGWAND1.ITM~
   SAY NAME2 @906 
   SAY DESC @907 
 
-COPY ~PoFQuestPack/Items/XGWAND2.ITM~          ~override/XGWAND2.ITM~          
+COPY ~PoFQuestPack/Items/XGWAND2.ITM~			~override/XGWAND2.ITM~
   SAY NAME2 @908 
   SAY DESC @909 
 
-COPY ~PoFQuestPack/Items/XGWAND3.ITM~          ~override/XGWAND3.ITM~          
+COPY ~PoFQuestPack/Items/XGWAND3.ITM~			~override/XGWAND3.ITM~
   SAY NAME2 @910 
   SAY DESC @911 
 
-COPY ~PoFQuestPack/Items/XGWH.ITM~          ~override/XGWH.ITM~          
+COPY ~PoFQuestPack/Items/XGWH.ITM~			~override/XGWH.ITM~
   SAY NAME1 @912 
   SAY UNIDENTIFIED_DESC @913 
 
-COPY ~PoFQuestPack/Items/XGWOLFF.ITM~       ~override/XGWOLFF.ITM~       
+COPY ~PoFQuestPack/Items/XGWOLFF.ITM~			~override/XGWOLFF.ITM~
 
-COPY ~PoFQuestPack/Items/XGWRD1.ITM~        ~override/XGWRD1.ITM~        
+COPY ~PoFQuestPack/Items/XGWRD1.ITM~			~override/XGWRD1.ITM~
   SAY NAME1 @914 
   SAY NAME2 @914 
   SAY UNIDENTIFIED_DESC @915 
   SAY DESC @915 
 
-COPY ~PoFQuestPack/Items/XGWRG.ITM~         ~override/XGWRG.ITM~         
+COPY ~PoFQuestPack/Items/XGWRG.ITM~			~override/XGWRG.ITM~
   SAY UNIDENTIFIED_DESC @916 
   SAY DESC @916 
 
-COPY ~PoFQuestPack/Items/XGZAT1.ITM~        ~override/XGZAT1.ITM~        
+COPY ~PoFQuestPack/Items/XGZAT1.ITM~			~override/XGZAT1.ITM~
   SAY NAME1 @917 
   SAY NAME2 @917 
   SAY UNIDENTIFIED_DESC @917 
   SAY DESC @917 
 
-COPY ~PoFQuestPack/Items/XGZAT2.ITM~        ~override/XGZAT2.ITM~        
+COPY ~PoFQuestPack/Items/XGZAT2.ITM~			~override/XGZAT2.ITM~
   SAY NAME1 @917 
   SAY NAME2 @917 
   SAY UNIDENTIFIED_DESC @917 
   SAY DESC @917 
 
-COPY ~PoFQuestPack/Items/XGZAT3.ITM~        ~override/XGZAT3.ITM~        
+COPY ~PoFQuestPack/Items/XGZAT3.ITM~			~override/XGZAT3.ITM~
   SAY NAME1 @917 
   SAY NAME2 @917 
   SAY UNIDENTIFIED_DESC @917 
   SAY DESC @917 
 
-COPY ~PoFQuestPack/Items/XGZAT4.ITM~        ~override/XGZAT4.ITM~        
+COPY ~PoFQuestPack/Items/XGZAT4.ITM~			~override/XGZAT4.ITM~
   SAY NAME1 @917 
   SAY NAME2 @917 
   SAY UNIDENTIFIED_DESC @917 
   SAY DESC @917 
 
-COPY ~PoFQuestPack/Items/XGZAT5.ITM~        ~override/XGZAT5.ITM~        
-  SAY NAME1 @917 
-  SAY NAME2 @917 
-  SAY UNIDENTIFIED_DESC @917 
-  SAY DESC @917 
+COPY ~PoFQuestPack/Items/XGZAT5.ITM~			~override/XGZAT5.ITM~
+  SAY NAME1 @917
+  SAY NAME2 @917
+  SAY UNIDENTIFIED_DESC @917
+  SAY DESC @917
 
-COPY ~PoFQuestPack/Items/XGZAT6.ITM~        ~override/XGZAT6.ITM~        
-  SAY NAME1 @917 
-  SAY NAME2 @917 
-  SAY UNIDENTIFIED_DESC @917 
-  SAY DESC @917 
+COPY ~PoFQuestPack/Items/XGZAT6.ITM~			~override/XGZAT6.ITM~
+  SAY NAME1 @917
+  SAY NAME2 @917
+  SAY UNIDENTIFIED_DESC @917
+  SAY DESC @917
 
-COPY ~PoFQuestPack/Items/XGZAT.ITM~         ~override/XGZAT.ITM~         
-  SAY NAME1 @917 
-  SAY NAME2 @917 
-  SAY UNIDENTIFIED_DESC @917 
-  SAY DESC @917 
+COPY ~PoFQuestPack/Items/XGZAT.ITM~			~override/XGZAT.ITM~
+  SAY NAME1 @917
+  SAY NAME2 @917
+  SAY UNIDENTIFIED_DESC @917
+  SAY DESC @917
 
 
 //////////////////////////////////
@@ -5235,136 +5252,144 @@ COPY ~PoFQuestPack/Items/XGZAT.ITM~         ~override/XGZAT.ITM~
 MKDIR ~weidu_external/PoFQuestPack/Stores~
 
 ACTION_BASH_FOR ~PoFQuestPack/Stores~ ~^.+$~ BEGIN
+
 PRINT ~         ~
 PRINT ~START item in store~
 PRINT ~         ~
+
   COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%BASH_FOR_FILESPEC%~
-    LPM UPDATE_POF_ITEM_NAMES_ON_STORE	
+    LPM UPDATE_POF_ITEM_NAMES_ON_STORE
+	
 PRINT ~         ~
 PRINT ~END item in store~
 PRINT ~         ~
+
 END
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGBARF.STO~       ~override/XGBARF.STO~        
-  SAY NAME2 @919 
+COPY ~weidu_external/PoFQuestPack/Stores/XGBARF.STO~			~override/XGBARF.STO~
+  SAY NAME2 @919
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGBG1.STO~        ~override/XGBG1.STO~         
-  SAY NAME2 @919 
+COPY ~weidu_external/PoFQuestPack/Stores/XGBG1.STO~			~override/XGBG1.STO~
+  SAY NAME2 @919
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGbshp.sto~       ~override/XGbshp.sto~
+COPY ~weidu_external/PoFQuestPack/Stores/XGBSHP.STO~			~override/XGBSHP.STO~
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGcls.STO~      ~override/XGcls.STO~
-  SAY NAME2 @926        
+COPY ~weidu_external/PoFQuestPack/Stores/XGCLS.STO~			~override/XGCLS.STO~
+  SAY NAME2 @926
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGESBL.STO~       ~override/XGESBL.STO~        
+COPY ~weidu_external/PoFQuestPack/Stores/XGESBL.STO~			~override/XGESBL.STO~
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGESBR.STO~       ~override/XGESBR.STO~        
-  SAY NAME2 @920 
+COPY ~weidu_external/PoFQuestPack/Stores/XGESBR.STO~			~override/XGESBR.STO~
+  SAY NAME2 @920
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGkos.sto~        ~override/XGkos.sto~         
-  SAY NAME2 @921 
+COPY ~weidu_external/PoFQuestPack/Stores/XGKOS.STO~			~override/XGKOS.STO~
+  SAY NAME2 @921
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGNS1.STO~        ~override/XGNS1.STO~         
-  SAY NAME2 @922 
+COPY ~weidu_external/PoFQuestPack/Stores/XGNS1.STO~			~override/XGNS1.STO~
+  SAY NAME2 @922
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGNWNB.STO~       ~override/XGNWNB.STO~        
-  SAY NAME2 @923 
-  
-COPY ~weidu_external/PoFQuestPack/Stores/XGNWNSF.STO~      ~override/XGNWNSF.STO~ 
+COPY ~weidu_external/PoFQuestPack/Stores/XGNWNB.STO~			~override/XGNWNB.STO~
+  SAY NAME2 @923
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGNWNS.STO~      ~override/XGNWNS.STO~
+COPY ~weidu_external/PoFQuestPack/Stores/XGNWNSF.STO~			~override/XGNWNSF.STO~
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGSHOP1.STO~      ~override/XGSHOP1.STO~       
+COPY ~weidu_external/PoFQuestPack/Stores/XGNWNS.STO~			~override/XGNWNS.STO~
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGSHOP2.STO~      ~override/XGSHOP2.STO~       
+COPY ~weidu_external/PoFQuestPack/Stores/XGSHOP1.STO~			~override/XGSHOP1.STO~
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGshop4.sto~      ~override/XGshop4.sto~       
+COPY ~weidu_external/PoFQuestPack/Stores/XGSHOP2.STO~			~override/XGSHOP2.STO~
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGshope.sto~      ~override/XGshope.sto~       
+COPY ~weidu_external/PoFQuestPack/Stores/XGSHOP4.STO~			~override/XGSHOP4.STO~
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGSHOPF.STO~      ~override/XGSHOPF.STO~      
-  
-COPY ~weidu_external/PoFQuestPack/Stores/XGshopw.sto~      ~override/XGshopw.sto~
+COPY ~weidu_external/PoFQuestPack/Stores/XGSHOPE.STO~			~override/XGSHOPE.STO~
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGCLERS.STO~      ~override/XGCLERS.STO~
+COPY ~weidu_external/PoFQuestPack/Stores/XGSHOPF.STO~			~override/XGSHOPF.STO~
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGINNKW.sto~      ~override/XGINNKW.sto~
+COPY ~weidu_external/PoFQuestPack/Stores/XGSHOPW.STO~			~override/XGSHOPW.STO~
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGSHOP3.STO~      ~override/XGSHOP3.STO~
+COPY ~weidu_external/PoFQuestPack/Stores/XGCLERS.STO~			~override/XGCLERS.STO~
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGTYRL.STO~       ~override/XGTYRL.STO~        
-  SAY NAME2 @925  
- 
-COPY ~weidu_external/PoFQuestPack/Stores/s#HELM01.sto~       ~override/s#HELM01.sto~        
-  SAY NAME2 @927 
- 
-COPY ~weidu_external/PoFQuestPack/Stores/s#ilmat1.sto~       ~override/s#ilmat1.sto~        
-  SAY NAME2 @928 
- 
-COPY ~weidu_external/PoFQuestPack/Stores/s#inn01.sto~       ~override/s#inn01.sto~        
-  SAY NAME2 @172 
- 
-COPY ~weidu_external/PoFQuestPack/Stores/s#inn02.sto~       ~override/s#inn02.sto~        
+COPY ~weidu_external/PoFQuestPack/Stores/XGINNKW.STO~			~override/XGINNKW.STO~
+
+COPY ~weidu_external/PoFQuestPack/Stores/XGSHOP3.STO~			~override/XGSHOP3.STO~
+
+COPY ~weidu_external/PoFQuestPack/Stores/XGTYRL.STO~			~override/XGTYRL.STO~
+  SAY NAME2 @925
+
+COPY ~weidu_external/PoFQuestPack/Stores/S#HELM01.STO~			~override/S#HELM01.STO~
+  SAY NAME2 @927
+
+COPY ~weidu_external/PoFQuestPack/Stores/S#ILMAT1.STO~			~override/S#ILMAT1.STO~
+  SAY NAME2 @928
+
+COPY ~weidu_external/PoFQuestPack/Stores/S#INN01.STO~			~override/S#INN01.STO~
   SAY NAME2 @172
- 
-COPY ~weidu_external/PoFQuestPack/Stores/S#SHEV01.sto~       ~override/S#SHEV01.sto~        
-  SAY NAME2 @929
- 
-COPY ~weidu_external/PoFQuestPack/Stores/s#SHOP01.sto~       ~override/s#SHOP01.sto~        
-  SAY NAME2 @402        
 
+COPY ~weidu_external/PoFQuestPack/Stores/S#INN02.STO~			~override/S#INN02.STO~
+  SAY NAME2 @172
+
+COPY ~weidu_external/PoFQuestPack/Stores/S#SHEV01.STO~			~override/S#SHEV01.STO~
+  SAY NAME2 @929
+
+COPY ~weidu_external/PoFQuestPack/Stores/s#SHOP01.STO~			~override/s#SHOP01.STO~
+  SAY NAME2 @402
+
+ 
 //////////////////////////////////
 // Comp. D & BAF
 //////////////////////////////////
 
-COMPILE	~PoFQuestPack/d~  
 
-COMPILE ~PoFQuestPack/Baf_new~  
+COMPILE	~PoFQuestPack/d~
+
+COMPILE ~PoFQuestPack/Baf_new~
+
 
 //////////////////////////////////
 // EXTEND  bcs
 //////////////////////////////////
 
-EXTEND_TOP ~ar0020.bcs~                 ~PoFQuestPack/baf_are/s#AR0020.baf~
-USING ~PoFQuestPack/Languages/%s/baf_are/s#AR0020.tra~
 
-EXTEND_TOP ~ar0300.bcs~                 ~PoFQuestPack/baf_are/s#AR0300.baf~
-USING ~PoFQuestPack/Languages/%s/baf_are/s#AR0300.tra~
+EXTEND_TOP ~AR0020.BCS~				~PoFQuestPack/baf_are/S#AR0020.baf~
+USING ~PoFQuestPack/Languages/%s/baf_are/S#AR0020.tra~
 
-EXTEND_TOP ~ar0305.bcs~                 ~PoFQuestPack/baf_are/s#AR0305.baf~
+EXTEND_TOP ~AR0300.BCS~				~PoFQuestPack/baf_are/S#AR0300.baf~
+USING ~PoFQuestPack/Languages/%s/baf_are/S#AR0300.tra~
 
-EXTEND_TOP ~ar0400.bcs~                 ~PoFQuestPack/baf_are/s#AR0400.baf~
+EXTEND_TOP ~AR0305.BCS~				~PoFQuestPack/baf_are/S#AR0305.baf~
 
-EXTEND_TOP ~ar0500.bcs~                 ~PoFQuestPack/baf_are/s#AR0500.baf~
+EXTEND_TOP ~AR0400.BCS~				~PoFQuestPack/baf_are/S#AR0400.baf~
 
-EXTEND_TOP ~ar0527.bcs~                 ~PoFQuestPack/baf_are/s#AR0527.baf~
+EXTEND_TOP ~AR0500.BCS~				~PoFQuestPack/baf_are/S#AR0500.baf~
 
-EXTEND_TOP ~ar0528.bcs~                 ~PoFQuestPack/baf_are/s#AR0528.baf~
+EXTEND_TOP ~AR0527.BCS~				~PoFQuestPack/baf_are/S#AR0527.baf~
 
-EXTEND_TOP ~ar0602.bcs~                 ~PoFQuestPack/baf_are/s#AR0602.baf~
-USING ~PoFQuestPack/Languages/%s/baf_are/s#AR0602.tra~
+EXTEND_TOP ~AR0528.BCS~				~PoFQuestPack/baf_are/S#AR0528.baf~
 
-EXTEND_BOTTOM ~ar0700.bcs~                 ~PoFQuestPack/baf_are/s#AR0700.baf~
+EXTEND_TOP ~AR0602.BCS~				~PoFQuestPack/baf_are/S#AR0602.baf~
+USING ~PoFQuestPack/Languages/%s/baf_are/S#AR0602.tra~
 
-EXTEND_TOP ~ar0800.bcs~                 ~PoFQuestPack/baf_are/s#AR0800.baf~
+EXTEND_BOTTOM ~AR0700.BCS~				~PoFQuestPack/baf_are/S#AR0700.baf~
 
-EXTEND_TOP ~ar0900.bcs~                 ~PoFQuestPack/baf_are/s#AR0900.baf~
+EXTEND_TOP ~AR0800.BCS~				~PoFQuestPack/baf_are/S#AR0800.baf~
 
-EXTEND_TOP ~ar1000.bcs~                 ~PoFQuestPack/baf_are/s#AR1000.baf~
-USING ~PoFQuestPack/Languages/%s/baf_are/s#AR1000.tra~
+EXTEND_TOP ~AR0900.BCS~				~PoFQuestPack/baf_are/S#AR0900.baf~
 
-EXTEND_TOP ~ar1005.bcs~                 ~PoFQuestPack/baf_are/s#AR1005.baf~
-USING ~PoFQuestPack/Languages/%s/baf_are/s#AR1005.tra~
+EXTEND_TOP ~AR1000.BCS~				~PoFQuestPack/baf_are/S#AR1000.baf~
+USING ~PoFQuestPack/Languages/%s/baf_are/S#AR1000.tra~
 
-EXTEND_TOP ~ar1100.bcs~                 ~PoFQuestPack/baf_are/s#AR1100.baf~
-USING ~PoFQuestPack/Languages/%s/baf_are/s#AR1100.tra~
+EXTEND_TOP ~AR1005.BCS~				~PoFQuestPack/baf_are/S#AR1005.baf~
+USING ~PoFQuestPack/Languages/%s/baf_are/S#AR1005.tra~
 
-EXTEND_TOP ~ar1500.bcs~                 ~PoFQuestPack/baf_are/s#AR1500.baf~
+EXTEND_TOP ~AR1100.BCS~				~PoFQuestPack/baf_are/S#AR1100.baf~
+USING ~PoFQuestPack/Languages/%s/baf_are/S#AR1100.tra~
 
-EXTEND_TOP ~ar1602.bcs~                 ~PoFQuestPack/baf_are/s#AR1602.baf~
+EXTEND_TOP ~AR1500.BCS~				~PoFQuestPack/baf_are/S#AR1500.baf~
 
-EXTEND_TOP ~ar2000.bcs~                 ~PoFQuestPack/baf_are/s#AR2000.baf~
-USING ~PoFQuestPack/Languages/%s/baf_are/s#AR2000.tra~
+EXTEND_TOP ~AR1602.BCS~				~PoFQuestPack/baf_are/S#AR1602.baf~
+
+EXTEND_TOP ~AR2000.BCS~				~PoFQuestPack/baf_are/S#AR2000.baf~
+USING ~PoFQuestPack/Languages/%s/baf_are/S#AR2000.tra~
 
 
 
@@ -5372,19 +5397,25 @@ USING ~PoFQuestPack/Languages/%s/baf_are/s#AR2000.tra~
 // Worldmap
 //////////////////////////////////
 
+
   ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
-    COPY ~Worldmap/map_mods_areas.tbl~  ~Worldmap~
+  
+    COPY ~Worldmap/map_mods_areas.tbl~		~Worldmap~
      APPEND_FILE ~PoFQuestPack/Worldmap/areas.tbl~
-    COPY ~Worldmap/map_mods_links.tbl~  ~Worldmap~
+	 
+    COPY ~Worldmap/map_mods_links.tbl~		~Worldmap~
      APPEND_FILE ~PoFQuestPack/Worldmap/links.tbl~
-    COPY ~Worldmap/map_mods_trans.tra~ ~Worldmap~
+	 
+    COPY ~Worldmap/map_mods_trans.tra~		~Worldmap~
      APPEND_FILE_EVALUATE ~PoFQuestPack/Worldmap/%LANGUAGE%/worldmap.tra~
-  END
-  ELSE BEGIN
+	 
+  END ELSE BEGIN
+  
     MKDIR ~Worldmap~
-    COPY ~PoFQuestPack/Worldmap/areas.tbl~ ~Worldmap/map_mods_areas.tbl~
-    COPY ~PoFQuestPack/Worldmap/links.tbl~ ~Worldmap/map_mods_links.tbl~
-    COPY ~PoFQuestPack/Worldmap/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
+    COPY ~PoFQuestPack/Worldmap/areas.tbl~		~Worldmap/map_mods_areas.tbl~
+    COPY ~PoFQuestPack/Worldmap/links.tbl~		~Worldmap/map_mods_links.tbl~
+    COPY ~PoFQuestPack/Worldmap/%LANGUAGE%/worldmap.tra~		~Worldmap/map_mods_trans.tra~
+	
   END
 
 
@@ -5419,7 +5450,7 @@ APPEND ~MASTAREA.2da~ ~XG0046 value~ UNLESS ~XG0046~ // Temple oublie // Forgott
 APPEND ~MASTAREA.2da~ ~XG0047 value~ UNLESS ~XG0047~ // Port de l'Est (Icewind Dale) // East Harbor //
 APPEND ~MASTAREA.2da~ ~XG0062 value~ UNLESS ~XG0062~ // Padhiver // Neverwinter 
 APPEND ~MASTAREA.2da~ ~XG0050 value~ UNLESS ~XG0050~ // Montagnes (sous le festival) // Mountains //
-APPEND ~MASTAREA.2da~ ~XG0052 value~ UNLESS ~XG0052~ // Forteresse Glacee // Ice Castle //
+APPEND ~MASTAREA.2da~ ~XG0052 value~ UNLESS ~XG0052~ // Forteresse Glacée // Ice Castle //
 APPEND ~MASTAREA.2da~ ~XG0054 value~ UNLESS ~XG0054~ // Refuge (de Gradak) // Shelter //
 APPEND ~MASTAREA.2da~ ~XG0055 value~ UNLESS ~XG0055~ // Tour de Gradak (bis) // Tower of Gradak //
 APPEND ~MASTAREA.2da~ ~XG0061 value~ UNLESS ~XG0061~ // Foret (vers les Montagnes du Couchant) // Forest //
@@ -5457,13 +5488,12 @@ APPEND ~MASTAREA.2da~ ~XG0A80 value~ UNLESS ~XG0A80~ // Siluvanede
 APPEND ~MASTAREA.2da~ ~XG0080 value~ UNLESS ~XG0080~ // Siluvanede (bis)
 APPEND ~MASTAREA.2da~ ~XG0780 value~ UNLESS ~XG0780~ // Camp Eilistraee
 APPEND ~MASTAREA.2da~ ~XG0680 value~ UNLESS ~XG0680~ // Foret (vers Padhiver) // Forest //
-    
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-	
-COPY ~PoFQuestPack/PVRZ.EE~   ~override~
-	
-COPY ~PoFQuestPack/TIS.EE~   ~override~
+
+COPY ~PoFQuestPack/PVRZ.EE~		~override~
+
+COPY ~PoFQuestPack/TIS.EE~		~override~
 
 AT_INTERACTIVE_EXIT ~PoFQuestPack\PoFQuestPack_Inst.bat~
 

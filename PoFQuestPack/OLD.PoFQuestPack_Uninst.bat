@@ -1,10 +1,8 @@
 
 cd .\override
 
-del pf*.tis
-del *MOD.wav
-del nwn1.wav
-del nwn2.wav
+del XG*.tis
+del XG*.wav
 
 cd ..
 
