@@ -6,3 +6,5 @@ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
 SetNumTimesTalkedTo(0)~ EXIT
   IF ~~ THEN REPLY @2 DO ~SetNumTimesTalkedTo(0)~ EXIT
 END
+
+//PPINN01 existing store in original game

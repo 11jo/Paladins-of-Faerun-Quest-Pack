@@ -1,6 +1,6 @@
 BEGIN ~XGBGG~
 
-IF ~NumTimesTAlkedto(0)
+IF ~NumTimesTalkedTo(0)
 See(Player1)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1

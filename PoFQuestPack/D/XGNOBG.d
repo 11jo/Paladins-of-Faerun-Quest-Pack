@@ -1,6 +1,6 @@
 BEGIN ~XGNOBG~
 
-IF ~NumtimesTalkedto(0)~ THEN BEGIN 0
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
 END

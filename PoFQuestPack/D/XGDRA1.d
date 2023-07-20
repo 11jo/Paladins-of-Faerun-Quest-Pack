@@ -31,7 +31,7 @@ TakePartyItem("XGAM3")
 TakePartyItem("XGAM4")
 TakePartyItem("XGAM5")
 AddexperienceParty(50000)
-PickUpItem("ANMOD")
+PickUpItem("XGFLAI1")
 EscapeArea()
 ~ UNSOLVED_JOURNAL @8 EXIT
   IF ~~ THEN REPLY @10 DO ~Enemy()

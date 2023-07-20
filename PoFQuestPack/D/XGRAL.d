@@ -29,7 +29,7 @@ END
 
 IF ~~ THEN BEGIN 4
   SAY @9
-  IF ~~ THEN REPLY @10 DO ~TakePartyGold(10000) Reputationinc(-2) SetGlobal("s#XGRAL","GLOBAL",2)~  GOTO 6
+  IF ~~ THEN REPLY @10 DO ~TakePartyGold(10000) ReputationInc(-2) SetGlobal("s#XGRAL","GLOBAL",2)~  GOTO 6
 END
 
 IF ~Global("s#XGRAL","GLOBAL",1)~ THEN BEGIN 5

@@ -18,7 +18,7 @@ EscapeArea()
   IF ~~ THEN REPLY @5 EXIT
 END
 
-IF ~!NumTimesTalkedTO(0)~ THEN BEGIN 2
+IF ~!NumTimesTalkedTo(0)~ THEN BEGIN 2
   SAY @6
   IF ~~ THEN REPLY @7 DO ~ActionOverride(Player1,LeaveAreaLUA("XG0030","",[3200.2640],0))
 ActionOverride(Player2,LeaveAreaLUA("XG0030","",[3120.2670],0))

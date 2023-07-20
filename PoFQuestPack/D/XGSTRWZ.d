@@ -60,16 +60,16 @@ SetGlobal("s#XGSTRWZ","GLOBAL",2)~ UNSOLVED_JOURNAL @20 EXIT
 END
 
 IF ~Global("s#XGSTRWZ","GLOBAL",2)
-PartyHasITem("XGMWAND")
-PartyHasITem("XGMBOOK")~ THEN BEGIN 11
+PartyHasItem("XGMWAND")
+PartyHasItem("XGMBOOK")~ THEN BEGIN 11
   SAY @25
   IF ~~ THEN REPLY @26 DO ~TakePartyITem("XGMWAND")
 TakePartyITem("XGMBOOK")~ GOTO 13
 END
 
 IF ~Global("s#XGSTRWZ","GLOBAL",2)
-!PartyHasITem("XGMWAND")
-!PartyHasITem("XGMBOOK")~ THEN BEGIN 12
+!PartyHasItem("XGMWAND")
+!PartyHasItem("XGMBOOK")~ THEN BEGIN 12
   SAY @25
   IF ~~ THEN REPLY @27 EXIT
 END

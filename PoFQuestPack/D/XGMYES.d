@@ -55,7 +55,7 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @16
-  IF ~~ THEN REPLY @17 DO ~AddExperienceParty(5000)~ GOTO 10
+  IF ~~ THEN REPLY @17 DO ~AddexperienceParty(5000)~ GOTO 10
 END
 
 IF ~~ THEN BEGIN 10

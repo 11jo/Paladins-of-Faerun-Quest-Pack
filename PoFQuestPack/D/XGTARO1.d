@@ -2,7 +2,7 @@ BEGIN ~XGTARO1~
 
 IF ~Global("s#XGTARO1","GLOBAL",0)
 Global("s#XGorcki","GLOBAL",0)
-!dead("XGorcki")~ THEN BEGIN 1
+!Dead("XGorcki")~ THEN BEGIN 1
   SAY @0
   IF ~~ THEN REPLY @1 EXIT
 END
@@ -55,7 +55,7 @@ UNSOLVED_JOURNAL @7 EXIT
 END
 
 IF ~Global("s#XGTARO1","GLOBAL",1)
-PArtyHasItem("XGLWLET")~ THEN BEGIN 8
+PartyHasItem("XGLWLET")~ THEN BEGIN 8
   SAY @10
   IF ~~ THEN REPLY @11 DO ~TakePartyItem("XGLWLET")~ GOTO 9
 END
@@ -102,15 +102,15 @@ IF ~~ THEN BEGIN 14
 END
 
 IF ~Global("s#XGTARO1","GLOBAL",2)
-!Partyhasitem("XGTGBOD")~ THEN BEGIN 15
+!PartyHasItem("XGTGBOD")~ THEN BEGIN 15
   SAY @0
   IF ~~ THEN REPLY @1 EXIT
 END
 
 IF ~Global("s#XGTARO1","GLOBAL",2)
-Partyhasitem("XGTGBOD")~ THEN BEGIN 16
+PartyHasItem("XGTGBOD")~ THEN BEGIN 16
   SAY @25
-  IF ~~ THEN REPLY @26 DO ~TakePartyitem("XGTGBOD")~ GOTO 17
+  IF ~~ THEN REPLY @26 DO ~TakePartyItem("XGTGBOD")~ GOTO 17
 END
 
 IF ~~ THEN BEGIN 17

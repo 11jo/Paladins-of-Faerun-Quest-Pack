@@ -1,7 +1,7 @@
 BEGIN ~XGfl~
 
 IF ~See(Player1)
-NumTimestalkedTo(0)~ THEN BEGIN 0
+NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
   IF ~~ THEN REPLY @2 DO ~Enemy()

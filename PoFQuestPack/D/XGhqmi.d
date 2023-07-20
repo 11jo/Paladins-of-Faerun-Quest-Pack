@@ -31,7 +31,7 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @13
-  IF ~~ THEN REPLY @14 DO ~RevealAreaonMap("XG0039")
+  IF ~~ THEN REPLY @14 DO ~RevealAreaOnMap("XG0039")
 SetGlobal("s#XGhqmi","GLOBAL",2)~ UNSOLVED_JOURNAL @15 EXIT
 END
 

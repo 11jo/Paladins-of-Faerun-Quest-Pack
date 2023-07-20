@@ -1,6 +1,6 @@
 BEGIN ~XGELWI1~
 
-IF ~NumTimesTAlkedTo(0)~ THEN BEGIN 0
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
 END

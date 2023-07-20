@@ -42,7 +42,7 @@ END
 
 IF ~~ THEN BEGIN 7
   SAY @16
-  IF ~~ THEN REPLY @17 DO ~AddExperienceParty(20000)
+  IF ~~ THEN REPLY @17 DO ~AddexperienceParty(20000)
 TakePartyItem("XGMWD")
 SetGlobal("s#XGWML","GLOBAL",2)
 RevealAreaOnMap("XG0012")~ UNSOLVED_JOURNAL @18 EXIT

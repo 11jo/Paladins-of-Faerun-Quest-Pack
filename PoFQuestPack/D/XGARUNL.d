@@ -43,7 +43,7 @@ IF ~NumTimesTalkedTo(1)~ THEN BEGIN 7
   IF ~~ THEN REPLY @2 GOTO 12
 END
 
-IF ~PArtyHasItem("XGWH")
+IF ~PartyHasItem("XGWH")
 Dead("XGWTCH1")~ THEN BEGIN 8
   SAY @17
   IF ~~ THEN REPLY @18 GOTO 9
@@ -104,7 +104,7 @@ SetNumTimesTalkedTo(2)
 END
 
 IF ~NumTimesTalkedTo(2)
-!PArtyHasItem("XGWH")~ THEN BEGIN 19
+!PartyHasItem("XGWH")~ THEN BEGIN 19
   SAY @26
   IF ~~ THEN EXIT
 END

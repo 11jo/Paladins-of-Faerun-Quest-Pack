@@ -1,6 +1,6 @@
 BEGIN ~XGhk~
 
-IF ~NumTimesTAlkedTo(0)
+IF ~NumTimesTalkedTo(0)
 PartyHasItem("XGku")~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1

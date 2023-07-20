@@ -5,7 +5,7 @@ IF ~See(Player1) Global("s#XGclc2","GLOBAL",0)~ THEN BEGIN 0
   IF ~~ THEN DO ~GiveItemCreate("XGHAM3",Player1,0,0,0)
 SetGlobal("s#XGclc2","GLOBAL",1)
 ReputationInc(-1)
-AddExperienceParty(4000)~ UNSOLVED_JOURNAL @1 EXIT
+AddexperienceParty(4000)~ UNSOLVED_JOURNAL @1 EXIT
 END
 
 IF ~Global("s#XGclc2","GLOBAL",1)~ THEN BEGIN 1
@@ -79,7 +79,7 @@ IF ~~ THEN BEGIN 11
   SAY @24
   IF ~~ THEN REPLY @25 DO ~GiveItemCreate("MISC07",Player1,5000,0,0)
 ReputationInc(-1)
-AddExperienceParty(5000)
+AddexperienceParty(5000)
 EraseJournalEntry(@26)
 EraseJournalEntry(@27)
 EraseJournalEntry(@1)

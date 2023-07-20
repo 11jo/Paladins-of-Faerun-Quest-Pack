@@ -17,13 +17,13 @@ ActionOverride(Player4,LeaveAreaLUA("XG0064","",[634.2383],12))
 ActionOverride(Player5,LeaveAreaLUA("XG0064","",[697.2451],12))
 ActionOverride(Player6,LeaveAreaLUA("XG0064","",[639.2455],12))
 ReputationInc(-2)
-AddExperienceParty(10000)~ UNSOLVED_JOURNAL @5 EXIT
+AddexperienceParty(10000)~ UNSOLVED_JOURNAL @5 EXIT
 END
 
 IF ~~ THEN BEGIN 2
   SAY @6
   IF ~~ THEN DO ~Enemy()
 ReputationInc(1)
-AddExperienceParty(10000)~ 
+AddexperienceParty(10000)~ 
 UNSOLVED_JOURNAL @7 EXIT
 END

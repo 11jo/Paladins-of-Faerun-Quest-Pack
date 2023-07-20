@@ -1,6 +1,6 @@
 BEGIN ~XGNOM1~
 
-IF ~NumTimesTAlkedTo(0)~ THEN BEGIN 0
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 DO ~ActionOverride(Player2,LeaveAreaLUA("XG0075","",[1072.811],0))
 ActionOverride(Player1,LeaveAreaLUA("XG0075","",[1095.778],0))

@@ -9,7 +9,7 @@ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
 END
 
 IF ~NumTimesTalkedTo(1)
-PartyhasItem("XGdram")~ THEN BEGIN 1
+PartyHasItem("XGdram")~ THEN BEGIN 1
   SAY @4
   IF ~~ THEN REPLY @5 GOTO 2
 END

@@ -1,7 +1,7 @@
 BEGIN ~XGrgp1~
 
 IF ~See(Player1)
-NumtimesTalkedTo(0)~ THEN BEGIN 0
+NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
 END
@@ -22,7 +22,7 @@ IF ~~ THEN BEGIN 3
 UNSOLVED_JOURNAL @8 EXIT
 END
 
-IF ~!NumtimesTalkedTo(0)~ THEN BEGIN 4
+IF ~!NumTimesTalkedTo(0)~ THEN BEGIN 4
   SAY @9
   IF ~~ THEN EXIT
 END

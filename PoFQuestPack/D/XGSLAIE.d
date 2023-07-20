@@ -20,7 +20,9 @@ IF ~~ THEN BEGIN 3
   IF ~~ THEN EXIT
 END
 
-IF ~PartyHasItem("ss")~ THEN BEGIN 4
+// Unused ?
+
+IF ~PartyHasItem("sos")~ THEN BEGIN 4
   SAY @8
   IF ~~ THEN REPLY @10 DO ~ForceSpell("XGSLAIE",DRYAD_TELEPORT)
 ~ UNSOLVED_JOURNAL @9 EXIT

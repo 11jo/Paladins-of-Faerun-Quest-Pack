@@ -1,7 +1,7 @@
 BEGIN ~XGRWH~
 
 IF ~See(Player1)
-NumTimesTAlkedTo(0)~ THEN BEGIN 0
+NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
 END

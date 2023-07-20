@@ -12,7 +12,7 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @4
-  IF ~!NumTimesTalkedTo(0)~ THEN REPLY @5 DO ~SetNumTimesTalkeDTo(0)~ EXIT
+  IF ~!NumTimesTalkedTo(0)~ THEN REPLY @5 DO ~SetNumTimesTalkedTo(0)~ EXIT
   IF ~~ THEN REPLY @3 DO ~Enemy()
 ActionOverride("XGBMTN3",Attack(Player1))
 Wait(1)

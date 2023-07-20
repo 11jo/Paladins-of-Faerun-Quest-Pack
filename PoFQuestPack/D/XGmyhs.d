@@ -38,5 +38,5 @@ ActionOverride(Player3,LeaveAreaLUA("XG0081","",[1458.1082],0))
 ActionOverride(Player4,LeaveAreaLUA("XG0081","",[1412.1097],0))
 ActionOverride(Player5,LeaveAreaLUA("XG0081","",[1452.1067],0))
 ActionOverride(Player6,LeaveAreaLUA("XG0081","",[1430.1009],0))
-AddExperienceParty(5000)~ UNSOLVED_JOURNAL @13 EXIT
+AddexperienceParty(5000)~ UNSOLVED_JOURNAL @13 EXIT
 END

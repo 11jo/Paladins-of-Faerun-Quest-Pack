@@ -15,7 +15,7 @@ END
 IF ~~ THEN BEGIN 2
   SAY @6
   IF ~~ THEN REPLY @7 DO ~TakePartyGold(1000)
-RevealAreaOnMap("XG0075")  SetGlobal("s#XGGLV","GLOBAL",2)
+RevealAreaOnMap("XG0075") SetGlobal("s#XGGLV","GLOBAL",2)
 EscapeArea()~ UNSOLVED_JOURNAL @8 EXIT
 END
 

@@ -1,6 +1,6 @@
 BEGIN ~XGMILC~
 
-IF ~NumTimesTalkeDto(0)~ THEN BEGIN 0
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 DO ~SetNumTimesTalkedTo(0)
 ~ EXIT
@@ -80,7 +80,7 @@ SetNumTimesTalkedTo(3)
 ~ UNSOLVED_JOURNAL @26 EXIT
 END
 
-IF ~NumTimesTAlkedTo(2)~ THEN BEGIN 10
+IF ~NumTimesTalkedTo(2)~ THEN BEGIN 10
   SAY @28
   IF ~~ THEN REPLY @29 DO ~SetNumTimesTalkedTo(2)
 ~ EXIT

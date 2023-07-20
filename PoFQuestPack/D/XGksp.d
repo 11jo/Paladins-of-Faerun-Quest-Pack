@@ -2,7 +2,7 @@ BEGIN ~XGksp~
 
 IF ~NumTimesTalkedTo(0)
 See(Player1)
-PartyhasItem("XGKIIT")~ THEN BEGIN 0
+PartyHasItem("XGKIIT")~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 DO ~SetNumTimesTalkedTo(0)~ EXIT
   IF ~~ THEN REPLY @2 DO ~TakePartyItem("XGKIIT")

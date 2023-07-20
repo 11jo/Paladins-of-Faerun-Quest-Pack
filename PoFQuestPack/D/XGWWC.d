@@ -57,7 +57,7 @@ EraseJournalEntry(@21)
 EraseJournalEntry(@16)
 EraseJournalEntry(@22)
 SetQuestDone(@23)
-AddExperienceParty(10000)~ 
+AddexperienceParty(10000)~ 
 UNSOLVED_JOURNAL @24 EXIT
 END
 
