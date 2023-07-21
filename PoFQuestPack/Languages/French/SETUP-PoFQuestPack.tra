@@ -4158,6 +4158,23 @@ Poids : 1~
 @1065 = ~Lord Dread~ // Lord Dread
 @1066 = ~Lord Dread~ // Lord Dread
 
+////// IWD spell for CLERIC_CIRCLE_OF_PROTECTION
+
+@1067   = Imprécation
+
+@1068  = ~Imprécation
+(Conjuration/Convocation)
+
+Niveau : 1
+Sphère : Générale
+Portée : champ visuel du lanceur
+Durée : 6 rounds
+Temps d'incantation : 1 round
+Zone d'effet : rayon de 4,50 mètres
+Jet de sauvegarde : aucun
+
+Grâce à ce sort, le prêtre diminue le moral de ses adversaires et pénalise de -1 leurs jets de sauvegarde et d'attaque. Dès que l'incantation s'achève, le sort affecte toutes les créatures se trouvant dans un rayon de 4,50 mètres, dont le centre est choisi par le prêtre (les créatures quittant la zone d'effet sont toujours affectées ; par contre, celles qui y entrent par la suite ne le sont pas).~
+
 ////XGBOOKP.itm - BOOKPR.itm////
 @2000 = ~Grimoire~
 @2003 = ~Grimoire des interprètes~ ~Grimoire des d'Oghmatiques~

@@ -44,8 +44,8 @@ ALWAYS
  END
 END
 
-AUTO_TRA ~PoFQuestPack/Languages/%s/d~
-AUTO_TRA ~PoFQuestPack/Languages/%s/Baf_new~
+AUTO_TRA ~PoFQuestPack/Languages/autotra/%s/D~
+AUTO_TRA ~PoFQuestPack/Languages/autotra/%s/Baf_new~
 
 LANGUAGE ~Russian~
          ~russian~
@@ -81,16 +81,16 @@ COPY ~PoFQuestPack/maps~   ~override~
 
 COPY ~PoFQuestPack/Portraits~   ~override~
 
-COPY_EXISTING ~AR0305.are~ ~override~
+COPY_EXISTING ~AR0305.ARE~ ~override~
           WRITE_ASCII 0x94 ~AR0305~ #8
 
-COPY_EXISTING ~AR0527.are~ ~override~
+COPY_EXISTING ~AR0527.ARE~ ~override~
           WRITE_ASCII 0x94 ~AR0527~ #8
 
-COPY_EXISTING ~AR0528.are~ ~override~
+COPY_EXISTING ~AR0528.ARE~ ~override~
           WRITE_ASCII 0x94 ~AR0528~ #8
 
-COPY_EXISTING ~AR1005.are~ ~override~
+COPY_EXISTING ~AR1005.ARE~ ~override~
           WRITE_ASCII 0x94 ~AR1005~ #8
 
 
@@ -433,9 +433,9 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGBRMO.CRE~       ~override/XGBRMO.CRE~
   SAY NAME1 @60 
   SAY NAME2 @60 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGbru.cre~        ~override/XGbru.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGbru.CRE~        ~override/XGbru.CRE~         
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGbshp.cre~       ~override/XGbshp.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGbshp.CRE~       ~override/XGbshp.CRE~        
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGBSMN1.CRE~      ~override/XGBSMN1.CRE~       
 
@@ -497,19 +497,19 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGCAT2.CRE~       ~override/XGCAT2.CRE~
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGCATN.CRE~       ~override/XGCATN.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGcatt.cre~       ~override/XGcatt.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGcatt.CRE~       ~override/XGcatt.CRE~        
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGCATTY.CRE~         ~override/XGCATTY.CRE~          
   SAY NAME1 @63 
   SAY NAME2 @63 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGcdxve.cre~      ~override/XGcdxve.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGcdxve.CRE~      ~override/XGcdxve.CRE~       
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGCELM.CRE~       ~override/XGCELM.CRE~        
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGCG.CRE~         ~override/XGCG.CRE~          
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGchf.cre~        ~override/XGchf.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGchf.CRE~        ~override/XGchf.CRE~         
   SAY NAME1 @64 
   SAY NAME2 @64 
 
@@ -529,39 +529,39 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGCLB.CRE~        ~override/XGCLB.CRE~
   SAY NAME1 @67 
   SAY NAME2 @67 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclc1.cre~       ~override/XGclc1.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGclc1.CRE~       ~override/XGclc1.CRE~        
   SAY NAME1 @68 
   SAY NAME2 @68 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclc2.cre~       ~override/XGclc2.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGclc2.CRE~       ~override/XGclc2.CRE~        
   SAY NAME1 @69 
   SAY NAME2 @69 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclc3.cre~       ~override/XGclc3.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGclc3.CRE~       ~override/XGclc3.CRE~        
   SAY NAME1 @69 
   SAY NAME2 @69 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclc4.cre~       ~override/XGclc4.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGclc4.CRE~       ~override/XGclc4.CRE~        
   SAY NAME1 @69 
   SAY NAME2 @69 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclc.cre~        ~override/XGclc.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGclc.CRE~        ~override/XGclc.CRE~         
   SAY NAME1 @68 
   SAY NAME2 @68 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclcu.cre~       ~override/XGclcu.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGclcu.CRE~       ~override/XGclcu.CRE~        
   SAY NAME1 @64 
   SAY NAME2 @64 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclcw.cre~       ~override/XGclcw.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGclcw.CRE~       ~override/XGclcw.CRE~        
   SAY NAME1 @64 
   SAY NAME2 @64 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclelf.cre~      ~override/XGclelf.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGclelf.CRE~      ~override/XGclelf.CRE~       
   SAY NAME1 @70 
   SAY NAME2 @70 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclev.cre~       ~override/XGclev.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGclev.CRE~       ~override/XGclev.CRE~        
   SAY NAME1 @70 
   SAY NAME2 @70 
 
@@ -577,11 +577,11 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGCLPR.CRE~       ~override/XGCLPR.CRE~
   SAY NAME1 @73 
   SAY NAME2 @73 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGcls.cre~        ~override/XGcls.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGcls.CRE~        ~override/XGcls.CRE~         
   SAY NAME1 @74 
   SAY NAME2 @74 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGcona.cre~       ~override/XGcona.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGcona.CRE~       ~override/XGcona.CRE~        
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGCONC.CRE~       ~override/XGCONC.CRE~        
   SAY NAME1 @75 
@@ -613,7 +613,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGCONT.CRE~       ~override/XGCONT.CRE~
   SAY NAME1 @75 
   SAY NAME2 @75 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGcook.cre~       ~override/XGcook.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGcook.CRE~       ~override/XGcook.CRE~        
   SAY 0xa4 @77 
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGCOW1.CRE~       ~override/XGCOW1.CRE~        
@@ -628,25 +628,25 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGCRU.CRE~        ~override/XGCRU.CRE~
   SAY NAME1 @78 
   SAY NAME2 @78 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGcrw1.cre~       ~override/XGcrw1.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGcrw1.CRE~       ~override/XGcrw1.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGcrw2.cre~       ~override/XGcrw2.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGcrw2.CRE~       ~override/XGcrw2.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGcrw3.cre~       ~override/XGcrw3.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGcrw3.CRE~       ~override/XGcrw3.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGcrw4.cre~       ~override/XGcrw4.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGcrw4.CRE~       ~override/XGcrw4.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGcrw5.cre~       ~override/XGcrw5.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGcrw5.CRE~       ~override/XGcrw5.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGcrw6.cre~       ~override/XGcrw6.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGcrw6.CRE~       ~override/XGcrw6.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGcrw7.cre~       ~override/XGcrw7.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGcrw7.CRE~       ~override/XGcrw7.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGcrw8.cre~       ~override/XGcrw8.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGcrw8.CRE~       ~override/XGcrw8.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGcrw9.cre~       ~override/XGcrw9.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGcrw9.CRE~       ~override/XGcrw9.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGcrw.cre~        ~override/XGcrw.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGcrw.CRE~        ~override/XGcrw.CRE~         
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGCVAMP.CRE~      ~override/XGCVAMP.CRE~       
   SAY NAME1 @79 
@@ -656,13 +656,13 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGCYR.CRE~        ~override/XGCYR.CRE~
   SAY NAME1 @80 
   SAY NAME2 @80 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGd1.cre~         ~override/XGd1.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/XGd1.CRE~         ~override/XGd1.CRE~          
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGd2.cre~         ~override/XGd2.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/XGd2.CRE~         ~override/XGd2.CRE~          
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGd3.cre~         ~override/XGd3.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/XGd3.CRE~         ~override/XGd3.CRE~          
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGd4.cre~         ~override/XGd4.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/XGd4.CRE~         ~override/XGd4.CRE~          
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGDB.CRE~         ~override/XGDB.CRE~          
   SAY NAME1 @82 
@@ -672,7 +672,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGDCAP.CRE~       ~override/XGDCAP.CRE~
   SAY NAME1 @61 
   SAY NAME2 @61 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGddrw.cre~       ~override/XGddrw.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGddrw.CRE~       ~override/XGddrw.CRE~        
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGDEV1.CRE~       ~override/XGDEV1.CRE~        
   SAY NAME1 @84 
@@ -692,7 +692,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGDMER.CRE~       ~override/XGDMER.CRE~
   SAY NAME1 @87 
   SAY NAME2 @87 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdm.cre~         ~override/XGdm.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/XGdm.CRE~         ~override/XGdm.CRE~          
   SAY NAME1 @88 
   SAY NAME2 @88 
 
@@ -700,7 +700,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGDORRE.CRE~      ~override/XGDORRE.CRE
   SAY NAME1 @89 
   SAY NAME2 @89 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdr01.cre~       ~override/XGdr01.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdr01.CRE~       ~override/XGdr01.CRE~        
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGDRA1.CRE~       ~override/XGDRA1.CRE~        
   SAY NAME1 @90 
@@ -722,35 +722,35 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGDRAS.CRE~       ~override/XGDRAS.CRE~
   SAY NAME1 @94 
   SAY NAME2 @94 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrb1.cre~       ~override/XGdrb1.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrb1.CRE~       ~override/XGdrb1.CRE~        
   SAY NAME1 @95 
   SAY NAME2 @96 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrb2.cre~       ~override/XGdrb2.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrb2.CRE~       ~override/XGdrb2.CRE~        
   SAY NAME1 @95 
   SAY NAME2 @96 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrbs.cre~       ~override/XGdrbs.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrbs.CRE~       ~override/XGdrbs.CRE~        
   SAY NAME1 @97 
   SAY NAME2 @97 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrc1.cre~       ~override/XGdrc1.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrc1.CRE~       ~override/XGdrc1.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrc.cre~        ~override/XGdrc.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrc.CRE~        ~override/XGdrc.CRE~         
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdre1.cre~       ~override/XGdre1.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdre1.CRE~       ~override/XGdre1.CRE~        
   SAY NAME1 @98 
   SAY NAME2 @98 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdre2.cre~       ~override/XGdre2.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdre2.CRE~       ~override/XGdre2.CRE~        
   SAY NAME1 @98 
   SAY NAME2 @98 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdre3.cre~       ~override/XGdre3.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdre3.CRE~       ~override/XGdre3.CRE~        
   SAY NAME1 @98 
   SAY NAME2 @98 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdre4.cre~       ~override/XGdre4.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdre4.CRE~       ~override/XGdre4.CRE~        
   SAY NAME1 @98 
   SAY NAME2 @98 
 
@@ -758,15 +758,15 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGDREC.CRE~       ~override/XGDREC.CRE~
   SAY NAME1 @99 
   SAY NAME2 @99 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdreq.cre~       ~override/XGdreq.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdreq.CRE~       ~override/XGdreq.CRE~        
   SAY NAME1 @100 
   SAY NAME2 @100 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdreu.cre~       ~override/XGdreu.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdreu.CRE~       ~override/XGdreu.CRE~        
   SAY NAME1 @100 
   SAY NAME2 @100 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrg.cre~        ~override/XGdrg.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrg.CRE~        ~override/XGdrg.CRE~         
   SAY NAME1 @101 
   SAY NAME2 @101 
 
@@ -776,17 +776,17 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGDRIZA.CRE~      ~override/XGDRIZA.CRE
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGDRIZ.CRE~       ~override/XGDRIZ.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrl1.cre~       ~override/XGdrl1.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl1.CRE~       ~override/XGdrl1.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrl2.cre~       ~override/XGdrl2.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl2.CRE~       ~override/XGdrl2.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrl3.cre~       ~override/XGdrl3.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl3.CRE~       ~override/XGdrl3.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrlq.cre~       ~override/XGdrlq.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrlq.CRE~       ~override/XGdrlq.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrlu.cre~       ~override/XGdrlu.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrlu.CRE~       ~override/XGdrlu.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdr.cre~         ~override/XGdr.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/XGdr.CRE~         ~override/XGdr.CRE~          
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGDROW1.CRE~      ~override/XGDROW1.CRE~       
   SAY NAME1 @102 
@@ -796,7 +796,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGDROW2.CRE~      ~override/XGDROW2.CRE
   SAY NAME1 @103 
   SAY NAME2 @103 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrqq.cre~       ~override/XGdrqq.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrqq.CRE~       ~override/XGdrqq.CRE~        
   SAY NAME1 @100 
   SAY NAME2 @100 
 
@@ -816,15 +816,15 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGDRWC.CRE~       ~override/XGDRWC.CRE~
   SAY NAME1 @99 
   SAY NAME2 @99 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrwe.cre~       ~override/XGdrwe.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrwe.CRE~       ~override/XGdrwe.CRE~        
   SAY NAME1 @98 
   SAY NAME2 @98 
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGDRZ.CRE~        ~override/XGDRZ.CRE~         
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrzz.cre~       ~override/XGdrzz.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrzz.CRE~       ~override/XGdrzz.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdsq.cre~        ~override/XGdsq.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGdsq.CRE~        ~override/XGdsq.CRE~         
   SAY NAME1 @106 
   SAY NAME2 @106 
 
@@ -868,7 +868,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGDWA.CRE~        ~override/XGDWA.CRE~
   SAY NAME1 @109 
   SAY NAME2 @109 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdw.cre~         ~override/XGdw.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/XGdw.CRE~         ~override/XGdw.CRE~          
   SAY NAME1 @110 
   SAY NAME2 @110 
 
@@ -888,7 +888,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGDWOD.CRE~       ~override/XGDWOD.CRE~
   SAY NAME1 @112 
   SAY NAME2 @112 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdwq.cre~        ~override/XGdwq.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGdwq.CRE~        ~override/XGdwq.CRE~         
   SAY NAME1 @113 
   SAY NAME2 @113 
   SAY 0x1cc @114 
@@ -897,7 +897,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGEHCL.CRE~       ~override/XGEHCL.CRE~
   SAY NAME1 @115 
   SAY NAME2 @115 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGehmil.cre~      ~override/XGehmil.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGehmil.CRE~      ~override/XGehmil.CRE~       
   SAY NAME1 @116 
   SAY NAME2 @116 
 
@@ -909,13 +909,13 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGELEC.CRE~       ~override/XGELEC.CRE~
   SAY NAME1 @118 
   SAY NAME2 @118 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGelfcf.cre~      ~override/XGelfcf.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGelfcf.CRE~      ~override/XGelfcf.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGelfcm.cre~      ~override/XGelfcm.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGelfcm.CRE~      ~override/XGelfcm.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGelfm.cre~       ~override/XGelfm.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGelfm.CRE~       ~override/XGelfm.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGelfw.cre~       ~override/XGelfw.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGelfw.CRE~       ~override/XGelfw.CRE~        
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGELG1.CRE~       ~override/XGELG1.CRE~        
   SAY NAME1 @7 
@@ -943,7 +943,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGELM3.CRE~       ~override/XGELM3.CRE~
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGELM4.CRE~       ~override/XGELM4.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGelms.cre~       ~override/XGelms.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGelms.CRE~       ~override/XGelms.CRE~        
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGELOR.CRE~       ~override/XGELOR.CRE~        
   SAY NAME1 @121 
@@ -961,7 +961,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGELVCP.CRE~      ~override/XGELVCP.CRE
   SAY NAME1 @125 
   SAY NAME2 @125 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGelve.cre~       ~override/XGelve.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGelve.CRE~       ~override/XGelve.CRE~        
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGELVGU.CRE~      ~override/XGELVGU.CRE~       
   SAY NAME1 @126 
@@ -1049,7 +1049,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGFALPL.CRE~      ~override/XGFALPL.CRE
   SAY NAME1 @137 
   SAY NAME2 @137 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGfa.cre~         ~override/XGfa.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/XGfa.CRE~         ~override/XGfa.CRE~          
   SAY NAME1 @138 
   SAY NAME2 @138 
 
@@ -1057,9 +1057,9 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGFIGG.CRE~       ~override/XGFIGG.CRE~
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGFIRLS.CRE~      ~override/XGFIRLS.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGfirq1.cre~      ~override/XGfirq1.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGfirq1.CRE~      ~override/XGfirq1.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGfirq.cre~       ~override/XGfirq.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGfirq.CRE~       ~override/XGfirq.CRE~        
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGFKIN1.CRE~      ~override/XGFKIN1.CRE~       
   SAY NAME1 @35 
@@ -1073,7 +1073,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGFKIN3.CRE~      ~override/XGFKIN3.CRE
   SAY NAME1 @35 
   SAY NAME2 @35 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGfl.cre~         ~override/XGfl.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/XGfl.CRE~         ~override/XGfl.CRE~          
   SAY NAME1 @139 
   SAY NAME2 @139 
 
@@ -1085,7 +1085,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGFNAS.CRE~       ~override/XGFNAS.CRE~
   SAY NAME1 @141 
   SAY NAME2 @141 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGfngra.cre~      ~override/XGfngra.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGfngra.CRE~      ~override/XGfngra.CRE~       
   SAY NAME1 @142 
   SAY NAME2 @142 
 
@@ -1113,9 +1113,9 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGFALC3.CRE~      ~override/XGFALC3.CRE
   SAY NAME1 @146 
   SAY NAME2 @146 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGgghc.cre~       ~override/XGgghc.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGgghc.CRE~       ~override/XGgghc.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGghuld.cre~      ~override/XGghuld.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGghuld.CRE~      ~override/XGghuld.CRE~       
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGGIRL.CRE~       ~override/XGGIRL.CRE~        
 
@@ -1130,7 +1130,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGGLV.CRE~        ~override/XGGLV.CRE~
   SAY NAME1 @148 
   SAY NAME2 @148 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGgms.cre~        ~override/XGgms.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGgms.CRE~        ~override/XGgms.CRE~         
   SAY NAME1 @149 
   SAY NAME2 @149 
 
@@ -1214,7 +1214,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGHELC.CRE~       ~override/XGHELC.CRE~
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGHGHPR.CRE~      ~override/XGHGHPR.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGhk.cre~         ~override/XGhk.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/XGhk.CRE~         ~override/XGhk.CRE~          
   SAY NAME1 @163 
   SAY NAME2 @163 
 
@@ -1234,11 +1234,11 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGHOB2.CRE~       ~override/XGHOB2.CRE~
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGHOB3.CRE~       ~override/XGHOB3.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGhqev.cre~       ~override/XGhqev.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGhqev.CRE~       ~override/XGhqev.CRE~        
   SAY NAME1 @164 
   SAY NAME2 @164 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGhqmi.cre~       ~override/XGhqmi.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGhqmi.CRE~       ~override/XGhqmi.CRE~        
   SAY NAME1 @164 
   SAY NAME2 @164 
 
@@ -1250,7 +1250,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGHROT1.CRE~      ~override/XGHROT1.CRE
   SAY NAME1 @166 
   SAY NAME2 @166 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGhrot2.cre~      ~override/XGhrot2.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGhrot2.CRE~      ~override/XGhrot2.CRE~       
   SAY NAME1 @166 
   SAY NAME2 @166 
   SAY 0x1cc @167 
@@ -1259,19 +1259,19 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGHROTH.CRE~      ~override/XGHROTH.CRE
   SAY NAME1 @166 
   SAY NAME2 @166 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGhrqn.cre~       ~override/XGhrqn.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGhrqn.CRE~       ~override/XGhrqn.CRE~        
   SAY NAME1 @168 
   SAY NAME2 @168 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGhsd.cre~        ~override/XGhsd.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGhsd.CRE~        ~override/XGhsd.CRE~         
   SAY NAME1 @169 
   SAY NAME2 @169 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGhsr1.cre~       ~override/XGhsr1.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGhsr1.CRE~       ~override/XGhsr1.CRE~        
   SAY NAME1 @170 
   SAY NAME2 @170 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGhsr.cre~        ~override/XGhsr.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGhsr.CRE~        ~override/XGhsr.CRE~         
   SAY NAME1 @170 
   SAY NAME2 @170 
 
@@ -1289,7 +1289,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGINKEC.CRE~      ~override/XGINKEC.CRE
   SAY NAME1 @173 
   SAY NAME2 @173 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGinnhs.cre~      ~override/XGinnhs.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGinnhs.CRE~      ~override/XGinnhs.CRE~       
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGINNKE.CRE~      ~override/XGINNKE.CRE~       
   SAY NAME1 @174 
@@ -1323,7 +1323,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGIWDG.CRE~       ~override/XGIWDG.CRE~
   SAY NAME1 @126 
   SAY NAME2 @126 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGiwdgs.cre~      ~override/XGiwdgs.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGiwdgs.CRE~      ~override/XGiwdgs.CRE~       
   SAY NAME1 @126 
   SAY NAME2 @126 
 
@@ -1347,11 +1347,11 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGKASS.CRE~       ~override/XGKASS.CRE~
   SAY NAME1 @182 
   SAY NAME2 @182 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGkd1.cre~        ~override/XGkd1.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGkd1.CRE~        ~override/XGkd1.CRE~         
   SAY NAME1 @183 
   SAY NAME2 @183 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGkd.cre~         ~override/XGkd.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/XGkd.CRE~         ~override/XGkd.CRE~          
   SAY NAME1 @183 
   SAY NAME2 @183 
 
@@ -1381,11 +1381,11 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGKMAN.CRE~       ~override/XGKMAN.CRE~
   SAY NAME1 @192 
   SAY NAME2 @193 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGknig1.cre~      ~override/XGknig1.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGknig1.CRE~      ~override/XGknig1.CRE~       
   SAY NAME1 @15 
   SAY NAME2 @15 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGknig2.cre~      ~override/XGknig2.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGknig2.CRE~      ~override/XGknig2.CRE~       
   SAY NAME1 @15 
   SAY NAME2 @15 
 
@@ -1393,29 +1393,29 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGKNIGA.CRE~      ~override/XGKNIGA.CRE
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGKNIGE.CRE~      ~override/XGKNIGE.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGknigg.cre~      ~override/XGknigg.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGknigg.CRE~      ~override/XGknigg.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGknig.cre~       ~override/XGknig.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGknig.CRE~       ~override/XGknig.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGknigx.cre~      ~override/XGknigx.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGknigx.CRE~      ~override/XGknigx.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGknigy.cre~      ~override/XGknigy.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGknigy.CRE~      ~override/XGknigy.CRE~       
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGKNWIZ.CRE~      ~override/XGKNWIZ.CRE~       
   SAY NAME1 @194 
   SAY NAME2 @194 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGkos.cre~        ~override/XGkos.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGkos.CRE~        ~override/XGkos.CRE~         
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGKPOS.CRE~       ~override/XGKPOS.CRE~        
   SAY NAME1 @195 
   SAY NAME2 @195 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGksp.cre~        ~override/XGksp.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGksp.CRE~        ~override/XGksp.CRE~         
   SAY NAME1 @196 
   SAY NAME2 @196 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGku.cre~         ~override/XGku.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/XGku.CRE~         ~override/XGku.CRE~          
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGLARI.CRE~       ~override/XGLARI.CRE~        
   SAY NAME1 @197 
@@ -1714,7 +1714,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGMIL.CRE~        ~override/XGMIL.CRE~
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGMIN.CRE~        ~override/XGMIN.CRE~         
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGmitr.cre~       ~override/XGmitr.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGmitr.CRE~       ~override/XGmitr.CRE~        
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGMOHCA.CRE~      ~override/XGMOHCA.CRE~       
   SAY NAME1 @129 
@@ -1775,11 +1775,11 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGMW.CRE~         ~override/XGMW.CRE~
   SAY NAME1 @246 
   SAY NAME2 @246 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGmybg1.cre~      ~override/XGmybg1.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGmybg1.CRE~      ~override/XGmybg1.CRE~       
   SAY NAME1 @15 
   SAY NAME2 @15 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGmybg.cre~       ~override/XGmybg.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGmybg.CRE~       ~override/XGmybg.CRE~        
   SAY NAME1 @15 
   SAY NAME2 @15 
 
@@ -1787,7 +1787,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGMYES.CRE~       ~override/XGMYES.CRE~
   SAY NAME1 @247 
   SAY NAME2 @247 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGmyhs.cre~       ~override/XGmyhs.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGmyhs.CRE~       ~override/XGmyhs.CRE~        
   SAY NAME1 @248 
   SAY NAME2 @248 
 
@@ -1849,67 +1849,67 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGNOMN.CRE~       ~override/XGNOMN.CRE~
   SAY NAME1 @252 
   SAY NAME2 @252 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGnor1.cre~       ~override/XGnor1.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGnor1.CRE~       ~override/XGnor1.CRE~        
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGnor2.cre~       ~override/XGnor2.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGnor2.CRE~       ~override/XGnor2.CRE~        
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGnorce.cre~      ~override/XGnorce.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGnorce.CRE~      ~override/XGnorce.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGnorc.cre~       ~override/XGnorc.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGnorc.CRE~       ~override/XGnorc.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGnore.cre~       ~override/XGnore.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGnore.CRE~       ~override/XGnore.CRE~        
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGnoreq.cre~      ~override/XGnoreq.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGnoreq.CRE~      ~override/XGnoreq.CRE~       
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGnor.cre~        ~override/XGnor.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGnor.CRE~        ~override/XGnor.CRE~         
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGnorpa.cre~      ~override/XGnorpa.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGnorpa.CRE~      ~override/XGnorpa.CRE~       
   SAY NAME1 @255 
   SAY NAME2 @255 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGnorp.cre~       ~override/XGnorp.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGnorp.CRE~       ~override/XGnorp.CRE~        
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGnorre.cre~      ~override/XGnorre.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGnorre.CRE~      ~override/XGnorre.CRE~       
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGnorte.cre~      ~override/XGnorte.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGnorte.CRE~      ~override/XGnorte.CRE~       
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGnoru1.cre~      ~override/XGnoru1.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGnoru1.CRE~      ~override/XGnoru1.CRE~       
   SAY NAME1 @15 
   SAY NAME2 @15 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGnoru.cre~       ~override/XGnoru.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGnoru.CRE~       ~override/XGnoru.CRE~        
   SAY NAME1 @15 
   SAY NAME2 @15 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGnorwe.cre~      ~override/XGnorwe.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGnorwe.CRE~      ~override/XGnorwe.CRE~       
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGnorx.cre~       ~override/XGnorx.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGnorx.CRE~       ~override/XGnorx.CRE~        
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGnory.cre~       ~override/XGnory.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGnory.CRE~       ~override/XGnory.CRE~        
   SAY NAME1 @254 
   SAY NAME2 @254 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGnorz.cre~       ~override/XGnorz.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGnorz.CRE~       ~override/XGnorz.CRE~        
   SAY NAME1 @254 
   SAY NAME2 @254 
 
@@ -2063,7 +2063,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGPEAS.CRE~       ~override/XGPEAS.CRE~
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGPETT.CRE~       ~override/XGPETT.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGphi.cre~        ~override/XGphi.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGphi.CRE~        ~override/XGphi.CRE~         
   SAY NAME1 @278 
   SAY NAME2 @278 
 
@@ -2153,31 +2153,31 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGPIRS6.CRE~      ~override/XGPIRS6.CRE
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGPR1.CRE~        ~override/XGPR1.CRE~         
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprac.cre~       ~override/XGprac.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGprac.CRE~       ~override/XGprac.CRE~        
   SAY NAME1 @69 
   SAY NAME2 @69 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprcd.cre~       ~override/XGprcd.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGprcd.CRE~       ~override/XGprcd.CRE~        
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGPRC.CRE~        ~override/XGPRC.CRE~         
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprd1.cre~       ~override/XGprd1.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGprd1.CRE~       ~override/XGprd1.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprd2.cre~       ~override/XGprd2.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGprd2.CRE~       ~override/XGprd2.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprd3.cre~       ~override/XGprd3.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGprd3.CRE~       ~override/XGprd3.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprd.cre~        ~override/XGprd.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGprd.CRE~        ~override/XGprd.CRE~         
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprec.cre~       ~override/XGprec.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGprec.CRE~       ~override/XGprec.CRE~        
   SAY NAME1 @69 
   SAY NAME2 @69 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGpree.cre~       ~override/XGpree.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGpree.CRE~       ~override/XGpree.CRE~        
   SAY NAME1 @281 
   SAY NAME2 @281 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprin.cre~       ~override/XGprin.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGprin.CRE~       ~override/XGprin.CRE~        
   SAY NAME1 @282 
   SAY NAME2 @282 
 
@@ -2185,119 +2185,119 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGPR.CRE~         ~override/XGPR.CRE~
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGPRN.CRE~        ~override/XGPRN.CRE~         
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGpro1.cre~       ~override/XGpro1.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGpro1.CRE~       ~override/XGpro1.CRE~        
   SAY NAME1 @283 
   SAY NAME2 @283 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGpro.cre~        ~override/XGpro.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGpro.CRE~        ~override/XGpro.CRE~         
   SAY NAME1 @283 
   SAY NAME2 @283 
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGPROS1.CRE~      ~override/XGPROS1.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprq.cre~        ~override/XGprq.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGprq.CRE~        ~override/XGprq.CRE~         
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprt1.cre~       ~override/XGprt1.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGprt1.CRE~       ~override/XGprt1.CRE~        
   SAY NAME1 @284 
   SAY NAME2 @284 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprtc2.cre~      ~override/XGprtc2.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGprtc2.CRE~      ~override/XGprtc2.CRE~       
   SAY NAME1 @285 
   SAY NAME2 @285 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprtc.cre~       ~override/XGprtc.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGprtc.CRE~       ~override/XGprtc.CRE~        
   SAY NAME1 @285 
   SAY NAME2 @285 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprtcq.cre~      ~override/XGprtcq.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGprtcq.CRE~      ~override/XGprtcq.CRE~       
   SAY NAME1 @285 
   SAY NAME2 @285 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprtd.cre~       ~override/XGprtd.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGprtd.CRE~       ~override/XGprtd.CRE~        
   SAY NAME1 @284 
   SAY NAME2 @284 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprte1.cre~      ~override/XGprte1.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGprte1.CRE~      ~override/XGprte1.CRE~       
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprte2.cre~      ~override/XGprte2.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGprte2.CRE~      ~override/XGprte2.CRE~       
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprte3.cre~      ~override/XGprte3.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGprte3.CRE~      ~override/XGprte3.CRE~       
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprte4.cre~      ~override/XGprte4.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGprte4.CRE~      ~override/XGprte4.CRE~       
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprte5.cre~      ~override/XGprte5.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGprte5.CRE~      ~override/XGprte5.CRE~       
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprte6.cre~      ~override/XGprte6.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGprte6.CRE~      ~override/XGprte6.CRE~       
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprte7.cre~      ~override/XGprte7.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGprte7.CRE~      ~override/XGprte7.CRE~       
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprte.cre~       ~override/XGprte.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGprte.CRE~       ~override/XGprte.CRE~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprt.cre~        ~override/XGprt.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGprt.CRE~        ~override/XGprt.CRE~         
   SAY NAME1 @284 
   SAY NAME2 @284 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprtw.cre~       ~override/XGprtw.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGprtw.CRE~       ~override/XGprtw.CRE~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGpte10.cre~      ~override/XGpte10.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGpte10.CRE~      ~override/XGpte10.CRE~       
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGpte1.cre~       ~override/XGpte1.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGpte1.CRE~       ~override/XGpte1.CRE~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGpte2.cre~       ~override/XGpte2.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGpte2.CRE~       ~override/XGpte2.CRE~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGpte3.cre~       ~override/XGpte3.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGpte3.CRE~       ~override/XGpte3.CRE~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGpte4.cre~       ~override/XGpte4.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGpte4.CRE~       ~override/XGpte4.CRE~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGpte5.cre~       ~override/XGpte5.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGpte5.CRE~       ~override/XGpte5.CRE~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGpte6.cre~       ~override/XGpte6.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGpte6.CRE~       ~override/XGpte6.CRE~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGpte7.cre~       ~override/XGpte7.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGpte7.CRE~       ~override/XGpte7.CRE~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGpte8.cre~       ~override/XGpte8.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGpte8.CRE~       ~override/XGpte8.CRE~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGpte9.cre~       ~override/XGpte9.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGpte9.CRE~       ~override/XGpte9.CRE~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGptec.cre~       ~override/XGptec.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGptec.CRE~       ~override/XGptec.CRE~        
   SAY NAME1 @286 
   SAY NAME2 @287 
 
@@ -2325,15 +2325,15 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGRAVEN.CRE~      ~override/XGRAVEN.CRE
   SAY NAME1 @292 
   SAY NAME2 @292 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGreg.cre~        ~override/XGreg.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGreg.CRE~        ~override/XGreg.CRE~         
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGRGG.CRE~        ~override/XGRGG.CRE~         
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGrgp1.cre~       ~override/XGrgp1.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGrgp1.CRE~       ~override/XGrgp1.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGrgp.cre~        ~override/XGrgp.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGrgp.CRE~        ~override/XGrgp.CRE~         
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGrgq.cre~        ~override/XGrgq.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGrgq.CRE~        ~override/XGrgq.CRE~         
   SAY NAME1 @170 
   SAY NAME2 @170 
 
@@ -2373,35 +2373,35 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGRYLEE.CRE~      ~override/XGRYLEE.CRE
   SAY NAME1 @297 
   SAY NAME2 @297
 
-COPY ~weidu_external/PoFQuestPack/Actors/s#helm01.cre~         ~override/s#helm01.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/s#helm01.CRE~         ~override/s#helm01.CRE~          
   SAY NAME1 @83 
   SAY NAME2 @83
 
-COPY ~weidu_external/PoFQuestPack/Actors/s#ilmat1.cre~         ~override/s#ilmat1.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/s#ilmat1.CRE~         ~override/s#ilmat1.CRE~          
   SAY NAME1 @348 
   SAY NAME2 @348 
 
-COPY ~weidu_external/PoFQuestPack/Actors/s#inn01.cre~         ~override/s#inn01.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/s#inn01.CRE~         ~override/s#inn01.CRE~          
   SAY NAME1 @172 
   SAY NAME2 @172 
 
-COPY ~weidu_external/PoFQuestPack/Actors/s#inn02.cre~         ~override/s#inn02.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/s#inn02.CRE~         ~override/s#inn02.CRE~          
   SAY NAME1 @172 
   SAY NAME2 @172
 
-COPY ~weidu_external/PoFQuestPack/Actors/s#mage1.cre~         ~override/s#mage1.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/s#mage1.CRE~         ~override/s#mage1.CRE~          
   SAY NAME1 @81 
   SAY NAME2 @81
 
-COPY ~weidu_external/PoFQuestPack/Actors/s#mage2.cre~         ~override/s#mage2.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/s#mage2.CRE~         ~override/s#mage2.CRE~          
   SAY NAME1 @81 
   SAY NAME2 @81
 
-COPY ~weidu_external/PoFQuestPack/Actors/S#SHEV01.cre~         ~override/S#SHEV01.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/S#SHEV01.CRE~         ~override/S#SHEV01.CRE~          
   SAY NAME1 @22 
   SAY NAME2 @22
 
-COPY ~weidu_external/PoFQuestPack/Actors/s#SHOP01.cre~         ~override/s#SHOP01.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/s#SHOP01.CRE~         ~override/s#SHOP01.CRE~          
   SAY NAME1 @402 
   SAY NAME2 @402
 
@@ -2427,7 +2427,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGSAREV.CRE~      ~override/XGSAREV.CRE
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGSAR.CRE~        ~override/XGSAR.CRE~         
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGsarw.cre~       ~override/XGsarw.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGsarw.CRE~       ~override/XGsarw.CRE~        
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGSCHAR.CRE~      ~override/XGSCHAR.CRE~       
   SAY NAME1 @302 
@@ -2437,11 +2437,11 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGSDWSP.CRE~      ~override/XGSDWSP.CRE
   SAY NAME1 @303 
   SAY NAME2 @304 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGsero1.cre~      ~override/XGsero1.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGsero1.CRE~      ~override/XGsero1.CRE~       
   SAY NAME1 @305 
   SAY NAME2 @305 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGsero2.cre~      ~override/XGsero2.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGsero2.CRE~      ~override/XGsero2.CRE~       
   SAY NAME1 @305 
   SAY NAME2 @305 
 
@@ -2449,11 +2449,11 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGSERO.CRE~       ~override/XGSERO.CRE~
   SAY NAME1 @305 
   SAY NAME2 @305 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGsge.cre~        ~override/XGsge.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGsge.CRE~        ~override/XGsge.CRE~         
   SAY NAME1 @306 
   SAY NAME2 @306 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGsg.cre~         ~override/XGsg.cre~          
+COPY ~weidu_external/PoFQuestPack/Actors/XGsg.CRE~         ~override/XGsg.CRE~          
   SAY NAME1 @306 
   SAY NAME2 @306 
 
@@ -2465,13 +2465,13 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGSHOP1.CRE~      ~override/XGSHOP1.CRE
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGSHOP2.CRE~      ~override/XGSHOP2.CRE~      
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGshop4.cre~      ~override/XGshop4.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGshop4.CRE~      ~override/XGshop4.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGshope.cre~      ~override/XGshope.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGshope.CRE~      ~override/XGshope.CRE~       
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGSHOPF.CRE~      ~override/XGSHOPF.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGshopw.cre~      ~override/XGshopw.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGshopw.CRE~      ~override/XGshopw.CRE~       
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGSHTA.CRE~       ~override/XGSHTA.CRE~        
 
@@ -2483,7 +2483,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGSKELA.CRE~      ~override/XGSKELA.CRE
   SAY NAME1 @309 
   SAY NAME2 @309 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGskeld.cre~      ~override/XGskeld.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGskeld.CRE~      ~override/XGskeld.CRE~       
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGSKELG.CRE~      ~override/XGSKELG.CRE~       
   SAY NAME1 @308 
@@ -2499,13 +2499,13 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGSKLMG.CRE~      ~override/XGSKLMG.CRE
   SAY NAME1 @311 
   SAY NAME2 @311 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGskwr1.cre~      ~override/XGskwr1.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGskwr1.CRE~      ~override/XGskwr1.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGskwr2.cre~      ~override/XGskwr2.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGskwr2.CRE~      ~override/XGskwr2.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGskwr3.cre~      ~override/XGskwr3.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGskwr3.CRE~      ~override/XGskwr3.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGskwr4.cre~      ~override/XGskwr4.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGskwr4.CRE~      ~override/XGskwr4.CRE~       
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGSLAIN.CRE~         ~override/XGSLAIN.CRE~          
   SAY NAME1 @146 
@@ -2549,7 +2549,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGSOW.CRE~        ~override/XGSOW.CRE~
   SAY NAME1 @315 
   SAY NAME2 @315 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGspq.cre~        ~override/XGspq.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGspq.CRE~        ~override/XGspq.CRE~         
   SAY NAME1 @316 
   SAY NAME2 @316 
 
@@ -2575,10 +2575,10 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGSUELF.CRE~      ~override/XGSUELF.CRE
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGSULF.CRE~       ~override/XGSULF.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGsvkl.cre~       ~override/XGsvkl.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGsvkl.CRE~       ~override/XGsvkl.CRE~        
   SAY NAME1 @321 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGsvk.cre~        ~override/XGsvk.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGsvk.CRE~        ~override/XGsvk.CRE~         
   SAY NAME1 @322 
   SAY NAME2 @322 
 
@@ -2654,13 +2654,13 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGTARO.CRE~       ~override/XGTARO.CRE~
   SAY NAME1 @329 
   SAY NAME2 @329 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtass.cre~       ~override/XGtass.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGtass.CRE~       ~override/XGtass.CRE~        
   SAY NAME1 @33 
   SAY NAME2 @33 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtdr.cre~        ~override/XGtdr.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGtdr.CRE~        ~override/XGtdr.CRE~         
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtdrq.cre~       ~override/XGtdrq.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGtdrq.CRE~       ~override/XGtdrq.CRE~        
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGTEMG.CRE~       ~override/XGTEMG.CRE~        
   SAY NAME1 @330 
@@ -2700,19 +2700,19 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGTGS.CRE~        ~override/XGTGS.CRE~
   SAY NAME1 @335 
   SAY NAME2 @335 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGthef1.cre~      ~override/XGthef1.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGthef1.CRE~      ~override/XGthef1.CRE~       
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGthef2.cre~      ~override/XGthef2.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGthef2.CRE~      ~override/XGthef2.CRE~       
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGthef3.cre~      ~override/XGthef3.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGthef3.CRE~      ~override/XGthef3.CRE~       
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGthef4.cre~      ~override/XGthef4.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGthef4.CRE~      ~override/XGthef4.CRE~       
   SAY NAME1 @32 
   SAY NAME2 @32 
 
@@ -2720,7 +2720,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGTHFC.CRE~       ~override/XGTHFC.CRE~
   SAY NAME1 @336 
   SAY NAME2 @336 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGthf.cre~        ~override/XGthf.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGthf.CRE~        ~override/XGthf.CRE~         
   SAY NAME1 @337 
   SAY NAME2 @337 
 
@@ -2728,31 +2728,31 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGTHIEF.CRE~      ~override/XGTHIEF.CRE
   SAY NAME1 @32 
   SAY NAME2 @32 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtmer1.cre~      ~override/XGtmer1.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGtmer1.CRE~      ~override/XGtmer1.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtmer2.cre~      ~override/XGtmer2.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGtmer2.CRE~      ~override/XGtmer2.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtmer3.cre~      ~override/XGtmer3.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGtmer3.CRE~      ~override/XGtmer3.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtmer4.cre~      ~override/XGtmer4.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGtmer4.CRE~      ~override/XGtmer4.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtmer5.cre~      ~override/XGtmer5.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGtmer5.CRE~      ~override/XGtmer5.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtmer6.cre~      ~override/XGtmer6.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGtmer6.CRE~      ~override/XGtmer6.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtmer7.cre~      ~override/XGtmer7.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGtmer7.CRE~      ~override/XGtmer7.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtmer8.cre~      ~override/XGtmer8.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGtmer8.CRE~      ~override/XGtmer8.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtmer9.cre~      ~override/XGtmer9.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGtmer9.CRE~      ~override/XGtmer9.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtmerk.cre~      ~override/XGtmerk.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGtmerk.CRE~      ~override/XGtmerk.CRE~       
   SAY NAME1 @338 
   SAY NAME2 @338 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtmer.cre~       ~override/XGtmer.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGtmer.CRE~       ~override/XGtmer.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtmern.cre~      ~override/XGtmern.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGtmern.CRE~      ~override/XGtmern.CRE~       
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGTRAEK.CRE~      ~override/XGTRAEK.CRE~       
   SAY NAME1 @340 
@@ -2761,15 +2761,15 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGTRAEK.CRE~      ~override/XGTRAEK.CRE
 COPY ~weidu_external/PoFQuestPack/Actors/XGTRAV.CRE~       ~override/XGTRAV.CRE~        
   SAY NAME1 @342 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtrba1.cre~      ~override/XGtrba1.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGtrba1.CRE~      ~override/XGtrba1.CRE~       
   SAY NAME1 @343 
   SAY NAME2 @343 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtrba2.cre~      ~override/XGtrba2.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGtrba2.CRE~      ~override/XGtrba2.CRE~       
   SAY NAME1 @343 
   SAY NAME2 @343 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtrba3.cre~      ~override/XGtrba3.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGtrba3.CRE~      ~override/XGtrba3.CRE~       
   SAY NAME1 @343 
   SAY NAME2 @343 
 
@@ -2783,7 +2783,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGTRBAN.CRE~      ~override/XGTRBAN.CRE
   SAY NAME1 @343 
   SAY NAME2 @343 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtrbaq.cre~      ~override/XGtrbaq.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGtrbaq.CRE~      ~override/XGtrbaq.CRE~       
   SAY NAME1 @343 
   SAY NAME2 @343 
 
@@ -2819,13 +2819,13 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGTVAMP.CRE~      ~override/XGTVAMP.CRE
   SAY NAME1 @346 
   SAY NAME2 @346 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtwr1.cre~       ~override/XGtwr1.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGtwr1.CRE~       ~override/XGtwr1.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtwrc.cre~       ~override/XGtwrc.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGtwrc.CRE~       ~override/XGtwrc.CRE~        
   SAY NAME1 @170 
   SAY NAME2 @170 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtwr.cre~        ~override/XGtwr.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGtwr.CRE~        ~override/XGtwr.CRE~         
   SAY NAME1 @170 
   SAY NAME2 @170 
 
@@ -2890,9 +2890,9 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGWAN2.CRE~       ~override/XGWAN2.CRE~
   SAY NAME1 @357 
   SAY NAME2 @357 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGwar01.cre~      ~override/XGwar01.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGwar01.CRE~      ~override/XGwar01.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGwar02.cre~      ~override/XGwar02.cre~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGwar02.CRE~      ~override/XGwar02.CRE~       
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGWASS.CRE~       ~override/XGWASS.CRE~        
   SAY NAME1 @358 
@@ -3008,7 +3008,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGWTMER.CRE~      ~override/XGWTMER.CRE
   SAY NAME1 @382 
   SAY NAME2 @382 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGwulf.cre~       ~override/XGwulf.cre~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGwulf.CRE~       ~override/XGwulf.CRE~        
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGWWC.CRE~        ~override/XGWWC.CRE~         
   SAY NAME1 @48 
@@ -3021,7 +3021,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGYARF.CRE~       ~override/XGYARF.CRE~
   SAY NAME1 @385 
   SAY NAME2 @385 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGyarcl.cre~        ~override/XGyarcl.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGyarcl.CRE~        ~override/XGyarcl.CRE~         
   SAY NAME1 @386 
   SAY NAME2 @386 
 
@@ -3102,11 +3102,11 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGYARPO.CRE~       ~override/XGYARPO.CR
   SAY NAME1 @397 
   SAY NAME2 @397 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGyarqc.cre~        ~override/XGyarqc.cre~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGyarqc.CRE~        ~override/XGyarqc.CRE~         
   SAY NAME1 @389 
   SAY NAME2 @389 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGz.cre~          ~override/XGz.cre~           
+COPY ~weidu_external/PoFQuestPack/Actors/XGz.CRE~          ~override/XGz.CRE~           
 
 
 //////////////////////////////////
@@ -3229,7 +3229,7 @@ COPY ~PoFQuestPack/Areas/XG0030.ARE~         ~override/XG0030.ARE~
 
 COPY ~PoFQuestPack/Areas/XG0033.ARE~         ~override/XG0033.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0034.are~         ~override/XG0034.are~         
+COPY ~PoFQuestPack/Areas/XG0034.ARE~         ~override/XG0034.ARE~         
 
 COPY ~PoFQuestPack/Areas/XG0039.ARE~         ~override/XG0039.ARE~         
   SAY 0x339c @406 
@@ -3278,7 +3278,7 @@ COPY ~PoFQuestPack/Areas/XG0053.ARE~         ~override/XG0053.ARE~
 // SAY 0x3BE8 ~~
 // SAY 0x3C1C ~~
 
-COPY ~PoFQuestPack/Areas/XG0054.are~			~override/XG0054.are~
+COPY ~PoFQuestPack/Areas/XG0054.ARE~			~override/XG0054.ARE~
 // SAY 0x463C ~~  Refuge (de Gradak)       
 
 COPY ~PoFQuestPack/Areas/XG0055.ARE~			~override/XG0055.ARE~
@@ -3336,44 +3336,44 @@ COPY ~PoFQuestPack/Areas/XG0069.ARE~         ~override/XG0069.ARE~
 
 COPY ~PoFQuestPack/Areas/XG0070.ARE~         ~override/XG0070.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0071.are~         ~override/XG0071.are~         
+COPY ~PoFQuestPack/Areas/XG0071.ARE~         ~override/XG0071.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0072.are~         ~override/XG0072.are~
+COPY ~PoFQuestPack/Areas/XG0072.ARE~         ~override/XG0072.ARE~
   SAY 0x2450 @1001         
 
-COPY ~PoFQuestPack/Areas/XG0073.are~         ~override/XG0073.are~         
+COPY ~PoFQuestPack/Areas/XG0073.ARE~         ~override/XG0073.ARE~         
 
 COPY ~PoFQuestPack/Areas/XG0075.ARE~         ~override/XG0075.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0076.are~         ~override/XG0076.are~         
+COPY ~PoFQuestPack/Areas/XG0076.ARE~         ~override/XG0076.ARE~         
 
 COPY ~PoFQuestPack/Areas/XG0077.ARE~         ~override/XG0077.ARE~
   SAY 0x20C8 @1001         
 
-COPY ~PoFQuestPack/Areas/XG0078.are~         ~override/XG0078.are~         
+COPY ~PoFQuestPack/Areas/XG0078.ARE~         ~override/XG0078.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0079.are~         ~override/XG0079.are~         
+COPY ~PoFQuestPack/Areas/XG0079.ARE~         ~override/XG0079.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0080.are~         ~override/XG0080.are~
+COPY ~PoFQuestPack/Areas/XG0080.ARE~         ~override/XG0080.ARE~
   SAY 0x26CC @1041
   SAY 0x2700 @1042         
 
-COPY ~PoFQuestPack/Areas/XG0081.are~         ~override/XG0081.are~         
+COPY ~PoFQuestPack/Areas/XG0081.ARE~         ~override/XG0081.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0082.are~         ~override/XG0082.are~         
+COPY ~PoFQuestPack/Areas/XG0082.ARE~         ~override/XG0082.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0083.are~         ~override/XG0083.are~         
+COPY ~PoFQuestPack/Areas/XG0083.ARE~         ~override/XG0083.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0084.are~         ~override/XG0084.are~         
+COPY ~PoFQuestPack/Areas/XG0084.ARE~         ~override/XG0084.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0101.are~         ~override/XG0101.are~         
+COPY ~PoFQuestPack/Areas/XG0101.ARE~         ~override/XG0101.ARE~         
   SAY 0x1280 @398 
 
 COPY ~PoFQuestPack/Areas/XG0112.ARE~         ~override/XG0112.ARE~         
 
 COPY ~PoFQuestPack/Areas/XG0114.ARE~         ~override/XG0114.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0115.are~         ~override/XG0115.are~
+COPY ~PoFQuestPack/Areas/XG0115.ARE~         ~override/XG0115.ARE~
   SAY 0x16A0 @1043 
   SAY 0x16A4 @1044 
   SAY 0x1768 @1045         
@@ -3454,29 +3454,29 @@ COPY ~PoFQuestPack/Areas/XG0169.ARE~         ~override/XG0169.ARE~
 
 COPY ~PoFQuestPack/Areas/XG0170.ARE~         ~override/XG0170.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0171.are~         ~override/XG0171.are~         
+COPY ~PoFQuestPack/Areas/XG0171.ARE~         ~override/XG0171.ARE~         
   SAY 0x1c88 @416
   SAY 0x21C4 @1001 
 
 COPY ~PoFQuestPack/Areas/XG0172.ARE~         ~override/XG0172.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0176.are~         ~override/XG0176.are~         
+COPY ~PoFQuestPack/Areas/XG0176.ARE~         ~override/XG0176.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0177.are~         ~override/XG0177.are~         
+COPY ~PoFQuestPack/Areas/XG0177.ARE~         ~override/XG0177.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0178.are~         ~override/XG0178.are~         
+COPY ~PoFQuestPack/Areas/XG0178.ARE~         ~override/XG0178.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0179.are~         ~override/XG0179.are~         
+COPY ~PoFQuestPack/Areas/XG0179.ARE~         ~override/XG0179.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0180.are~         ~override/XG0180.are~         
+COPY ~PoFQuestPack/Areas/XG0180.ARE~         ~override/XG0180.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0181.are~         ~override/XG0181.are~         
+COPY ~PoFQuestPack/Areas/XG0181.ARE~         ~override/XG0181.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0182.are~         ~override/XG0182.are~         
+COPY ~PoFQuestPack/Areas/XG0182.ARE~         ~override/XG0182.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0183.are~         ~override/XG0183.are~         
+COPY ~PoFQuestPack/Areas/XG0183.ARE~         ~override/XG0183.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0184.are~         ~override/XG0184.are~         
+COPY ~PoFQuestPack/Areas/XG0184.ARE~         ~override/XG0184.ARE~         
 
 COPY ~PoFQuestPack/Areas/XG0201.ARE~         ~override/XG0201.ARE~         
 
@@ -3492,7 +3492,7 @@ COPY ~PoFQuestPack/Areas/XG0213.ARE~         ~override/XG0213.ARE~
 
 COPY ~PoFQuestPack/Areas/XG0214.ARE~         ~override/XG0214.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0215.are~         ~override/XG0215.are~
+COPY ~PoFQuestPack/Areas/XG0215.ARE~         ~override/XG0215.ARE~
   SAY 0x35CC @1043
   SAY 0x3694 @1048          
 
@@ -3545,21 +3545,21 @@ COPY ~PoFQuestPack/Areas/XG0269.ARE~         ~override/XG0269.ARE~
 
 COPY ~PoFQuestPack/Areas/XG0271.ARE~         ~override/XG0271.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0276.are~         ~override/XG0276.are~
+COPY ~PoFQuestPack/Areas/XG0276.ARE~         ~override/XG0276.ARE~
   SAY 0x258C @1050
   SAY 0x25C0 @1051         
 
-COPY ~PoFQuestPack/Areas/XG0278.are~         ~override/XG0278.are~
+COPY ~PoFQuestPack/Areas/XG0278.ARE~         ~override/XG0278.ARE~
   SAY 0x1E54 @1050
   SAY 0x1E88 @1051          
 
-COPY ~PoFQuestPack/Areas/XG0279.are~         ~override/XG0279.are~         
+COPY ~PoFQuestPack/Areas/XG0279.ARE~         ~override/XG0279.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0280.are~         ~override/XG0280.are~         
+COPY ~PoFQuestPack/Areas/XG0280.ARE~         ~override/XG0280.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0281.are~         ~override/XG0281.are~         
+COPY ~PoFQuestPack/Areas/XG0281.ARE~         ~override/XG0281.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0284.are~         ~override/XG0284.are~         
+COPY ~PoFQuestPack/Areas/XG0284.ARE~         ~override/XG0284.ARE~         
 
 COPY ~PoFQuestPack/Areas/XG0301.ARE~         ~override/XG0301.ARE~         
 
@@ -3575,7 +3575,7 @@ COPY ~PoFQuestPack/Areas/XG0312.ARE~         ~override/XG0312.ARE~
 
 COPY ~PoFQuestPack/Areas/XG0313.ARE~         ~override/XG0313.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0315.are~         ~override/XG0315.are~         
+COPY ~PoFQuestPack/Areas/XG0315.ARE~         ~override/XG0315.ARE~         
 
 COPY ~PoFQuestPack/Areas/XG0317.ARE~         ~override/XG0317.ARE~         
 
@@ -3619,11 +3619,11 @@ COPY ~PoFQuestPack/Areas/XG0369.ARE~         ~override/XG0369.ARE~
 
 COPY ~PoFQuestPack/Areas/XG0371.ARE~         ~override/XG0371.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0380.are~         ~override/XG0380.are~         
+COPY ~PoFQuestPack/Areas/XG0380.ARE~         ~override/XG0380.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0381.are~         ~override/XG0381.are~         
+COPY ~PoFQuestPack/Areas/XG0381.ARE~         ~override/XG0381.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0384.are~         ~override/XG0384.are~         
+COPY ~PoFQuestPack/Areas/XG0384.ARE~         ~override/XG0384.ARE~         
 
 COPY ~PoFQuestPack/Areas/XG0401.ARE~         ~override/XG0401.ARE~
   SAY 0x300C @1052         
@@ -3660,7 +3660,7 @@ COPY ~PoFQuestPack/Areas/XG0429.ARE~         ~override/XG0429.ARE~
 COPY ~PoFQuestPack/Areas/XG0439.ARE~         ~override/XG0439.ARE~
   SAY 0xDB4 @1001          
 
-COPY ~PoFQuestPack/Areas/XG0440.are~         ~override/XG0440.are~ 
+COPY ~PoFQuestPack/Areas/XG0440.ARE~         ~override/XG0440.ARE~ 
 
 COPY ~PoFQuestPack/Areas/XG0446.ARE~         ~override/XG0446.ARE~         
 
@@ -3670,10 +3670,10 @@ COPY ~PoFQuestPack/Areas/XG0462.ARE~         ~override/XG0462.ARE~
 
 COPY ~PoFQuestPack/Areas/XG0464.ARE~         ~override/XG0464.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0480.are~         ~override/XG0480.are~
+COPY ~PoFQuestPack/Areas/XG0480.ARE~         ~override/XG0480.ARE~
   SAY 0xA7C @1001         
 
-COPY ~PoFQuestPack/Areas/XG0481.are~         ~override/XG0481.are~         
+COPY ~PoFQuestPack/Areas/XG0481.ARE~         ~override/XG0481.ARE~         
 
 COPY ~PoFQuestPack/Areas/XG04N1.ARE~         ~override/XG04N1.ARE~
   SAY 0x2DEC @1052         
@@ -3711,9 +3711,9 @@ COPY ~PoFQuestPack/Areas/XG0562.ARE~         ~override/XG0562.ARE~
 
 COPY ~PoFQuestPack/Areas/XG0564.ARE~         ~override/XG0564.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0580.are~         ~override/XG0580.are~         
+COPY ~PoFQuestPack/Areas/XG0580.ARE~         ~override/XG0580.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0581.are~         ~override/XG0581.are~         
+COPY ~PoFQuestPack/Areas/XG0581.ARE~         ~override/XG0581.ARE~         
 
 COPY ~PoFQuestPack/Areas/XG0615.ARE~         ~override/XG0615.ARE~         
 
@@ -3732,9 +3732,9 @@ COPY ~PoFQuestPack/Areas/XG0648.ARE~         ~override/XG0648.ARE~
 
 COPY ~PoFQuestPack/Areas/XG0662.ARE~         ~override/XG0662.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0680.are~         ~override/XG0680.are~         
+COPY ~PoFQuestPack/Areas/XG0680.ARE~         ~override/XG0680.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0681.are~         ~override/XG0681.are~         
+COPY ~PoFQuestPack/Areas/XG0681.ARE~         ~override/XG0681.ARE~         
 
 COPY ~PoFQuestPack/Areas/XG0701.ARE~         ~override/XG0701.ARE~         
 
@@ -3758,10 +3758,10 @@ COPY ~PoFQuestPack/Areas/XG0762.ARE~         ~override/XG0762.ARE~
 COPY ~PoFQuestPack/Areas/XG0764.ARE~         ~override/XG0764.ARE~         
   SAY 0x5c0 @430 
 
-COPY ~PoFQuestPack/Areas/XG0780.are~         ~override/XG0780.are~ 
+COPY ~PoFQuestPack/Areas/XG0780.ARE~         ~override/XG0780.ARE~ 
   SAY 0x3648 @1053        
 
-COPY ~PoFQuestPack/Areas/XG0801.are~         ~override/XG0801.are~         
+COPY ~PoFQuestPack/Areas/XG0801.ARE~         ~override/XG0801.ARE~         
 
 COPY ~PoFQuestPack/Areas/XG0803.ARE~         ~override/XG0803.ARE~         
 
@@ -3774,7 +3774,7 @@ COPY ~PoFQuestPack/Areas/XG0829.ARE~         ~override/XG0829.ARE~
 
 COPY ~PoFQuestPack/Areas/XG0864.ARE~         ~override/XG0864.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0880.are~         ~override/XG0880.are~         
+COPY ~PoFQuestPack/Areas/XG0880.ARE~         ~override/XG0880.ARE~         
 
 COPY ~PoFQuestPack/Areas/XG0901.ARE~         ~override/XG0901.ARE~
   SAY 0x4FD4 @1054
@@ -3787,7 +3787,7 @@ COPY ~PoFQuestPack/Areas/XG0920.ARE~         ~override/XG0920.ARE~
 
 COPY ~PoFQuestPack/Areas/XG0964.ARE~         ~override/XG0964.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0A80.are~         ~override/XG0A80.are~
+COPY ~PoFQuestPack/Areas/XG0A80.ARE~         ~override/XG0A80.ARE~
   SAY 0x24AC @1041
   SAY 0x24E0 @1042         
 
@@ -3795,11 +3795,19 @@ COPY ~PoFQuestPack/Areas/XG1020.ARE~         ~override/XG1020.ARE~
 
 COPY ~PoFQuestPack/Areas/XG1034.ARE~         ~override/XG1034.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG1053.ARE~         ~override/XG1053.ARE~         
+COPY ~PoFQuestPack/Areas/XG1053.ARE~         ~override/XG1053.ARE~      
+
+// COPY ~PoFQuestPack/OTHER/SPPR112.SPL~         ~override/SPPR112.SPL~ UNLESS ~SPPR112.SPL~
+
+ACTION_IF (NOT FILE_EXISTS_IN_GAME ~SPPR112.SPL~) BEGIN // IWD spell for CLERIC_CIRCLE_OF_PROTECTION
+COPY ~PoFQuestPack/OTHER/IWD.Spell/SPPR112.SPL~         ~override/SPPR112.SPL~ UNLESS ~SPPR112.SPL~
+  SAY NAME2 @1067
+  SAY DESC @1068
+END
 
 COPY ~PoFQuestPack/Areas/XG1057.ARE~         ~override/XG1057.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG1080.are~         ~override/XG1080.are~         
+COPY ~PoFQuestPack/Areas/XG1080.ARE~         ~override/XG1080.ARE~         
 
 COPY ~PoFQuestPack/Areas/XG1120.ARE~         ~override/XG1120.ARE~         
 
@@ -3809,60 +3817,60 @@ COPY ~PoFQuestPack/Areas/XG1220.ARE~         ~override/XG1220.ARE~
 
 COPY ~PoFQuestPack/Areas/XG1234.ARE~         ~override/XG1234.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG1319.are~         ~override/XG1319.are~         
+COPY ~PoFQuestPack/Areas/XG1319.ARE~         ~override/XG1319.ARE~         
 
 COPY ~PoFQuestPack/Areas/XG2057.ARE~         ~override/XG2057.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG4000.are~         ~override/XG4000.are~         
+COPY ~PoFQuestPack/Areas/XG4000.ARE~         ~override/XG4000.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG4001.are~         ~override/XG4001.are~         
+COPY ~PoFQuestPack/Areas/XG4001.ARE~         ~override/XG4001.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8100.are~         ~override/XG8100.are~         
+COPY ~PoFQuestPack/Areas/XG8100.ARE~         ~override/XG8100.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8103.are~         ~override/XG8103.are~         
+COPY ~PoFQuestPack/Areas/XG8103.ARE~         ~override/XG8103.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8104.are~         ~override/XG8104.are~         
+COPY ~PoFQuestPack/Areas/XG8104.ARE~         ~override/XG8104.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8200.are~         ~override/XG8200.are~         
+COPY ~PoFQuestPack/Areas/XG8200.ARE~         ~override/XG8200.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8201.are~         ~override/XG8201.are~         
+COPY ~PoFQuestPack/Areas/XG8201.ARE~         ~override/XG8201.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8300.are~         ~override/XG8300.are~         
+COPY ~PoFQuestPack/Areas/XG8300.ARE~         ~override/XG8300.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8301.are~         ~override/XG8301.are~         
+COPY ~PoFQuestPack/Areas/XG8301.ARE~         ~override/XG8301.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8400.are~         ~override/XG8400.are~         
+COPY ~PoFQuestPack/Areas/XG8400.ARE~         ~override/XG8400.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8500.are~         ~override/XG8500.are~         
+COPY ~PoFQuestPack/Areas/XG8500.ARE~         ~override/XG8500.ARE~         
 
-COPY ~PoFQuestPack/Areas/XGa180.are~         ~override/XGa180.are~         
+COPY ~PoFQuestPack/Areas/XGa180.ARE~         ~override/XGa180.ARE~         
 
-COPY ~PoFQuestPack/Areas/XGa280.are~         ~override/XGa280.are~         
+COPY ~PoFQuestPack/Areas/XGa280.ARE~         ~override/XGa280.ARE~         
 
-COPY ~PoFQuestPack/Areas/XGa380.are~         ~override/XGa380.are~         
+COPY ~PoFQuestPack/Areas/XGa380.ARE~         ~override/XGa380.ARE~         
 
-COPY ~PoFQuestPack/Areas/XGa480.are~         ~override/XGa480.are~
+COPY ~PoFQuestPack/Areas/XGa480.ARE~         ~override/XGa480.ARE~
   SAY 0x44C @1001         
 
-COPY ~PoFQuestPack/Areas/XGb180.are~         ~override/XGb180.are~        
+COPY ~PoFQuestPack/Areas/XGb180.ARE~         ~override/XGb180.ARE~        
 
-COPY ~PoFQuestPack/Areas/XGKAR1.are~         ~override/XGKAR1.are~         
+COPY ~PoFQuestPack/Areas/XGKAR1.ARE~         ~override/XGKAR1.ARE~         
   SAY 0x1060 @431 
 
-COPY ~PoFQuestPack/Areas/XGKAR2.are~         ~override/XGKAR2.are~         
+COPY ~PoFQuestPack/Areas/XGKAR2.ARE~         ~override/XGKAR2.ARE~         
   SAY 0x1280 @431 
 
-COPY ~PoFQuestPack/Areas/XGRA01.are~         ~override/XGRA01.are~        
+COPY ~PoFQuestPack/Areas/XGRA01.ARE~         ~override/XGRA01.ARE~        
 
-COPY ~PoFQuestPack/Areas/XGRA03.are~         ~override/XGRA03.are~         
+COPY ~PoFQuestPack/Areas/XGRA03.ARE~         ~override/XGRA03.ARE~         
 
-COPY ~PoFQuestPack/Areas/XGRA04.are~         ~override/XGRA04.are~         
+COPY ~PoFQuestPack/Areas/XGRA04.ARE~         ~override/XGRA04.ARE~         
 
-COPY ~PoFQuestPack/Areas/XGRA06.are~         ~override/XGRA06.are~         
+COPY ~PoFQuestPack/Areas/XGRA06.ARE~         ~override/XGRA06.ARE~         
 
-COPY ~PoFQuestPack/Areas/XGRA08.are~         ~override/XGRA08.are~         
+COPY ~PoFQuestPack/Areas/XGRA08.ARE~         ~override/XGRA08.ARE~         
 
-COPY ~PoFQuestPack/Areas/XGTORM.are~         ~override/XGTORM.are~         
+COPY ~PoFQuestPack/Areas/XGTORM.ARE~         ~override/XGTORM.ARE~         
 
 COPY ~PoFQuestPack/Areas/XGUMOD.ARE~         ~override/XGUMOD.ARE~         
   SAY 0x3040 @432 
@@ -5302,6 +5310,8 @@ PRINT ~         ~
 
 END
 
+COPY ~weidu_external/PoFQuestPack/Stores/XGBAR1.STO~			~override/XGBAR1.STO~
+
 COPY ~weidu_external/PoFQuestPack/Stores/XGBARF.STO~			~override/XGBARF.STO~
   SAY NAME2 @919
 
@@ -5387,10 +5397,10 @@ COMPILE ~PoFQuestPack/Baf_new~
 
 
 EXTEND_TOP ~AR0020.BCS~				~PoFQuestPack/baf_are/S#AR0020.baf~
-USING ~PoFQuestPack/Languages/%s/baf_are/S#AR0020.tra~
+USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0020.tra~
 
 EXTEND_TOP ~AR0300.BCS~				~PoFQuestPack/baf_are/S#AR0300.baf~
-USING ~PoFQuestPack/Languages/%s/baf_are/S#AR0300.tra~
+USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0300.tra~
 
 EXTEND_TOP ~AR0305.BCS~				~PoFQuestPack/baf_are/S#AR0305.baf~
 
@@ -5403,7 +5413,7 @@ EXTEND_TOP ~AR0527.BCS~				~PoFQuestPack/baf_are/S#AR0527.baf~
 EXTEND_TOP ~AR0528.BCS~				~PoFQuestPack/baf_are/S#AR0528.baf~
 
 EXTEND_TOP ~AR0602.BCS~				~PoFQuestPack/baf_are/S#AR0602.baf~
-USING ~PoFQuestPack/Languages/%s/baf_are/S#AR0602.tra~
+USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0602.tra~
 
 EXTEND_BOTTOM ~AR0700.BCS~				~PoFQuestPack/baf_are/S#AR0700.baf~
 
@@ -5412,20 +5422,20 @@ EXTEND_TOP ~AR0800.BCS~				~PoFQuestPack/baf_are/S#AR0800.baf~
 EXTEND_TOP ~AR0900.BCS~				~PoFQuestPack/baf_are/S#AR0900.baf~
 
 EXTEND_TOP ~AR1000.BCS~				~PoFQuestPack/baf_are/S#AR1000.baf~
-USING ~PoFQuestPack/Languages/%s/baf_are/S#AR1000.tra~
+USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR1000.tra~
 
 EXTEND_TOP ~AR1005.BCS~				~PoFQuestPack/baf_are/S#AR1005.baf~
-USING ~PoFQuestPack/Languages/%s/baf_are/S#AR1005.tra~
+USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR1005.tra~
 
 EXTEND_TOP ~AR1100.BCS~				~PoFQuestPack/baf_are/S#AR1100.baf~
-USING ~PoFQuestPack/Languages/%s/baf_are/S#AR1100.tra~
+USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR1100.tra~
 
 EXTEND_TOP ~AR1500.BCS~				~PoFQuestPack/baf_are/S#AR1500.baf~
 
 EXTEND_TOP ~AR1602.BCS~				~PoFQuestPack/baf_are/S#AR1602.baf~
 
 EXTEND_TOP ~AR2000.BCS~				~PoFQuestPack/baf_are/S#AR2000.baf~
-USING ~PoFQuestPack/Languages/%s/baf_are/S#AR2000.tra~
+USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR2000.tra~
 
 
 
@@ -5443,14 +5453,14 @@ USING ~PoFQuestPack/Languages/%s/baf_are/S#AR2000.tra~
      APPEND_FILE ~PoFQuestPack/Worldmap/links.tbl~
 	 
     COPY ~Worldmap/map_mods_trans.tra~		~Worldmap~
-     APPEND_FILE_EVALUATE ~PoFQuestPack/Worldmap/%LANGUAGE%/worldmap.tra~
+     APPEND_FILE_EVALUATE ~PoFQuestPack/Worldmap/autotra/%LANGUAGE%/worldmap.tra~
 	 
   END ELSE BEGIN
   
     MKDIR ~Worldmap~
     COPY ~PoFQuestPack/Worldmap/areas.tbl~		~Worldmap/map_mods_areas.tbl~
     COPY ~PoFQuestPack/Worldmap/links.tbl~		~Worldmap/map_mods_links.tbl~
-    COPY ~PoFQuestPack/Worldmap/%LANGUAGE%/worldmap.tra~		~Worldmap/map_mods_trans.tra~
+    COPY ~PoFQuestPack/Worldmap/autotra/%LANGUAGE%/worldmap.tra~		~Worldmap/map_mods_trans.tra~
 	
   END
 

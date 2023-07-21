@@ -4152,6 +4152,23 @@ Weight: 1~
 @1065 = ~Lord Dread~ // Lord Dread
 @1066 = ~Lord Dread~ // Lord Dread
 
+////// IWD spell for CLERIC_CIRCLE_OF_PROTECTION
+
+@1067   = Curse
+
+@1068  = ~Curse
+(Conjuration/Summoning)
+
+Level: 1
+Sphere: All
+Range: Visual range of the caster
+Duration: 6 rounds
+Casting Time: 9
+Area of Effect: 15-ft. radius
+Saving Throw: None
+
+When uttering the Curse spell, the caster lowers the morale of enemy creatures and any Saving Throws and attack rolls they make by 1. At the instant the spell is completed, it affects all creatures in a 15-ft. radius centered on the point selected by the caster. Affected creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not.~
+
 ////XGBOOKP.itm - BOOKPR.itm////
 @2000 = ~Grimoire~
 @2003 = ~Grimoire des interprètes~ ~Grimoire des d'Oghmatiques~

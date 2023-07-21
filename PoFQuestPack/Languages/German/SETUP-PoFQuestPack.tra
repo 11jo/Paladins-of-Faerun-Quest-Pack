@@ -4005,6 +4005,20 @@ EIGENSCHAFTEN:
 @1065 = ~Lord Dread~ // Lord Dread
 @1066 = ~Lord Dread~ // Lord Dread
 
+////// IWD spell for CLERIC_CIRCLE_OF_PROTECTION
+
+@1067   = Fluch
+
+@1068  = ~Fluch (Herbeirufung/Beschwörung)
+Grad: 1
+Allgemeiner Zyklus
+Reichweite: Sichtweite des Anwenders
+Wirkungsdauer: 6 Runden
+Zeitaufwand: 1 Runde
+Wirkungsbereich: Ein Würfel mit 15 m Kantenlänge 
+Rettungswurf: Nein
+Wenn der Anwender den Fluch ausspricht, senkt er die Moral feindlicher Wesen und zieht -1 von ihren Rettungs- und Angriffswürfen ab. Sobald der Zauber wirkt, werden alle Wesen innerhalb eines Würfels mit 15 m Kantenlänge um einen vom Anwender gewählten Punkt getroffen (Wesen, die den Bereich verlassen, nachdem sie getroffen wurden, spüren die Wirkung des Zaubers trotzdem. Der Fluch wirkt aber nicht auf Wesen, die den Bereich erst später betreten).~
+
 ////XGBOOKP.itm - BOOKPR.itm////
 @2000 = ~Grimoire~
 @2003 = ~Grimoire des interprètes~ ~Grimoire des d'Oghmatiques~
