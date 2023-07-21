@@ -1,28 +1,28 @@
-@0 = ~DÃ©poser vos armes !~ // Protecteur
-@1 = ~HolÃ , doucement ! Un des prisonniers m'a demandÃ© de faire passer un message, j'ai une lettre pour vous.~ // Charname
-@2 = ~Donnez-moi Ã§a.~ // Protecteur
-@3 = ~Ã‡a ne prouve pas grand-chose ! Vous avez deux possibilitÃ©s pour prouver vos intentions. Nous avons besoin de volontaires pour combattre dans l'arÃ¨ne avec nos prisonniers. Ou alors vous pouvez sauver nos frÃ¨res qui sont sur le point d'Ãªtre exÃ©cutÃ©s.~ // Protecteur
+@0 = ~Déposer vos armes !~ // Protecteur
+@1 = ~Holà, doucement ! Un des prisonniers m'a demandé de faire passer un message, j'ai une lettre pour vous.~ // Charname
+@2 = ~Donnez-moi ça.~ // Protecteur
+@3 = ~Ça ne prouve pas grand-chose ! Vous avez deux possibilités pour prouver vos intentions. Nous avons besoin de volontaires pour combattre dans l'arène avec nos prisonniers. Ou alors vous pouvez sauver nos frères qui sont sur le point d'être exécutés.~ // Protecteur
 @4 = ~Que le combat commence !~ // Protecteur
-@5 = ~Tu as gagnÃ© le duel <CHARNAME> et ainsi obtenu notre confiance. Maintenant rejoignez le druide, il vous attend.~ // Protecteur
-@6 = ~La MaÃ®tresse de la forÃªt est affaiblie, les bois sont en train de brÃ»ler. Le gouverneur a trouvÃ© l'Ã©pÃ©e.~ // Charname
-@7 = ~Oui <CHARNAME>, je suis au courant. Je m'occupe de la MaÃ®tresse de la forÃªt. Et toi, tu dois retrouver l'Ã©pÃ©e et la ramener.~ // Paladin ?
+@5 = ~Tu as gagné le duel <CHARNAME> et ainsi obtenu notre confiance. Maintenant rejoignez le druide, il vous attend.~ // Protecteur
+@6 = ~La Maîtresse de la forêt est affaiblie, les bois sont en train de brûler. Le gouverneur a trouvé l'épée.~ // Charname
+@7 = ~Oui <CHARNAME>, je suis au courant. Je m'occupe de la Maîtresse de la forêt. Et toi, tu dois retrouver l'épée et la ramener.~ // Paladin ?
 @8 = ~Le Gouverneur est mort, je suis revenu avec la Lame des runes.~ // Charname
-@9 = ~Excellent travail <CHARNAME>. Nous sommes reconnaissants pour tout ce que tu as fait. Nous pensons que cette Ã©pÃ©e extrÃªmement puissante ne sera en sÃ©curitÃ© qu'avec toi. Garde-la prÃ©cieusement. Maintenant pardonne-nous, mais nous avons beaucoup Ã  faire.~ // Paladin ?
-@10 = ~TÃ©thyr.
+@9 = ~Excellent travail <CHARNAME>. Nous sommes reconnaissants pour tout ce que tu as fait. Nous pensons que cette épée extrêmement puissante ne sera en sécurité qu'avec toi. Garde-la précieusement. Maintenant pardonne-nous, mais nous avons beaucoup à faire.~ // Paladin ?
+@10 = ~Téthyr.
 
-La dryade des collines d'Umar a sollicitÃ© mon aide. La forÃªt de TÃ©thyr est dÃ©truite par le gouverneur local. Cette affaire requiert une investigation.~
+La dryade des collines d'Umar a sollicité mon aide. La forêt de Téthyr est détruite par le gouverneur local. Cette affaire requiert une investigation.~
 @11 = ~Tethyr.
 
-Un des prisonniers ma transmis un message, je dois le porter dans la forÃªt, mais avant il faut que je m'entretienne avec le propriÃ©taire du chÃ¢teau.~
-@12 = ~TÃ©thyr.
+Un des prisonniers ma transmis un message, je dois le porter dans la forêt, mais avant il faut que je m'entretienne avec le propriétaire du château.~
+@12 = ~Téthyr.
 
-J'ai parlÃ© avec un des prisonniers, il m'a confiÃ© une missive que je dois dÃ©livrer dans la forÃªt, non loin du chÃ¢teau.~
-@13 = ~TÃ©thyr.
+J'ai parlé avec un des prisonniers, il m'a confié une missive que je dois délivrer dans la forêt, non loin du château.~
+@13 = ~Téthyr.
 
-J'ai gagnÃ© la confiance des habitants de la forÃªt de TÃ©thyr. Maintenant, je dois rencontrer la MaÃ®tresse de la forÃªt, quelque part au nord d'ici. Elle est gardienne la d'une arme trÃ¨s puissante, une Ã©pÃ©e runique. Le gouverneur est trÃ¨s intÃ©ressÃ© par cette Ã©pÃ©e.~
-@14 = ~TÃ©thyr.
+J'ai gagné la confiance des habitants de la forêt de Téthyr. Maintenant, je dois rencontrer la Maîtresse de la forêt, quelque part au nord d'ici. Elle est gardienne la d'une arme très puissante, une épée runique. Le gouverneur est très intéressé par cette épée.~
+@14 = ~Téthyr.
 
-Le gouverneur a entrepris de brÃ»ler la forÃªt de TÃ©thyr et a dÃ©robÃ© son trÃ©sor. Je dois le retrouver et arrÃªter cette folie.~
-@15 = ~TÃ©thyr.
+Le gouverneur a entrepris de brûler la forêt de Téthyr et a dérobé son trésor. Je dois le retrouver et arrêter cette folie.~
+@15 = ~Téthyr.
 
-La forÃªt de TÃ©thyr est prÃ©servÃ©e. En rÃ©compense, j'ai reÃ§u une Ã©pÃ©e runique trÃ¨s puissante.~
+La forêt de Téthyr est préservée. En récompense, j'ai reçu une épée runique très puissante.~

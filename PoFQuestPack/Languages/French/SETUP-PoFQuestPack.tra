@@ -1,4 +1,4 @@
-@1 = ~QuÃªtes : Les Paladins de FÃ©Ã©rune~
+@1 = ~Quetes : Les Paladins de Feerune~
 @2 = ~Student of Academy~
 @3 = ~Student~
 @4 = ~Magister~
@@ -19,7 +19,7 @@
 @19 = ~Seigneur Aragorn~
 @20 = ~Aran~
 @21 = ~Archimage~
-@22 = ~PrÃªtre de Shevarash~
+@22 = ~Prêtre de Shevarash~
 
 @24 = ~Ardes, the highest priest~
 @25 = ~Ardes~
@@ -46,14 +46,14 @@
 @46 = ~Guard of the pass~
 @47 = ~Sacred rage~
 @48 = ~Capitaine des gardes~
-@49 = ~DÃ©lÃ©guÃ© au commerce~
-@50 = ~Chasseur de trÃ©sor~
+@49 = ~Délégué au commerce~
+@50 = ~Chasseur de trésor~
 @51 = ~Adoster Son of the Dryad~
 @52 = ~Citoyen de la Porte de Baldur~
 @53 = ~Grand Duc Opas~
 @54 = ~Bloodthirsty vampire~
 @55 = ~Magicien~
-@56 = ~SÅ“ur de Bodhi~
+@56 = ~Sœur de Bodhi~
 @57 = ~Maire~
 @58 = ~Keeper of a brotherhood~
 @59 = ~Margul~
@@ -65,22 +65,22 @@
 @65 = ~Champion~
 @66 = ~Citoyen~
 @67 = ~Priest of the Bloody Spears~
-@68 = ~PrÃªtre de Cyric~
-@69 = ~Haut prÃªtre de Cyric~
+@68 = ~Prêtre de Cyric~
+@69 = ~Haut prêtre de Cyric~
 @70 = ~The elf in dark~
-@71 = ~PrÃªtre~
+@71 = ~Prêtre~
 @72 = ~Pirate de Calimport~
-@73 = ~DÃ©fenseur de Calimport~
-@74 = ~PrÃªtresse de Shaar~
+@73 = ~Défenseur de Calimport~
+@74 = ~Prêtresse de Shaar~
 @75 = ~Messager~
 @76 = ~Gardien du messager~
 @77 = ~Do you wish something?~
 @78 = ~Craven~
 @79 = ~Bloody Clan~
-@80 = ~Haut prÃªtre de Cyric~
+@80 = ~Haut prêtre de Cyric~
 @81 = ~Mage de Padhiver~
 @82 = ~Corps~
-@83 = ~PrÃªtre de Helm~
+@83 = ~Prêtre de Helm~
 @84 = ~Servant of a devil~
 @85 = ~Maric Battlebeard~
 @86 = ~Battlebeard~
@@ -92,12 +92,12 @@
 @92 = ~Dragon noir~
 @93 = ~Dracorex~
 @94 = ~Mining druid~
-@95 = ~Haut prÃªtresse d'Eilistraee~
-@96 = ~Haut prÃªtresse~
+@95 = ~Haut prêtresse d'Eilistraee~
+@96 = ~Haut prêtresse~
 @97 = ~Governor of the house Lolth~
-@98 = ~FidÃ¨le d'Eilistraee~
+@98 = ~Fidèle d'Eilistraee~
 @99 = ~Leader of drow~
-@100 = ~PrÃªtresse d'Eilistraee~
+@100 = ~Prêtresse d'Eilistraee~
 @101 = ~Vieux dragon~
 @102 = ~Jarlaxle's drow~
 @103 = ~Jarlaxle's priest~
@@ -136,8 +136,8 @@
 @136 = ~Defender of the Evil~
 @137 = ~Fallen paladin~
 @138 = ~Farmer~
-@139 = ~FÃ©e des ForÃªts~
-@140 = ~Paladin dÃ©chu de l'Ordre~
+@139 = ~Fée des Forêts~
+@140 = ~Paladin déchu de l'Ordre~
 @141 = ~Servant of Helm~
 @142 = ~Gradak~
 @143 = ~Frosti~
@@ -167,19 +167,19 @@
 @167 = ~To ask great Hrotgar about his past it is useless. Hrotgar is paladin, hero of Northern lands. Now got the second chance thanks to you and it is visible that he is very grateful for it. Hundred years later having behind shoulders huge experience, it can start wanderings again having joined your group.~
 @168 = ~Rajkskul~
 @169 = ~Fille du maire~
-@170 = ~RÃ´deur~
+@170 = ~Rôdeur~
 @171 = ~Hunting worg~
 @172 = ~Innkeeper~
 @173 = ~Innkeeper of Calimport~
 @174 = ~House owner~
 @175 = ~Randolph~
-@176 = ~IreniÑus' apprentice~
+@176 = ~Irenicus' apprentice~
 @177 = ~Veiled mage~
 @178 = ~Dark mage~
-@179 = ~IreniÑus's patrol~
+@179 = ~Irenicus's patrol~
 @180 = ~Jarlaxle's Servant~
 @181 = ~Prison guard~
-@182 = ~Personnage sombre~ // Le Sombre // Furtif // Ã‰claireur// s#AR0300.BAF XGKASS.cre
+@182 = ~Personnage sombre~ // Le Sombre // Furtif // Éclaireur// s#AR0300.BAF XGKASS.cre
 @183 = ~King's daughter~
 @184 = ~Kelrot~
 
@@ -382,20 +382,20 @@
 @382 = ~Merchant mage~
 
 
-@385 = ~PrÃªtre de Gradak~
+@385 = ~Prêtre de Gradak~
 @386 = ~Scout commander~
 @387 = ~Archimage de Gradak~
 @388 = ~Mage de Gradak~
 @389 = ~Gradak's commander~
-@390 = ~PrÃªtre de Gradak~
+@390 = ~Prêtre de Gradak~
 @391 = ~Gradak's prison guard~
 @392 = ~Guerrier de Gradak~
 @393 = ~Guerrier de Gradak~
 @394 = ~Gradak's Elite Guardsman~
 @395 = ~We are Gradak's Elite, do not move...~
 @396 = ~Marin de Gradak~
-@397 = ~Ã‰claireur de Gradak~
-@398 = ~Le passage est bloquÃ©~
+@397 = ~Éclaireur de Gradak~
+@398 = ~Le passage est bloqué~
 @399 = ~This way was barricaded from the inside.~
 @400 = ~The abandoned house~
 @401 = ~There is nothing to look.~
@@ -411,7 +411,7 @@
 @411 = ~This way don't lead anywhere.~
 @412 = ~Gradak's Father~
 @413 = ~The road was destroyed.~
-@414 = ~It is an old round table which belonged to FÃ©Ã©rune's paladins.~
+@414 = ~It is an old round table which belonged to Féérune's paladins.~
 @415 = ~The prison is locked~
 @416 = ~The destroyed vessel~
 @417 = ~Gate are locked from the other side.~
@@ -428,7 +428,7 @@
 @428 = ~This way leads nowhere.~
 @429 = ~The ladder is destroyed.~
 @430 = ~Stairs leading to the fortress wall. No entry allowed.~
-@431 = ~TrÃ©sor~
+@431 = ~Trésor~
 @432 = ~The entrance is barricaded from the other side.~
 @433 = ~Wardstone of the 2th Guard~
 @434 = ~Wardstone of the 3th Guard~
@@ -439,7 +439,7 @@
 @439 = ~Hell amulet~
 @440 = ~This amulet has the shape of a fireball. It is worn by servants of the Devil, not only to show who they serve, but also because of magical abilities.	
 	
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 
 Deals 3d6 points of fire damage when a saving throw fails vs. spells
 Fire resistance +50%
@@ -450,7 +450,7 @@ Inutilisable par :
 @441 = ~Ghoul's amulet~
 @442 = ~This amulet is made of a ghoul's tooth. It does not have a very outstanding appearance, but its properties may be useful.
 
-PARAMÃˆTRES   
+PARAMÈTRES   
 
 25% chance to drain 1 level from the target (saving throw vs. spells to cancel)
 Immunity to non-magical weapons
@@ -462,7 +462,7 @@ Inutilisable par :
 @443 = ~Gift of Gods~
 @444 = ~This extraordinarily powerful relic has sacrificed many lives. Very little is known about her, since no one who has seen her can tell anything about her anymore.
 					
-PARAMÃˆTRES   
+PARAMÈTRES   
 
 Bonuses +2 to all basic characteristics (strength, dexterity, etc.)
 
@@ -473,7 +473,7 @@ Inutilisable par :
 @445 = ~Guardianship of Angel~
 @446 = ~This is a very rare artifact found in a forgotten temple dedicated to the god of heaven.
 
-PARAMÃˆTRES   
+PARAMÈTRES   
 
 +1 to basic characteristics
 +10% resistance to fire, electricity, cold and poison
@@ -487,19 +487,19 @@ Inutilisable par :
 @450 = ~Battle Axe of Death~
 @451 = ~This double-edged axe is popular with barbarians and related folks. Unlike conventional axes, this type of weapon refers to two-handed axes. It's a little heavier, but it also provides better combat properties. The blade of the battle axe is forged from such strong steel that it can cut the enemy with one blow.
 
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 
 Deals additional 1d8 damage from the second side (slashing)
 50% chance to kill an opponent with one blow (saving throw vs. death/paralysis/poison with a -1 penalty)
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d8 +3
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 7
-Type de compÃ©tenceÂ : Hache
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d8 +3
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 7
+Type de compétence : Hache
+Type : Arme à deux mains
+Nécessite : Strength 10
 
 Inutilisable par :
   Mage
@@ -510,7 +510,7 @@ Inutilisable par :
 @452 = ~Wizard's Axe~
 @453 = ~Only spellcasters can use this special axe. It was created by a sorcerer in order to compensate for the physical weakness of those who use magic and cannot use heavy weapons. Of course, when creating this axe, it was not without a lot of magic.			
 			
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 			
 Bonus +2 to strength when wearing
 Haste 3 times a day
@@ -518,48 +518,48 @@ Improved Invisibility 2 times a day
 30% chance to trigger a fireball when hitting a target
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 1d8 +2
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Hache
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d8 +2
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 5
+Type de compétence : Hache
+Type : Arme à une main
+Nécessite : Strength 10
 
 Usable by:  
 Mage~
 @454 = ~Goblin's Axe~
 @455 = ~It is known that goblins are not very good warriors, and even less skilled in blacksmithing. This is just one of the copies of the weapons that they are trying to make.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : -2 penalty
-DextÃ©ritÃ© : -1 penalty
+Dégâts : -2 penalty
+Dextérité : -1 penalty
 
 TAC0 bonus: -
-DÃ©gÃ¢ts : 1d8
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Hache
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 10~
+Dégâts : 1d8
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Hache
+Type : Arme à une main
+Nécessite : Strength 10~
 @456 = ~Double Poleaxe~
 @457 = ~This double-edged axe is popular with barbarians and related folks. Unlike conventional axes, this type of weapon refers to two-handed axes. It's a little heavier, but it also provides better combat properties.		
 
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 
 Deals additional 1d8 damage from the second side (slashing)
 5% chance to kill an opponent with one blow (saving throw vs. death/paralysis/poison with a -2 penalty)
 			
 TAC0: +1 bonus
-DÃ©gÃ¢ts : 1d8
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 7
-Type de compÃ©tenceÂ : Hache
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d8
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 7
+Type de compétence : Hache
+Type : Arme à deux mains
+Nécessite : Strength 10
 
 Inutilisable par :
   Mage
@@ -570,19 +570,19 @@ Inutilisable par :
 @458 = ~Double Poleaxe +1~
 @459 = ~This double-edged axe is popular with barbarians and related folks. Unlike conventional axes, this type of weapon refers to two-handed axes. It's a little heavier, but it also provides better combat properties. This battle axe is made in such a way as to deal improved damage.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Deals additional 1d8 damage from the second side (slashing)
 10% chance to kill the enemy with one blow (saving throw vs. spells/breath)
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 1d8 +1
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 7
-Type de compÃ©tenceÂ : Hache
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d8 +1
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 7
+Type de compétence : Hache
+Type : Arme à deux mains
+Nécessite : Strength 10
 
 Inutilisable par :  
   Mage
@@ -593,19 +593,19 @@ Inutilisable par :
 @460 = ~Double Poleaxe +2~
 @461 = ~This double-edged axe is popular with barbarians and related folks. Unlike conventional axes, this type of weapon refers to two-handed axes. It's a little heavier, but it also provides better combat properties. This battle axe is made in such a way as to deal improved damage.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Deals additional 1d8 damage from the second side (slashing)
 20% chance to kill an opponent with one blow (saving throw vs. spells/breath)
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d8 +2
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 7
-Type de compÃ©tenceÂ : Hache
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d8 +2
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 7
+Type de compétence : Hache
+Type : Arme à deux mains
+Nécessite : Strength 10
 
 Inutilisable par :  
   Mage	
@@ -616,19 +616,19 @@ Inutilisable par :
 @462 = ~Double Poleaxe +3~
 @463 = ~This double-edged axe is popular with barbarians and related peoples. Unlike conventional axes, this type of weapon refers to two-handed axes. It's a little heavier, but it also provides better combat properties. This battle axe is made in such a way as to deal improved damage.	
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Deals additional 1d8 damage from the second side (slashing)
 30% chance to kill the enemy with one blow (saving throw vs. spells/breath)
 
 TAC0: +4 bonus	
-DÃ©gÃ¢ts : 1d8 +3	
-Type de dÃ©gÃ¢ts : tranchant	
-PoidsÂ : 10	
-Facteur de vitesseÂ : 7	
-Type de compÃ©tenceÂ : Hache	
-Type : Arme Ã  deux mains	
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d8 +3	
+Type de dégâts : tranchant	
+Poids : 10	
+Facteur de vitesse : 7	
+Type de compétence : Hache	
+Type : Arme à deux mains	
+Nécessite : Strength 10
 
 Inutilisable par :  
   Mage	
@@ -639,7 +639,7 @@ Inutilisable par :
 @464 = ~Health Belt~
 @465 = ~This belt is very valuable due to its ability to protect against poison. It is sewn from a snake skin and has a brownish-greenish color.
 
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 
 Immunity to poison
 Classe d'armure : +2 bonus
@@ -647,14 +647,14 @@ Bonus to the maximum of health points: +10~
 @466 = ~Frost Belt~
 @467 = ~This belt was made from the skin of an ice giant killed by an unknown person. The giant's body was found in his lair about a week after that.		
 
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 
 The wearer of the belt is immune to the cold
 Cold Cone 2 times a day~
 @468 = ~The Gnomes' Belt~
 @469 = ~Gnomes, being small in size, are nevertheless famous for their courage and perseverance. This belt once belonged to a gnome named Grokhin, who commanded the city guards. There were legends about his unquestionable authority, and not only dwarves, but also representatives of other races obeyed him.
 
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 
 The owner of a belt assumes duties of the leader and receives +1 to charisma
 
@@ -671,7 +671,7 @@ Inutilisable par :
 @473 = ~Boots of a Satan~
 @474 = ~These boots are worn by monsters living in Hell - inhospitable dead spheres surrounding the world. Only a few dared to venture into Hell, and having obtained them, returned back.	
 
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 
 Fire resistance: +45% bonus
 Maximum health points: +5 bonus			
@@ -683,9 +683,9 @@ Inutilisable par :
 
 There is an opinion that halflings do not need shoes in principle, because their feet resemble soles. But if this is the case in villages, then in cities you rarely meet a barefoot halfling. These boots are very durable and unexpectedly light.
 
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 
-DextÃ©ritÃ© : +1 bonus
+Dextérité : +1 bonus
 Classe d'armure : +1 bonus
 Haste when wearing
 
@@ -698,21 +698,21 @@ Inutilisable par :
 @477 = ~Enclosure Boots~
 @478 = ~These wonderful boots are very resistant to magical weapons. When an opponent approaches with a magical weapon, the boots begin to glow with a faint purple glow, enveloping their owner and acting as a kind of energy shield.
 
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 
 Immunity to magical weapons
 Maximum health points: +5 bonus~
 @479 = ~Boots of Heaven~
 @480 = ~These boots are extremely rare. They are made of the plumage of the wings of an angel. The shoes are extremely light, and the owner immediately feels that he can move easily, quickly and at ease.			
 
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 
 Improved haste on the owner when wearing
 Cast "Haste" 3 times a day~
 @481 = ~Snake Gloves~
 @482 = ~These gloves are made from the skin of a very rare and almost endangered kind of snake. These snakes are in great demand among alchemists, as they contain a fair amount of magical essence.
 
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 
 Cast "Breach" 3 times a day
 Poison resistance: +50%
@@ -721,7 +721,7 @@ Classe d'armure : +1 bonus~
 @483 = ~Bracers of Health~
 @484 = ~This kind of bracers can only be created by elven blacksmiths, as they require ingredients available only to elves.
 
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 
 Intelligence : +1 bonus
 Maximum health points: +10 bonus
@@ -729,7 +729,7 @@ Regeneration of 3 health points per second~
 @485 = ~Archmage's Bracers~
 @486 = ~Being in the hands, or more precisely, on the hands of a mage, these bracers turn out to be very useful and make life much easier for their owner. However, for those who have not succeeded in magic, this thing will be just a trinket.
 
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 
 Two additional spell slots of the 4th, 5th and 6th levels
 Spell casting speed increases by 1
@@ -739,7 +739,7 @@ Usable by:
 @487 = ~Thunderstorm Bracers~
 @488 = ~These bracers are made of ordinary leather and decorated with a lightning symbol on the outside. When worn, they emit weak electrical discharges.
 
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 
 Classe d'armure : +1 bonus
 Resistance to electricity: +20%
@@ -749,15 +749,15 @@ Inutilisable par :
 @489 = ~Bastard sword~
 @490 = ~The hand-and-a-half sword, or bastard sword, is an excellent and versatile weapon. When using it with two hands, the warrior delivers crushing blows, but loses the ability to use the shield. It's a rather slow weapon.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 2d4
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Bastard sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 15
+Dégâts : 2d4
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
 Inutilisable par :
   Druid
@@ -767,15 +767,15 @@ Inutilisable par :
 @491 = ~Bastard sword +1~
 @492 = ~The hand-and-a-half sword, or bastard sword, is an excellent and versatile weapon. When using it with two hands, the warrior delivers crushing blows, but loses the ability to use the shield. It's a rather slow weapon. This blade is endowed with magical power, so it can cause more damage.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 2d4 + 1
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Bastard sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 15
+Dégâts : 2d4 + 1
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
 Inutilisable par :
   Druid
@@ -785,15 +785,15 @@ Inutilisable par :
 @493 = ~Bastard sword +2~
 @494 = ~The hand-and-a-half sword, or bastard sword, is an excellent and versatile weapon. When using it with two hands, the warrior delivers crushing blows, but loses the ability to use the shield. It's a rather slow weapon. This blade is endowed with magical power, so it can cause more damage.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 2d4 +2
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Bastard sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 15
+Dégâts : 2d4 +2
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
 Inutilisable par :
   Druid
@@ -803,15 +803,15 @@ Inutilisable par :
 @495 = ~Bastard sword +3~
 @496 = ~The hand-and-a-half sword, or bastard sword, is an excellent and versatile weapon. When using it with two hands, the warrior delivers crushing blows, but loses the ability to use the shield. It's a rather slow weapon. This blade is endowed with magical power, so it can cause more damage.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 2d4 +3
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Bastard sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 15
+Dégâts : 2d4 +3
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
 Inutilisable par :
   Druid
@@ -821,15 +821,15 @@ Inutilisable par :
 @497 = ~Bastard sword +4~
 @498 = ~The hand-and-a-half sword, or bastard sword, is an excellent and versatile weapon. When using it with two hands, the warrior delivers crushing blows, but loses the ability to use the shield. It's a rather slow weapon. This blade is endowed with magical power, so it can cause more damage.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 2d4 +4
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Bastard sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 15
+Dégâts : 2d4 +4
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
 Inutilisable par :
   Druid
@@ -839,20 +839,20 @@ Inutilisable par :
 @499 = ~Pride of the Barbarian~
 @500 = ~This blade is more than just a weapon respected by warriors. He is mentioned in all serious literary works. Some still remember the times of the barbarian Korgan, one of the most dangerous warriors of that time. The sword that belonged to him had an unusual ability. Taking it in his hands, any most seedy warrior became a serious opponent.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Strenth: set to 21
 Classe d'armure : +1 bonus
 Rage
 
 TAC0: +4
-DÃ©gÃ¢ts : 2d4 +5
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 12
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Bastard sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 15
+Dégâts : 2d4 +5
+Type de dégâts : tranchant
+Poids : 12
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
 Inutilisable par :
   Mage
@@ -863,19 +863,19 @@ Inutilisable par :
 @501 = ~Tranquility Sword~
 @502 = ~Possession of this weapon allows the owner to find a kind of harmony with the inner life and balance, thanks to which any warrior enters the battle with calmness and self-confidence. Conversely, enemies are forced to flee from the battlefield, only when they see a warrior with a firm look in front of them, who will stop at nothing.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Resistance to Fear
 When hitting the target: 15% chance of the enemy fleeing in a panic
 
 TAC0: +2
-DÃ©gÃ¢ts : 2d5 +2
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Bastard sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 15
+Dégâts : 2d5 +2
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
 Inutilisable par :
   Mage
@@ -886,25 +886,25 @@ Inutilisable par :
 @503 = ~Damned Blade~
 @504 = ~As the name suggests, this weapon is cursed. It affects the wearer in a negative way, depleting some of its basic characteristics, but all this is compensated by the high efficiency of the blade. Whether it is worth contacting him at all, the warrior must decide for himself.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 The weapon is cursed
 
 Constitution: -2 penalty
 Intelligence : -2 penalty
-DextÃ©ritÃ© : +1 bonus
+Dextérité : +1 bonus
 Strength: +1 bonus
 
 Summon Djinni once per day
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 2d4 +3
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Bastard sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 13
+Dégâts : 2d4 +3
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 13
 
 Inutilisable par :
   Mage
@@ -913,9 +913,9 @@ Inutilisable par :
   Monk
   Druid~
 @505 = ~Runic bastard sword ~
-@506 = ~This weapon is enchanted with a special kind of magic - rune magic. Runic magic is based on "drawing" runes in the air with your fingers. Thus, the wizard does not need to cast spells, it is enough just to be able to make gestures with his hands. Rune magic is more dangerous than the traditional magic common in FÃ©Ã©rune. Unfortunately, at the moment there are only a few scattered notes about it, although it was once used very widely.
+@506 = ~This weapon is enchanted with a special kind of magic - rune magic. Runic magic is based on "drawing" runes in the air with your fingers. Thus, the wizard does not need to cast spells, it is enough just to be able to make gestures with his hands. Rune magic is more dangerous than the traditional magic common in Féérune. Unfortunately, at the moment there are only a few scattered notes about it, although it was once used very widely.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Fire resistance: +25% bonus
 Cold resistance: +25% bonus
@@ -925,13 +925,13 @@ Magic damage resistance: +25% bonus
 
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 2d45 +2
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Bastard sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 15
+Dégâts : 2d45 +2
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
 Inutilisable par :
   Mage
@@ -942,20 +942,20 @@ Inutilisable par :
 @507 = ~Ebony Crossbow~
 @508 = ~The tiller of this crossbow is made of very hard ebony wood. The second part of it, the bow, is made of durable but flexible wood, so this instance causes additional damage.			
 
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 
 When hitting the target:
 Additional damage 6 points
 20% chance to blind the target for 10 seconds
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : +3 bonus
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 10
-Facteur de vitesseÂ : 9
-Type de compÃ©tenceÂ : Crossbow
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 12
+Dégâts : +3 bonus
+Type de dégâts : piercing
+Poids : 10
+Facteur de vitesse : 9
+Type de compétence : Crossbow
+Type : Arme à deux mains
+Nécessite : Strength 12
 
 Inutilisable par :
   Mage
@@ -966,19 +966,19 @@ Inutilisable par :
 @509 = ~Magic Crossbow~
 @510 = ~Unknown runes are engraved on this crossbow, which, nevertheless, explain the origin of its magical properties. Crossbows of this variety are extremely rare, so finding it is a great success.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Deals 10 points of additional magic damage
 Magic Resistance: +10% bonus
 
 TAC0: +4 bonus
-DÃ©gÃ¢ts : +4 bonus
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 8
-Facteur de vitesseÂ : 6
-Type de compÃ©tenceÂ : Crossbow
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 8
+Dégâts : +4 bonus
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 6
+Type de compétence : Crossbow
+Type : Arme à deux mains
+Nécessite : Strength 8
 
 Inutilisable par :  
   Druid
@@ -988,20 +988,20 @@ Inutilisable par :
 @511 = ~Crossbow of Discharge~
 @512 = ~The name of this crossbow sounds pretty unambiguous. The crossbow is enchanted and can create its own arrows each time, striking with an electric discharge. In addition, the magic of the crossbow affects its owner in such a way as if he was constantly under the effects of haste.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Unlimited arrows striking with an electric discharge
 The owner is under the permanent effect of "Improved haste"
 "Haste" for the whole group 1 time per day
 
 TAC0: +3
-DÃ©gÃ¢ts : 1d8 (electricity) +3
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 6
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Crossbow
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 8
+Dégâts : 1d8 (electricity) +3
+Type de dégâts : piercing
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : Crossbow
+Type : Arme à deux mains
+Nécessite : Strength 8
 
 Inutilisable par :  
   Druid
@@ -1011,20 +1011,20 @@ Inutilisable par :
 @513 = ~The Giant's Club~
 @514 = ~This is a quite deadly weapon, which is adored by both the giants themselves and their numerous "kin". Due to the giants are not the most skilled craftsmen, they are not concerned about the quality of weapons manufacturing. They simply break off a piece of a massive branch, or even a tree trunk, and hammer sharp stones, spikes or fragments of blades into the pommel. Such a simplified approach does not affect the effectiveness of weapons in any way.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 20% chance to stun the target for 11 seconds on hit
 5% chance to kill a target with a single hit
 10% chance to deal 1d6 points of additional crushing damage
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d6 +3
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 8
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Club
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 7
+Dégâts : 1d6 +3
+Type de dégâts : crushing
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Club
+Type : Arme à une main
+Nécessite : Strength 7
 
 Inutilisable par :
   Mage
@@ -1032,18 +1032,18 @@ Inutilisable par :
 @515 = ~Throwing Club~
 @516 = ~When hitting a target, this strange club causes repulsive waves that shake the surroundings. This is a rather dangerous weapon, because your companions can be affected by the effects of vibrations.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 20% chance to throw everyone away from the owner of the club on hit
 
 TAC0: +4 bonus
-DÃ©gÃ¢ts : 1d6 +4
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 3
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Club
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 7
+Dégâts : 1d6 +4
+Type de dégâts : crushing
+Poids : 3
+Facteur de vitesse : 5
+Type de compétence : Club
+Type : Arme à une main
+Nécessite : Strength 7
 
 Inutilisable par :
   Mage
@@ -1051,20 +1051,20 @@ Inutilisable par :
 @517 = ~Frosty Club~
 @518 = ~This is the club that the leader of the ice trolls used to own. It looks like she didn't help him or his gang. Nevertheless, the club left over from the leader can still serve well.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 "Ice Storm" 4 times per day
 Summon an air elemental 1 time a day
 Additional 2d6 points of cold damage
 
 TAC0: +4 bonus	
-DÃ©gÃ¢ts : 1d6 +4	
-Type de dÃ©gÃ¢ts : crushing	
-PoidsÂ : 5	
-Facteur de vitesseÂ : 7	
-Type de compÃ©tenceÂ : Club	
-Type : Arme Ã  une main	
-NÃ©cessiteÂ : Strength 8
+Dégâts : 1d6 +4	
+Type de dégâts : crushing	
+Poids : 5	
+Facteur de vitesse : 7	
+Type de compétence : Club	
+Type : Arme à une main	
+Nécessite : Strength 8
 	
 Inutilisable par :
   Mage
@@ -1072,20 +1072,20 @@ Inutilisable par :
 @519 = ~Wrath of the Dragon~
 @520 = ~The chain got this name due to its capabilities and power. He is enchanted and acts in such a way that he is constantly moistened with acid. In addition, there is a chance to knock the opponent down.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 30% chance to knock the enemy down (sleep for 5 seconds)
 20% chance to hit the enemy with poison for 12 seconds
 Additional 2d6 points damage from acid
 
 TAC0: +4 bonus
-DÃ©gÃ¢ts : 1d6 +4
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 15
-Facteur de vitesseÂ : 7
-Type de compÃ©tenceÂ : Flail/Morningstar
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 13
+Dégâts : 1d6 +4
+Type de dégâts : crushing
+Poids : 15
+Facteur de vitesse : 7
+Type de compétence : Flail/Morningstar
+Type : Arme à une main
+Nécessite : Strength 13
 
 Inutilisable par :
   Druid
@@ -1095,19 +1095,19 @@ Inutilisable par :
 @521 = ~The Decider of Fate~
 @522 = ~This powerful weapon is able to decide destinies and lives. It makes it possible both to save the life of the owner of the flail, and to deprive the enemy of his life.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Regeneration of 2 hit points per second
 10% chance to deal 30 points of fire damage
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d6 +3
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 15
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Flail/Morningstar
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 13
+Dégâts : 1d6 +3
+Type de dégâts : crushing
+Poids : 15
+Facteur de vitesse : 5
+Type de compétence : Flail/Morningstar
+Type : Arme à une main
+Nécessite : Strength 13
 
 Inutilisable par :
   Druid
@@ -1117,19 +1117,19 @@ Inutilisable par :
 @523 = ~Shieldcrusher~
 @524 = ~This weapon is designed to fight against shield-bearers. Thanks to the increased damage, the flail easily penetrates shields and paralyzes enemies.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 50% chance to deal 1d6 of stun damage
 15% chance to stun the target for 8 seconds
 
 TAC0: +4 bonus
-DÃ©gÃ¢ts : 1d6 +4
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 20
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Flail/Morningstar
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 14
+Dégâts : 1d6 +4
+Type de dégâts : crushing
+Poids : 20
+Facteur de vitesse : 8
+Type de compétence : Flail/Morningstar
+Type : Arme à une main
+Nécessite : Strength 14
 
 Inutilisable par :
   Druid
@@ -1139,48 +1139,48 @@ Inutilisable par :
 @525 = ~Mantle of the Newerwinter Nine~
 @526 = ~Back in the days of Netheril, wizards learned to impart magical properties to things that surround them. The most popular item for casting such spells is an ordinary robe. It is light, cheap and retains enchantments well, which makes it an ideal companion for a mage. However, due to its magical nature, only mages (single, double and multiclass) they can wear such clothes. This is exactly the kind of mantle that members of the Neverwinter Nine wear.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Classe d'armure : 5
 Magic resistance: +5%
 Saving throws: +1 bonus
-NÃ©cessiteÂ : Strength 6
+Nécessite : Strength 6
 
 Only usable by:
   Mage (single, dual, & multi-class)~
 @527 = ~Mace of the Barbarian~
 @528 = ~The Barbarians, a northern tribe, have recently been displaced by the invasion of people to the north. They tried to resist it, but their attempts were in vain. Their last chance was to settle somewhere in the mountains. To protect these places from attacks, a local blacksmith forged an enchanted weapon that deals increased damage to evil opponents.
 						
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 			
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d6 +1, +4 vs. evil
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 10
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Mace
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 12
+Dégâts : 1d6 +1, +4 vs. evil
+Type de dégâts : crushing
+Poids : 10
+Facteur de vitesse : 5
+Type de compétence : Mace
+Type : Arme à une main
+Nécessite : Strength 12
 
 Uses only:
   Fighter (single class)~
 @529 = ~Grund's Mace~
 @530 = ~Grund was a famous hero who is said to have traveled through all corners of the world. All his life he traveled as an adventurer, solved riddles, searched for caves, and so on. But over time, he grew old, found a shelter where no one could disturb him. No one has seen him since.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DextÃ©ritÃ© : +2 bonus
+Dextérité : +2 bonus
 Strength: +1 bonus
 Additional 2 points of magic damage
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d6 +3
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 12
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Mace
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d6 +3
+Type de dégâts : crushing
+Poids : 12
+Facteur de vitesse : 5
+Type de compétence : Mace
+Type : Arme à une main
+Nécessite : Strength 10
 
 Inutilisable par :  
   Mage	
@@ -1190,20 +1190,20 @@ Inutilisable par :
 @531 = ~Mace of Decomposition~
 @532 = ~This mace is enchanted by dark magic, which is now almost forgotten. Only a few dedicated servants of the Order of Chaos understand the nature of this dark magic and can use it for their own purposes.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Animate Dead 2 times per day
 Beam of Negative Energy 3 times per day
 Explosion of Negative Energy 2 times per day
 
 TAC0: +4 bonus
-DÃ©gÃ¢ts : 1d6 +4
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 11
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Maces
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d6 +4
+Type de dégâts : crushing
+Poids : 11
+Facteur de vitesse : 5
+Type de compétence : Maces
+Type : Arme à une main
+Nécessite : Strength 10
 
 Inutilisable par :  
   Mage	
@@ -1217,16 +1217,16 @@ Inutilisable par :
 @536 = ~Mithril Axe~
 @537 = ~The most common types of axes, with a strong handle about 1.2 meters long, at the end of which there is a curved blade. Battle axes are also called broad axes. This axe is also made of mithril, allowing you to inflict more serious injuries.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-TAC0:  +1 Ğ±Ğ¾Ğ½ÑƒÑ
-DÃ©gÃ¢ts : 1d8 +1
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 7
-Facteur de vitesseÂ : 6
-Type de compÃ©tenceÂ : Haches
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+TAC0:  +1 bonus
+Dégâts : 1d8 +1
+Type de dégâts : tranchant
+Poids : 7
+Facteur de vitesse : 6
+Type de compétence : Haches
+Type : Arme à une main
+Nécessite : Strength 6
 
 Inutilisable par :
   Druid
@@ -1243,15 +1243,15 @@ Inutilisable par :
 @544 = ~Falchion~
 @545 = ~Falchion is a heavy sword with a one-sided blade. The top of the blade is usually straight, while here the edge is curved. Towards the tip, the blade expands, giving it the shape of a blade and increasing the damage inflicted. The sword is quite heavy, which also contributes to terrifying slashing blows.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 1d6 +1
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 8
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Scimitar
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d6 +1
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Scimitar
+Type : Arme à une main
+Nécessite : Strength 10
 
 Inutilisable par :
   Mage
@@ -1261,16 +1261,16 @@ Inutilisable par :
 @546 = ~Falchion +1~
 @547 = ~Falchion is a heavy sword with a one-sided blade. The top of the blade is usually straight, while here the edge is curved. Towards the tip, the blade expands, giving it the shape of a blade and increasing the damage inflicted. The sword is quite heavy, which also contributes to terrifying slashing blows. This type of falchion is modified for better control in combat, it is much more powerful. Externally, it differs from the classic falchion only with a colorful handle.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +1 bonus
-DÃ©gÃ¢ts : 1d6 +2
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 8
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Scimitar
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d6 +2
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Scimitar
+Type : Arme à une main
+Nécessite : Strength 10
 
 Inutilisable par :
   Mage
@@ -1280,16 +1280,16 @@ Inutilisable par :
 @548 = ~Falchion +2~
 @549 = ~Falchion is a heavy sword with a one-sided blade. The top of the blade is usually straight, while here the edge is curved. Towards the tip, the blade expands, giving it the shape of a blade and increasing the damage inflicted. The sword is quite heavy, which also contributes to terrifying slashing blows. This type of falchion is modified for better control in combat, it is much more powerful. Externally, it differs from the classic falchion only with a colorful handle.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 1d6 +3
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 8
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Scimitar
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d6 +3
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Scimitar
+Type : Arme à une main
+Nécessite : Strength 10
 
 Inutilisable par :
   Mage
@@ -1299,16 +1299,16 @@ Inutilisable par :
 @550 = ~Falchion +3~
 @551 = ~Falchion is a heavy sword with a one-sided blade. The top of the blade is usually straight, while here the edge is curved. Towards the tip, the blade expands, giving it the shape of a blade and increasing the damage inflicted. The sword is quite heavy, which also contributes to terrifying slashing blows. This type of falchion is modified for better control in combat, it is much more powerful. Externally, it differs from the classic falchion only with a colorful handle.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d6 +4
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 8
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Scimitar
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d6 +4
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Scimitar
+Type : Arme à une main
+Nécessite : Strength 10
 
 Inutilisable par :
   Mage
@@ -1318,19 +1318,19 @@ Inutilisable par :
 @552 = ~Pirate's Wrath~
 @553 = ~Among the swords, sabers and other types of weapons that pirates usually use, there was also this so-called falchion, brought from campaigns among the loot. From them, it first got to the continent, where it began to be produced and sold as a novelty, although there was nothing new or unusual about this blade.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 20% chance to put the enemy to sleep for 8 seconds
 10% chance to decapitate an opponent (instant death) if a saving throw fails vs. paralysis/poison/death with a +1 bonus
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 1d6 +3
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 8
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Scimitar
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d6 +3
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 4
+Type de compétence : Scimitar
+Type : Arme à une main
+Nécessite : Strength 10
 
 Inutilisable par :
   Mage
@@ -1341,20 +1341,20 @@ Inutilisable par :
 @554 = ~Tegrodan~
 @555 = ~This is a sword that once belonged to the palace genie of the sorcerer Valredon. A genie named Sar-ga was the wizard's most devoted servant, and constantly fulfilled all his whims. One day the owner was unlucky, and he fell from the enemy's sword. When he was dying, he gave this sword to genie. From that moment on, he kept it throughout his life.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 15% chance to decapitate an opponent (instant death) when a spell/breath saving throw fails with a +1 bonus
 Cast the spell "Strength" 5 times per day
 Classe d'armure : 3
 
 TAC0: +4 bonus
-DÃ©gÃ¢ts : 1d6 +5
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 8
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Scimitar
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d6 +5
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Scimitar
+Type : Arme à une main
+Nécessite : Strength 10
 
 Inutilisable par :
   Mage
@@ -1366,15 +1366,15 @@ Inutilisable par :
 @557 = ~The falx is a combat weapon that came from barbarian tribes. Using it in full force, you can easily cut a person. The handle is about 40 inches long and smoothly turns into a blade 60-70 inches long, resembling
 a scythe blade. The leading edge of the falx is honed along the inner side of the arc.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 1d10
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Two-handed sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 12
+Dégâts : 1d10
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 12
 
 Inutilisable par :
   Mage
@@ -1385,16 +1385,16 @@ Inutilisable par :
 @559 = ~The falx is a combat weapon that came from barbarian tribes. Using it in full force, you can easily cut a person. The handle is about 40 inches long and smoothly turns into a blade 60-70 inches long, resembling
 a scythe blade. The leading edge of the falx is honed along the inner side of the arc. This type of falx is magically modified and improved. Externally, it does not differ from the classical falx in anything other than a colored handle.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +1 bonus
-DÃ©gÃ¢ts : 1d10 +1
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Two-handed sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 12
+Dégâts : 1d10 +1
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 12
 
 Inutilisable par :
   Mage
@@ -1405,16 +1405,16 @@ Inutilisable par :
 @561 = ~The falx is a combat weapon that came from barbarian tribes. Using it in full force, you can easily cut a person. The handle is about 40 inches long and smoothly turns into a blade 60-70 inches long, resembling
 a scythe blade. The leading edge of the falx is honed along the inner side of the arc. This type of falx is magically modified and improved. Externally, it does not differ from the classical falx in anything other than a colored handle.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 1d10 +2
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Two-handed sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 12
+Dégâts : 1d10 +2
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 12
 
 Inutilisable par :
   Mage
@@ -1425,16 +1425,16 @@ Inutilisable par :
 @563 = ~The falx is a combat weapon that came from barbarian tribes. Using it in full force, you can easily cut a person. The handle is about 40 inches long and smoothly turns into a blade 60-70 inches long, resembling
 a scythe blade. The leading edge of the falx is honed along the inner side of the arc. This type of falx is magically modified and improved. Externally, it does not differ from the classical falx in anything other than a colored handle.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d10 +3
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Two-handed sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 12
+Dégâts : 1d10 +3
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 12
 
 Inutilisable par :
   Mage
@@ -1444,39 +1444,39 @@ Inutilisable par :
 @564 = ~Ughur Demon~
 @565 = ~This falx belonged exclusively to a mighty barbarian who participated in all kinds of battles and competitions with weapons. He believed in the power of this weapon, which he had made himself, and believed that he could not lose, that this would simply never happen. He terrified everyone who knew him until he died of old age. His weapon is lost, and only the gods know where it is now.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Additional damage 1d6 points (slashing)
 30% chance to intimidate the enemy on hit (panic for 15 seconds)
 15% chance to knock down the enemy on hit (sleep for 8 seconds)
 
 TAC0: +4 bonus
-DÃ©gÃ¢ts : 1d10 +4
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Two-handed sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 18
+Dégâts : 1d10 +4
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 18
 
 Usable by:
   Fighter (single class)~
 @566 = ~Bloody Falx~
 @567 = ~This sample of falx was forged by a dwarf blacksmith. One day a stranger came to him with an offer to forge a weapon for which he would pay well. The dwarf, who saw falx for the first time, did not understand why to transfer metal to such nonsense, if two normal axes could be forged instead. But the earnings were worth it, so he decided to try. Nevertheless, the dwarf invested several of his developments in this weapon.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 20% chance to stun the target for 8 seconds
 10% chance of triggering a lightning bolt
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d10 +3
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Two-handed sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 12
+Dégâts : 1d10 +3
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 12
 
 Inutilisable par :
   Mage
@@ -1487,31 +1487,31 @@ Inutilisable par :
 @569 = ~This is a terrifying falx, just a glance at which inspires fear. It was once used by General Whisten's reserve forces. The task of these forces was to run out on orders and break into the ranks of the enemy. Before it was possible to understand what was happening, only about a third of the combat units remained alive, and they looked at what was happening with horror. Their friends fell to the ground in piles, and most of them had their limbs cut off. The most naive way out of the situation was the decision to flee.
 
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 10% chance to cut the enemy (instant death)
 
 TAC0: +4 bonus
-DÃ©gÃ¢ts : 1d10 +4
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Two-handed sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 18
+Dégâts : 1d10 +4
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 18
 
 Usable by:
   Fighter (single class)~
-@570 = ~Paladins of FÃ©Ã©rune Order Armor~
+@570 = ~Paladins of Féérune Order Armor~
 @571 = ~Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen and groin.  Similar in construction to bronze plate mail, true plate mail comprises of chain and leather.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Classe d'armure : 5
 TAC0: +2 bonus
 Strength: +1 bonus
-PoidsÂ : 50
-NÃ©cessiteÂ :
+Poids : 50
+Nécessite :
   Strength 17
   Level 10
 
@@ -1530,11 +1530,11 @@ Inutilisable par :
 @573 = ~Gladiator Armor~
 @574 = ~Armor used by gladiators in the arena at the gates of the Anauroch Desert. The armor is a combination of chain mail with metal plates that cover vital areas such as the chest, abdomen and groin. Although it looks like a bronze plate armor, but unlike plate armor, this one is supplemented with elements of chain mail and leather armor.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Classe d'armure : 3
-PoidsÂ : 30
-NÃ©cessiteÂ : Strength 8
+Poids : 30
+Nécessite : Strength 8
 
 Inutilisable par :
   Bard
@@ -1550,15 +1550,15 @@ Inutilisable par :
 @575 = ~Broadsword~
 @576 = ~This type of sword was created as a compromise between short and long swords. The short sword was not that powerful for experienced adventurers, and the long sword imposed serious limitations in terms of specialization.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 1d8
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 5
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Long Sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+Dégâts : 1d8
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 6
 
 Inutilisable par :
   Mage
@@ -1568,15 +1568,15 @@ Inutilisable par :
 @577 = ~Broadsword +1~
 @578 = ~This type of sword was created as a compromise between short and long swords. The short sword was not that powerful for experienced adventurers, and the long sword imposed serious limitations in terms of specialization.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 1d8
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 5
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Long Sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+Dégâts : 1d8
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 6
 
 Inutilisable par :
   Mage
@@ -1585,16 +1585,16 @@ Inutilisable par :
   Cleric~
 @579 = ~This type of sword was created as a compromise between short and long swords. The short sword was not that powerful for experienced adventurers, and the long sword imposed serious limitations in terms of specialization. For greater efficiency, this instance of the blade was enchanted.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +1 bonus
-DÃ©gÃ¢ts : 1d8 +1
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 5
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Long Sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 5
+Dégâts : 1d8 +1
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 5
 
 Inutilisable par :
   Mage
@@ -1604,16 +1604,16 @@ Inutilisable par :
 @580 = ~Broadsword +2~
 @581 = ~This type of sword was created as a compromise between short and long swords. The short sword was not that powerful for experienced adventurers, and the long sword imposed serious limitations in terms of specialization. This kind of broadsword has become one of the most widely used among people. That is why an even more powerful version of the blade was created.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 1d8 +2
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 5
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Long Sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 5
+Dégâts : 1d8 +2
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 5
 
 Inutilisable par :
   Mage
@@ -1623,16 +1623,16 @@ Inutilisable par :
 @582 = ~Broadsword +3~
 @583 = ~This type of sword was created as a compromise between short and long swords. The short sword was not that powerful for experienced adventurers, and the long sword imposed serious limitations in terms of specialization. It is the broadsword that the heroes most often use in all campaigns. This instance of the sword was created from the original version and enhanced with powerful blacksmith charms to improve its power.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d8 +3
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 5
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Long Sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 5
+Dégâts : 1d8 +3
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 5
 
 Inutilisable par :
   Mage
@@ -1642,18 +1642,18 @@ Inutilisable par :
 @584 = ~Stun Sword +2~
 @585 = ~This sword is known for its stunning power. In addition to the great damage it can do, it can also stun an opponent for a short time, making it a formidable weapon.
 	
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 10% chance to stun the target for 10 seconds on hit
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 1d8 +2
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 5
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Long Sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+Dégâts : 1d8 +2
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 6
 
 Inutilisable par :
   Mage
@@ -1663,16 +1663,16 @@ Inutilisable par :
 @586 = ~Hero's Sword~
 @587 = ~This sword was once held in the hand of the adventurer Adreno, who once defeated a strong opponent. Then he defeated an even stronger opponent again, and again... And so it went on until everyone forgot about the sword, because no one knew where Adreno himself had gone.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +4 bonus
-DÃ©gÃ¢ts : 1d8 +4
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 5
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Long Sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+Dégâts : 1d8 +4
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 6
 
 Inutilisable par :
   Mage
@@ -1686,15 +1686,15 @@ Sword of Ice
 Sword of Poison
 Sword of Acid
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 1d8, +1 from fire
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 5
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Long Sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+Dégâts : 1d8, +1 from fire
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 6
 
 Inutilisable par :
   Mage
@@ -1708,15 +1708,15 @@ Sword of Ice
 Sword of Poison
 Sword of Acid
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 1d8, +1 from cold
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 5
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Long Sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+Dégâts : 1d8, +1 from cold
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 6
 
 Inutilisable par :
   Mage
@@ -1730,15 +1730,15 @@ Sword of Ice
 Sword of Poison
 Sword of Acid
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 1d8, +1 from acid
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 5
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Long Sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+Dégâts : 1d8, +1 from acid
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 6
 
 Inutilisable par :
   Mage
@@ -1752,15 +1752,15 @@ Sword of Ice
 Sword of Poison
 Sword of Acid
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 1d8, +1 from poison
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 5
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Long Sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+Dégâts : 1d8, +1 from poison
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long Sword
+Type : Arme à une main
+Nécessite : Strength 6
 
 Inutilisable par :
   Mage
@@ -1770,20 +1770,20 @@ Inutilisable par :
 @596 = ~Stone Halberd~
 @597 = ~This halberd is very heavy, as if its tip is made of stone. Her origin is associated with the story of a certain warrior from the northern tribes, who fought against a powerful witch, but she turned her into stone, but she herself did not escape a similar fate. They say that the witch's spell has also passed to the halberd. The most interesting thing is that everyone tells this story differently, so now it's impossible to understand how it really was.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 "Flesh to stone" 1 time per day (saving throw vs. spells to avoid the effect)
 10% chance to turn an opponent into stone (instant death)
 Additional stun damage 4 points
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 1d10 +2
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 12
-Facteur de vitesseÂ : 9
-Type de compÃ©tenceÂ : Halberds
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 13
+Dégâts : 1d10 +2
+Type de dégâts : piercing
+Poids : 12
+Facteur de vitesse : 9
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 13
 
 Inutilisable par :
   Mage
@@ -1794,19 +1794,19 @@ Inutilisable par :
 @598 = ~Halberd of Dawn~
 @599 = ~The blade of this halberd has a golden-red hue and emits quite a strong heat. The swing of this weapon leaves a trail of fire.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +3 points of additional fire damage
 "Fireball" 2 times per day
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d10 +3
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Halberds
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 13
+Dégâts : 1d10 +3
+Type de dégâts : piercing
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 13
 
 Inutilisable par :
   Mage
@@ -1817,19 +1817,19 @@ Inutilisable par :
 @600 = ~Guard's Halberd~
 @601 = ~This weapon is often used by guards, bodyguards, guards and many others. Being the same height as a man dressed from head to toe in armor, this halberd looks like a serious weapon. Anyone who can masterfully handle it deserves every respect.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 50% chance to deal 1d10 points of additional piercing damage
 Strength: set to 25
 
 TAC0: +4 bonus	
-DÃ©gÃ¢ts : 1d10 +4	
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 15
-Facteur de vitesseÂ : 9
-Type de compÃ©tenceÂ : Halberds	
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 13
+Dégâts : 1d10 +4	
+Type de dégâts : piercing
+Poids : 15
+Facteur de vitesse : 9
+Type de compétence : Halberds	
+Type : Arme à deux mains
+Nécessite : Strength 13
 
 Inutilisable par :
   Mage
@@ -1840,18 +1840,18 @@ Inutilisable par :
 @602 = ~Hammer of Predictability~
 @603 = ~This hammer warns its owner in time that there is someone nearby whose conscience is unclean and who has a reason to hide himself from others, thus providing protection from an unexpected and insidious attack.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 All invisible creatures around the target become visible when hit by a hammer
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d4 +3
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 6
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : War Hammer
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 9
+Dégâts : 1d4 +3
+Type de dégâts : crushing
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : War Hammer
+Type : Arme à une main
+Nécessite : Strength 9
 
 Inutilisable par :
   Mage
@@ -1861,18 +1861,18 @@ Inutilisable par :
 @604 = ~Hammer of Release~
 @605 = ~This unusual hammer is very useful, as it has a very valuable ability against summoned creatures. The hammer is enchanted with a special stunning spell, thanks to which it has the ability to recall the summoned creature with a certain chance.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 20% chance to instantly kill a creature summoned by an opponent on hit
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d4 +3
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 6
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : War Hammer
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 9
+Dégâts : 1d4 +3
+Type de dégâts : crushing
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : War Hammer
+Type : Arme à une main
+Nécessite : Strength 9
 
 Inutilisable par :
   Mage
@@ -1880,20 +1880,20 @@ Inutilisable par :
   Thief
   Monk~
 @606 = ~Blacksmith's Hammer~
-@607 = ~Many years ago, an uprising broke out in one of the parts of FÃ©Ã©rune, organized by rebels who called themselves Blacksmiths. The reason for their discontent was the inability of the city guards to cope with thieves who steal goods and weapons made by blacksmiths. How the uprising ended is a dark matter, but it is known for sure that the rebels were armed with such weapons.
+@607 = ~Many years ago, an uprising broke out in one of the parts of Féérune, organized by rebels who called themselves Blacksmiths. The reason for their discontent was the inability of the city guards to cope with thieves who steal goods and weapons made by blacksmiths. How the uprising ended is a dark matter, but it is known for sure that the rebels were armed with such weapons.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 35% chance to knock out an enemy (sleep for 10 seconds)
 
 TAC0: +4 bonus
-DÃ©gÃ¢ts : 1d4 +4
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 6
-Facteur de vitesseÂ : 3
-Type de compÃ©tenceÂ : War Hammer
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 9
+Dégâts : 1d4 +4
+Type de dégâts : crushing
+Poids : 6
+Facteur de vitesse : 3
+Type de compétence : War Hammer
+Type : Arme à une main
+Nécessite : Strength 9
 
 Inutilisable par :
   Mage
@@ -1903,7 +1903,7 @@ Inutilisable par :
 @608 = ~Priest's Tiara~
 @609 = ~This is a tiara, a headdress worn by many priests and priests. She is enchanted with divine magic to help the priests in their hard work.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Maximum of health points: +5 bonus
 "Healing of Serious Wounds" 3 times per day
@@ -1913,13 +1913,13 @@ Usable by:
 @610 = ~Horned Helmet~
 @611 = ~This helmet resembles the head of a demon. This may frighten some weak-minded opponents.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-Resistance to slashing DÃ©gÃ¢ts : +20% bonus
+Resistance to slashing Dégâts : +20% bonus
 Resistance to electricity: +15% bonus
 30% chance to throw the enemy into a panic (saving throw vs. spells to avoid the effect)
 
-PoidsÂ : 2
+Poids : 2
 
 Inutilisable par :
   Mage
@@ -1931,19 +1931,19 @@ Inutilisable par :
 @612 = ~Barbarian's Helmet~
 @613 = ~For the owner of ordinary bodily proportions, this massive helmet will hang on his head and constantly tries to move down on his nose. The only ones who can wear it without problems are barbarians, whose heads are somewhat larger than those of ordinary people.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 The helmet owner cannot be stunned
 Magic Resistance: +20% bonus
 
-PoidsÂ : 2
+Poids : 2
 
 Usable by:
   Barbarian~
 @614 = ~Ioun Stone of Negative Energy~
 @615 = ~This Ioun Stone serves as a receptacle of negative energy. Once a day, a mage can release this energy in the form of a powerful magical burst.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 "Explosion of negative energy" once per day
 Magic Resistance: +10% bonus
@@ -1957,14 +1957,14 @@ Usable by:
 @619 = ~Khopesh~
 @620 = ~The khopesh is an eastern weapon with a handle about six inches long and a blade. The blade is about eighteen inches from the hilt straight, and then bends in the shape of a sickle for a couple of feet. The blade itself is usually made of bronze or iron.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 2d4
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 7
-Facteur de vitesseÂ : 9
-Type de compÃ©tenceÂ : Short sword
-Type : Arme Ã  une main
+Dégâts : 2d4
+Type de dégâts : piercing
+Poids : 7
+Facteur de vitesse : 9
+Type de compétence : Short sword
+Type : Arme à une main
 Requirements: Strength 8
 
 Inutilisable par :
@@ -1976,16 +1976,16 @@ Inutilisable par :
 @621 = ~Khopesh +1~
 @622 = ~The khopesh is an eastern weapon with a handle about six inches long and a blade. The blade is about eighteen inches from the hilt straight, and then bends in the shape of a sickle for a couple of feet. The blade itself is usually made of bronze or iron. This improved version of the khopesh differs from the usual one only in efficiency and color of the handle.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +1 bonus
-DÃ©gÃ¢ts : 2d4 +1
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 7
-Facteur de vitesseÂ : 9
-Type de compÃ©tenceÂ : Short sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 8
+Dégâts : 2d4 +1
+Type de dégâts : piercing
+Poids : 7
+Facteur de vitesse : 9
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 8
 
 Inutilisable par :
   Cleric
@@ -1996,16 +1996,16 @@ Inutilisable par :
 @623 = ~Khopesh +2~
 @624 = ~The khopesh is an eastern weapon with a handle about six inches long and a blade. The blade is about eighteen inches from the hilt straight, and then bends in the shape of a sickle for a couple of feet. The blade itself is usually made of bronze or iron. This improved version of the khopesh differs from the usual one only in efficiency and color of the handle.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 2d4 +2
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 7
-Facteur de vitesseÂ : 9
-Type de compÃ©tenceÂ : Short sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 8
+Dégâts : 2d4 +2
+Type de dégâts : piercing
+Poids : 7
+Facteur de vitesse : 9
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 8
 
 Inutilisable par :
   Cleric
@@ -2016,16 +2016,16 @@ Inutilisable par :
 @625 = ~Khopesh +3~
 @626 = ~The khopesh is an eastern weapon with a handle about six inches long and a blade. The blade is about eighteen inches from the hilt straight, and then bends in the shape of a sickle for a couple of feet. The blade itself is usually made of bronze or iron. This improved version of a khopesh differs from classical type as effective, so in the picturesque handle.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 2d4 +3
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 7
-Facteur de vitesseÂ : 9
-Type de compÃ©tenceÂ : Short sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 8
+Dégâts : 2d4 +3
+Type de dégâts : piercing
+Poids : 7
+Facteur de vitesse : 9
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 8
 
 Inutilisable par :
   Cleric
@@ -2036,20 +2036,20 @@ Inutilisable par :
 @627 = ~Deranez~
 @628 = ~This is an exact copy of the eastern khopesh. It was made for one of the sailors who returned from a sea trip and brought home a copy of this weapon as a souvenir. The copy is quite accurate, made exclusively of iron, but it is enchanted by another magic.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Additional damage of 1d3 points from fire
 10% chance of stopping time
 20% chance to slow down the target for 10 seconds on hit
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 2d4 +2
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 7
-Facteur de vitesseÂ : 9
-Type de compÃ©tenceÂ : Short sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 8
+Dégâts : 2d4 +2
+Type de dégâts : tranchant
+Poids : 7
+Facteur de vitesse : 9
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 8
 
 Inutilisable par :
   Cleric
@@ -2060,19 +2060,19 @@ Inutilisable par :
 @629 = ~Slaver's Blade~
 @630 = ~This is one of those khopesh that are carried by slavers who control slaves on construction. Only whips are usually used as punishment, but if several slaves show disobedience at once, the whips turn out to be ineffective, and you need to defend yourself with something else. Despite the fact that weapons are allowed to be used only in self-defense, many slavers and overseers violate this rule.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 30% chance to deal 1d4 points of additional piercing damage
 10% chance to increase the probability of a critical hit
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 2d4 +2
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 7
-Facteur de vitesseÂ : 9
-Type de compÃ©tenceÂ : Short sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 8
+Dégâts : 2d4 +2
+Type de dégâts : tranchant
+Poids : 7
+Facteur de vitesse : 9
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 8
 
 Inutilisable par :
   Cleric
@@ -2083,20 +2083,20 @@ Inutilisable par :
 @631 = ~Power of Ibunez~
 @632 = ~This rather expensive and ornate khopesh once belonged to one of the pharaohs of the 3rd dynasty. It was made in order to use it to increase your strength and weaken your enemies. Pharaoh, unfortunately, did not expect that he could lose this weapon, so it became fatal for him.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 20% chance to poison the target for 10 seconds
 30% chance to silence the target for 15 seconds
 50% chance to send a disease for 12 seconds (2 points of damage per second)
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 2d4 +3
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 7
-Facteur de vitesseÂ : 9
-Type de compÃ©tenceÂ : Short sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 8
+Dégâts : 2d4 +3
+Type de dégâts : tranchant
+Poids : 7
+Facteur de vitesse : 9
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 8
 
 Inutilisable par :
   Cleric
@@ -2107,18 +2107,18 @@ Inutilisable par :
 @633 = ~Blade of Darkness~
 @634 = ~This is the infamous katana, which was owned by a general whose task was to protect Neverwinter at a time when the city was suffering from the invasion of the legions of the undead. Who owned it so far is shrouded in mystery. Only one thing is well known - because of the betrayal of the general, the city fell.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Undead take double damage
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d10 +3
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ :  6
-Facteur de vitesseÂ : 2
-Type de compÃ©tenceÂ : Katana
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+Dégâts : 1d10 +3
+Type de dégâts : tranchant
+Poids :  6
+Facteur de vitesse : 2
+Type de compétence : Katana
+Type : Arme à une main
+Nécessite : Strength 6
 
 Inutilisable par :
   Good characters
@@ -2128,35 +2128,35 @@ Inutilisable par :
 @635 = ~Samurai Katana~
 @636 = ~This katana, one of the most commonly used weapons in the samurai guild, is one and a half feet longer than the regular version and the size most resembles a two-handed sword. Because of this, the samurai is forced to wear a katana behind his back, from where he can instantly snatch it for protection or attack. This weapon requires the use of special equipment, so it is not available to everyone.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +3 bonus	
-DÃ©gÃ¢ts : 1d10 +3	
-Type de dÃ©gÃ¢ts : tranchant	
-PoidsÂ :  15
-Facteur de vitesseÂ : 1	
-Type de compÃ©tenceÂ : Katana	
-Type : Arme Ã  deux mains	
-NÃ©cessiteÂ : Strength 5
+Dégâts : 1d10 +3	
+Type de dégâts : tranchant	
+Poids :  15
+Facteur de vitesse : 1	
+Type de compétence : Katana	
+Type : Arme à deux mains	
+Nécessite : Strength 5
 	
 Usable by:  
   Bounty Hunter~
 @637 = ~Katana of Concentration~
 @638 = ~This weapon belonged to an unknown combat mage from the North, the lands of the barbarians. He tried to combine his physical strength and mind with weapons. To do this, he created a special katana that allowed him to concentrate. Despite the fact that the method of creating such a katana disappeared with the death of its owner, the katana itself has been well preserved, as well as its magical properties.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Increases the wisdom and intelligence of the owner by 2 points
 Adds one additional 1st, 2nd and 3rd level spell
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 1d10 +2
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ :  6
-Facteur de vitesseÂ : 2
-Type de compÃ©tenceÂ : Katana
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+Dégâts : 1d10 +2
+Type de dégâts : tranchant
+Poids :  6
+Facteur de vitesse : 2
+Type de compétence : Katana
+Type : Arme à une main
+Nécessite : Strength 6
 
 Usable by:  
   Mage
@@ -2164,16 +2164,16 @@ Usable by:
 @639 = ~Enchanted Katana~
 @640 = ~Enchanting a katana is a quite non-trivial task. Unlike other weapons, the katana is already an almost perfect combat sword. This copy of the katana is enhanced with numerous spells. In the right hands, it will be a truly deadly weapon.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +1 bonus
-DÃ©gÃ¢ts : 1d10 +1
-Type de dÃ©gÃ¢ts : tranchant 
-PoidsÂ : 5
-Facteur de vitesseÂ : 3
-Type de compÃ©tenceÂ : Katana 
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength  6
+Dégâts : 1d10 +1
+Type de dégâts : tranchant 
+Poids : 5
+Facteur de vitesse : 3
+Type de compétence : Katana 
+Type : Arme à une main
+Nécessite : Strength  6
 
 Usable by:  
   Mage
@@ -2181,7 +2181,7 @@ Usable by:
 @641 = ~Kevhorn's Elven Armor~
 @642 = ~The refined skill of the elf race allows you to create many beautiful and useful things. Among them are chain mail, which are so elegantly created that they can be worn under ordinary clothes, making them invisible. Because of its lightness, it allows thieves and warriors/magicians to wear it, but with some restrictions.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 When wearing:
   Move Silently: penalty -10%
@@ -2190,8 +2190,8 @@ When wearing:
   Pick Pockets: penalty -20%
 
 Classe d'armure : 5
-PoidsÂ : 7
-NÃ©cessiteÂ : Strength 5
+Poids : 7
+Nécessite : Strength 5
 
 Usable by:
   Kevhorn~
@@ -2200,15 +2200,15 @@ Usable by:
 
 The name of the owner is engraved on the hilt of this sword - "Kevorn".
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 2d4
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Bastard sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 11
+Dégâts : 2d4
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à une main
+Nécessite : Strength 11
 
 Usable by:
   Kevhorn~
@@ -2217,7 +2217,7 @@ Usable by:
 @647 = ~Spear of Magic~
 @648 = ~This ordinary-looking spear is imbued with magic. An experienced owner who understands magic will be able to read some spells with his help. Those who are at odds with magic are not recommended to use this item.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Ability to cast spells:
   Armor - 2 times per day
@@ -2225,13 +2225,13 @@ Ability to cast spells:
   Lightning Bolt - 3 times per day
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d6 +3
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 7
-Facteur de vitesseÂ : 3
-Type de compÃ©tenceÂ : Spear
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 5
+Dégâts : 1d6 +3
+Type de dégâts : piercing
+Poids : 7
+Facteur de vitesse : 3
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 5
 
 Inutilisable par :  
   Cleric	
@@ -2241,18 +2241,18 @@ Inutilisable par :
 @649 = ~Spear of Discharge~
 @650 = ~The tip of this spear is enchanted in a special way and continuously generates discharges. Plunging into the victim, the spear also strikes her with an electric discharge, which usually ends in death for a weak enemy.	
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 50% chance to deal 6d4 points of additional electrical damage
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d6 +3
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 7
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Spear
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 5
+Dégâts : 1d6 +3
+Type de dégâts : piercing
+Poids : 7
+Facteur de vitesse : 4
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 5
 
 Inutilisable par :  
   Cleric	
@@ -2263,11 +2263,11 @@ Inutilisable par :
 @651 = ~Armor of the Newerwinter Nine~
 @652 = ~Basic armor made of thick, wax or water-hardened leather. It is sturdy protection, not supple like boots or a cloak. Soft garment leathers like that would offer no more protection than common clothing. This is the kind of armor worn by members of the Neverwinter Nine.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Classe d'armure : 7
-PoidsÂ : 15
-NÃ©cessiteÂ : Strength 4
+Poids : 15
+Nécessite : Strength 4
 
 Inutilisable par :
   Mage~
@@ -2276,7 +2276,7 @@ Inutilisable par :
 @655 = ~Assignment~
 @656 = ~This is a assignment from the high priest.~
 @657 = ~The ransom for your family has been increased to 10,000 gold.~
-@658 = ~This is a map of FÃ©Ã©rune, on which one place is marked in red.~
+@658 = ~This is a map of Féérune, on which one place is marked in red.~
 @659 = ~Requirement~
 @660 = ~Mayor Silverkin, your wife and child are fine. If you want them back, you have to pay me 20,000 for the wife and 25,000 for the child. The money needs to be delivered to Athkatla, to the tavern at the City Gate.~
 @661 = ~Piece of paper~
@@ -2295,20 +2295,20 @@ Inutilisable par :
 @674 = ~Marksman' Bow~
 @675 = ~Marksmen are one of those who achieve their skills through hard training. They are genuine archery masters, and mainly include elves. Their accuracy, speed and strength are truly deadly.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 10% chance to instantly kill the target on hit (saving throw vs. paralysis/poison/death with +1 bonus)
 Haste
 Gives you the opportunity to attack twice per round
 
 TAC0: +5 bonus
-DÃ©gÃ¢ts : +5 bonus
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 5
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Long bow
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 6
+Dégâts : +5 bonus
+Type de dégâts : piercing
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long bow
+Type : Arme à deux mains
+Nécessite : Strength 6
 
 Inutilisable par :  
   Druid
@@ -2319,7 +2319,7 @@ Inutilisable par :
 @676 = ~Elven Bow~
 @677 = ~This kind of bows is found only among elves, and therefore only they can use them. Accordingly, for those who cannot use it, it will be completely useless.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Regeneration of 1 health point in 10 seconds
 Haste
@@ -2328,13 +2328,13 @@ Move Silently: +30% bonus
 Invisibility 3 times per day
 
 TAC0: +4 bonus
-DÃ©gÃ¢ts : +4 bonus
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 5
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Long bow
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 6
+Dégâts : +4 bonus
+Type de dégâts : piercing
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Long bow
+Type : Arme à deux mains
+Nécessite : Strength 6
 
 Inutilisable par :
   Non-Elf characters
@@ -2345,19 +2345,19 @@ Inutilisable par :
 @678 = ~Unicorn Bow~
 @679 = ~The string of this bow is woven from the hair of the mane of a very rare creature - a unicorn. This hair is so strong and elastic that it is ideal for creating a bowstring. In addition, they improve the efficiency of the arrows produced from this bow.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Additional stun damage +4 on hit
 Gives you the opportunity to attack three times per round
 
 TAC0: +4 bonus
-DÃ©gÃ¢ts : +4 bonus
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 8
-Facteur de vitesseÂ : 6
-Type de compÃ©tenceÂ : Long bow
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 18
+Dégâts : +4 bonus
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 6
+Type de compétence : Long bow
+Type : Arme à deux mains
+Nécessite : Strength 18
 
 Inutilisable par :
   Good characters
@@ -2369,15 +2369,15 @@ Inutilisable par :
   Thief~
 @681 = ~Hi!! You can give me minute?~
 @682 = ~Assignment~
-@683 = ~Assigned to provide security when creating a new cult to protect FÃ©Ã©rune.~
+@683 = ~Assigned to provide security when creating a new cult to protect Féérune.~
 @684 = ~Mithril Armor~
 @685 = ~This is armor made by gnomes from mithril.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Classe d'armure : 5
-PoidsÂ : 5
-NÃ©cessiteÂ : Strength 12
+Poids : 5
+Nécessite : Strength 12
 
 Inutilisable par :
   Bard
@@ -2391,20 +2391,20 @@ Inutilisable par :
 @689 = ~This head belonged to the leader of the local elves.~
 @690 = ~Marksmen are one of those who achieve their skills through hard training. They are genuine archery masters, and mainly include elves. Their accuracy, speed and strength are truly deadly.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 10% chance to instantly kill the target on hit (saving throw vs. paralysis/poison/death with +1 bonus)
 Haste
 Gives you the opportunity to attack twice per round
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : +3 bonus
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 4
-Facteur de vitesseÂ : 2
-Type de compÃ©tenceÂ : Long bow
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 6
+Dégâts : +3 bonus
+Type de dégâts : piercing
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : Long bow
+Type : Arme à deux mains
+Nécessite : Strength 6
 
 Inutilisable par :
   Non-Elf characters 
@@ -2417,19 +2417,19 @@ Inutilisable par :
 @692 = ~Morning Star of Fear~
 @693 = ~This weapon causes fear in others just by its appearance. The entire handle with the pommel is painted blue-black. The runes applied on the handle lead the victim into primal horror, which is why she immediately runs away, unless she immediately has a stroke.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-35% ÑˆĞ°Ğ½Ñ, Ñ‡Ñ‚Ğ¾ Ğ¶ĞµÑ€Ñ‚Ğ²Ğ° Ğ²Ñ‹Ñ€Ğ¾Ğ½Ğ¸Ñ‚ Ğ¾Ñ€ÑƒĞ¶Ğ¸Ğµ Ğ¾Ñ‚ ÑÑ‚Ñ€Ğ°Ñ…Ğ° Ğ¿Ñ€Ğ¸ Ğ¿Ğ¾Ğ¿Ğ°Ğ´Ğ°Ğ½Ğ¸Ğ¸
-80% ÑˆĞ°Ğ½Ñ Ğ¾Ğ±Ñ€Ğ°Ñ‚Ğ¸Ñ‚ÑŒ Ğ¶ĞµÑ€Ñ‚Ğ²Ñƒ Ğ² Ğ¿Ğ°Ğ½Ğ¸ĞºÑƒ (ÑĞ¿Ğ°ÑĞ±Ñ€Ğ¾ÑĞ¾Ğº Ğ¿Ñ€Ğ¾Ñ‚Ğ¸Ğ² Ğ´Ñ‹Ñ…Ğ°Ğ½Ğ¸Ñ Ğ¿Ñ€Ğ¸ -5, Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ğ¸Ğ·Ğ±ĞµĞ¶Ğ°Ñ‚ÑŒ ÑÑ„Ñ„ĞµĞºÑ‚Ğ°)
+35% chance that the victim will drop the weapon out of fear on a hit
+80% chance to panic the victim (saving throw against breath at -5 to avoid the effect)
 			
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 2d4 +3
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 12
-Facteur de vitesseÂ : 6
-Type de compÃ©tenceÂ : Flail/Morningstar
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 11
+Dégâts : 2d4 +3
+Type de dégâts : crushing
+Poids : 12
+Facteur de vitesse : 6
+Type de compétence : Flail/Morningstar
+Type : Arme à une main
+Nécessite : Strength 11
 	
 Inutilisable par :  
   Mage		
@@ -2438,19 +2438,19 @@ Inutilisable par :
 @694 = ~Bonecrusher~
 @695 = ~This weapon has received such an unusual name quite deservedly. Although it is not much heavier than other morning stars, its pommel is much harder, and the spikes on it are deadly. Even armor doesn't always help against them.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 5% chance to instantly kill a creature if saving throw fails vs. paralysis/poison/death
 Additional 1d8 of crushing damage
 
 TAC0: +4 bonus
-DÃ©gÃ¢ts : 2d4 +4
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 12
-Facteur de vitesseÂ : 7
-Type de compÃ©tenceÂ : Flail/Morningstar
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 11
+Dégâts : 2d4 +4
+Type de dégâts : crushing
+Poids : 12
+Facteur de vitesse : 7
+Type de compétence : Flail/Morningstar
+Type : Arme à une main
+Nécessite : Strength 11
 
 Inutilisable par :  
   Mage	
@@ -2460,20 +2460,20 @@ Inutilisable par :
 @696 = ~Morning Star of Ice~
 @697 = ~If you believe the legends, it was this morning star that was used to defeat the cave ogres who once lived in the mountains.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Cone of Cold 3 times per day
 Ice Storm 2 times a day
 75% chance to deal 1d4 additional cold damage
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 2d4 +2
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 10
-Facteur de vitesseÂ : 7
-Type de compÃ©tenceÂ : Flail/Morningstar
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 11
+Dégâts : 2d4 +2
+Type de dégâts : crushing
+Poids : 10
+Facteur de vitesse : 7
+Type de compétence : Flail/Morningstar
+Type : Arme à une main
+Nécessite : Strength 11
 
 Inutilisable par :
   Druid
@@ -2482,50 +2482,50 @@ Inutilisable par :
 @698 = ~Halfling's Sling~
 @699 = ~The halfling race is famous for its exceptional skill in making slings. This instance of the sling is very valuable due to the fact that it is extremely rare. No wonder - the halflings guard their secrets very jealously.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Bonuses +1 to strength and dexterity
 Haste
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : +3 bonus
-Type de dÃ©gÃ¢ts : missile
-PoidsÂ : 1
-Facteur de vitesseÂ : 2
-Type de compÃ©tenceÂ : Sling
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 3
+Dégâts : +3 bonus
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 2
+Type de compétence : Sling
+Type : Arme à une main
+Nécessite : Strength 3
 
 Usable by:  
   Halfling~
 @700 = ~Roomy Sling~
 @701 = ~This relatively small sling allows you to load three stones into it, which are fired simultaneously. Thus, this sling causes increased damage in comparison with other instances.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : +2 bonus
-Type de dÃ©gÃ¢ts : missile
-PoidsÂ : 1
-Facteur de vitesseÂ : 6
-Type de compÃ©tenceÂ : Sling
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 3~
+Dégâts : +2 bonus
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 6
+Type de compétence : Sling
+Type : Arme à une main
+Nécessite : Strength 3~
 @702 = ~Sling of Surprise~
 @703 = ~This enchanted sling can become dangerous for either side. Shots from it generate the most unexpected effects from wild magic. What the effect will be, it is impossible to predict in advance.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 A shot from a sling causes the effects of wild magic with unpredictable effects
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : +3 bonus
-Type de dÃ©gÃ¢ts : missile
-PoidsÂ : 2
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Sling
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 3
+Dégâts : +3 bonus
+Type de dégâts : missile
+Poids : 2
+Facteur de vitesse : 4
+Type de compétence : Sling
+Type : Arme à une main
+Nécessite : Strength 3
 
 Usable by:
   Mage~
@@ -2533,7 +2533,7 @@ Usable by:
 @705 = ~Staff of Fire~
 @706 = ~In total, there are three staffs that can control the corresponding elements. Thanks to this, such staffs are in demand and appreciated. This particular instance allows you to control Fire in all its manifestations.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +15% bonus to fire resistance
 Fireball 2 times per day
@@ -2541,17 +2541,17 @@ Conjure Fire Elemental 1 time per day
 Additional damage +1d6 by fire on hit
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d6 +3
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 5
-Facteur de vitesseÂ : 1
-Type de compÃ©tenceÂ : Staff
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 5~
+Dégâts : 1d6 +3
+Type de dégâts : crushing
+Poids : 5
+Facteur de vitesse : 1
+Type de compétence : Staff
+Type : Arme à deux mains
+Nécessite : Strength 5~
 @707 = ~Staff of Air~
 @708 = ~In total, there are three staffs that can control the corresponding elements. Thanks to this, such staffs are in demand and appreciated. This particular instance allows you to control Air in all its manifestations.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +15% bonus to electricity resistance
 Chain Lightning 2 times per day
@@ -2559,17 +2559,17 @@ Conjure Air Elemental 1 time per day
 Additional damage +1d6 by electricity on hit
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d6 +3
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 5
-Facteur de vitesseÂ : 1
-Type de compÃ©tenceÂ : Staff
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 5~
+Dégâts : 1d6 +3
+Type de dégâts : crushing
+Poids : 5
+Facteur de vitesse : 1
+Type de compétence : Staff
+Type : Arme à deux mains
+Nécessite : Strength 5~
 @709 = ~Staff of Earth~
 @710 = ~In total, there are three staffs that can control the corresponding elements. Thanks to this, such staffs are in demand and appreciated. This particular instance allows you to control Earth in all its manifestations.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +15% bonus to acid resistance
 Meteor Swarm 2 times per day
@@ -2577,13 +2577,13 @@ Conjure Earth Elemental 1 time per day
 Additional damage +1d6 by acid on hit
 		
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d6 +3
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 5
-Facteur de vitesseÂ : 1
-Type de compÃ©tenceÂ : Staff
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 5~
+Dégâts : 1d6 +3
+Type de dégâts : crushing
+Poids : 5
+Facteur de vitesse : 1
+Type de compétence : Staff
+Type : Arme à deux mains
+Nécessite : Strength 5~
 @711 = ~Magic symbol~
 @712 = ~The wizard Petkul gave you this symbol. If you want to challenge him, you have to go to the ruined tower, north of the temple.~
 @713 = ~Magic wand~
@@ -2592,19 +2592,19 @@ NÃ©cessiteÂ : Strength 5~
 @716 = ~Cult Blade~
 @717 = ~Ninjas are skilled warriors and spies, combining the talents of thieves and warriors. Usually they unite into very powerful groups, which are divided into many cults according to their beliefs and life paths. Each cult has its own symbol of power. This is one of them.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 20% chance to put the target to sleep for 10 seconds when hit
 Poisons the target with poison with damage of 2 points per second
 10% chance to drain 1 level when hit
 
-DÃ©gÃ¢ts : 1d8
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 7
-Facteur de vitesseÂ : 1
-Type de compÃ©tenceÂ : Scimitar/Wakizashi/Ninja-To
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+Dégâts : 1d8
+Type de dégâts : tranchant
+Poids : 7
+Facteur de vitesse : 1
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 6
 
 Usable by:
   Fighter	
@@ -2612,7 +2612,7 @@ Usable by:
 @718 = ~Urgoth~
 @719 = ~This is the twin brother of the Seledin blade. Both blades were forged at the same time by the same blacksmith, so much so that the abilities of one blade complement the abilities of the other. Alone, these blades are not as strong as in a pair.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +2 bonus to Strength
 Haste when wearing
@@ -2620,13 +2620,13 @@ Haste when wearing
 60% chance to poison the target with poison
 Power 3 times a day
 
-DÃ©gÃ¢ts : 1d8, +5 by electricity	
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 8
-Facteur de vitesseÂ : 2
-Type de compÃ©tenceÂ : Scimitar/Wakizashi/Ninja-To
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+Dégâts : 1d8, +5 by electricity	
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 2
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 6
 
 Inutilisable par :
   Mage
@@ -2637,7 +2637,7 @@ Inutilisable par :
 @720 = ~Seledin~
 @721 = ~This is the twin brother of the Urgoth blade. Both blades were forged at the same time by the same blacksmith, so much so that the abilities of one blade complement the abilities of the other. Alone, these blades are not as strong as in a pair.
 			
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 			
 Regeneration of 2 health points per second
 +2 bonus to Dexterity
@@ -2646,13 +2646,13 @@ Regeneration of 2 health points per second
 Lesser Restoration 2 times a day
 Cure Serious Wounds 2 times a day
 			
-DÃ©gÃ¢ts : 1d8
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 8
-Facteur de vitesseÂ : 2
-Type de compÃ©tenceÂ : Scimitar/Wakizashi/Ninja-To
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+Dégâts : 1d8
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 2
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 6
 
 Inutilisable par :
   Mage
@@ -2663,89 +2663,89 @@ Inutilisable par :
 @722 = ~Nomad Armor~
 @723 = ~This is armor made by nomads, bandits of the desert. Its properties are similar to leather armor with metal inserts.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Classe d'armure : 6
-PoidsÂ : 15
-NÃ©cessiteÂ : Strength 6
+Poids : 15
+Nécessite : Strength 6
 
 Inutilisable par :
   Mage~
 @724 = ~Blade of Mage~
 @725 = ~This kind of double-edged sword was created for all types of mages. It can only be used by a mage, and no one else.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 1d8, +1 by magic
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 2
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Long sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Intelligence 15
+Dégâts : 1d8, +1 by magic
+Type de dégâts : tranchant
+Poids : 2
+Facteur de vitesse : 5
+Type de compétence : Long sword
+Type : Arme à une main
+Nécessite : Intelligence 15
 
 Usable by:
   Mage~
 @726 = ~Blade of Mage +1~
 @727 = ~This kind of double-edged sword was created for all types of mages. It can only be used by a mage, and no one else.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +1 bonus
-DÃ©gÃ¢ts : 1d8 +1, +2 by magic
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 2
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Long sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Intelligence 16
+Dégâts : 1d8 +1, +2 by magic
+Type de dégâts : tranchant
+Poids : 2
+Facteur de vitesse : 5
+Type de compétence : Long sword
+Type : Arme à une main
+Nécessite : Intelligence 16
 
 Usable by:
   Mage~
 @728 = ~Blade of Mage +2~
 @729 = ~This kind of double-edged sword was created for all types of mages. It can only be used by a mage, and no one else.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 1d8 +2, +3 by magic
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 2
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Long sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Intelligence 17
+Dégâts : 1d8 +2, +3 by magic
+Type de dégâts : tranchant
+Poids : 2
+Facteur de vitesse : 5
+Type de compétence : Long sword
+Type : Arme à une main
+Nécessite : Intelligence 17
 
 Usable by:
   Mage~
 @730 = ~Blade of Mage +3~
 @731 = ~This kind of double-edged sword was created for all types of mages. It can only be used by a mage, and no one else.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d8 +3, +4 by magic
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 2
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Long sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Intelligence 18
+Dégâts : 1d8 +3, +4 by magic
+Type de dégâts : tranchant
+Poids : 2
+Facteur de vitesse : 5
+Type de compétence : Long sword
+Type : Arme à une main
+Nécessite : Intelligence 18
 
 Usable by:
   Mage~
 @732 = ~Pike~
 @733 = ~A pike is a pole weapon used to defend against attacks from riders from the ground. It is very effective and irreplaceable due to its design. The peak has a length of two meters and a special pommel, which allows you to hit the protection of both the rider and the horse.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 	
-DÃ©gÃ¢ts : 3d4
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 8
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Spear	
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 6
+Dégâts : 3d4
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Spear	
+Type : Arme à deux mains
+Nécessite : Strength 6
 
 Inutilisable par :  
   Cleric	
@@ -2755,16 +2755,16 @@ Inutilisable par :
 @734 = ~Pike +1~
 @735 = ~This kind of pike was created by the blacksmiths of Northern Calimport at the time when the city was attacked by nomads. In battle, she showed high efficiency against mounted riders. Thanks to the determined resistance and losses on the part of the nomads, the latter retreated.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +1 bonus
-DÃ©gÃ¢ts : 3d4 +1
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 6
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Spear
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 6
+Dégâts : 3d4 +1
+Type de dégâts : piercing
+Poids : 6
+Facteur de vitesse : 5
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 6
 
 Inutilisable par :  
   Cleric	
@@ -2774,16 +2774,16 @@ Inutilisable par :
 @736 = ~Pike +2~
 @737 = ~This kind of pike was created by the blacksmiths of Northern Calimport at the time when the city was attacked by nomads. Unlike the original version, this copy of the pike is shorter by 20 centimeters, due to which its weight is reduced, and it is easier to manage.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 3d4 +2
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 5
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Spear
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 6
+Dégâts : 3d4 +2
+Type de dégâts : piercing
+Poids : 5
+Facteur de vitesse : 5
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 6
 
 Inutilisable par :  
   Cleric	
@@ -2793,16 +2793,16 @@ Inutilisable par :
 @738 = ~Pike +3~
 @739 = ~This kind of pike was created by the blacksmiths of Northern Calimport at the time when the city was attacked by nomads. Its peculiarity is a special kind of pommel, which did not allow riders to avoid imminent death.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 3d4 +3
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 7
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Spear
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 6
+Dégâts : 3d4 +3
+Type de dégâts : piercing
+Poids : 7
+Facteur de vitesse : 5
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 6
 
 Inutilisable par :  
   Cleric	
@@ -2812,18 +2812,18 @@ Inutilisable par :
 @740 = ~Jagged Pike~
 @741 = ~This is a very dangerous kind of pike, which has an enlarged pommel with very sharp teeth. She has the ability to pierce even the plate armor of knights and kill with a single blow.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 10% chance to kill the target with one hit (without saving throw)
 			
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 3d4 +2
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 6
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Spear	
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 6
+Dégâts : 3d4 +2
+Type de dégâts : piercing
+Poids : 6
+Facteur de vitesse : 5
+Type de compétence : Spear	
+Type : Arme à deux mains
+Nécessite : Strength 6
 
 Inutilisable par :  
   Cleric	
@@ -2833,18 +2833,18 @@ Inutilisable par :
 @742 = ~Calimport Pike~
 @743 = ~Calimport is a city in the desert, which in ancient times was exhausted by constant raids of nomads, leaving behind only smoking ruins. This continued until a pike was created, inspiring the enemy with fear. It has pommels on both sides of the handle, and has such a terrible appearance that many nomads were frightened and fled from the battlefield instead of fighting.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 10% chance to turn the target into a panic for 10 seconds on hit (saving throw vs. spells with a +2 bonus to avoid effects)
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 3d4 +3
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 6
-Facteur de vitesseÂ : 3
-Type de compÃ©tenceÂ : Spear
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 6
+Dégâts : 3d4 +3
+Type de dégâts : piercing
+Poids : 6
+Facteur de vitesse : 3
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 6
 
 Inutilisable par :  
   Cleric	
@@ -2854,19 +2854,19 @@ Inutilisable par :
 @744 = ~Ilidur's pike~
 @745 = ~Ilidur was an ordinary adventurer with an unusual weapon. No one had any idea how he got this pike, but they say that he won it in a bet. And so he went from an ordinary adventurer to a famous hero, and all this thanks to the powerful weapons he owned. The pike was once enchanted by a powerful wizard. He put a spell on her that provides resistance to ordinary and magical weapons.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +20% bonus to magic damage resistance
 20% chance to gain immunity to normal and magical weapons
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 3d4 +3
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 6
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Spear
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 6
+Dégâts : 3d4 +3
+Type de dégâts : piercing
+Poids : 6
+Facteur de vitesse : 5
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 6
 
 Inutilisable par :  
   Cleric	
@@ -2884,13 +2884,13 @@ Inutilisable par :
 @753 = ~Armor of Elements~
 @754 = ~This armor was made by a mage by order of an unknown hunter. He had to protect him from fire and frost spells, as well as magic charms in most cases. Be that as it may, he did not save his owner from death.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +20% bonus to fire, cold and magic resistance
 
 Classe d'armure : -2
-PoidsÂ : 50
-NÃ©cessiteÂ : Strength 12
+Poids : 50
+Nécessite : Strength 12
 
 Inutilisable par :
   Mage
@@ -2899,11 +2899,11 @@ Inutilisable par :
   Thief~
 @755 = ~This plate armor is forged very skillfully. It is durable, and at the same time very light. Such armor is worn by members of the Neverwinter Nine.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Classe d'armure : 1
-PoidsÂ : 25
-NÃ©cessiteÂ : Strength 8
+Poids : 25
+Nécessite : Strength 8
 
 Inutilisable par :
   Bard
@@ -2913,13 +2913,13 @@ Inutilisable par :
 @756 = ~Armor of Hardness~
 @757 = ~This armor partially protects the wearer from any stabbing weapon. On the other side, not everyone can wear this armor because of its weight.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +25% bonus to piercing weapon resistance
 +5% fire resistance bonus
 
 Classe d'armure : 3
-PoidsÂ : 80
+Poids : 80
 Required: Strength 15
 
 Usable by:
@@ -2928,13 +2928,13 @@ Usable by:
 @758 = ~Mantle of Magic~
 @759 = ~From the first glance at this robe, it becomes clear that it is intended exclusively for magicians and priests. Thanks to its capabilities, it will greatly facilitate the difficult life of an adventurer to any user of divine or arcane magic.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Bonus +20 to the maximum of health points
 One bonus slot for spells of a priest or mage on the 5th and 6th levels
 
 Classe d'armure : 3
-PoidsÂ : 3
+Poids : 3
 
 Usable by:
   Mage
@@ -2943,14 +2943,14 @@ Usable by:
 @761 = ~Armor of God~
 @762 = ~Rumor has it that many battles and wars, including internecine ones, have happened because of this armor. Once this armor was worn by a great warrior, a favorite of the god of war. But how could such a strong warrior lose it?
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +1 bonus to Strength
 +1 bonus to Dexterity
 
 Classe d'armure : -6
-PoidsÂ : 95
-NÃ©cessiteÂ : Strength 18
+Poids : 95
+Nécessite : Strength 18
 
 Usable by:
   Fighter
@@ -2958,14 +2958,14 @@ Usable by:
 @763 = ~Resistance Armor~
 @764 = ~According to rumors, this virtually indestructible armor was discovered at the site of the death of one of the servants of the Burning Skull sect. Most likely, the armor belonged to their leader, who led one of the sect's groups into battle.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +1 Dexterity Bonus
 10% chance to gain immunity to normal and magical weapons with enchantment up to +5
 
 Classe d'armure : 0
-PoidsÂ : 70
-NÃ©cessiteÂ : Strength 20
+Poids : 70
+Nécessite : Strength 20
 
 Usable by:  
   Fighter
@@ -2974,35 +2974,35 @@ Usable by:
 @765 = ~Cloak of Fear~
 @766 = ~This cloak is covered with blue runes that begin to shine brightly whenever a creature with evil intentions approaches its owner. The creature, only when it sees the runes, begins to feel panic fear and runs away if its morale is weak.
 			
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 			
 Cloak of Fear 3 times a day:
 A creature caught under the spell must make a successful saving throw, or flee in a panic
 
-PoidsÂ : 3~
+Poids : 3~
 @767 = ~Protection Robe~
 @768 = ~This robe is one of the most popular among those used by adventurers using magic.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Weapon damage reduced by 5%
 +2 bonus to wisdom and intelligence
 
 Classe d'armure : -4
-PoidsÂ : 3
+Poids : 3
 
 Usable by:
   Mage~
 @769 = ~Ice Armor~
 @770 = ~This armor was found in an abandoned ice cave. It seems that due to its origin, it has features related to cold magic.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +50% bonus to cold resistance
 Ice Storm 2 times a day
 
 Classe d'armure : 0
-NÃ©cessiteÂ : Strength 12
+Nécessite : Strength 12
 
 Inutilisable par :
   Mage
@@ -3010,27 +3010,27 @@ Inutilisable par :
 @771 = ~Armor of Immunity~
 @772 = ~In the manufacture of this armor, special ingredients were put into it, which enter the body when poisoned. Through this, the owner of the armor is granted full immunity to poisons.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Immunity to poisons
 
 Classe d'armure : 1
-NÃ©cessiteÂ : Strength 10
-PoidsÂ : 15
+Nécessite : Strength 10
+Poids : 15
 
 Inutilisable par :
   Mage~
 @773 = ~Stone Armor~
 @774 = ~This armor is as hard as a rock. It is almost impossible to break it through with a piercing weapon. And although it is not as effective against other types of weapons, it can still be considered a worthy defense.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +90% bonus to piercing damage resistance
 +10% bonus to fire and cold resistances
 +1 bonus to Dexterity
 
 Classe d'armure : 2
-NÃ©cessiteÂ : Strength 15
+Nécessite : Strength 15
 
 Inutilisable par :
   Druid
@@ -3050,7 +3050,7 @@ Inutilisable par :
 @785 = ~Absorption Ring~
 @786 = ~This ring, interacting with magic, begins to emit a dim glow. A faintly discernible, barely noticeable vortex forms above it, sucking magic out of the surrounding space and distributing it around the ring.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +30% bonus to magic resistance
 
@@ -3060,7 +3060,7 @@ Inutilisable par :
 @787 = ~Priest's Ring~
 @788 = ~This ring is highly valued among the priests for one simple reason.Its miraculous properties can often replace the services of a healer.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +10 to maximum health points
 Cure Serious Wounds 3 times a day
@@ -3071,7 +3071,7 @@ Usable by:
 @789 = ~Ring of Heaven~
 @790 = ~This ring was worn by the messengers of Heaven, who in the Original Epochs fought with Hell for power on Earth. In the end, another race came to Earth - humans. This solved all the problems.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +10% bonus to fire resistance
 +10 to maximum health points
@@ -3088,14 +3088,14 @@ Inutilisable par :
 @796 = ~Shield of Order~
 @797 = ~This shield, 1.5 meters high and 1 m wide, is mainly used by the Royal Guard. It is very durable, and it is not pierced by arrows. Due to its size, it covers almost the entire body. However, due to its large weight, not all warriors can use it.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +1 bonus to Strength and Dexterity
 +30% bonus to missile damage resistance
 
 Classe d'armure : +2 bonus
-PoidsÂ : 28
-NÃ©cessiteÂ : Strength 15
+Poids : 28
+Nécessite : Strength 15
 
 Usable by:
   Fighter
@@ -3103,14 +3103,14 @@ Usable by:
 @798 = ~Sun Shield~
 @799 = ~This brightly shining shield can protect only by reflecting the sun's rays and making the enemy blind. It is said that it was created by the devoted servants of the god Helm for the hero who helped them in the battle against the cult of the Unseeing Eye.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +5 bonus to maximum of health points
 30% chance to blind the opponent
 +1 bonus to Dexterity
 
 Classe d'armure : +3 bonus
-PoidsÂ : 2
+Poids : 2
 
 Inutilisable par :
   Mage
@@ -3118,7 +3118,7 @@ Inutilisable par :
 @800 = ~Storm Shield~
 @801 = ~This shield was found about 25 miles from Calimport in a remote village, shortly before it was plundered by nomads. Locals said that one night a terrible thunderstorm broke out over their village. Lightning flashed almost without a break, but, oddly enough, none of them hit either houses or people. The next morning, when the bad weather subsided, the villagers found a charred corpse outside the village, next to which this shield was lying. Whether this unknown person was the cause of the storm, or vice versa, wanted to save the village from it, remained a mystery.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +25% to electricity resistance
 +10% to magic resistance
@@ -3132,14 +3132,14 @@ Inutilisable par :
 @802 = ~Paladin's Faith~
 @803 = ~This shield got its name because of its power, as strong as the paladin's faith.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +10% to magic, fire, cold, electricity, acid resistances
 +2 bonus to Charisma
 +3 bonus to Armor Class
 
-PoidsÂ : 7
-NÃ©cessiteÂ : Strength 12
+Poids : 7
+Nécessite : Strength 12
 
 Usable by:
   Paladin~
@@ -3148,123 +3148,123 @@ Usable by:
 @806 = ~Shuriken~
 @807 = ~Shuriken, or, colloquially, "star" - is a type of throwing daggers, one of the most common weapons of murderers and thieves. A shuriken is only the size of a human hand, but even such a small weapon can be deadly.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 2d4
-Type de dÃ©gÃ¢ts : missile
-PoidsÂ : 1
-Facteur de vitesseÂ : 1
-Type de compÃ©tenceÂ : Darts
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 2~
+Dégâts : 2d4
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : Darts
+Type : Arme à une main
+Nécessite : Strength 2~
 @808 = ~Shuriken +1~
 @809 = ~Shuriken, or, colloquially, "star" - is a type of throwing daggers, one of the most common weapons of murderers and thieves. A shuriken is only the size of a human hand, but even such a small weapon can be deadly.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 2d4
-Type de dÃ©gÃ¢ts : missile
-PoidsÂ : 1
-Facteur de vitesseÂ : 1
-Type de compÃ©tenceÂ : Darts
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 2~
+Dégâts : 2d4
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : Darts
+Type : Arme à une main
+Nécessite : Strength 2~
 @810 = ~Shuriken, or, colloquially, "star" is a type of throwing daggers, one of the most common weapons of murderers and thieves. Shuriken has an advantage over darts due to higher damage and, often, speed.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +1 bonus
-DÃ©gÃ¢ts : 2d4 +1
-Type de dÃ©gÃ¢ts : missile
-PoidsÂ : 1
-Facteur de vitesseÂ : 1
-Type de compÃ©tenceÂ : Darts
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 2~
+Dégâts : 2d4 +1
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : Darts
+Type : Arme à une main
+Nécessite : Strength 2~
 @811 = ~Shuriken +2~
 @812 = ~Shuriken, or, colloquially, "star" is a type of throwing daggers, one of the most common weapons of murderers and thieves. The origin of this copy is far from a mystery - it was made within the walls of the notorious thieves guild of Athkatla.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 2d4 +2
-Type de dÃ©gÃ¢ts : missile
-PoidsÂ : 1
-Facteur de vitesseÂ : 1
-Type de compÃ©tenceÂ : Darts
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 2~
+Dégâts : 2d4 +2
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : Darts
+Type : Arme à une main
+Nécessite : Strength 2~
 @813 = ~Shuriken +3~
 @814 = ~Shuriken, or, colloquially, "star" is a type of throwing daggers, one of the most common weapons of murderers and thieves. This improved version was made by order of one of the masters of the thieves guild, from whom this weapon was subsequently stolen by an unknown assassin.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 2d4 +3
-Type de dÃ©gÃ¢ts : missile
-PoidsÂ : 1
-Facteur de vitesseÂ : 1
-Type de compÃ©tenceÂ : Darts
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 2~
+Dégâts : 2d4 +3
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : Darts
+Type : Arme à une main
+Nécessite : Strength 2~
 @815 = ~Returning Shuriken~
 @816 = ~This shuriken is enchanted in such a way that instead of getting stuck in the victim's body, it strikes her, describes an elliptical trajectory and returns to the owner. As a result, you will never find yourself in a situation where you have nothing to attack the enemy with.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 The shuriken returns to the hands after the throw
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 2d4 +2
-Type de dÃ©gÃ¢ts : missile
-PoidsÂ : 1
-Facteur de vitesseÂ : 1
-Type de compÃ©tenceÂ : Darts
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 2~
+Dégâts : 2d4 +2
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : Darts
+Type : Arme à une main
+Nécessite : Strength 2~
 @817 = ~Vaneal's Shuriken~
 @818 = ~Vaneal was once the leader of a thieves' guild until he was overthrown by his rival. Vaneal promised him a slow and painful death. He instructed an alchemist to make a poison that slowly penetrates the body, causing severe pain. The poison turned out to be very effective, and glorified not only this shuriken, but also its owner.
 			
-PARAMÃˆTRES :  
+PARAMÈTRES :  
 			
 At successful hit the opponent will be 			
 it is poisoned. There is no spasbrosk.			
 			
 TAC0: +3rd bonus	
-DÃ©gÃ¢ts : 2d4 +3	
-Type de dÃ©gÃ¢ts : missile
-PoidsÂ : 1	
-Facteur de vitesseÂ : 0	
-Type de compÃ©tenceÂ : Darts	
-Type : Arme Ã  une main	
-NÃ©cessiteÂ : Strength 2~
+Dégâts : 2d4 +3	
+Type de dégâts : missile
+Poids : 1	
+Facteur de vitesse : 0	
+Type de compétence : Darts	
+Type : Arme à une main	
+Nécessite : Strength 2~
 @819 = ~Six-pointed Shuriken~
 @820 = ~This shuriken differs from the usual one in that it has six blades instead of four. It deals increased damage, and this makes it a deadly weapon.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 50% chance to deal 1d4 points of additional damage on hit
 
 TAC0: +2 bonus	
-DÃ©gÃ¢ts : 2d4 +2	
-Type de dÃ©gÃ¢ts : missile
-PoidsÂ : 1
-Facteur de vitesseÂ : 1
-Type de compÃ©tenceÂ : Darts
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 2~
+Dégâts : 2d4 +2	
+Type de dégâts : missile
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : Darts
+Type : Arme à une main
+Nécessite : Strength 2~
 @821 = ~Sulica~
 @822 = ~Sulica is a kind of shaft weapon similar to a spear, but with the only difference that it has a longer pommel. It first appeared during the riots in Athkatla, where peasants often rebelled. That is why this weapon is rightfully considered popular.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 2d6
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 8
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Spear
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 7
+Dégâts : 2d6
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 7
 
 Inutilisable par :
   Druid
@@ -3275,16 +3275,16 @@ Inutilisable par :
 @823 = ~Sulica +1~
 @824 = ~Sulica is a kind of shaft weapon similar to a spear, but with the only difference that it has a longer pommel. It first appeared during the riots in Athkatla, where peasants often rebelled. That is why this weapon is rightfully considered popular. This is the basic version of the weapon improved by rural blacksmiths.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +1 bonus
-DÃ©gÃ¢ts : 2d6 +1
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 8
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Spear
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 7
+Dégâts : 2d6 +1
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 7
 
 Inutilisable par :
   Druid
@@ -3295,16 +3295,16 @@ Inutilisable par :
 @825 = ~Sulica +2~
 @826 = ~Sulica is a kind of shaft weapon similar to a spear, but with the only difference that it has a longer pommel. It first appeared during the riots in Athkatla, where peasants often rebelled. That is why this weapon is rightfully considered popular. The lack of skill in handling this type of weapon is more than compensated for by the magic contained in it.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 2d6 +2
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 8
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Spear
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 7
+Dégâts : 2d6 +2
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 7
 
 Inutilisable par :
   Druid
@@ -3315,16 +3315,16 @@ Inutilisable par :
 @827 = ~Sulica +3~
 @828 = ~Sulica is a kind of shaft weapon similar to a spear, but with the only difference that it has a longer pommel. It first appeared during the riots in Athkatla, where peasants often rebelled. That is why this weapon is rightfully considered popular. This powerful weapon was used by rebel leaders.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 2d6 +3
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 8
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Spear
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 7
+Dégâts : 2d6 +3
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 7
 
 Inutilisable par :
   Druid
@@ -3335,18 +3335,18 @@ Inutilisable par :
 @829 = ~Sharp sulica~
 @830 = ~This sulica has a very sharp pommel, thanks to which it has become a truly destructive weapon. Many enemies of the rebels, underestimating the power of this weapon, deserved a quick death.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Deals 1d4 additional damage when hitting a target	
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 2d6 +3
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 8
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Spear
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 7
+Dégâts : 2d6 +3
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 4
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 7
 
 Inutilisable par :
   Druid
@@ -3357,16 +3357,16 @@ Inutilisable par :
 @831 = ~Rebel's Weapon~
 @832 = ~The most famous among the rebels, a certain Lex, once owned this sulica, the best of all that ever existed. This weapon was so powerful that there was never any doubt who would be chosen as the leader of the rebels. The enemies of the rebels should have thought twice before venturing to confront the squad that Lex led.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +5 bonus
-DÃ©gÃ¢ts : 2d6 +5
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 8
-Facteur de vitesseÂ : 3
-Type de compÃ©tenceÂ : Spear
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 7
+Dégâts : 2d6 +5
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 3
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 7
 
 Inutilisable par :
   Druid
@@ -3377,18 +3377,18 @@ Inutilisable par :
 @833 = ~Sulica of Balance~
 @834 = ~Most of the sulicas that are in use, due to their length and weight, are not balanced. But this special specimen has a pommel made of light metal, which helped to improve the overall balance of the sulica and made it a fairly fast and effective weapon.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 When equipped, the owner is under the permanent effect of "Free Action"
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 2d6 +2
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 8
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Spear
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 7
+Dégâts : 2d6 +2
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 4
+Type de compétence : Spear
+Type : Arme à deux mains
+Nécessite : Strength 7
 
 Inutilisable par :
   Druid
@@ -3397,19 +3397,19 @@ Inutilisable par :
   Mage
   Bard~
 @835 = ~Sword of the Righteous~
-@836 = ~PARAMÃˆTRES :
+@836 = ~PARAMÈTRES :
 ~
-@837 = ~PARAMÃˆTRES :
+@837 = ~PARAMÈTRES :
 
 50% chance to stun the target on a successful hit (saving throw against death to avoid the effect)
 
-DÃ©gÃ¢ts : 1D8 +1, +1d4 by cold
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 4
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ :  Bastard sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+Dégâts : 1D8 +1, +1d4 by cold
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 5
+Type de compétence :  Bastard sword
+Type : Arme à une main
+Nécessite : Strength 6
 
 Inutilisable par :
   Druid 
@@ -3418,19 +3418,19 @@ Inutilisable par :
 @838 = ~Blade of Lightness~
 @839 = ~This unusual "two-handed" is an example of a perfectly crafted blade. It is perfectly balanced and has an unusually small weight for such a class of weapons. As a consequence, in battle they can be wielded at a very high speed. The blade of the sword is polished so thoroughly that it easily pierces the target when struck with the blade.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 The owner of the sword is under the permanent effect of Haste
 10% chance to instantly kill the target with one hit
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d10 +3
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 8
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Two-handed sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d10 +3
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 5
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 10
 
 Inutilisable par :
   Mage
@@ -3441,37 +3441,37 @@ Inutilisable par :
 @840 = ~Blade of Rage~
 @841 = ~This sword is very popular among barbarians and other related tribes for its increased damage. Unfortunately, because of its weight, no one else can use it.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 50% chance to deal 2d10 points of additional damage when successfully hitting the target
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d10 +3
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 20
-Facteur de vitesseÂ : 10
-Type de compÃ©tenceÂ : Two-handed sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 15
+Dégâts : 1d10 +3
+Type de dégâts : tranchant
+Poids : 20
+Facteur de vitesse : 10
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 15
 
 Usable by:
   Barbarian~
 @842 = ~Thunder Blade~
 @843 = ~This sword has a special serrated blade, on which a lightning bolt is engraved. Its handle is made of a dark, almost black, material. It is rumored that during a thunderstorm, this blade becomes uncontrollable.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +50% bonus to electricity resistance
 Lightning Bolt 3 times per day
 
 TAC0: +4 bonus
-DÃ©gÃ¢ts : 1d10 +4, 1d10 by electricity
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 12
-Facteur de vitesseÂ : 10
-Type de compÃ©tenceÂ : Two-handed sword
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 14
+Dégâts : 1d10 +4, 1d10 by electricity
+Type de dégâts : tranchant
+Poids : 12
+Facteur de vitesse : 10
+Type de compétence : Two-handed sword
+Type : Arme à deux mains
+Nécessite : Strength 14
 
 Inutilisable par :
   Mage
@@ -3482,19 +3482,19 @@ Inutilisable par :
 @844 = ~Barbarian's Pride~
 @845 = ~The blade received such an unusual name due to the fact that it once belonged to a barbarian, whom everyone admired for his strength, abilities and bravery.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +2 bonus to charisma
 10% chance of causing the target to panic on hit
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 2d4 +2
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Bastard sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 11
+Dégâts : 2d4 +2
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à une main
+Nécessite : Strength 11
 
 Inutilisable par :
   Mage
@@ -3504,18 +3504,18 @@ Inutilisable par :
 @846 = ~Arena Sword~
 @847 = ~This blade is one of the many weapons used in the gladiator arena. This copy differs from the usual one-and-a-half sword only by the arena symbol engraved on the handle.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Classe d'armure :  2
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 2d4 +2
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 10
-Facteur de vitesseÂ : 8
-Type de compÃ©tenceÂ : Bastard sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 11
+Dégâts : 2d4 +2
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : Bastard sword
+Type : Arme à une main
+Nécessite : Strength 11
 
 Inutilisable par :
   Mage	
@@ -3525,18 +3525,18 @@ Inutilisable par :
 @848 = ~Crystal Sword~
 @849 = ~This sword has a transparent blade of a bluish hue, as if made of crystal. However, unlike crystal, the blade material is extremely durable and lightweight.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +30% bonus to magic resistance
 +1 bonus to Strength
                                
-DÃ©gÃ¢ts : 2d4+3, 2d4 by magic
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 8
-Facteur de vitesseÂ : 6
-Type de compÃ©tenceÂ : Bastard sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 10
+Dégâts : 2d4+3, 2d4 by magic
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 6
+Type de compétence : Bastard sword
+Type : Arme à une main
+Nécessite : Strength 10
 
 Inutilisable par :
   Mage	
@@ -3546,19 +3546,19 @@ Inutilisable par :
 @850 = ~Victim's Scimitar~
 @851 = ~This scimitar is very insidious. On the one side, this is a very effective weapon, on the other - it requires a certain sacrifice for its services. The owner of the clinic will lose 1 health point every 2 rounds the entire time it is in the hand.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Deals 1 point of poison damage in 2 rounds while the weapon is in hand
 +50% bonus to resistance to slashing damage
 			
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 1d8+2, 1d6 by poison
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 4
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Scimitar/Wakizashi/Ninja-To
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d8+2, 1d6 by poison
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 5
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 10
 
 Inutilisable par :
   Mage
@@ -3566,19 +3566,19 @@ Inutilisable par :
 @852 = ~Veransler's Scimitar~
 @853 = ~This scimitar was once owned by someone Veransler. Since Veransler was a poor man whose only valuable thing was this scimitar, he named this scimitar after himself. As expected, the name of the owner was forgotten, but not the name of the scimitar itself.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +1 bonus to Strength
 +1 bonus to Dexterity
 
 TAC0: +1 bonus
-DÃ©gÃ¢ts : 1d8 +1
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 4
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Scimitar/Wakizashi/Ninja-To
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d8 +1
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 5
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 10
 
 Inutilisable par :
   Mage
@@ -3586,19 +3586,19 @@ Inutilisable par :
 @854 = ~Rainbow Scimitar~
 @855 = ~The appearance of this scimitar is very remarkable. Its color changes every second. Many have tried to find out the nature of this phenomenon, but the only explanation that could be obtained is that it has something to do with the magic of the blade.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +15% bonus to fire, cold, electricity and acid resistance
 Chromatic Orb 3 times per day
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 1d8 +2
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 4
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Scimitar/Wakizashi/Ninja-To
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 10
+Dégâts : 1d8 +2
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 5
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 10
 
 Inutilisable par :
   Mage
@@ -3606,19 +3606,19 @@ Inutilisable par :
 @856 = ~Power of Heaven~
 @857 = ~It is said that this blade was given to the hero a long time ago by one of the angels to protect him from Evil. It remains unknown how a mere mortal could win the favor of angels.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Double damage vs. undead
 Can only be used by good characters
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d8 +3
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 4
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Long sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+Dégâts : 1d8 +3
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 4
+Type de compétence : Long sword
+Type : Arme à une main
+Nécessite : Strength 6
 
 Inutilisable par :  
   Druid 	
@@ -3629,18 +3629,18 @@ Inutilisable par :
 @858 = ~Snake Blade~
 @859 = ~The handle of this weapon is wrapped around the symbol of a snake with its tongue sticking out. The blade of the blade is impregnated with a deadly poison, which, after entering the victim's blood, begins to act immediately.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 12% chance to kill the victim with a one hit if the saving throw vs. paralysis/poison/death fails
 			
 TAC0: +4 bonus
-DÃ©gÃ¢ts : 1d8 +4, +5 by poison
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 4
-Facteur de vitesseÂ : 4
-Type de compÃ©tenceÂ : Long sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+Dégâts : 1d8 +4, +5 by poison
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 4
+Type de compétence : Long sword
+Type : Arme à une main
+Nécessite : Strength 6
 
 Inutilisable par :
   Druid
@@ -3650,18 +3650,18 @@ Inutilisable par :
 @860 = ~Spiked Blade~
 @861 = ~This unusual weapon is made of enchanted crystal ore. Its blade is covered with a very thin layer of sharp crystals. Hitting the enemy, the blade leaves crystal fragments in his body, thus causing additional damage. Due to the fact that the blade is enchanted, the crystal layer on its blade is constantly being updated.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +3d6 points of additional piercing damage
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d8 +3
-Type de dÃ©gÃ¢ts : tranchant
-PoidsÂ : 4
-Facteur de vitesseÂ : 3
-Type de compÃ©tenceÂ : Long sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 6
+Dégâts : 1d8 +3
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 3
+Type de compétence : Long sword
+Type : Arme à une main
+Nécessite : Strength 6
 
 Inutilisable par :
   Druid 	
@@ -3670,20 +3670,20 @@ Inutilisable par :
 @862 = ~Whistling Blade~
 @863 = ~This is a very popular, and at the same time very dangerous blade. Its name comes from the sound it makes when swinging. The impact of this extremely fast blade is almost impossible to avoid. Thanks to its speed, the enemy will only see your blurred silhouette.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 When hitting the target, a disease is imposed (-3 point penalty to Dexterity)
 10% chance to slow down the target by 1 turn
 The owner of the blade is blurred
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 1d6 +2
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 3
-Facteur de vitesseÂ : 0
-Type de compÃ©tenceÂ : Short sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 5
+Dégâts : 1d6 +2
+Type de dégâts : piercing
+Poids : 3
+Facteur de vitesse : 0
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 5
 
 Inutilisable par :
   Druid
@@ -3693,18 +3693,18 @@ Inutilisable par :
 @864 = ~Orcish Fang~
 @865 = ~This short sword with a special ornament, which gives out its belonging to the genus of orcs, is a very common weapon. It is used mainly by orcs, but goblinoid races also do not neglect this kind of swords. This copy, as usual, is blunted and contains a fair layer of rust, but at least it is suitable for use.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 50% chance to poison the target on hit (2 points of damage per round)
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d6 +3, +3 by poison
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 3
-Facteur de vitesseÂ : 2
-Type de compÃ©tenceÂ : Short sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 5
+Dégâts : 1d6 +3, +3 by poison
+Type de dégâts : piercing
+Poids : 3
+Facteur de vitesse : 2
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 5
 
 Inutilisable par :
   Mage
@@ -3713,20 +3713,20 @@ Inutilisable par :
 @866 = ~Blade of Murder~
 @867 = ~The blade of this sword emits a rather bright white light. When struck, the magic of the blade is able to stun the enemy. In addition, the owner of the blade can cast powerful spells of the wizard.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 15% chance to stun the target for 1 round on hit
 Disintegrate 2 times per day
 Finger of Death 1 time per day
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d6 +3
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 3
-Facteur de vitesseÂ : 1
-Type de compÃ©tenceÂ : Short sword
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 5
+Dégâts : 1d6 +3
+Type de dégâts : piercing
+Poids : 3
+Facteur de vitesse : 1
+Type de compétence : Short sword
+Type : Arme à une main
+Nécessite : Strength 5
 
 Inutilisable par :
   Mage
@@ -3735,16 +3735,16 @@ Inutilisable par :
 @868 = ~Toothy Dagger~
 @869 = ~This dagger got such an unusual name due to its jagged blade. It is very sharp, perfectly penetrates the flesh, and in addition, it is soaked with basilisk poison, which acts instantly.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 1d4 +2, +2d4 by poison
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 4
-Facteur de vitesseÂ : 2
-Type de compÃ©tenceÂ : Daggers
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 3
+Dégâts : 1d4 +2, +2d4 by poison
+Type de dégâts : piercing
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : Daggers
+Type : Arme à une main
+Nécessite : Strength 3
 
 Inutilisable par :
   Mage
@@ -3754,46 +3754,46 @@ Inutilisable par :
 @870 = ~Dagger of Gleam~
 @871 = ~The blade of this dagger emits a dazzling light. Due to the fact that it is showered with magic dust, it makes it possible to blind and stun enemies.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 20% chance to blind the target for 5 seconds on impact
 20% chance to stun the target for 8 seconds on impact
 
 TAC0: +1 bonus
-DÃ©gÃ¢ts : 1d4 +1
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 4
-Facteur de vitesseÂ : 2
-Type de compÃ©tenceÂ : Daggers
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 3
+Dégâts : 1d4 +1
+Type de dégâts : piercing
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : Daggers
+Type : Arme à une main
+Nécessite : Strength 3
 
 Inutilisable par :
   Cleric~
 @872 = ~Gureh's Dagger~
 @873 = ~This dagger belonged to Gureh, one of the most famous thieves. He was a master of disguise and intrigue. It was not difficult for him to skillfully avoid death or get to the most guarded places. However, one day his tactics failed, which led to a sad ending.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Improved Haste when wearing
 +3 bonus to Dexterity
 +20% bonus to Move Silently
 
 TAC0: +4 bonus
-DÃ©gÃ¢ts : 1d4 +4
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 4
-Facteur de vitesseÂ : 2
-Type de compÃ©tenceÂ : Daggers
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 3
+Dégâts : 1d4 +4
+Type de dégâts : piercing
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : Daggers
+Type : Arme à une main
+Nécessite : Strength 3
 
 Usable by:
   Thief~
 @874 = ~Blade of Madness~
 @875 = ~Rumor has it that anyone who has tasted this weapon on their own skin will be touched by the mind and will drag out a miserable existence. But they will not be able to confirm or refute this theory due to memory loss, and moreover, they usually carry such nonsense that listening to such a thing means wasting time.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 70% chance to drain 1 level when hitting a target
 Deafness 3 times per day
@@ -3801,13 +3801,13 @@ Blindness 3 times per day
 Dire Charm 2 times per day
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 1d8 +2
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 3
-Facteur de vitesseÂ : 2
-Type de compÃ©tenceÂ : Scimitar/Wakizashi/Ninja-To
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 5
+Dégâts : 1d8 +2
+Type de dégâts : piercing
+Poids : 3
+Facteur de vitesse : 2
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 5
 
 Inutilisable par :
   Mage
@@ -3816,7 +3816,7 @@ Inutilisable par :
 @876 = ~Wakizashi of Elements~
 @877 = ~This enchanted blade has truly unique capabilities. He can hit the enemy with fire, cold, electricity and poison. Even if the enemy is resistant, for example, to frost, this will not help him much.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 25% chance to deal additional 1d8 fire damage
 25% chance to deal additional 1d8 cold damage
@@ -3824,13 +3824,13 @@ PARAMÃˆTRES :
 25% chance to deal additional 1d8 poison damage
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d8 +3
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 3
-Facteur de vitesseÂ : 1
-Type de compÃ©tenceÂ : Scimitar/Wakizashi/Ninja-To
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 5
+Dégâts : 1d8 +3
+Type de dégâts : piercing
+Poids : 3
+Facteur de vitesse : 1
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 5
 
 Inutilisable par :
   Mage
@@ -3839,16 +3839,16 @@ Inutilisable par :
 @878 = ~Angloerth~
 @879 = ~This blade is the result of many years of work by a great master weaponsmith, who invested only a small piece of magic in it. However, given its power, this is not really believed.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +5 bonus
-DÃ©gÃ¢ts : 1d8 +6, +2 by magic
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 4
-Facteur de vitesseÂ : 2
-Type de compÃ©tenceÂ : Scimitar/Wakizashi/Ninja-To
-Type : Arme Ã  une main
-NÃ©cessiteÂ : Strength 8
+Dégâts : 1d8 +6, +2 by magic
+Type de dégâts : piercing
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : Scimitar/Wakizashi/Ninja-To
+Type : Arme à une main
+Nécessite : Strength 8
 
 Inutilisable par :
   Mage
@@ -3861,15 +3861,15 @@ Inutilisable par :
 @884 = ~Trident~
 @885 = ~This is one of the varieties of shaft weapons, similar to a pitchfork, which is used against horsemen. The difference from halberds is in another pommel, which has three teeth, hence the name "trident". The design of the top of the trident has no established canons, so tridents can be found in the most bizarre form.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-DÃ©gÃ¢ts : 3d6
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 12
-Facteur de vitesseÂ : 7
-Type de compÃ©tenceÂ : Halberds
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 9
+Dégâts : 3d6
+Type de dégâts : piercing
+Poids : 12
+Facteur de vitesse : 7
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 9
 
 Inutilisable par :
   Druid	
@@ -3881,16 +3881,16 @@ Inutilisable par :
 @886 = ~Trident +1~
 @887 = ~This is one of the varieties of shaft weapons, similar to a pitchfork, which is used against horsemen. The difference from halberds is in another pommel, which has three teeth, hence the name "trident". The design of the top of the trident has no established canons, so tridents can be found in the most bizarre form. This instance of the trident is more effective in comparison with the basic version.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +1 bonus
-DÃ©gÃ¢ts : 3d6 +1
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 12
-Facteur de vitesseÂ : 7
-Type de compÃ©tenceÂ : Halberds
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 9
+Dégâts : 3d6 +1
+Type de dégâts : piercing
+Poids : 12
+Facteur de vitesse : 7
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 9
 
 Inutilisable par :
   Druid	
@@ -3902,16 +3902,16 @@ Inutilisable par :
 @888 = ~Trident +2~
 @889 = ~This is one of the varieties of shaft weapons, similar to a pitchfork, which is used against horsemen. The difference from halberds is in another pommel, which has three teeth, hence the name "trident". The design of the top of the trident has no established canons, so tridents can be found in the most bizarre form. This instance of the trident was created in order to reflect the blows of most of the melee weapons, simply stuck between the teeth of the pommel.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 3d6 +2
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 8
-Facteur de vitesseÂ : 7
-Type de compÃ©tenceÂ : Halberds
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 9
+Dégâts : 3d6 +2
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 7
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 9
 
 Inutilisable par :
   Druid
@@ -3923,16 +3923,16 @@ Inutilisable par :
 @890 = ~Trident +3~
 @891 = ~This is one of the varieties of shaft weapons, similar to a pitchfork, which is used against horsemen. The difference from halberds is in another pommel, which has three teeth, hence the name "trident". The design of the top of the trident has no established canons, so tridents can be found in the most bizarre form. This version of the trident was used by the residents of Waterdeep, who liked it for religious reasons. It reminds them of the weapons their gods use.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 3d6 +3
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 12
-Facteur de vitesseÂ : 7
-Type de compÃ©tenceÂ : Halberds
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 9
+Dégâts : 3d6 +3
+Type de dégâts : piercing
+Poids : 12
+Facteur de vitesse : 7
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 9
 
 Inutilisable par :
   Druid	
@@ -3944,18 +3944,18 @@ Inutilisable par :
 @892 = ~Sharp trident~
 @893 = ~Someone ignorant may say that the trident is an ordinary pitchfork, but this is far from the case. The teeth of this instance of the trident are sharpened to an incredible sharpness, thanks to which they can easily penetrate leather armor, and on occasion, chain mail.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 1d6 additional piercing damage when hitting the target
 
 TAC0: +2 bonus
-DÃ©gÃ¢ts : 3d6 +2
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 12
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Halberds
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 9
+Dégâts : 3d6 +2
+Type de dégâts : piercing
+Poids : 12
+Facteur de vitesse : 5
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 9
 
 Inutilisable par :
   Druid	
@@ -3967,19 +3967,19 @@ Inutilisable par :
 @894 = ~Trident of Lightning~
 @895 = ~Since ancient times, it was believed that only sea gods could use these weapons, who vented their anger on navigators with thunder and lightning. Over time, these superstitions became legends. And to this day, no one even knows how "legendary" this trident is.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 30% chance to deal 1d4 additional electrical damage
 Lightning Bolt 3 times per day
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 3d6 +3
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 12
-Facteur de vitesseÂ : 5
-Type de compÃ©tenceÂ : Halberds
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 9
+Dégâts : 3d6 +3
+Type de dégâts : piercing
+Poids : 12
+Facteur de vitesse : 5
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 9
 
 Inutilisable par :
   Druid	
@@ -3991,16 +3991,16 @@ Inutilisable par :
 @896 = ~King Welsion's Trident~
 @897 = ~This trident belonged to the king of Waterdeep, Welsion. This weapon does not have any special features, except that it is capable of causing fatal damage.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 TAC0: +4 bonus
-DÃ©gÃ¢ts : 3d6 +4
-Type de dÃ©gÃ¢ts : piercing
-PoidsÂ : 8
-Facteur de vitesseÂ : 7
-Type de compÃ©tenceÂ : Halberds
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 9
+Dégâts : 3d6 +4
+Type de dégâts : piercing
+Poids : 8
+Facteur de vitesse : 7
+Type de compétence : Halberds
+Type : Arme à deux mains
+Nécessite : Strength 9
 
 Inutilisable par :  
   Druid	
@@ -4012,7 +4012,7 @@ Inutilisable par :
 @898 = ~Staff of divine essence~
 @899 = ~This is a magic staff created from two magical relics - the blood of a big troll and divine essence.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 +4 bonus to Constitution
 +4 bonus to Strength
@@ -4022,13 +4022,13 @@ Character changes to chaotic-evil
 Reputation is set to 0
 
 TAC0: +3 bonus
-DÃ©gÃ¢ts : 1d6 +3
-Type de dÃ©gÃ¢ts : crushing
-PoidsÂ : 5
-Facteur de vitesseÂ : 1
-Type de compÃ©tenceÂ : Staff
-Type : Arme Ã  deux mains
-NÃ©cessiteÂ : Strength 5~
+Dégâts : 1d6 +3
+Type de dégâts : crushing
+Poids : 5
+Facteur de vitesse : 1
+Type de compétence : Staff
+Type : Arme à deux mains
+Nécessite : Strength 5~
 @900 = ~This is the key to the necromancer's grave~
 @901 = ~Bunch of hair~
 @902 = ~Bunch of Vira's hair~
@@ -4038,28 +4038,28 @@ NÃ©cessiteÂ : Strength 5~
 @906 = ~Wand of Protection~
 @907 = ~A shield is engraved on the top of the wand, which speaks for itself about the purpose of this object.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Ghost Armor 3 times per day
 
-PoidsÂ : 1~
+Poids : 1~
 @908 = ~Moon Wand~
 @909 = ~This wand has unusual magical properties. The problem is that it was lost more than a hundred years ago, and no one has heard of it since.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Meteor Swarm 1 time per day
 Comet 1 time per day
 
-PoidsÂ : 1~
+Poids : 1~
 @910 = ~Wand of Wish~
 @911 = ~This wand is made of bronze, with a pommel in the shape of a genie bottle.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
 Wish 2 time per day
 
-PoidsÂ : 1~
+Poids : 1~
 @912 = ~Witch's Heart~
 @913 = ~This heart belongs to the witch from the fortress north of the High Forest.~
 @914 = ~Key to the portal~
@@ -4144,15 +4144,15 @@ PoidsÂ : 1~
 ///Additions///
 
 ////This Dagger (cdmod.ITM / Xcd.ITM) has not been added in the game and has no description, but it is still needed for a part of Order and Chaos quest.////
-/*@1060 = ~Dague mystÃ©rieuse~
-@1062 = ~Cette dague semble teintÃ©e d'un liquide rougeÃ¢tre...~
+/*@1060 = ~Dague mystérieuse~
+@1062 = ~Cette dague semble teintée d'un liquide rougeâtre...~
 @1063 = ~Cette dague appartenait aux adorateurs de Cyric, elle est couverte de sang.~
 @1061 = ~Arme du crime~*/
 
 @1060 = ~Dague~ // Dagger
 @1061 = ~Dague~ // Dagger
-@1062 = ~L'emblÃ¨me de Cyric est gravÃ© sur la poignÃ©e.~ // The Cyric emblem is carved on the handle.
-//@1063 = ~L'emblÃ¨me de Cyric est gravÃ© sur la poignÃ©e.~ // The Cyric emblem is carved on the handle.
+@1062 = ~L'emblème de Cyric est gravé sur la poignée.~ // The Cyric emblem is carved on the handle.
+//@1063 = ~L'emblème de Cyric est gravé sur la poignée.~ // The Cyric emblem is carved on the handle.
 
 /////XGLRDR.CRE - LRDRMOD.CRE///// Not present but in tra folder
 @1065 = ~Lord Dread~ // Lord Dread
@@ -4160,640 +4160,640 @@ PoidsÂ : 1~
 
 ////XGBOOKP.itm - BOOKPR.itm////
 @2000 = ~Grimoire~
-@2003 = ~Grimoire des interprÃ¨tes~ ~Grimoire des d'Oghmatiques~
-@2001 = ~Tuto knihu vytvoÃ¸ili Oghmovi stoupenci pro skupinu dobrodruhÃ¹, kteÃ¸Ã­ se snaÅ¾ili zmÃ¬nit svÃ¬t. Tato skupina jeÅ¡tÃ¬ donedÃ¡vna bloudila Faerunem a kaÅ¾dÃ©ho, kdo jim zkÃ¸Ã­Å¾il cestu, se snaÅ¾ili nauÃ¨it jejich podivnÃ©mu jazyku, kterÃ©mu Ã¸Ã­kali "ÃˆEÅ TINA". PomocÃ­ tÃ©to knihy dobrodruzi rozmlouvali s OghmovÃ½mi knÃ¬Å¾Ã­mi, kteÃ¸Ã­ jim byli Ã¨asto velmi nÃ¡pomocni pÃ¸i tomto nelehkÃ©m Ãºkolu. 
+@2003 = ~Grimoire des interprètes~ ~Grimoire des d'Oghmatiques~
+@2001 = ~Tuto knihu vytvoøili Oghmovi stoupenci pro skupinu dobrodruhù, kteøí se snaili zmìnit svìt. Tato skupina ještì donedávna bloudila Faerunem a kadého, kdo jim zkøíil cestu, se snaili nauèit jejich podivnému jazyku, kterému øíkali "ÈEŠTINA". Pomocí této knihy dobrodruzi rozmlouvali s Oghmovımi knìími, kteøí jim byli èasto velmi nápomocni pøi tomto nelehkém úkolu. 
 
 
-Na prvnÃ­ strÃ¡nce je ponÃ¬kud podivnÃ© vÃ¬novÃ¡nÃ­:
+Na první stránce je ponìkud podivné vìnování:
 
 
-  My BG2CZ team vÃ¬nujeme tuto knihu tobÃ¬, <CHARNAME>, aby ti navÅ¾dy pÃ¸ipomÃ­nala skupinu dobrodruhÃ¹, kteÃ¸i pÃ¸ipravili Faerun na tvÃ¹j pÃ¸Ã­chod a nauÃ¨ili zdejÅ¡Ã­ lid mluvit tvÃ½m rodnÃ½m jazykem. AÅ¾ tÃ¬ nÃ¬kdy rozÃ¨Ã­lÃ­ nÃ¬jakÃ½ hloupÃ½ Imp nebo Drow, kterÃ©ho jsme nedokÃ¡zali dobÃ¸e nauÃ¨it tvojÃ­ mateÃ¸Å¡tinou, dÃ¸Ã­v neÅ¾ nÃ¡s za toho neboÅ¾Ã¡ka proklejeÅ¡, mÃ¬l bys nÃ¡s pochvÃ¡lit za kaÅ¾dÃ©ho, kterÃ©ho jsme tvojÃ­ mateÃ¸Å¡tinu nauÃ¨ili dobÃ¸e.
+  My BG2CZ team vìnujeme tuto knihu tobì, <CHARNAME>, aby ti navdy pøipomínala skupinu dobrodruhù, kteøi pøipravili Faerun na tvùj pøíchod a nauèili zdejší lid mluvit tvım rodnım jazykem. A tì nìkdy rozèílí nìjakı hloupı Imp nebo Drow, kterého jsme nedokázali dobøe nauèit tvojí mateøštinou, døív ne nás za toho neboáka prokleješ, mìl bys nás pochválit za kadého, kterého jsme tvojí mateøštinu nauèili dobøe.
 
 
-Na druhÃ© strÃ¡nce je seznam vÅ¡ech, kteÃ¸Ã­ se na tomto ÃºsilÃ­ podÃ­leli:
+Na druhé stránce je seznam všech, kteøí se na tomto úsilí podíleli:
 
 
-VÃ¹dce druÅ¾iny, ke konci pouti Å¡Ã­lenstvÃ­m pronÃ¡sledovanÃ½:
+Vùdce druiny, ke konci pouti šílenstvím pronásledovanı:
     Adam "Christof" Rambousek
-PodÃ¬kovÃ¡nÃ­ patÃ¸Ã­ vÅ¡em stejnou mÃ¬rou, neboï¿½ nechci na nikoho zapomenout.
+Podìkování patøí všem stejnou mìrou, nebo nechci na nikoho zapomenout.
 
-PÃ­smo a vhodnÃ© magickÃ© pomÃ¹cky pro ostatnÃ­ vytvoÃ¸ili:
+Písmo a vhodné magické pomùcky pro ostatní vytvoøili:
     Payoch
     PeZ
 
-SkloÃ²ovÃ¡nÃ­ jmÃ©na hrdiny zaÃ¸Ã­dil z nejvÃ¬tÅ¡Ã­ Ã¨Ã¡sti:
-    Josef DrobnÃ½
+Skloòování jména hrdiny zaøídil z nejvìtší èásti:
+    Josef Drobnı
 
-VystoupenÃ­, jichÅ¾ si jistojistÃ¬ povÅ¡imnete:
-    Korgan - Thalen, Mirek PospÃ­Å¡il
+Vystoupení, jich si jistojistì povšimnete:
+    Korgan - Thalen, Mirek Pospíšil
     Lilarcor - Somnambulus
 
-Jazyk Ã¨eskÃ½ obyvatele Faerunu nauÃ¨ili:
-    Josef DrobnÃ½
-    Mirek PospÃ­Å¡il
+Jazyk èeskı obyvatele Faerunu nauèili:
+    Josef Drobnı
+    Mirek Pospíšil
     Eljarad
-    JiÃ¸Ã­ "Arahant" HoleÃ¨ek,
+    Jiøí "Arahant" Holeèek,
     Thalen
-    LukÃ¡Å¡ RubeÅ¡
-    JiÃ¸Ã­ HavlÃ­k
-    ZdenÃ¬k KrÃ¡lÃ­Ã¨ek
-    Zuzka TrundovÃ¡
-    David "IN" HanÃ¡Ã¨ek
-    JiÃ¸Ã­ Å imÅ¡a
+    Lukáš Rubeš
+    Jiøí Havlík
+    Zdenìk Králíèek
+    Zuzka Trundová
+    David "IN" Hanáèek
+    Jiøí Šimša
     Martin Mostek
     Foolisher
-    Adam Wicher, Petr MatuÅ¡ina, TomÃ¡Å¡ Hertl, Jaroslav MatouÅ¡ek, Ondra VencovskÃ½, Declon, Ady, Mikis, Martin OlÅ¡ovskÃ½, Jan Klos, MatouÅ¡ JaluÅ¡ka, Pavel Stingl, TomÃ¡Å¡ "Claar" JirouÅ¡ek, Somnambulus, Lucie Å mÃ­dovÃ¡, Arthur, JiÃ¸Ã­ "Bur" RubeÅ¡, Mirek, Shadow, JiÃ¸Ã­ JanÃ¡k, Marcus de Tycho, Panamon, Pavel KÃ¸ikava, Martin KoÃ¨Ã­, PeZ, Pavel Kelbl, TomÃ¡Å¡ JantaÃ¨, Tomahawk, Mirek Krupa, Kuba VerbovskÃ½, TomÃ¡Å¡ "Gyngy" RepÃ¡k, QaQ, VojtÃ¬ch Å efler, LukÃ¡Å¡ "BIT-mÃ¡g" DunajÃ¨Ã­k, Bypass, Honza Haubner, Lishak, Jan KravÃ¨Ã­k, Martin ZmeÅ¡kal, Radek "Spider" PrÃ¹cha, S. Sejkora, Gawein, Runner, Pavel "pauL" DvoÃ¸Ã¡k, Peter Kremel, Redman, Dawe, Mirek SadÃ­lek 
+    Adam Wicher, Petr Matušina, Tomáš Hertl, Jaroslav Matoušek, Ondra Vencovskı, Declon, Ady, Mikis, Martin Olšovskı, Jan Klos, Matouš Jaluška, Pavel Stingl, Tomáš "Claar" Jiroušek, Somnambulus, Lucie Šmídová, Arthur, Jiøí "Bur" Rubeš, Mirek, Shadow, Jiøí Janák, Marcus de Tycho, Panamon, Pavel Køikava, Martin Koèí, PeZ, Pavel Kelbl, Tomáš Jantaè, Tomahawk, Mirek Krupa, Kuba Verbovskı, Tomáš "Gyngy" Repák, QaQ, Vojtìch Šefler, Lukáš "BIT-mág" Dunajèík, Bypass, Honza Haubner, Lishak, Jan Kravèík, Martin Zmeškal, Radek "Spider" Prùcha, S. Sejkora, Gawein, Runner, Pavel "pauL" Dvoøák, Peter Kremel, Redman, Dawe, Mirek Sadílek 
 
-S mnohÃ½mi Ã¨esky promluvili a chyb vyvarovati se jim radili:
+S mnohımi èesky promluvili a chyb vyvarovati se jim radili:
     CEON
-    DivoÅ¡ka JÃ¡ja
-    Jan KravÃ¨Ã­k
-    Jan NovotnÃ½
-    JiÃ¸Ã­ "Bur" RubeÅ¡
+    Divoška Jája
+    Jan Kravèík
+    Jan Novotnı
+    Jiøí "Bur" Rubeš
     Lojza
-    Pavel KuÃ¨era
+    Pavel Kuèera
     POLIS
     Snah
-    TomÃ¡Å¡ PÃ­sek
-    VladimÃ­r VanÃ¬k
+    Tomáš Písek
+    Vladimír Vanìk
     Zdendys
 
 
-Na dalÅ¡Ã­ch stranÃ¡ch je velmi obsÃ¡hlÃ½ slovnÃ­k, kterÃ½ druÅ¾ina zÃ¸ejmÃ¬ velmi Ã¨asto pouÅ¾Ã­vala, protoÅ¾e strÃ¡nky jsou pomuchlanÃ© a Ã¨asto pokapanÃ© inkoustem a rÃ¹znÃ½mi jinÃ½mi tekutinami.
+Na dalších stranách je velmi obsáhlı slovník, kterı druina zøejmì velmi èasto pouívala, protoe stránky jsou pomuchlané a èasto pokapané inkoustem a rùznımi jinımi tekutinami.
 
 --= Kouzla =--
 
-Illusion/Phantasm - Iluze/PÃ¸eludy
+Illusion/Phantasm - Iluze/Pøeludy
 Necromancy - Nekromancie
-Summoning - PovolÃ¡vÃ¡nÃ­
-Conjuration - StvoÃ¸enÃ­
-Alteration - PromÃ¬ny
+Summoning - Povolávání
+Conjuration - Stvoøení
+Alteration - Promìny
 Abjuration - Ochrana
-Divination - VÃ¬Å¡tÃ¬nÃ­
-Enchantment/Charm - OÃ¨arovÃ¡nÃ­/ZmÃ¡menÃ­
-Evocation - VyvolÃ¡nÃ­
+Divination - Vìštìní
+Enchantment/Charm - Oèarování/Zmámení
+Evocation - Vyvolání
 Invocation - Invokace
 
-ÃˆARODÃŒJ
-ÃºroveÃ² 1
+ÈARODÌJ
+úroveò 1
 
-anglicky - Ã¨eÅ¡tina (cz manual)
+anglicky - èeština (cz manual)
 
-Armor - Zbroj (BrnÃ¬nÃ­)
+Armor - Zbroj (Brnìní)
 Blindness - Slepota (Oslep)
-Burning Hands - HoÃ¸Ã­cÃ­ ruce
-Charm person - Zmam osobu (OÃ¨aruj osobu)
-Chill touch - MrazivÃ½ dotyk (Dotyk zimy)
-Chromatic orb - BarevnÃ¡ koule (BarevnÃ½ orb)
-Colour spray - BarevnÃ¡ sprÅ¡ka
-Find familiar - Vyvolej pÃ¸Ã­telÃ­Ã¨ka (Vyvolej pÃ¸Ã­tele)
-Friends - PÃ¸Ã¡telÃ©
-Grease - SÃ¡dlo (Tuk)
-Identify - UrÃ¨enÃ­ (Rozpoznej)
-Infravision - InfravidÃ¬nÃ­
-Larlochâ€™s Minor Drain - Larchovo menÅ¡Ã­ vysÃ¡tÃ­
-Magic Missile - MagickÃ¡ stÃ¸ela (KouzelnÃ¡ stÃ¸ela)
-Nahal's Reckless Dweomer - NahalÃ¹v nevypoÃ¨itatelnÃ½ dweomer
-Protection from Evil - Ochrana pÃ¸ed zlem
-Protection from Petrification - Ochrana pÃ¸ed zkamenÃ¬nÃ­m
-Reflected Image - OdraÅ¾enÃ½ obraz
-Shield - Å tÃ­t
-Shocking Grasp - DÃ¬sivÃ© sevÃ¸enÃ­
-Sleep - SpÃ¡nek
-Spook - StraÅ¡idlo
+Burning Hands - Hoøící ruce
+Charm person - Zmam osobu (Oèaruj osobu)
+Chill touch - Mrazivı dotyk (Dotyk zimy)
+Chromatic orb - Barevná koule (Barevnı orb)
+Colour spray - Barevná sprška
+Find familiar - Vyvolej pøítelíèka (Vyvolej pøítele)
+Friends - Pøátelé
+Grease - Sádlo (Tuk)
+Identify - Urèení (Rozpoznej)
+Infravision - Infravidìní
+Larloch's Minor Drain - Larchovo menší vysátí
+Magic Missile - Magická støela (Kouzelná støela)
+Nahal's Reckless Dweomer - Nahalùv nevypoèitatelnı dweomer
+Protection from Evil - Ochrana pøed zlem
+Protection from Petrification - Ochrana pøed zkamenìním
+Reflected Image - Odraenı obraz
+Shield - Štít
+Shocking Grasp - Dìsivé sevøení
+Sleep - Spánek
+Spook - Strašidlo
 
 
-ÃºroveÃ² 2
+úroveò 2
 
-Agannazarâ€™s Scorcher - AgannazarÃ¹v Å¾Ã¡r
-Blur - RozmazÃ¡nÃ­ (RozmaÅ¾)
-Chaos Shield - ChaotickÃ½ Å¡tÃ­t
+Agannazar's Scorcher - Agannazarùv ár
+Blur - Rozmazání (Rozma)
+Chaos Shield - Chaotickı štít
 Deafness - Hluchota
 Detect Invisibility - Najdi neviditelnost (Odhal neviditelnost)
-Ghoul Touch - Dotyk ghÃºla
-Glitterdust - TÃ¸pytivÃ½ prach
-Horror - DÃ¬s (Horor)
+Ghoul Touch - Dotyk ghúla
+Glitterdust - Tøpytivı prach
+Horror - Dìs (Horor)
 Invisibility - Neviditelnost
 Knock - Zaklep
-Know Alignment - Poznej pÃ¸esvÃ¬dÃ¨enÃ­ (UrÃ¨i pÃ¸esvÃ¬dÃ¨enÃ­)
-Luck - Å tÃ¬stÃ­
-Melfâ€™s Acid Arrow - MelfÃ¹v kyselinovÃ½ Å¡Ã­p (MelfÃ¹v kyselÃ½ Å¡Ã­p)
-Mirror Image - ZrcadlovÃ½ obraz
-Power Word: Sleep - MocnÃ© slovo: Spi
-Ray of Enfeeblement - Paprsek oslabenÃ­
+Know Alignment - Poznej pøesvìdèení (Urèi pøesvìdèení)
+Luck - Štìstí
+Melf's Acid Arrow - Melfùv kyselinovı šíp (Melfùv kyselı šíp)
+Mirror Image - Zrcadlovı obraz
+Power Word: Sleep - Mocné slovo: Spi
+Ray of Enfeeblement - Paprsek oslabení
 Resist Fear - Odolej strachu
-Stinking Cloud - SmrdÃ­cÃ­ mrak (SmrdutÃ½ mrak)
-Strength - SÃ­la
-Vocalize - Hlas (OzvuÃ¨)
-Web - PavuÃ¨ina (SÃ­ï¿½)
+Stinking Cloud - Smrdící mrak (Smrdutı mrak)
+Strength - Síla
+Vocalize - Hlas (Ozvuè)
+Web - Pavuèina (Sí)
 
 
-ÃºroveÃ² 3
+úroveò 3
 
-Clairvoyance - JasnozÃ¸ivost
-Detect Illusion - Odhal pÃ¸elud
-Dire Charm - SilnÃ¡ nÃ¡klonnost (StraÅ¡livÃ© oÃ¨arovÃ¡nÃ­)
+Clairvoyance - Jasnozøivost
+Detect Illusion - Odhal pøelud
+Dire Charm - Silná náklonnost (Strašlivé oèarování)
 Dispel Magic - Rozptyl magii
-Fireball - OhnivÃ¡ koule
-Flame Arrow - OhnivÃ½ Å¡Ã­p
-Ghost Armor - PÃ¸Ã­zraÃ¨nÃ¡ zbroj (StÃ­novÃ¡ zbroj)
-Haste - SpÃ¬ch
-Hold Person - DrÅ¾ osobu (SvaÅ¾ postavu)
-Hold Undead - DrÅ¾ nemrtvÃ©ho (SvaÅ¾ nemrtvÃ©ho)
-Invisibility 10â€™ radius - Neviditelnost, polomÃ¬r 3 m
+Fireball - Ohnivá koule
+Flame Arrow - Ohnivı šíp
+Ghost Armor - Pøízraèná zbroj (Stínová zbroj)
+Haste - Spìch
+Hold Person - Dr osobu (Sva postavu)
+Hold Undead - Dr nemrtvého (Sva nemrtvého)
+Invisibility 10' radius - Neviditelnost, polomìr 3 m
 Lightning Bolt - Blesk
-Melfâ€™s Minute Meteors - Melfovy drobnÃ© meteory
-Minor Spell Deflection - SlabÅ¡Ã­ odraÅ¾enÃ­ kouzla (MenÅ¡Ã­ odraÅ¾enÃ­ kouzla)
-Monster Summoning I - PovolÃ¡vÃ¡nÃ­ pÃ¸Ã­Å¡er I (PÃ¸ivolÃ¡vÃ¡nÃ­ nestvÃ¹r I)
+Melf's Minute Meteors - Melfovy drobné meteory
+Minor Spell Deflection - Slabší odraení kouzla (Menší odraení kouzla)
+Monster Summoning I - Povolávání pøíšer I (Pøivolávání nestvùr I)
 Non-detection - Nezjistitelnost
-Protection From Cold - Ochrana pÃ¸ed chladem
-Protection From Fire - Ochrana pÃ¸ed ohnÃ¬m
-Protection from Normal Missiles - Ochrana pÃ¸ed normÃ¡lnÃ­mi stÃ¸elami
-Remove Magic - OdstraÃ² magii
-Skull Trap - Past lebka (NastraÅ¾ lebku)
-Slow - ZpomalenÃ­ (Zpomal)
+Protection From Cold - Ochrana pøed chladem
+Protection From Fire - Ochrana pøed ohnìm
+Protection from Normal Missiles - Ochrana pøed normálními støelami
+Remove Magic - Odstraò magii
+Skull Trap - Past lebka (Nastra lebku)
+Slow - Zpomalení (Zpomal)
 Spell Thrust - Sejmi kouzlo
-Vampiric Touch - UpÃ­Ã¸Ã­ dotyk (Dotyk upÃ­ra)
+Vampiric Touch - Upíøí dotyk (Dotyk upíra)
 
 
-ÃºroveÃ² 4
+úroveò 4
 
-Confusion - Zmatek (ZmatenÃ­)
-Contagion - NÃ¡kaza
-Emotion: Hopelessness - Emoce: BeznadÃ¬j
-Enchanted Weapon - VyÃ¨aruj zbraÃ²
+Confusion - Zmatek (Zmatení)
+Contagion - Nákaza
+Emotion: Hopelessness - Emoce: Beznadìj
+Enchanted Weapon - Vyèaruj zbraò
 Farsight - Bystrozrakost (Dalekozrakost)
-Fireshield (Blue) - OhnivÃ½ Å¡tÃ­t (ModrÃ½)
-Fireshield (Red) - OhnivÃ½ Å¡tÃ­t (ÃˆervenÃ½)
-Greater Malison - NepÃ¸Ã­jemnosti (VelkÃ¡ zloba)
-Ice Storm - LedovÃ¡ bouÃ¸e
-Improved Invisibility - VylepÅ¡enÃ¡ neviditelnost (ZdokonalenÃ¡ neviditelnost)
-Minor Globe of Invulnerability - MenÅ¡Ã­ koule nezranitelnosti
-Minor Sequencer - SlabÅ¡Ã­ poÃ¸adaÃ¨ kouzel (MenÅ¡Ã­ poÃ¸adaÃ¨)
-Monster Summoning II - PovolÃ¡vÃ¡nÃ­ pÃ¸Ã­Å¡er II (PÃ¸ivolÃ¡vÃ¡nÃ­ nestvÃ¹r II)
-Otilukeâ€™s Resilient Sphere - Otilukova nezdolnÃ¡ koule
-Polymorph Other - PromÃ¬Ã² jinÃ© (ZmÃ¬Ã² jinÃ©)
-Polymorph Self - PromÃ¬Ã² sebe (ZmÃ¬Ã² sebe)
-Remove Curse - ZruÅ¡ kletbu (Sejmi kletbu)
-Secret Word - TajnÃ© slovo
-Spider Spawn - PavouÃ¨Ã­ zÃ¡rodek
-Spirit Armor - DuÅ¡evnÃ­ zbroj (Zbroj duchÃ¹)
-Stoneskin - KamennÃ¡ kÃ¹Å¾e
-Teleport Field - TeleportaÃ¨nÃ­ pole
-Wizard Eye - ÃˆarodÃ¬jovo oko (Oko kouzelnÃ­ka)
+Fireshield (Blue) - Ohnivı štít (Modrı)
+Fireshield (Red) - Ohnivı štít (Èervenı)
+Greater Malison - Nepøíjemnosti (Velká zloba)
+Ice Storm - Ledová bouøe
+Improved Invisibility - Vylepšená neviditelnost (Zdokonalená neviditelnost)
+Minor Globe of Invulnerability - Menší koule nezranitelnosti
+Minor Sequencer - Slabší poøadaè kouzel (Menší poøadaè)
+Monster Summoning II - Povolávání pøíšer II (Pøivolávání nestvùr II)
+Otiluke's Resilient Sphere - Otilukova nezdolná koule
+Polymorph Other - Promìò jiné (Zmìò jiné)
+Polymorph Self - Promìò sebe (Zmìò sebe)
+Remove Curse - Zruš kletbu (Sejmi kletbu)
+Secret Word - Tajné slovo
+Spider Spawn - Pavouèí zárodek
+Spirit Armor - Duševní zbroj (Zbroj duchù)
+Stoneskin - Kamenná kùe
+Teleport Field - Teleportaèní pole
+Wizard Eye - Èarodìjovo oko (Oko kouzelníka)
 
 
-ÃºroveÃ² 5
+úroveò 5
 
-Animate Dead - OÅ¾iv nemrtvÃ© (OÅ¾ivlÃ¡ smrt)
+Animate Dead - Oiv nemrtvé (Oivlá smrt)
 Breach - Zlom
 Chaos 
-Cloudkill - SmrtÃ­cÃ­ mrak (VraÅ¾ednÃ½ mrak)
-Cone of Cold - KuÅ¾el mrazu (KuÅ¾el chladu)
-Conjure Lesser Air Elemental - Vyvolej slabÅ¡Ã­ho vzduÅ¡nÃ©ho elementÃ¡la (VyvolÃ¡nÃ­ slabÅ¡Ã­ho elementÃ¡la vzduchu)
-Conjure Lesser Earth Elemental - Vyvolej slabÅ¡Ã­ho elementÃ¡la zemÃ¬ (VyvolÃ¡nÃ­ slabÅ¡Ã­ho elementÃ¡la zemÃ¬)
-Conjure Lesser Fire Elemental - Vyvolej slabÅ¡Ã­ho ohnivÃ©ho elementÃ¡la (VyvolÃ¡nÃ­ slabÅ¡Ã­ho elementÃ¡la ohnÃ¬)
-Domination - OvlÃ¡dnutÃ­ (NadvlÃ¡da)
+Cloudkill - Smrtící mrak (Vraednı mrak)
+Cone of Cold - Kuel mrazu (Kuel chladu)
+Conjure Lesser Air Elemental - Vyvolej slabšího vzdušného elementála (Vyvolání slabšího elementála vzduchu)
+Conjure Lesser Earth Elemental - Vyvolej slabšího elementála zemì (Vyvolání slabšího elementála zemì)
+Conjure Lesser Fire Elemental - Vyvolej slabšího ohnivého elementála (Vyvolání slabšího elementála ohnì)
+Domination - Ovládnutí (Nadvláda)
 Feeblemind - Slabomyslnost
-Hold Monster - DrÅ¾ pÃ¸Ã­Å¡eru (SvaÅ¾ nestvÃ¹ru)
+Hold Monster - Dr pøíšeru (Sva nestvùru)
 Lower Resistance - Zeslab odolnost
-Minor Spell Turning - SlabÅ¡Ã­ odvracenÃ­ kouzla (MenÅ¡Ã­ odvracenÃ­ kouzla)
-Monster Summoning III - PovolÃ¡vÃ¡nÃ­ pÃ¸Ã­Å¡er III (PÃ¸ivolÃ¡vÃ¡nÃ­ nestvÃ¹r III)
-Oracle - VÃ¬Å¡tÃ­rna
-Phantom Blade - StÃ­novÃ½ meÃ¨
-Protection From Acid - Ochrana pÃ¸ed kyselinou
-Protection From Electricity - Ochrana pÃ¸ed elektÃ¸inou
-Protection from Normal Weapons - Ochrana pÃ¸ed normÃ¡lnÃ­mi zbranÃ¬mi
-Shadow Door - StÃ­novÃ© dveÃ¸e (NastiÃ² dveÃ¸e)
+Minor Spell Turning - Slabší odvracení kouzla (Menší odvracení kouzla)
+Monster Summoning III - Povolávání pøíšer III (Pøivolávání nestvùr III)
+Oracle - Vìštírna
+Phantom Blade - Stínovı meè
+Protection From Acid - Ochrana pøed kyselinou
+Protection From Electricity - Ochrana pøed elektøinou
+Protection from Normal Weapons - Ochrana pøed normálními zbranìmi
+Shadow Door - Stínové dveøe (Nastiò dveøe)
 Spell Immunity - Odolnost proti kouzlu
-Spell Shield - KouzelnÃ½ Å¡tÃ­t
-Sunfire - SluneÃ¨nÃ­ Å¾Ã¡r
+Spell Shield - Kouzelnı štít
+Sunfire - Sluneèní ár
 
 
-ÃºroveÃ² 6
+úroveò 6
 
-Carrion Summons - Povolej mrchoÅ¾routa (PÃ¸ivolej Ã¨erva)
-Chain Lightning - Ã˜etÃ¬zovÃ½ blesk
-Conjure Air Elemental - Vyvolej vzduÅ¡nÃ©ho elementÃ¡la (VyvolÃ¡nÃ­ elementÃ¡la vzduchu)
-Conjure Earth Elemental - Vyvolej elementÃ¡la zemÃ¬ (VyvolÃ¡nÃ­ elementÃ¡la zemÃ¬)
-Conjure Fire Elemental - Vyvolej ohnivÃ©ho elementÃ¡la (VyvolÃ¡nÃ­ elementÃ¡la ohnÃ¬)
+Carrion Summons - Povolej mrchorouta (Pøivolej èerva)
+Chain Lightning - Øetìzovı blesk
+Conjure Air Elemental - Vyvolej vzdušného elementála (Vyvolání elementála vzduchu)
+Conjure Earth Elemental - Vyvolej elementála zemì (Vyvolání elementála zemì)
+Conjure Fire Elemental - Vyvolej ohnivého elementála (Vyvolání elementála ohnì)
 Contingency - Eventualita
-Death Fog - SmrtÃ­cÃ­ mlha
+Death Fog - Smrtící mlha
 Death Spell - Kouzlo smrti
-Disintegrate - RozloÅ¾enÃ­
-Flesh to Stone - Maso na kÃ¡men
+Disintegrate - Rozloení
+Flesh to Stone - Maso na kámen
 Globe of Invulnerability - Koule nezranitelnosti
-Improved Haste - ZdokonalenÃ½ spÃ¬ch
-Invisible Stalker - NeviditelnÃ½ stopaÃ¸
-Mislead - Spleï¿½
-Pierce Magic - ProraÅ¾ kouzlo (MagickÃ½ prÃ¹nik)
-Power Word Silence - MocnÃ© slovo: Ticho
-Protection From Magic Energy - Ochrana pÃ¸ed magickou energiÃ­
-Protection from Magical Weapons - Ochrana pÃ¸ed magickÃ½mi zbranÃ¬mi
-Spell Deflection - OdraÅ¾enÃ­ kouzla
-Stone to Flesh - KÃ¡men na maso
-Summon Nishruu - PÃ¸ivolej Nishruu
-Tenserâ€™s Transformation - Tenserova pÃ¸emÃ¬na
-True Sight - PravdivÃ© vidÃ¬nÃ­ (SkuteÃ¨nÃ© vidÃ¬nÃ­)
+Improved Haste - Zdokonalenı spìch
+Invisible Stalker - Neviditelnı stopaø
+Mislead - Sple
+Pierce Magic - Prora kouzlo (Magickı prùnik)
+Power Word Silence - Mocné slovo: Ticho
+Protection From Magic Energy - Ochrana pøed magickou energií
+Protection from Magical Weapons - Ochrana pøed magickımi zbranìmi
+Spell Deflection - Odraení kouzla
+Stone to Flesh - Kámen na maso
+Summon Nishruu - Pøivolej Nishruu
+Tenser's Transformation - Tenserova pøemìna
+True Sight - Pravdivé vidìní (Skuteèné vidìní)
 Wyvern Call - Povolej wyverna
 
 
-ÃºroveÃ² 7
+úroveò 7
 
-Cacofiend - KakodÃ©mon
-Control Undead - OvlÃ¡dni nemrtvÃ©ho
-Delayed Blast Fireball - ZpoÅ¾dÃ¬nÃ¡ vÃ½buÅ¡nÃ¡ koule (NekontaktnÃ­ vÃ½buÅ¡nÃ¡ ohnivÃ¡ koule)
+Cacofiend - Kakodémon
+Control Undead - Ovládni nemrtvého
+Delayed Blast Fireball - Zpodìná vıbušná koule (Nekontaktní vıbušná ohnivá koule)
 Finger of Death - Prst smrti
-Improved Chaos Shield - VylepÅ¡enÃ½ chaotickÃ½ Å¡tÃ­t
-Limited Wish - OmezenÃ© pÃ¸Ã¡nÃ­
-Mantle - PlÃ¡Å¡ï¿½
-Mass Invisibility - HromadnÃ¡ neviditelnost
-Mordenkainenâ€™s Sword - MordenkainenÃ¹v meÃ¨
-Power Word, Stun - MocnÃ© slovo: OmraÃ¨
-Prismatic Spray - DuhovÃ¡ sprÅ¡ka (DuhovÃ½ sprej)
-Project Image - VytvoÃ¸ obraz
-Protection from the Elements - Ochrana pÃ¸ed elementy (Ochrana pÃ¸ed elementÃ¡ly)
-Ruby Ray of Reversal - ZpÃ¬tnÃ½ rubÃ­novÃ½ paprsek
-Spell Sequencer - PoÃ¸adaÃ¨ kouzel (KouzelnÃ½ poÃ¸adaÃ¨)
-Spell Turning - OdvracenÃ­ kouzla
+Improved Chaos Shield - Vylepšenı chaotickı štít
+Limited Wish - Omezené pøání
+Mantle - Pláš
+Mass Invisibility - Hromadná neviditelnost
+Mordenkainen's Sword - Mordenkainenùv meè
+Power Word, Stun - Mocné slovo: Omraè
+Prismatic Spray - Duhová sprška (Duhovı sprej)
+Project Image - Vytvoø obraz
+Protection from the Elements - Ochrana pøed elementy (Ochrana pøed elementály)
+Ruby Ray of Reversal - Zpìtnı rubínovı paprsek
+Spell Sequencer - Poøadaè kouzel (Kouzelnı poøadaè)
+Spell Turning - Odvracení kouzla
 Sphere of Chaos - Koule chaosu
-Summon Djinni - PÃ¸ivolej dÅ¾ina
-Summon Efreeti - PÃ¸ivolej ifrÃ­ta
-Summon Hakeashar - PÃ¸ivolej Hakeashara
-Khelbenâ€™s Warding Whip - KhelbenÃ¹v obrannÃ½ Å¡leh
+Summon Djinni - Pøivolej dina
+Summon Efreeti - Pøivolej ifríta
+Summon Hakeashar - Pøivolej Hakeashara
+Khelben's Warding Whip - Khelbenùv obrannı šleh
 
 
-ÃºroveÃ² 8
+úroveò 8
 
-Abi-Dalzimâ€™s Horrid Wilting - StraÅ¡livÃ© vadnutÃ­ Abi-Dalzima
-Bigby's Clenched Fist - Bigbyho sevÃ¸enÃ¡ pÃ¬st
-Improved Mantle - ZdokonalenÃ½ plÃ¡Å¡ï¿½
-Incendiary Cloud - ZÃ¡palnÃ½ mrak
+Abi-Dalzim's Horrid Wilting - Strašlivé vadnutí Abi-Dalzima
+Bigby's Clenched Fist - Bigbyho sevøená pìst
+Improved Mantle - Zdokonalenı pláš
+Incendiary Cloud - Zápalnı mrak
 Maze - Labyrint
-Pierce Shield - Pronikni Å¡tÃ­tem
-Power Word Blind - MocnÃ© slovo: Oslep
-Protection from Energy - Ochrana pÃ¸ed energiÃ­
-Simulacrum - DvojnÃ­k
-Spell Trigger - KouzelnÃ¡ spouÅ¡ï¿½
-Summon Fiend - PÃ¸ivolej dÃ©mona
+Pierce Shield - Pronikni štítem
+Power Word Blind - Mocné slovo: Oslep
+Protection from Energy - Ochrana pøed energií
+Simulacrum - Dvojník
+Spell Trigger - Kouzelná spouš
+Summon Fiend - Pøivolej démona
 Symbol, Death - Symbol, Smrt
 Symbol, Fear - Symbol, Strach
-Symbol, Stun - Symbol, OmraÃ¨
+Symbol, Stun - Symbol, Omraè
 
 
-ÃºroveÃ² 9
+úroveò 9
 
-Absolute Immunity - AbsolutnÃ­ odolnost
-Bigby's Crushing Hand - Bigbyho drtÃ­cÃ­ ruka
-Black Blade of Disaster - ÃˆernÃ½ meÃ¨ katastrof
-Chain Contingency - Ã˜etÃ¬zovÃ¡ eventualita
-Energy Drain - VysÃ¡tÃ­ energie (Vysaj energii)
+Absolute Immunity - Absolutní odolnost
+Bigby's Crushing Hand - Bigbyho drtící ruka
+Black Blade of Disaster - Èernı meè katastrof
+Chain Contingency - Øetìzová eventualita
+Energy Drain - Vysátí energie (Vysaj energii)
 Freedom - Svoboda
-Gate - BrÃ¡na
-Imprisonment - UvÃ¬znÃ¬nÃ­
-Meteor Swarm - MeteorickÃ½ roj
-Power Word, Kill - MocnÃ© slovo: Zabij
-Shapechange - PromÃ¬na (ZmÃ¬Ã² tvar)
-Spellstrike - KouzelnÃ½ Ãºder
-Spell Trap - Past na kouzla (KouzelnÃ¡ past)
-Time Stop - Zastav Ã¨as
-Wail of the Banshee - KvÃ­lenÃ­ bÃ¡nÅ¡Ã­ (KvÃ­lenÃ­ Banshee)
-Wish - PÃ¸Ã¡nÃ­
+Gate - Brána
+Imprisonment - Uvìznìní
+Meteor Swarm - Meteorickı roj
+Power Word, Kill - Mocné slovo: Zabij
+Shapechange - Promìna (Zmìò tvar)
+Spellstrike - Kouzelnı úder
+Spell Trap - Past na kouzla (Kouzelná past)
+Time Stop - Zastav èas
+Wail of the Banshee - Kvílení bánší (Kvílení Banshee)
+Wish - Pøání
 
 
-ÃºroveÃ² 10
+úroveò 10
 Comet - Kometa
-Dragon's Breath - DraÃ¨Ã­ dech
-Energy Blades - EnergetickÃ© Ã¨epele
-Improved Alacrity - VylepÅ¡enÃ¡ hbitost
-Summon Dark Planetar - Povolej TemnÃ©ho Planetara
+Dragon's Breath - Draèí dech
+Energy Blades - Energetické èepele
+Improved Alacrity - Vylepšená hbitost
+Summon Dark Planetar - Povolej Temného Planetara
 Summon Planetar - Povolej Planetara
 
 
-KNÃŒZ
-ÃºroveÃ² 1
+KNÌZ
+úroveò 1
 
-Armor of Faith - BrnÃ¬nÃ­ vÃ­ry
-Bless - PoÅ¾ehnÃ¡nÃ­ (PoÅ¾ehnej)
-Command Word: Die - PÃ¸Ã­kaz: Usni
-Cure Light Wounds - VyleÃ¨ lehkÃ¡ zranÃ¬nÃ­ (Uzdrav lehkÃ¡ zranÃ¬nÃ­)
+Armor of Faith - Brnìní víry
+Bless - Poehnání (Poehnej)
+Command Word: Die - Pøíkaz: Usni
+Cure Light Wounds - Vyleè lehká zranìní (Uzdrav lehká zranìní)
 Detect Evil - Najdi zlo (Odhal zlo)
-Doom - ZÃ¡huba
-Entangle - ZapletenÃ­ (Zapleï¿½)
-Magical Stone - MagickÃ½ kÃ¡men (KouzelnÃ½ kÃ¡men)
-Protection from Evil - Ochrana pÃ¸ed zlem (OchraÃ² pÃ¸ed zlem)
-Remove Fear - OdstraÃ² strach (Zbav strachu)
-Sanctuary - ÃštoÃ¨iÅ¡tÃ¬ (SvatynÃ¬)
+Doom - Záhuba
+Entangle - Zapletení (Zaple)
+Magical Stone - Magickı kámen (Kouzelnı kámen)
+Protection from Evil - Ochrana pøed zlem (Ochraò pøed zlem)
+Remove Fear - Odstraò strach (Zbav strachu)
+Sanctuary - Útoèištì (Svatynì)
 Shillelagh - Sukovice
 
 
-ÃºroveÃ² 2
+úroveò 2
 
-Aid - PosÃ­lenÃ­ (PomoÅ¾)
-Barkskin - KÃ¹ra (KÃ¹Å¾e z kÃ¹ry)
-Chant - Å½alm (LiturgickÃ½ zpÃ¬v)
-Charm Person or Mammal - Zmam osobu nebo savce (OÃ¨aruj osobu nebo savce)
-Draw Upon Holy Might - PosÃ­lenÃ­ svatou mocÃ­ (Ãˆerpej posvÃ¡tnou moc)
+Aid - Posílení (Pomo)
+Barkskin - Kùra (Kùe z kùry)
+Chant - alm (Liturgickı zpìv)
+Charm Person or Mammal - Zmam osobu nebo savce (Oèaruj osobu nebo savce)
+Draw Upon Holy Might - Posílení svatou mocí (Èerpej posvátnou moc)
 Find Traps - Najdi pasti
-Flame Blade - PlamennÃ¡ Ã¨epel (OhnivÃ½ meÃ¨)
-Goodberry - Bobulky (DobrÃ© bobule)
-Hold Person - DrÅ¾ osobu (SvaÅ¾ postavu)
-Know Alignment - Poznej pÃ¸esvÃ¬dÃ¨enÃ­ (UrÃ¨i pÃ¸esvÃ¬dÃ¨enÃ­)
+Flame Blade - Plamenná èepel (Ohnivı meè)
+Goodberry - Bobulky (Dobré bobule)
+Hold Person - Dr osobu (Sva postavu)
+Know Alignment - Poznej pøesvìdèení (Urèi pøesvìdèení)
 Resist Fire and Cold - Odolej ohni a mrazu (Odolej ohni a chladu)
-Silence, 15â€™ Radius - Ticho, polomÃ¬r 5 m (Ticho, 15' kolem)
+Silence, 15' Radius - Ticho, polomìr 5 m (Ticho, 15' kolem)
 Slow Poison - Zpomal jed (Zpomal otravu)
-Spiritual Hammer - DuchovnÃ­ kladivo
+Spiritual Hammer - Duchovní kladivo
 
 
-ÃºroveÃ² 3
+úroveò 3
 
-Animate Dead - OÅ¾iv nemrtvÃ© (OÅ¾ivlÃ¡ smrt)
-Call Lightning - PÃ¸ivolej blesk (SeÅ¡li blesk)
-Cure Disease - Uzdrav nemocnÃ©ho
-Cure Medium Wounds - VyleÃ¨ stÃ¸ednÃ­ zranÃ¬nÃ­ (Uzdrav stÃ¸ednÃ­ zranÃ¬nÃ­)
+Animate Dead - Oiv nemrtvé (Oivlá smrt)
+Call Lightning - Pøivolej blesk (Sešli blesk)
+Cure Disease - Uzdrav nemocného
+Cure Medium Wounds - Vyleè støední zranìní (Uzdrav støední zranìní)
 Dispel Magic - Rozptyl magii
-Glyph of Warding - Runa ochrany (OchrannÃ¡ runa)
-Hold Animal - DrÅ¾ zvÃ­Ã¸e (SvaÅ¾ zvÃ­Ã¸e)
-Holy Smite - SvatÃ½ Ãºder
-Invisibility Purge - ZruÅ¡enÃ­ neviditelnosti (VyÃ¨isti neviditelnost)
-Miscast Magic - NaruÅ¡enÃ­ magie (PoÅ¡koÃ¯ magii)
-Protection from Fire - Ochrana pÃ¸ed ohnÃ¬m (OchraÃ² pÃ¸ed ohnÃ¬m)
-Remove Curse - ZruÅ¡ kletbu (Sejmi kletbu)
-Remove Paralysis - OdstraÃ² ochromenÃ­
-Rigid Thinking - OtupÃ¬lÃ¡ mysl (StrnulÃ© myÅ¡lenÃ­)
-Strength of One - SÃ­la Jednoho
-Summon Insects - Povolej hmyz (PÃ¸ivolej hmyz)
-Unholy Blight - BezboÅ¾nÃ¡ zkÃ¡za
-Zone of Sweet Air - Oblast Ã¨erstvÃ©ho vzduchu (ZÃ³na pÃ¸Ã­jemnÃ©ho vzduchu)
+Glyph of Warding - Runa ochrany (Ochranná runa)
+Hold Animal - Dr zvíøe (Sva zvíøe)
+Holy Smite - Svatı úder
+Invisibility Purge - Zrušení neviditelnosti (Vyèisti neviditelnost)
+Miscast Magic - Narušení magie (Poškoï magii)
+Protection from Fire - Ochrana pøed ohnìm (Ochraò pøed ohnìm)
+Remove Curse - Zruš kletbu (Sejmi kletbu)
+Remove Paralysis - Odstraò ochromení
+Rigid Thinking - Otupìlá mysl (Strnulé myšlení)
+Strength of One - Síla Jednoho
+Summon Insects - Povolej hmyz (Pøivolej hmyz)
+Unholy Blight - Bezboná zkáza
+Zone of Sweet Air - Oblast èerstvého vzduchu (Zóna pøíjemného vzduchu)
 
 
-ÃºroveÃ² 4
+úroveò 4
 
-Animal Summoning I - PovolÃ¡vÃ¡nÃ­ zvÃ­Ã¸at I (PÃ¸ivolÃ¡nÃ­ zvÃ­Ã¸at I)
-Call Woodland Beings - Vyvolej lesnÃ­ bytost
-Cause Serious Wounds - ZpÃ¹sob tÃ¬Å¾kÃ¡ zranÃ¬nÃ­ 
-Cloak of Fear - PlÃ¡Å¡ï¿½ strachu
-Cure Serious Wounds - VyleÃ¨ tÃ¬Å¾kÃ¡ zranÃ¬nÃ­ (Uzdrav tÃ¬Å¾kÃ¡ zranÃ¬nÃ­)
+Animal Summoning I - Povolávání zvíøat I (Pøivolání zvíøat I)
+Call Woodland Beings - Vyvolej lesní bytost
+Cause Serious Wounds - Zpùsob tìká zranìní 
+Cloak of Fear - Pláš strachu
+Cure Serious Wounds - Vyleè tìká zranìní (Uzdrav tìká zranìní)
 Death Ward - Odraz smrt
-Defensive Harmony - ObrannÃ¡ harmonie (ObrannÃ¡ svornost)
+Defensive Harmony - Obranná harmonie (Obranná svornost)
 Farsight - Dalekozrakost
-Free Action - VolnÃ¡ akce (Uvolni)
-Holy Power - SvatÃ¡ sÃ­la
-Lesser Restoration - SlabÅ¡Ã­ obnova (MenÅ¡Ã­ obnova)
-Mental Domination - DuÅ¡evnÃ­ ovlÃ¡dnutÃ­ (DuÅ¡evnÃ­ nadvlÃ¡da)
-Negative Plane Protection - Ochrana pÃ¸ed negativnÃ­ sfÃ©rou (OchraÃ² pÃ¸ed negativnÃ­ dimenzÃ­)
+Free Action - Volná akce (Uvolni)
+Holy Power - Svatá síla
+Lesser Restoration - Slabší obnova (Menší obnova)
+Mental Domination - Duševní ovládnutí (Duševní nadvláda)
+Negative Plane Protection - Ochrana pøed negativní sférou (Ochraò pøed negativní dimenzí)
 Neutralize Poison - Neutralizuj jed
 Poison - Otrav
-Protection From Evil 10â€™ Radius - Ochrana pÃ¸ed zlem, polomÃ¬r 3 m (OchraÃ² pÃ¸ed zlem v okruhu 10')
-Protection From Lightning - Ochrana pÃ¸ed bleskem (OchraÃ² pÃ¸ed bleskem)
+Protection From Evil 10' Radius - Ochrana pøed zlem, polomìr 3 m (Ochraò pøed zlem v okruhu 10')
+Protection From Lightning - Ochrana pøed bleskem (Ochraò pøed bleskem)
 
 
-ÃºroveÃ² 5
+úroveò 5
 
-Animal Summoning II - PovolÃ¡vÃ¡nÃ­ zvÃ­Ã¸at II (PÃ¸ivolÃ¡nÃ­ zvÃ­Ã¸at I)
-Cause Critical Wounds - ZpÃ¹sob kritickÃ¡ zranÃ¬nÃ­
-Chaotic Commands - ZmatenÃ© pÃ¸Ã­kazy
-Cure Critical Wounds - VyleÃ¨ kritickÃ¡ zranÃ¬nÃ­ (Uzdrav kritickÃ¡ zranÃ¬nÃ­)
-Championâ€™s Strength - HrdinskÃ¡ sÃ­la (SÃ­la Å¡ampiÃ³na)
-Flame Strike - PlamennÃ½ Ãºder (PlamennÃ½ Ãºtok)
-Greater Command - VÃ¬tÅ¡Ã­ pÃ¸Ã­kaz
+Animal Summoning II - Povolávání zvíøat II (Pøivolání zvíøat I)
+Cause Critical Wounds - Zpùsob kritická zranìní
+Chaotic Commands - Zmatené pøíkazy
+Cure Critical Wounds - Vyleè kritická zranìní (Uzdrav kritická zranìní)
+Champion's Strength - Hrdinská síla (Síla šampióna)
+Flame Strike - Plamennı úder (Plamennı útok)
+Greater Command - Vìtší pøíkaz
 Insect Plague - Epidemie hmyzu
-Iron Skins - Å½eleznÃ¡ kÃ¹Å¾e
+Iron Skins - elezná kùe
 Magic Resistance - Odolnost proti magii
-Mass Cure - HromadnÃ© lÃ©Ã¨enÃ­
-Pixie Dust - Prach skÃ¸Ã­tkÃ¹
-Raise Dead - OÅ¾iv mrtvÃ©ho
-Repulse Undead - Odraz nemrtvÃ©ho
-Righteous Magic - SpravedlivÃ¡ magie
-Slay Living - Zabij Å¾ivÃ©
-True Seeing - PravdivÃ© vidÃ¬nÃ­ (SkuteÃ¨nÃ© vidÃ¬nÃ­)
+Mass Cure - Hromadné léèení
+Pixie Dust - Prach skøítkù
+Raise Dead - Oiv mrtvého
+Repulse Undead - Odraz nemrtvého
+Righteous Magic - Spravedlivá magie
+Slay Living - Zabij ivé
+True Seeing - Pravdivé vidìní (Skuteèné vidìní)
 
 
-ÃºroveÃ² 6
+úroveò 6
 
-Aerial Servant - VzduÅ¡nÃ½ sluha (VzduÅ¡nÃ½ sluÅ¾ebnÃ­k)
-Animal Summoning III - PovolÃ¡vÃ¡nÃ­ zvÃ­Ã¸at III (PÃ¸ivolÃ¡nÃ­ zvÃ­Ã¸at I)
-Blade Barrier - Hradba meÃ¨Ã¹ (PÃ¸ehrada z meÃ¨Ã¹)
-Bolt of Glory - Blesk slÃ¡vy
-Conjure Animals - Vyvolej zvÃ­Ã¸ata
-Conjure Fire Elemental - Vyvolej ohnivÃ©ho elementÃ¡la (VyvolÃ¡nÃ­ elementÃ¡la ohnÃ¬)
-Dolorous Decay - BolestivÃ¡ hniloba
-False Dawn - FaleÅ¡nÃ© svÃ­tÃ¡nÃ­
-Fire Seeds - Å½havÃ© uhlÃ­ky (Semena ohnÃ¬)
-Harm - ZraÃ²
+Aerial Servant - Vzdušnı sluha (Vzdušnı sluebník)
+Animal Summoning III - Povolávání zvíøat III (Pøivolání zvíøat I)
+Blade Barrier - Hradba meèù (Pøehrada z meèù)
+Bolt of Glory - Blesk slávy
+Conjure Animals - Vyvolej zvíøata
+Conjure Fire Elemental - Vyvolej ohnivého elementála (Vyvolání elementála ohnì)
+Dolorous Decay - Bolestivá hniloba
+False Dawn - Falešné svítání
+Fire Seeds - havé uhlíky (Semena ohnì)
+Harm - Zraò
 Heal - Uzdrav
-Physical Mirror - FyzickÃ© zrcadlo
-Solâ€™s Searing Orb - SolÃ¹v Å¾havÃ½ kÃ¡men (SolÃ¹v Å¾havÃ½ orb)
-Wondrous Recall - BÃ¡jeÃ¨nÃ¡ vzpomÃ­nka
+Physical Mirror - Fyzické zrcadlo
+Sol's Searing Orb - Solùv havı kámen (Solùv havı orb)
+Wondrous Recall - Bájeèná vzpomínka
 
 
-ÃºroveÃ² 7
+úroveò 7
 
-Confusion - Zmatek (ZmatenÃ­)
-Conjure Earth Elemental - Vyvolej elementÃ¡la zemÃ¬ (VyvolÃ¡nÃ­ elementÃ¡la zemÃ¬)
-Creeping Doom - PlÃ­Å¾ivÃ¡ zÃ¡huba
-Earthquake - ZemÃ¬tÃ¸esenÃ­
+Confusion - Zmatek (Zmatení)
+Conjure Earth Elemental - Vyvolej elementála zemì (Vyvolání elementála zemì)
+Creeping Doom - Plíivá záhuba
+Earthquake - Zemìtøesení
 Finger of Death - Prst smrti
-Fire Storm - OhnivÃ¡ bouÃ¸e
-Gate - BrÃ¡na
-Holy Word - SvatÃ© slovo
-Natureâ€™s Beauty - KrÃ¡ska (Krasavice)
-Greater Restoration - SilnÃ¬jÅ¡Ã­ obnova (VÃ¬tÅ¡Ã­ obnova)
-Resurrection - VzkÃ¸Ã­Å¡enÃ­
-Shield of the Archons - Å tÃ­t ArchonÃ¹
-Sunray - SluneÃ¨nÃ­ paprsek
-Symbol, Stun - Symbol, OmraÃ¨
+Fire Storm - Ohnivá bouøe
+Gate - Brána
+Holy Word - Svaté slovo
+Nature's Beauty - Kráska (Krasavice)
+Greater Restoration - Silnìjší obnova (Vìtší obnova)
+Resurrection - Vzkøíšení
+Shield of the Archons - Štít Archonù
+Sunray - Sluneèní paprsek
+Symbol, Stun - Symbol, Omraè
 Symbol, Death - Symbol, Smrt
 Symbol, Fear - Symbol, Strach
-Unholy Word - BezboÅ¾nÃ© slovo
+Unholy Word - Bezboné slovo
 
 
-ÃºroveÃ²: za zÃ¡sluhy
+úroveò: za zásluhy
 
-Aura of Flaming Death - Aura plamennÃ© smrti
-Elemental Summoning - PovolÃ¡vÃ¡nÃ­ elementÃ¡lÃ¹
-Elemental Transformation (Earth) - PÃ¸emÃ¬na v elementÃ¡la (ZemÃ¬)
-Elemental Transformation (Fire) - PÃ¸emÃ¬na v elementÃ¡la (OheÃ²)
-Globe of Blades - Koule Ã¨epelÃ­
-Greater Elemental Summoning - SilnÃ¬jÅ¡Ã­ povolÃ¡vÃ¡nÃ­ elementÃ¡lÃ¹
-Implosion - PohlcenÃ­
-Mass Raise Dead - HromadnÃ© oÅ¾ivenÃ­ mrtvÃ½ch
+Aura of Flaming Death - Aura plamenné smrti
+Elemental Summoning - Povolávání elementálù
+Elemental Transformation (Earth) - Pøemìna v elementála (Zemì)
+Elemental Transformation (Fire) - Pøemìna v elementála (Oheò)
+Globe of Blades - Koule èepelí
+Greater Elemental Summoning - Silnìjší povolávání elementálù
+Implosion - Pohlcení
+Mass Raise Dead - Hromadné oivení mrtvıch
 Storm of Vengeance - Pomsta z nebes
 Summon Deva - Povolej Devu
 Summon Fallen Deva - Povolej padlou Devu
 
 
---= mÃ¬sta, vesnice, mÃ­sta =--
+--= mìsta, vesnice, místa =--
 
-Umar hills - UmaÃ¸ina vrchovina
-Imnesvale - ImneskÃ© ÃºdolÃ­
-Windspear Hills - VÃ¬trnÃ© vrÅ¡ky
+Umar hills - Umaøina vrchovina
+Imnesvale - Imneské údolí
+Windspear Hills - Vìtrné vršky
 Trademeet - Trhov
-Cloakwood - ZahalenÃ½ les
-Wood of Sharp Teeth - Les OstrÃ½ch zubÃ¹
-Cloudpeaks - MraÃ¨nÃ© vrchy
+Cloakwood - Zahalenı les
+Wood of Sharp Teeth - Les Ostrıch zubù
+Cloudpeaks - Mraèné vrchy
 Underdark - Podtemno
 Waterdeep - Hlubina
-Inner sea - VnitÃ¸nÃ­ moÃ¸e
-Forest of Tethir - TethirskÃ½ les
+Inner sea - Vnitøní moøe
+Forest of Tethir - Tethirskı les
 
-City o' Coin - MÃ¬sto MincÃ­
-Spellhold - Ãˆarotvrz
-Asylum - LeÃ¨ebna
-Lower tombs - SpodnÃ­ hrobky
+City o' Coin - Mìsto Mincí
+Spellhold - Èarotvrz
+Asylum - Leèebna
+Lower tombs - Spodní hrobky
 
 Bridge district - Most
-Docks district - PÃ¸Ã­stavnÃ­ Ã¨tvrï¿½
-Government District - VlÃ¡dnÃ­ Ã¨tvrï¿½
-Graveyard District - HÃ¸bitov
-Slums District - ChudinskÃ¡ Ã¨tvrï¿½
-Temple District - ChrÃ¡movÃ¡ Ã¨tvrï¿½
-Waukeen's Promenade - Waukeenina PromenÃ¡da
+Docks district - Pøístavní ètvr
+Government District - Vládní ètvr
+Graveyard District - Høbitov
+Slums District - Chudinská ètvr
+Temple District - Chrámová ètvr
+Waukeen's Promenade - Waukeenina Promenáda
 
-Friendly Arms - PÃ¸Ã¡telskÃ¡ nÃ¡ruÃ¨
-Candlekeep - SvÃ­tÃ­cÃ­ tvrz
-Baldur's Gate - Baldurova BrÃ¡na
-Sword Coast - MeÃ¨ovÃ© pobÃ¸eÅ¾Ã­
+Friendly Arms - Pøátelská náruè
+Candlekeep - Svítící tvrz
+Baldur's Gate - Baldurova Brána
+Sword Coast - Meèové pobøeí
 
-hospody, hostince a jinÃ© budovy:
+hospody, hostince a jiné budovy:
 
-Five Flagons - U PÃ¬ti dÅ¾bÃ¡nkÃ¹
-Copper Coronet - U MÃ¬dÃ¬nÃ© Ã¨elenky
-Adventurer's Mart - DobrodruhÃ¹v krÃ¡mek
-Sea's Bounty - MoÃ¸skÃ¡ Å¡tÃ¬drost
-Crooked Crane - U KÃ¸ivÃ©ho jeÃ¸Ã¡ba
-Lady Galvena's Parlor - Salon PanÃ­ Galveny
-Vulgar Monkey - U SprostÃ© opice
-Den of Seven vales - DoupÃ¬ sedmi zahalenÃ½ch
+Five Flagons - U Pìti dbánkù
+Copper Coronet - U Mìdìné èelenky
+Adventurer's Mart - Dobrodruhùv krámek
+Sea's Bounty - Moøská štìdrost
+Crooked Crane - U Køivého jeøába
+Lady Galvena's Parlor - Salon Paní Galveny
+Vulgar Monkey - U Sprosté opice
+Den of Seven vales - Doupì sedmi zahalenıch
 
-SdruÅ¾enÃ­, gildy, spolky:
+Sdruení, gildy, spolky:
 
-Cowled wizards - ZahalenÃ­ Ã¨arodÃ¬jovÃ©
-Night Knives - DÃ½ky noci
-Most Noble Order of the Radiant Heart - NejurozenÃ¬jÅ¡Ã­ Ã˜Ã¡d ZÃ¡Ã¸Ã­cÃ­ho srdce
-Council of Six - Rada Å¡esti
-Flaming Fist - OhnivÃ¡ pÃ¬st
-Iron Throne - Å½eleznÃ½ trÃ¹n
-Shadow Thieves - StÃ­novÃ­ zlodÃ¬ji
-Shadow Druids - StinovÃ­ druidovÃ©
-Zhents,Zhentarim - ZhentovÃ©, ZhentarimovÃ©
-Seven Suns - Sedm sluncÃ­
-Mechant League - KupeckÃ½ svaz
-Harpers - HarfenÃ­ci
-Harper Hold - Pevnost HarfenÃ­kÃ¹
-Sigil theatre troupe (group) - SigilskÃ¡ hereckÃ¡ skupina (spoleÃ¨nost)
-Enlightened Ones - OsvÃ­cenÃ­
-Cult of the Eyeless - Kult BezokÃ½ch
-Gibbering Twelve - DrmolÃ­cÃ­ dvanÃ¡ctka
+Cowled wizards - Zahalení èarodìjové
+Night Knives - Dıky noci
+Most Noble Order of the Radiant Heart - Nejurozenìjší Øád Záøícího srdce
+Council of Six - Rada šesti
+Flaming Fist - Ohnivá pìst
+Iron Throne - eleznı trùn
+Shadow Thieves - Stínoví zlodìji
+Shadow Druids - Stinoví druidové
+Zhents,Zhentarim - Zhentové, Zhentarimové
+Seven Suns - Sedm sluncí
+Mechant League - Kupeckı svaz
+Harpers - Harfeníci
+Harper Hold - Pevnost Harfeníkù
+Sigil theatre troupe (group) - Sigilská herecká skupina (spoleènost)
+Enlightened Ones - Osvícení
+Cult of the Eyeless - Kult Bezokıch
+Gibbering Twelve - Drmolící dvanáctka
 guild - gilda
-Avariel - AvarielovÃ©
+Avariel - Avarielové
 
-obecnÃ© termÃ­ny, hodnosti, dohodnutÃ© pÃ¸eklady:
+obecné termíny, hodnosti, dohodnuté pøeklady:
 
-fair folk - sliÃ¨nÃ½/uÅ¡lechtilÃ½ lid
+fair folk - sliènı/ušlechtilı lid
 rivvin - rivvin
 rivvil - rivvil
 dweomer - dweomer
 
-Magistrate - MagistrÃ¡t
+Magistrate - Magistrát
 
-Staff of Thunder and Lightning - HÃ¹l hromu a blesku
-Rhynn Lanthorn - RhynnskÃ¡ lampa
-plannar sphere - planÃ¡rnÃ­ koule
+Staff of Thunder and Lightning - Hùl hromu a blesku
+Rhynn Lanthorn - Rhynnská lampa
+plannar sphere - planární koule
 scimitar - scimitar
-Nether scroll - PodzemnÃ­ svitek
+Nether scroll - Podzemní svitek
 Tear of Bhaal - Bhaalova slza
-Jan Jansen's Flasher Master Bruiser - MistrovskÃ½ OslepovaÃ¨ RvÃ¡Ã¨Ã¹ Jana Jansena
-Volo's Guides - Volo'Ã¹v prÃ¹vodce
-Pit of the Faithless - JÃ¡ma NevÃ¬Ã¸Ã­cÃ­ch
-Mithril Token - MithrilovÃ½ Å¾eton
+Jan Jansen's Flasher Master Bruiser - Mistrovskı Oslepovaè Rváèù Jana Jansena
+Volo's Guides - Volo'ùv prùvodce
+Pit of the Faithless - Jáma Nevìøících
+Mithril Token - Mithrilovı eton
 cabin - srub
 
-Blackrazor - ÃˆernÃ¡ Ã¨epel
+Blackrazor - Èerná èepel
 
-Temple of the dawn - ChrÃ¡m Ãºsvitu
-Temple of the Watcher - ChrÃ¡m StrÃ¡Å¾ce
-Temple of the Stormlord - ChrÃ¡m PÃ¡na bouÃ¸Ã­
+Temple of the dawn - Chrám úsvitu
+Temple of the Watcher - Chrám Stráce
+Temple of the Stormlord - Chrám Pána bouøí
 
-Shadow altar - OltÃ¡Ã¸ stÃ­nÃ¹
-Shadow portal - PortÃ¡l stÃ­nÃ¹
-Shadow Lord - Lord stÃ­nÃ¹
+Shadow altar - Oltáø stínù
+Shadow portal - Portál stínù
+Shadow Lord - Lord stínù
 
-Time of Troubles - Doba nesnÃ¡zÃ­
-The Year of The Burning Sky - rok PlanoucÃ­ho nebe
-The Year of the Harvest of Scales - rok SkliznÃ¬ Å¡upin
-Scale - Å upina
-Seeker - PÃ¡traÃ¨
+Time of Troubles - Doba nesnází
+The Year of The Burning Sky - rok Planoucího nebe
+The Year of the Harvest of Scales - rok Skliznì šupin
+Scale - Šupina
+Seeker - Pátraè
 
 PLANESCAPE ODKAZY
-Plane - sfÃ©ra
+Plane - sféra
 tiefling - tiefling
-Doomguard - StrÃ¡Å¾ci zkÃ¡zy
-Plane of Air - SfÃ©ra vzduchu
-Primes (napr. obyvatelÃ© zakladni sfery) - ZÃ¡kladnÃ­ci
-Plane of Dust - SfÃ©ra prachu
-Quasi-Elemental Plane of Dust - Kvazi-elementÃ¡lnÃ­ SfÃ©ra prachu
-Planeswalker - PoutnÃ­k sfÃ©r
-Prime Material (plane) -  ZÃ¡kladnÃ­ materiÃ¡lnÃ­ (sfÃ©ra)
-Outer Planes - VnÃ¬jÅ¡Ã­ sfÃ©ry
+Doomguard - Stráci zkázy
+Plane of Air - Sféra vzduchu
+Primes (napr. obyvatelé zakladni sfery) - Základníci
+Plane of Dust - Sféra prachu
+Quasi-Elemental Plane of Dust - Kvazi-elementální Sféra prachu
+Planeswalker - Poutník sfér
+Prime Material (plane) -  Základní materiální (sféra)
+Outer Planes - Vnìjší sféry
 Abyss - Peklo
-Lady of Pain - PanÃ­ bolesti
-Blood War - VÃ¡lka krve
-Astral - AstrÃ¡lnÃ­ (sfÃ©ra)
-multiverse - mnohovesmÃ­r
+Lady of Pain - Paní bolesti
+Blood War - Válka krve
+Astral - Astrální (sféra)
+multiverse - mnohovesmír
 cambion - cambion
-Fated - OsudovÃ­
+Fated - Osudoví
 
---= rasy, povolÃ¡nÃ­ =--
+--= rasy, povolání =--
 
-dwarf - trpaslÃ­k
-halfling - pÃ¹lÃ¨Ã­k
-half-elf - pÃ¹l-elf
-half-orc - pÃ¹l-ork
-gnome - gnÃ³m
+dwarf - trpaslík
+halfling - pùlèík
+half-elf - pùl-elf
+half-orc - pùl-ork
+gnome - gnóm
 
-fighter - bojovnÃ­k
-ranger - hraniÃ¨Ã¡Ã¸ 
+fighter - bojovník
+ranger - hranièáø 
 paladin
 cleric - klerik
 druid
-thief - zlodÃ¬j
+thief - zlodìj
 bard
-mage - mÃ¡g
-wizard - Ã¨arodÃ¬j
-sorcerer - zaklÃ­naÃ¨
+mage - mág
+wizard - èarodìj
+sorcerer - zaklínaè
 monk - mnich
 barbarian - barbar
 
 potvory:
 
 beholder - beholder
-carrion crawler - mrchoÅ¾rout
-djinn - dÅ¾in
+carrion crawler - mrchorout
+djinn - din
 drow - drow
-dryad - dryÃ¡da
+dryad - dryáda
 gargoyle - gargoyla 
-genie - dÅ¾in
-ghoul - ghÃ¹l
+genie - din
+ghoul - ghùl
 giant - obr
 gibberling - divous
-Grey ones - Å edivÃ­
+Grey ones - Šediví
 griffon - gryf
 hobgoblin - skurut
 jelly - rosol
 kobold - kobold
 lich - lich
 Mimic - Mimik
-mindflayer - mozkoÅ¾rout
-miniature giant space hamster - zmenÅ¡enÃ½ obÃ¸Ã­ kosmickÃ½ kÃ¸eÃ¨ek
+mindflayer - mozkorout
+miniature giant space hamster - zmenšenı obøí kosmickı køeèek
 necromancer - nekromant
 ogre - zlobr
 ooze - sliz
 orog - orog
 rakshasa - rakshasa
-red dragon - rudÃ½ drak
-shadow dragon - stÃ­novÃ½ drak
-silver dragon - stÃ¸Ã­brnÃ½ drak
+red dragon - rudı drak
+shadow dragon - stínovı drak
+silver dragon - støíbrnı drak
 skeleton - kostlivec
 spectre - spektra
 spirit - duch
@@ -4802,155 +4802,155 @@ wolfwere - dlakovlk
 wyrm - plaz
 wyvern - wyvern
 
-tituly, jmÃ©na:
+tituly, jména:
 
-Shadowmaster - StÃ­novÃ½ pÃ¡n
-Shade Lord - PÃ¡n PÃ¸Ã­zrakÃ¹
-Morninglord - PÃ¡n Ãºsvitu
-Stormlord - PÃ¡n bouÃ¸Ã­
-Dawnbringer - Nositel Ãºsvitu
-Great Guard - VyÅ¡Å¡Ã­ strÃ¡Å¾
+Shadowmaster - Stínovı pán
+Shade Lord - Pán Pøízrakù
+Morninglord - Pán úsvitu
+Stormlord - Pán bouøí
+Dawnbringer - Nositel úsvitu
+Great Guard - Vyšší strá
 Herald - Herold
-High Heralds - VrchnÃ­ HeroldovÃ©
-Chief Inspector - Å Ã©finspektor
+High Heralds - Vrchní Heroldové
+Chief Inspector - Šéfinspektor
 weaponmaster - zbrojmistr
 master of weapons - mistr zbrojir
-viceregent - mÃ­stodrÅ¾Ã­cÃ­
-Fairy Queen - KrÃ¡lovna vÃ­l
+viceregent - místodrící
+Fairy Queen - Královna víl
 Challenge Master - Mistr vyzyvatel
-Spider Queen - PavouÃ¨Ã­ krÃ¡lovna
+Spider Queen - Pavouèí královna
 Matron - Matka
-Handmaiden - SluÅ¾ebnice
-High Merchant - PrvnÃ­ kupec
-Shark-Father - Å½raloÃ¨Ã­ otec
-Exile - Vyhnanec (pojmenovÃ¡nÃ­ Irenica u elfÃ¹)
-Coordinator - KoordinÃ¡tor (pojmenovÃ¡nÃ­ Irenica v LÃ©Ã¨ebnÃ¬)
+Handmaiden - Sluebnice
+High Merchant - První kupec
+Shark-Father - raloèí otec
+Exile - Vyhnanec (pojmenování Irenica u elfù)
+Coordinator - Koordinátor (pojmenování Irenica v Léèebnì)
 guildmaster - gildmistr
 Avatar - Avatar
-Pirate Lord - PÃ¡n pirÃ¡tÃ¹
-One = JedinÃ½
+Pirate Lord - Pán pirátù
+One = Jedinı
 
-Raging One - ZuÃ¸ivÃ½
-Hidden - SkrytÃ½
-Unseeing Eye - NevidoucÃ­ oko
+Raging One - Zuøivı
+Hidden - Skrytı
+Unseeing Eye - Nevidoucí oko
 
 Renal Bloodscalp - Renal Bloodscalp
-Korgan Bloodaxe - Korgan KrvavÃ¡ sekera
-Gorf the Squisher - Gorf DrtiÃ¨
-Lolth - Lolth   (pavouÃ¨Ã­ bohynÃ¬)
+Korgan Bloodaxe - Korgan Krvavá sekera
+Gorf the Squisher - Gorf Drtiè
+Lolth - Lolth   (pavouèí bohynì)
 
-HIERARCHIE DRUIDÃ™
-1 - Initiate = ZasvÃ¬cenec
+HIERARCHIE DRUIDÙ
+1 - Initiate = Zasvìcenec
 2 - Druid = Druid
 3 - Archdruid = Arcidruid
 4 - Great Druid = Veledruid
-5 - Grand Druid = Hierofant (muÅ¾) / Flaminika (Å¾ena)
+5 - Grand Druid = Hierofant (mu) / Flaminika (ena)
 
 
---= BOÅ½STVA =--
+--= BOSTVA =--
 
-Auril - bohynÃ¬ chladu, zimy
-Azuth - bohynÃ¬ Ã¨arodÃ¬jÃ¹ a mÃ¡gÃ¹
-Bane - bÃ¹h svÃ¡rÃ¹, tyranie, nenÃ¡visti
-Beshaba - bohynÃ¬ smÃ¹ly, nehod
-Bhaal - bÃ¹h smrti (zvlÃ¡Å¡tÃ¬ nÃ¡silnÃ© a rituÃ¡lnÃ­)
-Chauntea - bohynÃ¬ zemÃ¬dÃ¬lstvÃ­, pÃ¸Ã­rody 
-Cyric - bÃ¹h smrti, lÅ¾Ã­, tyranie, vraÅ¾dÃ¬nÃ­ 
-Deneir - bÃ¹h literatury, gramotnosti, patron umÃ¬lcÃ¹
-Eldath - bohynÃ¬ vodopÃ¡dÃ¹, pramenÃ¹, klidu, stÃ¡losti, tichÃ½ch mÃ­st
-Gond - bÃ¹h zruÃ¨nosti, budovÃ¡nÃ­
-Helm - bÃ¹h strÃ¡Å¾cÃ¹ a ochrÃ¡ncÃ¹
-Ilmater - PlaÃ¨Ã­cÃ­ bÃ¹h - bÃ¹h vytrvalosti, utrpenÃ­, muÃ¨ednictvÃ­
-Lathander - PÃ¡n Ãºsvitu - bÃ¹h jara, Ãºsvitu, narozenÃ­, obnovy 
-Leira - bohynÃ¬ klamÃ¹, iluzÃ­
-Lliira - bohynÃ¬ radosti, Å¡tÃ¬stÃ­, tance, svobody
-Loviatar - bohynÃ¬ bolesti, utrpenÃ­
-Malar - bÃ¹h bestiÃ­, divoÃ¨iny, lovu
-Mask (=Maska) - bÃ¹h zlodÃ¬jÃ¹, intrik
-Mielikki - PanÃ­ lesa - bohynÃ¬ lesÃ¹ a lesnÃ­ch bytostÃ­
-Milil - bÃ¹h poezie, pÃ­snÃ­, vÃ½mluvnosti
-Myrkul - bÃ¹h mrtvÃ½ch
-Mystra - PanÃ­ zÃ¡had - bohynÃ¬ magie
-Oghma - bÃ¹h vÃ¬dÃ¬nÃ­, vynÃ¡lezÃ¹
-Selune - bohynÃ¬ mÃ¬sÃ­ce, hvÃ¬zd a navigÃ¡torÃ¹
-Shar - bohynÃ¬ temnoty, noci, ztrÃ¡ty, zapomnÃ¬nÃ­
-Silvanus - bÃ¹h pÃ¸Ã­rody
-Sune - bohynÃ¬ lÃ¡sky, krÃ¡sy, vÃ¡Å¡nÃ¬
-Talona - bohynÃ¬ jedÃ¹, chorob
-Talos - PÃ¡n bouÃ¸Ã­ - bÃ¹h bouÃ¸Ã­, poÅ¾Ã¡rÃ¹, zemÃ¬tÃ¸esenÃ­, tornÃ¡d, niÃ¨enÃ­ vÅ¡eobecnÃ¬
-Temopus - bÃ¹h vÃ¡lky
-Torm - bÃ¹h oddanosti, vÃ¬rnosti, patron paladinÃ¹
-Tymora - DÃ¡ma Å¡tÃ¬stÃ¬ny - bohynÃ¬ Å¡tÃ¬stÃ­, zruÃ¨nosti, vÃ­tÃ¬zstvÃ­
-Tyr - bÃ¹h spravedlnosti
-Umberlee - KrÃ¡lovna dÃ¬vka - bohynÃ¬ moÃ¸Ã­, vod, vln
-Waukeen - bohynÃ¬ obchodu, penÃ¬z, bohatstvÃ­
+Auril - bohynì chladu, zimy
+Azuth - bohynì èarodìjù a mágù
+Bane - bùh svárù, tyranie, nenávisti
+Beshaba - bohynì smùly, nehod
+Bhaal - bùh smrti (zvláštì násilné a rituální)
+Chauntea - bohynì zemìdìlství, pøírody 
+Cyric - bùh smrti, lí, tyranie, vradìní 
+Deneir - bùh literatury, gramotnosti, patron umìlcù
+Eldath - bohynì vodopádù, pramenù, klidu, stálosti, tichıch míst
+Gond - bùh zruènosti, budování
+Helm - bùh strácù a ochráncù
+Ilmater - Plaèící bùh - bùh vytrvalosti, utrpení, muèednictví
+Lathander - Pán úsvitu - bùh jara, úsvitu, narození, obnovy 
+Leira - bohynì klamù, iluzí
+Lliira - bohynì radosti, štìstí, tance, svobody
+Loviatar - bohynì bolesti, utrpení
+Malar - bùh bestií, divoèiny, lovu
+Mask (=Maska) - bùh zlodìjù, intrik
+Mielikki - Paní lesa - bohynì lesù a lesních bytostí
+Milil - bùh poezie, písní, vımluvnosti
+Myrkul - bùh mrtvıch
+Mystra - Paní záhad - bohynì magie
+Oghma - bùh vìdìní, vynálezù
+Selune - bohynì mìsíce, hvìzd a navigátorù
+Shar - bohynì temnoty, noci, ztráty, zapomnìní
+Silvanus - bùh pøírody
+Sune - bohynì lásky, krásy, vášnì
+Talona - bohynì jedù, chorob
+Talos - Pán bouøí - bùh bouøí, poárù, zemìtøesení, tornád, nièení všeobecnì
+Temopus - bùh války
+Torm - bùh oddanosti, vìrnosti, patron paladinù
+Tymora - Dáma štìstìny - bohynì štìstí, zruènosti, vítìzství
+Tyr - bùh spravedlnosti
+Umberlee - Královna dìvka - bohynì moøí, vod, vln
+Waukeen - bohynì obchodu, penìz, bohatství
 
-vÅ¡emu tomu velÃ­ Ao
+všemu tomu velí Ao
 
 
-ELFÃ BOHOVÃ‰
-celÃ½ panteon se nazÃ½vÃ¡ Seldarin
-Corellon Larethian - tvÃ¹rce elfÃ¹, hlava elfÃ­ho panteonu
-    ohlednÃ¬ pohlavÃ­, cituji "Corellon manifests as either gender"
-Aerdrie Faenya - bohynÃ¬ vzduchu, poÃ¨asÃ­, Ãºrodnosti
-Deep Sashelas - bÃ¹h moÃ¸Ã­
-Erevan Ilesere - bÃ¹h zmÃ¬n, zlodÃ¬jÃ¹
-Fenmarel Mestarine - bÃ¹h vyvrhel
-Hanali Celanil - bohynÃ¬ romantiky, krÃ¡sy
-Labelas Enoreth - bÃ¹h Ã¨asu, dlouhovÃ¬kosti
-Rillifane Rallathil - bÃ¹h divoÃ¨iny a divokÃ½ch elfÃ¹
-Sehanine - bohynÃ¬ mÃ¬sÃ­ce
-Solonor Thelandira - bÃ¹h lovu, lukostÃ¸elcÃ¹
+ELFÍ BOHOVÉ
+celı panteon se nazıvá Seldarin
+Corellon Larethian - tvùrce elfù, hlava elfího panteonu
+    ohlednì pohlaví, cituji "Corellon manifests as either gender"
+Aerdrie Faenya - bohynì vzduchu, poèasí, úrodnosti
+Deep Sashelas - bùh moøí
+Erevan Ilesere - bùh zmìn, zlodìjù
+Fenmarel Mestarine - bùh vyvrhel
+Hanali Celanil - bohynì romantiky, krásy
+Labelas Enoreth - bùh èasu, dlouhovìkosti
+Rillifane Rallathil - bùh divoèiny a divokıch elfù
+Sehanine - bohynì mìsíce
+Solonor Thelandira - bùh lovu, lukostøelcù
 
-TRPASLIÃˆÃ BOHOVÃ‰
-Moradin - tvÃ¹rce trpasliÃ¨Ã­ rasy, hlava trpasliÃ¨Ã­ho panteonu
-Abbathor - jedinÃ½ zlÃ½ trpasliÃ¨Ã­ bÃ¹h
-Berronar Truesilver - bohynÃ¬ manÅ¾elstvÃ­, lÃ¡sky, domÃ¡cÃ­ho krbu
-Clangeddin Silverbeard - bÃ¹h vÃ¡lek
-Dugmaren Brightmantle - bÃ¹h experimentÃ¹, vynÃ¡lezÃ¹, objevÃ¹
-Dumathoin - bÃ¹h hornictvÃ­, prÃ¹zkumu podzemÃ­
-Gorm Gultyn - ochrÃ¡nce a strÃ¡Å¾ce trpasliÃ¨Ã­ rasy
-Haela Brightaxe - bohynÃ¬ vÃ¡leÃ¨nÃ­kÃ¹, cestovatelÃ¹
-Marthammor Duin - vÃ¹h poutnÃ­kÃ¹
-Sharindlar - bohynÃ¬ lÃ©Ã¨enÃ­, smilovÃ¡nÃ­
-Vergdain - bÃ¹h Å¡tÃ¬stÃ­, bohatstvÃ­
+TRPASLIÈÍ BOHOVÉ
+Moradin - tvùrce trpaslièí rasy, hlava trpaslièího panteonu
+Abbathor - jedinı zlı trpaslièí bùh
+Berronar Truesilver - bohynì manelství, lásky, domácího krbu
+Clangeddin Silverbeard - bùh válek
+Dugmaren Brightmantle - bùh experimentù, vynálezù, objevù
+Dumathoin - bùh hornictví, prùzkumu podzemí
+Gorm Gultyn - ochránce a stráce trpaslièí rasy
+Haela Brightaxe - bohynì váleèníkù, cestovatelù
+Marthammor Duin - vùh poutníkù
+Sharindlar - bohynì léèení, smilování
+Vergdain - bùh štìstí, bohatství
 
-BOHOVÃ‰ PÃ™LÃˆÃKÃ™
-Yondalla - hlava panteonu, ochrÃ¡nkynÃ¬ pÃ¹lÃ¨Ã­kÃ¹
-Arvoreen - bÃ¹h vÃ¡lky
-Brandobaris - bÃ¹h dobrodruhÃ¹, zlodÃ¬jÃ¹
-Cyrrollalee - bohynÃ¬ domova, pÃ¸Ã¡telstvÃ­, dÃ¹vÃ¬ry
-Sheela Peryroyl - bohynÃ¬ pÃ¸Ã­rody, poÃ¨asÃ­, zemÃ¬dÃ¬lstvÃ­, lÃ¡sky
-Urogalan - bÃ¹h smrti, zemÃ¬
-Tymora - viz vÃ½Å¡e, pÃ¹lÃ¨Ã­ci ji pÃ¸ijali za svou :)
+BOHOVÉ PÙLÈÍKÙ
+Yondalla - hlava panteonu, ochránkynì pùlèíkù
+Arvoreen - bùh války
+Brandobaris - bùh dobrodruhù, zlodìjù
+Cyrrollalee - bohynì domova, pøátelství, dùvìry
+Sheela Peryroyl - bohynì pøírody, poèasí, zemìdìlství, lásky
+Urogalan - bùh smrti, zemì
+Tymora - viz vıše, pùlèíci ji pøijali za svou :)
 
-BOHOVÃ‰ GNÃ“MÃ™
-Garl Glittergold - hlava gnÃ³mÃ­ho panteonu, bÃ¹h moudrosti
-Baervan Wildwanderer - bÃ¹h cestovÃ¡nÃ­, pÃ¸Ã­rody
-Baravar Cloakshadow - bÃ¹h iluzÃ­, klamÃ¹, podvodÃ¹
-Flandal Steelskin - bÃ¹h hornictvÃ­, kovÃ¡Ã¸Ã¹
-Gaerdal Ironhand - bÃ¹h vÃ¡lky
-Segojan Earthcaller - bÃ¹h pÃ¸Ã­rody
-Urdlen - bÃ¹h zla, zkaÅ¾enosti, krveÅ¾Ã­znivosti
-Gond Wonderbringer - viz vÃ½Å¡e, to vÃ­te bÃ¹h zruÃ¨nosti :)
+BOHOVÉ GNÓMÙ
+Garl Glittergold - hlava gnómího panteonu, bùh moudrosti
+Baervan Wildwanderer - bùh cestování, pøírody
+Baravar Cloakshadow - bùh iluzí, klamù, podvodù
+Flandal Steelskin - bùh hornictví, kováøù
+Gaerdal Ironhand - bùh války
+Segojan Earthcaller - bùh pøírody
+Urdlen - bùh zla, zkaenosti, krveíznivosti
+Gond Wonderbringer - viz vıše, to víte bùh zruènosti :)
 
-BOHOVÃ‰ JINÃCH RAS
-jen malÃ½ vÃ½bÃ¬r
+BOHOVÉ JINİCH RAS
+jen malı vıbìr
 
 DRACI
-Asgorath - ten hlavnÃ­ bÃ¹h
-Zorquan - bÃ¹h "draÃ¨stvÃ­" (tedy stavu, kde je nÃ¬kdo drakem :)
-Xymor - bÃ¹h spravedlnosti
-Hlal - bÃ¹h humoru
+Asgorath - ten hlavní bùh
+Zorquan - bùh "draèství" (tedy stavu, kde je nìkdo drakem :)
+Xymor - bùh spravedlnosti
+Hlal - bùh humoru
 
-DROWOVÃ‰
-Lolth (nebo Lloth) - nejznÃ¡mnÃ¬jÅ¡Ã­ drowÃ­ bohynÃ¬, PavouÃ¨Ã­ krÃ¡lovna
-Eilistraee - bohynÃ¬ dobrÃ½ch drowÃ¹ (co prosÃ­m? :)
-Ghaunadaur - bÃ¹h rebelÃ¹
-Vhaeraun - bÃ¹h zlodÃ¬jÃ¹
+DROWOVÉ
+Lolth (nebo Lloth) - nejznámnìjší drowí bohynì, Pavouèí královna
+Eilistraee - bohynì dobrıch drowù (co prosím :)
+Ghaunadaur - bùh rebelù
+Vhaeraun - bùh zlodìjù
 
-MOZKOÅ½ROUTI
-Ilsensine - jeden z hlavnÃ­ch bohÃ¹, podle nÃ¬j jednou illithidÃ© ovlÃ¡dnou svÃ¬t
+MOZKOROUTI
+Ilsensine - jeden z hlavních bohù, podle nìj jednou illithidé ovládnou svìt
 
-ZLOBÃ˜I A TROLLOVÃ‰
-Vaprak - jednorukÃ½ bÃ¹h Å¡Ã­lenstvÃ­ a vraÅ¾dÃ¬nÃ­~
+ZLOBØI A TROLLOVÉ
+Vaprak - jednorukı bùh šílenství a vradìní~

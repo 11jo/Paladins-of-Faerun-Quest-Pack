@@ -1,7 +1,7 @@
 @0 = ~Qu'est ce que vous me voulez ?~ // Bourreau
-@1 = ~Interrompez l'exÃ©cution, nous sommes venus pour les prisonniers !~ // Charname
-@2 = ~Cette exÃ©cution a Ã©tÃ© ordonnÃ©e par le gouverneur, je ne vous ai jamais vu et je ne vous connais pas. Vous avez deux options - soit vous partez, soit vous serez exÃ©cutÃ© avec les autres.~ // Bourreau
+@1 = ~Interrompez l'exécution, nous sommes venus pour les prisonniers !~ // Charname
+@2 = ~Cette exécution a été ordonnée par le gouverneur, je ne vous ai jamais vu et je ne vous connais pas. Vous avez deux options - soit vous partez, soit vous serez exécuté avec les autres.~ // Bourreau
 @3 = ~En effet vous ne me connaissez pas !~ // Charname
-@4 = ~Merci de m'avoir sauvÃ©. Oh, c'est encore vous ? Avez-vous transmis mon message ?~ // Prisonnier
-@5 = ~Oui, mais vos camarades n'avaient pas confiance en moi et m'ont donnÃ© le choix : Aller Ã  votre secours ou tuer leurs propre prisonniers.~ // Charname
-@6 = ~Je suis dÃ©solÃ© que vous ayez Ã©tÃ© traitÃ© de la sorte, mais ce n'est pas le lieu pour en discuter, le gouverneur peut attaquer la forÃªt Ã  tout instant, vous devez immÃ©diatement vous rendre chez le druide.~ // Prisonnier
+@4 = ~Merci de m'avoir sauvé. Oh, c'est encore vous ? Avez-vous transmis mon message ?~ // Prisonnier
+@5 = ~Oui, mais vos camarades n'avaient pas confiance en moi et m'ont donné le choix : Aller à votre secours ou tuer leurs propre prisonniers.~ // Charname
+@6 = ~Je suis désolé que vous ayez été traité de la sorte, mais ce n'est pas le lieu pour en discuter, le gouverneur peut attaquer la forêt à tout instant, vous devez immédiatement vous rendre chez le druide.~ // Prisonnier

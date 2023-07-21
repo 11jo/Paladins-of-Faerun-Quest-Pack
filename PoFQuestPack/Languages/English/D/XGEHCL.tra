@@ -1,6 +1,6 @@
 @0 = ~ What do you want? How did you get here? One way or another, the answer will be one for you, just leave. The temple is closed to the public until further notice. ~
 @1 = ~ Greetings, my name is <CHARNAME>, I came to offer you help in finding the stolen book. ~
-@2 = ~ Books? This is not just a book. And where did you get this information? I do not need any helpers, our temple itself will figure it out. So you can get out, we don’t know you. ~
+@2 = ~ Books? This is not just a book. And where did you get this information? I do not need any helpers, our temple itself will figure it out. So you can get out, we don't know you. ~
 @3 = ~ Hrothgar sent me here. He wants me to help you. ~
 @4 = ~ Yeah, now the situation has cleared up. You are the one who returned our hero. Well then, I accept your help. About 3 hours ago, a very old book was stolen from our temple, it tells of Torm, before he became a god. The book is very old and valuable for our temple. ~
 @5 = ~ And why would anyone steal it? ~

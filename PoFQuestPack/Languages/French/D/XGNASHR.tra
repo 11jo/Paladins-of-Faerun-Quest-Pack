@@ -1,39 +1,39 @@
 // Lord Nasher  // Padhiver
 
-@0 = ~Bonjour <CHARNAME>, bienvenue Ã  Padhiver. Tout d'abord, permettez-moi de m'excuser pour vous avoir Â« invitÃ© Â» sans cÃ©rÃ©monie. Nous ne nous permettrions pas un tel affront si les circonstances n'Ã©taient pas extraordinaires.~
-@1 = ~En effet tout ceci est trÃ¨s inattendu ! Je n'avais pas vraiment prÃ©vu de visiter votre ville. Alors, que me voulez-vous ?~
-@2 = ~Padhiver s'est soudainement retrouvÃ© dans une position trÃ¨s difficile. Nous avons dÃ» arrÃªter cesser tout commerce avec Luskan aprÃ¨s qu'un de leurs bateaux ait Ã©tÃ© incendiÃ© dans notre port. Luskan nous a accusÃ© d'avoir intentionnellement couler leur navire. Mais nous avons dÃ©couvert que le navire en question aurait pris feu suite Ã  l'intervention de l'un des membres de la guilde des marchands de Luskan implantÃ©e dans la zone portuaire.~
-@3 = ~Pourquoi la guilde des marchands de Luskan dÃ©truirait-elle son propre navire ? Ce n'est pas logique.~
-@4 = ~Bien au contraire ! Il s'agit d'une guerre des guildes, entre les negociants de Padhiver et les marchands de Luskan. Notre guilde est bien plus influente et si la guilde de Luskan veut le monopole du commerce, alors il lui faudra au une armÃ©e !~
+@0 = ~Bonjour <CHARNAME>, bienvenue à Padhiver. Tout d'abord, permettez-moi de m'excuser pour vous avoir « invité » sans cérémonie. Nous ne nous permettrions pas un tel affront si les circonstances n'étaient pas extraordinaires.~
+@1 = ~En effet tout ceci est très inattendu ! Je n'avais pas vraiment prévu de visiter votre ville. Alors, que me voulez-vous ?~
+@2 = ~Padhiver s'est soudainement retrouvé dans une position très difficile. Nous avons dû arrêter cesser tout commerce avec Luskan après qu'un de leurs bateaux ait été incendié dans notre port. Luskan nous a accusé d'avoir intentionnellement couler leur navire. Mais nous avons découvert que le navire en question aurait pris feu suite à l'intervention de l'un des membres de la guilde des marchands de Luskan implantée dans la zone portuaire.~
+@3 = ~Pourquoi la guilde des marchands de Luskan détruirait-elle son propre navire ? Ce n'est pas logique.~
+@4 = ~Bien au contraire ! Il s'agit d'une guerre des guildes, entre les negociants de Padhiver et les marchands de Luskan. Notre guilde est bien plus influente et si la guilde de Luskan veut le monopole du commerce, alors il lui faudra au une armée !~
 @5 = ~Ils veulent donc vous faire porter le chapeau !~
-@6 = ~Oui, c'est exactement ce qui se passe, ils vont nous mettre cette affaire sur le dos et notre ville sera assiÃ©gÃ©e, plus personne ne peut entrer ou sortir de Padhiver. Mais les problÃ¨mes ne s'arrÃªtent pas lÃ . Au mÃªme moment, une forteresse voisine appelÃ©e Fort Helm a Ã©tÃ© conquise par des elfes noirs. Ce fort a dÃ©fendu Padhiver pendant de nombreuses annÃ©es, elle Ã©tait le foyer des fidÃ¨les de Helm. Peut-Ãªtre l'un d'entre eux a-t-il conclu une alliance avec les elfes noirs. Il a Ã©tÃ© pris en moins d'une heure. Quand nous l'avons dÃ©couvert, il Ã©tait trop tard~
-@7 = ~Sous les ordres de Dame Aribeth nos troupes ont pu repousser une attaque des elfes noirs. Mais maintenant qu'ils se sont alliÃ©s aux barbares du nord, qui souhaitent depuis longtemps dÃ©truire les villes Ã©tablis au nord. Nous rÃ©sistons autant que possible, mais n'avons pas la force nÃ©cessaire. J'ai entendu parler de vous par des marchands venus de la Porte de Baldur, et je crois que vous Ãªtes le seul Ã  pouvoir nous prÃªter main forte avant qu'il ne soit trop tard.~ ~Sous les ordres de Dame Aribeth nos troupes ont pu repousser une attaque des elfes noirs. Mais maintenant qu'ils se sont alliÃ©s aux barbares du nord, qui souhaitent depuis longtemps dÃ©truire les villes Ã©tablis au nord. Nous rÃ©sistons autant que possible, mais n'avons pas la force nÃ©cessaire. J'ai entendu parler de vous par des marchands venus de la Porte de Baldur, et je crois que vous Ãªtes la seule Ã  pouvoir nous prÃªter main forte avant qu'il ne soit trop tard.~
-@8 = ~Je ne sais pas quelle histoires on raconte Ã  mon sujet, mais je ferai de mon mieux pour prÃ©server votre ville. NÃ©anmoins, je devrais avoir accÃ¨s Ã  un Ã©quipement adÃ©quat, des armes et autres Ã©quipements.~
-@9 = ~Ce ne sera pas un problÃ¨me, le Seigneur Gratius, Commandant en chef de la Garde Royale vous donnera tout ce dont vous avez besoin. <CHARNAME> ! Nous venons de recevoir un rapport indiquant que les soldats de Luskan ont franchi les murs de la ville. Rendez vous Ã  l'ouest de la ville et occupez vous de leur capitaine et Ã©liminez toute menace potentielle pour la ville. Revenez ici quand se sera fait.~
-@10 = ~TrÃ¨s bien, je pars immÃ©diatement~
+@6 = ~Oui, c'est exactement ce qui se passe, ils vont nous mettre cette affaire sur le dos et notre ville sera assiégée, plus personne ne peut entrer ou sortir de Padhiver. Mais les problèmes ne s'arrêtent pas là. Au même moment, une forteresse voisine appelée Fort Helm a été conquise par des elfes noirs. Ce fort a défendu Padhiver pendant de nombreuses années, elle était le foyer des fidèles de Helm. Peut-être l'un d'entre eux a-t-il conclu une alliance avec les elfes noirs. Il a été pris en moins d'une heure. Quand nous l'avons découvert, il était trop tard~
+@7 = ~Sous les ordres de Dame Aribeth nos troupes ont pu repousser une attaque des elfes noirs. Mais maintenant qu'ils se sont alliés aux barbares du nord, qui souhaitent depuis longtemps détruire les villes établis au nord. Nous résistons autant que possible, mais n'avons pas la force nécessaire. J'ai entendu parler de vous par des marchands venus de la Porte de Baldur, et je crois que vous êtes le seul à pouvoir nous prêter main forte avant qu'il ne soit trop tard.~ ~Sous les ordres de Dame Aribeth nos troupes ont pu repousser une attaque des elfes noirs. Mais maintenant qu'ils se sont alliés aux barbares du nord, qui souhaitent depuis longtemps détruire les villes établis au nord. Nous résistons autant que possible, mais n'avons pas la force nécessaire. J'ai entendu parler de vous par des marchands venus de la Porte de Baldur, et je crois que vous êtes la seule à pouvoir nous prêter main forte avant qu'il ne soit trop tard.~
+@8 = ~Je ne sais pas quelle histoires on raconte à mon sujet, mais je ferai de mon mieux pour préserver votre ville. Néanmoins, je devrais avoir accès à un équipement adéquat, des armes et autres équipements.~
+@9 = ~Ce ne sera pas un problème, le Seigneur Gratius, Commandant en chef de la Garde Royale vous donnera tout ce dont vous avez besoin. <CHARNAME> ! Nous venons de recevoir un rapport indiquant que les soldats de Luskan ont franchi les murs de la ville. Rendez vous à l'ouest de la ville et occupez vous de leur capitaine et éliminez toute menace potentielle pour la ville. Revenez ici quand se sera fait.~
+@10 = ~Très bien, je pars immédiatement~
 @11 = ~ Padhiver
 
-Les soldats de Luskan ont infiltrÃ© la ville, Le Seigneur Nasher m'a confiÃ© la tÃ¢che de les Ã©liminer, mais le plus important est de dÃ©busquer leur capitaine dans la partie ouest de la ville. ~
-@12 = ~Bien, le capitaine n'est plus, mais j'ai reÃ§u un nouveau rapport, un dangereux sorcier de la tour de mages de Luskan est apparu dans le sud-ouest de la ville. ArrÃªtez-le Ã  tout prix ~
+Les soldats de Luskan ont infiltré la ville, Le Seigneur Nasher m'a confié la tâche de les éliminer, mais le plus important est de débusquer leur capitaine dans la partie ouest de la ville. ~
+@12 = ~Bien, le capitaine n'est plus, mais j'ai reçu un nouveau rapport, un dangereux sorcier de la tour de mages de Luskan est apparu dans le sud-ouest de la ville. Arrêtez-le à tout prix ~
 @13 = ~ Padhiver
 
-Au sud-ouest de la ville, un magicien de Luskan est apparu, il reprÃ©sente une menace sÃ©rieuse pour la ville, nous devons nous en occuper rapidement.~
+Au sud-ouest de la ville, un magicien de Luskan est apparu, il représente une menace sérieuse pour la ville, nous devons nous en occuper rapidement.~
 @14 = ~Chargez-vous de ce capitaine <CHARNAME> !~
-@15 = ~Beau travail <CHARNAME>, vous vous Ãªtes occupÃ© du magicien et Ãªtes revenu indemne. Voici votre rÃ©compense. Mais les problÃ¨mes continuent - il y a quelques minutes, Dame Aribeth a signaler que des elfes noirs et des barbares ont pÃ©nÃ©trÃ© dans la ville ! Notre magicien va vous transfÃ©rer auprÃ¨s de Dame Aribeth, apportez-lui toute l'aide possible !~
+@15 = ~Beau travail <CHARNAME>, vous vous êtes occupé du magicien et êtes revenu indemne. Voici votre récompense. Mais les problèmes continuent - il y a quelques minutes, Dame Aribeth a signaler que des elfes noirs et des barbares ont pénétré dans la ville ! Notre magicien va vous transférer auprès de Dame Aribeth, apportez-lui toute l'aide possible !~
 @16 = ~ Padhiver
 
-Le Seigneur Nasher a une nouvelle tÃ¢che pour nous - assister Dame Aribeth.~
-@17 = ~<CHARNAME>, ce satanÃ© magicien doit Ãªtre dÃ©truit ! ~
-@18 = ~FÃ©licitations <CHARNAME>, vous avez rÃ©ussi Ã  reprendre Fort Helm ! Voici votre rÃ©compense. Maintenant que le danger le plus pressant est Ã©cartÃ©, nous devons nous occuper du responsable. Nous avons dÃ©couvert qu'il fait partie de la guilde des marchands de Luskan. Retrouvez votre agent de liaison Ã  la fontaine dans la partie ouest de la ville, il vous mÃ¨nera Ã  notre guilde des nÃ©gociants.~
-@19 = ~Comment pourrons-nous nous reconnaÃ®tre ?~
+Le Seigneur Nasher a une nouvelle tâche pour nous - assister Dame Aribeth.~
+@17 = ~<CHARNAME>, ce satané magicien doit être détruit ! ~
+@18 = ~Félicitations <CHARNAME>, vous avez réussi à reprendre Fort Helm ! Voici votre récompense. Maintenant que le danger le plus pressant est écarté, nous devons nous occuper du responsable. Nous avons découvert qu'il fait partie de la guilde des marchands de Luskan. Retrouvez votre agent de liaison à la fontaine dans la partie ouest de la ville, il vous mènera à notre guilde des négociants.~
+@19 = ~Comment pourrons-nous nous reconnaître ?~
 @20 = ~ Padhiver
 
 A la fontaine de la partie ouest de la ville, vous attendrez votre agent de liaison, afin de retrouver l'auteur de la destruction du navire de Luskan dans le port de Padhiver.~
-@21 = ~Ne vous inquiÃ©tez pas prenez cette missive de ma part et allez y, ce traÃ®tre doit Ãªtre retrouvÃ©, nous devons arrÃªter cette guerre insensÃ©e.~
+@21 = ~Ne vous inquiétez pas prenez cette missive de ma part et allez y, ce traître doit être retrouvé, nous devons arrêter cette guerre insensée.~
 @22 = ~Occupez-vous du chef de la guilde Luskan, <CHARNAME> !~
-@23 = ~Vous nous avez rendu un grand service <CHARNAME>, merci au nom de toute la communautÃ© de Padhiver. Vous avez sauvÃ© beaucoup d'innocents. Voici votre rÃ©compense.~
-@24 = ~Et bien, je n'avais pas vraiment un choix. La ville Ã©tait assiÃ©gÃ©e. Mais je suis ravi d'avoir trouvÃ© une solution.~ ~Et bien, je n'avais pas vraiment un choix. La ville Ã©tait assiÃ©gÃ©e. Mais je suis ravie d'avoir trouvÃ© une solution.~
+@23 = ~Vous nous avez rendu un grand service <CHARNAME>, merci au nom de toute la communauté de Padhiver. Vous avez sauvé beaucoup d'innocents. Voici votre récompense.~
+@24 = ~Et bien, je n'avais pas vraiment un choix. La ville était assiégée. Mais je suis ravi d'avoir trouvé une solution.~ ~Et bien, je n'avais pas vraiment un choix. La ville était assiégée. Mais je suis ravie d'avoir trouvé une solution.~
 @25 = ~ Padhiver
 
-Le traÃ®tre a Ã©tÃ© Ã©liminÃ©~
-@26 = ~ Je vous dis au revoir et merci. Notre magicien va vous renvoyer Ã  l'endroit oÃ¹ vous l'avez rencontrÃ©.~
+Le traître a été éliminé~
+@26 = ~ Je vous dis au revoir et merci. Notre magicien va vous renvoyer à l'endroit où vous l'avez rencontré.~

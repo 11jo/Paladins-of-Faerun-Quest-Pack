@@ -2,14 +2,14 @@
 @2 = ~ I'm looking for answers to some questions, one Archmage sent me to this place. ~
 @3 = ~ It's not about the elf matter, I need information from you! ~
 @4 = ~ Do you say the answers? Who are you? ~
-@5 = ~ My name is <CHARNAME>, I am looking for a paladin named Hradak. He went against the Order of the Defenders of Faerûn, and I must catch or destroy him. ~
+@5 = ~ My name is <CHARNAME>, I am looking for a paladin named Hradak. He went against the Order of the Defenders of Faer�n, and I must catch or destroy him. ~
 @6 = ~ <CHARNAME>? Hero of the Sword Coast? I heard about you, but never thought I'd see you in my city. ~
 @7 = ~ I have never heard of him, but I trust you. I will try to help you, and I will immediately send in search of scouts, and if Gradak is somewhere in this area, we will find him! ~
 @8 = ~ Thanks .... ~
 @9 = ~ But, nothing is free ... In turn, I would be grateful if you could help me with a solution to one problem. ~
 @10 = ~ Problems, what's up? ~
-@11 = ~ A few years ago, a witch settled in a castle in the mountains not far from here. My people have houses there, and the sorceress destroyed everything, 3 villages were burned. People need my help, but I don’t have enough soldiers and enough gold to solve this problem, but I believe that you can get into the castle and stop the witch. ~
-@12 = ~ Well, I’ll go to the mountains to find a witch, and you will try to find out at least some information where you can find Gradak. ~
+@11 = ~ A few years ago, a witch settled in a castle in the mountains not far from here. My people have houses there, and the sorceress destroyed everything, 3 villages were burned. People need my help, but I don't have enough soldiers and enough gold to solve this problem, but I believe that you can get into the castle and stop the witch. ~
+@12 = ~ Well, I'll go to the mountains to find a witch, and you will try to find out at least some information where you can find Gradak. ~
 @13 = ~ I will do everything in my power <CHARNAME>. I wish you good luck. Goodbye. ~
 @14 = ~ Sorceress.
 
@@ -20,9 +20,9 @@ Elf, the leader of the forest city, asked me to help. A certain witch settled in
 @18 = ~ The sorceress is dead, but something else happened, I was attacked here in the city when I returned from the mountains. ~
 @19 = ~ Yes, I know what happened. Fortunately, we caught one of the magicians, although he was almost dead, but using potions we got all the information from him! ~
 @20 = ~ It seems that the witch had a magic ball, a very powerful item ... These magicians were probably looking for a ball. ~
-@21 = ~ I just don’t understand why one of them said that they were sent here by Elminster, my friend. ~
+@21 = ~ I just don't understand why one of them said that they were sent here by Elminster, my friend. ~
 @22 = ~ This is not entirely true, they were allegedly sent by someone from the council of magicians. However, I do not know who he is. But before he died, the magician told us something much more important. During the attack, they captured one magician, it turns out he was your friend, and I know where he is. I will mark this place on your map! ~
-@23 = ~ Paladins of Faerûn.
+@23 = ~ Paladins of Faer�n.
 
 Arundel told me that during the attack they captured Alvin, and indicated the place where he is ~
 @24 = ~ Thanks for everything, maybe we'll see you sometime. ~

@@ -1,6 +1,6 @@
 @0 = ~ Hey, hey, you look like seasoned adventurers. I need help! What is your name? ~
 @1 = ~ My name is <CHARNAME>, but what's the matter, buddy? ~
-@2 = ~ Well ... My name is Marian, I am a blacksmith and work for a man named Barbarossa. He runs the black market in Deep Water. I don’t want to work for him, I want to do legal work, and I’m tired of such a life. I met with the commander of the city guard of Deepwater, but without obvious evidence their hands are tied. ~
+@2 = ~ Well ... My name is Marian, I am a blacksmith and work for a man named Barbarossa. He runs the black market in Deep Water. I don't want to work for him, I want to do legal work, and I'm tired of such a life. I met with the commander of the city guard of Deepwater, but without obvious evidence their hands are tied. ~
 @3 = ~ And can I do something for you blacksmith? ~
 @4 = ~ I need you to find Barbarossa in Deep Water, and deal with him. You are not a citizen of Deep Water, and if he disappears, no one will ask unnecessary questions. In this way, you will save me, my family and many other innocent citizens of Deep Water. ~
 @5 = ~ I go down there and see what can be done. Do you know where I can find him? ~

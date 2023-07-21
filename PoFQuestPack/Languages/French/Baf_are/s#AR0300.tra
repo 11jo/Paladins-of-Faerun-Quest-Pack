@@ -1,13 +1,13 @@
-@0 = ~Un message du Grand Duc Opas ? Je vous Ã©coute !~
-@1 = ~J'ai apportÃ© la ranÃ§on demandÃ©e pour sa femme et sa fille. OÃ¹ sont-elles ?~
-@2 = ~Pas si vite mes amis, mon maÃ®tre a changÃ© les conditions. Le prix de la ranÃ§on a doublÃ© et sâ€™Ã©lÃ¨ve maintenant Ã  10 000 piÃ¨ces d'or. Transmettez-lui la nouvelle ! Salut.~
+@0 = ~Un message du Grand Duc Opas ? Je vous écoute !~
+@1 = ~J'ai apporté la rançon demandée pour sa femme et sa fille. Où sont-elles ?~
+@2 = ~Pas si vite mes amis, mon maître a changé les conditions. Le prix de la rançon a doublé et s'élève maintenant à 10 000 pièces d'or. Transmettez-lui la nouvelle ! Salut.~
 @3 = ~(Sort une pierre de communication de sa poche.)~
 @4 = ~Grand Duc, vous m'entendez ? J'ai un message pour vous depuis Athkatla.~
-@5 = ~Oui <CHARNAME>, avez-vous retrouvÃ© ma famille ?~
-@6 = ~Non, ils demandent plus d'argent. Dois-je revenir rÃ©cupÃ©rer 5000 piÃ¨ces d'or supplÃ©mentaire ou poursuivre le maÃ®tre chanteur ?~
-@7 = ~Je ne dispose pas de 5000 piÃ¨ces d'or, sauvez ma famille. Et dÃ©truisez la pierre aprÃ¨s notre conversation.~
-@8 = ~TrÃ¨s bien, je vais le suivre discrÃ¨tement et essayer de protÃ©ger votre famille. Au revoir.~
+@5 = ~Oui <CHARNAME>, avez-vous retrouvé ma famille ?~
+@6 = ~Non, ils demandent plus d'argent. Dois-je revenir récupérer 5000 pièces d'or supplémentaire ou poursuivre le maître chanteur ?~
+@7 = ~Je ne dispose pas de 5000 pièces d'or, sauvez ma famille. Et détruisez la pierre après notre conversation.~
+@8 = ~Très bien, je vais le suivre discrètement et essayer de protéger votre famille. Au revoir.~
 @9 = ~La Famille.
 
-Maintenant une ranÃ§on de 10 000 piÃ¨ces d'or est exigÃ©, aprÃ¨s en avoir parlÃ© avec Opas, j'ai dÃ©cidÃ© de suivre le contact, il devrait me conduire Ã  la famille Opas.~
+Maintenant une rançon de 10 000 pièces d'or est exigé, après en avoir parlé avec Opas, j'ai décidé de suivre le contact, il devrait me conduire à la famille Opas.~
 @10 = ~Nous y voila...~

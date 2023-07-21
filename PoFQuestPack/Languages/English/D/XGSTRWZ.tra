@@ -2,7 +2,7 @@
 @1 = ~ Yes, I met him. I'm <CHARNAME> and who are you? ~
 @2 = ~ Hm, the famous hero and his company in my temple, it is a great honor, I am Petkul the Dragonfighter. ~
 @3 = ~ Do we know each other? I don't remember you magician. ~
-@4 = ~ Yes, as you said, I am a wizard and I follow the events in Faerûn. You are now known throughout western Faerûn. ~
+@4 = ~ Yes, as you said, I am a wizard and I follow the events in Faer�n. You are now known throughout western Faer�n. ~
 @5 = ~ If you already know everything, maybe you know something about an elven magician who captured me and my group, and subsequently kidnapped Imoyen. ~
 @6 = ~ Oh yes, this one. ~
 @7 = ~ Do you know him? When I got out of the dungeon, I saw how he was arrested for using magic. ~
@@ -10,7 +10,7 @@
 @9 = ~ Where can I find the prison they were taken to? ~
 @10 = ~ Even you <CHARNAME> cannot get there, you will have to kill a lot of innocent people, but this is not your style. ~
 @11 = ~ Show me on the map where this is? ~
-@12 = ~ I'm sorry, but I don’t know the exact location, you will have to look for help elsewhere. Now about why you came. ~
+@12 = ~ I'm sorry, but I don't know the exact location, you will have to look for help elsewhere. Now about why you came. ~
 @13 = ~ And what is it? ~
 @14 = ~ A group of vampires lives under our temple, so far we have lived in peace, but recently I had a magic wand stolen. ~
 @15 = ~ So we need to go down and bring this wand back? ~
@@ -24,7 +24,7 @@ Petkul, the keeper of the magic wand that was abducted by the vampire clan, aske
 @21 = ~ Something I do not want, I do not want to risk my neck. Maybe later. ~
 @22 = ~ So you help us? ~
 @23 = ~ Yes, I'll see what can be done. ~
-@24 = ~ I don’t have time now. ~
+@24 = ~ I don't have time now. ~
 @25 = ~ Have you found these items? ~
 @26 = ~ Yes, there they are. ~
 @27 = ~ No, not yet. ~

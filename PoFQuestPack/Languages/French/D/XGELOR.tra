@@ -4,7 +4,7 @@
 @3 = ~ My name is <CHARNAME>, I'm looking for one person named Gradak, do you know anything about this? ~
 @4 = ~ Are you the one who stopped Sarevok and his tyranny in the past? ~
 @5 = ~ Yes, it's me, so did you see this person? ~
-@6 = ~ Unfortunately, I don’t know anything about him, maybe you should turn to the Grand Duke Opas. But if you stay here for a while, then I will have a task for you, of course, the reward will be worthy. What do you say? ~
+@6 = ~ Unfortunately, I don't know anything about him, maybe you should turn to the Grand Duke Opas. But if you stay here for a while, then I will have a task for you, of course, the reward will be worthy. What do you say? ~
 @7 = ~ Not now, I need to find Gradak, I will visit the Grand Duke, and maybe I'll be back. ~
 @8 = ~ Okay, I have a little time, what do you want? ~
 @9 = ~ Recently, "something" stole my spellbook, without which I have no power. I say “something” because it was definitely not human, I am afraid that it was Rakshasa, a very dangerous creature. ~
@@ -29,6 +29,6 @@ The mage Elorion of Baldur's Gate has lost his magical power, and a spell book h
 On the island, I found Rakshasa and killed him. Yataka also received a spell book, which he subsequently gave to the magician Elorion. ~
 @25 = ~ What do you want <CHARNAME>? ~
 @26 = ~ I have information that they gave you several bags from a mysterious figure who could be a killer and wanted for the murder of five people. ~
-@27 = ~ Yes, that’s true, I took them from him, I’m not going to deny it. But I can’t tell you more, even if I wanted to. I would not have lived an hour if I had said more. The only way I can help is to warn you. Be careful, the one you are looking for is very dangerous. ~
+@27 = ~ Yes, that's true, I took them from him, I'm not going to deny it. But I can't tell you more, even if I wanted to. I would not have lived an hour if I had said more. The only way I can help is to warn you. Be careful, the one you are looking for is very dangerous. ~
 @28 = ~ At least tell me where I should look for him? ~
 @29 = ~ I'm really sorry, but I can't help you. ~
