@@ -1,0 +1,66 @@
+
+// 20 QUEST  22 AddJournalEntry
+
+
+
+// s#AR0300.BAF
+ AddJournalEntry(@9,QUEST)
+ 
+// s#AR1000.BAF
+  AddJournalEntry(@10,QUEST)
+
+// XG0001.BAF
+ AddJournalEntry(@1,QUEST)
+
+// XG0049.BAF
+ AddJournalEntry(@3,QUEST)
+ 
+// XG0060.BAF            STRANGE
+    AddJournalEntry(0,79131)
+	
+// XG0061.BAF             STRANGE
+    AddJournalEntry(0,79132)
+	
+// XG0064.BAF
+  AddJournalEntry(@7,QUEST)
+ 
+// XG0073.BAF
+ AddJournalEntry(@3,QUEST)
+ AddJournalEntry(@4,QUEST)
+
+// XG0082.BAF
+ AddJournalEntry(@5,QUEST)
+
+// XG0171.BAF
+ AddJournalEntry(@1,QUEST)
+
+// XG0180.BAF
+ AddJournalEntry(@9,QUEST)
+
+// XG0364.BAF
+ AddJournalEntry(77392,QUEST)
+
+// XG0381.BAF
+ AddJournalEntry(@7,QUEST)
+
+// XG0384.BAF
+ AddJournalEntry(78978,QUEST)
+ AddJournalEntry(78978,QUEST)
+
+// XG0414.BAF
+ AddJournalEntry(@10,QUEST)
+
+// XG0440.BAF
+ AddJournalEntry(@10,QUEST)
+
+// XG0580.BAF
+ AddJournalEntry(@5,QUEST)
+
+// XG0639.BAF
+ AddJournalEntry(@5,QUEST)
+
+// XG0964.BAF
+ AddJournalEntry(@14,QUEST)
+
+// XGKAR.BAF
+AddJournalEntry(@9,QUEST)

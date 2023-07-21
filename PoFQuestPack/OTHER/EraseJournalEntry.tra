@@ -1,0 +1,236 @@
+
+// 149 EraseJournalEntry
+
+
+
+
+
+// XG0047.BAF 
+EraseJournalEntry(@8)  
+EraseJournalEntry(@9)  
+EraseJournalEntry(@10)  
+EraseJournalEntry(@11)  
+
+
+// XG0064.BAF 
+EraseJournalEntry(@4)  
+EraseJournalEntry(@5)  
+EraseJournalEntry(@6)  
+
+
+// XG0072.BAF 
+EraseJournalEntry(@3) 
+EraseJournalEntry(@4)  
+EraseJournalEntry(@5)  
+EraseJournalEntry(@6)  
+EraseJournalEntry(@7)  
+
+// XG0077.BAF 
+EraseJournalEntry(@10)  
+EraseJournalEntry(@11)  
+EraseJournalEntry(@12)  
+EraseJournalEntry(@13)  
+EraseJournalEntry(@14) 
+
+// XG0150.BAF 
+EraseJournalEntry(@7)  
+EraseJournalEntry(@8)  
+EraseJournalEntry(@9) 
+EraseJournalEntry(@10)  
+EraseJournalEntry(@11)  
+EraseJournalEntry(@7)  
+EraseJournalEntry(@8)  
+EraseJournalEntry(@9) 
+EraseJournalEntry(@10)  
+EraseJournalEntry(@11)  
+
+// XG0168.BAF 
+EraseJournalEntry(@2)  
+EraseJournalEntry(@3)  
+EraseJournalEntry(@4)  
+EraseJournalEntry(@5)  
+EraseJournalEntry(@6)  
+
+// XG0203.BAF 
+EraseJournalEntry(@3)  
+EraseJournalEntry(@4) 
+
+// XG0301.BAF 
+EraseJournalEntry(@1)  
+EraseJournalEntry(@2)  
+
+
+// XG0412.BAF 
+EraseJournalEntry(@2) 
+EraseJournalEntry(@3)  
+EraseJournalEntry(@4)  
+EraseJournalEntry(@5)  
+
+// XG0562.BAF 
+EraseJournalEntry(@0)  
+
+
+// XG0762.BAF 
+EraseJournalEntry(@4)  
+
+
+// XGBAT.BAF 
+EraseJournalEntry(@3) 
+EraseJournalEntry(@4)  
+EraseJournalEntry(@5)  
+EraseJournalEntry(@6)  
+
+// XGPIR.BAF 
+EraseJournalEntry(@9)  
+EraseJournalEntry(@10) 
+	
+// XGADOB1.D
+EraseJournalEntry(@4)
+EraseJournalEntry( @5)
+EraseJournalEntry(@6)
+EraseJournalEntry(@7)
+EraseJournalEntry(@8)
+EraseJournalEntry(@9) 
+
+// XGATKI.d 
+EraseJournalEntry(@22)
+EraseJournalEntry(@15)
+EraseJournalEntry( @23)
+EraseJournalEntry(@24)
+EraseJournalEntry(@25)
+EraseJournalEntry(@22)
+EraseJournalEntry(@15)
+EraseJournalEntry( @23)
+EraseJournalEntry(@32)
+EraseJournalEntry(@25)
+
+// XGBARD.ds
+EraseJournalEntry(@8)
+
+// XGclc2.d (8 rsultats
+EraseJournalEntry(@26)
+EraseJournalEntry(@27)
+EraseJournalEntry(@1)
+EraseJournalEntry(@9)
+EraseJournalEntry(@28)
+EraseJournalEntry(@29)
+EraseJournalEntry(@20)
+EraseJournalEntry(@17)
+
+// XGclc4.ds
+EraseJournalEntry(@9)
+EraseJournalEntry(@18)
+EraseJournalEntry(@9)
+EraseJournalEntry(@18)
+EraseJournalEntry(@9)
+EraseJournalEntry(@18)
+
+// XGdrb2.ds
+EraseJournalEntry(@1)
+EraseJournalEntry(@2)
+EraseJournalEntry(@3)
+EraseJournalEntry(@4)
+EraseJournalEntry(@5)
+
+// XGDUEL1.d
+EraseJournalEntry(@3)
+EraseJournalEntry(@4)
+EraseJournalEntry(@5)
+
+// XGELG.d 
+EraseJournalEntry(@11)
+EraseJournalEntry(@18)
+EraseJournalEntry(@19)
+
+// XGELOR.ds
+EraseJournalEntry(@17)
+
+// XGERRA.ds
+EraseJournalEntry(@6)
+
+// XGfa.d 
+EraseJournalEntry(@8)
+
+// XGfl.d 
+EraseJournalEntry(@3)  
+EraseJournalEntry(@4)  
+EraseJournalEntry(@5)  
+EraseJournalEntry(@6)  
+
+// XGH2.d 
+EraseJournalEntry(@7)
+EraseJournalEntry(@8)
+EraseJournalEntry(@9)
+
+// XGhk.d 
+EraseJournalEntry(79104)
+EraseJournalEntry(@8)
+EraseJournalEntry(@8)
+
+// XGLETGC.d 
+EraseJournalEntry(@6)
+EraseJournalEntry(@5)
+EraseJournalEntry(@9)
+
+// XGMILC.d 
+EraseJournalEntry(@10)
+EraseJournalEntry(@17)
+EraseJournalEntry(@18)
+EraseJournalEntry(@19)
+EraseJournalEntry(@20)
+EraseJournalEntry(@10)
+EraseJournalEntry(@17)
+EraseJournalEntry(@18)
+EraseJournalEntry(@19)
+EraseJournalEntry(@20)
+
+// XGNASHR.D
+EraseJournalEntry(@11)
+EraseJournalEntry(@13)
+EraseJournalEntry(@16)
+EraseJournalEntry(@20) 
+
+// XGNOBG.d
+EraseJournalEntry(@5)
+
+// XGprtc1.d 
+EraseJournalEntry(@13)
+EraseJournalEntry(@14)
+EraseJournalEntry(@15)
+EraseJournalEntry(@16)
+EraseJournalEntry(@17)
+EraseJournalEntry(@18)
+EraseJournalEntry(@19)
+
+// XGprtc2.d
+EraseJournalEntry(@9)
+EraseJournalEntry(@18)
+EraseJournalEntry(@9)
+EraseJournalEntry(@18)
+EraseJournalEntry(@9)
+EraseJournalEntry(@18)
+
+// XGSAR.d 
+EraseJournalEntry(@11)
+EraseJournalEntry(@11)
+
+// XGSRWZ2.d
+EraseJournalEntry(@8)
+EraseJournalEntry(@9)
+EraseJournalEntry(@10)
+EraseJournalEntry(@11)
+
+// XGTRAEK.D
+EraseJournalEntry(@10)
+
+// XGVINEL.d
+EraseJournalEntry(@12) 
+EraseJournalEntry(@24) 
+EraseJournalEntry(@25)
+
+// XGWWC.d 
+EraseJournalEntry(@19)
+EraseJournalEntry(@20)
+EraseJournalEntry(@21)
+EraseJournalEntry(@16)
+EraseJournalEntry(@22)
