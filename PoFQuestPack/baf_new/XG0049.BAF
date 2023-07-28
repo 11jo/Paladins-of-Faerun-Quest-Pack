@@ -19,7 +19,7 @@ THEN
     Wait(6)
     DisplayStringHead("XGSHTA",@2)  
     Wait(6)
-    AddJournalEntry(@3,QUEST)
+    AddJournalEntry(@50111,QUEST)
     ActionOverride("XGSHTA",EscapeArea())
     UnhideGUI()
     EndCutSceneMode()

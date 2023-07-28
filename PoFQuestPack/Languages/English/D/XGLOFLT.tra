@@ -2,11 +2,18 @@
 @1 = ~ Sorry if I disappointed, but I see that all the prisoners are killed. ~
 @2 = ~ Sorry to see the body of a friend of Aran. Nevertheless, I have something to offer you. I will give you this beautiful dagger and 10,000 gold if you just leave. ~
 @3 = ~ You killed a friend of Aran, do not expect any mercy from me. ~
+
+/*
 @4 = ~ Pirate Island.
 
 The task was completed, the leader of the stray daggers will not be more likely to create problems, but Aran's friend is unfortunately dead. ~
+*/
+
 @5 = ~ Give me a dagger and 15,000 gold and I will leave you alive. And don't disturb the village your people recently attacked. ~
 @6 = ~ Okay, this is a wise decision. Here you go. ~
+
+/*
 @7 = ~ Pirate Island.
 
 I left the leader of the stray daggers alive, for that he gave me 15,000 gold and a beautiful dagger, and promised to leave the village on the coast alone. ~
+*/

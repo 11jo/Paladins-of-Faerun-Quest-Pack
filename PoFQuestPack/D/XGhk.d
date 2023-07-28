@@ -11,8 +11,8 @@ IF ~~ THEN BEGIN 1
   IF ~~ THEN REPLY @3 GOTO 2
   IF ~~ THEN REPLY @4 DO ~GiveItemCreate("MISC07",Player1,500,0,0)
 TakePartyItem("XGku")
-EscapeArea()
-EraseJournalEntry(79104)~ SOLVED_JOURNAL @5 EXIT
+EraseJournalEntry(79104)
+EscapeArea()~ SOLVED_JOURNAL @5 EXIT
   IF ~~ THEN REPLY @6 GOTO 3
 END
 
@@ -20,8 +20,8 @@ IF ~~ THEN BEGIN 2
   SAY @7
   IF ~~ THEN DO ~GiveItemCreate("MISC07",Player1,700,0,0)
 TakePartyItem("XGku")
-EscapeArea()
-EraseJournalEntry(@8)~ SOLVED_JOURNAL @9 EXIT
+EraseJournalEntry(@8)
+EscapeArea()~ SOLVED_JOURNAL @9 EXIT
 END
 
 IF ~~ THEN BEGIN 3

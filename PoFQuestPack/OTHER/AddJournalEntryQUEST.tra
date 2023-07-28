@@ -1,6 +1,44 @@
 
-// 20 QUEST  22 AddJournalEntry
+// 20 QUEST  22 AddJournalEntry  //  12 SetQuestDone
 
+
+
+// XG0001.BAF
+    SetQuestDone(@2)  
+
+// XG0047.BAF
+    SetQuestDone(@7)  
+
+// XG0072.BAF
+    SetQuestDone(@2)  
+
+// XG0077.BAF
+     SetQuestDone(@15)  
+
+// XG0150.BAF
+     SetQuestDone(@12)  
+     SetQuestDone(@12)  
+
+// XG0203.BAF
+    SetQuestDone(@5)  
+
+// XG0412.BAF
+    SetQuestDone(@1)  
+
+// XG1234.BAF
+     SetQuestDone(@13)  
+
+// XGBAT.BAF
+    SetQuestDone(@2)  
+
+// XGPIR.BAF
+    SetQuestDone(@8)  
+
+// XGWWC.d
+SetQuestDone(@23)
+
+
+////////////////////////////////
 
 
 // s#AR0300.BAF
@@ -13,7 +51,9 @@
  AddJournalEntry(@1,QUEST)
 
 // XG0049.BAF
- AddJournalEntry(@3,QUEST)
+ AddJournalEntry(@3,QUEST) @3 = ~ Pirate Island.
+
+I need to get rid of the guards in the western and eastern parts of this guild. ~
  
 // XG0060.BAF            STRANGE
     AddJournalEntry(0,79131)
@@ -48,15 +88,11 @@
  AddJournalEntry(78978,QUEST)
 
 // XG0414.BAF
- AddJournalEntry(@10,QUEST)
+ AddJournalEntry(@10,QUEST) @10 = ~ Pirate Island.
 
-// XG0440.BAF
- AddJournalEntry(@10,QUEST)
+On the island, I met a shadow thief fleeing from pirates. He asked me to escort him to shadow thief leader Aran Linweil. He gave me the task of finding his friend who was abducted on the island. ~
 
 // XG0580.BAF
- AddJournalEntry(@5,QUEST)
-
-// XG0639.BAF
  AddJournalEntry(@5,QUEST)
 
 // XG0964.BAF
@@ -64,3 +100,20 @@
 
 // XGKAR.BAF
 AddJournalEntry(@9,QUEST)
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+///////////////////////////////// XG0440.BAF
+
+ //AddJournalEntry(@10,QUEST) DONE // Abduction and politics // Enlèvement et politique.
+ 
+//////////////////////// XG0639.BAF
+
+// AddJournalEntry(@5,QUEST) DONE // Abduction and politics // Enlèvement et politique.

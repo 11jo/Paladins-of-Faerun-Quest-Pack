@@ -26,9 +26,9 @@ END
 
 IF ~~ THEN BEGIN 4
   SAY @11
-  IF ~~ THEN DO ~EscapeArea()
-TakePartyItem("XGZAT4")
+  IF ~~ THEN DO ~TakePartyItem("XGZAT4")
 GiveItemCreate("XGZAT6",Player1,0,0,0)
+EscapeArea()
 ActionOverride(Player2,LeaveAreaLUA("XG0020","",[282.1732],0))
 ActionOverride(Player1,LeaveAreaLUA("XG0020","",[248.1687],0))
 ActionOverride(Player3,LeaveAreaLUA("XG0020","",[279.1645],0))

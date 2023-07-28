@@ -44,13 +44,6 @@ EraseJournalEntry(@9)
 EraseJournalEntry(@10)  
 EraseJournalEntry(@11)  
 
-// XG0168.BAF 
-EraseJournalEntry(@2)  
-EraseJournalEntry(@3)  
-EraseJournalEntry(@4)  
-EraseJournalEntry(@5)  
-EraseJournalEntry(@6)  
-
 // XG0203.BAF 
 EraseJournalEntry(@3)  
 EraseJournalEntry(@4) 
@@ -91,18 +84,6 @@ EraseJournalEntry(@6)
 EraseJournalEntry(@7)
 EraseJournalEntry(@8)
 EraseJournalEntry(@9) 
-
-// XGATKI.d 
-EraseJournalEntry(@22)
-EraseJournalEntry(@15)
-EraseJournalEntry( @23)
-EraseJournalEntry(@24)
-EraseJournalEntry(@25)
-EraseJournalEntry(@22)
-EraseJournalEntry(@15)
-EraseJournalEntry( @23)
-EraseJournalEntry(@32)
-EraseJournalEntry(@25)
 
 // XGBARD.ds
 EraseJournalEntry(@8)
@@ -234,3 +215,30 @@ EraseJournalEntry(@20)
 EraseJournalEntry(@21)
 EraseJournalEntry(@16)
 EraseJournalEntry(@22)
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////// XG0168.BAF 
+
+//EraseJournalEntry(@2) DONE // Abduction and politics // Enlèvement et politique.  
+//EraseJournalEntry(@3) DONE // Abduction and politics // Enlèvement et politique.  
+//EraseJournalEntry(@4) DONE // Abduction and politics // Enlèvement et politique.  
+//EraseJournalEntry(@5) DONE // Abduction and politics // Enlèvement et politique. 
+//EraseJournalEntry(@6) DONE // Abduction and politics // Enlèvement et politique.  
+
+
+////////////////////////// XGATKI.d 
+
+// EraseJournalEntry(@22) Entrie from XGKAPOS.D DONE // Abduction and politics // Enlèvement et politique.
+// EraseJournalEntry(@15) DONE // Abduction and politics // Enlèvement et politique.
+// EraseJournalEntry( @23) DONE // Abduction and politics // Enlèvement et politique.
+// EraseJournalEntry(@24) DONE // Abduction and politics // Enlèvement et politique.
+// EraseJournalEntry(@25) DONE // Abduction and politics // Enlèvement et politique.
+// EraseJournalEntry(@22) Entrie from XGKAPOS.D DONE // Abduction and politics // Enlèvement et politique.
+// EraseJournalEntry(@15) DONE // Abduction and politics // Enlèvement et politique.
+// EraseJournalEntry( @23) DONE // Abduction and politics // Enlèvement et politique.
+// EraseJournalEntry(@32) DONE // Abduction and politics // Enlèvement et politique.
+// EraseJournalEntry(@25) DONE // Abduction and politics // Enlèvement et politique.

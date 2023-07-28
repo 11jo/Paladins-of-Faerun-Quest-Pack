@@ -4,10 +4,17 @@
 @3 = ~Wo liegt Euer Dorf?~
 @4 = ~Es liegt etwa zwei Dutzend Tagesreisen östlich. Bitte helft uns.~
 @5 = ~Es tut mir leid, aber es ist zu weit weg, ich habe keine Zeit dafür.~
+
+/*
 @6 = ~Pirateninsel.
 
 Mission fehlgeschlagen.~
+*/
+
 @7 = ~Ich werde sofort dorthin gehen, Junge, mach Dir keine Sorgen. Und Du bleibst hier und versteckst Dich.~
+
+/*
 @8 = ~Pirateninsel.
 
 In den Umar-Hügeln begegnete ich einem Jungen, der nach Abenteurern suchte, die seinem Dorf im Osten helfen könnten, die Piraten loszuwerden.~
+*/

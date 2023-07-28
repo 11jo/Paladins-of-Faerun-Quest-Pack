@@ -28,7 +28,7 @@ THEN
     Wait(8)
     DisplayStringHead(Player1,@9) 
     Wait(6)
-    AddJournalEntry(@10,QUEST)
+    AddJournalEntry(@50112,QUEST)
     Wait(2)
     ActionOverride(Player2,LeaveAreaLUA("XG0014","",[491.986],0))
     ActionOverride(Player1,LeaveAreaLUA("XG0014","",[542.955],0))

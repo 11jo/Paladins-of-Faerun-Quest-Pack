@@ -1,13 +1,21 @@
-@0 = ~ Adventurers, please help me! ~
-@1 = ~ What happened boy? ~
-@2 = ~ Pirates attacked our village, I ask you to help us. ~
-@3 = ~ Where is your village located? ~
-@4 = ~ It's about two dozen days east. Please help us. ~
-@5 = ~ I'm sorry, but it's too far, I don't have time for this. ~
+@0 = ~Bonjour aventurier, pourriez-vous m'apporter votre aide ?~ ~Bonjour aventurière, pourriez-vous m'apporter votre aide ?~
+@1 = ~Que t'arrive-t-il, mon garçon ?~
+@2 = ~Mon village est la cible d'attaques de pirates et je suis à la recherche de gens capables de venir nous sauver.~
+@3 = ~Très bien, où se situe votre village ?~
+@4 = ~C'est assez loin, une dizaine de jours de marche.~
+@5 = ~Je suis vraiment désolé bonhomme, mais c'est beaucoup trop éloigné, je n'ai pas le temps pour un si long voyage.~ ~Je suis vraiment désolée bonhomme, mais c'est beaucoup trop éloigné, je n'ai pas le temps pour un si long voyage.~
+
+/*
 @6 = ~ Pirate Island.
 
 Job failed. ~
-@7 = ~ I will go there immediately boy, do not worry. And you stay here and hide. ~
+*/
+
+@7 = ~Alors il faut se mettre en route dès maintenant. Sois sans crainte et mets toi à l'abri en attendant.~
+
+
+/*
 @8 = ~ Pirate Island.
 
 In the Umar Hills, I came across a boy who was looking for adventurers to help his village east of here get rid of the pirates. ~
+*/

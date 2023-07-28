@@ -1,0 +1,7 @@
+	IF
+  Global("XG0214","XG0214",0) 
+THEN
+  RESPONSE #100
+    ActionOverride("XGDRAG1",StartDialogue("XGDRAG1",Player1))
+    Continue()
+END

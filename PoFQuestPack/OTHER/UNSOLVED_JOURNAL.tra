@@ -1,44 +1,55 @@
 // 153 UNSOLVED_JOURNAL
 
-//  Journal
-
-ADD_JOURNAL TITLE (@200) @201 @204 @205 @206 @207
-ADD_JOURNAL TITLE (@199) @202 @203 @208
-
 
 // XGADOB.d 
-UNSOLVED_JOURNAL @8
+UNSOLVED_JOURNAL @8 = ~ Pirate Island.
+
+I promised the village headman to help get rid of all the thieves and pirates in the village, and then recapture the nearby ship and track down their camp. ~
 
 
 // XGAMAG.d
 UNSOLVED_JOURNAL @12
-UNSOLVED_JOURNAL @12
+UNSOLVED_JOURNAL @12 = ~ Paladins of Féérune.
+
+From a conversation with the founder of a new cult to defend Féérune, I learned that this was not an accident, and I was chosen on purpose. My task is for everything to go smoothly. ~
 
 // XGARTBG.d
-UNSOLVED_JOURNAL @9 
-UNSOLVED_JOURNAL @12
+UNSOLVED_JOURNAL @9  = ~ Killer.
 
+I ran into killer Artemis in the city's sewer. ~
+
+UNSOLVED_JOURNAL @12 = ~ Killer.
+
+I didn't have the courage to fight the best killer of Féérune. ~
 
 // XGARUNL.d
-UNSOLVED_JOURNAL @14
-UNSOLVED_JOURNAL @23
-UNSOLVED_JOURNAL @14
+UNSOLVED_JOURNAL @14 = ~ Sorceress.
 
+Elf, the leader of the forest city, asked me to help. A certain witch settled in the mountains near the city and destroys the surrounding villages. I have to go there to find out more. ~
 
-// XGATKI.d
-UNSOLVED_JOURNAL @15
+UNSOLVED_JOURNAL @23 = ~ Paladins of Féérune.
+
+Arundel told me that during the attack they captured Elwin, and indicated the place where he is ~
+
+UNSOLVED_JOURNAL @14
 
 // XGATKI1.d
-UNSOLVED_JOURNAL @5
+UNSOLVED_JOURNAL @5 = ~ Business intersection.
+
+I agreed that temporarily me and my company will act as the personal guard of trade king Amn. ~
 
 
 // XGBARD.d
-UNSOLVED_JOURNAL @8
+UNSOLVED_JOURNAL @8 = ~ Harp.
+
+The wandering Bard lost a harp in the dungeon. If I find her, then I need to return to him. ~
 
 
 // XGBGPS2.d
 UNSOLVED_JOURNAL @7 
-UNSOLVED_JOURNAL @7 
+UNSOLVED_JOURNAL @7  = ~ Killer.
+
+In the tavern, one of the visitors told me that someone had seen a local magician talking to a suspicious person, this may be the one I'm looking for. ~
 
 
 // XGBGPS3.d
@@ -202,10 +213,6 @@ UNSOLVED_JOURNAL @6
 //  XGH1.d 
 UNSOLVED_JOURNAL @4
 
-//  XGhqmi.d
-UNSOLVED_JOURNAL @4
-UNSOLVED_JOURNAL @15
-
 //  XGHROT1.d 
 UNSOLVED_JOURNAL @10
 
@@ -238,7 +245,9 @@ UNSOLVED_JOURNAL @5
 UNSOLVED_JOURNAL @9
 
 //  XGLOFLT.d 
-UNSOLVED_JOURNAL @4
+UNSOLVED_JOURNAL @4 = ~ Pirate Island.
+
+The task was completed, the leader of the stray daggers will not be more likely to create problems, but Aran's friend is unfortunately dead. ~
 
 //  XGLORU.d
 UNSOLVED_JOURNAL @10
@@ -285,9 +294,6 @@ UNSOLVED_JOURNAL @11
 UNSOLVED_JOURNAL @13
 UNSOLVED_JOURNAL @16
 UNSOLVED_JOURNAL @20
-
-//  XGnorpa.d 
-UNSOLVED_JOURNAL @4
 
 //  XGNWNW.d
 UNSOLVED_JOURNAL @5
@@ -403,3 +409,23 @@ UNSOLVED_JOURNAL @24
 
 //  XGz.d
 UNSOLVED_JOURNAL @17
+
+
+
+////////////////////////////////////////////////////////////////
+
+
+
+
+//////////////////////XGATKI.d
+
+//UNSOLVED_JOURNAL @15 DONE // Abduction and politics // Enlèvement et politique.
+
+/////////////////////////////////  XGhqmi.d
+
+//UNSOLVED_JOURNAL @4 DONE // Abduction and politics // Enlèvement et politique.
+//UNSOLVED_JOURNAL @15 DONE // Abduction and politics // Enlèvement et politique.
+
+/////////////////////  XGnorpa.d 
+
+//UNSOLVED_JOURNAL @4 DONE // Abduction and politics // Enlèvement et politique.

@@ -19,6 +19,5 @@ END
 IF ~~ THEN BEGIN 3
   SAY @7
   IF ~~ THEN DO ~RevealAreaOnMap("XG0046")
-EscapeArea()
-~ UNSOLVED_JOURNAL @8 EXIT
+EscapeArea()~ UNSOLVED_JOURNAL @8 EXIT
 END

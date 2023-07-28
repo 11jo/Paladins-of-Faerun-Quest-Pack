@@ -4,10 +4,17 @@
 @3 = ~ Where is your village located? ~
 @4 = ~ It's about two dozen days east. Please help us. ~
 @5 = ~ I'm sorry, but it's too far, I don't have time for this. ~
+
+/*
 @6 = ~ Pirate Island.
 
 Job failed. ~
+*/
+
 @7 = ~ I will go there immediately boy, do not worry. And you stay here and hide. ~
+
+/*
 @8 = ~ Pirate Island.
 
 In the Umar Hills, I came across a boy who was looking for adventurers to help his village east of here get rid of the pirates. ~
+*/

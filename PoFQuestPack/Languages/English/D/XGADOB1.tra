@@ -2,24 +2,44 @@
 @1 = ~ Not yet. ~
 @2 = ~ Yes, I found a thief camp. Their leader will not bother you anymore, and I also met an ancient dragon, he promised to keep an eye on you. Nothing like this will happen anymore. ~
 @3 = ~ Thank you <CHARNAME>, I have nothing to offer you, just a little gold, take it. ~
+
+/*
 @4 = ~ Pirate Island.
 
 On the island, I met a shadow thief fleeing from pirates. He asked me to escort him to shadow thief leader Aran Linweil. He gave me the task of finding his friend who was abducted on the island. ~
+*/
+
+/*
 @5 = ~ Pirate Island.
 
 In the Umar Hills, I came across a boy who was looking for adventurers to help his village east of here get rid of the pirates. ~
+*/
+
+/*
 @6 = ~ Pirate Island.
 
 I promised the village headman to help get rid of all the thieves and pirates in the village, and then recapture the nearby ship and track down their camp. ~
+*/
+/*
 @7 = ~ Dragon artifact.
 
 On the island, I met a dragon who stole a very valuable rod, I must look for it somewhere on this island. ~
+*/
+
+/*
 @8 = ~ Pirate Island.
 
 I need to get rid of the guards in the western and eastern parts of this guild. ~
+*/
+
+/*
 @9 = ~ Pirate Island.
 
 I left the leader of the stray daggers alive, for that he gave me 15,000 gold and a beautiful dagger, and promised to leave the village on the coast alone. ~
+*/
+
+/*
 @10 = ~ Pirate Island.
 
 The village was saved. ~
+*/

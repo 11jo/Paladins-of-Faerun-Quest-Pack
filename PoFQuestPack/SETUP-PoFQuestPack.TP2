@@ -14,12 +14,10 @@ ALWAYS
 
     //Copies tra files into the autotra-folder (to leave the originals untouched)
     DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
-      COPY ~PoFQuestPack/Worldmap/english~						~PoFQuestPack/Languages/autotra/%LANGUAGE%~
       COPY ~PoFQuestPack/Languages/english/Baf_new~				~PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_new~
       COPY ~PoFQuestPack/Languages/english/Baf_are~				~PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_are~
       COPY ~PoFQuestPack/Languages/english/D~					~PoFQuestPack/Languages/autotra/%LANGUAGE%/D~
       COPY ~PoFQuestPack/Languages/english~						~PoFQuestPack/Languages/autotra/%LANGUAGE%~
-      COPY ~PoFQuestPack/Worldmap/%LANGUAGE%~					~PoFQuestPack/Languages/autotra/%LANGUAGE%~
 	  COPY ~PoFQuestPack/Languages/%LANGUAGE%/Baf_new~			~PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_new~
 	  COPY ~PoFQuestPack/Languages/%LANGUAGE%/Baf_are~			~PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_are~
 	  COPY ~PoFQuestPack/Languages/%LANGUAGE%/D~				~PoFQuestPack/Languages/autotra/%LANGUAGE%/D~
@@ -31,7 +29,7 @@ ALWAYS
 
 //  ACTION_DEFINE_ARRAY fl#noconvert BEGIN END
 
- ACTION_DEFINE_ARRAY fl#reload BEGIN SETUP-PoFQuestPack END
+ ACTION_DEFINE_ARRAY fl#reload BEGIN SETUP-PoFQuestPack Journal END
 
     LAF HANDLE_CHARSETS
       INT_VAR
@@ -41,7 +39,24 @@ ALWAYS
 //        noconvert_array = fl#noconvert
         reload_array = fl#reload
 		
+		
  END
+		
+		
+// Workaround for worlmap.tra		
+		
+  ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN	
+  
+		COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/EE/worldmap.tra~ ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
+	 
+  END ELSE BEGIN
+  
+		COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/Vanilla/worldmap.tra~ ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
+		
+  END
+		
+// Workaround for worlmap.tra		
+
 END
 
 AUTO_TRA ~PoFQuestPack/Languages/autotra/%s/D~
@@ -50,18 +65,22 @@ AUTO_TRA ~PoFQuestPack/Languages/autotra/%s/Baf_new~
 LANGUAGE ~Russian~
          ~russian~
          ~PoFQuestPack/Languages/Russian/SETUP-PoFQuestPack.tra~
+         ~PoFQuestPack/Languages/Russian/Journal.tra~
 
 LANGUAGE ~English~
          ~english~
          ~PoFQuestPack/Languages/English/SETUP-PoFQuestPack.tra~
+         ~PoFQuestPack/Languages/English/Journal.tra~
 
 LANGUAGE ~German~
          ~German~
          ~PoFQuestPack/Languages/German/SETUP-PoFQuestPack.tra~
+         ~PoFQuestPack/Languages/German/Journal.tra~
 		 
 LANGUAGE ~Main English / Francais Partiel~
          ~French~
          ~PoFQuestPack/Languages/French/SETUP-PoFQuestPack.tra~
+         ~PoFQuestPack/Languages/French/Journal.tra~
 
 
 ///////////////////////////////////
@@ -72,6 +91,10 @@ LANGUAGE ~Main English / Francais Partiel~
 BEGIN @1
 
 INCLUDE ~PoFQuestPack/Lib/arrays-macros.tpa~
+INCLUDE ~PoFQuestPack/Lib/Area-macros.tpa~
+INCLUDE ~PoFQuestPack/Lib/Bam-macros.tpa~
+INCLUDE ~PoFQuestPack/Lib/Creature-macros.tpa~
+INCLUDE ~PoFQuestPack/Lib/Item-macros.tpa~
 
 COPY ~PoFQuestPack/bam~   ~override~
 
@@ -100,6 +123,7 @@ COPY_EXISTING ~AR1005.ARE~ ~override~
 
 MKDIR ~weidu_external/PoFQuestPack/Actors~
 
+// Items on CREATURES
 ACTION_BASH_FOR ~PoFQuestPack/Actors~ ~^.+$~ BEGIN
 
 PRINT ~         ~
@@ -114,6 +138,39 @@ PRINT ~END item on creature~
 PRINT ~         ~
 
 END
+
+// Script name / Death variable
+ACTION_BASH_FOR ~weidu_external/PoFQuestPack/Actors~ ~^.+$~ BEGIN
+
+PRINT ~         ~
+PRINT ~START Death variable name on creature~
+PRINT ~         ~
+
+  COPY ~%BASH_FOR_FILESPEC%~ ~%BASH_FOR_FILESPEC%~
+    LPM UPDATE_POF_DEATH_NAMES_ON_CRE
+	
+PRINT ~         ~
+PRINT ~END Death variable name on creature~
+PRINT ~         ~
+
+END
+
+// Dlg name
+ACTION_BASH_FOR ~weidu_external/PoFQuestPack/Actors~ ~^.+$~ BEGIN
+
+PRINT ~         ~
+PRINT ~START Dlg name on creature~
+PRINT ~         ~
+
+  COPY ~%BASH_FOR_FILESPEC%~ ~%BASH_FOR_FILESPEC%~
+    LPM UPDATE_POF_DLG_NAMES_ON_CRE
+	
+PRINT ~         ~
+PRINT ~END Dlg name on creature~
+PRINT ~         ~
+
+END
+
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGAA.CRE~			~override/XGAA.CRE~
   SAY NAME1 @2
@@ -529,39 +586,39 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGCLB.CRE~        ~override/XGCLB.CRE~
   SAY NAME1 @67 
   SAY NAME2 @67 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclc1.CRE~       ~override/XGclc1.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGCLC1.CRE~       ~override/XGCLC1.CRE~        
   SAY NAME1 @68 
   SAY NAME2 @68 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclc2.CRE~       ~override/XGclc2.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGCLC2.CRE~       ~override/XGCLC2.CRE~        
   SAY NAME1 @69 
   SAY NAME2 @69 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclc3.CRE~       ~override/XGclc3.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGCLC3.CRE~       ~override/XGCLC3.CRE~        
   SAY NAME1 @69 
   SAY NAME2 @69 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclc4.CRE~       ~override/XGclc4.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGCLC4.CRE~       ~override/XGCLC4.CRE~        
   SAY NAME1 @69 
   SAY NAME2 @69 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclc.CRE~        ~override/XGclc.CRE~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGCLC.CRE~        ~override/XGCLC.CRE~         
   SAY NAME1 @68 
   SAY NAME2 @68 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclcu.CRE~       ~override/XGclcu.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGCLCU.CRE~       ~override/XGCLCU.CRE~        
   SAY NAME1 @64 
   SAY NAME2 @64 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclcw.CRE~       ~override/XGclcw.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGCLCW.CRE~       ~override/XGCLCW.CRE~        
   SAY NAME1 @64 
   SAY NAME2 @64 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclelf.CRE~      ~override/XGclelf.CRE~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGCLELF.CRE~      ~override/XGCLELF.CRE~       
   SAY NAME1 @70 
   SAY NAME2 @70 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGclev.CRE~       ~override/XGclev.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGCLEV.CRE~       ~override/XGCLEV.CRE~        
   SAY NAME1 @70 
   SAY NAME2 @70 
 
@@ -3114,25 +3171,6 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGz.CRE~          ~override/XGz.CRE~
 //////////////////////////////////
 
 
-/*
-MKDIR ~weidu_external/PoFQuestPack/Areas~
-
-ACTION_BASH_FOR ~PoFQuestPack/Areas~ ~^.+$~ BEGIN
-
-PRINT ~         ~
-PRINT ~START WED in areas~
-PRINT ~         ~
-
-  COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%BASH_FOR_FILESPEC%~
-    LPM UPDATE_POF_WED_NAMES_ON_AREA
-	
-PRINT ~         ~
-PRINT ~END WED in areas~
-PRINT ~         ~
-
-END
-*/
-/*
 MKDIR ~weidu_external/PoFQuestPack/Areas~
 
 ACTION_BASH_FOR ~PoFQuestPack/Areas~ ~^.+$~ BEGIN
@@ -3149,41 +3187,61 @@ PRINT ~END creature in areas~
 PRINT ~         ~
 
 END
+
+/*
+ // NOT WORKING NOT FOUND YET
+
+
+ACTION_BASH_FOR ~weidu_external/PoFQuestPack/Areas~ ~^.+$~ BEGIN
+
+PRINT ~         ~
+PRINT ~START Containers in areas~
+PRINT ~         ~
+
+  COPY ~%BASH_FOR_FILESPEC%~ ~%BASH_FOR_FILESPEC%~
+    LPM UPDATE_POF_ITEM_NAMES_ON_CONT
+	
+PRINT ~         ~
+PRINT ~END Containers in areas~
+PRINT ~         ~
+
+END
 */
-COPY ~PoFQuestPack/Areas/XG0000.ARE~         ~override/XG0000.ARE~
 
-COPY ~PoFQuestPack/Areas/XG0001.ARE~         ~override/XG0001.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0000.ARE~         ~override/XG0000.ARE~
 
-COPY ~PoFQuestPack/Areas/XG0002.ARE~         ~override/XG0002.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0001.ARE~         ~override/XG0001.ARE~
 
-COPY ~PoFQuestPack/Areas/XG0003.ARE~			~override/XG0003.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0002.ARE~         ~override/XG0002.ARE~
+
+COPY ~weidu_external/PoFQuestPack/Areas/XG0003.ARE~			~override/XG0003.ARE~
   SAY 0x26b0 @398
   SAY 0x2838 @1000
   SAY 0x3284 @1001 
 
-COPY ~PoFQuestPack/Areas/XG0004.ARE~         ~override/XG0004.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0004.ARE~         ~override/XG0004.ARE~
   SAY 0xD68 @1002
 
-COPY ~PoFQuestPack/Areas/XG0007.ARE~         ~override/XG0007.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0007.ARE~         ~override/XG0007.ARE~
   SAY 0x3104 @399
   SAY 0x3344 @1001
 
-COPY ~PoFQuestPack/Areas/XG0009.ARE~         ~override/XG0009.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0009.ARE~         ~override/XG0009.ARE~
 
-COPY ~PoFQuestPack/Areas/XG0012.ARE~         ~override/XG0012.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0012.ARE~         ~override/XG0012.ARE~
 
-COPY ~PoFQuestPack/Areas/XG0013.ARE~         ~override/XG0013.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0013.ARE~         ~override/XG0013.ARE~
 
-COPY ~PoFQuestPack/Areas/XG0014.ARE~         ~override/XG0014.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0014.ARE~         ~override/XG0014.ARE~
   SAY 0x5C8 @1003
 
-COPY ~PoFQuestPack/Areas/XG0015.ARE~         ~override/XG0015.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0015.ARE~         ~override/XG0015.ARE~
   SAY 0x464 @400
 // SAY 0x7A8 ~~
 
-COPY ~PoFQuestPack/Areas/XG0016.ARE~			~override/XG0016.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0016.ARE~			~override/XG0016.ARE~
 
-COPY ~PoFQuestPack/Areas/XG0017.ARE~			~override/XG0017.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0017.ARE~			~override/XG0017.ARE~
   SAY 0x4780 @1004
   SAY 0x4844 @1004
   SAY 0x4908 @1004
@@ -3191,30 +3249,30 @@ COPY ~PoFQuestPack/Areas/XG0017.ARE~			~override/XG0017.ARE~
   SAY 0x5610 @1006
   SAY 0x5644 @1007
 
-COPY ~PoFQuestPack/Areas/XG0018.ARE~         ~override/XG0018.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0018.ARE~         ~override/XG0018.ARE~
 
-COPY ~PoFQuestPack/Areas/XG0019.ARE~         ~override/XG0019.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0019.ARE~         ~override/XG0019.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0020.ARE~         ~override/XG0020.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0020.ARE~         ~override/XG0020.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0024.ARE~         ~override/XG0024.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0024.ARE~         ~override/XG0024.ARE~         
   SAY 0x2884 @401 
   SAY 0x2b94 @402 
   SAY 0x2D1C @1008
 
-COPY ~PoFQuestPack/Areas/XG0025.ARE~         ~override/XG0025.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0025.ARE~         ~override/XG0025.ARE~
   SAY 0x1390 @1008        
 
-COPY ~PoFQuestPack/Areas/XG0026.ARE~         ~override/XG0026.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0026.ARE~         ~override/XG0026.ARE~
   SAY 0x28B0 @1009
   SAY 0x28E4 @1009
   SAY 0x2918 @1010          
 
-COPY ~PoFQuestPack/Areas/XG0028.ARE~         ~override/XG0028.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0028.ARE~         ~override/XG0028.ARE~
   SAY 0x105C @1011 
   SAY 0x1124 @1012         
 
-COPY ~PoFQuestPack/Areas/XG0029.ARE~         ~override/XG0029.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0029.ARE~         ~override/XG0029.ARE~         
   SAY 0x1bc4 @403 
   SAY 0x1e10 @404
   SAY 0x205C @1013
@@ -3225,34 +3283,34 @@ COPY ~PoFQuestPack/Areas/XG0029.ARE~         ~override/XG0029.ARE~
   SAY 0x2894 @1017
   SAY 0x28C8 @1018 
 
-COPY ~PoFQuestPack/Areas/XG0030.ARE~         ~override/XG0030.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0030.ARE~         ~override/XG0030.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0033.ARE~         ~override/XG0033.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0033.ARE~         ~override/XG0033.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0034.ARE~         ~override/XG0034.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0034.ARE~         ~override/XG0034.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0039.ARE~         ~override/XG0039.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0039.ARE~         ~override/XG0039.ARE~         
   SAY 0x339c @406 
   SAY 0x3460 @406
   SAY 0x3854 @1019 
 
-COPY ~PoFQuestPack/Areas/XG0040.ARE~         ~override/XG0040.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0040.ARE~         ~override/XG0040.ARE~         
   SAY 0x2334 @401 
   SAY 0x23f8 @401 
 
-COPY ~PoFQuestPack/Areas/XG0041.ARE~         ~override/XG0041.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0041.ARE~         ~override/XG0041.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0045.ARE~         ~override/XG0045.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0045.ARE~         ~override/XG0045.ARE~         
   SAY 0x5240 @407 
   SAY 0x58EC @1020
 
-COPY ~PoFQuestPack/Areas/XG0046.ARE~         ~override/XG0046.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0046.ARE~         ~override/XG0046.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0047.ARE~         ~override/XG0047.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0047.ARE~         ~override/XG0047.ARE~
   SAY 0x16A0 @1021 
   SAY 0x1764 @1022         
 
-COPY ~PoFQuestPack/Areas/XG0048.ARE~         ~override/XG0048.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0048.ARE~         ~override/XG0048.ARE~
 // SAY 0x4410 ~~
 // SAY 0x44D8 ~~
 // SAY 0x450C ~~
@@ -3261,14 +3319,14 @@ COPY ~PoFQuestPack/Areas/XG0048.ARE~         ~override/XG0048.ARE~
 // SAY 0x45A8 ~~
 // SAY 0x45DC ~~
 
-COPY ~PoFQuestPack/Areas/XG0049.ARE~         ~override/XG0049.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0049.ARE~         ~override/XG0049.ARE~
   SAY 0x2444 @408 
 
-COPY ~PoFQuestPack/Areas/XG0050.ARE~         ~override/XG0050.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0050.ARE~         ~override/XG0050.ARE~
 
-COPY ~PoFQuestPack/Areas/XG0052.ARE~         ~override/XG0052.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0052.ARE~         ~override/XG0052.ARE~
 
-COPY ~PoFQuestPack/Areas/XG0053.ARE~         ~override/XG0053.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0053.ARE~         ~override/XG0053.ARE~
 // SAY 0x3104 ~~
 // SAY 0x31C8 ~~
 // SAY 0x3350 ~~
@@ -3278,34 +3336,34 @@ COPY ~PoFQuestPack/Areas/XG0053.ARE~         ~override/XG0053.ARE~
 // SAY 0x3BE8 ~~
 // SAY 0x3C1C ~~
 
-COPY ~PoFQuestPack/Areas/XG0054.ARE~			~override/XG0054.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0054.ARE~			~override/XG0054.ARE~
 // SAY 0x463C ~~  Refuge (de Gradak)       
 
-COPY ~PoFQuestPack/Areas/XG0055.ARE~			~override/XG0055.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0055.ARE~			~override/XG0055.ARE~
 
-COPY ~PoFQuestPack/Areas/XG0056.ARE~			~override/XG0056.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0056.ARE~			~override/XG0056.ARE~
 
-COPY ~PoFQuestPack/Areas/XG0057.ARE~         ~override/XG0057.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0057.ARE~         ~override/XG0057.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0058.ARE~         ~override/XG0058.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0058.ARE~         ~override/XG0058.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0059.ARE~         ~override/XG0059.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0059.ARE~         ~override/XG0059.ARE~         
   SAY 0x2270 @410 
 
-COPY ~PoFQuestPack/Areas/XG0060.ARE~         ~override/XG0060.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0060.ARE~         ~override/XG0060.ARE~         
   SAY 0x7e0 @411 
   SAY 0x8a4 @411 
 
-COPY ~PoFQuestPack/Areas/XG0061.ARE~         ~override/XG0061.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0061.ARE~         ~override/XG0061.ARE~
   SAY 0xB34 @1023
 
-COPY ~PoFQuestPack/Areas/XG0062.ARE~         ~override/XG0062.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0062.ARE~         ~override/XG0062.ARE~
   SAY 0x27C4 @1024
   SAY 0x27F8 @1025
   SAY 0x282C @1026 
   SAY 0x2860 @1027         
 
-COPY ~PoFQuestPack/Areas/XG0063.ARE~         ~override/XG0063.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0063.ARE~         ~override/XG0063.ARE~
   SAY 0x2D9C @1028
   SAY 0x2DD0 @1029 
   SAY 0x2E04 @1030
@@ -3313,7 +3371,7 @@ COPY ~PoFQuestPack/Areas/XG0063.ARE~         ~override/XG0063.ARE~
   SAY 0x2E6C @1032
   SAY 0x2EA0 @1033         
 
-COPY ~PoFQuestPack/Areas/XG0064.ARE~         ~override/XG0064.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0064.ARE~         ~override/XG0064.ARE~
   SAY 0x3B0C @1001
   SAY 0x3BD4 @1024
   SAY 0x3C08 @1034
@@ -3321,558 +3379,559 @@ COPY ~PoFQuestPack/Areas/XG0064.ARE~         ~override/XG0064.ARE~
   SAY 0x3C70 @1036
   SAY 0x3CA4 @1037         
 
-COPY ~PoFQuestPack/Areas/XG0065.ARE~         ~override/XG0065.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0065.ARE~         ~override/XG0065.ARE~
   SAY 0x23E0 @1038         
 
-COPY ~PoFQuestPack/Areas/XG0066.ARE~         ~override/XG0066.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0066.ARE~         ~override/XG0066.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0067.ARE~         ~override/XG0067.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0067.ARE~         ~override/XG0067.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0068.ARE~         ~override/XG0068.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0068.ARE~         ~override/XG0068.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0069.ARE~         ~override/XG0069.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0069.ARE~         ~override/XG0069.ARE~
   SAY 0x495C @1039 
   SAY 0x4960 @1040         
 
-COPY ~PoFQuestPack/Areas/XG0070.ARE~         ~override/XG0070.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0070.ARE~         ~override/XG0070.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0071.ARE~         ~override/XG0071.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0071.ARE~         ~override/XG0071.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0072.ARE~         ~override/XG0072.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0072.ARE~         ~override/XG0072.ARE~
   SAY 0x2450 @1001         
 
-COPY ~PoFQuestPack/Areas/XG0073.ARE~         ~override/XG0073.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0073.ARE~         ~override/XG0073.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0075.ARE~         ~override/XG0075.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0075.ARE~         ~override/XG0075.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0076.ARE~         ~override/XG0076.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0076.ARE~         ~override/XG0076.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0077.ARE~         ~override/XG0077.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0077.ARE~         ~override/XG0077.ARE~
   SAY 0x20C8 @1001         
 
-COPY ~PoFQuestPack/Areas/XG0078.ARE~         ~override/XG0078.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0078.ARE~         ~override/XG0078.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0079.ARE~         ~override/XG0079.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0079.ARE~         ~override/XG0079.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0080.ARE~         ~override/XG0080.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0080.ARE~         ~override/XG0080.ARE~
   SAY 0x26CC @1041
   SAY 0x2700 @1042         
 
-COPY ~PoFQuestPack/Areas/XG0081.ARE~         ~override/XG0081.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0081.ARE~         ~override/XG0081.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0082.ARE~         ~override/XG0082.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0082.ARE~         ~override/XG0082.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0083.ARE~         ~override/XG0083.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0083.ARE~         ~override/XG0083.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0084.ARE~         ~override/XG0084.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0084.ARE~         ~override/XG0084.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0101.ARE~         ~override/XG0101.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0101.ARE~         ~override/XG0101.ARE~         
   SAY 0x1280 @398 
 
-COPY ~PoFQuestPack/Areas/XG0112.ARE~         ~override/XG0112.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0112.ARE~         ~override/XG0112.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0114.ARE~         ~override/XG0114.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0114.ARE~         ~override/XG0114.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0115.ARE~         ~override/XG0115.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0115.ARE~         ~override/XG0115.ARE~
   SAY 0x16A0 @1043 
   SAY 0x16A4 @1044 
   SAY 0x1768 @1045         
 
-COPY ~PoFQuestPack/Areas/XG0116.ARE~         ~override/XG0116.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0116.ARE~         ~override/XG0116.ARE~
   SAY 0x6010 @1046
   SAY 0x6044 @1047         
 
-COPY ~PoFQuestPack/Areas/XG0117.ARE~         ~override/XG0117.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0117.ARE~         ~override/XG0117.ARE~         
   SAY 0x1f40 @412 
 
-COPY ~PoFQuestPack/Areas/XG0118.ARE~         ~override/XG0118.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0118.ARE~         ~override/XG0118.ARE~         
   SAY 0x1cd4 @413         
 
-COPY ~PoFQuestPack/Areas/XG0120.ARE~         ~override/XG0120.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0120.ARE~         ~override/XG0120.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0124.ARE~         ~override/XG0124.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0124.ARE~         ~override/XG0124.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0126.ARE~         ~override/XG0126.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0126.ARE~         ~override/XG0126.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0128.ARE~         ~override/XG0128.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0128.ARE~         ~override/XG0128.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0129.ARE~         ~override/XG0129.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0129.ARE~         ~override/XG0129.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0130.ARE~         ~override/XG0130.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0130.ARE~         ~override/XG0130.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0133.ARE~         ~override/XG0133.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0133.ARE~         ~override/XG0133.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0139.ARE~         ~override/XG0139.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0139.ARE~         ~override/XG0139.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0140.ARE~         ~override/XG0140.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0140.ARE~         ~override/XG0140.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0141.ARE~         ~override/XG0141.ARE~ 
+COPY ~weidu_external/PoFQuestPack/Areas/XG0141.ARE~         ~override/XG0141.ARE~ 
 
-COPY ~PoFQuestPack/Areas/XG0145.ARE~         ~override/XG0145.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0145.ARE~         ~override/XG0145.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0146.ARE~         ~override/XG0146.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0146.ARE~         ~override/XG0146.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0147.ARE~         ~override/XG0147.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0147.ARE~         ~override/XG0147.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0148.ARE~         ~override/XG0148.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0148.ARE~         ~override/XG0148.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0149.ARE~         ~override/XG0149.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0149.ARE~         ~override/XG0149.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0150.ARE~         ~override/XG0150.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0150.ARE~         ~override/XG0150.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0152.ARE~         ~override/XG0152.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0152.ARE~         ~override/XG0152.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0153.ARE~         ~override/XG0153.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0153.ARE~         ~override/XG0153.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0154.ARE~         ~override/XG0154.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0154.ARE~         ~override/XG0154.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0156.ARE~         ~override/XG0156.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0156.ARE~         ~override/XG0156.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0158.ARE~         ~override/XG0158.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0158.ARE~         ~override/XG0158.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0159.ARE~         ~override/XG0159.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0159.ARE~         ~override/XG0159.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0160.ARE~         ~override/XG0160.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0160.ARE~         ~override/XG0160.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0161.ARE~         ~override/XG0161.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0161.ARE~         ~override/XG0161.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0162.ARE~         ~override/XG0162.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0162.ARE~         ~override/XG0162.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0163.ARE~         ~override/XG0163.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0163.ARE~         ~override/XG0163.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0164.ARE~         ~override/XG0164.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0164.ARE~         ~override/XG0164.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0165.ARE~         ~override/XG0165.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0165.ARE~         ~override/XG0165.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0166.ARE~         ~override/XG0166.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0166.ARE~         ~override/XG0166.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0167.ARE~         ~override/XG0167.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0167.ARE~         ~override/XG0167.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0168.ARE~         ~override/XG0168.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0168.ARE~         ~override/XG0168.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0169.ARE~         ~override/XG0169.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0169.ARE~         ~override/XG0169.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0170.ARE~         ~override/XG0170.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0170.ARE~         ~override/XG0170.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0171.ARE~         ~override/XG0171.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0171.ARE~         ~override/XG0171.ARE~         
   SAY 0x1c88 @416
   SAY 0x21C4 @1001 
 
-COPY ~PoFQuestPack/Areas/XG0172.ARE~         ~override/XG0172.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0172.ARE~         ~override/XG0172.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0176.ARE~         ~override/XG0176.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0176.ARE~         ~override/XG0176.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0177.ARE~         ~override/XG0177.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0177.ARE~         ~override/XG0177.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0178.ARE~         ~override/XG0178.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0178.ARE~         ~override/XG0178.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0179.ARE~         ~override/XG0179.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0179.ARE~         ~override/XG0179.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0180.ARE~         ~override/XG0180.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0180.ARE~         ~override/XG0180.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0181.ARE~         ~override/XG0181.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0181.ARE~         ~override/XG0181.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0182.ARE~         ~override/XG0182.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0182.ARE~         ~override/XG0182.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0183.ARE~         ~override/XG0183.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0183.ARE~         ~override/XG0183.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0184.ARE~         ~override/XG0184.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0184.ARE~         ~override/XG0184.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0201.ARE~         ~override/XG0201.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0201.ARE~         ~override/XG0201.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0202.ARE~         ~override/XG0202.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0202.ARE~         ~override/XG0202.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0203.ARE~         ~override/XG0203.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0203.ARE~         ~override/XG0203.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0211.ARE~         ~override/XG0211.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0211.ARE~         ~override/XG0211.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0212.ARE~         ~override/XG0212.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0212.ARE~         ~override/XG0212.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0213.ARE~         ~override/XG0213.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0213.ARE~         ~override/XG0213.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0214.ARE~         ~override/XG0214.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0214.ARE~         ~override/XG0214.ARE~       
+	WRITE_ASCIIE 0x94 ~XG0214~ (8)
 
-COPY ~PoFQuestPack/Areas/XG0215.ARE~         ~override/XG0215.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0215.ARE~         ~override/XG0215.ARE~
   SAY 0x35CC @1043
   SAY 0x3694 @1048          
 
-COPY ~PoFQuestPack/Areas/XG0217.ARE~         ~override/XG0217.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0217.ARE~         ~override/XG0217.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0219.ARE~         ~override/XG0219.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0219.ARE~         ~override/XG0219.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0220.ARE~         ~override/XG0220.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0220.ARE~         ~override/XG0220.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0224.ARE~         ~override/XG0224.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0224.ARE~         ~override/XG0224.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0226.ARE~         ~override/XG0226.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0226.ARE~         ~override/XG0226.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0228.ARE~         ~override/XG0228.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0228.ARE~         ~override/XG0228.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0229.ARE~         ~override/XG0229.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0229.ARE~         ~override/XG0229.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0230.ARE~         ~override/XG0230.ARE~        
+COPY ~weidu_external/PoFQuestPack/Areas/XG0230.ARE~         ~override/XG0230.ARE~        
 
-COPY ~PoFQuestPack/Areas/XG0239.ARE~         ~override/XG0239.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0239.ARE~         ~override/XG0239.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0240.ARE~         ~override/XG0240.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0240.ARE~         ~override/XG0240.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0245.ARE~         ~override/XG0245.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0245.ARE~         ~override/XG0245.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0246.ARE~         ~override/XG0246.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0246.ARE~         ~override/XG0246.ARE~
   SAY 0x3784 @1049          
 
-COPY ~PoFQuestPack/Areas/XG0247.ARE~         ~override/XG0247.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0247.ARE~         ~override/XG0247.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0256.ARE~         ~override/XG0256.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0256.ARE~         ~override/XG0256.ARE~         
   SAY 0x1454 @417 
 
-COPY ~PoFQuestPack/Areas/XG0259.ARE~         ~override/XG0259.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0259.ARE~         ~override/XG0259.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0261.ARE~         ~override/XG0261.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0261.ARE~         ~override/XG0261.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0262.ARE~         ~override/XG0262.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0262.ARE~         ~override/XG0262.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0263.ARE~         ~override/XG0263.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0263.ARE~         ~override/XG0263.ARE~
 // SAY 0x4BD4 @1001          
 
-COPY ~PoFQuestPack/Areas/XG0264.ARE~         ~override/XG0264.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0264.ARE~         ~override/XG0264.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0265.ARE~         ~override/XG0265.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0265.ARE~         ~override/XG0265.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0266.ARE~         ~override/XG0266.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0266.ARE~         ~override/XG0266.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0269.ARE~         ~override/XG0269.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0269.ARE~         ~override/XG0269.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0271.ARE~         ~override/XG0271.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0271.ARE~         ~override/XG0271.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0276.ARE~         ~override/XG0276.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0276.ARE~         ~override/XG0276.ARE~
   SAY 0x258C @1050
   SAY 0x25C0 @1051         
 
-COPY ~PoFQuestPack/Areas/XG0278.ARE~         ~override/XG0278.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0278.ARE~         ~override/XG0278.ARE~
   SAY 0x1E54 @1050
   SAY 0x1E88 @1051          
 
-COPY ~PoFQuestPack/Areas/XG0279.ARE~         ~override/XG0279.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0279.ARE~         ~override/XG0279.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0280.ARE~         ~override/XG0280.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0280.ARE~         ~override/XG0280.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0281.ARE~         ~override/XG0281.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0281.ARE~         ~override/XG0281.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0284.ARE~         ~override/XG0284.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0284.ARE~         ~override/XG0284.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0301.ARE~         ~override/XG0301.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0301.ARE~         ~override/XG0301.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0302.ARE~         ~override/XG0302.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0302.ARE~         ~override/XG0302.ARE~         
   SAY 0x2664 @418 
   SAY 0x2728 @418
   SAY 0x5A18 @1001
   SAY 0x5A1C @1001 
 
-COPY ~PoFQuestPack/Areas/XG0311.ARE~         ~override/XG0311.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0311.ARE~         ~override/XG0311.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0312.ARE~         ~override/XG0312.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0312.ARE~         ~override/XG0312.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0313.ARE~         ~override/XG0313.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0313.ARE~         ~override/XG0313.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0315.ARE~         ~override/XG0315.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0315.ARE~         ~override/XG0315.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0317.ARE~         ~override/XG0317.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0317.ARE~         ~override/XG0317.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0319.ARE~         ~override/XG0319.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0319.ARE~         ~override/XG0319.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0320.ARE~         ~override/XG0320.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0320.ARE~         ~override/XG0320.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0324.ARE~         ~override/XG0324.ARE~        
+COPY ~weidu_external/PoFQuestPack/Areas/XG0324.ARE~         ~override/XG0324.ARE~        
 
-COPY ~PoFQuestPack/Areas/XG0328.ARE~         ~override/XG0328.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0328.ARE~         ~override/XG0328.ARE~         
   SAY 0x4250 @419 
 
-COPY ~PoFQuestPack/Areas/XG0329.ARE~         ~override/XG0329.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0329.ARE~         ~override/XG0329.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0330.ARE~         ~override/XG0330.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0330.ARE~         ~override/XG0330.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0339.ARE~         ~override/XG0339.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0339.ARE~         ~override/XG0339.ARE~
   SAY 0x25EC @1001         
 
-COPY ~PoFQuestPack/Areas/XG0340.ARE~         ~override/XG0340.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0340.ARE~         ~override/XG0340.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0345.ARE~         ~override/XG0345.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0345.ARE~         ~override/XG0345.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0346.ARE~         ~override/XG0346.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0346.ARE~         ~override/XG0346.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0347.ARE~         ~override/XG0347.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0347.ARE~         ~override/XG0347.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0359.ARE~         ~override/XG0359.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0359.ARE~         ~override/XG0359.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0362.ARE~         ~override/XG0362.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0362.ARE~         ~override/XG0362.ARE~         
   SAY 0x4b0 @420 
 
-COPY ~PoFQuestPack/Areas/XG0363.ARE~         ~override/XG0363.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0363.ARE~         ~override/XG0363.ARE~         
   SAY 0x9b4 @421 
 
-COPY ~PoFQuestPack/Areas/XG0364.ARE~         ~override/XG0364.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0364.ARE~         ~override/XG0364.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0365.ARE~         ~override/XG0365.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0365.ARE~         ~override/XG0365.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0369.ARE~         ~override/XG0369.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0369.ARE~         ~override/XG0369.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0371.ARE~         ~override/XG0371.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0371.ARE~         ~override/XG0371.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0380.ARE~         ~override/XG0380.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0380.ARE~         ~override/XG0380.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0381.ARE~         ~override/XG0381.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0381.ARE~         ~override/XG0381.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0384.ARE~         ~override/XG0384.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0384.ARE~         ~override/XG0384.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0401.ARE~         ~override/XG0401.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0401.ARE~         ~override/XG0401.ARE~
   SAY 0x300C @1052         
 
-COPY ~PoFQuestPack/Areas/XG0402.ARE~         ~override/XG0402.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0402.ARE~         ~override/XG0402.ARE~
   SAY 0x28E0 @1001         
 
-COPY ~PoFQuestPack/Areas/XG0403.ARE~         ~override/XG0403.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0403.ARE~         ~override/XG0403.ARE~         
   SAY 0x2bb4 @422 
 
-COPY ~PoFQuestPack/Areas/XG0411.ARE~         ~override/XG0411.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0411.ARE~         ~override/XG0411.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0412.ARE~         ~override/XG0412.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0412.ARE~         ~override/XG0412.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0413.ARE~         ~override/XG0413.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0413.ARE~         ~override/XG0413.ARE~         
   SAY 0x354 @423 
 
-COPY ~PoFQuestPack/Areas/XG0414.ARE~         ~override/XG0414.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0414.ARE~         ~override/XG0414.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0415.ARE~         ~override/XG0415.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0415.ARE~         ~override/XG0415.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0417.ARE~         ~override/XG0417.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0417.ARE~         ~override/XG0417.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0419.ARE~         ~override/XG0419.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0419.ARE~         ~override/XG0419.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0420.ARE~         ~override/XG0420.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0420.ARE~         ~override/XG0420.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0424.ARE~         ~override/XG0424.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0424.ARE~         ~override/XG0424.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0426.ARE~         ~override/XG0426.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0426.ARE~         ~override/XG0426.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0429.ARE~         ~override/XG0429.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0429.ARE~         ~override/XG0429.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0439.ARE~         ~override/XG0439.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0439.ARE~         ~override/XG0439.ARE~
   SAY 0xDB4 @1001          
 
-COPY ~PoFQuestPack/Areas/XG0440.ARE~         ~override/XG0440.ARE~ 
+COPY ~weidu_external/PoFQuestPack/Areas/XG0440.ARE~         ~override/XG0440.ARE~ 
 
-COPY ~PoFQuestPack/Areas/XG0446.ARE~         ~override/XG0446.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0446.ARE~         ~override/XG0446.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0447.ARE~         ~override/XG0447.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0447.ARE~         ~override/XG0447.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0462.ARE~         ~override/XG0462.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0462.ARE~         ~override/XG0462.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0464.ARE~         ~override/XG0464.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0464.ARE~         ~override/XG0464.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0480.ARE~         ~override/XG0480.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0480.ARE~         ~override/XG0480.ARE~
   SAY 0xA7C @1001         
 
-COPY ~PoFQuestPack/Areas/XG0481.ARE~         ~override/XG0481.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0481.ARE~         ~override/XG0481.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG04N1.ARE~         ~override/XG04N1.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG04N1.ARE~         ~override/XG04N1.ARE~
   SAY 0x2DEC @1052         
 
-COPY ~PoFQuestPack/Areas/XG04N2.ARE~         ~override/XG04N2.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG04N2.ARE~         ~override/XG04N2.ARE~
   SAY 0x186C @1001         
 
-COPY ~PoFQuestPack/Areas/XG04N3.ARE~         ~override/XG04N3.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG04N3.ARE~         ~override/XG04N3.ARE~         
   SAY 0x2bb4 @422 
 
-COPY ~PoFQuestPack/Areas/XG0511.ARE~         ~override/XG0511.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0511.ARE~         ~override/XG0511.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0515.ARE~         ~override/XG0515.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0515.ARE~         ~override/XG0515.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0517.ARE~         ~override/XG0517.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0517.ARE~         ~override/XG0517.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0520.ARE~         ~override/XG0520.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0520.ARE~         ~override/XG0520.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0524.ARE~         ~override/XG0524.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0524.ARE~         ~override/XG0524.ARE~         
   SAY 0x4b0 @401 
 
-COPY ~PoFQuestPack/Areas/XG0526.ARE~         ~override/XG0526.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0526.ARE~         ~override/XG0526.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0529.ARE~         ~override/XG0529.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0529.ARE~         ~override/XG0529.ARE~
   SAY 0x1604 @1001
 
-COPY ~PoFQuestPack/Areas/XG0539.ARE~         ~override/XG0539.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0539.ARE~         ~override/XG0539.ARE~
   SAY 0x1D88 @1001         
 
-COPY ~PoFQuestPack/Areas/XG0547.ARE~         ~override/XG0547.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0547.ARE~         ~override/XG0547.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0548.ARE~         ~override/XG0548.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0548.ARE~         ~override/XG0548.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0562.ARE~         ~override/XG0562.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0562.ARE~         ~override/XG0562.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0564.ARE~         ~override/XG0564.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0564.ARE~         ~override/XG0564.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0580.ARE~         ~override/XG0580.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0580.ARE~         ~override/XG0580.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0581.ARE~         ~override/XG0581.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0581.ARE~         ~override/XG0581.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0615.ARE~         ~override/XG0615.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0615.ARE~         ~override/XG0615.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0620.ARE~         ~override/XG0620.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0620.ARE~         ~override/XG0620.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0624.ARE~         ~override/XG0624.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0624.ARE~         ~override/XG0624.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0629.ARE~         ~override/XG0629.ARE~ 
+COPY ~weidu_external/PoFQuestPack/Areas/XG0629.ARE~         ~override/XG0629.ARE~ 
 
-COPY ~PoFQuestPack/Areas/XG0639.ARE~         ~override/XG0639.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0639.ARE~         ~override/XG0639.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0647.ARE~         ~override/XG0647.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0647.ARE~         ~override/XG0647.ARE~         
   SAY 0x16c0 @427 
 
-COPY ~PoFQuestPack/Areas/XG0648.ARE~         ~override/XG0648.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0648.ARE~         ~override/XG0648.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0662.ARE~         ~override/XG0662.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0662.ARE~         ~override/XG0662.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0680.ARE~         ~override/XG0680.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0680.ARE~         ~override/XG0680.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0681.ARE~         ~override/XG0681.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0681.ARE~         ~override/XG0681.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0701.ARE~         ~override/XG0701.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0701.ARE~         ~override/XG0701.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0702.ARE~         ~override/XG0702.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0702.ARE~         ~override/XG0702.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0715.ARE~         ~override/XG0715.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0715.ARE~         ~override/XG0715.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0720.ARE~         ~override/XG0720.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0720.ARE~         ~override/XG0720.ARE~         
   SAY 0x1170 @428 
   SAY 0x1234 @428 
   SAY 0x13bc @429 
 
-COPY ~PoFQuestPack/Areas/XG0729.ARE~         ~override/XG0729.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0729.ARE~         ~override/XG0729.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0747.ARE~         ~override/XG0747.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0747.ARE~         ~override/XG0747.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0748.ARE~         ~override/XG0748.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0748.ARE~         ~override/XG0748.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0762.ARE~         ~override/XG0762.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0762.ARE~         ~override/XG0762.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0764.ARE~         ~override/XG0764.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0764.ARE~         ~override/XG0764.ARE~         
   SAY 0x5c0 @430 
 
-COPY ~PoFQuestPack/Areas/XG0780.ARE~         ~override/XG0780.ARE~ 
+COPY ~weidu_external/PoFQuestPack/Areas/XG0780.ARE~         ~override/XG0780.ARE~ 
   SAY 0x3648 @1053        
 
-COPY ~PoFQuestPack/Areas/XG0801.ARE~         ~override/XG0801.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0801.ARE~         ~override/XG0801.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0803.ARE~         ~override/XG0803.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0803.ARE~         ~override/XG0803.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0815.ARE~         ~override/XG0815.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0815.ARE~         ~override/XG0815.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0820.ARE~         ~override/XG0820.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0820.ARE~         ~override/XG0820.ARE~
   SAY 0x41C @1001          
 
-COPY ~PoFQuestPack/Areas/XG0829.ARE~         ~override/XG0829.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0829.ARE~         ~override/XG0829.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0864.ARE~         ~override/XG0864.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0864.ARE~         ~override/XG0864.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0880.ARE~         ~override/XG0880.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0880.ARE~         ~override/XG0880.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0901.ARE~         ~override/XG0901.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0901.ARE~         ~override/XG0901.ARE~
   SAY 0x4FD4 @1054
 
-COPY ~PoFQuestPack/Areas/XG0902.ARE~         ~override/XG0902.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0902.ARE~         ~override/XG0902.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0903.ARE~         ~override/XG0903.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0903.ARE~         ~override/XG0903.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0920.ARE~         ~override/XG0920.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0920.ARE~         ~override/XG0920.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0964.ARE~         ~override/XG0964.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0964.ARE~         ~override/XG0964.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG0A80.ARE~         ~override/XG0A80.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0A80.ARE~         ~override/XG0A80.ARE~
   SAY 0x24AC @1041
   SAY 0x24E0 @1042         
 
-COPY ~PoFQuestPack/Areas/XG1020.ARE~         ~override/XG1020.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG1020.ARE~         ~override/XG1020.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG1034.ARE~         ~override/XG1034.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG1034.ARE~         ~override/XG1034.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG1053.ARE~         ~override/XG1053.ARE~      
+COPY ~weidu_external/PoFQuestPack/Areas/XG1053.ARE~         ~override/XG1053.ARE~      
 
 // COPY ~PoFQuestPack/OTHER/SPPR112.SPL~         ~override/SPPR112.SPL~ UNLESS ~SPPR112.SPL~
 
 ACTION_IF (NOT FILE_EXISTS_IN_GAME ~SPPR112.SPL~) BEGIN // IWD spell for CLERIC_CIRCLE_OF_PROTECTION
-COPY ~PoFQuestPack/OTHER/IWD.Spell/SPPR112.SPL~         ~override/SPPR112.SPL~ UNLESS ~SPPR112.SPL~
+COPY ~PoFQuestPack/OTHER/IWD.Spell/SPPR112.SPL~         ~override/SPPR112.SPL~
   SAY NAME2 @1067
   SAY DESC @1068
 END
 
-COPY ~PoFQuestPack/Areas/XG1057.ARE~         ~override/XG1057.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG1057.ARE~         ~override/XG1057.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG1080.ARE~         ~override/XG1080.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG1080.ARE~         ~override/XG1080.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG1120.ARE~         ~override/XG1120.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG1120.ARE~         ~override/XG1120.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG1134.ARE~         ~override/XG1134.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG1134.ARE~         ~override/XG1134.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG1220.ARE~         ~override/XG1220.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG1220.ARE~         ~override/XG1220.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG1234.ARE~         ~override/XG1234.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG1234.ARE~         ~override/XG1234.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG1319.ARE~         ~override/XG1319.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG1319.ARE~         ~override/XG1319.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG2057.ARE~         ~override/XG2057.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG2057.ARE~         ~override/XG2057.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG4000.ARE~         ~override/XG4000.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG4000.ARE~         ~override/XG4000.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG4001.ARE~         ~override/XG4001.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG4001.ARE~         ~override/XG4001.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8100.ARE~         ~override/XG8100.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG8100.ARE~         ~override/XG8100.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8103.ARE~         ~override/XG8103.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG8103.ARE~         ~override/XG8103.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8104.ARE~         ~override/XG8104.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG8104.ARE~         ~override/XG8104.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8200.ARE~         ~override/XG8200.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG8200.ARE~         ~override/XG8200.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8201.ARE~         ~override/XG8201.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG8201.ARE~         ~override/XG8201.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8300.ARE~         ~override/XG8300.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG8300.ARE~         ~override/XG8300.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8301.ARE~         ~override/XG8301.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG8301.ARE~         ~override/XG8301.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8400.ARE~         ~override/XG8400.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG8400.ARE~         ~override/XG8400.ARE~         
 
-COPY ~PoFQuestPack/Areas/XG8500.ARE~         ~override/XG8500.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG8500.ARE~         ~override/XG8500.ARE~         
 
-COPY ~PoFQuestPack/Areas/XGa180.ARE~         ~override/XGa180.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XGa180.ARE~         ~override/XGa180.ARE~         
 
-COPY ~PoFQuestPack/Areas/XGa280.ARE~         ~override/XGa280.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XGa280.ARE~         ~override/XGa280.ARE~         
 
-COPY ~PoFQuestPack/Areas/XGa380.ARE~         ~override/XGa380.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XGa380.ARE~         ~override/XGa380.ARE~         
 
-COPY ~PoFQuestPack/Areas/XGa480.ARE~         ~override/XGa480.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XGa480.ARE~         ~override/XGa480.ARE~
   SAY 0x44C @1001         
 
-COPY ~PoFQuestPack/Areas/XGb180.ARE~         ~override/XGb180.ARE~        
+COPY ~weidu_external/PoFQuestPack/Areas/XGb180.ARE~         ~override/XGb180.ARE~        
 
-COPY ~PoFQuestPack/Areas/XGKAR1.ARE~         ~override/XGKAR1.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XGKAR1.ARE~         ~override/XGKAR1.ARE~         
   SAY 0x1060 @431 
 
-COPY ~PoFQuestPack/Areas/XGKAR2.ARE~         ~override/XGKAR2.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XGKAR2.ARE~         ~override/XGKAR2.ARE~         
   SAY 0x1280 @431 
 
-COPY ~PoFQuestPack/Areas/XGRA01.ARE~         ~override/XGRA01.ARE~        
+COPY ~weidu_external/PoFQuestPack/Areas/XGRA01.ARE~         ~override/XGRA01.ARE~        
 
-COPY ~PoFQuestPack/Areas/XGRA03.ARE~         ~override/XGRA03.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XGRA03.ARE~         ~override/XGRA03.ARE~         
 
-COPY ~PoFQuestPack/Areas/XGRA04.ARE~         ~override/XGRA04.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XGRA04.ARE~         ~override/XGRA04.ARE~         
 
-COPY ~PoFQuestPack/Areas/XGRA06.ARE~         ~override/XGRA06.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XGRA06.ARE~         ~override/XGRA06.ARE~         
 
-COPY ~PoFQuestPack/Areas/XGRA08.ARE~         ~override/XGRA08.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XGRA08.ARE~         ~override/XGRA08.ARE~         
 
-COPY ~PoFQuestPack/Areas/XGTORM.ARE~         ~override/XGTORM.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XGTORM.ARE~         ~override/XGTORM.ARE~         
 
-COPY ~PoFQuestPack/Areas/XGUMOD.ARE~         ~override/XGUMOD.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XGUMOD.ARE~         ~override/XGUMOD.ARE~         
   SAY 0x3040 @432 
   SAY 0x32A4 @1001
 
@@ -3881,1407 +3940,1443 @@ COPY ~PoFQuestPack/Areas/XGUMOD.ARE~         ~override/XGUMOD.ARE~
 // Setup  Items
 //////////////////////////////////
 
+MKDIR ~weidu_external/PoFQuestPack/Items~
 
-COPY ~PoFQuestPack/Items/XGcd.ITM~			~override/XGcd.ITM~ // Addition CDMOD.ITM - XGcd.ITM
+//  BAM For Items
+ACTION_BASH_FOR ~PoFQuestPack/Items~ ~^.+$~ BEGIN
+
+PRINT ~         ~
+PRINT ~START BAM_NAMES_ON_ITM~
+PRINT ~         ~
+
+  COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%BASH_FOR_FILESPEC%~
+    LPM UPDATE_POF_BAM_NAMES_ON_ITM
+	
+PRINT ~         ~
+PRINT ~END BAM_NAMES_ON_ITM~
+PRINT ~         ~
+
+END
+
+ // NOT WORKING NOT FOUND YET
+
+/*
+//  BAM on itemability
+ACTION_BASH_FOR ~weidu_external/PoFQuestPack/Items~ ~^.+$~ BEGIN
+
+PRINT ~         ~
+PRINT ~START BAM_NAMES_ON_ itemability~
+PRINT ~         ~
+
+  COPY ~%BASH_FOR_FILESPEC%~ ~%BASH_FOR_FILESPEC%~
+    LPM UPDATE_POF_BAM_NAMES_ON_ITEMABILITY
+	
+PRINT ~         ~
+PRINT ~END BAM_NAMES_ON_ itemability~
+PRINT ~         ~
+
+END
+*/
+COPY ~weidu_external/PoFQuestPack/Items/XGcd.ITM~			~override/XGcd.ITM~ // Addition CDMOD.ITM - XGcd.ITM
   SAY NAME1 @1060
   SAY NAME2 @1061
   SAY DESC @1062
 
-COPY ~PoFQuestPack/Items/XGAM1.ITM~			~override/XGAM1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGAM1.ITM~			~override/XGAM1.ITM~
   SAY NAME1 @433
 
-COPY ~PoFQuestPack/Items/XGAM2.ITM~			~override/XGAM2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGAM2.ITM~			~override/XGAM2.ITM~
   SAY NAME1 @434
 
-COPY ~PoFQuestPack/Items/XGAM3.ITM~			~override/XGAM3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGAM3.ITM~			~override/XGAM3.ITM~
   SAY NAME1 @435 
 
-COPY ~PoFQuestPack/Items/XGAM4.ITM~			~override/XGAM4.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGAM4.ITM~			~override/XGAM4.ITM~
   SAY NAME1 @436
 
-COPY ~PoFQuestPack/Items/XGAM5.ITM~			~override/XGAM5.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGAM5.ITM~			~override/XGAM5.ITM~
   SAY NAME1 @437
 
-COPY ~PoFQuestPack/Items/XGAM.ITM~			~override/XGAM.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGAM.ITM~			~override/XGAM.ITM~
   SAY NAME1 @438
 
-COPY ~PoFQuestPack/Items/XGAMUL1.ITM~			~override/XGAMUL1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGAMUL1.ITM~			~override/XGAMUL1.ITM~
   SAY NAME2 @439
   SAY DESC @440
 
-COPY ~PoFQuestPack/Items/XGAMUL2.ITM~			~override/XGAMUL2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGAMUL2.ITM~			~override/XGAMUL2.ITM~
   SAY NAME2 @441
   SAY DESC @442
 
-COPY ~PoFQuestPack/Items/XGAMUL3.ITM~			~override/XGAMUL3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGAMUL3.ITM~			~override/XGAMUL3.ITM~
   SAY NAME2 @443
   SAY DESC @444
 
-COPY ~PoFQuestPack/Items/XGAMUL4.ITM~			~override/XGAMUL4.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGAMUL4.ITM~			~override/XGAMUL4.ITM~
   SAY NAME2 @445
   SAY DESC @446
 
-COPY ~PoFQuestPack/Items/XGartk1.ITM~			~override/XGartk1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGartk1.ITM~			~override/XGartk1.ITM~
   SAY NAME1 @447
   SAY NAME2 @447
   SAY UNIDENTIFIED_DESC @448
   SAY DESC @448
 
-COPY ~PoFQuestPack/Items/XGARTK.ITM~			~override/XGARTK.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGARTK.ITM~			~override/XGARTK.ITM~
   SAY NAME1 @447
   SAY NAME2 @447
   SAY UNIDENTIFIED_DESC @448
   SAY DESC @448
 
-COPY ~PoFQuestPack/Items/XGART.ITM~			~override/XGART.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGART.ITM~			~override/XGART.ITM~
   SAY NAME1 @447
   SAY NAME2 @447
   SAY UNIDENTIFIED_DESC @449
   SAY DESC @449
 
-COPY ~PoFQuestPack/Items/XGAXE01.ITM~			~override/XGAXE01.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGAXE01.ITM~			~override/XGAXE01.ITM~
   SAY NAME2 @450
   SAY DESC @451
 
-COPY ~PoFQuestPack/Items/XGAXE02.ITM~			~override/XGAXE02.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGAXE02.ITM~			~override/XGAXE02.ITM~
   SAY NAME2 @452
   SAY DESC @453
 
-COPY ~PoFQuestPack/Items/XGAXE03.ITM~			~override/XGAXE03.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGAXE03.ITM~			~override/XGAXE03.ITM~
   SAY NAME2 @454
   SAY DESC @455
 
-COPY ~PoFQuestPack/Items/XGAXE04.ITM~			~override/XGAXE04.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGAXE04.ITM~			~override/XGAXE04.ITM~
   SAY NAME2 @456
   SAY DESC @457
 
-COPY ~PoFQuestPack/Items/XGAXE05.ITM~			~override/XGAXE05.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGAXE05.ITM~			~override/XGAXE05.ITM~
   SAY NAME2 @458
   SAY DESC @459
 
-COPY ~PoFQuestPack/Items/XGAXE06.ITM~			~override/XGAXE06.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGAXE06.ITM~			~override/XGAXE06.ITM~
   SAY NAME2 @460
   SAY DESC @461
 
-COPY ~PoFQuestPack/Items/XGAXE07.ITM~			~override/XGAXE07.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGAXE07.ITM~			~override/XGAXE07.ITM~
   SAY NAME2 @462 
   SAY DESC @463
 
-COPY ~PoFQuestPack/Items/XGBELT1.ITM~			~override/XGBELT1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBELT1.ITM~			~override/XGBELT1.ITM~
   SAY NAME2 @464
   SAY DESC @465
 
-COPY ~PoFQuestPack/Items/XGBELT2.ITM~			~override/XGBELT2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBELT2.ITM~			~override/XGBELT2.ITM~
   SAY NAME2 @466
   SAY DESC @467
 
-COPY ~PoFQuestPack/Items/XGBELT3.ITM~			~override/XGBELT3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBELT3.ITM~			~override/XGBELT3.ITM~
   SAY NAME2 @468
   SAY DESC @469
 
-COPY ~PoFQuestPack/Items/XGBGSD.ITM~			~override/XGBGSD.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBGSD.ITM~			~override/XGBGSD.ITM~
   SAY NAME1 @470
   SAY NAME2 @470
   SAY UNIDENTIFIED_DESC @471
   SAY DESC @471
 
-COPY ~PoFQuestPack/Items/XGBHARF.ITM~			~override/XGBHARF.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBHARF.ITM~			~override/XGBHARF.ITM~
   SAY NAME1 @472
 
-COPY ~PoFQuestPack/Items/XGBOOKP.ITM~			~override/XGBOOKP.ITM~ // Addition (description)
+COPY ~weidu_external/PoFQuestPack/Items/XGBOOKP.ITM~			~override/XGBOOKP.ITM~ // Addition (description)
   SAY NAME1 @2000
   SAY NAME2 @2003
   SAY DESC @2001
 
-COPY ~PoFQuestPack/Items/XGBOOT1.ITM~			~override/XGBOOT1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBOOT1.ITM~			~override/XGBOOT1.ITM~
   SAY NAME2 @473
   SAY DESC @474
 
-COPY ~PoFQuestPack/Items/XGBOOT2.ITM~			~override/XGBOOT2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBOOT2.ITM~			~override/XGBOOT2.ITM~
   SAY NAME2 @475
   SAY DESC @476
 
-COPY ~PoFQuestPack/Items/XGBOOT3.ITM~			~override/XGBOOT3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBOOT3.ITM~			~override/XGBOOT3.ITM~
   SAY NAME2 @477 
   SAY DESC @478 
 
-COPY ~PoFQuestPack/Items/XGBOOT4.ITM~			~override/XGBOOT4.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBOOT4.ITM~			~override/XGBOOT4.ITM~
   SAY NAME2 @479 
   SAY DESC @480 
 
-COPY ~PoFQuestPack/Items/XGBRAC1.ITM~			~override/XGBRAC1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBRAC1.ITM~			~override/XGBRAC1.ITM~
   SAY NAME2 @481 
   SAY DESC @482 
 
-COPY ~PoFQuestPack/Items/XGBRAC2.ITM~			~override/XGBRAC2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBRAC2.ITM~			~override/XGBRAC2.ITM~
   SAY NAME2 @483 
   SAY DESC @484 
 
-COPY ~PoFQuestPack/Items/XGBRAC3.ITM~			~override/XGBRAC3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBRAC3.ITM~			~override/XGBRAC3.ITM~
   SAY NAME2 @485 
   SAY DESC @486 
 
-COPY ~PoFQuestPack/Items/XGBRAC4.ITM~			~override/XGBRAC4.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBRAC4.ITM~			~override/XGBRAC4.ITM~
   SAY NAME2 @487 
   SAY DESC @488 
 
-COPY ~PoFQuestPack/Items/XGBSWO1.ITM~			~override/XGBSWO1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBSWO1.ITM~			~override/XGBSWO1.ITM~
   SAY NAME1 @489 
   SAY NAME2 @489 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @490 
 
-COPY ~PoFQuestPack/Items/XGBSWO2.ITM~			~override/XGBSWO2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBSWO2.ITM~			~override/XGBSWO2.ITM~
   SAY NAME1 @489 
   SAY NAME2 @491 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @492 
 
-COPY ~PoFQuestPack/Items/XGBSWO3.ITM~			~override/XGBSWO3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBSWO3.ITM~			~override/XGBSWO3.ITM~
   SAY NAME1 @489 
   SAY NAME2 @493 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @494 
 
-COPY ~PoFQuestPack/Items/XGBSWO4.ITM~			~override/XGBSWO4.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBSWO4.ITM~			~override/XGBSWO4.ITM~
   SAY NAME1 @489 
   SAY NAME2 @495 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @496 
 
-COPY ~PoFQuestPack/Items/XGBSWO5.ITM~			~override/XGBSWO5.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBSWO5.ITM~			~override/XGBSWO5.ITM~
   SAY NAME1 @489 
   SAY NAME2 @497 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @498 
 
-COPY ~PoFQuestPack/Items/XGBSWO6.ITM~			~override/XGBSWO6.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBSWO6.ITM~			~override/XGBSWO6.ITM~
   SAY NAME1 @489 
   SAY NAME2 @499 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @500 
 
-COPY ~PoFQuestPack/Items/XGBSWO7.ITM~			~override/XGBSWO7.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBSWO7.ITM~			~override/XGBSWO7.ITM~
   SAY NAME1 @489 
   SAY NAME2 @501 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @502 
 
-COPY ~PoFQuestPack/Items/XGBSWO8.ITM~			~override/XGBSWO8.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBSWO8.ITM~			~override/XGBSWO8.ITM~
   SAY NAME1 @489 
   SAY NAME2 @503 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @504 
 
-COPY ~PoFQuestPack/Items/XGBSWO9.ITM~			~override/XGBSWO9.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGBSWO9.ITM~			~override/XGBSWO9.ITM~
   SAY NAME1 @489 
   SAY NAME2 @505 
   SAY UNIDENTIFIED_DESC @490 
   SAY DESC @506 
 
-COPY ~PoFQuestPack/Items/XGCBOW1.ITM~			~override/XGCBOW1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGCBOW1.ITM~			~override/XGCBOW1.ITM~
   SAY NAME2 @507 
   SAY DESC @508 
 
-COPY ~PoFQuestPack/Items/XGCBOW2.ITM~			~override/XGCBOW2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGCBOW2.ITM~			~override/XGCBOW2.ITM~
   SAY NAME2 @509 
   SAY DESC @510 
 
-COPY ~PoFQuestPack/Items/XGCBOW3.ITM~			~override/XGCBOW3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGCBOW3.ITM~			~override/XGCBOW3.ITM~
   SAY NAME2 @511 
   SAY DESC @512 
 
-COPY ~PoFQuestPack/Items/XGCLUB1.ITM~			~override/XGCLUB1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGCLUB1.ITM~			~override/XGCLUB1.ITM~
   SAY NAME2 @513 
   SAY DESC @514 
 
-COPY ~PoFQuestPack/Items/XGCLUB2.ITM~			~override/XGCLUB2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGCLUB2.ITM~			~override/XGCLUB2.ITM~
   SAY NAME2 @515 
   SAY DESC @516 
 
-COPY ~PoFQuestPack/Items/XGCLUB3.ITM~			~override/XGCLUB3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGCLUB3.ITM~			~override/XGCLUB3.ITM~
   SAY NAME2 @517 
   SAY DESC @518 
 
-COPY ~PoFQuestPack/Items/XGFLAI1.ITM~			~override/XGFLAI1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGFLAI1.ITM~			~override/XGFLAI1.ITM~
   SAY NAME2 @519 
   SAY DESC @520 
 
-COPY ~PoFQuestPack/Items/XGFLAI2.ITM~			~override/XGFLAI2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGFLAI2.ITM~			~override/XGFLAI2.ITM~
   SAY NAME2 @521 
   SAY DESC @522 
 
-COPY ~PoFQuestPack/Items/XGFLAI3.ITM~			~override/XGFLAI3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGFLAI3.ITM~			~override/XGFLAI3.ITM~
   SAY NAME2 @523 
   SAY DESC @524 
 
-COPY ~PoFQuestPack/Items/XGCLCK1.ITM~			~override/XGCLCK1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGCLCK1.ITM~			~override/XGCLCK1.ITM~
   SAY NAME1 @525 
   SAY NAME2 @525 
   SAY UNIDENTIFIED_DESC @526 
   SAY DESC @526 
 
-COPY ~PoFQuestPack/Items/XGCMA01.ITM~			~override/XGCMA01.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGCMA01.ITM~			~override/XGCMA01.ITM~
   SAY NAME2 @527 
   SAY DESC @528 
 
-COPY ~PoFQuestPack/Items/XGCMA02.ITM~			~override/XGCMA02.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGCMA02.ITM~			~override/XGCMA02.ITM~
   SAY NAME2 @529 
   SAY DESC @530 
 
-COPY ~PoFQuestPack/Items/XGCMA03.ITM~			~override/XGCMA03.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGCMA03.ITM~			~override/XGCMA03.ITM~
   SAY NAME2 @531 
   SAY DESC @532 
 
-COPY ~PoFQuestPack/Items/XGDBOOK.ITM~			~override/XGDBOOK.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGDBOOK.ITM~			~override/XGDBOOK.ITM~
   SAY NAME1 @533 
   SAY NAME2 @533 
   SAY UNIDENTIFIED_DESC @533 
   SAY DESC @533 
 
-COPY ~PoFQuestPack/Items/XGDEVH.ITM~			~override/XGDEVH.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGDEVH.ITM~			~override/XGDEVH.ITM~
   SAY NAME1 @534 
   SAY NAME2 @534 
 
-COPY ~PoFQuestPack/Items/XGDHEA1.ITM~			~override/XGDHEA1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGDHEA1.ITM~			~override/XGDHEA1.ITM~
   SAY NAME1 @535 
   SAY NAME2 @535 
 
-COPY ~PoFQuestPack/Items/XGDHEAR.ITM~			~override/XGDHEAR.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGDHEAR.ITM~			~override/XGDHEAR.ITM~
   SAY NAME1 @535 
   SAY NAME2 @535 
 
-COPY ~PoFQuestPack/Items/XGDOAX.ITM~			~override/XGDOAX.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGDOAX.ITM~			~override/XGDOAX.ITM~
   SAY NAME2 @536 
   SAY DESC @537 
 
-COPY ~PoFQuestPack/Items/XGdram.ITM~			~override/XGdram.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGdram.ITM~			~override/XGdram.ITM~
   SAY NAME2 @538 
 
-COPY ~PoFQuestPack/Items/XGERKEY.ITM~			~override/XGERKEY.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGERKEY.ITM~			~override/XGERKEY.ITM~
   SAY NAME1 @539 
   SAY NAME2 @539 
   SAY UNIDENTIFIED_DESC @539 
   SAY DESC @539 
 
-COPY ~PoFQuestPack/Items/XGESD.ITM~			~override/XGESD.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGESD.ITM~			~override/XGESD.ITM~
   SAY NAME1 @540 
   SAY NAME2 @540 
   SAY DESC @541 
 
-COPY ~PoFQuestPack/Items/XGesh.ITM~			~override/XGesh.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGesh.ITM~			~override/XGesh.ITM~
   SAY UNIDENTIFIED_DESC @542 
   SAY DESC @542 
 
-COPY ~PoFQuestPack/Items/XGESK.ITM~			~override/XGESK.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGESK.ITM~			~override/XGESK.ITM~
   SAY NAME1 @543 
   SAY NAME2 @543 
 
-COPY ~PoFQuestPack/Items/XGFALH1.ITM~			~override/XGFALH1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGFALH1.ITM~			~override/XGFALH1.ITM~
   SAY NAME1 @544
   SAY NAME2 @544
   SAY UNIDENTIFIED_DESC @545
   SAY DESC @545
 
-COPY ~PoFQuestPack/Items/XGFALH2.ITM~			~override/XGFALH2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGFALH2.ITM~			~override/XGFALH2.ITM~
   SAY NAME1 @544 
   SAY NAME2 @546 
   SAY UNIDENTIFIED_DESC @545 
   SAY DESC @547 
 
-COPY ~PoFQuestPack/Items/XGFALH3.ITM~			~override/XGFALH3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGFALH3.ITM~			~override/XGFALH3.ITM~
   SAY NAME1 @544 
   SAY NAME2 @548 
   SAY UNIDENTIFIED_DESC @545 
   SAY DESC @549 
 
-COPY ~PoFQuestPack/Items/XGFALH4.ITM~			~override/XGFALH4.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGFALH4.ITM~			~override/XGFALH4.ITM~
   SAY NAME1 @544 
   SAY NAME2 @550 
   SAY UNIDENTIFIED_DESC @545 
   SAY DESC @551 
 
-COPY ~PoFQuestPack/Items/XGFALH5.ITM~			~override/XGFALH5.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGFALH5.ITM~			~override/XGFALH5.ITM~
   SAY NAME1 @544 
   SAY NAME2 @552 
   SAY UNIDENTIFIED_DESC @545 
   SAY DESC @553 
 
-COPY ~PoFQuestPack/Items/XGFALH6.ITM~			~override/XGFALH6.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGFALH6.ITM~			~override/XGFALH6.ITM~
   SAY NAME1 @544 
   SAY NAME2 @554 
   SAY UNIDENTIFIED_DESC @545 
   SAY DESC @555 
 
-COPY ~PoFQuestPack/Items/XGFALX1.ITM~			~override/XGFALX1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGFALX1.ITM~			~override/XGFALX1.ITM~
   SAY NAME1 @556 
   SAY NAME2 @556 
   SAY UNIDENTIFIED_DESC @557 
   SAY DESC @557 
 
-COPY ~PoFQuestPack/Items/XGFALX2.ITM~			~override/XGFALX2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGFALX2.ITM~			~override/XGFALX2.ITM~
   SAY NAME1 @556 
   SAY NAME2 @558 
   SAY UNIDENTIFIED_DESC @557 
   SAY DESC @559 
 
-COPY ~PoFQuestPack/Items/XGFALX3.ITM~			~override/XGFALX3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGFALX3.ITM~			~override/XGFALX3.ITM~
   SAY NAME1 @556 
   SAY NAME2 @560 
   SAY UNIDENTIFIED_DESC @557 
   SAY DESC @561 
 
-COPY ~PoFQuestPack/Items/XGFALX4.ITM~			~override/XGFALX4.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGFALX4.ITM~			~override/XGFALX4.ITM~
   SAY NAME1 @556 
   SAY NAME2 @562 
   SAY UNIDENTIFIED_DESC @557 
   SAY DESC @563 
 
-COPY ~PoFQuestPack/Items/XGFALX5.ITM~			~override/XGFALX5.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGFALX5.ITM~			~override/XGFALX5.ITM~
   SAY NAME1 @556 
   SAY NAME2 @564 
   SAY UNIDENTIFIED_DESC @557 
   SAY DESC @565 
 
-COPY ~PoFQuestPack/Items/XGFALX6.ITM~			~override/XGFALX6.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGFALX6.ITM~			~override/XGFALX6.ITM~
   SAY NAME1 @556 
   SAY NAME2 @566 
   SAY UNIDENTIFIED_DESC @557 
   SAY DESC @567 
 
-COPY ~PoFQuestPack/Items/XGFALX7.ITM~			~override/XGFALX7.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGFALX7.ITM~			~override/XGFALX7.ITM~
   SAY NAME1 @556 
   SAY NAME2 @568 
   SAY UNIDENTIFIED_DESC @557 
   SAY DESC @569 
 
-COPY ~PoFQuestPack/Items/XGFAR.ITM~			~override/XGFAR.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGFAR.ITM~			~override/XGFAR.ITM~
   SAY NAME2 @570 
   SAY DESC @571 
 
-COPY ~PoFQuestPack/Items/XGGD1.ITM~			~override/XGGD1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGGD1.ITM~			~override/XGGD1.ITM~
   SAY NAME1 @572 
   SAY NAME2 @572 
   SAY UNIDENTIFIED_DESC @572 
   SAY DESC @572 
 
-COPY ~PoFQuestPack/Items/XGGD2.ITM~			~override/XGGD2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGGD2.ITM~			~override/XGGD2.ITM~
   SAY NAME1 @572 
   SAY NAME2 @572 
   SAY UNIDENTIFIED_DESC @572 
   SAY DESC @572 
 
-COPY ~PoFQuestPack/Items/XGGD3.ITM~			~override/XGGD3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGGD3.ITM~			~override/XGGD3.ITM~
   SAY NAME1 @572 
   SAY NAME2 @572 
   SAY UNIDENTIFIED_DESC @572 
   SAY DESC @572 
 
-COPY ~PoFQuestPack/Items/XGGLA.ITM~			~override/XGGLA.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGGLA.ITM~			~override/XGGLA.ITM~
   SAY NAME2 @573 
   SAY DESC @574 
 
-COPY ~PoFQuestPack/Items/XGGLAVE.ITM~			~override/XGGLAVE.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGGLAVE.ITM~			~override/XGGLAVE.ITM~
   SAY NAME1 @575 
   SAY NAME2 @575 
   SAY UNIDENTIFIED_DESC @576 
   SAY DESC @576 
 
-COPY ~PoFQuestPack/Items/XGGLAV1.ITM~			~override/XGGLAV1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGGLAV1.ITM~			~override/XGGLAV1.ITM~
   SAY NAME1 @575 
   SAY NAME2 @577 
   SAY UNIDENTIFIED_DESC @578 
   SAY DESC @579 
 
-COPY ~PoFQuestPack/Items/XGGLAV2.ITM~			~override/XGGLAV2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGGLAV2.ITM~			~override/XGGLAV2.ITM~
   SAY NAME1 @575 
   SAY NAME2 @580 
   SAY UNIDENTIFIED_DESC @578 
   SAY DESC @581 
 
-COPY ~PoFQuestPack/Items/XGGLAV3.ITM~			~override/XGGLAV3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGGLAV3.ITM~			~override/XGGLAV3.ITM~
   SAY NAME1 @575 
   SAY NAME2 @582 
   SAY UNIDENTIFIED_DESC @578 
   SAY DESC @583 
 
-COPY ~PoFQuestPack/Items/XGGLAV4.ITM~			~override/XGGLAV4.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGGLAV4.ITM~			~override/XGGLAV4.ITM~
   SAY NAME1 @575 
   SAY NAME2 @584 
   SAY UNIDENTIFIED_DESC @578 
   SAY DESC @585 
 
-COPY ~PoFQuestPack/Items/XGGLAV5.ITM~			~override/XGGLAV5.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGGLAV5.ITM~			~override/XGGLAV5.ITM~
   SAY NAME1 @575 
   SAY NAME2 @586 
   SAY UNIDENTIFIED_DESC @578 
   SAY DESC @587 
 
-COPY ~PoFQuestPack/Items/XGGLAV7.ITM~			~override/XGGLAV7.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGGLAV7.ITM~			~override/XGGLAV7.ITM~
   SAY NAME1 @575 
   SAY NAME2 @588 
   SAY UNIDENTIFIED_DESC @576 
   SAY DESC @589 
 
-COPY ~PoFQuestPack/Items/XGGLAV8.ITM~			~override/XGGLAV8.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGGLAV8.ITM~			~override/XGGLAV8.ITM~
   SAY NAME1 @575 
   SAY NAME2 @590 
   SAY UNIDENTIFIED_DESC @576 
   SAY DESC @591 
 
-COPY ~PoFQuestPack/Items/XGGLAV9.ITM~			~override/XGGLAV9.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGGLAV9.ITM~			~override/XGGLAV9.ITM~
   SAY NAME1 @575 
   SAY NAME2 @592 
   SAY UNIDENTIFIED_DESC @576 
   SAY DESC @593 
 
-COPY ~PoFQuestPack/Items/XGLAV10.ITM~			~override/XGLAV10.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGLAV10.ITM~			~override/XGLAV10.ITM~
   SAY NAME1 @575 
   SAY NAME2 @594 
   SAY UNIDENTIFIED_DESC @576 
   SAY DESC @595 
 
-COPY ~PoFQuestPack/Items/XGHAL01.ITM~			~override/XGHAL01.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGHAL01.ITM~			~override/XGHAL01.ITM~
   SAY NAME2 @596 
   SAY DESC @597 
 
-COPY ~PoFQuestPack/Items/XGHAL02.ITM~			~override/XGHAL02.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGHAL02.ITM~			~override/XGHAL02.ITM~
   SAY NAME2 @598 
   SAY DESC @599 
 
-COPY ~PoFQuestPack/Items/XGHAL03.ITM~			~override/XGHAL03.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGHAL03.ITM~			~override/XGHAL03.ITM~
   SAY NAME2 @600 
   SAY DESC @601 
 
-COPY ~PoFQuestPack/Items/XGHAM3.ITM~			~override/XGHAM3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGHAM3.ITM~			~override/XGHAM3.ITM~
   SAY NAME2 @602 
   SAY DESC @603 
 
-COPY ~PoFQuestPack/Items/XGHAMM1.ITM~			~override/XGHAMM1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGHAMM1.ITM~			~override/XGHAMM1.ITM~
   SAY NAME2 @604 
   SAY DESC @605 
 
-COPY ~PoFQuestPack/Items/XGHAMM2.ITM~			~override/XGHAMM2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGHAMM2.ITM~			~override/XGHAMM2.ITM~
   SAY NAME2 @606 
   SAY DESC @607 
 
-COPY ~PoFQuestPack/Items/XGHELM1.ITM~			~override/XGHELM1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGHELM1.ITM~			~override/XGHELM1.ITM~
   SAY NAME2 @608 
   SAY DESC @609 
 
-COPY ~PoFQuestPack/Items/XGHELM2.ITM~			~override/XGHELM2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGHELM2.ITM~			~override/XGHELM2.ITM~
   SAY NAME2 @610 
   SAY DESC @611 
 
-COPY ~PoFQuestPack/Items/XGHELM3.ITM~			~override/XGHELM3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGHELM3.ITM~			~override/XGHELM3.ITM~
   SAY NAME2 @612 
   SAY DESC @613 
 
-COPY ~PoFQuestPack/Items/XGHELM4.ITM~			~override/XGHELM4.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGHELM4.ITM~			~override/XGHELM4.ITM~
   SAY NAME2 @614 
   SAY DESC @615 
 
-COPY ~PoFQuestPack/Items/XGhq.ITM~			~override/XGhq.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGhq.ITM~			~override/XGhq.ITM~
   SAY NAME1 @616 
   SAY NAME2 @616 
   SAY UNIDENTIFIED_DESC @617 
   SAY DESC @617 
 
-COPY ~PoFQuestPack/Items/XGhsr.ITM~			~override/XGhsr.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGhsr.ITM~			~override/XGhsr.ITM~
   SAY NAME1 @618 
   SAY NAME2 @618 
   SAY UNIDENTIFIED_DESC @618 
   SAY DESC @618 
 
-COPY ~PoFQuestPack/Items/XGIK01.ITM~			~override/XGIK01.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGIK01.ITM~			~override/XGIK01.ITM~
   SAY NAME1 @619 
   SAY NAME2 @619 
   SAY UNIDENTIFIED_DESC @620 
   SAY DESC @620 
 
-COPY ~PoFQuestPack/Items/XGIK02.ITM~			~override/XGIK02.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGIK02.ITM~			~override/XGIK02.ITM~
   SAY NAME1 @619 
   SAY NAME2 @621 
   SAY UNIDENTIFIED_DESC @620 
   SAY DESC @622 
 
-COPY ~PoFQuestPack/Items/XGIK03.ITM~			~override/XGIK03.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGIK03.ITM~			~override/XGIK03.ITM~
   SAY NAME1 @619 
   SAY NAME2 @623 
   SAY UNIDENTIFIED_DESC @620 
   SAY DESC @624 
 
-COPY ~PoFQuestPack/Items/XGIK04.ITM~			~override/XGIK04.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGIK04.ITM~			~override/XGIK04.ITM~
   SAY NAME1 @619 
   SAY NAME2 @625 
   SAY UNIDENTIFIED_DESC @620 
   SAY DESC @626 
 
-COPY ~PoFQuestPack/Items/XGIK05.ITM~			~override/XGIK05.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGIK05.ITM~			~override/XGIK05.ITM~
   SAY NAME1 @619 
   SAY NAME2 @627 
   SAY UNIDENTIFIED_DESC @620 
   SAY DESC @628 
 
-COPY ~PoFQuestPack/Items/XGIK06.ITM~			~override/XGIK06.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGIK06.ITM~			~override/XGIK06.ITM~
   SAY NAME1 @619 
   SAY NAME2 @629 
   SAY UNIDENTIFIED_DESC @620 
   SAY DESC @630 
 
-COPY ~PoFQuestPack/Items/XGIK07.ITM~			~override/XGIK07.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGIK07.ITM~			~override/XGIK07.ITM~
   SAY NAME1 @619 
   SAY NAME2 @631 
   SAY UNIDENTIFIED_DESC @620 
   SAY DESC @632 
 
-COPY ~PoFQuestPack/Items/XGiqq.ITM~			~override/XGiqq.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGiqq.ITM~			~override/XGiqq.ITM~
   SAY NAME1 @447 
   SAY NAME2 @447 
 
-COPY ~PoFQuestPack/Items/XGKAT01.ITM~			~override/XGKAT01.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGKAT01.ITM~			~override/XGKAT01.ITM~
   SAY NAME2 @633 
   SAY DESC @634 
 
-COPY ~PoFQuestPack/Items/XGKAT02.ITM~			~override/XGKAT02.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGKAT02.ITM~			~override/XGKAT02.ITM~
   SAY NAME2 @635 
   SAY DESC @636 
 
-COPY ~PoFQuestPack/Items/XGKAT03.ITM~			~override/XGKAT03.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGKAT03.ITM~			~override/XGKAT03.ITM~
   SAY NAME2 @637 
   SAY DESC @638 
 
-COPY ~PoFQuestPack/Items/XGKAT04.ITM~			~override/XGKAT04.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGKAT04.ITM~			~override/XGKAT04.ITM~
   SAY NAME2 @639 
   SAY DESC @640 
 
-COPY ~PoFQuestPack/Items/XGKEV1.ITM~			~override/XGKEV1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGKEV1.ITM~			~override/XGKEV1.ITM~
   SAY NAME1 @641 
   SAY NAME2 @641 
   SAY UNIDENTIFIED_DESC @642 
   SAY DESC @642 
 
-COPY ~PoFQuestPack/Items/XGKEV2.ITM~			~override/XGKEV2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGKEV2.ITM~			~override/XGKEV2.ITM~
   SAY NAME1 @643 
   SAY NAME2 @643 
   SAY UNIDENTIFIED_DESC @644 
   SAY DESC @644 
 
-COPY ~PoFQuestPack/Items/XGKIIT.ITM~			~override/XGKIIT.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGKIIT.ITM~			~override/XGKIIT.ITM~
   SAY NAME1 @645 
   SAY NAME2 @645
   SAY UNIDENTIFIED_DESC @646 
   SAY DESC @646 
 
-COPY ~PoFQuestPack/Items/XGku.ITM~			~override/XGku.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGku.ITM~			~override/XGku.ITM~
 
-COPY ~PoFQuestPack/Items/XGLAN02.ITM~			~override/XGLAN02.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGLAN02.ITM~			~override/XGLAN02.ITM~
   SAY NAME2 @647 
   SAY DESC @648 
 
-COPY ~PoFQuestPack/Items/XGLAN03.ITM~			~override/XGLAN03.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGLAN03.ITM~			~override/XGLAN03.ITM~
   SAY NAME2 @649 
   SAY DESC @650 
 
-COPY ~PoFQuestPack/Items/XGLEAT1.ITM~			~override/XGLEAT1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGLEAT1.ITM~			~override/XGLEAT1.ITM~
   SAY NAME1 @651 
   SAY NAME2 @651 
   SAY UNIDENTIFIED_DESC @652 
   SAY DESC @652 
 
-COPY ~PoFQuestPack/Items/XGleta.ITM~			~override/XGleta.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGleta.ITM~			~override/XGleta.ITM~
 
-COPY ~PoFQuestPack/Items/XGLETER.ITM~			~override/XGLETER.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGLETER.ITM~			~override/XGLETER.ITM~
   SAY NAME1 @653
   SAY UNIDENTIFIED_DESC @654 
 
-COPY ~PoFQuestPack/Items/XGleths.ITM~			~override/XGleths.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGleths.ITM~			~override/XGleths.ITM~
   SAY NAME1 @655 
   SAY NAME2 @655 
   SAY UNIDENTIFIED_DESC @656 
   SAY DESC @656 
 
-COPY ~PoFQuestPack/Items/XGLETL.ITM~			~override/XGLETL.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGLETL.ITM~			~override/XGLETL.ITM~
   SAY NAME1 @655 
   SAY NAME2 @655 
 
-COPY ~PoFQuestPack/Items/XGLETT1.ITM~			~override/XGLETT1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGLETT1.ITM~			~override/XGLETT1.ITM~
   SAY UNIDENTIFIED_DESC @657 
   SAY DESC @657 
 
-COPY ~PoFQuestPack/Items/XGLETT2.ITM~			~override/XGLETT2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGLETT2.ITM~			~override/XGLETT2.ITM~
   SAY UNIDENTIFIED_DESC @658 
   SAY DESC @658 
 
-COPY ~PoFQuestPack/Items/XGLETT.ITM~			~override/XGLETT.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGLETT.ITM~			~override/XGLETT.ITM~
   SAY NAME1 @659 
   SAY NAME2 @659 
   SAY UNIDENTIFIED_DESC @660 
   SAY DESC @660 
 
-COPY ~PoFQuestPack/Items/XGLETW.ITM~			~override/XGLETW.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGLETW.ITM~			~override/XGLETW.ITM~
   SAY NAME1 @661 
   SAY NAME2 @661 
   SAY UNIDENTIFIED_DESC @662 
   SAY DESC @662 
 
-COPY ~PoFQuestPack/Items/XGls.ITM~			~override/XGls.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGls.ITM~			~override/XGls.ITM~
   SAY UNIDENTIFIED_DESC @658 
   SAY DESC @658 
 
-COPY ~PoFQuestPack/Items/XGLUSWQ.ITM~			~override/XGLUSWQ.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGLUSWQ.ITM~			~override/XGLUSWQ.ITM~
   SAY NAME1 @663 
   SAY NAME2 @663 
   SAY UNIDENTIFIED_DESC @664 
   SAY DESC @664 
 
-COPY ~PoFQuestPack/Items/XGLWLET.ITM~			~override/XGLWLET.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGLWLET.ITM~			~override/XGLWLET.ITM~
   SAY NAME1 @665 
   SAY NAME2 @665 
   SAY DESC @666 
 
-COPY ~PoFQuestPack/Items/XGMAGG.ITM~			~override/XGMAGG.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMAGG.ITM~			~override/XGMAGG.ITM~
   SAY NAME1 @667 
   SAY NAME2 @667 
   SAY UNIDENTIFIED_DESC @667 
   SAY DESC @667 
 
-COPY ~PoFQuestPack/Items/XGMAP.ITM~			~override/XGMAP.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMAP.ITM~			~override/XGMAP.ITM~
   SAY NAME1 @668 
   SAY NAME2 @668 
 
-COPY ~PoFQuestPack/Items/XGMAR1.ITM~			~override/XGMAR1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMAR1.ITM~			~override/XGMAR1.ITM~
   SAY NAME2 @669 
   SAY DESC @670 
 
-COPY ~PoFQuestPack/Items/XGMAR.ITM~			~override/XGMAR.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMAR.ITM~			~override/XGMAR.ITM~
   SAY NAME2 @671 
 
-COPY ~PoFQuestPack/Items/XGMB.ITM~			~override/XGMB.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMB.ITM~			~override/XGMB.ITM~
 
-COPY ~PoFQuestPack/Items/XGMBOOK.ITM~			~override/XGMBOOK.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMBOOK.ITM~			~override/XGMBOOK.ITM~
   SAY NAME1 @672 
   SAY NAME2 @672 
   SAY UNIDENTIFIED_DESC @673 
   SAY DESC @673 
 
-COPY ~PoFQuestPack/Items/XGMBOW1.ITM~			~override/XGMBOW1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMBOW1.ITM~			~override/XGMBOW1.ITM~
   SAY NAME2 @674 
   SAY DESC @675 
 
-COPY ~PoFQuestPack/Items/XGMBOW2.ITM~			~override/XGMBOW2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMBOW2.ITM~			~override/XGMBOW2.ITM~
   SAY NAME2 @676 
   SAY DESC @677 
 
-COPY ~PoFQuestPack/Items/XGMBOW3.ITM~			~override/XGMBOW3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMBOW3.ITM~			~override/XGMBOW3.ITM~
   SAY NAME2 @678 
   SAY DESC @679 
 
-COPY ~PoFQuestPack/Items/XGMCA.ITM~			~override/XGMCA.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMCA.ITM~			~override/XGMCA.ITM~
   SAY NAME2 ~~ [-1] 
   SAY UNIDENTIFIED_DESC ~~ [-1] 
   SAY DESC @681 
 
-COPY ~PoFQuestPack/Items/XGMISC.ITM~			~override/XGMISC.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMISC.ITM~			~override/XGMISC.ITM~
   SAY NAME1 @682 
   SAY NAME2 @682 
   SAY UNIDENTIFIED_DESC @683 
   SAY DESC @683 
 
-COPY ~PoFQuestPack/Items/XGMIT.ITM~			~override/XGMIT.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMIT.ITM~			~override/XGMIT.ITM~
   SAY NAME2 @684 
   SAY DESC @685 
 
-COPY ~PoFQuestPack/Items/XGMNEK1.ITM~			~override/XGMNEK1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMNEK1.ITM~			~override/XGMNEK1.ITM~
   SAY NAME1 @686 
   SAY NAME2 @686 
   SAY UNIDENTIFIED_DESC @687 
   SAY DESC @687 
 
-COPY ~PoFQuestPack/Items/XGMOONH.ITM~			~override/XGMOONH.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMOONH.ITM~			~override/XGMOONH.ITM~
   SAY NAME1 @688 
   SAY NAME2 @688 
   SAY UNIDENTIFIED_DESC @689 
 
-COPY ~PoFQuestPack/Items/XGMOONS.ITM~			~override/XGMOONS.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMOONS.ITM~			~override/XGMOONS.ITM~
   SAY NAME2 @674 
   SAY DESC @690 
 
-COPY ~PoFQuestPack/Items/XGMPLAT.ITM~			~override/XGMPLAT.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMPLAT.ITM~			~override/XGMPLAT.ITM~
   SAY NAME2 @511 
   SAY DESC @512 
 
-COPY ~PoFQuestPack/Items/XGMRBO.ITM~			~override/XGMRBO.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMRBO.ITM~			~override/XGMRBO.ITM~
   SAY NAME1 @691 
   SAY NAME2 @691 
 
-COPY ~PoFQuestPack/Items/XGMS01.ITM~			~override/XGMS01.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMS01.ITM~			~override/XGMS01.ITM~
   SAY NAME2 @692 
   SAY DESC @693 
 
-COPY ~PoFQuestPack/Items/XGMS02.ITM~			~override/XGMS02.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMS02.ITM~			~override/XGMS02.ITM~
   SAY NAME2 @694 
   SAY DESC @695 
 
-COPY ~PoFQuestPack/Items/XGMS03.ITM~			~override/XGMS03.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMS03.ITM~			~override/XGMS03.ITM~
   SAY NAME2 @696 
   SAY DESC @697 
 
-COPY ~PoFQuestPack/Items/XGSLIN1.ITM~			~override/XGSLIN1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSLIN1.ITM~			~override/XGSLIN1.ITM~
   SAY NAME2 @698 
   SAY DESC @699 
 
-COPY ~PoFQuestPack/Items/XGSLIN2.ITM~			~override/XGSLIN2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSLIN2.ITM~			~override/XGSLIN2.ITM~
   SAY NAME2 @700 
   SAY DESC @701 
 
-COPY ~PoFQuestPack/Items/XGSLIN3.ITM~			~override/XGSLIN3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSLIN3.ITM~			~override/XGSLIN3.ITM~
   SAY NAME2 @702 
   SAY DESC @703 
 
-COPY ~PoFQuestPack/Items/XGmsq.ITM~			~override/XGmsq.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGmsq.ITM~			~override/XGmsq.ITM~
   SAY NAME1 @704 
   SAY NAME2 @704 
 
-COPY ~PoFQuestPack/Items/XGSTA1.ITM~			~override/XGSTA1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSTA1.ITM~			~override/XGSTA1.ITM~
   SAY NAME2 @705 
   SAY DESC @706 
 
-COPY ~PoFQuestPack/Items/XGSTA2.ITM~			~override/XGSTA2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSTA2.ITM~			~override/XGSTA2.ITM~
   SAY NAME2 @707 
   SAY DESC @708 
 
-COPY ~PoFQuestPack/Items/XGSTA3.ITM~			~override/XGSTA3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSTA3.ITM~			~override/XGSTA3.ITM~
   SAY NAME2 @709 
   SAY DESC @710 
 
-COPY ~PoFQuestPack/Items/XGMTOK.ITM~			~override/XGMTOK.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMTOK.ITM~			~override/XGMTOK.ITM~
   SAY NAME1 @711 
   SAY NAME2 @711 
   SAY UNIDENTIFIED_DESC @712 
   SAY DESC @712 
 
-COPY ~PoFQuestPack/Items/XGMWAND.ITM~			~override/XGMWAND.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMWAND.ITM~			~override/XGMWAND.ITM~
   SAY NAME1 @713 
   SAY NAME2 @713 
   SAY UNIDENTIFIED_DESC @714 
   SAY DESC @714 
 
-COPY ~PoFQuestPack/Items/XGMWD.ITM~			~override/XGMWD.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGMWD.ITM~			~override/XGMWD.ITM~
   SAY NAME1 @715 
   SAY NAME2 @715 
   SAY UNIDENTIFIED_DESC @715 
   SAY DESC @715 
 
-COPY ~PoFQuestPack/Items/XGNINJ1.ITM~			~override/XGNINJ1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGNINJ1.ITM~			~override/XGNINJ1.ITM~
   SAY NAME2 @716 
   SAY DESC @717 
 
-COPY ~PoFQuestPack/Items/XGNINJ2.ITM~			~override/XGNINJ2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGNINJ2.ITM~			~override/XGNINJ2.ITM~
   SAY NAME2 @718 
   SAY DESC @719 
 
-COPY ~PoFQuestPack/Items/XGNINJ3.ITM~			~override/XGNINJ3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGNINJ3.ITM~			~override/XGNINJ3.ITM~
   SAY NAME2 @720 
   SAY DESC @721 
 
-COPY ~PoFQuestPack/Items/XGNOMZ.ITM~			~override/XGNOMZ.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGNOMZ.ITM~			~override/XGNOMZ.ITM~
   SAY NAME2 @722 
   SAY DESC @723 
 
-COPY ~PoFQuestPack/Items/XGODSW.ITM~			~override/XGODSW.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGODSW.ITM~			~override/XGODSW.ITM~
   SAY NAME2 @724 
   SAY DESC @725 
 
-COPY ~PoFQuestPack/Items/XGODSW1.ITM~			~override/XGODSW1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGODSW1.ITM~			~override/XGODSW1.ITM~
   SAY NAME2 @726 
   SAY DESC @727 
 
-COPY ~PoFQuestPack/Items/XGODSW2.ITM~			~override/XGODSW2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGODSW2.ITM~			~override/XGODSW2.ITM~
   SAY NAME2 @728 
   SAY DESC @729 
 
-COPY ~PoFQuestPack/Items/XGODSW3.ITM~			~override/XGODSW3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGODSW3.ITM~			~override/XGODSW3.ITM~
   SAY NAME2 @730 
   SAY DESC @731 
 
-COPY ~PoFQuestPack/Items/XGPIK1.ITM~			~override/XGPIK1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPIK1.ITM~			~override/XGPIK1.ITM~
   SAY NAME1 @732 
   SAY NAME2 @732 
   SAY UNIDENTIFIED_DESC @733 
   SAY DESC @733 
 
-COPY ~PoFQuestPack/Items/XGPIK2.ITM~			~override/XGPIK2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPIK2.ITM~			~override/XGPIK2.ITM~
   SAY NAME1 @732 
   SAY NAME2 @734 
   SAY UNIDENTIFIED_DESC @733 
   SAY DESC @735 
 
-COPY ~PoFQuestPack/Items/XGPIK3.ITM~			~override/XGPIK3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPIK3.ITM~			~override/XGPIK3.ITM~
   SAY NAME1 @732 
   SAY NAME2 @736 
   SAY UNIDENTIFIED_DESC @733 
   SAY DESC @737 
 
-COPY ~PoFQuestPack/Items/XGPIK4.ITM~			~override/XGPIK4.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPIK4.ITM~			~override/XGPIK4.ITM~
   SAY NAME1 @732 
   SAY NAME2 @738 
   SAY UNIDENTIFIED_DESC @733 
   SAY DESC @739 
 
-COPY ~PoFQuestPack/Items/XGPIK5.ITM~			~override/XGPIK5.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPIK5.ITM~			~override/XGPIK5.ITM~
   SAY NAME1 @732 
   SAY NAME2 @740 
   SAY UNIDENTIFIED_DESC @733 
   SAY DESC @741 
 
-COPY ~PoFQuestPack/Items/XGPIK6.ITM~			~override/XGPIK6.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPIK6.ITM~			~override/XGPIK6.ITM~
   SAY NAME1 @732 
   SAY NAME2 @742 
   SAY UNIDENTIFIED_DESC @733 
   SAY DESC @743 
 
-COPY ~PoFQuestPack/Items/XGPIK7.ITM~			~override/XGPIK7.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPIK7.ITM~			~override/XGPIK7.ITM~
   SAY NAME1 @732 
   SAY NAME2 @744 
   SAY UNIDENTIFIED_DESC @733 
   SAY DESC @745 
 
-COPY ~PoFQuestPack/Items/XGpk1.ITM~			~override/XGpk1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGpk1.ITM~			~override/XGpk1.ITM~
   SAY NAME1 @746 
   SAY NAME2 @746 
   SAY UNIDENTIFIED_DESC @747 
   SAY DESC @747 
 
-COPY ~PoFQuestPack/Items/XGpk2.ITM~			~override/XGpk2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGpk2.ITM~			~override/XGpk2.ITM~
   SAY NAME1 @746 
   SAY NAME2 @746 
   SAY UNIDENTIFIED_DESC @748 
   SAY DESC @748 
 
-COPY ~PoFQuestPack/Items/XGpk3.ITM~			~override/XGpk3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGpk3.ITM~			~override/XGpk3.ITM~
   SAY NAME1 @746 
   SAY NAME2 @746 
   SAY UNIDENTIFIED_DESC @749 
   SAY DESC @749 
 
-COPY ~PoFQuestPack/Items/XGpk4.ITM~			~override/XGpk4.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGpk4.ITM~			~override/XGpk4.ITM~
   SAY NAME1 @746 
   SAY NAME2 @746 
   SAY UNIDENTIFIED_DESC @750 
   SAY DESC @750 
 
-COPY ~PoFQuestPack/Items/XGpk5.ITM~			~override/XGpk5.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGpk5.ITM~			~override/XGpk5.ITM~
   SAY NAME1 @746 
   SAY NAME2 @746 
   SAY UNIDENTIFIED_DESC @751 
   SAY DESC @751 
 
-COPY ~PoFQuestPack/Items/XGpkc.ITM~			~override/XGpkc.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGpkc.ITM~			~override/XGpkc.ITM~
   SAY UNIDENTIFIED_DESC @752 
   SAY DESC @752 
 
-COPY ~PoFQuestPack/Items/XGPLAT1.ITM~			~override/XGPLAT1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPLAT1.ITM~			~override/XGPLAT1.ITM~
   SAY NAME2 @753 
   SAY DESC @754 
 
-COPY ~PoFQuestPack/Items/XGPLA1M.ITM~			~override/XGPLA1M.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPLA1M.ITM~			~override/XGPLA1M.ITM~
   SAY NAME1 @651 
   SAY NAME2 @651 
   SAY UNIDENTIFIED_DESC @755 
   SAY DESC @755 
 
-COPY ~PoFQuestPack/Items/XGPLAT2.ITM~			~override/XGPLAT2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPLAT2.ITM~			~override/XGPLAT2.ITM~
   SAY NAME2 @756 
   SAY DESC @757 
 
-COPY ~PoFQuestPack/Items/XGPLAT3.ITM~			~override/XGPLAT3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPLAT3.ITM~			~override/XGPLAT3.ITM~
   SAY NAME2 @758 
   SAY DESC @759 
 
-COPY ~PoFQuestPack/Items/XGPLA30.ITM~			~override/XGPLA30.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPLA30.ITM~			~override/XGPLA30.ITM~
   SAY NAME2 @760 
   SAY DESC @571 
 
-COPY ~PoFQuestPack/Items/XGPLAT4.ITM~			~override/XGPLAT4.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPLAT4.ITM~			~override/XGPLAT4.ITM~
   SAY NAME2 @761 
   SAY DESC @762 
 
-COPY ~PoFQuestPack/Items/XGPLAT5.ITM~			~override/XGPLAT5.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPLAT5.ITM~			~override/XGPLAT5.ITM~
   SAY NAME2 @763 
   SAY DESC @764 
 
-COPY ~PoFQuestPack/Items/XGplat6.ITM~			~override/XGplat6.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGplat6.ITM~			~override/XGplat6.ITM~
   SAY NAME2 @765 
   SAY DESC @766 
 
-COPY ~PoFQuestPack/Items/XGPLAT7.ITM~			~override/XGPLAT7.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPLAT7.ITM~			~override/XGPLAT7.ITM~
   SAY NAME2 @767 
   SAY DESC @768 
 
-COPY ~PoFQuestPack/Items/XGPLAT8.ITM~			~override/XGPLAT8.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPLAT8.ITM~			~override/XGPLAT8.ITM~
   SAY NAME2 @769 
   SAY DESC @770 
 
-COPY ~PoFQuestPack/Items/XGPLAT9.ITM~			~override/XGPLAT9.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPLAT9.ITM~			~override/XGPLAT9.ITM~
   SAY NAME2 @771 
   SAY DESC @772 
 
-COPY ~PoFQuestPack/Items/XGPLAM1.ITM~			~override/XGPLAM1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPLAM1.ITM~			~override/XGPLAM1.ITM~
   SAY NAME2 @773 
   SAY DESC @774 
 
-COPY ~PoFQuestPack/Items/XGPLD.ITM~			~override/XGPLD.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPLD.ITM~			~override/XGPLD.ITM~
   SAY NAME1 @775 
   SAY NAME2 @775 
   SAY UNIDENTIFIED_DESC @776 
   SAY DESC @776 
 
-COPY ~PoFQuestPack/Items/XGplet1.ITM~			~override/XGplet1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGplet1.ITM~			~override/XGplet1.ITM~
   SAY UNIDENTIFIED_DESC @777 
   SAY DESC @777 
 
-COPY ~PoFQuestPack/Items/XGplet.ITM~			~override/XGplet.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGplet.ITM~			~override/XGplet.ITM~
   SAY UNIDENTIFIED_DESC @777 
   SAY DESC @777 
 
-COPY ~PoFQuestPack/Items/XGprc1.ITM~			~override/XGprc1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGprc1.ITM~			~override/XGprc1.ITM~
   SAY NAME1 @778 
   SAY NAME2 @778 
   SAY UNIDENTIFIED_DESC @658 
   SAY DESC @658 
 
-COPY ~PoFQuestPack/Items/XGPRC.ITM~			~override/XGPRC.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGPRC.ITM~			~override/XGPRC.ITM~
   SAY NAME1 @778 
   SAY NAME2 @778 
   SAY UNIDENTIFIED_DESC @658 
   SAY DESC @658 
 
-COPY ~PoFQuestPack/Items/XGprt1.ITM~			~override/XGprt1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGprt1.ITM~			~override/XGprt1.ITM~
   SAY NAME1 @778 
   SAY NAME2 @778 
   SAY UNIDENTIFIED_DESC @658 
   SAY DESC @658 
 
-COPY ~PoFQuestPack/Items/XGprt.ITM~			~override/XGprt.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGprt.ITM~			~override/XGprt.ITM~
   SAY NAME1 @778 
   SAY NAME2 @778 
   SAY UNIDENTIFIED_DESC @658 
   SAY DESC @658 
 
-COPY ~PoFQuestPack/Items/XGQI1.ITM~			~override/XGQI1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGQI1.ITM~			~override/XGQI1.ITM~
   SAY NAME1 @779 
   SAY NAME2 @779 
   SAY UNIDENTIFIED_DESC @667 
   SAY DESC @667 
 
-COPY ~PoFQuestPack/Items/XGQI2.ITM~			~override/XGQI2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGQI2.ITM~			~override/XGQI2.ITM~
   SAY NAME1 @779 
   SAY NAME2 @779 
   SAY UNIDENTIFIED_DESC @780 
   SAY DESC @780 
 
-COPY ~PoFQuestPack/Items/XGQI3.ITM~			~override/XGQI3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGQI3.ITM~			~override/XGQI3.ITM~
   SAY NAME1 @779 
   SAY NAME2 @779 
   SAY UNIDENTIFIED_DESC @667 
   SAY DESC @667 
 
-COPY ~PoFQuestPack/Items/XGqic.ITM~			~override/XGqic.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGqic.ITM~			~override/XGqic.ITM~
   SAY NAME1 @781 
   SAY NAME2 @781 
   SAY UNIDENTIFIED_DESC @782 
   SAY DESC @782 
 
-COPY ~PoFQuestPack/Items/XGqi.ITM~			~override/XGqi.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGqi.ITM~			~override/XGqi.ITM~
   SAY NAME1 @781 
   SAY NAME2 @781 
   SAY UNIDENTIFIED_DESC @782 
   SAY DESC @782 
 
-COPY ~PoFQuestPack/Items/XGqit.ITM~			~override/XGqit.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGqit.ITM~			~override/XGqit.ITM~
   SAY NAME1 @781 
   SAY NAME2 @781 
   SAY UNIDENTIFIED_DESC @782 
   SAY DESC @782 
 
-COPY ~PoFQuestPack/Items/XGQKEY.ITM~			~override/XGQKEY.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGQKEY.ITM~			~override/XGQKEY.ITM~
   SAY NAME1 @783 
   SAY NAME2 @783 
   SAY UNIDENTIFIED_DESC @784 
   SAY DESC @784 
 
-COPY ~PoFQuestPack/Items/XGRING1.ITM~			~override/XGRING1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGRING1.ITM~			~override/XGRING1.ITM~
   SAY NAME2 @785 
   SAY DESC @786 
 
-COPY ~PoFQuestPack/Items/XGRING2.ITM~			~override/XGRING2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGRING2.ITM~			~override/XGRING2.ITM~
   SAY NAME2 @787 
   SAY DESC @788 
 
-COPY ~PoFQuestPack/Items/XGRING3.ITM~			~override/XGRING3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGRING3.ITM~			~override/XGRING3.ITM~
   SAY NAME2 @789 
   SAY DESC @790 
 
-COPY ~PoFQuestPack/Items/XGRING.ITM~			~override/XGRING.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGRING.ITM~			~override/XGRING.ITM~
   SAY NAME1 @791 
   SAY NAME2 @791 
   SAY UNIDENTIFIED_DESC @792 
   SAY DESC @792 
 
-COPY ~PoFQuestPack/Items/XGS.ITM~			~override/XGS.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGS.ITM~			~override/XGS.ITM~
 
-COPY ~PoFQuestPack/Items/XGSAK.ITM~			~override/XGSAK.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSAK.ITM~			~override/XGSAK.ITM~
   SAY NAME1 @793 
   SAY NAME2 @793 
 
-COPY ~PoFQuestPack/Items/XGSCR.ITM~			~override/XGSCR.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSCR.ITM~			~override/XGSCR.ITM~
   SAY NAME1 @794 
   SAY NAME2 @794 
   SAY DESC @795 
 
-COPY ~PoFQuestPack/Items/XGSHLD1.ITM~			~override/XGSHLD1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSHLD1.ITM~			~override/XGSHLD1.ITM~
   SAY NAME2 @796 
   SAY DESC @797 
 
-COPY ~PoFQuestPack/Items/XGSHLD2.ITM~			~override/XGSHLD2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSHLD2.ITM~			~override/XGSHLD2.ITM~
   SAY NAME2 @798 
   SAY DESC @799 
 
-COPY ~PoFQuestPack/Items/XGSHLD3.ITM~			~override/XGSHLD3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSHLD3.ITM~			~override/XGSHLD3.ITM~
   SAY NAME2 @800 
   SAY DESC @801 
 
-COPY ~PoFQuestPack/Items/XGSHLD4.ITM~			~override/XGSHLD4.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSHLD4.ITM~			~override/XGSHLD4.ITM~
   SAY NAME2 @802 
   SAY DESC @803 
 
-COPY ~PoFQuestPack/Items/XGSHL.ITM~			~override/XGSHL.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSHL.ITM~			~override/XGSHL.ITM~
 
-COPY ~PoFQuestPack/Items/XGsk.ITM~			~override/XGsk.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGsk.ITM~			~override/XGsk.ITM~
   SAY UNIDENTIFIED_DESC @804 
   SAY DESC @804 
 
-COPY ~PoFQuestPack/Items/XGspb.ITM~			~override/XGspb.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGspb.ITM~			~override/XGspb.ITM~
   SAY NAME1 @805 
   SAY NAME2 @805 
 
-COPY ~PoFQuestPack/Items/XGSTAR1.ITM~			~override/XGSTAR1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSTAR1.ITM~			~override/XGSTAR1.ITM~
   SAY NAME1 @806 
   SAY NAME2 @806 
   SAY UNIDENTIFIED_DESC @807 
   SAY DESC @807 
 
-COPY ~PoFQuestPack/Items/XGSTAR2.ITM~			~override/XGSTAR2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSTAR2.ITM~			~override/XGSTAR2.ITM~
   SAY NAME1 @806 
   SAY NAME2 @808 
   SAY UNIDENTIFIED_DESC @809 
   SAY DESC @810 
 
-COPY ~PoFQuestPack/Items/XGSTAR3.ITM~			~override/XGSTAR3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSTAR3.ITM~			~override/XGSTAR3.ITM~
   SAY NAME1 @806 
   SAY NAME2 @811 
   SAY UNIDENTIFIED_DESC @809 
   SAY DESC @812 
 
-COPY ~PoFQuestPack/Items/XGSTAR4.ITM~			~override/XGSTAR4.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSTAR4.ITM~			~override/XGSTAR4.ITM~
   SAY NAME1 @806 
   SAY NAME2 @813 
   SAY UNIDENTIFIED_DESC @809 
   SAY DESC @814 
 
-COPY ~PoFQuestPack/Items/XGSTAR5.ITM~			~override/XGSTAR5.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSTAR5.ITM~			~override/XGSTAR5.ITM~
   SAY NAME1 @806 
   SAY NAME2 @815 
   SAY UNIDENTIFIED_DESC @809 
   SAY DESC @816 
 
-COPY ~PoFQuestPack/Items/XGSTAR6.ITM~			~override/XGSTAR6.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSTAR6.ITM~			~override/XGSTAR6.ITM~
   SAY NAME1 @806 
   SAY NAME2 @817 
   SAY UNIDENTIFIED_DESC @809 
   SAY DESC @818 
 
-COPY ~PoFQuestPack/Items/XGSTAR7.ITM~			~override/XGSTAR7.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSTAR7.ITM~			~override/XGSTAR7.ITM~
   SAY NAME1 @806 
   SAY NAME2 @819 
   SAY UNIDENTIFIED_DESC @809 
   SAY DESC @820 
 
-COPY ~PoFQuestPack/Items/XGSTAR.ITM~			~override/XGSTAR.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSTAR.ITM~			~override/XGSTAR.ITM~
 
-COPY ~PoFQuestPack/Items/XGSUD01.ITM~			~override/XGSUD01.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSUD01.ITM~			~override/XGSUD01.ITM~
   SAY NAME1 @821 
   SAY NAME2 @821 
   SAY UNIDENTIFIED_DESC @822 
   SAY DESC @822 
 
-COPY ~PoFQuestPack/Items/XGSUD02.ITM~			~override/XGSUD02.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSUD02.ITM~			~override/XGSUD02.ITM~
   SAY NAME1 @821 
   SAY NAME2 @823 
   SAY UNIDENTIFIED_DESC @822 
   SAY DESC @824 
 
-COPY ~PoFQuestPack/Items/XGSUD03.ITM~			~override/XGSUD03.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSUD03.ITM~			~override/XGSUD03.ITM~
   SAY NAME1 @821 
   SAY NAME2 @825 
   SAY UNIDENTIFIED_DESC @822 
   SAY DESC @826 
 
-COPY ~PoFQuestPack/Items/XGSUD04.ITM~			~override/XGSUD04.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSUD04.ITM~			~override/XGSUD04.ITM~
   SAY NAME1 @821 
   SAY NAME2 @827 
   SAY UNIDENTIFIED_DESC @822 
   SAY DESC @828 
 
-COPY ~PoFQuestPack/Items/XGSUD05.ITM~			~override/XGSUD05.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSUD05.ITM~			~override/XGSUD05.ITM~
   SAY NAME1 @821 
   SAY NAME2 @829 
   SAY UNIDENTIFIED_DESC @822 
   SAY DESC @830 
 
-COPY ~PoFQuestPack/Items/XGSUD06.ITM~			~override/XGSUD06.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSUD06.ITM~			~override/XGSUD06.ITM~
   SAY NAME1 @821 
   SAY NAME2 @831 
   SAY UNIDENTIFIED_DESC @822 
   SAY DESC @832 
 
-COPY ~PoFQuestPack/Items/XGSUD07.ITM~			~override/XGSUD07.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSUD07.ITM~			~override/XGSUD07.ITM~
   SAY NAME1 @821 
   SAY NAME2 @833 
   SAY UNIDENTIFIED_DESC @822 
   SAY DESC @834 
 
-COPY ~PoFQuestPack/Items/XGSWFJ.ITM~			~override/XGSWFJ.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWFJ.ITM~			~override/XGSWFJ.ITM~
   SAY NAME1 @835 
   SAY NAME2 @835 
   SAY UNIDENTIFIED_DESC @836 
   SAY DESC @837 
 
-COPY ~PoFQuestPack/Items/XGSWOJ.ITM~			~override/XGSWOJ.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWOJ.ITM~			~override/XGSWOJ.ITM~
 
-COPY ~PoFQuestPack/Items/XGSWOR1.ITM~			~override/XGSWOR1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWOR1.ITM~			~override/XGSWOR1.ITM~
   SAY NAME2 @838 
   SAY DESC @839 
 
-COPY ~PoFQuestPack/Items/XGSWOR2.ITM~			~override/XGSWOR2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWOR2.ITM~			~override/XGSWOR2.ITM~
   SAY NAME2 @840 
   SAY DESC @841 
 
-COPY ~PoFQuestPack/Items/XGSWOR3.ITM~			~override/XGSWOR3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWOR3.ITM~			~override/XGSWOR3.ITM~
   SAY NAME2 @842 
   SAY DESC @843 
 
-COPY ~PoFQuestPack/Items/XGSWOR4.ITM~			~override/XGSWOR4.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWOR4.ITM~			~override/XGSWOR4.ITM~
   SAY NAME2 @844 
   SAY DESC @845 
 
-COPY ~PoFQuestPack/Items/XGSWOR5.ITM~			~override/XGSWOR5.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWOR5.ITM~			~override/XGSWOR5.ITM~
   SAY NAME2 @846 
   SAY DESC @847 
 
-COPY ~PoFQuestPack/Items/XGSWOR6.ITM~			~override/XGSWOR6.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWOR6.ITM~			~override/XGSWOR6.ITM~
   SAY NAME2 @848 
   SAY DESC @849 
 
-COPY ~PoFQuestPack/Items/XGSWOR7.ITM~			~override/XGSWOR7.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWOR7.ITM~			~override/XGSWOR7.ITM~
   SAY NAME2 @850 
   SAY DESC @851 
 
-COPY ~PoFQuestPack/Items/XGSWOR8.ITM~			~override/XGSWOR8.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWOR8.ITM~			~override/XGSWOR8.ITM~
   SAY NAME2 @852 
   SAY DESC @853 
 
-COPY ~PoFQuestPack/Items/XGSWOR9.ITM~			~override/XGSWOR9.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWOR9.ITM~			~override/XGSWOR9.ITM~
   SAY NAME2 @854 
   SAY DESC @855 
 
-COPY ~PoFQuestPack/Items/XGSWO10.ITM~			~override/XGSWO10.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWO10.ITM~			~override/XGSWO10.ITM~
   SAY NAME2 @856 
   SAY DESC @857 
 
-COPY ~PoFQuestPack/Items/XGSWO11.ITM~			~override/XGSWO11.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWO11.ITM~			~override/XGSWO11.ITM~
   SAY NAME2 @858 
   SAY DESC @859 
 
-COPY ~PoFQuestPack/Items/XGSWO12.ITM~			~override/XGSWO12.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWO12.ITM~			~override/XGSWO12.ITM~
   SAY NAME2 @860 
   SAY DESC @861 
 
-COPY ~PoFQuestPack/Items/XGSWO13.ITM~			~override/XGSWO13.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWO13.ITM~			~override/XGSWO13.ITM~
   SAY NAME2 @862 
   SAY DESC @863 
 
-COPY ~PoFQuestPack/Items/XGSWO14.ITM~			~override/XGSWO14.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWO14.ITM~			~override/XGSWO14.ITM~
   SAY NAME2 @864 
   SAY DESC @865 
 
-COPY ~PoFQuestPack/Items/XGSWO15.ITM~			~override/XGSWO15.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWO15.ITM~			~override/XGSWO15.ITM~
   SAY NAME2 @866 
   SAY DESC @867 
 
-COPY ~PoFQuestPack/Items/XGSWO16.ITM~			~override/XGSWO16.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWO16.ITM~			~override/XGSWO16.ITM~
   SAY NAME2 @868 
   SAY DESC @869 
 
-COPY ~PoFQuestPack/Items/XGSWO17.ITM~			~override/XGSWO17.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWO17.ITM~			~override/XGSWO17.ITM~
   SAY NAME2 @870 
   SAY DESC @871 
 
-COPY ~PoFQuestPack/Items/XGSWO18.ITM~			~override/XGSWO18.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWO18.ITM~			~override/XGSWO18.ITM~
   SAY NAME2 @872 
   SAY DESC @873 
 
-COPY ~PoFQuestPack/Items/XGSWO19.ITM~			~override/XGSWO19.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWO19.ITM~			~override/XGSWO19.ITM~
   SAY NAME2 @874 
   SAY DESC @875 
 
-COPY ~PoFQuestPack/Items/XGSWO20.ITM~			~override/XGSWO20.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWO20.ITM~			~override/XGSWO20.ITM~
   SAY NAME2 @876 
   SAY DESC @877 
 
-COPY ~PoFQuestPack/Items/XGSWO21.ITM~			~override/XGSWO21.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGSWO21.ITM~			~override/XGSWO21.ITM~
   SAY NAME2 @878 
   SAY DESC @879 
 
-COPY ~PoFQuestPack/Items/XGTGBOD.ITM~			~override/XGTGBOD.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGTGBOD.ITM~			~override/XGTGBOD.ITM~
   SAY NAME1 @880 
   SAY NAME2 @880 
   SAY DESC @881 
 
 
-COPY ~PoFQuestPack/Items/XGTRBL.ITM~			~override/XGTRBL.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGTRBL.ITM~			~override/XGTRBL.ITM~
   SAY NAME1 @882 
   SAY NAME2 @882 
   SAY UNIDENTIFIED_DESC @883 
   SAY DESC @883 
 
-COPY ~PoFQuestPack/Items/XGTRI1.ITM~			~override/XGTRI1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGTRI1.ITM~			~override/XGTRI1.ITM~
   SAY NAME1 @884 
   SAY NAME2 @884 
   SAY UNIDENTIFIED_DESC @885 
   SAY DESC @885 
 
-COPY ~PoFQuestPack/Items/XGTRI2.ITM~			~override/XGTRI2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGTRI2.ITM~			~override/XGTRI2.ITM~
   SAY NAME1 @884 
   SAY NAME2 @886 
   SAY UNIDENTIFIED_DESC @885 
   SAY DESC @887 
 
-COPY ~PoFQuestPack/Items/XGTRI3.ITM~			~override/XGTRI3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGTRI3.ITM~			~override/XGTRI3.ITM~
   SAY NAME1 @884 
   SAY NAME2 @888 
   SAY UNIDENTIFIED_DESC @885 
   SAY DESC @889 
 
-COPY ~PoFQuestPack/Items/XGTRI4.ITM~			~override/XGTRI4.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGTRI4.ITM~			~override/XGTRI4.ITM~
   SAY NAME1 @884 
   SAY NAME2 @890 
   SAY UNIDENTIFIED_DESC @885 
   SAY DESC @891 
 
-COPY ~PoFQuestPack/Items/XGTRI5.ITM~			~override/XGTRI5.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGTRI5.ITM~			~override/XGTRI5.ITM~
   SAY NAME1 @884 
   SAY NAME2 @892 
   SAY UNIDENTIFIED_DESC @885 
   SAY DESC @893 
 
-COPY ~PoFQuestPack/Items/XGTRI6.ITM~			~override/XGTRI6.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGTRI6.ITM~			~override/XGTRI6.ITM~
   SAY NAME1 @884 
   SAY NAME2 @894 
   SAY UNIDENTIFIED_DESC @885 
   SAY DESC @895 
 
-COPY ~PoFQuestPack/Items/XGTRI7.ITM~			~override/XGTRI7.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGTRI7.ITM~			~override/XGTRI7.ITM~
   SAY NAME1 @884 
   SAY NAME2 @896 
   SAY UNIDENTIFIED_DESC @885 
   SAY DESC @897 
 
-COPY ~PoFQuestPack/Items/XGTRW.ITM~			~override/XGTRW.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGTRW.ITM~			~override/XGTRW.ITM~
   SAY NAME2 @898 
   SAY DESC @899 
 
-COPY ~PoFQuestPack/Items/XGUKEY.ITM~			~override/XGUKEY.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGUKEY.ITM~			~override/XGUKEY.ITM~
   SAY UNIDENTIFIED_DESC @900 
   SAY DESC @900 
 
-COPY ~PoFQuestPack/Items/XGVR.ITM~			~override/XGVR.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGVR.ITM~			~override/XGVR.ITM~
   SAY NAME1 @901 
   SAY NAME2 @902 
   SAY DESC @903 
 
-COPY ~PoFQuestPack/Items/XGWA.ITM~			~override/XGWA.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGWA.ITM~			~override/XGWA.ITM~
   SAY NAME1 @904 
   SAY NAME2 @904 
   SAY UNIDENTIFIED_DESC @905 
   SAY DESC @905 
 
-COPY ~PoFQuestPack/Items/XGWAND1.ITM~			~override/XGWAND1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGWAND1.ITM~			~override/XGWAND1.ITM~
   SAY NAME2 @906 
   SAY DESC @907 
 
-COPY ~PoFQuestPack/Items/XGWAND2.ITM~			~override/XGWAND2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGWAND2.ITM~			~override/XGWAND2.ITM~
   SAY NAME2 @908 
   SAY DESC @909 
 
-COPY ~PoFQuestPack/Items/XGWAND3.ITM~			~override/XGWAND3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGWAND3.ITM~			~override/XGWAND3.ITM~
   SAY NAME2 @910 
   SAY DESC @911 
 
-COPY ~PoFQuestPack/Items/XGWH.ITM~			~override/XGWH.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGWH.ITM~			~override/XGWH.ITM~
   SAY NAME1 @912 
   SAY UNIDENTIFIED_DESC @913 
 
-COPY ~PoFQuestPack/Items/XGWOLFF.ITM~			~override/XGWOLFF.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGWOLFF.ITM~			~override/XGWOLFF.ITM~
 
-COPY ~PoFQuestPack/Items/XGWRD1.ITM~			~override/XGWRD1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGWRD1.ITM~			~override/XGWRD1.ITM~
   SAY NAME1 @914 
   SAY NAME2 @914 
   SAY UNIDENTIFIED_DESC @915 
   SAY DESC @915 
 
-COPY ~PoFQuestPack/Items/XGWRG.ITM~			~override/XGWRG.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGWRG.ITM~			~override/XGWRG.ITM~
   SAY UNIDENTIFIED_DESC @916 
   SAY DESC @916 
 
-COPY ~PoFQuestPack/Items/XGZAT1.ITM~			~override/XGZAT1.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGZAT1.ITM~			~override/XGZAT1.ITM~
   SAY NAME1 @917 
   SAY NAME2 @917 
   SAY UNIDENTIFIED_DESC @917 
   SAY DESC @917 
 
-COPY ~PoFQuestPack/Items/XGZAT2.ITM~			~override/XGZAT2.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGZAT2.ITM~			~override/XGZAT2.ITM~
   SAY NAME1 @917 
   SAY NAME2 @917 
   SAY UNIDENTIFIED_DESC @917 
   SAY DESC @917 
 
-COPY ~PoFQuestPack/Items/XGZAT3.ITM~			~override/XGZAT3.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGZAT3.ITM~			~override/XGZAT3.ITM~
   SAY NAME1 @917 
   SAY NAME2 @917 
   SAY UNIDENTIFIED_DESC @917 
   SAY DESC @917 
 
-COPY ~PoFQuestPack/Items/XGZAT4.ITM~			~override/XGZAT4.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGZAT4.ITM~			~override/XGZAT4.ITM~
   SAY NAME1 @917 
   SAY NAME2 @917 
   SAY UNIDENTIFIED_DESC @917 
   SAY DESC @917 
 
-COPY ~PoFQuestPack/Items/XGZAT5.ITM~			~override/XGZAT5.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGZAT5.ITM~			~override/XGZAT5.ITM~
   SAY NAME1 @917
   SAY NAME2 @917
   SAY UNIDENTIFIED_DESC @917
   SAY DESC @917
 
-COPY ~PoFQuestPack/Items/XGZAT6.ITM~			~override/XGZAT6.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGZAT6.ITM~			~override/XGZAT6.ITM~
   SAY NAME1 @917
   SAY NAME2 @917
   SAY UNIDENTIFIED_DESC @917
   SAY DESC @917
 
-COPY ~PoFQuestPack/Items/XGZAT.ITM~			~override/XGZAT.ITM~
+COPY ~weidu_external/PoFQuestPack/Items/XGZAT.ITM~			~override/XGZAT.ITM~
   SAY NAME1 @917
   SAY NAME2 @917
   SAY UNIDENTIFIED_DESC @917
@@ -5295,6 +5390,7 @@ COPY ~PoFQuestPack/Items/XGZAT.ITM~			~override/XGZAT.ITM~
 
 MKDIR ~weidu_external/PoFQuestPack/Stores~
 
+// Items in STORES
 ACTION_BASH_FOR ~PoFQuestPack/Stores~ ~^.+$~ BEGIN
 
 PRINT ~         ~
@@ -5379,6 +5475,16 @@ COPY ~weidu_external/PoFQuestPack/Stores/S#SHEV01.STO~			~override/S#SHEV01.STO~
 
 COPY ~weidu_external/PoFQuestPack/Stores/s#SHOP01.STO~			~override/s#SHOP01.STO~
   SAY NAME2 @402
+  
+  
+//////////////////////////////////
+// Journal
+//////////////////////////////////
+
+
+ADD_JOURNAL TITLE (@49000) @49001 @50000 @50001 @50002 @50003 @50004 @50005 @50006 @50007 @50008 @50009 // Abduction and politics // Enlèvement et politique. // XGnorpa.tra, XGhqmi.tra, XGATKI.tra, XG0639.tra, XG0440.tra, XG0168.tra
+ADD_JOURNAL TITLE (@50110) @50111 @50112 @50113 @50114 @50116 @50117 @50118 @50119 // Pirate Island // L'île aux pirates // XG0049.tra, XG0414.tra, XGADOB.tra, XGADOB1.tra, XGBOY.tra, XGLOFLT.tra
+ADD_JOURNAL TITLE (@50120) @50115 @50121 @50122 // Dragon artifact (Pirate Island) // L'artefact d'un dragon (L'île aux pirates) //  XGADOB1.tra, XGDRAG1.tra
 
  
 //////////////////////////////////
@@ -5412,8 +5518,111 @@ EXTEND_TOP ~AR0527.BCS~				~PoFQuestPack/baf_are/S#AR0527.baf~
 
 EXTEND_TOP ~AR0528.BCS~				~PoFQuestPack/baf_are/S#AR0528.baf~
 
+ACTION_IF (GAME_IS ~bg2 bgt~) BEGIN
+
 EXTEND_TOP ~AR0602.BCS~				~PoFQuestPack/baf_are/S#AR0602.baf~
 USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0602.tra~
+
+END
+
+ACTION_IF (GAME_IS ~bg2ee eet~ AND FILE_EXISTS_IN_GAME ~AR0602.BCS~) BEGIN
+
+	COPY_EXISTING ~AR0602.BCS~ ~weidu_external/PoFQuestPack/baf_are/AR0602.BAF~
+	
+		DECOMPILE_BCS_TO_BAF
+	
+REPLACE_TEXTUALLY ~SetGlobal("NewGame","AR0602",1)~ ~ClearAllActions()
+	Explore()
+	CreateCreature("XGJONW",[3746.1998],10)
+	CreateCreature("XGJOWC",[3686.1869],14)
+	CreateCreature("XGIRENM",[3967.2030],7)
+	CreateCreature("XGJON",[3876.1870],1)
+	CreateCreature("XGNPC4",[3658.1987],10)
+	CreateCreature("XGIMOEN",[3653.1718],14)
+	SmallWait(1)
+	ActionOverride(Player1,LeaveAreaLUA("AR0602","",[3532.1997],0))
+	SmallWait(1)
+	MoveViewPoint([3693.1997],INSTANT)
+	Wait(1)
+	FadeFromColor([1.0],0)
+	Wait(3)
+	DisplayStringHead("XGJON",@0)
+	Wait(6)
+	DisplayStringHead("XGNPC4",@1)
+	Wait(5)
+	DisplayStringHead("XGNPC4",@7)
+	Wait(6)
+	DisplayStringHead("XGJON",@2)
+	Wait(10)
+	DisplayStringHead("XGJON",@8)
+	Wait(5)
+	DisplayStringHead("XGJONW",@3)
+	Wait(2)
+	ActionOverride("XGJON",MoveToPoint([4125.1267]))
+	Wait(3)
+	ActionOverride("XGJON",DestroySelf())
+	MoveViewPoint([3604.1846],INSTANT)
+	SmallWait(1)
+	DisplayStringHead("XGIMOEN",@4)
+	Wait(1)
+	MoveViewPoint([3908.2001],SLOW)
+	ActionOverride("XGNPC4",MoveToPoint([3732.1917]))
+	SmallWait(1)
+	DisplayStringHead("XGNPC4",@5)
+	Wait(6)
+	ActionOverride("XGIRENM",Spell("XGNPC4",WIZARD_MAGIC_MISSILE))
+	SmallWait(1)
+	ActionOverride("XGNPC4",MoveToPoint([3829.1870]))
+	ActionOverride("XGNPC4",FaceObject("XGIRENM"))
+	Wait(2)
+	DisplayStringHead("XGNPC4",@9)
+	Wait(6)
+	ActionOverride("XGJONW",MoveToObject("XGNPC4"))
+	Wait(4)
+	DisplayStringHead("XGNPC4",@10)
+	Wait(1)
+	ActionOverride("XGNPC4",Attack("XGJONW"))
+	Wait(2)
+	ActionOverride("XGJONW",Attack("XGNPC4"))
+	Wait(3)
+	ActionOverride("XGJOWC",Attack("XGNPC4"))
+	SmallWait(1)
+	ActionOverride("XGIRENM",Spell("XGNPC4",WIZARD_LIGHTNING_BOLT))
+	Wait(3)
+	ActionOverride("XGJONW",SetSequence(SEQ_SLEEP))
+	Wait(1)
+	ActionOverride("XGNPC4",Attack("XGJOWC"))
+	SmallWait(1)
+	ActionOverride("XGIRENM",MoveToPoint([3674.2024]))
+	ActionOverride("XGIRENM",FaceObject("XGNPC4"))
+	Wait(5)
+	ActionOverride("XGJOWC",SetSequence(SEQ_SLEEP))
+	SmallWait(1)
+	ActionOverride("XGIRENM",Spell("XGNPC4",WIZARD_FINGER_OF_DEATH_IGNORE_RESISTANCE))
+	Wait(1)
+	ActionOverride("XGNPC4",Attack("XGIRENM"))
+	Wait(3)
+	ActionOverride("XGIRENM",Kill("XGNPC4"))
+	Wait(1)
+	MoveViewPoint([3604.1846],SLOW)
+	Wait(1)
+	DisplayStringHead("XGIMOEN",@6)
+	Wait(4)
+	ActionOverride(Player1,LeaveAreaLUA("AR0602","",[3739.2801],2))
+	Wait(2)
+	MoveViewPoint([3740.2799],INSTANT)
+	ActionOverride("XGIMOEN",DestroySelf())
+	ActionOverride("XGJONW",DestroySelf())
+	ActionOverride("XGJOWC",DestroySelf())
+	ActionOverride("XGIRENM",DestroySelf())
+	SetGlobal("NewGame","AR0602",1)~
+	
+COMPILE ~weidu_external/PoFQuestPack/baf_are/AR0602.BAF~ ~override~
+USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0602EE.tra~
+		
+EXTEND_BOTTOM ~AR0602.BCS~				~PoFQuestPack/baf_are/S#AR0602EE.baf~
+		
+END
 
 EXTEND_BOTTOM ~AR0700.BCS~				~PoFQuestPack/baf_are/S#AR0700.baf~
 
@@ -5453,14 +5662,14 @@ USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR2000.tra~
      APPEND_FILE ~PoFQuestPack/Worldmap/links.tbl~
 	 
     COPY ~Worldmap/map_mods_trans.tra~		~Worldmap~
-     APPEND_FILE_EVALUATE ~PoFQuestPack/Worldmap/autotra/%LANGUAGE%/worldmap.tra~
+     APPEND_FILE_EVALUATE ~PoFQuestPack/Worldmap/%LANGUAGE%/worldmap.tra~
 	 
   END ELSE BEGIN
   
     MKDIR ~Worldmap~
     COPY ~PoFQuestPack/Worldmap/areas.tbl~		~Worldmap/map_mods_areas.tbl~
     COPY ~PoFQuestPack/Worldmap/links.tbl~		~Worldmap/map_mods_links.tbl~
-    COPY ~PoFQuestPack/Worldmap/autotra/%LANGUAGE%/worldmap.tra~		~Worldmap/map_mods_trans.tra~
+    COPY ~PoFQuestPack/Worldmap/%LANGUAGE%/worldmap.tra~		~Worldmap/map_mods_trans.tra~
 	
   END
 

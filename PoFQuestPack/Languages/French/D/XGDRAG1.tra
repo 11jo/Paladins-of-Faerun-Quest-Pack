@@ -1,27 +1,35 @@
-@0 = ~ You are not the one you pretend to be mortal! Who are you? ~
-@1 = ~ I am <CHARNAME>, but what are you doing here, dragon? ~
-@2 = ~ <CHARNAME> you say, I heard about you and your adventures. What do you need on this island? ~
-@3 = ~ I help the village south of here, it is attacked by pirates and thieves. Do you know anything about this? ~
-@4 = ~ That's how it means you and I have a common enemy <CHARNAME>, a very valuable item was stolen from me. ~
-@5 = ~ Dragon and robbed? Is it even possible? What is this thing? ~
-@6 = ~ For me, dragons are enemies too, die a monster! ~
-@7 = ~ These thieves are very skilled, they stole my powerful magic wand, which I had to guard. This task was assigned to me by a very powerful wizard. I have to get it back at all costs before the master returns. ~
-@8 = ~ I can help you get that rod back, provided I get a reward in return. ~
-@9 = ~ What happened to your thing will dishonor your name, but I don't have time for that. I'm leaving. ~
-@10 = ~ If you succeed, a very valuable item, a gift from the gods, will be waiting for you, so do you agree <CHARNAME>? ~
-@11 = ~ I will find him. ~
+@0 = ~Vous n'êtes pas qu'un simple mortel ! Présentez-vous !~ ~Vous n'êtes pas qu'une simple mortelle ! Présentez-vous !~
+@1 = ~Mon nom est <CHARNAME>, je suis étonné de rencontrer un dragon en ce lieu.~ ~Mon nom est <CHARNAME>, je suis étonnée de rencontrer un dragon en ce lieu.~
+@2 = ~Hum, <CHARNAME> vous dites, j'ai entendu des histoires à votre sujet, votre vie est une sacrée aventure... Quelles sont vos intentions ? Que faites-vous sur cette île ?~
+@3 = ~J'apporte mon aide au village qui se trouve un peu plus au sud, ses habitants sont harcelés par pirates et voleurs. Auriez-vous des informations à ce sujet ?~
+@4 = ~Alors nous avons un ennemi commun, <CHARNAME>, une de mes reliques de grande valeur a été subtilisée.~
+@5 = ~Dépouiller un dragon. Je n'aurais jamais pensé qu'une telle chose soit possible... Une relique ? Quel genre de relique ?~
+@6 = ~En ce qui me concerne, les dragons ne sont que des monstres, défend toi ou meurt !~
+@7 = ~Ce sont des voleurs très habiles. Passons, ce sceptre était sous ma responsabilité. Un sorcier de renom m'a fait confiance pour le garder en sûreté et je tiens à le retrouver au plus vite.~
+@8 = ~Je peux certainement vous aider à le récupérer, enfin, si la récompense est à la hauteur.~
+@9 = ~Votre incompétence déshonorera votre nom et à juste titre. J'ai bien mieux à faire que de perdre mon temps avec vos histoires. Adieu.~
+@10 = ~Si vous réussissez, un véritable don des dieux entrera en votre possession. Alors <CHARNAME>, qu'en pensez-vous ?~
+@11 = ~Vous pouvez compter sur moi !~
+
+/*
 @12 = ~ Dragon artifact.
 
 On the island, I met a dragon who stole a very valuable rod, I must look for it somewhere on this island. ~
-@13 = ~ Do you have a wand? ~
-@14 = ~ Yes, here it is, I found it at one of the thieves. ~
-@15 = ~ Great, I have a baton and now my name will not be dishonored. Thank you <CHARNAME>, I wish you all good luck and for your courage, I give you this very powerful armor, this is a divine gift. ~
-@16 = ~ Thank you dragon, but I have one request. Could you sometimes fly in the south over the shores of those inhabitants whom I helped? ~
-@17 = ~ Of course, from time to time I will keep an eye on them. Goodbye <CHARNAME>, nice to meet you. ~
-@18 = ~ See you soon. ~
+*/
+
+@13 = ~Avez-vous réussi à mettre la main sur le sceptre ?~
+@14 = ~Évidemment, l'un de ces roublards l'avait en sa possession.~
+@15 = ~Mon honneur est sauf, je peux vous promettre que ma vigilance ne faillira plus. Merci <CHARNAME>, comme promis je vous remets cette armure, une relique exceptionnelle.~
+@16 = ~J'aurais une requête si vous le voulez bien. Accepteriez-vous de survoler de temps à autre la côte sud afin de vous assurer que les villageois sont en sécurité ?~
+@17 = ~C'est possible, je veillerais à planer au dessus de leurs rivages, occasionnellement. Au revoir <CHARNAME>, vous rencontrer fut... intéressant.~
+@18 = ~À notre prochaine rencontre.~
+
+/*
 @19 = ~ Dragon artifact.
 
 I found the dragon's baton from one of the thieves and returned it to the dragon. For this I received a very powerful armor. ~
-@20 = ~ No, not yet, but we are looking for him. ~
-@21 = ~ I changed my mind, instead I will kill you and pick up that item. ~
-@22 = ~ Have you changed your mind and decided to find a rod for me? ~
+*/
+
+@20 = ~Pas encore, nous continuons d'ouvrir l’œil.~
+@21 = ~J'ai pris la décision d'en finir avec votre misérable existence et de me servir moi même.~
+@22 = ~Êtes-vous revenu à la raison ? Comptez-vous retrouver ma relique ?~

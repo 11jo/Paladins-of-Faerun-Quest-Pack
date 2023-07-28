@@ -47,8 +47,7 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @14
-  IF ~~ THEN DO ~EscapeArea()
-ReputationInc(-1)~ SOLVED_JOURNAL @15 EXIT
+  IF ~~ THEN DO ~ReputationInc(-1) EscapeArea()~ SOLVED_JOURNAL @15 EXIT
 END
 
 IF ~Global("s#XGdrb1","GLOBAL",1)

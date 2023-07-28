@@ -1,4 +1,4 @@
-@1 = ~Paladins of Faerûn Quest Pack~
+@1 = ~Paladins of Faerun Quest Pack~
 @2 = ~Student of Academy~
 @3 = ~Student~
 @4 = ~Magister~
@@ -4154,7 +4154,7 @@ Weight: 1~
 
 ////// IWD spell for CLERIC_CIRCLE_OF_PROTECTION
 
-@1067   = Curse
+@1067   = ~Curse~
 
 @1068  = ~Curse
 (Conjuration/Summoning)

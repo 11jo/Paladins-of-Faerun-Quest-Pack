@@ -1,3 +1,14 @@
+IF
+	OnCreation()
+	Global("NewGame","AR0602",0)  // Irenicus's Dungeon 1st Floor
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([1.0],0)
+		SetGlobal("NewGame","AR0602",1)  // Irenicus's Dungeon 1st Floor
+		Continue()
+END
 
 IF
   True()
@@ -6,7 +17,6 @@ THEN
   RESPONSE #100
     SetGlobal("EnteredAR0602","AR0602",1)
     ClearAllActions()
-    StartCutSceneMode()
     Explore()
     CreateCreature("XGJONW",[3746.1998],10)
     CreateCreature("XGJOWC",[3686.1869],14)
@@ -55,7 +65,6 @@ THEN
     ActionOverride("XGJONW",DestroySelf())
     ActionOverride("XGJOWC",DestroySelf())
     ActionOverride("XGIRENM",DestroySelf())
-    EndCutSceneMode()
     Continue()
 END
 

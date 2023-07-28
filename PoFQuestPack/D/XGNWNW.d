@@ -10,6 +10,5 @@ END
 IF ~~ THEN BEGIN 1
   SAY @4
   IF ~~ THEN DO ~ReputationInc(1)
-EscapeArea()
-~ UNSOLVED_JOURNAL @5 EXIT
+EscapeArea()~ UNSOLVED_JOURNAL @5 EXIT
 END

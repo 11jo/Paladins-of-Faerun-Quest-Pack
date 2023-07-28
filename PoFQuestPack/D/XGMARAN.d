@@ -42,9 +42,8 @@ END
 
 IF ~~ THEN BEGIN 7
   SAY @16
-  IF ~~ THEN DO ~EscapeArea()
-GiveItemCreate("XGWRG",Player1,0,0,0)~ 
-UNSOLVED_JOURNAL @17 EXIT
+  IF ~~ THEN DO ~GiveItemCreate("XGWRG",Player1,0,0,0)
+EscapeArea()~ UNSOLVED_JOURNAL @17 EXIT
 END
 
 IF ~Global("s#XGMARAN","GLOBAL",2) !PartyHasItem("XGLETW")~ THEN BEGIN 8

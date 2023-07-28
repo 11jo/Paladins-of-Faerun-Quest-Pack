@@ -4007,7 +4007,7 @@ EIGENSCHAFTEN:
 
 ////// IWD spell for CLERIC_CIRCLE_OF_PROTECTION
 
-@1067   = Fluch
+@1067   = ~Fluch~
 
 @1068  = ~Fluch (Herbeirufung/Beschwörung)
 Grad: 1

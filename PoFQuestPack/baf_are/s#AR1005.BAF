@@ -1,10 +1,10 @@
 
 IF
   True()
-  Global("EnteredArea","AR1005",0)
+  Global("EnteredAreaAR1005","AR1005",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","AR1005",1)
+    SetGlobal("EnteredAreaAR1005","AR1005",1)
     ClearAllActions()
     StartCutSceneMode()
     Explore()
@@ -18,7 +18,7 @@ THEN
     Wait(1)
     DisplayString("XGELWIN",@0)  // @0
     Wait(4)
-    DisplayString(Player1,@1)  // @1
+    DisplayStringHead(Player1,@1)  // @1
     Wait(2)
     OpenDoor("DOOR03")
     OpenDoor("DOOR06")

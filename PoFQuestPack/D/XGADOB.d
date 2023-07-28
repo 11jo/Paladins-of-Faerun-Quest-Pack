@@ -17,7 +17,6 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @6
-  IF ~~ THEN REPLY @7 DO ~SetGlobal("s#XGADOB","GLOBAL",1)~ 
-UNSOLVED_JOURNAL @8 EXIT
+  IF ~~ THEN REPLY @7 DO ~SetGlobal("s#XGADOB","GLOBAL",1) AddJournalEntry(@50113,QUEST)~  EXIT
 END
 

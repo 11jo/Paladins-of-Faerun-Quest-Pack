@@ -1,0 +1,171 @@
+
+
+// Abduction and politics // Enlèvement et politique. // XGnorpa.tra, XGhqmi.tra, XGATKI.tra, XG0639.tra, XG0440.tra, XG0168.tra // XGKPOS.TRA
+
+@49000 = ~Entführung und Politik~
+
+@49001 = ~Entführung und Politik
+
+Ich habe einen Boten getroffen, eine hochrangige Person sucht mich, die ich in einem Einkaufsviertel finden kann. Ich muss das überprüfen.~ // @22 XGATKI.tra and @6 XGKPOS.tra
+
+@50000 = ~Entführung und Politik
+
+Die Tochter des Handelskönigs Atkatla wurde entführt. Eure Aufgabe ist es, sie auf den Inseln zu finden, auf denen sie entführt wurde. Ein Handelsschiff erwartet Euch an den Docks.~ // @3 XG0168.TRA and @15 XGATKI.TRA
+@50001 = ~Entführung und Politik
+
+Ich habe in Mondlicht einen Prinzen getroffen, der mit seiner Mutter um die politische Macht konkurriert. Ich hoffe, die Königstochter wird nicht mit Gewalt in den Konflikt hineingezogen. Es ist an der Zeit, seine Mutter zu finden und mit ihr zu sprechen.~ // @4 XG0168.TRA and @10 XG0440.TRA and @23 XGATKI.TRA
+@50002 = ~Entführung und Politik
+
+Nach einem Gespräch mit der Hohen Königin, der Herrscherin des Mondlichts, wurde mir klar, wer von ihnen der Tyrann ist. Dies ist ihr Sohn, der Mondscheinprinz. Mir wurde die Aufgabe übertragen, einen Waffenhändler zu finden und gefangen zu nehmen, dank dem der Konflikt des Machtkampfes gelöst werden soll, und außerdem kann ich die Tochter des Handelskönigs von Amn finden.~ // @5 XG0168.TRA  and @15 XGHQMI.TRA
+@50003 = ~Entführung und Politik
+
+Es ist mir gelungen, einen Waffenhändler zu finden, der sie an den Prinzen, den Sohn der Königin, geliefert hat. Wir haben ihm alle Informationen entlockt, einschließlich des Ortes, an dem der Prinz die Tochter des Königs von Amn festhält.~ // @6 XG0168.TRA and @5 XG0639.TRA
+@50004 = ~Abduction and politics 
+
+I resolved the dispute in the Moonlight and found the king's daughter.~ // @7 XG0168.TRA  SetQuestDone(@7)
+@50005 = ~Entführung und Politik
+
+Aufgabe gescheitert.~ // @12 XGATKI.TRA
+@50006 = ~Entführung und Politik
+
+Ich habe die Mutter des Prinzen getötet.~ // @24 XGATKI.TRA and @32 XGATKI.TRA and @4 XGHQMI.TRA
+@50007 = ~Entführung und Politik
+
+Ich half dem Prinzen, Herrscher über das Mondlicht zu werden und fand auch die Tochter des Handelskönigs.~ // @25 XGATKI.TRA and @4 XGnorpa.tra
+@50008 = ~Entführung und Politik
+
+Ich habe einige falsche Entscheidungen getroffen und deshalb musste die Königstochter sterben. Sie wusste zu viel.~ // @26 XGATKI.TRA
+@50009 = ~Entführung und Politik
+
+Ich habe dem Mondscheinprinzen zur Macht verholfen und die Tochter des Händlerkönigs von Amn zurückgebracht. Der König warf mich raus, weil ihm meine Entscheidung in Monflicht nicht gefiel.~ // @33 XGATKI.TRA
+
+// Pirate Island // L'île aux pirates 
+// XG0049.tra   @3  AddJournalEntry(@3,QUEST)
+// XG0414.tra   @10 AddJournalEntry(@10,QUEST)
+// XGADOB.tra   @8  UNSOLVED_JOURNAL @8
+// XGADOB1.tra  @4, @5, @6, @7, @8, @9, @10  EraseJournalEntry(@4, @5, @6, @8, @9) SOLVED_JOURNAL @10
+// XGBOY.tra    @6, @8 SOLVED_JOURNAL @6 UNSOLVED_JOURNAL @8
+// XGLOFLT.tra  @4, @7 UNSOLVED_JOURNAL @4 SOLVED_JOURNAL @7
+// XGDRAG1.tra  @12, @19
+
+@50110 = ~Pirateninsel~
+@50111 = ~Pirateninsel
+
+Ich muss die Wachen in den westlichen und östlichen Bezirken dieser Gilde loswerden.~
+@50112 = ~Pirateninsel
+
+Auf der Insel traf ich einen Schattendieb, der vor den Piraten floh. Er bat mich, ihn zum Anführer der Schattendiebe, Aran Linweil, zu eskortieren. Er gab mir die Aufgabe, seinen Freund zu finden, der auf der Insel entführt wurde.~
+@50113 = ~Pirateninsel
+
+Ich habe dem Dorfvorsteher versprochen, ihm dabei zu helfen, alle Diebe und Piraten im Dorf loszuwerden und dann ein nahe gelegenes Schiff zurückzuerobern und ihr Lager aufzuspüren.~
+@50114 = ~Pirateninsel
+
+In den Umar-Hügeln begegnete ich einem Jungen, der nach Abenteurern suchte, die seinem Dorf im Osten helfen könnten, die Piraten loszuwerden..~
+@50115 = ~Ein Artefakt des Drachen
+
+Auf der Insel traf ich einen Drachen, dem ein sehr wertvoller Zauberstab gestohlen wurde, ich sollte ihn irgendwo auf dieser Insel suchen.~
+@50116 = ~Pirateninsel
+
+Ich ließ den Anführer der Wandernden Dolche am Leben, dafür gab er mir 15.000 Gold und einen schönen Dolch und versprach, das Dorf an der Küste in Ruhe zu lassen.~
+@50117 = ~Pirateninsel
+
+Das Dorf war gerettet.~
+@50118 = ~Pirateninsel
+
+Mission fehlgeschlagen.~
+@50119 = ~Pirateninsel
+
+Die Aufgabe wurde erfüllt, der Anführer der Wandernden Dolche wird wohl keine Probleme mehr machen, aber Arans Freund ist leider tot.~
+@50120 = ~Ein Artefakt des Drachen~
+@50121 = ~Ein Artefakt des Drachen
+
+Ich habe den Stab des Drachen bei einem der Diebe gefunden und ihn dem Drachen zurückgegeben. Dafür habe ich eine sehr mächtige Rüstung erhalten.~
+@50122 = ~Ein Artefakt des Drachen
+
+Ich habe diesen verfluchten Drachen angegriffen, ho ho ho!~
+@50122 = ~~
+@50123 = ~~
+@50124 = ~~
+@50125 = ~~
+@50126 = ~~
+@50127 = ~~
+@50128 = ~~
+@50129 = ~~
+@50130 = ~~
+@50131 = ~~
+@50132 = ~~
+@50133 = ~~
+@50134 = ~~
+@50135 = ~~
+@50136 = ~~
+@50137 = ~~
+@50138 = ~~
+@50139 = ~~
+@50140 = ~~
+@50141 = ~~
+@50142 = ~~
+@50143 = ~~
+@50144 = ~~
+@50145 = ~~
+@50146 = ~~
+@50147 = ~~
+@50148 = ~~
+@50149 = ~~
+@50150 = ~~
+@50151 = ~~
+@50152 = ~~
+@50153 = ~~
+@50154 = ~~
+@50155 = ~~
+@50156 = ~~
+@50157 = ~~
+@50158 = ~~
+@50159 = ~~
+@50160 = ~~
+@50161 = ~~
+@50162 = ~~
+@50163 = ~~
+@50164 = ~~
+@50165 = ~~
+@50166 = ~~
+@50167 = ~~
+@50168 = ~~
+@50169 = ~~
+@50170 = ~~
+@50171 = ~~
+@50172 = ~~
+@50173 = ~~
+@50174 = ~~
+@50175 = ~~
+@50176 = ~~
+@50177 = ~~
+@50178 = ~~
+@50179 = ~~
+@50180 = ~~
+@50181 = ~~
+@50182 = ~~
+@50183 = ~~
+@50184 = ~~
+@50185 = ~~
+@50186 = ~~
+@50187 = ~~
+@50188 = ~~
+@50189 = ~~
+@50190 = ~~
+@50191 = ~~
+@50192 = ~~
+@50193 = ~~
+@50194 = ~~
+@50195 = ~~
+@50196 = ~~
+@50197 = ~~
+@50198 = ~~
+@50199 = ~~
+
+@50200 = ~~
+@50201 = ~~
+@50202 = ~~
+@50203 = ~~
+@50204 = ~~
+@50205 = ~~
+@50206 = ~~

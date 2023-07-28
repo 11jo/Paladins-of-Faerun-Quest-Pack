@@ -48,7 +48,7 @@ THEN
     ActionOverride("XGnorpa",Face(8))
     DisplayStringHead("XGnorpa",@9)  
     Wait(8)
-    AddJournalEntry(@10,QUEST)
+    AddJournalEntry(@50001,QUEST)
     RevealAreaOnMap("XG0041")
     UnhideGUI()
     EndCutSceneMode()

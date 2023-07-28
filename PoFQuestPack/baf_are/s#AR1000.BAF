@@ -1,10 +1,10 @@
 
 IF
   True()
-  Global("EnteredArea","AR1000",0)
+  Global("EnteredAreaAR1000","AR1000",0)
 THEN
   RESPONSE #100
-    SetGlobal("EnteredArea","AR1000",1)
+    SetGlobal("EnteredAreaAR1000","AR1000",1)
     ClearAllActions()
     StartCutSceneMode()
     MoveViewPoint([2524.277],INSTANT)
@@ -23,15 +23,15 @@ THEN
     ScreenShake([20.20],20)
     Wait(4)
     ActionOverride("XGARTE1",MoveToPoint([2532.342]))
-    ActionOverride("XGWAN1",MoveToPoint([2490.365]))
-    ActionOverride("XGWAN2",MoveToPoint([2588.367]))
+    ActionOverride("XGWAN1",MoveToPoint([2433.290]))
+    ActionOverride("XGWAN2",MoveToPoint([2649.256]))
     Wait(5)
     DisplayString("XGARTE1",@0)  // @0
     Wait(2)
-    DisplayString(Player1,@1)  // @1
+    DisplayStringHead(Player1,@1)  // @1
     Wait(2)
     DisplayString("XGARTE1",@2)  // @2
-    Wait(2)
+    Wait(1)
     ActionOverride("XGARTE1",Attack(Player1))
     Wait(2)
     ActionOverride(Player1,PlayDead(100))

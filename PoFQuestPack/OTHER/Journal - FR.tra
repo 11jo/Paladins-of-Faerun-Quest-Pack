@@ -1,0 +1,172 @@
+
+
+// Abduction and politics // Enlèvement et politique. // XGnorpa.tra, XGhqmi.tra, XGATKI.tra, XG0639.tra, XG0440.tra, XG0168.tra // XGKPOS.TRA
+
+@49000 = ~Enlèvement et politique~
+
+@49001 = ~Enlèvement et politique
+
+J'ai rencontré un messager, une personne de haut rang cherche à me rencontrer au District des Affaires. Je devrais probablement y aller.~ // @22 XGATKI.tra and @6 XGKPOS.tra and @2 XG0168.tra
+
+@50000 = ~Enlèvement et politique
+
+La fille du Roi des affaires d'Athkatla a été enlevée. Notre tâche est de retrouver sa trace dans les îles Moonshae. Un navire marchand nous attend sur les quais.~ // @3 XG0168.TRA // @15 XGATKI.TRA
+@50001 = ~Enlèvement et politique
+
+J'ai rencontré un prince, celui-ci est en compétition avec sa propre mère pour prendre le pouvoir dans les Îles Moonshae. J'espère que la fille du Roi des affaires d'Athkatla n'a pas été impliquée dans ce conflit. Le temps est venu de rencontrer cette grande Dame afin d'en savoir plus.~ // @4 XG0168.TRA // @10 XG0440.TRA // @23 XGATKI.TRA
+@50002 = ~Enlèvement et politique.
+
+Après avoir discuté avec la souveraine des îles Moonshae, il m'est apparu clairement que son fils, le prince était un tyran. On m'a confié la mission de débusquer et capturer un trafiquant d'armes, sa capture pourrait mettre fin au conflit et ce faisant, j'en apprendrais plus sur le sort de la fille du Roi des affaires.~ // @5 XG0168.TRA  // @15 XGHQMI.TRA
+@50003 = ~Enlèvement et politique
+
+J'ai réussi à trouver le trafiquant d'armes qui fournissait ses armes au prince. Nous lui avons soutiré toutes les informations possibles, y compris le lieu où le prince retient prisonnière la fille du Roi des affaires.~ // @6 XG0168.TRA // @5 XG0639.TRA
+@50004 = ~Enlèvement et politique
+
+J'ai résolu le conflit qui déchirait les îles Moonshae et j'ai également retrouvé la fille du Roi des affaires.~ // @7 XG0168.TRA  SetQuestDone(@7)
+@50005 = ~Enlèvement et politique
+
+J'ai failli à ma mission...~ // @12 XGATKI.TRA
+@50006 = ~Enlèvement et politique
+
+J'ai assassiné la reine...~ // @24 XGATKI.TRA // @32 XGATKI.TRA // @4 XGHQMI.TRA
+@50007 = ~Enlèvement et politique
+
+J'ai apporté mon aide au prince afin qu'il devienne le souverain des îles Moonshae, et j'ai également retrouvé la fille du Roi des affaires.~ // @25 XGATKI.TRA // @4 XGnorpa.tra
+@50008 = ~Enlèvement et politique
+
+Après une succession de mauvaises décisions de ma part, la fille du Roi des affaires a dû être réduite au silence... définitivement.~ // @26 XGATKI.TRA
+@50009 = ~Enlèvement et politique
+
+J'ai aidé le Prince des îles Moonshae à prendre le pouvoir et j'ai aussi ramené la fille du Roi des affaires à Athkatla. Celui-ci m'a jeté dehors en raison de mes décisions plus que douteuses au cours de cette aventure.~ // @33 XGATKI.TRA
+
+// Pirate Island // L'île aux pirates 
+// XG0049.tra   @3  AddJournalEntry(@3,QUEST)
+// XG0414.tra   @10 AddJournalEntry(@10,QUEST)
+// XGADOB.tra   @8  UNSOLVED_JOURNAL @8
+// XGADOB1.tra  @4, @5, @6, @7, @8, @9, @10  EraseJournalEntry(@4, @5, @6, @8, @9) SOLVED_JOURNAL @10
+// XGBOY.tra    @6, @8 SOLVED_JOURNAL @6 UNSOLVED_JOURNAL @8
+// XGLOFLT.tra  @4, @7 UNSOLVED_JOURNAL @4 SOLVED_JOURNAL @7
+// XGDRAG1.tra  @12, @19
+
+@50110 = ~L'île aux pirates~
+@50111 = ~L'île aux pirates
+
+I need to get rid of the guards in the western and eastern parts of this guild.~
+@50112 = ~L'île aux pirates
+
+On the island, I met a shadow thief fleeing from pirates. He asked me to escort him to shadow thief leader Aran Linweil. He gave me the task of finding his friend who was abducted on the island.~
+@50113 = ~L'île aux pirates
+
+I promised the village headman to help get rid of all the thieves and pirates in the village, and then recapture the nearby ship and track down their camp.~
+@50114 = ~L'île aux pirates
+
+Dans les collines d'Umar, un jeune garçon est en quête d'aventuriers pour aider son village contre des pirates, très loin à l'est à environ dix jours de marche.~
+@50115 = ~L'artefact d'un dragon
+
+J'ai rencontré le gardien des reliques, un dragon plutôt sympathique mais apparemment peu doué pour protéger ses artefacts.
+
+Une sorte d'ancienne baguette lui a été dérobée par un des voleurs qui occupent l'île.~
+@50116 = ~L'île aux pirates
+
+I left the leader of the stray daggers alive, for that he gave me 15,000 gold and a beautiful dagger, and promised to leave the village on the coast alone.~
+@50117 = ~L'île aux pirates
+
+The village was saved.~
+@50118 = ~L'île aux pirates
+
+Job failed.~
+@50119 = ~L'île aux pirates
+
+The task was completed, the leader of the stray daggers will not be more likely to create problems, but Aran's friend is unfortunately dead.~
+@50120 = ~L'artefact d'un dragon~
+@50121 = ~L'artefact d'un dragon
+
+La relique a retrouvé son gardien et j'ai obtenu une armure à la puissance exceptionnelle, c'est toujours comme ça avec les dragons... On obtient des armures !~
+@50122 = ~L'artefact d'un dragon
+
+J'ai attaqué ce maudit dragon, hé hé hé !~
+@50123 = ~~
+@50124 = ~~
+@50125 = ~~
+@50126 = ~~
+@50127 = ~~
+@50128 = ~~
+@50129 = ~~
+@50130 = ~~
+@50131 = ~~
+@50132 = ~~
+@50133 = ~~
+@50134 = ~~
+@50135 = ~~
+@50136 = ~~
+@50137 = ~~
+@50138 = ~~
+@50139 = ~~
+@50140 = ~~
+@50141 = ~~
+@50142 = ~~
+@50143 = ~~
+@50144 = ~~
+@50145 = ~~
+@50146 = ~~
+@50147 = ~~
+@50148 = ~~
+@50149 = ~~
+@50150 = ~~
+@50151 = ~~
+@50152 = ~~
+@50153 = ~~
+@50154 = ~~
+@50155 = ~~
+@50156 = ~~
+@50157 = ~~
+@50158 = ~~
+@50159 = ~~
+@50160 = ~~
+@50161 = ~~
+@50162 = ~~
+@50163 = ~~
+@50164 = ~~
+@50165 = ~~
+@50166 = ~~
+@50167 = ~~
+@50168 = ~~
+@50169 = ~~
+@50170 = ~~
+@50171 = ~~
+@50172 = ~~
+@50173 = ~~
+@50174 = ~~
+@50175 = ~~
+@50176 = ~~
+@50177 = ~~
+@50178 = ~~
+@50179 = ~~
+@50180 = ~~
+@50181 = ~~
+@50182 = ~~
+@50183 = ~~
+@50184 = ~~
+@50185 = ~~
+@50186 = ~~
+@50187 = ~~
+@50188 = ~~
+@50189 = ~~
+@50190 = ~~
+@50191 = ~~
+@50192 = ~~
+@50193 = ~~
+@50194 = ~~
+@50195 = ~~
+@50196 = ~~
+@50197 = ~~
+@50198 = ~~
+@50199 = ~~
+
+@50200 = ~~
+@50201 = ~~
+@50202 = ~~
+@50203 = ~~
+@50204 = ~~
+@50205 = ~~
+@50206 = ~~

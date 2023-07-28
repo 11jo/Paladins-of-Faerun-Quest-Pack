@@ -31,7 +31,7 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @12
-  IF ~~ THEN DO ~EscapeArea()
-AddexperienceParty(20000)
-EraseJournalEntry(@8)~ SOLVED_JOURNAL @13 EXIT
+  IF ~~ THEN DO ~AddexperienceParty(20000)
+EraseJournalEntry(@8)
+EscapeArea()~ SOLVED_JOURNAL @13 EXIT
 END

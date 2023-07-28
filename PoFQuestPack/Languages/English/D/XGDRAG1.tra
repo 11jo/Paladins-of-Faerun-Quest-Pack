@@ -10,18 +10,26 @@
 @9 = ~ What happened to your thing will dishonor your name, but I don't have time for that. I'm leaving. ~
 @10 = ~ If you succeed, a very valuable item, a gift from the gods, will be waiting for you, so do you agree <CHARNAME>? ~
 @11 = ~ I will find him. ~
+
+/*
 @12 = ~ Dragon artifact.
 
 On the island, I met a dragon who stole a very valuable rod, I must look for it somewhere on this island. ~
+*/
+
 @13 = ~ Do you have a wand? ~
 @14 = ~ Yes, here it is, I found it at one of the thieves. ~
 @15 = ~ Great, I have a baton and now my name will not be dishonored. Thank you <CHARNAME>, I wish you all good luck and for your courage, I give you this very powerful armor, this is a divine gift. ~
 @16 = ~ Thank you dragon, but I have one request. Could you sometimes fly in the south over the shores of those inhabitants whom I helped? ~
 @17 = ~ Of course, from time to time I will keep an eye on them. Goodbye <CHARNAME>, nice to meet you. ~
 @18 = ~ See you soon. ~
+
+/*
 @19 = ~ Dragon artifact.
 
 I found the dragon's baton from one of the thieves and returned it to the dragon. For this I received a very powerful armor. ~
+*/
+
 @20 = ~ No, not yet, but we are looking for him. ~
 @21 = ~ I changed my mind, instead I will kill you and pick up that item. ~
 @22 = ~ Have you changed your mind and decided to find a rod for me? ~

@@ -2,8 +2,8 @@ BEGIN ~XGkd~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @0
-  IF ~~ THEN REPLY @1 DO ~ActionOverride("XGkd",EscapeArea())
-TakePartyItem("XGhq")
+  IF ~~ THEN REPLY @1 DO ~TakePartyItem("XGhq")
+ActionOverride("XGkd",EscapeArea())
 ActionOverride(Player2,LeaveAreaLUA("AR0300","",[1273.3131],0))
 ActionOverride(Player1,LeaveAreaLUA("AR0300","",[1337.3176],0))
 ActionOverride(Player3,LeaveAreaLUA("AR0300","",[1253.3194],0))

@@ -8,8 +8,7 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @2
-  IF ~~ THEN REPLY @3 DO ~Enemy()~ 
-UNSOLVED_JOURNAL @4 EXIT
+  IF ~~ THEN REPLY @3 DO ~Enemy() AddJournalEntry(@50119,QUEST)~ EXIT
   IF ~~ THEN REPLY @5 GOTO 2
 END
 
@@ -24,6 +23,6 @@ ActionOverride(Player4,LeaveAreaLUA("XG0014","",[439.955],0))
 ActionOverride(Player5,LeaveAreaLUA("XG0014","",[469.1022],0))
 ActionOverride(Player6,LeaveAreaLUA("XG0014","",[528.1016],0))
 SetGlobal("s#XGLOFLT","GLOBAL",1)
-EscapeArea()~ 
-SOLVED_JOURNAL @7 EXIT
+AddJournalEntry(@50116,QUEST)
+EscapeArea()~ EXIT
 END

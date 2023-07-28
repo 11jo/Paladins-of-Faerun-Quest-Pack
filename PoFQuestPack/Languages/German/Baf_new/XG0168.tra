@@ -1,23 +1,42 @@
 @0 = ~Versucht nur, in unseren Machtkampf auf der Insel einzugreifen, und Eure Tochter wird sterben!~
 @1 = ~<CHARNAME>, danke, dass Ihr meine Tochter gerettet habt. Ich habe gehört, dass Ihr die Probleme im Mondlicht gelöst habt. Ich bin froh, dass ich Euch für diese Aufgabe ausgewählt habe. Hier ist Eure Belohnung. Oh, und ich möchte noch über eine Sache sprechen ...~
+
+/*
 @2 = ~Athkatla.
 
 Ich habe einen Boten getroffen, eine hochrangige Person sucht mich, ich finde sie in einem Handelszentrum. Ich muss das überprüfen.~
+*/
+
+/*
 @3 = ~Entführung und Politik.
 
 Die Tochter des Handelskönigs Atkatla wurde entführt. Eure Aufgabe ist es, sie auf den Inseln zu finden, wo sie entführt wurde. Ein Handelsschiff erwartet dich an den Docks.~
+*/
+
+/*
 @4 = ~Entführung und Politik.
 
 Ich habe im Mondlicht einen Prinzen getroffen, der mit seiner Mutter um die politische Macht konkurrierte. Ich hoffe, die Tochter des Königs wird nicht mit Gewalt in den Konflikt hineingezogen. Es ist an der Zeit, seine Mutter zu finden und mit ihr zu sprechen.~
+*/
+
+/*
 @5 = ~Entführung und Politik.
 
 Nach dem Gespräch mit der Hohen Königin, der Herrscherin des Mondlichts, wurde mir klar, wer von ihnen der Tyrann ist. Das ist ihr Sohn, der Mondscheinprinz. Mir wurde die Aufgabe übertragen, einen Waffenhändler zu finden und gefangen zu nehmen, dank dem der Konflikt des Machtkampfes gelöst werden soll, und außerdem kann ich die Tochter des Handelskönigs von Amn finden.~
+*/
+
+/*
 @6 = ~Entführung und Politik.
 
 Es gelang mir, einen Waffenhändler zu finden, der sie an den Prinzen, den Sohn der Königin, auslieferte. Wir haben ihm alle Informationen entlockt, auch über den Ort, an dem der Prinz die Tochter den Königs von Amn festhält.~
+*/
+
+/*
 @7 = ~Entführung und Politik.
 
 Ich löste den Streit im Mondlicht und fand die Königstochter.~
+*/
+
 @8 = ~Ich bin sehr froh, dass Ihr mir geholfen habt, die Probleme bei diesem Geschäftstreffen zu lösen. Hier ist Erure Belohnung.~
 @9 = ~Jetzt muss ich gehen, es gibt viel zu tun. Nochmals vielen Dank und auf Wiedersehen.~
 @10 = ~Auf Wiedersehen.~

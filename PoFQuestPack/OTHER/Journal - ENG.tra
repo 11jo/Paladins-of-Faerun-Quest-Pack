@@ -1,0 +1,171 @@
+
+
+// Abduction and politics // Enlèvement et politique. // XGnorpa.tra, XGhqmi.tra, XGATKI.tra, XG0639.tra, XG0440.tra, XG0168.tra // XGKPOS.TRA
+
+@49000 = ~Abduction and politics~
+
+@49001 = ~Abduction and politics
+
+I met a messenger, I am looking for one high-ranking person, I can find him in a shopping area. I need to check it out.~ // @22 XGATKI.tra and @6 XGKPOS.tra
+
+@50000 = ~Abduction and politics
+
+The daughter of the trading king Atkatla was kidnapped. Your task is to find her on the islands where she was abducted. A merchant ship awaits you at the docks.~ // @3 XG0168.TRA and @15 XGATKI.TRA
+@50001 = ~Abduction and politics
+
+I met a prince competing with his mother for political power in the moonlight. I hope the king's daughter wasn't dragged into the conflict by force. The time has come to find his mother and talk to her~ // @4 XG0168.TRA and @10 XG0440.TRA and @23 XGATKI.TRA
+@50002 = ~Abduction and politics.
+
+After talking with the High Queen, the ruler of the Moonlight, it became clear to me which of them was a tyrant. This is her son, moonlight prince. I was given the task of finding and capturing an arms dealer, thanks to whom the conflict of the struggle for power should be resolved, and in addition, I can find the daughter of trading king Amn.~ // @5 XG0168.TRA  and @15 XGHQMI.TRA
+@50003 = ~Abduction and politics
+
+I managed to find an arms dealer who supplied him to the prince, the son of the queen. We knocked out all the information from him, including about the place where the prince holds the daughter of King Amn.~ // @6 XG0168.TRA and @5 XG0639.TRA
+@50004 = ~Abduction and politics 
+
+I resolved the dispute in the Moonlight and found the king's daughter.~ // @7 XG0168.TRA  SetQuestDone(@7)
+@50005 = ~Abduction and politics.
+
+Task failed.~ // @12 XGATKI.TRA
+@50006 = ~Abduction and politics
+
+I killed the prince's mother~ // @24 XGATKI.TRA and @32 XGATKI.TRA and @4 XGHQMI.TRA
+@50007 = ~Abduction and politics
+
+I helped the prince become the ruler of the Moonlight, and also found the daughter of a merchant king.~ // @25 XGATKI.TRA and @4 XGnorpa.tra
+@50008 = ~Abduction and politics
+
+I made several wrong decisions and therefore the king's daughter had to die. She knew too much.~ // @26 XGATKI.TRA
+@50009 = ~Abduction and politics
+
+I helped the Moonlight prince come to power and returned the daughter of merchant king Amn. The king kicked me out because he didn't like the decision I made in the Moonlight.~ // @33 XGATKI.TRA
+
+// Pirate Island // L'île aux pirates 
+// XG0049.tra   @3  AddJournalEntry(@3,QUEST)
+// XG0414.tra   @10 AddJournalEntry(@10,QUEST)
+// XGADOB.tra   @8  UNSOLVED_JOURNAL @8
+// XGADOB1.tra  @4, @5, @6, @7, @8, @9, @10  EraseJournalEntry(@4, @5, @6, @8, @9) SOLVED_JOURNAL @10
+// XGBOY.tra    @6, @8 SOLVED_JOURNAL @6 UNSOLVED_JOURNAL @8
+// XGLOFLT.tra  @4, @7 UNSOLVED_JOURNAL @4 SOLVED_JOURNAL @7
+// XGDRAG1.tra  @12, @19
+
+@50110 = ~Pirate Island~
+@50111 = ~Pirate Island
+
+I need to get rid of the guards in the western and eastern parts of this guild.~
+@50112 = ~Pirate Island
+
+On the island, I met a shadow thief fleeing from pirates. He asked me to escort him to shadow thief leader Aran Linweil. He gave me the task of finding his friend who was abducted on the island.~
+@50113 = ~Pirate Island
+
+I promised the village headman to help get rid of all the thieves and pirates in the village, and then recapture the nearby ship and track down their camp.~
+@50114 = ~Pirate Island
+
+In the Umar Hills, I came across a boy who was looking for adventurers to help his village east of here get rid of the pirates.~
+@50115 = ~Dragon artifact
+
+On the island, I met a dragon who stole a very valuable rod, I must look for it somewhere on this island.~
+@50116 = ~Pirate Island
+
+I left the leader of the stray daggers alive, for that he gave me 15,000 gold and a beautiful dagger, and promised to leave the village on the coast alone.~
+@50117 = ~Pirate Island
+
+The village was saved.~
+@50118 = ~Pirate Island
+
+Job failed.~
+@50119 = ~Pirate Island
+
+The task was completed, the leader of the stray daggers will not be more likely to create problems, but Aran's friend is unfortunately dead.~
+@50120 = ~Dragon artifact~
+@50121 = ~Dragon artifact
+
+I found the dragon's baton from one of the thieves and returned it to the dragon. For this I received a very powerful armor.~
+@50122 = ~Dragon artifact
+
+I attacked that damned dragon, ha ha ha!~
+@50122 = ~~
+@50123 = ~~
+@50124 = ~~
+@50125 = ~~
+@50126 = ~~
+@50127 = ~~
+@50128 = ~~
+@50129 = ~~
+@50130 = ~~
+@50131 = ~~
+@50132 = ~~
+@50133 = ~~
+@50134 = ~~
+@50135 = ~~
+@50136 = ~~
+@50137 = ~~
+@50138 = ~~
+@50139 = ~~
+@50140 = ~~
+@50141 = ~~
+@50142 = ~~
+@50143 = ~~
+@50144 = ~~
+@50145 = ~~
+@50146 = ~~
+@50147 = ~~
+@50148 = ~~
+@50149 = ~~
+@50150 = ~~
+@50151 = ~~
+@50152 = ~~
+@50153 = ~~
+@50154 = ~~
+@50155 = ~~
+@50156 = ~~
+@50157 = ~~
+@50158 = ~~
+@50159 = ~~
+@50160 = ~~
+@50161 = ~~
+@50162 = ~~
+@50163 = ~~
+@50164 = ~~
+@50165 = ~~
+@50166 = ~~
+@50167 = ~~
+@50168 = ~~
+@50169 = ~~
+@50170 = ~~
+@50171 = ~~
+@50172 = ~~
+@50173 = ~~
+@50174 = ~~
+@50175 = ~~
+@50176 = ~~
+@50177 = ~~
+@50178 = ~~
+@50179 = ~~
+@50180 = ~~
+@50181 = ~~
+@50182 = ~~
+@50183 = ~~
+@50184 = ~~
+@50185 = ~~
+@50186 = ~~
+@50187 = ~~
+@50188 = ~~
+@50189 = ~~
+@50190 = ~~
+@50191 = ~~
+@50192 = ~~
+@50193 = ~~
+@50194 = ~~
+@50195 = ~~
+@50196 = ~~
+@50197 = ~~
+@50198 = ~~
+@50199 = ~~
+
+@50200 = ~~
+@50201 = ~~
+@50202 = ~~
+@50203 = ~~
+@50204 = ~~
+@50205 = ~~
+@50206 = ~~

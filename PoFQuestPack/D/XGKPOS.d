@@ -12,6 +12,5 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @4
-  IF ~~ THEN REPLY @5 DO ~RevealAreaOnMap("XG0068")
-EscapeArea()~ UNSOLVED_JOURNAL @6 EXIT
+  IF ~~ THEN REPLY @5 DO ~RevealAreaOnMap("XG0068") AddJournalEntry(@49001,QUEST) EscapeArea()~ EXIT
 END

@@ -5,8 +5,7 @@ IF ~Global("s#XGhqmi","GLOBAL",0)~ THEN BEGIN 0
   IF ~~ THEN REPLY @1 GOTO 1
   IF ~~ THEN REPLY @2 GOTO 6
   IF ~~ THEN REPLY @3 DO ~SetGlobal("s#XGhqmi","GLOBAL",1)  Enemy()
-ReputationInc(-1)~ 
-UNSOLVED_JOURNAL @4 EXIT
+ReputationInc(-1) AddJournalEntry(@50006,QUEST)~ EXIT
 END
 
 IF ~~ THEN BEGIN 1
@@ -32,7 +31,7 @@ END
 IF ~~ THEN BEGIN 5
   SAY @13
   IF ~~ THEN REPLY @14 DO ~RevealAreaOnMap("XG0039")
-SetGlobal("s#XGhqmi","GLOBAL",2)~ UNSOLVED_JOURNAL @15 EXIT
+SetGlobal("s#XGhqmi","GLOBAL",2) AddJournalEntry(@50002,QUEST)~ EXIT
 END
 
 IF ~~ THEN BEGIN 6

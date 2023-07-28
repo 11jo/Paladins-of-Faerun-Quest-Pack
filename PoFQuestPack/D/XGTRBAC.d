@@ -7,6 +7,6 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @2
-  IF ~~ THEN DO ~EscapeArea()
-StartDialogueNoSet("XGclc1")~ EXIT
+  IF ~~ THEN DO ~StartDialogueNoSet("XGclc1")
+EscapeArea()~ EXIT
 END

@@ -28,15 +28,14 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @11
-  IF ~~ THEN DO ~ SetGlobal("s#XGATKI","GLOBAL",1)
-EscapeArea()~ SOLVED_JOURNAL @12 EXIT
+  IF ~~ THEN DO ~ SetGlobal("s#XGATKI","GLOBAL",1) AddJournalEntry(@50005,QUEST_DONE) EscapeArea()~ EXIT
 END
 
 IF ~~ THEN BEGIN 6
   SAY @13
   IF ~~ THEN REPLY @14 DO ~GiveItemCreate("XGKIIT",Player1,0,0,0)
 SetGlobal("s#XGATKI","GLOBAL",2)
-RevealAreaOnMap("XG0040")~ UNSOLVED_JOURNAL @15 EXIT
+RevealAreaOnMap("XG0040") AddJournalEntry(@50000,QUEST)~ EXIT
 END
 
 IF ~Global("s#XGATKI","GLOBAL",2)
@@ -52,14 +51,14 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @20
-  IF ~~ THEN REPLY @21 DO ~EraseJournalEntry(@22)
-EraseJournalEntry(@15)
-EraseJournalEntry( @23)
-EraseJournalEntry(@24)
-EraseJournalEntry(@25)
+  IF ~~ THEN REPLY @21 DO ~EraseJournalEntry(@49001)
+EraseJournalEntry(@50000)
+EraseJournalEntry(@50001)
+EraseJournalEntry(@50006)
+EraseJournalEntry(@50007)
 RevealAreaOnMap("XG0080")
 GiveItemCreate("MISC07",Player1,2000,0,0)
-~ SOLVED_JOURNAL @26 EXIT
+AddJournalEntry(@50008,QUEST_DONE)~ EXIT
 END
 
 IF ~Global("s#XGATKI","GLOBAL",2)
@@ -76,11 +75,12 @@ END
 
 IF ~~ THEN BEGIN 12
   SAY @31
-  IF ~~ THEN DO ~EraseJournalEntry(@22)
-EraseJournalEntry(@15)
-EraseJournalEntry( @23)
-EraseJournalEntry(@32)
-EraseJournalEntry(@25)
+  IF ~~ THEN DO ~EraseJournalEntry(@49001)
+EraseJournalEntry(@50000)
+EraseJournalEntry( @50001)
+EraseJournalEntry(@50006)
+EraseJournalEntry(@50007)
 RevealAreaOnMap("XG0080")
-ReputationInc(-2)~ SOLVED_JOURNAL @33 EXIT
+ReputationInc(-2)
+AddJournalEntry(@50009,QUEST_DONE)~ EXIT
 END

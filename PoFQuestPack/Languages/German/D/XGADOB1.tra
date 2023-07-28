@@ -2,25 +2,43 @@
 @1 = ~Noch nicht.~
 @2 = ~Ja, ich habe das Lager der Diebe gefunden. Ihr Anführer wird Euch nicht mehr belästigen, und ich habe auch einen alten Drachen getroffen, der versprochen hat, ein Auge auf Euch zu haben. So etwas wird nicht noch einmal passieren.~
 @3 = ~Danke, <CHARNAME>, ich habe nichts, was ich Euch anbieten könnte, nur ein wenig Gold, nehmt es.~
+
+/*
 @4 = ~Pirateninsel.
 
 Auf der Insel traf ich einen Schattendieb, der vor Piraten floh. Er bat mich, ihn zum Anführer der Schattendiebe, Aran Linweil, zu eskortieren. Er gab mir die Aufgabe, seinen Freund zu finden, der auf der Insel entführt worden war.~
+*/
+/*
 @5 = ~Pirateninsel.
 
 In den Umar-Hügeln traf ich auf einen Jungen, der Abenteurer suchte, die seinem Dorf östlich von hier helfen könnten, die Piraten loszuwerden.~
+*/
+
+/*
 @6 = ~Pirateninsel.
 
 Ich habe dem Dorfvorsteher versprochen, ihm dabei zu helfen, alle Diebe und Piraten im Dorf loszuwerden, und dann das nahe gelegene Schiff zurückzuerobern und ihr Lager aufzuspüren.~
+*/
+/*
 @7 = ~Ein Artefakt des Drachen.
 
 Auf der Insel habe ich einen Drachen getroffen, dem ein sehr wertvoller Zauberstab gestohlen wurdet, den ich irgendwo auf dieser Insel suchen muss.~
+*/
+
+/*
 @8 = ~Pirateninsel.
 
 Ich muss die Wachen in den westlichen und östlichen Bezirken dieser Gilde loswerden.~
+*/
+/*
 @9 = ~Pirateninsel.
 
 Ich ließ den Anführer der Wandernden Dolche am Leben, dafür gab er mir 15.000 Gold und einen schönen Dolch und versprach, das Dorf an der Küste in Ruhe zu lassen.~
+*/
+
+/*
 @10 = ~Pirateninsel.
 
 Das Dorf war gerettet.~
 
+*/

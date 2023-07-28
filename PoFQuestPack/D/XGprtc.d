@@ -23,22 +23,22 @@ END
 
 IF ~~ THEN BEGIN 4
   SAY @9
-  IF ~~ THEN DO ~ActionOverride(Player2,LeaveAreaLUA("AR0020","",[906.373],0))
+  IF ~~ THEN DO ~EscapeArea()
+ActionOverride(Player2,LeaveAreaLUA("AR0020","",[906.373],0))
 ActionOverride(Player1,LeaveAreaLUA("AR0020","",[876.353],0))
 ActionOverride(Player3,LeaveAreaLUA("AR0020","",[916.287],0))
 ActionOverride(Player4,LeaveAreaLUA("AR0020","",[1003.316],0))
 ActionOverride(Player5,LeaveAreaLUA("AR0020","",[1018.240],0))
-ActionOverride(Player6,LeaveAreaLUA("AR0020","",[962.269],0))
-EscapeArea()~ SOLVED_JOURNAL @10 EXIT
+ActionOverride(Player6,LeaveAreaLUA("AR0020","",[962.269],0))~ SOLVED_JOURNAL @10 EXIT
 END
 
 IF ~~ THEN BEGIN 5
   SAY @11
-  IF ~~ THEN DO ~ActionOverride(Player2,LeaveAreaLUA("XGKAR1","",[659.363],14))
+  IF ~~ THEN DO ~EscapeArea()
+ActionOverride(Player2,LeaveAreaLUA("XGKAR1","",[659.363],14))
 ActionOverride(Player1,LeaveAreaLUA("XGKAR1","",[438.436],14))
 ActionOverride(Player3,LeaveAreaLUA("XGKAR1","",[682.642],14))
 ActionOverride(Player4,LeaveAreaLUA("XGKAR1","",[881.569],14))
 ActionOverride(Player5,LeaveAreaLUA("XGKAR1","",[927.807],14))
-ActionOverride(Player6,LeaveAreaLUA("XGKAR1","",[1190.752],14))
-EscapeArea()~ UNSOLVED_JOURNAL @12 EXIT
+ActionOverride(Player6,LeaveAreaLUA("XGKAR1","",[1190.752],14))~ UNSOLVED_JOURNAL @12 EXIT
 END

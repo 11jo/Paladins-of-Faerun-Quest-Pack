@@ -28,11 +28,13 @@ THEN
 END
 
 
-     IF
+IF
   Global("S#setAR1100","AR1100",0)
 THEN
   RESPONSE #100
     CreateCreature("XGBOY",[4785.3079],0)
     SetGlobal("S#setAR1100","AR1100",1)
+    Wait(2)
+    ActionOverride("XGBOY",StartDialogue("XGBOY",Player1))
     Continue()
 END

@@ -31,8 +31,8 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @11
-  IF ~~ THEN REPLY @12 DO ~EscapeArea()
-RevealAreaOnMap("XG0071")
+  IF ~~ THEN REPLY @12 DO ~RevealAreaOnMap("XG0071")
+EscapeArea()
 ActionOverride(Player2,LeaveAreaLUA("XG0071","",[451.953],0))
 ActionOverride(Player1,LeaveAreaLUA("XG0071","",[492.929],0))
 ActionOverride(Player3,LeaveAreaLUA("XG0071","",[414.916],0))

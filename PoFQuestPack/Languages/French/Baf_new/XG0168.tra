@@ -1,23 +1,43 @@
 @0 = ~Essayez seulement de vous mêler de nos affaires sur cette île et votre fille mourra !~ // Dark person~ // The Dark One
-@1 = ~<CHARNAME> merci d'avoir sauvé ma fille. J'ai entendu dire que vous aviez résolu les problèmes des îles Moonshae. Je suis heureux de vous avoir choisi pour cette mission. Voici votre récompense. Oh ! Et je souhaiterais m'entretenir avec vous, au sujet d'une autre affaire...~ // Trade king
+@1 = ~<CHARNAME> merci d'avoir sauvé ma fille. J'ai entendu dire que vous aviez résolu les problèmes des îles Moonshae. Je suis heureux de vous avoir choisi pour cette mission. Voici votre récompense. Oh ! Et je souhaiterais m'entretenir avec vous, au sujet d'une autre affaire...~ // Trade king~
+
+/*
+SAME AS XGATKI.d
 @2 = ~Athkatla.
 
 J'ai rencontré un messager, une personne de haut rang cherche à me rencontrer, je peux la trouver au District des Affaires. Je devrais probablement y aller.~
+*/
+
+/*
 @3 = ~Enlèvement et politique.
 
-La fille du Roi des Affaires d'Atkatla a été enlevée. Notre tâche est de retrouver sa trace dans les îles où elle a été emmenée. Un navire marchand nous attends sur les quais.~
+La fille du Roi des affaires d'Atkatla a été enlevée. Notre tâche est de retrouver sa trace dans les îles où elle a été emmenée. Un navire marchand nous attends sur les quais.~
+*/
+
+/*
 @4 = ~Enlèvement et politique.
 
-J'ai rencontré un prince, il est en compétition avec sa mère pour prendre le pouvoir dans les Îles Moonshae. J'espère que la fille du Roi des Affaires d'Atkatla n'a pas été impliquée dans ce conflit. Le temps est venu de rencontrer cette Grande Dame et de lui parler.~
+J'ai rencontré un prince, il est en compétition avec sa mère pour prendre le pouvoir dans les Îles Moonshae. J'espère que la fille du Roi des affaires d'Atkatla n'a pas été impliquée dans ce conflit. Le temps est venu de rencontrer cette Grande Dame et de lui parler.~
+*/
+
+/*
 @5 = ~Enlèvement et politique.
 
-Après avoir discuté avec la grande Reine, souveraine des îles Moonshae, il m'est apparu clairement que son fils, le prince des îles Moonshae était un tyran. On m'a confié la tâche de débusquer et capturer un trafiquant d'armes, sa capture pourrait mettre fin au conflit Ce faisant, il se pourrait bien que je retrouve la fille du Roi des Affaires.~
+Après avoir discuté avec la grande Reine, souveraine des îles Moonshae, il m'est apparu clairement que son fils, le prince des îles Moonshae était un tyran. On m'a confié la tâche de débusquer et capturer un trafiquant d'armes, sa capture pourrait mettre fin au conflit Ce faisant, il se pourrait bien que je retrouve la fille du Roi des affaires.~
+*/
+
+/*
 @6 = ~Enlèvement et politique.
 
-J'ai réussi à trouver le trafiquant d'armes qui fournissait ses armes au prince. Nous lui avons soutiré toutes les informations possibles, y compris le lieu où le prince retient prisonnière la fille du Roi des Affaires.~
+J'ai réussi à trouver le trafiquant d'armes qui fournissait ses armes au prince. Nous lui avons soutiré toutes les informations possibles, y compris le lieu où le prince retient prisonnière la fille du Roi des affaires.~
+*/
+
+/*
 @7 = ~Enlèvement et politique. 
 
-J'ai résolu le conflit qui déchiré les îles Moonshae et retrouvé la fille du Roi des Affaires.~
+J'ai résolu le conflit qui déchiré les îles Moonshae et retrouvé la fille du Roi des affaires.~
+*/
+
 @8 = ~Je suis vraiment reconnaissant pour votre aide dans se litige commercial. Voici votre récompense.~ // Trade king
 @9 = ~Et maintenant, il est temps pour moi de partir, beaucoup de choses son restées en suspens. Encore merci et au revoir.~ // Trade king
 @10 = ~Au revoir~ // Charname

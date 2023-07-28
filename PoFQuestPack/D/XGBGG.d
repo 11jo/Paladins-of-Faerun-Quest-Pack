@@ -13,7 +13,5 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @5
-  IF ~~ THEN DO ~EscapeArea()
-AddexperienceParty(1000)
-~ EXIT
+  IF ~~ THEN DO ~AddexperienceParty(1000) EscapeArea()~ EXIT
 END

@@ -20,13 +20,13 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @8
-  IF ~~ THEN DO ~ActionOverride(Player2,LeaveAreaLUA("XG1120","",[951.209],0))
+  IF ~~ THEN DO ~EscapeArea()
+ActionOverride(Player2,LeaveAreaLUA("XG1120","",[951.209],0))
 ActionOverride(Player1,LeaveAreaLUA("XG1120","",[984.195],0))
 ActionOverride(Player3,LeaveAreaLUA("XG1120","",[1023.199],0))
 ActionOverride(Player4,LeaveAreaLUA("XG1120","",[999.238],0))
 ActionOverride(Player5,LeaveAreaLUA("XG1120","",[966.254],0))
 ActionOverride(Player6,LeaveAreaLUA("XG1120","",[924.171],0))
-EscapeArea()
 ~ EXIT
 END
 
@@ -38,12 +38,12 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @8
-  IF ~~ THEN DO ~ActionOverride(Player2,LeaveAreaLUA("XG1120","",[951.209],0))
+  IF ~~ THEN DO ~EscapeArea()
+ActionOverride(Player2,LeaveAreaLUA("XG1120","",[951.209],0))
 ActionOverride(Player1,LeaveAreaLUA("XG1120","",[984.195],0))
 ActionOverride(Player3,LeaveAreaLUA("XG1120","",[1023.199],0))
 ActionOverride(Player4,LeaveAreaLUA("XG1120","",[999.238],0))
 ActionOverride(Player5,LeaveAreaLUA("XG1120","",[966.254],0))
 ActionOverride(Player6,LeaveAreaLUA("XG1120","",[924.171],0))
-EscapeArea()
 ~ EXIT
 END

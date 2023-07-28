@@ -3,7 +3,11 @@
 @2 = ~<CHARNAME>, gute Arbeit. Danke für die Hilfe, aber wir werden sowieso damit fertig. Tretet zurück.~
 @3 = ~Soldaten! Findet von ihm alles heraus, was er über meinen Sohn weiß!~
 @4 = ~<CHARNAME>>! Der Händler hat uns alles erzählt. Jetzt wird die Tochter des Königs von Amn hierher gebracht. Sie haben sie auf Befehl meines Sohnes nicht weit von hier festgehalten. Man sollte sich um meinen Sohn kümmern. Ich werde ein Schiff für Euch nach Amn bereithalten. Ich danke Euch für alles, was Ihr für mich und unser Volk getan habt. Hier ist eine kleine Belohnung. Lebt wohl.~
+
+/*
 @5 = ~Entführung und Politik.
 
 Es ist mir gelungen, einen Waffenhändler zu finden, der sie an den Prinzen, den Sohn der Königin, geliefert hat. Wir haben ihm alle Informationen entlockt, einschließlich des Ortes, an dem der Prinz die Tochter des Königs von Amn festhält.~
+*/
+
 @6 = ~Keine Sorge, Euer Vater hat mich geschickt. Ich werde Euch zu ihm bringen.~

@@ -17,14 +17,14 @@ END
 
 IF ~~ THEN BEGIN 7
   SAY @3
-  IF ~~ THEN DO ~AddExperienceParty(10000)
+  IF ~~ THEN DO ~AddexperienceParty(10000)
 GivePartyGold(1000)
-EscapeArea()
-EraseJournalEntry(@4)
-EraseJournalEntry( @5)
-EraseJournalEntry(@6)
-EraseJournalEntry(@7)
-EraseJournalEntry(@8)
-EraseJournalEntry(@9)~ 
-SOLVED_JOURNAL @10 EXIT
+EraseJournalEntry(@50112)
+EraseJournalEntry(@50114)
+EraseJournalEntry(@50113)
+EraseJournalEntry(@50115)
+EraseJournalEntry(@50111)
+EraseJournalEntry(@50116)
+AddJournalEntry(@50117,QUEST_DONE)
+EscapeArea()~ EXIT
 END
