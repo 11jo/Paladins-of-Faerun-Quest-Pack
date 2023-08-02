@@ -22,6 +22,8 @@
 @21   = ~Архимаг~
 @22   = ~Жрец Шевароша~
 
+@424 = ~Temple d'Ilmater.~
+
 @24   = ~Ардес, высший священник~
 @25   = ~Ардес~
 @26   = ~Арикс~
@@ -407,7 +409,7 @@
 @406  = ~Там ничего нет.~
 @407  = ~Вам требуется помощь, вы сами ненайдете путь~
 @408  = ~Гильдия воров: Бродячие кинжалы~
-
+@409 = ~Temple entrance~
 @410  = ~Если заглянешь, увидишь только магазин.~
 @411  = ~Этот путь никуда не ведет.~
 @412  = ~Отец Градака~
@@ -3763,6 +3765,7 @@ THAC0:  +3 бонус
 @929  = ~Храм Шевароша~
 
 
+@999  = ~Crevasse~
 @1000 = ~Этот фонтан наполнен темной вязкой жидкостью, от которой разит смертью и разложением.~
 @1001 = ~Ваш сон был прерван.~
 @1002 = ~На нас напали гиганты!~
@@ -3847,6 +3850,41 @@ THAC0:  +3 бонус
 Спасбросок: нет
 
 Снижает боевой дух врагов и ухудшает на 1 их спасброски и броски на атаку. Как только заклинание прочитано, оно оказывает свое действие на всех существ внутри 15-футового куба с центром в точке, указанной заклинателем. Таким образом, существа, покинувшие границы куба после этого, продолжают находиться под действием заклинания, а те, кто вошел в зону охвата, ему уже не подвергаются.~
+
+
+// Item ressources for XGCMA03.ITM, XGHELM4 and IWD bam
+
+// XGSPMOD1
+
+@1200   = ~Negative Energy Beam~
+
+@1201   = ~Negative Energy Beam 
+(Black Magic) 
+
+Level: 5
+Range: 130-ft + 33-ft/level
+Duration: Instant
+Casting time: 3 
+Area of effect: Special
+Saving Throw: 1/2
+
+After casting this spell, the magician unleashes a powerful discharge of negative energy that inflicts 1d8 damage per caster level (up to a maximum of 10d8) on all creatures in the area of effect. A successful saving throw against spells halves the damage. If the beam hits a wall, it will bounce back until it reaches its full range.~
+
+// XGSPMOD2
+
+@1202   = ~Negative Energy Beam ~
+
+@1203   = ~Negative Energy Beam  
+
+Level: 4
+Range: Visual range of the caster
+Duration: Instant
+Casting time: 3 
+Area of effect: 30-ft. radius
+Saving Throw: 1/2
+
+The wizard points his finger in the desired direction and projects a sphere of negative energy which explodes on impact (unless it collides with a solid obstacle along the way), inflicting 1d8 points of damage per caster level (up to a maximum of 10d8). Creatures who succeed in their saving throw or dodge suffer only half the damage.~
+
 
 ////XGBOOKP.itm - BOOKPR.itm////
 @2000 = ~Grimoire~
@@ -4644,3 +4682,154 @@ Ilsensine - jeden z hlavnich bohu, podle nij jednou illithide ovladnou svit
 
 ZLOBOI A TROLLOVE
 Vaprak - jednoruky buh silenstvi a vrazdini~
+
+
+// AREAS NAMES 
+/*
+@100001   = ~Tradmith Cave~                                 // XG0001
+@100002   = ~The Shining Plains~                            // XG0002
+@100003   = ~Turlan Forest~                                 // XG0003
+@100004   = ~Wandering Fire Mines~                          // XG0004
+@100007   = ~Witch's Strength~                              // XG0007
+@100801   = ~Hrothgar Camp~                                 // XG0801
+@100009   = ~Undead Housing~                                // XG0009
+@100034   = ~Council of Mages~                              // XG0034
+@100012   = ~Castle Forgotten Hills~                        // XG0012
+@100014   = ~Pirate island~                                 // XG0014
+@100016   = ~Pass~                                          // XG0016
+@100017   = ~Tower of Gradak~                               // XG0017
+@100018   = ~Secret camp of Gradak~                         // XG0018
+@100019   = ~Ship of Gradak~                                // XG0019
+@100020   = ~Baldur's Gate~                                 // XG0020
+@100025   = ~Docks of Targos~                               // XG0025
+@100026   = ~The High Forest~                               // XG0026
+@100064   = ~Waterdeep~                                     // XG0064
+@100028   = ~Fort on Snowflake mountains~                   // XG0028
+@100319   = ~Abandoned Village~                             // XG0319
+@100029   = ~Priests City  Har Al-Dur~                      // XG0029
+@100033   = ~Village~                                       // XG0033
+@100039   = ~Moonshae Isles~                                // XG0039
+@100040   = ~Moonshae Isles~                                // XG0040
+@100068   = ~Business district~                             // XG0068
+@100041   = ~Moonshae Isles~                                // XG0041
+@100046   = ~Forgotten Temple~                              // XG0046
+@100047   = ~East Harbor~                                   // XG0047
+@100062   = ~Neverwinter~                                   // XG0062
+@100050   = ~Mountains~                                     // XG0050
+@100052   = ~Ice Castle~                                    // XG0052
+@100054   = ~Shelter~                                       // XG0054
+@100055   = ~Tower of Gradak~                               // XG0055
+@100061   = ~Forest~                                        // XG0061
+@100065   = ~Village~                                       // XG0065
+@100066   = ~Pass~                                          // XG0066
+@100067   = ~Valley of Icewind Dale~                        // XG0067
+@100069   = ~Hunting Trolls~                                // XG0069
+@100053   = ~Cult~                                          // XG0053
+@100056   = ~Valley~                                        // XG0056
+@100059   = ~Village~                                       // XG0059
+@100060   = ~Mountains~                                     // XG0060
+@100070   = ~Farm~                                          // XG0070
+@100072   = ~Calim Desert~                                  // XG0072
+@100073   = ~Calim Desert~                                  // XG0073
+@100075   = ~Arena~                                         // XG0075
+@101319   = ~Abandoned Village~                             // XG1319
+@100076   = ~Forest of Tehyr~                               // XG0076
+@100077   = ~Forest of Tehyr~                               // XG0077
+@100078   = ~Castle of Tehyr~                               // XG0078
+@100058   = ~Valley of Icewind Dale~                        // XG0058
+@100079   = ~Farm~                                          // XG0079
+@104001   = ~Moonshae Isles~                                // XG4001
+@100081   = ~Twilight Mountains~                            // XG0081
+@100082   = ~Twilight Mountains~                            // XG0082
+@100083   = ~Twilight Mountains~                            // XG0083
+@100133   = ~Village~                                       // XG0133
+@108100   = ~Twilight Mountains~                            // XG8100
+@108200   = ~Twilight Mountains~                            // XG8200
+@108300   = ~Twilight Mountains~                            // XG8300
+@110002   = ~Caravan~                                       // XGKAR2
+@100681   = ~Torm admirers Monastery~                       // XG0681
+@108500   = ~Cyric admirers Monastery~                      // XG8500
+@100084   = ~The Frozen Plain~                              // XG0084
+@110080   = ~Siluvanede~                                    // XG0A80
+@100080   = ~Siluvanede (bis)~                              // XG0080
+@100780   = ~Camp Eilistraee~                               // XG0780
+@100680   = ~Forest~                                        // XG0680
+*/
+
+@100000   = ~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},
+	{"  ", "        PALADIN OF FAERUN        "},
+	{"XG0001", "(PoF)  Tradmith Cave"},
+	{"XG0002", "(PoF)  The Shining Plains"},
+	{"XG0003", "(PoF)  Turlan Forest"},
+	{"XG0004", "(PoF)  Wandering Fire Mines"},
+	{"XG0007", "(PoF)  Witch's Strength"},
+	{"XG0801", "(PoF)  Hrothgar Camp"},
+	{"XG0009", "(PoF)  Undead Housing"},
+	{"XG0034", "(PoF)  Council of Mages"},
+	{"XG0012", "(PoF)  Castle Forgotten Hills"},
+	{"XG0014", "(PoF)  Pirate island"},
+	{"XG0016", "(PoF)  Pass"},
+	{"XG0017", "(PoF)  Tower of Gradak"},
+	{"XG0018", "(PoF)  Secret camp of Gradak"},
+	{"XG0019", "(PoF)  Ship of Gradak"},
+	{"XG0020", "(PoF)  Baldur's Gate"},
+	{"XG0025", "(PoF)  Docks of Targos"},
+	{"XG0026", "(PoF)  The High Forest"},
+	{"XG0064", "(PoF)  Waterdeep"},
+	{"XG0028", "(PoF)  Fort on Snowflake mountains"},
+	{"XG0319", "(PoF)  Abandoned Village"},
+	{"XG0029", "(PoF)  Priests City  Har Al-Dur"},
+	{"XG0033", "(PoF)  Village"},
+	{"XG0039", "(PoF)  Moonshae Isles"},
+	{"XG0040", "(PoF)  Moonshae Isles"},
+	{"XG0068", "(PoF)  Business district"},
+	{"XG0041", "(PoF)  Moonshae Isles"},
+	{"XG0046", "(PoF)  Forgotten Temple"},
+	{"XG0047", "(PoF)  East Harbor"},
+	{"XG0062", "(PoF)  Neverwinter"},
+	{"XG0050", "(PoF)  Mountains"},
+	{"XG0052", "(PoF)  Ice Castle"},
+	{"XG0054", "(PoF)  Shelter"},
+	{"XG0055", "(PoF)  Tower of Gradak"},
+	{"XG0061", "(PoF)  Forest"},
+	{"XG0065", "(PoF)  Village"},
+	{"XG0066", "(PoF)  Pass"},
+	{"XG0067", "(PoF)  Valley of Icewind Dale"},
+	{"XG0069", "(PoF)  Hunting Trolls"},
+	{"XG0053", "(PoF)  Cult"},
+	{"XG0056", "(PoF)  Valley"},
+	{"XG0059", "(PoF)  Village"},
+	{"XG0060", "(PoF)  Mountains"},
+	{"XG0070", "(PoF)  Farm"},
+	{"XG0072", "(PoF)  Calim Desert"},
+	{"XG0073", "(PoF)  Calim Desert"},
+	{"XG0075", "(PoF)  Arena"},
+	{"XG1319", "(PoF)  Abandoned Village"},
+	{"XG0076", "(PoF)  Forest of Tehyr"},
+	{"XG0077", "(PoF)  Forest of Tehyr"},
+	{"XG0078", "(PoF)  Castle of Tehyr"},
+	{"XG0058", "(PoF)  Valley of Icewind Dale"},
+	{"XG0079", "(PoF)  Farm"},
+	{"XG4001", "(PoF)  Moonshae Isles"},
+	{"XG0081", "(PoF)  Twilight Mountains"},
+	{"XG0082", "(PoF)  Twilight Mountains"},
+	{"XG0083", "(PoF)  Twilight Mountains"},
+	{"XG0133", "(PoF)  Village"},
+	{"XG8100", "(PoF)  Twilight Mountains"},
+	{"XG8200", "(PoF)  Twilight Mountains"},
+	{"XG8300", "(PoF)  Twilight Mountains"},
+	{"XGKAR2", "(PoF)  Caravan"},
+	{"XG0681", "(PoF)  Torm admirers Monastery"},
+	{"XG8500", "(PoF)  Cyric admirers Monastery"},
+	{"XG0084", "(PoF)  The Frozen Plain"},
+	{"XG0A80", "(PoF)  Siluvanede"},
+	{"XG0080", "(PoF)  Siluvanede (bis)"},
+	{"XG0780", "(PoF)  Camp Eilistraee"},
+	{"XG0680", "(PoF)  Forest"},~
+
+
+
+
+
+
+

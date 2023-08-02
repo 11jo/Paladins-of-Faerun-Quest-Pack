@@ -1158,6 +1158,19 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY dlg_filenames_to_change BEGIN
 "YARPEHM" => "XGYARHM"
 "YARPEN" => "XGYARPN"
 "ZMOD" => "XGZ"
+"ZOMBIE" => ""
+"GRSKEL2" => ""
+"SKELWA01" => ""
+"SENANI02" => ""
+"SENANI03" => ""
+"SENANI04" => ""
+"DEATHKNI" => ""
+"DROW01" => ""
+"DROW02" => ""
+"DROW03" => ""
+"DROW04" => ""
+"TANADV03" => ""
+"DADWARF" => ""
 
 END
 

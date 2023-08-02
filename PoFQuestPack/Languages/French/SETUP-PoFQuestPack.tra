@@ -398,16 +398,16 @@
 @397 = ~Éclaireur de Gradak~
 @398 = ~Le passage est bloqué~
 @399 = ~Ce passage a été barricadé de l'intérieur.~
-@400 = ~The abandoned house~
+@400 = ~Cette maison est abandonnée.~
 @401 = ~Il n'y a rien à voir par ici.~
 @402 = ~Marchand~
 @403 = ~Weapon warehouse~
-@404 = ~Entrance to the mill~
-@405 = ~Three Jugs tavern~
+@404 = ~Accès sous le moulin~
+@405 = ~Taverne des trois carafes~
 @406 = ~There is nothing.~
 @407 = ~You need the help, you will not find a way.~
 @408 = ~Guild of thieves: Vagrant Daggers~
-
+@409 = ~Entrée du temple~
 @410 = ~If you glance, you will see only shop.~
 @411 = ~This way don't lead anywhere.~
 @412 = ~Père de Gradak~
@@ -422,6 +422,8 @@
 @421 = ~There are only rest rooms there.~
 @422 = ~The destroyed bridge~
 @423 = ~This weapon for pirates.~
+
+@424 = ~Temple d'Ilmater.~
 
 @425 = ~You can't see anything here.~
 @426 = ~This staircase doesn't lead anywhere.~
@@ -447,8 +449,7 @@ Résistance au feu : Bonus de 50 %
 
 Inutilisable par :
   Wizard Slayer
-  Kensai~ // 
-  Personnage non maléfique
+  Kensai~ // Personnage non maléfique
 @441 = ~Ghoul's amulet~
 @442 = ~This amulet is made of a ghoul's tooth. It does not have a very outstanding appearance, but its properties may be useful.
 
@@ -2273,8 +2274,8 @@ Nécessite : Strength 4
 
 Inutilisable par :
   Mage~
-@653 = ~Marko's Report~
-@654 = ~This document was given to me by Marko, Gradak's right-hand man. It lists everything Gradak has ever done.~
+@653 = ~Journal de Marko~
+@654 = ~Marko, le bras droit de Gradak m'a remis ce document dans lequel il relate l'ensemble des exactions commises par son chef.~
 @655 = ~Assignment~
 @656 = ~This is a assignment from the high priest.~
 @657 = ~The ransom for your family has been increased to 10,000 gold.~
@@ -4084,25 +4085,27 @@ Poids : 1~
 @929  = ~Temple of Shevarash~
 
 
+
+@999  = ~Crevasse~
 @1000 = ~This fountain is filled with a dark, viscous liquid from which it suffers from death and decay.~
 @1001 = ~Your dream was interrupted.~
 @1002 = ~Giants attacked us!~
 @1003 = ~The ominous song of the siren has awakened you from sleep.~
 @1004 = ~This catapult seems to have been used not so long ago, but now it's broken so that you can't fix it anymore.~
-@1005 = ~Guard Commander~
-@1006 = ~Gradak's Headquarters~
-@1007 = ~Lever from the gate~
-@1008 = ~Hotel~
-@1009 = ~Exit the city~
-@1010 = ~Mayor's House~
+@1005 = ~Camp de commandement~ // Map Note
+@1006 = ~Quartiers de Gradak~ // Map Note
+@1007 = ~Levier du pont-levis~ // Map Note
+@1008 = ~Auberge~
+@1009 = ~Sortie de la ville~
+@1010 = ~Maison du maire~
 @1011 = ~Do you have so much courage that you are not afraid to lie calmly? It's time to pay for your levity!~
 @1012 = ~Druid Abbey~
-@1013 = ~Blacksmith~
+@1013 = ~Forgeron~
 @1014 = ~Sacred Stone~
 @1015 = ~Sacred Stone~
-@1016 = ~City Temple~
-@1017 = ~Three Jugs Tavern~
-@1018 = ~Graveyard~
+@1016 = ~Temple Sacré~
+@1017 = ~Taverne des trois carafes~
+@1018 = ~Cimetière~
 @1019 = ~You're doing the wrong thing! I'll kill you!~
 @1020 = ~You were attacked by orcs~
 @1021 = ~Guesthouse~
@@ -4145,6 +4148,7 @@ Poids : 1~
 
 ///Additions///
 
+
 ////This Dagger (cdmod.ITM / Xcd.ITM) has not been added in the game and has no description, but it is still needed for a part of Order and Chaos quest.////
 /*@1060 = ~Dague mystérieuse~
 @1062 = ~Cette dague semble teintée d'un liquide rougeâtre...~
@@ -4156,11 +4160,16 @@ Poids : 1~
 @1062 = ~L'emblème de Cyric est gravé sur la poignée.~ // The Cyric emblem is carved on the handle.
 //@1063 = ~L'emblème de Cyric est gravé sur la poignée.~ // The Cyric emblem is carved on the handle.
 
+
 /////XGLRDR.CRE - LRDRMOD.CRE///// Not present but in tra folder
+
+
 @1065 = ~Lord Dread~ // Lord Dread
 @1066 = ~Lord Dread~ // Lord Dread
 
+
 ////// IWD spell for CLERIC_CIRCLE_OF_PROTECTION
+
 
 @1067   = ~Imprécation~
 
@@ -4176,6 +4185,42 @@ Zone d'effet : rayon de 4,50 mètres
 Jet de sauvegarde : aucun
 
 Grâce à ce sort, le prêtre diminue le moral de ses adversaires et pénalise de -1 leurs jets de sauvegarde et d'attaque. Dès que l'incantation s'achève, le sort affecte toutes les créatures se trouvant dans un rayon de 4,50 mètres, dont le centre est choisi par le prêtre (les créatures quittant la zone d'effet sont toujours affectées ; par contre, celles qui y entrent par la suite ne le sont pas).~
+
+
+// Item ressources for XGCMA03.ITM, XGHELM4 and IWD bam
+
+// XGSPMOD1
+
+@1200   = ~Faisceau d'énergie négative~
+
+@1201   = ~Faisceau d'énergie négative 
+(Magie noire) 
+
+Niveau : 5
+Portée : 40 mètres + 10 mètres/niveau
+Durée : Instantanée
+Temps d'incantation : 3 
+Zone d'effet : Spéciale
+Jet de sauvegarde : 1/2
+
+Après avoir lancé ce sort, le magicien libère une puissante décharge d'énergie négative qui inflige 1d8 points de dégâts par niveau du lanceur de sorts (jusqu'à un maximum de 10d8) à toutes les créatures se trouvant dans la zone d'effet. Un jet de sauvegarde contre les sorts réussi réduit les dégâts de moitié. Si le faisceau rencontre un mur, il rebondira jusqu'à ce qu'il atteigne sa portée totale.~
+
+// XGSPMOD2
+
+@1202   = ~Explosion d'énergie négative~
+
+@1203   = ~Explosion d'énergie négative 
+(Magie noire) 
+
+Niveau : 4
+Portée : Champ visuel du lanceur
+Durée : Instantanée
+Temps d'incantation : 3 
+Zone d'effet : Rayon de 9 m
+Jet de sauvegarde : 1/2
+
+Le magicien pointe son doigt dans la direction désirée et projette une sphère d'énergie négative qui explosera à l'impact (à moins qu'elle ne rencontre un obstacle solide en chemin), infligeant 1d8 points de dégâts par niveau du lanceur de sorts (jusqu'à un maximum de 10d8). Les créatures qui réussissent leur jet de sauvegarde ou esquivent ne subissent que la moitié des dégâts.~
+
 
 ////XGBOOKP.itm - BOOKPR.itm////
 @2000 = ~Grimoire~
@@ -4973,3 +5018,254 @@ Ilsensine - jeden z hlavních bohù, podle nìj jednou illithidé ovládnou svìt
 
 ZLOBØI A TROLLOVÉ
 Vaprak - jednoruký bùh šílenství a vraždìní~
+
+
+// AREAS NAMES 
+
+/*
+@100001   = ~Grotte des Marchands~                                       // Tradmith Cave                                  // XG0001
+@100002   = ~Plaines Étincelantes~                                       // The Shining Plains                             // XG0002
+@100003   = ~Bois de Turlan~                                             // Turlan Forest                                  // XG0003
+@100004   = ~Mines de Feu vagabondes~                                    // Wandering Fire Mines                           // XG0004
+@100007   = ~Le Fort de la Sorcière~                                     // Witch's Strength                               // XG0007
+@100801   = ~Camp Hrothgar~                                              // Hrothgar Camp //                               // XG0801
+@100009   = ~Maison des Morts-vivants~                                   // Undead Housing                                 // XG0009
+@100034   = ~Le Conseil des Mages~                                       // Council of Mages                               // XG0034
+@100012   = ~Château des Collines Oubliées  ~                            // Castle Forgotten Hills                         // XG0012
+@100014   = ~Île du pirate (Mer des étoiles déchues)~                    // Pirate island                                  // XG0014
+@100016   = ~Passe du Géant~                                             // Pass                                           // XG0016
+@100017   = ~Tour de Gradak ~                                            // Tower of Gradak                                // XG0017
+@100018   = ~Camp Secret de Gradak~                                      // Secret camp of Gradak                          // XG0018
+@100019   = ~Navire de Gradak~                                           // Ship of Gradak                                 // XG0019
+@100020   = ~Porte de Baldur~                                            // Baldur's Gate                                  // XG0020
+@100025   = ~Quais de Targos~                                            // Docks of Targos                                // XG0025
+@100026   = ~Haute-Forêt~                                                // The High Forest                                // XG0026
+@100064   = ~Eauprofonde~                                                // Waterdeep                                      // XG0064
+@100028   = ~Château des Montagnes Floconeigeuses~                       // Fort on Snowflake mountains                    // XG0028
+@100319   = ~Village Abandonné~                                          // Abandoned Village                              // XG0319
+@100029   = ~Cite des Prêtres (Près de Berdusk)~                         // Priests City  Har Al-Dur                       // XG0029
+@100033   = ~Village (près de Teziir)~                                   // Village                                        // XG0033
+@100039   = ~Îles Moonshae~                                              // Moonshae Isles                                 // XG0039
+@100040   = ~Îles Moonshae~                                              // Moonshae Isles                                 // XG0040
+@100068   = ~District des Affaires~                                      // Business district                              // XG0068
+@100041   = ~Îles Moonshae~                                              // Moonshae Isles                                 // XG0041
+@100046   = ~Temple oublié~                                              // Forgotten Temple                               // XG0046
+@100047   = ~Port de l'Est (Icewind Dale)~                               // East Harbor                                    // XG0047
+@100062   = ~Padhiver~                                                   // Neverwinter                                    // XG0062
+@100050   = ~Montagnes (sous le festival)~                               // Mountains                                      // XG0050
+@100052   = ~Forteresse Glacée~                                          // Ice Castle                                     // XG0052
+@100054   = ~Refuge (de Gradak)~                                         // Shelter                                        // XG0054
+@100055   = ~Tour de Gradak (bis)~                                       // Tower of Gradak                                // XG0055
+@100061   = ~Forêt (vers les Montagnes du Couchant)~                     // Forest                                         // XG0061
+@100065   = ~Village (près de Soubar)~                                   // Village                                        // XG0065
+@100066   = ~Col de la Forêt~                                            // Pass                                           // XG0066
+@100067   = ~Vallée de L'Epine Dorsale~                                  // Valley of Icewind Dale                         // XG0067
+@100069   = ~Chasse aux Trolls~                                          // Hunting Trolls                                 // XG0069
+@100053   = ~Le culte~                                                   // Cult                                           // XG0053
+@100056   = ~Vallée~                                                     // Valley                                         // XG0056
+@100059   = ~Village (Floconeigeuse)~                                    // Village                                        // XG0059
+@100060   = ~Montagnes (Floconeigeuse)~                                  // Mountains                                      // XG0060
+@100070   = ~Ferme (près du Gué de la Dague)~                            // Farm                                           // XG0070
+@100072   = ~Désert Calim (près de Memnon)~                              // Calim Desert                                   // XG0072
+@100073   = ~Désert Calim  (près de Darromar)~                           // Calim Desert                                   // XG0073
+@100075   = ~Arène~                                                      // Arena                                          // XG0075
+@101319   = ~Village Abandonné (bis)~                                    // Abandoned Village                              // XG1319
+@100076   = ~Forêt de Tethyr~                                            // Forest of Tehyr                                // XG0076
+@100077   = ~Forêt de Tethyr~                                            // Forest of Tehyr                                // XG0077
+@100078   = ~Château-Tethyr~                                             // Castle of Tehyr                                // XG0078
+@100058   = ~Vallée de L'Epine Dorsale~                                  // Valley of Icewind Dale                         // XG0058
+@100079   = ~Ferme (près d'Esmeltaran)~                                  // Farm                                           // XG0079
+@104001   = ~Îles Moonshae~                                              // Moonshae Isles                                 // XG4001
+@100081   = ~Montagnes du Couchant~                                      // Twilight Mountains                             // XG0081
+@100082   = ~Montagnes du Couchant~                                      // Twilight Mountains                             // XG0082
+@100083   = ~Montagnes du Couchant~                                      // Twilight Mountains                             // XG0083
+@100133   = ~Village (près de Teziir) (bis)~                             // Village                                        // XG0133
+@108100   = ~Montagnes du Couchant (bis)~                                // Twilight Mountains                             // XG8100
+@108200   = ~Montagnes du Couchant (bis)~                                // Twilight Mountains                             // XG8200
+@108300   = ~Montagnes du Couchant (bis)~                                // Twilight Mountains                             // XG8300
+@110002   = ~Caravane~                                                   // Caravan                                        // XGKAR2
+@100681   = ~Monastère des admirateur de Torm~                           // Torm admirers Monastery                        // XG0681
+@108500   = ~Monastère des admirateurs de Cyric~                         // Cyric admirers Monastery                       // XG8500
+@100084   = ~La Plaine Gelée~                                            // The Frozen Plain                               // XG0084
+@110080   = ~Siluvanede~                                                 // Siluvanede                                     // XG0A80
+@100080   = ~Siluvanede (bis)~                                           // Siluvanede (bis)                               // XG0080
+@100780   = ~Camp Eilistraee~                                            // Camp Eilistraee                                // XG0780
+@100680   = ~Forêt (vers Padhiver)~                                      // Forest                                         // XG0680
+*/
+
+@100000   = ~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},
+	{"  ", "        PALADIN OF FAËRUN        "},
+	{"XG0001", "(PoF)  Grotte des Marchands"},
+	{"XG0002", "(PoF)  Plaines Étincelantes"},
+	{"XG0003", "(PoF)  Bois de Turlan"},
+	{"XG0004", "(PoF)  Mines de Feu vagabondes"},
+	{"XG0007", "(PoF)  Le Fort de la Sorcière"},
+	{"XG0801", "(PoF)  Camp Hrothgar"},
+	{"XG0009", "(PoF)  Maison des Morts-vivants"},
+	{"XG0034", "(PoF)  Le Conseil des Mages"},
+	{"XG0012", "(PoF)  Château des Collines Oubliées"},
+	{"XG0014", "(PoF)  Île du pirate (Mer des étoiles déchues)"},
+	{"XG0016", "(PoF)  Passe du Géant"},
+	{"XG0017", "(PoF)  Tour de Gradak"},
+	{"XG0018", "(PoF)  Camp Secret de Gradak"},
+	{"XG0019", "(PoF)  Navire de Gradak"},
+	{"XG0020", "(PoF)  Porte de Baldur"},
+	{"XG0025", "(PoF)  Quais de Targos"},
+	{"XG0026", "(PoF)  Haute-Forêt"},
+	{"XG0064", "(PoF)  Eauprofonde"},
+	{"XG0028", "(PoF)  Château des Montagnes Floconeigeuses"},
+	{"XG0319", "(PoF)  Village Abandonné"},
+	{"XG0029", "(PoF)  Cite des Prêtres (Près de Berdusk)"},
+	{"XG0033", "(PoF)  Village (près de Teziir)"},
+	{"XG0039", "(PoF)  Îles Moonshae"},
+	{"XG0040", "(PoF)  Îles Moonshae"},
+	{"XG0068", "(PoF)  District des Affaires"},
+	{"XG0041", "(PoF)  Îles Moonshae"},
+	{"XG0046", "(PoF)  Temple oublié"},
+	{"XG0047", "(PoF)  Port de l'Est (Icewind Dale)"},
+	{"XG0062", "(PoF)  Padhiver"},
+	{"XG0050", "(PoF)  Montagnes (sous le festival)"},
+	{"XG0052", "(PoF)  Forteresse Glacée"},
+	{"XG0054", "(PoF)  Refuge (de Gradak)"},
+	{"XG0055", "(PoF)  Tour de Gradak (bis)"},
+	{"XG0061", "(PoF)  Forêt (vers les Montagnes du Couchant)"},
+	{"XG0065", "(PoF)  Village (près de Soubar)"},
+	{"XG0066", "(PoF)  Col de la Forêt"},
+	{"XG0067", "(PoF)  Vallée de L'Epine Dorsale"},
+	{"XG0069", "(PoF)  Chasse aux Trolls"},
+	{"XG0053", "(PoF)  Le culte"},
+	{"XG0056", "(PoF)  Vallée"},
+	{"XG0059", "(PoF)  Village (Floconeigeuse)"},
+	{"XG0060", "(PoF)  Montagnes (Floconeigeuse)"},
+	{"XG0070", "(PoF)  Ferme (près du Gué de la Dague)"},
+	{"XG0072", "(PoF)  Désert Calim (près de Memnon)"},
+	{"XG0073", "(PoF)  Désert Calim  (près de Darromar)"},
+	{"XG0075", "(PoF)  Arène"},
+	{"XG1319", "(PoF)  Village Abandonné (bis)"},
+	{"XG0076", "(PoF)  Forêt de Tethyr"},
+	{"XG0077", "(PoF)  Forêt de Tethyr"},
+	{"XG0078", "(PoF)  Château-Tethyr"},
+	{"XG0058", "(PoF)  Vallée de L'Epine Dorsale"},
+	{"XG0079", "(PoF)  Ferme (près d'Esmeltaran)"},
+	{"XG4001", "(PoF)  Îles Moonshae"},
+	{"XG0081", "(PoF)  Montagnes du Couchant"},
+	{"XG0082", "(PoF)  Montagnes du Couchant"},
+	{"XG0083", "(PoF)  Montagnes du Couchant"},
+	{"XG0133", "(PoF)  Village (près de Teziir) (bis)"},
+	{"XG8100", "(PoF)  Montagnes du Couchant (bis)"},
+	{"XG8200", "(PoF)  Montagnes du Couchant (bis)"},
+	{"XG8300", "(PoF)  Montagnes du Couchant (bis)"},
+	{"XGKAR2", "(PoF)  Caravane"},
+	{"XG0681", "(PoF)  Monastère des admirateur de Torm"},
+	{"XG8500", "(PoF)  Monastère des admirateurs de Cyric"},
+	{"XG0084", "(PoF)  La Plaine Gelée"},
+	{"XG0A80", "(PoF)  Siluvanede"},
+	{"XG0080", "(PoF)  Siluvanede (bis)"},
+	{"XG0780", "(PoF)  Camp Eilistraee"},
+	{"XG0680", "(PoF)  Forêt (vers Padhiver)"},~
+
+
+/* =============== *
+ *  WeiDU prompts  *
+ * =============== */
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
+
+@-1040= "
+Veuillez choisir la langue dans laquelle vous souhaitez jouer au jeu.
+Si par la suite vous desirez jouer au jeu dans une langue differente, il vous
+faudra editer le fichier weidu.conf et reinstaller vos mods.
+"
+@-1041= "Tcheque"
+@-1042= "Allemand"
+@-1043= "Anglais"
+@-1044= "Espagnol"
+@-1045= "Francais"
+@-1046= "Italien"
+@-1047= "Polonais"
+@-1048= "Portugais"
+@-1049= "Turc"
+@-1050= "Japonais"
+@-1051= "Coreen"
+@-1052= "Chinois simplifie"
+@-1053= "Russe"
+@-1054= "Ukrainien"
+
+@-1060= "
+Ce jeu est disponible en plusieurs langues mais WeiDU ne sait pas laquelle a ete choisie quand ce mod a ete installe.
+
+Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe ce mod. Votre choix servira jusqu'a ce que WeiDU s'arrete mais ne sera pas memorise.
+"
+@-1061= "
+Utilisation de"
+@-1062= " et "
+
+@-1063= "INSTALLATION ABANDONNEE"
+@-1064= "Abandon de l'installation de ["
+@-1065= "], retour a l'etat anterieur"
+
+
+
+
+

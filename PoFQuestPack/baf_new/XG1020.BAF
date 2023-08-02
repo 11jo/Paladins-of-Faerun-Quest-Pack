@@ -7,9 +7,11 @@ THEN
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
-    Wait(2)
-    ForceSpell("XG1020",CUTSCENE_METEOR_SWARM)
-    Wait(1)
+	CreateCreature("INVISABO",[496.2160],0)  // ~Маргул~
+	ForceSpell("INVISABO",CUTSCENE_METEOR_SWARM)
+	CreateCreature("INVISABO",[986.2329],0)  // ~Маргул~
+	ForceSpell("INVISABO",CUTSCENE_METEOR_SWARM)
+	Wait(6)
     ClearAllActions()
     CreateCreature("XGBRMOC",[565.2472],0)  // ~Маргул~
     Wait(2)
@@ -23,6 +25,7 @@ THEN
     Wait(4)
     DisplayString("XGBRMOC",@4)  // @4
     Wait(2)
+	ActionOverride("INVISABO",DestroySelf())
     CreateCreature("XGBRMO",[362.2419],0)  // ~Брат монахов~
     CreateCreature("XGBRMIL",[662.2549],0)  // ~Хранитель братства~
     CreateCreature("XGBRMIL",[678.2050],0)  // ~Хранитель братства~

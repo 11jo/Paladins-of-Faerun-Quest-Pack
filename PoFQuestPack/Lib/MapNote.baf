@@ -1,0 +1,34 @@
+
+// Create mapnotes 
+IF
+  Global("YourVariable","MYAREA",0)
+THEN
+  RESPONSE #100
+  	AddMapNote([2260.1047],@20)
+  	AddMapNote([2769.1185],@21)
+  	AddMapNote([2147.1737],@22)
+  	AddMapNote([3116.2027],@23)
+  	AddMapNote([3256.711],@24)
+  	AddMapNote([2664.904],@25)
+  	AddMapNote([4352.1426],@31)
+  	AddMapNote([4599.1961],@33)
+  	AddMapNote([999.2034],@34)
+  	AddMapNote([1866.2166],@36)
+  	AddMapNote([1970.1161],@39)
+  	AddMapNote([788.1584],@40) 
+  	AddMapNote([3156.2558],@41)
+  	AddMapNote([4406.550],@42) 
+  	AddMapNote([683.2370],@43) 
+  	AddMapNote([1574.969],@44) 
+  	AddMapNote([1888.721],@45) 
+  	AddMapNote([4846.1587],@46)
+  	AddMapNote([3759.2128],@50)
+  	AddMapNote([3914.268],@51) 
+ 	SetGlobal("YourVariable","MYAREA",1)
+END
+
+RemoveMapNote([2385.700],68997)
+RemoveMapNote([2385.700],68997)
+RemoveMapNote([2385.700],68997)
+RemoveMapNote([2385.700],68997)
+RemoveMapNote([2385.700],68997)

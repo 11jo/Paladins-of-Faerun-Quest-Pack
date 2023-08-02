@@ -1,28 +1,29 @@
 IF
-  Global("s#XG0446","XG0446",0)
-  PartyHasItem("XGTRBL")  // ~Кровь большого тролля~
+	Global("s#XG0446","XG0446",0)
+	PartyHasItem("XGTRBL")  // Blood of the big troll
 THEN
-  RESPONSE #100
-    SetGlobal("s#XG0446","XG0446",1)
-    ClearAllActions()
-    StartCutSceneMode()
-    CreateCreature("XGSRWZ1",[428.583],0)
-    TakePartyItem("XGTRBL")
-//    Wait(1)
-//    ActionOverride("XGSRWZ1",StartDialogue("XGSRWZ1",Player1))
-    EndCutSceneMode()
+	RESPONSE #100
+		SetGlobal("s#XG0446","XG0446",1)
+		ClearAllActions()
+		StartCutSceneMode()
+		HideGUI()
+		CreateCreatureDoor("XGSRWZ1",[428.583],S)  // Magicien
+		Wait(3)
+		ActionOverride("XGSRWZ1",MoveToObjectNoInterrupt(Player1))
+		TakePartyItem("XGTRBL")  // Blood of the big troll
+		Wait(3)
+		ActionOverride("XGSRWZ1",StartDialog("XGSRWZ1",Player1))
+		UnhideGUI()
+		EndCutSceneMode()
 END
 
 IF
-  Global("s#XG0446","XG0446",1)
-  HPLT("XGSRWZ1",60)  // ~Чародей~
+	Global("s#XG0446","XG0446",1)
+	HPLT("XGSRWZ1",60)  // ~Чародей~
 THEN
-  RESPONSE #100
-    SetGlobal("s#XG0446","XG0446",2)
-    ClearAllActions()
-    StartCutSceneMode()
-    Wait(1)
-    ActionOverride("XGSRWZ1",StartDialogue("XGSRWZ2",Player1))
-    EndCutSceneMode()
+	RESPONSE #100
+		SetGlobal("s#XG0446","XG0446",2)
+		ClearAllActions()
+		ActionOverride("XGSRWZ1",StartDialog("XGSRWZ2",Player1))
 END
 
