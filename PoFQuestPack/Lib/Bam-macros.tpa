@@ -26,13 +26,13 @@ END
 
 // Exemple : 
 
-COPY ~PoFQuestPack/Areas/XG0000.ARE~         ~override/XG0000.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0000.ARE~         ~override/XG0000.ARE~
 
-COPY ~PoFQuestPack/Areas/XG0001.ARE~         ~override/XG0001.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0001.ARE~         ~override/XG0001.ARE~
 
-COPY ~PoFQuestPack/Areas/XG0002.ARE~         ~override/XG0002.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0002.ARE~         ~override/XG0002.ARE~
 
-COPY ~PoFQuestPack/Areas/XG0003.ARE~			~override/XG0003.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0003.ARE~			~override/XG0003.ARE~
   SAY 0x26b0 @398
   SAY 0x2838 @1000
   SAY 0x3284 @1001 
@@ -55,6 +55,25 @@ PRINT ~         ~
 
   COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%BASH_FOR_FILESPEC%~
     LPM UPDATE_POF_BAM_NAMES_ON_ITM
+	
+PRINT ~         ~
+PRINT ~END BAM_NAMES_ON_ITM~
+PRINT ~         ~
+
+END
+
+///////////////////BAM ON ITEMS ABILITIES
+
+// Redo All Item present in weidu_external/PoFQuestPack/Items
+
+ACTION_BASH_FOR ~weidu_external/PoFQuestPack/Items~ ~^.+$~ BEGIN
+
+PRINT ~         ~
+PRINT ~START BAM_NAMES_ON_ITM~
+PRINT ~         ~
+
+  COPY ~%BASH_FOR_FILESPEC%~ ~%BASH_FOR_FILESPEC%~
+    LPM UPDATE_POF_BAM_NAMES_ON_ITM_ABYLITY
 	
 PRINT ~         ~
 PRINT ~END BAM_NAMES_ON_ITM~
@@ -1444,6 +1463,7 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY bam_filenames_to_change BEGIN
 "STAFF03A" => "XGSTAF3A"
 "STAFF04" => "XGSTAF4"
 "STAFF04A" => "XGSTAF4A"
+"STARMOD" => "XGSTAR01"
 "STAR01" => "XGSTAR01"
 "STAR01A" => "XGSTARA1"
 "STAR02" => "XGSTAR02"
@@ -1568,17 +1588,22 @@ DEFINE_PATCH_MACRO UPDATE_POF_BAM_NAMES_ON_ITM BEGIN
     END
 END
 
+///////////////////UPDATE_POF_BAM_NAMES_ON_ITM_ABYLITY//////////////////////////////
 
-/*
- // NOT WORKING NOT FOUND YET
+DEFINE_PATCH_MACRO UPDATE_POF_BAM_NAMES_ON_ITM_ABYLITY BEGIN
+//  BAM For Areas
+		READ_LONG 0x64 bam_off
+		READ_SHORT 0x68 bam_num
+        FOR (index = 0; index < bam_num; ++index) BEGIN
+        SET currentbam = bam_off + index * 0x38 + 0x4
+			LPM UPDATE_POF_BAM_ITM_ABYLITY // Associated macro for BAm	
+		END
+END
 
-
-DEFINE_PATCH_MACRO UPDATE_POF_BAM_NAMES_ON_ITEMABILITY BEGIN
-  READ_LONG 0x64 ability_off
-  READ_SHORT 0x68 ability_num
-  PATCH_PRINT ~PRE-LOOP~
-  FOR (index = 0; index < ability_num; ++index) BEGIN
-    SET currentbam = ability_off + index * 0x76
+	
+/////// Associated macro for BAm	
+DEFINE_PATCH_MACRO UPDATE_POF_BAM_ITM_ABYLITY BEGIN
+  READ_ASCII currentbam currentbam_name (8) NULL
     TO_UPPER currentbam_name
     PATCH_PRINT ~INDEX: %index% NAME: %currentbam_name%~
     PATCH_IF (VARIABLE_IS_SET $bam_filenames_to_change(~%currentbam_name%~)) BEGIN
@@ -1586,6 +1611,4 @@ DEFINE_PATCH_MACRO UPDATE_POF_BAM_NAMES_ON_ITEMABILITY BEGIN
       PATCH_PRINT ~INDEX: %index% NAME: %currentbam_name% NEWNAME: %currentbam_newname%~
       WRITE_ASCIIE currentbam ~%currentbam_newname%~ (8)
     END
-  END
-END
-*/
+ END

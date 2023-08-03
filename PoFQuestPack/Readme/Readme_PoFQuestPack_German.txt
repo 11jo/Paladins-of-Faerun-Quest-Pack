@@ -35,7 +35,6 @@ Stadtquest, hauptsachlich um der Stadt zu helfen oder sie sogar zu retten. Darub
     Thanks
 
 BGslayer and everyone else who worked on Paladins of Faerun
-Lord_Draconis за перевод на русский
 Andrey88 за перевод на русский, подробное прохождение мода и идеи по его доработке
 Westley Weimer, The Bigg, Wisp and all those who worked on WeiDU
 Igi - за IESDP

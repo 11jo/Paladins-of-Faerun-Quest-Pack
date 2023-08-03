@@ -23,11 +23,11 @@ END
 
 // Exemple : 
 
-COPY ~PoFQuestPack/Areas/XG0000.ARE~         ~override/XG0000.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0000.ARE~         ~override/XG0000.ARE~
 
-COPY ~PoFQuestPack/Areas/XG0001.ARE~         ~override/XG0001.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0001.ARE~         ~override/XG0001.ARE~
 
-COPY ~PoFQuestPack/Areas/XG0002.ARE~         ~override/XG0002.ARE~
+COPY ~weidu_external/PoFQuestPack/Areas/XG0002.ARE~         ~override/XG0002.ARE~
 
 COPY ~PoFQuestPack/Areas/XG0003.ARE~			~override/XG0003.ARE~
   SAY 0x26b0 @398
@@ -1727,44 +1727,34 @@ DEFINE_PATCH_MACRO UPDATE_POF_DLG_NAMES_ON_AREA BEGIN
     END
 END
 
-
-
-
-
- // NOT WORKING NOT FOUND YET
-
 /*
+
+NOT TESTED / NOT TESTED / NOT TESTED
+
+
+///////////////////UPDATE_POF_ITEM_NAMES_ON_CONT //////////////////////////////
+
 DEFINE_PATCH_MACRO UPDATE_POF_ITEM_NAMES_ON_CONT BEGIN
-  // Item for Container
-  READ_LONG 0x70 contain_off
-  READ_LONG 0x74 contain_num
-  PATCH_PRINT ~PRE-LOOP~
-  FOR (containslot=0; index < containslot; ++index) BEGIN
-      SET currentitem = containslot + index * 0xc0 + 0x78
-      LPM UPDATE_POF_CONTAIN // Associated macro for Container 
-    END
-  READ_LONG 0x78 itm_off
-  READ_SHORT 0x76 itm_cnt
-  PATCH_PRINT ~PRE-LOOP~
-		FOR (index = 0; index < itm_num; ++index) BEGIN
-		SET currentitem = itm_off + index * 0x14
-      LPM UPDATE_POF_CONTAIN // Associated macro for Container 
+//  item in container
+		READ_LONG 0x78 citem_off
+		READ_SHORT 0x76 citem_num
+        FOR (index = 0; index < citem_num; ++index) BEGIN
+        SET currentcitem = citem_off + index * 0x14
+			LPM UPDATE_POF_CONTAINER // Associated macro for item in container	
 		END
-    END
-/////////////// Associated macro for Container		
-DEFINE_PATCH_MACRO UPDATE_POF_CONTAIN BEGIN
-  READ_LONG 0x78 itm_off
-  READ_SHORT 0x76 itm_cnt
-  PATCH_PRINT ~PRE-LOOP~
-		FOR (index = 0; index < itm_num; ++index) BEGIN
-		SET currentitem = itm_off + index * 0x14
-    TO_UPPER currentitem_name
-    PATCH_PRINT ~INDEX: %index% NAME: %currentitem_name%~
-    PATCH_IF (VARIABLE_IS_SET $item_filenames_to_change(~%currentitem_name%~)) BEGIN
-      SPRINT currentitem_newname $item_filenames_to_change(~%currentitem_name%~)
-      PATCH_PRINT ~INDEX: %index% NAME: %currentitem_name% NEWNAME: %currentitem_name%~
-      WRITE_ASCIIE currentitem ~%currentitem_newname%~ (8)
-    END
-  END
 END
+
+	
+/////// Associated macro for item in container	
+DEFINE_PATCH_MACRO UPDATE_POF_CONTAINER BEGIN
+  READ_ASCII currentcitem currentcitem_name (8) NULL
+    TO_UPPER currentcitem_name
+    PATCH_PRINT ~INDEX: %index% NAME: %currentcitem_name%~
+    PATCH_IF (VARIABLE_IS_SET $itm_filenames_to_change(~%currentcitem_name%~)) BEGIN
+      SPRINT currentcitem_newname $itm_filenames_to_change(~%currentcitem_name%~)
+      PATCH_PRINT ~INDEX: %index% NAME: %currentcitem_name% NEWNAME: %currentcitem_newname%~
+      WRITE_ASCIIE currentcitem ~%currentcitem_newname%~ (8)
+    END
+ END
+
 */

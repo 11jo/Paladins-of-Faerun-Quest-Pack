@@ -102,7 +102,20 @@ COPY ~PoFQuestPack/wav~   ~override~
 
 COPY ~PoFQuestPack/maps~   ~override~
 
-COPY ~PoFQuestPack/Portraits~   ~override~
+// Portrait
+
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+
+COPY ~PoFQuestPack/Portraits/EE~   ~override~
+
+END
+
+ACTION_IF (GAME_IS ~bg2 bgt~) BEGIN
+
+COPY ~PoFQuestPack/Portraits/Vanilla~   ~override~
+
+END
+
 
 COPY_EXISTING ~AR0305.ARE~ ~override~
           WRITE_ASCII 0x94 ~AR0305~ #8
@@ -213,6 +226,38 @@ PRINT ~         ~
 	
 PRINT ~         ~
 PRINT ~END Dlg name on creature~
+PRINT ~         ~
+
+END
+
+// PORTRAIT L name
+ACTION_BASH_FOR ~weidu_external/PoFQuestPack/Actors~ ~^.+$~ BEGIN
+
+PRINT ~         ~
+PRINT ~START PORTRAIT L name on creature~
+PRINT ~         ~
+
+  COPY ~%BASH_FOR_FILESPEC%~ ~%BASH_FOR_FILESPEC%~
+    LPM UPDATE_POF_PORTRAITL_NAMES_ON_CRE
+	
+PRINT ~         ~
+PRINT ~END PORTRAIT L name on creature~
+PRINT ~         ~
+
+END
+
+// PORTRAIT S name
+ACTION_BASH_FOR ~weidu_external/PoFQuestPack/Actors~ ~^.+$~ BEGIN
+
+PRINT ~         ~
+PRINT ~START PORTRAIT S name on creature~
+PRINT ~         ~
+
+  COPY ~%BASH_FOR_FILESPEC%~ ~%BASH_FOR_FILESPEC%~
+    LPM UPDATE_POF_PORTRAITS_NAMES_ON_CRE
+	
+PRINT ~         ~
+PRINT ~END PORTRAIT S name on creature~
 PRINT ~         ~
 
 END
@@ -2472,7 +2517,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGRW.CRE~         ~override/XGRW.CRE~
   SAY NAME1 @294 
   SAY NAME2 @294 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGRW0.CRE~         ~override/XGRW.CRE~          
+COPY ~weidu_external/PoFQuestPack/Actors/XGRW0.CRE~         ~override/XGRW0.CRE~          
   SAY NAME1 @294 
   SAY NAME2 @294 
 
@@ -4024,25 +4069,22 @@ PRINT ~         ~
 
 END
 
- // NOT WORKING NOT FOUND YET
 
-/*
-//  BAM on itemability
 ACTION_BASH_FOR ~weidu_external/PoFQuestPack/Items~ ~^.+$~ BEGIN
 
 PRINT ~         ~
-PRINT ~START BAM_NAMES_ON_ itemability~
+PRINT ~START BAM_NAMES_ON_ITM~
 PRINT ~         ~
 
   COPY ~%BASH_FOR_FILESPEC%~ ~%BASH_FOR_FILESPEC%~
-    LPM UPDATE_POF_BAM_NAMES_ON_ITEMABILITY
+    LPM UPDATE_POF_BAM_NAMES_ON_ITM_ABYLITY
 	
 PRINT ~         ~
-PRINT ~END BAM_NAMES_ON_ itemability~
+PRINT ~END BAM_NAMES_ON_ITM~
 PRINT ~         ~
 
 END
-*/
+
 COPY ~weidu_external/PoFQuestPack/Items/XGcd.ITM~			~override/XGcd.ITM~ // Addition CDMOD.ITM - XGcd.ITM
   SAY NAME1 @1060
   SAY NAME2 @1061

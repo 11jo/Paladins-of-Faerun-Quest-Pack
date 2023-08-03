@@ -27,7 +27,6 @@ The mod contains with itself 1 large main quest "Paladins of Faerun", 2 side que
     Thanks
 
 BGslayer and everyone else who worked on Paladins of Faerun
-Lord_Draconis for translation into Russian
 Andrey88 for the translation into Russian, a detailed walkthrough of the mod and ideas for its revision
 Westley Weimer, The Bigg, Wisp and all those who worked on WeiDU
 Igi - for IESDP
