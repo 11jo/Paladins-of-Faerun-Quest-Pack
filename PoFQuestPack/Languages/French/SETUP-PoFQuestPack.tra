@@ -4157,8 +4157,8 @@ Poids : 1~
 
 @1060 = ~Dague~ // Dagger
 @1061 = ~Dague~ // Dagger
-@1062 = ~L'emblème de Cyric est gravé sur la poignée.~ // The Cyric emblem is carved on the handle.
-//@1063 = ~L'emblème de Cyric est gravé sur la poignée.~ // The Cyric emblem is carved on the handle.
+@1062 = ~L'emblème de Cyric est gravé sur la poignée de cette dague couverte de sang.~ // The Cyric emblem is carved on the handle.
+@1063 = ~Cette dague semble teintée d'un liquide rougeâtre...~ // Undesc
 
 
 /////XGLRDR.CRE - LRDRMOD.CRE///// Not present but in tra folder

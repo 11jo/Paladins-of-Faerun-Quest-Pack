@@ -4089,6 +4089,7 @@ COPY ~weidu_external/PoFQuestPack/Items/XGcd.ITM~			~override/XGcd.ITM~ // Addit
   SAY NAME1 @1060
   SAY NAME2 @1061
   SAY DESC @1062
+  SAY UNIDENTIFIED_DESC 1063
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAM1.ITM~			~override/XGAM1.ITM~
   SAY NAME1 @433
