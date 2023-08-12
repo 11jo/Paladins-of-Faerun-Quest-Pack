@@ -1,12 +1,11 @@
 IF
-  True()
+	True()
 THEN
-  RESPONSE #100
-    CutSceneId("XGSRWZ1")
-    Wait(2)
-CreateVisualEffect("spcrtwpn",[550.510])
-    Wait(4)
-    EndCutSceneMode()
+	RESPONSE #100
+		CutSceneId("XGSRWZ1")  // Magicien
+		Wait(2)
+		CreateVisualEffect("spcrtwpn",[550.510])
+		Wait(4)
+		EndCutSceneMode()
 END
-
 
