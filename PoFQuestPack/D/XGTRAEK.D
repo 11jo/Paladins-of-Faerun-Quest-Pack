@@ -23,7 +23,8 @@ END
 IF ~~ THEN BEGIN 4
   SAY @8
   IF ~~ THEN REPLY @9 DO ~ReputationInc(-1)
-SetGlobal("s#XGTRAEK","GLOBAL",1)~ UNSOLVED_JOURNAL @10 EXIT
+SetGlobal("s#XGTRAEK","GLOBAL",1)
+AddJournalEntry(@50200,QUEST)~ EXIT
   IF ~~ THEN REPLY @11 DO ~SetGlobal("s#XGTRAEK","GLOBAL",2)~ EXIT
 END
 
@@ -43,5 +44,6 @@ GiveItemCreate("SCRL8N",Player1,0,0,0)
 GiveItemCreate("SCRL8Z",Player1,0,0,0)
 GiveItemCreate("SCRL5Z",Player1,0,0,0)
 GiveItemCreate("SCRL7S",Player1,0,0,0)
-SetGlobal("s#XGTRAEK","GLOBAL",3)~ SOLVED_JOURNAL @14 EXIT
+SetGlobal("s#XGTRAEK","GLOBAL",3)
+AddJournalEntry(@50201,QUEST_DONE)~ EXIT
 END

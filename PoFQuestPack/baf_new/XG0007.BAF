@@ -9,9 +9,9 @@ THEN
     HideGUI()
     Explore()
     Wait(4)
-    CreateCreature("XGBLWI",[688.2740],0)  // ~Волшебник~
-    CreateCreature("XGGUAR",[604.2684],0)  // ~Ведьма защитник~
-    CreateCreature("XGGUAR",[785.2703],0)  // ~Ведьма защитник~
+    CreateCreatureDoor("XGBLWI",[688.2740],0)  // ~Волшебник~
+    CreateCreatureDoor("XGGUAR",[604.2684],0)  // ~Ведьма защитник~
+    CreateCreatureDoor("XGGUAR",[785.2703],0)  // ~Ведьма защитник~
     ClearAllActions()
     Wait(2)
     DisplayStringHead("XGBLWI",@0)  // @0

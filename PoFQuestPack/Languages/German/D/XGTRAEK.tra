@@ -8,12 +8,19 @@
 @7 = ~Und was für ein Auftrag ist das, Trajak?~
 @8 = ~In einer der Barracken auf einer Brücke in Athkatla befinden sich Schmuggler. Sie haben kürzlich meine Zaubertasche gestohlen. Ich brauche diese Tasche dringend, und ich möchte sie zurückbekommen. Als Belohnung gebe ich Euch sechs Zauberschriftrollen. Seid ihr einverstanden?~
 @9 = ~Okay, ich bringe Euch die Tasche. Aber vergesst die Schriftrollen nicht.~
+
+/*
 @10 = ~Magische Tasche.
 
 Im Tempelviertel traf ich auf einen Mann in einer Soutane. Er schickte mich, um mit seinem Anführer zu verhandeln. Wie sich herausstellte, handelt es sich um einen Kult von Zauberern, und ihr Anführer Trajak bot mir sechs Schriftrollen mit Zaubersprüchen für die Tasche an, von der er annahm, dass die Schmuggler in Athkatla sie haben.~
+*/
+
 @11 = ~Nein, ich bin nicht interessiert. Auf Wiedersehen.~
 @12 = ~Ausgezeichnet, <CHARNAME>, wie ich sehe, habt Ihr es geschafft. Hier ist die versprochene Belohnung, ich hoffe, sie gefällt Euch. Danke und auf Wiedersehen.~
 @13 = ~Auf Wiedersehen.~
+
+/*
 @14 = ~Magische Tasche.
 
 Ich habe eine Zaubertasche gefunden und sie Trajak gebracht. Er gab mir, wie versprochen, sechs Zaubersprüche.~
+*/

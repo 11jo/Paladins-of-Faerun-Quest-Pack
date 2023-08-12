@@ -5,7 +5,7 @@ THEN
   RESPONSE #100
     SetGlobal("RevealXG1120","XG1120",1)
     Wait(1)
-    DisplayString(Player1,@0)  // @0
+    DisplayStringHead(Player1,@0)  // @0
     StartCutSceneMode()
     HideGUI()
     GiveItemCreate("XGKAT01",Player1,0,0,0)  // ~Zbran temnoty~

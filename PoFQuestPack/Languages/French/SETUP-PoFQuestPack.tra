@@ -18,7 +18,7 @@
 @18 = ~Magister de l'Académie~
 @19 = ~Seigneur Aragorn~
 @20 = ~Aran~
-@21 = ~Archimage~
+@21 = ~Archimage Tassili~ // Gradak Brother
 @22 = ~Prêtre de Shevarash~
 
 @24 = ~Ardes, le grand prêtre~ // Haut prêtre
@@ -40,10 +40,10 @@
 @40 = ~Bandit, meurtrier~
 @41 = ~Barbare du Nord~
 @42 = ~Barbarossa~
-@43 = ~The wandering bard~ // Barde ambulant
+@43 = ~Barde ambulant~
 @44 = ~Kevtiln from the North~
 @45 = ~Kevtiln~
-@46 = ~Guard of the pass~
+@46 = ~Gardien de la Vallée~
 @47 = ~Sacred rage~
 @48 = ~Capitaine des gardes~
 @49 = ~Délégué au commerce~
@@ -104,7 +104,7 @@
 @104 = ~Drow merchant~
 @105 = ~Owner of abbey~
 @106 = ~Fenmarel Mestarin~
-@107 = ~Leader of Gray One~
+@107 = ~Chef des Duergars~
 @108 = ~Duergar~
 @109 = ~Guerrier Gnome~
 @110 = ~Corps de femme~
@@ -116,7 +116,7 @@
 @116 = ~Milicien~
 @117 = ~Eladriel~
 @118 = ~Electro~
-@119 = ~Eli~
+@119 = ~Elijah~
 @120 = ~Ellannan~
 @121 = ~Elorin, le magicien~
 @122 = ~Elorin~
@@ -180,7 +180,7 @@
 @179 = ~Irenicus's patrol~
 @180 = ~Jarlaxle's Servant~
 @181 = ~Prison guard~
-@182 = ~Personnage sombre~ // Le Sombre // Furtif // Éclaireur// s#AR0300.BAF XGKASS.cre   // Le Sombre et l'Unique
+@182 = ~Sombre personnage~
 @183 = ~Fille du Roi des affaires~
 @184 = ~Kelrot~
 
@@ -330,9 +330,9 @@
 @329 = ~General~
 @330 = ~Temple Keeper~
 @331 = ~Dead soldier~
-@332 = ~Guard of pass~
-@333 = ~Guard of pass~
-@334 = ~Guard of pass~
+@332 = ~Gardien du passage~ // Guard of pass
+@333 = ~Gardien du passage~
+@334 = ~Gardien du passage~
 @335 = ~General's son~
 @336 = ~Leader of the Forgotten Thieves~
 @337 = ~Thoice Chorster~
@@ -4130,12 +4130,12 @@ Poids : 1~
 @1040 = ~The air stinks terribly of gnolls. You thanked the gods for waking up on time and reaching for weapons.~
 @1041 = ~Smithy~
 @1042 = ~Sanctuary~
-@1043 = ~A couple of vampires are coming~
-@1044 = ~You were attacked by orcs~
-@1045 = ~Deeper into the passage~
-@1046 = ~Elijah and the Cult Army~
+@1043 = ~Vous êtes attaqué par des vampires~
+@1044 = ~Vous êtes attaqué par des orques~
+@1045 = ~Profondeur sous la crevasse~
+@1046 = ~Elijah et les défenseurs du Culte~
 @1047 = ~Marco~
-@1048 = ~Guardhouse~
+@1048 = ~Caverne du gardien~
 @1049 = ~You were attacked by vampires!~
 @1050 = ~Prison~
 @1051 = ~Guard Room~
@@ -5025,7 +5025,7 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 /*
 @100001   = ~Grotte des Marchands~                                       // Tradmith Cave                                  // XG0001
 @100002   = ~Plaines Étincelantes~                                       // The Shining Plains                             // XG0002
-@100003   = ~Bois de Turlan~                                             // Turlan Forest                                  // XG0003
+@100003   = ~Bois de Turlang~                                             // Turlan Forest                                  // XG0003
 @100004   = ~Mines de Feu vagabondes~                                    // Wandering Fire Mines                           // XG0004
 @100007   = ~Le Fort de la Sorcière~                                     // Witch's Strength                               // XG0007
 @100801   = ~Camp Hrothgar~                                              // Hrothgar Camp //                               // XG0801
@@ -5047,7 +5047,7 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 @100033   = ~Village (près de Teziir)~                                   // Village                                        // XG0033
 @100039   = ~Îles Moonshae~                                              // Moonshae Isles                                 // XG0039
 @100040   = ~Îles Moonshae~                                              // Moonshae Isles                                 // XG0040
-@100068   = ~District des Affaires~                                      // Business district                              // XG0068
+@100068   = ~Quartier des Affaires~                                      // Business district                              // XG0068
 @100041   = ~Îles Moonshae~                                              // Moonshae Isles                                 // XG0041
 @100046   = ~Temple oublié~                                              // Forgotten Temple                               // XG0046
 @100047   = ~Port de l'Est (Icewind Dale)~                               // East Harbor                                    // XG0047
@@ -5095,39 +5095,116 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 
 @100000   = ~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},
 	{"  ", "        PALADIN OF FAËRUN        "},
+	{"XG0068", "(PoF)  Quartier des Affaires, (Athkatla)"},
+	{"XG0168", "(PoF)  Demeure du Roi des Affaires, (Athkatla)"},
+	{"XG0000", "(PoF)  Trayak, le sorcier, (Quartier des Temples)"},
 	{"XG0001", "(PoF)  Grotte des Marchands"},
 	{"XG0002", "(PoF)  Plaines Étincelantes"},
-	{"XG0003", "(PoF)  Bois de Turlan"},
+	{"XG0203", "(PoF)  Combat contre Gralamin"},
+	{"XG0003", "(PoF)  Bois de Turlang"},
+	{"XG0302", "(PoF)  Cave souterraine du Bois de Turlang"},
 	{"XG0004", "(PoF)  Mines de Feu vagabondes"},
-	{"XG0007", "(PoF)  Le Fort de la Sorcière"},
-	{"XG0801", "(PoF)  Camp Hrothgar"},
-	{"XG0009", "(PoF)  Maison des Morts-vivants"},
-	{"XG0034", "(PoF)  Le Conseil des Mages"},
+	{"XG0401", "(PoF)  Intérieur des Mines de Feu vagabondes"},
+	{"XG04N1", "(PoF)  Intérieur des Mines de Feu vagabondes Zone secondaire"},
+	{"XG0402", "(PoF)  Intérieur des Mines, (Duergars)"},
+	{"XG04N2", "(PoF)  Intérieur des Mines, (Duergars Zone secondaire)"},
+	{"XG0403", "(PoF)  Intérieur des Mines, (Main du démons)"},
+	{"XG04N3", "(PoF)  Intérieur des Mines, (Main du démons Zone secondaire)"},
+	{"XG0007", "(PoF)  Montagne du Fort de la Sorcière, (Pics Gris)"},
+	{"XG0701", "(PoF)  Le Fort de la Sorcière"},
+	{"XG0702", "(PoF)  Intérieur du Fort de la Sorcière"},
+	{"XG0801", "(PoF)  Camp de Hrothgar"},
+	{"XG0801", "(PoF)  Camp de Hrothgar, (Rajkskul)"},
+	{"XG0009", "(PoF)  Antre des Morts-vivants"},
+	{"XG0901", "(PoF)  Intérieur de l'antre des Morts-vivants"},
+	{"XG0902", "(PoF)  Intérieur de l'antre des Morts-vivants, (Udorril)"},
+	{"XG0903", "(PoF)  Intérieur de l'antre des Morts-vivants, (Chambre)"},
 	{"XG0012", "(PoF)  Château des Collines Oubliées"},
-	{"XG0014", "(PoF)  Île du pirate (Mer des étoiles déchues)"},
-	{"XG0016", "(PoF)  Passe du Géant"},
-	{"XG0017", "(PoF)  Tour de Gradak"},
+	{"XG0112", "(PoF)  Hall du Château des Collines Oubliées"},
+	{"XG0212", "(PoF)  Tombeau du Château des Collines Oubliées"},
+	{"XG0312", "(PoF)  Escaliers du Château des Collines Oubliées"},
+	{"XG0412", "(PoF)  Escaliers du Château des Collines Oubliées"},
+	{"XG0033", "(PoF)  Village près de Teziir, (Attaqué)"},
+	{"XG0133", "(PoF)  Village près de Teziir, (Libéré)"},
+	{"XG0013", "(PoF)  Bateau des pirates, (Mer des étoiles déchues)"},
+	{"XG0213", "(PoF)  Pont supérieur du bateau des pirates"},
+	{"XG0313", "(PoF)  Pont inférieur du bateau des pirates"},
+	{"XG0413", "(PoF)  Cale du bateau des pirates"},
+	{"XG0014", "(PoF)  Île du pirate, (Mer des étoiles déchues)"},
+	{"XG0114", "(PoF)  Entrée du repaire des poignards errants"},
+	{"XG0049", "(PoF)  Guilde des poignards errants"},
+	{"XG0149", "(PoF)  Planque des poignards errants"},	
+	{"XG0055", "(PoF)  Vers le domaine de Gradak, (Elwin)"},
+	{"XG0015", "(PoF)  Crevasse, (Barde ambulant)"},
+	{"XG0115", "(PoF)  Grotte sous la crevasse, (Gardien)"},
+	{"XG0215", "(PoF)  Profondeur sous la crevasse, L1"},	
+	{"XG0315", "(PoF)  Profondeur sous la crevasse, L2 (Gardien)"},	
+	{"XG0415", "(PoF)  Cave des profondeur, (Vampire)"},
+	{"XG0515", "(PoF)  Four des profondeurs, (Gardien)"},	
+	{"XG0615", "(PoF)  Profondeur sous la crevasse, L3 (Gardien)"},
+	{"XG0715", "(PoF)  Profondeur sous la crevasse, L4 (Gardien)"},
+	{"XG0815", "(PoF)  Vers la surface, (Gardien)"},
+	{"XG0016", "(PoF)  Passe du Géant, (Dragon)"},
+	{"XG0116", "(PoF)  Passe du Géant, (Marko, Portail vers le Domaine de Gradak)"},
+	{"XG0017", "(PoF)  Domaine de Gradak"},	
+	{"XG0117", "(PoF)  Tombeau du père de Gradak"},
+	{"XG0217", "(PoF)  Cachots du domaine de Gradak"},
+	{"XG0317", "(PoF)  Caveau du domaine de Gradak"},
+	{"XG0417", "(PoF)  Quartiers de Gradak"},
+	{"XG0517", "(PoF)  Quartiers de Gradak, (Kelrot le magicien)"},	
 	{"XG0018", "(PoF)  Camp Secret de Gradak"},
-	{"XG0019", "(PoF)  Navire de Gradak"},
+	{"XG0118", "(PoF)  Camp de Gradak, (Portail vers le navire)"},	
+	{"XG0019", "(PoF)  Navire de Gradak"},	
+	{"XG0219", "(PoF)  Pont supérieur du Navire de Gradak"},
+	{"XG0319", "(PoF)  Accostage au village abandonné, (Près de Bois-Manteau)"},
+	{"XG0057", "(PoF)  Quais de Padhiver"},
+	{"XG1057", "(PoF)  Avant la bataille de Padhiver"},
+	{"XG2057", "(PoF)  Champ de bataille de Padhiver"},
+	{"XG1319", "(PoF)  Retour au village abandonné, (Près de Bois-Manteau)"},
+	{"XG0419", "(PoF)  Nord-Est du village abandonné, (Tassili, Portail vers Athkatla)"},
+	{"  ", "        PORTE DE BALDUR        "},
 	{"XG0020", "(PoF)  Porte de Baldur"},
+	{"XG0220", "(PoF)  Maison"},
+	{"XG0120", "(PoF)  Taverne, L1"},
+	{"XG0820", "(PoF)  Taverne, L2"},
+	{"XG0420", "(PoF)  Temple de la fraternité, (Inaccessible)"},
+	{"XG0920", "(PoF)  Temple de la fraternité, (Sous-sol)"},
+	{"XG1020", "(PoF)  Temple de la fraternité, (Margul)"},
+	{"XG0520", "(PoF)  Maison"},
+	{"XG0620", "(PoF)  Caserne, (Quête de l'assassin)"},
+	{"XG0720", "(PoF)  Palais Ducal, (Duc Opas)"},
+	{"XG0320", "(PoF)  Elorin, le magicien, (Quête de la Forteresse Glacée)"},
+	{"XG0052", "(PoF)  Forteresse Glacée"},	
+	{"XG0152", "(PoF)  Intérieur de la Forteresse, (Ar-Ju-Nam)"},	
+	{"  ", "        TARGOS        "},
 	{"XG0025", "(PoF)  Quais de Targos"},
+	{"XG0024", "(PoF)  Targos"},
+	{"XG0524", "(PoF)  Auberge de Targos"},
+	{"XG0424", "(PoF)  Maison du xxxxxx, (Targos)"},
+	{"XG0624", "(PoF)  Vendeur / Tavernier, (Targos)"},
+	{"XG0124", "(PoF)  Infirmerie, (Targos)"},	
+	{"XG0224", "(PoF)  Quartier du Général, (Quête de Xangold)"},
+	{"XG0045", "(PoF)  Passe de Targos, (Quête de Xangold)"},
+	{"XG0145", "(PoF)  Xangold le roi des orques"},
+	{"XG0245", "(PoF)  Village à l'Est du camp de Xangold"},
+	
+	
 	{"XG0026", "(PoF)  Haute-Forêt"},
 	{"XG0064", "(PoF)  Eauprofonde"},
 	{"XG0028", "(PoF)  Château des Montagnes Floconeigeuses"},
-	{"XG0319", "(PoF)  Village Abandonné"},
+	{"XG0034", "(PoF)  Le Conseil des Mages"},
 	{"XG0029", "(PoF)  Cite des Prêtres (Près de Berdusk)"},
 	{"XG0033", "(PoF)  Village (près de Teziir)"},
 	{"XG0039", "(PoF)  Îles Moonshae"},
 	{"XG0040", "(PoF)  Îles Moonshae"},
-	{"XG0068", "(PoF)  District des Affaires"},
 	{"XG0041", "(PoF)  Îles Moonshae"},
 	{"XG0046", "(PoF)  Temple oublié"},
 	{"XG0047", "(PoF)  Port de l'Est (Icewind Dale)"},
 	{"XG0062", "(PoF)  Padhiver"},
 	{"XG0050", "(PoF)  Montagnes (sous le festival)"},
-	{"XG0052", "(PoF)  Forteresse Glacée"},
 	{"XG0054", "(PoF)  Refuge (de Gradak)"},
-	{"XG0055", "(PoF)  Tour de Gradak (bis)"},
+	
+	
 	{"XG0061", "(PoF)  Forêt (vers les Montagnes du Couchant)"},
 	{"XG0065", "(PoF)  Village (près de Soubar)"},
 	{"XG0066", "(PoF)  Col de la Forêt"},
@@ -5141,7 +5218,6 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0072", "(PoF)  Désert Calim (près de Memnon)"},
 	{"XG0073", "(PoF)  Désert Calim  (près de Darromar)"},
 	{"XG0075", "(PoF)  Arène"},
-	{"XG1319", "(PoF)  Village Abandonné (bis)"},
 	{"XG0076", "(PoF)  Forêt de Tethyr"},
 	{"XG0077", "(PoF)  Forêt de Tethyr"},
 	{"XG0078", "(PoF)  Château-Tethyr"},
@@ -5151,7 +5227,6 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0081", "(PoF)  Montagnes du Couchant"},
 	{"XG0082", "(PoF)  Montagnes du Couchant"},
 	{"XG0083", "(PoF)  Montagnes du Couchant"},
-	{"XG0133", "(PoF)  Village (près de Teziir) (bis)"},
 	{"XG8100", "(PoF)  Montagnes du Couchant (bis)"},
 	{"XG8200", "(PoF)  Montagnes du Couchant (bis)"},
 	{"XG8300", "(PoF)  Montagnes du Couchant (bis)"},

@@ -13,13 +13,13 @@ THEN
 	ForceSpell("INVISABO",CUTSCENE_METEOR_SWARM)
 	Wait(6)
     ClearAllActions()
-    CreateCreature("XGBRMOC",[565.2472],0)  // ~Маргул~
+    CreateCreatureDoor("XGBRMOC",[565.2472],0)  // ~Маргул~
     Wait(2)
     DisplayString("XGBRMOC",@0)  // @0
     Wait(4)
     DisplayString("XGBRMOC",@1)  // @1
     Wait(4)
-    DisplayString(Player1,@2)  // @2
+    DisplayStringHead(Player1,@2)  // @2
     Wait(4)
     DisplayString("XGBRMOC",@3)  // @3
     Wait(4)
@@ -65,7 +65,7 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(4)
-    DisplayString(Player1,@6)
+    DisplayStringHead(Player1,@6)
     Wait(4)
 ForceSpell(Player1,DRYAD_TELEPORT)
 ActionOverride(Player1,LeaveAreaLUA("XG0720","",[1000.750],0))

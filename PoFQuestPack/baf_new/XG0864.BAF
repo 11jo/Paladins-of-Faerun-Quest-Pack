@@ -7,7 +7,7 @@ THEN
     SetGlobal("EnteredAreaXG0864","XG0864",1)
     CreateCreature("XGBMT1",[1264.680],0)  // ~Воришка~
     CreateCreature("XGBMT2",[1179.839],10)  // ~Воришка~
-    DisplayString(Player1,@0)  
+    DisplayStringHead(Player1,@0)  
 END
 
 IF

@@ -81,7 +81,7 @@ THEN
   RESPONSE #100
     SetGlobal("RevealXG0071","XG0071",2)
     Wait(5)
-    DisplayString(Player1,@3)  // @3
+    DisplayStringHead(Player1,@3)  // @3
     Wait(4)
     ActionOverride(Player2,LeaveAreaLUA("XG0071","",[2429.1994],0))
     ActionOverride(Player1,LeaveAreaLUA("XG0071","",[2485.1987],0))
@@ -100,7 +100,7 @@ THEN
   RESPONSE #100
     SetGlobal("RevealXG0071","XG0071",3)
     Wait(5)
-    DisplayString(Player1,@3)  // @3
+    DisplayStringHead(Player1,@3)  // @3
     Wait(4)
     ActionOverride(Player2,LeaveAreaLUA("XG0071","",[935.3119],0))
     ActionOverride(Player1,LeaveAreaLUA("XG0071","",[941.3074],0))

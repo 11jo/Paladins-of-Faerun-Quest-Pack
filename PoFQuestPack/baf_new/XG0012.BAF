@@ -11,7 +11,7 @@ THEN
     Wait(2)
     DisplayString("XGOLDW",@0)  
     Wait(4)
-    DisplayString(Player1,@1)  
+    DisplayStringHead(Player1,@1)  
     Wait(4)
     DisplayString("XGOLDW",@2)  
     Wait(4)

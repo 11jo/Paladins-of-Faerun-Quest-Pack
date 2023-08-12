@@ -85,6 +85,21 @@ La relique a retrouvé son gardien et j'ai obtenu une armure à la puissance excep
 @50122 = ~L'artefact d'un dragon
 
 J'ai attaqué ce maudit dragon, hé hé hé !~
+
+// Magic bag // La sacoche du sorcier // XTRAEK.tra, XTRAEK.D // XG0000.ARE
+
+@50200 = ~La sacoche du sorcier
+
+En promenant dans le quartier des Temples, j'ai rencontré un homme en soutane. Après avoir accepté d'être transporté auprès de son supérieur, il s'est avéré qu'il s'agissait d'une secte de sorciers. Trayak m'a proposé six parchemins en échange d'une sacoche magique, il semblerait qu'elle soit entre les mains d'un groupe de contrebandiers opérant dans le quartier du pont.~
+
+@50201 = ~La sacoche du sorcier
+
+J'ai débusqué les contrebandiers dans la maison du poissonnier et retrouvé la sacoche magique. Trayak était satisfait et m'a remis les six parchemins promis.~
+
+@50202 = ~La sacoche du sorcier~
+
+
+
 @50123 = ~~
 @50124 = ~~
 @50125 = ~~

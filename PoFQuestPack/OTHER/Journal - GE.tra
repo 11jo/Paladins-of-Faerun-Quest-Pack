@@ -83,6 +83,22 @@ Ich habe den Stab des Drachen bei einem der Diebe gefunden und ihn dem Drachen z
 @50122 = ~Ein Artefakt des Drachen
 
 Ich habe diesen verfluchten Drachen angegriffen, ho ho ho!~
+
+// Magic bag // La sacoche du sorcier // XTRAEK.tra, XTRAEK.D // XG0000.ARE
+
+@50200 = ~Magische Tasche
+
+Im Tempelviertel traf ich auf einen Mann in einer Soutane. Er schickte mich, um mit seinem Anführer zu verhandeln. Wie sich herausstellte, handelt es sich um einen Kult von Zauberern, und ihr Anführer Trajak bot mir sechs Schriftrollen mit Zaubersprüchen für die Tasche an, von der er annahm, dass die Schmuggler in Athkatla sie haben.~
+
+@50201 = ~Magische Tasche
+
+Ich habe eine Zaubertasche gefunden und sie Trajak gebracht. Er gab mir, wie versprochen, sechs Zaubersprüche.~
+
+@50202 = ~Magische Tasche~
+
+
+
+
 @50122 = ~~
 @50123 = ~~
 @50124 = ~~

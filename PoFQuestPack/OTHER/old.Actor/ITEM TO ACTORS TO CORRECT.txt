@@ -1,35 +1,0 @@
-CRE items not in inventory
-
-
-
-
-
-File: XGARUND.CRE, Name: Crunan, Item: .ITM,Duration: 0,Quantity/Charges 1: 0,Quantity/Charges 2: 23,Quantity/Charges 3: 5,Flags: ( Not stealable(1) Stolen(2) Unknown(5) Unknown(8) Unknown(19) Unknown(26) )
-File: XGBODS.CRE, Name: Sœur de Bodhi, Item: RNDT.ITM,Duration: 43724,Quantity/Charges 1: 194,Quantity/Charges 2: 400,Quantity/Charges 3: 1216,Flags: ( Unknown(4) Unknown(5) Unknown(12) Unknown(16) Unknown(17) Unknown(18) Unknown(19) Unknown(20) Unknown(22) Unknown(23) Unknown(24) )
-File: XGCATN.CRE, Name: Panthère, Item: EY.ITM,Duration: 26912,Quantity/Charges 1: 8302,Quantity/Charges 2: 43,Quantity/Charges 3: 5,Flags: ( Identified(0) Not stealable(1) Undroppable(3) Unknown(4) Unknown(6) Unknown(7) Unknown(8) Unknown(19) Unknown(26) )
-File: XGCAT2.CRE, Name: Panthère, Item: None,Duration: 29811,Quantity/Charges 1: 46,Quantity/Charges 2: 43,Quantity/Charges 3: 5,Flags: ( Identified(0) Not stealable(1) Stolen(2) Undroppable(3) Unknown(4) Unknown(5) Unknown(6) Unknown(8) Unknown(19) Unknown(24) )
-File: XGCAT1.CRE, Name: Panthère, Item: EY.ITM,Duration: 26912,Quantity/Charges 1: 8302,Quantity/Charges 2: 43,Quantity/Charges 3: 5,Flags: ( Identified(0) Not stealable(1) Undroppable(3) Unknown(4) Unknown(6) Unknown(7) Unknown(8) Unknown(19) Unknown(26) )
-File: XGDRIZ.CRE, Name: Drizzt, Item: None,Duration: 30464,Quantity/Charges 1: 25701,Quantity/Charges 2: 9,Quantity/Charges 3: 15,Flags: ( Not stealable(1) Stolen(2) Undroppable(3) Unknown(5) Unknown(6) Unknown(8) Unknown(19) Unknown(24) Unknown(26) )
-File: XGDRIZ.CRE, Name: Drizzt, Item:  K[ÈK[.ITM,Duration: 2732,Quantity/Charges 1: 5,Quantity/Charges 2: 24812,Quantity/Charges 3: 614,Flags: ( Undroppable(3) Unknown(5) Unknown(6) Unknown(7) Unknown(8) Unknown(10) Unknown(12) Unknown(14) Unknown(15) Unknown(17) Unknown(18) Unknown(20
-File: XGDRIZA.CRE, Name: Drizzt, Item: None,Duration: 40086,Quantity/Charges 1: 182,Quantity/Charges 2: 8,Quantity/Charges 3: 15,Flags: ( Identified(0) Undroppable(3) Unknown(4) Unknown(6) Unknown(8) Unknown(20) Unknown(24) Unknown(26) )
-File: XGDRIZA.CRE, Name: Drizzt, Item: ÈŸ·.ITM,Duration: 0,Quantity/Charges 1: 0,Quantity/Charges 2: 0,Quantity/Charges 3: 0,Flags: ( No flags set )
-File: XGDRIZ2.CRE, Name: Drizzt, Item: .ITM,Duration: 10,Quantity/Charges 1: 0,Quantity/Charges 2: 9,Quantity/Charges 3: 15,Flags: ( Unknown(4) Unknown(5) Unknown(7) Unknown(8) Unknown(19) Unknown(24) Unknown(26) )
-File: XGDRIZ2.CRE, Name: Drizzt, Item: None,Duration: 1270,Quantity/Charges 1: 12,Quantity/Charges 2: -13356,Quantity/Charges 3: 624,Flags: ( Undroppable(3) Unknown(5) Unknown(7) Unknown(8) Unknown(10) Unknown(11) Unknown(15) Unknown(20) Unknown(21) Unknown(22) Unknown(25) )
-File: XGdrzz.cre, Name: Drizzt, Item: €&U.ITM,Duration: 0,Quantity/Charges 1: 0,Quantity/Charges 2: -18770,Quantity/Charges 3: 7839,Flags: ( Not stealable(1) Stolen(2) Unknown(5) Unknown(6) Unknown(7) Unknown(10) Unknown(14) Unknown(15) Unknown(16) Unknown(17) Unknown(18) Unknown(19) Unk
-File: XGdrzz.cre, Name: Drizzt, Item: XÛHÄ
-.ITM,Duration: 59028,Quantity/Charges 1: -27488,Quantity/Charges 2: -24428,Quantity/Charges 3: 29298,Flags: ( Identified(0) Not stealable(1) Unknown(7) Unknown(9) Unknown(12) Unknown(13) Unknown(14) Unknown(18) Unknown(20) Unknown(23) Unknown
-File: XGDRZ.CRE, Name: Drizzt, Item: None,Duration: 0,Quantity/Charges 1: 0,Quantity/Charges 2: 4,Quantity/Charges 3: 15,Flags: ( Identified(0) Stolen(2) Undroppable(3) Unknown(6) Unknown(21) Unknown(24) Unknown(26) )
-File: XGDRZ.CRE, Name: Drizzt, Item: ˜?.ITM,Duration: 25449,Quantity/Charges 1: 26988,Quantity/Charges 2: 29811,Quantity/Charges 3: 46,Flags: ( Undroppable(3) Unknown(5) Unknown(6) Unknown(8) Unknown(11) Unknown(13) Unknown(14) Unknown(18) Unknown(20) Unknown(21) Unknown(22) Unknown(24
-File: XGNPC1.CRE, Name: Imoen, Item: ÐO}€ÉÚ.ITM,Duration: 51,Quantity/Charges 1: 7,Quantity/Charges 2: 278,Quantity/Charges 3: 1288,Flags: ( Undroppable(3) Unknown(4) Unknown(5) Unknown(7) Unknown(9) Unknown(13) Unknown(14) Unknown(17) Unknown(19) Unknown(20) Unknown(21) Unknown(22) Un
-File: XGNPC1.CRE, Name: Imoen, Item: None,Duration: 0,Quantity/Charges 1: 0,Quantity/Charges 2: 0,Quantity/Charges 3: 0,Flags: ( No flags set )
-File: XGNPC1.CRE, Name: Imoen, Item: None,Duration: 0,Quantity/Charges 1: 0,Quantity/Charges 2: 0,Quantity/Charges 3: 0,Flags: ( No flags set )
-File: XGNPC1.CRE, Name: Imoen, Item: None,Duration: 0,Quantity/Charges 1: 0,Quantity/Charges 2: 0,Quantity/Charges 3: 0,Flags: ( No flags set )
-File: XGOLDW.CRE, Name: Strange wizard, Item: ™.ITM,Duration: 44240,Quantity/Charges 1: 645,Quantity/Charges 2: 9,Quantity/Charges 3: 15,Flags: ( Identified(0) Not stealable(1) Stolen(2) Unknown(4) Unknown(8) Unknown(19) Unknown(24) Unknown(26) )
-File: XGOLDW.CRE, Name: Strange wizard, Item: (-X5¡.ITM,Duration: 3732,Quantity/Charges 1: 29,Quantity/Charges 2: 31084,Quantity/Charges 3: 718,Flags: ( Stolen(2) Undroppable(3) Unknown(6) Unknown(9) Unknown(10) Unknown(11) Unknown(13) Unknown(14) Unknown(16) Unknown(18) Unknown(20) Unknown(2
-File: XGOLDW.CRE, Name: Strange wizard, Item: ¤.ITM,Duration: 57120,Quantity/Charges 1: 507,Quantity/Charges 2: 3702,Quantity/Charges 3: 43,Flags: ( Stolen(2) Unknown(5) Unknown(6) Unknown(7) Unknown(8) Unknown(11) Unknown(12) Unknown(13) Unknown(14) Unknown(17) Unknown(18) Unknown(19) Unknown
-File: XGOLDW.CRE, Name: Strange wizard, Item: ¬;—”&.ITM,Duration: 31264,Quantity/Charges 1: 718,Quantity/Charges 2: 15336,Quantity/Charges 3: 663,Flags: ( Unknown(4) Unknown(6) Unknown(7) Unknown(8) Unknown(9) Unknown(11) Unknown(12) Unknown(13) Unknown(16) Unknown(17) Unknown(18) Unknown(20) 
-File: XGskwr2.cre, Name: Squelette, Item: .ITM,Duration: 2836,Quantity/Charges 1: 24056,Quantity/Charges 2: 3402,Quantity/Charges 3: -32768,Flags: ( Identified(0) Not stealable(1) Stolen(2) Unknown(4) Unknown(16) Unknown(18) Unknown(19) Unknown(21) Unknown(23) Unknown(27) Unknown(28) Unknow
-File: XGskwr3.cre, Name: Squelette, Item: .ITM,Duration: 65500,Quantity/Charges 1: 22887,Quantity/Charges 2: 3402,Quantity/Charges 3: -32768,Flags: ( Identified(0) Not stealable(1) Stolen(2) Unknown(4) Unknown(16) Unknown(18) Unknown(19) Unknown(21) Unknown(23) Unknown(27) Unknown(28) Unkno
-File: XGskeld.cre, Name: Squelette, Item: »ÊƑ§.ITM,Duration: 58700,Quantity/Charges 1: 22701,Quantity/Charges 2: 3402,Quantity/Charges 3: -32768,Flags: ( Identified(0) Not stealable(1) Stolen(2) Unknown(4) Unknown(18) Unknown(20) Unknown(22) )
-File: XGskwr1.cre, Name: Squelette, Item: .ITM,Duration: 2836,Quantity/Charges 1: 24056,Quantity/Charges 2: 3402,Quantity/Charges 3: -32768,Flags: ( Identified(0) Not stealable(1) Stolen(2) Unknown(4) Unknown(16) Unknown(18) Unknown(19) Unknown(21) Unknown(23) Unknown(27) Unknown(28) Unknow
-File: XGskwr4.cre, Name: Squelette, Item: .ITM,Duration: 65500,Quantity/Charges 1: 22887,Quantity/Charges 2: 3402,Quantity/Charges 3: -32768,Flags: ( Identified(0) Not stealable(1) Stolen(2) Unknown(4) Unknown(16) Unknown(18) Unknown(19) Unknown(21) Unknown(23) Unknown(27) Unknown(28) Unkno

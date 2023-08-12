@@ -33,7 +33,7 @@ THEN
     Wait(1)
     DisplayString("XGTHIEF",@0)  // @0
     Wait(4)
-    DisplayString(Player1,@1)  // @1
+    DisplayStringHead(Player1,@1)  // @1
     Wait(6)
     DisplayString("XGTHIEF",@2)  // @2
     Wait(9)

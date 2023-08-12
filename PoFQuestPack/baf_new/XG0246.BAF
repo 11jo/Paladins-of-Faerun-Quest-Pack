@@ -21,7 +21,7 @@ THEN
     Wait(1)
     DisplayString("XGTVAMP",@1)  // @1
     Wait(4)
-    DisplayString(Player1,@2)  // @2
+    DisplayStringHead(Player1,@2)  // @2
     Wait(4)
     DisplayString("XGTVAMP",@3)  // @3
     Wait(4)
@@ -40,7 +40,7 @@ THEN
     Wait(4)
     DisplayString("XGVAMPM",@5)  // @5
     Wait(5)
-    DisplayString(Player1,@6)  // @6
+    DisplayStringHead(Player1,@6)  // @6
     Wait(5)
     DisplayString("XGVAMPM",@7)  // @7
     Wait(3)

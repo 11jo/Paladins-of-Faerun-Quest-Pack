@@ -1,4 +1,4 @@
-@0 = ~ What do you want? Who are you? ~
+@0 = ~Qui êtes-vous ? Et que me voulez-vous ?~
 @1 = ~ I am <CHARNAME>, your man in Atkatl sent me here. He said that you have a job for a fee. Who are you and what is this place? ~
 @2 = ~ This is the cult of sorcerers and I Trayak, their leader. ~
 @3 = ~ Cult of sorcerers? So you practice black magic Trayak, am I right? ~
@@ -8,12 +8,19 @@
 @7 = ~ And what is this task of Trayak? ~
 @8 = ~ There are smugglers on a bridge in Atkatla in one of the barracks. They recently stole my magic bag. I really need this bag, and I want to get it back. As a reward, I will give you six spell scrolls. Do you agree? ~
 @9 = ~ Okay, I'll bring you a bag. But don't forget about the scrolls. ~
+
+/*
 @10 = ~ Magic bag.
 
 In the quarter of the Temples I came across a man in a cassock. He sent me to negotiate with his leader. As it turned out, this is a cult of sorcerers, and their leader Trayak offered me six scrolls of magic spells for the bag, which, he suggests, should be smugglers in Atkatla. ~
-@11 = ~ No, I'm not interested. Goodbye. ~
+*/
+
+@11 = ~Non merci, cela ne m'intéresse pas. Bonne continuation.~
 @12 = ~ Excellent <CHARNAME>, I see you managed to do this. Here is the promised reward, I hope you enjoy it. Thanks and goodbye. ~
 @13 = ~ Goodbye. ~
+
+/*
 @14 = ~ Magic bag.
 
 I found a magic bag and brought it to Trayak. He gave me six spells, as he promised. ~
+*/

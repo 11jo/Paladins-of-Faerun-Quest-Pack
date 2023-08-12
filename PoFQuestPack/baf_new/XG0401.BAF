@@ -12,7 +12,7 @@ THEN
     Wait(4)
     DisplayString("XGDUER2",@1)  
     Wait(4)
-    DisplayString(Player1,@2)  
+    DisplayStringHead(Player1,@2)  
     Wait(4)
     DisplayString("XGDWOD1",@3)  
     Wait(4)

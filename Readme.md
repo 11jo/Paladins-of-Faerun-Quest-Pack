@@ -1,10 +1,21 @@
-# Paladins of Faerun Quest Pack
+# Paladins of Faerûn Quest Pack
+
 
 ![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20french%20%7C%20russian%20%7C%20german%20%7C%20&color=informational)
+
 
 **Original Autor** : **BGslayer**
 
 **Weidu package and fix for BG2 / BGT** : **Serdrick & Gorion**
+
+**Updated for Enhanced Editions** : ****
+
+
+[Last version release](https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/releases)
+
+[Link to actual Mod forum](https://www.gibberlings3.net/forums/topic/36756-the-gate-project/)
+
+[Lien vers un des forums du Mod](https://www.baldursgateworld.fr/)
 
 [Link to original Mod forum](http://www.shsforums.net/topic/60732-paladins-of-faerun-quest-pack/)
 
@@ -12,19 +23,29 @@
 
 [Link to forum for old original version non weidu](https://forum.sigil.cz/viewforum.php?f=28)
 
-PoFQuestPack-EE for Baldur's Gate II: EE and the Enhanced Edition Trilogy (EET).
+
+Paladins of Faerûn Quest Pack for Baldur's Gate II: EE and the Enhanced Edition Trilogy (EET).
+
+
+**[BP-BGT Worldmap is required !](https://github.com/SpellholdStudios/BP-BGT-Worldmap)**
+
 
 ## Description
 
-The PoFQuestPack mod is a WeiDU processing of the total conversion of Paladins of Faerun from BGslayer and other Czech developers, and contains only the quests of the original Paladins of Faerun.
-In Weidu, the mod format was translated by Gorion and Serdrick. The PoFQuestPack mod contains all the quests of the Paladins of Faerun mod, but it is not an exact copy of it. Part of the quests was implemented differently. A large number of errors were also corrected, many scripts and dialogs were rewritten practically anew.
 
-This version try to adapt the mod to Enhanced Editions.
+Paladins of Faerûn Quest Pack is a WeiDU adaptation of the total conversion of Paladins of Faerûn from BGslayer and other Czech developers, and contains only the quests of the original Paladins of Faerûn.
+In Weidu, the mod format was translated by Gorion and Serdrick. Paladins of Faerûn Quest Pack contains all the quests of the original Paladins of Faerun mod, but it is not an exact copy of it. Certain parts of the quests were implemented differently. A large number of errors were also corrected, many scripts and dialogs were rewritten practically as new.
+
+
+**This particular version try to adapt the mod to Enhanced Editions and preserve vanilla compatibility.**
+
 
 ## Installation
 
+
 Standard for WeiDU mods. Unzip the contents of the archive into the directory with the game, and run SETUP-PoFQuestPack.exe.
-After installing the mod, be sure to install the [BP-BGT-Worlmap mod](https://github.com/SpellholdStudios/BP-BGT-Worldmap/releases), without which you will not see new mod locations.
+After installing the mod, be sure to install the [BP-BGT-Worlmap mod](https://github.com/SpellholdStudios/BP-BGT-Worldmap/releases), required to access new areas.
+
 
 ## Compatibility
 
@@ -32,17 +53,29 @@ After installing the mod, be sure to install the [BP-BGT-Worlmap mod](https://gi
 
 PoFQuestPack is implemented in WeiDU format and should be compatible with other WeiDU mods. If you find any errors, please report them to the mod support forum:
 
+
  - [English forum - Spellhold Studios] http://www.shsforums.net/topic/60732-paladins-of-faerun-quest-pack/
+ 
+
+ - [English forum - The Three Gibberlings](https://www.gibberlings3.net/forums/topic/36756-the-gate-project/)
 
  - [French forum - la Couronne de Cuivre] https://www.baldursgateworld.fr/
 
+
 ## Content
 
-The mod contains with itself a large main quest "Paladins of Faerun", two side quests "Order and Chaos" and "Abduction and Politics".
-New adventures in the cities are also waiting for you : Neverwinter, Baldur's Gate, Waterdeep, Targos (city center, docks), Siluvaned (Elven city) and Har Al-Dur (city of priests) - each of them has its own city quest, mainly to provide any help to the city or even save it.
-In addition, there are more than 20 separate small quests.
+
+The mod contains with itself a large main quest "Paladins of Faerûn", two side quests "Order and Chaos" and "Abduction and Politics".
+
+- New adventures in the cities are also waiting for you : Neverwinter, Baldur's Gate, Waterdeep, Targos (city center, docks), Siluvaned (Elven city) and Har Al-Dur (city of priests) 
+
+- Each of them has its own city quest, mainly to provide any help to the city or even save it.
+
+- In addition, there are more than 20 separate small quests.
+
 
 ## Thanks
+
 
 - BGslayer and everyone else who worked on Paladins of Faerun
 - Serdrick & Gorion for Weidu package and fix for BG2 / BGT
@@ -54,8 +87,10 @@ In addition, there are more than 20 separate small quests.
 - Infinity Explorer, by Dmitry Jemerov / bigmoshi
 - TISpack by Per Olofsson
 
+
 ## LEGAL
     
+	
 PoFQuestPack-EE for BG2EE et EET. © 2022-2023
 This mod is unofficial Fan Content permitted under the Fan Content Policy. Not approved / endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC. This mod is also not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp.
 
@@ -71,8 +106,10 @@ The BioWare logo is the trademark of BioWare Corp. All Rights Reserved.
 
 All other trademarks and copyrights are the property of their respective owners.
 
+
 ## Version History 
      
+	 
 V 1 beta (03/14/2020): the first public release of the mod.
 
 V 2 beta (03/29/2020)
@@ -102,7 +139,9 @@ V 3.2  beta (11.06.2021)
 V 3.3  beta (20.11.2022)
 - Added a German translation by Leonardo Watson
 
+
 ## Version History for Enhanced Editions
+
 
 ### 24/11/2022
 
@@ -119,17 +158,23 @@ V 3.3  beta (20.11.2022)
 	- Worldmap french  (in progress)
 - Up setup.exe
 
+
 ### 29/11/2022
+
 
 - Up areas.tbl (change duplicate worldmap icone for Forest of Téthyr), (Moonshae Isles moved down and right) and (comment name of area in .tbl)
 - Up french translation
 - Changes to s#AR0602.BAF (cutscene semi fix)
 
+
 ### 04/12/2022
+
 
 - Prefix for cre et sto (in progress)
 
+
 ### 11/12/2022
+
 
 - Prefix for itm (in progress)
 - Store corrections :
@@ -137,7 +182,9 @@ V 3.3  beta (20.11.2022)
 	- StartStore("WTSMOD" TO StartStore("PPINN01"  (WTSMOD don't exist)(PPINN01 exist in vanilla game)
 	- StartStore("SHSFMOD" TO StartStore("XGNWNSF" (SHSFMOD don't exist)(replace by a copy of nwnsmod named NWNSF.sto / XGNWNSF.sto present in STO folder)
 
+
 ### 22/12/2022
+
 
 - cdmod.ITM / XGcd.itm (was not present in .tp2 but needed for quest Order and Chaos)
 SETUP-PoFQuestPack.tra add  @1060, @1061, @1062 
@@ -158,3 +205,25 @@ SETUP-PoFQuestPack.tra add  @2000, @2003, @2002
 - Prefix for wav ( change to PoFQuestPack_Uninst.bat )
 - Delete duplicate PFUMOD.are present in "Maps"(wed, mos, bmp) folder (file is in "Areas" folder too)
 - Add readme.md
+
+
+### 04/08/2023
+
+**PreAlphaRelease** :
+
+- First cutscene review for EE
+- Add prefixes for compatibility
+- Add CLUAConsole Area cheats for main areas
+- Typos in baf and dlg
+- Partial french translation
+- Portraits for EE
+- Wrong or unused ressouces corrections
+
+- Corrections for Areas (in progress)
+- Corrections for some scripts and dialogs (in progress)
+- Still some stries to some areas for EE
+- Handle charset, IconV and Autotra (To verify for all languages)
+- Correction for worldmap (in progress)
+- Journal entries to Quest entries (in progress)
+
+Special thanks to Selphira, Graion Dilach and Argent77

@@ -17,22 +17,22 @@ THEN
     Wait(2)
     DisplayString("XGNWNCN",@0)  // @0
     Wait(6)
-    DisplayString(Player1,@1)  // @1
+    DisplayStringHead(Player1,@1)  // @1
     Wait(6)
     DisplayString("XGNWNCN",@2)  // @2
     Wait(6)
-    DisplayString(Player1,@3)  // @3
+    DisplayStringHead(Player1,@3)  // @3
     Wait(6)
     DisplayString("XGNWNCN",@4)  // @4
     Wait(9)
     Wait(2)
-    DisplayString(Player1,@5)  // @5
+    DisplayStringHead(Player1,@5)  // @5
     Wait(9)
     Wait(2)
     DisplayString("XGNWNCN",@6)  // @6
     Wait(10)
     Wait(2)
-    DisplayString(Player1,@7)  // @7
+    DisplayStringHead(Player1,@7)  // @7
     Wait(4)
     CreateCreature("XGTAOR",[1161.267],0)  // ~Таораг~
     CreateCreature("XGOTIR",[2109.1226],0)  // ~Отирос~

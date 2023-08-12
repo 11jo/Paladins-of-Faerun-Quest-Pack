@@ -34,7 +34,7 @@ THEN
     Wait(3)
     DisplayString("XGCOW",@0)  // @0
     Wait(4)
-    DisplayString(Player1,@1)  // @1
+    DisplayStringHead(Player1,@1)  // @1
     Wait(6)
     DisplayString("XGCOW",@2)  // @2
     Wait(7)
