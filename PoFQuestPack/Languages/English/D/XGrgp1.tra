@@ -6,7 +6,11 @@
 @5 = ~ Okay, I will do everything I can. Why did you want to kill the governor? ~
 @6 = ~ I see that the dryad decided to trust you. There is a very rare and powerful runic sword in the forest. The viceroy will do anything in order to get it, even if for this it is necessary to burn the whole forest. Our task was to protect the sword so that it would not fall into the hands of evil, which is the governor of Tetira Castle. Take this letter to the forest! ~
 @7 = ~ Hold on. I will deliver your letter. Goodbye. ~
+
+/*
 @8 = ~ Tethyr.
 
 I talked with one of the prisoners, he gave me a letter, which I must deliver to the forest, not far from the castle. ~
+*/
+
 @9 = ~ Please deliver this letter to the forest as soon as possible! ~

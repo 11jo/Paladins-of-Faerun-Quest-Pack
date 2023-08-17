@@ -4,7 +4,11 @@
 @3 = ~ What kind of treasure is the druid? ~
 @4 = ~ This is a very powerful weapon, a treasure of nature - a runic sword, in the hands of the governor it can bring disastrous consequences. You must protect the sword. Mistress Forest is hiding in the north of here. Find her, save the Tethyr Forest <CHARNAME>! ~
 @5 = ~ I will do everything in my power a druid. ~
+
+/*
 @6 = ~ Tethyr.
 
 I gained trust from the inhabitants of the Tetir Forest. Now I need to find the forest mistress, somewhere in the north of the forest. She guards a very powerful weapon, a rune sword. The viceroy is interested in this sword. ~
+*/
+
 @7 = ~ Are you still here? Talk to the Forest Lady! ~

@@ -218,12 +218,13 @@ SETUP-PoFQuestPack.tra add  @2000, @2003, @2002
 - Partial french translation
 - Portraits for EE
 - Wrong or unused ressouces corrections
+- Add ADD_AREA_TYPE for PoF and !AreaType(POFAREA) to Baldur.bcs (Joster block)
 
 - Corrections for Areas (in progress)
-- Corrections for some scripts and dialogs (in progress)
 - Still some stries to some areas for EE
+- Corrections for some scripts and dialogs (in progress)
 - Handle charset, IconV and Autotra (To verify for all languages)
 - Correction for worldmap (in progress)
 - Journal entries to Quest entries (in progress)
 
-Special thanks to Selphira, Graion Dilach and Argent77
+Special thanks (for their help or tools) to Selphira, Graion Dilach, Argent77 and K4thos

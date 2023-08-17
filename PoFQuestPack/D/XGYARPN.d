@@ -12,10 +12,11 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @4
-  IF ~~ THEN REPLY @5 DO ~EscapeArea()
+  IF ~~ THEN REPLY @5 DO ~
 ClearAllActions()
 StartCutSceneMode()
 CreateCreature("XGELM2",[794.1277],0)
 EndCutSceneMode()
+EscapeArea()
 ~ EXIT
 END

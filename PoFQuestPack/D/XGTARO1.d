@@ -16,7 +16,7 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @3
-  IF ~~ THEN REPLY @4 DO ~GivePartyGold(5000)~ GOTO 4
+  IF ~~ THEN REPLY @4 DO ~GiveGoldForce(5000)~ GOTO 4
 END
 
 IF ~~ THEN BEGIN 4
@@ -39,7 +39,7 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @9
-  IF ~~ THEN REPLY @4 DO ~GivePartyGold(1000)~ GOTO 7
+  IF ~~ THEN REPLY @4 DO ~GiveGoldForce(1000)~ GOTO 7
 END
 
 IF ~~ THEN BEGIN 7
@@ -62,7 +62,7 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @12
-  IF ~~ THEN REPLY @13 DO ~GivePartyGold(5000)~ GOTO 10
+  IF ~~ THEN REPLY @13 DO ~GiveGoldForce(5000)~ GOTO 10
 END
 
 IF ~~ THEN BEGIN 10

@@ -37,7 +37,7 @@
 @POF_77798 = "Farm"
 @POF_77895 = "Calim###Desert"
 @POF_48374 = "Arena"
-@POF_78121 = "Castle###of###Tehyr"
+@POF_78121 = "        " // @POF_78121 = "Castle###of###Tehyr"
 @POF_78122 = "Forest###of###Tehyr"
 @POF_78401 = "Twilight###Mountains"
 @POF_78503 = "Caravan"

@@ -1,15 +1,22 @@
 @0 = ~ Are you adventurers? Help us! ~
 @1 = ~ What happened dryad? ~
 @2 = ~ I'm busy, get out! Leave me alone! ~
+
+/*
 @3 = ~ Tethyr.
 
 I refused to help the dryad in Umar Hills. ~
+*/
+
 @4 = ~ Our Tethyr forest is destroyed by the governor of the local castle. Only a handful remained, we have long been unable to defend ourselves against his soldiers, they burn the forest with impunity. We need help. ~
 @5 = ~ We could talk to the governor. ~
 @6 = ~ I'm not interested. Seek help elsewhere. ~
 @7 = ~ We would really appreciate your help. ~
 @8 = ~ I'll see what can be done, show me this castle on the map. ~
 @9 = ~ It's here. Thanks in advance for your efforts. ~
+
+/*
 @10 = ~ Tethyr.
 
 Dryad in the Umar Hills asked me for help. Tetira Forest is destroyed by the governor of the local castle. This needs to be investigated. ~
+*/

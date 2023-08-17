@@ -97,6 +97,41 @@ I found a magic bag and brought it to Trayak. He gave me six spells, as he promi
 @50202 = ~Magic bag~
 
 
+// Protéger la forêt de Téthyr // Tethyr // XG0077, XGFL, XGDR
+
+// XG0077
+@50300 = ~Tethyr.
+
+Dryad in the Umar Hills asked me for help. Tetira Forest is destroyed by the governor of the local castle. This needs to be investigated.~ // @10
+@50301 = ~Tethyr.
+
+I received a letter from one of the prisoners, which must be delivered to the forest, but first I need to talk to the governor of the castle.~ // @11
+@50302 = ~Tethyr.
+
+I talked with one of the prisoners, he gave me a letter, which I must deliver to the forest, not far from the castle.~ // @12
+@50303 = ~Tethyr.
+
+I gained trust from the inhabitants of the Tetir Forest. Now I need to find the forest mistress, somewhere in the north of the forest. She guards a very powerful weapon, a rune sword. The viceroy is interested in this sword.~ // @13
+@50304 = ~Tethyr.
+
+The viceroy began to burn the Tethyr forest and stole the treasure. I have to find him and stop this madness.~ // @14
+@50305 = ~Tethyr.
+
+Tetirsky forest was saved. As a reward, I received a very powerful rune sword.~ // @15
+
+@50306 = ~Tethyr~ // Title
+
+// XGFL
+@50310 = ~Tethyr.
+
+I decided to kill the forest mistress and help the governor to get the rune sword. The reward is waiting for me.~ // @7
+
+// XGDR
+@50313 = ~Tethyr.
+
+I refused to help the dryad in Umar Hills.~ // @3
+
+
 
 
 @50122 = ~~

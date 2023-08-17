@@ -1,61 +1,64 @@
 IF
-  OnCreation()
-  Global("EnteredAreaXG0177","XG0177",0)
+	OnCreation()
+	Global("EnteredAreaXG0177","XG0177",0)
 THEN
-  RESPONSE #100
-    SetGlobal("EnteredAreaXG0177","XG0177",1)
-    StartCutSceneMode()
-    ClearAllActions()
-    HideGUI()
-    ActionOverride("XGtmerk",MoveToPoint([1041.794]))
-    DisplayStringHead("XGtmerk",@0)  
-    Wait(5)
-    DisplayStringHead(Player1,@1)  
-    Wait(5)
-    DisplayStringHead("XGtmerk",@2)  
-    DisplayStringHead(Player1,@3)  
-    Wait(5)
-    ActionOverride("XGtmerk",Attack(Player1))
-    Wait(1)
-    UnhideGUI()
-    BattleSong()
-    EndCutSceneMode()
+	RESPONSE #100
+		SetGlobal("EnteredAreaXG0177","XG0177",1)
+		StartCutSceneMode()
+		ClearAllActions()
+		HideGUI()
+		ActionOverride("XGtmerk",MoveToPoint([1041.794]))
+		DisplayStringHead("XGtmerk",@0)  
+		Wait(2)
+		DisplayStringHead(Player1,@1)  
+		Wait(3)
+		DisplayStringHead("XGtmerk",@2)  
+		Wait(5)
+		DisplayStringHead(Player1,@3)  
+		Wait(3)
+		ActionOverride("XGtmerk",Attack(Player1))
+		Wait(1)
+		UnhideGUI()
+		BattleSong()
+		EndCutSceneMode()
 END
 
 IF
-  Global("RevealXG0177","XG0177",0)
-  Dead("XGtmerk")  // ~Палач~
-  Dead("XGtmer4")  // ~Наемник~
-  Dead("XGtmer3")  // ~Наемник~
-  Dead("XGtmer2")  // ~Наемник~
-  Dead("XGtmer1")  // ~Наемник~
+	Global("RevealXG0177","XG0177",0)
+	Dead("XGtmerk")  // ~Палач~
+	Dead("XGtmer4")  // ~Наемник~
+	Dead("XGtmer3")  // ~Наемник~
+	Dead("XGtmer2")  // ~Наемник~
+	Dead("XGtmer1")  // ~Наемник~
 THEN
-  RESPONSE #100
-    SetGlobal("RevealXG0177","XG0177",1)
-    Wait(3)
-    StartCutSceneMode()
-    HideGUI()
-    FadeToColor([20.0],0)
-    Wait(5)
-    CreateCreature("XGrgp",[587.423],0)  // ~Пленник~
-    CreateCreature("XGrgp1",[655.426],0)  // ~Пленник~
-    Wait(5)
-    ActionOverride(Player1,MoveToPoint([658.548]))
-    Wait(6)
-    ActionOverride(Player1,Face(8))
-    DisplayStringHead("XGrgp1",@4)  
-    Wait(5)
-    DisplayStringHead(Player1,@5)  
-    Wait(5)
-    DisplayStringHead("XGrgp1",@6)  
-    Wait(5)
-    UnhideGUI()
-    ActionOverride(Player2,LeaveAreaLUA("XG0077","",[1074.2015],0))
-    ActionOverride(Player1,LeaveAreaLUA("XG0077","",[1042.1978],0))
-    ActionOverride(Player3,LeaveAreaLUA("XG0077","",[1111.1951],0))
-    ActionOverride(Player4,LeaveAreaLUA("XG0077","",[1183.1993],0))
-    ActionOverride(Player5,LeaveAreaLUA("XG0077","",[1088.2065],0))
-    ActionOverride(Player6,LeaveAreaLUA("XG0077","",[1170.2062],0))
-    EndCutSceneMode()
+	RESPONSE #100
+		SetGlobal("RevealXG0177","XG0177",1)
+		Wait(3)
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(2)
+		CreateCreature("XGrgp",[587.423],0)  // ~Пленник~
+		CreateCreature("XGrgp1",[655.426],0)  // ~Пленник~
+		Wait(2)
+		ActionOverride(Player1,MoveToPoint([658.548]))
+		FadeFromColor([20.0],0)
+		MoveViewPoint([658.548],INSTANT)
+		Wait(5)
+		ActionOverride(Player1,Face(8))
+		DisplayStringHead("XGrgp1",@4)  
+		Wait(5)
+		DisplayStringHead(Player1,@5)  
+		Wait(5)
+		DisplayStringHead("XGrgp1",@6)  
+		Wait(4)
+		UnhideGUI()
+		ActionOverride(Player2,LeaveAreaLUA("XG0077","",[1074.2015],0))
+		ActionOverride(Player1,LeaveAreaLUA("XG0077","",[1042.1978],0))
+		ActionOverride(Player3,LeaveAreaLUA("XG0077","",[1111.1951],0))
+		ActionOverride(Player4,LeaveAreaLUA("XG0077","",[1183.1993],0))
+		ActionOverride(Player5,LeaveAreaLUA("XG0077","",[1088.2065],0))
+		ActionOverride(Player6,LeaveAreaLUA("XG0077","",[1170.2062],0))
+		EndCutSceneMode()
 END
 

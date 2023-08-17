@@ -1,11 +1,9 @@
-
-
 IF
-  Global("S#setAR0305","AR0305",0)
+	Global("S#setAR0305","AR0305",0)
 THEN
-  RESPONSE #100
-    CreateCreature("XGthf",[774.748],0)
-    SetGlobal("S#setAR0305","AR0305",1)
+	RESPONSE #100
+		CreateCreature("XGthf",[774.748],0)
+		SetGlobal("S#setAR0305","AR0305",1)
 END
 
 

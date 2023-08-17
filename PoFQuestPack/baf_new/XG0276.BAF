@@ -1,0 +1,10 @@
+IF
+	Global("ClearXG0076","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride("XGPRO",DestroySelf())
+		ActionOverride("XGZ",DestroySelf())
+		ActionOverride("XGRGP1",DestroySelf())
+		RemoveMapNote([764.402],@1050)
+		RemoveMapNote([756.684],@1051)
+END

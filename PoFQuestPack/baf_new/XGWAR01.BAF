@@ -1,0 +1,7 @@
+IF
+	See([PC])
+THEN
+	RESPONSE #100
+		Wait(3)
+		ActionOverride("XGWAR01",StartDialogue("XGWAR01",Player1))
+END

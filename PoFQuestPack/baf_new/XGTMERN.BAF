@@ -1,0 +1,7 @@
+IF
+	Global("ClearXG0076","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,NEUTRAL)
+		EscapeArea()
+END

@@ -8,6 +8,8 @@
 @7 = ~Ja, ich weiß. <CHARNAME>, ich kümmere mich um die Waldherrin, Ihr müsst das Schwert finden und zurückbringen!~
 @8 = ~Der Beschützer ist tot, ich bin mit einer Runenklinge zurückgekehrt.~
 @9 = ~Gute Arbeit, <CHARNAME>. Wir sind dankbar für alles, was Ihr getan habt. Wir glauben, dass dieses sehr mächtige Schwert nur bei Euch sicher sein wird. Lasst es bei Euch. Nun entschuldigt uns, wir haben eine Menge Arbeit.~
+
+/*
 @10 = ~Tethyr.
 
 Eine Dryade in den Umar-Hügeln hat mich um Hilfe gebeten. Der Wald von Tetira wird vom Gouverneur der örtlichen Burg zerstört. Das muss untersucht werden.~
@@ -27,3 +29,4 @@ Der Vizekönig hat begonnen, den Wald von Tethyr niederzubrennen und den Schatz z
 
 Der Wald von Tethyr wurde gerettet. Zur Belohnung habe ich ein sehr mächtiges Runenschwert erhalten.~
 
+*/

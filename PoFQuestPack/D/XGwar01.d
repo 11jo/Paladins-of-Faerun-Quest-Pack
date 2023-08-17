@@ -18,7 +18,7 @@ ActionOverride("XGwar02",Enemy())~ EXIT
   IF ~~ THEN REPLY @6 DO ~ActionOverride("XGdr01",Enemy())
 ReputationInc(-1)~ EXIT
   IF ~PartyGoldGT(1000)~ THEN REPLY @7 DO ~TakePartyGold(1000)
-ActionOverride("XGwar01",EscapeArea())
 ActionOverride("XGwar02",EscapeArea())
-ActionOverride("XGdr01",StartDialogue("XGdr01",Player1))~ EXIT
+ActionOverride("XGdr01",StartDialogue("XGdr01",Player1))
+ActionOverride("XGwar01",EscapeArea())~ EXIT
 END

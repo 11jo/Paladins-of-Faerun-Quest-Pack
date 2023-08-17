@@ -68,7 +68,7 @@ IF ~Global("s#XGNASHR","GLOBAL",3)
 Dead("XGARDES")~ THEN BEGIN 10
   SAY @18
   IF ~~ THEN REPLY @19 DO ~AddexperienceParty(10000)
-    GivePartyGold(3000)
+    GiveGoldForce(3000)
 SetGlobal("s#XGNASHR","GLOBAL",4)~ UNSOLVED_JOURNAL @20 GOTO 11
 END
 
@@ -87,7 +87,7 @@ IF ~Global("s#XGNASHR","GLOBAL",4)
 Dead("XGLUSGC")~ THEN BEGIN 13
   SAY @23
   IF ~~ THEN REPLY @24  DO ~AddexperienceParty(12000)
-    GivePartyGold(5000)
+    GiveGoldForce(5000)
 SetGlobal("s#XGNASHR","GLOBAL",5) 
 EraseJournalEntry(@11)
 EraseJournalEntry(@13)

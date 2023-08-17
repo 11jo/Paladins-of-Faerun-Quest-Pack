@@ -1,33 +1,32 @@
-
 IF
-  True()
-  Global("EnteredAreaAR1005","AR1005",0)
+	True()
+	Global("EnteredAreaAR1005","AR1005",0)
 THEN
-  RESPONSE #100
-    SetGlobal("EnteredAreaAR1005","AR1005",1)
-    ClearAllActions()
-    StartCutSceneMode()
-    Explore()
-    Wait(2)
-    CreateCreature("XGELWIN",[904.521],0)  // ~›Î‚ËÌ~
-    OpenDoor("DOOR05")
-    Wait(1)
-    ActionOverride("XGELWIN",MoveToPoint([1144.498]))
-    Wait(4)
-    OpenDoor("DOOR04")
-    Wait(1)
-    DisplayString("XGELWIN",@0)  // @0
-    Wait(4)
-    DisplayStringHead(Player1,@1)  // @1
-    Wait(2)
-    OpenDoor("DOOR03")
-    OpenDoor("DOOR06")
-    OpenDoor("DOOR11")
-    OpenDoor("DOOR10")
-    OpenDoor("SECRET03")
-    DisplayString("XGELWIN",@2)  // @2
-    Wait(4)
-    ActionOverride("XGELWIN",EscapeArea())
-    EndCutSceneMode()
-    Continue()
+	RESPONSE #100
+		SetGlobal("EnteredAreaAR1005","AR1005",1)
+		ClearAllActions()
+		StartCutSceneMode()
+		Explore()
+		Wait(2)
+		CreateCreature("XGELWIN",[904.521],0)  // ~–≠–ª–≤–∏–Ω~
+		OpenDoor("DOOR05")
+		Wait(1)
+		ActionOverride("XGELWIN",MoveToPoint([1144.498]))
+		Wait(4)
+		OpenDoor("DOOR04")
+		Wait(1)
+		DisplayString("XGELWIN",@0)  // @0
+		Wait(4)
+		DisplayStringHead(Player1,@1)  // @1
+		Wait(2)
+		OpenDoor("DOOR03")
+		OpenDoor("DOOR06")
+		OpenDoor("DOOR11")
+		OpenDoor("DOOR10")
+		OpenDoor("SECRET03")
+		DisplayString("XGELWIN",@2)  // @2
+		Wait(4)
+		ActionOverride("XGELWIN",EscapeArea())
+		EndCutSceneMode()
+		Continue()
 END

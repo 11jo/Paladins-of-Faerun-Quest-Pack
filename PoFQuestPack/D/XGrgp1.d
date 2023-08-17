@@ -18,8 +18,8 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @6
-  IF ~~ THEN REPLY @7 DO ~GiveItemCreate("XGplet",Player1,0,0,0)~ 
-UNSOLVED_JOURNAL @8 EXIT
+  IF ~~ THEN REPLY @7 DO ~GiveItemCreate("XGplet",Player1,0,0,0)
+AddJournalEntry(@50302,QUEST)~ EXIT
 END
 
 IF ~!NumTimesTalkedTo(0)~ THEN BEGIN 4

@@ -1,28 +1,31 @@
 @0 = ~Déposer vos armes !~ // Protecteur
-@1 = ~Holà, doucement ! Un des prisonniers m'a demandé de faire passer un message, j'ai une lettre pour vous.~ // Charname
+@1 = ~Holà, doucement ! Un des prisonniers du château m'a demandé de faire passer un message, j'ai une lettre pour vous.~ // Charname
 @2 = ~Donnez-moi ça.~ // Protecteur
-@3 = ~Ça ne prouve pas grand-chose ! Vous avez deux possibilités pour prouver vos intentions. Nous avons besoin de volontaires pour combattre dans l'arène avec nos prisonniers. Ou alors vous pouvez sauver nos frères qui sont sur le point d'être exécutés.~ // Protecteur
+@3 = ~Ça ne nous avance pas vraiment ! Vous avez deux possibilités pour prouver vos intentions. Nous avons besoin de volontaires pour combattre avec l'un de nos prisonniers. Ou alors vous pouvez sauver nos frères qui sont sur le point d'être exécutés.~ // Protecteur
 @4 = ~Que le combat commence !~ // Protecteur
 @5 = ~Tu as gagné le duel <CHARNAME> et ainsi obtenu notre confiance. Maintenant rejoignez le druide, il vous attend.~ // Protecteur
-@6 = ~La Maîtresse de la forêt est affaiblie, les bois sont en train de brûler. Le gouverneur a trouvé l'épée.~ // Charname
-@7 = ~Oui <CHARNAME>, je suis au courant. Je m'occupe de la Maîtresse de la forêt. Et toi, tu dois retrouver l'épée et la ramener.~ // Paladin ?
+@6 = ~La Maîtresse de la forêt est affaiblie, les bois sont en train de brûler et le gouverneur a trouvé l'épée.~ // Charname
+@7 = ~Oui <CHARNAME>, je suis au courant. Je m'occupe de la Maîtresse de la forêt. Et toi, tu dois récupérer l'épée et la ramener.~ // druide
 @8 = ~Le Gouverneur est mort, je suis revenu avec la Lame des runes.~ // Charname
-@9 = ~Excellent travail <CHARNAME>. Nous sommes reconnaissants pour tout ce que tu as fait. Nous pensons que cette épée extrêmement puissante ne sera en sécurité qu'avec toi. Garde-la précieusement. Maintenant pardonne-nous, mais nous avons beaucoup à faire.~ // Paladin ?
-@10 = ~Téthyr.
+@9 = ~Excellent travail <CHARNAME>. Nous sommes reconnaissants pour tout ce que tu as fait. Nous pensons que cette épée extrêmement puissante ne sera en sécurité qu'avec toi. Garde-la précieusement. Maintenant pardonne-nous, mais nous avons beaucoup à faire.~ // druide
+
+/*
+@10 = ~Protéger la forêt de Téthyr
 
 La dryade des collines d'Umar a sollicité mon aide. La forêt de Téthyr est détruite par le gouverneur local. Cette affaire requiert une investigation.~
-@11 = ~Tethyr.
+@11 = ~Protéger la forêt de Téthyr
 
 Un des prisonniers ma transmis un message, je dois le porter dans la forêt, mais avant il faut que je m'entretienne avec le propriétaire du château.~
-@12 = ~Téthyr.
+@12 = ~Protéger la forêt de Téthyr
 
 J'ai parlé avec un des prisonniers, il m'a confié une missive que je dois délivrer dans la forêt, non loin du château.~
-@13 = ~Téthyr.
+@13 = ~Protéger la forêt de Téthyr
 
 J'ai gagné la confiance des habitants de la forêt de Téthyr. Maintenant, je dois rencontrer la Maîtresse de la forêt, quelque part au nord d'ici. Elle est gardienne la d'une arme très puissante, une épée runique. Le gouverneur est très intéressé par cette épée.~
-@14 = ~Téthyr.
+@14 = ~Protéger la forêt de Téthyr
 
 Le gouverneur a entrepris de brûler la forêt de Téthyr et a dérobé son trésor. Je dois le retrouver et arrêter cette folie.~
-@15 = ~Téthyr.
+@15 = ~Protéger la forêt de Téthyr
 
 La forêt de Téthyr est préservée. En récompense, j'ai reçu une épée runique très puissante.~
+*/

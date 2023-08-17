@@ -8,6 +8,8 @@
 @7 = ~ Yes, I know. <CHARNAME>, I will take care of the forest mistress, you must find the sword and bring it back! ~
 @8 = ~ The tread is dead, I returned with a rune blade. ~
 @9 = ~ Great job <CHARNAME>. We are grateful for all that you have done. We believe that this very powerful sword will be safe only with you. Leave it with you. Now excuse us, we have a lot of work. ~
+
+/*
 @10 = ~ Tethyr.
 
 Dryad in the Umar Hills asked me for help. Tetira Forest is destroyed by the governor of the local castle. This needs to be investigated. ~
@@ -26,3 +28,4 @@ The viceroy began to burn the Tethyr forest and stole the treasure. I have to fi
 @15 = ~ Tethyr.
 
 Tetirsky forest was saved. As a reward, I received a very powerful rune sword. ~
+*/

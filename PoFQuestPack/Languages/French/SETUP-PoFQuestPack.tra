@@ -21,6 +21,8 @@
 @21 = ~Archimage Tassili~ // Gradak Brother
 @22 = ~Prêtre de Shevarash~
 
+@23 = ~Druide de la Forêt de Tethyr~
+
 @24 = ~Ardes, le grand prêtre~ // Haut prêtre
 @25 = ~Ardes~
 @26 = ~Ariks~
@@ -268,7 +270,7 @@
 @267 = ~Royal guardsman~
 @268 = ~Noble de Padhivern~
 @269 = ~Old mage~
-@270 = ~Strange wizard~
+@270 = ~Magicien mystérieux~
 @271 = ~Xangold~
 @272 = ~Orcs Chieftan~
 @273 = ~Orc shaman~
@@ -281,7 +283,7 @@
 @280 = ~Leader of pirates~
 @281 = ~Thorm's Elite~
 @282 = ~Princesse~
-@283 = ~Protecteur~
+@283 = ~Gouverneur~
 @284 = ~Prêtre de Torm~
 @285 = ~Grand prêtre de Torm~ // Haut
 @286 = ~Prêtre de bataille, fidèle de Torm~
@@ -361,12 +363,12 @@
 @360 = ~White Genie~
 @361 = ~Belnan Wyrmsbane~
 @362 = ~Belnan~
-@363 = ~Protection~
+@363 = ~Garde d'Eauprofonde~
 @364 = ~Pour la gloire d'Eauprofonde !~
 @365 = ~White wizard~
 @366 = ~Richfalcon Fletcher~
 @367 = ~Richfalcon~
-@368 = ~Shadow lord~
+@368 = ~Seigneur masqué~
 @369 = ~Fiery wolf~
 @370 = ~Loup de Gradak~
 @371 = ~Worker~
@@ -403,7 +405,7 @@
 @402 = ~Marchand~
 @403 = ~Weapon warehouse~
 @404 = ~Accès sous le moulin~
-@405 = ~Taverne des trois carafes~
+@405 = ~Taverne des Trois Carafes~
 @406 = ~There is nothing.~
 @407 = ~You need the help, you will not find a way.~
 @408 = ~Guild of thieves: Vagrant Daggers~
@@ -1242,7 +1244,7 @@ Inutilisable par :
 @540 = ~Document~
 @541 = ~A document for a merchant from Waterdeep.~
 @542 = ~The keys to the temple in the Easthaven.~
-@543 = ~Key to a cave~
+@543 = ~Clé du tombeau~
 @544 = ~Falchion~
 @545 = ~Falchion is a heavy sword with a one-sided blade. The top of the blade is usually straight, while here the edge is curved. Towards the tip, the blade expands, giving it the shape of a blade and increasing the damage inflicted. The sword is quite heavy, which also contributes to terrifying slashing blows.
 
@@ -2288,7 +2290,7 @@ Inutilisable par :
 @664 = ~It's a wizard's head.~
 @665 = ~Letter from the village~
 @666 = ~This letter is addressed to General of Targos.~
-@667 = ~Magic Sphere~
+@667 = ~C'est l'une des trois reliques que Gradak veut réunir pour son plan insensé.~
 @668 = ~Map~
 @669 = ~Marian's Key~
 @670 = ~This is the key to the Waterdeep dungeons.~
@@ -3044,7 +3046,7 @@ Inutilisable par :
 @776 = ~The amulet consists of two thick disks strung on a chain. The symbol of Neverwinter is engraved in the middle of the silver disc.~
 @777 = ~This letter is written in blood: "The mission failed."~
 @778 = ~Scroll with a map~
-@779 = ~Magical relic~
+@779 = ~Relique magique~
 @780 = ~Second part of powerful magic weapon.~
 @781 = ~Old scroll~
 @782 = ~The scroll contains a historical treatise on the struggle between Torm and Cyric.~
@@ -4097,7 +4099,7 @@ Poids : 1~
 @1007 = ~Levier du pont-levis~ // Map Note
 @1008 = ~Auberge~
 @1009 = ~Sortie de la ville~
-@1010 = ~Maison du maire~
+@1010 = ~Maison de Crunan~
 @1011 = ~Do you have so much courage that you are not afraid to lie calmly? It's time to pay for your levity!~
 @1012 = ~Druid Abbey~
 @1013 = ~Forgeron~
@@ -4111,7 +4113,7 @@ Poids : 1~
 @1021 = ~Guesthouse~
 @1022 = ~Merchant~
 @1023 = ~Residence of the Red Wizards~
-@1024 = ~Castle~
+@1024 = ~Château~
 @1025 = ~Temple of Tyr~
 @1026 = ~Moonstone Mask~
 @1027 = ~Cloak Tower~
@@ -4121,10 +4123,10 @@ Poids : 1~
 @1031 = ~Docks~
 @1032 = ~Tavern~
 @1033 = ~Lighthouse~
-@1034 = ~Temple of Lathander~
+@1034 = ~Temple de Helm~ // L'acteur est un prêtre de Helm à voir cette histoire de Lathandre 
 @1035 = ~City Guard~
-@1036 = ~House of Lords~
-@1037 = ~Marketplace~
+@1036 = ~Demeure du seigneur~
+@1037 = ~Place du marché~
 @1038 = ~You were attacked by goblins~
 @1039 = ~You were awakened from sleep by the piercing screams of a combat squad of the xvarts, just at the moment when you started to dream something good...~
 @1040 = ~The air stinks terribly of gnolls. You thanked the gods for waking up on time and reaching for weapons.~
@@ -5094,46 +5096,7 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 */
 
 @100000   = ~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},
-	{"  ", "        PALADIN OF FAËRUN        "},
-	{"XG0068", "(PoF)  Quartier des Affaires, (Athkatla)"},
-	{"XG0168", "(PoF)  Demeure du Roi des Affaires, (Athkatla)"},
-	{"XG0000", "(PoF)  Trayak, le sorcier, (Quartier des Temples)"},
-	{"XG0001", "(PoF)  Grotte des Marchands"},
-	{"XG0002", "(PoF)  Plaines Étincelantes"},
-	{"XG0203", "(PoF)  Combat contre Gralamin"},
-	{"XG0003", "(PoF)  Bois de Turlang"},
-	{"XG0302", "(PoF)  Cave souterraine du Bois de Turlang"},
-	{"XG0004", "(PoF)  Mines de Feu vagabondes"},
-	{"XG0401", "(PoF)  Intérieur des Mines de Feu vagabondes"},
-	{"XG04N1", "(PoF)  Intérieur des Mines de Feu vagabondes Zone secondaire"},
-	{"XG0402", "(PoF)  Intérieur des Mines, (Duergars)"},
-	{"XG04N2", "(PoF)  Intérieur des Mines, (Duergars Zone secondaire)"},
-	{"XG0403", "(PoF)  Intérieur des Mines, (Main du démons)"},
-	{"XG04N3", "(PoF)  Intérieur des Mines, (Main du démons Zone secondaire)"},
-	{"XG0007", "(PoF)  Montagne du Fort de la Sorcière, (Pics Gris)"},
-	{"XG0701", "(PoF)  Le Fort de la Sorcière"},
-	{"XG0702", "(PoF)  Intérieur du Fort de la Sorcière"},
-	{"XG0801", "(PoF)  Camp de Hrothgar"},
-	{"XG0801", "(PoF)  Camp de Hrothgar, (Rajkskul)"},
-	{"XG0009", "(PoF)  Antre des Morts-vivants"},
-	{"XG0901", "(PoF)  Intérieur de l'antre des Morts-vivants"},
-	{"XG0902", "(PoF)  Intérieur de l'antre des Morts-vivants, (Udorril)"},
-	{"XG0903", "(PoF)  Intérieur de l'antre des Morts-vivants, (Chambre)"},
-	{"XG0012", "(PoF)  Château des Collines Oubliées"},
-	{"XG0112", "(PoF)  Hall du Château des Collines Oubliées"},
-	{"XG0212", "(PoF)  Tombeau du Château des Collines Oubliées"},
-	{"XG0312", "(PoF)  Escaliers du Château des Collines Oubliées"},
-	{"XG0412", "(PoF)  Escaliers du Château des Collines Oubliées"},
-	{"XG0033", "(PoF)  Village près de Teziir, (Attaqué)"},
-	{"XG0133", "(PoF)  Village près de Teziir, (Libéré)"},
-	{"XG0013", "(PoF)  Bateau des pirates, (Mer des étoiles déchues)"},
-	{"XG0213", "(PoF)  Pont supérieur du bateau des pirates"},
-	{"XG0313", "(PoF)  Pont inférieur du bateau des pirates"},
-	{"XG0413", "(PoF)  Cale du bateau des pirates"},
-	{"XG0014", "(PoF)  Île du pirate, (Mer des étoiles déchues)"},
-	{"XG0114", "(PoF)  Entrée du repaire des poignards errants"},
-	{"XG0049", "(PoF)  Guilde des poignards errants"},
-	{"XG0149", "(PoF)  Planque des poignards errants"},	
+	{"  ", "        PALADIN OF FAËRUN        "},	
 	{"XG0055", "(PoF)  Vers le domaine de Gradak, (Elwin)"},
 	{"XG0015", "(PoF)  Crevasse, (Barde ambulant)"},
 	{"XG0115", "(PoF)  Grotte sous la crevasse, (Gardien)"},
@@ -5162,6 +5125,55 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG2057", "(PoF)  Champ de bataille de Padhiver"},
 	{"XG1319", "(PoF)  Retour au village abandonné, (Près de Bois-Manteau)"},
 	{"XG0419", "(PoF)  Nord-Est du village abandonné, (Tassili, Portail vers Athkatla)"},
+	
+	{"XG0028", "(PoF)  Abbaye des Montagnes Floconeigeuses"},
+	{"XG0128", "(PoF)  Intérieur de l'abbaye"},
+	{"XG0228", "(PoF)  Salles des éléments"},
+	{"XG0328", "(PoF)  Hall des élémentaires, (Troisième Relique)"},
+	
+	
+	{"  ", "        ATHKATLA        "},
+	{"XG0068", "(PoF)  Quartier des Affaires, (Athkatla)"},
+	{"XG0168", "(PoF)  Demeure du Roi des Affaires, (Athkatla)"},
+	{"XG0000", "(PoF)  Trayak, le sorcier, (Quartier des Temples)"},
+	{"XG0001", "(PoF)  Grotte des Marchands"},
+	{"XG0002", "(PoF)  Plaines Étincelantes"},
+	{"XG0203", "(PoF)  Combat contre Gralamin"},
+	
+	
+	{"XG0004", "(PoF)  Mines de Feu vagabondes"},
+	{"XG0401", "(PoF)  Intérieur des Mines de Feu vagabondes"},
+	{"XG04N1", "(PoF)  Intérieur des Mines de Feu vagabondes Zone secondaire"},
+	{"XG0402", "(PoF)  Intérieur des Mines, (Duergars)"},
+	{"XG04N2", "(PoF)  Intérieur des Mines, (Duergars Zone secondaire)"},
+	{"XG0403", "(PoF)  Intérieur des Mines, (Main du démons)"},
+	{"XG04N3", "(PoF)  Intérieur des Mines, (Main du démons Zone secondaire)"},
+	
+	{"  ", "        ÎLES DES PIRATES        "},
+	{"XG0033", "(PoF)  Village près de Teziir, (Attaqué)"},
+	{"XG0133", "(PoF)  Village près de Teziir, (Libéré)"},
+	{"XG0013", "(PoF)  Bateau des pirates, (Mer des étoiles déchues)"},
+	{"XG0213", "(PoF)  Pont supérieur du bateau des pirates"},
+	{"XG0313", "(PoF)  Pont inférieur du bateau des pirates"},
+	{"XG0413", "(PoF)  Cale du bateau des pirates"},
+	{"XG0014", "(PoF)  Île du pirate, (Mer des étoiles déchues)"},
+	{"XG0114", "(PoF)  Entrée du repaire des poignards errants"},
+	{"XG0214", "(PoF)  Le gardien des reliques"},
+	{"XG0049", "(PoF)  Guilde des poignards errants"},
+	{"XG0149", "(PoF)  Planque des poignards errants"},	
+	
+	{"  ", "        TETHYR        "},
+	{"XG0076", "(PoF)  Château de la forêt de Tethyr"},
+	{"XG0176", "(PoF)  Entrée du château"},
+	{"XG0276", "(PoF)  Intérieur du château, (Quête de la Forêt)"},
+	
+	{"XG0077", "(PoF)  Forêt de Tethyr, (Quête de la Forêt)"},
+	{"XG0177", "(PoF)  Sauver les prisonniers"},
+	
+	{"XG0078", "(PoF)  Château-Tethyr, (Pour la forêt !)"},
+	{"XG0178", "(PoF)  Sous-sol de Château-Tethyr, (Pour la forêt !)"},
+	{"XG0278", "(PoF)  Intérieur de Château-Tethyr, (Pour la forêt !)"},
+	
 	{"  ", "        PORTE DE BALDUR        "},
 	{"XG0020", "(PoF)  Porte de Baldur"},
 	{"XG0220", "(PoF)  Maison"},
@@ -5176,6 +5188,7 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0320", "(PoF)  Elorin, le magicien, (Quête de la Forteresse Glacée)"},
 	{"XG0052", "(PoF)  Forteresse Glacée"},	
 	{"XG0152", "(PoF)  Intérieur de la Forteresse, (Ar-Ju-Nam)"},	
+	
 	{"  ", "        TARGOS        "},
 	{"XG0025", "(PoF)  Quais de Targos"},
 	{"XG0024", "(PoF)  Targos"},
@@ -5190,11 +5203,65 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	
 	
 	{"XG0026", "(PoF)  Haute-Forêt"},
-	{"XG0064", "(PoF)  Eauprofonde"},
-	{"XG0028", "(PoF)  Château des Montagnes Floconeigeuses"},
+	{"XG0426", "(PoF)  Magasin, (Haute-Forêt)"},
+	{"XG0526", "(PoF)  Temple de Shevarash, (Haute-Forêt)"},	
+	{"XG0226", "(PoF)  Eladriel, (Quête du Bois de Turlang)"},	
+	{"XG0126", "(PoF)  Maison de Crunan / Auberge, (Quête du Fort de la Sorcière)"},
+	{"XG0003", "(PoF)  Bois de Turlang"},
+	{"XG0302", "(PoF)  Cave souterraine du Bois de Turlang"},
+	{"XG0007", "(PoF)  Montagne du Fort de la Sorcière, (Pics Gris)"},
+	{"XG0701", "(PoF)  Le Fort de la Sorcière"},
+	{"XG0702", "(PoF)  Intérieur du Fort de la Sorcière"},
+	
+	{"  ", "        EAUPROFONDE        "},
+	{"XG0064", "(PoF)  Eauprofonde, (Quête de l'Arène, Quête de Hrothgar)"},
+	{"XG0164", "(PoF)  Château d'Eauprofonde, L1 (Quête du Seigneur Masqué, Quête de la cité des prêtres)"},
+	{"XG0964", "(PoF)  Château d'Eauprofonde, L1 (Quête du Seigneur Masqué, Quête du Col de la Forêt)"},
+	{"XG0764", "(PoF)  Château d'Eauprofonde, L2"},
+	{"XG0464", "(PoF)  Temple de Helm"},
+	{"XG0364", "(PoF)  Caserne de la ville"},
+	{"XG0264", "(PoF)  Auberge d'Eauprofonde, (Barbarossa)"},
+	{"XG0564", "(PoF)  Demeure du seigneur, L1"},
+	{"XG0864", "(PoF)  Demeure du seigneur, L2"},
+			
+	{"XG0029", "(PoF)  Cité des Prêtres (Près de Berdusk)"},
+	{"XG0129", "(PoF)  Temple sacré, (Quête des Ténèbres)"},
+	{"XG0829", "(PoF)  Cimetière, (Quête des Ténèbres)"},
+	{"XG0429", "(PoF)  Tombeau, (Quête des Ténèbres)"},
+	{"XG0529", "(PoF)  Caverne sous le tombeau, (Quête des Ténèbres)"},
+	{"XG0629", "(PoF)  Les Ténèbres)"},
+	{"XG0229", "(PoF)  Taverne des Trois Carafes, L1"},
+	{"XG0729", "(PoF)  Taverne des Trois Carafes, L2"},
+	{"XG0329", "(PoF)  Temple d'Ilmater"},
+	
+	{"XG0065", "(PoF)  Village près de Soubar, (Quête du Seigneur Masqué)"},
+	{"XG0165", "(PoF)  Maison"},
+	{"XG0265", "(PoF)  Maison, (Inaccessible)"},
+	{"XG0365", "(PoF)  Maison, (Magicien mystérieux)"},
+	
+	
+	{"XG0066", "(PoF)  Col de la Forêt, (Quête du Seigneur Masqué)"},
+	{"XG0166", "(PoF)  Demeure du Nécromancien, L1"},
+	{"XG0266", "(PoF)  Demeure du Nécromancien, L2"},
+	
+	{"XG0012", "(PoF)  Château des Collines Oubliées, (Quête du Seigneur Masqué)"},
+	{"XG0112", "(PoF)  Hall du Château des Collines Oubliées"},
+	{"XG0212", "(PoF)  Tombeau du Château des Collines Oubliées"},
+	{"XG0312", "(PoF)  Escaliers du Château des Collines Oubliées"},
+	{"XG0412", "(PoF)  Château des Collines Oubliées, (Seigneur des morts-vivants)"},
+	
+	{"XG0801", "(PoF)  Camp de Hrothgar"},
+	{"XG0801", "(PoF)  Camp de Hrothgar, (Rajkskul)"},
+	{"XG0009", "(PoF)  Antre des Morts-vivants"},
+	{"XG0901", "(PoF)  Intérieur de l'antre des Morts-vivants"},
+	{"XG0902", "(PoF)  Intérieur de l'antre des Morts-vivants, (Udorril)"},
+	{"XG0903", "(PoF)  Intérieur de l'antre des Morts-vivants, (Chambre)"},
+	
+	{"XG0075", "(PoF)  Arène"},
+	
+	
+
 	{"XG0034", "(PoF)  Le Conseil des Mages"},
-	{"XG0029", "(PoF)  Cite des Prêtres (Près de Berdusk)"},
-	{"XG0033", "(PoF)  Village (près de Teziir)"},
 	{"XG0039", "(PoF)  Îles Moonshae"},
 	{"XG0040", "(PoF)  Îles Moonshae"},
 	{"XG0041", "(PoF)  Îles Moonshae"},
@@ -5206,7 +5273,6 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	
 	
 	{"XG0061", "(PoF)  Forêt (vers les Montagnes du Couchant)"},
-	{"XG0065", "(PoF)  Village (près de Soubar)"},
 	{"XG0066", "(PoF)  Col de la Forêt"},
 	{"XG0067", "(PoF)  Vallée de L'Epine Dorsale"},
 	{"XG0069", "(PoF)  Chasse aux Trolls"},
@@ -5217,10 +5283,6 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0070", "(PoF)  Ferme (près du Gué de la Dague)"},
 	{"XG0072", "(PoF)  Désert Calim (près de Memnon)"},
 	{"XG0073", "(PoF)  Désert Calim  (près de Darromar)"},
-	{"XG0075", "(PoF)  Arène"},
-	{"XG0076", "(PoF)  Forêt de Tethyr"},
-	{"XG0077", "(PoF)  Forêt de Tethyr"},
-	{"XG0078", "(PoF)  Château-Tethyr"},
 	{"XG0058", "(PoF)  Vallée de L'Epine Dorsale"},
 	{"XG0079", "(PoF)  Ferme (près d'Esmeltaran)"},
 	{"XG4001", "(PoF)  Îles Moonshae"},

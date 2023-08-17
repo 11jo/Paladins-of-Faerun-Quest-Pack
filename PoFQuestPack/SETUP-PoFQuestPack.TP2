@@ -242,6 +242,8 @@ REPLACE_TEXTUALLY ~Global("PGFailed","GLOBAL",0)~ ~Global("PGFailed","GLOBAL",0)
 	!AreaType(POFAREA)~
 */	
 
+		//COMPILE_BAF_TO_BCS
+
 COMPILE ~weidu_external/PoFQuestPack/ExistingBaf/BALDUR.BAF~ ~override~
 
 END	
@@ -262,7 +264,7 @@ PRINT ~         ~
 
   COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%BASH_FOR_FILESPEC%~
     LPM UPDATE_POF_ITEM_NAMES_ON_CRE
-	
+	// Item-macros.tpa
 PRINT ~         ~
 PRINT ~END item on creature~
 PRINT ~         ~
@@ -278,7 +280,7 @@ PRINT ~         ~
 
   COPY ~%BASH_FOR_FILESPEC%~ ~%BASH_FOR_FILESPEC%~
     LPM UPDATE_POF_DEATH_NAMES_ON_CRE
-	
+	// Creature-macros.tpa
 PRINT ~         ~
 PRINT ~END Death variable name on creature~
 PRINT ~         ~
@@ -294,6 +296,7 @@ PRINT ~         ~
 
   COPY ~%BASH_FOR_FILESPEC%~ ~%BASH_FOR_FILESPEC%~
     LPM UPDATE_POF_DLG_NAMES_ON_CRE
+	// Creature-macros.tpa
 	
 PRINT ~         ~
 PRINT ~END Dlg name on creature~
@@ -310,6 +313,7 @@ PRINT ~         ~
 
   COPY ~%BASH_FOR_FILESPEC%~ ~%BASH_FOR_FILESPEC%~
     LPM UPDATE_POF_PORTRAITL_NAMES_ON_CRE
+	// Creature-macros.tpa
 	
 PRINT ~         ~
 PRINT ~END PORTRAIT L name on creature~
@@ -326,6 +330,7 @@ PRINT ~         ~
 
   COPY ~%BASH_FOR_FILESPEC%~ ~%BASH_FOR_FILESPEC%~
     LPM UPDATE_POF_PORTRAITS_NAMES_ON_CRE
+	// Creature-macros.tpa
 	
 PRINT ~         ~
 PRINT ~END PORTRAIT S name on creature~
@@ -953,9 +958,13 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGdrbs.CRE~       ~override/XGdrbs.CRE~
   SAY NAME1 @97 
   SAY NAME2 @97 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrc1.CRE~       ~override/XGdrc1.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrc1.CRE~       ~override/XGdrc1.CRE~         
+  SAY NAME1 @23 
+  SAY NAME2 @23 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrc.CRE~        ~override/XGdrc.CRE~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrc.CRE~        ~override/XGdrc.CRE~          
+  SAY NAME1 @23 
+  SAY NAME2 @23
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdre1.CRE~       ~override/XGdre1.CRE~        
   SAY NAME1 @98 
@@ -2550,7 +2559,8 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGRGG.CRE~        ~override/XGRGG.CRE~
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGrgp1.CRE~       ~override/XGrgp1.CRE~        
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGrgp.CRE~        ~override/XGrgp.CRE~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGrgp.CRE~        ~override/XGrgp.CRE~   
+  // WRITE_ASCII 0x248 ~XGrgp~ (8) // Override script      
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGrgq.CRE~        ~override/XGrgq.CRE~         
   SAY NAME1 @170 
@@ -3352,7 +3362,7 @@ PRINT ~         ~
 
   COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%BASH_FOR_FILESPEC%~
     LPM UPDATE_POF_CRE_NAMES_ON_AREA
-	
+	// Area-macros.tpa
 PRINT ~         ~
 PRINT ~END creature in areas~
 PRINT ~         ~
@@ -3371,6 +3381,7 @@ PRINT ~         ~
 
   COPY ~%BASH_FOR_FILESPEC%~ ~%BASH_FOR_FILESPEC%~
     LPM UPDATE_POF_ITEM_NAMES_ON_CONT
+	// Area-macros.tpa
 	
 PRINT ~         ~
 PRINT ~END Containers in areas~
@@ -3446,15 +3457,16 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0028.ARE~         ~override/XG0028.ARE
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0029.ARE~         ~override/XG0029.ARE~         
   SAY 0x1bc4 @409  // Temple Entrance  InfoTrigger
-  SAY 0x1e10 @404  // Accès sous le moulin InfoTrigger
+  SAY 0x1e10 @404  // AccÃ¨s sous le moulin InfoTrigger
   SAY 0x205C @1014 // Sacred Stone InfoTrigger
   SAY 0x2120 @1017  // Taverne des trois carafes InfoTrigger
   SAY 0x2890 @405 // Taverne des trois carafes MapNote
   SAY 0x2828 @1015 // Sacred Stone MapNote
   SAY 0x285c @1016  // Sacred Temple MapNote
-  SAY 0x1d4c @401 // Il n'y a rien à voir par ici InfoTrigger
+  SAY 0x1d4c @401 // Il n'y a rien Ã  voir par ici InfoTrigger
   SAY 0x21e4 @424 // Temple d'Ilmater
-  SAY 0x28C8 @1018  // Cimetière MapNote
+  SAY 0x28C8 @1018  // CimetiÃ¨re MapNote
+  ADD_MAP_NOTE #1730 #680 ~BLUE~ @424
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0030.ARE~         ~override/XG0030.ARE~         
 
@@ -3545,12 +3557,12 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0063.ARE~         ~override/XG0063.ARE
   SAY 0x2EA0 @1033         
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0064.ARE~         ~override/XG0064.ARE~
-  SAY 0x3B0C @1001
-  SAY 0x3BD4 @1024
-  SAY 0x3C08 @1034
-  SAY 0x3C3C @1035
-  SAY 0x3C70 @1036
-  SAY 0x3CA4 @1037         
+  ADD_MAP_NOTE #930 #120 ~gray~ @1024
+  ADD_MAP_NOTE #3090 #180 ~gray~ @1036
+  ADD_MAP_NOTE #2580 #2450 ~gray~ @1037
+  ADD_MAP_NOTE #2640 #1725 ~blue~ @1034 
+  ADD_MAP_NOTE #1660 #2216 ~gray~ @1035
+  ADD_MAP_NOTE #1410 #1400 ~green~ @1008
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0065.ARE~         ~override/XG0065.ARE~
   SAY 0x23E0 @1038         
@@ -4157,7 +4169,7 @@ PRINT ~         ~
 
   COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%BASH_FOR_FILESPEC%~
     LPM UPDATE_POF_BAM_NAMES_ON_ITM
-	
+	// Bam-macros.tpa
 PRINT ~         ~
 PRINT ~END BAM_NAMES_ON_ITM~
 PRINT ~         ~
@@ -4173,7 +4185,7 @@ PRINT ~         ~
 
   COPY ~%BASH_FOR_FILESPEC%~ ~%BASH_FOR_FILESPEC%~
     LPM UPDATE_POF_BAM_NAMES_ON_ITM_ABYLITY
-	
+	// Bam-macros.tpa	
 PRINT ~         ~
 PRINT ~END BAM_NAMES_ON_ITM~
 PRINT ~         ~
@@ -5607,7 +5619,7 @@ PRINT ~         ~
 
   COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%BASH_FOR_FILESPEC%~
     LPM UPDATE_POF_ITEM_NAMES_ON_STORE
-	
+	// Item-macros.tpa 
 PRINT ~         ~
 PRINT ~END item in store~
 PRINT ~         ~
@@ -5690,10 +5702,11 @@ COPY ~weidu_external/PoFQuestPack/Stores/s#SHOP01.STO~			~override/s#SHOP01.STO~
 //////////////////////////////////
 
 
-ADD_JOURNAL TITLE (@49000) @49001 @50000 @50001 @50002 @50003 @50004 @50005 @50006 @50007 @50008 @50009 // Abduction and politics // Enlèvement et politique. // XGnorpa.tra, XGhqmi.tra, XGATKI.tra, XG0639.tra, XG0440.tra, XG0168.tra
-ADD_JOURNAL TITLE (@50110) @50111 @50112 @50113 @50114 @50116 @50117 @50118 @50119 // Pirate Island // L'île aux pirates // XG0049.tra, XG0414.tra, XGADOB.tra, XGADOB1.tra, XGBOY.tra, XGLOFLT.tra
-ADD_JOURNAL TITLE (@50120) @50115 @50121 @50122 // Dragon artifact (Pirate Island) // L'artefact d'un dragon (L'île aux pirates) //  XGADOB1.tra, XGDRAG1.tra
+ADD_JOURNAL TITLE (@49000) @49001 @50000 @50001 @50002 @50003 @50004 @50005 @50006 @50007 @50008 @50009 // Abduction and politics // EnlÃ¨vement et politique. // XGnorpa.tra, XGhqmi.tra, XGATKI.tra, XG0639.tra, XG0440.tra, XG0168.tra
+ADD_JOURNAL TITLE (@50110) @50111 @50112 @50113 @50114 @50116 @50117 @50118 @50119 // Pirate Island // L'Ã®le aux pirates // XG0049.tra, XG0414.tra, XGADOB.tra, XGADOB1.tra, XGBOY.tra, XGLOFLT.tra
+ADD_JOURNAL TITLE (@50120) @50115 @50121 @50122 // Dragon artifact (Pirate Island) // L'artefact d'un dragon (L'Ã®le aux pirates) //  XGADOB1.tra, XGDRAG1.tra
 ADD_JOURNAL TITLE (@50202) @50200 @50201 // Magic bag // La sacoche du sorcier // XTRAEK.tra, XTRAEK.D // XG0000.ARE
+ADD_JOURNAL TITLE (@50306) @50300 @50301 @50302 @50303 @50304 @50305 @50310 @50313 // ProtÃ©ger la forÃªt de TÃ©thyr // Tethyr // XG0077, XGFL, XGDR
 
  
 //////////////////////////////////
@@ -5736,7 +5749,7 @@ END
 
 ACTION_IF (GAME_IS ~bg2ee eet~ AND FILE_EXISTS_IN_GAME ~AR0602.BCS~) BEGIN
 
-	COPY_EXISTING ~AR0602.BCS~ ~weidu_external/PoFQuestPack/baf_are/AR0602.BAF~
+	COPY_EXISTING ~AR0602.BCS~ ~weidu_external/PoFQuestPack/ExistingBaf/AR0602.BAF~
 	
 		DECOMPILE_BCS_TO_BAF
 	
@@ -5826,7 +5839,7 @@ REPLACE_TEXTUALLY ~SetGlobal("NewGame","AR0602",1)~ ~ClearAllActions()
 	ActionOverride("XGIRENM",DestroySelf())
 	SetGlobal("NewGame","AR0602",1)~
 	
-COMPILE ~weidu_external/PoFQuestPack/baf_are/AR0602.BAF~ ~override~
+COMPILE ~weidu_external/PoFQuestPack/ExistingBaf/AR0602.BAF~ ~override~
 USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0602EE.tra~
 		
 EXTEND_BOTTOM ~AR0602.BCS~				~PoFQuestPack/baf_are/S#AR0602EE.baf~
@@ -5885,73 +5898,73 @@ USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR2000.tra~
 
 // Append mastarea.2da with the new areas
 APPEND ~MASTAREA.2da~ ~XG0001 value~ UNLESS ~XG0001~ // Grotte des Marchands // Tradmith Cave //
-APPEND ~MASTAREA.2da~ ~XG0002 value~ UNLESS ~XG0002~ // Plaines Étincelantes // The Shining Plains //
+APPEND ~MASTAREA.2da~ ~XG0002 value~ UNLESS ~XG0002~ // Plaines Ã‰tincelantes // The Shining Plains //
 APPEND ~MASTAREA.2da~ ~XG0003 value~ UNLESS ~XG0003~ // Bois de Turlang // Turlan Forest //
 APPEND ~MASTAREA.2da~ ~XG0004 value~ UNLESS ~XG0004~ // Mines de Feu vagabondes // Wandering Fire Mines //
-APPEND ~MASTAREA.2da~ ~XG0007 value~ UNLESS ~XG0007~ // Le Fort de la Sorcière // Witch's Strength //
+APPEND ~MASTAREA.2da~ ~XG0007 value~ UNLESS ~XG0007~ // Le Fort de la SorciÃ¨re // Witch's Strength //
 APPEND ~MASTAREA.2da~ ~XG0801 value~ UNLESS ~XG0801~ // Camp Hrothgar // Hrothgar Camp //
 APPEND ~MASTAREA.2da~ ~XG0009 value~ UNLESS ~XG0009~ // Maison des Morts-vivants // Undead Housing //
 APPEND ~MASTAREA.2da~ ~XG0034 value~ UNLESS ~XG0034~ // Le Conseil des Mages  // Council of Mages //
-APPEND ~MASTAREA.2da~ ~XG0012 value~ UNLESS ~XG0012~ // Château des Collines Oubliées // Castle Forgotten Hills //
-APPEND ~MASTAREA.2da~ ~XG0014 value~ UNLESS ~XG0014~ // Île du pirate (Mer des étoiles déchues) //  Pirate island //
-APPEND ~MASTAREA.2da~ ~XG0016 value~ UNLESS ~XG0016~ // Passe du Géant // Pass //
+APPEND ~MASTAREA.2da~ ~XG0012 value~ UNLESS ~XG0012~ // ChÃ¢teau des Collines OubliÃ©es // Castle Forgotten Hills //
+APPEND ~MASTAREA.2da~ ~XG0014 value~ UNLESS ~XG0014~ // ÃŽle du pirate (Mer des Ã©toiles dÃ©chues) //  Pirate island //
+APPEND ~MASTAREA.2da~ ~XG0016 value~ UNLESS ~XG0016~ // Passe du GÃ©ant // Pass //
 APPEND ~MASTAREA.2da~ ~XG0017 value~ UNLESS ~XG0017~ // Tour de Gradak // Tower of Gradak //
 APPEND ~MASTAREA.2da~ ~XG0018 value~ UNLESS ~XG0018~ // Camp Secret de Gradak
 APPEND ~MASTAREA.2da~ ~XG0019 value~ UNLESS ~XG0019~ // Navire de Gradak // Ship of Gradak //
 APPEND ~MASTAREA.2da~ ~XG0020 value~ UNLESS ~XG0020~ // Porte de Baldur  // Baldur's Gate  //
 APPEND ~MASTAREA.2da~ ~XG0025 value~ UNLESS ~XG0025~ // Quais de Targos // Docks of Targos //
-APPEND ~MASTAREA.2da~ ~XG0026 value~ UNLESS ~XG0026~ // Haute-Forêt // The High Forest //
+APPEND ~MASTAREA.2da~ ~XG0026 value~ UNLESS ~XG0026~ // Haute-ForÃªt // The High Forest //
 APPEND ~MASTAREA.2da~ ~XG0064 value~ UNLESS ~XG0064~ // Eauprofonde // Waterdeep //
-APPEND ~MASTAREA.2da~ ~XG0028 value~ UNLESS ~XG0028~ // Château des Montagnes Floconeigeuses // Fort on Snowflake mountains //
-APPEND ~MASTAREA.2da~ ~XG0319 value~ UNLESS ~XG0319~ // Village Abandonné // Abandoned Village //
-APPEND ~MASTAREA.2da~ ~XG0029 value~ UNLESS ~XG0029~ // Cite des Prêtres (Pres de Berdusk) // Priests City // Har Al-Dur //
-APPEND ~MASTAREA.2da~ ~XG0033 value~ UNLESS ~XG0033~ // Village (près de Teziir) // Village //
-APPEND ~MASTAREA.2da~ ~XG0039 value~ UNLESS ~XG0039~ // Îles Moonshae // Moonshae Isles //
-APPEND ~MASTAREA.2da~ ~XG0040 value~ UNLESS ~XG0040~ // Îles Moonshae // Moonshae Isles //
+APPEND ~MASTAREA.2da~ ~XG0028 value~ UNLESS ~XG0028~ // ChÃ¢teau des Montagnes Floconeigeuses // Fort on Snowflake mountains //
+APPEND ~MASTAREA.2da~ ~XG0319 value~ UNLESS ~XG0319~ // Village AbandonnÃ© // Abandoned Village //
+APPEND ~MASTAREA.2da~ ~XG0029 value~ UNLESS ~XG0029~ // Cite des PrÃªtres (Pres de Berdusk) // Priests City // Har Al-Dur //
+APPEND ~MASTAREA.2da~ ~XG0033 value~ UNLESS ~XG0033~ // Village (prÃ¨s de Teziir) // Village //
+APPEND ~MASTAREA.2da~ ~XG0039 value~ UNLESS ~XG0039~ // ÃŽles Moonshae // Moonshae Isles //
+APPEND ~MASTAREA.2da~ ~XG0040 value~ UNLESS ~XG0040~ // ÃŽles Moonshae // Moonshae Isles //
 APPEND ~MASTAREA.2da~ ~XG0068 value~ UNLESS ~XG0068~ // Quartier des Affaires // Business district //
-APPEND ~MASTAREA.2da~ ~XG0041 value~ UNLESS ~XG0041~ // Îles Moonshae // Moonshae Isles //
+APPEND ~MASTAREA.2da~ ~XG0041 value~ UNLESS ~XG0041~ // ÃŽles Moonshae // Moonshae Isles //
 APPEND ~MASTAREA.2da~ ~XG0046 value~ UNLESS ~XG0046~ // Temple oublie // Forgotten Temple //
 APPEND ~MASTAREA.2da~ ~XG0047 value~ UNLESS ~XG0047~ // Port de l'Est (Icewind Dale) // East Harbor //
 APPEND ~MASTAREA.2da~ ~XG0062 value~ UNLESS ~XG0062~ // Padhiver // Neverwinter 
 APPEND ~MASTAREA.2da~ ~XG0050 value~ UNLESS ~XG0050~ // Montagnes (sous le festival) // Mountains //
-APPEND ~MASTAREA.2da~ ~XG0052 value~ UNLESS ~XG0052~ // Forteresse Glacée // Ice Castle //
+APPEND ~MASTAREA.2da~ ~XG0052 value~ UNLESS ~XG0052~ // Forteresse GlacÃ©e // Ice Castle //
 APPEND ~MASTAREA.2da~ ~XG0054 value~ UNLESS ~XG0054~ // Refuge (de Gradak) // Shelter //
 APPEND ~MASTAREA.2da~ ~XG0055 value~ UNLESS ~XG0055~ // Tour de Gradak (bis) // Tower of Gradak //
-APPEND ~MASTAREA.2da~ ~XG0061 value~ UNLESS ~XG0061~ // Forêt (vers les Montagnes du Couchant) // Forest //
-APPEND ~MASTAREA.2da~ ~XG0065 value~ UNLESS ~XG0065~ // Village (près de Soubar) // Village //
-APPEND ~MASTAREA.2da~ ~XG0066 value~ UNLESS ~XG0066~ // Col de la Forêt // Pass //
-APPEND ~MASTAREA.2da~ ~XG0067 value~ UNLESS ~XG0067~ // Vallée de L'Epine Dorsale // Valley of Icewind Dale //
+APPEND ~MASTAREA.2da~ ~XG0061 value~ UNLESS ~XG0061~ // ForÃªt (vers les Montagnes du Couchant) // Forest //
+APPEND ~MASTAREA.2da~ ~XG0065 value~ UNLESS ~XG0065~ // Village (prÃ¨s de Soubar) // Village //
+APPEND ~MASTAREA.2da~ ~XG0066 value~ UNLESS ~XG0066~ // Col de la ForÃªt // Pass //
+APPEND ~MASTAREA.2da~ ~XG0067 value~ UNLESS ~XG0067~ // VallÃ©e de L'Epine Dorsale // Valley of Icewind Dale //
 APPEND ~MASTAREA.2da~ ~XG0069 value~ UNLESS ~XG0069~ // Chasse aux Trolls // Hunting Trolls //
 APPEND ~MASTAREA.2da~ ~XG0053 value~ UNLESS ~XG0053~ // Le Culte // Cult //
-APPEND ~MASTAREA.2da~ ~XG0056 value~ UNLESS ~XG0056~ // Vallée // Valley // 
+APPEND ~MASTAREA.2da~ ~XG0056 value~ UNLESS ~XG0056~ // VallÃ©e // Valley // 
 APPEND ~MASTAREA.2da~ ~XG0059 value~ UNLESS ~XG0059~ // Village (Floconeigeuse) // Village //
 APPEND ~MASTAREA.2da~ ~XG0060 value~ UNLESS ~XG0060~ // Montagnes (Floconeigeuse) // Mountains //
-APPEND ~MASTAREA.2da~ ~XG0070 value~ UNLESS ~XG0070~ // Ferme (près du Gué de la Dague) // Farm //
-APPEND ~MASTAREA.2da~ ~XG0072 value~ UNLESS ~XG0072~ // Désert Calim (près de Memnon) // Calim Desert //
-APPEND ~MASTAREA.2da~ ~XG0073 value~ UNLESS ~XG0073~ // Désert Calim  (près de Darromar)// Calim Desert //
-APPEND ~MASTAREA.2da~ ~XG0075 value~ UNLESS ~XG0075~ // Arène // Arena //
-APPEND ~MASTAREA.2da~ ~XG1319 value~ UNLESS ~XG1319~ // Village Abandonné (bis) // Abandoned Village //
-APPEND ~MASTAREA.2da~ ~XG0076 value~ UNLESS ~XG0076~ // Forêt de Tethyr // Forest of Tehyr //
-APPEND ~MASTAREA.2da~ ~XG0077 value~ UNLESS ~XG0077~ // Forêt de Tethyr // Forest of Tehyr //
-APPEND ~MASTAREA.2da~ ~XG0078 value~ UNLESS ~XG0078~ // Château-Tethyr // Castle of Tehyr //
-APPEND ~MASTAREA.2da~ ~XG0058 value~ UNLESS ~XG0058~ // Vallée de L'Epine Dorsale // Valley of Icewind Dale //
-APPEND ~MASTAREA.2da~ ~XG0079 value~ UNLESS ~XG0079~ // Ferme (près d'Esmeltaran) // Farm //
-APPEND ~MASTAREA.2da~ ~XG4001 value~ UNLESS ~XG4001~ // Îles Moonshae // Moonshae Isles //
+APPEND ~MASTAREA.2da~ ~XG0070 value~ UNLESS ~XG0070~ // Ferme (prÃ¨s du GuÃ© de la Dague) // Farm //
+APPEND ~MASTAREA.2da~ ~XG0072 value~ UNLESS ~XG0072~ // DÃ©sert Calim (prÃ¨s de Memnon) // Calim Desert //
+APPEND ~MASTAREA.2da~ ~XG0073 value~ UNLESS ~XG0073~ // DÃ©sert Calim  (prÃ¨s de Darromar)// Calim Desert //
+APPEND ~MASTAREA.2da~ ~XG0075 value~ UNLESS ~XG0075~ // ArÃ¨ne // Arena //
+APPEND ~MASTAREA.2da~ ~XG1319 value~ UNLESS ~XG1319~ // Village AbandonnÃ© (bis) // Abandoned Village //
+APPEND ~MASTAREA.2da~ ~XG0076 value~ UNLESS ~XG0076~ // ForÃªt de Tethyr // Forest of Tehyr //
+APPEND ~MASTAREA.2da~ ~XG0077 value~ UNLESS ~XG0077~ // ForÃªt de Tethyr // Forest of Tehyr //
+APPEND ~MASTAREA.2da~ ~XG0078 value~ UNLESS ~XG0078~ // ChÃ¢teau-Tethyr // Castle of Tehyr //
+APPEND ~MASTAREA.2da~ ~XG0058 value~ UNLESS ~XG0058~ // VallÃ©e de L'Epine Dorsale // Valley of Icewind Dale //
+APPEND ~MASTAREA.2da~ ~XG0079 value~ UNLESS ~XG0079~ // Ferme (prÃ¨s d'Esmeltaran) // Farm //
+APPEND ~MASTAREA.2da~ ~XG4001 value~ UNLESS ~XG4001~ // ÃŽles Moonshae // Moonshae Isles //
 APPEND ~MASTAREA.2da~ ~XG0081 value~ UNLESS ~XG0081~ // Montagnes du Couchant // Twilight Mountains //
 APPEND ~MASTAREA.2da~ ~XG0082 value~ UNLESS ~XG0082~ // Montagnes du Couchant // Twilight Mountains //
 APPEND ~MASTAREA.2da~ ~XG0083 value~ UNLESS ~XG0083~ // Montagnes du Couchant // Twilight Mountains //
-APPEND ~MASTAREA.2da~ ~XG0133 value~ UNLESS ~XG0133~ // Village (près de Teziir) (bis) // Village //  
+APPEND ~MASTAREA.2da~ ~XG0133 value~ UNLESS ~XG0133~ // Village (prÃ¨s de Teziir) (bis) // Village //  
 APPEND ~MASTAREA.2da~ ~XG8100 value~ UNLESS ~XG8100~ // Montagnes du Couchant (bis) // Twilight Mountains //
 APPEND ~MASTAREA.2da~ ~XG8200 value~ UNLESS ~XG8200~ // Montagnes du Couchant (bis) // Twilight Mountains //
 APPEND ~MASTAREA.2da~ ~XG8300 value~ UNLESS ~XG8300~ // Montagnes du Couchant (bis) // Twilight Mountains //
 APPEND ~MASTAREA.2da~ ~XGKAR2 value~ UNLESS ~XGKAR2~ // Caravane // Caravan //
-APPEND ~MASTAREA.2da~ ~XG0681 value~ UNLESS ~XG0681~ // Monastère des admirateur de Torm // Torm admirers Monastery //
-APPEND ~MASTAREA.2da~ ~XG8500 value~ UNLESS ~XG8500~ // Monastère des admirateurs de Cyric // Cyric admirers Monastery //
-APPEND ~MASTAREA.2da~ ~XG0084 value~ UNLESS ~XG0084~ // La Plaine Gelée // The Frozen Plain //
+APPEND ~MASTAREA.2da~ ~XG0681 value~ UNLESS ~XG0681~ // MonastÃ¨re des admirateur de Torm // Torm admirers Monastery //
+APPEND ~MASTAREA.2da~ ~XG8500 value~ UNLESS ~XG8500~ // MonastÃ¨re des admirateurs de Cyric // Cyric admirers Monastery //
+APPEND ~MASTAREA.2da~ ~XG0084 value~ UNLESS ~XG0084~ // La Plaine GelÃ©e // The Frozen Plain //
 APPEND ~MASTAREA.2da~ ~XG0A80 value~ UNLESS ~XG0A80~ // Siluvanede
 APPEND ~MASTAREA.2da~ ~XG0080 value~ UNLESS ~XG0080~ // Siluvanede (bis)
 APPEND ~MASTAREA.2da~ ~XG0780 value~ UNLESS ~XG0780~ // Camp Eilistraee
-APPEND ~MASTAREA.2da~ ~XG0680 value~ UNLESS ~XG0680~ // Forêt (vers Padhiver) // Forest //
+APPEND ~MASTAREA.2da~ ~XG0680 value~ UNLESS ~XG0680~ // ForÃªt (vers Padhiver) // Forest //
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 

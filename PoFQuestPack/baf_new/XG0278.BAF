@@ -1,14 +1,22 @@
 IF
-  Global("RevealXG0278","XG0278",0)
-  PartyHasItem("XGBSWO9")  // ~Рунический меч-бастарда~
+	Global("RevealXG0278","XG0278",0)
+	PartyHasItem("XGBSWO9")  // ~Рунический меч-бастарда~
 THEN
-  RESPONSE #100
-    SetGlobal("RevealXG0278","XG0278",1)
-    ActionOverride(Player2,LeaveAreaLUA("XG0077","",[1756.574],8))
-    ActionOverride(Player1,LeaveAreaLUA("XG0077","",[1811.556],8))
-    ActionOverride(Player3,LeaveAreaLUA("XG0077","",[1876.604],8))
-    ActionOverride(Player4,LeaveAreaLUA("XG0077","",[1719.638],8))
-    ActionOverride(Player5,LeaveAreaLUA("XG0077","",[1788.668],8))
-    ActionOverride(Player6,LeaveAreaLUA("XG0077","",[1752.716],8))
+	RESPONSE #100
+		SetGlobal("RevealXG0278","XG0278",1)
+		Wait(2)
+		ReallyForceSpell(Player2,DRYAD_TELEPORT)
+		ReallyForceSpell(Player1,DRYAD_TELEPORT)
+		ReallyForceSpell(Player3,DRYAD_TELEPORT)
+		ReallyForceSpell(Player4,DRYAD_TELEPORT)
+		ReallyForceSpell(Player5,DRYAD_TELEPORT)
+		ReallyForceSpell(Player6,DRYAD_TELEPORT)
+		Wait(2)
+		ActionOverride(Player2,LeaveAreaLUA("XG0077","",[1275.289],8))
+		ActionOverride(Player1,LeaveAreaLUA("XG0077","",[1355.208],8))
+		ActionOverride(Player3,LeaveAreaLUA("XG0077","",[1291.220],8))
+		ActionOverride(Player4,LeaveAreaLUA("XG0077","",[1431.183],8))
+		ActionOverride(Player5,LeaveAreaLUA("XG0077","",[1328.158],8))
+		ActionOverride(Player6,LeaveAreaLUA("XG0077","",[1390.156],8))
 END
 

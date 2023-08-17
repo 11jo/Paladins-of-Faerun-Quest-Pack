@@ -13,7 +13,8 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @4
-  IF ~~ THEN REPLY @5 UNSOLVED_JOURNAL @6 EXIT
+  IF ~~ THEN DO ~SetGlobal("TalkToXGdrc","GLOBAL",1)
+AddJournalEntry(@50303,QUEST)~ REPLY @5 EXIT
 END
 
 IF ~!NumTimesTalkedTo(0)~ THEN BEGIN 3

@@ -6,7 +6,11 @@
 @5 = ~Okay, ich werde mein Bestes tun. Warum wolltet Ihr den Vizekönig töten?~
 @6 = ~Ich sehe, dass die Dryade beschlossen hat, Euch zu vertrauen. Im Wald gibt es ein sehr seltenes und mächtiges Runenschwert. Der Vizekönig wird alles tun, um es zu bekommen, selbst wenn es bedeutet, den ganzen Wald niederzubrennen. Unsere Aufgabe war es, das Schwert zu bewachen, damit es nicht in die Hände des Bösen fällt, das der Vizekönig der Burg Tethyr verkörpert. Bringt diesen Brief in den Wald!~
 @7 = ~Wartet. Ich werde Euren Brief zustellen. Auf Wiedersehen.~
+
+/*
 @8 = ~Tethyr.
 
 Ich sprach mit einem der Gefangenen, er gab mir einen Brief, den ich in den Wald in der Nähe des Schlosses bringen sollte.~
+*/
+
 @9 = ~Bitte bringt diesen Brief so schnell wie möglich in den Wald!~

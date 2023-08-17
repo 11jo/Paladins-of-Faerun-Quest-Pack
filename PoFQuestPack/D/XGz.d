@@ -13,7 +13,7 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @5
-  IF ~PartyGoldGT(500)~ THEN REPLY @6 GOTO 4
+  IF ~~ THEN REPLY @6 GOTO 4
 END
 
 IF ~~ THEN BEGIN 3
@@ -64,8 +64,8 @@ CloseDoor("DOOR02")
 CloseDoor("DOOR03")
 CloseDoor("DOOR04")
 CloseDoor("DOOR05")
-SetGlobal("s#XGz","GLOBAL",3)~ 
-UNSOLVED_JOURNAL @17 EXIT
+SetGlobal("s#XGz","GLOBAL",3)
+AddJournalEntry(@50301,QUEST)~ EXIT
 END
 
 IF ~Global("s#XGz","GLOBAL",3)~ THEN BEGIN 10

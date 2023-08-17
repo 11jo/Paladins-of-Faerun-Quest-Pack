@@ -12,7 +12,8 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @4
-  IF ~~ THEN REPLY @5 DO ~EscapeArea()
-ActionOverride("XGBMTN1",Enemy())
-ActionOverride("XGBMTN2",Enemy())~ SOLVED_JOURNAL @6 EXIT
+  IF ~~ THEN REPLY @5 DO ~ActionOverride("XGBMTN1",Enemy())
+ActionOverride("XGBMTN2",Enemy())
+EscapeArea()
+~ SOLVED_JOURNAL @6 EXIT
 END

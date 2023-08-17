@@ -153,6 +153,7 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY baf_filenames_to_change BEGIN
 	"PFTORM" => "XGTORM"
 	"TRAPMOD" => "XGTRAP"
 	"PFUMOD" => "XGUMOD"
+	//"" => "XGTMERN"
 	
 	
 // BAF on AREAS...CRE

@@ -18,7 +18,7 @@ END
 IF ~~ THEN BEGIN 7
   SAY @3
   IF ~~ THEN DO ~AddexperienceParty(10000)
-GivePartyGold(1000)
+GiveGoldForce(1000)
 EraseJournalEntry(@50112)
 EraseJournalEntry(@50114)
 EraseJournalEntry(@50113)

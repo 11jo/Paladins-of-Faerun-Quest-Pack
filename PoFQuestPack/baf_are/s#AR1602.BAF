@@ -1,11 +1,10 @@
-
 IF
-  Global("Reveal1602","AR1602",0)
-  Dead("XGfngra")  // ~Градак~
+	Global("Reveal1602","AR1602",0)
+	Dead("XGfngra")  // ~в€љСЂР°РґР°Рє~
 THEN
-  RESPONSE #100
-    SetGlobal("Reveal1602","AR1602",1)
-    CreateCreature("XGshope",[293.647],0)  // ~Лавочник~
-    //TextScreen("SCENEMOD")
-    Continue()
+	RESPONSE #100
+		SetGlobal("Reveal1602","AR1602",1)
+		CreateCreature("XGshope",[293.647],0)  // ~Р‹Р°РІРѕС‡РЅРёРє~
+		//TextScreen("SCENEMOD")
+		Continue()
 END

@@ -17,7 +17,7 @@ IF ~~ THEN BEGIN 2
 EraseJournalEntry(@8)
 EraseJournalEntry(@9)
 RevealAreaOnMap("XG0047")
-GivePartyGold(4000)
+GiveGoldForce(4000)
 AddexperienceParty(10000)
 GiveItemCreate("XGNINJ1",Player1,0,0,0)
 EscapeArea()~ SOLVED_JOURNAL @10 EXIT

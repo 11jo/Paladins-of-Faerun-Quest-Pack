@@ -8,7 +8,7 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @2
-  IF ~~ THEN REPLY @3 DO ~GivePartyGold(5000)
+  IF ~~ THEN REPLY @3 DO ~GiveGoldForce(5000)
 GiveItemCreate("XGHAL02",Player1,0,0,0)
 CreateCreature("XGkd",[578.810],0)
 Wait(3)

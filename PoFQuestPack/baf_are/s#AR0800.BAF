@@ -1,10 +1,9 @@
-
 IF
-  Global("S#setAR0800","AR0800",0)
+	Global("S#setAR0800","AR0800",0)
 THEN
-  RESPONSE #100
-    CreateCreature("XGMONOR",[1787.2081],0)
-    SetGlobal("S#setAR0800","AR0800",1)
-    Continue()
+	RESPONSE #100
+		CreateCreature("XGMONOR",[1787.2081],0)
+		SetGlobal("S#setAR0800","AR0800",1)
+		Continue()
 END
 

@@ -192,6 +192,7 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY area_filenames_to_change BEGIN
 	"PFTORM" => "XGTORM"
 	"TRAPMOD" => "XGTRAP"
 	"PFUMOD" => "XGUMOD"
+	//"" => "XGTMERN"
 	
 END	 
 
@@ -1618,9 +1619,11 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY dlg_filenames_to_change BEGIN
 END
 
 /////////////////////////UPDATE_POF_CRE_NAMES_ON_AREA/////////////////////////////////////////
+
 /*
 
-Working first one
+Unused Working first one
+
 // Creatures in AREAS
 DEFINE_PATCH_MACRO UPDATE_POF_CRE_NAMES_ON_AREA BEGIN
   READ_LONG  0x54 cre_off ELSE 0
@@ -1653,7 +1656,9 @@ DEFINE_PATCH_MACRO UPDATE_POF_CRE_NAMES_ON_AREA BEGIN
     SET currentcreature = cre_off + index  * 0x110
     LPM UPDATE_POF_CRE  // Associated macro for Creature 	
     SET currentdialog = cre_off + index  * 0x110 + 0x48
-    LPM UPDATE_POF_DLG_NAMES_ON_AREA  // Associated macro for Dlg name	
+    LPM UPDATE_POF_DLG_NAMES_ON_AREA  // Associated macro for Dlg name		
+    //SET currentscript = cre_off + index  * 0x110 + 0x50
+    //LPM UPDATE_POF_SCRIPT_NAMES_ON_AREA  // Associated macro for Script (Override) name	
   END  
   // Creatures for spawn in areas
   READ_LONG 0x60 spawn_off
@@ -1691,6 +1696,7 @@ DEFINE_PATCH_MACRO UPDATE_POF_CRE_NAMES_ON_AREA BEGIN
     LPM UPDATE_POF_CRE // Associated macro for Creature 
   END
 END
+
 /*	NOT TESTED
 
 READ_LONG 0x84 ambient_off
@@ -1703,6 +1709,7 @@ READ_LONG 0x84 ambient_off
     LPM UPDATE_POF_AMBIENT // Associated macro for sound 
     SET currentambient = ambient_off + index  * 0x8
     LPM UPDATE_POF_AMBIENT // Associated macro for sound*/
+	
 /////////////// Associated macro for Creature 		
 DEFINE_PATCH_MACRO UPDATE_POF_CRE BEGIN
   READ_ASCII currentcreature currentcreature_name (8) NULL
@@ -1726,6 +1733,20 @@ DEFINE_PATCH_MACRO UPDATE_POF_DLG_NAMES_ON_AREA BEGIN
       WRITE_ASCIIE currentdialog ~%currentdialog_newname%~ (8)
     END
 END
+
+/*
+/////////////// Associated macro for SCRIPT name		
+DEFINE_PATCH_MACRO UPDATE_POF_SCRIPT_NAMES_ON_AREA BEGIN
+  READ_ASCII currentscript currentscript_name (8) NULL
+    TO_UPPER ~currentscript_name~
+    PATCH_PRINT ~INDEX: %index% NAME: %currentscript_name%~
+    PATCH_IF (VARIABLE_IS_SET $script_filenames_to_change(~%currentscript_name%~)) BEGIN
+      SPRINT ~currentscript_newname~ $script_filenames_to_change(~%currentscript_name%~)
+      PATCH_PRINT ~INDEX: %index% NAME: %currentscript_name% NEWNAME: %currentscript_newname%~
+      WRITE_ASCIIE currentscript ~%currentscript_newname%~ (8)
+    END
+END
+*/
 
 /*
 

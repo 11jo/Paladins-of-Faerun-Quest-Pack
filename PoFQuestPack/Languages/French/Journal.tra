@@ -86,6 +86,7 @@ La relique a retrouvé son gardien et j'ai obtenu une armure à la puissance excep
 
 J'ai attaqué ce maudit dragon, hé hé hé !~
 
+
 // Magic bag // La sacoche du sorcier // XTRAEK.tra, XTRAEK.D // XG0000.ARE
 
 @50200 = ~La sacoche du sorcier
@@ -98,6 +99,41 @@ J'ai débusqué les contrebandiers dans la maison du poissonnier et retrouvé la sa
 
 @50202 = ~La sacoche du sorcier~
 
+
+// Protéger la forêt de Téthyr // Tethyr // XG0077, XGFL, XGDR
+
+// XG0077
+@50300 = ~Protéger la forêt de Téthyr
+
+La dryade des collines d'Umar a sollicité mon aide. La forêt de Téthyr est détruite par le gouverneur local. Cette affaire requiert une investigation.~ // @10
+@50301 = ~Protéger la forêt de Téthyr
+
+Un des prisonniers ma transmis un message, je dois le porter dans la forêt, mais avant il faut que je m'entretienne avec le gouverneur du château.~ // @11
+@50302 = ~Protéger la forêt de Téthyr
+
+J'ai parlé avec un des prisonniers, il m'a confié une missive que je dois délivrer dans la forêt, non loin du château.~ // @12
+@50303 = ~Protéger la forêt de Téthyr
+
+J'ai gagné la confiance des habitants de la forêt de Téthyr. Maintenant, je dois rencontrer la Maîtresse de la forêt, quelque part au nord d'ici. Elle est gardienne la d'une arme très puissante, une épée runique. Le gouverneur est très intéressé par cette épée.~ // @13
+@50304 = ~Protéger la forêt de Téthyr
+
+Le gouverneur a entrepris de brûler la forêt de Téthyr et a dérobé son trésor. Je dois le retrouver et arrêter cette folie.~ // @14
+@50305 = ~Protéger la forêt de Téthyr
+
+La forêt de Téthyr est préservée. En récompense, j'ai reçu une épée runique très puissante.~ // @15
+
+@50306 = ~Protéger la forêt de Téthyr~ // Title
+
+// XGFL
+
+@50310 = ~ Tethyr.
+
+I decided to kill the forest mistress and help the governor to get the rune sword. The reward is waiting for me. ~ // @7
+
+// XGDR
+@50313 = ~ Tethyr.
+
+I refused to help the dryad in Umar Hills. ~ // @3
 
 
 @50123 = ~~

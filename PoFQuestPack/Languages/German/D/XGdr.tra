@@ -1,15 +1,22 @@
 @0 = ~Seid Ihr Abenteurer? Helft uns!~
 @1 = ~Was ist passiert, Dryade?~
 @2 = ~Ich bin beschäftigt, verschwindet! Lasst mich in Ruhe!~
+
+/*
 @3 = ~Tethyr.
 
 Ich weigerte mich, der Dryade in den Umar-Bergen zu helfen.~
+*/
+
 @4 = ~Unser Wald von Tethyr wird vom Statthalter der örtlichen Burg zerstört. Es sind nur noch eine Handvoll von uns übrig, gegen seine Soldaten können wir uns schon lange nicht mehr wehren, sie brennen den Wald ungestraft nieder. Wir brauchen Hilfe.~
 @5 = ~Wir könnten mit dem Statthalter reden.~
 @6 = ~Ich bin nicht interessiert. Sucht Euch woanders Hilfe.~
 @7 = ~Wir würden Eure Hilfe sehr schätzen.~
 @8 = ~Ich werde sehen, was ich tun kann. Zeigt mir die Burg auf der Karte.~
 @9 = ~Es ist hier. Vielen Dank im Voraus für Eure Bemühungen.~
+
+/*
 @10 = ~Tethyr.
 
 Die Dryade in den Umar-Hügeln hat mich um Hilfe gebeten. Der Wald von Tetira wird vom Statthalter der örtlichen Burg zerstört. Dies muss untersucht werden.~
+*/

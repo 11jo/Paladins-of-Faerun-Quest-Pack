@@ -1,6 +1,8 @@
 @0 = ~ W-Who are you, stranger, another governor puppet? ~
 @1 = ~ No, my lady. The druid sent me, I must protect you and the treasure that you guard. ~
 @2 = ~ Yes, the governor sent me! ~
+
+/*
 @3 = ~ Tethyr.
 
 Dryad in the Umar Hills asked me for help. Tetira Forest is destroyed by the governor of the local castle. This needs to be investigated. ~
@@ -16,9 +18,14 @@ I gained trust from the inhabitants of the Tetir Forest. Now I need to find the 
 @7 = ~ Tethyr.
 
 I decided to kill the forest mistress and help the governor to get the rune sword. The reward is waiting for me. ~
+*/
+
 @8 = ~ Unfortunately, the governor could not be killed, and the attack on the forest has already begun. This weakened me, and the guards were able to steal the rune sword. Bring that sword back! ~
 @9 = ~ I will try my lady. ~
 @10 = ~ They announced a good reward for you, <CHARNAME>! ~
+
+/*
 @11 = ~ Tethyr.
 
 The viceroy began to burn the Tethyr forest and stole the treasure. I have to find him and stop this madness. ~
+*/

@@ -15,7 +15,11 @@
 @14 = ~ Something else? ~
 @15 = ~ I need to talk to the governor. ~
 @16 = ~ It is possible. Here is the key to his room. ~
+
+/*
 @17 = ~ Tethyr.
 
 I received a letter from one of the prisoners, which must be delivered to the forest, but first I need to talk to the governor of the castle. ~
+*/
+
 @18 = ~ Don't bother, go and talk to the governor, and I need to clean my weapons. ~

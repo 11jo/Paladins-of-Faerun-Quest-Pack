@@ -35,7 +35,7 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @10
-  IF ~~ THEN DO ~GivePartyGold(3000)
+  IF ~~ THEN DO ~GiveGoldForce(3000)
 SetGlobal("s#XGpro","GLOBAL",2)~ EXIT
 END
 

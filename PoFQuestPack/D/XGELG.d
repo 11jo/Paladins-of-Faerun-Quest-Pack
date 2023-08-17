@@ -44,7 +44,7 @@ END
 IF ~~ THEN BEGIN 7
   SAY @16
   IF ~~ THEN REPLY @17 DO ~AddexperienceParty(40000)
-GivePartyGold(2000)
+GiveGoldForce(2000)
 EraseJournalEntry(@11)
 EraseJournalEntry(@18)
 EraseJournalEntry(@19)

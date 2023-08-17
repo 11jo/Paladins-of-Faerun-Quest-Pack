@@ -37,13 +37,14 @@ ActionOverride(Player6,LeaveAreaLUA("XG0029","",[1354.606],0))~ EXIT
 END
 
 IF ~Global("s#XGMYES","GLOBAL",1)
-OR(2) !Dead("XGESDL")  !Dead("XGSAR")~ THEN BEGIN 6
+OR(2) 
+	!Dead("XGESDL")
+	!Dead("XGSAR")~ THEN BEGIN 6
   SAY @11
   IF ~~ THEN EXIT
 END
 
-IF ~Global("s#XGMYES","GLOBAL",1)
-OR(2) Dead("XGESDL")  Dead("XGSAR")~ THEN BEGIN 7
+IF ~Global("s#XGMYES","GLOBAL",2)~ THEN BEGIN 7
   SAY @12
   IF ~~ THEN REPLY @13 GOTO 8
 END
@@ -60,12 +61,12 @@ END
 
 IF ~~ THEN BEGIN 10
   SAY @18
-  IF ~~ THEN REPLY @19 DO ~SetGlobal("s#XGMYES","GLOBAL",2)
+  IF ~~ THEN REPLY @19 DO ~SetGlobal("s#XGMYES","GLOBAL",3)
 RevealAreaOnMap("XG0065")~ 
 UNSOLVED_JOURNAL @20 EXIT
 END
 
-IF ~Global("s#XGMYES","GLOBAL",2)~ THEN BEGIN 11
+IF ~Global("s#XGMYES","GLOBAL",3)~ THEN BEGIN 11
   SAY @21
   IF ~~ THEN EXIT
 END

@@ -40,14 +40,17 @@ END
 
 IF ~~ THEN BEGIN 7
   SAY @17
-  IF ~~ THEN REPLY @18 DO ~AddJournalEntry(@50121,QUEST_DONE) GiveItemCreate("XGPLAT4",Player1,0,0,0) EscapeArea()~ EXIT
+  IF ~~ THEN REPLY @18 DO ~AddJournalEntry(@50121,QUEST_DONE)
+GiveItemCreate("XGPLAT4",Player1,0,0,0)
+EscapeArea()~ EXIT
 END
 
 IF ~Global("s#XGDRAG1","GLOBAL",2)  !PartyHasItem("XGWA")~ THEN BEGIN 8
   SAY @13
   IF ~~ THEN REPLY @20 EXIT
   IF ~~ THEN REPLY @21 DO ~Enemy()
-ReputationInc(-2) AddJournalEntry(@50122,QUEST_DONE)~ EXIT
+ReputationInc(-2)
+AddJournalEntry(@50122,QUEST_DONE)~ EXIT
 END
 
 IF ~Global("s#XGDRAG1","GLOBAL",1)~ THEN BEGIN 9

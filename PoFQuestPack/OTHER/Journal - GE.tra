@@ -97,6 +97,41 @@ Ich habe eine Zaubertasche gefunden und sie Trajak gebracht. Er gab mir, wie ver
 @50202 = ~Magische Tasche~
 
 
+// Protéger la forêt de Téthyr // Tethyr // XG0077, XGFL, XGDR
+
+// XG0077
+@50300 = ~Tethyr.
+
+Eine Dryade in den Umar-Hügeln hat mich um Hilfe gebeten. Der Wald von Tetira wird vom Gouverneur der örtlichen Burg zerstört. Das muss untersucht werden.~ // @10
+@50301 = ~Tethyr.
+
+Ich habe einen Brief von einem der Gefangenen erhalten, der in den Wald gebracht werden muss, aber zuerst muss ich mit dem Gouverneur des Schlosses sprechen.~ // @11
+@50302 = ~Tethyr.
+
+Ich habe mit einem der Gefangenen gesprochen, er hat mir einen Brief gegeben, den ich im Wald, nicht weit vom Schloss, abliefern muss.~ // @12
+@50303 = ~Tethyr.
+
+Ich habe das Vertrauen der Bewohner des Tetir-Waldes gewonnen. Jetzt muss ich die Waldherrin finden, irgendwo im Norden des Waldes. Sie bewacht eine sehr mächtige Waffe, ein Runenschwert. Der Vizekönig ist an diesem Schwert interessiert.~ // @13
+@50304 = ~Tethyr.
+
+Der Vizekönig hat begonnen, den Wald von Tethyr niederzubrennen und den Schatz zu stehlen. Ich muss ihn finden und diesem Wahnsinn ein Ende setzen.~ // @14
+@50305 = ~Tethyr.
+
+Der Wald von Tethyr wurde gerettet. Zur Belohnung habe ich ein sehr mächtiges Runenschwert erhalten.~ // @15
+
+@50306 = ~Tethyr~ // Title
+
+// XGFL
+@50310 = ~Tethyr.
+
+Ich habe beschlossen, die Waldherrin zu töten und dem Statthalter zu helfen, das Runenschwert zu bekommen. Die Belohnung wartet auf mich.~ // @7
+
+// XGDR
+@50313 = ~Tethyr.
+
+Ich weigerte mich, der Dryade in den Umar-Bergen zu helfen.~ // @3
+
+
 
 
 @50122 = ~~

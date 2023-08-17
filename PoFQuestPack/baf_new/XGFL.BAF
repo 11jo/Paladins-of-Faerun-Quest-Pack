@@ -1,0 +1,7 @@
+IF
+	See([PC])
+	Global("TalkToXGdrc","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride("XGfl",StartDialogue("XGfl",Player1))
+END

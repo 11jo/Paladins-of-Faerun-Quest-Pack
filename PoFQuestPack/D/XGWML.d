@@ -59,3 +59,10 @@ IF ~Global("s#XGWML","GLOBAL",2)~ THEN BEGIN 9
   SAY @20
   IF ~~ THEN REPLY @21 EXIT
 END
+
+// JO addition
+
+IF ~Global("s#XGWML","GLOBAL",3)~ THEN BEGIN 10
+  SAY @22
+  IF ~~ THEN EXIT
+END
