@@ -20,6 +20,6 @@ THEN
   RESPONSE #100
 		SetGlobal("s#XGskwr4","GLOBAL",2)
 		ScreenShake([20.20],3)
-		AddJournalEntry(@50402,QUEST_DONE)
+		AddJournalEntry(@50402,QUEST)
 END
 

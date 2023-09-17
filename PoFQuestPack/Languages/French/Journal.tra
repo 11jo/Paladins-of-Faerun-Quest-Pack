@@ -172,152 +172,152 @@ J'ai refusé d'apporter mon aide à une dryade dans les collines d'Umar.~ // @3
 /////////// L'Ordre et le Chaos // Order and Chaos.
 // Title
 
-@50400 = ~Order and Chaos~
+@50400 = ~L'Ordre et le Chaos~
 
 // XG0001.tra
 
-@50401 = ~Order and Chaos
+@50401 = ~L'Ordre et le Chaos
 
 In front of the cave, where the novice Torm sent me, there were 2 unusual skeletons. When I killed them, I found a gold ring in their skull. I think I should talk to Wintrell, maybe he knows something about this.~ // @1
 
-@50402 = ~Order and Chaos
+@50402 = ~L'Ordre et le Chaos
 
-The task is not completed.~ // @2
+Je n'ai pas réussi à découvrir de quoi il retourne.~ // @2
 
 
 // XG0047. become XGPRT0.TRA  Hrothgar and Chaos voir aussi XGhrot2
 
-@50403 = ~Order and Chaos
+@50403 = ~L'Ordre et le Chaos
 
 I found Torm's book and handed it over to its rightful owner.~ // @7
 
-@50404 = ~Order and Chaos
+@50404 = ~L'Ordre et le Chaos
 
 Hrothgar in the east harbor, asked me to help him again, I have to sort out the local temple.~ // Hrothgar. related  // @8
 
-@50405 = ~Order and Chaos 
+@50405 = ~L'Ordre et le Chaos 
 
 A book about Torm was stolen from a temple in East Harbor. The priest believes that the book may be with one of the robbers who has a house here in East Harbor.~ // @9
 
-@50406 = ~Order and Chaos 
+@50406 = ~L'Ordre et le Chaos 
 
 Those thieves that were infiltrated by two brothers, the second brother who now has the book, is somewhere outside the city walls and is trying to sell it to some priest.~ // @10
 
-@50407 = ~Order and Chaos 
+@50407 = ~L'Ordre et le Chaos 
 
 I found out that the priest Cyric was behind the theft.~ // @11
 
 
 // XG0064.tra  Hrothgar and Chaos voir aussi XGhrot2
 /*
-@ = ~Order and Chaos 
+@ = ~L'Ordre et le Chaos 
 
 Hrothgar in the eastern harbor, asked me to help him again, I have to deal with the affairs of the local temple.~ // Same as XG0047.tra @50404 // Hrothgar. related XGhrot2.tra @11 // @4
 
 
-@ = ~Order and Chaos 
+@ = ~L'Ordre et le Chaos 
 
 A book telling about Torm was stolen from a temple in East Harbor. The priest believes that the book may be with one of the robbers, whose house is located here in East Harbor.~ // Same as XG0047.tra @9 // @5
 
-@ = ~Order and Chaos 
+@ = ~L'Ordre et le Chaos 
 
 The thieves who stole the book turned out to be two brothers, and one of them is now somewhere outside the city walls, and is trying to sell it to some priest. ~// Same as XG0047.tra @10 // @6
 */
 
-@50411 = ~Order and Chaos
+@50411 = ~L'Ordre et le Chaos
 
 The high priest of Cyric offered me another job. He wants me to attack the Torm caravan and send the treasury to the Twilight Mountains.~ // @7
 
 
 // XG0082.tra
 
-@50412 = ~Order and Chaos
+@50412 = ~L'Ordre et le Chaos
 
 My witness was killed, but he was able to tell me where the evidence is that the murder was committed by the followers of Cyric. I need to go somewhere north, where I can find the cave.~ // @5
 
 
 // XG0381.tra
 
-@50413 = ~Order and Chaos
+@50413 = ~L'Ordre et le Chaos
 
 My friends and I were accused of killing and stealing the treasury of Torm priests. We were driven out of town. But the mayor was too one-sided, when I mentioned the word Cyric, he immediately began to hesitate. Something is wrong here, maybe he was the one who authorized the attack on our caravan.~ // @7
 
 
 // XGKAR.tra
 
-@50414 = ~Order and Chaos
+@50414 = ~L'Ordre et le Chaos
 
 The treasury was not able to be protected, with a massive attack by the followers of Cyric, they managed to quietly penetrate the treasury. We arrived at Twilight Mountains, perhaps we will learn more here.~ // @9
 
 
 // XGclc1.tra
 
-@50415 = ~Order and Chaos
+@50415 = ~L'Ordre et le Chaos
 
 The priest of Cyric, who was the buyer of this rare book, promised that he would generously reward me if I accompanied him to Deep Water. I agreed.~ // @5
 
 /*
-@ = ~Order and Chaos
+@ = ~L'Ordre et le Chaos
 
 I found out that the priest of Cyric was behind the theft.~ // Same as XG0047.tra @11 // @7
 */
 
 // XGclc2.tra
 
-@50417 = ~Order and Chaos
+@50417 = ~L'Ordre et le Chaos
 
 The Temple of Cyric begins to be built. Mission accomplished.~ // @1
 
-@50418 = ~Order and Chaos
+@50418 = ~L'Ordre et le Chaos
 
 The high priest gave me another task. It was established that there is a witness who saw how the attack on the caravan was carried out.
 He has a house, somewhere north of the city. I need to get to him before a group of Torm priests do it.~ // @9
 
-@50419 = ~Order and Chaos
+@50419 = ~L'Ordre et le Chaos
 
 I managed to track down and destroy a group of adventurers hired by Torm's priests. Now no one will know what happened that night, and who actually attacked the caravan.~ // @17
 
-@50420 = ~Order and Chaos
+@50420 = ~L'Ordre et le Chaos
 
 The high priest of Cyric asked me to help, this time I have to arrange a surprise for the priests of Torm who are trying to prevent the construction of the temple.~ // @20
 
 /*
-@ = ~Order and Chaos
+@ = ~L'Ordre et le Chaos
 
 The priest of Cyric, who was the buyer of this rare book, promised that he would generously reward me if I accompanied him to Deep Water. I agreed.~ // Same as XGclc1.tra @5 // @26
 
 
-@ = ~Order and Chaos
+@ = ~L'Ordre et le Chaos
 
 The high priest of Cyric offered me another job. He wants me to attack the Torm caravan and send the treasury to the Twilight Mountains.~ // Same as XG0064.tra @7 // @27
 */
 
-@50421 = ~Order and Chaos
+@50421 = ~L'Ordre et le Chaos
 
 I found that guy who could testify against me. He told me where to find the group that is looking for me.~ // @28
 
 
-@50422 = ~Order and Chaos
+@50422 = ~L'Ordre et le Chaos
 
 I killed a witness who saw me attack a caravan.~ // @29
 
 
-@50423 = ~Order and Chaos
+@50423 = ~L'Ordre et le Chaos
 
 I helped Cyric priests build a temple in the Twilight Mountains.~ // @30
 
 
 // XGclc4.tra
 
-@50424 = ~Order and Chaos
+@50424 = ~L'Ordre et le Chaos
 
 The battle continues. The high priest of Cyric called us again, this time to find the lost scroll. He gave us a map that will lead us to the treasure. A group of treasure seekers hired by Torm's priests also set off for the scroll.~ // @9
 
-@50425 = ~Order and Chaos
+@50425 = ~L'Ordre et le Chaos
 
 Using the map, you managed to find an old scroll. Now you must return to the high priest.~ // @18 (Cyric)
 
-@50426 = ~Order and Chaos
+@50426 = ~L'Ordre et le Chaos
 
 The storyline is over. (For the adherents of Cyric)~ // @19
 
@@ -325,14 +325,14 @@ The storyline is over. (For the adherents of Cyric)~ // @19
 // XGEHCL.tra  Hrothgar and Chaos voir aussi XGhrot2
 
 /*
-@ = ~Order and Chaos
+@ = ~L'Ordre et le Chaos
 
 A book telling about Torm was stolen from a temple in East Harbor. The priest believes that the book may be with one of the robbers who has a house in East Harbor.~ // Same as XG0047.tra @9 and XG0064.tra @5 // @8
 */
 
 // XGhsr.tra
 
-@50427 = ~Order and Chaos
+@50427 = ~L'Ordre et le Chaos
 
 Outside the city gates, I met a man who claimed to have seen a killer and a thief who stole the treasury.~ // @7
 
@@ -340,94 +340,94 @@ Outside the city gates, I met a man who claimed to have seen a killer and a thie
 // XGhsr2.tra
 
 /*
-@ = ~Order and Chaos
+@ = ~L'Ordre et le Chaos
 
 I found that guy who could testify against me. He told me where to find the group that is looking for me.~ // Same as XGclc2.tra @28 // @4
 
 
-@ = ~Order and Chaos
+@ = ~L'Ordre et le Chaos
 
 I killed a witness who saw me attack a caravan.~ // Same as XGclc2.tra @29 // @7
 */
 
 // XGmyhs.tra
 
-@50428 = ~Order and Chaos
+@50428 = ~L'Ordre et le Chaos
 
 I managed to find the real killer of priest Torm. It was a follower of Cyric. The mayor withdrew all the charges against me and my friends and allowed me to build a Torm shrine.~ // @13
 
 
 // XGprtc.tra
 
-@50429 = ~Order and Chaos
+@50429 = ~L'Ordre et le Chaos
 
 Unfulfilled quest - Secondary PoF storyline is over.~ // @10
 
-@50430 = ~Order and Chaos
+@50430 = ~L'Ordre et le Chaos
 
 Torm's High Priest hired us to guard Torm's caravan, which carries Amn's treasury to the Twilight Mountains, where a new Torm temple will be built. By this they will expand their influence and, most importantly, this will mean weakening of Cyric.~ // @12
 
 
 // XGprtc1.tra
 
-@50431 = ~Order and Chaos
+@50431 = ~L'Ordre et le Chaos
 
 The high priest of Torm gave me another assignment. It is necessary to stop a small group led by the High Priest Cyricosus.
 They camped in a cemetery west of the holding area.~ // @7
 
 /*
-@ = ~Order and Chaos
+@ = ~L'Ordre et le Chaos
 
 Torm's High Priest hired us to guard Torm's caravan, which carries Amn's treasury to the Twilight Mountains, where a new Torm temple will be built. By this they will expand their influence and, most importantly, this will mean weakening of Cyric.~ // Same as XGprtc.tra @12 // @13
 
-@ = ~Order and Chaos
+@ = ~L'Ordre et le Chaos
 
 Thieves who entered the temple turned out to be two brothers. The one of the brothers who now has the book is trying to sell it to some priest somewhere outside the city walls.~ // Same as XG0047.tra @10 // @14
 
-@ = ~Order and Chaos
+@ = ~L'Ordre et le Chaos
 
 A book telling about Torm was stolen from a temple in East Harbor. The priest believes that the book may be with one of the robbers who has a house in East Harbor.~ // Same as XGEHCL.tra @8 and XG0047.tra @9 and XG0064.tra @5 // @15
 
-@ = ~Order and Chaos
+@ = ~L'Ordre et le Chaos
 
 My witness was killed, but he was able to tell me where the evidence is that the murder was committed by the followers of Cyric. I need to go somewhere north, where I can find the cave.~ // Same as XG0082.tra @5 // @16
 
-@ = ~Order and Chaos
+@ = ~L'Ordre et le Chaos
 
 Outside the city gates, I met a man who claimed to have seen a killer and a thief who stole the treasury.~ // Same as XGhsr.tra @7 // @17
 
-@ = ~Order and Chaos
+@ = ~L'Ordre et le Chaos
 
 My friends and I were accused of killing and stealing the treasury of Torm priests. We were driven out of town. But the mayor was too one-sided, when I mentioned the word Cyric, he immediately began to hesitate. Something is wrong here, maybe he was the one who authorized the attack on our caravan.~ // Same as XG0381.tra @7 // @18
 
-@ = ~Order and Chaos
+@ = ~L'Ordre et le Chaos
 
 I managed to find the real killer of priest Torm. It was a follower of Cyric. The mayor withdrew all the charges against me and my friends and allowed me to build a Torm shrine.~ // Same as XGmyhs.tra @13 // @19
 */
 
-@50432 = ~Order and Chaos
+@50432 = ~L'Ordre et le Chaos
 
 The task is completed. Torm Temple built.~ // @20
 
 
 // XGprtc2.tra
 
-@50433 = ~Order and Chaos
+@50433 = ~L'Ordre et le Chaos
 
 The battle continues. The high priest Torm called us again, this time to find the lost scroll. He gave us a map that will lead us to the treasure. A group of treasure seekers hired by the priests of Cyric also went for the scroll.~ // @9
 
-@50434 = ~Order and Chaos
+@50434 = ~L'Ordre et le Chaos
 
 Using the map, you managed to find an old scroll. Now you must return to the high priest.~ // @18 (Torm)
 
-@50435 = ~Order and Chaos
+@50435 = ~L'Ordre et le Chaos
 
 The storyline is over. (For the adherents of Torm)~ // @19
 
 
 // XGskwr4.tra
 
-@50436 = ~Order and Chaos
+@50436 = ~L'Ordre et le Chaos
 
 I managed to get into the cave guarded by skeletons, where I need to find out what happened here.~ // @2
 
@@ -435,34 +435,34 @@ I managed to get into the cave guarded by skeletons, where I need to find out wh
 // XGTRBAN.tra
 
 /*
-@ = ~Order and Chaos
+@ = ~L'Ordre et le Chaos
 
 Thieves who entered the temple turned out to be two brothers. The one of the brothers who now has the book is trying to sell it to some priest somewhere outside the city walls.~ // Same as XG0047.tra @10 and XG0064.tra @6 // @11
 */
 
 // XGVINEL.tra
 
-@50437 = ~Order and Chaos
+@50437 = ~L'Ordre et le Chaos
 
 In Trademeet, I met a wounded novice Torm, his name is Wintrell. He needs to find the evil that destroyed his caravan.
 He marked on the map the place where this happened.~ // @12
 
 
-@50438 = ~Order and Chaos
+@50438 = ~L'Ordre et le Chaos
 
 I met the novice Torm Wintrell in Trademe, but I couldn't help him.~ // @9
 
 /*
-@ = ~Order and Chaos
+@ = ~L'Ordre et le Chaos
 
 In front of the cave, where the novice Torm sent me, there were 2 unusual skeletons. When I killed them, I found a gold ring in their skull. I think I should talk to Wintrell, maybe he knows something about this.~ // Same as XG0001.tra @1 // @24
 
-@ = ~Order and Chaos
+@ = ~L'Ordre et le Chaos
 
 I managed to get into the cave guarded by skeletons, where I need to find out what happened here.~ // Same as XGskwr4.tra @2 // @25
 */
 
-@50439 = ~Order and Chaos
+@50439 = ~L'Ordre et le Chaos
 
 I tracked down the killer of the adherents of Torm, he turned out to be a priest of Cyric. Perhaps this is a confrontation between churches?~ // @26
 

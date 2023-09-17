@@ -19,7 +19,7 @@ IF ~~ THEN BEGIN 3
   SAY @6
   IF ~~ THEN REPLY @7 GOTO 4
   IF ~~ THEN REPLY @8 DO ~
-AddJournalEntry(@50438,QUEST_DONE)
+AddJournalEntry(@50438,QUEST)
 EscapeArea()~ EXIT
 END
 
@@ -62,7 +62,7 @@ END
 IF ~~ THEN BEGIN 10
   SAY @21
   IF ~~ THEN  DO ~
-AddJournalEntry(@50438,QUEST_DONE)
+AddJournalEntry(@50438,QUEST)
 EscapeArea()~ EXIT
 END
 
