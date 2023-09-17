@@ -7,9 +7,13 @@
 @6 = ~Und was sollen wir tun, Hohepriester?~
 @7 = ~Ich brauche diese Schriftrolle. Ich gebe Euch eine Karte, die Euch zu dem Ort führt, an dem sie sich befindet.~
 @8 = ~Okay, ich werde es tun.~
+
+/*
 @9 = ~Ordnung und Chaos.
 
 Der Kampf geht weiter. Der Hohepriester von Torm hat uns erneut gerufen, dieses Mal, um die verlorene Schriftrolle zu finden. Er gab uns eine Karte, die uns zum Schatz führen wird. Eine Gruppe von Schatzsuchern, die von den Priestern von Cyric angeheuert wurde, machte sich ebenfalls auf die Suche nach der Schriftrolle.~
+*/
+
 @10 = ~Ihr seid zurück? Wollt Ihr mir helfen?~
 @11 = ~Ja, aber was ist los?~
 @12 = ~Nicht jetzt, ich geh' weg.~
@@ -18,12 +22,16 @@ Der Kampf geht weiter. Der Hohepriester von Torm hat uns erneut gerufen, dieses 
 @15 = ~Ja, ich habe diese Schriftrolle.~
 @16 = ~Gute Arbeit. Ich habe gar nicht damit gerechnet, dass wir das alles jemals schaffen würden! Torm sei Dank! Ihr habt viel mehr getan, als Ihr Euch vorstellen könnt. Für Eure aufopferungsvollen Dienste schenke ich Euch diesen Gegenstand und Ihr könnt Euch eine diesern Segen aussuchen. Eure Wahl?~
 @17 = ~Verfassung.~
+
+/*
 @18 = ~Ordnung und Chaos.
 
 Mit Hilfe der Karte habt Ihr eine alte Schriftrolle gefunden. Nun müsst Ihr zum Hohepriester zurückkehren.~
 @19 = ~Ordnung und Chaos.
 
 Der Handlungsstrang ist zu Ende. (Für die Anhänger von Torm)~
+*/
+
 @20 = ~Intelligenz.~
 @21 = ~Weisheit.~
 

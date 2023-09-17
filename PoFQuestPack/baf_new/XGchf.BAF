@@ -1,0 +1,17 @@
+IF
+	Global("RevealXG0083","XG0083",1)
+	InMyArea(Protagonist)
+THEN
+  RESPONSE #100
+		SetGlobal("RevealXG0083","XG0083",2)
+		StartCutSceneMode()
+		HideGUI()
+		PlaySound("XGMUS2")
+		MoveToPoint([3731.424])
+		Wait(2)
+		Enemy()
+		EndCutSceneMode()
+		UnhideGUI()
+		AddexperienceParty(5000)
+END
+

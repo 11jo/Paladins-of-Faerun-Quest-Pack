@@ -6,9 +6,13 @@
 @5 = ~Und warum sollte es jemand stehlen?~
 @6 = ~Ich habe dazu eine Theorie. Aber dazu später mehr. Wir haben einen dieser Räuber gefunden, er versteckt sich in einem Haus hier in dieser Stadt. Versucht, das Haus zu finden, und dieses Buch sollte dort sein.~
 @7 = ~Gut. Ich werde dorthin gehen.~
+
+/*
 @8 = ~Ordnung und Chaos.
 
 Aus einem Tempel in Osthafen wurde ein Buch über Torm gestohlen. Der Priester glaubt, dass das Buch im Besitz eines der Räuber sein könnte, der ein Haus in Osthafen hat.~
+*/
+
 @9 = ~Was wollt ihr?~
 @10 = ~Ich benötige die Dienste eines Priesters.~
 @11 = ~Gut.~

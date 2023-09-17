@@ -22,7 +22,7 @@ THEN
     Wait(12)
     DisplayStringHead("XGELWIN",@6)  // @6
     Wait(12)
-    AddJournalEntry(0,79131)
+    //AddJournalEntry(0,79131) // VOIR french xg0060.tra
     RevealAreaOnMap("XG0061")
     ForceSpell("XGELWIN",DRYAD_TELEPORT)
     UnhideGUI()

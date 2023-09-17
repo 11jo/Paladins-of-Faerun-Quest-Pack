@@ -2,11 +2,18 @@
 @1 = ~Sagt mir, wo sie sind.~
 @2 = ~Sie gingen nördlich von hier. Dort gibt es ein Orklager. Ich habe die Stelle auf Eurer Karte markiert.~
 @3 = ~Es tut mir leid, aber ich kann Euch nicht gehen lassen, Ihr wisst zu viel!~
+
+/*
 @4 = ~Ordnung und Chaos.
 
 Ich habe den Kerl gefunden, der gegen mich aussagen könnte. Er hat mir gesagt, wo ich die Gruppe finde, die mich sucht.~
+*/
+
 @5 = ~Verdammte Mörder!~
 @6 = ~Sterbt!~
+
+/*
 @7 = ~Ordnung und Chaos.
 
 Ich habe einen Zeugen getötet, der gesehen hat, wie ich eine Karawane angegriffen habe.~
+*/

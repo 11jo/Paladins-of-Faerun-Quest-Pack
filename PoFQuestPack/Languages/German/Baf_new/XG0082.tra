@@ -3,9 +3,13 @@
 @2 = ~Es tut mir leid, dass ich Euch nicht helfen kann. Ihr findet den Dolch in...~
 @3 = ~Wo kann ich ihn finden, wo ist dieser Dolch?~
 @4 = ~In einer Höhle nördlich von hier.~
+
+/*
 @5 = ~Ordnung und Chaos.
 
 Mein Zeuge wurde getötet, aber er konnte mir sagen, wo die Beweise dafür sind, dass der Mord von den Anhängern von Cyric begangen wurde. Ich muss irgendwo in den Norden gehen, wo ich eine Höhle finden kann.~
+*/
+
 @6 = ~<CHARNAME>, ich bin froh, dass ich Euch gefunden habe. Nachdem der Bürgermeister Euch beschuldigt hat, meinen Bruder getötet zu haben, hat sich das auf uns übertragen. Unsere gesamte Karawane wurde nicht in die Stadt gelassen und auch mir wurde der Zugang verwehrt. Hier stimmt etwas nicht. Ihr müsst uns helfen.~
 @7 = ~Außerdem ist mir das seltsame Verhalten des Bürgermeisters aufgefallen. Ich habe hier im Wald einen Mann gefunden, der gesehen hat, was passiert ist. Derjenige, der Euren Bruder getötet hat, ist tot. Ich habe ihn getötet. Aber ich habe einen Dolch gefunden, an dem das Blut Eures Bruders klebt und und in den das Symbol von Cyric eingraviert ist. All das war geplant. Wir müssen zum Bürgermeister gehen.~
 @8 = ~Ich denke, ich kann das arrangieren. Kommt mit mir.~

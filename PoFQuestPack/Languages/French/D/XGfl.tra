@@ -20,9 +20,9 @@ I gained trust from the inhabitants of the Tetir Forest. Now I need to find the 
 I decided to kill the forest mistress and help the governor to get the rune sword. The reward is waiting for me. ~
 */
 
-@8 = ~ Unfortunately, the governor could not be killed, and the attack on the forest has already begun. This weakened me, and the guards were able to steal the rune sword. Bring that sword back! ~
-@9 = ~ I will try my lady. ~
-@10 = ~ They announced a good reward for you, <CHARNAME>! ~
+@8 = ~C'est un désastre, nous n'avons pas pu nous débarrasser du gouverneur, et son attaque contre la forêt a déjà commencé. Je suis désormais trop faible... ses soldats ont pu s'emparer de la Lame des runes. S'il vous plaît, retrouvez-la !~
+@9 = ~Je ferai tout mon possible !~
+@10 = ~Il y a une belle récompense pour ta tête, <CHARNAME> ! ~
 
 /*
 @11 = ~ Tethyr.

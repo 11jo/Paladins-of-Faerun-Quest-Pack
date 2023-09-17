@@ -154,7 +154,7 @@
 @152 = ~Skilled archer~
 @153 = ~Skilled orc~
 @154 = ~Orc~
-
+@155 = ~Monastère~
 @156 = ~Gralamin~
 @157 = ~Voleur de l'ombre~
 @158 = ~Gradak's Chief Guard~
@@ -248,7 +248,7 @@
 @245 = ~Marchand originaire de Memnon~  // Ville de Calimshan XGMTR // Marchand de Memnon // Marchand venu de Memnon
 @246 = ~Marian's wife~
 @247 = ~Grand prêtre~
-@248 = ~Seigneur Spelloyal~ // 
+@248 = ~Seigneur Sortfidèle~ // Montagnes du Couchant
 @249 = ~Seigneur Nasher~
 @250 = ~Servant Tom~
 @251 = ~Ninja~
@@ -345,17 +345,17 @@
 @342 = ~The traveler from the West~
 @343 = ~Experienced bandit~
 @344 = ~Mayor of Targos~
-@345 = ~Marchand venu du Nord~
+@345 = ~Marchand du grand Nord~
 @346 = ~Vampire from the temple~
 @347 = ~Prêtre de Tyr~
 @348 = ~Prêtre d'Ilmater~
 @349 = ~Undead Paladin~
 @350 = ~Undead Warlock~
 @351 = ~Undead Ranger~
-@352 = ~Seigneur des Vampires~ // Seigneur vampires
+@352 = ~Seigneur des Vampires~ // Seigneur vampire
 @353 = ~Village~
 @354 = ~Paysan~
-@355 = ~Écuyer de Torm~
+@355 = ~Wintrell, écuyer de Torm~
 @356 = ~Big troll~
 @357 = ~Fugitive~
 @358 = ~Leonan Fidlerson~
@@ -3044,7 +3044,7 @@ Inutilisable par :
   Thief~
 @775 = ~Amulet of the Newerwinter Nine~
 @776 = ~The amulet consists of two thick disks strung on a chain. The symbol of Neverwinter is engraved in the middle of the silver disc.~
-@777 = ~This letter is written in blood: "The mission failed."~
+@777 = ~Cette lettre a été écrite avec du sang : « Nous avons failli à notre mission... ».~
 @778 = ~Scroll with a map~
 @779 = ~Relique magique~
 @780 = ~Second part of powerful magic weapon.~
@@ -4110,8 +4110,8 @@ Poids : 1~
 @1018 = ~Cimetière~
 @1019 = ~You're doing the wrong thing! I'll kill you!~
 @1020 = ~You were attacked by orcs~
-@1021 = ~Guesthouse~
-@1022 = ~Merchant~
+@1021 = ~Auberge~
+@1022 = ~Marchand~
 @1023 = ~Residence of the Red Wizards~
 @1024 = ~Château~
 @1025 = ~Temple of Tyr~
@@ -5096,7 +5096,7 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 */
 
 @100000   = ~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},
-	{"  ", "        PALADIN OF FAËRUN        "},	
+	{"  ", "        PALADINS de FÉÉRUNE       "},	
 	{"XG0055", "(PoF)  Vers le domaine de Gradak, (Elwin)"},
 	{"XG0015", "(PoF)  Crevasse, (Barde ambulant)"},
 	{"XG0115", "(PoF)  Grotte sous la crevasse, (Gardien)"},
@@ -5136,7 +5136,6 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0068", "(PoF)  Quartier des Affaires, (Athkatla)"},
 	{"XG0168", "(PoF)  Demeure du Roi des Affaires, (Athkatla)"},
 	{"XG0000", "(PoF)  Trayak, le sorcier, (Quartier des Temples)"},
-	{"XG0001", "(PoF)  Grotte des Marchands"},
 	{"XG0002", "(PoF)  Plaines Étincelantes"},
 	{"XG0203", "(PoF)  Combat contre Gralamin"},
 	
@@ -5146,10 +5145,10 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG04N1", "(PoF)  Intérieur des Mines de Feu vagabondes Zone secondaire"},
 	{"XG0402", "(PoF)  Intérieur des Mines, (Duergars)"},
 	{"XG04N2", "(PoF)  Intérieur des Mines, (Duergars Zone secondaire)"},
-	{"XG0403", "(PoF)  Intérieur des Mines, (Main du démons)"},
-	{"XG04N3", "(PoF)  Intérieur des Mines, (Main du démons Zone secondaire)"},
+	{"XG0403", "(PoF)  Intérieur des Mines, (Main du démon)"},
+	{"XG04N3", "(PoF)  Intérieur des Mines, (Main du démon Zone secondaire)"},
 	
-	{"  ", "        ÎLES DES PIRATES        "},
+	{"  ", "        ÎLES des PIRATES        "},
 	{"XG0033", "(PoF)  Village près de Teziir, (Attaqué)"},
 	{"XG0133", "(PoF)  Village près de Teziir, (Libéré)"},
 	{"XG0013", "(PoF)  Bateau des pirates, (Mer des étoiles déchues)"},
@@ -5166,15 +5165,13 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0076", "(PoF)  Château de la forêt de Tethyr"},
 	{"XG0176", "(PoF)  Entrée du château"},
 	{"XG0276", "(PoF)  Intérieur du château, (Quête de la Forêt)"},
-	
 	{"XG0077", "(PoF)  Forêt de Tethyr, (Quête de la Forêt)"},
-	{"XG0177", "(PoF)  Sauver les prisonniers"},
-	
+	{"XG0177", "(PoF)  Sauver les prisonniers"},	
 	{"XG0078", "(PoF)  Château-Tethyr, (Pour la forêt !)"},
 	{"XG0178", "(PoF)  Sous-sol de Château-Tethyr, (Pour la forêt !)"},
 	{"XG0278", "(PoF)  Intérieur de Château-Tethyr, (Pour la forêt !)"},
 	
-	{"  ", "        PORTE DE BALDUR        "},
+	{"  ", "        PORTE de BALDUR        "},
 	{"XG0020", "(PoF)  Porte de Baldur"},
 	{"XG0220", "(PoF)  Maison"},
 	{"XG0120", "(PoF)  Taverne, L1"},
@@ -5193,7 +5190,7 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0025", "(PoF)  Quais de Targos"},
 	{"XG0024", "(PoF)  Targos"},
 	{"XG0524", "(PoF)  Auberge de Targos"},
-	{"XG0424", "(PoF)  Maison du xxxxxx, (Targos)"},
+	{"XG0424", "(PoF)  Maison du philosophe, (Targos)"},
 	{"XG0624", "(PoF)  Vendeur / Tavernier, (Targos)"},
 	{"XG0124", "(PoF)  Infirmerie, (Targos)"},	
 	{"XG0224", "(PoF)  Quartier du Général, (Quête de Xangold)"},
@@ -5236,7 +5233,7 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	
 	{"XG0065", "(PoF)  Village près de Soubar, (Quête du Seigneur Masqué)"},
 	{"XG0165", "(PoF)  Maison"},
-	{"XG0265", "(PoF)  Maison, (Inaccessible)"},
+	{"XG0265", "(PoF)  Maison, (Inaccessible, CLUA)"},
 	{"XG0365", "(PoF)  Maison, (Magicien mystérieux)"},
 	
 	
@@ -5250,15 +5247,56 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0312", "(PoF)  Escaliers du Château des Collines Oubliées"},
 	{"XG0412", "(PoF)  Château des Collines Oubliées, (Seigneur des morts-vivants)"},
 	
+		
+	{"XG0075", "(PoF)  Arène"},
+	
+	{"  ", "        HROTHGAR       "},	
 	{"XG0801", "(PoF)  Camp de Hrothgar"},
 	{"XG0801", "(PoF)  Camp de Hrothgar, (Rajkskul)"},
 	{"XG0009", "(PoF)  Antre des Morts-vivants"},
 	{"XG0901", "(PoF)  Intérieur de l'antre des Morts-vivants"},
 	{"XG0902", "(PoF)  Intérieur de l'antre des Morts-vivants, (Udorril)"},
-	{"XG0903", "(PoF)  Intérieur de l'antre des Morts-vivants, (Chambre)"},
-	
-	{"XG0075", "(PoF)  Arène"},
-	
+	{"XG0903", "(PoF)  Intérieur de l'antre des Morts-vivants, (Chambre)"},	
+	{"  ", "        HAVREDEST       "},	
+	{"XG0047", "(PoF)  Port de l'Est, (Quête l'Ordre et le Chaos)"},
+	{"XG0347", "(PoF)  Maison de Hrothgar"},
+	{"XG0147", "(PoF)  Temple"},
+	{"XG0247", "(PoF)  Maison des frères voleurs"},
+	{"XG0647", "(PoF)  Vers la Grotte du voleur"},
+	{"XG0747", "(PoF)  Grotte du voleur"},
+	{"XG0547", "(PoF)  Marchand / Tavernier"},
+	{"XG0447", "(PoF)  Auberge"},	
+	{"  ", "        l'ORDRE et le CHAOS        "},	
+	{"XG0001", "(PoF)  Grotte des Marchands, (Prélude à l'Ordre et au Chaos, Wintrell à Franc-Marché)"},
+	{"XGTORM", "(PoF)  Zone de transition, (Torm)"},
+	{"XGKAR1", "(PoF)  Caravane, (Torm)"},
+	{"XG0081", "(PoF)  Village du Couchant, (Torm)"},
+	{"XG0381", "(PoF)  Auberge du Couchant, (Torm)"},
+	{"XG0281", "(PoF)  Vendeur du Couchant, (Torm)"},
+	{"XG0181", "(PoF)  Maison abandonnée, (Torm)"},
+	{"XG0082", "(PoF)  Montagnes du Couchant, (Torm)"},
+	{"XG0182", "(PoF)  Montagnes du Couchant, (Témoin, Torm)"},	
+	{"XG0083", "(PoF)  Montagnes du Couchant, (Torm)"},
+	{"XG0183", "(PoF)  Montagnes du Couchant, (Dague de l'assassin)"},
+	{"XG0481", "(PoF)  Monastère en construction, (Torm)"},	
+	{"XG0581", "(PoF)  Cimetière, (Torm)"},
+	{"XG0681", "(PoF)  Monastère des admirateur de Torm"},
+	{"XG1081", "(PoF)  Village du Couchant, (Quête terminée)"},
+	{"XGKAR2", "(PoF)  Caravane, (Cyric)"},
+	{"XG8400", "(PoF)  Cimetière, (Cyric)"},
+	{"XG8104", "(PoF)  Monastère en construction, (Cyric)"},	
+	{"XG8100", "(PoF)  Village du Couchant, (Cyric)"},
+	{"XG8103", "(PoF)  Auberge du Couchant, (Cyric)"},
+	{"XG8200", "(PoF)  Montagnes du Couchant, (Cyric)"},
+	{"XG8201", "(PoF)  Montagnes du Couchant, (Témoin, Cyric)"},	
+	{"XG8300", "(PoF)  Montagnes du Couchant, (Cyric)"},
+	{"XG8301", "(PoF)  Montagnes du Couchant, (Aventuriers)"},
+	{"XG8500", "(PoF)  Monastère des serviteurs de Cyric"},	
+	{"XG8101", "(PoF)  Village du Couchant, (Quête terminée)"},	
+	{"XG0084", "(PoF)  La Plaine Gelée"},
+	{"XG0184", "(PoF)  Sous Plaine Gelée, (Vendeur)"},
+	{"XG0284", "(PoF)  Entrée du volcan, (Ettin)"},
+	{"XG0384", "(PoF)  Volcan, (Énigmes, Parchemin)"},
 	
 
 	{"XG0034", "(PoF)  Le Conseil des Mages"},
@@ -5266,7 +5304,6 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0040", "(PoF)  Îles Moonshae"},
 	{"XG0041", "(PoF)  Îles Moonshae"},
 	{"XG0046", "(PoF)  Temple oublié"},
-	{"XG0047", "(PoF)  Port de l'Est (Icewind Dale)"},
 	{"XG0062", "(PoF)  Padhiver"},
 	{"XG0050", "(PoF)  Montagnes (sous le festival)"},
 	{"XG0054", "(PoF)  Refuge (de Gradak)"},
@@ -5286,16 +5323,6 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0058", "(PoF)  Vallée de L'Epine Dorsale"},
 	{"XG0079", "(PoF)  Ferme (près d'Esmeltaran)"},
 	{"XG4001", "(PoF)  Îles Moonshae"},
-	{"XG0081", "(PoF)  Montagnes du Couchant"},
-	{"XG0082", "(PoF)  Montagnes du Couchant"},
-	{"XG0083", "(PoF)  Montagnes du Couchant"},
-	{"XG8100", "(PoF)  Montagnes du Couchant (bis)"},
-	{"XG8200", "(PoF)  Montagnes du Couchant (bis)"},
-	{"XG8300", "(PoF)  Montagnes du Couchant (bis)"},
-	{"XGKAR2", "(PoF)  Caravane"},
-	{"XG0681", "(PoF)  Monastère des admirateur de Torm"},
-	{"XG8500", "(PoF)  Monastère des admirateurs de Cyric"},
-	{"XG0084", "(PoF)  La Plaine Gelée"},
 	{"XG0A80", "(PoF)  Siluvanede"},
 	{"XG0080", "(PoF)  Siluvanede (bis)"},
 	{"XG0780", "(PoF)  Camp Eilistraee"},

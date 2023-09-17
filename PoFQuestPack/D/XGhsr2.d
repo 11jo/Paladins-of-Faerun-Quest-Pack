@@ -7,14 +7,14 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @2
-  IF ~~ THEN REPLY @3 DO ~RevealAreaOnMap("XG8300")~ 
-UNSOLVED_JOURNAL @4 GOTO 2
+  IF ~~ THEN REPLY @3 DO ~RevealAreaOnMap("XG8300")
+AddJournalEntry(@50421,QUEST)~ GOTO 2
 END
 
 
 IF ~~ THEN BEGIN 2
   SAY @5
   IF ~~ THEN REPLY @6 DO ~Enemy()
-ReputationInc(-1)~ 
-UNSOLVED_JOURNAL @7 EXIT
+ReputationInc(-1)
+AddJournalEntry(@50422,QUEST)~ EXIT
 END

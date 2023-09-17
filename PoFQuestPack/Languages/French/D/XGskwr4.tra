@@ -1,5 +1,8 @@
-@0 = ~ W-what do you want from me? ~
-@1 = ~ Take me to your master! ~
+@0 = ~Que ? Qu'attendez-vous de moi ?~
+@1 = ~Conduis-moi à ton maître !~
+
+/*
 @2 = ~ Order and Chaos.
 
 I managed to get into the cave guarded by skeletons, where I need to find out what happened here. ~
+*/

@@ -40,6 +40,7 @@
 @POF_78121 = "        " // @POF_78121 = "Tethyr###Schloss"
 @POF_78122 = "Tethyr###Wald"
 @POF_78401 = "Zwielicht-Berge"
+@POF_78402 = "Zwielicht-Berge"
 @POF_78503 = "Wohnwagen"
 @POF_78921 = "Kloster###der###Anhänger###Torms"
 @POF_78922 = "Kloster###der###Anhänger###Cyrics"

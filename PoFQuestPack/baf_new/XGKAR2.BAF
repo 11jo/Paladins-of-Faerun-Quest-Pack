@@ -21,8 +21,10 @@ THEN
     CreateCreature("XGprte",[422.401],0)  // ~Воинственный священник~
     Wait(12)
     ActionOverride(Player2,Attack("XGprte"))
+    ActionOverride(Player1,Attack("XGprte"))
     Wait(2)
     ActionOverride(Player2,Kill("XGprte"))
+    ActionOverride(Player1,Attack("XGprte"))
     Wait(1)
     DisplayStringHead(Player2,@1)  
     Wait(5)

@@ -18,11 +18,12 @@ END
 IF ~~ THEN BEGIN 3
   SAY @6
   IF ~~ THEN DO ~GiveItemCreate("XGhsr",Player1,0,0,0)
+AddJournalEntry(@50427,QUEST)
 ActionOverride(Player2,LeaveAreaLUA("XG0082","",[2029.2013],0))
 ActionOverride(Player1,LeaveAreaLUA("XG0082","",[2092.2015],0))
 ActionOverride(Player3,LeaveAreaLUA("XG0082","",[2016.1957],0))
 ActionOverride(Player4,LeaveAreaLUA("XG0082","",[2155.1993],0))
 ActionOverride(Player5,LeaveAreaLUA("XG0082","",[2016.1922],0))
 ActionOverride(Player6,LeaveAreaLUA("XG0082","",[1965.1893],0))
-EscapeArea()~ UNSOLVED_JOURNAL @7 EXIT
+EscapeArea()~ EXIT
 END

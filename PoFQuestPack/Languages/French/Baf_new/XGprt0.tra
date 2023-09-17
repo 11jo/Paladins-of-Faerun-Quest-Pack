@@ -1,0 +1,35 @@
+@0 = ~Bonjour <CHARNAME>, je ressens la présence d'un ouvrage très précieux pour mon ordre. Je suis un prêtre de Torm et j'ai été désigné pour ramener ce livre dans notre sanctuaire, malheureusement celui-ci a été volé avant mon arrivé.~
+@1 = ~Hrothgar, le protecteur de la ville...~
+@2 = ~Oui, je connais toute l'histoire. Hrothgar m'a même raconté comment vous l'avait sauvé d'un sort des plus funeste. Avez-vous découvert le commanditaire de ce vol ?~
+@3 = ~Effectivement, c'est un prêtre de Cyric qui a manigancé cette affaire. Il semblerait qu'une petite lutte de pouvoir soit en train de se jouer.~
+@4 = ~C'est tout à fait ça. Les serviteurs du dieu Cyric essaient depuis longtemps de se débarrasser de nous, raison pour laquelle je suis venu à votre rencontre. Notre ordre souhaite construire un sanctuaire aux abords de l'Amn. Une caravane se met en marche afin d'apporter le nécessaire dans le lieu choisi. J'en ai parlé à Hrothgar et il m'a vanté votre savoir-faire.~
+@5 = ~Si Hrothgar y tient. Je vous accompagnerai.~
+@6 = ~Ravi de l'entendre, revenez me voir dès que vous serez prêt. À propos, le temple local m'a chargé de vous remettre une récompense une fois votre tâche accomplie.~ ~Ravi de l'entendre, revenez me voir dès que vous serez prête. À propos, le temple local m'a chargé de vous remettre une récompense une fois votre tâche accomplie.~
+
+/*
+@7 = ~ Order and Chaos. 
+
+I found Torm's book and handed it over to its rightful owner. ~
+*/
+
+
+/*
+// Order and Chaos. related
+
+@8 = ~ Hrothgar. 
+
+Hrothgar in the east harbor, asked me to help him again, I have to sort out the local temple. ~
+*/
+
+
+/*
+@9 = ~ Order and Chaos. 
+
+A book about Torm was stolen from a temple in East Harbor. The priest believes that the book may be with one of the robbers who has a house here in East Harbor. ~
+@10 = ~ Order and Chaos. 
+
+Those thieves that were infiltrated by two brothers, the second brother who now has the book, is somewhere outside the city walls and is trying to sell it to some priest. ~
+@11 = ~ Order and Chaos. 
+
+I found out that the priest Cyric was behind the theft. ~
+*/

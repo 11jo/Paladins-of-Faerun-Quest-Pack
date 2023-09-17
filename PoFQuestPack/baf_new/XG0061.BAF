@@ -22,7 +22,7 @@ THEN
     ReputationInc(1)
     DisplayStringHead(Player1,@2)  // @2
     Wait(5)
-    AddJournalEntry(0,79132)
+    //AddJournalEntry(0,79132) // VOIR french xg0061.tra
     HideAreaOnMap("XG0061")
     ActionOverride(Player1,LeaveAreaLUA("AR0020","",[628.555],0))
     ActionOverride(Player2,LeaveAreaLUA("AR0020","",[589.545],0))

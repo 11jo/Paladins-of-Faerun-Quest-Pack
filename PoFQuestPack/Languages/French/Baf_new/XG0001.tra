@@ -1,5 +1,12 @@
-@0 = ~ On a dead body you see an interesting shiny ring. Wait, what's going on? ~
+@0 = ~L'un des squelettes porte un anneau étincelant. Tout cela est bien mystérieux...~
+
+
+/*
+
 @1 = ~ Order and Chaos.
 
 In front of the cave, where the novice Torm sent me, there were 2 unusual skeletons. When I killed them, I found a gold ring in their skull. I think I should talk to Wintrell, maybe he knows something about this. ~
+
 @2 = ~ Order and Chaos. The task is not completed. ~
+
+*/

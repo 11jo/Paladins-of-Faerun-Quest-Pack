@@ -1,0 +1,35 @@
+IF
+	Global("RevealXG0047","XG0047",1)
+	See(Protagonist)  // ~Книга Торма~
+THEN
+  RESPONSE #100
+		SetGlobal("RevealXG0047","XG0047",2)
+		HideGUI()
+		StartCutSceneMode()
+		MoveToObject(Protagonist)
+		Wait(1)
+		ActionOverride(Player1,FaceObject("XGprt"))
+		DisplayStringHead(Myself,@0)
+		Wait(10)
+		ActionOverride(Player1,DisplayStringHead(Myself,@1))
+		Wait(3)
+		DisplayStringHead(Myself,@2)
+		Wait(8)
+		ActionOverride(Player1,DisplayStringHead(Player1,@3))
+		Wait(8)
+		DisplayStringHead(Myself,@4)  
+		Wait(15)
+		GiveItemCreate("XGHAM3",Player1,0,0,0)  // ~Neusinajici kladivo~
+		ActionOverride(Player1,DisplayStringHead(Player1,@5))
+		Wait(5)
+		DisplayStringHead(Myself,@6)  
+		Wait(8)
+		TakePartyItem("XGDBOOK")
+		AddJournalEntry(@50403,QUEST)
+		EraseJournalEntry(@50405)
+		EraseJournalEntry(@50406)
+		EraseJournalEntry(@50407)
+		EraseJournalEntry(@50439)
+		UnhideGUI()
+		EndCutSceneMode()
+END

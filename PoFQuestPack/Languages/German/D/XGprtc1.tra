@@ -5,14 +5,20 @@
 @4 = ~Und kann der Bürgermeister das nicht regeln?~
 @5 = ~Er hat schon zwei Trupps losgeschickt, aber nur ein Mann ist zurückgekommen. Er sagte, sie würden nicht aufhören, bis alle Anhänger von Torm verschwunden sind. Es sieht so aus, als müsstet Ihr Euch noch einmal mit ihnen auseinandersetzen, <CHARNAME>!~
 @6 = ~Alles klar, ich werde hingehen.~
+
+/*
 @7 = ~Ordnung und Chaos.
 
 Der Hohepriester von Torm hat mir einen weiteren Auftrag erteilt. Wir müssen eine kleine Gruppe unter der Führung des Hohepriesters von Cyric aufhalten. Sie haben ihr Lager auf einem Friedhof westlich des Bauplatzes aufgeschlagen.~
+*/
+
 @8 = ~Also, könnt Ihr uns helfen?~
 @9 = ~Habt Ihr mit ihm verhandelt?~
 @10 = ~Ja.~
 @11 = ~Noch nicht.~
 @12 = ~Gute Arbeit. Das war's schon. Jetzt sind wir bereit, diesen Schrein fertig zu stellen. Ich hoffe, ihr werdet mit Euren Freunden anwesend sein, wenn der Bau abgeschlossen ist. Nochmals vielen Dank für alles, was Ihr für Torm getan habt. Ich kann Euch nicht für Eure Arbeit bezahlen, aber ich habe ein sehr wertvolles Relikt. Es gehört jetzt Euch. Lebt wohl.~
+
+/*
 @13 = ~Ordnung und Chaos.
 
 Der Hohepriester von Torm hat uns angeheuert, um die Karawane von Torm zu bewachen, die den Schatz von Amn ins Zwielichtgebirge bringt, wo ein neuer Tempel von Torm gebaut werden soll. Auf diese Weise werden sie ihren Einfluss ausweiten und vor allem Ciric schwächen.~
@@ -37,3 +43,4 @@ Es ist mir gelungen, den wahren Mörder des Priesters von Torm zu finden. Es war 
 @20 = ~Ordnung und Chaos.
 
 Die Aufgabe ist abgeschlossen. Der Torm-Tempel wird gebaut.~
+*/

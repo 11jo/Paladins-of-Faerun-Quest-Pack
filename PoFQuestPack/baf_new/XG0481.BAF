@@ -1,0 +1,7 @@
+IF
+	Global("XGGetAPriest","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("XGGetAPriest","GLOBAL",1)
+		CreateCreature("XGprtcq",[2168.1970],8)
+END

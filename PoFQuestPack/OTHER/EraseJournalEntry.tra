@@ -33,16 +33,16 @@ EraseJournalEntry(@13)
 EraseJournalEntry(@14) 
 
 // XG0150.BAF 
-EraseJournalEntry(@7)  
-EraseJournalEntry(@8)  
-EraseJournalEntry(@9) 
-EraseJournalEntry(@10)  
-EraseJournalEntry(@11)  
-EraseJournalEntry(@7)  
-EraseJournalEntry(@8)  
-EraseJournalEntry(@9) 
-EraseJournalEntry(@10)  
-EraseJournalEntry(@11)  
+EraseJournalEntry(@7)        // Family.
+EraseJournalEntry(@8)        // Family.
+EraseJournalEntry(@9)        // Family.
+EraseJournalEntry(@10)       // Family.
+EraseJournalEntry(@11)       // Family.
+EraseJournalEntry(@7)        // Family.
+EraseJournalEntry(@8)        // Family.
+EraseJournalEntry(@9)        // Family.
+EraseJournalEntry(@10)       // Family.
+EraseJournalEntry(@11)       // Family.
 
 // XG0203.BAF 
 EraseJournalEntry(@3)  

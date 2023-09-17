@@ -1,0 +1,21 @@
+IF
+	Global("DeadXG8301","XG8301",0)
+	Dead("XGhsr")
+	Dead("XGd1")
+	Dead("XGd2")
+	Dead("XGd3")
+	Dead("XGd4")
+THEN
+	RESPONSE #100
+		SetGlobal("DeadXG8301","XG8301",1)
+		StartCutSceneMode()
+		HideGUI()
+		ActionOverride(Player2,LeaveAreaLUA("XG8400","",[1550.1323],8))
+		ActionOverride(Player1,LeaveAreaLUA("XG8400","",[1509.1374],8))
+		ActionOverride(Player3,LeaveAreaLUA("XG8400","",[1618.1407],8))
+		ActionOverride(Player4,LeaveAreaLUA("XG8400","",[1649.1368],8))
+		ActionOverride(Player5,LeaveAreaLUA("XG8400","",[1552.1439],8))
+		ActionOverride(Player6,LeaveAreaLUA("XG8400","",[1654.1468],8))
+		UnhideGUI()
+		EndCutSceneMode()
+END

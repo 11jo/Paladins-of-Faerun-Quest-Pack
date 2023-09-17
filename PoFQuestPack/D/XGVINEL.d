@@ -18,13 +18,16 @@ END
 IF ~~ THEN BEGIN 3
   SAY @6
   IF ~~ THEN REPLY @7 GOTO 4
-  IF ~~ THEN REPLY @8 DO ~EscapeArea()~ SOLVED_JOURNAL @9 EXIT
+  IF ~~ THEN REPLY @8 DO ~
+AddJournalEntry(@50438,QUEST_DONE)
+EscapeArea()~ EXIT
 END
 
 IF ~~ THEN BEGIN 4
   SAY @10
   IF ~~ THEN REPLY @11 DO ~RevealAreaOnMap("XG0001")
-SetGlobal("s#XGVINEL","GLOBAL",1)~ UNSOLVED_JOURNAL @12 EXIT
+SetGlobal("s#XGVINEL","GLOBAL",1)
+AddJournalEntry(@50437,QUEST)~ EXIT
 END
 
 IF ~  Global("s#XGVINEL","GLOBAL",1)
@@ -46,7 +49,8 @@ END
 
 IF ~~ THEN BEGIN 8
   SAY @18
-  IF ~~ THEN REPLY @19 DO ~GiveItemCreate("XGsk",Player1,0,0,0)  SetGlobal("s#XGVINEL","GLOBAL",2)~ EXIT
+  IF ~~ THEN REPLY @19 DO ~GiveItemCreate("XGsk",Player1,0,0,0)
+SetGlobal("s#XGVINEL","GLOBAL",2)~ EXIT
 END
 
 IF ~  Global("s#XGVINEL","GLOBAL",1)
@@ -57,7 +61,9 @@ END
 
 IF ~~ THEN BEGIN 10
   SAY @21
-  IF ~~ THEN  DO ~EscapeArea()~ SOLVED_JOURNAL @9 EXIT
+  IF ~~ THEN  DO ~
+AddJournalEntry(@50438,QUEST_DONE)
+EscapeArea()~ EXIT
 END
 
 IF ~  Global("s#XGVINEL","GLOBAL",2)
@@ -75,10 +81,11 @@ END
 IF ~~ THEN BEGIN 13
   SAY @23
   IF ~~ THEN  DO ~ AddexperienceParty(5000)  
-    EraseJournalEntry(@12) 
-    EraseJournalEntry(@24) 
-    EraseJournalEntry(@25)
-EscapeArea()~ SOLVED_JOURNAL @26 EXIT
+    EraseJournalEntry(@50437) 
+    EraseJournalEntry(@50401) 
+    EraseJournalEntry(@50436)
+	AddJournalEntry(@50439,QUEST)
+EscapeArea()~ EXIT
 END
 
 

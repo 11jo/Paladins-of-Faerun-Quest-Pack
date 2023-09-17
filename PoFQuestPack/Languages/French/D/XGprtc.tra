@@ -8,10 +8,17 @@
 @7 = ~ Your main task will be to protect the treasury, which will be part of the caravan, from this treasury we will pay for the construction of our next temple in the Twilight Mountains. It is very important that the bandits or the Cyricists would not get the treasury, otherwise the construction of the temple can be forgotten. ~
 @8 = ~ Will I try when I get out? ~
 @9 = ~ Well, this is your choice, then a priest from our order will accompany you to Atkatla. Goodbye. ~
+
+/*
 @10 = ~ Order and Chaos.
 
 Unfulfilled quest - Secondary PoF storyline is over. ~
+*/
+
 @11 = ~ Right now, we're already late. ~
+
+/*
 @12 = ~ Order and Chaos.
 
 Torm's High Priest hired us to guard Torm's caravan, which carries Amn's treasury to the Twilight Mountains, where a new Torm temple will be built. By this they will expand their influence and, most importantly, this will mean weakening of Cyric. ~
+*/

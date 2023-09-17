@@ -1,18 +1,9 @@
 IF
-  Global("RevealXG0083","XG0083",0)
-  PartyHasItem("XGcd")  // ~Кинжал~
+	Global("RevealXG0083","XG0083",0)
+	PartyHasItem("XGcd")  // ~Кинжал~
 THEN
   RESPONSE #100
-    SetGlobal("RevealXG0083","XG0083",1)
-    StartCutSceneMode()
-    HideGUI()
-    PlaySound("XGMUS2")
-    CreateCreature("XGchf",[3483.572],0)  // ~Убийца-Цирикист~
-    ActionOverride("XGchf",MoveToPoint([3731.424]))
-    Wait(5)
-    ActionOverride("XGchf",Enemy())
-    EndCutSceneMode()
-    UnhideGUI()
-    AddexperienceParty(5000)
+		SetGlobal("RevealXG0083","XG0083",1)
+		CreateCreature("XGchf",[3483.572],0)  // ~Убийца-Цирикист~
 END
 

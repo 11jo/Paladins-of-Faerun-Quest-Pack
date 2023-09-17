@@ -35,9 +35,5 @@ THEN
   RESPONSE #100
     SetGlobal("Reveal0009","XG0009",1)
     CreateCreature("XGHROTH",[915.797],6)  // ~Õנמעדאנ~
-    StartCutSceneMode()
-    Wait(1)
-    ActionOverride("XGHROTH",StartDialogue("XGH2",Player1))
-    EndCutSceneMode()
 END
 

@@ -56,10 +56,10 @@ SetQuestDone(@23)
 I need to get rid of the guards in the western and eastern parts of this guild. ~
  
 // XG0060.BAF            STRANGE
-    AddJournalEntry(0,79131)
+    AddJournalEntry(0,79131) misssing ???? // VOIR frenchTRA
 	
 // XG0061.BAF             STRANGE
-    AddJournalEntry(0,79132)
+    AddJournalEntry(0,79132) misssing ???? // VOIR frenchTRA
 	
 // XG0064.BAF
   AddJournalEntry(@7,QUEST)
@@ -78,14 +78,14 @@ I need to get rid of the guards in the western and eastern parts of this guild. 
  AddJournalEntry(@9,QUEST)
 
 // XG0364.BAF
- AddJournalEntry(77392,QUEST)
+ AddJournalEntry(77392,QUEST) misssing ???? // VOIR frenchTRA
 
 // XG0381.BAF
  AddJournalEntry(@7,QUEST)
 
 // XG0384.BAF
- AddJournalEntry(78978,QUEST)
- AddJournalEntry(78978,QUEST)
+ AddJournalEntry(,QUEST) donefait
+ AddJournalEntry(,QUEST) donefait
 
 // XG0414.BAF
  AddJournalEntry(@10,QUEST) @10 = ~ Pirate Island.

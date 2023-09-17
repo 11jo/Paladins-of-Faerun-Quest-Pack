@@ -2,3 +2,10 @@
 @1 = ~ So Marian, now will you tell us the password? ~
 @2 = ~ Yes, you need to know three passwords to access the Barbarossa guild. Password sounds like slave, market, black. ~
 @3 = ~ Now <CHARNAME>, you know the password, sort it out with Barbarossa ~
+
+ // Was Missing same as @22 XGWWC.TRA
+@4 = ~Blacksmith Marian.
+
+I saved the blacksmith's wife from the assassins that Barbarossa must have sent, now I know the three passwords that are needed to join his guild in the southeast of the city. 
+
+Passwords: Slave, Market, Black. ~

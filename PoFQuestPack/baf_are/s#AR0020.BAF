@@ -42,6 +42,7 @@ THEN
 		Wait(5)
 		HideAreaOnMap("XG0081")  // (PoF)  Montagnes du Couchant
 		RevealAreaOnMap("XG0681")  // (PoF)  Monastère des admirateur de Torm
+		RevealAreaOnMap("XG1081")  // (PoF)  Monastère des admirateur de Torm
 		Wait(2)
 		ActionOverride("XGprtcq",EscapeArea())
 		EndCutSceneMode()
@@ -58,10 +59,15 @@ THEN
 		ClearAllActions()
 		CreateCreature("XGclc3",[834.473],8)  // Haut prêtre de Cyric  // Верховный священник Цирика // High priest of Cyric
 		Wait(1)
-		DisplayStringHead("XGclc3",@1)  // <CHARNAME> ! Dieu merci, je vous ai retrouvé. Nous vous sommes reconnaissants pour la construction du monastère, mais nous avons encore besoin d'aide. Rejoignez les Montagnes du Couchant dès que possible.
+		ActionOverride("XGclc3",MoveToObjectNoInterrupt(Protagonist))
+		Wait(2)
+		DisplayStringHead("XGclc3",@2)  // <CHARNAME> ! Dieu merci, je vous ai retrouvé. Nous vous sommes reconnaissants pour la construction du monastère, mais nous avons encore besoin d'aide. Rejoignez les Montagnes du Couchant dès que possible.
 		Wait(5)
 		HideAreaOnMap("XG8100")  // (PoF)  Montagnes du Couchant (bis)
+		HideAreaOnMap("XG8200")  // (PoF)  Montagnes du Couchant
+		HideAreaOnMap("XG8300")  // (PoF)  Montagnes du Couchant
 		RevealAreaOnMap("XG8500")  // (PoF)  Monastère des admirateurs de Cyric
+		RevealAreaOnMap("XG8101")  // (PoF)  Monastère des admirateurs de Cyric
 		Wait(2)
 		ActionOverride("XGclc3",EscapeArea())
 		EndCutSceneMode()

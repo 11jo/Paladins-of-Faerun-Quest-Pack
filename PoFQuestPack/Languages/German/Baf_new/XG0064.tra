@@ -2,6 +2,8 @@
 @1 = ~Hmm, Ihr seid wahrscheinlich <CHARNAME>. Ich habe gehört, dass Ihr meinem Bruder geholfen habt, ein Buch zu bekommen. Er würde Euch gerne eine weitere Arbeit anbieten. Priester von Torm versammeln eine Karawane im Zwielichtgebirge, wo sie ein neues Heiligtum errichten wollen. Damit wollen sie ihren Einfluss vergrößern.~
 @2 = ~Folgt dem Schatz, ich brauche Euch, um diese Karawane zu überfallen und den Schatz zurückzubringen. Sobald Ihr sie habt, bringt mir die Tochter des Bürgermeisters in den Norden der Stadt. Danach kann der Bürgermeister nichts weiter tun, als uns die Erlaubnis zum Bau unseres Schreins zu geben.~
 @3 = ~Gut. Ich werde es tun.~
+
+/*
 @4 = ~Hrothgar.
 
 Hrothgar in Osthafen hat mich gebeten, ihm wieder zu helfen, ich muss mich um die Angelegenheiten des örtlichen Tempels kümmern.~
@@ -14,3 +16,4 @@ Es stellte sich heraus, dass die Diebe, die das Buch gestohlen hatten, zwei Brüd
 @7 = ~Ordnung und Chaos.
 
 Der Hohepriester von Cyric hat mir eine weitere Aufgabe angeboten. Ich soll die Karawane von Torm überfallen und den Schatz ins Zwielichtgebirge bringen.~
+*/

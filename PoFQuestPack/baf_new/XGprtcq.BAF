@@ -1,0 +1,8 @@
+IF
+	AreaCheck("XG0481")
+	See(Protagonist)
+	Global("s#XGprtc1","GLOBAL",0)
+THEN
+  RESPONSE #100
+		StartDialogue("XGprtc1",Player1)
+END

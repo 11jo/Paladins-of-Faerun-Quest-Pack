@@ -25,6 +25,7 @@ IF ~~ THEN BEGIN 4
   SAY @8
   IF ~~ THEN REPLY @9 DO ~Enemy()~ EXIT
   IF ~~ THEN REPLY @10 DO ~SetNumTimesTalkedTo(1)
+AddJournalEntry(@50406,QUEST)
 Wait(5)
-EscapeArea()~ UNSOLVED_JOURNAL @11 EXIT
+EscapeArea()~ EXIT
 END

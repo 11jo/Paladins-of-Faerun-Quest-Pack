@@ -7,14 +7,22 @@
 @6 = ~Jemand hat eine Karawane angegriffen, die vom Torms Tempel nach Handelstreff unterwegs war, und alle unsere Leute wurden nicht weit von hier getötet. Bitte findet heraus, wer dafür verantwortlich ist.~
 @7 = ~Ich werde sehen, was los ist. Zeigt mir nur, wo es passiert ist.~
 @8 = ~Dafür habe ich leider keine Zeit. Auf Wiedersehen.~
+
+/*
 @9 = ~Ordnung und Chaos - Zusätzliche POF-Storyline.
 
 Ich traf Wintrell, den Novizen von Torm in Handelstreff, aber ich konnte ihm nicht helfen.~
+*/
+
 @10 = ~Nun, ich habe diesen Ort auf Eurer Karte markiert.~
 @11 = ~Ich werde Euch alles erzählen, was ich darüber herausfinden kann.~
+
+/*
 @12 = ~Ordnung und Chaos - Zusätzliche POF-Handlung.
 
 In Handelstreff traf ich einen verwundeten Novizen von Torm, sein Name ist Wintrell. Er muss das Böse finden, das seine Karawane zerstört hat. Er hat den Ort, an dem das passiert ist, auf der Karte markiert.~
+*/
+
 @13 = ~Habt Ihr etwas herausgefunden?~
 @14 = ~Noch nicht.~
 @15 = ~Ja, sehr wahrscheinlich. Habt Ihr jemals in Skelettschädeln goldene Ringe gesehen, die Licht ausstrahlen?~
@@ -26,6 +34,8 @@ In Handelstreff traf ich einen verwundeten Novizen von Torm, sein Name ist Wintr
 @21 = ~Es ist bedauerlich, dass Ihr nicht herausfinden konntet, wer die Karawane angegriffen hat. Aber auf jeden Fall danke für Eure Bemühungen. Ich muss zum Tempel von Torm gehen und berichten, was hier passiert ist.~
 @22 = ~Ja, mit Eurer Schriftrolle habe ich es geschafft, in die von Skeletten bewachte Höhle zu gelangen. Dort befand sich, wie sich herausstellte, eine ganze Schar von Untoten, denen der Priester von Cyric Befehle erteilt hatte. Sie sind alle vernichtet.~
 @23 = ~Vielen Dank für Eure Bemühungen, möge der Segen von Torm mit Euch sein! Und ich muss so schnell wie möglich zum Tempel von Torm und berichten, was hier geschehen ist.~
+
+/*
 @24 = ~Ordnung und Chaos.
 
 Vor der Höhle, in die mich Torms Novize geschickt hatte, standen 2 ungewöhnliche Skelette. Als ich sie tötete, fand ich einen goldenen Ring in ihrem Schädel. Ich glaube, ich sollte mit Wintrell reden, vielleicht weiß er etwas darüber.~
@@ -35,4 +45,4 @@ Ich habe es geschafft, in die von Skeletten bewachte Höhle zu gelangen, wo ich h
 @26 = ~Ordnung und Chaos.
 
 Ich habe den Mörder von Torms Anhängern aufgespürt, er hat sich als Priester von Cyric herausgestellt. Vielleicht ist dies eine Konfrontation zwischen den Kirchen?~
-
+*/

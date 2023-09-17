@@ -8,10 +8,17 @@
 @7 = ~Eure Hauptaufgabe wird es sein, den Schatz zu beschützen, die Teil der Karawane sein wird, aus dem wir den Bau unseres nächsten Tempels im Zwielichtgebirge bezahlen werden. Es ist sehr wichtig, dass der Schatz nicht an die Räuber oder die Cyricisten geht, sonst kann der Bau des Tempels vergessen werden.~
 @8 = ~Ich werde es versuchen, wenn ich rauskomme.~
 @9 = ~Nun, das ist Eure Entscheidung, dann wird Euch ein Priester unseres Ordens nach Athkatla begleiten. Auf Wiedersehen.~
+
+/*
 @10 = ~Ordnung und Chaos.
 
 Unvollendete Aufgabe - Die sekundäre Handlung von PoF ist beendet.~
+*/
+
 @11 = ~Jetzt sind wir schon spät dran.~
+
+/*
 @12 = ~Ordnung und Chaos.
 
 Der Hohepriester von Torm hat uns angeheuert, um die Karawane von Torm zu bewachen, die den Schatz von Amn ins Zwielichtgebirge bringt, wo ein neuer Tempel von Torm gebaut werden soll. Dadurch werden sie ihren Einfluss ausweiten und und vor allem Cyric schwächen.~
+*/

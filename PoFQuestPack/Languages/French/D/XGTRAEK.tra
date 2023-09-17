@@ -7,7 +7,7 @@
 @6 = ~ Wait <CHARNAME>! I want to ask you. Perhaps you will undertake my assignment? ~
 @7 = ~ And what is this task of Trayak? ~
 @8 = ~ There are smugglers on a bridge in Atkatla in one of the barracks. They recently stole my magic bag. I really need this bag, and I want to get it back. As a reward, I will give you six spell scrolls. Do you agree? ~
-@9 = ~ Okay, I'll bring you a bag. But don't forget about the scrolls. ~
+@9 = ~D'accord, je vous rapporterai votre sacoche. Mais pas d'entourloupe à propos des parchemins.~
 
 /*
 @10 = ~ Magic bag.
@@ -16,8 +16,8 @@ In the quarter of the Temples I came across a man in a cassock. He sent me to ne
 */
 
 @11 = ~Non merci, cela ne m'intéresse pas. Bonne continuation.~
-@12 = ~ Excellent <CHARNAME>, I see you managed to do this. Here is the promised reward, I hope you enjoy it. Thanks and goodbye. ~
-@13 = ~ Goodbye. ~
+@12 = ~Excellent <CHARNAME>, vous avez réussi à accomplir votre tâche. Voici la récompense que je vous ai promis, j'espère qu'elle sera à la hauteur de vos espérances. Bonne continuation.~
+@13 = ~Au revoir.~
 
 /*
 @14 = ~ Magic bag.

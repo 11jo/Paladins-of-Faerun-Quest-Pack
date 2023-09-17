@@ -32,11 +32,18 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @12
-  IF ~~ THEN DO ~ActionOverride(Player2,LeaveAreaLUA("XG0081","",[1424.1150],0))
-ActionOverride(Player1,LeaveAreaLUA("XG0081","",[1498.1121],0))
-ActionOverride(Player3,LeaveAreaLUA("XG0081","",[1458.1082],0))
-ActionOverride(Player4,LeaveAreaLUA("XG0081","",[1412.1097],0))
-ActionOverride(Player5,LeaveAreaLUA("XG0081","",[1452.1067],0))
-ActionOverride(Player6,LeaveAreaLUA("XG0081","",[1430.1009],0))
-AddexperienceParty(5000)~ UNSOLVED_JOURNAL @13 EXIT
+  IF ~~ THEN DO ~
+		AddexperienceParty(5000)
+		AddJournalEntry(@50428,QUEST)
+		HideAreaOnMap("XG0083")  // (PoF)  Montagnes du Couchant
+		HideAreaOnMap("XG0082")  // (PoF)  Montagnes du Couchant
+		ActionOverride("XGprt",EscapeArea())
+		Wait(2)
+		ActionOverride(Player1,LeaveAreaLUA("XG0481","",[2102.2028],N))
+		ActionOverride(Player2,LeaveAreaLUA("XG0481","",[2055.1966],N))
+		ActionOverride(Player3,LeaveAreaLUA("XG0481","",[2050.2046],N))
+		ActionOverride(Player4,LeaveAreaLUA("XG0481","",[2004.1986],N))
+		ActionOverride(Player5,LeaveAreaLUA("XG0481","",[2225.2046],N))
+		ActionOverride(Player6,LeaveAreaLUA("XG0481","",[2272.2099],N))
+~ EXIT
 END

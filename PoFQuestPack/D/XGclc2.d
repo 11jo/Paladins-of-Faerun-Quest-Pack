@@ -5,7 +5,8 @@ IF ~See(Player1) Global("s#XGclc2","GLOBAL",0)~ THEN BEGIN 0
   IF ~~ THEN DO ~GiveItemCreate("XGHAM3",Player1,0,0,0)
 SetGlobal("s#XGclc2","GLOBAL",1)
 ReputationInc(-1)
-AddexperienceParty(4000)~ UNSOLVED_JOURNAL @1 EXIT
+AddexperienceParty(4000)
+AddJournalEntry(@50417,QUEST)~ EXIT
 END
 
 IF ~Global("s#XGclc2","GLOBAL",1)~ THEN BEGIN 1
@@ -22,45 +23,65 @@ END
 IF ~~ THEN BEGIN 3
   SAY @7
   IF ~~ THEN REPLY @8 DO ~SetGlobal("s#XGclc2","GLOBAL",2)
-RevealAreaOnMap("XG8200")~ UNSOLVED_JOURNAL @9 EXIT
+RevealAreaOnMap("XG8300")
+AddJournalEntry(@50418,QUEST)
+ActionOverride(Player2,LeaveAreaLUA("XG8200","",[258.2193],0))
+ActionOverride(Player1,LeaveAreaLUA("XG8200","",[331.2240],0))
+ActionOverride(Player3,LeaveAreaLUA("XG8200","",[267.2265],0))
+ActionOverride(Player4,LeaveAreaLUA("XG8200","",[185.2186],0))
+ActionOverride(Player5,LeaveAreaLUA("XG8200","",[143.2142],0))
+ActionOverride(Player6,LeaveAreaLUA("XG8200","",[214.2097],0))
+~ EXIT
 END
 
 IF ~Global("s#XGclc2","GLOBAL",2)
 !Dead("XGhsr")~ THEN BEGIN 4
   SAY @10
-  IF ~~ THEN REPLY @11 EXIT
+  IF ~~ THEN REPLY @11 DO ~
+ActionOverride(Player2,LeaveAreaLUA("XG8200","",[258.2193],0))
+ActionOverride(Player1,LeaveAreaLUA("XG8200","",[331.2240],0))
+ActionOverride(Player3,LeaveAreaLUA("XG8200","",[267.2265],0))
+ActionOverride(Player4,LeaveAreaLUA("XG8200","",[185.2186],0))
+ActionOverride(Player5,LeaveAreaLUA("XG8200","",[143.2142],0))
+ActionOverride(Player6,LeaveAreaLUA("XG8200","",[214.2097],0))
+~ EXIT
 END
 
-IF ~Global("s#XGclc2","GLOBAL",2)
-Dead("XGhsr")~ THEN BEGIN 4
+IF ~Global("s#XGclc2","GLOBAL",2)~ THEN BEGIN 4
   SAY @10
-  IF ~~ THEN REPLY @12 GOTO 5
+  IF ~Dead("XGhsr")~ THEN REPLY @12 GOTO 5
+  IF ~Dead("XGhsr")
+Dead("XGd1")
+Dead("XGd2")
+Dead("XGd3")
+Dead("XGd4")~ THEN REPLY @14 GOTO 7
 END
 
 IF ~~ THEN BEGIN 5
   SAY @13
-  IF ~~ THEN  EXIT
-END
-
-IF ~Global("s#XGclc2","GLOBAL",2)
-Dead("XGd1")
-Dead("XGd2")
-Dead("XGd3")
-Dead("XGd4")~ THEN BEGIN 6
-  SAY @10
-  IF ~~ THEN REPLY @14 GOTO 7
+  IF ~~ THEN DO ~
+ActionOverride(Player2,LeaveAreaLUA("XG8200","",[258.2193],0))
+ActionOverride(Player1,LeaveAreaLUA("XG8200","",[331.2240],0))
+ActionOverride(Player3,LeaveAreaLUA("XG8200","",[267.2265],0))
+ActionOverride(Player4,LeaveAreaLUA("XG8200","",[185.2186],0))
+ActionOverride(Player5,LeaveAreaLUA("XG8200","",[143.2142],0))
+ActionOverride(Player6,LeaveAreaLUA("XG8200","",[214.2097],0))
+~ EXIT
 END
 
 IF ~~ THEN BEGIN 7
   SAY @15
-  IF ~~ THEN REPLY @16 DO ~GiveItemCreate("MISC07",Player1,3000,0,0)~
-UNSOLVED_JOURNAL @17 GOTO 8
+  IF ~~ THEN REPLY @16 DO ~GiveItemCreate("MISC07",Player1,3000,0,0)
+AddJournalEntry(@50419,QUEST)
+HideAreaOnMap("XG8300")  // (PoF)  Montagnes du Couchant
+HideAreaOnMap("XG8200")  // (PoF)  Montagnes du Couchant~ GOTO 8
 END
 
 IF ~~ THEN BEGIN 8
   SAY @18
   IF ~~ THEN REPLY @19 DO ~GiveItemCreate("XGleths",Player1,0,0,0)
-SetGlobal("s#XGclc2","GLOBAL",3)~ UNSOLVED_JOURNAL @20 EXIT
+SetGlobal("s#XGclc2","GLOBAL",3)
+AddJournalEntry(@50420,QUEST)~ EXIT
 END
 
 IF ~Global("s#XGclc2","GLOBAL",3)
@@ -80,14 +101,14 @@ IF ~~ THEN BEGIN 11
   IF ~~ THEN REPLY @25 DO ~GiveItemCreate("MISC07",Player1,5000,0,0)
 ReputationInc(-1)
 AddexperienceParty(5000)
-EraseJournalEntry(@26)
-EraseJournalEntry(@27)
-EraseJournalEntry(@1)
-EraseJournalEntry(@9)
-EraseJournalEntry(@28)
-EraseJournalEntry(@29)
-EraseJournalEntry(@20)
-EraseJournalEntry(@17)
-EscapeArea()~ 
-SOLVED_JOURNAL @30 EXIT
+EraseJournalEntry(@50415)
+EraseJournalEntry(@50411)
+EraseJournalEntry(@50417)
+EraseJournalEntry(@50418)
+EraseJournalEntry(@50421)
+EraseJournalEntry(@50422)
+EraseJournalEntry(@50420)
+EraseJournalEntry(@50419)
+AddJournalEntry(@50423,QUEST)
+EscapeArea()~ EXIT
 END

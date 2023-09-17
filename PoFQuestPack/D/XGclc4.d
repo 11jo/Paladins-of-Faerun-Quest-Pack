@@ -20,8 +20,8 @@ IF ~~ THEN BEGIN 3
   SAY @7
   IF ~~ THEN REPLY @8 DO ~RevealAreaOnMap("XG0084") 
 SetGlobal("s#XGclc4","GLOBAL",2)
-GiveItemCreate("XGPRC",Player1,0,0,0)~ 
-UNSOLVED_JOURNAL @9 EXIT
+GiveItemCreate("XGPRC",Player1,0,0,0)
+AddJournalEntry(@50424,QUEST)~ EXIT
 END
 
 IF ~Global("s#XGclc4","GLOBAL",1)~ THEN BEGIN 4
@@ -47,25 +47,28 @@ IF ~~ THEN BEGIN 7
   IF ~~ THEN REPLY @17 DO ~GiveItemCreate("XGIK06",Player1,0,0,0)
 AddexperienceParty(5000)
 TakePartyItem("XGqic")
-EraseJournalEntry(@9)
-EraseJournalEntry(@18)
+EraseJournalEntry(@50424)
+EraseJournalEntry(@50425)
 GiveItemCreate("BOOK03",Player1,0,0,0)
+AddJournalEntry(@50426,QUEST_DONE)
 EscapeArea()
-~ SOLVED_JOURNAL @19 EXIT
+~ EXIT
   IF ~~ THEN REPLY @20 DO ~GiveItemCreate("XGIK06",Player1,0,0,0)
 AddexperienceParty(5000)
 TakePartyItem("XGqic")
-EraseJournalEntry(@9)
-EraseJournalEntry(@18)
+EraseJournalEntry(@50424)
+EraseJournalEntry(@50425)
 GiveItemCreate("BOOK06",Player1,0,0,0)
+AddJournalEntry(@50426,QUEST_DONE)
 EscapeArea()
-~ SOLVED_JOURNAL @19 EXIT
+~ EXIT
   IF ~~ THEN REPLY @21 DO ~GiveItemCreate("XGIK06",Player1,0,0,0)
 AddexperienceParty(5000)
 TakePartyItem("XGqic")
-EraseJournalEntry(@9)
-EraseJournalEntry(@18)
+EraseJournalEntry(@50424)
+EraseJournalEntry(@50425)
 GiveItemCreate("BOOK08",Player1,0,0,0)
+AddJournalEntry(@50426,QUEST_DONE)
 EscapeArea()
-~ SOLVED_JOURNAL @19 EXIT
+~ EXIT
 END

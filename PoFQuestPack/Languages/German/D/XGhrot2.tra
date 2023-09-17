@@ -9,9 +9,13 @@
 @8 = ~Natürlich werde ich gehen und mit dem Priester sprechen.~
 @9 = ~Oh, fast hätte ich es vergessen. Ihr braucht einen Schlüssel, um in den Tempel zu gelangen. Nach diesem traurigen Ereignis ist der Tempel für die Öffentlichkeit geschlossen. Und ich muss gehen, ich habe noch viel zu tun.~
 @10 = ~Es hat mich gefreut, Euch kennenzulernen, ich hoffe, wir sehen uns wieder, Hrothgar.~
+
+/*
 @11 = ~Hrothgar.
 
 Hrothgar, der Bürgermeister von Osthafen, bat mich, ihm erneut zu helfen, ich muss mich um den Diebstahl im örtlichen Tempel kümmern.~
+*/
+
 @12 = ~<CHARNAME>, Ihr seid zurück? Könnt Ihr uns helfen?~
 @13 = ~Ja, Hrothgar. Ich werde gehen und mit dem Priester sprechen.~
 @14 = ~Nein, ich kann noch nicht.~

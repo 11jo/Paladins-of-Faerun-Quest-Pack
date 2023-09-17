@@ -2,3 +2,10 @@
 @1 = ~So, Marian, verratet Ihr uns jetzt das Passwort?~
 @2 = ~Ja, Ihr müsst drei Passwörter kennen, um Zugang zur Barbarossa-Gilde zu bekommen. Das Passwort lautet wie folgt: Sklave, Markt, Schwarz.~
 @3 = ~Nun, <CHARNAME>, Ihr kennt das Passwort, kümmert Euch um Barbarossa~
+
+ // Was Missing same as @22 XGWWC.TRA
+@4 = ~Blacksmith Marian.
+
+I saved the blacksmith's wife from the assassins that Barbarossa must have sent, now I know the three passwords that are needed to join his guild in the southeast of the city. 
+
+Passwords: Slave, Market, Black. ~

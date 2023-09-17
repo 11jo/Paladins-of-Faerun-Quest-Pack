@@ -1,55 +1,55 @@
 IF
-  Global("RevealXG0064","XG0064",0)
-  Dead("XGBMTN3")  // ~Воришка~
+	Global("RevealXG0064","XG0064",0)
+	Dead("XGBMTN3")  // ~Воришка~
 THEN
   RESPONSE #100
-    SetGlobal("RevealXG0064","XG0064",1)
-    StartCutSceneMode()
-    HideGUI()
-    CreateCreature("XGWWC",[2712.2879],0)  // ~Капитан~
-    ActionOverride("XGWWC",MoveToPoint([2934.2832]))
-    Wait(5)
-    DisplayStringHead("XGWWC",@0)  
-    Wait(5)
-    Kill(Player1)
-    UnhideGUI()
-    EndCutSceneMode()
+		SetGlobal("RevealXG0064","XG0064",1)
+		StartCutSceneMode()
+		HideGUI()
+		CreateCreature("XGWWC",[2712.2879],0)  // ~Капитан~
+		ActionOverride("XGWWC",MoveToPoint([2934.2832]))
+		Wait(5)
+		DisplayStringHead("XGWWC",@0)  
+		Wait(5)
+		Kill(Player1)
+		UnhideGUI()
+		EndCutSceneMode()
 END
 
 IF
-  OnCreation()
-  PartyHasItem("XGls")  // ~Карта местности~
+	OnCreation()
+	PartyHasItem("XGls")  // ~Карта местности~
 THEN
   RESPONSE #100
-    ClearAllActions()
-    Explore()
-    HideGUI()
-    TakePartyItem("XGls")
-    StartCutSceneMode()
-    CreateCreature("XGclc1",[1055.2238],0)  // ~Священник Цирика~
-    CreateCreature("XGclc2",[1106.2317],0)  // ~Верховный священник Цирика~
-    ActionOverride("XGclc1",MoveToPoint([795.2338]))
-    ActionOverride("XGclc2",MoveToPoint([838.2399]))
-    Wait(6)
-    DisplayStringHead("XGclc2",@1)  
-    Wait(10)
-    DisplayStringHead("XGclc2",@2)  
-    Wait(10)
-    DisplayStringHead(Player1,@3) 
-    Wait(5)
-    EraseJournalEntry(@4)  
-    EraseJournalEntry(@5)  
-    EraseJournalEntry(@6)  
-    AddexperienceParty(5000)
-    AddJournalEntry(@7,QUEST)
-    RevealAreaOnMap("XGKAR2")
-    ActionOverride(Player2,LeaveAreaLUA("XGKAR2","",[705.266],2))
-    ActionOverride(Player1,LeaveAreaLUA("XGKAR2","",[706.201],2))
-    ActionOverride(Player3,LeaveAreaLUA("XGKAR2","",[781.233],2))
-    ActionOverride(Player4,LeaveAreaLUA("XGKAR2","",[866.317],2))
-    ActionOverride(Player5,LeaveAreaLUA("XGKAR2","",[881.401],2))
-    ActionOverride(Player6,LeaveAreaLUA("XGKAR2","",[938.304],2))
-    EndCutSceneMode()
-    UnhideGUI()
+		ClearAllActions()
+		Explore()
+		HideGUI()
+		TakePartyItem("XGls")
+		StartCutSceneMode()
+		CreateCreature("XGclc1",[1055.2238],0)  // ~Священник Цирика~
+		CreateCreature("XGclc2",[1106.2317],0)  // ~Верховный священник Цирика~
+		ActionOverride("XGclc1",MoveToPoint([795.2338]))
+		ActionOverride("XGclc2",MoveToPoint([838.2399]))
+		Wait(6)
+		DisplayStringHead("XGclc2",@1)
+		Wait(10)
+		DisplayStringHead("XGclc2",@2)
+		Wait(10)
+		DisplayStringHead(Player1,@3)
+		Wait(5)
+		EraseJournalEntry(@50404)
+		EraseJournalEntry(@50405)
+		EraseJournalEntry(@50406)
+		AddexperienceParty(5000)
+		AddJournalEntry(@50411,QUEST)
+		RevealAreaOnMap("XGKAR2")
+		ActionOverride(Player2,LeaveAreaLUA("XGKAR2","",[705.266],2))
+		ActionOverride(Player1,LeaveAreaLUA("XGKAR2","",[706.201],2))
+		ActionOverride(Player3,LeaveAreaLUA("XGKAR2","",[781.233],2))
+		ActionOverride(Player4,LeaveAreaLUA("XGKAR2","",[866.317],2))
+		ActionOverride(Player5,LeaveAreaLUA("XGKAR2","",[881.401],2))
+		ActionOverride(Player6,LeaveAreaLUA("XGKAR2","",[938.304],2))
+		EndCutSceneMode()
+		UnhideGUI()
 END
 

@@ -25,8 +25,8 @@ IF ~~ THEN BEGIN 4
   SAY @9
   IF ~~ THEN REPLY @10 DO ~SetGlobal("s#XGhrot2","GLOBAL",2)
 GiveItemCreate("XGesh",Player1,0,0,0)
-EscapeArea()~ 
-UNSOLVED_JOURNAL @11 EXIT
+AddJournalEntry(@50404,QUEST)
+EscapeArea()~ EXIT
 END
 
 IF ~Global("s#XGhrot2","GLOBAL",1)~ THEN BEGIN 5

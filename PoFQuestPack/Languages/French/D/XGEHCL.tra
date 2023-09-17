@@ -6,9 +6,13 @@
 @5 = ~ And why would anyone steal it? ~
 @6 = ~ I have a theory about this. But more on that later. We found one of these robbers, he is hiding in a house here in this city. Try to find a house and this book should be there. ~
 @7 = ~ Good. I will go there. ~
+
+/*
 @8 = ~ Order and Chaos.
 
 A book telling about Torm was stolen from a temple in East Harbor. The priest believes that the book may be with one of the robbers who has a house in East Harbor. ~
+*/
+
 @9 = ~ What do you want? ~
 @10 = ~ I need the services of a priest. ~
 @11 = ~ Good. ~

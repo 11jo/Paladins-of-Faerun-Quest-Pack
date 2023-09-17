@@ -1,20 +1,20 @@
-@0 = ~ What are you doing here, stranger? Who are you? ~
-@1 = ~ My name is <CHARNAME>, I am looking for the governor of this castle, I need to talk to him. ~
-@2 = ~ Can this be arranged, anything else? ~
-@3 = ~ Yes. Along the way, I saw that there are a lot of prisoners, can I talk to them? ~
-@4 = ~ Are you asking what I'm doing here? I heard that you have problems with the inhabitants of the local forest? ~
-@5 = ~ That I cannot allow you. To do this, you must obtain permission from the governor. ~
-@6 = ~ What about some gold coins for being able to talk to them? ~
-@7 = ~ It doesn't concern you ... This problem will be solved soon! Anything else? ~
-@8 = ~ Hmmm. Okay, for 2,000 gold, I'll give you the camera keys. ~
-@9 = ~ I don't have the right amount with me, I will come later. ~
-@10 = ~ I just have the right amount, take it. ~
-@11 = ~ Here, keep the camera keys. ~
-@12 = ~ What, do you still want to pay for the conversation with the prisoners? ~
-@13 = ~ You wanted to talk to the prisoners, so go and say, I gave you the keys. ~
-@14 = ~ Something else? ~
-@15 = ~ I need to talk to the governor. ~
-@16 = ~ It is possible. Here is the key to his room. ~
+@0 = ~Que faites-vous ici ? Et qui êtes-vous étranger ?~ ~Que faites-vous ici ? Et qui êtes-vous étrangère ?~
+@1 = ~Je suis <CHARNAME> et je souhaiterais m'entretenir avec le gouverneur de ce château.~
+@2 = ~Cela me parait difficile, vous n'avez rien d'autre à ajouter ?~
+@3 = ~Si ! Je remarque que vos geôles sont remplies de prisonniers, est-il possible de leur rendre visite ?~
+@4 = ~Vous vous demandez ce que je fais dans les parages ? On m'a rapporté qu'il y avait un litige avec les habitants de la forêt environnante.~
+@5 = ~Impossible. Sans l'aval du gouverneur je ne peux pas vous autoriser à parler aux prisonniers.~
+@6 = ~Hum ! Est-ce que quelques pièces d'or vous feraient changer d'avis ? ~
+@7 = ~Cela ne vous concerne pas... Cette affaire sera très bientôt résolue ! Vous n'avez rien d'autre à ajouter ?~
+@8 = ~Hmmm, si vous insistez... Pour 2 000 pièces d'or, je vous donne les clés des cellules.~
+@9 = ~Je n'ai pas une telle somme sur moi, je repasserai plus tard.~
+@10 = ~J'ai justement le montant que vous demandez. Tenez !~
+@11 = ~Et voici les clés des cellules.~
+@12 = ~Alors, vous êtes disposé à monnayer une petite conversation avec les prisonniers ?~
+@13 = ~Vous vouliez parler aux prisonniers, alors allez-y, je vous ai déjà donné les clés.~
+@14 = ~Il y a autre chose ?~
+@15 = ~Je dois impérativement rencontrer le gouverneur.~
+@16 = ~Très bien. Voici la clé de son cabinet.~
 
 /*
 @17 = ~ Tethyr.
@@ -22,4 +22,4 @@
 I received a letter from one of the prisoners, which must be delivered to the forest, but first I need to talk to the governor of the castle. ~
 */
 
-@18 = ~ Don't bother, go and talk to the governor, and I need to clean my weapons. ~
+@18 = ~Cessez de me déranger, allez donc parler au gouverneur, moi je dois nettoyer mes armes.~

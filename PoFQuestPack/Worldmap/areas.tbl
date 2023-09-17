@@ -55,11 +55,13 @@ XG0078      XG0078    XG0078     4       71      1816   3916   @POF_78121  @POF_
 XG0058      XG0058    XG0058     4       69        50    310   @POF_77510  @POF_77510  N        // Vallée de L'Épine Dorsale // Valley of Icewind Dale //
 XG0079      XG0079    XG0079     4       57      2206   3128   @POF_77798  @POF_77798  N        // Ferme (près d'Esmeltaran) // Farm //
 XG4001      XG4001    XG4001     4       70       520   2450   @POF_75566  @POF_75566  N        // Îles Moonshae // Moonshae Isles //
-XG0081      XG0081    XG0081     4       47      2886   2256   @POF_78401  @POF_78401  N        // Montagnes du Couchant // Twilight Mountains //
+XG0081      XG0081    XG0081     4       47      2886   2256   @POF_78402  @POF_78402  N        // Montagnes du Couchant // Twilight Mountains //
+XG1081      XG1081    XG1081     4       54      2886   2256   @POF_78402  @POF_78402  N        // Village du Couchant (Torm monastère) // Twilight Mountains //
 XG0082      XG0082    XG0082     4       47      2940   2103   @POF_78401  @POF_78401  N        // Montagnes du Couchant // Twilight Mountains //
 XG0083      XG0083    XG0083     4       51      2729   2053   @POF_78401  @POF_78401  N        // Montagnes du Couchant // Twilight Mountains //
 XG0133      XG0133    XG0133     4       57      3399   2504   @POF_74579  @POF_74579  N        // Village (près de Teziir) (bis) // Village //
-XG8100      XG8100    XG8100     4       47      2886   2256   @POF_78401  @POF_78401  N        // Montagnes du Couchant (bis) // Twilight Mountains //
+XG8100      XG8100    XG8100     4       47      2886   2256   @POF_78402  @POF_78402  N        // Montagnes du Couchant (bis) // Twilight Mountains //
+XG8101      XG8101    XG8101     4       54      2886   2256   @POF_78402  @POF_78402  N        // Village du Couchant (Cyric monastère) // Twilight Mountains //
 XG8200      XG8200    XG8200     4       47      2940   2103   @POF_78401  @POF_78401  N        // Montagnes du Couchant (bis) // Twilight Mountains //
 XG8300      XG8300    XG8300     4       51      2729   2053   @POF_78401  @POF_78401  N        // Montagnes du Couchant (bis) // Twilight Mountains //
 XGKAR2      XGKAR2    XGKAR2     4       39      1083    867   @POF_78503  @POF_78503  N        // Caravane // Caravan //

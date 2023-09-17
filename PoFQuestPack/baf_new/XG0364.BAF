@@ -35,7 +35,7 @@ THEN
     ActionOverride("XGWWC",Face(14))
     DisplayStringHead("XGWWC",@3)  
     Wait(5)
-    AddJournalEntry(77392,QUEST)
+    AddJournalEntry(@4,QUEST) // Was Missing
     ActionOverride("XGMARAN",EscapeArea())
     ActionOverride("XGMW",EscapeArea())
     ActionOverride("XGMCH",EscapeArea())

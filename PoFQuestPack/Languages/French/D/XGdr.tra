@@ -1,6 +1,6 @@
-@0 = ~ Are you adventurers? Help us! ~
-@1 = ~ What happened dryad? ~
-@2 = ~ I'm busy, get out! Leave me alone! ~
+@0 = ~Vous êtes des aventuriers ? S'il vous plaît, aidez-moi !~
+@1 = ~Que se passe-t-il dryade ?~
+@2 = ~J'ai des affaires plus pressantes, fichez le camp et laissez-moi tranquille !~
 
 /*
 @3 = ~ Tethyr.
@@ -8,12 +8,12 @@
 I refused to help the dryad in Umar Hills. ~
 */
 
-@4 = ~ Our Tethyr forest is destroyed by the governor of the local castle. Only a handful remained, we have long been unable to defend ourselves against his soldiers, they burn the forest with impunity. We need help. ~
-@5 = ~ We could talk to the governor. ~
-@6 = ~ I'm not interested. Seek help elsewhere. ~
-@7 = ~ We would really appreciate your help. ~
-@8 = ~ I'll see what can be done, show me this castle on the map. ~
-@9 = ~ It's here. Thanks in advance for your efforts. ~
+@4 = ~Notre forêt est menacé par le gouverneur de Château-Tethyr. Seule une poignée d'entre nous est encore capable de se dresser contre lui et jusqu'à présent nos tentatives pour repousser ses forces ont été vouées à l'échec, il dévaste la forêt en toute impunité. Nous avons désespérément besoin d'aide.~
+@5 = ~Je vais aller interroger ce gouverneur.~
+@6 = ~Je ne suis pas intéressé. Trouvez quelqu'un d'autre.~
+@7 = ~Votre soutien nous serait très précieux.~
+@8 = ~Je vais voir ce que nous pouvons faire, indiquez-moi ou se trouve son château.~
+@9 = ~A cet endroit. Je vous remercie d'avance pour vos efforts.~
 
 /*
 @10 = ~ Tethyr.

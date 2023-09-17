@@ -1,17 +1,24 @@
-@0 = ~ I apologize for the delay <CHARNAME>, the order delayed me a bit. I heard rumors about what you did for us earlier. Thanks again. ~
-@1 = ~ Well, I did it soon for Hrothgar. I did not know that all this was so confused. ~
-@2 = ~ Our order no longer needs miracles after that, we need a small combat-ready group that would be able to protect our caravan with the treasury. The trip will take about three days north of Amn. ~
-@3 = ~ Guard the caravan? But you are priests? Who decides to attack you? ~
-@4 = ~ The same ones who stole the book, the same ones who destroyed our first caravan coming from Trademith. Adherents of Cyric. ~
-@5 = ~ Well, maybe you're right. I agree, I will guard your caravan. ~
-@6 = ~ I absolutely do not want to participate in these inter-church squabbles. Find someone else. ~
-@7 = ~ Your main task will be to protect the treasury, which will be part of the caravan, from this treasury we will pay for the construction of our next temple in the Twilight Mountains. It is very important that the bandits or the Cyricists would not get the treasury, otherwise the construction of the temple can be forgotten. ~
-@8 = ~ Will I try when I get out? ~
-@9 = ~ Well, this is your choice, then a priest from our order will accompany you to Atkatla. Goodbye. ~
-@10 = ~ Order and Chaos.
+@0 = ~I apologize for the delay <CHARNAME>, the order delayed me a bit. I heard rumors about what you did for us earlier. Thanks again.~
+@1 = ~Well, I did it soon for Hrothgar. I did not know that all this was so confused.~
+@2 = ~Our order no longer needs miracles after that, we need a small combat-ready group that would be able to protect our caravan with the treasury. The trip will take about three days north of Amn.~
+@3 = ~Guard the caravan? But you are priests? Who decides to attack you? ~
+@4 = ~The same ones who stole the book, the same ones who destroyed our first caravan coming from Trademith. Adherents of Cyric.~
+@5 = ~Well, maybe you're right. I agree, I will guard your caravan.~
+@6 = ~I absolutely do not want to participate in these inter-church squabbles. Find someone else.~
+@7 = ~Your main task will be to protect the treasury, which will be part of the caravan, from this treasury we will pay for the construction of our next temple in the Twilight Mountains. It is very important that the bandits or the Cyricists would not get the treasury, otherwise the construction of the temple can be forgotten.~
+@8 = ~Will I try when I get out? ~
+@9 = ~Well, this is your choice, then a priest from our order will accompany you to Atkatla. Goodbye.~
 
-Unfulfilled quest - Secondary PoF storyline is over. ~
-@11 = ~ Right now, we're already late. ~
-@12 = ~ Order and Chaos.
+/*
+@10 = ~Order and Chaos.
 
-Torm's High Priest hired us to guard Torm's caravan, which carries Amn's treasury to the Twilight Mountains, where a new Torm temple will be built. By this they will expand their influence and, most importantly, this will mean weakening of Cyric. ~
+Unfulfilled quest - Secondary PoF storyline is over.~
+*/
+
+@11 = ~Right now, we're already late.~
+
+/*
+@12 = ~Order and Chaos.
+
+Torm's High Priest hired us to guard Torm's caravan, which carries Amn's treasury to the Twilight Mountains, where a new Torm temple will be built. By this they will expand their influence and, most importantly, this will mean weakening of Cyric.~
+*/

@@ -1,40 +1,47 @@
-@0 = ~ <CHARNAME>, welcome! Thank you for all that you have done for us. Thanks to you, we can build this shrine. But there is still a problem that needs to be solved. ~
-@1 = ~ Maybe later. I have a lot to do now. ~
-@2 = ~ I listen, whose business is it? ~
-@3 = ~ The Cyricists are very persistent. The mayor could not expel all their adherents from the city. A small group led by a high priest camped west of here at the cemetery. From there, they send undead at night to our workers. Because of this, almost no one wants to work. ~
-@4 = ~ And that the mayor cannot handle this? ~
-@5 = ~ He already sent two detachments, but only one man returned. He said that they would not stop until all of Torm's followers had left. It looks like you need to deal with them again <CHARNAME>! ~
-@6 = ~ Okay, I'll go there. ~
-@7 = ~ Order and Chaos.
+@0 = ~<CHARNAME>, welcome! Thank you for all that you have done for us. Thanks to you, we can build this shrine. But there is still a problem that needs to be solved.~
+@1 = ~Maybe later. I have a lot to do now.~
+@2 = ~I listen, whose business is it? ~
+@3 = ~The Cyricists are very persistent. The mayor could not expel all their adherents from the city. A small group led by a high priest camped west of here at the cemetery. From there, they send undead at night to our workers. Because of this, almost no one wants to work.~
+@4 = ~And that the mayor cannot handle this? ~
+@5 = ~He already sent two detachments, but only one man returned. He said that they would not stop until all of Torm's followers had left. It looks like you need to deal with them again <CHARNAME>! ~
+@6 = ~Okay, I'll go there.~
+
+/*
+@7 = ~Order and Chaos.
 
 The high priest of Torm gave me another assignment. It is necessary to stop a small group led by the High Priest Cyricosus.
-They camped in a cemetery west of the holding area. ~
-@8 = ~ So can you help us? ~
-@9 = ~ Did you deal with him? ~
-@10 = ~ Yes. ~
-@11 = ~ Not yet. ~
-@12 = ~ Great job. That's all. Now we are ready to finish this shrine. I hope you will be present with your friends when the construction is completed. Thanks again for everything you did for Torm. I cannot pay you for what you have done, but I have one very valuable relic. Now she is yours. Goodbye. ~
-@13 = ~ Order and Chaos.
+They camped in a cemetery west of the holding area.~
+*/
 
-Torm's High Priest hired us to guard Torm's caravan, which carries Amn's treasury to the Twilight Mountains, where a new Torm temple will be built. By this they will expand their influence and, most importantly, this will mean weakening of Cyric. ~
-@14 = ~ Order and Chaos.
+@8 = ~So can you help us? ~
+@9 = ~Did you deal with him? ~
+@10 = ~Yes.~
+@11 = ~Not yet.~
+@12 = ~Great job. That's all. Now we are ready to finish this shrine. I hope you will be present with your friends when the construction is completed. Thanks again for everything you did for Torm. I cannot pay you for what you have done, but I have one very valuable relic. Now she is yours. Goodbye.~
 
-Thieves who entered the temple turned out to be two brothers. The one of the brothers who now has the book is trying to sell it to some priest somewhere outside the city walls. ~
-@15 = ~ Order and Chaos.
+/*
+@13 = ~Order and Chaos.
 
-A book telling about Torm was stolen from a temple in East Harbor. The priest believes that the book may be with one of the robbers who has a house in East Harbor. ~
-@16 = ~ Order and Chaos.
+Torm's High Priest hired us to guard Torm's caravan, which carries Amn's treasury to the Twilight Mountains, where a new Torm temple will be built. By this they will expand their influence and, most importantly, this will mean weakening of Cyric.~
+@14 = ~Order and Chaos.
 
-My witness was killed, but he was able to tell me where the evidence is that the murder was committed by the followers of Cyric. I need to go somewhere north, where I can find the cave. ~
-@17 = ~ Order and Chaos.
+Thieves who entered the temple turned out to be two brothers. The one of the brothers who now has the book is trying to sell it to some priest somewhere outside the city walls.~
+@15 = ~Order and Chaos.
 
-Outside the city gates, I met a man who claimed to have seen a killer and a thief who stole the treasury. ~
-@18 = ~ Order and Chaos.
+A book telling about Torm was stolen from a temple in East Harbor. The priest believes that the book may be with one of the robbers who has a house in East Harbor.~
+@16 = ~Order and Chaos.
 
-My friends and I were accused of killing and stealing the treasury of Torm priests. We were driven out of town. But the mayor was too one-sided, when I mentioned the word Cyric, he immediately began to hesitate. Something is wrong here, maybe he was the one who authorized the attack on our caravan. ~
-@19 = ~ Order and Chaos.
+My witness was killed, but he was able to tell me where the evidence is that the murder was committed by the followers of Cyric. I need to go somewhere north, where I can find the cave.~
+@17 = ~Order and Chaos.
 
-I managed to find the real killer of priest Torm. It was a follower of Cyric. The mayor withdrew all the charges against me and my friends and allowed me to build a Torm shrine. ~
-@20 = ~ Order and Chaos.
+Outside the city gates, I met a man who claimed to have seen a killer and a thief who stole the treasury.~
+@18 = ~Order and Chaos.
 
-The task is completed. Torm Temple built. ~
+My friends and I were accused of killing and stealing the treasury of Torm priests. We were driven out of town. But the mayor was too one-sided, when I mentioned the word Cyric, he immediately began to hesitate. Something is wrong here, maybe he was the one who authorized the attack on our caravan.~
+@19 = ~Order and Chaos.
+
+I managed to find the real killer of priest Torm. It was a follower of Cyric. The mayor withdrew all the charges against me and my friends and allowed me to build a Torm shrine.~
+@20 = ~Order and Chaos.
+
+The task is completed. Torm Temple built.~
+*/

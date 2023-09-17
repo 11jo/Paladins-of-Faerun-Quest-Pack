@@ -13,7 +13,8 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @5
-  IF ~~ THEN REPLY @6 DO ~SetGlobal("s#XGprtc1","GLOBAL",2)~ UNSOLVED_JOURNAL @7 EXIT
+  IF ~~ THEN REPLY @6 DO ~SetGlobal("s#XGprtc1","GLOBAL",2)
+AddJournalEntry(@50431,QUEST)~ EXIT
 END
 
 IF ~Global("s#XGprtc1","GLOBAL",1)~ THEN BEGIN 3
@@ -38,12 +39,13 @@ IF ~~ THEN BEGIN 6
   SAY @12
   IF ~~ THEN DO ~GiveItemCreate("XGIK07",Player1,0,0,0)
 ReputationInc(2)
-EraseJournalEntry(@13)
-EraseJournalEntry(@14)
-EraseJournalEntry(@15)
-EraseJournalEntry(@16)
-EraseJournalEntry(@17)
-EraseJournalEntry(@18)
-EraseJournalEntry(@19)
-EscapeArea()~ SOLVED_JOURNAL @20 EXIT
+EraseJournalEntry(@50430)
+EraseJournalEntry(@50406)
+EraseJournalEntry(@50405)
+EraseJournalEntry(@50412)
+EraseJournalEntry(@50427)
+EraseJournalEntry(@50413)
+EraseJournalEntry(@50428)
+AddJournalEntry(@50432,QUEST)
+EscapeArea()~ EXIT
 END

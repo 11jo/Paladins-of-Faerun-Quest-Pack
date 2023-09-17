@@ -2,3 +2,10 @@
 @1    = ~Итак Мариан, теперь-то вы скажете нам пароль?~
 @2    = ~Да, для прохода в гильдию Барбароссы нужно знать три пароля. Пароль звучит так, раб, рынок, черный.~
 @3    = ~Теперь <CHARNAME>, вы знаете пароль, разберитесь с Барбароссой~
+
+ // Was Missing same as @22 XGWWC.TRA
+@4 = ~Blacksmith Marian.
+
+I saved the blacksmith's wife from the assassins that Barbarossa must have sent, now I know the three passwords that are needed to join his guild in the southeast of the city. 
+
+Passwords: Slave, Market, Black. ~

@@ -7,6 +7,9 @@
 @6 = ~Ihr hört einen Schrei.~
 @7 = ~Wie konnte das geschehen? Wo ist der Schatz?~
 @8 = ~Wir sind im Zwielichtgebirge angekommen, wir müssen den örtlichen Bürgermeister davon in Kenntnis setzen, <CHARNAME>, schließlich befinden wir uns auf ihrem Gebiet. Vielleicht können sie uns helfen, den Schatz zurückzubekommen.~
+
+/*
 @9 = ~Ordnung und Chaos.
 
 Der Schatz konnte nicht verteidigt werden, mit einem massiven Angriff der Anhänger von Cyric gelang es ihnen, in aller Ruhe zum Schat vorzudringen. Wir sind im Zwielichtgebirge angekommen, vielleicht erfahren wir hier mehr.~
+*/

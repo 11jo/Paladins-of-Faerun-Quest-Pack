@@ -1,5 +1,5 @@
-@0 = ~ Wait. I know you. What are you doing here? ~
-@1 = ~ Do you know? Where from? I'm here for the first time. ~
-@2 = ~ I saw what happened. You attacked the caravan. You are a killer! ~
-@3 = ~ You won't tell anyone else about this! ~
-@4 = ~ Too late. There was a group of adventurers who are looking for you. They will find you anyway! ~
+@0 = ~Vous ! Qu'est-ce que vous venez faire ici ?~
+@1 = ~Vous me connaissez ? C'est pourtant la première fois que je viens en ce lieu.~
+@2 = ~J'ai assisté à l'attaque de la caravane. Vous êtes des assassins !~
+@3 = ~Vous n'aurez pas l'occasion de le répéter à qui que ce soit !~
+@4 = ~C'est trop tard. Un groupe d'aventuriers est sur vos traces. Ils vous tomberont dessus quoi qu'il arrive !~

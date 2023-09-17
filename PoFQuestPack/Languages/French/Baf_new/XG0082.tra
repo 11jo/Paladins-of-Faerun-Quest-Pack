@@ -3,9 +3,13 @@
 @2 = ~ I'm sorry that I can not help you. You will find the dagger in ... ~
 @3 = ~ Where can I find it, where is this dagger? ~
 @4 = ~ In a cave north of here. ~
+
+/*
 @5 = ~ Order and Chaos.
 
 My witness was killed, but he was able to tell me where the evidence is that the murder was committed by the followers of Cyric. I need to go somewhere north, where I can find the cave. ~
+*/
+
 @6 = ~ <CHARNAME>, I'm glad I found you. After the mayor accused you of killing my brother, this has spread to us. Our entire caravan was not allowed into the city and access was also closed to me. Something is wrong. You must help us. ~
 @7 = ~ In addition, I noticed the mayor's strange behavior. I found here in the forest a guy who saw what happened. The one who killed your brother is dead. I killed him. But I found a dagger on which is your brother's blood and the symbol of Cyric is cut out. All of this was planned. We have to get to the mayor. ~
 @8 = ~ I think I can arrange it. Come with me. ~

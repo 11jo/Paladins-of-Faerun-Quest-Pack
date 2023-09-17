@@ -40,6 +40,7 @@
 @POF_78121 = "        " // @POF_78121 = "Castle###of###Tehyr"
 @POF_78122 = "Forest###of###Tehyr"
 @POF_78401 = "Twilight###Mountains"
+@POF_78402 = "Twilight###Mountains"
 @POF_78503 = "Caravan"
 @POF_78921 = "Torm###admirers###Monastery"
 @POF_78922 = "Cyric###admirers###Monastery"

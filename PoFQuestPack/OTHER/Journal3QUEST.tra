@@ -1,0 +1,244 @@
+//////////////////// Family. Quête du Duc Opas
+ 
+// s#AR0300
+
+		//AddJournalEntry(@9,QUEST)
+@9 = ~ Family.
+
+Now a ransom of 10,000 gold is required, after talking with Danger, I decided to follow this man, he must lead me to the Opas family. ~
+		
+// s#AR1000
+
+		//AddJournalEntry(@10,QUEST)
+@10 = ~ Family.
+
+You found a map showing where the family of the Grand Duke might be located. ~
+
+// XGBLMAJ
+
+		//UNSOLVED_JOURNAL @25
+@25 = ~ Family.
+
+The Grand Duke of Danger asked me to help him; an unknown person holds his family captive and demands 5,000 gold. This money must be delivered to the docks of Askatla. We'll go there by ship. ~
+		
+// XG0150
+
+    //EraseJournalEntry(@7)  
+@7 = ~ Family.
+
+The Grand Duke of Danger asked me to help him; an unknown person holds his family captive and demands 5,000 gold. This money must be delivered to the docks of Askatla. We'll go there by ship. ~
+   // EraseJournalEntry(@8)  
+@8 = ~ Family.
+
+Now a ransom of 10,000 gold is required, after talking with Danger, I decided to follow this man, he must lead me to the Opas family. ~
+    //EraseJournalEntry(@9) 
+@9 = ~ Family.
+
+You found a map showing where the family of the Grand Duke might be located. ~
+    //EraseJournalEntry(@10)  
+@10 = ~ Family.
+
+The family of the Grand Duke of Opas was abducted by his former deputy. You found a group of bandits led by Craven. ~
+    //EraseJournalEntry(@11)  
+@11 = ~ Family.
+
+The family of the Grand Duke of Opas was abducted by his former deputy, I tracked down a group of thieves led by Craven. I bought the Opas family from him for 8,000 gold. ~
+    //SetQuestDone(@12)  ~
+@12 = ~ Family.
+
+The Opas family was saved. ~
+	
+    //EraseJournalEntry(@7)  
+    //EraseJournalEntry(@8)  
+    //EraseJournalEntry(@9) 
+    //EraseJournalEntry(@10)  
+    //EraseJournalEntry(@11)  
+    //SetQuestDone(@12)  
+	
+// XGCRU
+	
+	//UNSOLVED_JOURNAL @6
+@6 = ~ Family.
+
+The family of the Grand Duke of Opas was abducted by his former deputy. You found a group of bandits led by Craven. ~
+	//UNSOLVED_JOURNAL @8
+@8 = ~ Family.
+
+The family of the Grand Duke of Opas was abducted by his former deputy, I tracked down a group of thieves led by Craven. I bought the Opas family from him for 8,000 gold. ~
+	
+	
+//////////////////// Artifact from Kalimshan.
+
+// XG0072
+
+	//SetQuestDone(@2)  
+@2 = ~ Artifact from Kalimshan. 
+
+The artifact was given away. ~
+
+    //EraseJournalEntry(@3) 
+@3 = ~ Artifact from Kalimshan.
+
+The treasure hunter at Trademith asked for my help. He is looking for a magic horn, a very valuable artifact. I have to look for him somewhere in the northern desert in Kalimshan. ~
+
+   //EraseJournalEntry(@4)
+@4 = ~ Artifact from Kalimshan.
+
+I have been accused of stealing the artifact that I am looking for. Maybe they confused me with someone, that's why they attacked me, fortunately, I ran away from them. ~
+  
+   //EraseJournalEntry(@5)  
+@5 = ~ Artifact from Kalimshan.
+
+I need 10,000 gold to get the artifact. ~
+
+   //EraseJournalEntry(@6)  
+@6 = ~ Artifact from Kalimshan.
+
+I discovered an artifact from one of the treasure hunters in Kalimshan. ~
+
+   //EraseJournalEntry(@7) 
+@7 = ~ Artifact from Kalimshan.
+
+I killed the guard of the artifact, now I need to go to Trademith. ~
+
+// XG0073
+
+    //AddJournalEntry(@3,QUEST)
+@3 = ~ Artifact from Kalimshan.
+
+I have been accused of stealing the artifact that I am looking for. Maybe they confused me with someone, that's why they attacked me, fortunately, I ran away from them. ~
+
+    //AddJournalEntry(@4,QUEST)
+@4 = ~ Artifact from Kalimshan.
+
+I discovered an artifact from one of the treasure hunters in Kalimshan. ~
+
+
+// XGBAT
+
+
+    //SetQuestDone(@2)  
+@2 = ~ Artifact from Kalimshan. 
+
+The artifact is safe and the treasure hunter is now dead. ~
+
+    //EraseJournalEntry(@3) 
+@3 = ~ Artifact from Kalimshan.
+
+The treasure hunter at Trademith asked for my help. He is looking for a magic horn, a very valuable artifact. I have to look for him somewhere in the northern desert in Kalimshan. ~
+
+    //EraseJournalEntry(@4) 
+@4 = ~ Artifact from Kalimshan.
+
+I have been accused of stealing the artifact that I am looking for. Maybe they confused me with someone, that's why they attacked me, fortunately, I ran away from them. ~
+ 
+    //EraseJournalEntry(@5)  
+@5 = ~ Artifact from Kalimshan.
+
+I need 10,000 gold to get the artifact. ~
+
+    //EraseJournalEntry(@6)
+@6 = ~ Artifact from Kalimshan.
+
+I discovered an artifact from one of the treasure hunters in Kalimshan. ~
+
+// XGBH1
+
+	//UNSOLVED_JOURNAL @8 
+	//UNSOLVED_JOURNAL @8 
+	//UNSOLVED_JOURNAL @8
+@8 = ~ Artifact from Kalimshan.
+
+I need 10,000 gold to get the artifact. ~
+
+	 //UNSOLVED_JOURNAL @13
+@13 = ~ Artifact from Kalimshan.
+
+I discovered an artifact from one of the treasure hunters in Kalimshan. ~
+
+// XGBHC
+
+	// SOLVED_JOURNAL @5
+@5 = ~ Artifact from Kalimshan.
+
+The task is not completed. ~
+
+	// SOLVED_JOURNAL @7
+@7 = ~ Artifact from Kalimshan.
+
+The treasure hunter at Trademith asked for my help. He is looking for a magic horn, a very valuable artifact. I have to look for him somewhere in the northern desert in Kalimshan. ~
+
+// XGprc1
+
+	// UNSOLVED_JOURNAL @4
+@4 = ~ Artifact from Kalimshan.
+
+I killed the guard of the artifact, now I need to go to Trademith. ~
+
+
+
+//////////////////// Hrothgar.
+
+
+// XGH1
+
+	//UNSOLVED_JOURNAL @4
+@4 = ~ Hrothgar.
+
+I need to find a demon and free Hrothgar, the monster is hiding somewhere in a local cave. ~
+
+
+// XGH2
+
+	//EraseJournalEntry(@7)
+@7 = ~ Hrothgar.
+
+I need to find a demon and free Hrothgar, the monster is hiding somewhere in a local cave. ~
+
+	//EraseJournalEntry(@8)
+@8 = ~ Hrothgar.
+
+The Paladin from Deep Water asked me for help. It is necessary to save the already dead hero from East Harbor. His name is Hrothgar and his followers have found a way to bring him back to life. But, unfortunately, the situation suddenly became complicated and a demon appeared instead of Hrothgar. If you kill the demon, Hrothgar will again be among the living. ~
+
+	//EraseJournalEntry(@9)
+@9 = ~ Hrothgar.
+
+I talked to the wizard from the eastern harbor, I promised to help him revive Hrothgar, the demon is in a cave north of here. ~
+
+	//SOLVED_JOURNAL @10
+@10 = ~ Hrothgar.
+
+The demon is dead, and Hrothgar, 100 years later, is again among the living. He invited me to look into his city in the Valley of the Ice Wind. ~
+
+// XGHROT1
+
+	// UNSOLVED_JOURNAL @10
+@10 = ~ Hrothgar.
+
+I talked to the wizard from the eastern harbor, I promised to help him revive Hrothgar, the demon is in a cave north of here. ~
+
+
+// XGPAL1
+
+	// UNSOLVED_JOURNAL @6
+@6 = ~ Hrothgar.
+
+The Paladin from Deep Water asked me for help. It is necessary to save the already dead hero from East Harbor. His name is Hrothgar and his followers have found a way to bring him back to life. But, unfortunately, the situation suddenly became complicated and a demon appeared instead of Hrothgar. If you kill the demon, Hrothgar will again be among the living. ~
+
+	// SOLVED_JOURNAL @8
+@8 = ~ Hrothgar.
+
+Job rejected. ~
+
+
+// XGHROTH
+
+	// UNSOLVED_JOURNAL @20
+	// UNSOLVED_JOURNAL @20
+	// UNSOLVED_JOURNAL @20
+@20 = ~ Hrothgar.
+
+I met an adventurer in Targos, such as myself, his name is Hrotgar, he needed help, he was appointed to escort high-ranking people to Luskan. They were ambushed, they were attacked by a group of unknown creatures. Hrothgar told me that he saw them running north ... He found there a cave of complete evil. He asked me for help, together we must explore the caves and drive away evil! ~
+
+
+

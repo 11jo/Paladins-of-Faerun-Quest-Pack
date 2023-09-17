@@ -1,38 +1,49 @@
-@0 = ~ Wait a minute !! I ask you to help me! ~
-@1 = ~ Who are you and what do you want from me? ~
-@2 = ~ I am Wintrell, Torm's novice, I need help. ~
-@3 = ~ What's the matter, why don't you contact the mayor or local monastery for help? ~
-@4 = ~ They have enough of their problems here, and I'm seriously injured, but I need to get to Torm's temple and report that something terrible happened! ~
-@5 = ~ What exactly? ~
-@6 = ~ Someone attacked a caravan heading from Torm Temple to Trademith, and all of ours were killed not far from here. Please find out who is responsible for this. ~
-@7 = ~ I'll see what's the matter. Just show me where it happened. ~
-@8 = ~ Unfortunately, I do not have time for this. Goodbye. ~
-@9 = ~ Order and Chaos - Additional POF storyline.
+@0 = ~Wait a minute !! I ask you to help me!~
+@1 = ~Who are you and what do you want from me?~
+@2 = ~I am Wintrell, Torm's novice, I need help.~
+@3 = ~What's the matter, why don't you contact the mayor or local monastery for help? ~
+@4 = ~They have enough of their problems here, and I'm seriously injured, but I need to get to Torm's temple and report that something terrible happened! ~
+@5 = ~What exactly? ~
+@6 = ~Someone attacked a caravan heading from Torm Temple to Trademith, and all of ours were killed not far from here. Please find out who is responsible for this.~
+@7 = ~I'll see what's the matter. Just show me where it happened.~
+@8 = ~Unfortunately, I do not have time for this. Goodbye.~
 
-I met the novice Torm Wintrell in Trademe, but I couldn't help him. ~
-@10 = ~ Now, I marked this place on your map ~
-@11 = ~ I will tell you everything I can find out about it. ~
-@12 = ~ Order and Chaos - Additional POF storyline.
+/*
+@9 = ~Order and Chaos - Additional POF storyline.
+
+I met the novice Torm Wintrell in Trademe, but I couldn't help him.~
+*/
+
+@10 = ~Now, I marked this place on your map.~
+@11 = ~I will tell you everything I can find out about it.~
+
+/*
+@12 = ~Order and Chaos - Additional POF storyline.
 
 In Trademeet, I met a wounded novice Torm, his name is Wintrell. He needs to find the evil that destroyed his caravan.
-He marked on the map the place where this happened. ~
-@13 = ~ Did you find out something? ~
-@14 = ~ Not yet ~
-@15 = ~ Yes, it is likely. Have you ever seen skeletons in skulls, golden rings emitting light? ~
-@16 = ~ Yes, I did. This is control over the undead. These skeletons you are talking about are being run by someone, most likely a priest. ~
-@17 = ~ Can this control be interrupted somehow? ~
-@18 = ~ I'm not sure that this connection can be interrupted in any other way than to kill this person, but fortunately I have a scroll that can interrupt this connection for a short time. For a short time, you will take control of this skeleton and you can force it to bring you to this person. Here, take this scroll. ~
-@19 = ~ Thank you, I will try this. ~
-@20 = ~ There were some skeletons. I destroyed them, but found nothing else. ~
-@21 = ~ It is unfortunate that you were unable to find out who attacked the caravan. But in any case, thanks for your efforts. I need to get to the Torm Temple and report what happened here. ~
-@22 = ~ Yes, with your scroll I managed to get into the cave guarded by skeletons. There, as it turned out, there was a fair crowd of undead, whom the priest of Cyric had given orders. They are all destroyed. ~
-@23 = ~ Thank you so much for your efforts, may the blessing of Torm be with you! And I need to get to the Torm Temple as soon as possible and report what happened here. ~
-@24 = ~ Order and Chaos.
+He marked on the map the place where this happened.~
+*/
 
-In front of the cave, where the novice Torm sent me, there were 2 unusual skeletons. When I killed them, I found a gold ring in their skull. I think I should talk to Wintrell, maybe he knows something about this. ~
-@25 = ~ Order and Chaos.
+@13 = ~Did you find out something? ~
+@14 = ~Not yet ~
+@15 = ~Yes, it is likely. Have you ever seen skeletons in skulls, golden rings emitting light? ~
+@16 = ~Yes, I did. This is control over the undead. These skeletons you are talking about are being run by someone, most likely a priest.~
+@17 = ~Can this control be interrupted somehow? ~
+@18 = ~I'm not sure that this connection can be interrupted in any other way than to kill this person, but fortunately I have a scroll that can interrupt this connection for a short time. For a short time, you will take control of this skeleton and you can force it to bring you to this person. Here, take this scroll.~
+@19 = ~Thank you, I will try this.~
+@20 = ~There were some skeletons. I destroyed them, but found nothing else.~
+@21 = ~It is unfortunate that you were unable to find out who attacked the caravan. But in any case, thanks for your efforts. I need to get to the Torm Temple and report what happened here.~
+@22 = ~Yes, with your scroll I managed to get into the cave guarded by skeletons. There, as it turned out, there was a fair crowd of undead, whom the priest of Cyric had given orders. They are all destroyed.~
+@23 = ~Thank you so much for your efforts, may the blessing of Torm be with you! And I need to get to the Torm Temple as soon as possible and report what happened here.~
 
-I managed to get into the cave guarded by skeletons, where I need to find out what happened here. ~
-@26 = ~ Order and Chaos.
+/*
+@24 = ~Order and Chaos.
+
+In front of the cave, where the novice Torm sent me, there were 2 unusual skeletons. When I killed them, I found a gold ring in their skull. I think I should talk to Wintrell, maybe he knows something about this.~
+@25 = ~Order and Chaos.
+
+I managed to get into the cave guarded by skeletons, where I need to find out what happened here.~
+@26 = ~Order and Chaos.
 
 I tracked down the killer of the adherents of Torm, he turned out to be a priest of Cyric. Perhaps this is a confrontation between churches? ~
+*/

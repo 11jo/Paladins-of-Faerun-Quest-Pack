@@ -1,9 +1,9 @@
-@0 = ~ <CHARNAME> you have earned our trust. Now we see that you are not serving this treacherous governor! ~
-@1 = ~ Could it be easier just to believe me, druid? Want to find out what's going on here? Viceroy wants to completely destroy your forest. He will not leave a single tree. What can we do? ~
-@2 = ~ The governor here in the forest is looking for a treasure that is being watched by the forest mistress, a very powerful dryad. But if they burn the forest, the forest lady will lose all her strength and the governor will get the treasure. This should not happen. ~
-@3 = ~ What kind of treasure is the druid? ~
-@4 = ~ This is a very powerful weapon, a treasure of nature - a runic sword, in the hands of the governor it can bring disastrous consequences. You must protect the sword. Mistress Forest is hiding in the north of here. Find her, save the Tethyr Forest <CHARNAME>! ~
-@5 = ~ I will do everything in my power a druid. ~
+@0 = ~<CHARNAME> vous avez acquis notre confiance. Nous comprenons maintenant que vous n'êtes pas au service de ce gouverneur perfide !~
+@1 = ~Il aurait été plus facile de demander ! Maintenant nous devons découvrir de quoi il retourne... Le gouverneur à l'intention de détruire la forêt, aucun arbre ne sera épargné. Que pouvons-nous faire ?~
+@2 = ~Son objectif est de s'emparer du trésor que garde la Fée de la forêt, c'est une dryade aux pouvoirs exceptionnels. Mais si la forêt est réduite en cendres, elle perdra sa force et le gouverneur n'aura aucun mal à se saisir de l'objet. Nous devons l'en empêcher, à tout prix.~
+@3 = ~Quel est donc cet objet si convoité ?~
+@4 = ~Il s'agit d'une arme aux grands pouvoirs, un véritable trésor de la nature, la Lames des runes, entre les mains du gouverneur, elle pourrait provoquer un désastre. Vous devez absolument nous aider à protéger l'épée. La Maîtresse de la Forêt se dissimule un peu plus au nord. Allez à son encontre et sauvez la forêt de Téthyr je vous en conjure !~
+@5 = ~Vous pouvez compter sur moi.~
 
 /*
 @6 = ~ Tethyr.
@@ -11,4 +11,4 @@
 I gained trust from the inhabitants of the Tetir Forest. Now I need to find the forest mistress, somewhere in the north of the forest. She guards a very powerful weapon, a rune sword. The viceroy is interested in this sword. ~
 */
 
-@7 = ~ Are you still here? Talk to the Forest Lady! ~
+@7 = ~Vous êtes encore là ? Rejoignez vite la Fée de la forêt !~

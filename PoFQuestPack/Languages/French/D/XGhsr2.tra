@@ -1,12 +1,22 @@
-@0 = ~ Please, I do not want to die! I will tell you where those who seek you have gone, if you allow me to live. ~
-@1 = ~ Tell me where they are? ~
-@2 = ~ They set off north of here. There is an orc camp. I marked this place on your map. ~
-@3 = ~ Sorry, but I can't let you go, you know too much! ~
+@0 = ~Non, je ne veux pas mourir ! Je vous dirai où se trouvent les aventuriers.~
+@1 = ~Parlez ! Et vite !~
+@2 = ~Ils sont allés vers le nord... Dans un camp d'Hobgoblins... C'est ici sur votre carte.~
+@3 = ~Bien, malheureusement vous en savez trop pour que je vous laisse partir !~
+
+
+/*
 @4 = ~ Order and Chaos.
 
 I found that guy who could testify against me. He told me where to find the group that is looking for me. ~
-@5 = ~ Damned killers! ~
-@6 = ~ Die! ~
+*/
+
+
+@5 = ~Soyez maudits, assassins !~
+@6 = ~Crève !~
+
+/*
 @7 = ~ Order and Chaos.
 
 I killed a witness who saw me attack a caravan. ~
+*/
+

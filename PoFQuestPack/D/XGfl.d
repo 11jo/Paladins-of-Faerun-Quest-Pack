@@ -11,6 +11,7 @@ Global("TalkToXGdrc","GLOBAL",1)~ THEN BEGIN 0
 	ChangeEnemyAlly("XGTDR",ENEMY)
 	ChangeEnemyAlly("XGTDRQ",ENEMY)
 	ChangeEnemyAlly("XGTWR1",ENEMY)
+	ChangeEnemyAlly("XGTWRC",ENEMY)
 	ChangeEnemyAlly("XGDRC",ENEMY)
 	ChangeEnemyAlly("CDryad",ENEMY)
     EraseJournalEntry(@50300)

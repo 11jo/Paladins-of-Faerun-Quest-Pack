@@ -7,22 +7,33 @@
 @6 = ~ And what do we need to do for the high priest? ~
 @7 = ~ I need this scroll. I will give you a map that will lead you to the place where it is. ~
 @8 = ~ Okay, I'll do it. ~
+
+
+/*
 @9 = ~ Order and chaos.
 
 The battle continues. The high priest Torm called us again, this time to find the lost scroll. He gave us a map that will lead us to the treasure. A group of treasure seekers hired by the priests of Cyric also went for the scroll. ~
-@10 = ~ Are you back? Do you want to help me? ~
-@11 = ~ Yes, but what's the matter? ~
-@12 = ~ Not now, I'm leaving. ~
-@13 = ~ Do you have a scroll? ~
-@14 = ~ Not yet. ~
-@15 = ~ Yes, I have this scroll. ~
-@16 = ~ Great job. I did not even expect that we could ever achieve all this! Torm thank you! You have done much more than you can imagine. For your dedicated service, I will bestow this item on you and you can choose one of these blessings. Your choice? ~
-@17 = ~ Constitution. ~
+*/
+
+
+@10 = ~Vous voilà de retour ? Êtes vous prêt à nous aider ?~ ~Vous voilà de retour ? Êtes vous prête à nous aider ?~
+@11 = ~Certes, que désirez-vous ?~
+@12 = ~Pas maintenant, j'ai des comptes à régler.~
+@13 = ~Avez-vous récupéré le parchemin ?~
+@14 = ~Pas encore.~
+@15 = ~Oui, le parchemin est en ma possession.~
+@16 = ~Un travail remarquable. Je n'aurais pu espérer un tel succès ! Torm vous est plus que reconnaissant ! Vous nous avez apportés bien plus que vous ne pouvez l'imaginer. En remerciement de votre dévouement à notre cause, je vous laisse décider de votre récompense, cet objet vous octroiera une bénédiction permanente. Quel sera votre choix ?~
+@17 = ~Constitution.~
+
+/*
 @18 = ~ Order and chaos.
 
 Using the map, you managed to find an old scroll. Now you must return to the high priest. ~
+
 @19 = ~ Order and chaos.
 
 The storyline is over. (For the adherents of Torm) ~
-@20 = ~ Intelligence. ~
-@21 = ~ Wisdom. ~
+*/
+
+@20 = ~Intelligence.~
+@21 = ~Sagesse.~

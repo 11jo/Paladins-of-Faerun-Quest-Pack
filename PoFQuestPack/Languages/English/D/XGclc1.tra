@@ -1,12 +1,20 @@
-@0 = ~ Coward! Who are you? ~
-@1 = ~ I am <CHARNAME>, a friend of Hrothgar, mayor of East Harbor. He asked me to find a book that was stolen from a local temple. You ordered this theft. Now I want to find out who you are and why you need her? ~
-@2 = ~ I am a priest of Cyric, my order sent me here to find this book. It is of great value to us. It tells about our rival Torm. I need protection and if you will accompany me to Deep Water, I am ready to reward you very generously. ~
-@3 = ~ And if your order needs something, then he decides to steal it? What kind of faith is this? Give me the book immediately or there will be violence. I won't let my friend Hrothgar down, and finish what I started. ~
-@4 = ~ Well, I will accompany you to Deep Water. But will the reward be so generous, for I will have to betray my friend Hrothgar. ~
-@5 = ~ Order and Chaos.
+@0 = ~Coward! Who are you?~
+@1 = ~I am <CHARNAME>, a friend of Hrothgar, mayor of East Harbor. He asked me to find a book that was stolen from a local temple. You ordered this theft. Now I want to find out who you are and why you need her?~
+@2 = ~I am a priest of Cyric, my order sent me here to find this book. It is of great value to us. It tells about our rival Torm. I need protection and if you will accompany me to Deep Water, I am ready to reward you very generously.~
+@3 = ~And if your order needs something, then he decides to steal it? What kind of faith is this? Give me the book immediately or there will be violence. I won't let my friend Hrothgar down, and finish what I started.~
+@4 = ~Well, I will accompany you to Deep Water. But will the reward be so generous, for I will have to betray my friend Hrothgar.~
 
-The priest of Cyric, who was the buyer of this rare book, promised that he would generously reward me if I accompanied him to Deep Water. I agreed. ~
-@6 = ~ That's what I think, I will get rid of you and there will be no witnesses to the one who actually stole this book. ~
-@7 = ~ Order and Chaos.
+/*
+@5 = ~Order and Chaos.
 
-I found out that the priest of Cyric was behind the theft. ~
+The priest of Cyric, who was the buyer of this rare book, promised that he would generously reward me if I accompanied him to Deep Water. I agreed.~
+*/
+
+@6 = ~That's what I think, I will get rid of you and there will be no witnesses to the one who actually stole this book.~
+
+
+/*
+@7 = ~Order and Chaos.
+
+I found out that the priest of Cyric was behind the theft.~
+*/
