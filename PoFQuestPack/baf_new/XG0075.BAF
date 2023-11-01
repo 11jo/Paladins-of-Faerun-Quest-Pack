@@ -13,7 +13,7 @@ THEN
 		Wait(3)
 		DisplayStringHead(Player1,@0)    //  The sounds of battle are heard from the arena. I have to go see. 
 		Wait(5)
-		ActionOverride(Player1,LeaveAreaLUA("XG0075","",[1405.891],SE))
+		ActionOverride(Player1,LeaveAreaLUA("XG0075","",[1405.891],14))
 		ActionOverride(Player5,LeaveAreaLUA("XG0075","",[1134.1129],14))
 		ActionOverride(Player3,LeaveAreaLUA("XG0075","",[1357.1455],8))
 		ActionOverride(Player4,LeaveAreaLUA("XG0075","",[1798.1404],8))

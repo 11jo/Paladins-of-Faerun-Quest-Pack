@@ -242,6 +242,89 @@ I met an adventurer in Targos, such as myself, his name is Hrotgar, he needed he
 
 
 
+//////////////////// Sylvanowed.
 
+
+// XG0180
+
+	// AddJournalEntry(@9,QUEST)
+@9 = ~ Sylvanowed.
+
+Priestess Shaar, the mother of the newly-ordained Elf Dhaerovatila, asked me to look after her son. He went south of the city. ~
+
+
+// XG0580
+
+	// AddJournalEntry(@5,QUEST)
+@5 = ~ Sylvanowed.
+
+When I entered the united house of Ched Nasad, my group was attacked, possibly the whole city! Something strange is going on here, one of the drow said that I was the one who foiled their plans. Priestess Eilistraee helped me out of the city, I have to come to their camp. I will find him if I walk along the trail in the east. ~
+
+
+// XGdrb1
+
+  // UNSOLVED_JOURNAL @11
+@11 = ~ Sylvanowed.
+
+I promised the priestess of Eilistraee help in conducting peaceful negotiations with the priests of Chevaros. This world could end the threat from Ched Nasad. ~
+
+  // UNSOLVED_JOURNAL @13
+@13 = ~ Sylvanowed.
+
+Priestess Eilistraee found out that I accidentally killed her sisters. This can only be redeemed if I manage to kill the old dragon, which is located somewhere in the cave. If all goes well, the High Priestess will be ready to speak with me again. ~
+
+  //SOLVED_JOURNAL @15
+@15 = ~ Sylvanowed.
+
+You managed to turn everyone against yourself, both the drow from Ched Nasad and the drow priestesses of Eilistraee. The answers to your questions can no longer be found. ~
+
+
+//XGdrb2
+
+	//EraseJournalEntry(@1)
+@1 = ~ Sylvanowed.
+
+Priestess Shaar, the mother of the newly-ordained Elf Dhaerovatila, asked me to look after her son. He went south of the city. ~
+
+	//EraseJournalEntry(@2)
+@2 = ~ Sylvanowed.
+
+I protected my son as promised. He wanted to join my company, but I refused. He gave me the task to find out why there were drow near the city and who killed them? ~
+
+	//EraseJournalEntry(@3)
+@3 = ~ Sylvanowed.
+
+When I entered the united house of Ched Nasad, my group was attacked, possibly the whole city! Something strange is going on here, one of the drow said that I was the one who foiled their plans. Priestess Eilistraee helped me out of the city, I have to come to their camp. I will find him if I walk along the trail in the east. ~
+
+	//EraseJournalEntry(@4)
+@4 = ~ Sylvanowed.
+
+Priestess Eilistraee found out that I accidentally killed her sisters. This can only be redeemed if I manage to kill the old dragon, which is located somewhere in the cave. If all goes well, the High Priestess will be ready to speak with me again. ~
+
+	//EraseJournalEntry(@5)
+@5 = ~ Sylvanowed.
+
+I promised the priestess of Eilistraee help in conducting peaceful negotiations with the priests of Chevaros. This world could end the threat from Ched Nasad. ~
+
+	//SOLVED_JOURNAL @6
+@6 = ~ Sylvanowed.
+
+The task is completed, the united houses of Ched Nasad are now crushed, as well as their leader. ~
+
+
+// XGdwq
+
+// UNSOLVED_JOURNAL @6
+@6 = ~ Sylvanowed.
+
+I protected my son as promised. He wanted to join my company, but I refused. He gave me the task to find out why there were drow near the city and who killed them? ~
+
+// XGdwq1
+
+
+// UNSOLVED_JOURNAL @6
+@6 = ~ Sylvanowed.
+
+I protected my son as promised. He wanted to join my company, but I refused. He gave me the task to find out why there were drow near the city and who killed them? ~
 
 

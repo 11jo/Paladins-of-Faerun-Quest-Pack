@@ -17,7 +17,7 @@ THEN
 		DisplayStringHead(Player1,106548)  //  Now it makes no sense to fight, put down your weapon, we go with them. 
 		Wait(3)
 		ActionOverride("XGRW1",MoveToPoint([1053.932]))
-		ActionOverride("XGRW1",Face(E))
+		ActionOverride("XGRW1",Face(12))
 		ActionOverride(Player1,MoveToPoint([1230.870]))
 		ActionOverride(Player2,MoveToPoint([1236.947]))
 		ActionOverride(Player3,MoveToPoint([1242.1017]))
@@ -28,7 +28,7 @@ THEN
 		ActionOverride("XGRW",MoveToPoint([1419.838]))
 		ActionOverride("XGRW0",MoveToPoint([1390.1070]))
 		Wait(6)
-		MoveViewPoint([1800.931],BD_SLOW)
+		MoveViewPoint([1800.931],3) //  (BD_SLOW)
 		Wait(7)
 		DisplayStringHead("XGRW1",106549)  //  Take them! 
 		Wait(2)

@@ -12,6 +12,19 @@ VERSION ~4.0~
 
 ALWAYS
 
+// Used for Prevent specific events from triggering during PoF travels
+
+ACTION_IF GAME_IS ~eet~ BEGIN
+			OUTER_SET bg2_chapter = 12
+		END ELSE BEGIN
+			OUTER_SET bg2_chapter = 0
+		END
+		OUTER_FOR (i = 1 ; i <= 10 ; ++i) BEGIN
+			OUTER_SET bg2_chapter = bg2_chapter + 1
+			OUTER_SPRINT name_source ~bg2_chapter_%i%~
+			OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+		END
+
     //Copies tra files into the autotra-folder (to leave the originals untouched)
     DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
       COPY ~PoFQuestPack/Languages/english/Baf_new~				~PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_new~
@@ -116,7 +129,7 @@ COPY ~PoFQuestPack/Portraits/Vanilla~   ~override~
 
 END
 
-// Add scripts to existing areas
+// Add scripts name to existing areas
 
 COPY_EXISTING ~AR0305.ARE~ ~override~
           WRITE_ASCII 0x94 ~AR0305~ #8
@@ -225,27 +238,41 @@ PRINT ~         ~
 
 	END
 
-	
-// Add global to Joster Block in baldur.bcs (Borrowed from EET by K4thos )
 
 ACTION_IF (GAME_IS ~bg2 bgt bg2ee eet~ AND FILE_EXISTS_IN_GAME ~BALDUR.BCS~) BEGIN
+
+  // Prevent specific events from triggering during PoF travels (Borrowed from TotLM by Argent77 )
+  ACTION_DEFINE_ASSOCIATIVE_ARRAY area_checks BEGIN
+    ~baldur~    => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+    ~aerie~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+    ~anomen~    => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+    ~cernd~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+    ~edwin~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+    ~jaheira~   => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+    ~jan~       => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+    ~keldorn~   => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+    ~korgan~    => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+    ~mazzy~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+    ~minsc~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+    ~nalia~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+    ~yoshimo~   => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+  END
+
+  OUTER_TEXT_SPRINT bcs_quest_check ~!AreaType(POFAREA)~
+  ACTION_PHP_EACH area_checks AS script => search BEGIN
+    COPY_EXISTING ~%script%.bcs~ ~override~
+      DECOMPILE_AND_PATCH BEGIN
+        REPLACE_TEXTUALLY ~%search%~ ~%bcs_quest_check% \1~
+      END
+    BUT_ONLY IF_EXISTS
+  END
+END
+
 /*
-	COPY_EXISTING ~BALDUR.BCS~ ~weidu_external/PoFQuestPack/ExistingBaf/BALDUR.BAF~
-	
-		DECOMPILE_BCS_TO_BAF
-	
-REPLACE_TEXTUALLY ~Global("JosterLeave","GLOBAL",1)~ ~Global("JosterLeave","GLOBAL",1)
-	!AreaType(POFAREA)~
-	
-	
-//REPLACE_TEXTUALLY ~Global("PGFailed","GLOBAL",0)~ ~Global("PGFailed","GLOBAL",0)
-	//!AreaType(POFAREA)~
-	
 
-		//COMPILE_BAF_TO_BCS
+// Replaced by Argent77 function above
 
-COMPILE ~weidu_external/PoFQuestPack/ExistingBaf/BALDUR.BAF~ ~override~
-*/
+// Add global to Joster Block in baldur.bcs (Borrowed from EET by K4thos )
 
 COPY_EXISTING ~BALDUR.BCS~ ~override~
 	DECOMPILE_AND_PATCH BEGIN
@@ -263,6 +290,7 @@ BUT_ONLY
 
 END	
 
+*/
 
 //////////////////////////////////
 // Setup  Actors
@@ -3625,12 +3653,12 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0081.ARE~         ~override/XG0081.ARE
   ADD_MAP_NOTE #2788 #387 ~blue~ @1008 // Auberge
   ADD_MAP_NOTE #2561 #3078 ~blue~ @1022 // Merchant
   ADD_MAP_NOTE #3449 #770 ~orange~ @155 // Monastère
-  ADD_MAP_NOTE #3443 #3628 ~GREY~ @1009 // Sortie de la ville    
+  ADD_MAP_NOTE #3443 #3628 ~gray~ @1009 // Sortie de la ville    
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG1081.ARE~         ~override/XG1081.ARE~   
   ADD_MAP_NOTE #2788 #387 ~blue~ @1008 // Auberge
   ADD_MAP_NOTE #2561 #3078 ~blue~ @1022 // Merchant
-  ADD_MAP_NOTE #3443 #3628 ~GREY~ @1009 // Sortie de la ville
+  ADD_MAP_NOTE #3443 #3628 ~gray~ @1009 // Sortie de la ville
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0082.ARE~         ~override/XG0082.ARE~         
 
@@ -3973,7 +4001,7 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0480.ARE~         ~override/XG0480.ARE
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0481.ARE~         ~override/XG0481.ARE~
   ADD_MAP_NOTE #35 #2012 ~orange~ @1018 // Cimetière
-  ADD_MAP_NOTE #680 #3642 ~grey~ #48376 // Sortie
+  ADD_MAP_NOTE #680 #3642 ~gray~ #48376 // Sortie
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG04N1.ARE~         ~override/XG04N1.ARE~
   SAY 0x2DEC @1052         
@@ -4035,7 +4063,7 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0662.ARE~         ~override/XG0662.ARE
 COPY ~weidu_external/PoFQuestPack/Areas/XG0680.ARE~         ~override/XG0680.ARE~         
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0681.ARE~         ~override/XG0681.ARE~ 
-  ADD_MAP_NOTE #680 #3642 ~grey~ #48376 // Sortie        
+  ADD_MAP_NOTE #680 #3642 ~gray~ #48376 // Sortie        
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0701.ARE~         ~override/XG0701.ARE~         
 
@@ -4121,17 +4149,17 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG4001.ARE~         ~override/XG4001.ARE
 COPY ~weidu_external/PoFQuestPack/Areas/XG8100.ARE~         ~override/XG8100.ARE~
   ADD_MAP_NOTE #2788 #387 ~blue~ @1008 // Auberge
   ADD_MAP_NOTE #3449 #770 ~orange~ @155 // Monastère
-  ADD_MAP_NOTE #3443 #3628 ~GREY~ @1009 // Sortie de la ville   
+  ADD_MAP_NOTE #3443 #3628 ~gray~ @1009 // Sortie de la ville   
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG8101.ARE~         ~override/XG8101.ARE~
   ADD_MAP_NOTE #2788 #387 ~blue~ @1008 // Auberge
-  ADD_MAP_NOTE #3443 #3628 ~GREY~ @1009 // Sortie de la ville
+  ADD_MAP_NOTE #3443 #3628 ~gray~ @1009 // Sortie de la ville
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG8103.ARE~         ~override/XG8103.ARE~         
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG8104.ARE~         ~override/XG8104.ARE~    
   ADD_MAP_NOTE #35 #2012 ~orange~ @1018 // Cimetière
-  ADD_MAP_NOTE #680 #3642 ~grey~ #48376 // Sortie
+  ADD_MAP_NOTE #680 #3642 ~gray~ #48376 // Sortie
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG8200.ARE~         ~override/XG8200.ARE~
 
@@ -4144,7 +4172,7 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG8301.ARE~         ~override/XG8301.ARE
 COPY ~weidu_external/PoFQuestPack/Areas/XG8400.ARE~         ~override/XG8400.ARE~
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG8500.ARE~         ~override/XG8500.ARE~
-  ADD_MAP_NOTE #680 #3642 ~grey~ #48376 // Sortie
+  ADD_MAP_NOTE #680 #3642 ~gray~ #48376 // Sortie
 
 COPY ~weidu_external/PoFQuestPack/Areas/XGA180.ARE~         ~override/XGA180.ARE~
 
@@ -5880,7 +5908,7 @@ REPLACE_TEXTUALLY ~SetGlobal("NewGame","AR0602",1)~ ~ClearAllActions()
 	Wait(1)
 	MoveViewPoint([3604.1846],SLOW)
 	DisplayStringHead("XGIMOEN",@6)
-	Wait(4)
+	Wait(6)
 	ActionOverride(Player1,LeaveAreaLUA("AR0602","",[3739.2801],2))
 	Wait(2)
 	MoveViewPoint([3740.2799],INSTANT)
@@ -6021,9 +6049,40 @@ APPEND ~MASTAREA.2da~ ~XG0680 value~ UNLESS ~XG0680~ // Forêt (vers Padhiver) /
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 
+/*
 COPY ~PoFQuestPack/PVRZ.EE~		~override~
 
 COPY ~PoFQuestPack/TIS.EE~		~override~
+*/
+
+  // *** Install pvrz-based tilesets without the danger of overwriting pvrz files from other mods or the game itself. ***
+
+COPY ~PoFQuestPack/PVRZ.EE~		~override~
+  INCLUDE ~PoFQuestPack/lib/a7_pvrz_tis.tpa~
+  // Installing all TIS files from the specified folder
+  ACTION_BASH_FOR ~%MOD_FOLDER%/TIS.EE~ ~^.+\.tis$~ BEGIN
+    COPY ~%BASH_FOR_FILESPEC%~ ~override~
+      LPF UPDATE_PVRZ_INDICES RET original_base_index new_base_index END
+
+    // Installing associated PVRZ files for each tileset individually
+    ACTION_IF (new_base_index >= 0) BEGIN
+      LAF TIS_RES_TO_PVRZ STR_VAR tis_res = EVAL ~%BASH_FOR_FILESPEC%~ RET prefix END
+
+      ACTION_BASH_FOR ~%MOD_FOLDER%/PVRZ.EE~ ~^%prefix%.+\.pvrz$~ BEGIN
+        LAF INSTALL_PVRZ
+          INT_VAR original_base_index new_base_index
+          STR_VAR source_file = EVAL ~%BASH_FOR_FILESPEC%~
+          RET success DEST_FILESPEC
+        END
+
+        ACTION_IF (NOT success) BEGIN
+          FAIL ~Could not install "%BASH_FOR_FILESPEC%"!~
+        END
+      END
+    END ELSE BEGIN
+      FAIL ~Could not install "%BASH_FOR_FILESPEC%"!~
+    END
+  END
 
 AT_INTERACTIVE_EXIT ~PoFQuestPack\PoFQuestPack_Inst.bat~
 
@@ -6032,6 +6091,26 @@ AT_INTERACTIVE_UNINSTALL ~PoFQuestPack\PoFQuestPack_Uninst.bat~
 END
 
 ACTION_IF (GAME_IS ~tob bgt~) BEGIN
+
+/*
+  // *** Installation of TIS and MOS files (Light Version) ***
+
+INCLUDE ~%MOD_FOLDER%/lib/a7_tools.tpa~
+  // installing TIS for vanila
+  ACTION_BASH_FOR  ~%MOD_FOLDER%/TIS.EE~ ~.*\.TIS$~ BEGIN
+    LAF HANDLE_TILE2EE
+      INT_VAR
+        silent = 0  // show feedback
+      STR_VAR
+        input_path = EVAL ~%BASH_FOR_FILESPEC%~
+      RET
+        num_converted
+    END
+    ACTION_IF (num_converted != 1) BEGIN
+      FAIL ~Error converting %file%~
+    END
+  END
+*/
 
 AT_INTERACTIVE_EXIT ~PoFQuestPack\OLD.PoFQuestPack_Inst.bat~
 

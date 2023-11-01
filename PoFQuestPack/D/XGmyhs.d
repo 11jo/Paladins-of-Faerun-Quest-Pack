@@ -39,11 +39,11 @@ IF ~~ THEN BEGIN 6
 		HideAreaOnMap("XG0082")  // (PoF)  Montagnes du Couchant
 		ActionOverride("XGprt",EscapeArea())
 		Wait(2)
-		ActionOverride(Player1,LeaveAreaLUA("XG0481","",[2102.2028],N))
-		ActionOverride(Player2,LeaveAreaLUA("XG0481","",[2055.1966],N))
-		ActionOverride(Player3,LeaveAreaLUA("XG0481","",[2050.2046],N))
-		ActionOverride(Player4,LeaveAreaLUA("XG0481","",[2004.1986],N))
-		ActionOverride(Player5,LeaveAreaLUA("XG0481","",[2225.2046],N))
-		ActionOverride(Player6,LeaveAreaLUA("XG0481","",[2272.2099],N))
+		ActionOverride(Player1,LeaveAreaLUA("XG0481","",[2102.2028],8))
+		ActionOverride(Player2,LeaveAreaLUA("XG0481","",[2055.1966],8))
+		ActionOverride(Player3,LeaveAreaLUA("XG0481","",[2050.2046],8))
+		ActionOverride(Player4,LeaveAreaLUA("XG0481","",[2004.1986],8))
+		ActionOverride(Player5,LeaveAreaLUA("XG0481","",[2225.2046],8))
+		ActionOverride(Player6,LeaveAreaLUA("XG0481","",[2272.2099],8))
 ~ EXIT
 END

@@ -7,7 +7,7 @@ THEN
 		ClearAllActions()
 		StartCutSceneMode()
 		HideGUI()
-		CreateCreatureDoor("XGSRWZ1",[428.583],S)  // Magicien
+		CreateCreatureDoor("XGSRWZ1",[428.583],0)  // Magicien
 		Wait(3)
 		ActionOverride("XGSRWZ1",MoveToObjectNoInterrupt(Player1))
 		TakePartyItem("XGTRBL")  // Blood of the big troll

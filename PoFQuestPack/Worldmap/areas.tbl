@@ -13,7 +13,7 @@ XG0034      XG0034    XG0034     4       58      3221   3527   @POF_74352  @POF_
 XG0012      XG0012    XG0012     4       50      1532   1389   @POF_74540  @POF_74540  N        // Château des Collines Oubliées // Castle Forgotten Hills //
 XG0014      XG0014    XG0014     4       49      3134   2399   @POF_74364  @POF_74364  N        // Île du pirate (Mer des étoiles déchues) //  Pirate island //
 XG0016      XG0016    XG0016     4       47      2882   2699   @POF_74545  @POF_74545  N        // Passe du Géant // Pass //
-XG0017      XG0017    XG0017     4       46      2988   4119   @POF_74525  @POF_74525  N        // Tour de Gradak // Tower of Gradak //
+XG0017      XG0017    XG0017     4       46      2988   4119   @POF_74525  @POF_74525  N        // Domaine de Gradak // Tower of Gradak //
 XG0018      XG0018    XG0018     4       54      1080   2300   @POF_74372  @POF_74372  N        // Camp Secret de Gradak
 XG0019      XG0019    XG0019     4      103      1166   2446   @POF_74554  @POF_74554  N        // Navire de Gradak // Ship of Gradak //
 XG0020      XG0020    XG0020     4       30      1160   1900   @POF_74339  @POF_74339  N        // Porte de Baldur  // Baldur's Gate  //
@@ -37,7 +37,7 @@ XG0054      XG0054    XG0054     4       54      3343   2776   @POF_76878  @POF_
 XG0055      XG0055    XG0055     4       46      2988   4119   @POF_74525  @POF_74525  N        // Tour de Gradak (bis) // Tower of Gradak //
 XG0061      XG0061    XG0061     4       45      2259   2222   @POF_77324  @POF_77324  N        // Forêt (vers les Montagnes du Couchant) // Forest //
 XG0065      XG0065    XG0065     4       54      2400   2020   @POF_74579  @POF_74579  N        // Village (près de Soubar) // Village //
-XG0066      XG0066    XG0066     4       41      1798   1144   @POF_77430  @POF_77430  N        // Col de la Forêt // Pass //
+XG0066      XG0066    XG0066     4       41      1840   1440   @POF_77430  @POF_77430  N        // Col de la Forêt // Pass //
 XG0067      XG0067    XG0067     4       51       125    265   @POF_77510  @POF_77510  N        // Vallée de L'Épine Dorsale // Valley of Icewind Dale //
 XG0069      XG0069    XG0069     4       59      2450   2792   @POF_77550  @POF_77550  N        // Chasse aux Trolls // Hunting Trolls //
 XG0053      XG0053    XG0053     4       59      3037   3229   @POF_77694  @POF_77694  N        // Le Culte // Cult //
@@ -64,13 +64,13 @@ XG8100      XG8100    XG8100     4       47      2886   2256   @POF_78402  @POF_
 XG8101      XG8101    XG8101     4       54      2886   2256   @POF_78402  @POF_78402  N        // Village du Couchant (Cyric monastère) // Twilight Mountains //
 XG8200      XG8200    XG8200     4       47      2940   2103   @POF_78401  @POF_78401  N        // Montagnes du Couchant (bis) // Twilight Mountains //
 XG8300      XG8300    XG8300     4       51      2729   2053   @POF_78401  @POF_78401  N        // Montagnes du Couchant (bis) // Twilight Mountains //
-XGKAR2      XGKAR2    XGKAR2     4       39      1083    867   @POF_78503  @POF_78503  N        // Caravane // Caravan //
+XGKAR2      XGKAR2    XGKAR2     4       39      1520   1150   @POF_78503  @POF_78503  N        // Caravane // Caravan //
 XG0681      XG0681    XG0681     4       84      2800   2220   @POF_78921  @POF_78921  N        // Monastère des admirateur de Torm // Torm admirers Monastery //
 XG8500      XG8500    XG8500     4       84      2563   2130   @POF_78922  @POF_78922  N        // Monastère des admirateurs de Cyric // Cyric admirers Monastery //
 XG0084      XG0084    XG0084     4       62      4825    480   @POF_78923  @POF_78923  N        // La Plaine Gelée // The Frozen Plain //
 XG0A80      XG0A80    XG0A80     4       18      1715    875   @POF_79052  @POF_79052  N        // Siluvanede
 XG0080      XG0080    XG0080     4       18      1715    875   @POF_79052  @POF_79052  N        // Siluvanede (bis)
-XG0780      XG0780    XG0780     4       17       900    660   @POF_79053  @POF_79053  N        // Camp Eilistraee
-XG0680      XG0680    XG0680     4       16       910    830   @POF_77324  @POF_77324  N        // Forêt (vers Padhiver) // Forest //
+XG0780      XG0780    XG0780     4       17      1490   1060   @POF_79053  @POF_79053  N        // Camp Eilistraee
+XG0680      XG0680    XG0680     4       16      1640   1020   @POF_77324  @POF_77324  N        // Forêt (vers Padhiver) // Forest //
 
 

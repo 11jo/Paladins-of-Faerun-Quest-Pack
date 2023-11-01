@@ -1,0 +1,112 @@
+WeiDU example
+~~~~~~~~~~~~~
+
+Let's assume the following mod folder structure (MOS and TIS files in palette-based (V1) format):
+mymod/
+  setup-mymod.tp2
+  graphics/
+    mychap01.mos
+    mychap02.mos
+    mychap03.mos
+    mychap04.mos
+    myar01.tis
+    myar02.tis
+    myar03.tis
+  lib/
+    a7_tools.tpa
+  tools/
+    tile2ee/
+      osx/
+        tile2ee
+      unix/
+        x86/
+          tile2ee
+        x86_64/
+          tile2ee
+      win32/
+        x86/
+          tile2ee.exe
+        x86_64/
+          tile2ee.exe
+
+
+This tp2 code snippet will install the graphics files in the most appropriate format 
+based on the current game type:
+
+------------------------------- snippet start -------------------------------
+
+INCLUDE ~mymod/lib/a7_tools.tpa~
+
+ACTION_IF (GAME_IS ~bgee bg2ee iwdee eet~) BEGIN
+  // Enhanced Edition game detected
+
+  // Retrieve full path to tile2ee binary
+  // Note: Not needed if "tile2ee" is using the default folder structure and 
+  //       can be found in "%MOD_FOLDER%/tools/tile2ee" as seen above.
+  LAF GET_TOOL_BINARY
+    STR_VAR
+      tool_name = ~tile2ee~
+    RET
+      tool_binary
+  END
+
+  // Find contiguous block of unused pvrz indices for MOS files
+  LAF FIND_FREE_PVRZ_INDEX
+    INT_VAR
+      num_to_reserve = 20   // Let's reserve 20 indices just in case
+    RET
+      free_index
+  END
+  ACTION_IF (free_index < 0) BEGIN
+    FAIL ~Error: Unable to find free pvrz indices for MOS V2 files.~
+  END
+
+  // Convert files (4 MOS files and 3 TIS files)
+  LAF HANDLE_TILE2EE
+    INT_VAR
+      pvrz_index    = free_index
+    STR_VAR
+      input_path    = ~mymod/graphics~
+      // can be skipped if tile2ee is located in default path (see above)
+      tile2ee_path  = EVAL ~%tool_binary%~
+      output_path   = ~override~
+    RET
+      num_converted
+  END
+  ACTION_IF (num_converted < 7) BEGIN
+    OUTER_SET skipped = 7 - num_converted
+    FAIL ~Error: Failed to convert %skipped% out of 7 graphics files.~
+  END
+
+END ELSE BEGIN  // GAME_IS ~bg2 tob iwd2 pst bg1 totsc iwd how totlm tutu tutu_totsc bgt~
+  // vanilla Infinity Engine game detected
+
+  // simply copy over MOS and TIS files
+  COPY ~mymod/graphics~ ~override~
+END
+
+------------------------------- snippet end -------------------------------
+
+After a successful conversion you should see the following files in the override folder
+of the game (assuming pvrz indices start at 1000 for MOS files, number of generated 
+pvrz files depend on MOS/TIS size):
+mychap01.mos
+mychap02.mos
+mychap03.mos
+mychap04.mos
+mos01000.pvrz
+mos01001.pvrz
+mos01002.pvrz
+mos01003.pvrz
+myar01.tis
+mar0100.pvrz
+mar0101.pvrz
+mar0102.pvrz
+myar02.tis
+mar0200.pvrz
+mar0201.pvrz
+myar03.tis
+mar0300.pvrz
+mar0301.pvrz
+mar0302.pvrz
+mar0303.pvrz
