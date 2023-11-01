@@ -123,7 +123,7 @@ COPY ~PoFQuestPack/Portraits/EE~   ~override~
 
 END
 
-ACTION_IF (GAME_IS ~bg2 bgt~) BEGIN
+ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 
 COPY ~PoFQuestPack/Portraits/Vanilla~   ~override~
 
@@ -148,7 +148,7 @@ COPY_EXISTING ~AR1005.ARE~ ~override~
 //////////////////////////////////
 
 
-ACTION_IF (GAME_IS ~bg2 bg2ee~) BEGIN
+ACTION_IF (GAME_IS ~bg2 tob bg2ee~) BEGIN
 
 COPY ~PoFQuestPack/OTHER/BG1.Audio~   ~override~
 
@@ -239,7 +239,7 @@ PRINT ~         ~
 	END
 
 
-ACTION_IF (GAME_IS ~bg2 bgt bg2ee eet~ AND FILE_EXISTS_IN_GAME ~BALDUR.BCS~) BEGIN
+ACTION_IF (GAME_IS ~bg2 tob bgt bg2ee eet~ AND FILE_EXISTS_IN_GAME ~BALDUR.BCS~) BEGIN
 
   // Prevent specific events from triggering during PoF travels (Borrowed from TotLM by Argent77 )
   ACTION_DEFINE_ASSOCIATIVE_ARRAY area_checks BEGIN
@@ -3682,7 +3682,7 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0115.ARE~         ~override/XG0115.ARE
 
 END       
 
-ACTION_IF (GAME_IS ~bg2 bgt~) BEGIN
+ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0115.ARE~         ~override/XG0115.ARE~
   ADD_MAP_NOTE #1421 #2237 ~RED~ @1045
@@ -3914,7 +3914,7 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0339.ARE~         ~override/XG0339.ARE
   SAY 0x25b0 @1001
 END       
 
-ACTION_IF (GAME_IS ~bg2 bgt~) BEGIN
+ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0115.ARE~         ~override/XG0115.ARE~
   SAY 0x25EC @1001 
@@ -5820,13 +5820,6 @@ EXTEND_TOP ~AR0527.BCS~				~PoFQuestPack/baf_are/S#AR0527.baf~
 
 EXTEND_TOP ~AR0528.BCS~				~PoFQuestPack/baf_are/S#AR0528.baf~
 
-ACTION_IF (GAME_IS ~bg2 bgt~) BEGIN
-
-EXTEND_TOP ~AR0602.BCS~				~PoFQuestPack/baf_are/S#AR0602.baf~
-USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0602.tra~
-
-END
-
 ACTION_IF (GAME_IS ~bg2ee eet~ AND FILE_EXISTS_IN_GAME ~AR0602.BCS~) BEGIN
 
 	COPY_EXISTING ~AR0602.BCS~		~weidu_external/PoFQuestPack/ExistingBaf/AR0602.BAF~
@@ -5923,6 +5916,11 @@ USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0602EE.tra~
 		
 EXTEND_BOTTOM ~AR0602.BCS~			~PoFQuestPack/baf_are/S#AR0602EE.baf~
 		
+END ELSE BEGIN
+
+EXTEND_TOP ~AR0602.BCS~				~PoFQuestPack/baf_are/S#AR0602.baf~
+USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0602.tra~
+
 END
 
 EXTEND_BOTTOM ~AR0700.BCS~			~PoFQuestPack/baf_are/S#AR0700.baf~
