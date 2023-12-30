@@ -1,6 +1,6 @@
 @0 = ~ They said you wanted to talk to me, Khalid. So what's bothering you? Don't you like your cell? ~
 @1 = ~T-there are S-SO many places I would rather be. I don't want to seem c-confrontational, but could you be a little less... well... evil?~
-@2 = ~ Haha, you're just a pawn in my game. I will kill you as soon as I receive power from <CHARNAME>. He does not understand what destructive power is in him. I have a lot, and I want to rule over all of Faerûn.~
+@2 = ~ Haha, you're just a pawn in my game. I will kill you as soon as I receive power from <CHARNAME>. He does not understand what destructive power is in him.~
 @3 = ~ Yes, sir. It will be fulfilled, sir. ~
 @4 = ~ (I need to quickly find <CHARNAME>, poor Khalid, maybe he can take a little time, where can there be <CHARNAME>?) ~
 @5 = ~Your honesty is refreshing, but lace it well with tact. I had thought none could be so beyond the bounds of goodness. Certainly you need h-help.~
@@ -15,3 +15,5 @@
 @9 = ~I will not let you torture me. Change your course lest I be forced to s-stop you! I am Khalid, an elven warrior...~
 
 @10 = ~If none are better... To arms!~
+
+@11 = ~I have a lot, and I want to rule over all of Faerûn.~

@@ -18,11 +18,13 @@
 @18 = ~ I'm not interested in Hrothgar, maybe later, if you have time to wait. ~
 @19 = ~ This is the place, come there when you are ready! ~
 
+/*
+(@50506)
 
 @20 = ~ Hrothgar.
 
 I met an adventurer in Targos, such as myself, his name is Hrotgar, he needed help, he was appointed to escort high-ranking people to Luskan. They were ambushed, they were attacked by a group of unknown creatures. Hrothgar told me that he saw them running north ... He found there a cave of complete evil. He asked me for help, together we must explore the caves and drive away evil! ~
-
+*/
 
 @21 = ~ So you are back, you have free time, do you want to help me? ~
 @22 = ~ Yes, you interested me, show me where I should go. ~

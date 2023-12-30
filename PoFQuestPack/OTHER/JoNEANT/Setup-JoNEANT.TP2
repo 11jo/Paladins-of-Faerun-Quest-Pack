@@ -1,0 +1,157 @@
+BACKUP ~JONEANT/backup~ 
+SUPPORT ~~
+README ~~
+
+VERSION ~1.0~
+
+
+ALWAYS
+
+/*
+ACTION_IF GAME_IS ~eet~ BEGIN
+			OUTER_SET bg2_chapter = 12
+		END ELSE BEGIN
+			OUTER_SET bg2_chapter = 0
+		END
+		OUTER_FOR (i = 1 ; i <= 10 ; ++i) BEGIN
+			OUTER_SET bg2_chapter = bg2_chapter + 1
+			OUTER_SPRINT name_source ~bg2_chapter_%i%~
+			OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+		END
+*/
+
+    //Copies tra files into the autotra-folder (to leave the originals untouched)
+    DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
+      COPY ~JONEANT/Tra/French~				~JONEANT/Tra/autotra/%LANGUAGE%~
+      COPY ~JONEANT/Tra/%LANGUAGE%~			~JONEANT/Tra/autotra/%LANGUAGE%~
+    END
+
+    LAF autotra_workaround END
+
+
+//  ACTION_DEFINE_ARRAY fl#noconvert BEGIN END
+
+ ACTION_DEFINE_ARRAY fl#reload BEGIN JONEANT END
+
+    LAF HANDLE_CHARSETS
+      INT_VAR
+        infer_charsets = 1
+      STR_VAR
+        tra_path = EVAL ~JONEANT/Tra/autotra~
+//        noconvert_array = fl#noconvert
+        reload_array = fl#reload				
+ END
+  
+END
+
+
+// AUTO_TRA ~JoNEANT/Tra/autotra/%s~
+		 
+LANGUAGE ~Francais~
+         ~French~
+         ~JoNEANT/Tra/French/JoNEANT.tra~
+
+/*
+LANGUAGE ~English~
+         ~english~
+         ~JoNEANT/Tra/French/SETUP-JoNEANT.tra~
+         ~JoNEANT/Tra/English/SETUP-JoNEANT.tra~
+*/
+
+
+////////////////////////// Start JoNEANT //////////////////////////
+
+/////                       \\\\\
+/////      Component 1      \\\\\
+/////                       \\\\\
+
+
+BEGIN @0 /* Installer "JoNEANT" version complète */
+DESIGNATED 0
+LABEL ~JoNEANT-11jo~
+REQUIRE_PREDICATE GAME_IS ~bgee bg2 bgt bg2ee eet~ @1
+//FORBID_COMPONENT ~Setup-JoNEANT~ ~0~ @2
+
+// Spécial
+
+//COPY ~%MOD_FOLDER%/Spécial/JONEANT/JONEANT.CRE~   ~override~
+
+COPY ~JoNEANT/Cre/JONEANT.CRE~   ~override~
+	SAY NAME1 @20000
+	SAY NAME2 @20001
+	WRITE_LONG 0x20 THIS | (1 << 4) //(0x00000010 STATE_INVISIBLE)
+	WRITE_LONG 0x20 THIS | (1 << 21)//(0x00200000 STATE_NONDETECTION)
+	WRITE_LONG 0x20 THIS | (1 << 22) //(0x00400000 STATE_IMPROVEDINVISIBILITY) 
+	WRITE_SHORT 0x24 ~500~ // Current HP
+	WRITE_SHORT 0x26 ~500~ // Maximum HP
+	WRITE_LONG 0x28 ~0x4001~ // (NULL_ANIMATION - 0x4001)
+	WRITE_ASCII 0x248 ~JONEANT~ (8) // Override script
+	WRITE_ASCII 0x280 ~JONEANT~ (8) // Script name / Death variable
+	WRITE_ASCII 0x2cc ~JONEANT~ (8) // Dlg name
+	ADD_CRE_ITEM ~JONEANT1~ #0 #0 #0 ~identified&unstealable~ ~inv2~
+
+COPY ~JoNEANT/Cre/JONEANT4.CRE~   ~override~
+	SAY NAME1 @20000
+	SAY NAME2 @20001
+	WRITE_LONG 0x20 THIS | (1 << 4) //(0x00000010 STATE_INVISIBLE)
+	WRITE_LONG 0x20 THIS | (1 << 21)//(0x00200000 STATE_NONDETECTION)
+	WRITE_LONG 0x20 THIS | (1 << 22) //(0x00400000 STATE_IMPROVEDINVISIBILITY) 
+	WRITE_SHORT 0x24 ~500~ // Current HP
+	WRITE_SHORT 0x26 ~500~ // Maximum HP
+	WRITE_LONG 0x28 ~0x4001~ // (NULL_ANIMATION - 0x4001)
+	WRITE_ASCII 0x248 ~JONEANT~ (8) // Override script
+	WRITE_ASCII 0x280 ~JONEANT4~ (8) // Script name / Death variable
+	WRITE_ASCII 0x2cc ~JONEANT~ (8) // Dlg name
+	ADD_CRE_ITEM ~JONEANT1~ #0 #0 #0 ~identified&unstealable~ ~inv2~
+
+COPY ~JoNEANT/Cre/JONEANT7.CRE~   ~override~
+	SAY NAME1 @20000
+	SAY NAME2 @20001
+	WRITE_LONG 0x20 THIS | (1 << 4) //(0x00000010 STATE_INVISIBLE)
+	WRITE_LONG 0x20 THIS | (1 << 21)//(0x00200000 STATE_NONDETECTION)
+	WRITE_LONG 0x20 THIS | (1 << 22) //(0x00400000 STATE_IMPROVEDINVISIBILITY) 
+	WRITE_SHORT 0x24 ~500~ // Current HP
+	WRITE_SHORT 0x26 ~500~ // Maximum HP
+	WRITE_LONG 0x28 ~0x4001~ // (NULL_ANIMATION - 0x4001)
+	WRITE_ASCII 0x248 ~JONEANT~ (8) // Override script
+	WRITE_ASCII 0x280 ~JONEANT7~ (8) // Script name / Death variable
+	WRITE_ASCII 0x2cc ~JONEANT~ (8) // Dlg name
+	ADD_CRE_ITEM ~JONEANT1~ #0 #0 #0 ~identified&unstealable~ ~inv2~
+
+COPY ~JoNEANT/Cre/JONEAN10.CRE~   ~override~
+	SAY NAME1 @20000
+	SAY NAME2 @20001
+	WRITE_LONG 0x20 THIS | (1 << 4) //(0x00000010 STATE_INVISIBLE)
+	WRITE_LONG 0x20 THIS | (1 << 21)//(0x00200000 STATE_NONDETECTION)
+	WRITE_LONG 0x20 THIS | (1 << 22) //(0x00400000 STATE_IMPROVEDINVISIBILITY) 
+	WRITE_SHORT 0x24 ~500~ // Current HP
+	WRITE_SHORT 0x26 ~500~ // Maximum HP
+	WRITE_LONG 0x28 ~0x4001~ // (NULL_ANIMATION - 0x4001)
+	WRITE_ASCII 0x248 ~JONEANT~ (8) // Override script
+	WRITE_ASCII 0x280 ~JONEAN10~ (8) // Script name / Death variable
+	WRITE_ASCII 0x2cc ~JONEANT~ (8) // Dlg name
+	ADD_CRE_ITEM ~JONEANT1~ #0 #0 #0 ~identified&unstealable~ ~inv2~
+
+COPY ~JoNEANT/Cre/JONEAN28.CRE~   ~override~
+	SAY NAME1 @20000
+	SAY NAME2 @20001
+	WRITE_LONG 0x20 THIS | (1 << 4) //(0x00000010 STATE_INVISIBLE)
+	WRITE_LONG 0x20 THIS | (1 << 21)//(0x00200000 STATE_NONDETECTION)
+	WRITE_LONG 0x20 THIS | (1 << 22) //(0x00400000 STATE_IMPROVEDINVISIBILITY) 
+	WRITE_SHORT 0x24 ~500~ // Current HP
+	WRITE_SHORT 0x26 ~500~ // Maximum HP
+	WRITE_LONG 0x28 ~0x4001~ // (NULL_ANIMATION - 0x4001)
+	WRITE_ASCII 0x248 ~JONEANT~ (8) // Override script
+	WRITE_ASCII 0x280 ~JONEAN28~ (8) // Script name / Death variable
+	WRITE_ASCII 0x2cc ~JONEANT~ (8) // Dlg name
+	ADD_CRE_ITEM ~JONEANT1~ #0 #0 #0 ~identified&unstealable~ ~inv2~
+
+COPY ~JoNEANT/Itm/JONEANT1.ITM~   ~override~
+	SAY NAME1 @10004
+	SAY NAME2 @10004
+	SAY DESC @10005
+	SAY UNIDENTIFIED_DESC @10005
+
+COMPILE ~JoNEANT/Dlg/JONEANT.D~   ~override~
+
+COMPILE ~JoNEANT/Baf/JONEANT.BAF~   ~override~

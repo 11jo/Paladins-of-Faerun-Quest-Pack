@@ -8,9 +8,13 @@
 @7 = ~Nun, Ihr habt mich überzeugt, vielleicht ist es das wert.~
 @8 = ~Ich habe mich bereits entschieden. Viel Glück!~
 @9 = ~Großartig, ich werde am Höhleneingang im Norden auf Euch warten, wenn Ihr bereit seid.~
+
+/*
 @10 = ~Hrothgar.
 
 Ich habe mit dem Zauberer von Osthafen gesprochen, ich habe ihm versprochen, ihm zu helfen, Hrothgar wiederzubeleben, der Dämon ist in einer Höhle nördlich von hier.~
+*/
+
 @11 = ~Seid Ihr zurück? Wollt Ihr mir helfen?~
 @12 = ~Ja, ich werde den Dämon finden und töten.~
 @13 = ~Nein, ich gehe.~

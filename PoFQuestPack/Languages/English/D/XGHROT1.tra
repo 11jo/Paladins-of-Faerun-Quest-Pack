@@ -8,9 +8,13 @@
 @7 = ~ Well, you convinced me, maybe it's worth it. ~
 @8 = ~ I already decided. Good luck! ~
 @9 = ~ Great, I'll be waiting for you at the cave entrance in the north when you are ready. ~
+
+/*
 @10 = ~ Hrothgar.
 
 I talked to the wizard from the eastern harbor, I promised to help him revive Hrothgar, the demon is in a cave north of here. ~
+*/
+
 @11 = ~ Are you back? Do you want to help me? ~
 @12 = ~ Yes, I will find and kill the demon. ~
 @13 = ~ No, I'm leaving. ~

@@ -4,10 +4,20 @@
 @3 = ~ And why do you need exactly <CHARNAME>? ~
 @4 = ~ Along the way, I heard a lot of stories about him and his group. I believe that he can help us. Have you heard of him? ~
 @5 = ~ Yes, it's me <CHARNAME>. I will help you deal with the demon and free Hrothgar. ~
+
+/*
+(@50502)
 @6 = ~ Hrothgar.
 
 The Paladin from Deep Water asked me for help. It is necessary to save the already dead hero from East Harbor. His name is Hrothgar and his followers have found a way to bring him back to life. But, unfortunately, the situation suddenly became complicated and a demon appeared instead of Hrothgar. If you kill the demon, Hrothgar will again be among the living. ~
+*/
+
 @7 = ~ I'm really sorry, but don't believe all the rumors. Goodbye. ~
+
+/*
+(@50505)
+
 @8 = ~ Hrothgar.
 
 Job rejected. ~
+*/

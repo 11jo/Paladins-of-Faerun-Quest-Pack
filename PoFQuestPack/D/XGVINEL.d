@@ -84,7 +84,7 @@ IF ~~ THEN BEGIN 13
     EraseJournalEntry(@50437) 
     EraseJournalEntry(@50401) 
     EraseJournalEntry(@50436)
-	AddJournalEntry(@50439,QUEST)
+    AddJournalEntry(@50439,QUEST)
 EscapeArea()~ EXIT
 END
 

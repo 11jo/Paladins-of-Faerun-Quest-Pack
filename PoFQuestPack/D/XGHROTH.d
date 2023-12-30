@@ -51,8 +51,9 @@ END
 IF ~~ THEN BEGIN 9
   SAY @19
   IF ~~ THEN DO ~RevealAreaOnMap("XG0801")
+AddJournalEntry(@50506,QUEST)
 EscapeArea()
-~ UNSOLVED_JOURNAL @20 EXIT
+~ EXIT
 END
 
 IF ~~ THEN BEGIN 10
@@ -70,8 +71,9 @@ END
 IF ~~ THEN BEGIN 12
   SAY @19
   IF ~~ THEN DO ~RevealAreaOnMap("XG0801")
+AddJournalEntry(@50506,QUEST)
 EscapeArea()
-~ UNSOLVED_JOURNAL @20 EXIT
+~ EXIT
 END
 
 IF ~NumTimesTalkedTo(1)~ THEN BEGIN 13
@@ -83,6 +85,7 @@ END
 IF ~~ THEN BEGIN 14
   SAY @19
   IF ~~ THEN DO ~RevealAreaOnMap("XG0801")
+AddJournalEntry(@50506,QUEST)
 EscapeArea()
-~ UNSOLVED_JOURNAL @20 EXIT
+~ EXIT
 END

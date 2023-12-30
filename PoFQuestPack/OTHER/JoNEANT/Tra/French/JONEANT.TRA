@@ -1,0 +1,25 @@
+@0 = ~Installer "JoNEANT"~
+@1 = ~Ce mod necessite BHEE / BG2ToB / BGT ou BG2EE / EET~
+
+// Base
+
+@1000 = ~Hello !~
+@1001 = ~Citrouille !~
+@1002 = ~Réduis ton champ de vision de moitié et devient invisible~
+@1003 = ~Double ton champ de vision et devient invisible.~
+@1004 = ~Réduis ton champ de vision au minimum et devient invisible.~
+@1005 = ~Rejoins le groupe !~
+@1006 = ~Reviens à ton champ de vision normal et devient invisible.~
+@1007 = ~Réduis ton champ de vision au quart et devient invisible.~
+
+
+// Items
+
+@10004 = ~Anneau de visibilité~
+@10005 = ~Active l'animation du personnage et rétablit son champ de vision à la normale~
+
+
+// Créature
+
+@20000 = ~Néant~
+@20001 = ~Néant~

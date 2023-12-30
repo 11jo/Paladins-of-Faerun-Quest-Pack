@@ -17,9 +17,13 @@
 @17 = ~Das scheint eine gute Idee zu sein, können wir weitermachen?~
 @18 = ~Ich bin nicht interessiert, Hrothgar, vielleicht später, wenn Ihr Zeit habt zu warten.~
 @19 = ~Das ist der Ort, kommt dorthin, wenn Ihr bereit seid!~
+
+/*
 @20 = ~Hrothgar.
 
 Ich traf einen Abenteurer wie mich in Targos, sein Name ist Hrotgar, er brauchte Hilfe, er wurde beauftragt, hochrangige Leute nach Luskan zu eskortieren. Sie gerieten in einen Hinterhalt, sie wurden von einer Gruppe unbekannter Kreaturen angegriffen. Hrothgar erzählte mir, dass er sie nach Norden fliehen sah... Er fand dort eine Höhle voll des Bösen. Er bat mich um Hilfe, gemeinsam müssen wir die Höhlen erkunden und das Böse vertreiben!~
+*/
+
 @21 = ~Ihr also zurück, habt Ihr Zeit, mir zu helfen?~
 @22 = ~Ja, ich bin interessiert, zeigt mir, wo ich hingehen soll.~
 @23 = ~Ich bin nicht interessiert, vielleicht später...~

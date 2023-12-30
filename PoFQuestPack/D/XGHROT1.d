@@ -24,7 +24,7 @@ END
 
 IF ~~ THEN BEGIN 4
   SAY @9
-  IF ~~ THEN DO ~EscapeArea()~ UNSOLVED_JOURNAL @10 EXIT
+  IF ~~ THEN DO ~AddJournalEntry(@50503,QUEST) EscapeArea()~ EXIT
 END
 
 IF ~Global("s#XGHROT1","GLOBAL",1)~ THEN BEGIN 5

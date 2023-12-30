@@ -54,12 +54,10 @@ After installing the mod, be sure to install the [BP-BGT-Worlmap mod](https://gi
 PoFQuestPack is implemented in WeiDU format and should be compatible with other WeiDU mods. If you find any errors, please report them to the mod support forum:
 
 
- - [English forum - Spellhold Studios](http://www.shsforums.net/topic/60732-paladins-of-faerun-quest-pack/)
+ - [Forum - Spellhold Studios](http://www.shsforums.net/topic/60732-paladins-of-faerun-quest-pack/)
  
 
- - [English forum - The Three Gibberlings](https://www.gibberlings3.net/forums/topic/36756-the-gate-project/)
-
- - [French forum - la Couronne de Cuivre](https://www.baldursgateworld.fr/)
+ - [Forum - The Three Gibberlings](https://www.gibberlings3.net/forums/topic/36756-the-gate-project/)
 
 
 ## Content
@@ -87,9 +85,9 @@ The mod contains with itself a large main quest "Paladins of Faerûn", two side q
 - Infinity Explorer, by Dmitry Jemerov / bigmoshi
 - TISpack by Per Olofsson
 
-## Special Thanks 
+## Special Thanks (for their help or tools)
 
-- Selphira, Graion Dilach and Argent77
+- Selphira, Graion Dilach, Paladin84, Argent77 and K4thos
 
 
 ## LEGAL
@@ -231,4 +229,10 @@ SETUP-PoFQuestPack.tra add  @2000, @2003, @2002
 - Correction for worldmap (in progress)
 - Journal entries to Quest entries (in progress)
 
-Special thanks (for their help or tools) to Selphira, Graion Dilach, Argent77 and K4thos
+
+### In progress
+
+- Journal entries to Quest entries (in progress)
+- Area variable unstead of AREA_TYPE
+- A7 function for PVRZ
+- AT_INTERACTIVE no more (in progress)

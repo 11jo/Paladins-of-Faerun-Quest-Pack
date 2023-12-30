@@ -5132,7 +5132,7 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0328", "(PoF)  Hall des élémentaires, (Troisième Relique)"},
 	
 	
-	{"  ", "        ATHKATLA        "},
+	{"PoF", "        ATHKATLA        "},
 	{"XG0068", "(PoF)  Quartier des Affaires, (Athkatla)"},
 	{"XG0168", "(PoF)  Demeure du Roi des Affaires, (Athkatla)"},
 	{"XG0000", "(PoF)  Trayak, le sorcier, (Quartier des Temples)"},
@@ -5148,7 +5148,7 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0403", "(PoF)  Intérieur des Mines, (Main du démon)"},
 	{"XG04N3", "(PoF)  Intérieur des Mines, (Main du démon Zone secondaire)"},
 	
-	{"  ", "        ÎLES des PIRATES        "},
+	{"PoF", "        ÎLES des PIRATES        "},
 	{"XG0033", "(PoF)  Village près de Teziir, (Attaqué)"},
 	{"XG0133", "(PoF)  Village près de Teziir, (Libéré)"},
 	{"XG0013", "(PoF)  Bateau des pirates, (Mer des étoiles déchues)"},
@@ -5161,7 +5161,7 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0049", "(PoF)  Guilde des poignards errants"},
 	{"XG0149", "(PoF)  Planque des poignards errants"},	
 	
-	{"  ", "        TETHYR        "},
+	{"PoF", "        TETHYR        "},
 	{"XG0076", "(PoF)  Château de la forêt de Tethyr"},
 	{"XG0176", "(PoF)  Entrée du château"},
 	{"XG0276", "(PoF)  Intérieur du château, (Quête de la Forêt)"},
@@ -5171,7 +5171,7 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0178", "(PoF)  Sous-sol de Château-Tethyr, (Pour la forêt !)"},
 	{"XG0278", "(PoF)  Intérieur de Château-Tethyr, (Pour la forêt !)"},
 	
-	{"  ", "        PORTE de BALDUR        "},
+	{"PoF", "        PORTE de BALDUR        "},
 	{"XG0020", "(PoF)  Porte de Baldur"},
 	{"XG0220", "(PoF)  Maison"},
 	{"XG0120", "(PoF)  Taverne, L1"},
@@ -5186,7 +5186,7 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0052", "(PoF)  Forteresse Glacée"},	
 	{"XG0152", "(PoF)  Intérieur de la Forteresse, (Ar-Ju-Nam)"},	
 	
-	{"  ", "        TARGOS        "},
+	{"PoF", "        TARGOS        "},
 	{"XG0025", "(PoF)  Quais de Targos"},
 	{"XG0024", "(PoF)  Targos"},
 	{"XG0524", "(PoF)  Auberge de Targos"},
@@ -5210,7 +5210,7 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0701", "(PoF)  Le Fort de la Sorcière"},
 	{"XG0702", "(PoF)  Intérieur du Fort de la Sorcière"},
 	
-	{"  ", "        EAUPROFONDE        "},
+	{"PoF", "        EAUPROFONDE        "},
 	{"XG0064", "(PoF)  Eauprofonde, (Quête de l'Arène, Quête de Hrothgar)"},
 	{"XG0164", "(PoF)  Château d'Eauprofonde, L1 (Quête du Seigneur Masqué, Quête de la cité des prêtres)"},
 	{"XG0964", "(PoF)  Château d'Eauprofonde, L1 (Quête du Seigneur Masqué, Quête du Col de la Forêt)"},
@@ -5250,14 +5250,14 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 		
 	{"XG0075", "(PoF)  Arène"},
 	
-	{"  ", "        HROTHGAR       "},	
+	{"PoF", "        HROTHGAR       "},	
 	{"XG0801", "(PoF)  Camp de Hrothgar"},
-	{"XG0801", "(PoF)  Camp de Hrothgar, (Rajkskul)"},
+	{"XG0803", "(PoF)  Camp de Hrothgar, (Rajkskul)"},
 	{"XG0009", "(PoF)  Antre des Morts-vivants"},
 	{"XG0901", "(PoF)  Intérieur de l'antre des Morts-vivants"},
 	{"XG0902", "(PoF)  Intérieur de l'antre des Morts-vivants, (Udorril)"},
 	{"XG0903", "(PoF)  Intérieur de l'antre des Morts-vivants, (Chambre)"},	
-	{"  ", "        HAVREDEST       "},	
+	{"PoF", "        HAVREDEST       "},	
 	{"XG0047", "(PoF)  Havredest, (Quête l'Ordre et le Chaos)"},
 	{"XG0347", "(PoF)  Maison de Hrothgar"},
 	{"XG0147", "(PoF)  Temple"},
@@ -5266,7 +5266,7 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0747", "(PoF)  Grotte du voleur"},
 	{"XG0547", "(PoF)  Marchand / Tavernier"},
 	{"XG0447", "(PoF)  Auberge"},	
-	{"  ", "        l'ORDRE et le CHAOS        "},	
+	{"PoF", "        l'ORDRE et le CHAOS        "},	
 	{"XG0001", "(PoF)  Grotte des Marchands, (Prélude à l'Ordre et au Chaos, Wintrell à Franc-Marché)"},
 	{"XGTORM", "(PoF)  Zone de transition, (Torm)"},
 	{"XGKAR1", "(PoF)  Caravane, (Torm)"},

@@ -352,4 +352,48 @@ Ich traf Wintrell, den Novizen von Torm in Handelstreff, aber ich konnte ihm nic
 Ich habe den Mörder von Torms Anhängern aufgespürt, er hat sich als Priester von Cyric herausgestellt. Vielleicht ist dies eine Konfrontation zwischen den Kirchen?~ // @26
 
 
+/////////// Hrothgar.
+// Title
+
+@50500 = ~Hrothgar~
+
+// XGH2
+
+@50501 = ~Hrothgar
+
+Ich muss einen Dämon finden und Hrothgar befreien, das Monster versteckt sich irgendwo in einer örtlichen Höhle.~
+
+@50502 = ~Hrothgar
+
+Der Paladin aus Tiefwasser hat mich um Hilfe gebeten. Es ist notwendig, den bereits verstorbenen Helden von Osthafen zu retten. Sein Name ist Hrothgar und seine Anhänger haben einen Weg gefunden, ihn wieder zum Leben zu erwecken. Aber leider wurde die Situation plötzlich kompliziert und anstelle von Hrothgar erschien ein Dämon. Wenn Ihr den Dämon tötet, wird Hrothgar wieder unter den Lebenden weilen.~
+
+@50503 = ~Hrothgar
+
+Ich habe mit dem Zauberer vom Osthafen geredet und ihm versprochen, ihm zu helfen, Hrothgar wiederzubeleben, der Dämon ist in einer Höhle nördlich von hier.~
+
+@50504 = ~Hrothgar
+
+Der Dämon ist tot und Hrothgar ist nach 100 Jahren wieder unter den Lebenden. Er lud mich ein, seine Stadt im Eiswindetal zu besuchen.~
+
+// XGPAL1
+
+@50505 = ~Hrothgar
+
+Mission abgelehnt.~
+
+// XGHROTH
+
+@50506 = ~Hrothgar
+
+Ich traf einen Abenteurer wie mich in Targos, sein Name ist Hrotgar, er brauchte Hilfe, er wurde beauftragt, hochrangige Leute nach Luskan zu eskortieren. Sie gerieten in einen Hinterhalt, sie wurden von einer Gruppe unbekannter Kreaturen angegriffen. Hrothgar erzählte mir, dass er sie nach Norden fliehen sah... Er fand dort eine Höhle voll des Bösen. Er bat mich um Hilfe, gemeinsam müssen wir die Höhlen erkunden und das Böse vertreiben!~
+
+
+
+
+
+
+
+
+
+
 

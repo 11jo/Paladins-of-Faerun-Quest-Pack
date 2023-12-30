@@ -2,6 +2,10 @@
 @1 = ~ Is he at the entrance or in the back of the cave? ~
 @2 = ~ I don't know for sure, but you will probably meet him there. ~
 @3 = ~ Okay, then goodbye. ~
+
+/* (@50501) XGH1 (same as XGH2 @7)
+
 @4 = ~ Hrothgar.
 
 I need to find a demon and free Hrothgar, the monster is hiding somewhere in a local cave. ~
+*/

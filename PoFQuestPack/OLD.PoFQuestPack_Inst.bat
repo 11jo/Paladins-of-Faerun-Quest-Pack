@@ -1,7 +1,7 @@
 
 @ECHO OFF
 
-copy PoFQuestPack\tisunpack.exe .\override
+copy PoFQuestPack\tools\tisunpack.exe .\override
 
 copy PoFQuestPack\OLD.tiz .\override
 

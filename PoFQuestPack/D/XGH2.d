@@ -13,12 +13,13 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @5
-  IF ~~ THEN REPLY @6 DO ~EraseJournalEntry(@7)
-EraseJournalEntry(@8)
-EraseJournalEntry(@9)
+  IF ~~ THEN REPLY @6 DO ~EraseJournalEntry(@50501)
+EraseJournalEntry(@50502)
+EraseJournalEntry(@50503)
 RevealAreaOnMap("XG0047")
 GiveGoldForce(4000)
 AddexperienceParty(10000)
 GiveItemCreate("XGNINJ1",Player1,0,0,0)
-EscapeArea()~ SOLVED_JOURNAL @10 EXIT
+AddJournalEntry(@50504,QUEST_DONE)
+EscapeArea()~ EXIT
 END

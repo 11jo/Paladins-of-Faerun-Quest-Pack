@@ -1,0 +1,93 @@
+// Escape Creature
+
+IF
+	Global("JONEANT","GLOBAL",30)
+THEN
+	RESPONSE #100
+		SetGlobal("JONEANT","GLOBAL",5)
+		EscapeArea()
+END
+
+// Escape Creature
+
+IF
+	Global("JONEANT","GLOBAL",40)
+THEN
+	RESPONSE #100
+		SetGlobal("JONEANT","GLOBAL",5)
+		DestroySelf()
+END
+
+// Create Creature
+
+IF
+	Global("JONEANT","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JONEANT","GLOBAL",5)
+		CreateCreatureObject("JONEANT",Protagonist,0,0,0)
+END
+
+// Make it come and talk to you
+
+IF
+	Global("JONEANT","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("JONEANT","GLOBAL",5)
+		MoveToObject(Protagonist)
+		StartDialogue("JONEANT",[PC])
+END
+
+// Make it visible
+
+IF
+	Global("JONEANT","GLOBAL",3)
+THEN
+	RESPONSE #100
+		SetGlobal("JONEANT","GLOBAL",5)
+		EquipItem("JONEANT1")
+END
+
+// Make it invisible reduce visual range to 7
+
+IF
+	Global("JONEANT","GLOBAL",7)
+THEN
+	RESPONSE #100
+		SetGlobal("JONEANT","GLOBAL",5)
+		EquipItem("JONEANT7")
+END
+
+// Make it invisible reduce visual range to minimum
+
+IF
+	Global("JONEANT","GLOBAL",10)
+THEN
+	RESPONSE #100
+		SetGlobal("JONEANT","GLOBAL",5)
+		EquipItem("JONEAN10")
+END
+
+// Make it invisible reduce visual range to 1/4
+
+IF
+	Global("JONEANT","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("JONEANT","GLOBAL",5)
+		CreateCreatureObject("JONEANT4",Myself,0,0,0)
+		DestroySelf()
+END
+
+// Make it invisible double visual range to 28
+
+IF
+	Global("JONEANT","GLOBAL",28)
+THEN
+	RESPONSE #100
+		SetGlobal("JONEANT","GLOBAL",5)
+		EquipItem("JONEAN28")
+END
+
+
