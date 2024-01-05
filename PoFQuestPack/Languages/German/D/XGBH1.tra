@@ -6,15 +6,23 @@
 @5 = ~Ich suche es, also was machen wir, Händler?~
 @6 = ~Wenn Ihr mir 10.000 Gold bringt, gebe ich Euch dieses Artefakt.~
 @7 = ~Okay, hier habt Ihr es.~
+
+/*
 @8 = ~Artefakt aus Kalimshan.
 
 Ich brauche 10.000 Gold, um das Artefakt zu bekommen.~
+*/
+
 @9 = ~Ich werde es dir bringen.~
 @10 = ~Ich denke, es ist einfacher für mich, ein Artefakt von Eurer Leiche zu nehmen!~
 @11 = ~Ausgezeichnet, hier ist das Artefakt. Aber seid vorsichtig, es ist sehr wertvoll, behaltet die Straße im Auge.~
 @12 = ~Danke für den Handel und auf Wiedersehen.~
+
+/*
 @13 = ~Artefakt aus Kalimshan.
 
 Ich habe ein Artefakt von einem der Schatzsucher in Kalimshan entdeckt.~
+*/
+
 @14 = ~So, Ihr seid zurück, habt Ihr 10.000 Gold?~
 @15 = ~Noch nicht.~

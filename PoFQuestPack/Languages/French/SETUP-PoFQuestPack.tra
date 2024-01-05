@@ -316,7 +316,7 @@
 @313 = ~Sir Solan~
 @314 = ~Sorcier~
 @315 = ~Capitaine du navire~
-@316 = ~Reine des araignées~
+@316 = ~Doyenne des araignées~
 @317 = ~Sir Wilnan Tigersoul~
 @318 = ~Seigneur Wilnan~
 @319 = ~Strange mage~
@@ -3149,7 +3149,7 @@ Nécessite : Strength 12
 Usable by:
   Paladin~
 @804 = ~This is a scroll that should allow me to talk to the skeletons.~
-@805 = ~Spider's body from a farm~
+@805 = ~Corps de la doyenne des araignées~
 @806 = ~Shuriken~
 @807 = ~Shuriken, or, colloquially, "star" - is a type of throwing daggers, one of the most common weapons of murderers and thieves. A shuriken is only the size of a human hand, but even such a small weapon can be deadly.
 
@@ -4130,7 +4130,7 @@ Poids : 1~
 @1038 = ~You were attacked by goblins~
 @1039 = ~You were awakened from sleep by the piercing screams of a combat squad of the xvarts, just at the moment when you started to dream something good...~
 @1040 = ~The air stinks terribly of gnolls. You thanked the gods for waking up on time and reaching for weapons.~
-@1041 = ~Smithy~
+@1041 = ~Forgeron~
 @1042 = ~Sanctuary~
 @1043 = ~Vous êtes attaqué par des vampires~
 @1044 = ~Vous êtes attaqué par des orques~
@@ -5323,8 +5323,8 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0058", "(PoF)  Vallée de L'Epine Dorsale"},
 	{"XG0079", "(PoF)  Ferme (près d'Esmeltaran)"},
 	{"XG4001", "(PoF)  Îles Moonshae"},
-	{"XG0A80", "(PoF)  Siluvanede"},
-	{"XG0080", "(PoF)  Siluvanede (bis)"},
+	{"XG0080", "(PoF)  Siluvanede"},
+	{"XG0A80", "(PoF)  Siluvanede (bis)"},
 	{"XG0780", "(PoF)  Camp Eilistraee"},
 	{"XG0680", "(PoF)  Forêt (vers Padhiver)"},~
 

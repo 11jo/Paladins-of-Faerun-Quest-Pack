@@ -37,17 +37,21 @@ ActionOverride(Player3,LeaveAreaLUA("XGb180","",[542.330],8))
 ActionOverride(Player4,LeaveAreaLUA("XGb180","",[356.381],8))
 ActionOverride(Player5,LeaveAreaLUA("XGb180","",[626.398],8))
 ActionOverride(Player6,LeaveAreaLUA("XGb180","",[520.555],8))
-EscapeArea()~ UNSOLVED_JOURNAL @11 EXIT
+AddJournalEntry(@50601,QUEST)
+EscapeArea()~ EXIT
 END
 
 IF ~~ THEN BEGIN 5
   SAY @12
-  IF ~~ THEN DO ~SetGlobal("s#XGdrb1","GLOBAL",1)~ UNSOLVED_JOURNAL @13 EXIT
+  IF ~~ THEN DO ~SetGlobal("s#XGdrb1","GLOBAL",1)
+AddJournalEntry(@50602,QUEST)~ EXIT
 END
 
 IF ~~ THEN BEGIN 6
   SAY @14
-  IF ~~ THEN DO ~ReputationInc(-1) EscapeArea()~ SOLVED_JOURNAL @15 EXIT
+  IF ~~ THEN DO ~ReputationInc(-1)
+AddJournalEntry(@50603,QUEST_DONE)
+EscapeArea()~ EXIT
 END
 
 IF ~Global("s#XGdrb1","GLOBAL",1)

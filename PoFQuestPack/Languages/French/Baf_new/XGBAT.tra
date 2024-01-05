@@ -1,17 +1,27 @@
 @0 = ~Trop tard, l'artefact n'est plus ici.~ // Charname
 @1 = ~Vous n'auriez pas dû faire ça, aventuriers, tuez moi ces traîtres et retrouvez l'artefact !~ // Adoster Son of the Dryad
+
+/*
 @2 = ~Un artefact à Calimshan. 
 
 L'artefact a été mis à l'abri et le chasseur de trésor n'est plus de ce monde. ~
+
+
 @3 = ~Un artefact à Calimshan.
 
 Le chasseur de trésor de la Grotte des Marchands a sollicité mon aide. Il est convoite un artefact de grande valeur, une corne magique. Je dois partir à sa recherche quelque part dans le désert au nord de Calimshan. ~
+
+
 @4 = ~Un artefact à Calimshan.
 
 Alors que je commencer les recherches, j'ai été accusé d'avoir dérobé ce fameux artefact. Peut-être m'ont-ils confondu avec quelqu'un d'autre, quoiqu'il en soit, il m'ont attaqué et j'ai pris la fuite.~
+
+
 @5 = ~Un artefact à Calimshan.
 
 J'ai besoin de 10 000 pièces d'or pour récupérer l'artefact.~
+
 @6 = ~Un artefact à Calimshan.
 
 J'ai enfin découvert l'artefact, chez l'un des chasseurs de trésors de Calimshan.~
+*/

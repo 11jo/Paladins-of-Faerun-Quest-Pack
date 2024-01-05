@@ -2,8 +2,9 @@ IF
   True()
 THEN
   RESPONSE #100
-    StartCutSceneMode()
-    FadeToColor([5.0],0)
+	ClearAllActions()
+	StartCutSceneMode()
+	FadeToColor([50.0],0)
     Wait(2)
     CreateCreature("XGBHC",[1086.1334],4)  // ~Адостер Сын Дриады~
     CreateCreature("XGBH",[1117.1398],4)  // ~Охотник за сокровищами~
@@ -12,22 +13,21 @@ THEN
     CreateCreature("XGBH",[1250.1403],4)  // ~Охотник за сокровищами~
     CreateCreature("XGBH",[1098.1207],2)  // ~Охотник за сокровищами~
     CreateCreature("XGBH",[1161.1263],2)  // ~Охотник за сокровищами~
-    ClearAllActions()
-    Wait(10)
+	FadeFromColor([50.0],0)
+    Wait(5)
     ActionOverride(Player1,MoveToPoint([916.1288]))
     ActionOverride(Player1,Face(12))
-    Wait(8)
+    Wait(4)
     DisplayStringHead(Player1,@0) 
-    Wait(5)
-    DisplayStringHead("XGBHC",@1)  
-    Wait(5)
-    ActionOverride("XGBHC",Enemy())
     Wait(3)
-    SetQuestDone(@2)  
-    EraseJournalEntry(@3) 
-    EraseJournalEntry(@4)  
-    EraseJournalEntry(@5)  
-    EraseJournalEntry(@6)  
+    DisplayStringHead("XGBHC",@1) 
+    ActionOverride("XGBHC",Enemy())
+    Wait(3) 
+    EraseJournalEntry(@50702) 
+    EraseJournalEntry(@50703)  
+    EraseJournalEntry(@50704)  
+    EraseJournalEntry(@50705) 
+	AddJournalEntry(@50707,QUEST_DONE) 
     EndCutSceneMode()
 END
 

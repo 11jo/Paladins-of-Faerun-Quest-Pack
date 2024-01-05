@@ -1,9 +1,12 @@
-@0 = ~ It seems that we have come off of them. ~
-@1 = ~ <CHARNAME>! Someone is coming. ~
-@2 = ~ Hey stranger, who are you? Nothing to freak out here if you are a merchant, go and talk with our leader, and without stupid things, I will follow you. ~
+@0 = ~Il semble que soyons sains et saufs.~
+@1 = ~<CHARNAME> ! Quelqu'un approche.~
+@2 = ~Salut, étranger, qui es-tu et que fais-tu ici ? Si tu es un marchand pas besoin de t'affoler, va simplement te présenter à notre chef... Et pas d'entourloupes, je te suis de près.~ ~Salut, étrangère, qui es-tu et que fais-tu ici ? Si tu es une marchande pas besoin de t'affoler, va simplement te présenter à notre chef... Et pas d'entourloupes, je te suis de près.~
+
+/*
 @3 = ~ Artifact from Kalimshan.
 
 I have been accused of stealing the artifact that I am looking for. Maybe they confused me with someone, that's why they attacked me, fortunately, I ran away from them. ~
 @4 = ~ Artifact from Kalimshan.
 
 I discovered an artifact from one of the treasure hunters in Kalimshan. ~
+*/

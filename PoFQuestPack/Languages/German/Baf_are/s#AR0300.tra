@@ -7,7 +7,11 @@
 @6 = ~Nein, jetzt braucht es doppelt so viel. Soll ich für 5000 Gold zurückkehren oder ihm weiter folgen?~
 @7 = ~Ich habe keine 5.000 Gold mehr, rettet meine Familie. Diese Ausrüstung muss nach dem Gespräch zerstört werden.~
 @8 = ~Okay, ich werde ihm folgen und Eure Familie retten. Macht's gut.~
+
+/*
 @9 = ~Familie.
 
 Jetzt wird ein Lösegeld von 10.000 Gold verlangt, nach dem Gespräch mit Opas habe ich beschlossen, diesem Mann zu folgen, er sollte mich zur Familie Opas führen.~
+*/
+
 @10 = ~Es ist dort.~

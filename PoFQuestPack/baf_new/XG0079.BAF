@@ -1,0 +1,32 @@
+IF
+	Global("s#XGfa","GLOBAL",3)
+THEN
+	RESPONSE #100
+		CreateCreature("XGfa",[1896.593],14)
+		SetGlobal("s#XGfa","GLOBAL",5)
+END
+
+IF
+	Global("s#XGfa","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("s#XGfa","GLOBAL",5)
+		CreateCreature("XGfa",[1896.593],14)
+		CreateCreature("XGSPQ",[1896.593],14)		
+		ActionOverride("XGSPQ",Attack("XGfa"))
+END
+
+IF
+	Dead("XGfa")
+	Global("s#DeadXGfa","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("SPIDGI01",[728.1546],14) // (Araignée géante)	
+		CreateCreature("SPIDPH01",[264.1365],14) // (Araignée éclipsante)
+		CreateCreature("SPIDSW01",[543.1505],14) // (Araignée-sabre)
+		CreateCreature("SPIDGI01",[1454.794],14) // (Araignée géante)	
+		CreateCreature("SPIDPH01",[1874.518],14) // (Araignée éclipsante)
+		CreateCreature("SPIDSW01",[2187.551],14) // (Araignée-sabre)
+		CreateCreature("SPIDGI01",[2395.879],14) // (Araignée géante)	
+		SetGlobal("s#DeadXGfa","GLOBAL",1)
+END

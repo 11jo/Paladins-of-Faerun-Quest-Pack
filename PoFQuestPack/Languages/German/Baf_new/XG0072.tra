@@ -1,5 +1,7 @@
 @0 = ~Hier ist ein Artefakt, ich hoffe, es ist die Belohnung wert.~
 @1 = ~Ausgezeichnet, Abenteurer. Hier ist Eure Belohnung. Auf Wiedersehen.~ ~ Ausgezeichnet, Abenteurerin. Hier ist Eure Belohnung. Auf Wiedersehen.~
+
+/*
 @2 = ~Ein Artefakt aus Kalimshan.
 
 Das Artefakt wurde verschenkt.~
@@ -18,3 +20,4 @@ Ich habe ein Artefakt von einem der Schatzsucher in Kalimshan gefunden.~
 @7 = ~Ein Artefakt aus Kalimshan.
 
 Ich habe den Wächter des Artefakts getötet, jetzt muss ich nach Handelstreff gehen.~
+*/

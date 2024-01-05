@@ -1,4 +1,6 @@
 @0 = ~ I heard about your success! You deserve our thanks, adventurer. I have a reward for you. Good luck on your journeys. You will always be considered friends of the priestesses of Eilistraee. ~
+
+/*
 @1 = ~ Sylvanowed.
 
 Priestess Shaar, the mother of the newly-ordained Elf Dhaerovatila, asked me to look after her son. He went south of the city. ~
@@ -17,4 +19,6 @@ I promised the priestess of Eilistraee help in conducting peaceful negotiations 
 @6 = ~ Sylvanowed.
 
 The task is completed, the united houses of Ched Nasad are now crushed, as well as their leader. ~
+*/
+
 @7 = ~ We must kill all the servants of Lolth! ~

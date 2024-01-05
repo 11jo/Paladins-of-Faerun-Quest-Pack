@@ -1,4 +1,4 @@
-@0 = ~ Look, this is definitely one of those treacherous treasure hunters. Grab it! ~
-@1 = ~ Wait, this is a misunderstanding! I'm not a treasure hunter, I'm an adventurer ... ~
-@2 = ~ You stole a magic horn! Take it! ~
-@3 = ~ We must retreat! There are too many! ~
+@0 = ~Regardez moi ça, encore l'un de ces chasseurs de trésors, votre avidité n'a donc aucune limite. C'est forcément lui. Saisissez-le !~ ~Regardez moi ça, encore l'une de ces chasseuses de trésors, votre avidité n'a donc aucune limite. C'est forcément elle. Saisissez-la !~
+@1 = ~Attendez, il y a erreur sur la personne ! Je ne suis pas un chasseur de trésor mais un aventurier...~ ~Attendez, il y a erreur sur la personne ! Je ne suis pas une chasseuse de trésor mais une aventurière...~
+@2 = ~Vous avez volé le Corne magique ! Maîtrisez-le immédiatement !~ ~Vous avez volé le Corne magique ! Maîtrisez-la immédiatement !~
+@3 = ~Ils sont trop nombreux ! Pas le choix, il faut battre en retraite !~

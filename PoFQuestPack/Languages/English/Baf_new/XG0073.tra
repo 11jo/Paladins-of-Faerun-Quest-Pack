@@ -1,9 +1,12 @@
 @0 = ~ It seems that we have come off of them. ~
 @1 = ~ <CHARNAME>! Someone is coming. ~
 @2 = ~ Hey stranger, who are you? Nothing to freak out here if you are a merchant, go and talk with our leader, and without stupid things, I will follow you. ~
+
+/*
 @3 = ~ Artifact from Kalimshan.
 
 I have been accused of stealing the artifact that I am looking for. Maybe they confused me with someone, that's why they attacked me, fortunately, I ran away from them. ~
 @4 = ~ Artifact from Kalimshan.
 
 I discovered an artifact from one of the treasure hunters in Kalimshan. ~
+*/

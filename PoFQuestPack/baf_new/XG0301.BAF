@@ -34,7 +34,8 @@ THEN
     DisplayString("XGSWILL",@0)  // @0
     Wait(4)
     EraseJournalEntry(@1)  // @1
-    EraseJournalEntry(@2)  // @2
+    // EraseJournalEntry(@2)  //  Replaced by QUEST_DONE below
+    AddJournalEntry(@2,QUEST_DONE)  // @2
     AddexperienceParty(10000)
     GivePartyGold(2000)
     ActionOverride("XGSWILL",EscapeArea())

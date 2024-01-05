@@ -7,7 +7,11 @@
 @6 = ~ No, now it requires twice as much. Do I need to return for 5000 gold or continue to follow it? ~
 @7 = ~ I don't have another 5,000 gold, save my family. This equipment must be destroyed after the conversation. ~
 @8 = ~ Okay, I will follow him and save your family. Bye. ~
+
+/*
 @9 = ~ Family.
 
 Now a ransom of 10,000 gold is required, after talking with Danger, I decided to follow this man, he must lead me to the Opas family. ~
+*/
+
 @10 = ~ It's there. ~

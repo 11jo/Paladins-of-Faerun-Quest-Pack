@@ -98,7 +98,7 @@ THEN
 		SetGlobal("S#opasAR1000","AR1000",2)
 		StartCutSceneMode()
 		DisplayStringHead(Player1,@9)  // @9
-		AddJournalEntry(@10,QUEST)
+		AddJournalEntry(@50803,QUEST)
 		Wait(4)
 		TakePartyItem("XGLETT2")
 		RevealAreaOnMap("XG0050")

@@ -24,9 +24,10 @@ END
 IF ~NumTimesTalkedTo(1)
 Dead("XGdrlq")~ THEN BEGIN 5
   SAY @6
-  IF ~~ THEN DO ~ActionOverride("XGdre2",EscapeArea())
+  IF ~~ THEN DO ~
+SetGlobal("XGdwqTimeToTalk","GLOBAL",1)
+ActionOverride("XGdre2",EscapeArea())
 ActionOverride("XGdre3",EscapeArea())
 ActionOverride("XGdre4",EscapeArea())
-ActionOverride("XGdwq",StartDialogue("XGdwq",Player1))
 EscapeArea()~ EXIT
 END

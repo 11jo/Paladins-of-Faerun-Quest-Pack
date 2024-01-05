@@ -45,15 +45,15 @@ XG0056      XG0056    XG0056     4       64      2551   1872   @POF_77695  @POF_
 XG0059      XG0059    XG0059     4       63      3008   3485   @POF_74579  @POF_74579  N        // Village (Floconeigeuse) // Village //
 XG0060      XG0060    XG0060     4       65      2786   3437   @POF_76029  @POF_76029  N        // Montagnes (Floconeigeuse) // Mountains //
 XG0070      XG0070    XG0070     4       42      1508   1686   @POF_77798  @POF_77798  N        // Ferme (près du Gué de la Dague) // Farm //
-XG0072      XG0072    XG0072     4       65      1783   4182   @POF_77895  @POF_77895  N        // Désert Calim (près de Memnon) // Calim Desert //
-XG0073      XG0073    XG0073     4       68      1913   4148   @POF_77895  @POF_77895  N        // Désert Calim  (près de Darromar)// Calim Desert //
+XG0073      XG0073    XG0073     4       65      1783   4182   @POF_77895  @POF_77895  N        // Désert Calim (près de Memnon) // Calim Desert //
+XG0072      XG0072    XG0072     4       68      1913   4148   @POF_77895  @POF_77895  N        // Désert Calim  (près de Darromar)// Calim Desert //
 XG0075      XG0075    XG0075     4       80      2881   1642   @POF_48374  @POF_48374  N        // Arène // Arena //
 XG1319      XG1319    XG1319     4       42      1319   2255   @POF_74570  @POF_74570  N        // Village Abandonné (bis) // Abandoned Village //
 XG0076      XG0076    XG0076     4       71      1816   3916   @POF_78121  @POF_78121  N        // Château-Téthyr // Forest of Tehyr //
 XG0077      XG0077    XG0077     4       47      1680   3750   @POF_78122  @POF_78122  N        // Forêt de Téthyr // Forest of Tehyr //
 XG0078      XG0078    XG0078     4       71      1816   3916   @POF_78121  @POF_78121  N        // Château-Téthyr // Castle of Tehyr //
 XG0058      XG0058    XG0058     4       69        50    310   @POF_77510  @POF_77510  N        // Vallée de L'Épine Dorsale // Valley of Icewind Dale //
-XG0079      XG0079    XG0079     4       57      2206   3128   @POF_77798  @POF_77798  N        // Ferme (près d'Esmeltaran) // Farm //
+XG0079      XG0079    XG0079     4       57      2300   3685   @POF_77798  @POF_77798  N        // Ferme (près d'Esmeltaran) // Farm //
 XG4001      XG4001    XG4001     4       70       520   2450   @POF_75566  @POF_75566  N        // Îles Moonshae // Moonshae Isles //
 XG0081      XG0081    XG0081     4       47      2886   2256   @POF_78402  @POF_78402  N        // Montagnes du Couchant // Twilight Mountains //
 XG1081      XG1081    XG1081     4       54      2886   2256   @POF_78402  @POF_78402  N        // Village du Couchant (Torm monastère) // Twilight Mountains //

@@ -1,8 +1,12 @@
-@0 = ~ We know that you have an artifact. Give it to us and you can safely leave. ~
-@1 = ~ Well, here you go. I do not want to have problems. ~
-@2 = ~ I'm sorry, but I promised to bring it to someone. ~
-@3 = ~ Then you have to fight us. ~
+@0 = ~Nous savons que vous détenez l'artefact. Remettez-le nous et vous serez libres de partir en toute sécurité.~
+@1 = ~D'accord, le voilà. Je ne veux pas de problèmes.~
+@2 = ~Vous m'en voyez navré, mais j'ai déjà promis de le donner à quelqu'un d'autre.~ ~Vous m'en voyez navrée, mais j'ai déjà promis de le donner à quelqu'un d'autre.~
+@3 = ~Alors nous allons devoir vous le prendre de force.~
+
+/*
 @4 = ~ Artifact from Kalimshan.
 
 I killed the guard of the artifact, now I need to go to Trademith. ~
-@5 = ~ A wise decision. You can go. ~
+*/
+
+@5 = ~Sage décision. Vous pouvez disposer.~

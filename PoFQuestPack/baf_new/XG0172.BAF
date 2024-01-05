@@ -7,7 +7,7 @@ THEN
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
-    Wait(3)
+    Wait(1)
     Explore()
     MoveViewPoint([473.1003],SLOW)
     ActionOverride(Player1,MoveToPoint([551.343]))
@@ -39,9 +39,18 @@ THEN
   RESPONSE #100
     SetGlobal("RevealXG0172","XG0172",1)
     Wait(2)
-    CreateCreature("XGPR",[477.276],14)  // ~Отрекшийся~
+    CreateCreatureDoor("XGPR",[477.276],14)  // ~Отрекшийся~
+    CreateCreature("XGNIN6",[650.218],2)  // ~Ниндзя~
     CreateCreature("XGNIN6",[650.218],2)  // ~Ниндзя~
     CreateCreature("XGNIN7",[1061.1182],4)  // ~Ниндзя~
+    CreateCreature("XGNIN7",[1061.1182],4)  // ~Ниндзя~ 
+    Wait(1)
+    CreateCreatureDoor("XGPR",[403.422],14)  // ~Отрекшийся~
+    Wait(2)
+    CreateCreature("XGNIN6",[650.218],2)  // ~Ниндзя~
+    CreateCreature("XGNIN6",[650.218],2)  // ~Ниндзя~
+    CreateCreature("XGNIN7",[1061.1182],4)  // ~Ниндзя~
+    CreateCreature("XGNIN7",[1061.1182],4)  // ~Ниндзя~ 
     ClearAllActions()
     DisplayStringHead(Player1,@3) 
     Wait(5)

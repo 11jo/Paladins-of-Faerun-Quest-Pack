@@ -1,5 +1,7 @@
 @0 = ~ Thank you for saving me from these evil soldiers. Unfortunately I have nothing to offer you. ~
 @1 = ~ Nothing, I was happy to help you. ~
-@2 = ~ Tetir Forest.
+
+// Ne pas confondre avec le reste de la quête de Tethyr  THIS ONE sHOULD BE GOOD FOR REGULAR JOURNAL
+@2 = ~Une dryade en Tethyr.
 
 In the Tetir Forest, I saved the dryad from aggressive soldiers, my gratitude was my reward. ~

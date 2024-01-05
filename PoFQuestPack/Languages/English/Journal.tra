@@ -389,8 +389,130 @@ Job rejected. ~
 I met an adventurer in Targos, such as myself, his name is Hrotgar, he needed help, he was appointed to escort high-ranking people to Luskan. They were ambushed, they were attacked by a group of unknown creatures. Hrothgar told me that he saw them running north ... He found there a cave of complete evil. He asked me for help, together we must explore the caves and drive away evil!~
 
 
+//////////////////////  Siluvanede.
+// Title
+
+@50600 = ~Siluvanede~
+
+// XGdrb1
+
+@50601 = ~Siluvanede
+
+I promised the priestess of Eilistraee help in conducting peaceful negotiations with the priests of Chevaros. This world could end the threat from Ched Nasad.~ // @11
+
+@50602 = ~Siluvanede
+
+Priestess Eilistraee found out that I accidentally killed her sisters. This can only be redeemed if I manage to kill the old dragon, which is located somewhere in the cave. If all goes well, the High Priestess will be ready to speak with me again.~ // @13
+
+@50603 = ~Siluvanede
+
+You managed to turn everyone against yourself, both the drow from Ched Nasad and the drow priestesses of Eilistraee. The answers to your questions can no longer be found.~ // @15
 
 
+//XGdrb2
+
+@50604 = ~Siluvanede
+
+Priestess Shaar, the mother of the newly-ordained Elf Dhaerovatila, asked me to look after her son. He went south of the city.~ // @1
+
+@50605 = ~Siluvanede
+
+I protected my son as promised. He wanted to join my company, but I refused. He gave me the task to find out why there were drow near the city and who killed them?~ // @2
+
+@50606 = ~Siluvanede
+
+When I entered the united house of Ched Nasad, my group was attacked, possibly the whole city! Something strange is going on here, one of the drow said that I was the one who foiled their plans. Priestess Eilistraee helped me out of the city, I have to come to their camp. I will find him if I walk along the trail in the east.~ // @3
+
+@50607 = ~Siluvanede
+
+Priestess Eilistraee found out that I accidentally killed her sisters. This can only be redeemed if I manage to kill the old dragon, which is located somewhere in the cave. If all goes well, the High Priestess will be ready to speak with me again.~ // @4
+
+@50608 = ~Siluvanede
+
+I promised the priestess of Eilistraee help in conducting peaceful negotiations with the priests of Chevaros. This world could end the threat from Ched Nasad.~ //@5
+
+@50609 = ~Siluvanede
+
+The task is completed, the united houses of Ched Nasad are now crushed, as well as their leader.~ // @6
+	
+	
+//////////////////////  Artifact from Kalimshan.
+// Title
+
+@50700 = ~Artifact from Kalimshan~
+
+// XG0072
+
+@50701 = ~Artifact from Kalimshan
+
+The artifact was given away.~ // @2
+
+@50702 = ~Artifact from Kalimshan
+
+The treasure hunter at Trademith asked for my help. He is looking for a magic horn, a very valuable artifact. I have to look for him somewhere in the northern desert in Kalimshan.~ // @3
+
+@50703 = ~Artifact from Kalimshan
+
+I have been accused of stealing the artifact that I am looking for. Maybe they confused me with someone, that's why they attacked me, fortunately, I ran away from them.~ // @4
+
+@50704 = ~Artifact from Kalimshan
+
+I need 10,000 gold to get the artifact.~ // @5
+
+@50705 = ~Artifact from Kalimshan
+
+I discovered an artifact from one of the treasure hunters in Kalimshan.~ // @6
+
+@50706 = ~Artifact from Kalimshan
+
+I killed the guard of the artifact, now I need to go to Trademith.~ // @7
+
+// XGBAT
+
+@50707 = ~Artifact from Kalimshan
+
+The artifact is safe and the treasure hunter is now dead.~ // @2
+
+// XGBHC
+
+@50708 = ~Artifact from Kalimshan
+
+The task is not completed.~ // @5
+
+ 
+
+	
+//////////////////////    Family. Quête du Duc Opas.
+// Title
+
+@50800 = ~Family~
+	
+// XG0150
+
+@50801 = ~Family
+
+The Grand Duke Opas asked me to help him; an unknown person holds his family captive and demands 5,000 gold. This money must be delivered to the docks of Athkatla. We'll go there by ship.~ // @7
+
+@50802 = ~Family
+
+Now a ransom of 10,000 gold is required, after talking with Opas, I decided to follow this man, he must lead me to the Opas family.~ // @8
+
+@50803 = ~Family
+
+You found a map showing where the family of the Grand Duke might be located.~ // @9
+
+@50804 = ~Family
+
+The family of the Grand Duke Opas was abducted by his former deputy. You found a group of bandits led by Craven.~ // @10
+
+@50805 = ~Family
+
+The family of the Grand Duke Opas was abducted by his former deputy, I tracked down a group of thieves led by Craven. I bought the Opas family from him for 8,000 gold.~ // @11
+
+@50806 = ~Family
+
+The Opas family was saved.~ // @12
 
 
+	
 

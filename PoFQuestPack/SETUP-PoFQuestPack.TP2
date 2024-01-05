@@ -171,6 +171,9 @@ COPY ~PoFQuestPack/OTHER/JoNEANT/Cre/JONEANT.CRE~   ~override/XGNEANT.CRE~
 
 COPY ~PoFQuestPack/OTHER/JoNEANT/Cre/JONEAN28.CRE~   ~override/XGNEAN28.CRE~
 	WRITE_ASCII 0x280 ~XGNEAN28~ (8) // Script name / Death variable
+
+COPY_EXISTING ~JAGUARSU.CRE~   ~override/XGJAGU.CRE~
+WRITE_BYTE 0x270 ~255~
 	
 /*	
 	LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete=XX END
@@ -699,10 +702,12 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGBH.CRE~         ~override/XGBH.CRE~
 COPY ~weidu_external/PoFQuestPack/Actors/XGBHN1.CRE~       ~override/XGBHN1.CRE~
   SAY NAME1 @50
   SAY NAME2 @50
+  WRITE_SHORT 0x14 ~2000~ // XP value (lowered from 3000)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGBHN.CRE~        ~override/XGBHN.CRE~
   SAY NAME1 @50
   SAY NAME2 @50
+  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3000)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGBLACK.CRE~      ~override/XGBLACK.CRE~
 
@@ -912,6 +917,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGCLEV.CRE~       ~override/XGCLEV.CRE~
 COPY ~weidu_external/PoFQuestPack/Actors/XGCL.CRE~         ~override/XGCL.CRE~
   SAY NAME1 @71
   SAY NAME2 @71
+  WRITE_ASCII 0x2CC ~XGCL~ (8) // Dialog name
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGCLPIR.CRE~      ~override/XGCLPIR.CRE~
   SAY NAME1 @72
@@ -1122,13 +1128,86 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGDRIZ2.CRE~      ~override/XGDRIZ2.CRE
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGDRIZA.CRE~      ~override/XGDRIZA.CRE~       
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGDRIZ.CRE~       ~override/XGDRIZ.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGDRIZ.CRE~       ~override/XGDRIZ.CRE~      
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrl1.CRE~       ~override/XGdrl1.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl1.CRE~       ~override/XGdrID1.CRE~
+  WRITE_SHORT 0x24 ~150~ // Current HP
+  WRITE_SHORT 0x26 ~150~ // Maximum HP
+  WRITE_SHORT 0x46 ~5~  // Natural AC
+  WRITE_SHORT 0x48 ~5~  // Effective AC
+  WRITE_BYTE 0x52 ~8~  // THACO
+  WRITE_BYTE 0x53 ~2~  // attacks/round 2(2)
+  WRITE_BYTE 0x238 ~20~  // Strength
+  WRITE_BYTE 0x23c ~19~  // Dexterity
+  WRITE_LONG 0x28 ~0x57986~
+  WRITE_BYTE 0x275 ~2~
+  WRITE_ASCII 0x280 ~XGdrID1~ (8) // Script name / Death variable
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrl2.CRE~       ~override/XGdrl2.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl1.CRE~       ~override/XGdrl1.CRE~
+  WRITE_SHORT 0x14 ~1200~ // XP value (lowered from 5000)
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdrl3.CRE~       ~override/XGdrl3.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl1.CRE~       ~override/XGdJO11.CRE~
+  WRITE_ASCII 0x280 ~XGdJO11~ (8) // Script name / Death variable
+  WRITE_SHORT 0x14 ~0~ // XP value
+
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl1.CRE~       ~override/XGdJO12.CRE~
+  WRITE_ASCII 0x280 ~XGdJO12~ (8) // Script name / Death variable
+  WRITE_SHORT 0x14 ~0~ // XP value
+
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl1.CRE~       ~override/XGdJO13.CRE~
+  WRITE_ASCII 0x280 ~XGdJO13~ (8) // Script name / Death variable
+  WRITE_SHORT 0x14 ~0~ // XP value
+
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl2.CRE~       ~override/XGdrID2.CRE~
+  WRITE_SHORT 0x24 ~150~ // Current HP
+  WRITE_SHORT 0x26 ~150~ // Maximum HP
+  WRITE_SHORT 0x46 ~5~  // Natural AC
+  WRITE_SHORT 0x48 ~5~  // Effective AC
+  WRITE_BYTE 0x52 ~8~  // THACO
+  WRITE_BYTE 0x53 ~2~  // attacks/round 2(2)
+  WRITE_BYTE 0x238 ~20~  // Strength
+  WRITE_BYTE 0x23c ~19~  // Dexterity
+  WRITE_LONG 0x28 ~0x57986~
+  WRITE_BYTE 0x275 ~2~
+  WRITE_ASCII 0x280 ~XGdrID2~ (8) // Script name / Death variable
+
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl2.CRE~       ~override/XGdrl2.CRE~
+  WRITE_SHORT 0x14 ~1100~ // XP value (lowered from 4500)
+
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl2.CRE~       ~override/XGdJO21.CRE~
+  WRITE_ASCII 0x280 ~XGdJO21~ (8) // Script name / Death variable
+  WRITE_SHORT 0x14 ~0~ // XP value
+
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl2.CRE~       ~override/XGdJO22.CRE~
+  WRITE_ASCII 0x280 ~XGdJO22~ (8) // Script name / Death variable
+  WRITE_SHORT 0x14 ~0~ // XP value
+
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl2.CRE~       ~override/XGdJO23.CRE~
+  WRITE_ASCII 0x280 ~XGdJO23~ (8) // Script name / Death variable
+  WRITE_SHORT 0x14 ~0~ // XP value
+
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl3.CRE~       ~override/XGdrID3.CRE~
+  WRITE_SHORT 0x24 ~150~ // Current HP
+  WRITE_SHORT 0x26 ~150~ // Maximum HP
+  WRITE_SHORT 0x46 ~5~  // Natural AC
+  WRITE_SHORT 0x48 ~5~  // Effective AC
+  WRITE_LONG 0x28 ~0x57987~
+  WRITE_ASCII 0x280 ~XGdrID3~ (8) // Script name / Death variable
+
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl3.CRE~       ~override/XGdrl3.CRE~
+  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 2200)
+
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl3.CRE~       ~override/XGdJO31.CRE~
+  WRITE_ASCII 0x280 ~XGdJO31~ (8) // Script name / Death variable
+  WRITE_SHORT 0x14 ~0~ // XP value
+
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl3.CRE~       ~override/XGdJO32.CRE~
+  WRITE_ASCII 0x280 ~XGdJO32~ (8) // Script name / Death variable
+  WRITE_SHORT 0x14 ~0~ // XP value
+
+COPY ~weidu_external/PoFQuestPack/Actors/XGdrl3.CRE~       ~override/XGdJO33.CRE~
+  WRITE_ASCII 0x280 ~XGdJO33~ (8) // Script name / Death variable
+  WRITE_SHORT 0x14 ~0~ // XP value
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdrlq.CRE~       ~override/XGdrlq.CRE~        
 
@@ -2152,51 +2231,61 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGNAS.CRE~        ~override/XGNAS.CRE~
   SAY NAME1 @250 
   SAY NAME2 @250 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGNIN1.CRE~       ~override/XGNIN1.CRE~        
-  SAY NAME1 @251 
-  SAY NAME2 @251 
+COPY ~weidu_external/PoFQuestPack/Actors/XGNIN1.CRE~       ~override/XGNIN1.CRE~
+  SAY NAME1 @251
+  SAY NAME2 @251
+  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGNIN2.CRE~       ~override/XGNIN2.CRE~        
-  SAY NAME1 @251 
-  SAY NAME2 @251 
+COPY ~weidu_external/PoFQuestPack/Actors/XGNIN2.CRE~       ~override/XGNIN2.CRE~
+  SAY NAME1 @251
+  SAY NAME2 @251
+  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGNIN3.CRE~       ~override/XGNIN3.CRE~        
-  SAY NAME1 @251 
-  SAY NAME2 @251 
+COPY ~weidu_external/PoFQuestPack/Actors/XGNIN3.CRE~       ~override/XGNIN3.CRE~
+  SAY NAME1 @251
+  SAY NAME2 @251
+  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGNIN4.CRE~       ~override/XGNIN4.CRE~        
-  SAY NAME1 @251 
-  SAY NAME2 @251 
+COPY ~weidu_external/PoFQuestPack/Actors/XGNIN4.CRE~       ~override/XGNIN4.CRE~
+  SAY NAME1 @251
+  SAY NAME2 @251
+  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGNIN5.CRE~       ~override/XGNIN5.CRE~        
-  SAY NAME1 @251 
-  SAY NAME2 @251 
+COPY ~weidu_external/PoFQuestPack/Actors/XGNIN5.CRE~       ~override/XGNIN5.CRE~
+  SAY NAME1 @251
+  SAY NAME2 @251
+  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGNIN6.CRE~       ~override/XGNIN6.CRE~        
-  SAY NAME1 @251 
-  SAY NAME2 @251 
+COPY ~weidu_external/PoFQuestPack/Actors/XGNIN6.CRE~       ~override/XGNIN6.CRE~
+  SAY NAME1 @251
+  SAY NAME2 @251
+  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGNIN7.CRE~       ~override/XGNIN7.CRE~        
-  SAY NAME1 @251 
-  SAY NAME2 @251 
+COPY ~weidu_external/PoFQuestPack/Actors/XGNIN7.CRE~       ~override/XGNIN7.CRE~
+  SAY NAME1 @251
+  SAY NAME2 @251
+  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGNIN8.CRE~       ~override/XGNIN8.CRE~        
-  SAY NAME1 @251 
-  SAY NAME2 @251 
+COPY ~weidu_external/PoFQuestPack/Actors/XGNIN8.CRE~       ~override/XGNIN8.CRE~
+  SAY NAME1 @251
+  SAY NAME2 @251
+  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGNIN.CRE~        ~override/XGNIN.CRE~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGNIN.CRE~        ~override/XGNIN.CRE~
   SAY NAME1 @251 
-  SAY NAME2 @251 
-
+  SAY NAME2 @251
+  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
+  
 COPY ~weidu_external/PoFQuestPack/Actors/XGNOBG.CRE~       ~override/XGNOBG.CRE~        
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGNOM1.CRE~       ~override/XGNOM1.CRE~        
   SAY NAME1 @252 
   SAY NAME2 @252 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGNOM.CRE~        ~override/XGNOM.CRE~         
-  SAY NAME1 @253 
-  SAY NAME2 @253 
+COPY ~weidu_external/PoFQuestPack/Actors/XGNOM.CRE~        ~override/XGNOM.CRE~
+  SAY NAME1 @253
+  SAY NAME2 @253
+  WRITE_SHORT 0x14 ~800~ // XP value (lowered from 1800)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGNOMN.CRE~       ~override/XGNOMN.CRE~        
   SAY NAME1 @252 
@@ -2490,26 +2579,26 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGPIRM.CRE~       ~override/XGPIRM.CRE~
 COPY ~weidu_external/PoFQuestPack/Actors/XGPIR.CRE~        ~override/XGPIR.CRE~         
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGPIRMS.CRE~      ~override/XGPIRMS.CRE~       
-  SAY NAME1 @280 
-  SAY NAME2 @280 
+  SAY NAME1 @280
+  SAY NAME2 @280
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGPIRS1.CRE~      ~override/XGPIRS1.CRE~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGPIRS1.CRE~      ~override/XGPIRS1.CRE~
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGPIRS2.CRE~      ~override/XGPIRS2.CRE~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGPIRS2.CRE~      ~override/XGPIRS2.CRE~
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGPIRS3.CRE~      ~override/XGPIRS3.CRE~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGPIRS3.CRE~      ~override/XGPIRS3.CRE~
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGPIRS4.CRE~      ~override/XGPIRS4.CRE~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGPIRS4.CRE~      ~override/XGPIRS4.CRE~
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGPIRS5.CRE~      ~override/XGPIRS5.CRE~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGPIRS5.CRE~      ~override/XGPIRS5.CRE~
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGPIRS6.CRE~      ~override/XGPIRS6.CRE~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGPIRS6.CRE~      ~override/XGPIRS6.CRE~
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGPR1.CRE~        ~override/XGPR1.CRE~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGPR1.CRE~        ~override/XGPR1.CRE~
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGprac.CRE~       ~override/XGprac.CRE~        
-  SAY NAME1 @69 
-  SAY NAME2 @69 
+COPY ~weidu_external/PoFQuestPack/Actors/XGprac.CRE~       ~override/XGprac.CRE~
+  SAY NAME1 @69
+  SAY NAME2 @69
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGprcd.CRE~       ~override/XGprcd.CRE~        
 
@@ -2524,8 +2613,8 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGprd3.CRE~       ~override/XGprd3.CRE~
 COPY ~weidu_external/PoFQuestPack/Actors/XGprd.CRE~        ~override/XGprd.CRE~         
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGprec.CRE~       ~override/XGprec.CRE~        
-  SAY NAME1 @69 
-  SAY NAME2 @69 
+  SAY NAME1 @69
+  SAY NAME2 @69
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGpree.CRE~       ~override/XGpree.CRE~        
   SAY NAME1 @281 
@@ -2535,7 +2624,8 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGprin.CRE~       ~override/XGprin.CRE~
   SAY NAME1 @282 
   SAY NAME2 @282 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGPR.CRE~         ~override/XGPR.CRE~          
+COPY ~weidu_external/PoFQuestPack/Actors/XGPR.CRE~         ~override/XGPR.CRE~
+  WRITE_SHORT 0x14 ~2000~ // XP value (lowered from 4000)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGPRN.CRE~        ~override/XGPRN.CRE~         
 
@@ -3728,7 +3818,8 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0079.ARE~         ~override/XG0079.ARE
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0080.ARE~         ~override/XG0080.ARE~
   SAY 0x26CC @1041
-  SAY 0x2700 @1042         
+  SAY 0x2700 @1042          
+  ADD_MAP_NOTE #890 #510 ~blue~ @1041 // Forgeron
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0081.ARE~         ~override/XG0081.ARE~   
   ADD_MAP_NOTE #2788 #387 ~blue~ @1008 // Auberge
@@ -4198,8 +4289,8 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0920.ARE~         ~override/XG0920.ARE
 COPY ~weidu_external/PoFQuestPack/Areas/XG0964.ARE~         ~override/XG0964.ARE~         
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0A80.ARE~         ~override/XG0A80.ARE~
-  SAY 0x24AC @1041
-  SAY 0x24E0 @1042
+  SAY 0x24E0 @1042        
+  ADD_MAP_NOTE #890 #510 ~blue~ @1041 // Forgeron
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG1020.ARE~         ~override/XG1020.ARE~
 
@@ -5857,27 +5948,36 @@ COPY ~weidu_external/PoFQuestPack/Stores/s#SHOP01.STO~			~override/s#SHOP01.STO~
 //////////////////////////////////
 
 // Abduction and politics // Enlèvement et politique.
-ADD_JOURNAL TITLE (@49000) @49001 @50000 @50001 @50002 @50003 @50004 @50005 @50006 @50007 @50008 @50009 // XGnorpa.tra, XGhqmi.tra, XGATKI.tra, XG0639.tra, XG0440.tra, XG0168.tra
+ADD_JOURNAL TITLE (@49000) @49001 @50000 @50001 @50002 @50003 @50004 @50005 @50006 @50007 @50008 @50009
 
 // Pirate Island // L'île aux pirates
-ADD_JOURNAL TITLE (@50110) @50111 @50112 @50113 @50114 @50116 @50117 @50118 @50119 // XG0049.tra, XG0414.tra, XGADOB.tra, XGADOB1.tra, XGBOY.tra, XGLOFLT.tra
+ADD_JOURNAL TITLE (@50110) @50111 @50112 @50113 @50114 @50116 @50117 @50118 @50119 
 
 // Dragon artifact (Pirate Island) // L'artefact d'un dragon (L'île aux pirates)
-ADD_JOURNAL TITLE (@50120) @50115 @50121 @50122 //  XGADOB1.tra, XGDRAG1.tra
+ADD_JOURNAL TITLE (@50120) @50115 @50121 @50122
 
 // Magic bag // La sacoche du sorcier 
-ADD_JOURNAL TITLE (@50202) @50200 @50201 // XTRAEK.tra, XTRAEK.D // XG0000.ARE
+ADD_JOURNAL TITLE (@50202) @50200 @50201
 
 // Protéger la forêt de Téthyr // Tethyr 
-ADD_JOURNAL TITLE (@50306) @50300 @50301 @50302 @50303 @50304 @50305 @50310 @50313 // XG0077, XGFL, XGDR
+ADD_JOURNAL TITLE (@50306) @50300 @50301 @50302 @50303 @50304 @50305 @50310 @50313 
 
 // L'Ordre et le Chaos // Order and Chaos.
 ADD_JOURNAL TITLE (@50400) @50401 @50402 @50403 @50404 @50405 @50406 @50407 @50411 @50412 @50413 @50414 @50415 @50417 @50418 @50419 @50420 @50421 @50422 @50423 @50424 @50425 @50426 @50427 @50428 @50429 @50430 @50431 @50432 @50433 @50434 @50435 @50436 @50437 @50438 @50439
 
 // Hrothgar 
 ADD_JOURNAL TITLE (@50500) @50501 @50502 @50503 @50504 @50505 @50506
-// XGH2, XGPAL1, XGHROTH
+
+// Siluvanede 
+ADD_JOURNAL TITLE (@50600) @50601 @50602 @50603 @50604 @50605 @50606 @50607 @50608 @50609
+
+// Artifact from Kalimshan 
+ADD_JOURNAL TITLE (@50700) @50701 @50702 @50703 @50704 @50705 @50706 @50707 @50708
  
+// Family. Quête du Duc Opas.
+ADD_JOURNAL TITLE (@50800) @50801 @50802 @50803 @50804 @50805 @50806
+
+
 //////////////////////////////////
 // Comp. D & BAF
 //////////////////////////////////
@@ -5927,7 +6027,6 @@ REPLACE_TEXTUALLY ~SetGlobal("NewGame","AR0602",1)~ ~ClearAllActions()
 	CreateCreature("XGNEAN28",[3532.1997],10) // [3532.1997] ORIGINE
 	Wait(2)
 	MoveViewPoint([3873.1762],INSTANT)
-	// MoveViewObject("XGNEAN28",INSTANT)
 	MultiPlayerSync()
 	Wait(1)
 	FadeFromColor([20.0],0)
@@ -5958,7 +6057,6 @@ REPLACE_TEXTUALLY ~SetGlobal("NewGame","AR0602",1)~ ~ClearAllActions()
 	// CreateCreatureObject("XGNEANT4","XGJON",0,0,0)
 	ActionOverride("XGJON",FaceObject("XGNPC4"))
 	Wait(1)
-	// MoveViewObject("XGNPC4",INSTANT)
 	DisplayStringHead("XGNPC4",@5)
 	Wait(6)
 	ActionOverride("XGIRENM",Spell("XGNPC4",WIZARD_MAGIC_MISSILE))
@@ -6009,22 +6107,25 @@ REPLACE_TEXTUALLY ~SetGlobal("NewGame","AR0602",1)~ ~ClearAllActions()
 	// MoveViewPoint([3604.1846],STANDARD)
 	DisplayStringHead("XGIMOEN",@6)
 	Wait(7)
-	// MoveViewObject("XGNPC4",SLOW)
-	CreateCreatureObject("XGNEANT4","XGNPC4",0,0,0)
-	ActionOverride("XGNEAN28",DestroySelf())
-	ActionOverride("XGNEAN28",UndoExplore())
-	Wait(5)
-	ActionOverride("XGNEANT4",DestroySelf())
-	ActionOverride("XGNPC4",DestroySelf())
 	FadeToColor([50.0],0)
 	Wait(3)
-	MoveViewPoint([3740.2799],INSTANT)
-	ActionOverride(Protagonist,Explore())
-	MultiPlayerSync()
+	ActionOverride("XGNEAN28",DestroySelf())
+	ActionOverride("XGNEAN28",UndoExplore())
 	ActionOverride("XGIMOEN",DestroySelf())
 	ActionOverride("XGJONW",DestroySelf())
 	ActionOverride("XGJOWC",DestroySelf())
 	ActionOverride("XGIRENM",DestroySelf())
+	// MoveViewObject("XGNPC4",SLOW)
+	CreateCreatureObject("XGNEANT4","XGNPC4",0,0,0)
+	FadeFromColor([50.0],0)
+	Wait(5)
+	FadeToColor([50.0],0)
+	Wait(3)
+	ActionOverride("XGNEANT4",DestroySelf())
+	ActionOverride("XGNPC4",DestroySelf())
+	MoveViewPoint([3740.2799],INSTANT)
+	ActionOverride(Protagonist,Explore())
+	MultiPlayerSync()
 	SetGlobal("NewGame","AR0602",1)~
 	
 COMPILE ~weidu_external/PoFQuestPack/ExistingBaf/AR0602.BAF~ ~override~
@@ -6156,8 +6257,8 @@ APPEND ~MASTAREA.2da~ ~XGKAR2 value~ UNLESS ~XGKAR2~ // Caravane // Caravan //
 APPEND ~MASTAREA.2da~ ~XG0681 value~ UNLESS ~XG0681~ // Monastère des admirateur de Torm // Torm admirers Monastery //
 APPEND ~MASTAREA.2da~ ~XG8500 value~ UNLESS ~XG8500~ // Monastère des serviteurs de Cyric // Cyric admirers Monastery //
 APPEND ~MASTAREA.2da~ ~XG0084 value~ UNLESS ~XG0084~ // La Plaine Gelée // The Frozen Plain //
-APPEND ~MASTAREA.2da~ ~XG0A80 value~ UNLESS ~XG0A80~ // Siluvanede
-APPEND ~MASTAREA.2da~ ~XG0080 value~ UNLESS ~XG0080~ // Siluvanede (bis)
+APPEND ~MASTAREA.2da~ ~XG0A80 value~ UNLESS ~XG0A80~ // Siluvanede (bis)
+APPEND ~MASTAREA.2da~ ~XG0080 value~ UNLESS ~XG0080~ // Siluvanede
 APPEND ~MASTAREA.2da~ ~XG0780 value~ UNLESS ~XG0780~ // Camp Eilistraee
 APPEND ~MASTAREA.2da~ ~XG0680 value~ UNLESS ~XG0680~ // Forêt (vers Padhiver) // Forest //
 

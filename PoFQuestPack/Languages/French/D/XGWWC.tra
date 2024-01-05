@@ -14,29 +14,47 @@
 @13 = ~ Yes, but Barboros has already seen me, we ran into him. ~
 @14 = ~ Be careful when you enter their headquarters, it is well guarded. The entrance is located in the southeastern part of the city. A reward awaits you when you complete the task. ~
 @15 = ~ I will do everything in my power, because I promised to help the blacksmith. Thanks for the info. ~
+
+
 @16 = ~ Blacksmith Marian.
 
 We could not kill Barbarosa, a guard appeared and took me to the captain. The captain clarified the situation to me. In the southeastern part of the city is the entrance to the Barbarosa guild ~
+
+
 @17 = ~ Deal with Barbarossa <CHARNAME>. ~
 @18 = ~ I was already informed of your victory <CHARNAME>, brilliant work. A courier from one of the shadow lords came to me, you must go to the castle, a special task awaits you there. Here is your reward, my friend. ~
+
+
 @19 = ~ Blacksmith Marian.
 
 At Vokin Promenade, I came across a frightened blacksmith, originally from Gludokovody. I heard a lot about this city of merchants. He said that there now cruel Barbarossa rules the local black market. I have to find him in a tavern or in a city market. ~
+
+
 @20 = ~ Blacksmith Marian.
 
 The blacksmith said everything you need. He asked you to find his family in a house located in the northeast of Deep Water. When you find, you must escort them to the headquarters of the city guard. ~
+
+
 @21 = ~ Blacksmith Marian.
 
 We attacked Barbarossa, but he escaped before the battle began. ~
+
+
 @22 = ~ blacksmith Marian.
 
 I saved the blacksmith's wife from the killers sent by Barbarosa, now I know all three passwords that are needed to enter the guild in the southeast of the city.
 
 Password: slave, market, black. ~
+
+
 @23 = ~ Blacksmith Marian.
 
 Barbarosa, the head of the black market in Deep Water, was stopped. ~
+
+// Quete Seigneur masqué
 @24 = ~ Shadow Lord.
 
 The captain of the guard in Deep Water sends me to the shadow lord, apparently he has a special task for me. It's in the castle. ~
+
+
 @25 = ~ Thank you for everything. Good luck. ~

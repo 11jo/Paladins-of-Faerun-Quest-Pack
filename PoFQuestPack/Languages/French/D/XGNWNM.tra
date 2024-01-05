@@ -1,9 +1,13 @@
 @1 = ~ Greetings to the stranger, you look like an adventurer who can stand up for himself. Could you help me a little ... ~
 @2 = ~ What does "a little" mean? ~
 @3 = ~ Nothing special friend, I need some elixirs from the local temple of Tire. When you return, I will explain what to do next. I need 1x healing potion and 1x keen mind. ~
+
+// WARNING ONLY "JOURNAL" IN .D
 @4 = ~ Wizard.
 
 The Neverwinter wizard asked me to buy a healing potion and a sharp mind potion at a local temple. ~
+
+
 @5 = ~ Alright wizard, already moving forward. ~
 @6 = ~ I don't have time to stagger around to buy elixirs, maybe another time a wizard. ~
 @7 = ~ I'm afraid that there will be no other way, a friend is waiting for you, do you really want to change your mind? ~

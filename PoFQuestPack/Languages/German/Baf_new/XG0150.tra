@@ -5,6 +5,8 @@
 @4 = ~Was wird aus unserer Gilde?~
 @5 = ~Ich werde einen neuen Gildenmeister ernennen, aber wenn du mir jemals wieder in die Quere kommst, wirst so enden wie dein Vorgänger.~
 @6 = ~Dankeschön. Ihr verdient unseren Respekt, niemand aus unserer Gilde wird Euch im Weg stehen.~
+
+/*
 @7 = ~Familie.
 
 Der Großherzog Opas hat mich um Hilfe gebeten; ein Unbekannter hält seine Familie gefangen und verlangt 5.000 Gold. Dieses Geld muss zu den Docks von Athkatla gebracht werden. Wir werden mit dem Schiff dorthin fahren.~
@@ -23,3 +25,4 @@ Die Familie des Großherzogs Opas wurde von seinem ehemaligen Stellvertreter entf
 @12 = ~Familie.
 
 Die Familie Opas war gerettet.~
+*/

@@ -12,9 +12,13 @@
 @11 = ~ We can do this, you have nothing to worry about. Now tell me where I can find the entrance to their den! ~
 @12 = ~ Yes, of course. The entrance to the habitat of the Margul sect is located in the old temple in the northern part of the city. As proof of my gratitude for your help, I will send you reinforcements from my best people. Bring me his body! Good luck! ~
 @13 = ~ Thank you Grand Duke ~
+
+
 @14 = ~ Paladins of Faerûn.
 
 As it turned out, a friend of Gradak Margul is in his shelter at the Gate of Baldur, I will find a secret entrance there in a temple in the northern part of the city. I have to bring his body. ~
+
+
 @15 = ~ Great friends, did you find this paladin? ~
 @16 = ~ We did not find him, but his friend Margul was there, and he told me where Hradak had disappeared. ~
 @17 = ~ Where is his body? He may be dead, but I have to see his body, to be sure, bring me it! ~
@@ -25,7 +29,11 @@ As it turned out, a friend of Gradak Margul is in his shelter at the Gate of Bal
 @22 = ~ Unfortunately, I need to find Gradak now, maybe later. ~
 @23 = ~ Thanks <CHARNAME>, Take this magic item, it will allow us to communicate even at a great distance. When my family is free, let me know and I will take her. I'll take you to the ship. ~
 @24 = ~ Good. ~
+
+/*
 @25 = ~ Family.
 
 The Grand Duke of Danger asked me to help him; an unknown person holds his family captive and demands 5,000 gold. This money must be delivered to the docks of Askatla. We'll go there by ship. ~
+*/
+
 @26 = ~ Sorry <CHARNAME>, but I can't wait. It's about saving my family. I will have to entrust this to someone else. Goodbye. ~

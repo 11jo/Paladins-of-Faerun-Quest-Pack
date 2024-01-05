@@ -1,4 +1,27 @@
 IF
+  AreaCheck("XG0080")
+  InMyArea("XGdrlq")
+  Global("XGdrlqIsTheKiller","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("XGdrlqIsTheKiller","GLOBAL",1)
+    ActionOverride("XGdrlq",MoveToObject(Player1))	
+END
+
+IF
+	Global("XGdwqTimeToTalk","GLOBAL",1)
+	!InMyArea("XGdre1")
+	!InMyArea("XGdre2")
+	!InMyArea("XGdre3")
+	!InMyArea("XGdre4")
+THEN
+	RESPONSE #100
+		SetGlobal("XGdwqTimeToTalk","GLOBAL",2)
+		Wait(1)
+		ActionOverride("XGdwq",StartDialog("XGdwq",Player1))
+END
+
+IF
   Global("XGDEADW","XG0080",0)
   Dead("XGdre1")  // Прислуга Элистрая // Fidele d'Eilistraee
   Dead("XGdre2")  // Прислуга Элистрая // Fidele d'Eilistraee
@@ -18,6 +41,8 @@ THEN
     SetGlobal("RevealXG0080","XG0080",1)
     StartCutSceneMode()
     HideGUI()
+    FadeToColor([20.0],0)
+    Wait(3)
     TakePartyItem("XGmsq")
     CreateCreature("XGdwq",[4933.2629],0)  // ~Дхаероватил~
     CreateCreature("XGdre1",[4912.2703],0)  // ~Прислуга Элистрая~
@@ -33,7 +58,9 @@ THEN
     ActionOverride(Player4,LeaveAreaLUA("XG0080","",[4846.2829],8))
     ActionOverride(Player5,LeaveAreaLUA("XG0080","",[4913.2845],8))
     ActionOverride(Player6,LeaveAreaLUA("XG0080","",[5025.2840],8))
+    FadeFromColor([20.0],0)
     Wait(3)
+    UnhideGUI()
     ActionOverride("XGdre1",StartDialogue("XGdre1",Player1))
     EndCutSceneMode()
 END

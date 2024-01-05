@@ -2,7 +2,11 @@
 @1 = ~Hier, bitte sehr. Ich will keine Probleme haben.~
 @2 = ~Es tut mir leid, aber ich habe versprochen, es jemandem zu bringen.~
 @3 = ~Dann müsst Ihr gegen uns kämpfen.~
+
+/*
 @4 = ~Artefakt aus Kalimshan.
 
 Ich habe den Wächter des Artefakts getötet, jetzt muss ich nach Handelstreff gehen.~
+*/
+
 @5 = ~Eine weise Entscheidung. Es steht Euch frei zu gehen.~

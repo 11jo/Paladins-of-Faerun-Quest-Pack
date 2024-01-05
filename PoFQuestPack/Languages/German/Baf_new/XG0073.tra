@@ -1,6 +1,8 @@
 @0 = ~Es scheint, als wären wir ihnen entkommen.~
 @1 = ~<CHARNAME>! Da kommt jemand.~
 @2 = ~Hey Fremder, wer seid Ihr? Hier gibt es nichts um herumzuhängen, wenn Ihr ein Händler seid, geht und sprecht mit unserem Anführer, und macht keinen Unsinn, ich werde ein Auge auf Euch haben.~
+
+/*
 @3 = ~Ein Artefakt aus Kalimshan.
 
 Man hat mich beschuldigt, das Artefakt, das ich suche, gestohlen zu haben. Vielleicht haben sie mich mit jemandem verwechselt, deshalb haben sie mich angegriffen, zum Glück konnte ich vor ihnen weggelaufen.~
@@ -8,3 +10,4 @@ Man hat mich beschuldigt, das Artefakt, das ich suche, gestohlen zu haben. Viell
 
 Ich habe ein Artefakt von einem der Schatzsucher in Kalimshan erhalten.~
 
+*/

@@ -1,20 +1,28 @@
-@0 = ~ Who are you and what do you need here? ~
-@1 = ~ I came from the desert north of here, some warriors in black chased me, I hope you know who they are. They said that I stole a very valuable artifact. ~
-@2 = ~ They probably took you for me, I borrowed a rather valuable artifact from them. ~
-@3 = ~ Magic horn? ~
-@4 = ~ True, how do you know that? ~
-@5 = ~ I'm looking for him, so what will the merchant do? ~
-@6 = ~ When you bring me 10,000 gold, I will give you this artifact. ~
-@7 = ~ Okay, here you go. ~
+@0 = ~Alors ? Qui êtes-vous et que voulez-vous ?~
+@1 = ~Je viens du désert plus au nord, des combattants vêtus de noir me traquent, je souhaiterais en savoir plus sur eux et pourquoi m'accusent-ils d'avoir volé je ne sais quel précieux artefact .~
+@2 = ~Ils vous ont probablement confondu avec moi, je suis celui qui leur a « emprunté » cet artefact.~
+@3 = ~La Corne magique ? ~
+@4 = ~En effet, comment avez-vous deviné ?~
+@5 = ~Je suis à sa recherche, êtes vous prêt à marchander ?~
+@6 = ~Pour 10 000 pièces d'or, l'artefact est à vous.~
+@7 = ~Très bien, voici votre or !~
+
+/*
 @8 = ~ Artifact from Kalimshan.
 
 I need 10,000 gold to get the artifact. ~
-@9 = ~ I will bring them to you. ~
-@10 = ~ I think it's easier for me to take an artifact from your corpse! ~
-@11 = ~ Great, this artifact. But be careful, it is very valuable, keep an eye on the road. ~
-@12 = ~ Thanks for the deal and goodbye. ~
+*/
+
+@9 = ~Je reviendrai avec la somme que vous demandez.~
+@10 = ~Hum... Cela me semble beaucoup plus simple de récupérer l'artefact sur votre dépouille !~
+@11 = ~Parfait ! Faites attention avec cet objet, sa valeur est immense et les routes sont dangereuses, restez sur vos gardes.~
+@12 = ~Une affaire « rondement » menée, au revoir.~
+
+/*
 @13 = ~ Artifact from Kalimshan.
 
 I discovered an artifact from one of the treasure hunters in Kalimshan. ~
-@14 = ~ So you're back, do you have 10,000 gold? ~
-@15 = ~ Not yet. ~
+*/
+
+@14 = ~À vous revoilà, alors ces 10 000 pièces d'or... ?~
+@15 = ~Toujours pas...~

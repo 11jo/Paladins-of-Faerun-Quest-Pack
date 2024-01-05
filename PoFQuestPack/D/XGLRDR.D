@@ -1,4 +1,4 @@
-BEGIN ~LRDRMOD~
+BEGIN ~XGLRDR~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1

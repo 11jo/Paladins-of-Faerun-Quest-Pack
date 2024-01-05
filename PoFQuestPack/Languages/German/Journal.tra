@@ -388,6 +388,166 @@ Mission abgelehnt.~
 Ich traf einen Abenteurer wie mich in Targos, sein Name ist Hrotgar, er brauchte Hilfe, er wurde beauftragt, hochrangige Leute nach Luskan zu eskortieren. Sie gerieten in einen Hinterhalt, sie wurden von einer Gruppe unbekannter Kreaturen angegriffen. Hrothgar erzählte mir, dass er sie nach Norden fliehen sah... Er fand dort eine Höhle voll des Bösen. Er bat mich um Hilfe, gemeinsam müssen wir die Höhlen erkunden und das Böse vertreiben!~
 
 
+//////////////////////  Siluvanede.
+// Title
+
+@50600 = ~Siluvaned~
+
+// XGdrb1
+
+@50601 = ~Siluvaned
+
+Ich habe der Priesterin von Eilistraee Hilfe bei den Friedensverhandlungen mit den Priestern von Shevarash versprochen. Diese Welt könnte die Bedrohung durch Ched Nasad beenden.~ // @11
+
+@50602 = ~Siluvaned
+
+Die Priesterin von Eilistraee hat herausgefunden, dass ich aus Versehen ihre Schwestern getötet habe. Das kann nur wieder gutgemacht werden, wenn es mir gelingt, den alten Drachen zu töten, der sich irgendwo in der Höhle befindet. Wenn alles gut geht, wird die Hohepriesterin bereit sein, wieder mit mir zu sprechen.~ // @13
+
+@50603 = ~Siluvaned
+
+Ihr habt es geschafft, alle gegen Euch aufzubringen, sowohl die Drow von Ched Nasad als auch die Drow-Priesterinnen von Eilistraee. Die Antworten auf Eure Fragen können nicht mehr gefunden werden.~ // @15
+
+
+//XGdrb2
+
+@50604 = ~Siluvaned
+
+Priesterin Shaar, die Mutter des frisch geweihten Elfen Dhaerovatil, bat mich, auf ihren Sohn aufzupassen. Er ging in den Süden der Stadt.~ // @1
+
+@50605 = ~Siluvaned
+
+Ich beschützte ihren Sohn wie versprochen. Er wollte sich meiner Gruppe anschließen, aber ich lehnte ab. Er gab mir die Aufgabe, herauszufinden, warum es in der Nähe der Stadt Drow gab und wer sie getötet hat.~ // @2
+
+@50606 = ~Siluvaned
+
+Als ich die vereinten Häuser von Ched Nasad betrat, wurde meine Gruppe angegriffen, möglicherweise die ganze Stadt! Irgendetwas Seltsames geht hier vor, einer der Drow sagte, dass ich derjenige war, der ihre Pläne vereitelt hat. Priesterin Eilistraee hat mir geholfen, die Stadt zu verlassen, ich muss zu ihrem Lager kommen. Ich werde es finden, wenn ich dem Pfad nach Osten folge.~ ~Siluvaned.
+
+Als ich die vereinten Häuser von Ched Nasad betrat, wurde meine Gruppe angegriffen, möglicherweise die ganze Stadt! Irgendetwas Seltsames geht hier vor, einer der Drow sagte, dass ich diejenige war, die ihre Pläne vereitelt hat. Priesterin Eilistraee hat mir geholfen, die Stadt zu verlassen, ich muss zu ihrem Lager kommen. Ich werde es finden, wenn ich dem Pfad nach Osten folge.~ // @3
+
+@50607 = ~Siluvaned
+
+Priesterin Eilistraee hat herausgefunden, dass ich versehentlich ihre Schwestern getötet habe. Dies kann nur wieder gutgemacht werden, wenn es mir gelingt, den alten Drachen zu töten, der sich irgendwo in der Höhle befindet. Wenn alles gut geht, wird die Hohepriesterin bereit sein, wieder mit mir zu sprechen.~ // @4
+
+@50608 = ~Siluvaned
+
+Ich habe der Priesterin von Eilistraee meine Hilfe bei den Friedensverhandlungen mit den Priestern von Shevarash versprochen. Diese Welt könnte die Bedrohung durch Ched Nasad beenden.~ //@5
+
+@50609 = ~Siluvaned
+
+Die Aufgabe ist erfüllt, die vereinten Häuser von Ched Nasad sind nun zerschlagen, ebenso wie ihr Anführer.~ // @6
+	
+	
+//////////////////////  Artifact from Kalimshan.
+// Title
+
+@50700 = ~Ein Artefakt aus Kalimshan~
+
+// XG0072
+
+@50701 = ~Ein Artefakt aus Kalimshan
+
+Das Artefakt wurde verschenkt.~ // @2
+
+@50702 = ~Ein Artefakt aus Kalimshan
+
+Der Schatzsucher von Handelstreff hat mich um Hilfe gebeten. Er ist auf der Suche nach einem magischen Horn, einem sehr wertvollen Artefakt. Ich soll es irgendwo im nördlichen Teil der Wüste in Kalimshan suchen.~ // @3
+
+@50703 = ~Ein Artefakt aus Kalimshan
+
+Man hat mich beschuldigt, das Artefakt, das ich suche, gestohlen zu haben. Vielleicht haben sie mich mit jemandem verwechselt, deshalb haben sie mich angegriffen, zum Glück konnte ich vor ihnen weggelaufen.~ // @4
+
+@50704 = ~Ein Artefakt aus Kalimshan
+
+Ich brauche 10.000 Gold, um das Artefakt zu bekommen.~ // @5
+
+@50705 = ~Ein Artefakt aus Kalimshan
+
+Ich habe ein Artefakt von einem der Schatzsucher in Kalimshan gefunden.~ // @6
+
+@50706 = ~Ein Artefakt aus Kalimshan
+
+Ich habe den Wächter des Artefakts getötet, jetzt muss ich nach Handelstreff gehen.~ // @7
+
+// XGBAT
+
+@50707 = ~Ein Artefakt aus Kalimshan
+
+Das Artefakt ist in Sicherheit und der Schatzsucher ist jetzt tot.~ // @2
+
+// XGBHC
+
+@50708 = ~Ein Artefakt aus Kalimshan
+
+Die Mission ist fehlgeschlagen.~ // @5
+
+ 
+
+	
+//////////////////////    Family. Quête du Duc Opas.
+// Title
+
+@50800 = ~Familie~
+	
+// XG0150
+
+@50801 = ~Familie
+
+Der Großherzog Opas hat mich um Hilfe gebeten; ein Unbekannter hält seine Familie gefangen und verlangt 5.000 Gold. Dieses Geld muss zu den Docks von Athkatla gebracht werden. Wir werden mit dem Schiff dorthin fahren.~ // @7
+
+@50802 = ~Familie
+
+Nun wird ein Lösegeld von 10.000 Gold verlangt, nach dem Gespräch mit Opas habe ich beschlossen, diesem Mann zu folgen, er muss mich zur Familie Opas führen.~ // @8
+
+@50803 = ~Familie
+
+Ihr habt eine Karte gefunden, die zeigt, wo sich die Familie des Großherzogs befinden könnte~ // @9
+
+@50804 = ~Familie
+
+Die Familie des Großherzogs Opas wurde von seinem ehemaligen Stellvertreter entführt. Ihr habt eine Gruppe von Banditen gefunden, die von Craven angeführt wird.~ // @10
+
+@50805 = ~Familie
+
+Die Familie des Großherzogs Opas wurde von seinem ehemaligen Stellvertreter entführt, und ich habe eine Gruppe von Dieben aufgespürt, die von Craven angeführt wird. Ich habe die Familie Opas für 8.000 Gold freigekauft.~ // @11
+
+@50806 = ~Familie
+
+Die Familie Opas war gerettet.~ // @12
+
+
+	
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 
 

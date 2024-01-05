@@ -1,6 +1,6 @@
 
 
-/////////// Abduction and politics // Enlèvement et politique.
+//////////////////////Abduction and politics // Enlèvement et politique.
 
  // XGnorpa.tra, XGhqmi.tra, XGATKI.tra, XG0639.tra, XG0440.tra, XG0168.tra // XGKPOS.TRA
 
@@ -50,7 +50,7 @@ Après une succession de mauvaises décisions de ma part, la fille du Roi des affa
 
 J'ai aidé le Prince des îles Moonshae à prendre le pouvoir et j'ai aussi ramené la fille du Roi des affaires à Athkatla. Celui-ci m'a jeté dehors en raison de mes décisions plus que douteuses au cours de cette aventure.~ // @33 XGATKI.TRA
 
-/////////// Pirate Island // L'île aux pirates 
+//////////////////////Pirate Island // L'île aux pirates 
 
 // XG0049.tra   @3  AddJournalEntry(@3,QUEST)
 // XG0414.tra   @10 AddJournalEntry(@10,QUEST)
@@ -111,7 +111,7 @@ La relique a retrouvé son gardien et j'ai obtenu une armure à la puissance excep
 J'ai attaqué ce maudit dragon, hé ! hé ! hé !~
 
 
-/////////// Magic bag // La sacoche du sorcier
+//////////////////////Magic bag // La sacoche du sorcier
 
  // XTRAEK.tra, XTRAEK.D // XG0000.ARE
 
@@ -126,7 +126,7 @@ J'ai débusqué les contrebandiers dans la maison du poissonnier et retrouvé la sa
 @50202 = ~La sacoche du sorcier~
 
 
-/////////// Protéger la forêt de Téthyr // Tethyr
+//////////////////////Protéger la forêt de Téthyr // Tethyr
 
  // XG0077, XGFL, XGDR
 
@@ -169,7 +169,7 @@ J'ai décidé de tuer la fée de la forêt et de soutenir le gouverneur dans sa quêt
 J'ai refusé d'apporter mon aide à une dryade dans les collines d'Umar.~ // @3
 
 
-/////////// L'Ordre et le Chaos // Order and Chaos.
+//////////////////////L'Ordre et le Chaos // Order and Chaos.
 // Title
 
 @50400 = ~L'Ordre et le Chaos~
@@ -467,7 +467,7 @@ I managed to get into the cave guarded by skeletons, where I need to find out wh
 I tracked down the killer of the adherents of Torm, he turned out to be a priest of Cyric. Perhaps this is a confrontation between churches?~ // @26
 
 
-/////////// Hrothgar.
+//////////////////////  Hrothgar.
 // Title
 
 @50500 = ~Hrothgar~
@@ -536,7 +536,320 @@ Job rejected.~
 	// UNSOLVED_JOURNAL @20
 @50506 = ~Hrothgar
 
-I met an adventurer in Targos, such as myself, his name is Hrotgar, he needed help, he was appointed to escort high-ranking people to Luskan. They were ambushed, they were attacked by a group of unknown creatures. Hrothgar told me that he saw them running north ... He found there a cave of complete evil. He asked me for help, together we must explore the caves and drive away evil!~
+I met an adventurer in Targos, such as myself, his name is Hrotgar, he needed help, he was appointed to escort high-ranking people to Luskan. They were ambushed, they were attacked by a group of unknown creatures. Hrothgar told me that he saw them running north ... He found there a cave of complete evil. He asked me for help, together we must explore the caves and drive away evil!~ // Unused ?
 
 
+//////////////////////  Siluvanede.
+// Title
 
+@50600 = ~Siluvanede~
+
+
+// XG0180
+/*
+// (same as XGdrb2 @1)
+	// AddJournalEntry(@9,QUEST)
+@9 = ~Siluvanede
+
+Priestess Shaar, the mother of the newly-ordained Elf Dhaerovatila, asked me to look after her son. He went south of the city. ~ // @9
+*/
+
+// XG0580
+
+/*
+// (same as XGdrb2 @3)
+	// AddJournalEntry(@5,QUEST)
+@5 = ~Siluvanede
+
+When I entered the united house of Ched Nasad, my group was attacked, possibly the whole city! Something strange is going on here, one of the drow said that I was the one who foiled their plans. Priestess Eilistraee helped me out of the city, I have to come to their camp. I will find him if I walk along the trail in the east. ~ //
+*/
+
+// XGdrb1
+
+  // UNSOLVED_JOURNAL @11
+@50601 = ~Siluvanede
+
+I promised the priestess of Eilistraee help in conducting peaceful negotiations with the priests of Chevaros. This world could end the threat from Ched Nasad.~ // @11
+
+  // UNSOLVED_JOURNAL @13
+@50602 = ~Siluvanede
+
+Priestess Eilistraee found out that I accidentally killed her sisters. This can only be redeemed if I manage to kill the old dragon, which is located somewhere in the cave. If all goes well, the High Priestess will be ready to speak with me again.~ // @13
+
+  //SOLVED_JOURNAL @15
+@50603 = ~Siluvanede
+
+You managed to turn everyone against yourself, both the drow from Ched Nasad and the drow priestesses of Eilistraee. The answers to your questions can no longer be found.~ // @15
+
+
+//XGdrb2
+
+	//EraseJournalEntry(@1)
+@50604 = ~Siluvanede
+
+Priestess Shaar, the mother of the newly-ordained Elf Dhaerovatila, asked me to look after her son. He went south of the city.~ // @1
+
+	//EraseJournalEntry(@2)
+@50605 = ~Siluvanede
+
+I protected my son as promised. He wanted to join my company, but I refused. He gave me the task to find out why there were drow near the city and who killed them?~ // @2
+
+	//EraseJournalEntry(@3)
+@50606 = ~Siluvanede
+
+When I entered the united house of Ched Nasad, my group was attacked, possibly the whole city! Something strange is going on here, one of the drow said that I was the one who foiled their plans. Priestess Eilistraee helped me out of the city, I have to come to their camp. I will find him if I walk along the trail in the east.~ // @3
+
+	//EraseJournalEntry(@4)
+@50607 = ~Siluvanede
+
+Priestess Eilistraee found out that I accidentally killed her sisters. This can only be redeemed if I manage to kill the old dragon, which is located somewhere in the cave. If all goes well, the High Priestess will be ready to speak with me again.~ // @4
+
+	//EraseJournalEntry(@5)
+@50608 = ~Siluvanede
+
+I promised the priestess of Eilistraee help in conducting peaceful negotiations with the priests of Chevaros. This world could end the threat from Ched Nasad.~ //@5
+
+	//SOLVED_JOURNAL @6
+@50609 = ~Siluvanede
+
+The task is completed, the united houses of Ched Nasad are now crushed, as well as their leader.~ // @6
+
+
+// XGdwq
+/*
+// (same as XGdrb2 @2)
+// UNSOLVED_JOURNAL @6
+@6 = ~Siluvanede
+
+I protected my son as promised. He wanted to join my company, but I refused. He gave me the task to find out why there were drow near the city and who killed them? ~ //
+*/
+
+// XGdwq1
+/*
+// (same as XGdrb2 @2)
+// UNSOLVED_JOURNAL @6
+@50610 = ~Siluvanede
+
+I protected my son as promised. He wanted to join my company, but I refused. He gave me the task to find out why there were drow near the city and who killed them?~ //
+*/
+	
+	
+//////////////////////  Artifact from Kalimshan.
+// Title
+
+@50700 = ~Un artefact à Calimshan~
+
+// XG0072
+
+	//SetQuestDone(@2)  
+@50701 = ~Un artefact à Calimshan
+
+The artifact was given away.~ // @2
+
+    //EraseJournalEntry(@3) 
+@50702 = ~Un artefact à Calimshan
+
+Un chasseur de trésor de Franc-Marché a sollicité mon aide. Il convoite un artefact de grande valeur, une corne magique. Je dois partir à sa recherche quelque part dans le désert au nord de Calimshan.~ // @3
+
+   //EraseJournalEntry(@4)
+@50703 = ~Un artefact à Calimshan
+
+Alors que je commençais les recherches, j'ai été accusé d'avoir dérobé ce fameux artefact. Peut-être m'ont-ils confondu avec quelqu'un d'autre, quoiqu'il en soit, il m'ont attaqué et j'ai pris la fuite.~ // @4
+  
+   //EraseJournalEntry(@5)  
+@50704 = ~Un artefact à Calimshan
+
+J'ai besoin de 10 000 pièces d'or pour récupérer l'artefact.~ // @5
+
+   //EraseJournalEntry(@6)  
+@50705 = ~Un artefact à Calimshan
+
+J'ai enfin découvert l'artefact, chez l'un des chasseurs de trésors de Calimshan.~ // @6
+
+   //EraseJournalEntry(@7) 
+@50706 = ~Un artefact à Calimshan
+
+I killed the guard of the artifact, now I need to go to Trademith.~ // @7
+
+// XG0073
+/*
+// (same as XG0072 @4)
+    //AddJournalEntry(@3,QUEST)
+@3 = ~Un artefact à Calimshan.
+
+I have been accused of stealing the artifact that I am looking for. Maybe they confused me with someone, that's why they attacked me, fortunately, I ran away from them.~
+
+// (same as XG0072 @6)
+    //AddJournalEntry(@4,QUEST)
+@4 = ~Un artefact à Calimshan.
+
+I discovered an artifact from one of the treasure hunters in Kalimshan.~
+*/
+
+// XGBAT
+
+
+    //SetQuestDone(@2)  
+@50707 = ~Un artefact à Calimshan 
+
+L'artefact a été mis à l'abri et le chasseur de trésor n'est plus de ce monde.~ // @2
+
+/*
+// (same as XG0072 @3)
+    //EraseJournalEntry(@3) 
+@3 = ~Un artefact à Calimshan.
+
+The treasure hunter at Trademith asked for my help. He is looking for a magic horn, a very valuable artifact. I have to look for him somewhere in the northern desert in Kalimshan.~
+
+// (same as XG0072 @4)
+    //EraseJournalEntry(@4) 
+@4 = ~Un artefact à Calimshan.
+
+I have been accused of stealing the artifact that I am looking for. Maybe they confused me with someone, that's why they attacked me, fortunately, I ran away from them.~
+
+// (same as XG0072 @5)
+    //EraseJournalEntry(@5)  
+@5 = ~Un artefact à Calimshan.
+
+I need 10,000 gold to get the artifact.~
+
+// (same as XG0072 @6)
+    //EraseJournalEntry(@6)
+@6 = ~Un artefact à Calimshan.
+
+I discovered an artifact from one of the treasure hunters in Kalimshan.~
+*/
+
+// XGBH1
+/*
+// (same as XG0072 @5) 
+	//UNSOLVED_JOURNAL @8 
+	//UNSOLVED_JOURNAL @8 
+	//UNSOLVED_JOURNAL @8
+@8 = ~Un artefact à Calimshan.
+
+I need 10,000 gold to get the artifact.~
+
+// (same as XG0072 @6)
+	 //UNSOLVED_JOURNAL @13
+@13 = ~Un artefact à Calimshan.
+
+I discovered an artifact from one of the treasure hunters in Kalimshan.~
+*/
+
+// XGBHC
+
+	// SOLVED_JOURNAL @5
+@50708 = ~Un artefact à Calimshan
+
+J'ai refusé de me rendre dans le désert Calim pour rechercher un artefact.~ // @5
+
+/*
+// (same as XG0072 @3)
+	// SOLVED_JOURNAL @7
+@7 = ~Un artefact à Calimshan.
+
+The treasure hunter at Trademith asked for my help. He is looking for a magic horn, a very valuable artifact. I have to look for him somewhere in the northern desert in Kalimshan.~
+*/
+
+// XGprc1
+
+/*
+// (same as XG0072 @7)
+	// UNSOLVED_JOURNAL @4
+@4 = ~Un artefact à Calimshan.
+
+I killed the guard of the artifact, now I need to go to Trademith.~
+*/
+
+ 
+
+	
+//////////////////////    Family. Quête du Duc Opas.
+// Title
+
+@50800 = ~La Famille~
+ 
+// s#AR0300
+
+/*
+// (same as XG0150 @8)
+		//AddJournalEntry(@9,QUEST)
+@9 = ~Family
+
+Now a ransom of 10,000 gold is required, after talking with Danger, I decided to follow this man, he must lead me to the Opas family. ~
+		
+// s#AR1000
+
+// (same as XG0150 @9)
+		//AddJournalEntry(@10,QUEST)
+@10 = ~Family
+
+You found a map showing where the family of the Grand Duke might be located. ~
+*/
+
+// XGBLMAJ
+
+/*
+// (same as XG0150 @7)
+
+		//UNSOLVED_JOURNAL @25
+@25 = ~Family
+
+The Grand Duke of Danger asked me to help him; an unknown person holds his family captive and demands 5,000 gold. This money must be delivered to the docks of Athkatla. We'll go there by ship. ~
+*/
+	
+// XG0150
+
+    //EraseJournalEntry(@7)  
+@50801 = ~La Famille
+
+Opas un des Grands Ducs de la Porte de Baldur requiert mes services. Sa famille a été enlevée et les ravisseurs demandent une somme de 5 000 pièces d'or. Nous devons nous rendre à Athkatla par bateau. La rançon doit être remise à un contact sur les quais.~ // @7
+
+   // EraseJournalEntry(@8)  
+@50802 = ~La Famille
+
+Maintenant une rançon de 10 000 pièces d'or est exigé, après en avoir parlé avec le duc, j'ai décidé de suivre discrètement le contact, il devrait me conduire à la famille Opas.~ // @8
+
+    //EraseJournalEntry(@9) 
+@50803 = ~La Famille
+
+Vous avez découvert une carte qui devrait vous permettre de localiser la famille du Grand-Duc.~ // @9
+ 
+ //EraseJournalEntry(@10)  
+@50804 = ~La Famille
+
+La famille du Grand Duc a été enlevée par son ancien délégué. Vous avez découvert un repaire de bandits dirigé par un dénommé Craven.~ // @10
+
+    //EraseJournalEntry(@11)  
+@50805 = ~La Famille
+
+La famille du Grand Duc a été enlevée par son ancien délégué. Vous avez découvert un repaire de bandits dirigé par un dénommé Craven. J'ai négocié leur libération pour 8 000 pièces d'or.~ // @11
+
+    //SetQuestDone(@12)  ~
+@50806 = ~La Famille
+
+La Famille du Grand Duc Opas est saine et sauve.~ // @12
+	
+    //EraseJournalEntry(@7)  
+    //EraseJournalEntry(@8)  
+    //EraseJournalEntry(@9) 
+    //EraseJournalEntry(@10)  
+    //EraseJournalEntry(@11)  
+    //SetQuestDone(@12)  
+	
+// XGCRU
+
+/*	
+// (same as XG0150 @10)
+	//UNSOLVED_JOURNAL @6
+@50807 = ~La Famille
+
+The family of the Grand Duke of Opas was abducted by his former deputy. You found a group of bandits led by Craven.~ // @6
+
+// (same as XG0150 @11)
+	//UNSOLVED_JOURNAL @8
+@50808 = ~La Famille
+
+The family of the Grand Duke of Opas was abducted by his former deputy, I tracked down a group of thieves led by Craven. I bought the Opas family from him for 8,000 gold.~ // @8
+*/

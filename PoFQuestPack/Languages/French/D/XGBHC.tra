@@ -1,12 +1,19 @@
-@0 = ~ Do you like adventure and treasure? If so, then you are in the right place. I have something to offer you. ~
-@1 = ~ And what is it? Did you find a hidden treasure map? ~
-@2 = ~ Hmm, not really. I need you to find me one very valuable artifact, the magic horn. It should be somewhere in the northern part of the desert in Kalimshan. I really need him, I promise a generous reward! ~
-@3 = ~ I will try to find him, I hope it's worth it. ~
-@4 = ~ No, I'm not interested. I'm not a treasure hunter. ~
+@0 = ~Et vous là ! Vous aimez l'aventure et les trésors perdus ? Si c'est le cas, vous êtes venu au bon endroit. J'ai quelque chose à vous proposer.~
+@1 = ~Qu'est-ce que c'est ? Auriez-vous déniché une carte menant à un trésor enfoui ?~
+@2 = ~Hmm, pas vraiment. J'aurai besoin de vous pour trouver un artefact de grande valeur, la Corne magique. Elle devrait se situer quelque part au nord du Désert Calim. J'en ferai bon usage, et je vous promets une généreuse récompense !~
+@3 = ~Et bien, Je ferai de mon mieux, j'espère que cela en vaudra le detour.~
+@4 = ~Non merci, cela ne m'intéresse pas. Je ne suis point un chasseur de trésors.~ ~Non merci, cela ne m'intéresse pas. Je ne suis point une chasseuse de trésors.~
+
+/*
 @5 = ~ Artifact from Kalimshan.
 
 The task is not completed. ~
+*/
+
 @6 = ~ Great, well, it's somewhere in this place. Be careful, the desert is a very dangerous place, it is teeming with nomads and all sorts of monsters. Also, watch your back, you're not the only one looking for an artifact. ~
+
+/*
 @7 = ~ Artifact from Kalimshan.
 
 The treasure hunter at Trademith asked for my help. He is looking for a magic horn, a very valuable artifact. I have to look for him somewhere in the northern desert in Kalimshan. ~
+*/

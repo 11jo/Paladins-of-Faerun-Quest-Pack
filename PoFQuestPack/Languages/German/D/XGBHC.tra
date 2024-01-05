@@ -3,10 +3,17 @@
 @2 = ~Hmm, nicht wirklich. Ihr müsst für mich ein sehr wertvolles Artefakt finden, ein magisches Horn. Er muss irgendwo im nördlichen Teil der Wüste in Calimshan sein. Ich brauche es wirklich, ich verspreche eine großzügige Belohnung!~
 @3 = ~Ich werde versuchen, es zu finden, ich hoffe, es lohnt sich.~
 @4 = ~Nein, ich bin nicht interessiert. Ich bin kein Schatzsucher.~ ~Nein, ich bin nicht interessiert. Ich bin keine Schatzsucherin.~
+
+/*
 @5 = ~Artefakt aus Calimshan.
 
 Die Mission ist fehlgeschlagen.~
+*/
+
 @6 = ~Großartig, nun, es ist irgendwo hier in der Nähe. Seid vorsichtig, die Wüste ist ein sehr gefährlicher Ort, es wimmelt dort von Nomaden und allen möglichen Monstern. Und passt auf Euch auf, Ihr seid nicht der Einzige, der nach dem Artefakt sucht.~ ~Großartig, nun, es ist irgendwo hier in der Nähe. Seid vorsichtig, die Wüste ist ein sehr gefährlicher Ort, es wimmelt dort von Nomaden und allen möglichen Monstern. Und passt auf Euch auf, Ihr seid nicht die Einzige, die nach dem Artefakt sucht.~
+
+/*
 @7 = ~Artefakt aus Calimshan.
 
 Der Schatzsucher von Handelstreff hat mich um Hilfe gebeten. Er sucht nach einem magischen Horn, einem sehr wertvollen Artefakt. Ich soll es irgendwo in der nördlichen Wüste in Calimshan suchen.~
+*/

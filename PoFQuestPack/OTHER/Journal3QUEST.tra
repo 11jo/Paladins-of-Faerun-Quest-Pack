@@ -1,330 +1,252 @@
-//////////////////// Family. Quête du Duc Opas
+// UNSOLVED / JOURNAL / Erase / SetQuestDone /////////////////////////////////
+
+
+// Always be sure there is no others entry with another name....
+// Shadow Lord (10) // Paladins of Féérune (25 + 2 unused) // Killer (12) // Business intersection (5) // Mine (11) // Guild War/Neverwinter (3 ?) 
+
+// sHOULD BE GOOD FOR REGULAR JOURNAL // XGADV (Lost adventurers 1) // XGARUNL (Sorceress 1) Add a solved journal entrie after @18 // XGdr01 Une dryade en Tethyr (1) Ne pas confondre avec le reste de la quête de Thétyr
+
+
+// Quest or regular journal...? 
+// XGELAD (Turlan forest 2)  //  XGBARD (Harp 2) // XGELOR (Ice Castle 2) // XGfa (Trademith is a farmer 3) // XGERRA (Help the prisoner 2) // XGhk/XGku Food (5)
+
+// OTHER single probably related to another 
+// XGFKIN2 (On the way to death 1) ? Business intersection ? // XGFLPLA (Lord's request 1) ? Business intersection ? // XGGLV (Arena of nomads 1) maybe a single journal entries // XGLRDR XGMAYOR (King's Request 2) ? Business intersection ? // 
+
+////////////////////// Protection of goods
+
+// XG0171.BAF
+ AddJournalEntry(@1,QUEST)
  
-// s#AR0300
+ @1 = ~ Protection of goods.
 
-		//AddJournalEntry(@9,QUEST)
-@9 = ~ Family.
-
-Now a ransom of 10,000 gold is required, after talking with Danger, I decided to follow this man, he must lead me to the Opas family. ~
-		
-// s#AR1000
-
-		//AddJournalEntry(@10,QUEST)
-@10 = ~ Family.
-
-You found a map showing where the family of the Grand Duke might be located. ~
-
-// XGBLMAJ
-
-		//UNSOLVED_JOURNAL @25
-@25 = ~ Family.
-
-The Grand Duke of Danger asked me to help him; an unknown person holds his family captive and demands 5,000 gold. This money must be delivered to the docks of Askatla. We'll go there by ship. ~
-		
-// XG0150
-
-    //EraseJournalEntry(@7)  
-@7 = ~ Family.
-
-The Grand Duke of Danger asked me to help him; an unknown person holds his family captive and demands 5,000 gold. This money must be delivered to the docks of Askatla. We'll go there by ship. ~
-   // EraseJournalEntry(@8)  
-@8 = ~ Family.
-
-Now a ransom of 10,000 gold is required, after talking with Danger, I decided to follow this man, he must lead me to the Opas family. ~
-    //EraseJournalEntry(@9) 
-@9 = ~ Family.
-
-You found a map showing where the family of the Grand Duke might be located. ~
-    //EraseJournalEntry(@10)  
-@10 = ~ Family.
-
-The family of the Grand Duke of Opas was abducted by his former deputy. You found a group of bandits led by Craven. ~
-    //EraseJournalEntry(@11)  
-@11 = ~ Family.
-
-The family of the Grand Duke of Opas was abducted by his former deputy, I tracked down a group of thieves led by Craven. I bought the Opas family from him for 8,000 gold. ~
-    //SetQuestDone(@12)  ~
-@12 = ~ Family.
-
-The Opas family was saved. ~
-	
-    //EraseJournalEntry(@7)  
-    //EraseJournalEntry(@8)  
-    //EraseJournalEntry(@9) 
-    //EraseJournalEntry(@10)  
-    //EraseJournalEntry(@11)  
-    //SetQuestDone(@12)  
-	
-// XGCRU
-	
-	//UNSOLVED_JOURNAL @6
-@6 = ~ Family.
-
-The family of the Grand Duke of Opas was abducted by his former deputy. You found a group of bandits led by Craven. ~
-	//UNSOLVED_JOURNAL @8
-@8 = ~ Family.
-
-The family of the Grand Duke of Opas was abducted by his former deputy, I tracked down a group of thieves led by Craven. I bought the Opas family from him for 8,000 gold. ~
-	
-	
-//////////////////// Artifact from Kalimshan.
-
-// XG0072
-
-	//SetQuestDone(@2)  
-@2 = ~ Artifact from Kalimshan. 
-
-The artifact was given away. ~
-
-    //EraseJournalEntry(@3) 
-@3 = ~ Artifact from Kalimshan.
-
-The treasure hunter at Trademith asked for my help. He is looking for a magic horn, a very valuable artifact. I have to look for him somewhere in the northern desert in Kalimshan. ~
-
-   //EraseJournalEntry(@4)
-@4 = ~ Artifact from Kalimshan.
-
-I have been accused of stealing the artifact that I am looking for. Maybe they confused me with someone, that's why they attacked me, fortunately, I ran away from them. ~
-  
-   //EraseJournalEntry(@5)  
-@5 = ~ Artifact from Kalimshan.
-
-I need 10,000 gold to get the artifact. ~
-
-   //EraseJournalEntry(@6)  
-@6 = ~ Artifact from Kalimshan.
-
-I discovered an artifact from one of the treasure hunters in Kalimshan. ~
-
-   //EraseJournalEntry(@7) 
-@7 = ~ Artifact from Kalimshan.
-
-I killed the guard of the artifact, now I need to go to Trademith. ~
-
-// XG0073
-
-    //AddJournalEntry(@3,QUEST)
-@3 = ~ Artifact from Kalimshan.
-
-I have been accused of stealing the artifact that I am looking for. Maybe they confused me with someone, that's why they attacked me, fortunately, I ran away from them. ~
-
-    //AddJournalEntry(@4,QUEST)
-@4 = ~ Artifact from Kalimshan.
-
-I discovered an artifact from one of the treasure hunters in Kalimshan. ~
-
-
-// XGBAT
-
-
-    //SetQuestDone(@2)  
-@2 = ~ Artifact from Kalimshan. 
-
-The artifact is safe and the treasure hunter is now dead. ~
-
-    //EraseJournalEntry(@3) 
-@3 = ~ Artifact from Kalimshan.
-
-The treasure hunter at Trademith asked for my help. He is looking for a magic horn, a very valuable artifact. I have to look for him somewhere in the northern desert in Kalimshan. ~
-
-    //EraseJournalEntry(@4) 
-@4 = ~ Artifact from Kalimshan.
-
-I have been accused of stealing the artifact that I am looking for. Maybe they confused me with someone, that's why they attacked me, fortunately, I ran away from them. ~
+The ship was sunk by pirates, I woke up on some island. I need to find a way to get out of here somehow. ~
  
-    //EraseJournalEntry(@5)  
-@5 = ~ Artifact from Kalimshan.
+// XGPIR.BAF
+    SetQuestDone(@8) 
 
-I need 10,000 gold to get the artifact. ~
+@8 = ~ Protection of the goods. 
 
-    //EraseJournalEntry(@6)
-@6 = ~ Artifact from Kalimshan.
+The goods were not delivered to Memnon due to a pirate attack, but nothing was stolen. The pirate leader was destroyed. ~
+	
+EraseJournalEntry(@9)  
 
-I discovered an artifact from one of the treasure hunters in Kalimshan. ~
+@9 = ~ Protection of goods.
 
-// XGBH1
+The ship was sunk by pirates, I woke up on some island. I need to find a way to get out of here somehow. ~
 
-	//UNSOLVED_JOURNAL @8 
-	//UNSOLVED_JOURNAL @8 
-	//UNSOLVED_JOURNAL @8
-@8 = ~ Artifact from Kalimshan.
+EraseJournalEntry(@10) 
 
-I need 10,000 gold to get the artifact. ~
+@10 = ~ Protection of goods.
 
-	 //UNSOLVED_JOURNAL @13
-@13 = ~ Artifact from Kalimshan.
+A merchant from Memnon at the port in Atkatl asked me to help him. It is necessary to protect his goods from pirates while sailing from Atkatly port to Memnon. ~
 
-I discovered an artifact from one of the treasure hunters in Kalimshan. ~
+//  XGMTR.d
+UNSOLVED_JOURNAL @13
 
-// XGBHC
+@13 = ~ Protection of the goods.
 
-	// SOLVED_JOURNAL @5
-@5 = ~ Artifact from Kalimshan.
+A merchant from Memnon at the port in Atkatl asked me to help him. It is necessary to protect his goods from pirates while sailing from Atkatly port to Memnon. ~
 
-The task is not completed. ~
 
-	// SOLVED_JOURNAL @7
-@7 = ~ Artifact from Kalimshan.
 
-The treasure hunter at Trademith asked for my help. He is looking for a magic horn, a very valuable artifact. I have to look for him somewhere in the northern desert in Kalimshan. ~
+//////////////////////////   Business intersection
 
-// XGprc1
+// XG0203.BAF
 
-	// UNSOLVED_JOURNAL @4
-@4 = ~ Artifact from Kalimshan.
+SetQuestDone(@5)  
+	
+@5 = ~ Business crossroads. 
 
-I killed the guard of the artifact, now I need to go to Trademith. ~
+After the death of a lich, an old man appeared who told me what had happened and gave me a map of the elven city of Silwaneda. ~
 
 
+EraseJournalEntry(@3) 
 
-//////////////////// Hrothgar.
+@3 = ~ Business intersection.
 
+I agreed that temporarily me and my company will act as the personal guard of trade king Amn. ~
 
-// XGH1
+EraseJournalEntry(@4) 
 
-	//UNSOLVED_JOURNAL @4
-@4 = ~ Hrothgar.
+@4 = ~ Business intersection.
 
-I need to find a demon and free Hrothgar, the monster is hiding somewhere in a local cave. ~
+I found a lich who is responsible for attacking the king, but he says he worked for someone else, more powerful. ~
+ 
 
+// XGATKI1.d
 
-// XGH2
+UNSOLVED_JOURNAL @5 
 
-	//EraseJournalEntry(@7)
-@7 = ~ Hrothgar.
+@5 = ~ Business intersection.
 
-I need to find a demon and free Hrothgar, the monster is hiding somewhere in a local cave. ~
+I agreed that temporarily me and my company will act as the personal guard of trade king Amn. ~
 
-	//EraseJournalEntry(@8)
-@8 = ~ Hrothgar.
 
-The Paladin from Deep Water asked me for help. It is necessary to save the already dead hero from East Harbor. His name is Hrothgar and his followers have found a way to bring him back to life. But, unfortunately, the situation suddenly became complicated and a demon appeared instead of Hrothgar. If you kill the demon, Hrothgar will again be among the living. ~
+//  XGGRAL.d
 
-	//EraseJournalEntry(@9)
-@9 = ~ Hrothgar.
+UNSOLVED_JOURNAL @6
 
-I talked to the wizard from the eastern harbor, I promised to help him revive Hrothgar, the demon is in a cave north of here. ~
+@6 = ~ Business intersection.
 
-	//SOLVED_JOURNAL @10
-@10 = ~ Hrothgar.
+I found a lich who is responsible for attacking the king, but he says he worked for someone else, more powerful. ~
 
-The demon is dead, and Hrothgar, 100 years later, is again among the living. He invited me to look into his city in the Valley of the Ice Wind. ~
 
-// XGHROT1
 
-	// UNSOLVED_JOURNAL @10
-@10 = ~ Hrothgar.
+//////////////////////////   The stolen
 
-I talked to the wizard from the eastern harbor, I promised to help him revive Hrothgar, the demon is in a cave north of here. ~
 
 
-// XGPAL1
+// XG0301.BAF 
+EraseJournalEntry(@1)  
 
-	// UNSOLVED_JOURNAL @6
-@6 = ~ Hrothgar.
+@1 = ~ The stolen.
 
-The Paladin from Deep Water asked me for help. It is necessary to save the already dead hero from East Harbor. His name is Hrothgar and his followers have found a way to bring him back to life. But, unfortunately, the situation suddenly became complicated and a demon appeared instead of Hrothgar. If you kill the demon, Hrothgar will again be among the living. ~
+I met in the cave of a damned forest a warrior who claims that he escaped from a dungeon in the forest, and his friends were abducted by dark creatures. The time has come to find the source of darkness, it must be somewhere underground. ~
 
-	// SOLVED_JOURNAL @8
-@8 = ~ Hrothgar.
+// EraseJournalEntry(@2)    //  Replaced by QUEST_DONE below
+    AddJournalEntry(@2,QUEST_DONE)  // @2
 
-Job rejected. ~
+@2 = ~ The stolen. 
 
+After the creatures died, I found Sir William's friends, they all went to him. ~
 
-// XGHROTH
 
-	// UNSOLVED_JOURNAL @20
-	// UNSOLVED_JOURNAL @20
-	// UNSOLVED_JOURNAL @20
-@20 = ~ Hrothgar.
+/* USELESS DELETED
+//  XGSTGS.d
+UNSOLVED_JOURNAL @6
+*/
 
-I met an adventurer in Targos, such as myself, his name is Hrotgar, he needed help, he was appointed to escort high-ranking people to Luskan. They were ambushed, they were attacked by a group of unknown creatures. Hrothgar told me that he saw them running north ... He found there a cave of complete evil. He asked me for help, together we must explore the caves and drive away evil! ~
+//  XGSWILL.d 
+UNSOLVED_JOURNAL @6
 
+@6 = ~ The stolen.
 
+I met a warrior in the damned forest cave who claims to have escaped from a dungeon in the forest, and his friends were abducted by dark creatures. The time has come to find the source of darkness, it must be somewhere underground. ~
 
-//////////////////// Sylvanowed.
 
+//////////////////////////   Blacksmith Marian
 
-// XG0180
 
-	// AddJournalEntry(@9,QUEST)
-@9 = ~ Sylvanowed.
 
-Priestess Shaar, the mother of the newly-ordained Elf Dhaerovatila, asked me to look after her son. He went south of the city. ~
+// XG0364.BAF
+ AddJournalEntry(77392,QUEST) misssing ???? // VOIR frenchTRA  // Was Missing same as @22 XGWWC.TRA
 
+@4 = ~Blacksmith Marian.
 
-// XG0580
+I saved the blacksmith's wife from the assassins that Barbarossa must have sent, now I know the three passwords that are needed to join his guild in the southeast of the city. 
 
-	// AddJournalEntry(@5,QUEST)
-@5 = ~ Sylvanowed.
+Passwords: Slave, Market, Black. ~
 
-When I entered the united house of Ched Nasad, my group was attacked, possibly the whole city! Something strange is going on here, one of the drow said that I was the one who foiled their plans. Priestess Eilistraee helped me out of the city, I have to come to their camp. I will find him if I walk along the trail in the east. ~
 
+// XGBAROS.d 
+SOLVED_JOURNAL @6
 
-// XGdrb1
+@6 = ~ Blacksmith Marian.
 
-  // UNSOLVED_JOURNAL @11
-@11 = ~ Sylvanowed.
+We attacked Barbarossa, but he escaped before the battle began. ~
 
-I promised the priestess of Eilistraee help in conducting peaceful negotiations with the priests of Chevaros. This world could end the threat from Ched Nasad. ~
 
-  // UNSOLVED_JOURNAL @13
-@13 = ~ Sylvanowed.
+//  XGMARAN.d 
 
-Priestess Eilistraee found out that I accidentally killed her sisters. This can only be redeemed if I manage to kill the old dragon, which is located somewhere in the cave. If all goes well, the High Priestess will be ready to speak with me again. ~
+JOURNAL @9
 
-  //SOLVED_JOURNAL @15
-@15 = ~ Sylvanowed.
+@9 = ~ Blacksmith Marian.
 
-You managed to turn everyone against yourself, both the drow from Ched Nasad and the drow priestesses of Eilistraee. The answers to your questions can no longer be found. ~
+At Vokin Promenade, I came across a frightened blacksmith, originally from Gludokovody. I heard a lot about this city of merchants. He said that there now cruel Barbarossa rules the local black market. I have to find him in a tavern or in a city market. ~
 
+UNSOLVED_JOURNAL @17
 
-//XGdrb2
+@17 = ~ Blacksmith Marian.
 
-	//EraseJournalEntry(@1)
-@1 = ~ Sylvanowed.
+The blacksmith said everything you need. He asked you to find his family in a house located in the northeast of Deep Water. When you find, you must escort them to the headquarters of the city guard. ~
 
-Priestess Shaar, the mother of the newly-ordained Elf Dhaerovatila, asked me to look after her son. He went south of the city. ~
 
-	//EraseJournalEntry(@2)
-@2 = ~ Sylvanowed.
+//  XGMARK1.d 
+UNSOLVED_JOURNAL @8  // mAYBE AN ERASE ENTRY TO ADD TO XGWWC.d ////////////////
 
-I protected my son as promised. He wanted to join my company, but I refused. He gave me the task to find out why there were drow near the city and who killed them? ~
+@8 = ~ Blacksmith Marian.
 
-	//EraseJournalEntry(@3)
-@3 = ~ Sylvanowed.
+Prisoner Marco seemed to know a lot about Deep Water .. He gave me a pearl necklace and I have to show it to Marian .. ~
 
-When I entered the united house of Ched Nasad, my group was attacked, possibly the whole city! Something strange is going on here, one of the drow said that I was the one who foiled their plans. Priestess Eilistraee helped me out of the city, I have to come to their camp. I will find him if I walk along the trail in the east. ~
 
-	//EraseJournalEntry(@4)
-@4 = ~ Sylvanowed.
+//  XGWTGC.d
+UNSOLVED_JOURNAL @8  // mAYBE AN ERASE ENTRY TO ADD TO XGWWC.d ////////////////
 
-Priestess Eilistraee found out that I accidentally killed her sisters. This can only be redeemed if I manage to kill the old dragon, which is located somewhere in the cave. If all goes well, the High Priestess will be ready to speak with me again. ~
+@8 = ~ Blacksmith Marian.
 
-	//EraseJournalEntry(@5)
-@5 = ~ Sylvanowed.
+I spoke with Captain Boris about Barbarossa, and he told me that he escaped from him a few minutes ago ... He sent me to Deep Water Prison, I will talk with prisoner Marco, who is Boris's assistant in this assignment ... ~
 
-I promised the priestess of Eilistraee help in conducting peaceful negotiations with the priests of Chevaros. This world could end the threat from Ched Nasad. ~
 
-	//SOLVED_JOURNAL @6
-@6 = ~ Sylvanowed.
+//  XGWWC.d
+UNSOLVED_JOURNAL @16
 
-The task is completed, the united houses of Ched Nasad are now crushed, as well as their leader. ~
+@16 = ~ Blacksmith Marian.
 
+We could not kill Barbarosa, a guard appeared and took me to the captain. The captain clarified the situation to me. In the southeastern part of the city is the entrance to the Barbarosa guild ~
 
-// XGdwq
 
-// UNSOLVED_JOURNAL @6
-@6 = ~ Sylvanowed.
+EraseJournalEntry(@19)
 
-I protected my son as promised. He wanted to join my company, but I refused. He gave me the task to find out why there were drow near the city and who killed them? ~
+@19 = ~ Blacksmith Marian.
 
-// XGdwq1
+At Vokin Promenade, I came across a frightened blacksmith, originally from Gludokovody. I heard a lot about this city of merchants. He said that there now cruel Barbarossa rules the local black market. I have to find him in a tavern or in a city market. ~
 
+EraseJournalEntry(@20)
 
-// UNSOLVED_JOURNAL @6
-@6 = ~ Sylvanowed.
+@20 = ~ Blacksmith Marian.
 
-I protected my son as promised. He wanted to join my company, but I refused. He gave me the task to find out why there were drow near the city and who killed them? ~
+The blacksmith said everything you need. He asked you to find his family in a house located in the northeast of Deep Water. When you find, you must escort them to the headquarters of the city guard. ~
+
+EraseJournalEntry(@21)
+
+@21 = ~ Blacksmith Marian.
+
+We attacked Barbarossa, but he escaped before the battle began. ~
+
+EraseJournalEntry(@16)
+
+@16 = ~ Blacksmith Marian.
+
+We could not kill Barbarosa, a guard appeared and took me to the captain. The captain clarified the situation to me. In the southeastern part of the city is the entrance to the Barbarosa guild ~
+
+EraseJournalEntry(@22)
+
+@22 = ~ blacksmith Marian.
+
+I saved the blacksmith's wife from the killers sent by Barbarosa, now I know all three passwords that are needed to enter the guild in the southeast of the city.
+
+Password: slave, market, black. ~
+
+
+SetQuestDone(@23) // (Enchaine sur la quête du seigneur masqué avec UNSOLVED_JOURNAL @24)
+
+@23 = ~ Blacksmith Marian.
+
+Barbarosa, the head of the black market in Deep Water, was stopped. ~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

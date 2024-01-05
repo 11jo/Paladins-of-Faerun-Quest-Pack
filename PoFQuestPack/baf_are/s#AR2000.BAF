@@ -15,32 +15,34 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("XGQUEST1","AR2000",1)
-		Wait(1)
-		TakePartyItem("XGARTK")
-		GiveItemCreate("XGartk1",Player1,0,0,0)  // ~Артефакт~
-		Continue()
-END
-
-IF
-	Global("XGQUEST1","AR2000",1)
-	PartyHasItem("XGartk1")  // ~Артефакт~
-THEN
-	RESPONSE #100
-		SetGlobal("XGQUEST1","AR2000",2)
-		Wait(1)
-		StartCutSceneMode() 
+		ClearAllActions()
+		StartCutSceneMode()
 		HideGUI()
 		Explore()
+		FadeToColor([50.0],0)
+		TakePartyItem("XGARTK")  // Artifact
+		GiveItemCreate("XGartk1",Player1,0,0,0)  // Artifact
+		Wait(3)
+		MoveViewPoint([4002.2628],INSTANT)
+		ActionOverride(Player2,LeaveAreaLUA("AR2000","",[3979.2796],2))
+		ActionOverride(Player1,LeaveAreaLUA("AR2000","",[4019.2743],2))
+		ActionOverride(Player3,LeaveAreaLUA("AR2000","",[4099.2802],2))
+		ActionOverride(Player4,LeaveAreaLUA("AR2000","",[4111.2868],2))
+		ActionOverride(Player5,LeaveAreaLUA("AR2000","",[4044.2883],2))
+		ActionOverride(Player6,LeaveAreaLUA("AR2000","",[3968.2907],2))  // Trademeet
+		FadeFromColor([50.0],0)
+		Wait(3)
 		CreateCreature("XGPR",[3802.2404],0)  // ~Отрекшийся~
 		CreateCreature("XGPR1",[3763.2454],0)  // ~Отрекшийся~
 		ActionOverride("XGPR",MoveToPoint([3995.2685]))
 		ActionOverride("XGPR1",MoveToPoint([4037.2645]))
-		Wait(6)
-		DisplayStringHead(Player1,@0)  
 		Wait(5)
+		DisplayStringHead(Player1,@0)  
+		Wait(4)
 		DisplayStringHead("XGPR",@1)  
-		Wait(8)
-		UnhideGUI()
+		Wait(7)
+		FadeToColor([50.0],0)
+		Wait(3)
 		ActionOverride(Player2,LeaveAreaLUA("XG0072","",[896.1296],2))
 		ActionOverride(Player1,LeaveAreaLUA("XG0072","",[914.1228],2))
 		ActionOverride(Player3,LeaveAreaLUA("XG0072","",[963.1290],2))
@@ -49,6 +51,7 @@ THEN
 		ActionOverride(Player6,LeaveAreaLUA("XG0072","",[963.1188],2))
 		ActionOverride("XGPR",EscapeArea())
 		ActionOverride("XGPR1",EscapeArea())
+		UnhideGUI()
 		EndCutSceneMode()
 		Continue()
 END

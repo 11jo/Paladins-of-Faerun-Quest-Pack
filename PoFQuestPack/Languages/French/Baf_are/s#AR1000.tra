@@ -1,13 +1,17 @@
 @0 = ~Dégagez !~
 @1 = ~Qui êtes-vous ? Que se passe t'il ?~
 @2 = ~Je n'ai pas le temps pour ce genre de choses, aller dégagez !~
-@3 = ~Au nom du Grand Duc, vous êtes en état d'arrestation pour avoir aidé des fugitifs !~ // Au nom du roi
-@4 = ~Tout s'est passé selon le plan du Délégué~
+@3 = ~Au nom du Grand Duc, vous êtes en état d'arrestation pour avoir aidé des fugitifs !~
+@4 = ~Tout s'est passé selon le plan du délégué~
 @5 = ~Vous avez l'air bien sûr de vous !~
 @6 = ~Toi ? Tu m'as suivi ?~
 @7 = ~Où est la famille du Duc ? Parles maintenant ou tu n'en auras plus jamais l'occasion !~
 @8 = ~Occupe-toi d'eux, on se retrouve, tu sais où.~
 @9 = ~Vous avez découvert une carte, peut-être indique t-elle l'emplacement de la famille du Grand Duc.~
-@10 = ~La Famille.
+
+
+/*
+@10 = ~La Famille
 
 Vous avez découvert une carte qui vous permettra de localiser la famille du Grand-Duc.~
+*/

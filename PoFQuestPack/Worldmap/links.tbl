@@ -202,6 +202,8 @@ XG0072    N         AR2000      EXITNW        40        2        XGRA06   N     
 XG0072    N         XG0073      EXITW          2        1        XGRA06   N        N        N        N         50
 
 XG0073    N         AR2000      EXITNW        40        1        XGRA06   N        N        N        N         50
+
+XG0073    N         XG0072      EXITNW         2        1        XGRA06   N        N        N        N         50
 										      
 XG0075    W         XG0064      EXITSE        45        2        N        N        N        N        N          0
 XG0075    S         XG0020      EXITS         40        3        N        N        N        N        N          0

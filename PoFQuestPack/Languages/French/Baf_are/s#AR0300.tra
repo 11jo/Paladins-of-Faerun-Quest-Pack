@@ -1,13 +1,17 @@
 @0 = ~Un message du Grand Duc Opas ? Je vous écoute !~
 @1 = ~J'ai apporté la rançon demandée pour sa femme et sa fille. Où sont-elles ?~
 @2 = ~Pas si vite mes amis, mon maître a changé les conditions. Le prix de la rançon a doublé et s'élève maintenant à 10 000 pièces d'or. Transmettez-lui la nouvelle ! Salut.~
-@3 = ~(Sort une pierre de communication de sa poche.)~
+@3 = ~(Sort la pierre de communication de sa poche.)~
 @4 = ~Grand Duc, vous m'entendez ? J'ai un message pour vous depuis Athkatla.~
 @5 = ~Oui <CHARNAME>, avez-vous retrouvé ma famille ?~
 @6 = ~Non, ils demandent plus d'argent. Dois-je revenir récupérer 5000 pièces d'or supplémentaire ou poursuivre le maître chanteur ?~
-@7 = ~Je ne dispose pas de 5000 pièces d'or, sauvez ma famille. Et détruisez la pierre après notre conversation.~
+@7 = ~Je ne dispose pas de 5000 pièces d'or, le temps presse <CHARNAME>, sauvez ma femme et mon fils, je vous en supplie. (Le Cristal de communication tombe en poussière à la fin de la conversation.)~
 @8 = ~Très bien, je vais le suivre discrètement et essayer de protéger votre famille. Au revoir.~
-@9 = ~La Famille.
 
-Maintenant une rançon de 10 000 pièces d'or est exigé, après en avoir parlé avec Opas, j'ai décidé de suivre le contact, il devrait me conduire à la famille Opas.~
+/*
+@9 = ~La Famille
+
+Maintenant une rançon de 10 000 pièces d'or est exigé, après en avoir parlé avec le duc, j'ai décidé de suivre le contact, il devrait me conduire à la famille Opas.~
+*/
+
 @10 = ~Nous y voila...~

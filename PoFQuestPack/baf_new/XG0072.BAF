@@ -6,8 +6,9 @@ THEN
     SetGlobal("RevealXG0072","XG0072",1)
     ClearAllActions()
     StartCutSceneMode()
+	FadeFromColor([5.0],0)
     CreateCreature("XGprq",[828.1370],10)  // ~Отрекшийся~
-    Wait(2)
+    Wait(3)
     ActionOverride("XGprq",StartDialogue("XGprc1",Player1))
     EndCutSceneMode()
 END
@@ -15,6 +16,7 @@ END
 IF
   Global("XGDEAD0","XG0072",0)
   Dead("XGprq")  // ~Отрекшийся~
+  PartyHasItem("XGartk1")
 THEN
   RESPONSE #100
     SetGlobal("XGDEAD0","XG0072",1)
@@ -22,22 +24,22 @@ THEN
     StartCutSceneMode()
     CreateCreature("XGBHC",[1339.1489],0)  // ~Адостер Сын Дриады~
     ActionOverride("XGBHC",MoveToPoint([1040.1334]))
-    Wait(12)
+    Wait(6)
     ActionOverride(Player1,MoveToPoint([916.1288]))
     DisplayStringHead(Player1,@0)  
     Wait(5)
     DisplayStringHead("XGBHC",@1)  
-    Wait(8)
+    Wait(6)
     TakePartyItem("XGARTK1")
     GiveItemCreate("MISC07",Player1,5000,0,0)  // ~Золотой~
     GiveItemCreate("XGFALX5",Player1,0,0,0)  // ~Угхуровский демон~
     ActionOverride("XGBHC",EscapeArea())
-    SetQuestDone(@2)  
-    EraseJournalEntry(@3) 
-    EraseJournalEntry(@4)  
-    EraseJournalEntry(@5)  
-    EraseJournalEntry(@6)  
-    EraseJournalEntry(@7)  
+    EraseJournalEntry(@50702) 
+    EraseJournalEntry(@50703)  
+    EraseJournalEntry(@50704)  
+    EraseJournalEntry(@50705)  
+    EraseJournalEntry(@50706)  
+	AddJournalEntry(@50701,QUEST_DONE)
     EndCutSceneMode()
 END
 

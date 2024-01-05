@@ -1,5 +1,7 @@
 @0 = ~Ihr kommt zu spät, ich habe das Artefakt einer Wache übergeben.~
 @1 = ~Ihr hättet das nicht tun müssen, Abenteurer, die Verräter töten und das Artefakt finden!~ ~ Ihr hättet das nicht tun müssen, Abenteurerin, die Verräter töten und das Artefakt finden!~
+
+/*
 @2 = ~Artefakt aus Kalimshan.
 
 Das Artefakt ist in Sicherheit und der Schatzsucher ist jetzt tot.~
@@ -15,3 +17,4 @@ Ich brauche 10.000 Gold, um das Artefakt zu bekommen.~
 @6 = ~Artefakt aus Kalimshan.
 
 Ich habe ein Artefakt von einem der Schatzsucher in Kalimshan eralten.~
+*/

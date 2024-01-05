@@ -1,4 +1,6 @@
 @0 = ~Ich habe von Eurem Erfolg gehört! Ihr verdient unseren Dank, Abenteurer. Ich habe eine Belohnung für Euch. Ich wünsche Euch viel Glück auf Euren Reisen. Ihr werdet immer als Freunde der Priesterinnen von Eilistraee gelten.~
+
+/*
 @1 = ~Siluvaned.
 
 Priesterin Shaar, die Mutter des frisch geweihten Elfen Dhaerovatil, bat mich, auf ihren Sohn aufzupassen. Er ging in den Süden der Stadt.~
@@ -19,4 +21,6 @@ Ich habe der Priesterin von Eilistraee meine Hilfe bei den Friedensverhandlungen
 @6 = ~Siluvaned.
 
 Die Aufgabe ist erfüllt, die vereinten Häuser von Ched Nasad sind nun zerschlagen, ebenso wie ihr Anführer.~
+*/
+
 @7 = ~Wir müssen alle Diener von Lolth töten!~

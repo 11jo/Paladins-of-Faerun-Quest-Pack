@@ -1,6 +1,10 @@
 @0 = ~ You're late, I handed the artifact to one guard. ~
 @1 = ~ You didn't need to do this adventurers, kill traitors and find an artifact! ~
-@2 = ~ Artifact from Kalimshan. The artifact is safe and the treasure hunter is now dead. ~
+
+/*
+@2 = ~ Artifact from Kalimshan. 
+
+The artifact is safe and the treasure hunter is now dead. ~
 @3 = ~ Artifact from Kalimshan.
 
 The treasure hunter at Trademith asked for my help. He is looking for a magic horn, a very valuable artifact. I have to look for him somewhere in the northern desert in Kalimshan. ~
@@ -13,3 +17,4 @@ I need 10,000 gold to get the artifact. ~
 @6 = ~ Artifact from Kalimshan.
 
 I discovered an artifact from one of the treasure hunters in Kalimshan. ~
+*/

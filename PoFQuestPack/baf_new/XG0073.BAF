@@ -8,17 +8,30 @@ THEN
     HideGUI()
     Wait(4)
     DisplayStringHead(Player1,@0)  
-    Wait(5)
+    Wait(4)
     DisplayStringHead(Player2,@1)  
-    Wait(5)
-    CreateCreature("XGBHN1",[1061.1182],0)  // ~Охотник за сокровищами~
+    Wait(3)
+    CreateCreature("XGBHN1",[649.431],0)  // ~Охотник за сокровищами~
     Wait(2)
     Explore()
-    ActionOverride("XGBHN1",MoveToPoint([537.338]))
+    ActionOverride("XGBHN1",MoveToPointNoInterrupt([445.659]))
     Wait(6)
-    DisplayStringHead("XGBHN1",@2)  
-    ActionOverride("XGBHN1",EscapeArea())
-    AddJournalEntry(@3,QUEST)
+    DisplayStringHead("XGBHN1",@2)
+    Wait(6)
+	ActionOverride(Player1,MoveToPointNoInterrupt([1370.466]))
+	MoveViewPoint([1370.466],STANDARD)
+	ActionOverride(Player2,MoveToPointNoInterrupt([1480.507]))
+	Wait(1)
+    ActionOverride("XGBHN1",MoveToPointNoInterrupt([707.912]))
+	ActionOverride(Player3,MoveToPointNoInterrupt([1460.560]))
+	Wait(1)
+	ActionOverride(Player4,MoveToPointNoInterrupt([1355.547]))
+	ActionOverride(Player5,MoveToPointNoInterrupt([1387.530]))
+	Wait(1)
+	ActionOverride(Player6,MoveToPointNoInterrupt([1207.543]))
+	Wait(1)
+    ActionOverride("XGBHN1",MoveToPointNoInterrupt([1548.640]))
+    AddJournalEntry(@50703,QUEST)
     UnhideGUI()
     EndCutSceneMode()
 END
@@ -32,6 +45,6 @@ THEN
     Wait(2)
     GiveItemCreate("XGARTK",Player1,0,0,0)  // ~Артефакт~
     GiveItemCreate("MISC07",Player1,10000,0,0)  // ~Золотой~
-    AddJournalEntry(@4,QUEST)
+    AddJournalEntry(@50705,QUEST)
 END
 

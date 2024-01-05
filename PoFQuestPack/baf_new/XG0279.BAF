@@ -1,0 +1,6 @@
+IF
+	GlobalGT("s#XGfa","GLOBAL",3)
+THEN
+	RESPONSE #100
+		ActionOverride("XGSPQ",DestroySelf())
+END
