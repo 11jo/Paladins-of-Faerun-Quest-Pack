@@ -1,0 +1,20 @@
+IF
+	AreaCheck("XG0680")
+	Global("XGdreqLeave","GLOBAL",0)
+THEN
+	RESPONSE #100
+		MoveToPointNoInterrupt([1152.213])
+		Wait(2)	
+		MoveToPointNoInterrupt([741.215])
+		Wait(2)	
+		MoveToPointNoInterrupt([212.152])
+END
+
+IF
+	AreaCheck("XG0680")
+	See([PC])
+	NumberOfTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		StartDialogNoSet(Player1)
+END

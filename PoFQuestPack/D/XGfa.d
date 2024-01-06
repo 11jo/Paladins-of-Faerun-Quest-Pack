@@ -18,7 +18,8 @@ END
 IF ~~ THEN BEGIN 3
   SAY @6
   IF ~~ THEN REPLY @7 DO ~SetGlobal("s#XGfa","GLOBAL",2)
-RevealAreaOnMap("XG0079")~ UNSOLVED_JOURNAL @8 EXIT
+RevealAreaOnMap("XG0079")
+AddJournalEntry(@50901,QUEST)~ EXIT
   IF ~~ THEN REPLY @9 DO ~SetGlobal("s#XGfa","GLOBAL",1)~ EXIT
 END
 
@@ -33,7 +34,9 @@ IF ~Global("s#XGfa","GLOBAL",2)
   IF ~~ THEN REPLY @13 EXIT
   IF ~~ THEN REPLY @14 DO ~ReputationInc(-2)
 SetGlobal("s#XGfa","GLOBAL",4)
-EscapeArea()~ SOLVED_JOURNAL @15 EXIT
+EraseJournalEntry(@50901)
+AddJournalEntry(@50902,QUEST_DONE)
+EscapeArea()~ EXIT
 END
 
 IF ~Global("s#XGfa","GLOBAL",2)
@@ -42,6 +45,7 @@ PartyHasItem("XGspb")~ THEN BEGIN 6
   IF ~~ THEN REPLY @16 DO ~TakePartyItem("XGspb")
 SetGlobal("s#XGfa","GLOBAL",3)
 AddexperienceParty(5000)
-EraseJournalEntry(@8)
-EscapeArea()~ SOLVED_JOURNAL @17 EXIT
+EraseJournalEntry(@50901)
+AddJournalEntry(@50903,QUEST_DONE)
+EscapeArea()~ EXIT
 END

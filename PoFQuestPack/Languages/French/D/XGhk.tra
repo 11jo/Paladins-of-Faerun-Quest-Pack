@@ -1,19 +1,32 @@
-@0 = ~ Who are you? ~
-@1 = ~ I brought food for the guard. ~
-@2 = ~ Ah, great. Here is your reward of 500 gold. ~
-@3 = ~ The cook promised me 700 gold. ~
-@4 = ~ Thank you, goodbye. ~
+@0 = ~Halte là ! Qui êtes-vous ?~
+@1 = ~On m'a chargé d'apporter les rations des sentinelles.~
+@2 = ~Ah, enfin. Voici votre rémunération de 500 pièces d'or.~
+@3 = ~Hum... Le chef cuisinier m'a promis 700 pièces d'or.~
+@4 = ~Merci et bon appétit.~
+
+/*
 @5 = ~ Food.
 I passed food to the guard and got 500 gold. ~
-@6 = ~ The cook promised me 1000 gold. ~
-@7 = ~ I will kill him! Well, here, take it and get out of my sight! ~
+*/
+
+@6 = ~Heu... En fait le chef cuisinier m'a promis 1000 pièces d'or.~
+@7 = ~Maudit cuisinier ! Il va m'entendre... Tenez, prenez votre or et disparaissez de ma vue !~
+
+/*
 @8 = ~ Food.
 
 A cook in Siluvaneda asked me to deliver food to a guard in the west. ~
+
 @9 = ~ Food.
 
 I managed to trick a patrol and get 700 gold for a meal. ~
-@10 = ~ For the price of food, I will kill the cook and you along with him! ~
+*/
+
+
+@10 = ~Pour une somme pareille, je prendrais la vie du cuisinier et la votre au passage !~
+
+/*
 @11 = ~ Food.
 
 I pissed off the guards and I had to kill them. ~
+*/

@@ -2,16 +2,27 @@
 
 
 // Always be sure there is no others entry with another name....
-// Shadow Lord (10) // Paladins of Féérune (25 + 2 unused) // Killer (12) // Business intersection (5) // Mine (11) // Guild War/Neverwinter (3 ?) 
+// Shadow Lord (10) // Paladins of Féérune (25 + 2 unused) // Killer (12) // Mine (11) // Guild War/Neverwinter (3 ?) // Forbidden Temple (10)
 
 // sHOULD BE GOOD FOR REGULAR JOURNAL // XGADV (Lost adventurers 1) // XGARUNL (Sorceress 1) Add a solved journal entrie after @18 // XGdr01 Une dryade en Tethyr (1) Ne pas confondre avec le reste de la quête de Thétyr
 
 
 // Quest or regular journal...? 
-// XGELAD (Turlan forest 2)  //  XGBARD (Harp 2) // XGELOR (Ice Castle 2) // XGfa (Trademith is a farmer 3) // XGERRA (Help the prisoner 2) // XGhk/XGku Food (5)
+// XGELAD (Turlan forest 2)  //  XGBARD (Harp 2) // XGELOR (Ice Castle 2) // XGERRA (Help the prisoner 2)
+
 
 // OTHER single probably related to another 
-// XGFKIN2 (On the way to death 1) ? Business intersection ? // XGFLPLA (Lord's request 1) ? Business intersection ? // XGGLV (Arena of nomads 1) maybe a single journal entries // XGLRDR XGMAYOR (King's Request 2) ? Business intersection ? // 
+// XGGLV (Arena of nomads 1) probably a single journal entries
+
+
+// Not verified yet 
+// A castle that does not exist / Wizard // Darkness // 3 relics // War of the orcs // Bribery // The family is in danger / The nobleman is in danger // Wizard
+
+
+// UNUSED
+// XGFLPLA (Lord's request 1) XGLRDR XGMAYOR (King's Request 2) // XGFKIN2 (On the way to death 1
+
+
 
 ////////////////////// Protection of goods
 
@@ -47,49 +58,6 @@ UNSOLVED_JOURNAL @13
 @13 = ~ Protection of the goods.
 
 A merchant from Memnon at the port in Atkatl asked me to help him. It is necessary to protect his goods from pirates while sailing from Atkatly port to Memnon. ~
-
-
-
-//////////////////////////   Business intersection
-
-// XG0203.BAF
-
-SetQuestDone(@5)  
-	
-@5 = ~ Business crossroads. 
-
-After the death of a lich, an old man appeared who told me what had happened and gave me a map of the elven city of Silwaneda. ~
-
-
-EraseJournalEntry(@3) 
-
-@3 = ~ Business intersection.
-
-I agreed that temporarily me and my company will act as the personal guard of trade king Amn. ~
-
-EraseJournalEntry(@4) 
-
-@4 = ~ Business intersection.
-
-I found a lich who is responsible for attacking the king, but he says he worked for someone else, more powerful. ~
- 
-
-// XGATKI1.d
-
-UNSOLVED_JOURNAL @5 
-
-@5 = ~ Business intersection.
-
-I agreed that temporarily me and my company will act as the personal guard of trade king Amn. ~
-
-
-//  XGGRAL.d
-
-UNSOLVED_JOURNAL @6
-
-@6 = ~ Business intersection.
-
-I found a lich who is responsible for attacking the king, but he says he worked for someone else, more powerful. ~
 
 
 

@@ -17,6 +17,7 @@ IF ~~ THEN BEGIN 2
 EraseJournalEntry(@50502)
 EraseJournalEntry(@50503)
 RevealAreaOnMap("XG0047")
+// SetGlobal("XGH2RevealXG0047","GLOBAL",1) // Compat IWD_EET
 GiveGoldForce(4000)
 AddexperienceParty(10000)
 GiveItemCreate("XGNINJ1",Player1,0,0,0)

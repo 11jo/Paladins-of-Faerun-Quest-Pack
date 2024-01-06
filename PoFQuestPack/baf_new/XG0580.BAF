@@ -59,7 +59,7 @@ THEN
 	ActionOverride(Player1,MoveToPoint([874.3783]))  
 	ActionOverride("XGdreu",EscapeArea())
     Wait(1)
-    AddJournalEntry(@5,QUEST)
+    AddJournalEntry(@50606,QUEST)
 	ActionOverride("XGNEAN28",DestroySelf())
     ActionOverride(Player2,LeaveAreaLUA("XGa480","",[403.562],0))
     ActionOverride(Player1,LeaveAreaLUA("XGa480","",[429.599],0))

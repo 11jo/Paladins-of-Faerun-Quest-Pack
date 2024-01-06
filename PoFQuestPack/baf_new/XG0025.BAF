@@ -8,6 +8,8 @@ THEN
     StartCutSceneMode()
     HideGUI()
     PlaySound("XGMUS3")
+    RevealAreaOnMap("XG0024")
+	SetGlobal("XG0025RevealXG0024","GLOBAL",1) // Compat IWD_EET
     Wait(2)
     DisplayStringHead(Player1,@0)  // @0
     Wait(4)

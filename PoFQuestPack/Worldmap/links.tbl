@@ -9,6 +9,7 @@ AR0020    N         XG0009      EXITX         75        1        N        N     
 AR0020    N         XG0012      EXITSE        68        3        XGRA03   N        N        N        N         90
 AR0020    N         XG0020      EXITS         35        3        XGRA03   N        N        N        N         80
 AR0020    N         XG0025      ENTRANCE###6 100        2        N        N        N        N        N          0
+AR0020    N         XG0024      ExitN        100        2        N        N        N        N        N          0
 AR0020    N         XG0026      EXITSW        85        2        N        N        N        N        N          0
 AR0020    N         XG0064      EXITSE        80        3        XGRA03   N        N        N        N        100
 AR0020    N         XG0047      EXITSW       105        1        N        N        N        N        N          0
@@ -103,6 +104,11 @@ XG0025    S         AR0020      EXITNE       110        3        N        N     
 XG0025    S         XG0020      EXITS         55        2        N        N        N        N        N          0
 XG0025    S         XG0059      EXITW        100        4        XGRA01   N        N        N        N        100
 
+XG0024    N         XG0058      EXITSW         1        1        N        N        N        N        N          0
+XG0024    S         AR0020      EXITNE       110        3        N        N        N        N        N          0
+XG0024    S         XG0020      EXITS         55        2        N        N        N        N        N          0
+XG0024    S         XG0059      EXITW        100        4        XGRA01   N        N        N        N        100
+
 XG0026    N         XG0003      EXITE          5        1        N        N        N        N        N          0
 XG0026    N         XG0007      EXITX          7        1        N        N        N        N        N          0
 XG0026    S         AR0020      EXITNE        70        4        XGRA03   N        N        N        N         60
@@ -150,6 +156,7 @@ XG0046    N         AR0020      EXITNE        45        2        N        N     
 XG0047    S         AR0020      EXITN        110        2        N        N        N        N        N          0
 XG0047    S         XG0064      EXITSW        25        2        N        N        N        N        N          0
 XG0047    E         XG0025      ENTRANCE###6   2        2        XGRA01   N        N        N        N         90
+XG0047    E         XG0024      ExitN          2        2        XGRA01   N        N        N        N         90
 
 XG0050    N         XG0020      EXITS         14        1        XGRA06   N        N        N        N         70
 XG0050    S         AR0020      EXITNE        28        1        N        N        N        N        N          0
@@ -180,6 +187,8 @@ XG0066    S         XG0029      EXITE         15        1        N        N     
 XG0066    S         AR0020      EXITNE        75        2        N        N        N        N        N          0
 
 XG0067    S         XG0025      EXITS          2        2        N        N        N        N        N          0
+XG0067    S         XG0024      ExitN          2        2        N        N        N        N        N          0
+XG0067    S         XG0047      ExitSW         2        2        N        N        N        N        N          0
 
 XG0069    W         AR0020      EXITNE        35        1        N        N        N        N        N          0
 XG0069    S         XG0046      EXITSE        45        2        N        N        N        N        N          0
@@ -222,6 +231,8 @@ XG0077    S         XG0078      EXITSE         4        1        N        N     
 XG0078    N         AR0020      EXITNE        28        2        XGRA08   N        N        N        N         70
 
 XG0058    S         XG0025      EXITS          2        1        XGRA01   N        N        N        N        100
+XG0058    S         XG0024      ExitN          2        1        XGRA01   N        N        N        N        100
+XG0058    S         XG0047      ExitSW         2        2        XGRA01   N        N        N        N        100
 
 XG0079    W         AR2000      EXITNE         2        1        N        N        N        N        N          0
 

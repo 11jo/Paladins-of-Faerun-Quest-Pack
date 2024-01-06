@@ -87,22 +87,22 @@ AUTO_TRA ~PoFQuestPack/Languages/autotra/%s/Baf_new~
 LANGUAGE ~Russian~
          ~russian~
          ~PoFQuestPack/Languages/Russian/SETUP-PoFQuestPack.tra~
-         ~PoFQuestPack/Languages/Russian/Journal.tra~
+         //~PoFQuestPack/Languages/Russian/Journal.tra~
 
 LANGUAGE ~English~
          ~english~
          ~PoFQuestPack/Languages/English/SETUP-PoFQuestPack.tra~
-         ~PoFQuestPack/Languages/English/Journal.tra~
+         //~PoFQuestPack/Languages/English/Journal.tra~
 
 LANGUAGE ~German~
          ~German~
          ~PoFQuestPack/Languages/German/SETUP-PoFQuestPack.tra~
-         ~PoFQuestPack/Languages/German/Journal.tra~
+         //~PoFQuestPack/Languages/German/Journal.tra~
 		 
 LANGUAGE ~Main English / Francais Partiel~
          ~French~
          ~PoFQuestPack/Languages/French/SETUP-PoFQuestPack.tra~
-         ~PoFQuestPack/Languages/French/Journal.tra~
+         //~PoFQuestPack/Languages/French/Journal.tra~
 
 
 ///////////////////////////////////
@@ -111,6 +111,7 @@ LANGUAGE ~Main English / Francais Partiel~
 
 
 BEGIN @1
+DESIGNATED 1
 LABEL ~BGslayer-PoF~
 
 INCLUDE ~PoFQuestPack/Lib/arrays-macros.tpa~ // Unused
@@ -370,6 +371,10 @@ BUT_ONLY
 
 END	
 */
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+/* INCLUDE ~PoFQuestPack/Lib/PoF_Actors.tpa~ */
 
 //////////////////////////////////
 // Setup  Actors
@@ -694,10 +699,12 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGBH1.CRE~        ~override/XGBH1.CRE~
 COPY ~weidu_external/PoFQuestPack/Actors/XGBHC.CRE~        ~override/XGBHC.CRE~
   SAY NAME1 @51
   SAY NAME2 @51
+  WRITE_SHORT 0x14 ~3000~ // XP value
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGBH.CRE~         ~override/XGBH.CRE~
   SAY NAME1 @50
   SAY NAME2 @50
+  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3000)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGBHN1.CRE~       ~override/XGBHN1.CRE~
   SAY NAME1 @50
@@ -1112,11 +1119,13 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGDREC.CRE~       ~override/XGDREC.CRE~
   SAY NAME1 @99 
   SAY NAME2 @99 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdreq.CRE~       ~override/XGdreq.CRE~        
-  SAY NAME1 @100 
-  SAY NAME2 @100 
+COPY ~weidu_external/PoFQuestPack/Actors/XGdreq.CRE~       ~override/XGdreq.CRE~
+  SAY NAME1 @100
+  SAY NAME2 @100
+  WRITE_ASCII 0x248 ~XGdreq~ (8) // Override script
+  WRITE_ASCII 0x268 ~GPSHOUT~ (8) // Default script
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGdreu.CRE~       ~override/XGdreu.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGdreu.CRE~       ~override/XGdreu.CRE~
   SAY NAME1 @100 
   SAY NAME2 @100 
 
@@ -3566,6 +3575,10 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGz.CRE~          ~override/XGz.CRE~
   WRITE_ASCII 0x280 ~AMNG2~ (8) // Script name / Death variable
 
 
+
+/* INCLUDE ~PoFQuestPack/Lib/PoF_Areas.tpa~ */
+
+
 //////////////////////////////////
 // Setup Areas
 //////////////////////////////////
@@ -3817,8 +3830,8 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0078.ARE~         ~override/XG0078.ARE
 COPY ~weidu_external/PoFQuestPack/Areas/XG0079.ARE~         ~override/XG0079.ARE~         
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0080.ARE~         ~override/XG0080.ARE~
-  SAY 0x26CC @1041
-  SAY 0x2700 @1042          
+  ADD_MAP_NOTE #3441 #346 ~blue~ @1042 // Sanctuaire
+  ADD_MAP_NOTE #1783 #1315 ~blue~ @929 // Temple of Shevarash
   ADD_MAP_NOTE #890 #510 ~blue~ @1041 // Forgeron
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0081.ARE~         ~override/XG0081.ARE~   
@@ -4275,7 +4288,8 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0829.ARE~         ~override/XG0829.ARE
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0864.ARE~         ~override/XG0864.ARE~         
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0880.ARE~         ~override/XG0880.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0880.ARE~         ~override/XG0880.ARE~   
+  ADD_MAP_NOTE #3984 #826 ~red~ @101 // Vieux dragon      
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0901.ARE~         ~override/XG0901.ARE~
   SAY 0x4FD4 @1054
@@ -4289,7 +4303,8 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0920.ARE~         ~override/XG0920.ARE
 COPY ~weidu_external/PoFQuestPack/Areas/XG0964.ARE~         ~override/XG0964.ARE~         
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0A80.ARE~         ~override/XG0A80.ARE~
-  SAY 0x24E0 @1042        
+  ADD_MAP_NOTE #3441 #346 ~blue~ @1042 // Sanctuaire
+  ADD_MAP_NOTE #1783 #1315 ~blue~ @929 // Temple of Shevarash
   ADD_MAP_NOTE #890 #510 ~blue~ @1041 // Forgeron
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG1020.ARE~         ~override/XG1020.ARE~
@@ -4379,7 +4394,10 @@ COPY ~weidu_external/PoFQuestPack/Areas/XGUMOD.ARE~			~override/XGUMOD.ARE~
   SAY 0x3040 @432
   SAY 0x32A4 @1001
 
-// Aeras cheat for Paladin of Faerun
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+// Areas cheat for Paladin of Faerun
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 
@@ -4395,6 +4413,12 @@ XG0037.are, XG0037.tis, XG0037.WED and XG0037.bcs
 XG0136.are and XG0136.bcs
 XG0453.are, XG0453.WED   XG0453.bcs
 */
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+/* INCLUDE ~PoFQuestPack/Lib/PoF_Items.tpa~ */
+
 
 //////////////////////////////////
 // Setup  Items
@@ -5848,6 +5872,9 @@ COPY ~weidu_external/PoFQuestPack/Items/XGZAT.ITM~			~override/XGZAT.ITM~
   SAY UNIDENTIFIED_DESC @917
   SAY DESC @917
 
+////////////////////////////////////////////////////////////////////////////////////////////
+
+/* INCLUDE ~PoFQuestPack/Lib/PoF_Stores.tpa~ */
 
 //////////////////////////////////
 // Setup  Stores
@@ -5942,6 +5969,7 @@ COPY ~weidu_external/PoFQuestPack/Stores/S#SHEV01.STO~			~override/S#SHEV01.STO~
 COPY ~weidu_external/PoFQuestPack/Stores/s#SHOP01.STO~			~override/s#SHOP01.STO~
   SAY NAME2 @402
   
+////////////////////////////////////////////////////////////////////////////////////////////
   
 //////////////////////////////////
 // Journal
@@ -5976,6 +6004,15 @@ ADD_JOURNAL TITLE (@50700) @50701 @50702 @50703 @50704 @50705 @50706 @50707 @507
  
 // Family. Quête du Duc Opas.
 ADD_JOURNAL TITLE (@50800) @50801 @50802 @50803 @50804 @50805 @50806
+ 
+// A farmer in Trademeet
+ADD_JOURNAL TITLE (@50900) @50901 @50902 @50903
+ 
+// Business intersection
+ADD_JOURNAL TITLE (@51000) @51001 @51002 @51003
+ 
+// Food. Les rations.
+ADD_JOURNAL TITLE (@51100) @51101 @51102 @51103 @51104
 
 
 //////////////////////////////////
@@ -6008,6 +6045,8 @@ EXTEND_TOP ~AR0500.BCS~				~PoFQuestPack/baf_are/S#AR0500.baf~
 EXTEND_TOP ~AR0527.BCS~				~PoFQuestPack/baf_are/S#AR0527.baf~
 
 EXTEND_TOP ~AR0528.BCS~				~PoFQuestPack/baf_are/S#AR0528.baf~
+
+EXTEND_TOP ~AR0406.BCS~				~PoFQuestPack/baf_are/S#AR0406.baf~  // Compat IWD_EET
 
 ACTION_IF (GAME_IS ~bg2ee eet~ AND FILE_EXISTS_IN_GAME ~AR0602.BCS~) BEGIN
 
@@ -6207,6 +6246,7 @@ APPEND ~MASTAREA.2da~ ~XG0018 value~ UNLESS ~XG0018~ // Camp Secret de Gradak
 APPEND ~MASTAREA.2da~ ~XG0019 value~ UNLESS ~XG0019~ // Navire de Gradak // Ship of Gradak //
 APPEND ~MASTAREA.2da~ ~XG0020 value~ UNLESS ~XG0020~ // Porte de Baldur  // Baldur's Gate  //
 APPEND ~MASTAREA.2da~ ~XG0025 value~ UNLESS ~XG0025~ // Quais de Targos // Docks of Targos //
+APPEND ~MASTAREA.2da~ ~XG0024 value~ UNLESS ~XG0024~ // Targos // Targos Town //
 APPEND ~MASTAREA.2da~ ~XG0026 value~ UNLESS ~XG0026~ // Haute-Forêt // The High Forest //
 APPEND ~MASTAREA.2da~ ~XG0064 value~ UNLESS ~XG0064~ // Eauprofonde // Waterdeep //
 APPEND ~MASTAREA.2da~ ~XG0028 value~ UNLESS ~XG0028~ // Château des Montagnes Floconeigeuses // Fort on Snowflake mountains //
@@ -6260,7 +6300,7 @@ APPEND ~MASTAREA.2da~ ~XG0084 value~ UNLESS ~XG0084~ // La Plaine Gelée // The 
 APPEND ~MASTAREA.2da~ ~XG0A80 value~ UNLESS ~XG0A80~ // Siluvanede (bis)
 APPEND ~MASTAREA.2da~ ~XG0080 value~ UNLESS ~XG0080~ // Siluvanede
 APPEND ~MASTAREA.2da~ ~XG0780 value~ UNLESS ~XG0780~ // Camp Eilistraee
-APPEND ~MASTAREA.2da~ ~XG0680 value~ UNLESS ~XG0680~ // Forêt (vers Padhiver) // Forest //
+APPEND ~MASTAREA.2da~ ~XG0680 value~ UNLESS ~XG0680~ // Forêt de Siluvanede // Forest //
 
 
 /* Replacement for PoFQuestPack_Inst.bat */
@@ -6375,5 +6415,3 @@ AT_INTERACTIVE_UNINSTALL ~PoFQuestPack\OLD.PoFQuestPack_Uninst.bat~
 
 
 END
-
-

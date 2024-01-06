@@ -7,7 +7,11 @@
 @6 = ~ Okay, I'm doing this, where can I find a guard? ~
 @7 = ~ Go west, somewhere among the tents you will find them. Get the gold on the spot. ~
 @8 = ~ Great. ~
+
+/*
 @9 = ~ Food.
 
 A cook in Siluvaneda asked me to deliver food to a guard in the west. ~
+*/
+
 @10 = ~ I will have to find someone more intelligent. It's impossible to solve a business proposal with you! ~

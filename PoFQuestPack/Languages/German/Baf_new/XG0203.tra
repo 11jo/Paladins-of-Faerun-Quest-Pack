@@ -1,6 +1,8 @@
 @0 = ~Hallo mein Freund, Ihr babt diesen Leichnam getötet und damit die Magie aufgehoben, die der Elf namens John Irenicus auf mich gewirkt hat. John Irenicus war mein Schüler, aber das Verlangen nach Macht war für ihn wie eine Droge. Ich glaube, Ihr seid derjenige, der ihm widerstehen und ihn aufhalten kann. Ich bin sicher, dass Ihr das schafft.~ ~Hallo meine Freundin, Ihr babt diesen Leichnam getötet und damit die Magie aufgehoben, die der Elf namens John Irenicus auf mich gewirkt hat. John Irenicus war mein Schüler, aber das Verlangen nach Macht war für ihn wie eine Droge. Ich glaube, Ihr seid diejenige, die ihm widerstehen und ihn aufhalten kann. Ich bin sicher, dass Ihr das schafft.~
 @1 = ~Wer seid Ihr?~
 @2 = ~Ich komme aus Siluvaned, der Stadt der Elfen. Gebt mir eine Karte, ich werde diesen Ort auf Eurer Karte markieren. Macht Euch keine Sorgen um den König, ich habe mit ihm gesprochen, er weiß von Euren Erfolgen und dankt Euch. Nun muss ich mich verabschieden, du wirst die Dankbarkeit des Königs in Athkatla erhalten.~
+
+/*
 @3 = ~Geschäftsüberschneidung.
 
 Ich habe zugestimmt, dass ich und meine Gruppe vorübergehend als persönliche Wache des Handelskönigs von Amn agieren werden.~
@@ -10,3 +12,4 @@ Ich habe einen Leichnam gefunden, der für den Angriff auf den König verantwortli
 @5 = ~Geschäftsüberschneidung.
 
 Nach dem Tod eines Leichnams erschien ein alter Mann, der mir erzählte, was passiert war, und mir eine Karte der Elfenstadt Siluvaned gab.~
+*/

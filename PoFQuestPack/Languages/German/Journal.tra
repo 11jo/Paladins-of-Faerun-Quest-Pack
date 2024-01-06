@@ -514,6 +514,80 @@ Die Familie des Großherzogs Opas wurde von seinem ehemaligen Stellvertreter entf
 
 Die Familie Opas war gerettet.~ // @12
 
+ 
+
+	
+//////////////////////    A farmer in Trademeet. Quête du Duc Opas.
+// Title
+
+@50900 = ~Bauer aus Handelstreff~
+
+
+// XGfa
+
+@50901 = ~Bauer aus Handelstreff
+
+In Handelstreff traf ich einen Bauern, dessen Hof von denselben Kreaturen angegriffen wurde, die ganz Handelstreff und Umgebung angriffen. Er bat mich um Hilfe, um seine Farm zu retten.~ // @8
+
+@50902 = ~Bauer aus Handelstreff
+
+Ihr habt den Bauern belogen, dass Ihr seinen Hof befreit habt. Ihr habt ihn in den sicheren Tod geschickt.~  // @15
+
+@50903 = ~Bauer aus Handelstreff
+
+Die Spinnenkönigin, die sich in einer Höhle in der Nähe des Bauernhofs versteckt hatte, wurde getötet.~  // @17
+
+ 
+
+	
+//////////////////////    Business intersection.
+// Title
+
+@51000 = ~Geschäftsüberschneidung~
+
+// XG0203.BAF 
+	
+@51001 = ~Geschäftsüberschneidung 
+
+Nach dem Tod eines Leichnams erschien ein alter Mann, der mir erzählte, was passiert war, und mir eine Karte der Elfenstadt Siluvaned gab.~ // @5
+
+@51002 = ~Geschäftsüberschneidung
+
+Ich habe zugestimmt, dass ich und meine Gruppe vorübergehend als persönliche Wache des Handelskönigs von Amn agieren werden.~ // @3
+
+@51003 = ~Geschäftsüberschneidung
+
+Ich habe einen Leichnam gefunden, der für den Angriff auf den König verantwortlich ist, aber er sagt, er habe für jemand anderen, der mächtiger ist, gearbeitet.~ // @4
+
+ 
+
+	
+//////////////////////    Food. Les rations.
+// Title
+
+@51100 = ~Essen~
+
+// XGhk
+
+@51101 = ~Essen
+
+Ich gab den Wachen Essen und 500 erhielt Gold.~ // @5
+
+@51102 = ~Essen
+
+Es gelang mir, die Patrouille auszutricksen und 700 Gold für eine Mahlzeit zu bekommen.~ // @9
+
+@51103 = ~Essen
+
+Ich habe die Wachen verärgert und musste sie töten.~ // @11
+
+@51104 = ~Essen
+
+Ein Koch in Siluvaned bat mich, den Wachen im Westen Essen zu bringen.~ // @8
+
+
+
+
 
 	
 

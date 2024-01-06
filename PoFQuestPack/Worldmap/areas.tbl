@@ -17,7 +17,8 @@ XG0017      XG0017    XG0017     4       46      2988   4119   @POF_74525  @POF_
 XG0018      XG0018    XG0018     4       54      1080   2300   @POF_74372  @POF_74372  N        // Camp Secret de Gradak
 XG0019      XG0019    XG0019     4      103      1166   2446   @POF_74554  @POF_74554  N        // Navire de Gradak // Ship of Gradak //
 XG0020      XG0020    XG0020     4       30      1160   1900   @POF_74339  @POF_74339  N        // Porte de Baldur  // Baldur's Gate  //
-XG0025      XG0025    XG0025     4       36       401    296   @POF_74564  @POF_74564  N        // Quais de Targos // Docks of Targos //
+XG0025      XG0025    XG0025     4      152       265   -275   @POF_74564  @POF_74564  N        // Quais de Targos // Docks of Targos //
+XG0024      XG0024    XG0024     4       93       170   -320   @POF_74565  @POF_74565  N        // Targos // Targos //
 XG0026      XG0026    XG0026     4       44      1819   1231   @POF_74516  @POF_74516  N        // Haute Forêt // The High Forest //
 XG0064      XG0064    XG0064     4       79      1205   1515   @POF_74349  @POF_74349  N        // Eauprofonde // Waterdeep //
 XG0028      XG0028    XG0028     4       71      3256   3252   @POF_74568  @POF_74568  N        // Château des Montagnes Floconeigeuses // Fort on Snowflake mountains //
@@ -29,7 +30,7 @@ XG0040      XG0040    XG0040     4       63       555   2550   @POF_75566  @POF_
 XG0068      XG0068    XG0068     4       26      1326   2805   @POF_75430  @POF_75430  N        // District des Affaires // Business district //
 XG0041      XG0041    XG0041     4       70       520   2450   @POF_75566  @POF_75566  N        // Îles Moonshae // Moonshae Isles //
 XG0046      XG0046    XG0046     4        6      1643   4046   @POF_75776  @POF_75776  N        // Temple oublié // Forgotten Temple //
-XG0047      XG0047    XG0047     4       53       420    150   @POF_75991  @POF_75991  N        // Port de l'Est (Icewind Dale) // East Harbor //
+XG0047      XG0047    XG0047     4      135      1147   -197   @POF_75991  @POF_75991  N        // Havredest (Icewind Dale) // East Harbor //
 XG0062      XG0062    XG0062     4       35       870   1180   @POF_75990  @POF_75990  N        // Padhiver // Neverwinter 
 XG0050      XG0050    XG0050     4       66      1920   2820   @POF_76029  @POF_76029  N        // Montagnes (sous le festival) // Mountains //
 XG0052      XG0052    XG0052     4        6      4850     50   @POF_76750  @POF_76750  N        // Forteresse Glacée // Ice Castle //
@@ -38,7 +39,7 @@ XG0055      XG0055    XG0055     4       46      2988   4119   @POF_74525  @POF_
 XG0061      XG0061    XG0061     4       45      2259   2222   @POF_77324  @POF_77324  N        // Forêt (vers les Montagnes du Couchant) // Forest //
 XG0065      XG0065    XG0065     4       54      2400   2020   @POF_74579  @POF_74579  N        // Village (près de Soubar) // Village //
 XG0066      XG0066    XG0066     4       41      1840   1440   @POF_77430  @POF_77430  N        // Col de la Forêt // Pass //
-XG0067      XG0067    XG0067     4       51       125    265   @POF_77510  @POF_77510  N        // Vallée de L'Épine Dorsale // Valley of Icewind Dale //
+XG0067      XG0067    XG0067     4       51       740    140   @POF_77510  @POF_77510  N        // Vallée de L'Épine Dorsale // Valley of Icewind Dale //
 XG0069      XG0069    XG0069     4       59      2450   2792   @POF_77550  @POF_77550  N        // Chasse aux Trolls // Hunting Trolls //
 XG0053      XG0053    XG0053     4       59      3037   3229   @POF_77694  @POF_77694  N        // Le Culte // Cult //
 XG0056      XG0056    XG0056     4       64      2551   1872   @POF_77695  @POF_77695  N        // Vallée // Valley // 
@@ -52,8 +53,8 @@ XG1319      XG1319    XG1319     4       42      1319   2255   @POF_74570  @POF_
 XG0076      XG0076    XG0076     4       71      1816   3916   @POF_78121  @POF_78121  N        // Château-Téthyr // Forest of Tehyr //
 XG0077      XG0077    XG0077     4       47      1680   3750   @POF_78122  @POF_78122  N        // Forêt de Téthyr // Forest of Tehyr //
 XG0078      XG0078    XG0078     4       71      1816   3916   @POF_78121  @POF_78121  N        // Château-Téthyr // Castle of Tehyr //
-XG0058      XG0058    XG0058     4       69        50    310   @POF_77510  @POF_77510  N        // Vallée de L'Épine Dorsale // Valley of Icewind Dale //
-XG0079      XG0079    XG0079     4       57      2300   3685   @POF_77798  @POF_77798  N        // Ferme (près d'Esmeltaran) // Farm //
+XG0058      XG0058    XG0058     4       69       640    -20   @POF_77510  @POF_77510  N        // Vallée de L'Épine Dorsale // Valley of Icewind Dale //
+XG0079      XG0079    XG0079     4       57      2340   3750   @POF_77798  @POF_77798  N        // Ferme (près d'Esmeltaran) // Farm //
 XG4001      XG4001    XG4001     4       70       520   2450   @POF_75566  @POF_75566  N        // Îles Moonshae // Moonshae Isles //
 XG0081      XG0081    XG0081     4       47      2886   2256   @POF_78402  @POF_78402  N        // Montagnes du Couchant // Twilight Mountains //
 XG1081      XG1081    XG1081     4       54      2886   2256   @POF_78402  @POF_78402  N        // Village du Couchant (Torm monastère) // Twilight Mountains //
@@ -71,6 +72,6 @@ XG0084      XG0084    XG0084     4       62      4825    480   @POF_78923  @POF_
 XG0A80      XG0A80    XG0A80     4       18      1715    875   @POF_79052  @POF_79052  N        // Siluvanede
 XG0080      XG0080    XG0080     4       18      1715    875   @POF_79052  @POF_79052  N        // Siluvanede (bis)
 XG0780      XG0780    XG0780     4       17      1490   1060   @POF_79053  @POF_79053  N        // Camp Eilistraee
-XG0680      XG0680    XG0680     4       16      1640   1020   @POF_77324  @POF_77324  N        // Forêt (vers Padhiver) // Forest //
+XG0680      XG0680    XG0680     4       16      1640   1020   @POF_77324  @POF_77324  N        // Forêt de Siluvanede // Forest //
 
 

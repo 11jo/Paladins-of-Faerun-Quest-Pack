@@ -14,6 +14,7 @@
 @POF_74554 = "Gradaks###Schiff"
 @POF_74339 = "Baldurs###Tor"
 @POF_74564 = "Hafen###Targos"
+@POF_74565 = "Targos"
 @POF_74516 = "Groﬂer###Wald"
 @POF_74349 = "Tiefwasser"
 @POF_74568 = "Eisberg-Festung"

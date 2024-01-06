@@ -15,7 +15,8 @@ ActionOverride(Player3,LeaveAreaLUA("XG0002","",[3264.2958],8))
 ActionOverride(Player4,LeaveAreaLUA("XG0002","",[3419.2959],8))
 ActionOverride(Player5,LeaveAreaLUA("XG0002","",[3337.3047],8))
 ActionOverride(Player6,LeaveAreaLUA("XG0002","",[3476.2976],8))
-EscapeArea()~ UNSOLVED_JOURNAL @5 EXIT
+AddJournalEntry(@51002,QUEST)
+EscapeArea()~ EXIT
   IF ~~ THEN REPLY @6 GOTO 2
 END
 

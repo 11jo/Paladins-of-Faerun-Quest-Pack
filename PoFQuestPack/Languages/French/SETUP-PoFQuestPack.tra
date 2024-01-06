@@ -1,3 +1,5 @@
+// @1 TO @10000 (+@100000)
+
 @1 = ~Quetes : Les Paladins de Feerune~
 @2 = ~Étudiant de l'académie~
 @3 = ~Étudiant~
@@ -4084,7 +4086,7 @@ Poids : 1~
 @926 = ~Temple of Shaar~
 @927 = ~Temple of Helm~
 @928 = ~Ilmater's Servant~
-@929  = ~Temple of Shevarash~
+@929  = ~Temple de Shevarash~
 
 
 
@@ -4131,7 +4133,7 @@ Poids : 1~
 @1039 = ~You were awakened from sleep by the piercing screams of a combat squad of the xvarts, just at the moment when you started to dream something good...~
 @1040 = ~The air stinks terribly of gnolls. You thanked the gods for waking up on time and reaching for weapons.~
 @1041 = ~Forgeron~
-@1042 = ~Sanctuary~
+@1042 = ~Sanctuaire~
 @1043 = ~Vous êtes attaqué par des vampires~
 @1044 = ~Vous êtes attaqué par des orques~
 @1045 = ~Profondeur sous la crevasse~
@@ -4222,6 +4224,20 @@ Zone d'effet : Rayon de 9 m
 Jet de sauvegarde : 1/2
 
 Le magicien pointe son doigt dans la direction désirée et projette une sphère d'énergie négative qui explosera à l'impact (à moins qu'elle ne rencontre un obstacle solide en chemin), infligeant 1d8 points de dégâts par niveau du lanceur de sorts (jusqu'à un maximum de 10d8). Les créatures qui réussissent leur jet de sauvegarde ou esquivent ne subissent que la moitié des dégâts.~
+
+// Messagers
+
+@3000 = ~Youhou !~
+@3001 = ~Laissez passer le messager de Padhiver~
+@3002 = ~J'ai une offre à vous faire.~
+@3003 = ~Hé ! regardez par ici !~
+@3004 = ~Heu... Hum ! Hum !~
+
+// AR0400 vadrouilleur Mines vagabondes
+// AR0020 Messager de Padhiver
+// AR0800 Novice Temple oublié
+// AR0300 Marchand de Memnon
+
 
 
 ////XGBOOKP.itm - BOOKPR.itm////
@@ -5324,10 +5340,18 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0079", "(PoF)  Ferme (près d'Esmeltaran)"},
 	{"XG4001", "(PoF)  Îles Moonshae"},
 	{"XG0080", "(PoF)  Siluvanede"},
+	{"XG0380", "(PoF)  Forge de Siluvanede"},
+	{"XG0280", "(PoF)  Temple de Shevarash (Siluvanede)"},
 	{"XG0A80", "(PoF)  Siluvanede (bis)"},
+	{"XG0680", "(PoF)  Forêt de Siluvanede"},
 	{"XG0780", "(PoF)  Camp Eilistraee"},
-	{"XG0680", "(PoF)  Forêt (vers Padhiver)"},~
-
+	{"XG0580", "(PoF)  Ched Nasad"},
+	{"XG0880", "(PoF)  Ombre-Terre"},
+	{"XG0480", "(PoF)  Croisée de Siluvanede (Ched Nasad)"},
+	{"XGA480", "(PoF)  Croisée de Siluvanede (Forêt)"},
+	{"XG0080", "(PoF)  Siluvanede"},
+	{"XG0080", "(PoF)  Siluvanede"},
+	{"XG0080", "(PoF)  Siluvanede"},~
 
 /* =============== *
  *  WeiDU prompts  *

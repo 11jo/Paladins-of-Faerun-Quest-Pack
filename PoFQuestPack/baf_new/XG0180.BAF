@@ -42,7 +42,7 @@ THEN
 	ActionOverride(Player6,MoveToPoint([223.635]))  
 	ActionOverride(Player1,MoveToPoint([223.635]))  
     Wait(3)	
-    AddJournalEntry(@9,QUEST)
+    AddJournalEntry(@50604,QUEST)
     GiveItemCreate("XGmsq",Player1,0,0,0)  // ~Семейный кулон~
     UnhideGUI()
     EndCutSceneMode()

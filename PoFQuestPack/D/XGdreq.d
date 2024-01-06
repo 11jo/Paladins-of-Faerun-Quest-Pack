@@ -8,5 +8,6 @@ END
 IF ~~ THEN BEGIN 1
   SAY @2
   IF ~~ THEN REPLY @3 DO ~RevealAreaOnMap("XG0780")
+SetGlobal("XGdreqLeave","GLOBAL",1)
 EscapeArea()~ EXIT
 END

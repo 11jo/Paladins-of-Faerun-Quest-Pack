@@ -513,6 +513,79 @@ The family of the Grand Duke Opas was abducted by his former deputy, I tracked d
 
 The Opas family was saved.~ // @12
 
+ 
+
+	
+//////////////////////    A farmer in Trademeet. Quête du Duc Opas.
+// Title
+
+@50900 = ~A farmer in Trademeet~
+
+
+// XGfa
+
+@50901 = ~A farmer in Trademeet
+
+In Trademeet, I met a farmer, his farm was attacked by the same creatures that attacked the entire Trademith and its environs. He asked me for help so I could save his farm.~ // @8
+
+@50902 = ~A farmer in Trademeet
+
+You lied to the farmer that you cleaned his farm. You sent him to certain death.~  // @15
+
+@50903 = ~A farmer in Trademeet
+
+The spider queen who took refuge in a cave near the farmer's farm was killed.~  // @17
+
+ 
+
+	
+//////////////////////    Business intersection.
+// Title
+
+@51000 = ~Business intersection~
+
+// XG0203.BAF 
+	
+@51001 = ~Business intersection 
+
+After the death of a lich, an old man appeared who told me what had happened and gave me a map of the elven city of Silwaneda.~ // @5
+
+@51002 = ~Business intersection
+
+I agreed that temporarily me and my company will act as the personal guard of trade king Amn.~ // @3
+
+@51003 = ~Business intersection
+
+I found a lich who is responsible for attacking the king, but he says he worked for someone else, more powerful.~ // @4
+
+ 
+
+	
+//////////////////////    Food. Les rations.
+// Title
+
+@51100 = ~Food~
+
+// XGhk
+
+@51101 = ~Food
+
+I passed food to the guard and got 500 gold.~ // @5
+
+@51102 = ~Food
+
+I managed to trick a patrol and get 700 gold for a meal.~ // @9
+
+@51103 = ~Food
+
+I pissed off the guards and I had to kill them.~ // @11
+
+@51104 = ~Food
+
+A cook in Siluvaneda asked me to deliver food to a guard in the west.~ // @8
+
+
+
 
 	
 

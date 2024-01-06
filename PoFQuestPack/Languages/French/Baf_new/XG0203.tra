@@ -2,6 +2,7 @@
 @1 = ~ Who are you? ~
 @2 = ~ I come from Siluvaneda, the city of elves. Give me a map, I will mark this place on your map. Do not worry about the king, I spoke with him, he knows about your successes and he thanks you. Now I have to say goodbye, you will receive the gratitude of the king in Atkatla. ~
 
+/*
 @3 = ~ Business intersection.
 
 I agreed that temporarily me and my company will act as the personal guard of trade king Amn. ~
@@ -13,3 +14,4 @@ I found a lich who is responsible for attacking the king, but he says he worked 
 @5 = ~ Business intersection. 
 
 After the death of a lich, an old man appeared who told me what had happened and gave me a map of the elven city of Silwaneda. ~
+*/

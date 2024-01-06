@@ -3,17 +3,28 @@
 @2 = ~ Ah, great. Here is your reward of 500 gold. ~
 @3 = ~ The cook promised me 700 gold. ~
 @4 = ~ Thank you, goodbye. ~
+
+/*
 @5 = ~ Food.
 I passed food to the guard and got 500 gold. ~
+*/
+
 @6 = ~ The cook promised me 1000 gold. ~
 @7 = ~ I will kill him! Well, here, take it and get out of my sight! ~
+
+/*
 @8 = ~ Food.
 
 A cook in Siluvaneda asked me to deliver food to a guard in the west. ~
 @9 = ~ Food.
 
 I managed to trick a patrol and get 700 gold for a meal. ~
+*/
+
 @10 = ~ For the price of food, I will kill the cook and you along with him! ~
+
+/*
 @11 = ~ Food.
 
 I pissed off the guards and I had to kill them. ~
+*/

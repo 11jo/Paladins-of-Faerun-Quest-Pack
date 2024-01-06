@@ -1,0 +1,49 @@
+// Adoster Son of the Dryade
+
+
+@200000 = ~Adoster, fils de la Succube~ // @200000 = ~Adoster Son of the Succube~
+@200001 = ~Gardien de la Corne~ // @200001 = ~Watcher of the Horn~
+@200002 = ~Génitrice~ // @200002 = ~Mother~
+
+@200010 = ~Vous !~ // Watcher of the Horn
+@200011 = ~C'est vous qui avait remis la Corne à ce monstre !~ // Watcher of the Horn
+@200012 = ~Holà !~ // Charname
+@200013 = ~Calmez-vous mon bonhomme et exprimez vos doléances.~ // Charname
+@200014 = ~Son engeance à pris possession de nos terre, nous sommes à leur merci.~ // Watcher of the Horn
+@200015 = ~Vous avez une chance de réparer vos erreurs, allez-vous la saisir ?~ // Watcher of the Horn
+@200016 = ~Pas de pitié pour les faibles... Prépare-toi à tâté de ma lame.~ // Charname // SetGlobal "vilain" and Escape Area
+@200017 = ~Très bien, il est possible que mes choix n'aient pas été des plus judicieux... Après que votre groupe s'en soit pris à moi.~ // Charname
+@200017 = ~Qu’attendez-vous de moi ?.~ // Charname
+@200014 = ~Les miens sont décimés... Revenez à notre sanctuaire et récupérez la Corne. Ces démons... Je ne peux pas perdre plus de temps en discutant davantage.~ // Watcher of the Horn
+@200014 = ~Rejoignez-moi dans le désert Calim ou laissez-nous périr...~ // Watcher of the Horn  // SetGlobal "Help ?" and Escape Area (Door)
+
+@200015 = ~Son engeance ?~
+@200016 = ~Ces démons ?~
+
+//@200010 = ~Vous !~ // Watcher of the Horn
+@200017 = ~Vous nous avez aidé par le passé.~ // Watcher of the Horn
+//@200014 = ~Son engeance à pris possession de nos terre, nous sommes à leur merci.~ // Watcher of the Horn
+//@200017 = ~Qu’attendez-vous de moi ?.~ // Charname
+//@200014 = ~Les miens sont décimés... Revenez à notre sanctuaire et récupérez la Corne. Ces démons... Je ne peux pas perdre plus de temps en discutant davantage.~ // Watcher of the Horn
+//@200014 = ~Rejoignez-moi dans le désert Calim ou laissez-nous périr...~ // Watcher of the Horn  // SetGlobal "Help ?" and Escape Area (Door)
+
+
+
+
+
+// XG0072
+
+// CUTSCENE
+//  Global "Help ?"
+// Arrivé sur la map, une succube, un "abjurateur" la neutralise et vous accompagne au sanctuaire....
+
+// Global "vilain"
+// Arrivé sur la map, une succube vous interpelle et vous accompagne au sanctuaire
+
+// Global "vilain" (Watcher of the Horn death)
+@200020 = ~Meurs ! Misérable !~ // Mother
+
+//  Global "Help ?" (Watcher of the Horn questionned)
+@200021  = ~Qu'as-tu fait ? Tu as attiré l'attention d'un rejeton de l'enfer.~ // Mother
+
+

@@ -1,0 +1,9 @@
+IF
+	Global("XG0025RevealXG0024","GLOBAL",1)
+	Global("XG0025HiddenXG0024","GLOBAL",1)
+THEN
+	RESPONSE #100
+		RevealAreaOnMap("XG0024")
+		RevealAreaOnMap("XG0025")
+END
+
