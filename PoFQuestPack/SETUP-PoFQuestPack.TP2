@@ -3,8 +3,8 @@
  **************************************************************************/
  
  
-BACKUP ~PoFQuestPack/backup~
-SUPPORT ~The Three Gibberlings https://www.gibberlings3.net/forums/topic/36756-the-gate-project/~
+BACKUP ~weidu_external/PoFQuestPack/backup~
+SUPPORT ~The Three Gibberlings : https://www.gibberlings3.net/forums/topic/36756-the-gate-project/ or https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/issues~
 
 
 README ~PoFQuestPack/Readme_PoFQuestPack_%LANGUAGE%.txt~ ~PoFQuestPack/Readme_PoFQuestPack_english.txt~
@@ -15,7 +15,7 @@ ALWAYS
 
 // EET chapter check, used for Add variables to PoF AREAS and prevent specific events from triggering during PoF travels...
 
-ACTION_IF GAME_IS ~eet~ BEGIN
+	ACTION_IF GAME_IS ~eet~ BEGIN
 			OUTER_SET bg2_chapter = 12
 		END ELSE BEGIN
 			OUTER_SET bg2_chapter = 0
@@ -24,18 +24,18 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 			OUTER_SET bg2_chapter = bg2_chapter + 1
 			OUTER_SPRINT name_source ~bg2_chapter_%i%~
 			OUTER_SET EVAL ~%name_source%~ = bg2_chapter
-		END
+	END
 
     //Copies tra files into the autotra-folder (to leave the originals untouched)
     DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
-      COPY ~PoFQuestPack/Languages/english/Baf_new~				~PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_new~
-      COPY ~PoFQuestPack/Languages/english/Baf_are~				~PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_are~
-      COPY ~PoFQuestPack/Languages/english/D~					~PoFQuestPack/Languages/autotra/%LANGUAGE%/D~
-      COPY ~PoFQuestPack/Languages/english~						~PoFQuestPack/Languages/autotra/%LANGUAGE%~
-	  COPY ~PoFQuestPack/Languages/%LANGUAGE%/Baf_new~			~PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_new~
-	  COPY ~PoFQuestPack/Languages/%LANGUAGE%/Baf_are~			~PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_are~
-	  COPY ~PoFQuestPack/Languages/%LANGUAGE%/D~				~PoFQuestPack/Languages/autotra/%LANGUAGE%/D~
-      COPY ~PoFQuestPack/Languages/%LANGUAGE%~					~PoFQuestPack/Languages/autotra/%LANGUAGE%~
+      COPY ~PoFQuestPack/Languages/english/Baf_new~				~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_new~
+      COPY ~PoFQuestPack/Languages/english/Baf_are~				~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_are~
+      COPY ~PoFQuestPack/Languages/english/D~					~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/D~
+      COPY ~PoFQuestPack/Languages/english~						~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%~
+	  COPY ~PoFQuestPack/Languages/%LANGUAGE%/Baf_new~			~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_new~
+	  COPY ~PoFQuestPack/Languages/%LANGUAGE%/Baf_are~			~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_are~
+	  COPY ~PoFQuestPack/Languages/%LANGUAGE%/D~				~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/D~
+      COPY ~PoFQuestPack/Languages/%LANGUAGE%~					~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%~
     END
 
     LAF autotra_workaround END
@@ -43,18 +43,19 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 
 //  ACTION_DEFINE_ARRAY fl#noconvert BEGIN END
 
- ACTION_DEFINE_ARRAY fl#reload BEGIN SETUP-PoFQuestPack Journal END
+  ACTION_DEFINE_ARRAY fl#reload BEGIN SETUP-PoFQuestPack Journal END
 
     LAF HANDLE_CHARSETS
       INT_VAR
         infer_charsets = 1
       STR_VAR
-        tra_path = EVAL ~PoFQuestPack/Languages/autotra~
+        tra_path = EVAL ~weidu_external/PoFQuestPack/Languages/autotra~
+		iconv_path = ~PoFQuestPack/Languages/autotra/iconv~
 //        noconvert_array = fl#noconvert
         reload_array = fl#reload
 		
 		
- END
+  END
 		
 /*		
 
@@ -81,8 +82,8 @@ Ne devrait plus être necessaire avec autotra correctement renseigner dans : PEN
 
 END
 
-AUTO_TRA ~PoFQuestPack/Languages/autotra/%s/D~
-AUTO_TRA ~PoFQuestPack/Languages/autotra/%s/Baf_new~
+AUTO_TRA ~weidu_external/PoFQuestPack/Languages/autotra/%s/D~
+AUTO_TRA ~weidu_external/PoFQuestPack/Languages/autotra/%s/Baf_new~
 
 LANGUAGE ~Russian~
          ~russian~
@@ -187,8 +188,10 @@ WRITE_BYTE 0x270 ~255~
 	
 	LPF ADD_SPELL_EFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  special=XX  header=XX  insert_point=XX  END
 	
+	// extended effect
 	LPF ADD_ITEM_EFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  special=XX  header=XX  type=XX  insert_point=XX  END
 	
+	// equipping effect
 	LPF ADD_ITEM_EQEFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  special=XX  insert_point=XX  END
 	
 	LPF ADD_SPELL_CFEFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  special=XX  insert_point=XX  END
@@ -6031,10 +6034,10 @@ COMPILE ~PoFQuestPack/Baf_new~
 
 
 EXTEND_TOP ~AR0020.BCS~				~PoFQuestPack/baf_are/S#AR0020.baf~
-USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0020.tra~
+USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0020.tra~
 
 EXTEND_TOP ~AR0300.BCS~				~PoFQuestPack/baf_are/S#AR0300.baf~
-USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0300.tra~
+USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0300.tra~
 
 EXTEND_TOP ~AR0305.BCS~				~PoFQuestPack/baf_are/S#AR0305.baf~
 
@@ -6086,7 +6089,7 @@ REPLACE_TEXTUALLY ~SetGlobal("NewGame","AR0602",1)~ ~ClearAllActions()
 	Wait(2)
 	DisplayStringHead("XGIMOEN",@4)
 	// MoveViewPoint([3908.2001],SLOW)
-	Wait(2)
+	Wait(3)
 	ActionOverride("XGJON",MoveToPointNoInterrupt([4133.1768]))
 	ActionOverride("XGNPC4",MoveToPointNoInterrupt([3732.1917]))
 	ActionOverride("XGJON",MoveToPointNoInterrupt([4141.1643]))
@@ -6168,14 +6171,14 @@ REPLACE_TEXTUALLY ~SetGlobal("NewGame","AR0602",1)~ ~ClearAllActions()
 	SetGlobal("NewGame","AR0602",1)~
 	
 COMPILE ~weidu_external/PoFQuestPack/ExistingBaf/AR0602.BAF~ ~override~
-USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0602EE.tra~
+USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0602EE.tra~
 		
 EXTEND_BOTTOM ~AR0602.BCS~			~PoFQuestPack/baf_are/S#AR0602EE.baf~
 		
 END ELSE BEGIN
 
 EXTEND_TOP ~AR0602.BCS~				~PoFQuestPack/baf_are/S#AR0602.baf~
-USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0602.tra~
+USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0602.tra~
 
 END
 
@@ -6186,20 +6189,20 @@ EXTEND_TOP ~AR0800.BCS~				~PoFQuestPack/baf_are/S#AR0800.baf~
 EXTEND_TOP ~AR0900.BCS~				~PoFQuestPack/baf_are/S#AR0900.baf~
 
 EXTEND_TOP ~AR1000.BCS~				~PoFQuestPack/baf_are/S#AR1000.baf~
-USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR1000.tra~
+USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR1000.tra~
 
 EXTEND_TOP ~AR1005.BCS~				~PoFQuestPack/baf_are/S#AR1005.baf~
-USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR1005.tra~
+USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR1005.tra~
 
 EXTEND_TOP ~AR1100.BCS~				~PoFQuestPack/baf_are/S#AR1100.baf~
-USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR1100.tra~
+USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR1100.tra~
 
 EXTEND_TOP ~AR1500.BCS~				~PoFQuestPack/baf_are/S#AR1500.baf~
 
 EXTEND_TOP ~AR1602.BCS~				~PoFQuestPack/baf_are/S#AR1602.baf~
 
 EXTEND_TOP ~AR2000.BCS~				~PoFQuestPack/baf_are/S#AR2000.baf~
-USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR2000.tra~
+USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR2000.tra~
 
 
 
@@ -6217,14 +6220,14 @@ USING ~PoFQuestPack/Languages/autotra/%s/baf_are/S#AR2000.tra~
      APPEND_FILE ~PoFQuestPack/Worldmap/links.tbl~
 	 
     COPY ~Worldmap/map_mods_trans.tra~		~Worldmap~
-     APPEND_FILE_EVALUATE ~PoFQuestPack/Languages/autotra/%LANGUAGE%/worldmap.tra~
+     APPEND_FILE_EVALUATE ~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/worldmap.tra~
 	 
   END ELSE BEGIN
   
     MKDIR ~Worldmap~
     COPY ~PoFQuestPack/Worldmap/areas.tbl~					~Worldmap/map_mods_areas.tbl~
     COPY ~PoFQuestPack/Worldmap/links.tbl~					~Worldmap/map_mods_links.tbl~
-    COPY ~PoFQuestPack/Languages/autotra/%LANGUAGE%/worldmap.tra~	~Worldmap/map_mods_trans.tra~
+    COPY ~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/worldmap.tra~	~Worldmap/map_mods_trans.tra~
 	
   END
 
@@ -6353,11 +6356,9 @@ En attente de voir s'il est possible de convertir pour vanilla et avoir un seul 
 
 
 END ELSE BEGIN
-  // installing MOS
-  COPY ~NWNForBG/map~ ~override~
-  INCLUDE ~NWNForBG/lib/a7_tools.tpa~
+  INCLUDE ~PoFQuestPack/lib/a7_tools.tpa~
   // installing TIS for vanila
-  ACTION_BASH_FOR  ~NWNForBG/map_ee~ ~.*\.TIS$~ BEGIN
+  ACTION_BASH_FOR  ~%MOD_FOLDER%/TIS.EE~ ~.*\.TIS$~ BEGIN
     LAF HANDLE_TILE2EE
       INT_VAR
         silent = 0  // show feedback
@@ -6371,14 +6372,6 @@ END ELSE BEGIN
     END
   END
 END
-*/
-
-/*
-Should not be needed with LAF HANDLE_AUDIO
-
-AT_INTERACTIVE_EXIT ~PoFQuestPack\PoFQuestPack_Inst.bat~
-
-AT_INTERACTIVE_UNINSTALL ~PoFQuestPack\PoFQuestPack_Uninst.bat~
 */
 
 END
@@ -6406,7 +6399,7 @@ INCLUDE ~%MOD_FOLDER%/lib/a7_tools.tpa~
 */
 
 
-// Should not be needed with LAF HANDLE_AUDIO and the tis convertion
+// Should not be needed with  tis convertion
 
 
 AT_INTERACTIVE_EXIT ~PoFQuestPack\OLD.PoFQuestPack_Inst.bat~

@@ -21,7 +21,7 @@
 @19 = ~Seigneur Aragorn~
 @20 = ~Aran~
 @21 = ~Archimage Tassili~ // Gradak Brother
-@22 = ~Prêtre de Shevarash~
+@22 = ~Prêtresse de Shevarash~
 
 @23 = ~Druide de la Forêt de Tethyr~
 
@@ -5343,6 +5343,8 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0380", "(PoF)  Forge de Siluvanede"},
 	{"XG0280", "(PoF)  Temple de Shevarash (Siluvanede)"},
 	{"XG0A80", "(PoF)  Siluvanede (bis)"},
+	{"XGa380", "(PoF)  Forge de Siluvanede (bis)"},
+	{"XGa280", "(PoF)  Temple de Shevarash (Siluvanede bis)"},
 	{"XG0680", "(PoF)  Forêt de Siluvanede"},
 	{"XG0780", "(PoF)  Camp Eilistraee"},
 	{"XG0580", "(PoF)  Ched Nasad"},

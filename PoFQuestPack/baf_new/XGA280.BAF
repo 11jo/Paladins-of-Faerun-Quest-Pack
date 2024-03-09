@@ -1,0 +1,9 @@
+IF
+	AreaCheck("XGA280")
+	Global("CreateS#SHEV01XGdwq","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CreateS#SHEV01XGdwq","GLOBAL",1)
+		CreateCreature("S#SHEV01",[412.300],0)
+		CreateCreature("XGdwq",[580.350],0)
+END

@@ -1,4 +1,4 @@
-# Paladins of Faerûn Quest Pack
+# Paladins of FaerÃ»n Quest Pack
 
 
 ![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20french%20%7C%20russian%20%7C%20german%20%7C%20&color=informational)
@@ -24,17 +24,16 @@
 [Link to forum for old original version non weidu](https://forum.sigil.cz/viewforum.php?f=28)
 
 
-Paladins of Faerûn Quest Pack for Baldur's Gate II: EE and the Enhanced Edition Trilogy (EET).
+Paladins of FaerÃ»n Quest Pack for Baldur's Gate II: EE and the Enhanced Edition Trilogy (EET).
 
 
-**[BP-BGT Worldmap is required !](https://github.com/SpellholdStudios/BP-BGT-Worldmap)**
+### **[BP-BGT Worldmap (v13 or higher) is required !](https://github.com/SpellholdStudios/BP-BGT-Worldmap)**
 
 
 ## Description
 
 
-Paladins of Faerûn Quest Pack is a WeiDU adaptation of the total conversion of Paladins of Faerûn from BGslayer and other Czech developers, and contains only the quests of the original Paladins of Faerûn.
-In Weidu, the mod format was translated by Gorion and Serdrick. Paladins of Faerûn Quest Pack contains all the quests of the original Paladins of Faerun mod, but it is not an exact copy of it. Certain parts of the quests were implemented differently. A large number of errors were also corrected, many scripts and dialogs were rewritten practically as new.
+Paladins of FaerÃ»n Quest Pack is a WeiDU adaptation of the total conversion Paladins of FaerÃ»n from BGslayer and other Czech developers, and contains only the quests of the original Paladins of FaerÃ»n. Certain parts of the quests were implemented differently. A large number of errors were also corrected, many scripts and dialogs were rewritten practically as new.
 
 
 **This particular version try to adapt the mod to Enhanced Editions and preserve vanilla compatibility.**
@@ -63,11 +62,11 @@ PoFQuestPack is implemented in WeiDU format and should be compatible with other 
 ## Content
 
 
-The mod contains with itself a large main quest "Paladins of Faerûn", two side quests "Order and Chaos" and "Abduction and Politics".
+The mod itself contains one large main quest Â« Paladins of FaerÃ»n Â», two side quests Â« Order and Chaos Â» and Â« Abduction and Politics Â».
 
 - New adventures in the cities are also waiting for you : Neverwinter, Baldur's Gate, Waterdeep, Targos (city center, docks), Siluvaned (Elven city) and Har Al-Dur (city of priests) 
 
-- Each of them has its own city quest, mainly to provide any help to the city or even save it.
+- Each of them has its own city quest.
 
 - In addition, there are more than 20 separate small quests.
 
@@ -87,20 +86,21 @@ The mod contains with itself a large main quest "Paladins of Faerûn", two side q
 
 ## Special Thanks (for their help or tools)
 
-- Selphira, Graion Dilach, Paladin84, Argent77 and K4thos
+
+- Selphira, Graion Dilach, Paladin84, P_zombie, Roberciiik, Weigo, Argent77 and K4thos
 
 
 ## LEGAL
     
 	
-PoFQuestPack-EE for BG2EE et EET. © 2022-2023
-This mod is unofficial Fan Content permitted under the Fan Content Policy. Not approved / endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC. This mod is also not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp.
+PoFQuestPack-EE for BG2EE et EET. Â© 2022-2023
+This mod is unofficial Fan Content permitted under the Fan Content Policy. Not approved / endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Â© Wizards of the Coast LLC. This mod is also not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp.
 
-BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: © 2000, 2001 Bioware Corp. All Rights Reserved.
+BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: Â© 2000, 2001 Bioware Corp. All Rights Reserved.
 
-Bioware Infinity Engine: © 1998 Bioware Corp. All Rights Reserved.
+Bioware Infinity Engine: Â© 1998 Bioware Corp. All Rights Reserved.
 
-BALDUR'S GATE, TALES OF THE SWORD COAST: © 1998, 1999 BioWare Corp. All Rights Reserved.
+BALDUR'S GATE, TALES OF THE SWORD COAST: Â© 1998, 1999 BioWare Corp. All Rights Reserved.
 
 Baldur's Gate, Icewind Dale, Torment, Planescape, the Planescape logo, Forgotten Realms, the Forgotten Realms logo, Advanced Dungeons & Dragons, the AD&D logo, and the TSR logo are trademarks of TSR, Inc., a subsidiary of Wizards of the Coast , Inc, and are used by Interplay under license. All Rights Reserved. Interplay, the Interplay logo, Black Isle Studios, the Black Isle Studios logo, and "By Gamers, For Gamers." are trademarks of Interplay Productions. All Rights Reserved.
 
@@ -156,7 +156,7 @@ V 3.3  beta (20.11.2022)
 - English UTF8 for all and add proofreading trad for "SETUP-PoFQuestPack" I do not remember where I find it but thanks to the person who did it !
 	- English (some files not entierly translated)
 	- Some changes to name of English worldmap (in progress)
-- Partiel traduction française  (in progress)
+- Partiel traduction franÃ§aise  (in progress)
 	- Worldmap french  (in progress)
 - Up setup.exe
 
@@ -164,7 +164,7 @@ V 3.3  beta (20.11.2022)
 ### 29/11/2022
 
 
-- Up areas.tbl (change duplicate worldmap icone for Forest of Téthyr), (Moonshae Isles moved down and right) and (comment name of area in .tbl)
+- Up areas.tbl (change duplicate worldmap icone for Forest of TÃ©thyr), (Moonshae Isles moved down and right) and (comment name of area in .tbl)
 - Up french translation
 - Changes to s#AR0602.BAF (cutscene semi fix)
 
@@ -190,7 +190,7 @@ V 3.3  beta (20.11.2022)
 
 - cdmod.ITM / XGcd.itm (was not present in .tp2 but needed for quest Order and Chaos)
 SETUP-PoFQuestPack.tra add  @1060, @1061, @1062 
-- BOOKPR.ITM / XGBOOKP.ITM (has no description, added the original Slovène description of "Book of translator" (tribute...))
+- BOOKPR.ITM / XGBOOKP.ITM (has no description, added the original SlovÃ¨ne description of "Book of translator" (tribute...))
 SETUP-PoFQuestPack.tra add  @2000, @2003, @2002
 - INNKWMOD.d / XGINNKW.d (generic store)
 	- change StartStore("s#inn03.sto" TO StartStore("XGINNKW"      

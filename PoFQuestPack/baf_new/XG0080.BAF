@@ -35,6 +35,7 @@ END
 
 IF
   Global("RevealXG0080","XG0080",0)
+  AreaCheck("XG0080")
   PartyHasItem("XGmsq")  // ~Семейный кулон~
 THEN
   RESPONSE #100

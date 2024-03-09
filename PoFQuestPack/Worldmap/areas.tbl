@@ -13,29 +13,29 @@ XG0034      XG0034    XG0034     4       58      3221   3527   @POF_74352  @POF_
 XG0012      XG0012    XG0012     4       50      1532   1389   @POF_74540  @POF_74540  N        // Château des Collines Oubliées // Castle Forgotten Hills //
 XG0014      XG0014    XG0014     4       49      3134   2399   @POF_74364  @POF_74364  N        // Île du pirate (Mer des étoiles déchues) //  Pirate island //
 XG0016      XG0016    XG0016     4       47      2882   2699   @POF_74545  @POF_74545  N        // Passe du Géant // Pass //
-XG0017      XG0017    XG0017     4       46      2988   4119   @POF_74525  @POF_74525  N        // Domaine de Gradak // Tower of Gradak //
-XG0018      XG0018    XG0018     4       54      1080   2300   @POF_74372  @POF_74372  N        // Camp Secret de Gradak
-XG0019      XG0019    XG0019     4      103      1166   2446   @POF_74554  @POF_74554  N        // Navire de Gradak // Ship of Gradak //
+XG0017      XG0017    XG0017     4      119      2988   4119   @POF_74525  @POF_74525  N        // Domaine de Gradak // Tower of Gradak //
+XG0018      XG0018    XG0018     4       54      1120   2280   @POF_74372  @POF_74372  N        // Camp Secret de Gradak
+XG0019      XG0019    XG0019     4      103      1190   2230   @POF_74554  @POF_74554  N        // Navire de Gradak // Ship of Gradak //
 XG0020      XG0020    XG0020     4       30      1160   1900   @POF_74339  @POF_74339  N        // Porte de Baldur  // Baldur's Gate  //
 XG0025      XG0025    XG0025     4      152       265   -275   @POF_74564  @POF_74564  N        // Quais de Targos // Docks of Targos //
-XG0024      XG0024    XG0024     4       93       170   -320   @POF_74565  @POF_74565  N        // Targos // Targos //
+XG0024      XG0024    XG0024     4      216       170   -330   @POF_74565  @POF_74565  N        // Targos // Targos //
 XG0026      XG0026    XG0026     4       44      1819   1231   @POF_74516  @POF_74516  N        // Haute Forêt // The High Forest //
 XG0064      XG0064    XG0064     4       79      1205   1515   @POF_74349  @POF_74349  N        // Eauprofonde // Waterdeep //
 XG0028      XG0028    XG0028     4       71      3256   3252   @POF_74568  @POF_74568  N        // Château des Montagnes Floconeigeuses // Fort on Snowflake mountains //
-XG0319      XG0319    XG0319     4       42      1319   2255   @POF_74570  @POF_74570  N        // Village Abandonné // Abandoned Village //
+XG0319      XG0319    XG0319     4       42      1280   2270   @POF_74570  @POF_74570  N        // Village Abandonné // Abandoned Village //
 XG0029      XG0029    XG0029     4       62      2500   2350   @POF_74560  @POF_74560  N        // Cité des Prêtres (Près de Berdusk) // Priests City // Har Al-Dur //
-XG0033      XG0033    XG0033     4       57      3399   2504   @POF_74579  @POF_74579  N        // Village (près de Teziir) // Village //
-XG0039      XG0039    XG0039     4       65       460   2585   @POF_75566  @POF_75566  N        // Îles Moonshae // Moonshae Isles //
-XG0040      XG0040    XG0040     4       63       555   2550   @POF_75566  @POF_75566  N        // Îles Moonshae // Moonshae Isles //
-XG0068      XG0068    XG0068     4       26      1326   2805   @POF_75430  @POF_75430  N        // District des Affaires // Business district //
-XG0041      XG0041    XG0041     4       70       520   2450   @POF_75566  @POF_75566  N        // Îles Moonshae // Moonshae Isles //
+XG0033      XG0033    XG0033     4       57      3150   2520   @POF_74579  @POF_74579  N        // Village (près de Teziir) // Village //
+XG0039      XG0039    XG0039     4       65       415   2460   @POF_75566  @POF_75566  N        // Îles Moonshae // Moonshae Isles //
+XG0040      XG0040    XG0040     4       63       435   2380   @POF_75566  @POF_75566  N        // Îles Moonshae // Moonshae Isles //
+XG0068      XG0068    XG0068     4       26      1285   2840   @POF_75430  @POF_75430  N        // District des Affaires // Business district //
+XG0041      XG0041    XG0041     4       70       350   2350   @POF_75566  @POF_75566  N        // Îles Moonshae // Moonshae Isles //
 XG0046      XG0046    XG0046     4        6      1643   4046   @POF_75776  @POF_75776  N        // Temple oublié // Forgotten Temple //
 XG0047      XG0047    XG0047     4      135      1147   -197   @POF_75991  @POF_75991  N        // Havredest (Icewind Dale) // East Harbor //
 XG0062      XG0062    XG0062     4       35       870   1180   @POF_75990  @POF_75990  N        // Padhiver // Neverwinter 
-XG0050      XG0050    XG0050     4       66      1920   2820   @POF_76029  @POF_76029  N        // Montagnes (sous le festival) // Mountains //
-XG0052      XG0052    XG0052     4        6      4850     50   @POF_76750  @POF_76750  N        // Forteresse Glacée // Ice Castle //
+XG0050      XG0050    XG0050     4       66      1930   2770   @POF_76029  @POF_76029  N        // Montagnes (sous le festival) // Mountains //
+XG0052      XG0052    XG0052     4        6      4530   -150   @POF_76750  @POF_76750  N        // Forteresse Glacée // Ice Castle //
 XG0054      XG0054    XG0054     4       54      3343   2776   @POF_76878  @POF_76878  N        // Refuge (de Gradak) // Shelter //
-XG0055      XG0055    XG0055     4       46      2988   4119   @POF_74525  @POF_74525  N        // Tour de Gradak (bis) // Tower of Gradak //
+XG0055      XG0055    XG0055     4      119      2988   4119   @POF_74525  @POF_74525  N        // Tour / Domaine  de Gradak (bis) // Tower of Gradak //
 XG0061      XG0061    XG0061     4       45      2259   2222   @POF_77324  @POF_77324  N        // Forêt (vers les Montagnes du Couchant) // Forest //
 XG0065      XG0065    XG0065     4       54      2400   2020   @POF_74579  @POF_74579  N        // Village (près de Soubar) // Village //
 XG0066      XG0066    XG0066     4       41      1840   1440   @POF_77430  @POF_77430  N        // Col de la Forêt // Pass //
@@ -49,22 +49,22 @@ XG0070      XG0070    XG0070     4       42      1508   1686   @POF_77798  @POF_
 XG0073      XG0073    XG0073     4       65      1783   4182   @POF_77895  @POF_77895  N        // Désert Calim (près de Memnon) // Calim Desert //
 XG0072      XG0072    XG0072     4       68      1913   4148   @POF_77895  @POF_77895  N        // Désert Calim  (près de Darromar)// Calim Desert //
 XG0075      XG0075    XG0075     4       80      2881   1642   @POF_48374  @POF_48374  N        // Arène // Arena //
-XG1319      XG1319    XG1319     4       42      1319   2255   @POF_74570  @POF_74570  N        // Village Abandonné (bis) // Abandoned Village //
+XG1319      XG1319    XG1319     4       42      1280   2270   @POF_74570  @POF_74570  N        // Village Abandonné (bis) // Abandoned Village //
 XG0076      XG0076    XG0076     4       71      1816   3916   @POF_78121  @POF_78121  N        // Château-Téthyr // Forest of Tehyr //
 XG0077      XG0077    XG0077     4       47      1680   3750   @POF_78122  @POF_78122  N        // Forêt de Téthyr // Forest of Tehyr //
 XG0078      XG0078    XG0078     4       71      1816   3916   @POF_78121  @POF_78121  N        // Château-Téthyr // Castle of Tehyr //
 XG0058      XG0058    XG0058     4       69       640    -20   @POF_77510  @POF_77510  N        // Vallée de L'Épine Dorsale // Valley of Icewind Dale //
-XG0079      XG0079    XG0079     4       57      2340   3750   @POF_77798  @POF_77798  N        // Ferme (près d'Esmeltaran) // Farm //
-XG4001      XG4001    XG4001     4       70       520   2450   @POF_75566  @POF_75566  N        // Îles Moonshae // Moonshae Isles //
+XG0079      XG0079    XG0079     4       57      2340   3250   @POF_77798  @POF_77798  N        // Ferme (près d'Esmeltaran) // Farm //
+XG4001      XG4001    XG4001     4       70       350   2350   @POF_75566  @POF_75566  N        // Îles Moonshae // Moonshae Isles //
 XG0081      XG0081    XG0081     4       47      2886   2256   @POF_78402  @POF_78402  N        // Montagnes du Couchant // Twilight Mountains //
 XG1081      XG1081    XG1081     4       54      2886   2256   @POF_78402  @POF_78402  N        // Village du Couchant (Torm monastère) // Twilight Mountains //
 XG0082      XG0082    XG0082     4       47      2940   2103   @POF_78401  @POF_78401  N        // Montagnes du Couchant // Twilight Mountains //
-XG0083      XG0083    XG0083     4       51      2729   2053   @POF_78401  @POF_78401  N        // Montagnes du Couchant // Twilight Mountains //
-XG0133      XG0133    XG0133     4       57      3399   2504   @POF_74579  @POF_74579  N        // Village (près de Teziir) (bis) // Village //
+XG0083      XG0083    XG0083     4       51      2670   2080   @POF_78401  @POF_78401  N        // Montagnes du Couchant // Twilight Mountains //
+XG0133      XG0133    XG0133     4       57      3150   2520   @POF_74579  @POF_74579  N        // Village (près de Teziir) (bis) // Village //
 XG8100      XG8100    XG8100     4       47      2886   2256   @POF_78402  @POF_78402  N        // Montagnes du Couchant (bis) // Twilight Mountains //
 XG8101      XG8101    XG8101     4       54      2886   2256   @POF_78402  @POF_78402  N        // Village du Couchant (Cyric monastère) // Twilight Mountains //
 XG8200      XG8200    XG8200     4       47      2940   2103   @POF_78401  @POF_78401  N        // Montagnes du Couchant (bis) // Twilight Mountains //
-XG8300      XG8300    XG8300     4       51      2729   2053   @POF_78401  @POF_78401  N        // Montagnes du Couchant (bis) // Twilight Mountains //
+XG8300      XG8300    XG8300     4       51      2670   2080   @POF_78401  @POF_78401  N        // Montagnes du Couchant (bis) // Twilight Mountains //
 XGKAR2      XGKAR2    XGKAR2     4       39      1520   1150   @POF_78503  @POF_78503  N        // Caravane // Caravan //
 XG0681      XG0681    XG0681     4       84      2800   2220   @POF_78921  @POF_78921  N        // Monastère des admirateur de Torm // Torm admirers Monastery //
 XG8500      XG8500    XG8500     4       84      2563   2130   @POF_78922  @POF_78922  N        // Monastère des admirateurs de Cyric // Cyric admirers Monastery //

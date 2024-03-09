@@ -1,5 +1,14 @@
 IF
 	AreaCheck("XG0680")
+	See([PC])
+	NumberOfTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		StartDialogNoSet(Player1)
+END
+
+IF
+	AreaCheck("XG0680")
 	Global("XGdreqLeave","GLOBAL",0)
 THEN
 	RESPONSE #100
@@ -11,10 +20,30 @@ THEN
 END
 
 IF
-	AreaCheck("XG0680")
+	AreaCheck("XG0880")
+	Global("XGdreqLeave","GLOBAL",2)
 	See([PC])
-	NumberOfTimesTalkedTo(0)
 THEN
 	RESPONSE #100
-		StartDialogNoSet(Player1)
+		SetGlobal("XGdreqLeave","GLOBAL",3)
+		DisplayStringHead(Myself,#13784)
+		Wait(2)	
+		MoveToPointNoInterrupt([770.1049])
 END
+
+IF
+	AreaCheck("XG0880")
+	Global("XGdreqLeave","GLOBAL",3)
+	See([PC])
+THEN
+	RESPONSE #100
+		SetGlobal("XGdreqLeave","GLOBAL",4)
+		DisplayStringHead(Myself,#7775)
+		Wait(2)	
+		MoveToPointNoInterrupt([770.1049])
+END
+
+
+
+
+

@@ -1,0 +1,8 @@
+IF
+	AreaCheck("XG0880")
+	Global("XGdreqLeave","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CreateCreature("XGdreq",[520.1780],0)
+		SetGlobal("XGdreqLeave","GLOBAL",2)
+END
