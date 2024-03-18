@@ -369,6 +369,7 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY item_filenames_to_change BEGIN
 	"ZAT4MOD" => "XGZAT4"
 	"ZAT5MOD" => "XGZAT5"
 	"ZAT6MOD" => "XGZAT6"
+	"TTPOT" => "Potn52"
 END
 
 

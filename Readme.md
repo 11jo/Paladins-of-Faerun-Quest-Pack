@@ -87,7 +87,7 @@ The mod itself contains one large main quest « Paladins of Faerûn », two side
 ## Special Thanks (for their help or tools)
 
 
-- Selphira, Graion Dilach, Paladin84, P_zombie, Roberciiik, Weigo, Argent77 and K4thos
+- Selphira, Graion Dilach, Paladin84, P_zombie, Roberciiik, Weigo, Argent77, Psychlopes and K4thos
 
 
 ## LEGAL
