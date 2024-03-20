@@ -7,7 +7,7 @@ BACKUP ~weidu_external/PoFQuestPack/backup~
 SUPPORT ~The Three Gibberlings : https://www.gibberlings3.net/forums/topic/36756-the-gate-project/ or https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/issues~
 
 
-README ~PoFQuestPack/Readme_PoFQuestPack_%LANGUAGE%.txt~ ~PoFQuestPack/Readme_PoFQuestPack_english.txt~
+README ~PoFQuestPack/Readme/Readme_PoFQuestPack_%LANGUAGE%.txt~ ~PoFQuestPack/Readme/Readme_PoFQuestPack_english.txt~
 
 VERSION ~4.0~
 
@@ -3738,6 +3738,9 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0048.ARE~         ~override/XG0048.ARE
 // SAY 0x4574 @1032
 // SAY 0x45A8 ~~
 // SAY 0x45DC ~~
+
+#11693 // Taverne
+#8470 // Échoppe
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0049.ARE~         ~override/XG0049.ARE~
   SAY 0x2444 @408 
