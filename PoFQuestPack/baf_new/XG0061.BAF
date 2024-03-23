@@ -1,5 +1,6 @@
 IF
   Global("RevealXG0061","XG0061",0)
+  AreaCheck("XG0061")
   PartyHasItem("XGQI2")  // ~Магическая реликвия~
 THEN
   RESPONSE #100
@@ -37,6 +38,7 @@ END
 
 IF
   Global("RevealXG0061","XG0061",0)
+  AreaCheck("XG0060")
   PartyHasItem("XGQI2")  // ~Магическая реликвия~
   Dead("XGRWHM")  // ~Глава волшебников~
 THEN

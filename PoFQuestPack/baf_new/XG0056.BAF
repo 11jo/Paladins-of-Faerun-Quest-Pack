@@ -10,11 +10,11 @@ THEN
 		Explore()
 		PlaySound("XGMUS3")
 		Wait(2)
-		DisplayStringHead("XGRW1",106546)  //  <CHARNAME>! We were expecting your arrival. Put down your arms and come with us! 
+		DisplayStringHead("XGRW1",@0)  //  <CHARNAME>! We were expecting your arrival. Put down your arms and come with us! 
 		Wait(4)
-		DisplayStringHead(Player2,106547)  //  I don't think this is a good idea <CHARNAME>, we won't give up. 
+		DisplayStringHead(Player2,@1)  //  I don't think this is a good idea <CHARNAME>, we won't give up. 
 		Wait(4)
-		DisplayStringHead(Player1,106548)  //  Now it makes no sense to fight, put down your weapon, we go with them. 
+		DisplayStringHead(Player1,@2)  //  Now it makes no sense to fight, put down your weapon, we go with them. 
 		Wait(3)
 		ActionOverride("XGRW1",MoveToPoint([1053.932]))
 		ActionOverride("XGRW1",Face(12))
@@ -30,7 +30,7 @@ THEN
 		Wait(6)
 		MoveViewPoint([1800.931],3) //  (BD_SLOW)
 		Wait(7)
-		DisplayStringHead("XGRW1",106549)  //  Take them! 
+		DisplayStringHead("XGRW1",@3)  //  Take them! 
 		Wait(2)
 		UnhideGUI()
 		EndCutSceneMode()

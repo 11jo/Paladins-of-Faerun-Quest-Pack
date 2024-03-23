@@ -4217,6 +4217,10 @@ Saving Throw: 1/2
 
 The wizard points his finger in the desired direction and projects a sphere of negative energy which explodes on impact (unless it collides with a solid obstacle along the way), inflicting 1d8 points of damage per caster level (up to a maximum of 10d8). Creatures who succeed in their saving throw or dodge suffer only half the damage.~
 
+// Map Note 
+
+@1500 = ~Lord Nasher's residence~
+
 
 ////XGBOOKP.itm - BOOKPR.itm////
 @2000 = ~Grimoire~

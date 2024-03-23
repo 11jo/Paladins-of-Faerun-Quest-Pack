@@ -3731,16 +3731,12 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0047.ARE~         ~override/XG0047.ARE
   SAY 0x1764 @1022         
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0048.ARE~         ~override/XG0048.ARE~
-// SAY 0x4410 ~~
-// SAY 0x44D8 ~~
-// SAY 0x450C ~~
-// SAY 0x4540 ~~
-// SAY 0x4574 @1032
-// SAY 0x45A8 ~~
-// SAY 0x45DC ~~
-
-#11693 // Taverne
-#8470 // Échoppe
+// SAY 0x45A8 ~~  North Gate
+// SAY 0x45DC ~~  East Gate
+  ADD_MAP_NOTE #3174 #2336 ~BLUE~ #11693 // Taverne
+  ADD_MAP_NOTE #3451 #1132 ~BLUE~ #8470 // Échoppe
+  ADD_MAP_NOTE #1477 #1069 ~red~ @1500 // Demeure du Seigneur Nasher
+  ADD_MAP_NOTE #1728 #2008 ~red~ #48371 // Maison abandonnée
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0049.ARE~         ~override/XG0049.ARE~
   SAY 0x2444 @408 
@@ -3773,9 +3769,55 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0058.ARE~         ~override/XG0058.ARE
 COPY ~weidu_external/PoFQuestPack/Areas/XG0059.ARE~         ~override/XG0059.ARE~         
   SAY 0x2270 @410 
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0060.ARE~         ~override/XG0060.ARE~         
-  SAY 0x7e0 @411 
-  SAY 0x8a4 @411 
+COPY ~weidu_external/PoFQuestPack/Areas/XG0060.ARE~         ~override/XG0060.ARE~
+LPF fj_are_structure
+		INT_VAR
+		fj_type			= 1    // Info point
+		fj_box_left		= 530
+		fj_box_top		= 162
+		fj_box_right	= 611
+		fj_box_bottom	= 296
+		fj_cursor_idx	= 22   // curseur ?
+		fj_info_point_strref  = RESOLVE_STR_REF (@411)
+		fj_loc_x		= 570
+		fj_loc_y		= 229
+		fj_vertex_0		= 574 + (296 << 16)
+		fj_vertex_1		= 544 + (287 << 16)
+		fj_vertex_2		= 530 + (238 << 16)
+		fj_vertex_3		= 550 + (218 << 16)
+		fj_vertex_4		= 578 + (165 << 16)
+		fj_vertex_5		= 596 + (161 << 16)
+		fj_vertex_6		= 609 + (189 << 16)
+		fj_vertex_7		= 611 + (222 << 16)
+		fj_vertex_8		= 583 + (274 << 16)
+		fj_vertex_9		= 574 + (296 << 16)
+		STR_VAR
+		fj_structure_type	= region
+		fj_name				= info01
+		END
+LPF fj_are_structure
+		INT_VAR
+		fj_type			= 1    // Info point
+		fj_box_left		= 1072
+		fj_box_top		= 624
+		fj_box_right	= 1185
+		fj_box_bottom	= 728
+		fj_cursor_idx	= 22   // curseur ?
+		fj_info_point_strref  = RESOLVE_STR_REF (@411)
+		fj_loc_x		= 1128
+		fj_loc_y		= 676
+		fj_vertex_0		= 1072 + (705 << 16)
+		fj_vertex_1		= 1102 + (728 << 16)
+		fj_vertex_2		= 1185 + (648 << 16)
+		fj_vertex_3		= 1172 + (630 << 16)
+		fj_vertex_4		= 1155 + (623 << 16)
+		fj_vertex_5		= 1126 + (624 << 16)
+		fj_vertex_6		= 1094 + (668 << 16)
+		fj_vertex_7		= 1072 + (705 << 16)
+		STR_VAR
+		fj_structure_type	= region
+		fj_name				= info02
+		END
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0061.ARE~         ~override/XG0061.ARE~
   SAY 0xB34 @1023
@@ -5803,26 +5845,28 @@ COPY ~weidu_external/PoFQuestPack/Items/XGVR.ITM~			~override/XGVR.ITM~
   SAY DESC @903 
 
 COPY ~weidu_external/PoFQuestPack/Items/XGWA.ITM~			~override/XGWA.ITM~
-  SAY NAME1 @904 
-  SAY NAME2 @904 
-  SAY UNIDENTIFIED_DESC @905 
-  SAY DESC @905 
+  SAY NAME1 @904
+  SAY NAME2 @904
+  SAY UNIDENTIFIED_DESC @905
+  SAY DESC @905
 
 COPY ~weidu_external/PoFQuestPack/Items/XGWAND1.ITM~		~override/XGWAND1.ITM~
   SAY NAME2 @906 
   SAY DESC @907 
 
 COPY ~weidu_external/PoFQuestPack/Items/XGWAND2.ITM~		~override/XGWAND2.ITM~
-  SAY NAME2 @908 
-  SAY DESC @909 
+  SAY NAME2 @908
+  SAY DESC @909
 
 COPY ~weidu_external/PoFQuestPack/Items/XGWAND3.ITM~		~override/XGWAND3.ITM~
-  SAY NAME2 @910 
-  SAY DESC @911 
+  SAY NAME2 @910
+  SAY DESC @911
 
 COPY ~weidu_external/PoFQuestPack/Items/XGWH.ITM~			~override/XGWH.ITM~
-  SAY NAME1 @912 
-  SAY UNIDENTIFIED_DESC @913 
+  SAY NAME1 @912
+  SAY NAME2 @912
+  SAY UNIDENTIFIED_DESC @913
+  SAY DESC @913
 
 COPY ~weidu_external/PoFQuestPack/Items/XGWOLFF.ITM~		~override/XGWOLFF.ITM~
 

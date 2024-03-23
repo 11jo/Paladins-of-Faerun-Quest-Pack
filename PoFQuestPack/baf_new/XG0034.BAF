@@ -31,17 +31,17 @@ THEN
 		CreateCreature("XGthef3",[887.702],6)  // Воришка
 		CreateCreature("XGthef4",[867.733],6)  // Воришка
 		Wait(6)
-		DisplayStringHead("XGARTEN",77796)  // Снова ты? Тебе недостаточно того, что было в Аскатле?
+		DisplayStringHead("XGARTEN",@0)  // Are you again? Isn't that what happened at Askatle for you?
 		Wait(6)
-		DisplayStringHead(Player1,77797)  // Кто ты такой? И что ты здесь делаешь?
+		DisplayStringHead(Player1,@1)  // Who are you? And what are you doing here?
 		Wait(6)
-		DisplayStringHead("XGARTEN",77798)  // Ну давай познакомимся, я Артемис Энтрери. Я слышал, что ты был арестован в Аскатле, не принимай это близко к сердцу, а теперь проваливай или умрешь.
+		DisplayStringHead("XGARTEN",@2)  // Well, let's get to know you, I'm Artemis Entreri. I heard that you were arrested at Askatla, don't take it to heart, but now go away or die.
 		Wait(7)
 		ActionOverride("XGARTEN",Attack(Player1))
 		ActionOverride(Player1,Attack("XGARTEN"))  // Артемис Энтрери
 		Wait(15)
 		ClearAllActions()
-		DisplayStringHead("XGARTEN",77799)  // На это у меня нет времени, займитесь им!
+		DisplayStringHead("XGARTEN",@3)  // I don't have time for this, do it!
 		Wait(6)
 		ActionOverride("XGARTEN",EscapeArea())
 		ActionOverride("XGthef1",Enemy())
@@ -65,7 +65,7 @@ THEN
 		ClearAllActions()
 		StartCutSceneMode()
 		Wait(2)
-		DisplayStringHead(Player2,77800)  // <CHARNAME>! Мы должны проследить за ним, он побежал туда.
+		DisplayStringHead(Player2,@4)  // <CHARNAME>! We must follow him, he ran there.
 		Wait(5)
 		RevealAreaOnMap("XG0020")
 		Wait(2)

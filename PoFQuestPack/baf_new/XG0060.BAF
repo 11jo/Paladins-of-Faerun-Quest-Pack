@@ -1,5 +1,6 @@
 IF
   Global("RevealXG0060","XG0060",0)
+  AreaCheck("XG0060")
   PartyHasItem("XGQI1")  // ~Магическая реликвия~
 THEN
   RESPONSE #100

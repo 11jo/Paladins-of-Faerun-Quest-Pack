@@ -3049,7 +3049,7 @@ Inutilisable par :
 @777 = ~Cette lettre a été écrite avec du sang : « Nous avons failli à notre mission... ».~
 @778 = ~Scroll with a map~
 @779 = ~Relique magique~
-@780 = ~Second part of powerful magic weapon.~
+@780 = ~C'est la seconde des trois reliques, que Gradak veut réunir pour son plan insensé.~ //  of powerful magic weapon
 @781 = ~Old scroll~
 @782 = ~The scroll contains a historical treatise on the struggle between Torm and Cyric.~
 @783 = ~Key to the sarcophagus~
@@ -4068,7 +4068,9 @@ Wish 2 time per day
 
 Poids : 1~
 @912 = ~Witch's Heart~
-@913 = ~This heart belongs to the witch from the fortress north of the High Forest.~
+@913 = ~Witch's Heart
+
+This heart belongs to the witch from the fortress north of the High Forest.~
 @914 = ~Key to the portal~
 @915 = ~This is the key to the portal to the castle of Gradak
 
@@ -4224,6 +4226,10 @@ Zone d'effet : Rayon de 9 m
 Jet de sauvegarde : 1/2
 
 Le magicien pointe son doigt dans la direction désirée et projette une sphère d'énergie négative qui explosera à l'impact (à moins qu'elle ne rencontre un obstacle solide en chemin), infligeant 1d8 points de dégâts par niveau du lanceur de sorts (jusqu'à un maximum de 10d8). Les créatures qui réussissent leur jet de sauvegarde ou esquivent ne subissent que la moitié des dégâts.~
+
+// Map Note 
+
+@1500 = ~Demeure du Seigneur Nasher~
 
 // Messagers
 
