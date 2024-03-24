@@ -240,6 +240,13 @@ END
 COPY ~PoFQuestPack/OTHER/BCS.TrapforXG0152~   ~override~
 
 
+// Modify GORGOLI.cre to XGGOICE
+
+COPY_EXISTING ~GORGOLI.cre~   ~override/XGGOICE.cre~
+	WRITE_SHORT 0x14 ~2500~ // XP value
+	WRITE_ASCII 0x280 ~XGGOICE~ (8)
+
+
 // Item ressources for XGCMA03.ITM, XGHELM4 and IWD bam
 
 COPY ~PoFQuestPack/OTHER/SPELL.ForItem/XGSPMOD1.SPL~   ~override/XGSPMOD1.SPL~

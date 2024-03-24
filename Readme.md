@@ -236,3 +236,4 @@ SETUP-PoFQuestPack.tra add  @2000, @2003, @2002
 - Area variable unstead of AREA_TYPE
 - A7 function for PVRZ
 - AT_INTERACTIVE no more (in progress)
+- Many Corrections spotted by Psychlopes thanks for alpha testing the mod

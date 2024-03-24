@@ -24,7 +24,7 @@ THEN
     ActionOverride(Player1,Attack("XGprte"))
     Wait(2)
     ActionOverride(Player2,Kill("XGprte"))
-    ActionOverride(Player1,Attack("XGprte"))
+    ActionOverride(Player1,Kill("XGprte"))
     Wait(1)
     DisplayStringHead(Player2,@1)  
     Wait(5)

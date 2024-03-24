@@ -41,6 +41,8 @@ THEN
 		DisplayStringHead("XGprtcq",@1)  // <CHARNAME> ! Dieu merci, je vous ai retrouvé. Nous vous sommes reconnaissants pour la construction du monastère, mais nous avons encore besoin d'aide. Rejoignez les Montagnes du Couchant dès que possible.
 		Wait(5)
 		HideAreaOnMap("XG0081")  // (PoF)  Montagnes du Couchant
+		HideAreaOnMap("XG0082")  // (PoF)  Montagnes du Couchant
+		HideAreaOnMap("XG0083")  // (PoF)  Montagnes du Couchant
 		RevealAreaOnMap("XG0681")  // (PoF)  Monastère des admirateur de Torm
 		RevealAreaOnMap("XG1081")  // (PoF)  Monastère des admirateur de Torm
 		Wait(2)
