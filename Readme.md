@@ -221,21 +221,21 @@ SETUP-PoFQuestPack.tra add  @2000, @2003, @2002
 - Partial french translation
 - Portraits for EE
 - Wrong or unused ressouces corrections
-- Add ADD_AREA_TYPE for PoF and !AreaType(POFAREA) to Baldur.bcs (Joster block)
-
+- Add variable for PoF areas to prevent triggering original bg2 npcs event in wrong places thanks to Argent77  
+- A7 function for PVRZ
 - Corrections for Areas (in progress)
-- Still some stries to some areas for EE
 - Corrections for some scripts and dialogs (in progress)
-- Handle charset, IconV and Autotra (To verify for all languages)
-- Correction for worldmap (in progress)
-- Journal entries to Quest entries (in progress)
+- Handle charset, IconV and Autotra
+- Many Corrections spotted by Psychlopes thanks for alpha testing the mod  
+- Correction for many tis,wed and PVRZ big thanks to Paladin84  
 
 
 ### In progress
 
-- Journal entries to Quest entries (in progress)
-- Area variable unstead of AREA_TYPE
-- A7 function for PVRZ
-- AT_INTERACTIVE no more (in progress)
-- Many Corrections spotted by Psychlopes thanks for alpha testing the mod
-- Correction for many tis,wed and PVRZ big thanks to Paladin84  
+- Journal entries to Quest entries  
+- AT_INTERACTIVE no more  
+- Correction for worldmap  
+- Items review  
+- Correct MapNote and info triggers  
+- Polish cutscene and transition between areas  
+- Prevent dead end  
