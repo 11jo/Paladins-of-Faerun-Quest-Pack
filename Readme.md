@@ -77,6 +77,7 @@ The mod itself contains one large main quest « Paladins of Faerûn », two side
 - BGslayer and everyone else who worked on Paladins of Faerun
 - Serdrick & Gorion for Weidu package and fix for BG2 / BGT
 - Andrey88 for the translation into Russian, a detailed walkthrough of the mod and ideas for its revision
+- Lord_Draconis for the translation into Russian
 - Westley Weimer, The Bigg, Wisp and all those who worked on WeiDU
 - Igi - for IESDP
 - Avenger_teambg and everyone else who worked on DLTCEP
@@ -237,3 +238,4 @@ SETUP-PoFQuestPack.tra add  @2000, @2003, @2002
 - A7 function for PVRZ
 - AT_INTERACTIVE no more (in progress)
 - Many Corrections spotted by Psychlopes thanks for alpha testing the mod
+- Correction for many tis,wed and PVRZ big thanks to Paladin84  
