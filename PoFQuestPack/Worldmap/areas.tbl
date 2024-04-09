@@ -12,6 +12,7 @@ XG0009      XG0009    XG0009     4       68      1653   1329   @POF_74351  @POF_
 XG0034      XG0034    XG0034     4       58      3221   3527   @POF_74352  @POF_74352  N        // Le Conseil des Mages  // Council of Mages //
 XG0012      XG0012    XG0012     4       50      1532   1389   @POF_74540  @POF_74540  N        // Château des Collines Oubliées // Castle Forgotten Hills //
 XG0014      XG0014    XG0014     4       49      3134   2399   @POF_74364  @POF_74364  N        // Île du pirate (Mer des étoiles déchues) //  Pirate island //
+XG0015      XG0015    XG0015     4       54      3100   3070   @POF_74544  @POF_74544  N        // Crevasse //
 XG0016      XG0016    XG0016     4       47      2882   2699   @POF_74545  @POF_74545  N        // Passe du Géant // Pass //
 XG0017      XG0017    XG0017     4      119      2988   4119   @POF_74525  @POF_74525  N        // Domaine de Gradak // Tower of Gradak //
 XG0018      XG0018    XG0018     4       54      1120   2280   @POF_74372  @POF_74372  N        // Camp Secret de Gradak
@@ -73,5 +74,3 @@ XG0A80      XG0A80    XG0A80     4       18      1715    875   @POF_79052  @POF_
 XG0080      XG0080    XG0080     4       18      1715    875   @POF_79052  @POF_79052  N        // Siluvanede (bis)
 XG0780      XG0780    XG0780     4       17      1490   1060   @POF_79053  @POF_79053  N        // Camp Eilistraee
 XG0680      XG0680    XG0680     4       16      1640   1020   @POF_77324  @POF_77324  N        // Forêt de Siluvanede // Forest //
-
-

@@ -1,7 +1,7 @@
-@1 = ~ Ah, great man, it looks like you defeated all the guards and got all the stones from them, which means you can get through. ~
-@2 = ~ So can I just get through? You don't want to fight me? ~
-@3 = ~ Go back and find all the stones, or maybe you want to fight me? ~
-@4 = ~ I will not go back and look for all the stones ... ~
+@1 = ~Ah, mais quelle puissance ! Il semble que vous ayez vaincu tous les gardiens et récupéré toutes les pierres... Vous pouvez passer.~
+@2 = ~Je peux passer sans combattre ? C'est aussi simple que ça ?~
+@3 = ~Rebrousse chemin et retrouve les 6 pierres sésames ou prépares-toi à m'affronter !~
+@4 = ~C'est d'accord je reviendrais avec les pierres.~
 
 /*
 @5 = ~ Paladins of Féérune.
@@ -9,8 +9,8 @@
 When I left the dungeon, the dragon, the last guard, was waiting for me. I killed the dragon, and now I can continue to search for Gradak. ~
 */
 
-@6 = ~ I better kill you, it will be faster ... ~
-@7 = ~ No, my friend come on in, you are free. ~
+@6 = ~J'aurais plus vite fait de t'occire sur-le-champ !~
+@7 = ~Oui mon ami, la voie est libre.~ ~Oui mon amie, la voie est libre.~
 
 /*
 @8 = ~ Paladins of Féérune.
@@ -18,5 +18,5 @@ When I left the dungeon, the dragon, the last guard, was waiting for me. I kille
 When I left the dungeon, the dragon, the last guard, was waiting for me here. The dragon let me go without a fight, and now I can continue to search for Gradak. ~
 */
 
-@9 = ~ Great. ~
-@10 = ~ Free? I killed all the guards, so why don't I kill you. Get ready for death! ~
+@9 = ~Parfait !~
+@10 = ~Libre ? J'ai déjà éliminé tous les autres gardiens, il n'y a pas de raison que tu sois épargné. Extermination ! ~

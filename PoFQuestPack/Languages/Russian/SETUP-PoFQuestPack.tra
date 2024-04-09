@@ -3890,6 +3890,11 @@ The wizard points his finger in the desired direction and projects a sphere of n
 // Map Note 
 
 @1500 = ~Lord Nasher's residence~
+@1501 = ~To Giant's Pass~  // XG0016.ARE
+
+
+// XG0016 Info Trigger
+@1600 = ~The guardian's will is blocking the way.~
 
 
 // gw_functions.tpa for item description

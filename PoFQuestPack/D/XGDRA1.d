@@ -33,6 +33,8 @@ TakePartyItem("XGAM5")
 AddexperienceParty(50000)
 PickUpItem("XGFLAI1")
 AddJournalEntry(@51207,QUEST)
+TriggerActivation("Travel16",TRUE)
+TriggerActivation("Info16",FALSE)
 EscapeArea()~ EXIT
   IF ~~ THEN REPLY @10 DO ~AddJournalEntry(@51206,QUEST)
 Enemy()~ EXIT

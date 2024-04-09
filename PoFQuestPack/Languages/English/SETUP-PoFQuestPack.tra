@@ -149,11 +149,11 @@
 @147 = ~Leader of the gladiators~
 @148 = ~Gladiator veteran~
 @149 = ~Gold sorcerer~
-@150 = ~Leader of orcs~
-@151 = ~Orc archer~
-@152 = ~Skilled archer~
+@150 = ~Goblin Elite~
+@151 = ~Goblin Archer~
+@152 = ~Goblin Archer Marshal~
 @153 = ~Skilled orc~
-@154 = ~Orc~
+@154 = ~Goblin~
 @155 = ~Monastery~
 @156 = ~Gralamin~
 @157 = ~Shadow Thief~
@@ -4220,7 +4220,11 @@ The wizard points his finger in the desired direction and projects a sphere of n
 // Map Note 
 
 @1500 = ~Lord Nasher's residence~
+@1501 = ~To Giant's Pass~  // XG0016.ARE
 
+
+// XG0016 Info Trigger
+@1600 = ~The guardian's will is blocking the way.~
 
 // gw_functions.tpa for item description
 

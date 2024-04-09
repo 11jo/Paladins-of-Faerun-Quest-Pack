@@ -151,11 +151,11 @@
 @147 = ~Leader of the gladiators~
 @148 = ~Gladiator veteran~
 @149 = ~Gold sorcerer~
-@150 = ~Leader of orcs~
-@151 = ~Archer orc~
-@152 = ~Skilled archer~
+@150 = ~Gobelin d'élite~
+@151 = ~Archer gobelin~
+@152 = ~Archer d'élite gobelin~
 @153 = ~Skilled orc~
-@154 = ~Orc~
+@154 = ~Gobelin~
 @155 = ~Monastère~
 @156 = ~Gralamin~
 @157 = ~Voleur de l'ombre~
@@ -4190,7 +4190,7 @@ This heart belongs to the witch from the fortress north of the High Forest.~
 
 @999  = ~Crevasse~
 @1000 = ~This fountain is filled with a dark, viscous liquid from which it suffers from death and decay.~
-@1001 = ~Your dream was interrupted.~
+@1001 = ~Votre repos a été interrompu.~
 @1002 = ~Giants attacked us!~
 @1003 = ~The ominous song of the siren has awakened you from sleep.~
 @1004 = ~This catapult seems to have been used not so long ago, but now it's broken so that you can't fix it anymore.~
@@ -4203,8 +4203,8 @@ This heart belongs to the witch from the fortress north of the High Forest.~
 @1011 = ~Do you have so much courage that you are not afraid to lie calmly? It's time to pay for your levity!~
 @1012 = ~Druid Abbey~
 @1013 = ~Forgeron~
-@1014 = ~Sacred Stone~
-@1015 = ~Sacred Stone~
+@1014 = ~Pierre Sacré~
+@1015 = ~Pierre Sacré~
 @1016 = ~Temple Sacré~
 @1017 = ~Taverne des trois carafes~
 @1018 = ~Cimetière~
@@ -4324,8 +4324,14 @@ Jet de sauvegarde : 1/2
 Le magicien pointe son doigt dans la direction désirée et projette une sphère d'énergie négative qui explosera à l'impact (à moins qu'elle ne rencontre un obstacle solide en chemin), infligeant 1d8 points de dégâts par niveau du lanceur de sorts (jusqu'à un maximum de 10d8). Les créatures qui réussissent leur jet de sauvegarde ou esquivent ne subissent que la moitié des dégâts.~
 
 // Map Note 
+ 
+@1500 = ~Demeure du Seigneur Nasher~  // XG0048.ARE
+@1501 = ~Vers la Passe du Géant~  // XG0016.ARE
 
-@1500 = ~Demeure du Seigneur Nasher~
+
+// XG0016 Info Trigger
+@1600 = ~La volonté du gardien vous empêche de passer.~
+
 
 // Messagers
 

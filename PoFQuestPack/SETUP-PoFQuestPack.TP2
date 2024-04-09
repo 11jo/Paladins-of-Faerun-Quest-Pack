@@ -1577,12 +1577,12 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGGLV.CRE~        ~override/XGGLV.CRE~
   SAY NAME2 @148 
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGgms.CRE~        ~override/XGgms.CRE~         
-  SAY NAME1 @149 
-  SAY NAME2 @149 
+  SAY NAME1 @149
+  SAY NAME2 @149
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGGOB1.CRE~       ~override/XGGOB1.CRE~        
-  SAY NAME1 @150 
-  SAY NAME2 @150 
+  SAY NAME1 @150
+  SAY NAME2 @150
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGGOB2.CRE~       ~override/XGGOB2.CRE~        
   SAY NAME1 @151 
@@ -1590,7 +1590,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGGOB2.CRE~       ~override/XGGOB2.CRE~
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGGOB3.CRE~       ~override/XGGOB3.CRE~        
   SAY NAME1 @152 
-  SAY NAME2 @153 
+  SAY NAME2 @152 
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGGOB4.CRE~       ~override/XGGOB4.CRE~        
   SAY NAME1 @154 
@@ -1602,7 +1602,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGGOBA1.CRE~      ~override/XGGOBA1.CRE
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGGOBA3.CRE~      ~override/XGGOBA3.CRE~       
   SAY NAME1 @152 
-  SAY NAME2 @153 
+  SAY NAME2 @152 
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGGOBL.CRE~       ~override/XGGOBL.CRE~        
   SAY NAME1 @150 
@@ -3638,17 +3638,42 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0001.ARE~         ~override/XG0001.ARE
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0002.ARE~         ~override/XG0002.ARE~
 
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+
 COPY ~weidu_external/PoFQuestPack/Areas/XG0003.ARE~			~override/XG0003.ARE~
   SAY 0x26b0 @398
   SAY 0x2838 @1000
-  SAY 0x3284 @1001 
+  SAY 0x3030 @1001
+
+END       
+
+ACTION_IF (GAME_IS ~tob bgt~) BEGIN
+
+COPY ~weidu_external/PoFQuestPack/Areas/XG0003.ARE~			~override/XG0003.ARE~
+  SAY 0x26b0 @398
+  SAY 0x2838 @1000
+  SAY 0x3284 @1001
+
+END    
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0004.ARE~         ~override/XG0004.ARE~
   SAY 0xD68 @1002
 
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+
+COPY ~weidu_external/PoFQuestPack/Areas/XG0007.ARE~         ~override/XG0007.ARE~
+  SAY 0x3104 @399
+  SAY 0x3398 @1001
+
+END       
+
+ACTION_IF (GAME_IS ~tob bgt~) BEGIN
+
 COPY ~weidu_external/PoFQuestPack/Areas/XG0007.ARE~         ~override/XG0007.ARE~
   SAY 0x3104 @399
   SAY 0x3344 @1001
+
+END    
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0009.ARE~         ~override/XG0009.ARE~
 
@@ -3660,14 +3685,56 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0014.ARE~         ~override/XG0014.ARE
   SAY 0x5C8 @1003
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0015.ARE~         ~override/XG0015.ARE~
-  SAY 0x464 @400
-  ADD_MAP_NOTE #310 #538 ~gray~ @999
-// SAY 0x7A8 ~~
+	LPF fj_are_structure
+		INT_VAR
+		fj_type			= 1    // Info point
+		fj_box_left		= 1655
+		fj_box_top		= 340
+		fj_box_right	= 1699
+		fj_box_bottom	= 400
+		fj_cursor_idx	= 22   // curseur ?
+		fj_info_point_strref  = RESOLVE_STR_REF (@400)
+		fj_loc_x		= 1677
+		fj_loc_y		= 370
+		fj_vertex_0		= 1656 + (400 << 16)
+		fj_vertex_1		= 1699 + (393 << 16)
+		fj_vertex_2		= 1699 + (339 << 16)
+		fj_vertex_3		= 1655 + (345 << 16)
+		fj_vertex_4		= 1656 + (400 << 16)
+		STR_VAR
+		fj_structure_type	= region
+		fj_name				= info01
+		END
+  ADD_MAP_NOTE #1650 #236 ~gray~ #5386 // maison abandonnée.
+  ADD_MAP_NOTE #310 #538 ~RED~ @999
 
 // Valid colors include: gray, orange, blue, darkblue, lightgray, RED, YELLOW, GREEN, DEFAULT, 
 //  ADD_MAP_NOTE #xCoord  #yCoord  ~Note Color~ ~Text~
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0016.ARE~			~override/XG0016.ARE~
+	LPF fj_are_structure
+		INT_VAR
+		fj_type			= 1    // Info point
+		fj_box_left		= 1013
+		fj_box_top		= 4
+		fj_box_right	= 1160
+		fj_box_bottom	= 86
+		fj_cursor_idx	= 22   // curseur ?
+		fj_info_point_strref  = RESOLVE_STR_REF (@1600)
+		fj_loc_x		= 1083
+		fj_loc_y		= 42
+		fj_vertex_0		= 1137 + (4 << 16)
+		fj_vertex_1		= 1153 + (47 << 16)
+		fj_vertex_2		= 1160 + (69 << 16)
+		fj_vertex_3		= 1099 + (86 << 16)
+		fj_vertex_4		= 1062 + (84 << 16)
+		fj_vertex_5		= 1030 + (54 << 16)
+		fj_vertex_6		= 1013 + (4 << 16)
+		STR_VAR
+		fj_structure_type	= region
+		fj_name				= info16
+		END
+  ADD_MAP_NOTE #1083 #42 ~RED~ @1501
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0017.ARE~			~override/XG0017.ARE~
   ADD_MAP_NOTE #1448 #3453 ~RED~ @1005
@@ -3917,8 +3984,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0115.ARE~         ~override/XG0115.ARE~
   ADD_MAP_NOTE #1421 #2237 ~RED~ @1045
-  SAY 0x176c @1043 
-  SAY 0x1770 @1044
+  SAY 0x17c0 @1043
+  SAY 0x17c4 @1044
 
 END       
 
@@ -3926,14 +3993,14 @@ ACTION_IF (GAME_IS ~tob bgt~) BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0115.ARE~         ~override/XG0115.ARE~
   ADD_MAP_NOTE #1421 #2237 ~RED~ @1045
-  SAY 0x16A0 @1043 
-  SAY 0x16A4 @1044 
+  SAY 0x16A0 @1043
+  SAY 0x16A4 @1044
 
 END    
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0116.ARE~         ~override/XG0116.ARE~
-  SAY 0x6010 @1046
-  SAY 0x6044 @1047         
+  ADD_MAP_NOTE #290 #232 ~GREEN~ @1046
+  ADD_MAP_NOTE #1505 #567 ~RED~ @1047
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0117.ARE~         ~override/XG0117.ARE~         
   SAY 0x1f40 @412 
@@ -4521,21 +4588,27 @@ COPY ~weidu_external/PoFQuestPack/Items/XGcd.ITM~			~override/XGcd.ITM~ // Addit
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAM1.ITM~			~override/XGAM1.ITM~
   SAY NAME1 @433
+  SAY NAME2 @433
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAM2.ITM~			~override/XGAM2.ITM~
   SAY NAME1 @434
+  SAY NAME2 @434
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAM3.ITM~			~override/XGAM3.ITM~
-  SAY NAME1 @435 
+  SAY NAME1 @435
+  SAY NAME2 @435
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAM4.ITM~			~override/XGAM4.ITM~
   SAY NAME1 @436
+  SAY NAME2 @436
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAM5.ITM~			~override/XGAM5.ITM~
   SAY NAME1 @437
+  SAY NAME2 @437
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAM.ITM~			~override/XGAM.ITM~
   SAY NAME1 @438
+  SAY NAME2 @438
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAMUL1.ITM~			~override/XGAMUL1.ITM~
   SAY NAME2 @439
@@ -6301,6 +6374,7 @@ APPEND ~MASTAREA.2da~ ~XG0009 value~ UNLESS ~XG0009~ // Maison des Morts-vivants
 APPEND ~MASTAREA.2da~ ~XG0034 value~ UNLESS ~XG0034~ // Le Conseil des Mages  // Council of Mages //
 APPEND ~MASTAREA.2da~ ~XG0012 value~ UNLESS ~XG0012~ // Château des Collines Oubliées // Castle Forgotten Hills //
 APPEND ~MASTAREA.2da~ ~XG0014 value~ UNLESS ~XG0014~ // Île du pirate (Mer des étoiles déchues) //  Pirate island //
+APPEND ~MASTAREA.2da~ ~XG0015 value~ UNLESS ~XG0015~ // Crevasse //
 APPEND ~MASTAREA.2da~ ~XG0016 value~ UNLESS ~XG0016~ // Passe du Géant // Pass //
 APPEND ~MASTAREA.2da~ ~XG0017 value~ UNLESS ~XG0017~ // Tour de Gradak // Tower of Gradak //
 APPEND ~MASTAREA.2da~ ~XG0018 value~ UNLESS ~XG0018~ // Camp Secret de Gradak

@@ -1,9 +1,16 @@
 IF
-  Global("EnteredXG0016","XG0016",0)
+	Global("EnteredXG0016","XG0016",0)  // (PoF)  Passe du Géant, (Dragon)
 THEN
-  RESPONSE #100
-    SetGlobal("EnteredXG0016","XG0016",1)
-    //Wait(1)
-    //TextScreen("SCENBMOD")
+	RESPONSE #100
+		SetGlobal("EnteredXG0016","XG0016",1)  // (PoF)  Passe du Géant, (Dragon)
+		TriggerActivation("Travel16",FALSE)
+		TriggerActivation("Info16",TRUE)
 END
 
+IF
+	Dead("XGDRA1")
+THEN
+	RESPONSE #100
+		TriggerActivation("Travel16",TRUE)
+		TriggerActivation("Info16",FALSE)
+END

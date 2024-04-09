@@ -1,7 +1,7 @@
 @1 = ~ Ah, great man, it looks like you defeated all the guards and got all the stones from them, which means you can get through. ~
 @2 = ~ So can I just get through? You don't want to fight me? ~
 @3 = ~ Go back and find all the stones, or maybe you want to fight me? ~
-@4 = ~ I will not go back and look for all the stones ... ~
+@4 = ~ I will go back and look for all the stones ... ~
 
 /*
 @5 = ~ Paladins of Faerûn.
@@ -10,7 +10,7 @@ When I left the dungeon, the dragon, the last guard, was waiting for me. I kille
 */
 
 @6 = ~ I better kill you, it will be faster ... ~
-@7 = ~ No, my friend come on in, you are free. ~
+@7 = ~ Yes, my friend come on in, you are free. ~
 
 /*
 @8 = ~ Paladins of Faerûn.

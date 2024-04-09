@@ -293,3 +293,10 @@ XG0780    W         XG0A80      EXITSE         1        1        N        N     
 
 XG0680    W         XG0A80      EXITSE         1        1        N        N        N        N        N          0
 XG0680    E         XG0780      ENTRANCE###2   1        1        N        N        N        N        N          0
+
+
+AR0020    E         XG0015      EXITN         35        1        N        N        N        N        N          0
+XG0015    N         AR0020      EXITNE        35        1        N        N        N        N        N          0
+XG0015    E         AR0020      EXITNE        35        1        N        N        N        N        N          0
+XG0015    W         AR0020      EXITNE        35        1        N        N        N        N        N          0
+XG0004    S         AR0020      EXITNE        35        2        N        N        N        N        N          0
