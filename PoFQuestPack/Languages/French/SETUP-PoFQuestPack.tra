@@ -198,8 +198,8 @@
 @193 = ~Royal sailor~
 @194 = ~Royal wizard~
 @195 = ~King's ambassador~
-@196 = ~Shipowner~  // Marin // Capitaine
-@197 = ~Dame Aribet~
+@196 = ~Capitaine de navire~ 
+@197 = ~Dame Aribeth~
 @198 = ~Marchand du coin~
 @199 = ~Dame Ksiratra~
 @200 = ~Chef de la Guilde de Padhiver~
@@ -239,7 +239,7 @@
 @234 = ~Kvoyan~
 @235 = ~Milicien de la Porte de Baldur~
 @236 = ~Monk of the temple~
-@237 = ~Norice~
+@237 = ~Norik~
 @238 = ~Sir Moonrow~
 @239 = ~Elfe du coin~
 @240 = ~Elfe du coin~
@@ -4335,16 +4335,26 @@ Le magicien pointe son doigt dans la direction désirée et projette une sphère d'
 
 // Messagers
 
-@3000 = ~Youhou !~
-@3001 = ~Laissez passer le messager de Padhiver~
-@3002 = ~J'ai une offre à vous faire.~
-@3003 = ~Hé ! regardez par ici !~
-@3004 = ~Heu... Hum ! Hum !~
-
 // AR0400 vadrouilleur Mines vagabondes
+@3000 = ~Youhou !~
+
 // AR0020 Messager de Padhiver
-// AR0800 Novice Temple oublié
+@3001 = ~Laissez passer le messager de Padhiver !~
+@3002 = ~Je suis à la recherche du héros...~ ~Je suis à la recherche de l'héroïne...~
+
 // AR0300 Marchand de Memnon
+@3003 = ~J'ai une offre à vous faire.~
+
+// AR0800 Novice Temple oublié
+@3004 = ~Hé ! regardez par ici !~
+
+//....
+@3005 = ~Heu... Hum ! Hum !~
+@3006 = ~Mon village a besoin d'aide !~
+
+
+
+// Umar hill Boy pirate
 
 
 // gw_functions.tpa for item description
@@ -5355,7 +5365,7 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0829", "(PoF)  Cimetière, (Quête des Ténèbres)"},
 	{"XG0429", "(PoF)  Tombeau, (Quête des Ténèbres)"},
 	{"XG0529", "(PoF)  Caverne sous le tombeau, (Quête des Ténèbres)"},
-	{"XG0629", "(PoF)  Les Ténèbres)"},
+	{"XG0629", "(PoF)  Les Ténèbres"},
 	{"XG0229", "(PoF)  Taverne des Trois Carafes, L1"},
 	{"XG0729", "(PoF)  Taverne des Trois Carafes, L2"},
 	{"XG0329", "(PoF)  Temple d'Ilmater"},

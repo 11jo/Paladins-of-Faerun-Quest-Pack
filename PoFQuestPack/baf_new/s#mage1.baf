@@ -1,0 +1,15 @@
+IF
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@3001)
+		MoveToPointNoInterrupt([308.575])
+		Wait(2)
+		DisplayStringHead(Myself,@3002)
+		MoveToPointNoInterrupt([408.772])
+		Wait(2)
+		DisplayStringHead(Myself,@3001)
+		MoveToPointNoInterrupt([680.555])
+		Face(2)
+		Wait(10)
+END

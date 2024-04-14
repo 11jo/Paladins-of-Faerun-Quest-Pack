@@ -41,9 +41,9 @@ ALWAYS
     LAF autotra_workaround END
 
 
-//  ACTION_DEFINE_ARRAY fl#noconvert BEGIN END
+//  ACTION_DEFINE_ARRAY PoF_noconvert BEGIN END
 
-  ACTION_DEFINE_ARRAY fl#reload BEGIN SETUP-PoFQuestPack Journal END
+  ACTION_DEFINE_ARRAY PoF_reload BEGIN SETUP-PoFQuestPack Journal END
 
     LAF HANDLE_CHARSETS
       INT_VAR
@@ -51,8 +51,8 @@ ALWAYS
       STR_VAR
         tra_path = EVAL ~weidu_external/PoFQuestPack/Languages/autotra~
 		iconv_path = ~PoFQuestPack/Languages/autotra/iconv~
-//        noconvert_array = fl#noconvert
-        reload_array = fl#reload
+//        noconvert_array = PoF_noconvert
+        reload_array = PoF_reload
 		
 		
   END
@@ -479,6 +479,10 @@ END
 COPY ~weidu_external/PoFQuestPack/Actors/XGAA.CRE~			~override/XGAA.CRE~
   SAY NAME1 @2
   SAY NAME2 @3
+
+COPY ~weidu_external/PoFQuestPack/Actors/XGAAIR01.CRE~			~override/XGAAIR01.CRE~
+  SAY NAME1 #2831
+  SAY NAME2 #2831
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGADEPT.CRE~			~override/XGADEPT.CRE~
   SAY NAME1 @4
@@ -2175,23 +2179,30 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGMOHC.CRE~       ~override/XGMOHC.CRE~
   SAY NAME1 @129 
   SAY NAME2 @129 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGMOHD.CRE~       ~override/XGMOHD.CRE~        
-  SAY NAME1 @129 
-  SAY NAME2 @129 
+COPY ~weidu_external/PoFQuestPack/Actors/XGMOHD.CRE~       ~override/XGMOHD.CRE~
+  SAY NAME1 @129
+  SAY NAME2 @129
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGMO.CRE~         ~override/XGMO.CRE~          
+COPY ~weidu_external/PoFQuestPack/Actors/XGMO.CRE~         ~override/XGMO.CRE~
+  SAY NAME1 #2426
+  SAY NAME2 #2426
+  WRITE_ASCII 0x248 ~XGMO~ (8) // Override script
+  WRITE_ASCII 0x258 ~~ (8) // race script
+  WRITE_ASCII 0x260 ~~ (8) // general script
+  WRITE_ASCII 0x268 ~~ (8) // default script
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGMONKC.CRE~      ~override/XGMONKC.CRE~       
-  SAY NAME1 @236 
-  SAY NAME2 @236 
+COPY ~weidu_external/PoFQuestPack/Actors/XGMONKC.CRE~      ~override/XGMONKC.CRE~
+  SAY NAME1 @236
+  SAY NAME2 @236
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGMONOR.CRE~      ~override/XGMONOR.CRE~       
-  SAY NAME1 @237 
-  SAY NAME2 @237 
+COPY ~weidu_external/PoFQuestPack/Actors/XGMONOR.CRE~      ~override/XGMONOR.CRE~
+  SAY NAME1 @237
+  SAY NAME2 @237
+  WRITE_ASCII 0x268 ~XGMONOR~ (8) // default script
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGMOOM.CRE~       ~override/XGMOOM.CRE~        
-  SAY NAME1 @238 
-  SAY NAME2 @238 
+COPY ~weidu_external/PoFQuestPack/Actors/XGMOOM.CRE~       ~override/XGMOOM.CRE~
+  SAY NAME1 @238
+  SAY NAME2 @238
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGMOON1.CRE~      ~override/XGMOON1.CRE~       
   SAY NAME1 @239 
@@ -2205,38 +2216,40 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGMOONL.CRE~      ~override/XGMOONL.CRE
   SAY NAME1 @241 
   SAY NAME2 @242 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGMOON.CRE~       ~override/XGMOON.CRE~        
-  SAY NAME1 @243 
-  SAY NAME2 @243 
+COPY ~weidu_external/PoFQuestPack/Actors/XGMOON.CRE~       ~override/XGMOON.CRE~
+  SAY NAME1 @243
+  SAY NAME2 @243
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGMSAL.CRE~       ~override/XGMSAL.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGMSAL.CRE~       ~override/XGMSAL.CRE~
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGMSLC1.CRE~      ~override/XGMSLC1.CRE~       
-  SAY NAME1 @244 
-  SAY NAME2 @244 
+COPY ~weidu_external/PoFQuestPack/Actors/XGMSLC1.CRE~      ~override/XGMSLC1.CRE~
+  SAY NAME1 @244
+  SAY NAME2 @244
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGMSLC2.CRE~      ~override/XGMSLC2.CRE~       
   SAY NAME1 @244 
   SAY NAME2 @244 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGMTR.CRE~        ~override/XGMTR.CRE~         
-  SAY NAME1 @245 
+COPY ~weidu_external/PoFQuestPack/Actors/XGMTR.CRE~        ~override/XGMTR.CRE~
+  SAY NAME1 @245
+  SAY NAME2 @245
+  WRITE_ASCII 0x250 ~XGMTR~ (8) // class script
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGMW.CRE~         ~override/XGMW.CRE~          
-  SAY NAME1 @246 
-  SAY NAME2 @246 
+COPY ~weidu_external/PoFQuestPack/Actors/XGMW.CRE~         ~override/XGMW.CRE~
+  SAY NAME1 @246
+  SAY NAME2 @246
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGmybg1.CRE~      ~override/XGmybg1.CRE~       
-  SAY NAME1 @15 
-  SAY NAME2 @15 
+COPY ~weidu_external/PoFQuestPack/Actors/XGmybg1.CRE~      ~override/XGmybg1.CRE~
+  SAY NAME1 @15
+  SAY NAME2 @15
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGmybg.CRE~       ~override/XGmybg.CRE~        
-  SAY NAME1 @15 
-  SAY NAME2 @15 
+COPY ~weidu_external/PoFQuestPack/Actors/XGmybg.CRE~       ~override/XGmybg.CRE~
+  SAY NAME1 @15
+  SAY NAME2 @15
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGMYES.CRE~       ~override/XGMYES.CRE~        
-  SAY NAME1 @247 
-  SAY NAME2 @247 
+COPY ~weidu_external/PoFQuestPack/Actors/XGMYES.CRE~       ~override/XGMYES.CRE~
+  SAY NAME1 @247
+  SAY NAME2 @247
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGmyhs.CRE~       ~override/XGmyhs.CRE~        
   SAY NAME1 @248 
@@ -2863,6 +2876,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/s#inn02.CRE~         ~override/s#inn02.
 COPY ~weidu_external/PoFQuestPack/Actors/s#mage1.CRE~         ~override/s#mage1.CRE~          
   SAY NAME1 @81 
   SAY NAME2 @81
+  WRITE_ASCII 0x250 ~s#mage1~ (8) // Override script
 
 COPY ~weidu_external/PoFQuestPack/Actors/s#mage2.CRE~         ~override/s#mage2.CRE~          
   SAY NAME1 @81 
@@ -3706,7 +3720,7 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0015.ARE~         ~override/XG0015.ARE
 		fj_name				= info01
 		END
   ADD_MAP_NOTE #1650 #236 ~gray~ #5386 // maison abandonnée.
-  ADD_MAP_NOTE #310 #538 ~RED~ @999
+  ADD_MAP_NOTE #310 #538 ~red~ @999
 
 // Valid colors include: gray, orange, blue, darkblue, lightgray, RED, YELLOW, GREEN, DEFAULT, 
 //  ADD_MAP_NOTE #xCoord  #yCoord  ~Note Color~ ~Text~
@@ -3734,11 +3748,11 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0016.ARE~			~override/XG0016.ARE~
 		fj_structure_type	= region
 		fj_name				= info16
 		END
-  ADD_MAP_NOTE #1083 #42 ~RED~ @1501
+  ADD_MAP_NOTE #1083 #42 ~red~ @1501
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0017.ARE~			~override/XG0017.ARE~
-  ADD_MAP_NOTE #1448 #3453 ~RED~ @1005
-  ADD_MAP_NOTE #1711 #1541 ~RED~ @1006
+  ADD_MAP_NOTE #1448 #3453 ~red~ @1005
+  ADD_MAP_NOTE #1711 #1541 ~red~ @1006
   ADD_MAP_NOTE #1553 #1150 ~BLUE~ @1007
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0018.ARE~         ~override/XG0018.ARE~
@@ -3983,7 +3997,7 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0114.ARE~         ~override/XG0114.ARE
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0115.ARE~         ~override/XG0115.ARE~
-  ADD_MAP_NOTE #1421 #2237 ~RED~ @1045
+  ADD_MAP_NOTE #1421 #2237 ~red~ @1045
   SAY 0x17c0 @1043
   SAY 0x17c4 @1044
 
@@ -3992,7 +4006,7 @@ END
 ACTION_IF (GAME_IS ~tob bgt~) BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0115.ARE~         ~override/XG0115.ARE~
-  ADD_MAP_NOTE #1421 #2237 ~RED~ @1045
+  ADD_MAP_NOTE #1421 #2237 ~red~ @1045
   SAY 0x16A0 @1043
   SAY 0x16A4 @1044
 
@@ -4000,7 +4014,7 @@ END
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0116.ARE~         ~override/XG0116.ARE~
   ADD_MAP_NOTE #290 #232 ~GREEN~ @1046
-  ADD_MAP_NOTE #1505 #567 ~RED~ @1047
+  ADD_MAP_NOTE #1505 #567 ~red~ @1047
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0117.ARE~         ~override/XG0117.ARE~         
   SAY 0x1f40 @412 
@@ -4401,7 +4415,8 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0801.ARE~         ~override/XG0801.ARE
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0803.ARE~         ~override/XG0803.ARE~         
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0815.ARE~         ~override/XG0815.ARE~         
+COPY ~weidu_external/PoFQuestPack/Areas/XG0815.ARE~         ~override/XG0815.ARE~   
+  ADD_MAP_NOTE #1138 #2166 ~red~ @1501 // Vers la Passe du Géant              
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0820.ARE~         ~override/XG0820.ARE~
   SAY 0x41C @1001          

@@ -4226,6 +4226,22 @@ The wizard points his finger in the desired direction and projects a sphere of n
 // XG0016 Info Trigger
 @1600 = ~The guardian's will is blocking the way.~
 
+
+// Messagers
+
+// AR0400
+@3000 = ~Youhou !~
+
+// AR0020
+@3001 = ~Make way for the messenger of Neverwinter !~
+@3002 = ~I'm looking for the hero...~
+
+// AR0300
+@3003 = ~I've got an offer for you.~
+
+// AR0800
+@3004 = ~Hey, look over there!~
+
 // gw_functions.tpa for item description
 
 @9001 = ~\([Oo]nly[ %tab%]+\)?[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~

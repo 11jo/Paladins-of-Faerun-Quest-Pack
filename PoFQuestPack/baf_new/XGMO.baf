@@ -1,0 +1,23 @@
+IF
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@3000)
+		FaceObject(Player1)
+		Wait(5)
+		DisplayStringHead(Myself,@3000)
+		FaceObject(Player6)
+		Wait(5)
+		DisplayStringHead(Myself,@3000)
+		FaceObject(Player2)
+		Wait(5)
+		DisplayStringHead(Myself,@3000)
+		FaceObject(Player5)
+		Wait(5)
+		DisplayStringHead(Myself,@3000)
+		FaceObject(Player3)
+		Wait(5)
+		DisplayStringHead(Myself,@3000)
+		FaceObject(Player4)
+		Wait(5)
+END

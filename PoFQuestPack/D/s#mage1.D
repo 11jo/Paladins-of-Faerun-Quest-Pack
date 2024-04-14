@@ -18,7 +18,7 @@ ActionOverride(Player3,LeaveAreaLUA("XG0162","",[1250.1080],0))
 ActionOverride(Player4,LeaveAreaLUA("XG0162","",[1100.1100],0))
 ActionOverride(Player5,LeaveAreaLUA("XG0162","",[1200.1120],0))
 ActionOverride(Player6,LeaveAreaLUA("XG0162","",[1090.1160],0))
-DestroySelf()~ EXIT
+EscapeArea()~ EXIT
 END
 
 
