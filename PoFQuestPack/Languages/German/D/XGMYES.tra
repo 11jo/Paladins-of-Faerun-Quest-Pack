@@ -18,7 +18,11 @@
 @17 = ~Ja, ich bin auf der Suche nach einem seltsamen Magier, da sich viele bei Euch aufhalten, seid ihr ihm vielleicht begegnet?~
 @18 = ~Ja, ich weiß, von wem Ihr sprecht, er kam vor ein paar Tagen hierher, er fragte mich nach einer Unterkunft, aber in Anbetracht unserer Situation habe ich ihn in ein Dorf nicht weit von hier geschickt. Zeigt mir Eure Karte, ich markiere diesen Ort darauf.~
 @19 = ~Danke, Priester. Viel Glück.~
+
+/*
 @20 = ~Ein Schattenfürst.
 
 In einer Priesterstadt in der Nähe von Soubar erzählte mir der Hohepriester, dass er einen seltsamen Magier in ein Dorf in der Nähe geschickt hat. Er hat diesen Ort auf meiner Karte markiert.~
+*/
+
 @21 = ~Danke für Eure Hilfe, <CHARNAME>. Viel Glück.~

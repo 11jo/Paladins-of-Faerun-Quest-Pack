@@ -39,7 +39,7 @@ THEN
     DisplayStringHead("XGWML",@13)  
     Wait(6)
     RevealAreaOnMap("XG0066")
-    AddJournalEntry(@14,QUEST)
+    AddJournalEntry(@51405,QUEST)
     UnhideGUI()
     EndCutSceneMode()
 END

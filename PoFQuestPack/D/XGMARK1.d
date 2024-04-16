@@ -18,5 +18,5 @@ END
 IF ~~ THEN BEGIN 3
   SAY @7
   IF ~~ THEN DO ~GiveItemCreate("XGMAR",Player1,0,0,0)
-~ UNSOLVED_JOURNAL @8 EXIT
+AddJournalEntry(@51301,QUEST)~ EXIT
 END

@@ -733,114 +733,120 @@ Slaine sagte mir, dass sein Freund von von Kriegern aus dem Süden gefangen genom
 Ich habe gerade mit dem legendären Paladin Slaine gesprochen... Er sagte mir, er könne mir helfen... Aber zuerst muss er seinen Freund in New Brynnlaw finden... Wenn ich also bereit bin, muss ich mich auf den Weg machen und ihn irgendwo in der Stadt finden...~ // @9
 
 
+	
+//////////////////////    Blacksmith Marian. Marian le forgeron
+// Title
 
+@51300 = ~Schmied Marian~ // Marian le forgeron
 
+//  XGWWC.d
 
+@51301 = ~Schmied Marian
 
+Der Gefangene Marco schien viel über Tiefwasser zu wissen... Er gab mir eine Perlenkette und ich muss sie Marian zeigen...~
 
+@51302 = ~Schmied Marian
 
+Ich habe mit Hauptmann Boris über Barbarossa gesprochen, und er hat mir erzählt, dass er ihm vor ein paar Minuten entkommen ist... Er hat mich ins Gefängnis von Tiefwasser geschickt, ich soll mit dem Gefangenen Marco sprechen, der Boris Gehilfe bei diesem Auftrag ist...~
 
+@51303 = ~Schmied Marian
 
+Wir konnten Barbarossa nicht töten, eine Wache erschien und brachte mich zum Hauptmann. Der Hauptmann klärte mich über die Situation auf. Im südöstlichen Teil der Stadt befindet sich der Eingang zur Barbarossa-Gilde.~ // @16
 
+@51304 = ~Schmied Marian
 
+In Waukeens Promenade traf ich einen verängstigten Schmied aus Tiefwasser. Ich habe viel über diese Stadt der Kaufleute gehört. Er sagte, dass der grausame Barbarossa jetzt den örtlichen Schwarzmarkt beherrscht. Ich muss ihn in einer Taverne oder auf einem Markt der Stadt finden.~ // @19
 
+@51305 = ~Schmied Marian
 
+Der Schmied hat alles gesagt, was Ihr braucht. Er bat Euch, seine Familie in einem Haus im Nordosten von Tiefwasser zu finden. Sobald Ihr sie gefunden habt, müsst Ihr sie zum Hauptquartier der Stadtwache eskortieren.~ // @20
 
+@51306 = ~Schmied Marian
 
+Wir haben Barbarossa angegriffen, aber er ist geflohen, bevor der Kampf begann.~ // @21
 
+@51307 = ~Schmied Marian
 
+Ich habe die Frau des Schmieds vor den Mördern Barbarossas gerettet. Jetzt kenne ich alle drei Passwörter, die man braucht, um die Gilde im Südosten der Stadt zu betreten.
 
+Passwort: Sklave, Markt, Schwarz.~ // @22
 
+@51308 = ~Schmied Marian
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Barbarossa, der Chef des Schwarzmarktes in Tiefwasser, wurde aufgehalten.~ // @23
 
 	
+//////////////////////    Shadow Lord. Seigneur masqué
+// Title
+
+@51400 = ~Schattenfürst~ // Seigneur masqué
+
+// XG0412
+@51401 = ~Schattenfürst 
+
+Die verlorene Festung wurde wiederentdeckt, ihr untoter König wurde getötet und sie befindet sich jetzt unter der Kontrolle von Tiefwasser. Der Schattenfürst ist zufrieden.~ // @1
+
+@51402 = ~Schattenfürst
+
+Der Hauptmann der Wache in Tiefwasser schickt mich zum Schattenfürst, anscheinend hat er eine besondere Aufgabe für mich. Sie ist im Schloss.~ // @2
+
+@51403 = ~Schattenfürst 
+
+Ich wurde beauftragt, einen seltsamen Zauberer zu finden. Vielleicht finde ich ihn in der Stadt der Priester, nicht weit von Soubar entfernt.~ // @3
+
+@51404 = ~Schattenfürst
+
+In einer Priesterstadt in der Nähe von Soubar erzählte mir ein Hohepriester, dass er einen seltsamen Magier in ein Dorf in der Nähe geschickt hat. Er hat diesen Ort auf meiner Karte markiert.~ // @4
+
+@51405 = ~Schattenfürst
+
+Ich habe einen neuen Auftrag bekommen. Um das verborgene Schloss zu finden, brauchen wir den Zauberer, den ich gefunden habe, sowie den Zauberstab, der dem Magier in der Nähe von Tiefwasser gestohlen wurde.~ // @5
 
 
+// XGWML
+@51406 = ~Schattenfürst
 
-
-
-
+Der Nekromant ist tot. Der alte Magier hat den Standort der Festung entdeckt, ich muss den Zauberstab nehmen, damit er sein Werk vollenden und den Schutzzauber schwächen kann.~ // @18
 
 	
+//////////////////////    Killer. Assassin
+// Title
+
+@51500 = ~Meuchelmörder~ // Assassin
+
+// XGMILC
+@51501 = ~Meuchelmörder
+
+Ihr seid in den Dienst der Stadtwache von Baldurs Tor getreten, Eure Aufgabe ist es, den Mörder von 5 Personen aufzuspüren. Das letzte Mal wurde der Mörder in einer Taverne im Osten der Stadt gesehen.~ // @10
 
 
+@51502 = ~Meuchelmörder
+
+Ich habe den Mörder dieser Opfer gefunden, sein Name ist Artemis Entreri, es ist mir gelungen, ihn zu verletzen, aber er ist dem Kampf entkommen.~ // @16
 
 
+@51503 = ~Meuchelmörder
+
+In der Taverne erzählte mir einer der Besucher, dass jemand einen lokalen Magier gesehen hat, der mit einer verdächtigen Person gesprochen hat, das könnte derjenige sein, den ich suche.~ // @17
 
 
+@51504 = ~Meuchelmörder
 
- 
-
-
-
+Ich habe den Bruder von einem der Opfer gefunden. Er erzählte mir, dass sich sein Bruder vor seinem Tod mit einem Mann im Haus des Großherzogs getroffen hat.~ // @18
 
 
+@51505 = ~Meuchelmörder
+
+Ich habe den Mörder Artemis in der Kanalisation der Stadt getroffen.~ // @19
 
 
+@51506 = ~Meuchelmörder
 
+Ich hatte nicht den Mut, gegen den besten Mörder von Faerûn zu kämpfen.~ // @20
 
+@51507 = ~Meuchelmörder
 
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Die Diebesgilde, die sich unter der Stadt versteckt hat, ist jetzt ereledigt. Aber ich habe Artemis vermisst.~ // @24
 
 
 

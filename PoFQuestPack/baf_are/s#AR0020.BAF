@@ -3,7 +3,7 @@ IF
 	Global("S#setAR0020","AR0020",0)  //   LES PORTES DE LA VILLE
 THEN
 	RESPONSE #100
-		CreateCreature("s#mage1",[680.555],2)  // Mage de Padhiver
+		CreateCreature("s#mage1",[915.340],2)  // Mage de Padhiver
 		SetGlobal("S#setAR0020","AR0020",1)
 		Continue()
 END

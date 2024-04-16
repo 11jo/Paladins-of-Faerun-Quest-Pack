@@ -19,8 +19,8 @@ END
 IF ~~ THEN BEGIN 3
   SAY @7
   IF ~~ THEN REPLY @8 DO ~RevealAreaOnMap("XG0064")
-SetGlobal("s#XGMARAN","GLOBAL",2)~ 
-JOURNAL @9 EXIT
+SetGlobal("s#XGMARAN","GLOBAL",2)
+AddJournalEntry(@51304,QUEST)~ EXIT
 END
 
 IF ~ Global("s#XGMARAN","GLOBAL",1)~ THEN BEGIN 4
@@ -29,10 +29,10 @@ IF ~ Global("s#XGMARAN","GLOBAL",1)~ THEN BEGIN 4
   IF ~~ THEN REPLY @6 EXIT
 END
 
-IF ~Global("s#XGMARAN","GLOBAL",2) PartyHasItem("XGLETW")~ THEN BEGIN 5
+IF ~Global("s#XGMARAN","GLOBAL",2) PartyHasItem("XGLETW")~ THEN BEGIN 5 //  PartyHasItem("XGMAR") XGMARK1.D seem not implemented to see...
   SAY @12
-  IF ~~ THEN REPLY @13 DO ~TakePartyItem("XGMAR")
-TakePartyItem("XGLETW")~ GOTO 6
+  IF ~~ THEN REPLY @13 DO ~
+TakePartyItem("XGLETW")~ GOTO 6 // TakePartyItem("XGMAR")
 END
 
 IF ~~ THEN BEGIN 6
@@ -43,10 +43,14 @@ END
 IF ~~ THEN BEGIN 7
   SAY @16
   IF ~~ THEN DO ~GiveItemCreate("XGWRG",Player1,0,0,0)
-EscapeArea()~ UNSOLVED_JOURNAL @17 EXIT
+AddJournalEntry(@51305,QUEST)
+EscapeArea()~ EXIT
 END
 
-IF ~Global("s#XGMARAN","GLOBAL",2) !PartyHasItem("XGLETW")~ THEN BEGIN 8
+IF ~Global("s#XGMARAN","GLOBAL",2) 
+OR(2)
+	!PartyHasItem("XGLETW") 
+	!PartyHasItem("XGMAR")~ THEN BEGIN 8
   SAY @12
   IF ~~ THEN REPLY @18 EXIT
 END

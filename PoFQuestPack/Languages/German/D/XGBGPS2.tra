@@ -4,7 +4,11 @@
 @4 = ~Das sind 100 Gold, sprecht jetzt!~
 @5 = ~Wenn Ihr leben wollt, sagt alles, was Ihr wisst!~
 @6 = ~Okay, ich habe ein Gespräch zwischen zwei Einwohnern gehört, die gesehen haben, wie ein lokaler Magier sich mit einer verdächtigen Person getroffen und ihr ein paar Taschen gegeben hat. Sucht also im Zauberturm nach Antworten.~
+
+/*
 @7 = ~Ein Meuchelmörder.
 
 In der Taverne erzählte mir einer der Gäste, dass jemand einen lokalen Magier gesehen hat, der mit einer verdächtigen Person gesprochen hat, das könnte derjenige sein, den ich suche.~
+*/
+
 @8 = ~Vielen Dank für Eure Mitarbeit.~

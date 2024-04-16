@@ -11,5 +11,5 @@ THEN
 		DisplayStringHead(Myself,@3001)
 		MoveToPointNoInterrupt([680.555])
 		Face(2)
-		Wait(10)
+		Wait(30)
 END

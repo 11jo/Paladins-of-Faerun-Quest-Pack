@@ -7,9 +7,13 @@
 @6 = ~Das ist das Problem von Tiefwasser, sollen sie sich darum kümmern.~
 @7 = ~Meistens ist er in seinem Versteck, aber Ihr könnst ihn auch in der örtlichen Taverne oder auf dem Markt der Stadt treffen. Seid vorsichtig, er ist sehr gefährlich.~
 @8 = ~Okay, ich melde mich mit weiteren Informationen zurück. Auf Wiedersehen.~
+
+/*
 @9 = ~Schmied Marian.
 
 Auf Waukeens Promenade traf ich auf einen verängstigten Schmied aus Tiefwasser. Ich habe viel über diese Stadt der Kaufleute gehört. Er sagte, dass dort jetzt der grausame Barbarossa den örtlichen Schwarzmarkt beherrscht. Ich muss ihn in einer Taverne oder auf einem Markt der Stadt finden.~
+*/
+
 @10 = ~Ihr seid zurück, also seid Ihr bereit, mir zu helfen?~
 @11 = ~Ja, ich habe beschlossen, Euch zu helfen. Erinnert mich daran, was Ihr braucht?~
 @12 = ~Welche Neuigkeiten habt Ihr mitgebracht, mein Freund?~ ~Welche Neuigkeiten habt Ihr mitgebracht, meine Freundin?~
@@ -17,7 +21,12 @@ Auf Waukeens Promenade traf ich auf einen verängstigten Schmied aus Tiefwasser. 
 @14 = ~Ich hätte es mir denken können, Ihr solltet sofort meine Familie finden und in Sicherheit bringen, aber was ist mit Barbarossa, ist er tot?~
 @15 = ~Barbarossa floh vom Schlachtfeld, vermutlich in sein Versteck. Ich wurde von der Stadtwache von Tiefwasser kontaktiert, sie wollen, dass ich mich offiziell um Barbarossa kümmere. Sein Unterschlupf wird jedoch von einem mysteriösen Mann bewacht, für den man ein Passwort benötigt. Wo befindet sich Eure Familie?~
 @16 = ~Meine Familie sollte bei meinem Freund sein, der Tiefwasser regiert. Das ist ein großes Haus im Nordosten. Zeigt ihnen diesen Ring, dann werden sie verstehen, dass ich Euch geschickt habe. Bringt sie zum Büro der Stadtwache, ich werde dort auf Euch warten und Euch das Passwort geben.~
+
+/*
 @17 = ~Schmied Marian.
 
 Der Schmied hat Euch alles gesagt, was Ihr wissen müsst. Er bat Euch, seine Familie in einem Haus im Nordosten von Tiefwasser zu finden. Wenn Ihr sie gefunden habt, müsst Ihr sie zum Hauptquartier der Stadtwache begleiten.~
+*/
+
+
 @18 = ~Noch keine Neuigkeiten~

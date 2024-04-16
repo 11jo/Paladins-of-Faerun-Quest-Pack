@@ -38,8 +38,8 @@ END
 
 IF ~~ THEN BEGIN 7
   SAY @14
-  IF ~~ THEN REPLY @15 DO ~SetGlobal("s#XGWWC","GLOBAL",1)~ 
-UNSOLVED_JOURNAL @16 EXIT
+  IF ~~ THEN REPLY @15 DO ~SetGlobal("s#XGWWC","GLOBAL",1)
+AddJournalEntry(@51303,QUEST)~ EXIT
 END
 
 IF ~Global("s#XGWWC","GLOBAL",1) !Dead("XGBARB1")~ THEN BEGIN 8
@@ -51,14 +51,16 @@ IF ~Global("s#XGWWC","GLOBAL",1) Dead("XGBARB1")~ THEN BEGIN 9
   SAY @18
   IF ~~ THEN DO ~SetGlobal("s#XGWWC","GLOBAL",2)
 GiveItemCreate("MISC07",Player1,5000,0,0)
-EraseJournalEntry(@19)
-EraseJournalEntry(@20)
-EraseJournalEntry(@21)
-EraseJournalEntry(@16)
-EraseJournalEntry(@22)
-SetQuestDone(@23)
-AddexperienceParty(10000)~ 
-UNSOLVED_JOURNAL @24 EXIT
+EraseJournalEntry(@51304)
+EraseJournalEntry(@51305)
+EraseJournalEntry(@51306)
+EraseJournalEntry(@51303)
+EraseJournalEntry(@51307)
+EraseJournalEntry(@51301)
+EraseJournalEntry(@51302)
+AddJournalEntry(@51308,QUEST_DONE)
+AddexperienceParty(10000)
+AddJournalEntry(@51402,QUEST)~ EXIT
 END
 
 IF ~Global("s#XGWWC","GLOBAL",2)~ THEN BEGIN 10

@@ -1,5 +1,6 @@
 @0 = ~ The castle is completely under the control of Deep Water. From the books that we found in the castle, we learned a lot about his past. Now he belongs to the possessions of the city of Deep Water <CHARNAME>, our master would also like to thank you and wish you good luck in your future adventures. Bye. ~
 
+/*
 // Seigneur masqué
 @1 = ~ Shadow Lord. 
 
@@ -18,6 +19,8 @@ I was tasked with finding a strange wizard. Maybe I can find him in the city of 
 @4 = ~ Shadow Lord.
 
 In a city of priests near Soubar, a high priest told me that he sent a strange wizard to a village nearby. He marked this place on my map. ~
+
 @5 = ~ Shadow Lord.
 
 I got a new assignment. To find the hidden castle, we need the wizard I found, as well as the magic wand that was stolen from the magician near Deep Water. ~
+*/

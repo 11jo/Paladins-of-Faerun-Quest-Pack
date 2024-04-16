@@ -24,7 +24,7 @@ IF ~~ THEN BEGIN 3
   IF ~~ THEN REPLY @11 DO ~GiveItemCreate("SW1H09",Player1,0,0,0)
 GiveItemCreate("PLAT02",Player1,0,0,0)
 GiveItemCreate("XGZAT",Player1,0,0,0)
-~ UNSOLVED_JOURNAL @10 EXIT
+AddJournalEntry(@51501,QUEST)~ EXIT
 END
 
 IF ~PartyHasItem("XGZAT5")~ THEN BEGIN 4
@@ -41,13 +41,13 @@ IF ~~ THEN BEGIN 6
   SAY @15
   IF ~~ THEN REPLY @21 DO ~SetNumTimesTalkedTo(2)
 TakePartyItem("XGZAT5")
-EraseJournalEntry(@10)
-EraseJournalEntry(@17)
-EraseJournalEntry(@18)
-EraseJournalEntry(@19)
-EraseJournalEntry(@20)
+EraseJournalEntry(@51501)
+EraseJournalEntry(@51503)
+EraseJournalEntry(@51504)
+EraseJournalEntry(@51505)
+EraseJournalEntry(@51506)
 GiveItemCreate("MISC07",Player1,5000,0,0)
-~ SOLVED_JOURNAL @16 EXIT
+AddJournalEntry(@51502,QUEST_DONE)~ EXIT
   IF ~~ THEN REPLY @22 DO ~GiveItemCreate("MISC07",Player1,5000,0,0)
 ~ GOTO 8
 END
@@ -55,14 +55,14 @@ END
 IF ~~ THEN BEGIN 7
   SAY @23
   IF ~~ THEN REPLY @21 DO ~SetNumTimesTalkedTo(2)
-EraseJournalEntry(@10)
-EraseJournalEntry(@17)
-EraseJournalEntry(@18)
-EraseJournalEntry(@19)
-EraseJournalEntry(@20)
+EraseJournalEntry(@51501)
+EraseJournalEntry(@51503)
+EraseJournalEntry(@51504)
+EraseJournalEntry(@51505)
+EraseJournalEntry(@51506)
 TakePartyItem("XGZAT6")
 GiveItemCreate("MISC07",Player1,5000,0,0)
-~ SOLVED_JOURNAL @24 EXIT
+AddJournalEntry(@51507,QUEST_DONE)~ EXIT
   IF ~~ THEN REPLY @22 GOTO 9
 END
 

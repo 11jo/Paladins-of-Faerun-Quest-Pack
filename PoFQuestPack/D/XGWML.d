@@ -1,7 +1,8 @@
 BEGIN ~XGWML~
 
-IF ~Global("s#XGWML","GLOBAL",0) THEN BEGIN 0
-Dead("XGBARB1")~ THEN BEGIN 0
+IF ~Global("s#XGWML","GLOBAL",0)
+Dead("XGBARB1")
+Global("s#XGWWC","GLOBAL",2)~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
 END
@@ -20,7 +21,8 @@ END
 IF ~~ THEN BEGIN 3
   SAY @7
   IF ~~ THEN REPLY @8 DO ~RevealAreaOnMap("XG0029")
-SetGlobal("s#XGWML","GLOBAL",1)~ UNSOLVED_JOURNAL @9 EXIT
+SetGlobal("s#XGWML","GLOBAL",1)
+AddJournalEntry(@51403,QUEST)~ EXIT
 END
 
 IF ~Global("s#XGWML","GLOBAL",1) 
@@ -45,7 +47,8 @@ IF ~~ THEN BEGIN 7
   IF ~~ THEN REPLY @17 DO ~AddexperienceParty(20000)
 TakePartyItem("XGMWD")
 SetGlobal("s#XGWML","GLOBAL",2)
-RevealAreaOnMap("XG0012")~ UNSOLVED_JOURNAL @18 EXIT
+RevealAreaOnMap("XG0012")
+AddJournalEntry(@51406,QUEST)~ EXIT
 END
 
 IF ~Global("s#XGWML","GLOBAL",1) 

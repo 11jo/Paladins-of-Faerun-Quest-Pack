@@ -12,6 +12,9 @@
 @11 = ~...Ich hoffe, er ist bei Euch, Magier.~
 @12 = ~Das wird das Problem sein. Er wurde kürzlich auf dem Weg aus Eurer Stadt von einem Nekromanten gestohlen. Ich werde diesen Ort auf Eurer Karte markieren, <CHARNAME>, der Nekromant muss irgendwo in der Nähe sein. Bringt den Zauberstab und ich sehe, was ich tun kann.~
 @13 = ~Ihr habt es gehört, <CHARNAME>, findet den Zauberstab. Dafür werdet Ihr eine Belohnung erhalten.~
+
+/*
 @14 = ~Ein Schattenfürst.
 
 Ich habe einen neuen Auftrag bekommen. Um das verborgene Schloss zu finden, brauchen wir den Magier, den ich gefunden habe, sowie den Zauberstab, der dem Magier in der Nähe von Tiefwasser gestohlen wurde.~
+*/

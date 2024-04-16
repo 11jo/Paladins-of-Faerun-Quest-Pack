@@ -14,11 +14,17 @@
 @13 = ~Ja, aber Barbarossa hat mich schon gesehen, wir sind ihm begegnet.~
 @14 = ~Seid vorsichtig, wenn Ihr ihr Hauptquartier betretet, es ist gut bewacht. Der Eingang befindet sich im südöstlichen Teil der Stadt. Eine Belohnung wartet auf Euch, wenn Ihr die Aufgabe erfüllt.~
 @15 = ~Ich werde alles tun, was in meiner Macht steht, denn ich habe versprochen, dem Schmied zu helfen. Danke für die Information.~
+
+/*
 @16 = ~Schmied Marian.
 
 Wir konnten Barbarossa nicht töten, eine Wache erschien und brachte mich zum Hauptmann. Der Hauptmann klärte mich über die Situation auf. Im südöstlichen Teil der Stadt befindet sich der Eingang zur Barbarossa-Gilde.~
+*/
+
 @17 = ~Kümmert Euch um Barbarossa, <CHARNAME>.~
 @18 = ~Ich wurde bereits über Euren Sieg informiert, <CHARNAME>, brillante Arbeit. Ein Kurier von einem der Schattenfürsten kam zu mir, Ihr müsst zur Burg gehen, eine besondere Aufgabe erwartet Euch dort. Hier ist Eure Belohnung, mein Freund.~ ~Ich wurde bereits über Euren Sieg informiert, <CHARNAME>, brillante Arbeit. Ein Kurier von einem der Schattenfürsten kam zu mir, Ihr müsst zur Burg gehen, eine besondere Aufgabe erwartet Euch dort. Hier ist Eure Belohnung, meine Freundin.~
+
+/*
 @19 = ~Schmied Marian.
 
 In Waukeens Promenade traf ich einen verängstigten Schmied aus Tiefwasser. Ich habe viel über diese Stadt der Kaufleute gehört. Er sagte, dass der grausame Barbarossa jetzt den örtlichen Schwarzmarkt beherrscht. Ich muss ihn in einer Taverne oder auf einem Markt der Stadt finden.~
@@ -36,7 +42,12 @@ Passwort: Sklave, Markt, Schwarz.~
 @23 = ~Schmied Marian.
 
 Barbarossa, der Chef des Schwarzmarktes in Tiefwasser, wurde aufgehalten.~
+
+*/
+/*
 @24 = ~Ein Schattenfürst.
 
 Der Hauptmann der Wache in Tiefwasser schickt mich zum Schattenfürst, offenbar hat er eine besondere Aufgabe für mich. Es ist im Schloss.~
+*/
+
 @25 = ~Danke für alles. Viel Glück.~

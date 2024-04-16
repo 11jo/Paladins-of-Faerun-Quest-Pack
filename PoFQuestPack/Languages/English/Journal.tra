@@ -732,67 +732,117 @@ Slane told me that his friend was captured by Yuzhan warriors and that we should
 Now I spoke with the legendary paladin Slane... He told me he could help me... But first he has to find his friend in New Brinlow... So when I'm ready, I have to get there and find him somewhere in town...~ // @9
 
 
+	
+//////////////////////    Blacksmith Marian. Marian le forgeron
+// Title
 
+@51300 = ~Blacksmith Marian~ // Marian le forgeron
 
+//  XGWWC.d
 
+@51301 = ~Blacksmith Marian
 
+Prisoner Marco seemed to know a lot about Deep Water. He gave me a pearl necklace and I have to show it to Marian.~
 
+@51302 = ~Blacksmith Marian
 
+I spoke with Captain Boris about Barbarossa, and he told me that he escaped from him a few minutes ago ... He sent me to Deep Water Prison, I will talk with prisoner Marco, who is Boris's assistant in this assignment...~
 
+@51303 = ~Blacksmith Marian
 
+We could not kill Barbarosa, a guard appeared and took me to the captain. The captain clarified the situation to me. In the southeastern part of the city is the entrance to the Barbarosa guild.~ // @16
 
+@51304 = ~Blacksmith Marian
 
+At Waukeen Promenade, I came across a frightened blacksmith, originally from Gludokovody. I heard a lot about this city of merchants. He said that there now cruel Barbarossa rules the local black market. I have to find him in a tavern or in a city market.~ // @19
 
+@51305 = ~Blacksmith Marian
 
+The blacksmith said everything you need. He asked you to find his family in a house located in the northeast of Deep Water. When you find, you must escort them to the headquarters of the city guard.~ // @20
 
+@51306 = ~Blacksmith Marian
 
+We attacked Barbarossa, but he escaped before the battle began.~ // @21
 
+@51307 = ~Blacksmith Marian
 
+I saved the blacksmith's wife from the killers sent by Barbarosa, now I know all three passwords that are needed to enter the guild in the southeast of the city.
 
+Password: slave, market, black.~ // @22
 
+@51308 = ~Blacksmith Marian
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Barbarosa, the head of the black market in Deep Water, was stopped.~ // @23
 
 	
+//////////////////////    Shadow Lord. Seigneur masqué
+// Title
 
+@51400 = ~Shadow Lord~ // Seigneur masqué
+
+// XG0412
+@51401 = ~Shadow Lord 
+
+The lost fortress was re-discovered, its undead king was slain, and it is currently under the control of Deep Water. The Shadow Lord is pleased.~ // @1
+
+@51402 = ~Shadow Lord
+
+The captain of the guard in Deep Water sends me to the shadow lord, apparently he has a special task for me. It's in the castle.~ // @2
+
+@51403 = ~Shadow Lord 
+
+I was tasked with finding a strange wizard. Maybe I can find him in the city of priests, not far from Soubar.~ // @3
+
+@51404 = ~Shadow Lord
+
+In a city of priests near Soubar, a high priest told me that he sent a strange wizard to a village nearby. He marked this place on my map.~ // @4
+
+@51405 = ~Shadow Lord
+
+I got a new assignment. To find the hidden castle, we need the wizard I found, as well as the magic wand that was stolen from the magician near Deep Water.~ // @5
+
+
+// XGWML
+@51406 = ~Shadow Lord
+
+Necromancer is dead. The old magician discovered the location of the fortress, I must take the rod so that he can complete his work and weaken the protective magic.~ // @18
+
+	
+//////////////////////    Killer. Assassin
+// Title
+
+@51500 = ~Killer~ // Assassin
+
+// XGMILC
+@51501 = ~Killer
+
+You entered the service of the city guard of the Gate of Baldur, your task is to track down the killer of 5 people. The last time a killer was seen in a tavern in the eastern part of the city.~ // @10
+
+
+@51502 = ~Killer
+
+I found the killer of those victims, his name is Artemis Entreri, I managed to injure him, but he escaped from the battle.~ // @16
+
+
+@51503 = ~Killer
+
+In the tavern, one of the visitors told me that someone had seen a local magician talking to a suspicious person, this may be the one I'm looking for.~ // @17
+
+
+@51504 = ~Killer
+
+I found the brother of one of the victims. He told me that before his death, his brother met with a man in the house of the Grand Duke.~ // @18
+
+
+@51505 = ~Killer
+
+I ran into killer Artemis in the city's sewer.~ // @19
+
+
+@51506 = ~Killer
+
+I didn't have the courage to fight the best killer of Féérune.~ // @20
+
+@51507 = ~Killer
+
+The guild of thieves hiding beneath the city is now over. But I missed Artemis.~ // @24

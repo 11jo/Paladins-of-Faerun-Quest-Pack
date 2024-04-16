@@ -19,5 +19,5 @@ THEN
 		Wait(10)
 		DisplayStringHead(Myself,@3003)
 		FaceObject(Player4)
-		Wait(10)
+		Wait(30)
 END

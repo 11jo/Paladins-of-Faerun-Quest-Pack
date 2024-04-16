@@ -12,6 +12,9 @@
 @11 = ~ ... I hope he is with you, wizard. ~
 @12 = ~ That is what will be the problem. He was recently stolen by a necromancer, en route from your city. I will mark this place on your map <CHARNAME>, the necromancer must be somewhere nearby. Bring the rod and see what I can do. ~
 @13 = ~ You heard <CHARNAME>, find the rod. For this you will receive a reward. ~
+
+/*
 @14 = ~ Shadow Lord.
 
 I got a new assignment. To find the hidden castle, we need the wizard I found, as well as the magic wand that was stolen from the magician near Deep Water. ~
+*/

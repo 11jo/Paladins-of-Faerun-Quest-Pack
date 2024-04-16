@@ -17,12 +17,12 @@ IF ~~ THEN BEGIN 2
   IF ~~ THEN REPLY @8 DO ~TakePartyGold(100)
 TakePartyItem("XGZAT")
 GiveItemCreate("XGZAT1",Player1,0,0,0)
-~ UNSOLVED_JOURNAL @7 EXIT
+AddJournalEntry(@51503,QUEST)~ EXIT
 END
 
 IF ~~ THEN BEGIN 3
   SAY @6
   IF ~~ THEN REPLY @8 DO ~TakePartyItem("XGZAT")
 GiveItemCreate("XGZAT1",Player1,0,0,0)
-~ UNSOLVED_JOURNAL @7 EXIT
+AddJournalEntry(@51503,QUEST)~7 EXIT
 END

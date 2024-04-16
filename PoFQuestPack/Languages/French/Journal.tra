@@ -762,9 +762,8 @@ The treasure hunter at Trademith asked for my help. He is looking for a magic ho
 I killed the guard of the artifact, now I need to go to Trademith.~
 */
 
- 
 
-	
+
 //////////////////////    Family. Quête du Duc Opas.
 // Title
 
@@ -854,14 +853,13 @@ The family of the Grand Duke of Opas was abducted by his former deputy. You foun
 The family of the Grand Duke of Opas was abducted by his former deputy, I tracked down a group of thieves led by Craven. I bought the Opas family from him for 8,000 gold.~ // @8
 */
 
- 
 
-	
+
+
 //////////////////////    A farmer in Trademeet. Quête du Duc Opas.
 // Title
 
 @50900 = ~Un fermier à Franc-Marché~
-
 
 // XGfa
 
@@ -880,9 +878,9 @@ J'ai menti en affirmant m'être débarrassé des araignées. Le fermier court à une 
 
 La doyenne de ces araignées qui avait fait son nid près de la ferme est morte, le fermier peut rentrer chez lui.~  // @17
 
- 
 
-	
+
+
 //////////////////////    Business intersection.
 // Title
 
@@ -932,7 +930,6 @@ I found a lich who is responsible for attacking the king, but he says he worked 
 
  
 
-	
 //////////////////////    Food. Les rations.
 // Title
 
@@ -1122,60 +1119,223 @@ Slane told me that his friend was captured by Yuzhan warriors and that we should
 Now I spoke with the legendary paladin Slane... He told me he could help me... But first he has to find his friend in New Brinlow... So when I'm ready, I have to get there and find him somewhere in town...~ // @9
 
 
+	
+//////////////////////    Blacksmith Marian. Marian le forgeron
+// Title
+
+@51300 = ~Marian le forgeron~ // Marian le forgeron
+
+// XG0364.BAF
+// AddJournalEntry(77392,QUEST) misssing ???? // VOIR frenchTRA  // Was Missing 
+
+/*same as @22 XGWWC.TRA
+@51308 = ~Marian le forgeron.
+
+I saved the blacksmith's wife from the assassins that Barbarossa must have sent, now I know the three passwords that are needed to join his guild in the southeast of the city. 
+
+Passwords: Slave, Market, Black.~ // @4
+*/
+
+// XGBAROS.d (SOLVED_JOURNAL @6)
+/*same as @21 XGWWC.TRA
+@51306 = ~Marian le forgeron.
+
+We attacked Barbarossa, but he escaped before the battle began.~ // @6
+*/
+
+//  XGMARAN.d (JOURNAL @9, UNSOLVED_JOURNAL @17)
+/*
+same as @19 XGWWC.TRA
+@51303 = ~Marian le forgeron.
+
+At Waukeen Promenade, I came across a frightened blacksmith, originally from Gludokovody. I heard a lot about this city of merchants. He said that there now cruel Barbarossa rules the local black market. I have to find him in a tavern or in a city market.~ // @9
+
+same as @20 XGWWC.TRA
+@51304 = ~Marian le forgeron.
+
+The blacksmith said everything you need. He asked you to find his family in a house located in the northeast of Deep Water. When you find, you must escort them to the headquarters of the city guard.~ // @17
+*/
+
+//  XGMARK1.d (UNSOLVED_JOURNAL @8)
+  // ERASE ENTRY ADDED TO XGWWC.d ////////////////
+/*
+@51301 = ~Marian le forgeron.
+
+Prisoner Marco seemed to know a lot about Deep Water. He gave me a pearl necklace and I have to show it to Marian.~ // @8
 
 
+//  XGWTGC.d(UNSOLVED_JOURNAL @8)
+  // ERASE ENTRY ADDED TO XGWWC.d ////////////////
+
+@51302 = ~Marian le forgeron.
+
+I spoke with Captain Boris about Barbarossa, and he told me that he escaped from him a few minutes ago ... He sent me to Deep Water Prison, I will talk with prisoner Marco, who is Boris's assistant in this assignment...~ // @8
+*/
+
+//  XGWWC.d(UNSOLVED_JOURNAL @16, EraseJournalEntry(@19), EraseJournalEntry(@20), EraseJournalEntry(@21), EraseJournalEntry(@16), EraseJournalEntry(@22), SetQuestDone(@23))
+
+@51301 = ~Marian le forgeron
+
+Prisoner Marco seemed to know a lot about Deep Water. He gave me a pearl necklace and I have to show it to Marian.~ // New erase
+
+@51302 = ~Marian le forgeron
+
+I spoke with Captain Boris about Barbarossa, and he told me that he escaped from him a few minutes ago ... He sent me to Deep Water Prison, I will talk with prisoner Marco, who is Boris's assistant in this assignment...~  // UNUSED
+
+@51303 = ~Marian le forgeron
+
+We could not kill Barbarosa, a guard appeared and took me to the captain. The captain clarified the situation to me. In the southeastern part of the city is the entrance to the Barbarosa guild.~ // @16 both Erase and quest // Quelque part au sud est de la ville, Mais personne n'a encore réussi à y pénétrer. Il parait qu'un membre de la bande de BARBA se trouverait en prison à Athkatla, il serait surmement judicieux de l'interroger. Et nous pourrons aussi demander à Marian....
+
+@51304 = ~Marian le forgeron
+
+At Waukeen Promenade, I came across a frightened blacksmith, originally from Gludokovody. I heard a lot about this city of merchants. He said that there now cruel Barbarossa rules the local black market. I have to find him in a tavern or in a city market.~ // @19
+
+@51305 = ~Marian le forgeron
+
+The blacksmith said everything you need. He asked you to find his family in a house located in the northeast of Deep Water. When you find, you must escort them to the headquarters of the city guard.~ // @20
+
+@51306 = ~Marian le forgeron
+
+We attacked Barbarossa, but he escaped before the battle began.~ // @21
+
+@51307 = ~Marian le forgeron
+
+I saved the blacksmith's wife from the killers sent by Barbarosa, now I know all three passwords that are needed to enter the guild in the southeast of the city.
+
+Password: slave, market, black.~ // @22 // Voir pour l'horaire d'apparition des voleurs devant la guilde...
+
+//SetQuestDone(@23) // (Enchaine sur la quête du seigneur masqué avec UNSOLVED_JOURNAL @24)
+
+@51308 = ~Marian le forgeron
+
+Barbarosa, the head of the black market in Deep Water, was stopped.~ // @23
+
+	
+//////////////////////    Shadow Lord. Seigneur masqué
+// Title
+
+@51400 = ~Seigneur masqué~ // Seigneur masqué
+
+// XG0412 (SetQuestDone(@1), EraseJournalEntry(@2), EraseJournalEntry(@3), EraseJournalEntry(@4), EraseJournalEntry(@5))
+@51401 = ~Seigneur masqué 
+
+The lost fortress was re-discovered, its undead king was slain, and it is currently under the control of Deep Water. The Shadow Lord is pleased.~ // @1
+
+@51402 = ~Seigneur masqué
+
+The captain of the guard in Deep Water sends me to the shadow lord, apparently he has a special task for me. It's in the castle.~ // @2
+
+@51403 = ~Seigneur masqué 
+
+I was tasked with finding a strange wizard. Maybe I can find him in the city of priests, not far from Soubar.~ // @3
+
+@51404 = ~Seigneur masqué
+
+In a city of priests near Soubar, a high priest told me that he sent a strange wizard to a village nearby. He marked this place on my map.~ // @4
+
+@51405 = ~Seigneur masqué
+
+I got a new assignment. To find the hidden castle, we need the wizard I found, as well as the magic wand that was stolen from the magician near Deep Water.~ // @5
+
+/*
+// XG0964 (AddJournalEntry(@14,QUEST))
+@51406 = ~Seigneur masqué.
+
+I got a new assignment. To find the hidden castle, we need the wizard I found, as well as the magic wand that was stolen from the magician near Deep Water.~ // @14
+
+// XGMYES (UNSOLVED_JOURNAL @20)
+@51407 = ~Seigneur masqué.
+
+In a city of priests near Soubar, a high priest told me that he sent a strange wizard to a village nearby. He marked this place on my map.~ // @20
+*/
+
+// XGOLDW
+//Récupération du magicien et c'est tout pas d'entrée de journal, mais verifier le script et ajouter des portes dimensionnel
+
+/*
+// XGWML ( UNSOLVED_JOURNAL @9, UNSOLVED_JOURNAL @18)
+
+@51408 = ~Seigneur masqué.
+
+I was tasked with finding a strange wizard. Maybe I can find him in the city of priests, not far from Soubar.~ // @9
+*/
+
+// maybe a new erase entry
+@51406 = ~Seigneur masqué
+
+Necromancer is dead. The old magician discovered the location of the fortress, I must take the rod so that he can complete his work and weaken the protective magic.~ // @18
+
+/*
+// XGWWC (UNSOLVED_JOURNAL @24)
+@51410 = ~Seigneur masqué.
+
+The captain of the guard in Deep Water sends me to the shadow lord, apparently he has a special task for me. It's in the castle.~ // @24
+*/
+
+	
+//////////////////////    Killer. Assassin
+// Title
+
+@51500 = ~Assassin~ // Assassin
+
+/*
+// XGARTBG (UNSOLVED_JOURNAL @9, UNSOLVED_JOURNAL @12) Same as XGMILC @19 and @20
+@9 = ~Assassin
+
+I ran into killer Artemis in the city's sewer.~ // @9
+
+@12 = ~Assassin
+
+I didn't have the courage to fight the best killer of Féérune.~ // @12
+*/
+
+/*
+// XGBGPS2 (UNSOLVED_JOURNAL @7) Same as XGMILC @17
+@7 = ~Assassin
+
+In the tavern, one of the visitors told me that someone had seen a local magician talking to a suspicious person, this may be the one I'm looking for.~ // @7
+*/
+
+/*
+// XGBGPS3 (UNSOLVED_JOURNAL @6) Same as XGMILC @18
+@6 = ~Assassin
+
+I found the brother of one of the victims. He told me that before his death, his brother met with a man in the house of the Grand Duke.~ // @6
+*/
+
+// XGMILC (UNSOLVED_JOURNAL @10, EraseJournalEntry @10, EraseJournalEntry @17, EraseJournalEntry @18, EraseJournalEntry @19, EraseJournalEntry @20, SOLVED_JOURNAL @16, SOLVED_JOURNAL @24,)
+@51501 = ~Assassin.
+
+You entered the service of the city guard of the Gate of Baldur, your task is to track down the killer of 5 people. The last time a killer was seen in a tavern in the eastern part of the city.~ // @10
 
 
+@51502 = ~Assassin.
+
+I found the killer of those victims, his name is Artemis Entreri, I managed to injure him, but he escaped from the battle.~ // @16
 
 
+@51503 = ~Assassin.
+
+In the tavern, one of the visitors told me that someone had seen a local magician talking to a suspicious person, this may be the one I'm looking for.~ // @17
 
 
+@51504 = ~Assassin.
+
+I found the brother of one of the victims. He told me that before his death, his brother met with a man in the house of the Grand Duke.~ // @18
 
 
+@51505 = ~Assassin.
+
+I ran into killer Artemis in the city's sewer.~ // @19
 
 
+@51506 = ~Assassin.
 
+I didn't have the courage to fight the best killer of Féérune.~ // @20
 
+@51507 = ~Assassin.
 
+The guild of thieves hiding beneath the city is now over. But I missed Artemis.~ // @24
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// UNSOLVED_JOURNAL @26 The nobleman is in danger. Seconde task de la milice suite à Artemis...
 

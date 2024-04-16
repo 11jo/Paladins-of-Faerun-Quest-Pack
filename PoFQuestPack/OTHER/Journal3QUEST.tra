@@ -2,7 +2,7 @@
 
 
 // Always be sure there is no others entry with another name....
-// Shadow Lord (10)  // Killer (12) // Mine (11) // Guild War/Neverwinter (3 ?) // Forbidden Temple (10)
+// Mine (11) // Guild War/Neverwinter (3 ?) // Forbidden Temple (10)
 
 // sHOULD BE GOOD FOR REGULAR JOURNAL // XGADV (Lost adventurers 1) // XGARUNL (Sorceress 1) Add a solved journal entrie after @18 // XGdr01 Une dryade en Tethyr (1) Ne pas confondre avec le reste de la quête de Thétyr
 
@@ -91,109 +91,6 @@ UNSOLVED_JOURNAL @6
 @6 = ~ The stolen.
 
 I met a warrior in the damned forest cave who claims to have escaped from a dungeon in the forest, and his friends were abducted by dark creatures. The time has come to find the source of darkness, it must be somewhere underground. ~
-
-
-//////////////////////////   Blacksmith Marian
-
-
-
-// XG0364.BAF
- AddJournalEntry(77392,QUEST) misssing ???? // VOIR frenchTRA  // Was Missing same as @22 XGWWC.TRA
-
-@4 = ~Blacksmith Marian.
-
-I saved the blacksmith's wife from the assassins that Barbarossa must have sent, now I know the three passwords that are needed to join his guild in the southeast of the city. 
-
-Passwords: Slave, Market, Black. ~
-
-
-// XGBAROS.d 
-SOLVED_JOURNAL @6
-
-@6 = ~ Blacksmith Marian.
-
-We attacked Barbarossa, but he escaped before the battle began. ~
-
-
-//  XGMARAN.d 
-
-JOURNAL @9
-
-@9 = ~ Blacksmith Marian.
-
-At Vokin Promenade, I came across a frightened blacksmith, originally from Gludokovody. I heard a lot about this city of merchants. He said that there now cruel Barbarossa rules the local black market. I have to find him in a tavern or in a city market. ~
-
-UNSOLVED_JOURNAL @17
-
-@17 = ~ Blacksmith Marian.
-
-The blacksmith said everything you need. He asked you to find his family in a house located in the northeast of Deep Water. When you find, you must escort them to the headquarters of the city guard. ~
-
-
-//  XGMARK1.d 
-UNSOLVED_JOURNAL @8  // mAYBE AN ERASE ENTRY TO ADD TO XGWWC.d ////////////////
-
-@8 = ~ Blacksmith Marian.
-
-Prisoner Marco seemed to know a lot about Deep Water .. He gave me a pearl necklace and I have to show it to Marian .. ~
-
-
-//  XGWTGC.d
-UNSOLVED_JOURNAL @8  // mAYBE AN ERASE ENTRY TO ADD TO XGWWC.d ////////////////
-
-@8 = ~ Blacksmith Marian.
-
-I spoke with Captain Boris about Barbarossa, and he told me that he escaped from him a few minutes ago ... He sent me to Deep Water Prison, I will talk with prisoner Marco, who is Boris's assistant in this assignment ... ~
-
-
-//  XGWWC.d
-UNSOLVED_JOURNAL @16
-
-@16 = ~ Blacksmith Marian.
-
-We could not kill Barbarosa, a guard appeared and took me to the captain. The captain clarified the situation to me. In the southeastern part of the city is the entrance to the Barbarosa guild ~
-
-
-EraseJournalEntry(@19)
-
-@19 = ~ Blacksmith Marian.
-
-At Vokin Promenade, I came across a frightened blacksmith, originally from Gludokovody. I heard a lot about this city of merchants. He said that there now cruel Barbarossa rules the local black market. I have to find him in a tavern or in a city market. ~
-
-EraseJournalEntry(@20)
-
-@20 = ~ Blacksmith Marian.
-
-The blacksmith said everything you need. He asked you to find his family in a house located in the northeast of Deep Water. When you find, you must escort them to the headquarters of the city guard. ~
-
-EraseJournalEntry(@21)
-
-@21 = ~ Blacksmith Marian.
-
-We attacked Barbarossa, but he escaped before the battle began. ~
-
-EraseJournalEntry(@16)
-
-@16 = ~ Blacksmith Marian.
-
-We could not kill Barbarosa, a guard appeared and took me to the captain. The captain clarified the situation to me. In the southeastern part of the city is the entrance to the Barbarosa guild ~
-
-EraseJournalEntry(@22)
-
-@22 = ~ blacksmith Marian.
-
-I saved the blacksmith's wife from the killers sent by Barbarosa, now I know all three passwords that are needed to enter the guild in the southeast of the city.
-
-Password: slave, market, black. ~
-
-
-SetQuestDone(@23) // (Enchaine sur la quête du seigneur masqué avec UNSOLVED_JOURNAL @24)
-
-@23 = ~ Blacksmith Marian.
-
-Barbarosa, the head of the black market in Deep Water, was stopped. ~
-
-
 
 
 

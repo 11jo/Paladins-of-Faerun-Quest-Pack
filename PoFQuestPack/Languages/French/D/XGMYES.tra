@@ -18,7 +18,11 @@
 @17 = ~ Yes, I'm looking for a strange magician, since many of you stop, maybe you came across him? ~
 @18 = ~ Yes, I know who you are talking about, he went here a few days ago, he asked me about housing, but given our situation, I sent him to a village not far from here. Show your card, I will mark this place on it. ~
 @19 = ~ Thank you priest. Good luck. ~
+
+/*
 @20 = ~ Shadow Lord.
 
 In a city of priests near Soubar, a high priest told me that he sent a strange wizard to a village nearby. He marked this place on my map. ~
+*/
+
 @21 = ~ Thanks for the help <CHARNAME>. Good luck. ~

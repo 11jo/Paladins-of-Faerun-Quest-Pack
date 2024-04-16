@@ -14,6 +14,7 @@ IF ~~ THEN BEGIN 2
   SAY @4
   IF ~~ THEN REPLY @5 DO ~ActionOverride("XGBMTN1",Enemy())
 ActionOverride("XGBMTN2",Enemy())
+AddJournalEntry(@51306,QUEST)
 EscapeArea()
-~ SOLVED_JOURNAL @6 EXIT
+~ EXIT
 END

@@ -62,8 +62,8 @@ END
 IF ~~ THEN BEGIN 10
   SAY @18
   IF ~~ THEN REPLY @19 DO ~SetGlobal("s#XGMYES","GLOBAL",3)
-RevealAreaOnMap("XG0065")~ 
-UNSOLVED_JOURNAL @20 EXIT
+RevealAreaOnMap("XG0065")
+AddJournalEntry(@51404,QUEST)~ EXIT
 END
 
 IF ~Global("s#XGMYES","GLOBAL",3)~ THEN BEGIN 11

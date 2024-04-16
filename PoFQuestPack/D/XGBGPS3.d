@@ -14,5 +14,5 @@ IF ~~ THEN BEGIN 2
   SAY @5
   IF ~~ THEN REPLY @7 DO ~TakePartyItem("XGZAT3")
 GiveItemCreate("XGZAT4",Player1,0,0,0)
-~ UNSOLVED_JOURNAL @6 EXIT
+AddJournalEntry(@51504,QUEST)~ EXIT
 END
