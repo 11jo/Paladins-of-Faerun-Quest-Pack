@@ -23,7 +23,8 @@ PRINT ~         ~
 END
 
 COPY ~weidu_external/PoFQuestPack/Stores/XGBAR1.STO~			~override/XGBAR1.STO~
-
+  SAY STORE_NAME @1008
+  
 COPY ~weidu_external/PoFQuestPack/Stores/XGBARF.STO~			~override/XGBARF.STO~
   SAY NAME2 @919
 
@@ -91,4 +92,3 @@ COPY ~weidu_external/PoFQuestPack/Stores/S#SHEV01.STO~			~override/S#SHEV01.STO~
 
 COPY ~weidu_external/PoFQuestPack/Stores/s#SHOP01.STO~			~override/s#SHOP01.STO~
   SAY NAME2 @402
-  

@@ -86,7 +86,7 @@ IF
 		!Dead("XGRW3")
 		!Dead("XGRW2")
 THEN
-  RESPONSE #
+  RESPONSE #100
     ActionOverride("XGRWH",Enemy())
     ActionOverride("XGRW3",Enemy())
     ActionOverride("XGRW2",Enemy())

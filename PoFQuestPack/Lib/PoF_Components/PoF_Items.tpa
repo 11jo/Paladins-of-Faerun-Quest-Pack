@@ -45,37 +45,43 @@ COPY ~weidu_external/PoFQuestPack/Items/XGcd.ITM~			~override/XGcd.ITM~ // Addit
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAM1.ITM~			~override/XGAM1.ITM~
   SAY NAME1 @433
+  SAY NAME2 @433
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAM2.ITM~			~override/XGAM2.ITM~
   SAY NAME1 @434
+  SAY NAME2 @434
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAM3.ITM~			~override/XGAM3.ITM~
-  SAY NAME1 @435 
+  SAY NAME1 @435
+  SAY NAME2 @435
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAM4.ITM~			~override/XGAM4.ITM~
   SAY NAME1 @436
+  SAY NAME2 @436
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAM5.ITM~			~override/XGAM5.ITM~
   SAY NAME1 @437
+  SAY NAME2 @437
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAM.ITM~			~override/XGAM.ITM~
   SAY NAME1 @438
+  SAY NAME2 @438
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAMUL1.ITM~			~override/XGAMUL1.ITM~
   SAY NAME2 @439
-  SAY DESC @440
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@440" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAMUL2.ITM~			~override/XGAMUL2.ITM~
   SAY NAME2 @441
-  SAY DESC @442
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@442" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAMUL3.ITM~			~override/XGAMUL3.ITM~
   SAY NAME2 @443
-  SAY DESC @444
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@444" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAMUL4.ITM~			~override/XGAMUL4.ITM~
   SAY NAME2 @445
-  SAY DESC @446
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@446" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGartk1.ITM~			~override/XGartk1.ITM~
   SAY NAME1 @447
@@ -97,11 +103,11 @@ COPY ~weidu_external/PoFQuestPack/Items/XGART.ITM~			~override/XGART.ITM~
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAXE01.ITM~			~override/XGAXE01.ITM~
   SAY NAME2 @450
-  SAY DESC @451
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@451" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAXE02.ITM~			~override/XGAXE02.ITM~
   SAY NAME2 @452
-  SAY DESC @453
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@453" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAXE03.ITM~			~override/XGAXE03.ITM~
   SAY NAME2 @454
@@ -109,19 +115,19 @@ COPY ~weidu_external/PoFQuestPack/Items/XGAXE03.ITM~			~override/XGAXE03.ITM~
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAXE04.ITM~			~override/XGAXE04.ITM~
   SAY NAME2 @456
-  SAY DESC @457
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@457" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAXE05.ITM~			~override/XGAXE05.ITM~
   SAY NAME2 @458
-  SAY DESC @459
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@459" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAXE06.ITM~			~override/XGAXE06.ITM~
   SAY NAME2 @460
-  SAY DESC @461
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@461" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGAXE07.ITM~			~override/XGAXE07.ITM~
-  SAY NAME2 @462 
-  SAY DESC @463
+  SAY NAME2 @462
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@463" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBELT1.ITM~			~override/XGBELT1.ITM~
   SAY NAME2 @464
@@ -133,7 +139,7 @@ COPY ~weidu_external/PoFQuestPack/Items/XGBELT2.ITM~			~override/XGBELT2.ITM~
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBELT3.ITM~			~override/XGBELT3.ITM~
   SAY NAME2 @468
-  SAY DESC @469
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@469" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBGSD.ITM~			~override/XGBGSD.ITM~
   SAY NAME1 @470
@@ -151,11 +157,11 @@ COPY ~weidu_external/PoFQuestPack/Items/XGBOOKP.ITM~			~override/XGBOOKP.ITM~ //
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBOOT1.ITM~			~override/XGBOOT1.ITM~
   SAY NAME2 @473
-  SAY DESC @474
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@474" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBOOT2.ITM~			~override/XGBOOT2.ITM~
   SAY NAME2 @475
-  SAY DESC @476
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@476" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBOOT3.ITM~			~override/XGBOOT3.ITM~
   SAY NAME2 @477 
@@ -174,66 +180,66 @@ COPY ~weidu_external/PoFQuestPack/Items/XGBRAC2.ITM~			~override/XGBRAC2.ITM~
   SAY DESC @484 
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBRAC3.ITM~			~override/XGBRAC3.ITM~
-  SAY NAME2 @485 
-  SAY DESC @486 
+  SAY NAME2 @485
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@486" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBRAC4.ITM~			~override/XGBRAC4.ITM~
   SAY NAME2 @487 
-  SAY DESC @488 
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@488" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO1.ITM~			~override/XGBSWO1.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @489 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @490 
+  SAY NAME1 @489
+  SAY NAME2 @489
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@490" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO2.ITM~			~override/XGBSWO2.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @491 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @492 
+  SAY NAME1 @489
+  SAY NAME2 @491
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@492" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO3.ITM~			~override/XGBSWO3.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @493 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @494 
+  SAY NAME1 @489
+  SAY NAME2 @493
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@494" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO4.ITM~			~override/XGBSWO4.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @495 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @496 
+  SAY NAME1 @489
+  SAY NAME2 @495
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@496" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO5.ITM~			~override/XGBSWO5.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @497 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @498 
+  SAY NAME1 @489
+  SAY NAME2 @497
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@498" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO6.ITM~			~override/XGBSWO6.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @499 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @500 
+  SAY NAME1 @489
+  SAY NAME2 @499
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@500" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO7.ITM~			~override/XGBSWO7.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @501 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @502 
+  SAY NAME1 @489
+  SAY NAME2 @501
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@502" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO8.ITM~			~override/XGBSWO8.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @503 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @504 
+  SAY NAME1 @489
+  SAY NAME2 @503
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@504" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGBSWO9.ITM~			~override/XGBSWO9.ITM~
-  SAY NAME1 @489 
-  SAY NAME2 @505 
-  SAY UNIDENTIFIED_DESC @490 
-  SAY DESC @506 
+  SAY NAME1 @489
+  SAY NAME2 @505
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@490" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@506" END
 
 COPY ~weidu_external/PoFQuestPack/Items/XGCBOW1.ITM~			~override/XGCBOW1.ITM~
   SAY NAME2 @507 
@@ -1376,26 +1382,28 @@ COPY ~weidu_external/PoFQuestPack/Items/XGVR.ITM~			~override/XGVR.ITM~
   SAY DESC @903 
 
 COPY ~weidu_external/PoFQuestPack/Items/XGWA.ITM~			~override/XGWA.ITM~
-  SAY NAME1 @904 
-  SAY NAME2 @904 
-  SAY UNIDENTIFIED_DESC @905 
-  SAY DESC @905 
+  SAY NAME1 @904
+  SAY NAME2 @904
+  SAY UNIDENTIFIED_DESC @905
+  SAY DESC @905
 
 COPY ~weidu_external/PoFQuestPack/Items/XGWAND1.ITM~		~override/XGWAND1.ITM~
   SAY NAME2 @906 
   SAY DESC @907 
 
 COPY ~weidu_external/PoFQuestPack/Items/XGWAND2.ITM~		~override/XGWAND2.ITM~
-  SAY NAME2 @908 
-  SAY DESC @909 
+  SAY NAME2 @908
+  SAY DESC @909
 
 COPY ~weidu_external/PoFQuestPack/Items/XGWAND3.ITM~		~override/XGWAND3.ITM~
-  SAY NAME2 @910 
-  SAY DESC @911 
+  SAY NAME2 @910
+  SAY DESC @911
 
 COPY ~weidu_external/PoFQuestPack/Items/XGWH.ITM~			~override/XGWH.ITM~
-  SAY NAME1 @912 
-  SAY UNIDENTIFIED_DESC @913 
+  SAY NAME1 @912
+  SAY NAME2 @912
+  SAY UNIDENTIFIED_DESC @913
+  SAY DESC @913
 
 COPY ~weidu_external/PoFQuestPack/Items/XGWOLFF.ITM~		~override/XGWOLFF.ITM~
 
@@ -1412,42 +1420,41 @@ COPY ~weidu_external/PoFQuestPack/Items/XGWRG.ITM~			~override/XGWRG.ITM~
 COPY ~weidu_external/PoFQuestPack/Items/XGZAT1.ITM~			~override/XGZAT1.ITM~
   SAY NAME1 @917 
   SAY NAME2 @917 
-  SAY UNIDENTIFIED_DESC @917 
-  SAY DESC @917 
+  SAY UNIDENTIFIED_DESC @918 
+  SAY DESC @918 
 
 COPY ~weidu_external/PoFQuestPack/Items/XGZAT2.ITM~			~override/XGZAT2.ITM~
   SAY NAME1 @917 
   SAY NAME2 @917 
-  SAY UNIDENTIFIED_DESC @917 
-  SAY DESC @917 
+  SAY UNIDENTIFIED_DESC @918 
+  SAY DESC @918 
 
 COPY ~weidu_external/PoFQuestPack/Items/XGZAT3.ITM~			~override/XGZAT3.ITM~
   SAY NAME1 @917 
   SAY NAME2 @917 
-  SAY UNIDENTIFIED_DESC @917 
-  SAY DESC @917 
+  SAY UNIDENTIFIED_DESC @918 
+  SAY DESC @918 
 
 COPY ~weidu_external/PoFQuestPack/Items/XGZAT4.ITM~			~override/XGZAT4.ITM~
   SAY NAME1 @917 
   SAY NAME2 @917 
-  SAY UNIDENTIFIED_DESC @917 
-  SAY DESC @917 
+  SAY UNIDENTIFIED_DESC @918 
+  SAY DESC @918 
 
 COPY ~weidu_external/PoFQuestPack/Items/XGZAT5.ITM~			~override/XGZAT5.ITM~
   SAY NAME1 @917
   SAY NAME2 @917
-  SAY UNIDENTIFIED_DESC @917
-  SAY DESC @917
+  SAY UNIDENTIFIED_DESC @918
+  SAY DESC @918
 
 COPY ~weidu_external/PoFQuestPack/Items/XGZAT6.ITM~			~override/XGZAT6.ITM~
   SAY NAME1 @917
   SAY NAME2 @917
-  SAY UNIDENTIFIED_DESC @917
-  SAY DESC @917
+  SAY UNIDENTIFIED_DESC @918
+  SAY DESC @918
 
 COPY ~weidu_external/PoFQuestPack/Items/XGZAT.ITM~			~override/XGZAT.ITM~
   SAY NAME1 @917
   SAY NAME2 @917
-  SAY UNIDENTIFIED_DESC @917
-  SAY DESC @917
-  
+  SAY UNIDENTIFIED_DESC @918
+  SAY DESC @918

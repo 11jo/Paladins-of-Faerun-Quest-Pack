@@ -7,10 +7,10 @@ END
 APPEND JA#FLAM1
   IF ~~ THEN BEGIN XGPoFinBGJA#FLAM10
     SAY #14636
-    IF ~TriggerActivation("JA#TRAP4",FALSE)~ THEN EXIT
+    IF ~~ THEN DO ~TriggerActivation("JA#TRAP4",FALSE)~ EXIT
   END
   IF ~~ THEN BEGIN XGPoFinBGJA#FLAM11
     SAY #14639
-    IF ~TriggerActivation("JA#TRAP4",FALSE)~ THEN EXIT
+    IF ~~ THEN DO ~TriggerActivation("JA#TRAP4",FALSE)~ EXIT
   END
 END
