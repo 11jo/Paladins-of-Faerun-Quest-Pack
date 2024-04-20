@@ -1,0 +1,45 @@
+IF
+	Global("XGPoFinBG","GLOBAL",0)
+	AreaCheck("%NBaldursGate_DucalPalace_L1%")
+THEN
+  RESPONSE #100
+    ActionOverride("XGFLAM10",Deactivate(Myself))
+	SetGlobal("XGPoFXGFLAM10","GLOBAL",0)
+END
+
+IF
+	Global("XGPoFinBG","GLOBAL",1)
+	Global("XGPoFXGFLAM10","GLOBAL",0)
+	AreaCheck("%NBaldursGate_DucalPalace_L1%")
+THEN
+  RESPONSE #100
+    ActionOverride("XGFLAM10",Activate(Myself))
+	ClearActions("XGFLAM10")
+    ActionOverride("XGFLAM10",MoveToPointNoInterrupt([624.236]))
+	Face(14)
+	SetGlobal("XGPoFXGFLAM10","GLOBAL",1)
+END
+
+/*
+IF
+	Global("XGPoFinBG","GLOBAL",1)
+	AreaCheck("%NBaldursGate_DucalPalace_L1%")
+	!Exists("XGFLAM10")
+THEN
+	RESPONSE #100
+		ActionOverride("XGFLAM10",Activate(Myself))
+		Continue()
+END
+
+
+IF
+	Global("XGPoFinBG","GLOBAL",1)
+	AreaCheck("%NBaldursGate_DucalPalace_L1%")
+	Global("XGPoFXGFLAM10","MYAREA",1)
+THEN
+	RESPONSE #100
+		CreateCreature("XGFLAM10",[624.236],14)
+		SetGlobal("XGPoFXGFLAM10","MYAREA",1)
+		Continue()
+END
+*/

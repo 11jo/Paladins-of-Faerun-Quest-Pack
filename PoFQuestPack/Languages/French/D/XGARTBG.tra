@@ -1,8 +1,8 @@
 @1 = ~ What do you need here? ~
 @2 = ~ I'm looking for a killer who is responsible for the abduction and murder of four little girls. Something tells me it's you. ~
 @3 = ~ Yes, this is my job, and who are you? I don't know you. ~
-@4 = ~ My name is <CHARNAME>, and who are you? ~
-@5 = ~ My name is Artemis Entreri, and I already heard your name. You saved this city from the tyrant Sarevok. Perhaps you are really strong. But you haven't had to deal with a person equal in strength to me. ~
+@4 = ~Je suis <CHARNAME> ! Et toi, qui est-tu ?~
+@5 = ~Je suis Artemis Entreri et j'ai déjà entendu ton nom. le protecteur, celui qui a défait Sarevok. Tu es sûrement doué, mais tu n'as jamais eu affaire à un adversaire de ma trempe.~ ~Je suis Artemis Entreri et j'ai déjà entendu ton nom. la protectrice, celle qui a défait Sarevok. Tu es sûrement douée, mais tu n'as jamais eu affaire à un adversaire de ma trempe.~
 @6 = ~ Artemis, I remember your face, we already met when you escaped from Atkatla prison. ~
 @7 = ~ So it was you? This is what occurred to me. If you want to stay alive <CHARNAME>, go back to where you came from and our roads will never cross again, understand? ~
 @8 = ~ In Atkatla, you showed me what you are capable of, I think I'd better leave. ~

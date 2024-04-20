@@ -10,5 +10,6 @@ IF ~~ THEN BEGIN 1
   IF ~~ THEN REPLY @6 DO ~GiveItemCreate("MISC07",Player1,1000,0,0)
 EraseJournalEntry(@5)
 AddexperienceParty(8000)
+SetGlobal("XGZATon","GLOBAL",0)
 EscapeArea()~ SOLVED_JOURNAL @4 EXIT
 END

@@ -209,7 +209,7 @@
 @207 = ~Herr der Untoten~
 @208 = ~Anführer der Jäger~
 @209 = ~Trolljäger~
-
+@210 = ~Herald of Duke Opas~
 @211 = ~Lord Lorearten~
 @212 = ~Lord Schildherz~
 @213 = ~Udorri Herr der Toten~
@@ -3927,6 +3927,7 @@ EIGENSCHAFTEN:
 (Ihr müsst die Aufgabe "Festung de'Arnise" abschließen, bevor Ihr das Portal benutzen könnt.)~
 @916 = ~Marians Verlobungsring.~
 @917 = ~Haftbefehl~
+@918 = ~This document has been given to you by the Captain of Baldur's Gate Watch, who has commissioned you to investigate the mysterious assassin currently rampaging through the city.~
 
 @919 = ~Taverne~
 @920 = ~Taverne zu den Drei Krügne~
@@ -4067,6 +4068,23 @@ The wizard points his finger in the desired direction and projects a sphere of n
 // XG0016 Info Trigger
 @1600 = ~The guardian's will is blocking the way.~
 
+// XG0620 to BG0111
+@1601 = ~I'm a member of the city guard, and the captain has assigned me to hunt down the murderer rampaging through Baldur's Gate.~
+@1602 = ~I'm part of the city guard, and the captain sent me on a mission to protect a citizen in trouble outside the city.~
+@1603 = ~I'm here to meet the captain of the guard.~
+
+// XG0720 to BG0108
+@1620 = ~You follow the stairs leading to the Duc Opas quarter.~
+// Related dialogue
+@1621 = ~Hello, would you like to speak with Grand Duke Opas?~
+@1622 = ~Indeed, we have to discuss a matter of the greatest importance.~
+@1623 = ~No, I'm here for private reasons, so there's no need to bother the Grand Duke.~
+@1624 = ~Very well, take the stairs to go upstairs as you usually do.~
+@1625 = ~Please follow the stairs behind me, you are awaited my lord...~ ~Please follow the stairs behind me, you are awaited milady...~
+@1626 = ~Duke Opas is ready to receive you.~
+@1627 = ~If you are with the protector of Baldur's Gate.~
+@1628 = ~I speak on behalf of Duc Opas.~
+
 
 // Messagers
 
@@ -4082,6 +4100,14 @@ The wizard points his finger in the desired direction and projects a sphere of n
 
 // AR0800
 @3004 = ~Hey, look over there!~
+
+// AR0700 Marian the smithy
+@3007 = ~What am I going to do...~
+@3008 = ~It's inextricable.~
+@3009 = ~I must keep them safe.~
+
+// AR1100 Umar hill Boy pirate
+@3010 = ~My village needs help!~
 
 
 // gw_functions.tpa for item description
@@ -4887,79 +4913,6 @@ Ilsensine - jeden z hlavních bohù, podle nìj jednou illithidé ovládnou svìt
 ZLOBØI A TROLLOVÉ
 Vaprak - jednoruký bùh šílenství a vraždìní~
 
-
-// AREAS NAMES 
-/*
-@100001   = ~Tradmith Cave~                                 // XG0001
-@100002   = ~The Shining Plains~                            // XG0002
-@100003   = ~Turlan Forest~                                 // XG0003
-@100004   = ~Wandering Fire Mines~                          // XG0004
-@100007   = ~Witch's Strength~                              // XG0007
-@100801   = ~Hrothgar Camp~                                 // XG0801
-@100009   = ~Undead Housing~                                // XG0009
-@100034   = ~Council of Mages~                              // XG0034
-@100012   = ~Castle Forgotten Hills~                        // XG0012
-@100014   = ~Pirate island~                                 // XG0014
-@100016   = ~Pass~                                          // XG0016
-@100017   = ~Tower of Gradak~                               // XG0017
-@100018   = ~Secret camp of Gradak~                         // XG0018
-@100019   = ~Ship of Gradak~                                // XG0019
-@100020   = ~Baldur's Gate~                                 // XG0020
-@100025   = ~Docks of Targos~                               // XG0025
-@100026   = ~The High Forest~                               // XG0026
-@100064   = ~Waterdeep~                                     // XG0064
-@100028   = ~Fort on Snowflake mountains~                   // XG0028
-@100319   = ~Abandoned Village~                             // XG0319
-@100029   = ~Priests City  Har Al-Dur~                      // XG0029
-@100033   = ~Village~                                       // XG0033
-@100039   = ~Moonshae Isles~                                // XG0039
-@100040   = ~Moonshae Isles~                                // XG0040
-@100068   = ~Business district~                             // XG0068
-@100041   = ~Moonshae Isles~                                // XG0041
-@100046   = ~Forgotten Temple~                              // XG0046
-@100047   = ~East Harbor~                                   // XG0047
-@100062   = ~Neverwinter~                                   // XG0062
-@100050   = ~Mountains~                                     // XG0050
-@100052   = ~Ice Castle~                                    // XG0052
-@100054   = ~Shelter~                                       // XG0054
-@100055   = ~Tower of Gradak~                               // XG0055
-@100061   = ~Forest~                                        // XG0061
-@100065   = ~Village~                                       // XG0065
-@100066   = ~Pass~                                          // XG0066
-@100067   = ~Valley of Icewind Dale~                        // XG0067
-@100069   = ~Hunting Trolls~                                // XG0069
-@100053   = ~Cult~                                          // XG0053
-@100056   = ~Valley~                                        // XG0056
-@100059   = ~Village~                                       // XG0059
-@100060   = ~Mountains~                                     // XG0060
-@100070   = ~Farm~                                          // XG0070
-@100072   = ~Calim Desert~                                  // XG0072
-@100073   = ~Calim Desert~                                  // XG0073
-@100075   = ~Arena~                                         // XG0075
-@101319   = ~Abandoned Village~                             // XG1319
-@100076   = ~Forest of Tehyr~                               // XG0076
-@100077   = ~Forest of Tehyr~                               // XG0077
-@100078   = ~Castle of Tehyr~                               // XG0078
-@100058   = ~Valley of Icewind Dale~                        // XG0058
-@100079   = ~Farm~                                          // XG0079
-@104001   = ~Moonshae Isles~                                // XG4001
-@100081   = ~Twilight Mountains~                            // XG0081
-@100082   = ~Twilight Mountains~                            // XG0082
-@100083   = ~Twilight Mountains~                            // XG0083
-@100133   = ~Village~                                       // XG0133
-@108100   = ~Twilight Mountains~                            // XG8100
-@108200   = ~Twilight Mountains~                            // XG8200
-@108300   = ~Twilight Mountains~                            // XG8300
-@110002   = ~Caravan~                                       // XGKAR2
-@100681   = ~Torm admirers Monastery~                       // XG0681
-@108500   = ~Cyric admirers Monastery~                      // XG8500
-@100084   = ~The Frozen Plain~                              // XG0084
-@110080   = ~Siluvanede~                                    // XG0A80
-@100080   = ~Siluvanede (bis)~                              // XG0080
-@100780   = ~Camp Eilistraee~                               // XG0780
-@100680   = ~Forest~                                        // XG0680
-*/
-
 @100000   = ~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},
 	{"  ", "        PALADIN OF FAËRUN        "},
 	{"XG0001", "(PoF)  Tradmith Cave"},
@@ -5031,9 +4984,23 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0780", "(PoF)  Camp Eilistraee"},
 	{"XG0680", "(PoF)  Forest"},~
 
+// ~{"PoF", "        PORTE de BALDUR        "}, //// EET
+@100001   = ~{"BG0200", "(PoF)~ //  Porte de Baldur"},
+@100002   = ~{"BG0119", "(PoF)~ //  Auberge des Trois Vieilles Chopes, L1"},
+@100003   = ~{"BG0121", "(PoF)~ //  Auberge des Trois Vieilles Chopes, L2"},
+@100004   = ~{"BG0006", "(PoF)~ //  Maison de Rinnie"},
+@100005   = ~{"BG0111", "(PoF)~ //  Caserne, (Quête de l'assassin)"},
+@100006   = ~{"BG0108", "(PoF)  Ducal Palace, L1"},
+	{"BG0137", "(PoF)~ //  Elorin, le magicien, (Quête de la Forteresse Glacée)"},~
 
 
-
-
+// ~{"PoF", "        PORTE de BALDUR        "}, //// BGT
+@100007   = ~{"AR7300", "(PoF)~ //  Porte de Baldur"},
+@100008   = ~{"AR7219", "(PoF)~ //  Auberge des Trois Vieilles Chopes, L1"},
+@100009   = ~{"AR7220", "(PoF)~ //  Auberge des Trois Vieilles Chopes, L2"},
+@100010   = ~{"ARA006", "(PoF)~ //  Maison de Rinnie"},
+@100011   = ~{"AR7211", "(PoF)~ //  Caserne, (Quête de l'assassin)"},
+@100012   = ~{"AR7208", "(PoF)  Ducal Palace, L1"},
+	{"AR7237", "(PoF)~ //  Elorin, le magicien, (Quête de la Forteresse Glacée)"},~
 
 

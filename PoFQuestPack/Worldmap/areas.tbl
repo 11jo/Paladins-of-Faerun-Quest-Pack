@@ -17,7 +17,8 @@ XG0016      XG0016    XG0016     4       47      3370   3100   @POF_74545  @POF_
 XG0017      XG0017    XG0017     4      119      4000   3180   @POF_74525  @POF_74525  N        // Domaine de Gradak // Tower of Gradak //
 XG0018      XG0018    XG0018     4       54      1120   2280   @POF_74372  @POF_74372  N        // Camp Secret de Gradak
 XG0019      XG0019    XG0019     4      103      1190   2230   @POF_74554  @POF_74554  N        // Navire de Gradak // Ship of Gradak //
-XG0020      XG0020    XG0020     4       30      1160   1900   @POF_74339  @POF_74339  N        // Porte de Baldur  // Baldur's Gate  //
+XG0020      XG0020    XG0020     4       30      1019   1987   @POF_74339  @POF_74339  N        // Porte de Baldur  // Baldur's Gate  //
+//XG0020      XG0020    XG0020     4       30      1160   1900   @POF_74339  @POF_74339  N        // Porte de Baldur  // Baldur's Gate  //
 XG0025      XG0025    XG0025     4      152       265   -275   @POF_74564  @POF_74564  N        // Quais de Targos // Docks of Targos //
 XG0024      XG0024    XG0024     4      216       170   -330   @POF_74565  @POF_74565  N        // Targos // Targos //
 XG0026      XG0026    XG0026     4       44      1819   1231   @POF_74516  @POF_74516  N        // Haute Forêt // The High Forest //

@@ -17,8 +17,7 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @7
-  IF ~~ THEN REPLY @8 DO ~EscapeArea()
-~ GOTO 4
+  IF ~~ THEN REPLY @8 GOTO 4
   IF ~~ THEN REPLY @10 DO ~Enemy()
 TakePartyItem("XGZAT4")
 AddJournalEntry(@51505,QUEST)~ EXIT
@@ -28,12 +27,12 @@ IF ~~ THEN BEGIN 4
   SAY @11
   IF ~~ THEN DO ~TakePartyItem("XGZAT4")
 GiveItemCreate("XGZAT6",Player1,0,0,0)
-ActionOverride(Player2,LeaveAreaLUA("XG0020","",[282.1732],0))
-ActionOverride(Player1,LeaveAreaLUA("XG0020","",[248.1687],0))
-ActionOverride(Player3,LeaveAreaLUA("XG0020","",[279.1645],0))
-ActionOverride(Player4,LeaveAreaLUA("XG0020","",[361.1670],0))
-ActionOverride(Player5,LeaveAreaLUA("XG0020","",[431.1723],0))
-ActionOverride(Player6,LeaveAreaLUA("XG0020","",[499.1689],0))
 AddJournalEntry(@51506,QUEST)
+ActionOverride(Player2,LeaveAreaLUA("%NBaldursGate%","",[282.1732],0))
+ActionOverride(Player1,LeaveAreaLUA("%NBaldursGate%","",[248.1687],0))
+ActionOverride(Player3,LeaveAreaLUA("%NBaldursGate%","",[279.1645],0))
+ActionOverride(Player4,LeaveAreaLUA("%NBaldursGate%","",[361.1670],0))
+ActionOverride(Player5,LeaveAreaLUA("%NBaldursGate%","",[431.1723],0))
+ActionOverride(Player6,LeaveAreaLUA("%NBaldursGate%","",[499.1689],0))
 EscapeArea()~ EXIT
 END

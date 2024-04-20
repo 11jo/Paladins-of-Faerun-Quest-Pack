@@ -1,0 +1,44 @@
+////// Worldmap link for EET/BGT
+
+
+ACTION_IF GAME_IS ~eet~ AND FILE_EXISTS ~PoFQuestPack/Worldmap/links.tbl~ BEGIN
+	PRINT ~Link between Aeras for EET~
+	COPY_EXISTING ~PoFQuestPack/Worldmap/links.tbl~ ~weidu_external/PoFQuestPack/Worldmap/links.tbl~
+	
+	// CheatsAreas pour Paladin of Faerun
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
+	~XG0020~                             => ~BG0200~
+	~XG0120~                             => ~BG0119~
+	~XG0820~                             => ~BG0121~
+	~XG0520~                             => ~BG0006~
+	~XG0620~                             => ~BG0111~
+	~XG0320~                             => ~BG0137~
+END
+
+    PATCH_PHP_EACH strings AS find => replace_ref BEGIN
+        SPRINT replace (AT replace_ref)
+        REPLACE_TEXTUALLY ~%find%~ ~%replace%~
+    END
+END
+
+
+ACTION_IF GAME_IS ~bgt~ AND FILE_EXISTS ~PoFQuestPack/Worldmap/links.tbl~ BEGIN
+	PRINT ~Link between Aeras for BGT~
+	COPY_EXISTING ~PoFQuestPack/Worldmap/links.tbl~ ~weidu_external/PoFQuestPack/Worldmap/links.tbl~
+	
+	// CheatsAreas pour Paladin of Faerun
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
+	~XG0020~                             => ~AR7300~
+	~XG0120~                             => ~AR7219~
+	~XG0820~                             => ~AR7220~
+	~XG0520~                             => ~ARA006~
+	~XG0620~                             => ~AR7211~
+	~XG0320~                             => ~AR7237~
+END
+
+    PATCH_PHP_EACH strings AS find => replace_ref BEGIN
+        SPRINT replace (AT replace_ref)
+        REPLACE_TEXTUALLY ~%find%~ ~%replace%~
+    END
+END
+

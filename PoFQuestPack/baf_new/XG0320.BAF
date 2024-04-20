@@ -1,0 +1,22 @@
+IF
+	Global("XGPoFinBG","GLOBAL",1)
+	Global("XGPoFXGELOR","MYAREA",0)
+	AreaCheck("XG0320")
+THEN
+	RESPONSE #100
+		CreateCreature("XGELOR",[422.342],0)
+		SetGlobal("XGPoFXGELOR","MYAREA",1)
+		Continue()
+END
+
+IF
+	Global("XGPoFinBG","GLOBAL",1)
+	Global("XGPoFXGELOR","MYAREA",0)
+	!AreaCheck("XG0320")
+	AreaCheck("%NBaldursGate_RamazithsTower_L1%")
+THEN
+	RESPONSE #100
+		CreateCreature("XGELOR",[364.164],0)
+		SetGlobal("XGPoFXGELOR","MYAREA",1)
+		Continue()
+END

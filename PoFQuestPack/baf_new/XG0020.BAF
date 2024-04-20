@@ -1,6 +1,7 @@
 IF
-  Global("Reveal0020","XG0020",0)
-  PartyHasItem("XGZAT2")  // ~Ордер на арест~
+	Global("Reveal0020","XG0020",0)
+	PartyHasItem("XGZAT2")  // ~Ордер на арест~
+	AreaCheck("%NBaldursGate%")
 THEN
   RESPONSE #100
     SetGlobal("Reveal0020","XG0020",1)
@@ -15,3 +16,53 @@ THEN
     EndCutSceneMode()
 END
 
+IF
+	Global("XGPoFinBG","GLOBAL",1)
+	Global("XGPoFXGMIL","MYAREA",0)
+	AreaCheck("%NBaldursGate%")
+THEN
+	RESPONSE #100
+		CreateCreature("XGMIL",[3840.2483],14)  // Milicien
+		CreateCreature("XGMIL",[3920.2062],8)  // Milicien
+		CreateCreature("XGMIL",[4368.1547],2)  // Milicien
+		CreateCreature("XGMIL",[3642.1484],0)  // Milicien
+		CreateCreature("XGMIL",[2559.1320],14)  // Milicien
+		CreateCreature("XGMIL",[328.1512],14)  // Milicien
+		CreateCreature("XGMIL",[134.1603],14)  // Milicien
+		CreateCreature("XGMIL",[2155.2838],2)  // Milicien
+		CreateCreature("XGTDR",[1449.1155],0)  // Pretre
+		CreateCreature("XGTDR",[1662.1154],0)  // Pretre
+		CreateCreature("tanadv03",[3195.1065],0)  // Aventurier
+		SetGlobal("XGPoFXGMIL","MYAREA",1)
+		Continue()
+END
+
+
+/*
+IF
+	Global("XGPoFinBG","GLOBAL",1)
+THEN
+  RESPONSE #100
+  TriggerActivation("EntranceXG0620",TRUE)
+  	AddMapNote([2260.1047],@20)
+  	AddMapNote([2769.1185],@21)
+  	AddMapNote([2147.1737],@22)
+  	AddMapNote([3116.2027],@23)
+  	AddMapNote([3256.711],@24)
+  	RemoveMapNote([2385.700],68997)
+  	RemoveMapNote([2385.700],68997)
+END
+
+IF
+	Global("XGPoFinBG","GLOBAL",0)
+THEN
+  RESPONSE #100
+	TriggerActivation("EntranceXG0620",FALSE)
+  	AddMapNote([3256.711],@24)
+  	AddMapNote([3256.711],@24)
+  	RemoveMapNote([2385.700],68997)
+  	RemoveMapNote([2385.700],68997)
+  	RemoveMapNote([2385.700],68997)
+  	RemoveMapNote([2385.700],68997)
+END
+*/

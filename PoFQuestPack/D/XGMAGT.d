@@ -20,7 +20,7 @@ TakePartyGold(2000)
 GiveItemCreate("XGGLAV9",Player1,0,0,0)
 TakePartyGold(2000)
 ~ EXIT
-  IF ~PartyGoldGT(2500))~ THEN REPLY @7 DO ~TakePartyItem("XGGLAVE")
+  IF ~PartyGoldGT(2500)~ THEN REPLY @7 DO ~TakePartyItem("XGGLAVE")
 GiveItemCreate("XGLAV10",Player1,0,0,0)
 TakePartyGold(2500)
 ~ EXIT

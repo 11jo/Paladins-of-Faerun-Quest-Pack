@@ -12,7 +12,8 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @5
-  IF ~~ THEN REPLY @7 DO ~RevealAreaOnMap("XG0020")
+  IF ~~ THEN REPLY @7 DO ~RevealAreaOnMap("%NBaldursGate%")
+SetGlobal("XGPoFinBG","GLOBAL",1)
 AddexperienceParty(20000)
 AddJournalEntry(@51209,QUEST)
 ForceSpell(Myself,DRYAD_TELEPORT)~ EXIT

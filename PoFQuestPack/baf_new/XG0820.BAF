@@ -1,0 +1,22 @@
+IF
+	Global("XGPoFinBG","GLOBAL",1)
+	Global("XGPoFXGBGPS2","MYAREA",0)
+	AreaCheck("XG0820")
+THEN
+	RESPONSE #100
+		CreateCreature("XGBGPS2",[341.422],8)
+		SetGlobal("XGPoFXGBGPS2","MYAREA",1)
+		Continue()
+END
+
+IF
+	Global("XGPoFinBG","GLOBAL",1)
+	Global("XGPoFXGBGPS2","MYAREA",0)
+	!AreaCheck("XG0820")
+	AreaCheck("%NBaldursGate_ThreeOldKegs_L3%")
+THEN
+	RESPONSE #100
+		CreateCreature("XGBGPS2",[926.424],8)
+		SetGlobal("XGPoFXGBGPS2","MYAREA",1)
+		Continue()
+END

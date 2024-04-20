@@ -1,7 +1,10 @@
 IF
   Global("RevealXG0061","XG0061",0)
   AreaCheck("XG0061")
+  !AreaCheck("XG0161")
+  !AreaCheck("XG0261")
   PartyHasItem("XGQI2")  // ~Магическая реликвия~
+  !Dead("XGRWHM")
 THEN
   RESPONSE #100
     SetGlobal("RevealXG0061","XG0061",1)
@@ -38,7 +41,9 @@ END
 
 IF
   Global("RevealXG0061","XG0061",0)
-  AreaCheck("XG0060")
+  AreaCheck("XG0061")
+  !AreaCheck("XG0161")
+  !AreaCheck("XG0261")
   PartyHasItem("XGQI2")  // ~Магическая реликвия~
   Dead("XGRWHM")  // ~Глава волшебников~
 THEN
@@ -74,3 +79,42 @@ THEN
     EndCutSceneMode()
 END
 
+IF
+	Global("RevealXG0161","XG0161",1)
+	OR(3)
+		!Dead("XGRWH")
+		!Dead("XGRW3")
+		!Dead("XGRW2")
+THEN
+  RESPONSE #
+    ActionOverride("XGRWH",Enemy())
+    ActionOverride("XGRW3",Enemy())
+    ActionOverride("XGRW2",Enemy())
+END
+
+/*
+IF
+	Dead("XGRWH")
+	Dead("XGRW3")
+	Dead("XGRW2")
+	Global("XGRWHXG0061","XG0061",0)
+	AreaCheck("XG0061")
+THEN
+  RESPONSE #100
+    TriggerActivation("Travel02",TRUE) 
+	TriggerActivation("Travel01",TRUE)
+	SetGlobal("XGRWHXG0061","XG0061",1)
+END
+
+IF
+	!Dead("XGRWH")
+	!Dead("XGRW3")
+	!Dead("XGRW2")
+	AreaCheck("XG0061")
+	Global("XGRWHXG0061","XG0061",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("Travel02",FALSE) 
+	TriggerActivation("Travel01",FALSE)
+END
+*/

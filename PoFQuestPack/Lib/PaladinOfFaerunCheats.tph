@@ -13,3 +13,140 @@ END
         REPLACE_TEXTUALLY ~%find%~ ~%replace%~
     END
 END
+
+ACTION_IF GAME_IS ~eet~ AND FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
+	PRINT ~Aeras cheat for Paladin of Faerun EET~
+	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
+	
+	// CheatsAreas pour Paladin of Faerun
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
+	~\({"XG0020", "(PoF)\)~                             => 100001
+	~\({"XG0120", "(PoF)\)~                             => 100002
+	~\({"XG0820", "(PoF)\)~                             => 100003
+	~\({"XG0520", "(PoF)\)~                             => 100004
+	~\({"XG0620", "(PoF)\)~                             => 100005
+	~\({"XG0320", "(PoF)\)~                             => 100006
+
+END
+
+    PATCH_PHP_EACH strings AS find => replace_ref BEGIN
+        SPRINT replace (AT replace_ref)
+        REPLACE_TEXTUALLY ~%find%~ ~%replace%~
+    END
+END
+
+ACTION_IF GAME_IS ~bgt~ AND FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
+	PRINT ~Aeras cheat for Paladin of Faerun BGT~
+	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
+	
+	// CheatsAreas pour Paladin of Faerun
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
+	~\({"XG0020", "(PoF)\)~                             => 100007
+	~\({"XG0120", "(PoF)\)~                             => 100008
+	~\({"XG0820", "(PoF)\)~                             => 100009
+	~\({"XG0520", "(PoF)\)~                             => 100010
+	~\({"XG0620", "(PoF)\)~                             => 100011
+	~\({"XG0320", "(PoF)\)~                             => 100012
+
+END
+
+    PATCH_PHP_EACH strings AS find => replace_ref BEGIN
+        SPRINT replace (AT replace_ref)
+        REPLACE_TEXTUALLY ~%find%~ ~%replace%~
+    END
+END
+
+///////////////////////////// Alternative
+/*
+
+ACTION_IF NOT GAME_IS ~eet bgt~ AND  FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
+	PRINT ~Aeras cheat for Paladin of Faerun~
+	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
+	
+	// CheatsAreas pour Paladin of Faerun
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
+	~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},~                             => 100000
+
+END
+
+    PATCH_PHP_EACH strings AS find => replace_ref BEGIN
+        SPRINT replace (AT replace_ref)
+        REPLACE_TEXTUALLY ~%find%~ ~%replace%~
+    END
+END
+
+ACTION_IF GAME_IS ~eet~ AND FILE_EXISTS ~PoFQuestPack/Languages/%LANGUAGE%/SETUP-PoFQuestPack.tra~ BEGIN
+	PRINT ~Aeras cheat for Paladin of Faerun~
+	COPY_EXISTING ~PoFQuestPack/Languages/%LANGUAGE%/SETUP-PoFQuestPack.tra~ ~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/SETUP-PoFQuestPack.tra~
+	
+	// CheatsAreas pour Paladin of Faerun
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
+	~XG0020~                             => ~BG0200~
+	~XG0120~                             => ~BG0119~
+	~XG0820~                             => ~BG0121~
+	~XG0520~                             => ~BG0006~
+	~XG0620~                             => ~BG0111~
+	~XG0320~                             => ~BG0137~
+
+END
+
+    PATCH_PHP_EACH strings AS find => replace_ref BEGIN
+        SPRINT replace (AT replace_ref)
+        REPLACE_TEXTUALLY ~%find%~ ~%replace%~
+    END
+	
+  ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
+	PRINT ~Aeras cheat for Paladin of Faerun~
+	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
+	
+	// CheatsAreas pour Paladin of Faerun
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
+	~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},~                             => 100000
+
+END
+
+    PATCH_PHP_EACH strings AS find => replace_ref BEGIN
+        SPRINT replace (AT replace_ref)
+        REPLACE_TEXTUALLY ~%find%~ ~%replace%~
+    END
+  END
+END
+
+
+ACTION_IF GAME_IS ~bgt~ AND FILE_EXISTS ~PoFQuestPack/Languages/%LANGUAGE%/SETUP-PoFQuestPack.tra~ BEGIN
+	PRINT ~Aeras cheat for Paladin of Faerun~
+	COPY_EXISTING ~PoFQuestPack/Languages/%LANGUAGE%/SETUP-PoFQuestPack.tra~ ~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/SETUP-PoFQuestPack.tra~
+	
+	// CheatsAreas pour Paladin of Faerun
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
+	~XG0020~                             => ~AR7300~
+	~XG0120~                             => ~AR7219~
+	~XG0820~                             => ~AR7220~
+	~XG0520~                             => ~ARA006~
+	~XG0620~                             => ~AR7211~
+	~XG0320~                             => ~AR7237~
+
+END
+
+    PATCH_PHP_EACH strings AS find => replace_ref BEGIN
+        SPRINT replace (AT replace_ref)
+        REPLACE_TEXTUALLY ~%find%~ ~%replace%~
+    END
+	
+  ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
+	PRINT ~Aeras cheat for Paladin of Faerun~
+	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
+	
+	// CheatsAreas pour Paladin of Faerun
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
+	~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},~                             => 100000
+
+END
+
+    PATCH_PHP_EACH strings AS find => replace_ref BEGIN
+        SPRINT replace (AT replace_ref)
+        REPLACE_TEXTUALLY ~%find%~ ~%replace%~
+    END
+  END
+END
+*/

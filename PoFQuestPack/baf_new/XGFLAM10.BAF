@@ -1,0 +1,18 @@
+IF
+	Global("XGPoFinBG","GLOBAL",1)
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		MoveToPointNoInterrupt([524.366])
+		Wait(2)
+		DisplayStringHead(Myself,@1628)
+		Wait(4)
+		DisplayStringHead(Myself,@1627)
+		FaceObject(Player1)
+		Wait(4)
+		DisplayStringHead(Myself,@1626)
+		Wait(20)
+		MoveToPointNoInterrupt([624.236])
+		DisplayStringHead(Myself,@1628)
+		Wait(20)
+END

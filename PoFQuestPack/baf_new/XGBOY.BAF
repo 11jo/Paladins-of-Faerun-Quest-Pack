@@ -1,0 +1,15 @@
+IF
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@3010)
+		Face(3)
+		Wait(5)
+		DisplayStringHead(Myself,@3007)
+		Face(0)
+		Wait(20)
+		DisplayStringHead(Myself,@3010)
+		Face(2)
+		Wait(50)
+END
+

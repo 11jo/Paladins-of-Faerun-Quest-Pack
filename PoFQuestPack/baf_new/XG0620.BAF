@@ -1,0 +1,26 @@
+IF
+	Global("XGPoFinBG","GLOBAL",1)
+	Global("XGPoFXGMILC","MYAREA",0)
+	AreaCheck("XG0620")
+THEN
+	RESPONSE #100
+		CreateCreature("XGMIL",[334.256],2)  // Milicien
+		CreateCreature("XGMIL",[513.290],2)  // Milicien
+		CreateCreature("XGMILC",[402.267],2)  // Capitaine
+		SetGlobal("XGPoFXGMILC","MYAREA",1)
+		Continue()
+END
+
+IF
+	Global("XGPoFinBG","GLOBAL",1)
+	Global("XGPoFXGMILC","MYAREA",0)
+	!AreaCheck("XG0620")
+	AreaCheck("%NBaldursGate_DucalPalace_Cellar%")
+THEN
+	RESPONSE #100
+		CreateCreature("XGMIL",[824.488],2)  // Milicien
+		CreateCreature("XGMIL",[583.504],2)  // Milicien
+		CreateCreature("XGMILC",[712.522],2)  // Capitaine
+		SetGlobal("XGPoFXGMILC","MYAREA",1)
+		Continue()
+END

@@ -1,6 +1,6 @@
 BEGIN ~XGBG1~ 4
 
-IF ~True()~ THEN BEGIN 0
+IF ~True() !NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 DO ~StartStore("XGBG1",LastTalkedToBy(Myself))
 ~ EXIT
@@ -12,7 +12,15 @@ IF ~~ THEN BEGIN 1
   IF ~~ THEN EXIT
 END
 
-IF ~PartyHasItem("XGZAT")~ THEN BEGIN 2
+IF ~ NumTimesTalkedTo(0)
+OR(7)
+	PartyHasItem("XGZAT")
+	PartyHasItem("XGZAT1")
+	PartyHasItem("XGZAT2")
+	PartyHasItem("XGZAT3")
+	PartyHasItem("XGZAT4")
+	PartyHasItem("XGZAT5")
+	PartyHasItem("XGZAT6")~ THEN BEGIN 2
   SAY @5
   IF ~~ THEN REPLY @6 GOTO 3
 END

@@ -42,7 +42,7 @@
 @38 = ~Bandit, soldat~
 @39 = ~Bandit, archer~
 @40 = ~Bandit, meurtrier~
-@41 = ~Barbare du Nord~
+@41 = ~Barbare venu du Nord~
 @42 = ~Barbarossa~
 @43 = ~Barde ambulant~
 @44 = ~Kevtiln from the North~
@@ -212,7 +212,7 @@
 @207 = ~Lord of the Undead~
 @208 = ~Leader of hunters~
 @209 = ~Chasseur de trolls~
-
+@210 = ~Héraut du Duc Opas~
 @211 = ~Seigneur Lorearthen~
 @212 = ~Seigneur Shieldheart~
 @213 = ~Udorri Lord of the Dead~
@@ -256,7 +256,7 @@
 @251 = ~Ninja~
 @252 = ~Nomad guard~
 @253 = ~Nomad~
-@254 = ~Homme du nord~
+@254 = ~Homme venu du nord~
 @255 = ~Prince~
 @256 = ~Khalid~
 @257 = ~Neverwinter Army~ // Armée de Padhiver
@@ -270,7 +270,7 @@
 @265 = ~Officer~
 @266 = ~Neverwinter's Nine~ // Les neuf de Padhiver // L'un des neuf de Padhiver
 @267 = ~Royal guardsman~
-@268 = ~Noble de Padhivern~
+@268 = ~Noble de Padhiver~
 @269 = ~Old mage~
 @270 = ~Magicien mystérieux~
 @271 = ~Xangold~
@@ -296,11 +296,11 @@
 @291 = ~Ranger Rolard~
 @292 = ~Ravenger~
 @293 = ~Ronin~
-@294 = ~Sorcier rouge~
-@295 = ~Head of wizards~
-@296 = ~Head of Red Wizards~
+@294 = ~Magicien rouge~
+@295 = ~Magistral magicien~
+@296 = ~Régisseur Magiciens rouges~
 @297 = ~Sir Raylee~
-@298 = ~Archer du sud~
+@298 = ~Archer venu du sud~
 @299 = ~Southerner~
 @300 = ~Sarach~
 @301 = ~Second Sarevok~
@@ -314,7 +314,7 @@
 @309 = ~Royal archer~
 @310 = ~Seigneur de morts-vivants~
 @311 = ~Skeleton mage~
-@312 = ~Magicien du sud~
+@312 = ~Magicien venu du sud~
 @313 = ~Sir Solan~
 @314 = ~Sorcier~
 @315 = ~Capitaine du navire~
@@ -325,7 +325,7 @@
 @320 = ~Vira~
 @321 = ~Faed Maedhrym~
 @322 = ~Prêtre de Shevarash~
-@323 = ~Guerrier du sud~
+@323 = ~Guerrier venu du sud~
 @324 = ~Regimental Commander~
 @325 = ~Sir William~
 @326 = ~Commandant des envahisseurs~
@@ -4172,7 +4172,8 @@ This heart belongs to the witch from the fortress north of the High Forest.~
 
 (Before using the portal, you must complete the tasks of the castle de'Arnise)~
 @916 = ~This is Marian's wedding ring~
-@917 = ~Arrest warrant~
+@917 = ~Mandat d'arrêt~
+@918 = ~Ce document vous a été remis par le capitaine de la garde de la Porte de Baldur, il vous mandate pour l'enquête sur le mystérieux assassin sévissant dans la ville.~
 
 @919 = ~Tavern~
 @920 = ~Three Jugs Tavern~
@@ -4189,11 +4190,11 @@ This heart belongs to the witch from the fortress north of the High Forest.~
 
 
 @999  = ~Crevasse~
-@1000 = ~This fountain is filled with a dark, viscous liquid from which it suffers from death and decay.~
+@1000 = ~Cette fontaine est remplie d'un épais liquide noirâtre qui empeste la pourriture.~
 @1001 = ~Votre repos a été interrompu.~
-@1002 = ~Giants attacked us!~
-@1003 = ~The ominous song of the siren has awakened you from sleep.~
-@1004 = ~This catapult seems to have been used not so long ago, but now it's broken so that you can't fix it anymore.~
+@1002 = ~Des géants nous attaquent !~
+@1003 = ~La mélopée envoûtante des sirènes vous tire de votre sommeil.~ [ERROR09]
+@1004 = ~Cette catapulte semble avoir été utilisée récemment, elle est complètement détruite.~
 @1005 = ~Camp de commandement~ // Map Note
 @1006 = ~Quartiers de Gradak~ // Map Note
 @1007 = ~Levier du pont-levis~ // Map Note
@@ -4201,7 +4202,7 @@ This heart belongs to the witch from the fortress north of the High Forest.~
 @1009 = ~Sortie de la ville~
 @1010 = ~Maison de Crunan~
 @1011 = ~Do you have so much courage that you are not afraid to lie calmly? It's time to pay for your levity!~
-@1012 = ~Druid Abbey~
+@1012 = ~Abbaye de la confrérie des druides.~
 @1013 = ~Forgeron~
 @1014 = ~Pierre Sacré~
 @1015 = ~Pierre Sacré~
@@ -4209,10 +4210,10 @@ This heart belongs to the witch from the fortress north of the High Forest.~
 @1017 = ~Taverne des trois carafes~
 @1018 = ~Cimetière~
 @1019 = ~You're doing the wrong thing! I'll kill you!~
-@1020 = ~You were attacked by orcs~
+@1020 = ~Vous êtes attaqué par des orques.~
 @1021 = ~Auberge~
 @1022 = ~Marchand~
-@1023 = ~Residence of the Red Wizards~
+@1023 = ~Tanière des Magiciens Rouges.~
 @1024 = ~Château~
 @1025 = ~Temple of Tyr~
 @1026 = ~Moonstone Mask~
@@ -4332,6 +4333,22 @@ Le magicien pointe son doigt dans la direction désirée et projette une sphère d'
 // XG0016 Info Trigger
 @1600 = ~La volonté du gardien vous empêche de passer.~
 
+// XG0620 to BG0111
+@1601 = ~Je fais partie de la garde de la ville, le capitaine m'a chargé de retrouver le meurtrier qui sévit à la Porte de Baldur.~
+@1602 = ~Je fais partie de la garde de la ville, le capitaine m'a envoyé en mission pour protéger un citoyen en difficulté hors de la ville.~
+@1603 = ~Je viens rencontrer le capitaine de la garde.~
+
+// XG0720 to BG0108
+@1620 = ~Vous empruntez l'escalier qui mène aux quartiers du Duc Opas.~
+// Related dialogue
+@1621 = ~Bonjour vous souhaitez vous entretenir avec le grand Duc Opas ?~
+@1622 = ~En effet, nous devons discuter d'une affaire de la plus haute importance.~
+@1623 = ~Non, je suis ici pour raisons personnels, inutile de déranger le grand Duc.~
+@1624 = ~Très bien prenez l'escalier pour vous rendre à l'étage comme d'habitude.~
+@1625 = ~Veuillez suivre l'escalier situé derrière moi, vous êtes attendu monseigneur...~ ~Veuillez suivre l'escalier situé derrière moi, vous êtes attendue milady...~
+@1626 = ~Le Duc Opas est disposé à vous recevoir.~
+@1627 = ~Si vous êtes avec le protecteur de la Porte de Baldur.~ ~Si vous êtes avec la protectrice de la Porte de Baldur.~
+@1628 = ~Je parle au nom du Duc Opas.~
 
 // Messagers
 
@@ -4348,14 +4365,16 @@ Le magicien pointe son doigt dans la direction désirée et projette une sphère d'
 // AR0800 Novice Temple oublié
 @3004 = ~Hé ! regardez par ici !~
 
+// AR0700 Marian the smithy
+@3007 = ~Que vais-je bien pouvoir faire...~
+@3008 = ~C'est inextricable.~
+@3009 = ~Je dois les protéger.~
+// AR1100 Umar hill Boy pirate
+@3010 = ~Mon village a besoin d'aide !~
+
+
 //....
 @3005 = ~Heu... Hum ! Hum !~
-@3006 = ~Mon village a besoin d'aide !~
-
-
-
-// Umar hill Boy pirate
-
 
 // gw_functions.tpa for item description
 
@@ -5477,6 +5496,25 @@ Vaprak - jednoruký bùh šílenství a vraždìní~
 	{"XG0080", "(PoF)  Siluvanede"},
 	{"XG0080", "(PoF)  Siluvanede"},
 	{"XG0080", "(PoF)  Siluvanede"},~
+
+// ~{"PoF", "        PORTE de BALDUR        "}, //// EET
+@100001   = ~{"BG0200", "(PoF)~ //  Porte de Baldur"},
+@100002   = ~{"BG0119", "(PoF)~ //  Auberge des Trois Vieilles Chopes, L1"},
+@100003   = ~{"BG0121", "(PoF)~ //  Auberge des Trois Vieilles Chopes, L2"},
+@100004   = ~{"BG0006", "(PoF)~ //  Maison de Rinnie"},
+@100005   = ~{"BG0111", "(PoF)~ //  Caserne, (Quête de l'assassin)"},
+@100006   = ~{"BG0108", "(PoF)  Palais Ducal, L1"},
+	{"BG0137", "(PoF)~ //  Elorin, le magicien, (Quête de la Forteresse Glacée)"},~
+
+
+// ~{"PoF", "        PORTE de BALDUR        "}, //// BGT
+@100007   = ~{"AR7300", "(PoF)~ //  Porte de Baldur"},
+@100008   = ~{"AR7219", "(PoF)~ //  Auberge des Trois Vieilles Chopes, L1"},
+@100009   = ~{"AR7220", "(PoF)~ //  Auberge des Trois Vieilles Chopes, L2"},
+@100010   = ~{"ARA006", "(PoF)~ //  Maison de Rinnie"},
+@100011   = ~{"AR7211", "(PoF)~ //  Caserne, (Quête de l'assassin)"},
+@100012   = ~{"AR7208", "(PoF)  Palais Ducal, L1"},
+	{"AR7237", "(PoF)~ //  Elorin, le magicien, (Quête de la Forteresse Glacée)"},~
 
 /* =============== *
  *  WeiDU prompts  *

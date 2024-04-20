@@ -1,11 +1,25 @@
 BEGIN ~XGBGPS1~
 
-IF ~PartyHasItem("XGZAT")~ THEN BEGIN 0
+IF ~Global("XGBGPS1","GLOBAL",0)
+OR(2)
+	PartyHasItem("XGZAT")
+	PartyHasItem("XGZAT1")~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
 END
 
 IF ~~ THEN BEGIN 1
+  SAY @3
+  IF ~~ THEN DO ~SetGlobal("XGBGPS1","GLOBAL",1)~ EXIT
+END
+
+IF ~!PartyHasItem("XGZAT")
+!PartyHasItem("XGZAT1")~ THEN BEGIN 2
+  SAY @3
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("XGBGPS1","GLOBAL",1)~ THEN BEGIN 3
   SAY @3
   IF ~~ THEN EXIT
 END

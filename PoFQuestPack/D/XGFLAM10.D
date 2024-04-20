@@ -1,0 +1,19 @@
+BEGIN ~XGFLAM10~
+
+// Dialogues
+
+IF ~AreaCheck("%NBaldursGate_DucalPalace_L1%")~ THEN BEGIN XGFLAM101
+SAY @1621
+	IF ~~ THEN REPLY @1622 DO ~TriggerActivation("TravelXG0720",TRUE) TriggerActivation("Door0109b",FALSE)~ GOTO XGFLAM103
+	IF ~~ THEN REPLY @1623 DO ~TriggerActivation("TravelXG0720",FALSE) TriggerActivation("Door0109b",TRUE)~ GOTO XGFLAM102
+END
+
+IF ~~ THEN BEGIN XGFLAM102
+  SAY @1624
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN XGFLAM103
+  SAY @1625
+  IF ~~ THEN EXIT
+END
