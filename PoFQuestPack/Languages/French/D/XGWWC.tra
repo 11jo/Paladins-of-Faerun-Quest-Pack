@@ -12,7 +12,7 @@
 @11 = ~ Why did none of them oppose the Barbarosa Guild this time? ~
 @12 = ~ Barbarosa is very cunning. Despite the fact that the secret lords have their spies almost everywhere, Barbarosa does not sit idly by and leaves the bodies of dead spies behind him. So we need someone new who can get into their nest. ~
 @13 = ~ Yes, but Barboros has already seen me, we ran into him. ~
-@14 = ~ Be careful when you enter their headquarters, it is well guarded. The entrance is located in the southeastern part of the city. A reward awaits you when you complete the task. ~
+@14 = ~ Be careful when you enter their headquarters, it is well guarded. The entrance is located in the southeastern part of the city. A reward awaits you when you complete the task. ~ // Go and talk to captain Boris, he will send you on the right direction.
 @15 = ~ I will do everything in my power, because I promised to help the blacksmith. Thanks for the info. ~
 
 /*
@@ -62,3 +62,4 @@ The captain of the guard in Deep Water sends me to the shadow lord, apparently h
 
 @25 = ~ Thank you for everything. Good luck. ~
 
+@26 = ~Go and talk to captain Boris, he will send you on the right direction.~

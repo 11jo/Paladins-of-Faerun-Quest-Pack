@@ -30,3 +30,24 @@ THEN
 		EndCutSceneMode()
 		Continue()
 END
+
+
+IF
+	Global("XG_PoF_GetMarco","GLOBAL",1)
+	Global("XGMARKinJail","AR1005",0)
+THEN
+	RESPONSE #100
+		CreateCreature("XGMARK1",[521.752],10)  // ~Marco le voleur en prison
+		CreateCreature("XGPRISON",[778.597],0)  // ~Agent de liaison
+		AddMapNote([521.752],~Cellule de Marco.~)
+		SetGlobal("XGMARKinJail","AR1005",1)
+END
+
+
+IF
+	Global("XG_PoF_GetMarco","GLOBAL",4)
+THEN
+	RESPONSE #100
+		RemoveMapNote([521.752],~Cellule de Marco.~)
+		ActionOverride("XGPRISON",EscapeArea())
+END

@@ -846,3 +846,20 @@ I didn't have the courage to fight the best killer of Féérune.~ // @20
 @51507 = ~Killer
 
 The guild of thieves hiding beneath the city is now over. But I missed Artemis.~ // @24
+
+	
+//////////////////////    Help the prisoner. Un compagnon d'infortune ?
+// Title
+
+@51600 = ~Help the prisoner~ // Help the prisoner
+
+// XGERRA
+
+@51601 = ~Help the prisoner
+
+I met a wounded prisoner trying to get out of here. He told me that the guards were looking for him and that one of them has a key that activates the portal to the surface. I have to find him ... Maybe this is the way out of here.~ // @6
+
+
+@51602 = ~Help the prisoner
+
+I found the key and gave it to Errad, but he did not fulfill our contract and disappeared into the portal myself.~ // @11

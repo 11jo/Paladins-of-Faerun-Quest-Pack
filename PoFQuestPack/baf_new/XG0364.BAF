@@ -21,6 +21,7 @@ THEN
     TakePartyItem("XGWRG")
     StartCutSceneMode()
     HideGUI()
+	FadeFromColor([50.0],0)
     CreateCreature("XGMW",[596.355],0)  // ~Жена Мариана~
     CreateCreature("XGMCH",[557.353],0)  // ~Мальчик~
     CreateCreature("XGMARAN",[539.384],2)  // ~Мариан~
@@ -43,4 +44,3 @@ THEN
     UnhideGUI()
     EndCutSceneMode()
 END
-

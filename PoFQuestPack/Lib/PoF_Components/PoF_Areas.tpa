@@ -155,12 +155,12 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0018.ARE~         ~override/XG0018.ARE
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0019.ARE~         ~override/XG0019.ARE~
 
-ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
+//ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0020.ARE~         ~override/XG0020.ARE~
   WRITE_ASCII 0x94 ~XG0020~ #8
   
-END
+//END
 
 ACTION_IF GAME_IS ~bgt eet~ BEGIN
 
@@ -519,12 +519,12 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0117.ARE~         ~override/XG0117.ARE
 COPY ~weidu_external/PoFQuestPack/Areas/XG0118.ARE~         ~override/XG0118.ARE~         
   SAY 0x1cd4 @413         
 
-ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
+//ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0120.ARE~         ~override/XG0120.ARE~
   WRITE_ASCII 0x94 ~XG0120~ #8                                    
 
-END
+//END
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0124.ARE~         ~override/XG0124.ARE~         
 
@@ -719,12 +719,12 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0317.ARE~         ~override/XG0317.ARE
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0319.ARE~         ~override/XG0319.ARE~         
 
-ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
+//ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0320.ARE~         ~override/XG0320.ARE~
   WRITE_ASCII 0x94 ~XG0320~ #8                           
 
-END
+//END
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0324.ARE~         ~override/XG0324.ARE~        
 
@@ -846,12 +846,12 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0515.ARE~         ~override/XG0515.ARE
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0517.ARE~         ~override/XG0517.ARE~         
 
-ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
+//ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0520.ARE~         ~override/XG0520.ARE~
   WRITE_ASCII 0x94 ~XG0520~ #8         
 
-END
+//END
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0524.ARE~         ~override/XG0524.ARE~         
   SAY 0x4b0 @401 
@@ -878,12 +878,12 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0581.ARE~         ~override/XG0581.ARE
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0615.ARE~         ~override/XG0615.ARE~         
 
-ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
+//ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0620.ARE~         ~override/XG0620.ARE~
   WRITE_ASCII 0x94 ~XG0620~ #8                  
 
-END
+//END
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0624.ARE~         ~override/XG0624.ARE~         
 
@@ -948,6 +948,27 @@ ACTION_IF GAME_IS ~bgt eet~ BEGIN
           fj_structure_type = entrance
           fj_name = ExitBG0108
       END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type			= 2    // travel
+			fj_box_left		= 401
+			fj_box_top		= 1373
+			fj_box_right	= 521
+			fj_box_bottom	= 1564
+			fj_cursor_idx	= 30   // 30 door 28 stairs
+			fj_loc_x		= 461
+			fj_loc_y		= 1468
+			fj_vertex_0		= 429 + (1372 << 16)
+			fj_vertex_1		= 401 + (1500 << 16)
+			fj_vertex_2		= 498 + (1564 << 16)
+			fj_vertex_3		= 521 + (1437 << 16)
+			fj_vertex_4		= 429 + (1372 << 16)
+			STR_VAR
+			fj_structure_type	= region
+			fj_name				= TravelXG0720
+			fj_destination_area	= XG0020 // Code de la carte
+			fj_destination_name	= ExitXG0720
+		END
 END ELSE BEGIN
 	COPY_EXISTING ~XG0720.ARE~ ~override~
 		LPF fj_are_structure
@@ -994,13 +1015,13 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0803.ARE~         ~override/XG0803.ARE
 COPY ~weidu_external/PoFQuestPack/Areas/XG0815.ARE~         ~override/XG0815.ARE~   
   ADD_MAP_NOTE #1138 #2166 ~red~ @1501 // Vers la Passe du Géant              
 
-ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
+//ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0820.ARE~         ~override/XG0820.ARE~
   WRITE_ASCII 0x94 ~XG0820~ #8                           
   //SAY 0x41C @1001 useless normaly         
 
-END
+//END
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0829.ARE~         ~override/XG0829.ARE~         
 

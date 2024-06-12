@@ -1,6 +1,6 @@
 BEGIN ~XGBRMOC~
 
-IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+IF ~NumTimesTalkedTo(0) Global("EnteredXG1020","XG1020",2)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
 END
@@ -14,6 +14,7 @@ ForceSpell(Player3,DRYAD_TELEPORT)
 ForceSpell(Player4,DRYAD_TELEPORT)
 ForceSpell(Player5,DRYAD_TELEPORT)
 ForceSpell(Player6,DRYAD_TELEPORT)
+SetGlobal("EnteredXG1020","XG1020",3)
 ActionOverride(Player2,LeaveAreaLUA("XG0720","",[1034.643],0))
 ActionOverride(Player3,LeaveAreaLUA("XG0720","",[1144.720],0))
 ActionOverride(Player4,LeaveAreaLUA("XG0720","",[956.718],0))

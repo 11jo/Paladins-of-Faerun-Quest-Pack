@@ -29,11 +29,22 @@ IF ~ Global("s#XGMARAN","GLOBAL",1)~ THEN BEGIN 4
   IF ~~ THEN REPLY @6 EXIT
 END
 
-IF ~Global("s#XGMARAN","GLOBAL",2) PartyHasItem("XGLETW")~ THEN BEGIN 5 //  PartyHasItem("XGMAR") XGMARK1.D seem not implemented to see...
+IF ~Global("s#XGMARAN","GLOBAL",2) PartyHasItem("XGLETW") !PartyHasItem("XGMAR")~ THEN BEGIN 5.0 //  PartyHasItem("XGMAR") XGMARK1.D seem not implemented to see...
   SAY @12
-  IF ~~ THEN REPLY @13 DO ~
-TakePartyItem("XGLETW")~ GOTO 6 // TakePartyItem("XGMAR")
+  IF ~~ THEN REPLY @13 DO ~TakePartyItem("XGLETW") SetGlobal("XGLETW","LOCALS",1)~ GOTO 9 // TakePartyItem("XGMAR")
 END
+
+IF ~Global("s#XGMARAN","GLOBAL",2) PartyHasItem("XGLETW") PartyHasItem("XGMAR")~ THEN BEGIN 5.1 //  PartyHasItem("XGMAR") XGMARK1.D seem not implemented to see...
+  SAY @12
+  IF ~~ THEN REPLY @19 DO ~TakePartyItem("XGLETW") TakePartyItem("XGMAR")~ GOTO 6 // TakePartyItem("XGMAR")
+END
+
+
+IF ~Global("s#XGMARAN","GLOBAL",2) PartyHasItem("XGMAR") Global("XGLETW","LOCALS",1)~ THEN BEGIN 5.2
+  SAY @12
+  IF ~~ THEN REPLY @20 DO ~TakePartyItem("XGMAR")~ GOTO 6
+END
+
 
 IF ~~ THEN BEGIN 6
   SAY @14
@@ -43,14 +54,37 @@ END
 IF ~~ THEN BEGIN 7
   SAY @16
   IF ~~ THEN DO ~GiveItemCreate("XGWRG",Player1,0,0,0)
+SetGlobal("XG_PoF_GetMarco","GLOBAL",2)
 AddJournalEntry(@51305,QUEST)
 EscapeArea()~ EXIT
 END
 
 IF ~Global("s#XGMARAN","GLOBAL",2) 
-OR(2)
-	!PartyHasItem("XGLETW") 
-	!PartyHasItem("XGMAR")~ THEN BEGIN 8
+!PartyHasItem("XGLETW") 
+!PartyHasItem("XGMAR")
+Global("XGLETW","LOCALS",0)~ THEN BEGIN 8
   SAY @12
   IF ~~ THEN REPLY @18 EXIT
+END
+
+IF ~Global("s#XGMARAN","GLOBAL",2)
+!PartyHasItem("XGMAR")
+GlobalGT("XGLETW","LOCALS",0)~ THEN BEGIN 8
+  SAY @12
+  IF ~~ THEN REPLY @18  GOTO 11
+END
+
+IF ~~ THEN BEGIN 9
+  SAY @21
+  IF ~~ THEN REPLY @22 GOTO 10
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @23
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @24
+  IF ~~ THEN EXIT
 END

@@ -4,7 +4,7 @@
 @2 = ~Étudiant de l'académie~
 @3 = ~Étudiant~
 @4 = ~Magister~
-@5 = ~Head~
+@5 = ~Chef du village~
 @6 = ~Aventurier~
 @7 = ~Elgen, chef des gnomes~
 @8 = ~Elgen~
@@ -20,7 +20,7 @@
 @18 = ~Magister de l'Académie~
 @19 = ~Seigneur Aragorn~
 @20 = ~Aran~
-@21 = ~Archimage Tassili~ // Gradak Brother
+@21 = ~Tassili l'Archimage~ // Gradak Brother
 @22 = ~Prêtresse de Shevarash~
 
 @23 = ~Druide de la Forêt de Tethyr~
@@ -36,19 +36,19 @@
 @32 = ~Voleur~
 @33 = ~Assassin~
 @34 = ~Roi des affaires~
-@35 = ~Atkatla's king~
-@36 = ~Ogastes~
+@35 = ~Roi des affaires~
+@36 = ~Ogastes~ // Augus ?
 @37 = ~Citoyen de la Porte de Baldur~
 @38 = ~Bandit, soldat~
 @39 = ~Bandit, archer~
 @40 = ~Bandit, meurtrier~
-@41 = ~Barbare venu du Nord~
+@41 = ~Barbare venu du Nord~ // XGbar1.CRE
 @42 = ~Barbarossa~
 @43 = ~Barde ambulant~
-@44 = ~Kevtiln from the North~
-@45 = ~Kevtiln~
+@44 = ~Kevtiln du grand Nord~ // XGBARGG.CRE Animation LIZARD_KING...
+@45 = ~Kevtiln du grand Nord~ // XGBARGG.CRE
 @46 = ~Gardien de la Vallée~
-@47 = ~Sacred rage~
+@47 = ~Sacred rage~ // Unused ?
 @48 = ~Capitaine des gardes~
 @49 = ~Délégué au commerce~
 @50 = ~Chasseur de trésor~
@@ -59,9 +59,9 @@
 @55 = ~Magicien~
 @56 = ~Sœur de Bodhi~
 @57 = ~Maire~
-@58 = ~Keeper of a brotherhood~
+@58 = ~Garant de la Fraternité~
 @59 = ~Margul~
-@60 = ~Monk of Brotherhood~
+@60 = ~Prêcheur de la Fraternité~
 @61 = ~Paladin du Culte~
 @62 = ~Fidèle du Culte~
 @63 = ~Catty~
@@ -187,6 +187,7 @@
 @182 = ~Sombre personnage~
 @183 = ~Fille du Roi des affaires~
 @184 = ~Kelrot~
+@185 = ~Prêtre de la Fraternité~
 
 
 

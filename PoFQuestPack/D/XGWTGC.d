@@ -20,3 +20,5 @@ IF ~~ THEN BEGIN 3
   IF ~~ THEN REPLY @9 DO ~AddJournalEntry(@51302,QUEST)
 EscapeArea()~ EXIT
 END
+
+// Remove escape area and add somethng to get Marco from Atkathla jail

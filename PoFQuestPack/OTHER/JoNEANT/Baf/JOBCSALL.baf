@@ -1,0 +1,593 @@
+// Générique BCS for générique pnj (same lines as in JODLGALL.d)
+
+
+//  WRITE_ASCII 0x250 ~JOBCSALL~ (8) // Class script
+
+
+// Homme neutral
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(15,1)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#4900)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(15,2)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11086)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(15,3)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11091)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(15,4)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11092)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(15,5)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11094)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(15,6)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11095)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(15,7)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11081)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(15,8)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11084)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(15,9)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11077)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(15,10)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11079)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(15,11)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11231)
+		SetGlobalTimer("JODLGALL_BCS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(15,12)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11078)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(15,13)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11082)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(15,14)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11083)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(15,15)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11085)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+//////////////////////////////////////////////////////////////////
+
+// Man hostile
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,MALE)
+	RandomNum(10,1)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11096)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,MALE)
+	RandomNum(10,2)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11097)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,MALE)
+	RandomNum(10,3)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11098)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,MALE)
+	RandomNum(10,4)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11099)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,MALE)
+	RandomNum(10,5)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11101)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,MALE)
+	RandomNum(10,6)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11102)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,MALE)
+	RandomNum(10,7)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11103)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,MALE)
+	RandomNum(10,8)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11104)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,MALE)
+	RandomNum(10,9)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11105)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,MALE)
+	RandomNum(10,10)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11106)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+//////////////////////////////////////////////////////////////////
+
+// Woman neutral
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,FEMALE)
+	RandomNum(13,1)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11110)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,FEMALE)
+	RandomNum(13,2)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11111)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,FEMALE)
+	RandomNum(13,3)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11112)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,FEMALE)
+	RandomNum(13,4)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11113)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,FEMALE)
+	RandomNum(13,5)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11114)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,FEMALE)
+	RandomNum(13,6)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11115)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,FEMALE)
+	RandomNum(13,7)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11116)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,FEMALE)
+	RandomNum(13,8)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11117)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,FEMALE)
+	RandomNum(13,9)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11118)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,FEMALE)
+	RandomNum(13,10)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11119)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,FEMALE)
+	RandomNum(13,11)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11120)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,FEMALE)
+	RandomNum(13,12)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11121)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,FEMALE)
+	RandomNum(13,13)
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11122)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+//////////////////////////////////////////////////////////////////
+
+// Woman hostile
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,FEMALE)
+	RandomNum(10,1)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11123)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,FEMALE)
+	RandomNum(10,2)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11124)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,FEMALE)
+	RandomNum(10,3)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11125)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,FEMALE)
+	RandomNum(10,4)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11126)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,FEMALE)
+	RandomNum(10,5)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11127)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,FEMALE)
+	RandomNum(10,6)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11128)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,FEMALE)
+	RandomNum(10,7)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11129)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,FEMALE)
+	RandomNum(10,8)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11130)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,FEMALE)
+	RandomNum(10,9)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11131)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Gender(Myself,FEMALE)
+	RandomNum(10,10)
+	GlobalTimerExpired("JODLGALL_BCS_ONE_TURN","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#11132)
+		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
+END

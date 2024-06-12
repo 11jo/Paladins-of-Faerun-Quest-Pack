@@ -848,6 +848,24 @@ Ich hatte nicht den Mut, gegen den besten Mörder von Faerûn zu kämpfen.~ // @20
 
 Die Diebesgilde, die sich unter der Stadt versteckt hat, ist jetzt ereledigt. Aber ich habe Artemis vermisst.~ // @24
 
+	
+//////////////////////    Help the prisoner. Un compagnon d'infortune ?
+// Title
+
+@51600 = ~Hilf einem Gefangenen~ // Help the prisoner
+
+// XGERRA
+
+@51601 = ~Hilf einem Gefangenen
+
+Ich habe einen verwundeten Gefangenen getroffen, der versucht hat, hier rauszukommen. Er sagte mir, dass die Wachen nach ihm suchen und dass einer von ihnen einen Schlüssel hat, der das Portal zur Oberfläche aktiviert. Ich muss ihn finden... Vielleicht ist das der Weg nach draußen.~ // @6
+
+
+@51602 = ~Hilf einem Gefangenen
+
+Ich fand den Schlüssel und gab ihn Errad, aber er erfüllte unseren Vertrag nicht und verschwand alleine im Portal.~ // @11
+
+
 
 
 

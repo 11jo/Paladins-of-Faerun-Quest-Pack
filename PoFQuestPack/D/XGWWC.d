@@ -39,7 +39,7 @@ END
 IF ~~ THEN BEGIN 7
   SAY @14
   IF ~~ THEN REPLY @15 DO ~SetGlobal("s#XGWWC","GLOBAL",1)
-AddJournalEntry(@51303,QUEST)~ EXIT
+AddJournalEntry(@51303,QUEST)~ GOTO 11
 END
 
 IF ~Global("s#XGWWC","GLOBAL",1) !Dead("XGBARB1")~ THEN BEGIN 8
@@ -66,4 +66,9 @@ END
 IF ~Global("s#XGWWC","GLOBAL",2)~ THEN BEGIN 10
   SAY @25
   IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @26
+  IF ~~ THEN DO ~CreateCreature("XGWTGC",[510.485],10)~ EXIT
 END

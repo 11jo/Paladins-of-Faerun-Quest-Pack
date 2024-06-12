@@ -266,7 +266,8 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGBAN3.CRE~       ~override/XGBAN3.CRE~
   SAY NAME2 @40
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGbar1.CRE~       ~override/XGbar1.CRE~
-  SAY NAME1 @41
+  SAY NAME1 @41 // Should be another animation BARBARIAN_WARRIOR_...
+  SAY NAME2 @41
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGBARB1.CRE~      ~override/XGBARB1.CRE~
   SAY NAME1 @42
@@ -289,7 +290,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGBARD.CRE~       ~override/XGBARD.CRE~
 COPY ~weidu_external/PoFQuestPack/Actors/XGBARF.CRE~       ~override/XGBARF.CRE~
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGBARGG.CRE~      ~override/XGBARGG.CRE~
-  SAY NAME1 @44
+  SAY NAME1 @44 // Should be another animation BARBARIAN_WARRIOR_...
   SAY NAME2 @45
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGBARG.CRE~       ~override/XGBARG.CRE~
@@ -326,22 +327,22 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGBH1.CRE~        ~override/XGBH1.CRE~
 COPY ~weidu_external/PoFQuestPack/Actors/XGBHC.CRE~        ~override/XGBHC.CRE~
   SAY NAME1 @51
   SAY NAME2 @51
-  WRITE_SHORT 0x14 ~3000~ // XP value
+  WRITE_LONG 0x14 ~3000~ // XP value
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGBH.CRE~         ~override/XGBH.CRE~
   SAY NAME1 @50
   SAY NAME2 @50
-  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3000)
+  WRITE_LONG 0x14 ~1000~ // XP value (lowered from 3000)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGBHN1.CRE~       ~override/XGBHN1.CRE~
   SAY NAME1 @50
   SAY NAME2 @50
-  WRITE_SHORT 0x14 ~2000~ // XP value (lowered from 3000)
+  WRITE_LONG 0x14 ~2000~ // XP value (lowered from 3000)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGBHN.CRE~        ~override/XGBHN.CRE~
   SAY NAME1 @50
   SAY NAME2 @50
-  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3000)
+  WRITE_LONG 0x14 ~1000~ // XP value (lowered from 3000)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGBLACK.CRE~      ~override/XGBLACK.CRE~
 
@@ -777,24 +778,24 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGdrl1.CRE~       ~override/XGdrID1.CRE
   WRITE_BYTE 0x53 ~2~  // attacks/round 2(2)
   WRITE_BYTE 0x238 ~20~  // Strength
   WRITE_BYTE 0x23c ~19~  // Dexterity
-  WRITE_LONG 0x28 ~0x57986~
+  WRITE_LONG 0x28 ~0xE283~
   WRITE_BYTE 0x275 ~2~
   WRITE_ASCII 0x280 ~XGdrID1~ (8) // Script name / Death variable
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdrl1.CRE~       ~override/XGdrl1.CRE~
-  WRITE_SHORT 0x14 ~1200~ // XP value (lowered from 5000)
+  WRITE_LONG 0x14 ~1200~ // XP value (lowered from 5000)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdrl1.CRE~       ~override/XGdJO11.CRE~
   WRITE_ASCII 0x280 ~XGdJO11~ (8) // Script name / Death variable
-  WRITE_SHORT 0x14 ~0~ // XP value
+  WRITE_LONG 0x14 ~0~ // XP value
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdrl1.CRE~       ~override/XGdJO12.CRE~
   WRITE_ASCII 0x280 ~XGdJO12~ (8) // Script name / Death variable
-  WRITE_SHORT 0x14 ~0~ // XP value
+  WRITE_LONG 0x14 ~0~ // XP value
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdrl1.CRE~       ~override/XGdJO13.CRE~
   WRITE_ASCII 0x280 ~XGdJO13~ (8) // Script name / Death variable
-  WRITE_SHORT 0x14 ~0~ // XP value
+  WRITE_LONG 0x14 ~0~ // XP value
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdrl2.CRE~       ~override/XGdrID2.CRE~
   WRITE_SHORT 0x24 ~150~ // Current HP
@@ -805,47 +806,47 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGdrl2.CRE~       ~override/XGdrID2.CRE
   WRITE_BYTE 0x53 ~2~  // attacks/round 2(2)
   WRITE_BYTE 0x238 ~20~  // Strength
   WRITE_BYTE 0x23c ~19~  // Dexterity
-  WRITE_LONG 0x28 ~0x57986~
+  WRITE_LONG 0x28 ~0xE282~
   WRITE_BYTE 0x275 ~2~
   WRITE_ASCII 0x280 ~XGdrID2~ (8) // Script name / Death variable
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdrl2.CRE~       ~override/XGdrl2.CRE~
-  WRITE_SHORT 0x14 ~1100~ // XP value (lowered from 4500)
+  WRITE_LONG 0x14 ~1100~ // XP value (lowered from 4500)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdrl2.CRE~       ~override/XGdJO21.CRE~
   WRITE_ASCII 0x280 ~XGdJO21~ (8) // Script name / Death variable
-  WRITE_SHORT 0x14 ~0~ // XP value
+  WRITE_LONG 0x14 ~0~ // XP value
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdrl2.CRE~       ~override/XGdJO22.CRE~
   WRITE_ASCII 0x280 ~XGdJO22~ (8) // Script name / Death variable
-  WRITE_SHORT 0x14 ~0~ // XP value
+  WRITE_LONG 0x14 ~0~ // XP value
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdrl2.CRE~       ~override/XGdJO23.CRE~
   WRITE_ASCII 0x280 ~XGdJO23~ (8) // Script name / Death variable
-  WRITE_SHORT 0x14 ~0~ // XP value
+  WRITE_LONG 0x14 ~0~ // XP value
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdrl3.CRE~       ~override/XGdrID3.CRE~
   WRITE_SHORT 0x24 ~150~ // Current HP
   WRITE_SHORT 0x26 ~150~ // Maximum HP
   WRITE_SHORT 0x46 ~5~  // Natural AC
   WRITE_SHORT 0x48 ~5~  // Effective AC
-  WRITE_LONG 0x28 ~0x57987~
+  WRITE_LONG 0x28 ~0xE283~
   WRITE_ASCII 0x280 ~XGdrID3~ (8) // Script name / Death variable
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdrl3.CRE~       ~override/XGdrl3.CRE~
-  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 2200)
+  WRITE_LONG 0x14 ~1000~ // XP value (lowered from 2200)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdrl3.CRE~       ~override/XGdJO31.CRE~
   WRITE_ASCII 0x280 ~XGdJO31~ (8) // Script name / Death variable
-  WRITE_SHORT 0x14 ~0~ // XP value
+  WRITE_LONG 0x14 ~0~ // XP value
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdrl3.CRE~       ~override/XGdJO32.CRE~
   WRITE_ASCII 0x280 ~XGdJO32~ (8) // Script name / Death variable
-  WRITE_SHORT 0x14 ~0~ // XP value
+  WRITE_LONG 0x14 ~0~ // XP value
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdrl3.CRE~       ~override/XGdJO33.CRE~
   WRITE_ASCII 0x280 ~XGdJO33~ (8) // Script name / Death variable
-  WRITE_SHORT 0x14 ~0~ // XP value
+  WRITE_LONG 0x14 ~0~ // XP value
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdrlq.CRE~       ~override/XGdrlq.CRE~        
 
@@ -1758,8 +1759,11 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGMFTL8.CRE~      ~override/XGMFTL8.CRE
   SAY NAME2 @232 
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGMFTL.CRE~       ~override/XGMFTL.CRE~        
-  SAY NAME1 @232 
-  SAY NAME2 @232 
+  SAY NAME1 @232
+  SAY NAME2 @232
+  WRITE_ASCII 0x250 ~JOBCSALL~ (8) // Class script
+  WRITE_ASCII 0x2cc ~JODLGHH~ (8) // DLG
+
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGMGAS.CRE~       ~override/XGMGAS.CRE~        
   SAY NAME1 @233 
@@ -1882,47 +1886,47 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGNAS.CRE~        ~override/XGNAS.CRE~
 COPY ~weidu_external/PoFQuestPack/Actors/XGNIN1.CRE~       ~override/XGNIN1.CRE~
   SAY NAME1 @251
   SAY NAME2 @251
-  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
+  WRITE_LONG 0x14 ~1000~ // XP value (lowered from 3500)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGNIN2.CRE~       ~override/XGNIN2.CRE~
   SAY NAME1 @251
   SAY NAME2 @251
-  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
+  WRITE_LONG 0x14 ~1000~ // XP value (lowered from 3500)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGNIN3.CRE~       ~override/XGNIN3.CRE~
   SAY NAME1 @251
   SAY NAME2 @251
-  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
+  WRITE_LONG 0x14 ~1000~ // XP value (lowered from 3500)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGNIN4.CRE~       ~override/XGNIN4.CRE~
   SAY NAME1 @251
   SAY NAME2 @251
-  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
+  WRITE_LONG 0x14 ~1000~ // XP value (lowered from 3500)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGNIN5.CRE~       ~override/XGNIN5.CRE~
   SAY NAME1 @251
   SAY NAME2 @251
-  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
+  WRITE_LONG 0x14 ~1000~ // XP value (lowered from 3500)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGNIN6.CRE~       ~override/XGNIN6.CRE~
   SAY NAME1 @251
   SAY NAME2 @251
-  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
+  WRITE_LONG 0x14 ~1000~ // XP value (lowered from 3500)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGNIN7.CRE~       ~override/XGNIN7.CRE~
   SAY NAME1 @251
   SAY NAME2 @251
-  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
+  WRITE_LONG 0x14 ~1000~ // XP value (lowered from 3500)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGNIN8.CRE~       ~override/XGNIN8.CRE~
   SAY NAME1 @251
   SAY NAME2 @251
-  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
+  WRITE_LONG 0x14 ~1000~ // XP value (lowered from 3500)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGNIN.CRE~        ~override/XGNIN.CRE~
   SAY NAME1 @251 
   SAY NAME2 @251
-  WRITE_SHORT 0x14 ~1000~ // XP value (lowered from 3500)
+  WRITE_LONG 0x14 ~1000~ // XP value (lowered from 3500)
   
 COPY ~weidu_external/PoFQuestPack/Actors/XGNOBG.CRE~       ~override/XGNOBG.CRE~        
 
@@ -1933,7 +1937,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGNOM1.CRE~       ~override/XGNOM1.CRE~
 COPY ~weidu_external/PoFQuestPack/Actors/XGNOM.CRE~        ~override/XGNOM.CRE~
   SAY NAME1 @253
   SAY NAME2 @253
-  WRITE_SHORT 0x14 ~800~ // XP value (lowered from 1800)
+  WRITE_LONG 0x14 ~800~ // XP value (lowered from 1800)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGNOMN.CRE~       ~override/XGNOMN.CRE~        
   SAY NAME1 @252 
@@ -2150,7 +2154,11 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGPAST.CRE~       ~override/XGPAST.CRE~
   SAY NAME1 @277 
   SAY NAME2 @277 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGPEAS.CRE~       ~override/XGPEAS.CRE~        
+COPY ~weidu_external/PoFQuestPack/Actors/XGPEAS.CRE~       ~override/XGPEAS.CRE~
+  SAY NAME1 #9431
+  SAY NAME2 #9431
+  WRITE_ASCII 0x250 ~JOBCSALL~ (8) // Class script
+  WRITE_ASCII 0x2cc ~JODLGHN~ (8) // DLG
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGPETT.CRE~       ~override/XGPETT.CRE~        
 
@@ -2273,7 +2281,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGprin.CRE~       ~override/XGprin.CRE~
   SAY NAME2 @282 
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGPR.CRE~         ~override/XGPR.CRE~
-  WRITE_SHORT 0x14 ~2000~ // XP value (lowered from 4000)
+  WRITE_LONG 0x14 ~2000~ // XP value (lowered from 4000)
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGPRN.CRE~        ~override/XGPRN.CRE~         
 
@@ -2762,7 +2770,9 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGtass.CRE~       ~override/XGtass.CRE~
   SAY NAME1 @33 
   SAY NAME2 @33 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGtdr.CRE~        ~override/XGtdr.CRE~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGtdr.CRE~        ~override/XGtdr.CRE~        
+  SAY NAME1 @185 
+  SAY NAME2 @185          
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGtdrq.CRE~       ~override/XGtdrq.CRE~        
 

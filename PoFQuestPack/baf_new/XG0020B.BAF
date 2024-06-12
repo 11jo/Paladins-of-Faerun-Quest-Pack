@@ -1,7 +1,8 @@
 IF
+	!Global("NEWGAME_SOA","GLOBAL",1)
 	Global("Reveal0020","MYAREA",0)
 	PartyHasItem("XGZAT2")  // ~Ордер на арест~
-	AreaCheck("XG0020")
+	AreaCheck("%NBaldursGate%")
 THEN
   RESPONSE #100
     SetGlobal("Reveal0020","MYAREA",1)
@@ -17,9 +18,10 @@ THEN
 END
 
 IF
+	!Global("NEWGAME_SOA","GLOBAL",1)
 	Global("XGPoFinBG","GLOBAL",1)
 	Global("XGPoFXGMIL","MYAREA",0)
-	AreaCheck("XG0020")
+	AreaCheck("%NBaldursGate%")
 THEN
 	RESPONSE #100
 		CreateCreature("XGMIL",[3840.2483],14)  // Milicien
@@ -37,7 +39,6 @@ THEN
 		Continue()
 END
 
-/*
 IF
 	Global("NEWGAME_SOA","GLOBAL",1)
 	Global("XGPoFinBG","GLOBAL",1)
@@ -57,8 +58,8 @@ THEN
 		ActionOverride(Player6,LeaveAreaLUA("XG0020","",[3707.3156],8))
 		SetGlobal("XGNEWGAME_SOA","GLOBAL",1)
 END
-*/
 
+/*
 IF
 	Global("NEWGAME_SOA","GLOBAL",1)
 	Global("XGPoFinBG","GLOBAL",1)
@@ -72,7 +73,7 @@ THEN
 		UnhideGUI()
 		EndCutSceneMode()
 END
-
+*/
 
 
 

@@ -20,3 +20,6 @@ IF ~~ THEN BEGIN 3
   IF ~~ THEN DO ~GiveItemCreate("XGMAR",Player1,0,0,0)
 AddJournalEntry(@51301,QUEST)~ EXIT
 END
+
+
+/*Ajouter le déplacement du groupe vers Eauprofonde ainsi que Marco rems aux autorité ou bien s'occuper de la famille d'abord*/

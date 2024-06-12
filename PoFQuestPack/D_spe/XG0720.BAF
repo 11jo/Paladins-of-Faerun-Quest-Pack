@@ -1,0 +1,21 @@
+IF
+	!Global("NEWGAME_SOA","GLOBAL",1)
+	Global("XGPoFinBG","GLOBAL",1)
+	AreaCheck("XG0720")
+	Trigger("TravelXG0720",TRUE)
+THEN
+	RESPONSE #100
+		TriggerActivation("TravelBG0108",TRUE)
+		TriggerActivation("TravelXG0720",FALSE)
+END
+
+IF
+	Global("NEWGAME_SOA","GLOBAL",1)
+	Global("XGPoFinBG","GLOBAL",1)
+	AreaCheck("XG0720")
+	Trigger("TravelXG0720",FALSE)
+THEN
+	RESPONSE #100
+		TriggerActivation("TravelXG0720",TRUE)
+		TriggerActivation("TravelBG0108",FALSE)
+END

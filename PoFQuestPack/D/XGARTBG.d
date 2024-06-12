@@ -28,6 +28,7 @@ IF ~~ THEN BEGIN 4
   IF ~~ THEN DO ~TakePartyItem("XGZAT4")
 GiveItemCreate("XGZAT6",Player1,0,0,0)
 AddJournalEntry(@51506,QUEST)
+SetGlobal("XGPoFinBG","GLOBAL",1)
 ActionOverride(Player2,LeaveAreaLUA("%NBaldursGate%","",[282.1732],0))
 ActionOverride(Player1,LeaveAreaLUA("%NBaldursGate%","",[248.1687],0))
 ActionOverride(Player3,LeaveAreaLUA("%NBaldursGate%","",[279.1645],0))

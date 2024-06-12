@@ -18,8 +18,8 @@ Auf Waukeens Promenade traf ich auf einen verängstigten Schmied aus Tiefwasser. 
 @11 = ~Ja, ich habe beschlossen, Euch zu helfen. Erinnert mich daran, was Ihr braucht?~
 @12 = ~Welche Neuigkeiten habt Ihr mitgebracht, mein Freund?~ ~Welche Neuigkeiten habt Ihr mitgebracht, meine Freundin?~
 @13 = ~(Gebt ihm ein Stück Papier...)~
-@14 = ~Ich hätte es mir denken können, Ihr solltet sofort meine Familie finden und in Sicherheit bringen, aber was ist mit Barbarossa, ist er tot?~
-@15 = ~Barbarossa floh vom Schlachtfeld, vermutlich in sein Versteck. Ich wurde von der Stadtwache von Tiefwasser kontaktiert, sie wollen, dass ich mich offiziell um Barbarossa kümmere. Sein Unterschlupf wird jedoch von einem mysteriösen Mann bewacht, für den man ein Passwort benötigt. Wo befindet sich Eure Familie?~
+@14 = ~Ich hätte es mir denken können, Ihr solltet sofort meine Familie finden und in Sicherheit bringen.~
+@15 = ~Ich wurde von der Stadtwache von Tiefwasser kontaktiert, sie wollen, dass ich mich offiziell um Barbarossa kümmere. Sein Unterschlupf wird jedoch von einem mysteriösen Mann bewacht, für den man ein Passwort benötigt. Wo befindet sich Eure Familie?~
 @16 = ~Meine Familie sollte bei meinem Freund sein, der Tiefwasser regiert. Das ist ein großes Haus im Nordosten. Zeigt ihnen diesen Ring, dann werden sie verstehen, dass ich Euch geschickt habe. Bringt sie zum Büro der Stadtwache, ich werde dort auf Euch warten und Euch das Passwort geben.~
 
 /*
@@ -29,4 +29,10 @@ Der Schmied hat Euch alles gesagt, was Ihr wissen müsst. Er bat Euch, seine Fami
 */
 
 
-@18 = ~Noch keine Neuigkeiten~
+@18 = ~Noch keine Neuigkeiten.~
+@19 = ~(Gebt ihm ein Stück Papier and the necklace...)~
+@20 = ~(Gebt ihm the necklace...)~
+@21 = ~Was ist mit Barbarossa, ist er tot?~
+@22 = ~Barbarossa floh vom Schlachtfeld, vermutlich in sein Versteck, and I need to meet a prisoner named Marco at Athkathla prison.~
+@23 = ~Marco ? I know him, you should hurry and learn more about this piece of paper.~
+@24 = ~You need to talk with Marco and learn more about this piece of paper.~

@@ -11,9 +11,11 @@
 **Updated for Enhanced Editions** : ****
 
 
+### **[If people are interrested, The english translation need a very big proofreading)](https://github.com/11jo/Paladins-of-Faerun-Quest-Pack#compatibility)**
+
 [Last version release](https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/releases)
 
-[Link to actual Mod forum](https://www.gibberlings3.net/forums/topic/36756-the-gate-project/)
+[Link to actual Mod Discussions](https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/discussions)
 
 [Lien vers un des forums du Mod](https://www.baldursgateworld.fr/)
 
@@ -27,7 +29,7 @@
 Paladins of Faerûn Quest Pack for Baldur's Gate II: EE and the Enhanced Edition Trilogy (EET).
 
 
-### **[BP-BGT Worldmap (v13 or higher) is required !](https://github.com/SpellholdStudios/BP-BGT-Worldmap)**
+## **[BP-BGT Worldmap (v13 or higher) is required !](https://github.com/SpellholdStudios/BP-BGT-Worldmap)**
 
 
 ## Description
@@ -53,10 +55,11 @@ After installing the mod, be sure to install the [BP-BGT-Worlmap mod](https://gi
 PoFQuestPack is implemented in WeiDU format and should be compatible with other WeiDU mods. If you find any errors, please report them to the mod support forum:
 
 
- - [Forum - Spellhold Studios](http://www.shsforums.net/topic/60732-paladins-of-faerun-quest-pack/)
+ - [Forum - Spellhold Studios](http://www.shsforums.net/topic/60732-paladins-of-faerun-quest-pack/)  
  
-
- - [Forum - The Three Gibberlings](https://www.gibberlings3.net/forums/topic/36756-the-gate-project/)
+ - [The Gate Project Discussions](https://github.com/orgs/The-Gate-Project/discussions) or [Paladin of Faerun Issues](https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/issues)  
+ 
+ - [The Gate Project Discord](https://discord.gg/zGmZssAR)  
 
 
 ## Content

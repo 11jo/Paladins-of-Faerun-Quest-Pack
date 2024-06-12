@@ -1339,3 +1339,21 @@ The guild of thieves hiding beneath the city is now over. But I missed Artemis.~
 
 // UNSOLVED_JOURNAL @26 The nobleman is in danger. Seconde task de la milice suite à Artemis...
 
+	
+//////////////////////    Help the prisoner. Help the prisoner
+// Title
+
+@51600 = ~Un compagnon d'infortune ?~ // Help the prisoner
+
+// XGERRA (UNSOLVED_JOURNAL @6, SOLVED_JOURNAL @11)
+@51601 = ~Un compagnon d'infortune ?
+
+J'ai rencontré un prisonnier blessé, soucieux de trouver une solution pour sortir de cet enfer, Il m'a dit que les gardes étaient à sa poursuite et que l'un d'entre eux possédait une clé permettant d'activer le portail vers la surface. 
+Je dois impérativement mettre la main dessus... C'est peut-être notre chance de nous échapper.~ // @6
+
+
+@51602 = ~Un compagnon d'infortune ?
+
+J'ai trouvé la clé et l'ai remise à Errad... Évidemment il n'a pas tenu parole.  Me voila bien avancé.~ // @11
+
+

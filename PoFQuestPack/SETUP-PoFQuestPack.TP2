@@ -81,29 +81,6 @@ END
 		
 		
   END
-		
-/*		
-
-Ne devrait plus être necessaire avec autotra correctement renseigner dans : PENSER à supprimer les fichiers tra inutiles dans le dossier worldmap
-
-//////////////////////////////////
-// Worldmap
-//////////////////////////////////
-
-// Workaround for worlmap.tra		
-		
-  ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN	
-  
-		COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/EE/worldmap.tra~ ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
-	 
-  END ELSE BEGIN
-  
-		COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/Vanilla/worldmap.tra~ ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
-		
-  END
-  
-// Workaround for worlmap.tra		
-*/	
 
 END
 
@@ -139,11 +116,15 @@ LANGUAGE ~Main English / Francais Partiel~
 BEGIN @1
 DESIGNATED 1
 LABEL ~BGslayer-PoF~
+		  	  
+//////////////////////////////////
+// Other
+//////////////////////////////////
 
-					INCLUDE ~PoFQuestPack/Lib/PoF_Macros/arrays-macros.tpa~ // Unused
-					INCLUDE ~PoFQuestPack/Lib/PoF_Macros/Area-macros.tpa~
-					INCLUDE ~PoFQuestPack/Lib/PoF_Macros/Bam-macros.tpa~
-					INCLUDE ~PoFQuestPack/Lib/PoF_Macros/Creature-macros.tpa~
+	INCLUDE ~PoFQuestPack/Lib/PoF_Macros/arrays-macros.tpa~ // Unused
+		INCLUDE ~PoFQuestPack/Lib/PoF_Macros/Area-macros.tpa~
+			INCLUDE ~PoFQuestPack/Lib/PoF_Macros/Bam-macros.tpa~
+				INCLUDE ~PoFQuestPack/Lib/PoF_Macros/Creature-macros.tpa~
 					INCLUDE ~PoFQuestPack/Lib/PoF_Macros/Item-macros.tpa~
 
 COPY ~PoFQuestPack/bam~   ~override~
@@ -166,75 +147,7 @@ ACTION_IF (GAME_IS ~tob bgt~) BEGIN
 COPY ~PoFQuestPack/Portraits/Vanilla~   ~override~
 
 END
-
-// Add scripts name to existing areas
-
-COPY_EXISTING ~AR0305.ARE~ ~override~
-          WRITE_ASCII 0x94 ~AR0305~ #8
-
-COPY_EXISTING ~AR0527.ARE~ ~override~
-          WRITE_ASCII 0x94 ~AR0527~ #8
-
-COPY_EXISTING ~AR0528.ARE~ ~override~
-          WRITE_ASCII 0x94 ~AR0528~ #8
-
-COPY_EXISTING ~AR1005.ARE~ ~override~
-          WRITE_ASCII 0x94 ~AR1005~ #8
-		  	  
-//////////////////////////////////
-// Other
-//////////////////////////////////
-
-// Invisible creatures for AR0602 Cutscene
-
-COPY ~PoFQuestPack/OTHER/JoNEANT/Cre/JONEAN10.CRE~   ~override/XGNEAN10.CRE~
-	WRITE_ASCII 0x280 ~XGNEAN10~ (8) // Script name / Death variable
-
-COPY ~PoFQuestPack/OTHER/JoNEANT/Cre/JONEANT4.CRE~   ~override/XGNEANT4.CRE~
-	WRITE_ASCII 0x280 ~XGNEANT4~ (8) // Script name / Death variable
-
-COPY ~PoFQuestPack/OTHER/JoNEANT/Cre/JONEANT.CRE~   ~override/XGNEANT.CRE~
-	WRITE_ASCII 0x280 ~XGNEANT~ (8) // Script name / Death variable
-
-COPY ~PoFQuestPack/OTHER/JoNEANT/Cre/JONEAN28.CRE~   ~override/XGNEAN28.CRE~
-	WRITE_ASCII 0x280 ~XGNEAN28~ (8) // Script name / Death variable
-
-COPY_EXISTING ~JAGUARSU.CRE~   ~override/XGJAGU.CRE~
-WRITE_BYTE 0x270 ~255~
 	
-/*	
-	LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete=XX END
-	
-	LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete=XX END
-	
-	LPF DELETE_CRE_EFFECT INT_VAR opcode_to_delete=XX END
-	
-	LPF ITEM_EFFECT_TO_SPELL INT_VAR type=XX  header=XX insert_point=XX new_itm_spl=XXX END (SPRINT ???)
-	
-	LPF ADD_SPELL_EFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  special=XX  header=XX  insert_point=XX  END
-	
-	// extended effect
-	LPF ADD_ITEM_EFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  special=XX  header=XX  type=XX  insert_point=XX  END
-	
-	// equipping effect
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  special=XX  insert_point=XX  END
-	
-	LPF ADD_SPELL_CFEFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  special=XX  insert_point=XX  END
-	
-	LPF ADD_CRE_EFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource1=XX  resource2=XX  effsource=XX effvar=XX vvcresource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  school=XX  special=XX  lowestafflvl=XX  highestafflvl=XX  casterx=XX  castery=XX  targetx=XX  targety=XX  restype=XX  sourceslot=XX  casterlvl=XX  sectype=XX  insert_point=XX  END
-	
-	// DELETE_CRE_ITEM
-	COPY_EXISTING ~xxxxx.CRE~	~override~
-REPLACE_CRE_ITEM ~xxxxxx~ #0 #0 #0 ~none~ ~weapon1~ EQUIP
-SPRINT item_to_delete ~yyyyyy~
-LAUNCH_PATCH_MACRO ~DELETE_CRE_ITEM~
-	
-	LPF DELETE_CRE_ITEM STR_VAR item_to_delete = book45 END
-	
-	LPF DELETE_STORE_ITEM STR_VAR item_to_delete = book45 END
-	
-	Ect ..... Macros Listing ... weidu.org
-*/  
   
 // BG1 audio missing in BG2  
 
@@ -265,12 +178,6 @@ END
 COPY ~PoFQuestPack/OTHER/BCS.TrapforXG0152~   ~override~
 
 
-// Modify GORGOLI.cre to XGGOICE
-
-COPY_EXISTING ~GOLICE01.cre~   ~override/XGGOICE.cre~
-	WRITE_SHORT 0x14 ~2500~ // XP value
-
-
 // Item ressources for XGCMA03.ITM, XGHELM4 and IWD bam
 
 COPY ~PoFQuestPack/OTHER/SPELL.ForItem/XGSPMOD1.SPL~   ~override/XGSPMOD1.SPL~
@@ -289,12 +196,6 @@ END
 ACTION_IF (NOT FILE_EXISTS_IN_GAME ~SPWI525C.BAM~) BEGIN 
 COPY ~PoFQuestPack/OTHER/SPELL.ForItem/SPWI525C.BAM~   ~override~
 END
-
-
-// Missing script name / Death variable for existing ELAIR01.CRE (XG0762)
-
-COPY_EXISTING ~ELAIR01.CRE~   ~override~
-WRITE_ASCII 0x280 ~ELAIR01~ (8)
 
 
 // Add FARAWAY to AREATYPE.IDS (Borrowed from EET by K4thos )
@@ -413,14 +314,51 @@ END
 //////////////////////////////////
 
 
-					INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_Actors.tpa~
+// Invisible creatures for AR0602 Cutscene
 
+COPY ~PoFQuestPack/OTHER/JoNEANT/Cre/JONEAN10.CRE~   ~override/XGNEAN10.CRE~
+	WRITE_ASCII 0x280 ~XGNEAN10~ (8) // Script name / Death variable
+
+COPY ~PoFQuestPack/OTHER/JoNEANT/Cre/JONEANT4.CRE~   ~override/XGNEANT4.CRE~
+	WRITE_ASCII 0x280 ~XGNEANT4~ (8) // Script name / Death variable
+
+COPY ~PoFQuestPack/OTHER/JoNEANT/Cre/JONEANT.CRE~   ~override/XGNEANT.CRE~
+	WRITE_ASCII 0x280 ~XGNEANT~ (8) // Script name / Death variable
+
+COPY ~PoFQuestPack/OTHER/JoNEANT/Cre/JONEAN28.CRE~   ~override/XGNEAN28.CRE~
+	WRITE_ASCII 0x280 ~XGNEAN28~ (8) // Script name / Death variable
 
 // Script name / Death variable for AMNG2.CRE	
 	
 	COPY_EXISTING ~AMNG2.CRE~			~override/AMNG2.CRE~
   WRITE_ASCII 0x280 ~AMNG2~ (8) // Script name / Death variable
+  
+// Blacksmith Marian
 
+	COPY_EXISTING ~PRISONG1.CRE~			~override/XGPRISO1.CRE~
+  WRITE_ASCII 0x280 ~XGPRISO1~ (8) // Script name / Death variable
+
+	COPY_EXISTING ~PRISONK1.CRE~			~override/XGPRISON.CRE~
+  WRITE_ASCII 0x280 ~XGPRISON~ (8) // Script name / Death variable
+  WRITE_ASCII 0x2CC ~XGPRISON~ (8) // Dialog name
+  
+// A farmer in Trademeet
+
+COPY_EXISTING ~JAGUARSU.CRE~   ~override/XGJAGU.CRE~
+	WRITE_BYTE 0x270 ~255~
+
+// Missing script name / Death variable for existing ELAIR01.CRE (XG0762)
+
+COPY_EXISTING ~ELAIR01.CRE~   ~override~
+WRITE_ASCII 0x280 ~ELAIR01~ (8)
+
+// Modify GORGOLI.cre to XGGOICE
+
+COPY_EXISTING ~GOLICE01.cre~   ~override/XGGOICE.cre~
+	WRITE_LONG 0x14 ~2500~ // XP value
+	// WRITE_ASCII 0x248 ~XGPRISON~ (8) // Override Script variable // Unused since modified on the area.
+
+  
 // New actor in ducal palace if game is EET/BGT	
 
 		ACTION_IF GAME_IS ~bgt eet~ BEGIN
@@ -432,6 +370,13 @@ END
   WRITE_ASCII 0x250 ~XGFLAM10~ (8) // Class script
 		END
 
+
+// Actors component
+
+
+		INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_Actors.tpa~
+
+
 ////////////////////////////////////////////////////////////////////////////////////////////
 
 //////////////////////////////////
@@ -439,13 +384,32 @@ END
 //////////////////////////////////
 
 
-					INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_Areas.tpa~
+// Add scripts name to existing areas
+
+COPY_EXISTING ~AR0305.ARE~ ~override~
+          WRITE_ASCII 0x94 ~AR0305~ #8
+
+COPY_EXISTING ~AR0527.ARE~ ~override~
+          WRITE_ASCII 0x94 ~AR0527~ #8
+
+COPY_EXISTING ~AR0528.ARE~ ~override~
+          WRITE_ASCII 0x94 ~AR0528~ #8
+
+COPY_EXISTING ~AR1005.ARE~ ~override~
+          WRITE_ASCII 0x94 ~AR1005~ #8
+		  
+		  
+// Areas component
+
+
+		INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_Areas.tpa~
+
 
 // Areas cheat for Paladin of Faerun
 
-						ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN					
-					INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_CheatsAreas.tph~				
-						END
+			ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN					
+		INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_CheatsAreas.tph~				
+			END
 
 
 // Some ARE file not implemented in original mod and useless
@@ -459,11 +423,11 @@ XG0453.are, XG0453.WED   XG0453.bcs
 ////////////////////////////////////////////////////////////////////////////////////////////
 
 //////////////////////////////////
-// Setup Areas
+// Setup Items
 //////////////////////////////////
 
 
-					INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_Items.tpa~
+		INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_Items.tpa~
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -473,7 +437,7 @@ XG0453.are, XG0453.WED   XG0453.bcs
 //////////////////////////////////
 
 
-					INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_Stores.tpa~
+		INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_Stores.tpa~
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -532,12 +496,16 @@ ADD_JOURNAL TITLE (@51400) @51401 @51402 @51403 @51404 @51405 @51406
  
 //  Killer. Assassin
 ADD_JOURNAL TITLE (@51500) @51501 @51502 @51503 @51504 @51505 @51506 @51507
+ 
+//  Help the prisoner. Un compagnon d'infortune ?
+ADD_JOURNAL TITLE (@51600) @51601 @51602
 
 
 //////////////////////////////////
 // Comp. D & BAF
 //////////////////////////////////
 
+// Comp. D
 
 COMPILE EVALUATE_BUFFER ~PoFQuestPack/d~
 
@@ -547,15 +515,38 @@ ACTION_IF FILE_EXISTS_IN_GAME ~FLAM9.DLG~ AND FILE_EXISTS_IN_GAME ~FLAM7.DLG~ BE
 
 COMPILE EVALUATE_BUFFER ~PoFQuestPack/D_spe/DucalPalace_Cellar_FLAM.d~
 
-END 
+END
 ACTION_IF FILE_EXISTS_IN_GAME ~JA#FLAM1.DLG~ BEGIN
 
 COMPILE EVALUATE_BUFFER ~PoFQuestPack/D_spe/DucalPalace_Cellar_JA#FLAM.d~
 
+END
+ACTION_IF FILE_EXISTS_IN_GAME ~PRISONG1.DLG~ AND FILE_EXISTS_IN_GAME ~PRISONG1.DLG~ BEGIN
+
+COMPILE ~PoFQuestPack/D_spe/Prison_Blacksmith_Marian.d~
+
+END
+
+// Générique DLG for générique pnj
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~JODLGHN.DLG~ OR NOT FILE_EXISTS_IN_GAME ~JODLGWN.DLG~ OR NOT FILE_EXISTS_IN_GAME ~JODLGHH.DLG~ OR NOT FILE_EXISTS_IN_GAME ~JODLGWH.DLG~ BEGIN
+
+COMPILE ~PoFQuestPack/OTHER/JoNEANT/Dlg/JODLGALL.d~
+
 END 
+
+// Comp. BAF
 
 COMPILE ~PoFQuestPack/Baf_new~
 		EVALUATE_BUFFER
+
+// Générique BCS for générique pnj
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~JOBCSALL.BCS~ BEGIN
+
+COMPILE ~PoFQuestPack/OTHER/JoNEANT/Baf/JOBCSALL.BAF~
+
+END 
 
 //////////////////////////////////
 // EXTEND  bcs
@@ -564,13 +555,15 @@ COMPILE ~PoFQuestPack/Baf_new~
 
 ACTION_IF GAME_IS ~bgt eet~ BEGIN
 
-	EXTEND_TOP ~%NBaldursGate_BCS%.BCS~				~PoFQuestPack/Baf_new/XG0020.baf~ EVALUATE_BUFFER
+	EXTEND_TOP ~%NBaldursGate_BCS%.BCS~				~PoFQuestPack/Baf_new/XG0020B.baf~ EVALUATE_BUFFER
 	EXTEND_TOP ~%NBaldursGate_RinniesHouse_L1_BCS%.BCS~				~PoFQuestPack/Baf_new/XG0520.baf~ EVALUATE_BUFFER //(Rinnie home)
 	EXTEND_TOP ~%NBaldursGate_RamazithsTower_L1_BCS%.BCS~				~PoFQuestPack/Baf_new/XG0320.baf~ EVALUATE_BUFFER //(Ramazith home)
 	EXTEND_TOP ~%NBaldursGate_ThreeOldKegs_L1_BCS%.BCS~				~PoFQuestPack/Baf_new/XG0120.baf~ EVALUATE_BUFFER //(Trois vielles chopes RDC)
 	EXTEND_TOP ~%NBaldursGate_ThreeOldKegs_L3_BCS%.BCS~				~PoFQuestPack/Baf_new/XG0820.baf~ EVALUATE_BUFFER //(Trois vielles chopes 2eme)
 	EXTEND_TOP ~%NBaldursGate_DucalPalace_Cellar_BCS%.BCS~				~PoFQuestPack/Baf_new/XG0620.baf~ EVALUATE_BUFFER //(Ducal basement, XG0620)
 	EXTEND_TOP ~%NBaldursGate_DucalPalace_L1_BCS%.BCS~				~PoFQuestPack/Baf_are/JOBG0108.baf~ EVALUATE_BUFFER
+	// Special for game EET but if NEWGAME_SOA 
+	EXTEND_TOP ~XG0720.BCS~				~PoFQuestPack/baf_spe/XG0720.baf~
 
 END
 
@@ -752,7 +745,7 @@ USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR2000.tra~
 //////////////////////////////////
 
 
-					INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_Worldmap.tph~
+		INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_Worldmap.tph~
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -839,3 +832,40 @@ INCLUDE ~%MOD_FOLDER%/lib/a7_tools.tpa~
     END
   END
 */
+
+
+// Memories Stuffs
+
+/*	
+	LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete=XX END
+	
+	LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete=XX END
+	
+	LPF DELETE_CRE_EFFECT INT_VAR opcode_to_delete=XX END
+	
+	LPF ITEM_EFFECT_TO_SPELL INT_VAR type=XX  header=XX insert_point=XX new_itm_spl=XXX END (SPRINT ???)
+	
+	LPF ADD_SPELL_EFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  special=XX  header=XX  insert_point=XX  END
+	
+	// extended effect
+	LPF ADD_ITEM_EFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  special=XX  header=XX  type=XX  insert_point=XX  END
+	
+	// equipping effect
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  special=XX  insert_point=XX  END
+	
+	LPF ADD_SPELL_CFEFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  special=XX  insert_point=XX  END
+	
+	LPF ADD_CRE_EFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource1=XX  resource2=XX  effsource=XX effvar=XX vvcresource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  school=XX  special=XX  lowestafflvl=XX  highestafflvl=XX  casterx=XX  castery=XX  targetx=XX  targety=XX  restype=XX  sourceslot=XX  casterlvl=XX  sectype=XX  insert_point=XX  END
+	
+	// DELETE_CRE_ITEM
+	COPY_EXISTING ~xxxxx.CRE~	~override~
+REPLACE_CRE_ITEM ~xxxxxx~ #0 #0 #0 ~none~ ~weapon1~ EQUIP
+SPRINT item_to_delete ~yyyyyy~
+LAUNCH_PATCH_MACRO ~DELETE_CRE_ITEM~
+	
+	LPF DELETE_CRE_ITEM STR_VAR item_to_delete = book45 END
+	
+	LPF DELETE_STORE_ITEM STR_VAR item_to_delete = book45 END
+	
+	Ect ..... Macros Listing ... weidu.org
+*/  

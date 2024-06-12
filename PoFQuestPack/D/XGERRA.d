@@ -12,7 +12,7 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @5
-  IF ~~ THEN UNSOLVED_JOURNAL @6 EXIT
+  IF ~~ THEN DO ~AddJournalEntry(@51601,QUEST)~ EXIT
 END
 
 IF WEIGHT #2 ~!PartyHasItem("XGERKEY")~ THEN BEGIN 3
@@ -27,9 +27,10 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @10
-  IF ~~ THEN REPLY @12 DO ~EraseJournalEntry(@6)
+  IF ~~ THEN REPLY @12 DO ~EraseJournalEntry(@51601)
 AddexperienceParty(6000)
 TakePartyItem("XGERKEY")
+AddJournalEntry(@51602,QUEST_DONE)
 EscapeArea()
-~ SOLVED_JOURNAL @11 EXIT
+~ EXIT
 END

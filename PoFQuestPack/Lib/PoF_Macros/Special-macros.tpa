@@ -1,0 +1,91 @@
+
+//////////// SPECIAL ///////////////// //////////// SPECIAL /////////////////
+
+// Change misplaced dlg and bcs for générique pnj
+
+ACTION_DEFINE_ASSOCIATIVE_ARRAY special_dlg_to_change BEGIN
+
+"KPFARM01" => "JODLGHN"
+"KPFARM02" => "JODLGFN"
+"KPFARM03" => "JODLGHN"
+"KPFARM04" => "JODLGHN"
+"MONKTU1" => "JODLGHN"
+"KPFARM01" => "JODLGHN"
+END
+
+ACTION_DEFINE_ASSOCIATIVE_ARRAY special_bcs_general_to_change BEGIN
+
+"UDGO" => "JOBCSALL"
+END
+
+ACTION_DEFINE_ASSOCIATIVE_ARRAY special_bcs_class_to_change BEGIN
+
+//"UDGO" => "JOBCSALL"
+END
+	
+DEFINE_PATCH_MACRO UPDATE_POF_CRE_NAMES_ON_AREA BEGIN
+// Creature in Area
+  READ_LONG  0x54 cre_off ELSE 0
+  READ_SHORT  0x58 cre_num ELSE 0
+  PATCH_PRINT ~PRE-LOOP~
+  FOR (index = 0; index < cre_num; ++index) BEGIN	
+	// + 0x80 for Character // + 0x48 for DLG // + 0x50 Script (Override) // + 0x58 Script (General) // + 0x60 Script (Class) // + 0x68 Script (Class) // + 0x70 Script (Default) // + 0x78 Script (Specific)
+    SET currentdialog = cre_off + index  * 0x110 + 0x48
+		LPM UPDATE_POF_DLG_NAMES_ON_AREA  // Associated macro for Dlg name		
+    SET currentscript_class = cre_off + index  * 0x110 + 0x60
+		LPM UPDATE_POF_SCRIPT_CLASS_NAMES_ON_AREA  // Associated macro for Script (Class) name	
+    SET currentscript_general = cre_off + index  * 0x110 + 0x58
+		LPM UPDATE_POF_SCRIPT_GENERAL_NAMES_ON_AREA  // Associated macro for Script (General) name	
+			PATCH_IF cre_off + index  * 0x110 + 0x60 STRING_EQUAL_CASE "NONE" AND cre_off + index  * 0x110 + 0x272 STRING_EQUAL_CASE "1" AND cre_off + index  * 0x110 + 0x80 NOT STRING_EQUAL_CASE "^.XG+\.cre$" BEGIN
+				//WRITE_ASCII 0x250 ~JOBCSALL~ (8) // Class script
+			//END
+			//PATCH_IF cre_off + index  * 0x110 + 0x48 STRING_EQUAL_CASE "NONE" BEGIN
+				//WRITE_ASCII 0x2cc ~JODLGHN~ (8) // DLG
+			//END
+END
+
+/////////////// Associated macro for Dlg name		
+DEFINE_PATCH_MACRO UPDATE_POF_DLG_NAMES_ON_AREA BEGIN
+  READ_ASCII currentdialog currentdialog_name (8) NULL
+    TO_UPPER ~currentdialog_name~
+    PATCH_PRINT ~INDEX: %index% NAME: %currentdialog_name%~
+    PATCH_IF (VARIABLE_IS_SET $special_dlg_to_change(~%currentdialog_name%~)) BEGIN
+      SPRINT ~currentdialog_newname~ $special_dlg_to_change(~%currentdialog_name%~)
+      PATCH_PRINT ~INDEX: %index% NAME: %currentdialog_name% NEWNAME: %currentdialog_newname%~
+      WRITE_ASCIIE currentdialog ~%currentdialog_newname%~ (8)
+			//PATCH_IF ~%currentdialog_name%~ STRING_EQUAL_CASE "NONE" BEGIN
+				//////WRITE_ASCII currentdialog ~JODLGHN~ (8) // DLG
+					////PATCH_PRINT ~INDEX: %index% NAME: %currentdialog_name% NEWNAME: JODLGHN~
+			//END
+    END
+END
+
+/////////////// Associated macro for CLASS SCRIPT name		
+DEFINE_PATCH_MACRO UPDATE_POF_SCRIPT_CLASS_NAMES_ON_AREA BEGIN
+  READ_ASCII currentscript_class currentscript_class_name (8) NULL
+    TO_UPPER ~currentscript_class_name~
+    PATCH_PRINT ~INDEX: %index% NAME: %currentscript_class_name%~
+    PATCH_IF (VARIABLE_IS_SET $special_bcs_class_to_change(~%currentscript_class_name%~)) BEGIN
+      SPRINT ~currentscript_class_newname~ $special_bcs_class_to_change(~%currentscript_class_name%~)
+      PATCH_PRINT ~INDEX: %index% NAME: %currentscript_class_name% NEWNAME: %currentscript_class_newname%~
+      WRITE_ASCIIE currentscript_class ~%currentscript_class_newname%~ (8)
+			////////PATCH_IF ~%currentscript_class_name%~ STRING_EQUAL_CASE "NONE" BEGIN
+				//////WRITE_ASCII currentscript_class ~JOBCSALL~ (8) // DLG
+					////PATCH_PRINT ~INDEX: %index% NAME: %currentscript_class_name% NEWNAME: JOBCSALL~
+			//END
+    END
+END
+
+/////////////// Associated macro for GENERAL SCRIPT name		
+DEFINE_PATCH_MACRO UPDATE_POF_SCRIPT_GENERAL_NAMES_ON_AREA BEGIN
+  READ_ASCII currentscript_general currentscript_general_name (8) NULL
+    TO_UPPER ~currentscript_general_name~
+    PATCH_PRINT ~INDEX: %index% NAME: %currentscript_general_name%~
+    PATCH_IF (VARIABLE_IS_SET $special_bcs_general_to_change(~%currentscript_general_name%~)) BEGIN
+      SPRINT ~currentscript_general_newname~ $special_bcs_general_to_change(~%currentscript_general_name%~)
+      PATCH_PRINT ~INDEX: %index% NAME: %currentscript_general_name% NEWNAME: %currentscript_general_newname%~
+      WRITE_ASCIIE currentscript_general ~%currentscript_general_newname%~ (8)
+    END
+END
+
+//////////// SPECIAL ///////////////// //////////// SPECIAL /////////////////

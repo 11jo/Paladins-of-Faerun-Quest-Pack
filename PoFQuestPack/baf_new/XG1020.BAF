@@ -7,10 +7,10 @@ THEN
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
-	CreateCreature("INVISABO",[496.2160],0)  // ~Маргул~
-	ForceSpell("INVISABO",CUTSCENE_METEOR_SWARM)
-	CreateCreature("INVISABO",[986.2329],0)  // ~Маргул~
-	ForceSpell("INVISABO",CUTSCENE_METEOR_SWARM)
+	//CreateCreature("INVISABO",[496.2160],0)  // ~Маргул~
+	//ForceSpell("INVISABO",CUTSCENE_METEOR_SWARM)
+	//CreateCreature("INVISABO",[986.2329],0)  // ~Маргул~
+	//ForceSpell("INVISABO",CUTSCENE_METEOR_SWARM)
 	Wait(6)
     ClearAllActions()
     CreateCreatureDoor("XGBRMOC",[565.2472],0)  // ~Маргул~
@@ -25,11 +25,13 @@ THEN
     Wait(4)
     DisplayString("XGBRMOC",@4)  // @4
     Wait(2)
-	ActionOverride("INVISABO",DestroySelf())
+	//ActionOverride("INVISABO",DestroySelf())
     CreateCreature("XGBRMO",[362.2419],0)  // ~Брат монахов~
     CreateCreature("XGBRMIL",[662.2549],0)  // ~Хранитель братства~
     CreateCreature("XGBRMIL",[678.2050],0)  // ~Хранитель братства~
     CreateCreature("XGBRMIL",[993.2175],0)  // ~Хранитель братства~
+	ForceSpell("XGBRMOC",CUTSCENE_METEOR_SWARM)
+    Wait(2)
     ClearAllActions()
     Wait(2)
     ForceSpell("XGBRMOC",DRYAD_TELEPORT)
@@ -52,6 +54,7 @@ THEN
     Wait(2)
     DisplayString("XGMIL",@5)  // @5
     Wait(4)
+    SetGlobal("EnteredXG1020","XG1020",2)
     UnhideGUI()
     EndCutSceneMode()
 END
@@ -67,8 +70,8 @@ THEN
     Wait(4)
     DisplayStringHead(Player1,@6)
     Wait(4)
-ForceSpell(Player1,DRYAD_TELEPORT)
-ActionOverride(Player1,LeaveAreaLUA("XG0720","",[1000.750],0))
+	ForceSpell(Player1,DRYAD_TELEPORT)
+	ActionOverride(Player1,LeaveAreaLUA("XG0720","",[1000.750],0))
     UnhideGUI()
     EndCutSceneMode()
 END

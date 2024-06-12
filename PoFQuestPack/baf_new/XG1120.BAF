@@ -16,6 +16,7 @@ THEN
     Wait(5)
     ActionOverride("XGARTBG",EscapeArea())
     Wait(3)
+	SetGlobal("XGPoFinBG","GLOBAL",1)
     ActionOverride(Player2,LeaveAreaLUA("%NBaldursGate%","",[282.1732],0))
     ActionOverride(Player1,LeaveAreaLUA("%NBaldursGate%","",[248.1687],0))
     ActionOverride(Player3,LeaveAreaLUA("%NBaldursGate%","",[279.1645],0))

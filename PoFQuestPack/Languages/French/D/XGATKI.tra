@@ -1,9 +1,9 @@
 @0 = ~Ah, <CHARNAME> ! Salutations, mon ami, je suis désolé notre rencontre se déroule dans des circonstances si dramatique, enfin en ce qui me concerne.~ ~Ah, <CHARNAME> ! Salutations, mon amie, je suis désolé notre rencontre se déroule dans des circonstances si dramatique, enfin en ce qui me concerne.~
-@1 = ~ Nous sommes-nous déjà rencontrés ? Quelles sont les raisons qui requiert ma présence ? ~ // CHARNAME
+@1 = ~ Nous serions-nous déjà vu ? Quelles sont les raisons qui requiert ma présence ? ~ // CHARNAME
 @2 = ~Non, non. nous ne nous sommes jamais rencontrés, mais j'ai bien connu Gorion, il était mon ami. Quant aux raisons de votre présence ? J'ai besoin d'aide et je ne peux pas compter sur de simples mercenaires pour une mission aussi importante. J'ai entendu dire que vous étiez à Athkatla, alors j'ai saisi l'occasion.~
 @3 = ~Mais qui êtes-vous exactement pour bénéficier d'une telle protection ?~ // CHARNAME
 @4 = ~ Je suis l'un des membre du conseil des six, le groupe qui dirige la ville~
-@5 = ~Oh, je n'en avais aucune idée. C'est un grand honneur, monseigneur.~ // CHARNAME
+@5 = ~Oh, je n'en avais aucune idée. C'est un grand honneur, « monseigneur ».~ // CHARNAME
 @6 = ~Le « monseigneur » n'est absolument pas nécessaire, <CHARNAME>. Laissez-moi vous exposer la situation et solliciter votre aide.~
 @7 = ~Vous avez toute mon attention.~ // CHARNAME
 @8 = ~Il y a peu, un groupe d'inconnus à enlevé ma fille, probablement pour le compte d'une quelconque personne. Ma fille est impliquée dans un conflit politique dans les îles voisines. La Reine locale est confrontée à son propre fils, celui-ci s'est allié aux barbares du nord. Depuis de nombreuses années, les îles Moonshae sont sources de querelles, et leur gouvernance est remise en question. Athkatla soutient officieusement la souveraine et son armée en lui fournissant armes, ressources et matériels, ma fille agit en tant qu'intermédiaire. Comme vous vous en doutez cet accord est des plus secrets. Mais d'une manière ou d'une autre, le prince l'a découvert. Je vous demande donc de mener votre enquête et de retrouver ma fille. Évidemment une récompense substantielle vous attend en retour. Aurez-vous le courage d'accomplir cette quête ?~
