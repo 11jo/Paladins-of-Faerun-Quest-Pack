@@ -1,4 +1,7 @@
 @1 = ~Ich habe gehört, dass nach Elgenns Tod die meisten Zwerge geflohen sind... Gute Arbeit. Hier ist die versprochene Belohnung.~
+
+
+/*
 @2 = ~Mine.
 
 Ich habe das Wäldchen von den Zwergen befreit.~
@@ -11,5 +14,8 @@ Beim Erkunden stieß ich auf den Zwerg Elgenn, er braucht Hilfe beim Schutz ihrer
 @5 = ~Mine.
 
 In den Slums bin ich auf einen Reisenden gestoßen, der Gerüchte über Probleme in den Minen der Zwerge in Tethyr gehört hat, ich könnte dort anhalten und ihnen helfen.~
+*/
+
+
 @6 = ~Dankeschön und auf Wiedersehen.~
 @7 = ~Beschützt Elgenn.~

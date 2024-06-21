@@ -22,7 +22,8 @@ END
 IF ~~ THEN BEGIN 3
   SAY @8
   IF ~~ THEN REPLY @9 DO ~RevealAreaOnMap("XG0004")
-EscapeArea()~ UNSOLVED_JOURNAL @10 EXIT
+AddJournalEntry(@51803,QUEST)
+EscapeArea()~ EXIT
 END
 
 IF ~  !NumberOfTimesTalkedTo(0)~ THEN BEGIN 4

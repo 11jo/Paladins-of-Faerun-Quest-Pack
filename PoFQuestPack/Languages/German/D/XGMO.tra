@@ -8,9 +8,14 @@
 @7 = ~Okay, ich werde versuchen, ob ich helfen kann.~
 @8 = ~Gut, ich habe auf der Karte markiert, wo sich die Zwergenminen befinden. Ich wünsche Euch viel Glück.~
 @9 = ~Wir sehen uns bald.~
+
+/*
 @10 = ~Mine.
 
 In den Slums traf ich einen Reisenden, der Gerüchte über Probleme in den Zwergenminen in Tethyr gehört hatte. Ich könnte versuchen, ihnen zu helfen.~
+*/
+
+
 @11 = ~Vielleicht ändert Ihr Eure Meinung?~
 @12 = ~Ja, zeigt mir, wo die Minen liegen, ich werde versuchen zu helfen.~
 @13 = ~Nein, ich habe das Interesse daran verloren.~

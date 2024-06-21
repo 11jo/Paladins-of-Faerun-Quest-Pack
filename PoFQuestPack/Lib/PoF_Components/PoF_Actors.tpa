@@ -669,7 +669,8 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGDEV2.CRE~       ~override/XGDEV2.CRE~
   SAY NAME1 @84 
   SAY NAME2 @84 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGDEVIL.CRE~      ~override/XGDEVIL.CRE~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGDEVIL.CRE~      ~override/XGDEVIL.CRE~
+	WRITE_LONG 0x28 ~0x7F14~ // Animation Githyanki GITHYANKI - 0x7F14
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGDG.CRE~         ~override/XGDG.CRE~          
   SAY NAME1 @85 
@@ -781,6 +782,42 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGdrl1.CRE~       ~override/XGdrID1.CRE
   WRITE_LONG 0x28 ~0xE283~
   WRITE_BYTE 0x275 ~2~
   WRITE_ASCII 0x280 ~XGdrID1~ (8) // Script name / Death variable
+  
+//////////////
+////   // animation Drider_... to add .............//////
+///////////////// XGdrl1 XGdrl2 XGdrl3
+
+// mAYBE PAS NECESSAIRE 
+
+/*BEGIN @1012
+LABEL ZG-MIH-DRACOLISKS-2-NWN-BASIS
+DESIGNATED 1002
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME  ~mh#draco.cre~) @1013
+
+	INCLUDE ~zgtweaks/library/animations.tpa~
+
+	ACTION_IF (IDS_OF_SYMBOL (~animate~ ~BASILISK_NWN~) < 0) BEGIN
+		LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0x7d00 slotMax = 0x7dff RET slot END
+		ACTION_IF (slot <= 0) BEGIN
+		  FAIL @1014
+		END
+
+		LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+		APPEND ~animate.ids~ ~0x%hexNumber% BASILISK_NWN~ UNLESS ~BASILISK_NWN~
+		CLEAR_IDS_MAP
+
+		COPY ~%MOD_FOLDER%/copy/basilisk_nwn.ini~ ~override/%hexNumber%.ini~
+
+		COPY ~%MOD_FOLDER%/copy/nwnbas~ ~override~
+	END*/
+	
+	/*
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+
+COPY ~C#Solaufein/animations/ee/sound~ ~override~
+COPY ~C#Solaufein/animations/ee/bam~ ~override~
+	END
+	*/
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdrl1.CRE~       ~override/XGdrl1.CRE~
   WRITE_LONG 0x14 ~1200~ // XP value (lowered from 5000)
@@ -1084,6 +1121,7 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGERLR.CRE~       ~override/XGERLR.CRE~
 COPY ~weidu_external/PoFQuestPack/Actors/XGERRAD.CRE~      ~override/XGERRAD.CRE~       
   SAY NAME1 @131 
   SAY NAME2 @131 
+  WRITE_ASCII 0x248 ~SHOUT06~ (8) // OVERRIDE script
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGESAP.CRE~       ~override/XGESAP.CRE~        
   SAY NAME1 @132 
@@ -2159,6 +2197,13 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGPEAS.CRE~       ~override/XGPEAS.CRE~
   SAY NAME2 #9431
   WRITE_ASCII 0x250 ~JOBCSALL~ (8) // Class script
   WRITE_ASCII 0x2cc ~JODLGHN~ (8) // DLG
+
+COPY ~weidu_external/PoFQuestPack/Actors/XGPEAS.CRE~       ~override/XGJOPEAS.CRE~
+  SAY NAME1 #9431
+  SAY NAME2 #9431
+  WRITE_ASCII 0x248 ~XGJOPEAS~ (8) // OVERRIDE script
+  WRITE_ASCII 0x2cc ~JODLGHN~ (8) // DLG
+  WRITE_ASCII 0x280 ~XGJOPEAS~ (8) // Death var
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGPETT.CRE~       ~override/XGPETT.CRE~        
 

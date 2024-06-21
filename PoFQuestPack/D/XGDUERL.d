@@ -13,17 +13,23 @@ END
 IF ~~ THEN BEGIN 2
   SAY @4
   IF ~~ THEN REPLY @5 DO ~Enemy()~ EXIT
-  IF ~~ THEN REPLY @6 DO ~ActionOverride(Player2,LeaveAreaLUA("XG04N2","",[3050.2236],0))
+  IF ~~ THEN REPLY @6 DO ~AddJournalEntry(@51802,QUEST)
+ActionOverride(Player2,LeaveAreaLUA("XG04N2","",[3050.2236],0))
 ActionOverride(Player1,LeaveAreaLUA("XG04N2","",[3012.2262],0))
 ActionOverride(Player3,LeaveAreaLUA("XG04N2","",[2977.2234],0))
 ActionOverride(Player4,LeaveAreaLUA("XG04N2","",[3013.2210],0))
 ActionOverride(Player5,LeaveAreaLUA("XG04N2","",[2968.2292],0))
-ActionOverride(Player6,LeaveAreaLUA("XG04N2","",[2928.2247],0))~ UNSOLVED_JOURNAL @7 EXIT
+ActionOverride(Player6,LeaveAreaLUA("XG04N2","",[2928.2247],0))~ EXIT
 END
 
-IF ~!NumTimesTalkedTo(0) Dead("XGELG")~ THEN BEGIN 3
+IF ~!NumTimesTalkedTo(0) Dead("XGELG") Global("XGELGisDead","GLOBAL",0)~ THEN BEGIN 3
   SAY @8
-  IF ~~ THEN REPLY @9 DO ~GiveItemCreate("XGCLUB1",Player1,0,0,0)
-GiveItemCreate("XGPLAT5",Player1,0,0,0)~ 
+  IF ~~ THEN REPLY @9 DO ~SetGlobal("XGELGisDead","GLOBAL",1)
+ GiveItemCreate("XGCLUB1",Player1,0,0,0)
+GiveItemCreate("XGPLAT5",Player1,0,0,0)
+EraseJournalEntry(@51802)
+EraseJournalEntry(@51801)
+EraseJournalEntry(@51803)
+AddJournalEntry(@51805,QUEST_DONE)~ 
 SOLVED_JOURNAL @10 EXIT
 END

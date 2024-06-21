@@ -59,22 +59,21 @@ THEN
 END
 */
 
+/*
 IF
-	Global("NEWGAME_SOA","GLOBAL",1)
-	Global("XGPoFinBG","GLOBAL",1)
-	Global("XGNEWGAME_SOA","GLOBAL",1)
-	AreaCheck("XG0020")
+	OR(2)
+		Global("XGJOPEAS","GLOBAL",1)
+		Global("XGNEWGAME_SOA","GLOBAL",1)
 THEN
 	RESPONSE #100
+		SetGlobal("XGJOPEAS","GLOBAL",0)
 		SetGlobal("XGNEWGAME_SOA","GLOBAL",0)
-		Wait(2)
-		FadeFromColor([20.0],0)
-		UnhideGUI()
-		EndCutSceneMode()
+		//Wait(2)
+		//FadeFromColor([20.0],0)
+		//UnhideGUI()
+		//EndCutSceneMode()
 END
-
-
-
+*/
 
 /*
 IF

@@ -1,4 +1,15 @@
 IF
+	Global("s#XGthf","GLOBAL",1)
+	!Global("XGthfQuestDone","GLOBAL",1)
+	PartyHasItem("XGSWOR2")
+	Global("XGSWOR2","MYAREA",0)
+THEN
+  RESPONSE #100
+		SetGlobal("XGSWOR2","MYAREA",1)
+		AddJournalEntry(@51705,QUEST)
+END
+
+IF
   Global("RevealXG1120","XG1120",0)
   HPLT("XGARTBG",120)  // ~Артемис~
 THEN

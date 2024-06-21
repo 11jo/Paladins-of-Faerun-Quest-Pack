@@ -1,4 +1,12 @@
 IF
+	Global("XG04N3","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("XG04N3","LOCALS",0)
+		Explore()
+END
+
+IF
   OnCreation()
   PartyHasItem("XGDHEA1")  // ~Сердце дьявола~
   PartyHasItem("XGDHEAR")  // ~Сердце дьявола~
@@ -53,4 +61,3 @@ THEN
     UnhideGUI()
     EndCutSceneMode()
 END
-

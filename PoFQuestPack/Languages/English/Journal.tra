@@ -863,3 +863,75 @@ I met a wounded prisoner trying to get out of here. He told me that the guards w
 @51602 = ~Help the prisoner
 
 I found the key and gave it to Errad, but he did not fulfill our contract and disappeared into the portal myself.~ // @11
+
+	
+//////////////////////    3 Relics. Introuvables.
+// Title
+
+@51700 = ~3 Relics~ // 3 Relics
+
+// XGthf
+@51701 = ~3 relics
+
+One is in Atkatla, the second is somewhere in the Kalimport area, and the third is on the coast of Swords. If I find these relics, Toise Horster in Atkatl will pay me 10,000 gold for each of them. You can also leave them to yourself. Such powerful relics can be very useful.~ // @6
+
+@51702 = ~3 relics
+
+Task failed.~ // @8
+
+// Addition
+@51703 = ~3 relics
+
+Found some Gauntlets in the Ice Fortress, maybe one of the relics Thoice Chorster is looking for.~
+
+@51704 = ~3 relics
+
+Found some Boots in Calimshan desert, maybe one of the relics Thoice Chorster is looking for.~
+
+@51705 = ~3 relics
+
+Found a Sword in Baldur's Gate, maybe one of the relics Thoice Chorster is looking for.~
+
+@51706 = ~3 relics
+
+Mission accomplished, missing items found, farewell.~
+
+	
+//////////////////////    Mine. .
+// Title
+
+@51800 = ~Mine~ // 3 Relics
+
+// XGELG
+@51801 = ~Mine
+
+During the study, I came across a gnome Elgen, he needs help in protecting the mine. I agreed, my task is to explore the western and eastern wings of the mine, kill the leader of the duergar and monsters and bring the head, or at least their body parts, to Elgen.~ // @11
+
+@51802 = ~Mine
+
+The duergar leader will give me two valuable items if I get rid of the gnomes in the central part of the mine.~ // @18
+
+@51803 = ~Mine
+
+In the slums, I came across a traveler who heard some rumors about problems in the dwarf mines in Tethyr. I could try to help them.~ // @19
+
+@51804 = ~Mine
+
+I found and killed both, the monster and the gray leader. The gnome mine is safe again.~ // @20
+
+
+// XGDUEL1
+@51805 = ~ Mine
+
+I killed the gnomes from mine.~ // @2
+
+
+
+
+
+
+
+
+
+
+

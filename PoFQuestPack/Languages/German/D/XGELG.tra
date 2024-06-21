@@ -9,15 +9,22 @@
 @8 = ~Der Duergar am Eingang riet mir, keinen Fehler zu machen und mich um meine eigenen Angelegenheiten zu kümmern. Und ich stimme ihm zu, viel Glück und auf Wiedersehen!~
 @9 = ~Es gibt 3 Wege, die aus diesem Raum führen, einer ist der, auf dem Ihr gekommen seid, ein anderer führt nach Osten zum Unterschlupf der Grauen, und der letzte westliche Korridor führt zu Monstern, die ebenfalls vernichtet werden müssen. Findet und tötet ihre Anführer und bringt mir ihre Köpfe.~
 @10 = ~Ich ziehe schon los!~
+
+/*
 @11 = ~Mine.
 
 Beim Erkunden bin ich auf den Zwerg Elgen gestoßen, er braucht Hilfe beim Schutz der Mine. Ich stimmte zu, meine Aufgabe ist es, den westlichen und östlichen Flügel der Mine zu erkunden, den Anführer der Duergar und Monster zu töten und den Kopf, oder zumindest ihre Körperteile, zu Elgen zu bringen.~
+*/
+
+
 @12 = ~Ihr seid zurückgekommen, also habt Ihr beschlossen, uns zu helfen?~
 @13 = ~Nein, ich werde mich nicht einmischen.~
 @14 = ~HaHabt Ihr sie gefunden und vernichtet?~
 @15 = ~Ja, niemand wird Euch mehr belästigen, die Monster sind in ihre Welt zurückgekehrt, und die überlebenden Duergar sind geflohen.~
 @16 = ~Danke <CHARNAME>, Ihr habt uns sehr geholfen, hier ist Eure Belohnung.~
 @17 = ~Danke und auf Wiedersehen.~
+
+/*
 @18 = ~Mine.
 
 Der Anführer der Duergar gibt mir zwei wertvolle Gegenstände, wenn ich die Zwerge im mittleren Teil der Mine loswerde.~
@@ -27,3 +34,4 @@ In den Slums traf ich auf einen Reisenden, der Gerüchte über Probleme in den Zwe
 @20 = ~Mine.
 
 Ich habe sowohl die Monster als auch den Anführer der Grauen gefunden und getötet. Die Zwergenmine ist wieder sicher.~
+*/

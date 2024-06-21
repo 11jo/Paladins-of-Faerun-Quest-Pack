@@ -1,4 +1,21 @@
 IF
+	Global("XGJOPEAS","GLOBAL",0)
+	Global("NEWGAME_SOA","GLOBAL",1)
+	Global("XGPoFinBG","GLOBAL",1)
+	AreaCheck("BG0200")  // (PoF)  Porte de Baldur
+THEN
+	RESPONSE #100
+		CreateCreatureObject("XGJOPEAS",Player1,0,0,0)  // Paysan // Player1
+		CreateCreature("XGJOPEAS",[562.2338],SE)  // Paysan // Sud
+		CreateCreature("XGJOPEAS",[1171.3119],SE)  // Paysan // Sud
+		CreateCreature("XGJOPEAS",[324.841],SE)  // Paysan // Nord Ouest
+		CreateCreature("XGJOPEAS",[1947.2900],SE)  // Paysan // Front palace
+		CreateCreature("XGJOPEAS",[4343.1930],SE)  // Paysan // Nord East
+		CreateCreature("XGJOPEAS",[3782.3065],SE)  // Paysan
+		SetGlobal("XGJOPEAS","GLOBAL",1)
+END
+
+IF
 	!Global("NEWGAME_SOA","GLOBAL",1)
 	Global("Reveal0020","MYAREA",0)
 	PartyHasItem("XGZAT2")  // ~Ордер на арест~
@@ -39,6 +56,7 @@ THEN
 		Continue()
 END
 
+/*
 IF
 	Global("NEWGAME_SOA","GLOBAL",1)
 	Global("XGPoFinBG","GLOBAL",1)
@@ -50,14 +68,17 @@ THEN
 		ClearAllActions()
 		FadeToColor([50.0],0)
 		Wait(2)
+		SetGlobal("XGNEWGAME_SOA","GLOBAL",1)
 		ActionOverride(Player2,LeaveAreaLUA("XG0020","",[3782.3065],8))
 		ActionOverride(Player1,LeaveAreaLUA("XG0020","",[3818.3026],8))
 		ActionOverride(Player3,LeaveAreaLUA("XG0020","",[3877.3112],8))
 		ActionOverride(Player4,LeaveAreaLUA("XG0020","",[3802.3159],8))
 		ActionOverride(Player5,LeaveAreaLUA("XG0020","",[3660.3114],8))
 		ActionOverride(Player6,LeaveAreaLUA("XG0020","",[3707.3156],8))
-		SetGlobal("XGNEWGAME_SOA","GLOBAL",1)
+		UnhideGUI()
+		EndCutSceneMode()
 END
+*/
 
 /*
 IF

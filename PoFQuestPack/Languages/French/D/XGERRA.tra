@@ -1,4 +1,4 @@
-@1 = ~Ohé, qui êtes vous ? j'aurais bien besoin d'un coup de main...~
+@1 = ~Ohé, qui êtes vous ? J'aurais bien besoin d'un coup de main...~
 @2 = ~Mon nom est <CHARNAME> et toi qui es-tu ? De quoi as-tu besoin ?~
 @3 = ~Je m'appelle Errad, on m'a emprisonné dans cet endroit horrible... J'essaye de m'échapper de cette prison, pour autant que ce lieu maudit puisse être appelé ainsi, mais cette blessure m’empêche d'avancer... Les matons sont à ma recherche <CHARNAME> et je n'aurais pas la force de les affronter. Il faut impérativement récupérer la clé du portail... L'un des geôliers a une copie de cette clé à sa disposition. Pouvez-vous la lui prendre ?~
 @4 = ~Je vais faire mon possible... Ensuite nous pourrons tous sortir d'ici... Cela te paraît-il raisonnable, Errad ? ~
@@ -13,7 +13,7 @@ I met a wounded prisoner trying to get out of here. He told me that the guards w
 @7 = ~Avez-vous la clé, pouvons-nous enfin sortir de cet enfer ?~
 @8 = ~Pas encore...~
 @9 = ~Oui Errad, je l'ai trouvé...~
-@10 = ~Merveilleux... Malheureusement cette clé ne permet qu'à une seule personne d'être transporté à travers le portail. Au revoir l'ami et merci pour votre collaboration...~ ~Merveilleux... Malheureusement cette clé ne permet qu'à une seule personne d'être transporté à travers le portail. Au revoir l'amie et merci pour votre collaboration...~
+@10 = ~Merveilleux... Malheureusement cette clé ne permet qu'à une seule personne d'être transporté à travers le portail. Au revoir l'ami et merci pour votre collaboration...~ ~Merveilleuse... Malheureusement cette clé ne permet qu'à une seule personne d'être transporté à travers le portail. Au revoir l'amie et merci pour votre collaboration...~
 
 /*
 @11 = ~ Help the prisoner.

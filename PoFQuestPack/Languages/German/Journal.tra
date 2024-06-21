@@ -865,6 +865,72 @@ Ich habe einen verwundeten Gefangenen getroffen, der versucht hat, hier rauszuko
 
 Ich fand den Schlüssel und gab ihn Errad, aber er erfüllte unseren Vertrag nicht und verschwand alleine im Portal.~ // @11
 
+	
+//////////////////////    3 Relics. Introuvables.
+// Title
+
+@51700 = ~3 Relikte~ // 3 Relics
+
+// XGthf
+@51701 = ~3 Relikte
+
+Eines befindet sich in Athkatla, das zweite irgendwo in der Gegend von Kalimport und das dritte an der Schwertküste. Wenn ich diese Relikte finde, wird Toise Horster in Athkatla mir 10.000 Gold für jedes von ihnen zahlen. Ihr könnt sie aber auch selbst behalten. Solche mächtigen Relikte können sehr nützlich sein.~ // @6
+
+@51702 = ~3 Relikte
+
+Aufgabe gescheitert.~ // @8
+
+// Addition
+@51703 = ~3 Relikte
+
+Found some Gauntlets in the Ice Fortress, maybe one of the relics Thoice Chorster is looking for.~
+
+@51704 = ~3 Relikte
+
+Found some Boots in Calimshan desert, maybe one of the relics Thoice Chorster is looking for.~
+
+@51705 = ~3 Relikte
+
+Found a Sword in Baldur's Gate, maybe one of the relics Thoice Chorster is looking for.~
+
+@51706 = ~3 Relikte
+
+Mission accomplished, missing items found, farewell.~
+
+	
+//////////////////////    Mine. .
+// Title
+
+@51800 = ~Mine~ // 3 Relics
+
+// XGELG
+@51801 = ~Mine
+
+Beim Erkunden bin ich auf den Zwerg Elgen gestoßen, er braucht Hilfe beim Schutz der Mine. Ich stimmte zu, meine Aufgabe ist es, den westlichen und östlichen Flügel der Mine zu erkunden, den Anführer der Duergar und Monster zu töten und den Kopf, oder zumindest ihre Körperteile, zu Elgen zu bringen.~ // @11
+
+@51802 = ~Mine
+
+Der Anführer der Duergar gibt mir zwei wertvolle Gegenstände, wenn ich die Zwerge im mittleren Teil der Mine loswerde.~ // @18
+
+@51803 = ~Mine
+
+In den Slums traf ich auf einen Reisenden, der Gerüchte über Probleme in den Zwergenminen von Tethyr gehört hat. Ich könnte versuchen, ihnen zu helfen.~ // @19
+
+@51804 = ~Mine
+
+Ich habe sowohl die Monster als auch den Anführer der Grauen gefunden und getötet. Die Zwergenmine ist wieder sicher.~ // @20
+
+
+// XGDUEL1
+@51805 = ~ Mine
+
+Ich habe das Wäldchen von den Zwergen befreit.~ // @2
+
+
+
+
+
+
 
 
 

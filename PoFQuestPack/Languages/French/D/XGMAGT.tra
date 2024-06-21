@@ -1,11 +1,53 @@
 @1 = ~ Greetings to the adventurer. Maybe I'm interested in you, would you like to improve your sword? ~
 @2 = ~ How to improve and what kind of sword, old man? ~
 @3 = ~ Great, that's it. Now just choose the way to enchant me with a sword. ~
-@4 = ~ Long Sword of Fire (2000) ~
-@5 = ~ Ice Long Sword (2000) ~
-@6 = ~ Acid Longsword (2000) ~
-@7 = ~ Long Sword of Poison (2500) ~
-@8 = ~ I don't have enough money, I will come back later. ~
-@9 = ~ Come back when you have a classic long sword and 2000 gold. ~
-@10 = ~ See you soon. ~
-@11 = ~ From my master, I learned a way to enchant a long sword in four ways: apply magic with fire, ice, poison, or acid. This upgraded sword is an ordinary classic longsword, but does 1 more damage from the selection. What do you say adventurer? I could cast a spell if you bring me a long sword. ~
+@4 = ~Épée longue de feu +1 (2000 pièces d'or)~
+@5 = ~Épée longue de glace +1 (2000 pièces d'or)~
+@6 = ~Épée longue acide +1 (2000 pièces d'or)~
+@7 = ~Épée longue empoisonnée +1 (2500 pièces d'or)~
+@8 = ~Je reviendrais une autre fois.~
+@9 = ~Mon travail nécessite au minimum une épée longue et 2000 pièce d'or.~
+@10 = ~À bientôt !~
+@11 = ~Mon maître m'a appris à enchanter les épées longues de quatre façons : en recourant à différents types de magie associés au feu, à la glace, à l'acide ou au poison. Ces lames demeurent des épées longues classiques, mais elles infligeront 1 point de dégâts supplémentaire selon le choix de l'enchantement. Qu'en dites-vous, aventurier ? Je pourrais jeter mon sortilège si vous vous procurez une épée longue.~ ~Mon maître m'a appris à enchanter les épées longues de quatre façons : en recourant à différents types de magie associés au feu, à la glace, à l'acide ou au poison. Ces lames demeurent des épées longues classiques, mais elles infligeront 1 point de dégâts supplémentaire selon le choix de l'enchantement. Qu'en dites-vous, aventurière ? Je pourrais jeter mon sortilège si vous pouvez vous procurez une épée longue.~
+
+
+@12 = ~Épée longue de feu +2 « Lame bouillonnante » (5000 pièces d'or)~
+@13 = ~Épée longue de glace +2 « Lame réfrigérante » (5000 pièces d'or)~
+@14 = ~Épée longue acide +2 « Lame corrosive » (5000 pièces d'or)~
+@15 = ~Épée longue empoisonnée +2 « Lame empoisonnante » (6000 pièces d'or)~
+
+@16 = ~Épée longue de feu +3 « Lame de fusion » (10000 pièces d'or)~
+@17 = ~Épée longue de glace +3 « Lame Sang-froid » (10000 pièces d'or)~
+@18 = ~Épée longue acide +3 « Lame dissolvante » (10000 pièces d'or)~
+@19 = ~Épée longue empoisonnée +3 « Lame d’intoxication » (11000 pièces d'or)~
+
+@20 = ~J'ai une épée longue récupérée dans mes combat avec les paladins de Féérune.~
+@21  = ~J'ai une épée longue normale.~
+@22  = ~J'ai une épée longue de feu +1 de votre création.~
+@23  = ~J'ai une épée longue de glace +1 de votre création.~
+@24  = ~J'ai une épée longue acide +1 de votre création.~
+@25  = ~J'ai une épée longue empoisonnée +1 de votre création.~
+@26  = ~J'ai une épée longue de feu +2 de votre création.~
+@27  = ~J'ai une épée longue de glace +2 de votre création.~
+@28  = ~J'ai une épée longue acide +2 de votre création.~
+@29  = ~J'ai une épée longue empoisonnée +2 de votre création.~
+@30 = ~J'ai une épée longue de feu +3 de votre création.~
+@31 = ~J'ai une épée longue de glace +3 de votre création.~
+@32 = ~J'ai une épée longue acide +3 de votre création.~
+@33 = ~J'ai une épée longue empoisonnée +3 de votre création.~
+
+@34 = ~What do you have for me ?~
+
+@35 = ~J'ai un set complet de vos épées longue +1.~
+@36 = ~J'ai un set complet de vos épées longue +2.~
+@37 = ~J'ai un set complet de vos épées longue +3.~
+@38 = ~Great, that's it... Whaaaaat ?~
+@39 = ~Non, je n'ai jamais vu quelqu'un aussi passionné par mon travail, vous méritez bien une « petite » récompense... Mais ne vous blessez pas avec !~
+@40 = ~J'ai un set complet de vos épées longue +1. Est-ce un problème ?.~
+@41 = ~J'ai un set complet de vos épées longue +2. Est-ce un problème ?.~
+@42 = ~J'ai un set complet de vos épées longue +3. Est-ce un problème ?.~
+
+@43 = ~J'ai réuni vos trois épées magiques spéciales, « Exaltation », « Fièvre » et « Frénésie ».~
+@44 = ~Je dois avoir la berlue... Mais comment ?~
+@45 = ~50000 pièces d'or, l'aventure et un marchand de de bric et de broque magique peu regardant !~
+@46 = ~Hum, à ce niveau, je ne réponds plus de rien.~

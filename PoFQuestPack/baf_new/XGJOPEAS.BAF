@@ -1,0 +1,32 @@
+IF
+	InMyArea([GOODCUTOFF])
+	Global("XGPoFinBG","GLOBAL",1)
+	AreaCheck("BG0200")
+	Global("NEWGAME_SOA","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		ClearAllActions()
+		FadeToColor([50.0],0)
+		Wait(2)
+		ActionOverride(Player2,LeaveAreaLUA("XG0020","",[3782.3065],8))
+		ActionOverride(Player1,LeaveAreaLUA("XG0020","",[3818.3026],8))
+		ActionOverride(Player3,LeaveAreaLUA("XG0020","",[3877.3112],8))
+		ActionOverride(Player4,LeaveAreaLUA("XG0020","",[3802.3159],8))
+		ActionOverride(Player5,LeaveAreaLUA("XG0020","",[3660.3114],8))
+		ActionOverride(Player6,LeaveAreaLUA("XG0020","",[3707.3156],8))
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	AreaCheck("BG0200")
+	OR(2)
+		!Global("XGPoFinBG","GLOBAL",1)
+		!Global("NEWGAME_SOA","GLOBAL",1)
+THEN
+	RESPONSE #100
+		EscapeArea()
+END

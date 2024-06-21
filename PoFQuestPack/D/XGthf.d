@@ -12,42 +12,62 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @4
-  IF ~~ THEN REPLY @5 DO ~SetGlobal("s#XGthf","GLOBAL",1)~ 
-UNSOLVED_JOURNAL @6 EXIT
-  IF ~~ THEN REPLY @7 DO ~EscapeArea()~ 
-SOLVED_JOURNAL @8 EXIT
+  IF ~~ THEN REPLY @5 DO ~SetGlobal("s#XGthf","GLOBAL",1)
+AddJournalEntry(@51701,QUEST)~ EXIT
+  IF ~~ THEN REPLY @7 DO ~SetGlobal("XGthfQuestDone","GLOBAL",1)
+AddJournalEntry(@51702,QUEST_DONE)
+EscapeArea()~EXIT
 END
 
 IF ~ Global("s#XGthf","GLOBAL",1)
-PartyHasItem("XGBRAC1")~ THEN BEGIN 3
+PartyHasItem("XGBRAC1")
+!Global("XGthfKeepItem1","GLOBAL",1)~ THEN BEGIN 3
   SAY @9
   IF ~~ THEN REPLY @10 DO ~GiveItemCreate("MISC07",Player1,10000,0,0)
-TakePartyItem("XGBRAC1")~ EXIT
-  IF ~~ THEN REPLY @11 EXIT
+TakePartyItem("XGBRAC1")
+IncrementGlobal("XGthfQuestItem","GLOBAL",1)~ EXIT
+  IF ~~ THEN REPLY @11 DO ~IncrementGlobal("XGthfKeepItem","GLOBAL",1)~ EXIT
 END
 
 IF ~ Global("s#XGthf","GLOBAL",1)
-PartyHasItem("XGBOOT4")~ THEN BEGIN 4
+PartyHasItem("XGBOOT4")
+!Global("XGthfKeepItem2","GLOBAL",1)~ THEN BEGIN 4
   SAY @12
   IF ~~ THEN REPLY @10 DO ~GiveItemCreate("MISC07",Player1,10000,0,0)
-TakePartyItem("XGBOOT4")~ EXIT
-  IF ~~ THEN REPLY @11 EXIT
+TakePartyItem("XGBOOT4")
+IncrementGlobal("XGthfQuestItem","GLOBAL",1)~ EXIT
+  IF ~~ THEN REPLY @11 DO ~IncrementGlobal("XGthfKeepItem","GLOBAL",1)~ EXIT
 END
 
 IF ~ Global("s#XGthf","GLOBAL",1)
-PartyHasItem("XGSWOR2")~ THEN BEGIN 5
+PartyHasItem("XGSWOR2")
+!Global("XGthfKeepItem3","GLOBAL",1)~ THEN BEGIN 5
   SAY @13
-  IF ~~ THEN REPLY @10 DO ~GiveItemCreate("MISC07",Player1,10000,0,0)
-TakePartyItem("XGSWOR2")~ EXIT
-  IF ~~ THEN REPLY @11 EXIT
+  IF ~~ THEN REPLY @16 DO ~GiveItemCreate("MISC07",Player1,10000,0,0)
+TakePartyItem("XGSWOR2")
+IncrementGlobal("XGthfQuestItem","GLOBAL",1)~ EXIT
+  IF ~~ THEN REPLY @17 DO ~IncrementGlobal("XGthfKeepItem","GLOBAL",1)~ EXIT
 END
 
-IF ~ Global("s#XGthf","GLOBAL",1)
+IF ~Global("s#XGthf","GLOBAL",1)
 OR(3) !PartyHasItem("XGBRAC1")
       !PartyHasItem("XGBOOT4")
-      !PartyHasItem("XGSWOR2")~ THEN BEGIN 6
+      !PartyHasItem("XGSWOR2")
+OR(4) !Global("XGthfQuestItem","GLOBAL",1) !Global("XGthfKeepItem","GLOBAL",2)
+	  !Global("XGthfQuestItem","GLOBAL",2) !Global("XGthfKeepItem","GLOBAL",1)
+	  !Global("XGthfQuestItem","GLOBAL",3) !Global("XGthfKeepItem","GLOBAL",0)
+	  !Global("XGthfQuestItem","GLOBAL",0) !Global("XGthfKeepItem","GLOBAL",3)~ THEN BEGIN 6
   SAY @14
   IF ~~ THEN REPLY @15 EXIT
 END
 
-
+IF ~
+OR(4) Global("XGthfQuestItem","GLOBAL",1) Global("XGthfKeepItem","GLOBAL",2)
+	  Global("XGthfQuestItem","GLOBAL",2) Global("XGthfKeepItem","GLOBAL",1)
+	  Global("XGthfQuestItem","GLOBAL",3) Global("XGthfKeepItem","GLOBAL",0)
+	  Global("XGthfQuestItem","GLOBAL",0) Global("XGthfKeepItem","GLOBAL",3)~ THEN BEGIN 7
+  SAY @18
+  IF ~~ THEN REPLY @19 DO ~SetGlobal("s#XGthf","GLOBAL",2)
+AddJournalEntry(@51706,QUEST_DONE)
+EscapeArea()~ EXIT
+END

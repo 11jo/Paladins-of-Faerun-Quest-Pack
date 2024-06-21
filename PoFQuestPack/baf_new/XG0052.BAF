@@ -1,0 +1,10 @@
+IF
+	Global("s#XGthf","GLOBAL",1)
+	!Global("XGthfQuestDone","GLOBAL",1)
+	PartyHasItem("XGBRAC1")
+	Global("XGBRAC1","MYAREA",0)
+THEN
+  RESPONSE #100
+		SetGlobal("XGBRAC1","MYAREA",1)
+		AddJournalEntry(@51703,QUEST)
+END

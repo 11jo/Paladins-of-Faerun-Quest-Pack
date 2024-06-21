@@ -24,8 +24,8 @@ END
 
 IF ~~ THEN BEGIN 4
   SAY @9
-  IF ~~ THEN REPLY @10 DO ~ SetGlobal("s#XGELG","GLOBAL",2)~ 
-UNSOLVED_JOURNAL @11 EXIT
+  IF ~~ THEN REPLY @10 DO ~ SetGlobal("s#XGELG","GLOBAL",2)
+AddJournalEntry(@51801,QUEST)~ EXIT
 END
 
 IF ~Global("s#XGELG","GLOBAL",1)~ THEN BEGIN 5
@@ -34,7 +34,8 @@ IF ~Global("s#XGELG","GLOBAL",1)~ THEN BEGIN 5
   IF ~~ THEN REPLY @13 EXIT
 END
 
-IF ~Global("s#XGELG","GLOBAL",2) Dead("XGDUERL") 
+IF ~Global("s#XGELG","GLOBAL",2)
+Dead("XGDUERL") 
 Dead("XGDEVIL")~ THEN BEGIN 6
   SAY @14
   IF ~~ THEN REPLY @15 DO ~TakePartyItem("XGMOONH")
@@ -45,8 +46,8 @@ IF ~~ THEN BEGIN 7
   SAY @16
   IF ~~ THEN REPLY @17 DO ~AddexperienceParty(40000)
 GiveGoldForce(2000)
-EraseJournalEntry(@11)
-EraseJournalEntry(@18)
-EraseJournalEntry(@19)
-~ SOLVED_JOURNAL @20 EXIT
+EraseJournalEntry(@51801)
+EraseJournalEntry(@51802)
+EraseJournalEntry(@51803)
+AddJournalEntry(@51804,QUEST_DONE)~ EXIT
 END

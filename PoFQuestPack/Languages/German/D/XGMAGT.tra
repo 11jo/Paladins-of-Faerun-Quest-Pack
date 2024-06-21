@@ -9,3 +9,46 @@
 @9 = ~Kommt wieder, wenn Ihr ein klassisches Langschwert und 2000 Gold habt.~
 @10 = ~Also bis bald.~
 @11 = ~Von meinem Meister habe ich gelernt, ein Langschwert auf vier Arten zu verzaubern: Magie wirken mit Feuer, Eis, Gift oder Säure. Dieses verbesserte Schwert ist ein gewöhnliches, klassisches Langschwert, verursacht aber 1 Schaden mehr. Was sagt Ihr dazu, Abenteurer? Ich könnte einen Zauber wirken, wenn Ihr mir ein Langschwert bringt.~ ~Von meinem Meister habe ich gelernt, ein Langschwert auf vier Arten zu verzaubern: Magie wirken mit Feuer, Eis, Gift oder Säure. Dieses verbesserte Schwert ist ein gewöhnliches, klassisches Langschwert, verursacht aber 1 Schaden mehr. Was sagt Ihr dazu, Abenteurerin? Ich könnte einen Zauber wirken, wenn Ihr mir ein Langschwert bringt.~
+
+
+@12 = ~Long Sword of Fire +2 (5000 po)~
+@13 = ~Ice Long Sword +2 (5000  po)~
+@14 = ~Acid Longsword +2 (5000 po)~
+@15 = ~Long Sword of Poison +2 (6000 po)~
+
+@16 = ~Long Sword of Fire +3 (10000 po)~
+@17 = ~Ice Long Sword +3 (10000 po)~
+@18 = ~Acid Longsword +3 (10000 po)~
+@19 = ~Long Sword of Poison +3 (11000 po)~
+
+@20 = ~I have a long sword I collected in battle alongside the Paladins of Faerûn.~
+@21  = ~I have a regular long sword.~
+@22  = ~I have a long sword of Fire +1 that you have created.~
+@23  = ~I have a Ice long sword +1 that you have created.~
+@24  = ~I have a Acid Longsword +1 that you have created.~
+@25  = ~I have a long sword of Poison +1 that you have created.~
+@26  = ~I have a long sword of Fire +2 that you have created.~
+@27  = ~I have a Ice long sword +2 that you have created.~
+@28  = ~I have a Acid Longsword +2 that you have created.~
+@29  = ~I have a long sword of Poison +2 that you have created.~
+@30 = ~I have a long sword of Fire +3 that you have created.~
+@31 = ~I have a Ice long sword +3 that you have created.~
+@32 = ~I have a Acid Longsword +3 that you have created.~
+@33 = ~I have a long sword of Poison +3 that you have created.~
+
+@34 = ~What do you have for me ?~
+
+@35 = ~I've got a complete set of your long swords +1.~
+@36 = ~I've got a complete set of your long swords +2.~
+@37 = ~I've got a complete set of your long swords +3.~
+@38 = ~Great, that's it... Whaaaaat ?~
+@39 = ~No, I've never seen anyone so enthusiastic about my work, so you deserve a "little" reward... But don't hurt yourself with it!~
+@40 = ~I've got a complete set of your long swords +1. There is a problem ?.~
+@41 = ~I've got a complete set of your long swords +2. There is a problem ?.~
+@42 = ~I've got a complete set of your long swords +3. There is a problem ?.~
+
+@43 = ~I've gathered your three special swords.~
+@44 = ~I must be seeing things... But how?~
+@45 = ~50,000 in, adventure and a merchant without worries !~
+@46 = ~Um, at this point, I don't take responsibility for anything.~
+

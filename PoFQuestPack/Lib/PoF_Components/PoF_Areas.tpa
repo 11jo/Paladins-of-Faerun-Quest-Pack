@@ -160,6 +160,14 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0019.ARE~         ~override/XG0019.ARE
 COPY ~weidu_external/PoFQuestPack/Areas/XG0020.ARE~         ~override/XG0020.ARE~
   WRITE_ASCII 0x94 ~XG0020~ #8
   
+  LPF fj_are_structure
+    INT_VAR
+      fj_variable_value = 1
+    STR_VAR
+      fj_structure_type = "variable"
+      fj_name           = "XGNEWGAME_SOA"
+  END
+  
 //END
 
 ACTION_IF GAME_IS ~bgt eet~ BEGIN
