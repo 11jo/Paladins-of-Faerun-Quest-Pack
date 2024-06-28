@@ -75,9 +75,9 @@ END
     END
 END
 
-ACTION_IF GAME_IS ~eet~ AND FILE_EXISTS ~PoFQuestPack/Languages/%LANGUAGE%/SETUP-PoFQuestPack.tra~ BEGIN
+ACTION_IF GAME_IS ~eet~ AND FILE_EXISTS ~Paladins-of-Faerun/Languages/%LANGUAGE%/SETUP-Paladins-of-Faerun.tra~ BEGIN
 	PRINT ~Aeras cheat for Paladin of Faerun~
-	COPY_EXISTING ~PoFQuestPack/Languages/%LANGUAGE%/SETUP-PoFQuestPack.tra~ ~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/SETUP-PoFQuestPack.tra~
+	COPY_EXISTING ~Paladins-of-Faerun/Languages/%LANGUAGE%/SETUP-Paladins-of-Faerun.tra~ ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/SETUP-Paladins-of-Faerun.tra~
 	
 	// CheatsAreas pour Paladin of Faerun
 	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN
@@ -113,9 +113,9 @@ END
 END
 
 
-ACTION_IF GAME_IS ~bgt~ AND FILE_EXISTS ~PoFQuestPack/Languages/%LANGUAGE%/SETUP-PoFQuestPack.tra~ BEGIN
+ACTION_IF GAME_IS ~bgt~ AND FILE_EXISTS ~Paladins-of-Faerun/Languages/%LANGUAGE%/SETUP-Paladins-of-Faerun.tra~ BEGIN
 	PRINT ~Aeras cheat for Paladin of Faerun~
-	COPY_EXISTING ~PoFQuestPack/Languages/%LANGUAGE%/SETUP-PoFQuestPack.tra~ ~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/SETUP-PoFQuestPack.tra~
+	COPY_EXISTING ~Paladins-of-Faerun/Languages/%LANGUAGE%/SETUP-Paladins-of-Faerun.tra~ ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/SETUP-Paladins-of-Faerun.tra~
 	
 	// CheatsAreas pour Paladin of Faerun
 	PATCH_DEFINE_ASSOCIATIVE_ARRAY strings BEGIN

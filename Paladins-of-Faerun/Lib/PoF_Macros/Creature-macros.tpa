@@ -1,203 +1,80 @@
 /*
 
-
 ///////// TP2 COMMAND this part go in tp2 //////////
 
 
-MKDIR ~weidu_external/PoFQuestPack/Areas~
+MKDIR ~weidu_external/Paladins-of-Faerun/Actors~
 
-ACTION_BASH_FOR ~PoFQuestPack/Areas~ ~^.+$~ BEGIN
+// Items on CREATURES
+ACTION_BASH_FOR ~Paladins-of-Faerun/Actors~ ~^.+$~ BEGIN
 
 PRINT ~         ~
-PRINT ~START creature in areas~
+PRINT ~START item on creature~
 PRINT ~         ~
 
   COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%BASH_FOR_FILESPEC%~
-    LPM UPDATE_POF_CRE_NAMES_ON_AREA
+    LPM UPDATE_POF_ITEM_NAMES_ON_CRE
 	
 PRINT ~         ~
-PRINT ~END creature in areas~
+PRINT ~END item on creature~
+PRINT ~         ~
+
+END
+
+// Script name / Death variable
+
+// Redo All CREATURE present in weidu_external/Paladins-of-Faerun/Items
+
+ACTION_BASH_FOR ~weidu_external/Paladins-of-Faerun/Actors~ ~^.+$~ BEGIN
+
+PRINT ~         ~
+PRINT ~START Death variable name on creature~
+PRINT ~         ~
+
+  COPY ~%BASH_FOR_FILESPEC%~ ~%BASH_FOR_FILESPEC%~
+    LPM UPDATE_POF_DEATH_NAMES_ON_CRE
+	
+PRINT ~         ~
+PRINT ~END Death variable name on creature~
+PRINT ~         ~
+
+END
+
+// Dlg name
+
+// Redo again All CREATURE present in weidu_external/Paladins-of-Faerun/Items
+
+ACTION_BASH_FOR ~weidu_external/Paladins-of-Faerun/Actors~ ~^.+$~ BEGIN
+
+PRINT ~         ~
+PRINT ~START Dlg name on creature~
+PRINT ~         ~
+
+  COPY ~%BASH_FOR_FILESPEC%~ ~%BASH_FOR_FILESPEC%~
+    LPM UPDATE_POF_DLG_NAMES_ON_CRE
+	
+PRINT ~         ~
+PRINT ~END Dlg name on creature~
 PRINT ~         ~
 
 END
 
 // Exemple : 
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0000.ARE~         ~override/XG0000.ARE~
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGAA.CRE~			~override/XGAA.CRE~
+  SAY NAME1 @2
+  SAY NAME2 @3
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0001.ARE~         ~override/XG0001.ARE~
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGADEPT.CRE~			~override/XGADEPT.CRE~
+  SAY NAME1 @4
+  SAY NAME2 @4
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0002.ARE~         ~override/XG0002.ARE~
-
-COPY ~PoFQuestPack/Areas/XG0003.ARE~			~override/XG0003.ARE~
-  SAY 0x26b0 @398
-  SAY 0x2838 @1000
-  SAY 0x3284 @1001 
-
-COPY ~PoFQuestPack/Areas/XG0004.ARE~         ~override/XG0004.ARE~
-  SAY 0xD68 @1002
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGADOB.CRE~			~override/XGADOB.CRE~
+  SAY NAME1 @5 
+  SAY NAME2 @5 
 
 
 */
-
-
-///////////////////////// AERAS \\//////////////\\\\\\\\\\\\
-
-
-
-ACTION_DEFINE_ASSOCIATIVE_ARRAY area_filenames_to_change BEGIN
-
-
-	//"s#CUT01" => "s#CUT01"
-	"PF0001" => "XG0001"
-	"PF0002" => "XG0002"
-	"PF0007" => "XG0007"
-	"PF0009" => "XG0009"
-	"PF0012" => "XG0012"
-	"PF0014" => "XG0014"
-	"PF0016" => "XG0016"
-	"PF0018" => "XG0018"
-	"PF0019" => "XG0019"
-	"PF0020" => "XG0020"
-	"PF0025" => "XG0025"
-	"PF0026" => "XG0026"
-	"PF0028" => "XG0028"
-	"PF0029" => "XG0029"
-	"PF0030" => "XG0030"
-	"PF0034" => "XG0034"
-	"PF0037" => "XG0037"
-	"PF0039" => "XG0039"
-	"PF0041" => "XG0041"
-	"PF0047" => "XG0047"
-	"PF0048" => "XG0048"
-	"PF0049" => "XG0049"
-	"PF0053" => "XG0053"
-	"PF0054" => "XG0054"
-	"PF0056" => "XG0056"
-	"PF0057" => "XG0057"
-	"PF0058" => "XG0058"
-	"PF0059" => "XG0059"
-	"PF0060" => "XG0060"
-	"PF0061" => "XG0061"
-	"PF0062" => "XG0062"
-	"PF0063" => "XG0063"
-	"PF0064" => "XG0064"
-	"PF0065" => "XG0065"
-	"PF0071" => "XG0071"
-	"PF0072" => "XG0072"
-	"PF0073" => "XG0073"
-	"PF0075" => "XG0075"
-	"PF0077" => "XG0077"
-	"PF0080" => "XG0080"
-	"PF0081" => "XG0081"
-	"PF0082" => "XG0082"
-	"PF0083" => "XG0083"
-	"PF0101" => "XG0101"
-	"PF0115" => "XG0115"
-	"PF0117" => "XG0117"
-	"PF0118" => "XG0118"
-	"PF0128" => "XG0128"
-	"PF0136" => "XG0136"
-	"PF0141" => "XG0141"
-	"PF0145" => "XG0145"
-	"PF0148" => "XG0148"
-	"PF0149" => "XG0149"
-	"PF0150" => "XG0150"
-	"PF0153" => "XG0153"
-	"PF0154" => "XG0154"
-	"PF0160" => "XG0160"
-	"PF0161" => "XG0161"
-	"PF0162" => "XG0162"
-	"PF0163" => "XG0163"
-	"PF0167" => "XG0167"
-	"PF0168" => "XG0168"
-	"PF0170" => "XG0170"
-	"PF0171" => "XG0171"
-	"PF0172" => "XG0172"
-	"PF0177" => "XG0177"
-	"PF0180" => "XG0180"
-	"PF0202" => "XG0202"
-	"PF0203" => "XG0203"
-	"PF0211" => "XG0211"
-	"PF0224" => "XG0224"
-	"PF0246" => "XG0246"
-	"PF0256" => "XG0256"
-	"PF0261" => "XG0261"
-	"PF0262" => "XG0262"
-	"PF0263" => "XG0263"
-	"PF0264" => "XG0264"
-	"PF0278" => "XG0278"
-	"PF0284" => "XG0284"
-	"PF0301" => "XG0301"
-	"PF0302" => "XG0302"
-	"PF0319" => "XG0319"
-	"PF0324" => "XG0324"
-	"PF0328" => "XG0328"
-	"PF0330" => "XG0330"
-	"PF0345" => "XG0345"
-	"PF0364" => "XG0364"
-	"PF0381" => "XG0381"
-	"PF0384" => "XG0384"
-	"PF0401" => "XG0401"
-	"PF0402" => "XG0402"
-	"PF0403" => "XG0403"
-	"PF0412" => "XG0412"
-	"PF0414" => "XG0414"
-	"PF0419" => "XG0419"
-	"PF0440" => "XG0440"
-	"PF0446" => "XG0446"
-	"PF0453" => "XG0453"
-	"PF04N3" => "XG04N3"
-	"PF0511" => "XG0511"
-	"PF0562" => "XG0562"
-	"PF0580" => "XG0580"
-	"PF0629" => "XG0629"
-	"PF0639" => "XG0639"
-	"PF0701" => "XG0701"
-	"PF0762" => "XG0762"
-	"PF0829" => "XG0829"
-	"PF0864" => "XG0864"
-	"PF0902" => "XG0902"
-	"PF0920" => "XG0920"
-	"PF0964" => "XG0964"
-	"PF0A80" => "XG0A80"
-	"PF1020" => "XG1020"
-	"PF1034" => "XG1034"
-	"PF1053" => "XG1053"
-	"PF1057" => "XG1057"
-	"PF1120" => "XG1120"
-	"PF1220" => "XG1220"
-	"PF1234" => "XG1234"
-	"PF1319" => "XG1319"
-	"PF2057" => "XG2057"
-	"PF4000" => "XG4000"
-	"PF4001" => "XG4001"
-	"PF8100" => "XG8100"
-	"PF8104" => "XG8104"
-	"PF8201" => "XG8201"
-	"PFB180" => "XGb180"
-	"BATMOD" => "XGBAT"
-	"BATTLE" => "XGBATTLE"
-	"DRASMOD" => "XGDRAS"
-	"DRUICMOD" => "XGDRUIC"
-	"PFKAR" => "XGKAR"
-	"PFKAR2" => "XGKAR2"
-	"PIR" => "XGPIR"
-	"PFRA01" => "XGRA01"
-	"PFRA03" => "XGRA03"
-	"PFRA04" => "XGRA04"
-	"PFRA06" => "XGRA06"
-	"PFRA08" => "XGRA08"
-	"TETMOD" => "XGTET"
-	"PFTORM" => "XGTORM"
-	"TRAPMOD" => "XGTRAP"
-	"PFUMOD" => "XGUMOD"
-	//"" => "XGTMERN"
-	
-END	 
-
-
-/////////////// Creatures \\\\\\\\\\\\\\
 
 ACTION_DEFINE_ASSOCIATIVE_ARRAY creature_filenames_to_change BEGIN
 	"AAMOD" => "XGAA"
@@ -644,10 +521,37 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY creature_filenames_to_change BEGIN
 	"MAGEAMOD" => "XGMAGEA"
 	"MAGTMOD" => "XGMAGT"
 	"MARMOD" => "XGMAR"
+	"MARKO1" => "XGMARK1"
 	"MAR1MOD" => "XGMAR1"
 	"MARIAN" => "XGMARAN"
 	"MARIAMOD" => "XGMARIA"
 	"MARIOMOD" => "XGMARIO"
+	"MARIO" => "XGMARIO"
+	"CRUNAN" => "XGARUND"
+	"ARUNDIL" => "XGARUN"
+	"AUGUSTUS" => "XGAUGUS"
+	"BDAUD02" => "XGBACTW"
+	"AMCONM01" => "XGCIT"
+	"DORREGAR" => "XGDORRE"
+	"DRAKOREX" => "XGDRAKO"
+	"ELECTRO" => "XGELEC"
+	"ELIJAH" => "XGELIAH"
+	"ELMAPR" => "XGEMAPR"
+	"ECPROMOD" => "XGEVPRO"
+	"FKNI2MOD" => "XGFKIN2"
+	"RAVENGER" => "XGRAVEN"
+	"RONIN" => "XGRONIN"
+	"SAREVOK" => "XGSAREV"
+	"SIRCHARL" => "XGSCHAR"
+	"SNAKE01" => "XGSNAK"
+	"THGOCH2" => "XGTGFC2"
+	"THGOCH3" => "XGTGFC3"
+	"THGOCH4" => "XGTGFC4"
+	"THGOCH5" => "XGTGFC5"
+	"VINTRELL" => "XGVINTR"
+	"VIRA" => "XGVIRA"
+	"WMMOD" => "XGWH"
+	"YARPFMOD" => "XGYARF"
 	"MARKOMOD" => "XGMARKO"
 	"MAYBMOD" => "XGMAYB"
 	"MAYORMOD" => "XGMAYOR"
@@ -1092,304 +996,8 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY creature_filenames_to_change BEGIN
 	"YARPINW5" => "XGYARW5"
 	"YARPINW6" => "XGYARW6"
 	"ZMOD" => "XGZ"
-	"GORGOLI" => "XGGOICE"
 END
 
-ACTION_DEFINE_ASSOCIATIVE_ARRAY item_filenames_to_change BEGIN
-	"AMMOD" => "XGAM"
-	"AM1MOD" => "XGAM1"
-	"AM2MOD" => "XGAM2"
-	"AM3MOD" => "XGAM3"
-	"AM4MOD" => "XGAM4"
-	"AM5MOD" => "XGAM5"
-	"AMUL1" => "XGAMUL1"
-	"AMUL2" => "XGAMUL2"
-	"AMUL3" => "XGAMUL3"
-	"AMUL4" => "XGAMUL4"
-	"ARTMOD" => "XGART"
-	"ARTKMOD" => "XGARTK"
-	"ARTK1MOD" => "XGARTK1"
-	"AXE01" => "XGAXE01"
-	"AXE02" => "XGAXE02"
-	"AXE03" => "XGAXE03"
-	"AXE04" => "XGAXE04"
-	"AXE05" => "XGAXE05"
-	"AXE06" => "XGAXE06"
-	"AXE07" => "XGAXE07"
-	"BELT1" => "XGBELT1"
-	"BELT2" => "XGBELT2"
-	"BELT3" => "XGBELT3"
-	"BGSDMOD" => "XGBGSD"
-	"BHARFMOD" => "XGBHARF"
-	"BOOKPR" => "XGBOOKP"
-	"BOOT1" => "XGBOOT1"
-	"BOOT2" => "XGBOOT2"
-	"BOOT3" => "XGBOOT3"
-	"BOOT4" => "XGBOOT4"
-	"BRAC1" => "XGBRAC1"
-	"BRAC2" => "XGBRAC2"
-	"BRAC3" => "XGBRAC3"
-	"BRAC4" => "XGBRAC4"
-	"BSWORD01" => "XGBSWO1"
-	"BSWORD02" => "XGBSWO2"
-	"BSWORD03" => "XGBSWO3"
-	"BSWORD04" => "XGBSWO4"
-	"BSWORD05" => "XGBSWO5"
-	"BSWORD06" => "XGBSWO6"
-	"BSWORD07" => "XGBSWO7"
-	"BSWORD08" => "XGBSWO8"
-	"BSWORD09" => "XGBSWO9"
-	"CBOW01" => "XGCBOW1"
-	"CBOW02" => "XGCBOW2"
-	"CBOW03" => "XGCBOW3"
-	"GLAMOD" => "XGGLA"
-	"KUMOD" => "XGKU"
-	"MARMOD" => "XGMAR"
-	"MAR1MOD" => "XGMAR1"
-	"NOMZMOD" => "XGNOMZ"
-	"PRCMOD" => "XGPRC"
-	"PRTMOD" => "XGPRT"
-	"PRT1MOD" => "XGPRT1"
-	"TRWMOD" => "XGTRW"
-	"WHMOD" => "XGWH"
-	"WRGMOD" => "XGWRG"
-	"CDMOD" => "XGCD"
-	"CLCK1MOD" => "XGCLCK1"
-	"CCLUB01" => "XGCLUB1"
-	"CCLUB02" => "XGCLUB2"
-	"CCLUB03" => "XGCLUB3"
-	"CMACE01" => "XGCMA01"
-	"CMACE02" => "XGCMA02"
-	"CMACE03" => "XGCMA03"
-	"DBOOKMOD" => "XGDBOOK"
-	"DEVHMOD" => "XGDEVH"
-	"DHEA1MOD" => "XGDHEA1"
-	"DHEARMOD" => "XGDHEAR"
-	"DOAXMOD" => "XGDOAX"
-	"DRAMMOD" => "XGDRAM"
-	"ERKEYMOD" => "XGERKEY"
-	"ESDMOD" => "XGESD"
-	"ESHMOD" => "XGESH"
-	"ESKMOD" => "XGESK"
-	"FALCH01" => "XGFALH1"
-	"FALCH02" => "XGFALH2"
-	"FALCH03" => "XGFALH3"
-	"FALCH04" => "XGFALH4"
-	"FALCH05" => "XGFALH5"
-	"FALCH06" => "XGFALH6"
-	"FALX01" => "XGFALX1"
-	"FALX02" => "XGFALX2"
-	"FALX03" => "XGFALX3"
-	"FALX04" => "XGFALX4"
-	"FALX05" => "XGFALX5"
-	"FALX06" => "XGFALX6"
-	"FALX07" => "XGFALX7"
-	"FARMOD" => "XGFAR"
-	"CFLAIL01" => "XGFLAI1"
-	"CFLAIL02" => "XGFLAI2"
-	"CFLAIL03" => "XGFLAI3"
-	"GD1MOD" => "XGGD1"
-	"GD2MOD" => "XGGD2"
-	"GD3MOD" => "XGGD3"
-	"GLAVE" => "XGGLAVE"
-	"GLAVE01" => "XGGLAV1"
-	"GLAVE02" => "XGGLAV2"
-	"GLAVE03" => "XGGLAV3"
-	"GLAVE04" => "XGGLAV4"
-	"GLAVE05" => "XGGLAV5"
-	"GLAVE07" => "XGGLAV7"
-	"GLAVE08" => "XGGLAV8"
-	"GLAVE09" => "XGGLAV9"
-	"GLAVE10" => "XGLAV10"
-	"HAL01" => "XGHAL01"
-	"HAL02" => "XGHAL02"
-	"HAL03" => "XGHAL03"
-	"HAM3" => "XGHAM3"
-	"HAMM1" => "XGHAMM1"
-	"HAMM2" => "XGHAMM2"
-	"HELM1" => "XGHELM1"
-	"HELM2" => "XGHELM2"
-	"HELM3" => "XGHELM3"
-	"HELM4" => "XGHELM4"
-	"HQMOD" => "XGHQ"
-	"HSRMOD" => "XGHSR"
-	"IK01" => "XGIK01"
-	"IK02" => "XGIK02"
-	"IK03" => "XGIK03"
-	"IK04" => "XGIK04"
-	"IK05" => "XGIK05"
-	"IK06" => "XGIK06"
-	"IK07" => "XGIK07"
-	"IQQMOD" => "XGIQQ"
-	"KAT01" => "XGKAT01"
-	"KAT02" => "XGKAT02"
-	"KAT03" => "XGKAT03"
-	"KAT04" => "XGKAT04"
-	"KEV1MOD" => "XGKEV1"
-	"KEV2MOD" => "XGKEV2"
-	"KIITMOD" => "XGKIIT"
-	"LANCE02" => "XGLAN02"
-	"LANCE03" => "XGLAN03"
-	"LEAT1MOD" => "XGLEAT1"
-	"LETAMOD" => "XGLETA"
-	"LETERMOD" => "XGLETER"
-	"LETHSMOD" => "XGLETHS"
-	"LETLMOD" => "XGLETL"
-	"LETT1MOD" => "XGLETT1"
-	"LETT2MOD" => "XGLETT2"
-	"LETTMOD" => "XGLETT"
-	"LETWMOD" => "XGLETW"
-	"LSMOD" => "XGLS"
-	"LUSWQMOD" => "XGLUSWQ"
-	"LWLETMOD" => "XGLWLET"
-	"MAGGMOD" => "XGMAGG"
-	"MAPMOD" => "XGMAP"
-	"MBMOD" => "XGMB"
-	"MBOOKMOD" => "XGMBOOK"
-	"MBOW01" => "XGMBOW1"
-	"MBOW02" => "XGMBOW2"
-	"MBOW03" => "XGMBOW3"
-	"MCAMOD" => "XGMCA"
-	"MISCMOD" => "XGMISC"
-	"MITMOD" => "XGMIT"
-	"MNEK1MOD" => "XGMNEK1"
-	"MOONHMOD" => "XGMOONH"
-	"MOONSMOD" => "XGMOONS"
-	"MPLATMOD" => "XGMPLAT"
-	"MRBOMOD" => "XGMRBO"
-	"MS01" => "XGMS01"
-	"MS02" => "XGMS02"
-	"MS03" => "XGMS03"
-	"MSQMOD" => "XGMSQ"
-	"MTOKMOD" => "XGMTOK"
-	"MWANDMOD" => "XGMWAND"
-	"MWDMOD" => "XGMWD"
-	"NINJA01" => "XGNINJ1"
-	"NINJA02" => "XGNINJ2"
-	"NINJA03" => "XGNINJ3"
-	"ODSW" => "XGODSW"
-	"ODSW01" => "XGODSW1"
-	"ODSW02" => "XGODSW2"
-	"ODSW03" => "XGODSW3"
-	"PIKA01" => "XGPIK1"
-	"PIKA02" => "XGPIK2"
-	"PIKA03" => "XGPIK3"
-	"PIKA04" => "XGPIK4"
-	"PIKA05" => "XGPIK5"
-	"PIKA06" => "XGPIK6"
-	"PIKA07" => "XGPIK7"
-	"PK1MOD" => "XGPK1"
-	"PK2MOD" => "XGPK2"
-	"PK3MOD" => "XGPK3"
-	"PK4MOD" => "XGPK4"
-	"PK5MOD" => "XGPK5"
-	"PKCMOD" => "XGPKC"
-	"PLAT1MOD" => "XGPLA1M"
-	"PLAT30" => "XGPLA30"
-	"PLATM1" => "XGPLAM1"
-	"PLAT1" => "XGPLAT1"
-	"PLAT2" => "XGPLAT2"
-	"PLAT3" => "XGPLAT3"
-	"PLAT4" => "XGPLAT4"
-	"PLAT5" => "XGPLAT5"
-	"PLAT6" => "XGPLAT6"
-	"PLAT7" => "XGPLAT7"
-	"PLAT8" => "XGPLAT8"
-	"PLAT9" => "XGPLAT9"
-	"PLDMOD" => "XGPLD"
-	"PLETMOD" => "XGPLET"
-	"PLET1MOD" => "XGPLET1"
-	"PRC1MOD" => "XGPRC1"
-	"QIMOD" => "XGQI"
-	"QI1MOD" => "XGQI1"
-	"QI2MOD" => "XGQI2"
-	"QI3MOD" => "XGQI3"
-	"QICMOD" => "XGQIC"
-	"QITMOD" => "XGQIT"
-	"QKEYMOD" => "XGQKEY"
-	"RINGMOD" => "XGRING"
-	"RING1" => "XGRING1"
-	"RING2" => "XGRING2"
-	"RING3" => "XGRING3"
-	"S" => "XGS"
-	"SAKMOD" => "XGSAK"
-	"SCRMOD" => "XGSCR"
-	"SHLMOD" => "XGSHL"
-	"SHLD1" => "XGSHLD1"
-	"SHLD2" => "XGSHLD2"
-	"SHLD3" => "XGSHLD3"
-	"SHLD4" => "XGSHLD4"
-	"SKMOD" => "XGSK"
-	"MSLING01" => "XGSLIN1"
-	"MSLING02" => "XGSLIN2"
-	"MSLING03" => "XGSLIN3"
-	"SPBMOD" => "XGSPB"
-	"MSTAFF01" => "XGSTA1"
-	"MSTAFF02" => "XGSTA2"
-	"MSTAFF03" => "XGSTA3"
-	"STARMOD" => "XGSTAR"
-	"STAR01" => "XGSTAR1"
-	"STAR02" => "XGSTAR2"
-	"STAR03" => "XGSTAR3"
-	"STAR04" => "XGSTAR4"
-	"STAR05" => "XGSTAR5"
-	"STAR06" => "XGSTAR6"
-	"STAR07" => "XGSTAR7"
-	"SUD01" => "XGSUD01"
-	"SUD02" => "XGSUD02"
-	"SUD03" => "XGSUD03"
-	"SUD04" => "XGSUD04"
-	"SUD05" => "XGSUD05"
-	"SUD06" => "XGSUD06"
-	"SUD07" => "XGSUD07"
-	"SWFJMOD" => "XGSWFJ"
-	"SWORD10" => "XGSWO10"
-	"SWORD11" => "XGSWO11"
-	"SWORD12" => "XGSWO12"
-	"SWORD13" => "XGSWO13"
-	"SWORD14" => "XGSWO14"
-	"SWORD15" => "XGSWO15"
-	"SWORD16" => "XGSWO16"
-	"SWORD17" => "XGSWO17"
-	"SWORD18" => "XGSWO18"
-	"SWORD19" => "XGSWO19"
-	"SWORD20" => "XGSWO20"
-	"SWORD21" => "XGSWO21"
-	"SWOJMOD" => "XGSWOJ"
-	"SWORD01" => "XGSWOR1"
-	"SWORD02" => "XGSWOR2"
-	"SWORD03" => "XGSWOR3"
-	"SWORD04" => "XGSWOR4"
-	"SWORD05" => "XGSWOR5"
-	"SWORD06" => "XGSWOR6"
-	"SWORD07" => "XGSWOR7"
-	"SWORD08" => "XGSWOR8"
-	"SWORD09" => "XGSWOR9"
-	"TGBODMOD" => "XGTGBOD"
-	"TRBLMOD" => "XGTRBL"
-	"TRID01" => "XGTRI1"
-	"TRID02" => "XGTRI2"
-	"TRID03" => "XGTRI3"
-	"TRID04" => "XGTRI4"
-	"TRID05" => "XGTRI5"
-	"TRID06" => "XGTRI6"
-	"TRID07" => "XGTRI7"
-	"UKEYMOD" => "XGUKEY"
-	"VRMOD" => "XGVR"
-	"WAMOD" => "XGWA"
-	"WAND1" => "XGWAND1"
-	"WAND2" => "XGWAND2"
-	"WAND3" => "XGWAND3"
-	"WOLFFMOD" => "XGWOLFF"
-	"WRD1MOD" => "XGWRD1"
-	"ZATMOD" => "XGZAT"
-	"ZAT1MOD" => "XGZAT1"
-	"ZAT2MOD" => "XGZAT2"
-	"ZAT3MOD" => "XGZAT3"
-	"ZAT4MOD" => "XGZAT4"
-	"ZAT5MOD" => "XGZAT5"
-	"ZAT6MOD" => "XGZAT6"
-END
 
 ACTION_DEFINE_ASSOCIATIVE_ARRAY dlg_filenames_to_change BEGIN
 
@@ -1616,167 +1224,211 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY dlg_filenames_to_change BEGIN
 "YARPEHM" => "XGYARHM"
 "YARPEN" => "XGYARPN"
 "ZMOD" => "XGZ"
+"ZOMBIE" => ""
+"GRSKEL2" => ""
+"SKELWA01" => ""
+"SENANI02" => ""
+"SENANI03" => ""
+"SENANI04" => ""
+"DEATHKNI" => ""
+"DROW01" => ""
+"DROW02" => ""
+"DROW03" => ""
+"DROW04" => ""
+"TANADV03" => ""
+"DADWARF" => ""
 
 END
 
-/////////////////////////UPDATE_POF_CRE_NAMES_ON_AREA/////////////////////////////////////////
+ACTION_DEFINE_ASSOCIATIVE_ARRAY portrait_filenames_to_change BEGIN
+	"ADOSTERL" => "XGADORL"
+	"ADOSTERS" => "XGADORS"
+	"ALORAS" => "XGALORS"
+	"AMAGMODL" => "XGAMAGL"
+	"AMAGMODS" => "XGAMAGS"
+	"ARCL" => "XGARCL"
+	"ARCS" => "XGARCS"
+	"ARIBETHM" => "XGARIBM"
+	"ARIBETHS" => "XGARIBS"
+	"ARJUNL" => "XGARJUL"
+	"ARJUNS" => "XGARJUS"
+	"ARTEMISL" => "XGARTEL"
+	"ARTEMISS" => "XGARTES"
+	"BRANWEM" => "XGBRANM"
+	"BRANWES" => "XGBRANS"
+	"CRUNANL" => "XGCRUNL"
+	"CRUNANS" => "XGCRUNS"
+	"CYRL" => "XGCYRL"
+	"CYRS" => "XGCYRS"
+	"DUERCL" => "XGDUERL"
+	"DUERCS" => "XGDUERS"
+	"DWLMOD" => "XGDWL"
+	"DWSMOD" => "XGDWS"
+	"ELGENL" => "XGELGEL"
+	"ELGENS" => "XGELGES"
+	"ELORL" => "XGELORL"
+	"ELORS" => "XGELORS"
+	"ELWINL" => "XGELWIL"
+	"ELWINS" => "XGELWIS"
+	"FLMODS" => "XGFLS"
+	"GRAFALL" => "XGGRAFL"
+	"GRAFALS" => "XGGRAFS"
+	"GSERS" => "XGGSERS"
+	"HCMODL" => "XGHCL"
+	"HCMODS" => "XGHCS"
+	"HROTL" => "XGHROTL"
+	"HROTS" => "XGHROTS"
+	"KELL" => "XGKELL"
+	"KELS" => "XGKELS"
+	"LETL" => "XGLETL"
+	"LETS" => "XGLETS"
+	"MAJL" => "XGMAJL"
+	"MAJS" => "XGMAJS"
+	"MARGULL" => "XGMARGL"
+	"MARGULS" => "XGMARGS"
+	"MARIOL" => "XGMARIL"
+	"MARIOS" => "XGMARIS"
+	"MENETL" => "XGMENEL"
+	"MENETS" => "XGMENES"
+	"MYHSL" => "XGMYHL"
+	"MYHSS" => "XGMYHS"
+	"NASL" => "XGNASL"
+	"NASS" => "XGNASS"
+	"NBODHIS" => "XGNBODS"
+	"NELLES" => "XGNELLS"
+	"NJONL" => "XGNJONL"
+	"NJONM" => "XGNJONM"
+	"NJONS" => "XGNJONS"
+	"NORL" => "XGNORL"
+	"NORS" => "XGNORS"
+	"NWNAL" => "XGNWNAL"
+	"NWNAS" => "XGNWNAS"
+	"NWNBL" => "XGNWNBL"
+	"NWNBS" => "XGNWNBS"
+	"NWNCL" => "XGNWNCL"
+	"NWNCS" => "XGNWNCS"
+	"NWNDL" => "XGNWNDL"
+	"NWNDS" => "XGNWNDS"
+	"NWNDWL" => "XGNWDWL"
+	"NWNDWS" => "XGNWDWS"
+	"NWNEL" => "XGNWNEL"
+	"NWNFL" => "XGNWNFL"
+	"NWNFS" => "XGNWNFS"
+	"NWNGL" => "XGNWNGL"
+	"NWNGS" => "XGNWNGS"
+	"NWNQL" => "XGNWNQL"
+	"NWNQS" => "XGNWNQS"
+	"OPHALL" => "XGOPHAL"
+	"OPHALS" => "XGOPHAS"
+	"POF1L" => "XGPOF1L"
+	"POF1S" => "XGPOF1S"
+	"POF2L" => "XGPOF2L"
+	"POF2S" => "XGPOF2S"
+	"POF3L" => "XGPOF3L"
+	"POF3S" => "XGPOF3S"
+	"POF4L" => "XGPOF4L"
+	"POF4S" => "XGPOF4S"
+	"POF5L" => "XGPOF5L"
+	"POF5S" => "XGPOF5S"
+	"POF6L" => "XGPOF6L"
+	"POF6S" => "XGPOF6S"
+	"POF7L" => "XGPOF7L"
+	"POF7S" => "XGPOF7S"
+	"PORT038S" => "XGPO38S"
+	"PORT053S" => "XGPO53S"
+	"PORT063S" => "XGPO63S"
+	"PORT069S" => "XGPO69S"
+	"PORT070S" => "XGPO70S"
+	"PORT078S" => "XGPO78S"
+	"PORT079S" => "XGPO79S"
+	"PORT086S" => "XGPO86S"
+	"PORT087S" => "XGPO87S"
+	"PORT132S" => "XGP132S"
+	"RWL" => "XGRWL"
+	"RWS" => "XGRWS"
+	"SAREV1L" => "XGSAREL"
+	"SAREV1S" => "XGSARES"
+	"TCBANE1S" => "XGTCBAS"
+	"TCBLUSHL" => "XGTCBUL"
+	"TCBLUSHS" => "XGTCBUS"
+	"TCKOBWIZ" => "XGTCKOS"
+	"TCRURIKL" => "XGTCRUL"
+	"TCRURIKM" => "XGTCRUM"
+	"TCRURIKS" => "XGTCRUS"
+	"TCSALTCS" => "TCSALTS"
+	"TESTPOR" => "XGTESTS"
+	"THERL" => "XGTHERL"
+	"THERS" => "XGTHERS"
+	"TRAEKL" => "XGTRAEKL"
+	"TRAEKS" => "XGTRAEKS"
+	"WM35L" => "XGWM35L"
+	"WM35S" => "XGWM35S"
+	"WM40L" => "XGWM40L"
+	"WM40S" => "XGWM40S"
+	"XANM" => "XGXANM"
 
-/*
 
-Unused Working first one
+END
 
-// Creatures in AREAS
-DEFINE_PATCH_MACRO UPDATE_POF_CRE_NAMES_ON_AREA BEGIN
-  READ_LONG  0x54 cre_off ELSE 0
-  READ_SHORT  0x58 cre_num ELSE 0
+////////////// UPDATE_POF_DEATH_NAMES_ON_CRE/////////
+
+DEFINE_PATCH_MACRO UPDATE_POF_DEATH_NAMES_ON_CRE BEGIN
+// Script name / Death variable name
+  READ_ASCII 0x280 ~currentdeath_name~
   PATCH_PRINT ~PRE-LOOP~
-  FOR (index = 0; index < cre_num; ++index) BEGIN
-    SET currentcreature = cre_off + index * 0x110
-    // SET currentcreature = cre_off + index * 0x110 + 0x80
-    READ_ASCII currentcreature currentcreature_name (8) NULL
-    TO_UPPER currentcreature_name
-    PATCH_PRINT ~INDEX: %index% NAME: %currentcreature_name%~
-    PATCH_IF (VARIABLE_IS_SET $creature_filenames_to_change(~%currentcreature_name%~)) BEGIN
-      SPRINT currentcreature_newname $creature_filenames_to_change(~%currentcreature_name%~)
-      PATCH_PRINT ~INDEX: %index% NAME: %currentcreature_name% NEWNAME: %currentcreature_newname%~
-      WRITE_ASCIIE currentcreature ~%currentcreature_newname%~ (8)
+    TO_UPPER ~currentdeath_name~
+    PATCH_PRINT ~INDEX: %index% NAME: %currentdeath_name%~
+    PATCH_IF (VARIABLE_IS_SET $creature_filenames_to_change(~%currentdeath_name%~)) BEGIN
+      SPRINT ~currentdeath_newname~ $creature_filenames_to_change(~%currentdeath_name%~)
+      PATCH_PRINT ~INDEX: %index% NAME: %currentdeath_name% NEWNAME: %currentdeath_newname%~
+      WRITE_ASCIIE 0x280 ~%currentdeath_newname%~ (8)
     END
-  END
 END
-*/
 
-DEFINE_PATCH_MACRO UPDATE_POF_CRE_NAMES_ON_AREA BEGIN
-// Creature in Area
-  READ_LONG  0x54 cre_off ELSE 0
-  READ_SHORT  0x58 cre_num ELSE 0
+
+//////////////////////////////////////////////////////////
+
+
+////////////// UPDATE_POF_DLG_NAMES_ON_CRE/////////
+
+DEFINE_PATCH_MACRO UPDATE_POF_DLG_NAMES_ON_CRE BEGIN
+// Dlg name
+  READ_ASCII 0x2cc ~currentdialog_name~
   PATCH_PRINT ~PRE-LOOP~
-  FOR (index = 0; index < cre_num; ++index) BEGIN
-    SET currentcreature = cre_off + index  * 0x110 + 0x80
-	// + 0x80 for Character // + 0x48 for DLG // + 0x50 Script (Override) // + 0x58 Script (General) // + 0x60 Script (Class) // + 0x68 Script (Class) // + 0x70 Script (Default) // + 0x78 Script (Specific)
-    LPM UPDATE_POF_CRE  // Associated macro for Creature 	
-    SET currentcreature = cre_off + index  * 0x110
-    LPM UPDATE_POF_CRE  // Associated macro for Creature 	
-    SET currentdialog = cre_off + index  * 0x110 + 0x48
-    LPM UPDATE_POF_DLG_NAMES_ON_AREA  // Associated macro for Dlg name		
-    //SET currentscript = cre_off + index  * 0x110 + 0x50
-    //LPM UPDATE_POF_SCRIPT_NAMES_ON_AREA  // Associated macro for Script (Override) name	
-  END  
-  // Creatures for spawn in areas
-  READ_LONG 0x60 spawn_off
-  READ_LONG 0x64 spawn_num
-  FOR (index = 0; index < spawn_num; ++index) BEGIN
-    //0x24 spawn CRE resref 1
-    //0x2c spawn CRE resref 2
-    //0x34 spawn CRE resref 3
-    //0x3c spawn CRE resref 4
-    //0x44 spawn CRE resref 5
-    //0x4c spawn CRE resref 6
-    //0x54 spawn CRE resref 7
-    //0x5c spawn CRE resref 8
-    //0x64 spawn CRE resref 9
-    //0x6c spawn CRE resref 10
-    FOR (spawnslot=0; spawnslot < 10; ++spawnslot) BEGIN
-      SET currentcreature = (spawn_off + 0xc8*index + 0x24 + 0x8*spawnslot)
-      LPM UPDATE_POF_CRE // Associated macro for Creature 
-    END
-  END
-  // Creatures for rest encounter
-  READ_LONG 0xc0 rest_off
-  //0x48 CRE resref 1
-  //0x50 CRE resref 2
-  //0x58 CRE resref 3
-  //0x60 CRE resref 4
-  //0x68 CRE resref 5
-  //0x70 CRE resref 6
-  //0x78 CRE resref 7
-  //0x80 CRE resref 8
-  //0x88 CRE resref 9
-  //0x90 CRE resref 10
-  FOR (spawnslot=0; spawnslot < 10; ++spawnslot) BEGIN
-    SET currentcreature = (rest_off + 0x48 + 0x8*spawnslot)
-    LPM UPDATE_POF_CRE // Associated macro for Creature 
-  END
-END
-
-/*	NOT TESTED
-
-READ_LONG 0x84 ambient_off
-	READ_SHORT 0x82 ambient_num
-  PATCH_PRINT ~PRE-LOOP~
-  FOR (index = 0; index < ambient_num; ++index) BEGIN
-    SET currentambient = ambient_off + index  * 0xd4
-    LPM UPDATE_POF_AMBIENT // Associated macro for sound
-    SET currentambient = ambient_off + index  * 0x30
-    LPM UPDATE_POF_AMBIENT // Associated macro for sound 
-    SET currentambient = ambient_off + index  * 0x8
-    LPM UPDATE_POF_AMBIENT // Associated macro for sound*/
-	
-/////////////// Associated macro for Creature 		
-DEFINE_PATCH_MACRO UPDATE_POF_CRE BEGIN
-  READ_ASCII currentcreature currentcreature_name (8) NULL
-    TO_UPPER currentcreature_name
-    PATCH_PRINT ~INDEX: %index% NAME: %currentcreature_name%~
-    PATCH_IF (VARIABLE_IS_SET $creature_filenames_to_change(~%currentcreature_name%~)) BEGIN
-      SPRINT currentcreature_newname $creature_filenames_to_change(~%currentcreature_name%~)
-      PATCH_PRINT ~INDEX: %index% NAME: %currentcreature_name% NEWNAME: %currentcreature_newname%~
-      WRITE_ASCIIE currentcreature ~%currentcreature_newname%~ (8)
-    END
-END
-
-/////////////// Associated macro for Dlg name		
-DEFINE_PATCH_MACRO UPDATE_POF_DLG_NAMES_ON_AREA BEGIN
-  READ_ASCII currentdialog currentdialog_name (8) NULL
     TO_UPPER ~currentdialog_name~
     PATCH_PRINT ~INDEX: %index% NAME: %currentdialog_name%~
     PATCH_IF (VARIABLE_IS_SET $dlg_filenames_to_change(~%currentdialog_name%~)) BEGIN
       SPRINT ~currentdialog_newname~ $dlg_filenames_to_change(~%currentdialog_name%~)
       PATCH_PRINT ~INDEX: %index% NAME: %currentdialog_name% NEWNAME: %currentdialog_newname%~
-      WRITE_ASCIIE currentdialog ~%currentdialog_newname%~ (8)
+      WRITE_ASCIIE 0x2cc ~%currentdialog_newname%~ (8)
     END
 END
 
-/*
-/////////////// Associated macro for SCRIPT name		
-DEFINE_PATCH_MACRO UPDATE_POF_SCRIPT_NAMES_ON_AREA BEGIN
-  READ_ASCII currentscript currentscript_name (8) NULL
-    TO_UPPER ~currentscript_name~
-    PATCH_PRINT ~INDEX: %index% NAME: %currentscript_name%~
-    PATCH_IF (VARIABLE_IS_SET $script_filenames_to_change(~%currentscript_name%~)) BEGIN
-      SPRINT ~currentscript_newname~ $script_filenames_to_change(~%currentscript_name%~)
-      PATCH_PRINT ~INDEX: %index% NAME: %currentscript_name% NEWNAME: %currentscript_newname%~
-      WRITE_ASCIIE currentscript ~%currentscript_newname%~ (8)
+////////////// UPDATE_POF_PORTRAIT_NAMES_ON_CRE/////////
+
+DEFINE_PATCH_MACRO UPDATE_POF_PORTRAITL_NAMES_ON_CRE BEGIN
+// PORTRAIT L name
+  READ_ASCII 0x3c ~currentportrait_name~
+  PATCH_PRINT ~PRE-LOOP~
+    TO_UPPER ~currentportrait_name~
+    PATCH_PRINT ~INDEX: %index% NAME: %currentportrait_name%~
+    PATCH_IF (VARIABLE_IS_SET $portrait_filenames_to_change(~%currentportrait_name%~)) BEGIN
+      SPRINT ~currentportrait_newname~ $portrait_filenames_to_change(~%currentportrait_name%~)
+      PATCH_PRINT ~INDEX: %index% NAME: %currentportrait_name% NEWNAME: %currentportrait_newname%~
+      WRITE_ASCIIE 0x3c ~%currentportrait_newname%~ (8)
+			LPM UPDATE_POF_PORTRAITS_NAMES_ON_CRE // Associated macro for PORTRAIT S
     END
 END
-*/
 
-/*
-
-NOT TESTED / NOT TESTED / NOT TESTED
-
-
-///////////////////UPDATE_POF_ITEM_NAMES_ON_CONT //////////////////////////////
-
-DEFINE_PATCH_MACRO UPDATE_POF_ITEM_NAMES_ON_CONT BEGIN
-//  item in container
-		READ_LONG 0x78 citem_off
-		READ_SHORT 0x76 citem_num
-        FOR (index = 0; index < citem_num; ++index) BEGIN
-        SET currentcitem = citem_off + index * 0x14
-			LPM UPDATE_POF_CONTAINER // Associated macro for item in container	
-		END
-END
-
-	
-/////// Associated macro for item in container	
-DEFINE_PATCH_MACRO UPDATE_POF_CONTAINER BEGIN
-  READ_ASCII currentcitem currentcitem_name (8) NULL
-    TO_UPPER currentcitem_name
-    PATCH_PRINT ~INDEX: %index% NAME: %currentcitem_name%~
-    PATCH_IF (VARIABLE_IS_SET $itm_filenames_to_change(~%currentcitem_name%~)) BEGIN
-      SPRINT currentcitem_newname $itm_filenames_to_change(~%currentcitem_name%~)
-      PATCH_PRINT ~INDEX: %index% NAME: %currentcitem_name% NEWNAME: %currentcitem_newname%~
-      WRITE_ASCIIE currentcitem ~%currentcitem_newname%~ (8)
+DEFINE_PATCH_MACRO UPDATE_POF_PORTRAITS_NAMES_ON_CRE BEGIN
+// PORTRAIT S name
+  READ_ASCII 0x34 ~currentportrait_name~
+  PATCH_PRINT ~PRE-LOOP~
+    TO_UPPER ~currentportrait_name~
+    PATCH_PRINT ~INDEX: %index% NAME: %currentportrait_name%~
+    PATCH_IF (VARIABLE_IS_SET $portrait_filenames_to_change(~%currentportrait_name%~)) BEGIN
+      SPRINT ~currentportrait_newname~ $portrait_filenames_to_change(~%currentportrait_name%~)
+      PATCH_PRINT ~INDEX: %index% NAME: %currentportrait_name% NEWNAME: %currentportrait_newname%~
+      WRITE_ASCIIE 0x34 ~%currentportrait_newname%~ (8)
     END
- END
-
-*/
+END

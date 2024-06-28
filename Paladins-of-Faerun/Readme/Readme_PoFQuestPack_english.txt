@@ -1,22 +1,22 @@
-                                  Baldur's Gate II MOD PoFQuestPack Version 3 
+                                  Baldur's Gate II MOD Paladins of Faerun Version 4.0								  
                                         for  BG2 SoA & ToB
                                       The authors: Serdrick & Gorion  
                      Forums http://arcanecoast.ru/forum/viewtopic.php?f=31&t=1534
                            http://www.shsforums.net/topic/60732-paladins-of-faerun-quest-pack/
      Description
 
-The PoFQuestPack mod is a WeiDU processing of the total conversion of Paladins of Faerun from BGslayer and other Czech developers, and contains only the quests of the original Paladins of Faerun.
-In Weidu, the mod format was translated by Gorion and Serdrick. The PoFQuestPack mod contains all the quests of the Paladins of Faerun mod, but it is not an exact copy of it. Part of the quests was implemented differently. A large number of errors were also corrected, many scripts and dialogs were rewritten practically anew.
+The Paladins-of-Faerun mod is a WeiDU processing of the total conversion of Paladins of Faerun from BGslayer and other Czech developers, and contains only the quests of the original Paladins of Faerun.
+In Weidu, the mod format was translated by Gorion and Serdrick. The Paladins-of-Faerun mod contains all the quests of the Paladins of Faerun mod, but it is not an exact copy of it. Part of the quests was implemented differently. A large number of errors were also corrected, many scripts and dialogs were rewritten practically anew.
 
      Installation
 
-Standard for WeiDU mods. For the mod, SOA + TOB + the latest patch is required. Unzip the contents of the archive into the directory with the game, and run SETUP-PoFQuestPack.exe.
+Standard for WeiDU mods. For the mod, SOA + TOB + the latest patch is required. Unzip the contents of the archive into the directory with the game, and run SETUP-Paladins-of-Faerun.exe.
 After installing the mod, be sure to install the BP-BGT-Worlmap mod, without which you will not see new mod locations.
 Download link https://github.com/SpellholdStudios/BP-BGT-Worldmap/releases
 
      Compatible with other mods
 
-PoFQuestPack is implemented in WeiDU format and should be compatible with other WeiDU mods. If you find any errors, please report them to the mod support forum:
+Paladins-of-Faerun is implemented in WeiDU format and should be compatible with other WeiDU mods. If you find any errors, please report them to the mod support forum:
 
  http://arcanecoast.ru/forum/viewtopic.php?f=31&t=1534
 
@@ -37,7 +37,7 @@ TISpack by Per Olofsson
 
     LEGAL
     
-PoFQuestPack for BG2 SOA + TOB by Serdrick & Gorion. © 2019-2020
+Paladins-of-Faerun for BG2 SOA + TOB by Serdrick & Gorion. © 2019-2020
 This mod is unofficial Fan Content permitted under the Fan Content Policy. Not approved / endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC. This mod is also not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp.
 
 BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: © 2000, 2001 Bioware Corp. All Rights Reserved.

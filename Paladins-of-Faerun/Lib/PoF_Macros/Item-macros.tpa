@@ -7,9 +7,9 @@
  ///////////////////////////ITEMS ON CREATURES//////////
 
 
-MKDIR ~weidu_external/PoFQuestPack/Items~
+MKDIR ~weidu_external/Paladins-of-Faerun/Items~
 
-ACTION_BASH_FOR ~PoFQuestPack/Items~ ~^.+$~ BEGIN
+ACTION_BASH_FOR ~Paladins-of-Faerun/Items~ ~^.+$~ BEGIN
 
 PRINT ~         ~
 PRINT ~START BAM_NAMES_ON_ITM~
@@ -26,13 +26,13 @@ END
 
 // Exemple : 
 
-COPY ~weidu_external/PoFQuestPack/Items/XGAM1.ITM~			~override/XGAM1.ITM~
+COPY ~weidu_external/Paladins-of-Faerun/Items/XGAM1.ITM~			~override/XGAM1.ITM~
   SAY NAME1 @433
 
-COPY ~weidu_external/PoFQuestPack/Items/XGAM2.ITM~			~override/XGAM2.ITM~
+COPY ~weidu_external/Paladins-of-Faerun/Items/XGAM2.ITM~			~override/XGAM2.ITM~
   SAY NAME1 @434
 
-COPY ~weidu_external/PoFQuestPack/Items/XGAM3.ITM~			~override/XGAM3.ITM~
+COPY ~weidu_external/Paladins-of-Faerun/Items/XGAM3.ITM~			~override/XGAM3.ITM~
   SAY NAME1 @435 
   
   
@@ -40,9 +40,9 @@ COPY ~weidu_external/PoFQuestPack/Items/XGAM3.ITM~			~override/XGAM3.ITM~
   ///////////////////////////ITEMS IN STORE /////////////////////////////////////////////
   
   
- MKDIR ~weidu_external/PoFQuestPack/Stores~
+ MKDIR ~weidu_external/Paladins-of-Faerun/Stores~
 
-ACTION_BASH_FOR ~PoFQuestPack/Stores~ ~^.+$~ BEGIN
+ACTION_BASH_FOR ~Paladins-of-Faerun/Stores~ ~^.+$~ BEGIN
 
 PRINT ~         ~
 PRINT ~START item in store~
@@ -59,12 +59,12 @@ END
 
 // Exemple : 
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGBAR1.STO~			~override/XGBAR1.STO~
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGBAR1.STO~			~override/XGBAR1.STO~
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGBARF.STO~			~override/XGBARF.STO~
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGBARF.STO~			~override/XGBARF.STO~
   SAY NAME2 @919
 
-COPY ~weidu_external/PoFQuestPack/Stores/XGBG1.STO~			~override/XGBG1.STO~
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGBG1.STO~			~override/XGBG1.STO~
   SAY NAME2 @919
  
 

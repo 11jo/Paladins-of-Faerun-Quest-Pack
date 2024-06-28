@@ -1,9 +1,9 @@
 ////// Worldmap link for EET/BGT
 
 
-ACTION_IF GAME_IS ~eet~ AND FILE_EXISTS ~PoFQuestPack/Worldmap/links.tbl~ BEGIN
+ACTION_IF GAME_IS ~eet~ AND FILE_EXISTS ~Paladins-of-Faerun/Worldmap/links.tbl~ BEGIN
 			PRINT ~Link between Aeras for EET~
-	COPY_EXISTING ~PoFQuestPack/Worldmap/links.tbl~	~weidu_external/PoFQuestPack/Worldmap/links.tbl~
+	COPY_EXISTING ~Paladins-of-Faerun/Worldmap/links.tbl~	~weidu_external/Paladins-of-Faerun/Worldmap/links.tbl~
 		REPLACE_TEXTUALLY	~XG0020~	~BG0200~
 		REPLACE_TEXTUALLY	~XG0120~	~BG0119~
 		REPLACE_TEXTUALLY	~XG0820~	~BG0121~
@@ -13,9 +13,9 @@ ACTION_IF GAME_IS ~eet~ AND FILE_EXISTS ~PoFQuestPack/Worldmap/links.tbl~ BEGIN
 END
 
 
-ACTION_IF GAME_IS ~bgt~ AND FILE_EXISTS ~PoFQuestPack/Worldmap/links.tbl~ BEGIN
+ACTION_IF GAME_IS ~bgt~ AND FILE_EXISTS ~Paladins-of-Faerun/Worldmap/links.tbl~ BEGIN
 			PRINT ~Link between Aeras for BGT~
-	COPY_EXISTING ~PoFQuestPack/Worldmap/links.tbl~ ~weidu_external/PoFQuestPack/Worldmap/links.tbl~
+	COPY_EXISTING ~Paladins-of-Faerun/Worldmap/links.tbl~ ~weidu_external/Paladins-of-Faerun/Worldmap/links.tbl~
 		REPLACE_TEXTUALLY	~XG0020~	~AR7300~
 		REPLACE_TEXTUALLY	~XG0120~	~AR7219~
 		REPLACE_TEXTUALLY	~XG0820~	~AR7220~
@@ -31,32 +31,32 @@ END
 	ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
   
 		COPY ~Worldmap/map_mods_areas.tbl~		~Worldmap~
-			APPEND_FILE ~PoFQuestPack/Worldmap/areas.tbl~
+			APPEND_FILE ~Paladins-of-Faerun/Worldmap/areas.tbl~
 		
 				ACTION_IF GAME_IS ~bgt eet~ BEGIN
 		COPY ~Worldmap/map_mods_links.tbl~		~Worldmap~
-			APPEND_FILE ~weidu_external/PoFQuestPack/Worldmap/links.tbl~
+			APPEND_FILE ~weidu_external/Paladins-of-Faerun/Worldmap/links.tbl~
 				END ELSE BEGIN
 		COPY ~Worldmap/map_mods_links.tbl~		~Worldmap~
-			APPEND_FILE ~PoFQuestPack/Worldmap/links.tbl~
+			APPEND_FILE ~Paladins-of-Faerun/Worldmap/links.tbl~
 				END
 		
 		COPY ~Worldmap/map_mods_trans.tra~		~Worldmap~
-			APPEND_FILE_EVALUATE ~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/worldmap.tra~
+			APPEND_FILE_EVALUATE ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/worldmap.tra~
 	 
 	END ELSE BEGIN
   
 		MKDIR ~Worldmap~
 	
-		COPY ~PoFQuestPack/Worldmap/areas.tbl~							~Worldmap/map_mods_areas.tbl~
+		COPY ~Paladins-of-Faerun/Worldmap/areas.tbl~							~Worldmap/map_mods_areas.tbl~
 	
 				ACTION_IF GAME_IS ~bgt eet~ BEGIN
-		COPY ~weidu_external/PoFQuestPack/Worldmap/links.tbl~			~Worldmap/map_mods_links.tbl~
+		COPY ~weidu_external/Paladins-of-Faerun/Worldmap/links.tbl~			~Worldmap/map_mods_links.tbl~
 				END ELSE BEGIN
-		COPY ~PoFQuestPack/Worldmap/links.tbl~							~Worldmap/map_mods_links.tbl~
+		COPY ~Paladins-of-Faerun/Worldmap/links.tbl~							~Worldmap/map_mods_links.tbl~
 				END
 		
-		COPY ~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/worldmap.tra~	~Worldmap/map_mods_trans.tra~
+		COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/worldmap.tra~	~Worldmap/map_mods_trans.tra~
 	
 	END
 
@@ -148,23 +148,23 @@ END
 	ACTION_IF NOT GAME_IS ~bgt eet~ AND FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
   
     COPY ~Worldmap/map_mods_areas.tbl~		~Worldmap~
-     APPEND_FILE ~PoFQuestPack/Worldmap/areas.tbl~
+     APPEND_FILE ~Paladins-of-Faerun/Worldmap/areas.tbl~
 	 
     COPY ~Worldmap/map_mods_links.tbl~		~Worldmap~
-     APPEND_FILE ~PoFQuestPack/Worldmap/links.tbl~
+     APPEND_FILE ~Paladins-of-Faerun/Worldmap/links.tbl~
 	 
     COPY ~Worldmap/map_mods_trans.tra~		~Worldmap~
-     APPEND_FILE_EVALUATE ~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/worldmap.tra~
+     APPEND_FILE_EVALUATE ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/worldmap.tra~
 	 
   END ELSE ACTION_IF NOT GAME_IS ~bgt eet~ AND NOT FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ BEGIN
   
 	MKDIR ~Worldmap~
 	
-	COPY ~PoFQuestPack/Worldmap/areas.tbl~			~Worldmap/map_mods_areas.tbl~
+	COPY ~Paladins-of-Faerun/Worldmap/areas.tbl~			~Worldmap/map_mods_areas.tbl~
 	
-	COPY ~PoFQuestPack/Worldmap/links.tbl~			~Worldmap/map_mods_links.tbl~
+	COPY ~Paladins-of-Faerun/Worldmap/links.tbl~			~Worldmap/map_mods_links.tbl~
 		
-	COPY ~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/worldmap.tra~	~Worldmap/map_mods_trans.tra~
+	COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/worldmap.tra~	~Worldmap/map_mods_trans.tra~
 	
   END
 END
@@ -175,23 +175,23 @@ END
 	ACTION_IF GAME_IS ~bgt eet~ AND FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
   
     COPY ~Worldmap/map_mods_areas.tbl~		~Worldmap~
-     APPEND_FILE ~PoFQuestPack/Worldmap/areas.tbl~
+     APPEND_FILE ~Paladins-of-Faerun/Worldmap/areas.tbl~
 	 
     COPY ~Worldmap/map_mods_links.tbl~		~Worldmap~
-     APPEND_FILE ~weidu_external/PoFQuestPack/Worldmap/links.tbl~
+     APPEND_FILE ~weidu_external/Paladins-of-Faerun/Worldmap/links.tbl~
 	 
     COPY ~Worldmap/map_mods_trans.tra~		~Worldmap~
-     APPEND_FILE_EVALUATE ~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/worldmap.tra~
+     APPEND_FILE_EVALUATE ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/worldmap.tra~
 	 
   END ELSE ACTION_IF GAME_IS ~bgt eet~ AND NOT FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ BEGIN
   
 	MKDIR ~Worldmap~
 	
-	COPY ~PoFQuestPack/Worldmap/areas.tbl~							~Worldmap/map_mods_areas.tbl~
+	COPY ~Paladins-of-Faerun/Worldmap/areas.tbl~							~Worldmap/map_mods_areas.tbl~
 	
-	COPY ~weidu_external/PoFQuestPack/Worldmap/links.tbl~			~Worldmap/map_mods_links.tbl~
+	COPY ~weidu_external/Paladins-of-Faerun/Worldmap/links.tbl~			~Worldmap/map_mods_links.tbl~
 		
-	COPY ~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/worldmap.tra~	~Worldmap/map_mods_trans.tra~
+	COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/worldmap.tra~	~Worldmap/map_mods_trans.tra~
 	
   END
 END

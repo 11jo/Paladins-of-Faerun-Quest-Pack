@@ -44,7 +44,7 @@ Paladins of Faerûn Quest Pack is a WeiDU adaptation of the total conversion Pal
 ## Installation
 
 
-Standard for WeiDU mods. Unzip the contents of the archive into the directory with the game, and run SETUP-PoFQuestPack.exe.
+Standard for WeiDU mods. Unzip the contents of the archive into the directory with the game, and run SETUP-Paladins-of-Faerun.exe.
 After installing the mod, be sure to install the [BP-BGT-Worlmap mod](https://github.com/SpellholdStudios/BP-BGT-Worldmap/releases), required to access new areas.
 
 
@@ -52,7 +52,7 @@ After installing the mod, be sure to install the [BP-BGT-Worlmap mod](https://gi
 
 
 
-PoFQuestPack is implemented in WeiDU format and should be compatible with other WeiDU mods. If you find any errors, please report them to the mod support forum:
+Paladins-of-Faerun is implemented in WeiDU format and should be compatible with other WeiDU mods. If you find any errors, please report them to the mod support forum:
 
 
  - [Forum - Spellhold Studios](http://www.shsforums.net/topic/60732-paladins-of-faerun-quest-pack/)  
@@ -97,7 +97,7 @@ The mod itself contains one large main quest « Paladins of Faerûn », two side
 ## LEGAL
     
 	
-PoFQuestPack-EE for BG2EE et EET. © 2022-2023
+Paladins-of-Faerun-EE for BG2EE et EET. © 2022-2023
 This mod is unofficial Fan Content permitted under the Fan Content Policy. Not approved / endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC. This mod is also not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp.
 
 BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: © 2000, 2001 Bioware Corp. All Rights Reserved.

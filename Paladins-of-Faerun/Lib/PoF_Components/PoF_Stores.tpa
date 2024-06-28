@@ -1,0 +1,94 @@
+
+//////////////////////////////////
+// Setup  Stores
+//////////////////////////////////
+
+
+MKDIR ~weidu_external/Paladins-of-Faerun/Stores~
+
+// Items in STORES
+ACTION_BASH_FOR ~Paladins-of-Faerun/Stores~ ~^.+$~ BEGIN
+
+PRINT ~         ~
+PRINT ~START item in store~
+PRINT ~         ~
+
+  COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%BASH_FOR_FILESPEC%~
+    LPM UPDATE_POF_ITEM_NAMES_ON_STORE
+	// Item-macros.tpa 
+PRINT ~         ~
+PRINT ~END item in store~
+PRINT ~         ~
+
+END
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGBAR1.STO~			~override/XGBAR1.STO~
+  SAY STORE_NAME @1008
+  
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGBARF.STO~			~override/XGBARF.STO~
+  SAY NAME2 @919
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGBG1.STO~				~override/XGBG1.STO~
+  SAY NAME2 @919
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGBSHP.STO~			~override/XGBSHP.STO~
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGCLS.STO~				~override/XGCLS.STO~
+  SAY NAME2 @926
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGESBL.STO~			~override/XGESBL.STO~
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGESBR.STO~			~override/XGESBR.STO~
+  SAY NAME2 @920
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGKOS.STO~				~override/XGKOS.STO~
+  SAY NAME2 @921
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGNS1.STO~				~override/XGNS1.STO~
+  SAY NAME2 @922
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGNWNB.STO~			~override/XGNWNB.STO~
+  SAY NAME2 @923
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGNWNSF.STO~			~override/XGNWNSF.STO~
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGNWNS.STO~			~override/XGNWNS.STO~
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGSHOP1.STO~			~override/XGSHOP1.STO~
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGSHOP2.STO~			~override/XGSHOP2.STO~
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGSHOP4.STO~			~override/XGSHOP4.STO~
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGSHOPE.STO~			~override/XGSHOPE.STO~
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGSHOPF.STO~			~override/XGSHOPF.STO~
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGSHOPW.STO~			~override/XGSHOPW.STO~
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGCLERS.STO~			~override/XGCLERS.STO~
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGINNKW.STO~			~override/XGINNKW.STO~
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGSHOP3.STO~			~override/XGSHOP3.STO~
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/XGTYRL.STO~			~override/XGTYRL.STO~
+  SAY NAME2 @925
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/S#HELM01.STO~			~override/S#HELM01.STO~
+  SAY NAME2 @927
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/S#ILMAT1.STO~			~override/S#ILMAT1.STO~
+  SAY NAME2 @928
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/S#INN01.STO~			~override/S#INN01.STO~
+  SAY NAME2 @172
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/S#INN02.STO~			~override/S#INN02.STO~
+  SAY NAME2 @172
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/S#SHEV01.STO~			~override/S#SHEV01.STO~
+  SAY NAME2 @929
+
+COPY ~weidu_external/Paladins-of-Faerun/Stores/s#SHOP01.STO~			~override/s#SHOP01.STO~
+  SAY NAME2 @402

@@ -3,23 +3,23 @@
  **************************************************************************/
  
  
-BACKUP ~weidu_external/PoFQuestPack/backup~
+BACKUP ~weidu_external/Paladins-of-Faerun/backup~
 SUPPORT ~https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/issues~
 
 
-README ~PoFQuestPack/Readme/Readme_PoFQuestPack_%LANGUAGE%.txt~ ~PoFQuestPack/Readme/Readme_PoFQuestPack_english.txt~
+README ~Paladins-of-Faerun/Readme/Readme_Paladins-of-Faerun_%LANGUAGE%.txt~ ~Paladins-of-Faerun/Readme/Readme_Paladins-of-Faerun_english.txt~
 
 VERSION ~4.0~
 
 ALWAYS
 
 	ACTION_IF GAME_IS ~bgt~ BEGIN
-		INCLUDE ~PoFQuestPack/Lib/PoF_bgt_cpmvars.tpa~
+		INCLUDE ~Paladins-of-Faerun/Lib/PoF_bgt_cpmvars.tpa~
 	END ELSE ACTION_IF GAME_IS ~eet~ BEGIN
 		INCLUDE ~eet/other/cpmvars/eet_cpmvars.tpa~
 	END
 	
-		INCLUDE ~PoFQuestPack/lib/gw_functions.tpa~
+		INCLUDE ~Paladins-of-Faerun/lib/gw_functions.tpa~
 
 // EET chapter check, used for Add variables to PoF AREAS and prevent specific events from triggering during PoF travels...
 
@@ -53,14 +53,14 @@ END
 
     //Copies tra files into the autotra-folder (to leave the originals untouched)
     DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
-      COPY ~PoFQuestPack/Languages/english/Baf_new~				~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_new~
-      COPY ~PoFQuestPack/Languages/english/Baf_are~				~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_are~
-      COPY ~PoFQuestPack/Languages/english/D~					~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/D~
-      COPY ~PoFQuestPack/Languages/english~						~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%~
-	  COPY ~PoFQuestPack/Languages/%LANGUAGE%/Baf_new~			~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_new~
-	  COPY ~PoFQuestPack/Languages/%LANGUAGE%/Baf_are~			~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_are~
-	  COPY ~PoFQuestPack/Languages/%LANGUAGE%/D~				~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/D~
-      COPY ~PoFQuestPack/Languages/%LANGUAGE%~					~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%~
+      COPY ~Paladins-of-Faerun/Languages/english/Baf_new~				~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_new~
+      COPY ~Paladins-of-Faerun/Languages/english/Baf_are~				~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_are~
+      COPY ~Paladins-of-Faerun/Languages/english/D~					~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/D~
+      COPY ~Paladins-of-Faerun/Languages/english~						~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%~
+	  COPY ~Paladins-of-Faerun/Languages/%LANGUAGE%/Baf_new~			~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_new~
+	  COPY ~Paladins-of-Faerun/Languages/%LANGUAGE%/Baf_are~			~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_are~
+	  COPY ~Paladins-of-Faerun/Languages/%LANGUAGE%/D~				~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/D~
+      COPY ~Paladins-of-Faerun/Languages/%LANGUAGE%~					~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%~
     END
 
     LAF autotra_workaround END
@@ -68,55 +68,55 @@ END
 	ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 //  ACTION_DEFINE_ARRAY PoF_noconvert BEGIN END
 
-  ACTION_DEFINE_ARRAY PoF_reload BEGIN SETUP-PoFQuestPack Journal XGBOOKP END
+  ACTION_DEFINE_ARRAY PoF_reload BEGIN Setup-Paladins-of-Faerun Journal XGBOOKP END
 
     LAF HANDLE_CHARSETS
       INT_VAR
         infer_charsets = 1
       STR_VAR
-        tra_path = EVAL ~weidu_external/PoFQuestPack/Languages/autotra~
-        out_path = EVAL ~weidu_external/PoFQuestPack/Languages/autotra/UTF8~
-		iconv_path = ~PoFQuestPack/Languages/autotra/iconv~
+        tra_path = EVAL ~weidu_external/Paladins-of-Faerun/Languages/autotra~
+        out_path = EVAL ~weidu_external/Paladins-of-Faerun/Languages/autotra/UTF8~
+		iconv_path = ~Paladins-of-Faerun/Languages/autotra/iconv~
 //        noconvert_array = PoF_noconvert
         reload_array = PoF_reload
 	END
-   COPY ~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%~			~weidu_external/PoFQuestPack/Languages/autotra/ANSI/%LANGUAGE%~
-   COPY ~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_new~	~weidu_external/PoFQuestPack/Languages/autotra/ANSI/%LANGUAGE%/Baf_new~
-   COPY ~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_are~	~weidu_external/PoFQuestPack/Languages/autotra/ANSI/%LANGUAGE%/Baf_are~
-   COPY ~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/D~		~weidu_external/PoFQuestPack/Languages/autotra/ANSI/%LANGUAGE%/D~
+   COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%~			~weidu_external/Paladins-of-Faerun/Languages/autotra/ANSI/%LANGUAGE%~
+   COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_new~	~weidu_external/Paladins-of-Faerun/Languages/autotra/ANSI/%LANGUAGE%/Baf_new~
+   COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_are~	~weidu_external/Paladins-of-Faerun/Languages/autotra/ANSI/%LANGUAGE%/Baf_are~
+   COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/D~		~weidu_external/Paladins-of-Faerun/Languages/autotra/ANSI/%LANGUAGE%/D~
    
    
-   COPY ~weidu_external/PoFQuestPack/Languages/autotra/UTF8/%LANGUAGE%~				~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%~
-   COPY ~weidu_external/PoFQuestPack/Languages/autotra/UTF8/%LANGUAGE%/Baf_new~	~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_new~
-   COPY ~weidu_external/PoFQuestPack/Languages/autotra/UTF8/%LANGUAGE%/Baf_are~	~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/Baf_are~
-   COPY ~weidu_external/PoFQuestPack/Languages/autotra/UTF8/%LANGUAGE%/D~			~weidu_external/PoFQuestPack/Languages/autotra/%LANGUAGE%/D~
+   COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/UTF8/%LANGUAGE%~				~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%~
+   COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/UTF8/%LANGUAGE%/Baf_new~	~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_new~
+   COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/UTF8/%LANGUAGE%/Baf_are~	~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_are~
+   COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/UTF8/%LANGUAGE%/D~			~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/D~
   END
 
 END
 
-AUTO_TRA ~weidu_external/PoFQuestPack/Languages/autotra/%s/D~
-AUTO_TRA ~weidu_external/PoFQuestPack/Languages/autotra/%s/Baf_new~
-AUTO_TRA ~weidu_external/PoFQuestPack/Languages/autotra/%s/Baf_are~
+AUTO_TRA ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/D~
+AUTO_TRA ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/Baf_new~
+AUTO_TRA ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/Baf_are~
 
 LANGUAGE ~Russian~
          ~russian~
-         ~PoFQuestPack/Languages/Russian/SETUP-PoFQuestPack.tra~
-         //~PoFQuestPack/Languages/Russian/Journal.tra~
+         ~Paladins-of-Faerun/Languages/Russian/SETUP-Paladins-of-Faerun.tra~
+         //~Paladins-of-Faerun/Languages/Russian/Journal.tra~
 
 LANGUAGE ~English~
          ~english~
-         ~PoFQuestPack/Languages/English/SETUP-PoFQuestPack.tra~
-         //~PoFQuestPack/Languages/English/Journal.tra~
+         ~Paladins-of-Faerun/Languages/English/SETUP-Paladins-of-Faerun.tra~
+         //~Paladins-of-Faerun/Languages/English/Journal.tra~
 
 LANGUAGE ~German~
          ~German~
-         ~PoFQuestPack/Languages/German/SETUP-PoFQuestPack.tra~
-         //~PoFQuestPack/Languages/German/Journal.tra~
+         ~Paladins-of-Faerun/Languages/German/SETUP-Paladins-of-Faerun.tra~
+         //~Paladins-of-Faerun/Languages/German/Journal.tra~
 		 
 LANGUAGE ~Main English / Francais Partiel~
          ~French~
-         ~PoFQuestPack/Languages/French/SETUP-PoFQuestPack.tra~
-         //~PoFQuestPack/Languages/French/Journal.tra~
+         ~Paladins-of-Faerun/Languages/French/SETUP-Paladins-of-Faerun.tra~
+         //~Paladins-of-Faerun/Languages/French/Journal.tra~
 
 
 ///////////////////////////////////
@@ -132,30 +132,30 @@ LABEL ~BGslayer-PoF~
 // Other
 //////////////////////////////////
 
-	INCLUDE ~PoFQuestPack/Lib/PoF_Macros/arrays-macros.tpa~ // Unused
-		INCLUDE ~PoFQuestPack/Lib/PoF_Macros/Area-macros.tpa~
-			INCLUDE ~PoFQuestPack/Lib/PoF_Macros/Bam-macros.tpa~
-				INCLUDE ~PoFQuestPack/Lib/PoF_Macros/Creature-macros.tpa~
-					INCLUDE ~PoFQuestPack/Lib/PoF_Macros/Item-macros.tpa~
+	INCLUDE ~Paladins-of-Faerun/Lib/PoF_Macros/arrays-macros.tpa~ // Unused
+		INCLUDE ~Paladins-of-Faerun/Lib/PoF_Macros/Area-macros.tpa~
+			INCLUDE ~Paladins-of-Faerun/Lib/PoF_Macros/Bam-macros.tpa~
+				INCLUDE ~Paladins-of-Faerun/Lib/PoF_Macros/Creature-macros.tpa~
+					INCLUDE ~Paladins-of-Faerun/Lib/PoF_Macros/Item-macros.tpa~
 
-COPY ~PoFQuestPack/bam~   ~override~
+COPY ~Paladins-of-Faerun/bam~   ~override~
 
-COPY ~PoFQuestPack/wav~   ~override~
+COPY ~Paladins-of-Faerun/wav~   ~override~
 
-COPY ~PoFQuestPack/maps~   ~override~
+COPY ~Paladins-of-Faerun/maps~   ~override~
 
 
 // Portrait
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 
-COPY ~PoFQuestPack/Portraits/EE~   ~override~
+COPY ~Paladins-of-Faerun/Portraits/EE~   ~override~
 
 END
 
 ACTION_IF (GAME_IS ~tob bgt~) BEGIN
 
-COPY ~PoFQuestPack/Portraits/Vanilla~   ~override~
+COPY ~Paladins-of-Faerun/Portraits/Vanilla~   ~override~
 
 END
 	
@@ -164,18 +164,18 @@ END
 
 ACTION_IF (GAME_IS ~tob bg2ee~) BEGIN
 
-COPY ~PoFQuestPack/OTHER/BG1.Audio~   ~override~
+COPY ~Paladins-of-Faerun/OTHER/BG1.Audio~   ~override~
 
 END
 
 
-// COPY ~PoFQuestPack/OTHER/SPPR112.SPL~         ~override/SPPR112.SPL~ UNLESS ~SPPR112.SPL~
+// COPY ~Paladins-of-Faerun/OTHER/SPPR112.SPL~         ~override/SPPR112.SPL~ UNLESS ~SPPR112.SPL~
 
 APPEND ~SPELL.IDS~ ~1112 CLERIC_CIRCLE_OF_PROTECTION~ UNLESS ~1112 CLERIC_CIRCLE_OF_PROTECTION~
 
 ACTION_IF (NOT FILE_EXISTS_IN_GAME ~SPPR112.SPL~) BEGIN // IWD spell for CLERIC_CIRCLE_OF_PROTECTION
 
-COPY ~PoFQuestPack/OTHER/IWD.Spell/SPPR112.SPL~         ~override/SPPR112.SPL~
+COPY ~Paladins-of-Faerun/OTHER/IWD.Spell/SPPR112.SPL~         ~override/SPPR112.SPL~
   SAY NAME1 @1067
   SAY NAME2 @1067
   SAY DESC @1068
@@ -186,26 +186,26 @@ END
 
 // Trap script for XG0152.are
 
-COPY ~PoFQuestPack/OTHER/BCS.TrapforXG0152~   ~override~
+COPY ~Paladins-of-Faerun/OTHER/BCS.TrapforXG0152~   ~override~
 
 
 // Item ressources for XGCMA03.ITM, XGHELM4 and IWD bam
 
-COPY ~PoFQuestPack/OTHER/SPELL.ForItem/XGSPMOD1.SPL~   ~override/XGSPMOD1.SPL~
+COPY ~Paladins-of-Faerun/OTHER/SPELL.ForItem/XGSPMOD1.SPL~   ~override/XGSPMOD1.SPL~
   SAY NAME1 @1200
   SAY UNIDENTIFIED_DESC @1201
   SAY DESC @1201
   
-COPY ~PoFQuestPack/OTHER/SPELL.ForItem/XGSPMOD2.SPL~   ~override/XGSPMOD2.SPL~
+COPY ~Paladins-of-Faerun/OTHER/SPELL.ForItem/XGSPMOD2.SPL~   ~override/XGSPMOD2.SPL~
   SAY NAME1 @1202
   SAY UNIDENTIFIED_DESC @1203
   SAY DESC @1203
 
 ACTION_IF (NOT FILE_EXISTS_IN_GAME ~SPWI525B.BAM~) BEGIN 
-COPY ~PoFQuestPack/OTHER/SPELL.ForItem/SPWI525B.BAM~   ~override~
+COPY ~Paladins-of-Faerun/OTHER/SPELL.ForItem/SPWI525B.BAM~   ~override~
 END
 ACTION_IF (NOT FILE_EXISTS_IN_GAME ~SPWI525C.BAM~) BEGIN 
-COPY ~PoFQuestPack/OTHER/SPELL.ForItem/SPWI525C.BAM~   ~override~
+COPY ~Paladins-of-Faerun/OTHER/SPELL.ForItem/SPWI525C.BAM~   ~override~
 END
 
 
@@ -218,9 +218,9 @@ END
 
 // Add variables to PoF AREAS (Thanks to Argent77 )
 
-MKDIR ~weidu_external/PoFQuestPack/Areas~
+MKDIR ~weidu_external/Paladins-of-Faerun/Areas~
 
-ACTION_BASH_FOR ~PoFQuestPack/Areas~ ~^.+$~ BEGIN
+ACTION_BASH_FOR ~Paladins-of-Faerun/Areas~ ~^.+$~ BEGIN
 
 PRINT ~         ~
 PRINT ~Start AREATYPE (with variable)~
@@ -245,20 +245,20 @@ PRINT ~         ~
 /*	
 	// Area script assigner
 	READ_ASCII 0x94 "script"
-	PATCH_IF (FILE_EXISTS ~PoFQuestPack/baf_new/%script%.baf~) BEGIN
-	END ELSE PATCH_IF (FILE_EXISTS ~PoFQuestPack/baf_new/%SOURCE_RES%.baf~) BEGIN
+	PATCH_IF (FILE_EXISTS ~Paladins-of-Faerun/baf_new/%script%.baf~) BEGIN
+	END ELSE PATCH_IF (FILE_EXISTS ~Paladins-of-Faerun/baf_new/%SOURCE_RES%.baf~) BEGIN
 		PATCH_PRINT ~%SOURCE_FILE% - Area script (%SOURCE_RES%.BCS) assigned~
 		WRITE_ASCIIE 0x94 ~%SOURCE_RES%~ #8
 	END ELSE PATCH_IF (~%script%~ STR_CMP ~~) AND (NOT ~%script%~ STR_EQ ~NONE~) BEGIN
 		PATCH_PRINT ~%SOURCE_FILE% - Missing area script (%script%.BCS) created~
 		INNER_ACTION BEGIN
-			COPY ~PoFQuestPack/OTHER/blank.bcs~ ~override/%script%.BCS~
+			COPY ~Paladins-of-Faerun/OTHER/blank.bcs~ ~override/%script%.BCS~
 		END
 	END ELSE BEGIN
 		PATCH_PRINT ~%SOURCE_FILE% - Missing area script (%SOURCE_RES%.BCS) created and assigned~
 		WRITE_ASCIIE 0x94 ~%SOURCE_RES%~ #8
 		INNER_ACTION BEGIN
-			COPY ~PoFQuestPack/OTHER/blank.bcs~ ~override/%SOURCE_RES%.BCS~
+			COPY ~Paladins-of-Faerun/OTHER/blank.bcs~ ~override/%SOURCE_RES%.BCS~
 			END
 		END
 */
@@ -327,16 +327,16 @@ END
 
 // Invisible creatures for AR0602 Cutscene
 
-COPY ~PoFQuestPack/OTHER/JoNEANT/Cre/JONEAN10.CRE~   ~override/XGNEAN10.CRE~
+COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEAN10.CRE~   ~override/XGNEAN10.CRE~
 	WRITE_ASCII 0x280 ~XGNEAN10~ (8) // Script name / Death variable
 
-COPY ~PoFQuestPack/OTHER/JoNEANT/Cre/JONEANT4.CRE~   ~override/XGNEANT4.CRE~
+COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEANT4.CRE~   ~override/XGNEANT4.CRE~
 	WRITE_ASCII 0x280 ~XGNEANT4~ (8) // Script name / Death variable
 
-COPY ~PoFQuestPack/OTHER/JoNEANT/Cre/JONEANT.CRE~   ~override/XGNEANT.CRE~
+COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEANT.CRE~   ~override/XGNEANT.CRE~
 	WRITE_ASCII 0x280 ~XGNEANT~ (8) // Script name / Death variable
 
-COPY ~PoFQuestPack/OTHER/JoNEANT/Cre/JONEAN28.CRE~   ~override/XGNEAN28.CRE~
+COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEAN28.CRE~   ~override/XGNEAN28.CRE~
 	WRITE_ASCII 0x280 ~XGNEAN28~ (8) // Script name / Death variable
 
 // Script name / Death variable for AMNG2.CRE	
@@ -385,7 +385,7 @@ COPY_EXISTING ~GOLICE01.cre~   ~override/XGGOICE.cre~
 // Actors component
 
 
-		INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_Actors.tpa~
+		INCLUDE ~Paladins-of-Faerun/Lib/PoF_Components/PoF_Actors.tpa~
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -413,13 +413,13 @@ COPY_EXISTING ~AR1005.ARE~ ~override~
 // Areas component
 
 
-		INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_Areas.tpa~
+		INCLUDE ~Paladins-of-Faerun/Lib/PoF_Components/PoF_Areas.tpa~
 
 
 // Areas cheat for Paladin of Faerun
 
 			ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN					
-		INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_CheatsAreas.tph~				
+		INCLUDE ~Paladins-of-Faerun/Lib/PoF_Components/PoF_CheatsAreas.tph~				
 			END
 
 
@@ -467,7 +467,7 @@ XG0453.are, XG0453.WED   XG0453.bcs
 //////////////////////////////////
 
 
-		INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_Items.tpa~
+		INCLUDE ~Paladins-of-Faerun/Lib/PoF_Components/PoF_Items.tpa~
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -477,7 +477,7 @@ XG0453.are, XG0453.WED   XG0453.bcs
 //////////////////////////////////
 
 
-		INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_Stores.tpa~
+		INCLUDE ~Paladins-of-Faerun/Lib/PoF_Components/PoF_Stores.tpa~
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -553,23 +553,23 @@ ADD_JOURNAL TITLE (@51800) @51801 @51802 @51803 @51804 @51805
 
 // Comp. D
 
-COMPILE EVALUATE_BUFFER ~PoFQuestPack/d~
+COMPILE EVALUATE_BUFFER ~Paladins-of-Faerun/d~
 
 
 // (Ducal basement, BG0111/XG0620)
 ACTION_IF FILE_EXISTS_IN_GAME ~FLAM9.DLG~ AND FILE_EXISTS_IN_GAME ~FLAM7.DLG~ BEGIN
 
-COMPILE EVALUATE_BUFFER ~PoFQuestPack/D_spe/DucalPalace_Cellar_FLAM.d~
+COMPILE EVALUATE_BUFFER ~Paladins-of-Faerun/D_spe/DucalPalace_Cellar_FLAM.d~
 
 END
 ACTION_IF FILE_EXISTS_IN_GAME ~JA#FLAM1.DLG~ BEGIN
 
-COMPILE EVALUATE_BUFFER ~PoFQuestPack/D_spe/DucalPalace_Cellar_JA#FLAM.d~
+COMPILE EVALUATE_BUFFER ~Paladins-of-Faerun/D_spe/DucalPalace_Cellar_JA#FLAM.d~
 
 END
 ACTION_IF FILE_EXISTS_IN_GAME ~PRISONG1.DLG~ AND FILE_EXISTS_IN_GAME ~PRISONG1.DLG~ BEGIN
 
-COMPILE ~PoFQuestPack/D_spe/Prison_Blacksmith_Marian.d~
+COMPILE ~Paladins-of-Faerun/D_spe/Prison_Blacksmith_Marian.d~
 
 END
 
@@ -577,20 +577,20 @@ END
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~JODLGHN.DLG~ OR NOT FILE_EXISTS_IN_GAME ~JODLGWN.DLG~ OR NOT FILE_EXISTS_IN_GAME ~JODLGHH.DLG~ OR NOT FILE_EXISTS_IN_GAME ~JODLGWH.DLG~ BEGIN
 
-COMPILE ~PoFQuestPack/OTHER/JoNEANT/Dlg/JODLGALL.d~
+COMPILE ~Paladins-of-Faerun/OTHER/JoNEANT/Dlg/JODLGALL.d~
 
 END 
 
 // Comp. BAF
 
-COMPILE ~PoFQuestPack/Baf_new~
+COMPILE ~Paladins-of-Faerun/Baf_new~
 		EVALUATE_BUFFER
 
 // Générique BCS for générique pnj
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~JOBCSALL.BCS~ BEGIN
 
-COMPILE ~PoFQuestPack/OTHER/JoNEANT/Baf/JOBCSALL.BAF~
+COMPILE ~Paladins-of-Faerun/OTHER/JoNEANT/Baf/JOBCSALL.BAF~
 
 END 
 
@@ -601,39 +601,39 @@ END
 
 ACTION_IF GAME_IS ~bgt eet~ BEGIN
 
-	EXTEND_TOP ~%NBaldursGate_RinniesHouse_L1_BCS%.BCS~				~PoFQuestPack/Baf_new/XG0520.baf~ EVALUATE_BUFFER //(Rinnie home)
-	EXTEND_TOP ~%NBaldursGate_RamazithsTower_L1_BCS%.BCS~				~PoFQuestPack/Baf_new/XG0320.baf~ EVALUATE_BUFFER //(Ramazith home)
-	EXTEND_TOP ~%NBaldursGate_ThreeOldKegs_L1_BCS%.BCS~				~PoFQuestPack/Baf_new/XG0120.baf~ EVALUATE_BUFFER //(Trois vielles chopes RDC)
-	EXTEND_TOP ~%NBaldursGate_ThreeOldKegs_L3_BCS%.BCS~				~PoFQuestPack/Baf_new/XG0820.baf~ EVALUATE_BUFFER //(Trois vielles chopes 2eme)
-	EXTEND_TOP ~%NBaldursGate_DucalPalace_Cellar_BCS%.BCS~				~PoFQuestPack/Baf_new/XG0620.baf~ EVALUATE_BUFFER //(Ducal basement, XG0620)
-	EXTEND_TOP ~%NBaldursGate_DucalPalace_L1_BCS%.BCS~				~PoFQuestPack/Baf_are/JOBG0108.baf~ EVALUATE_BUFFER
+	EXTEND_TOP ~%NBaldursGate_RinniesHouse_L1_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0520.baf~ EVALUATE_BUFFER //(Rinnie home)
+	EXTEND_TOP ~%NBaldursGate_RamazithsTower_L1_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0320.baf~ EVALUATE_BUFFER //(Ramazith home)
+	EXTEND_TOP ~%NBaldursGate_ThreeOldKegs_L1_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0120.baf~ EVALUATE_BUFFER //(Trois vielles chopes RDC)
+	EXTEND_TOP ~%NBaldursGate_ThreeOldKegs_L3_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0820.baf~ EVALUATE_BUFFER //(Trois vielles chopes 2eme)
+	EXTEND_TOP ~%NBaldursGate_DucalPalace_Cellar_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0620.baf~ EVALUATE_BUFFER //(Ducal basement, XG0620)
+	EXTEND_TOP ~%NBaldursGate_DucalPalace_L1_BCS%.BCS~				~Paladins-of-Faerun/Baf_are/JOBG0108.baf~ EVALUATE_BUFFER
 	// Special for game EET but if NEWGAME_SOA 
-	EXTEND_TOP ~XG0720.BCS~				~PoFQuestPack/baf_spe/XG0720.baf~
-	EXTEND_TOP ~%NBaldursGate_BCS%.BCS~				~PoFQuestPack/baf_spe/XG0020.baf~
+	EXTEND_TOP ~XG0720.BCS~				~Paladins-of-Faerun/baf_spe/XG0720.baf~
+	EXTEND_TOP ~%NBaldursGate_BCS%.BCS~				~Paladins-of-Faerun/baf_spe/XG0020.baf~
 
 END
 
-EXTEND_TOP ~AR0020.BCS~				~PoFQuestPack/baf_are/S#AR0020.baf~
-USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0020.tra~ // City Gate
+EXTEND_TOP ~AR0020.BCS~				~Paladins-of-Faerun/baf_are/S#AR0020.baf~
+USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR0020.tra~ // City Gate
 
-EXTEND_TOP ~AR0300.BCS~				~PoFQuestPack/baf_are/S#AR0300.baf~
-USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0300.tra~ // The Docks
+EXTEND_TOP ~AR0300.BCS~				~Paladins-of-Faerun/baf_are/S#AR0300.baf~
+USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR0300.tra~ // The Docks
 
-EXTEND_TOP ~AR0305.BCS~				~PoFQuestPack/baf_are/S#AR0305.baf~ // Shadows thieves entrance
+EXTEND_TOP ~AR0305.BCS~				~Paladins-of-Faerun/baf_are/S#AR0305.baf~ // Shadows thieves entrance
 
-EXTEND_TOP ~AR0400.BCS~				~PoFQuestPack/baf_are/S#AR0400.baf~ // Slums
+EXTEND_TOP ~AR0400.BCS~				~Paladins-of-Faerun/baf_are/S#AR0400.baf~ // Slums
 
-EXTEND_TOP ~AR0500.BCS~				~PoFQuestPack/baf_are/S#AR0500.baf~ // District Bridge
+EXTEND_TOP ~AR0500.BCS~				~Paladins-of-Faerun/baf_are/S#AR0500.baf~ // District Bridge
 
-EXTEND_TOP ~AR0527.BCS~				~PoFQuestPack/baf_are/S#AR0527.baf~
+EXTEND_TOP ~AR0527.BCS~				~Paladins-of-Faerun/baf_are/S#AR0527.baf~
 
-EXTEND_TOP ~AR0528.BCS~				~PoFQuestPack/baf_are/S#AR0528.baf~
+EXTEND_TOP ~AR0528.BCS~				~Paladins-of-Faerun/baf_are/S#AR0528.baf~
 
-EXTEND_TOP ~AR0406.BCS~				~PoFQuestPack/baf_are/S#AR0406.baf~  // Compat IWD_EET
+EXTEND_TOP ~AR0406.BCS~				~Paladins-of-Faerun/baf_are/S#AR0406.baf~  // Compat IWD_EET
 
 ACTION_IF (GAME_IS ~bg2ee eet~ AND FILE_EXISTS_IN_GAME ~AR0602.BCS~) BEGIN
 
-	COPY_EXISTING ~AR0602.BCS~		~weidu_external/PoFQuestPack/ExistingBaf/AR0602.BAF~
+	COPY_EXISTING ~AR0602.BCS~		~weidu_external/Paladins-of-Faerun/ExistingBaf/AR0602.BAF~
 	
 		DECOMPILE_BCS_TO_BAF
 	
@@ -750,39 +750,39 @@ REPLACE_TEXTUALLY ~SetGlobal("NewGame","AR0602",1)~ ~ClearAllActions()
 	MultiPlayerSync()
 	SetGlobal("NewGame","AR0602",1)~
 	
-COMPILE ~weidu_external/PoFQuestPack/ExistingBaf/AR0602.BAF~ ~override~
-USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0602EE.tra~
+COMPILE ~weidu_external/Paladins-of-Faerun/ExistingBaf/AR0602.BAF~ ~override~
+USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR0602EE.tra~
 		
-EXTEND_BOTTOM ~AR0602.BCS~			~PoFQuestPack/baf_are/S#AR0602EE.baf~
+EXTEND_BOTTOM ~AR0602.BCS~			~Paladins-of-Faerun/baf_are/S#AR0602EE.baf~
 		
 END ELSE BEGIN
 
-EXTEND_TOP ~AR0602.BCS~				~PoFQuestPack/baf_are/S#AR0602.baf~
-USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR0602.tra~
+EXTEND_TOP ~AR0602.BCS~				~Paladins-of-Faerun/baf_are/S#AR0602.baf~
+USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR0602.tra~
 
 END
 
-EXTEND_BOTTOM ~AR0700.BCS~			~PoFQuestPack/baf_are/S#AR0700.baf~ // Waukeen
+EXTEND_BOTTOM ~AR0700.BCS~			~Paladins-of-Faerun/baf_are/S#AR0700.baf~ // Waukeen
 
-EXTEND_TOP ~AR0800.BCS~				~PoFQuestPack/baf_are/S#AR0800.baf~ // Graveyard
+EXTEND_TOP ~AR0800.BCS~				~Paladins-of-Faerun/baf_are/S#AR0800.baf~ // Graveyard
 
-EXTEND_TOP ~AR0900.BCS~				~PoFQuestPack/baf_are/S#AR0900.baf~ // District Temple
+EXTEND_TOP ~AR0900.BCS~				~Paladins-of-Faerun/baf_are/S#AR0900.baf~ // District Temple
 
-EXTEND_TOP ~AR1000.BCS~				~PoFQuestPack/baf_are/S#AR1000.baf~
-USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR1000.tra~ // District Government
+EXTEND_TOP ~AR1000.BCS~				~Paladins-of-Faerun/baf_are/S#AR1000.baf~
+USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR1000.tra~ // District Government
 
-EXTEND_TOP ~AR1005.BCS~				~PoFQuestPack/baf_are/S#AR1005.baf~
-USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR1005.tra~ // Prison
+EXTEND_TOP ~AR1005.BCS~				~Paladins-of-Faerun/baf_are/S#AR1005.baf~
+USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR1005.tra~ // Prison
 
-EXTEND_TOP ~AR1100.BCS~				~PoFQuestPack/baf_are/S#AR1100.baf~
-USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR1100.tra~ // Umar Hills
+EXTEND_TOP ~AR1100.BCS~				~Paladins-of-Faerun/baf_are/S#AR1100.baf~
+USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR1100.tra~ // Umar Hills
 
-EXTEND_TOP ~AR1500.BCS~				~PoFQuestPack/baf_are/S#AR1500.baf~ // Spellhold
+EXTEND_TOP ~AR1500.BCS~				~Paladins-of-Faerun/baf_are/S#AR1500.baf~ // Spellhold
 
-EXTEND_TOP ~AR1602.BCS~				~PoFQuestPack/baf_are/S#AR1602.baf~ // Brynlaw
+EXTEND_TOP ~AR1602.BCS~				~Paladins-of-Faerun/baf_are/S#AR1602.baf~ // Brynlaw
 
-EXTEND_TOP ~AR2000.BCS~				~PoFQuestPack/baf_are/S#AR2000.baf~ // Trademeet
-USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR2000.tra~
+EXTEND_TOP ~AR2000.BCS~				~Paladins-of-Faerun/baf_are/S#AR2000.baf~ // Trademeet
+USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR2000.tra~
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -791,13 +791,13 @@ USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR2000.tra~
 //////////////////////////////////
 
 
-		INCLUDE ~PoFQuestPack/Lib/PoF_Components/PoF_Worldmap.tph~
+		INCLUDE ~Paladins-of-Faerun/Lib/PoF_Components/PoF_Worldmap.tph~
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 
 //////////////////////////////////
-// Audio / Tis / PVRZ (Replacement for PoFQuestPack_Inst.bat)
+// Audio / Tis / PVRZ (Replacement for Paladins-of-Faerun_Inst.bat)
 //////////////////////////////////
 
 
@@ -805,8 +805,8 @@ USING ~weidu_external/PoFQuestPack/Languages/autotra/%s/baf_are/S#AR2000.tra~
 
 	LAF HANDLE_AUDIO 
 		STR_VAR 
-		audio_path = ~PoFQuestPack/Audio~ 
-		oggdec_path = ~PoFQuestPack/tools~ 
+		audio_path = ~Paladins-of-Faerun/Audio~ 
+		oggdec_path = ~Paladins-of-Faerun/tools~ 
 	END
 
 // BG2EE EET
@@ -814,7 +814,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 
 	// Install pvrz-based tilesets without the danger of overwriting pvrz files from other mods or the game itself.
 
-		INCLUDE ~PoFQuestPack/lib/a7_pvrz_tis.tpa~
+		INCLUDE ~Paladins-of-Faerun/lib/a7_pvrz_tis.tpa~
 		
 		// Installing all TIS files from the specified folder
 
@@ -850,8 +850,8 @@ ACTION_IF (GAME_IS ~tob bgt~) BEGIN
 	
 	LAF HANDLE_TILESETS
 		STR_VAR
-		tiz_path = ~PoFQuestPack/OLD.tiz~
-		tisunpack_path = ~PoFQuestPack/tools~
+		tiz_path = ~Paladins-of-Faerun/OLD.tiz~
+		tisunpack_path = ~Paladins-of-Faerun/tools~
 	END	 
 	
 END

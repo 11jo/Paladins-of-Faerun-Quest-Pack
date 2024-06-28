@@ -7,9 +7,9 @@
  ///////////////////////////BAM IN AREAS//////////
 
 
-MKDIR ~weidu_external/PoFQuestPack/Areas~
+MKDIR ~weidu_external/Paladins-of-Faerun/Areas~
 
-ACTION_BASH_FOR ~PoFQuestPack/Areas~ ~^.+$~ BEGIN
+ACTION_BASH_FOR ~Paladins-of-Faerun/Areas~ ~^.+$~ BEGIN
 
 PRINT ~         ~
 PRINT ~START creature in areas~
@@ -26,18 +26,18 @@ END
 
 // Exemple : 
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0000.ARE~         ~override/XG0000.ARE~
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0000.ARE~         ~override/XG0000.ARE~
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0001.ARE~         ~override/XG0001.ARE~
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0001.ARE~         ~override/XG0001.ARE~
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0002.ARE~         ~override/XG0002.ARE~
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0002.ARE~         ~override/XG0002.ARE~
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0003.ARE~			~override/XG0003.ARE~
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0003.ARE~			~override/XG0003.ARE~
   SAY 0x26b0 @398
   SAY 0x2838 @1000
   SAY 0x3284 @1001 
 
-COPY ~PoFQuestPack/Areas/XG0004.ARE~         ~override/XG0004.ARE~
+COPY ~Paladins-of-Faerun/Areas/XG0004.ARE~         ~override/XG0004.ARE~
   SAY 0xD68 @1002
   
   
@@ -45,9 +45,9 @@ COPY ~PoFQuestPack/Areas/XG0004.ARE~         ~override/XG0004.ARE~
   ///////////////////////////BAM ON ITEMS /////////////////////////////////////////////
   
   
- MKDIR ~weidu_external/PoFQuestPack/Items~
+ MKDIR ~weidu_external/Paladins-of-Faerun/Items~
 
-ACTION_BASH_FOR ~PoFQuestPack/Items~ ~^.+$~ BEGIN
+ACTION_BASH_FOR ~Paladins-of-Faerun/Items~ ~^.+$~ BEGIN
 
 PRINT ~         ~
 PRINT ~START BAM_NAMES_ON_ITM~
@@ -64,9 +64,9 @@ END
 
 ///////////////////BAM ON ITEMS ABILITIES
 
-// Redo All Item present in weidu_external/PoFQuestPack/Items
+// Redo All Item present in weidu_external/Paladins-of-Faerun/Items
 
-ACTION_BASH_FOR ~weidu_external/PoFQuestPack/Items~ ~^.+$~ BEGIN
+ACTION_BASH_FOR ~weidu_external/Paladins-of-Faerun/Items~ ~^.+$~ BEGIN
 
 PRINT ~         ~
 PRINT ~START BAM_NAMES_ON_ITM~
@@ -83,13 +83,13 @@ END
 
 // Exemple : 
 
-COPY ~weidu_external/PoFQuestPack/Items/XGAM1.ITM~			~override/XGAM1.ITM~
+COPY ~weidu_external/Paladins-of-Faerun/Items/XGAM1.ITM~			~override/XGAM1.ITM~
   SAY NAME1 @433
 
-COPY ~weidu_external/PoFQuestPack/Items/XGAM2.ITM~			~override/XGAM2.ITM~
+COPY ~weidu_external/Paladins-of-Faerun/Items/XGAM2.ITM~			~override/XGAM2.ITM~
   SAY NAME1 @434
 
-COPY ~weidu_external/PoFQuestPack/Items/XGAM3.ITM~			~override/XGAM3.ITM~
+COPY ~weidu_external/Paladins-of-Faerun/Items/XGAM3.ITM~			~override/XGAM3.ITM~
   SAY NAME1 @435 
  
 
