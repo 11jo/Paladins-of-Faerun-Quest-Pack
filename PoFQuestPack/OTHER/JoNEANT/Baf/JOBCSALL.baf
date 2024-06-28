@@ -591,3 +591,5 @@ THEN
 		DisplayStringHead(Myself,#11132)
 		SetGlobalTimer("JODLGALL_BCS_ONE_TURN","LOCALS",ONE_TURN)
 END
+
+//////////////////////////////////////////////////////////////////

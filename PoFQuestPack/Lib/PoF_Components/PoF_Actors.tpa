@@ -979,17 +979,19 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGDWMS.CRE~       ~override/XGDWMS.CRE~
   SAY NAME1 @111 
   SAY NAME2 @111 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGDWOD1.CRE~      ~override/XGDWOD1.CRE~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGDWOD1.CRE~      ~override/XGDWOD1.CRE~
   SAY NAME1 @112 
   SAY NAME2 @112 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGDWODE.CRE~      ~override/XGDWODE.CRE~       
+COPY ~weidu_external/PoFQuestPack/Actors/XGDWODE.CRE~      ~override/XGDWODE.CRE~
   SAY NAME1 @112 
   SAY NAME2 @112 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGDWOD.CRE~       ~override/XGDWOD.CRE~        
-  SAY NAME1 @112 
-  SAY NAME2 @112 
+COPY ~weidu_external/PoFQuestPack/Actors/XGDWOD.CRE~       ~override/XGDWOD.CRE~
+  SAY NAME1 @112
+  SAY NAME2 @112
+  WRITE_ASCII 0x250 ~XGDWOD~ (8) // Class script
+  WRITE_ASCII 0x2cc ~JODLGNAI~ (8) // DLG         
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGdwq.CRE~        ~override/XGdwq.CRE~         
   SAY NAME1 @113 
@@ -1825,7 +1827,9 @@ COPY ~weidu_external/PoFQuestPack/Actors/XGMIL.CRE~        ~override/XGMIL.CRE~
   SAY NAME1 @126 
   SAY NAME2 @126 
 
-COPY ~weidu_external/PoFQuestPack/Actors/XGMIN.CRE~        ~override/XGMIN.CRE~         
+COPY ~weidu_external/PoFQuestPack/Actors/XGMIN.CRE~        ~override/XGMIN.CRE~
+  WRITE_ASCII 0x250 ~XGMIN~ (8) // Class script
+  WRITE_ASCII 0x2cc ~JODLGMIN~ (8) // DLG         
 
 COPY ~weidu_external/PoFQuestPack/Actors/XGmitr.CRE~       ~override/XGmitr.CRE~        
 

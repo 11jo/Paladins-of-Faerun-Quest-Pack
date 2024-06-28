@@ -21,6 +21,8 @@ THEN
     ActionOverride("XGDUER2",Attack("XGDWOD1"))
     Wait(6)
     ActionOverride("XGDUER2",Kill("XGDWOD1"))
+    Wait(2)
+    ActionOverride("XGDUER2",FaceObject(Player1))
     Wait(1)
     DisplayString("XGDUER2",@4)  
     Wait(4)

@@ -42,6 +42,14 @@ Dead("XGDEVIL")~ THEN BEGIN 6
 TakePartyItem("XGDEVH")~ GOTO 7
 END
 
+IF ~Global("s#XGELG","GLOBAL",2)
+OR(2)
+	!Dead("XGDUERL") 
+	!Dead("XGDEVIL")~ THEN BEGIN 6
+  SAY @9
+  IF ~~ THEN EXIT
+END
+
 IF ~~ THEN BEGIN 7
   SAY @16
   IF ~~ THEN REPLY @17 DO ~AddexperienceParty(40000)

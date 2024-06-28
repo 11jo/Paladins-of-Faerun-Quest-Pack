@@ -1,4 +1,4 @@
-@1 = ~Paladine von Faerûn Questpaket~
+@1 = ~Paladine von Faerun Questpaket~
 @2 = ~Student der Akademie~
 @3 = ~Student~
 @4 = ~Meister~
@@ -185,6 +185,7 @@
 @183 = ~Königstochter~
 @184 = ~Kelroth~
 @185 = ~Priest of the Brotherhood~
+@186 = ~Statue~
 
 
 
@@ -3941,8 +3942,30 @@ EIGENSCHAFTEN:
 @927 = ~Tempel von Helm~
 @928 = ~Diener von Ilmater~
 @929 = ~Tempel von Shevarash~
+@930  = ~Golden gloves~
+@931  = ~Golden gloves
+  
+These priceless bracelets are literally made of gold, their aura envelops the wearer, granting him or her an extraordinary resistance:
+The permanent glow emanating from the bracelets prevents the effects of sleep, acts as a shield against charms and boosts self-esteem.
+Gold's natural resistance increases constitution and, incidentally, strength, while preventing sneak attacks.
+On the other hand, blinded by his wealth and strengthened by gold's density, the wearer loses wisdom and intelligence, while suffering a penalty to his speed of movement. 
+  
+STATISTICS: 
+
+Equipped abilities: 
+- Movement rate: -15%
+- Strength: +1
+- Constitution: +2
+- Intelligence: -2
+- Wisdom: -2
+- Charisma: +1
+- Immunity to sleep, panic, charms, horror and poisoning
+- Immunity to backstab
+
+Weight: 20~
 
 
+@998  = ~Seid Ihr so mutig, dass Ihr getrost lügen könnst?~
 @999  = ~Crevasse~
 @1000 = ~Dieser Brunnen ist mit einer dunklen, zähen Flüssigkeit gefüllt, die nach Tod und Verfall stinkt.~
 @1001 = ~Euer Traum wurde unterbrochen.~
@@ -3955,7 +3978,7 @@ EIGENSCHAFTEN:
 @1008 = ~Hotel~
 @1009 = ~Verlasst die Stadt~
 @1010 = ~Haus des Bürgermeisters~
-@1011 = ~Seid Ihr so mutig, dass Ihr getrost lügen könnst? Ihr werdet für Euren Mut bezahlen, Abenteurer!~
+@1011 = ~Ihr werdet für Euren Mut bezahlen, Abenteurer!~
 @1012 = ~Druidenabtei~
 @1013 = ~Schmied~
 @1014 = ~Zauberstein~

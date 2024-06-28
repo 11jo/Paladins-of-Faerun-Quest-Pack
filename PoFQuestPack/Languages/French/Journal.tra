@@ -1389,10 +1389,10 @@ Found a Sword in Baldur's Gate, maybe one of the relics Thoice Chorster is looki
 Mission accomplished, missing items found, farewell.~
 
 
-//////////////////////    Mine. .
+//////////////////////    Mine. Vagabondes.
 // Title
 
-@51800 = ~Mine~ // 3 Relics
+@51800 = ~Vagabondes~ // 3 Relics
 
 /*
 // XGmo (UNSOLVED_JOURNAL @10) // Same as XGELG (@18)
@@ -1402,25 +1402,25 @@ In the slums, I came across a traveler who heard some rumors about problems in t
 */
 
 // XGELG (UNSOLVED_JOURNAL @11, SOLVED_JOURNAL @20, EraseJournalEntry(@11, 18, 19))
-@51801 = ~Mine
+@51801 = ~Vagabondes
 
 During the study, I came across a gnome Elgen, he needs help in protecting the mine. I agreed, my task is to explore the western and eastern wings of the mine, kill the leader of the duergar and monsters and bring the head, or at least their body parts, to Elgen.~ // @11
 
-@51802 = ~Mine
+@51802 = ~Vagabondes
 
 The duergar leader will give me two valuable items if I get rid of the gnomes in the central part of the mine.~ // @18
 
 // Same as XGmo (@10)
-@51803 = ~Mine
+@51803 = ~Vagabondes
 
 In the slums, I came across a traveler who heard some rumors about problems in the dwarf mines in Tethyr. I could try to help them.~ // @19
 
-@51804 = ~Mine
+@51804 = ~Vagabondes
 
 I found and killed both, the monster and the gray leader. The gnome mine is safe again.~ // @20
 
 // XGDUEL1 (SOLVED_JOURNAL @2, EraseJournalEntry(@3,  4, 5)// Same as XGMO @19 AND XGELG @11 and @18)
-@51805 = ~ Mine
+@51805 = ~ Vagabondes
 
 I killed the gnomes from mine.~ // @2
 

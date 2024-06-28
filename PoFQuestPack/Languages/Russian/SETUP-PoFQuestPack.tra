@@ -186,6 +186,7 @@
 @183  = ~Дочь короля~
 @184  = ~Келрот~
 @185 = ~Priest of the Brotherhood~
+@186 = ~Statue~
 
 
 
@@ -3767,8 +3768,30 @@ THAC0:  +3 бонус
 @927  = ~Храм Хельма~
 @928  = ~Слуга Илматера~
 @929  = ~Храм Шевароша~
+@930  = ~Golden gloves~
+@931  = ~Golden gloves
+  
+These priceless bracelets are literally made of gold, their aura envelops the wearer, granting him or her an extraordinary resistance:
+The permanent glow emanating from the bracelets prevents the effects of sleep, acts as a shield against charms and boosts self-esteem.
+Gold's natural resistance increases constitution and, incidentally, strength, while preventing sneak attacks.
+On the other hand, blinded by his wealth and strengthened by gold's density, the wearer loses wisdom and intelligence, while suffering a penalty to his speed of movement. 
+  
+STATISTICS: 
+
+Equipped abilities: 
+- Movement rate: -15%
+- Strength: +1
+- Constitution: +2
+- Intelligence: -2
+- Wisdom: -2
+- Charisma: +1
+- Immunity to sleep, panic, charms, horror and poisoning
+- Immunity to backstab
+
+Weight: 20~
 
 
+@998  = ~Вы такой смелый, что можете спокойно лгать?~
 @999  = ~Crevasse~
 @1000 = ~Этот фонтан наполнен темной вязкой жидкостью, от которой разит смертью и разложением.~
 @1001 = ~Ваш сон был прерван.~
@@ -3781,7 +3804,7 @@ THAC0:  +3 бонус
 @1008 = ~Гостиница~
 @1009 = ~Выход из города~
 @1010 = ~Дом мэра~
-@1011 = ~Вы такой смелый, что можете спокойно лгать? Вы заплатите за ваше мужество авантюрист!~
+@1011 = ~Вы заплатите за ваше мужество авантюрист!~
 @1012 = ~Аббатство друидов~
 @1013 = ~Кузнец~
 @1014 = ~Магический камень~

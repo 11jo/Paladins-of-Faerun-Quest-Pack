@@ -70,7 +70,7 @@ BEGIN @0 /* Installer "JoNEANT" version complète */
 DESIGNATED 0
 LABEL ~JoNEANT-11jo~
 REQUIRE_PREDICATE GAME_IS ~bgee bg2 bgt bg2ee eet~ @1
-//FORBID_COMPONENT ~Setup-JoNEANT~ ~0~ @2
+//FORBID_COMPONENT ~Setup-JoNEANT.tp2~ ~0~ @2
 
 // Spécial
 

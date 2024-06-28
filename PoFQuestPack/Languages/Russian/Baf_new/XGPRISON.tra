@@ -1,7 +1,7 @@
 
-1 = ~Please wait a moment.~
-2 = ~Secure and bring the prisoner Marco in front of me.~
-3 = ~At once.~
+@1 = ~Please wait a moment.~
+@2 = ~Secure and bring the prisoner Marco in front of me.~
+@3 = ~At once.~
 @4 = ~Come on Marco, you're moving out.~
 @5 = ~It's about time, this auberge is really not to my liking...~
 @6 = ~Where do you think you are?~

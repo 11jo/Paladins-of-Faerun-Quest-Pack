@@ -1,0 +1,9 @@
+IF
+	OR(2)
+		Entered([ANYONE])
+		Opened([ANYONE])
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@998)
+END
+

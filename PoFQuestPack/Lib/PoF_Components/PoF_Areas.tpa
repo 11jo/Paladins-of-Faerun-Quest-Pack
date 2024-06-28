@@ -53,7 +53,14 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 COPY ~weidu_external/PoFQuestPack/Areas/XG0003.ARE~			~override/XG0003.ARE~
   SAY 0x26b0 @398
   SAY 0x2838 @1000
-  SAY 0x3030 @1001
+			LPF fj_are_structure
+				INT_VAR 
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+				STR_VAR 
+				fj_cre_resref0 = ~SHADOW01~
+				fj_structure_type = interrupts
+				fj_name  = XGSHAd
+			END
 
 END       
 
@@ -62,18 +69,39 @@ ACTION_IF (GAME_IS ~tob bgt~) BEGIN
 COPY ~weidu_external/PoFQuestPack/Areas/XG0003.ARE~			~override/XG0003.ARE~
   SAY 0x26b0 @398
   SAY 0x2838 @1000
-  SAY 0x3284 @1001
+			LPF fj_are_structure
+				INT_VAR 
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+				STR_VAR 
+				fj_cre_resref0 = ~SHADOW01~
+				fj_structure_type = interrupts
+				fj_name  = XGSHAd
+			END
 
 END    
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0004.ARE~         ~override/XG0004.ARE~
-  SAY 0xD68 @1002
+			LPF fj_are_structure
+				INT_VAR 
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1002)
+				STR_VAR 
+				fj_cre_resref0 = ~HGWAR01~
+				fj_structure_type = interrupts
+				fj_name  = GIANT
+			END
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0007.ARE~         ~override/XG0007.ARE~
   SAY 0x3104 @399
-  SAY 0x3398 @1001
+			LPF fj_are_structure
+				INT_VAR 
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+				STR_VAR 
+				fj_cre_resref0 = ~XGGOB4~
+				fj_structure_type = interrupts
+				fj_name  = XGGOB
+			END
 
 END       
 
@@ -81,7 +109,14 @@ ACTION_IF (GAME_IS ~tob bgt~) BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0007.ARE~         ~override/XG0007.ARE~
   SAY 0x3104 @399
-  SAY 0x3344 @1001
+			LPF fj_are_structure
+				INT_VAR 
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+				STR_VAR 
+				fj_cre_resref0 = ~XGGOB4~
+				fj_structure_type = interrupts
+				fj_name  = XGGOB
+			END
 
 END    
 
@@ -92,7 +127,14 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0012.ARE~         ~override/XG0012.ARE
 COPY ~weidu_external/PoFQuestPack/Areas/XG0013.ARE~         ~override/XG0013.ARE~
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0014.ARE~         ~override/XG0014.ARE~
-  SAY 0x5C8 @1003
+			LPF fj_are_structure
+				INT_VAR 
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1003)
+				STR_VAR 
+				fj_cre_resref0 = ~SIRINE01~
+				fj_structure_type = interrupts
+				fj_name  = SIREN
+			END
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0015.ARE~         ~override/XG0015.ARE~
 	LPF fj_are_structure
@@ -159,7 +201,6 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0019.ARE~         ~override/XG0019.ARE
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0020.ARE~         ~override/XG0020.ARE~
   WRITE_ASCII 0x94 ~XG0020~ #8
-  
   LPF fj_are_structure
     INT_VAR
       fj_variable_value = 1
@@ -280,8 +321,55 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0026.ARE~         ~override/XG0026.ARE
   SAY 0x2918 @1010          
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0028.ARE~         ~override/XG0028.ARE~
-  SAY 0xd5C @1011 
-  SAY 0x1124 @1012         
+	LPF fj_are_structure
+		INT_VAR
+		fj_type			= 0    // Proximity trigge
+		fj_box_left		= 416
+		fj_box_top		= 1055
+		fj_box_right	= 569
+		fj_box_bottom	= 1151
+		fj_cursor_idx	= 0   // curseur ?
+		fj_flags	= BIT1 | BIT3 | BIT6  //
+		//fj_info_point_strref  = RESOLVE_STR_REF (@1011) // See XGGT004.baf
+		fj_trap_detect = 50
+		fj_trap_remove = 50
+		fj_trap_active = 1
+		fj_trap_status  = 0
+		fj_loc_x		= 487
+		fj_loc_y		= 1102
+		fj_vertex_0		= 416 + (1100 << 16)
+		fj_vertex_1		= 494 + (1151 << 16)
+		fj_vertex_2		= 569 + (1100 << 16)
+		fj_vertex_3		= 482 + (1055 << 16)
+		STR_VAR
+		fj_structure_type	= region
+		fj_name				= InfoPoint4
+		fj_reg_script = XGGT004
+		END
+	LPF fj_are_structure
+		INT_VAR
+		fj_type			= 0    // Proximity trigge
+		fj_box_left		= 214
+		fj_box_top		= 1140
+		fj_box_right	= 454
+		fj_box_bottom	= 1278
+		fj_cursor_idx	= 0   // curseur ?
+		fj_flags	= BIT1 | BIT6  //
+		//fj_info_point_strref  = RESOLVE_STR_REF (~Auras-tu la faiblesse d’esprit de tenter la traversée ?~) // See XGGT004.baf
+		fj_loc_x		= 325
+		fj_loc_y		= 1219
+		fj_trap_active = 1
+		fj_trap_status  = 0
+		fj_vertex_0		= 214 + (1220 << 16)
+		fj_vertex_1		= 423 + (1278 << 16)
+		fj_vertex_2		= 454 + (1185 << 16)
+		fj_vertex_3		= 360 + (1140 << 16)
+		STR_VAR
+		fj_structure_type	= region
+		fj_name				= InfoPoint3
+		fj_reg_script = XGGT003
+		END
+  ADD_MAP_NOTE #2777 #554 ~VIOLET~ @1012  
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0029.ARE~         ~override/XG0029.ARE~         
   SAY 0x1bc4 @409  // Temple Entrance  InfoTrigger
@@ -349,7 +437,7 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0053.ARE~         ~override/XG0053.ARE
 // SAY 0x3C1C ~~
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0054.ARE~			~override/XG0054.ARE~
-// SAY 0x463C ~~  Refuge (de Gradak)       
+  ADD_MAP_NOTE #2745 #1228 ~red~ @1006
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0055.ARE~			~override/XG0055.ARE~
 
@@ -455,7 +543,14 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0070.ARE~         ~override/XG0070.ARE
 COPY ~weidu_external/PoFQuestPack/Areas/XG0071.ARE~         ~override/XG0071.ARE~         
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0072.ARE~         ~override/XG0072.ARE~
-  SAY 0x2450 @1001         
+			LPF fj_are_structure
+				INT_VAR 
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+				STR_VAR 
+				fj_cre_resref0 = ~MUMMY~
+				fj_structure_type = interrupts
+				fj_name  = MUMIE
+			END               
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0073.ARE~         ~override/XG0073.ARE~         
 
@@ -530,7 +625,7 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0118.ARE~         ~override/XG0118.ARE
 //ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0120.ARE~         ~override/XG0120.ARE~
-  WRITE_ASCII 0x94 ~XG0120~ #8                                    
+  WRITE_ASCII 0x94 ~XG0120~ #8
 
 //END
 
@@ -540,8 +635,13 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0126.ARE~         ~override/XG0126.ARE
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0128.ARE~         ~override/XG0128.ARE~         
 
-COPY ~weidu_external/PoFQuestPack/Areas/XG0129.ARE~         ~override/XG0129.ARE~       
-  SAY 0x8a4 ~Statue~                 
+COPY ~weidu_external/PoFQuestPack/Areas/XG0129.ARE~         ~override/XG0129.ARE~    
+	LPF ALTER_AREA_REGION
+		INT_VAR
+		info_point   = RESOLVE_STR_REF (@186)
+		STR_VAR
+		region_name	= XGStatue
+		END           
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0130.ARE~         ~override/XG0130.ARE~         
 
@@ -730,7 +830,7 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0319.ARE~         ~override/XG0319.ARE
 //ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0320.ARE~         ~override/XG0320.ARE~
-  WRITE_ASCII 0x94 ~XG0320~ #8                           
+  WRITE_ASCII 0x94 ~XG0320~ #8
 
 //END
 
@@ -788,10 +888,24 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0381.ARE~         ~override/XG0381.ARE
 COPY ~weidu_external/PoFQuestPack/Areas/XG0384.ARE~         ~override/XG0384.ARE~         
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0401.ARE~         ~override/XG0401.ARE~
-  SAY 0x300C @1052         
+			LPF fj_are_structure
+				INT_VAR 
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1052)
+				STR_VAR 
+				fj_cre_resref0 = ~XGMOON~
+				fj_structure_type = interrupts
+				fj_name  = XGELF
+			END       
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0402.ARE~         ~override/XG0402.ARE~
-  SAY 0x28E0 @1001         
+			LPF fj_are_structure
+				INT_VAR 
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+				STR_VAR 
+				fj_cre_resref0 = ~XGDUER~
+				fj_structure_type = interrupts
+				fj_name  = XGDuer
+			END      
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0403.ARE~         ~override/XG0403.ARE~         
   SAY 0x2bb4 @422 
@@ -820,7 +934,14 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0426.ARE~         ~override/XG0426.ARE
 COPY ~weidu_external/PoFQuestPack/Areas/XG0429.ARE~         ~override/XG0429.ARE~         
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0439.ARE~         ~override/XG0439.ARE~
-  SAY 0xDB4 @1001          
+			LPF fj_are_structure
+				INT_VAR 
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+				STR_VAR 
+				fj_cre_resref0 = ~SKELWA01~
+				fj_structure_type = interrupts
+				fj_name  = KOST
+			END              
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0440.ARE~         ~override/XG0440.ARE~ 
 
@@ -833,20 +954,44 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0462.ARE~         ~override/XG0462.ARE
 COPY ~weidu_external/PoFQuestPack/Areas/XG0464.ARE~         ~override/XG0464.ARE~         
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0480.ARE~         ~override/XG0480.ARE~
-  SAY 0xA7C @1001         
+			LPF fj_are_structure
+				INT_VAR 
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+				STR_VAR 
+				fj_cre_resref0 = ~ELEARL01~
+				fj_structure_type = interrupts
+				fj_name  = elearl01
+			END                 
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0481.ARE~         ~override/XG0481.ARE~
   ADD_MAP_NOTE #35 #2012 ~orange~ @1018 // Cimetière
   ADD_MAP_NOTE #680 #3642 ~gray~ #48376 // Sortie
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG04N1.ARE~         ~override/XG04N1.ARE~
-  SAY 0x2DEC @1052         
+  WRITE_ASCII 0x94 ~XG04N1~ #8
+			LPF fj_are_structure
+				INT_VAR 
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1052)
+				STR_VAR 
+				fj_cre_resref0 = ~XGMOON~
+				fj_structure_type = interrupts
+				fj_name  = XGELF
+			END
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG04N2.ARE~         ~override/XG04N2.ARE~
-  SAY 0x186C @1001         
+  WRITE_ASCII 0x94 ~XG04N2~ #8
+			LPF fj_are_structure
+				INT_VAR 
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+				STR_VAR 
+				fj_cre_resref0 = ~XGDUER~
+				fj_structure_type = interrupts
+				fj_name  = XGDuer
+			END
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG04N3.ARE~         ~override/XG04N3.ARE~         
   SAY 0x2bb4 @422 
+  WRITE_ASCII 0x94 ~XG04N3~ #8
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0511.ARE~         ~override/XG0511.ARE~         
 
@@ -857,7 +1002,7 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0517.ARE~         ~override/XG0517.ARE
 //ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0520.ARE~         ~override/XG0520.ARE~
-  WRITE_ASCII 0x94 ~XG0520~ #8         
+  WRITE_ASCII 0x94 ~XG0520~ #8
 
 //END
 
@@ -889,7 +1034,7 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0615.ARE~         ~override/XG0615.ARE
 //ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0620.ARE~         ~override/XG0620.ARE~
-  WRITE_ASCII 0x94 ~XG0620~ #8                  
+  WRITE_ASCII 0x94 ~XG0620~ #8
 
 //END
 
@@ -1026,7 +1171,7 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0815.ARE~         ~override/XG0815.ARE
 //ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0820.ARE~         ~override/XG0820.ARE~
-  WRITE_ASCII 0x94 ~XG0820~ #8                           
+  WRITE_ASCII 0x94 ~XG0820~ #8
   //SAY 0x41C @1001 useless normaly         
 
 //END
@@ -1039,7 +1184,14 @@ COPY ~weidu_external/PoFQuestPack/Areas/XG0880.ARE~         ~override/XG0880.ARE
   ADD_MAP_NOTE #3984 #826 ~red~ @101 // Vieux dragon      
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0901.ARE~         ~override/XG0901.ARE~
-  SAY 0x4FD4 @1054
+			LPF fj_are_structure
+				INT_VAR 
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1054)
+				STR_VAR 
+				fj_cre_resref0 = ~XGUNPAL~
+				fj_structure_type = interrupts
+				fj_name  = XGUNPal
+			END
 
 COPY ~weidu_external/PoFQuestPack/Areas/XG0902.ARE~         ~override/XG0902.ARE~         
 
@@ -1115,7 +1267,14 @@ COPY ~weidu_external/PoFQuestPack/Areas/XGA280.ARE~         ~override/XGA280.ARE
 COPY ~weidu_external/PoFQuestPack/Areas/XGA380.ARE~			~override/XGA380.ARE~
 
 COPY ~weidu_external/PoFQuestPack/Areas/XGA480.ARE~         ~override/XGA480.ARE~
-  SAY 0x44C @1001
+			LPF fj_are_structure
+				INT_VAR 
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+				STR_VAR 
+				fj_cre_resref0 = ~ELEARL01~
+				fj_structure_type = interrupts
+				fj_name  = elearl01
+			END
 
 COPY ~weidu_external/PoFQuestPack/Areas/XGB180.ARE~         ~override/XGB180.ARE~
 
@@ -1139,4 +1298,13 @@ COPY ~weidu_external/PoFQuestPack/Areas/XGTORM.ARE~         ~override/XGTORM.ARE
 
 COPY ~weidu_external/PoFQuestPack/Areas/XGUMOD.ARE~			~override/XGUMOD.ARE~
   SAY 0x3040 @432
-  SAY 0x32A4 @1001
+			LPF fj_are_structure
+				INT_VAR 
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+				fj_cre_strref1  =  RESOLVE_STR_REF (@1001)
+				STR_VAR 
+				fj_cre_resref0 = ~XGBMT~
+				fj_cre_resref1 = ~XGBMT~
+				fj_structure_type = interrupts
+				fj_name  = XGBMT
+			END

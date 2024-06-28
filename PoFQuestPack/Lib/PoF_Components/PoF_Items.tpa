@@ -1538,3 +1538,9 @@ COPY ~weidu_external/PoFQuestPack/Items/XGZAT.ITM~			~override/XGZAT.ITM~
   SAY NAME2 @917
   SAY UNIDENTIFIED_DESC @918
   SAY DESC @918
+
+COPY ~weidu_external/PoFQuestPack/Items/XGOLBRAC.ITM~			~override/XGOLBRAC.ITM~
+  SAY NAME1 #6797 // ~Gantelets~
+  SAY NAME2 @930
+  SAY UNIDENTIFIED_DESC #6798 // ~Not impemented yet~
+  SAY DESC @931

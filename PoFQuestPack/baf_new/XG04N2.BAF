@@ -1,7 +1,7 @@
 IF
-	Global("XG04N2","LOCALS",0)
+	Global("XG04N2","MYAREA",0)
 THEN
 	RESPONSE #100
-		SetGlobal("XG04N2","LOCALS",0)
 		Explore()
+		SetGlobal("XG04N2","MYAREA",1)
 END

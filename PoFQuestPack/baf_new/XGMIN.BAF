@@ -1,0 +1,62 @@
+
+
+// Mineur
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(4,1)
+	OR(2)
+		AreaCheck("XG0401")
+		AreaCheck("XG04N1")
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#4885)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(4,2)
+	OR(2)
+		AreaCheck("XG0401")
+		AreaCheck("XG04N1")
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#4886)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(4,3)
+	OR(2)
+		AreaCheck("XG0401")
+		AreaCheck("XG04N1")
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#4887)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Gender(Myself,MALE)
+	RandomNum(4,4)
+	OR(2)
+		AreaCheck("XG0401")
+		AreaCheck("XG04N1")
+	GlobalTimerExpired("JODLGALL_BCS_FOUR_TURNS","LOCALS")
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,#4888)
+		SetGlobalTimer("JODLGALL_BCS_FOUR_TURNS","LOCALS",FOUR_TURNS)
+END

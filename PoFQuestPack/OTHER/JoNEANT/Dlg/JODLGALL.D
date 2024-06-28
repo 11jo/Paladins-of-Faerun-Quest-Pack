@@ -321,3 +321,152 @@ IF ~RandomNum(10,10)~ THEN BEGIN 9
   SAY #11132 /* ~Z'allez crever ! J'vais m'en assurer !~ [GENFT10] */
   IF ~~ THEN EXIT
 END
+
+//////////////////////////////////////////////////////////////////
+
+BEGIN ~JODLGMIN~  // Mineur
+
+IF ~RandomNum(4,1)~ THEN BEGIN 0
+  SAY #4885   /*~Oh là là, je suis si fatigué.~ [MINER01]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(4,2)~ THEN BEGIN 1
+  SAY #4886   /*~Ahh... Laissez-nous... nous avons beaucoup de travail... devant nous, ahh...~ [MINER02]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(4,3)~ THEN BEGIN 2
+  SAY #4887   /*~*tousse* Oh, je crois que je crache du sang !~ [MINER03]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(4,4)~ THEN BEGIN 3
+  SAY #4888   /*~Il fait tellement sombre ici.~ [MINER04]*/
+  IF ~~ THEN EXIT
+END
+
+//////////////////////////////////////////////////////////////////
+
+BEGIN ~JODLGGNM~  // Gnome Homme
+
+IF ~RandomNum(9,1)~ THEN BEGIN 0
+  SAY #4929   /*~Je ne suis pas très heureux, non, pas très heureux.~ [GNOME01]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,2)~ THEN BEGIN 1
+  SAY #4930   /*~Je suis heureux, très heureux !~ [GNOME02]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,3)~ THEN BEGIN 2
+  SAY #4931   /*~Je ne sais pas qui vous êtes.~ [GNOME03]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,4)~ THEN BEGIN 3
+  SAY #61701  /*~J'suis juste venu chercher des navets, j'te jure !~ [GNOMEM01]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,5)~ THEN BEGIN 3
+  SAY #61702  /*~Tu... tu vas pas faire de mal à un pauvre petit gnome, hein ?~ [GNOMEM02]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,9)~ THEN BEGIN 3
+  SAY #61703  /*~Mmmmmm, ouais ?~ [GNOMEM03]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,7)~ THEN BEGIN 3
+  SAY #61704  /*~*siffle*~ [GNOMEM04]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,8)~ THEN BEGIN 3
+  SAY #61705  /*~Arrière, gond de baudruche ! Ou j'te brise les rotules !~ [GNOMEM05]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,9)~ THEN BEGIN 3
+  SAY #61706  /*~Oh là là !~ [GNOMEM06]*/
+  IF ~~ THEN EXIT
+END
+
+//////////////////////////////////////////////////////////////////
+
+BEGIN ~JODLGGNF~  // Gnome Femme
+
+IF ~RandomNum(9,1)~ THEN BEGIN 0
+  SAY #11638  /*~Heureuse de vous avoir connus.~ [GNOMF01]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,2)~ THEN BEGIN 1
+  SAY #11639  /*~Je dois bientôt retourner dans mes grottes. Haha, les tunnels familiers me manquent.~ [GNOMF02]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,3)~ THEN BEGIN 2
+  SAY #11640  /*~La vie sous terre est bien plus sûre, et les pierres précieuses qui l'embellissent sont toujours les bienvenues, hihi.~ [GNOMEF03]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,4)~ THEN BEGIN 3
+  SAY #11641  /*~Ooh !~ [GNOMF05]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,5)~ THEN BEGIN 3
+  SAY #61694  /*~N'essayez même pas de m'intimider !~ [GNOMEF02]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,6)~ THEN BEGIN 3
+  SAY #61695  /*~Vous n'avez pas vu de griffons dans le coin, n'est-ce pas ?~ [GNOMEF03]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,7)~ THEN BEGIN 3
+  SAY #61696  /*~Comment allez-vous ? Belle journée, n'est-ce pas ?~ [GNOMEF04]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,8)~ THEN BEGIN 3
+  SAY #61698  /*~Oh !~ [GNOMEF06]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,9)~ THEN BEGIN 3
+  SAY #61700  /*~Oooh, ce n'est vraiment pas une bonne journée !~ [GNOMEF08]*/
+  IF ~~ THEN EXIT
+END
+
+//////////////////////////////////////////////////////////////////
+
+BEGIN ~JODLGNAI~  // Nain
+
+IF ~RandomNum(4,1)~ THEN BEGIN 0
+  SAY #4934   /*~Par le marteau de Moradin.~ [DWARF01]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(4,2)~ THEN BEGIN 1
+  SAY #4936   /*~J'ai besoin d'une bonne vieille bière de chez nous.~ [DWARF02]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(4,3)~ THEN BEGIN 2
+  SAY #4939   /*~Moi, euh... d'assez mauvaise humeur sans que vous m'ennuyez.~ [DWARF03]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(4,4)~ THEN BEGIN 3
+  SAY #4940   /*~Vos causeries commencent à m'agacer.~ [DWARF04]*/
+  IF ~~ THEN EXIT
+END
+
+//////////////////////////////////////////////////////////////////
+	

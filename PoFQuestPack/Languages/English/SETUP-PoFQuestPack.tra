@@ -185,6 +185,7 @@
 @183 = ~King's daughter~
 @184 = ~Kelrot~
 @185 = ~Priest of the Brotherhood~
+@186 = ~Statue~
 
 
 
@@ -4087,8 +4088,30 @@ Weight: 1~
 @927 = ~Temple of Helm~
 @928 = ~Ilmater's Servant~
 @929  = ~Temple of Shevarash~
+@930  = ~Golden gloves~
+@931  = ~Golden gloves
+  
+These priceless bracelets are literally made of gold, their aura envelops the wearer, granting him or her an extraordinary resistance:
+The permanent glow emanating from the bracelets prevents the effects of sleep, acts as a shield against charms and boosts self-esteem.
+Gold's natural resistance increases constitution and, incidentally, strength, while preventing sneak attacks.
+On the other hand, blinded by his wealth and strengthened by gold's density, the wearer loses wisdom and intelligence, while suffering a penalty to his speed of movement. 
+  
+STATISTICS: 
+
+Equipped abilities: 
+- Movement rate: -15%
+- Strength: +1
+- Constitution: +2
+- Intelligence: -2
+- Wisdom: -2
+- Charisma: +1
+- Immunity to sleep, panic, charms, horror and poisoning
+- Immunity to backstab
+
+Weight: 20~
 
 
+@998  = ~Do you have so much courage that you are not afraid to lie calmly?~
 @999  = ~Crevasse~
 @1000 = ~This fountain is filled with a dark, viscous liquid from which it suffers from death and decay.~
 @1001 = ~Your dream was interrupted.~
@@ -4101,7 +4124,7 @@ Weight: 1~
 @1008 = ~Hotel~
 @1009 = ~Exit the city~
 @1010 = ~Mayor's House~
-@1011 = ~Do you have so much courage that you are not afraid to lie calmly? It's time to pay for your levity!~
+@1011 = ~It's time to pay for your levity!~
 @1012 = ~Druid Abbey~
 @1013 = ~Blacksmith~
 @1014 = ~Sacred Stone~
