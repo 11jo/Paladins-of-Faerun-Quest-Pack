@@ -1086,10 +1086,10 @@ Type : Arme à deux mains
 Nécessite : Strength 8
 
 Inutilisable par :  
-  Druid
-  Cleric
+  Druide
+  Clerc
   Mage
-  Monk~
+  Moine~
 @511 = ~Crossbow of Discharge~
 @512 = ~The name of this crossbow sounds pretty unambiguous. The crossbow is enchanted and can create its own arrows each time, striking with an electric discharge. In addition, the magic of the crossbow affects its owner in such a way as if he was constantly under the effects of haste.
 
@@ -1162,8 +1162,8 @@ PARAMÈTRES :
 Summon an air elemental 1 time a day
 Additional 2d6 points of cold damage
 
-TAC0: +4 bonus	
-Dégâts : 1d6 +4	
+TAC0: +5 bonus	
+Dégâts : 1d6 +5	
 Type de dégâts : crushing	
 Poids : 5	
 Facteur de vitesse : 7	
@@ -1198,26 +1198,32 @@ Inutilisable par :
   Monk
   Mage~
 @521 = ~The Decider of Fate~
-@522 = ~This powerful weapon is able to decide destinies and lives. It makes it possible both to save the life of the owner of the flail, and to deprive the enemy of his life.
+@522 = ~Cette arme redoutable a ruiné plus d'une vie. Au moment de l'impact avec la cible, le temps semble s'arrêter vous permettant d'achever l'ennemi ou de battre rapidement en retraite.
 
-PARAMÈTRES :
+PARAMÈTRES : 
 
-Regeneration of 2 hit points per second
-10% chance to deal 30 points of fire damage
+Capacités d'équipement : 
+- Immunité à l'arrêt du temps
+
+Capacité de charge (1 fois par jour) : 
+- Arrêt du temps (instantané) pendant 20 secondes
+
+Capacités de combat : 
+- 11 % de chances de lancer Arrêt du temps pendant 7 secondes
 
 TAC0: +3 bonus
 Dégâts : 1d6 +3
-Type de dégâts : crushing
+Type de dégâts : Contondant
 Poids : 15
 Facteur de vitesse : 5
-Type de compétence : Flail/Morningstar
+Type de compétence : Fléau d'armes / Morgenstern
 Type : Arme à une main
-Nécessite : Strength 13
+Nécessite : 13 en Force
 
 Inutilisable par :
-  Druid
-  Thief
-  Monk
+  Druide
+  Voleur
+  Moine
   Mage~
 @523 = ~Shieldcrusher~
 @524 = ~This weapon is designed to fight against shield-bearers. Thanks to the increased damage, the flail easily penetrates shields and paralyzes enemies.
@@ -1227,8 +1233,8 @@ PARAMÈTRES :
 50% chance to deal 1d6 of stun damage
 15% chance to stun the target for 8 seconds
 
-TAC0: +4 bonus
-Dégâts : 1d6 +4
+TAC0: +5 bonus
+Dégâts : 1d6 +5
 Type de dégâts : crushing
 Poids : 20
 Facteur de vitesse : 8
@@ -1611,6 +1617,8 @@ Usable by:
 @571 = ~Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen and groin.  Similar in construction to bronze plate mail, true plate mail comprises of chain and leather.
 
 PARAMÈTRES :
+
+1% chance to resurrect the character
 
 Classe d'armure : 5
 TAC0: +2 bonus
@@ -2403,7 +2411,7 @@ Haste
 Gives you the opportunity to attack twice per round
 
 TAC0: +5 bonus
-Dégâts : +5 bonus
+Dégâts : 1d8 +5 bonus
 Type de dégâts : piercing
 Poids : 5
 Facteur de vitesse : 4
@@ -2476,7 +2484,7 @@ Inutilisable par :
 
 PARAMÈTRES :
 
-Classe d'armure : 5
+Classe d'armure : 2
 Poids : 5
 Nécessite : Strength 12
 
@@ -2494,12 +2502,8 @@ Inutilisable par :
 
 PARAMÈTRES :
 
-10% chance to instantly kill the target on hit (saving throw vs. paralysis/poison/death with +1 bonus)
-Haste
-Gives you the opportunity to attack twice per round
-
 TAC0: +3 bonus
-Dégâts : +3 bonus
+Dégâts : 1d8 +3 bonus
 Type de dégâts : piercing
 Poids : 4
 Facteur de vitesse : 2
@@ -2541,7 +2545,7 @@ Inutilisable par :
 
 PARAMÈTRES :
 
-5% chance to instantly kill a creature if saving throw fails vs. paralysis/poison/death
+50% chance to instantly kill a creature if saving throw fails vs. paralysis/poison/death
 Additional 1d8 of crushing damage
 
 TAC0: +4 bonus
@@ -2699,6 +2703,7 @@ PARAMÈTRES :
 Poisons the target with poison with damage of 2 points per second
 10% chance to drain 1 level when hit
 
+TAC0: +1
 Dégâts : 1d8
 Type de dégâts : tranchant
 Poids : 7
@@ -2721,6 +2726,7 @@ Haste when wearing
 60% chance to poison the target with poison
 Power 3 times a day
 
+TAC0: +2
 Dégâts : 1d8, +5 by electricity	
 Type de dégâts : tranchant
 Poids : 8
@@ -2746,7 +2752,8 @@ Regeneration of 2 health points per second
 +10 bonus to Move Silently
 Lesser Restoration 2 times a day
 Cure Serious Wounds 2 times a day
-			
+
+TAC0: +2
 Dégâts : 1d8
 Type de dégâts : tranchant
 Poids : 8
@@ -3165,7 +3172,6 @@ PARAMÈTRES :
 
 +10 to maximum health points
 Cure Serious Wounds 3 times a day
-Regeneration (2 health points per second)
 
 Usable by:
   Cleric~
@@ -3460,6 +3466,9 @@ Inutilisable par :
 
 PARAMÈTRES :
 
+Capacités de combat : 
+- 51 % de chances d'infliger Horreur aux autres créatures dans la zone d'effet pendant 10 secondes
+
 TAC0: +5 bonus
 Dégâts : 2d6 +5
 Type de dégâts : piercing
@@ -3649,7 +3658,7 @@ Inutilisable par :
 
 PARAMÈTRES :
 
-Deals 1 point of poison damage in 2 rounds while the weapon is in hand
+Deals 2 point of poison damage in 1 rounds while the weapon is in hand
 +50% bonus to resistance to slashing damage
 			
 TAC0: +2 bonus
@@ -4120,7 +4129,7 @@ PARAMÈTRES :
 Regeneration of 2 health points per second
 Fireball 4 times per day
 Character changes to chaotic-evil
-Reputation is set to 0
+Reputation is set to 3
 
 TAC0: +3 bonus
 Dégâts : 1d6 +3

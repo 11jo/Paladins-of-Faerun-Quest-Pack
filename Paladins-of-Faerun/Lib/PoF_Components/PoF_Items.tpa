@@ -41,31 +41,43 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGcd.ITM~			~override/XGcd.ITM~ //
   SAY NAME1 @1060
   SAY NAME2 @1061
   SAY DESC @1062
-  SAY UNIDENTIFIED_DESC 1063
+  SAY UNIDENTIFIED_DESC @1063
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGAM1.ITM~			~override/XGAM1.ITM~
   SAY NAME1 @433
   SAY NAME2 @433
+  SAY DESC #22096
+  SAY UNIDENTIFIED_DESC #22096
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGAM2.ITM~			~override/XGAM2.ITM~
   SAY NAME1 @434
   SAY NAME2 @434
+  SAY DESC #22096
+  SAY UNIDENTIFIED_DESC #22096
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGAM3.ITM~			~override/XGAM3.ITM~
   SAY NAME1 @435
   SAY NAME2 @435
+  SAY DESC #22096
+  SAY UNIDENTIFIED_DESC #22096
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGAM4.ITM~			~override/XGAM4.ITM~
   SAY NAME1 @436
   SAY NAME2 @436
+  SAY DESC #22096
+  SAY UNIDENTIFIED_DESC #22096
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGAM5.ITM~			~override/XGAM5.ITM~
   SAY NAME1 @437
   SAY NAME2 @437
+  SAY DESC #22096
+  SAY UNIDENTIFIED_DESC #22096
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGAM.ITM~			~override/XGAM.ITM~
   SAY NAME1 @438
   SAY NAME2 @438
+  SAY DESC #22096
+  SAY UNIDENTIFIED_DESC #22096
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGAMUL1.ITM~			~override/XGAMUL1.ITM~
   SAY NAME2 @439
@@ -242,58 +254,60 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGBSWO9.ITM~			~override/XGBSWO9.I
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@506" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGCBOW1.ITM~			~override/XGCBOW1.ITM~
-  SAY NAME2 @507 
-  SAY DESC @508 
+  SAY NAME2 @507
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@508" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGCBOW2.ITM~			~override/XGCBOW2.ITM~
-  SAY NAME2 @509 
-  SAY DESC @510 
+  SAY NAME2 @509
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@510" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGCBOW3.ITM~			~override/XGCBOW3.ITM~
-  SAY NAME2 @511 
-  SAY DESC @512 
+  SAY NAME2 @511
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@512" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGCLUB1.ITM~			~override/XGCLUB1.ITM~
-  SAY NAME2 @513 
-  SAY DESC @514 
+  SAY NAME2 @513
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@514" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGCLUB2.ITM~			~override/XGCLUB2.ITM~
-  SAY NAME2 @515 
-  SAY DESC @516 
+  SAY NAME2 @515
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@516" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGCLUB3.ITM~			~override/XGCLUB3.ITM~
-  SAY NAME2 @517 
-  SAY DESC @518 
+  SAY NAME2 @517
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@518" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFLAI1.ITM~			~override/XGFLAI1.ITM~
-  SAY NAME2 @519 
-  SAY DESC @520 
+  SAY NAME2 @519
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@520" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFLAI2.ITM~			~override/XGFLAI2.ITM~
-  SAY NAME2 @521 
-  SAY DESC @522 
+  SAY NAME2 @521
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@522" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFLAI3.ITM~			~override/XGFLAI3.ITM~
   SAY NAME2 @523 
-  SAY DESC @524 
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@524" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGCLCK1.ITM~			~override/XGCLCK1.ITM~
-  SAY NAME1 @525 
-  SAY NAME2 @525 
-  SAY UNIDENTIFIED_DESC @526 
-  SAY DESC @526 
+  SAY NAME1 @525
+  SAY NAME2 @525
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@526" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@526" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGCMA01.ITM~			~override/XGCMA01.ITM~
-  SAY NAME2 @527 
-  SAY DESC @528 
+  SAY NAME2 @527
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@528" END
+
+COPY ~weidu_external/Paladins-of-Faerun/Items/XGCMA01.EFF~			~override/XGCMA01.EFF~
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGCMA02.ITM~			~override/XGCMA02.ITM~
-  SAY NAME2 @529 
-  SAY DESC @530 
+  SAY NAME2 @529
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@53" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGCMA03.ITM~			~override/XGCMA03.ITM~
-  SAY NAME2 @531 
-  SAY DESC @532 
+  SAY NAME2 @531
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@532" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGDBOOK.ITM~			~override/XGDBOOK.ITM~
   SAY NAME1 @533 
@@ -314,8 +328,8 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGDHEAR.ITM~			~override/XGDHEAR.I
   SAY NAME2 @535 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGDOAX.ITM~			~override/XGDOAX.ITM~
-  SAY NAME2 @536 
-  SAY DESC @537 
+  SAY NAME2 @536
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@537" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGdram.ITM~			~override/XGdram.ITM~
   SAY NAME2 @538 
@@ -329,6 +343,7 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGERKEY.ITM~			~override/XGERKEY.I
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGESD.ITM~			~override/XGESD.ITM~
   SAY NAME1 @540 
   SAY NAME2 @540 
+  SAY UNIDENTIFIED_DESC @541 
   SAY DESC @541 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGesh.ITM~			~override/XGesh.ITM~
@@ -340,90 +355,92 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGESK.ITM~			~override/XGESK.ITM~
   SAY NAME2 @543 
   
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFA11.ITM~			~override/XGFA11.ITM~
-  SAY NAME1 #12004 
-  SAY NAME2 #40223 
+  SAY NAME1 #12004
+  SAY NAME2 #12004
+  SAY UNIDENTIFIED_DESC #6889
+  SAY DESC #6889
   
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFALH1.ITM~			~override/XGFALH1.ITM~
   SAY NAME1 @544
   SAY NAME2 @544
-  SAY UNIDENTIFIED_DESC @545
-  SAY DESC @545
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@545" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@545" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFALH2.ITM~			~override/XGFALH2.ITM~
-  SAY NAME1 @544 
-  SAY NAME2 @546 
-  SAY UNIDENTIFIED_DESC @545 
-  SAY DESC @547 
+  SAY NAME1 @544
+  SAY NAME2 @546
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@545" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@547" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFALH3.ITM~			~override/XGFALH3.ITM~
   SAY NAME1 @544 
-  SAY NAME2 @548 
-  SAY UNIDENTIFIED_DESC @545 
-  SAY DESC @549 
+  SAY NAME2 @548
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@545" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@549" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFALH4.ITM~			~override/XGFALH4.ITM~
-  SAY NAME1 @544 
-  SAY NAME2 @550 
-  SAY UNIDENTIFIED_DESC @545 
-  SAY DESC @551 
+  SAY NAME1 @544
+  SAY NAME2 @550
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@545" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@551" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFALH5.ITM~			~override/XGFALH5.ITM~
-  SAY NAME1 @544 
-  SAY NAME2 @552 
-  SAY UNIDENTIFIED_DESC @545 
-  SAY DESC @553 
+  SAY NAME1 @544
+  SAY NAME2 @552
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@545" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@553" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFALH6.ITM~			~override/XGFALH6.ITM~
   SAY NAME1 @544 
-  SAY NAME2 @554 
-  SAY UNIDENTIFIED_DESC @545 
-  SAY DESC @555 
+  SAY NAME2 @554
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@545" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@555" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFALX1.ITM~			~override/XGFALX1.ITM~
-  SAY NAME1 @556 
-  SAY NAME2 @556 
-  SAY UNIDENTIFIED_DESC @557 
-  SAY DESC @557 
+  SAY NAME1 @556
+  SAY NAME2 @556
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@557" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@557" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFALX2.ITM~			~override/XGFALX2.ITM~
-  SAY NAME1 @556 
-  SAY NAME2 @558 
-  SAY UNIDENTIFIED_DESC @557 
-  SAY DESC @559 
+  SAY NAME1 @556
+  SAY NAME2 @558
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@557" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@559" END 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFALX3.ITM~			~override/XGFALX3.ITM~
-  SAY NAME1 @556 
-  SAY NAME2 @560 
-  SAY UNIDENTIFIED_DESC @557 
-  SAY DESC @561 
+  SAY NAME1 @556
+  SAY NAME2 @560
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@557" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@561" END 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFALX4.ITM~			~override/XGFALX4.ITM~
-  SAY NAME1 @556 
-  SAY NAME2 @562 
-  SAY UNIDENTIFIED_DESC @557 
-  SAY DESC @563 
+  SAY NAME1 @556
+  SAY NAME2 @562
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@557" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@563" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFALX5.ITM~			~override/XGFALX5.ITM~
-  SAY NAME1 @556 
-  SAY NAME2 @564 
-  SAY UNIDENTIFIED_DESC @557 
-  SAY DESC @565 
+  SAY NAME1 @556
+  SAY NAME2 @564
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@557" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@565" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFALX6.ITM~			~override/XGFALX6.ITM~
-  SAY NAME1 @556 
-  SAY NAME2 @566 
-  SAY UNIDENTIFIED_DESC @557 
-  SAY DESC @567 
+  SAY NAME1 @556
+  SAY NAME2 @566
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@557" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@567" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFALX7.ITM~			~override/XGFALX7.ITM~
-  SAY NAME1 @556 
-  SAY NAME2 @568 
-  SAY UNIDENTIFIED_DESC @557 
-  SAY DESC @569 
+  SAY NAME1 @556
+  SAY NAME2 @568
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@557" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@569" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGFAR.ITM~			~override/XGFAR.ITM~
-  SAY NAME2 @570 
-  SAY DESC @571 
+  SAY NAME2 @570
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@571" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGD1.ITM~			~override/XGGD1.ITM~
   SAY NAME1 @572 
@@ -444,68 +461,68 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGGD3.ITM~			~override/XGGD3.ITM~
   SAY DESC @572 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLA.ITM~			~override/XGGLA.ITM~
-  SAY NAME2 @573 
-  SAY DESC @574 
+  SAY NAME2 @573
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@574" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAVE.ITM~			~override/XGGLAVE.ITM~
-  SAY NAME1 @575 
-  SAY NAME2 @575 
-  SAY UNIDENTIFIED_DESC @576 
-  SAY DESC @576 
+  SAY NAME1 @575
+  SAY NAME2 @575
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@576" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@576" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV1.ITM~			~override/XGGLAV1.ITM~
-  SAY NAME1 @575 
-  SAY NAME2 @577 
-  SAY UNIDENTIFIED_DESC @578 
-  SAY DESC @579 
+  SAY NAME1 @575
+  SAY NAME2 @577
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@578" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@579" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV2.ITM~			~override/XGGLAV2.ITM~
-  SAY NAME1 @575 
-  SAY NAME2 @580 
-  SAY UNIDENTIFIED_DESC @578 
-  SAY DESC @581 
+  SAY NAME1 @575
+  SAY NAME2 @580
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@578" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@581" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV3.ITM~			~override/XGGLAV3.ITM~
-  SAY NAME1 @575 
-  SAY NAME2 @582 
-  SAY UNIDENTIFIED_DESC @578 
-  SAY DESC @583 
+  SAY NAME1 @575
+  SAY NAME2 @582
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@578" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@583" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV4.ITM~			~override/XGGLAV4.ITM~
-  SAY NAME1 @575 
-  SAY NAME2 @584 
-  SAY UNIDENTIFIED_DESC @578 
-  SAY DESC @585 
+  SAY NAME1 @575
+  SAY NAME2 @584
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@578" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@585" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV5.ITM~			~override/XGGLAV5.ITM~
-  SAY NAME1 @575 
-  SAY NAME2 @586 
-  SAY UNIDENTIFIED_DESC @578 
-  SAY DESC @587
+  SAY NAME1 @575
+  SAY NAME2 @586
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@578" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@587" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV7.ITM~			~override/XGGLAV7.ITM~
   SAY NAME1 @575
   SAY NAME2 @588
-  SAY UNIDENTIFIED_DESC @576
-  SAY DESC @589
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@576" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@589" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV8.ITM~			~override/XGGLAV8.ITM~
   SAY NAME1 @575
   SAY NAME2 @590
-  SAY UNIDENTIFIED_DESC @576
-  SAY DESC @591
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@576" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@591" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV9.ITM~			~override/XGGLAV9.ITM~
   SAY NAME1 @575
   SAY NAME2 @592
-  SAY UNIDENTIFIED_DESC @576
-  SAY DESC @593
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@576" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@593" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGLAV10.ITM~			~override/XGLAV10.ITM~
   SAY NAME1 @575
   SAY NAME2 @594
-  SAY UNIDENTIFIED_DESC @576
-  SAY DESC @595
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@576" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@595" END
   
 //
 
@@ -513,119 +530,119 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGLAV10.ITM~			~override/XGLAV10.I
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV17.ITM~			~override/XGGLAV17.ITM~
   SAY NAME1 @575
   SAY NAME2 @4000
-  SAY UNIDENTIFIED_DESC @576
-  SAY DESC @4001
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@576" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4001" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV18.ITM~			~override/XGGLAV18.ITM~
   SAY NAME1 @575
   SAY NAME2 @4002
-  SAY UNIDENTIFIED_DESC @576
-  SAY DESC @4003
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@576" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4003" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV19.ITM~			~override/XGGLAV19.ITM~
   SAY NAME1 @575
   SAY NAME2 @4004
-  SAY UNIDENTIFIED_DESC @576
-  SAY DESC @4005
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@576" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4005" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGLAV11.ITM~			~override/XGLAV11.ITM~
   SAY NAME1 @575
   SAY NAME2 @4006
-  SAY UNIDENTIFIED_DESC @576
-  SAY DESC @4007
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@576" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4007" END
 
 //+3
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV27.ITM~			~override/XGGLAV27.ITM~
   SAY NAME1 @575
   SAY NAME2 @4008
-  SAY UNIDENTIFIED_DESC @576
-  SAY DESC @4009
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@576" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4009" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV28.ITM~			~override/XGGLAV28.ITM~
   SAY NAME1 @575
   SAY NAME2 @4010
-  SAY UNIDENTIFIED_DESC @576
-  SAY DESC @4011
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@576" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4011" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV29.ITM~			~override/XGGLAV29.ITM~
   SAY NAME1 @575
   SAY NAME2 @4012
-  SAY UNIDENTIFIED_DESC @576
-  SAY DESC @4013
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@576" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4013" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGLAV21.ITM~			~override/XGLAV21.ITM~
   SAY NAME1 @575
   SAY NAME2 @4014
-  SAY UNIDENTIFIED_DESC @576
-  SAY DESC @4015
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@576" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4015" END
   
 
 // +Spéciale
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV30.ITM~			~override/XGGLAV30.ITM~
   SAY NAME1 @575
   SAY NAME2 @4016
-  SAY UNIDENTIFIED_DESC @576
-  SAY DESC @4017
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@576" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4017" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV31.ITM~			~override/XGGLAV31.ITM~
   SAY NAME1 @575
   SAY NAME2 @4018
-  SAY UNIDENTIFIED_DESC @576
-  SAY DESC @4019
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@576" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4019" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV32.ITM~			~override/XGGLAV32.ITM~
   SAY NAME1 @575
   SAY NAME2 @4020
-  SAY UNIDENTIFIED_DESC @576
-  SAY DESC @4021
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@576" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4021" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGGLAV40.ITM~			~override/XGGLAV40.ITM~
   SAY NAME1 @575
   SAY NAME2 @4022
-  SAY UNIDENTIFIED_DESC @576
-  SAY DESC @4023
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@576" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4023" END
 
 //
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGHAL01.ITM~			~override/XGHAL01.ITM~
-  SAY NAME2 @596 
-  SAY DESC @597 
+  SAY NAME2 @596
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@597" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGHAL02.ITM~			~override/XGHAL02.ITM~
-  SAY NAME2 @598 
-  SAY DESC @599 
+  SAY NAME2 @598
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@599" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGHAL03.ITM~			~override/XGHAL03.ITM~
-  SAY NAME2 @600 
-  SAY DESC @601 
+  SAY NAME2 @600
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@601" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGHAM3.ITM~			~override/XGHAM3.ITM~
-  SAY NAME2 @602 
-  SAY DESC @603 
+  SAY NAME2 @602
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@603" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGHAMM1.ITM~			~override/XGHAMM1.ITM~
-  SAY NAME2 @604 
-  SAY DESC @605 
+  SAY NAME2 @604
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@605" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGHAMM2.ITM~			~override/XGHAMM2.ITM~
-  SAY NAME2 @606 
-  SAY DESC @607 
+  SAY NAME2 @606
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@607" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGHELM1.ITM~			~override/XGHELM1.ITM~
-  SAY NAME2 @608 
-  SAY DESC @609 
+  SAY NAME2 @608
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@609" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGHELM2.ITM~			~override/XGHELM2.ITM~
-  SAY NAME2 @610 
-  SAY DESC @611 
+  SAY NAME2 @610
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@611" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGHELM3.ITM~			~override/XGHELM3.ITM~
-  SAY NAME2 @612 
-  SAY DESC @613 
+  SAY NAME2 @612
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@613" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGHELM4.ITM~			~override/XGHELM4.ITM~
-  SAY NAME2 @614 
-  SAY DESC @615 
+  SAY NAME2 @614
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@615" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGhq.ITM~			~override/XGhq.ITM~
   SAY NAME1 @616 
@@ -640,78 +657,82 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGhsr.ITM~			~override/XGhsr.ITM~
   SAY DESC @618 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGIK01.ITM~			~override/XGIK01.ITM~
-  SAY NAME1 @619 
-  SAY NAME2 @619 
-  SAY UNIDENTIFIED_DESC @620 
-  SAY DESC @620 
+  SAY NAME1 @619
+  SAY NAME2 @619
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@620" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@620" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGIK02.ITM~			~override/XGIK02.ITM~
-  SAY NAME1 @619 
-  SAY NAME2 @621 
-  SAY UNIDENTIFIED_DESC @620 
-  SAY DESC @622 
+  SAY NAME1 @619
+  SAY NAME2 @621
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@620" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@622" END 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGIK03.ITM~			~override/XGIK03.ITM~
-  SAY NAME1 @619 
-  SAY NAME2 @623 
-  SAY UNIDENTIFIED_DESC @620 
-  SAY DESC @624 
+  SAY NAME1 @619
+  SAY NAME2 @623
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@620" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@624" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGIK04.ITM~			~override/XGIK04.ITM~
-  SAY NAME1 @619 
-  SAY NAME2 @625 
-  SAY UNIDENTIFIED_DESC @620 
-  SAY DESC @626 
+  SAY NAME1 @619
+  SAY NAME2 @625
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@620" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@626" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGIK05.ITM~			~override/XGIK05.ITM~
-  SAY NAME1 @619 
-  SAY NAME2 @627 
-  SAY UNIDENTIFIED_DESC @620 
-  SAY DESC @628 
+  SAY NAME1 @619
+  SAY NAME2 @627
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@620" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@628" END 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGIK06.ITM~			~override/XGIK06.ITM~
-  SAY NAME1 @619 
-  SAY NAME2 @629 
-  SAY UNIDENTIFIED_DESC @620 
-  SAY DESC @630 
+  SAY NAME1 @619
+  SAY NAME2 @629
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@620" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@630" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGIK07.ITM~			~override/XGIK07.ITM~
-  SAY NAME1 @619 
-  SAY NAME2 @631 
-  SAY UNIDENTIFIED_DESC @620 
-  SAY DESC @632 
+  SAY NAME1 @619
+  SAY NAME2 @631
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@620" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@632" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGiqq.ITM~			~override/XGiqq.ITM~
-  SAY NAME1 @447 
-  SAY NAME2 @447 
+  SAY NAME1 @447
+  SAY NAME2 @447
+  SAY UNIDENTIFIED_DESC @447
+  SAY DESC @447
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGKAT01.ITM~			~override/XGKAT01.ITM~
-  SAY NAME2 @633 
-  SAY DESC @634 
+  SAY NAME2 @633
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@634" END
+
+COPY ~weidu_external/Paladins-of-Faerun/Items/XGKAT01.EFF~			~override/XGKAT01.EFF~
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGKAT02.ITM~			~override/XGKAT02.ITM~
-  SAY NAME2 @635 
-  SAY DESC @636 
+  SAY NAME2 @635
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@636" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGKAT03.ITM~			~override/XGKAT03.ITM~
-  SAY NAME2 @637 
-  SAY DESC @638 
+  SAY NAME2 @637
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@638" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGKAT04.ITM~			~override/XGKAT04.ITM~
-  SAY NAME2 @639 
-  SAY DESC @640 
+  SAY NAME2 @639
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@640" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGKEV1.ITM~			~override/XGKEV1.ITM~
-  SAY NAME1 @641 
-  SAY NAME2 @641 
-  SAY UNIDENTIFIED_DESC @642 
-  SAY DESC @642 
+  SAY NAME1 @641
+  SAY NAME2 @641
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@642" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@642" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGKEV2.ITM~			~override/XGKEV2.ITM~
-  SAY NAME1 @643 
-  SAY NAME2 @643 
-  SAY UNIDENTIFIED_DESC @644 
-  SAY DESC @644 
+  SAY NAME1 @643
+  SAY NAME2 @643
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@644" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@644" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGKIIT.ITM~			~override/XGKIIT.ITM~
   SAY NAME1 @645 
@@ -722,24 +743,26 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGKIIT.ITM~			~override/XGKIIT.ITM
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGku.ITM~			~override/XGku.ITM~
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGLAN02.ITM~			~override/XGLAN02.ITM~
-  SAY NAME2 @647 
-  SAY DESC @648 
+  SAY NAME2 @647
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@648" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGLAN03.ITM~			~override/XGLAN03.ITM~
-  SAY NAME2 @649 
-  SAY DESC @650 
+  SAY NAME2 @649
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@650" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGLEAT1.ITM~			~override/XGLEAT1.ITM~
-  SAY NAME1 @651 
-  SAY NAME2 @651 
-  SAY UNIDENTIFIED_DESC @652 
-  SAY DESC @652 
+  SAY NAME1 @651
+  SAY NAME2 @651
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@652" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@652" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGleta.ITM~			~override/XGleta.ITM~
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGLETER.ITM~			~override/XGLETER.ITM~
   SAY NAME1 @653
+  SAY NAME2 @653
   SAY UNIDENTIFIED_DESC @654 
+  SAY DESC @654 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGleths.ITM~			~override/XGleths.ITM~
   SAY NAME1 @655 
@@ -812,27 +835,28 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGMBOOK.ITM~			~override/XGMBOOK.I
   SAY DESC @673 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGMBOW1.ITM~			~override/XGMBOW1.ITM~
-  SAY NAME2 @674 
-  SAY DESC @675 
+  SAY NAME2 @674
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@675" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGMBOW2.ITM~			~override/XGMBOW2.ITM~
-  SAY NAME2 @676 
-  SAY DESC @677 
+  SAY NAME2 @676
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@677" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGMBOW3.ITM~			~override/XGMBOW3.ITM~
-  SAY NAME2 @678 
-  SAY DESC @679 
+  SAY NAME2 @678
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@679" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGMCA.ITM~			~override/XGMCA.ITM~
-  SAY NAME2 ~~ [-1] 
-  SAY UNIDENTIFIED_DESC ~~ [-1] 
-  SAY DESC @681 
+  SAY NAME1 #6337
+  SAY NAME2 #6337
+  SAY UNIDENTIFIED_DESC #6709
+  SAY DESC @681 // Not accurate (probably not implemented) 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGMISC.ITM~			~override/XGMISC.ITM~
   SAY NAME1 @682 
   SAY NAME2 @682 
   SAY UNIDENTIFIED_DESC @683 
-  SAY DESC @683 
+  SAY DESC @683
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGMIT.ITM~			~override/XGMIT.ITM~
   SAY NAME2 @684 
@@ -850,28 +874,30 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGMOONH.ITM~			~override/XGMOONH.I
   SAY UNIDENTIFIED_DESC @689 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGMOONS.ITM~			~override/XGMOONS.ITM~
-  SAY NAME2 @674 
-  SAY DESC @690 
+  SAY NAME1 #6860
+  SAY NAME2 @674
+  SAY UNIDENTIFIED_DESC #6862 
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@690" END
 
-COPY ~weidu_external/Paladins-of-Faerun/Items/XGMPLAT.ITM~			~override/XGMPLAT.ITM~
+COPY ~weidu_external/Paladins-of-Faerun/Items/XGMPLAT.ITM~			~override/XGMPLAT.ITM~ // Not implemented / Wrong description reference (an armor not a Crossbow of Discharge)
   SAY NAME2 @511 
   SAY DESC @512 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGMRBO.ITM~			~override/XGMRBO.ITM~
-  SAY NAME1 @691 
-  SAY NAME2 @691 
+  SAY NAME1 @691
+  SAY NAME2 @691
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGMS01.ITM~			~override/XGMS01.ITM~
-  SAY NAME2 @692 
-  SAY DESC @693 
+  SAY NAME2 @692
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@693" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGMS02.ITM~			~override/XGMS02.ITM~
-  SAY NAME2 @694 
-  SAY DESC @695 
+  SAY NAME2 @694
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@695" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGMS03.ITM~			~override/XGMS03.ITM~
-  SAY NAME2 @696 
-  SAY DESC @697 
+  SAY NAME2 @696
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@697" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSLIN1.ITM~			~override/XGSLIN1.ITM~
   SAY NAME2 @698 
@@ -890,16 +916,16 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGmsq.ITM~			~override/XGmsq.ITM~
   SAY NAME2 @704 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSTA1.ITM~			~override/XGSTA1.ITM~
-  SAY NAME2 @705 
-  SAY DESC @706 
+  SAY NAME2 @705
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@706" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSTA2.ITM~			~override/XGSTA2.ITM~
-  SAY NAME2 @707 
-  SAY DESC @708 
+  SAY NAME2 @707
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@708" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSTA3.ITM~			~override/XGSTA3.ITM~
-  SAY NAME2 @709 
-  SAY DESC @710 
+  SAY NAME2 @709
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@710" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGMTOK.ITM~			~override/XGMTOK.ITM~
   SAY NAME1 @711 
@@ -920,78 +946,78 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGMWD.ITM~			~override/XGMWD.ITM~
   SAY DESC @715 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGNINJ1.ITM~			~override/XGNINJ1.ITM~
-  SAY NAME2 @716 
-  SAY DESC @717 
+  SAY NAME2 @716
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@717" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGNINJ2.ITM~			~override/XGNINJ2.ITM~
-  SAY NAME2 @718 
-  SAY DESC @719 
+  SAY NAME2 @718
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@719" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGNINJ3.ITM~			~override/XGNINJ3.ITM~
-  SAY NAME2 @720 
-  SAY DESC @721 
+  SAY NAME2 @720
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@721" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGNOMZ.ITM~			~override/XGNOMZ.ITM~
-  SAY NAME2 @722 
-  SAY DESC @723 
+  SAY NAME2 @722
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@723" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGODSW.ITM~			~override/XGODSW.ITM~
-  SAY NAME2 @724 
-  SAY DESC @725 
+  SAY NAME2 @724
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@725" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGODSW1.ITM~			~override/XGODSW1.ITM~
-  SAY NAME2 @726 
-  SAY DESC @727 
+  SAY NAME2 @726
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@727" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGODSW2.ITM~			~override/XGODSW2.ITM~
-  SAY NAME2 @728 
-  SAY DESC @729 
+  SAY NAME2 @728
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@729" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGODSW3.ITM~			~override/XGODSW3.ITM~
-  SAY NAME2 @730 
-  SAY DESC @731 
+  SAY NAME2 @730
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@731" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPIK1.ITM~			~override/XGPIK1.ITM~
-  SAY NAME1 @732 
-  SAY NAME2 @732 
-  SAY UNIDENTIFIED_DESC @733 
-  SAY DESC @733 
+  SAY NAME1 @732
+  SAY NAME2 @732
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@733" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@733" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPIK2.ITM~			~override/XGPIK2.ITM~
-  SAY NAME1 @732 
-  SAY NAME2 @734 
-  SAY UNIDENTIFIED_DESC @733 
-  SAY DESC @735 
+  SAY NAME1 @732
+  SAY NAME2 @734
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@733" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@735" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPIK3.ITM~			~override/XGPIK3.ITM~
-  SAY NAME1 @732 
-  SAY NAME2 @736 
-  SAY UNIDENTIFIED_DESC @733 
-  SAY DESC @737 
+  SAY NAME1 @732
+  SAY NAME2 @736
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@733" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@737" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPIK4.ITM~			~override/XGPIK4.ITM~
-  SAY NAME1 @732 
-  SAY NAME2 @738 
-  SAY UNIDENTIFIED_DESC @733 
-  SAY DESC @739 
+  SAY NAME1 @732
+  SAY NAME2 @738
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@733" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@739" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPIK5.ITM~			~override/XGPIK5.ITM~
-  SAY NAME1 @732 
-  SAY NAME2 @740 
-  SAY UNIDENTIFIED_DESC @733 
-  SAY DESC @741 
+  SAY NAME1 @732
+  SAY NAME2 @740
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@733" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@741" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPIK6.ITM~			~override/XGPIK6.ITM~
-  SAY NAME1 @732 
-  SAY NAME2 @742 
-  SAY UNIDENTIFIED_DESC @733 
-  SAY DESC @743 
+  SAY NAME1 @732
+  SAY NAME2 @742
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@733" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@743" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPIK7.ITM~			~override/XGPIK7.ITM~
-  SAY NAME1 @732 
-  SAY NAME2 @744 
-  SAY UNIDENTIFIED_DESC @733 
-  SAY DESC @745 
+  SAY NAME1 @732
+  SAY NAME2 @744
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@733" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@745" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGpk1.ITM~			~override/XGpk1.ITM~
   SAY NAME1 @746 
@@ -1028,54 +1054,54 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGpkc.ITM~			~override/XGpkc.ITM~
   SAY DESC @752 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPLAT1.ITM~			~override/XGPLAT1.ITM~
-  SAY NAME2 @753 
-  SAY DESC @754 
+  SAY NAME2 @753
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@754" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPLA1M.ITM~			~override/XGPLA1M.ITM~
-  SAY NAME1 @651 
-  SAY NAME2 @651 
-  SAY UNIDENTIFIED_DESC @755 
-  SAY DESC @755 
+  SAY NAME1 @651
+  SAY NAME2 @651
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@755" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@755" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPLAT2.ITM~			~override/XGPLAT2.ITM~
-  SAY NAME2 @756 
-  SAY DESC @757 
+  SAY NAME2 @756
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@757" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPLAT3.ITM~			~override/XGPLAT3.ITM~
-  SAY NAME2 @758 
-  SAY DESC @759 
+  SAY NAME2 @758
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@759" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPLA30.ITM~			~override/XGPLA30.ITM~
-  SAY NAME2 @760 
-  SAY DESC @571 
+  SAY NAME2 @760
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@571" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPLAT4.ITM~			~override/XGPLAT4.ITM~
-  SAY NAME2 @761 
-  SAY DESC @762 
+  SAY NAME2 @761
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@762" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPLAT5.ITM~			~override/XGPLAT5.ITM~
-  SAY NAME2 @763 
-  SAY DESC @764 
+  SAY NAME2 @763
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@764" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGplat6.ITM~			~override/XGplat6.ITM~
-  SAY NAME2 @765 
-  SAY DESC @766 
+  SAY NAME2 @765
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@766" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPLAT7.ITM~			~override/XGPLAT7.ITM~
-  SAY NAME2 @767 
-  SAY DESC @768 
+  SAY NAME2 @767
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@768" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPLAT8.ITM~			~override/XGPLAT8.ITM~
-  SAY NAME2 @769 
-  SAY DESC @770 
+  SAY NAME2 @769
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@770" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPLAT9.ITM~			~override/XGPLAT9.ITM~
-  SAY NAME2 @771 
-  SAY DESC @772 
-
+  SAY NAME2 @771
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@772" END
+  
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPLAM1.ITM~			~override/XGPLAM1.ITM~
-  SAY NAME2 @773 
-  SAY DESC @774 
+  SAY NAME2 @773
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@774" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGPLD.ITM~			~override/XGPLD.ITM~
   SAY NAME1 @775 
@@ -1158,16 +1184,16 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGQKEY.ITM~			~override/XGQKEY.ITM
   SAY DESC @784 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGRING1.ITM~			~override/XGRING1.ITM~
-  SAY NAME2 @785 
-  SAY DESC @786 
+  SAY NAME2 @785
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@786" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGRING2.ITM~			~override/XGRING2.ITM~
-  SAY NAME2 @787 
-  SAY DESC @788 
+  SAY NAME2 @787
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@788" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGRING3.ITM~			~override/XGRING3.ITM~
-  SAY NAME2 @789 
-  SAY DESC @790 
+  SAY NAME2 @789
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@790" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGRING.ITM~			~override/XGRING.ITM~
   SAY NAME1 @791 
@@ -1176,6 +1202,10 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGRING.ITM~			~override/XGRING.ITM
   SAY DESC @792 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGS.ITM~			~override/XGS.ITM~
+  SAY NAME1 #6646 
+  SAY NAME2 #6646 
+  SAY UNIDENTIFIED_DESC #6738 
+  SAY DESC #6738 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSAK.ITM~			~override/XGSAK.ITM~
   SAY NAME1 @793 
@@ -1187,22 +1217,23 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGSCR.ITM~			~override/XGSCR.ITM~
   SAY DESC @795 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSHLD1.ITM~			~override/XGSHLD1.ITM~
-  SAY NAME2 @796 
-  SAY DESC @797 
+  SAY NAME2 @796
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@797" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSHLD2.ITM~			~override/XGSHLD2.ITM~
-  SAY NAME2 @798 
-  SAY DESC @799 
+  SAY NAME2 @798
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@799" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSHLD3.ITM~			~override/XGSHLD3.ITM~
-  SAY NAME2 @800 
-  SAY DESC @801 
+  SAY NAME2 @800
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@801" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSHLD4.ITM~			~override/XGSHLD4.ITM~
-  SAY NAME2 @802 
-  SAY DESC @803 
+  SAY NAME2 @802
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@803" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSHL.ITM~			~override/XGSHL.ITM~
+  SAY DESC #6819
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGsk.ITM~			~override/XGsk.ITM~
   SAY UNIDENTIFIED_DESC @804 
@@ -1213,186 +1244,186 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGspb.ITM~			~override/XGspb.ITM~
   SAY NAME2 @805 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSTAR1.ITM~			~override/XGSTAR1.ITM~
-  SAY NAME1 @806 
-  SAY NAME2 @806 
-  SAY UNIDENTIFIED_DESC @807 
-  SAY DESC @807 
+  SAY NAME1 @806
+  SAY NAME2 @806
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@807" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@807" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSTAR2.ITM~			~override/XGSTAR2.ITM~
-  SAY NAME1 @806 
-  SAY NAME2 @808 
-  SAY UNIDENTIFIED_DESC @809 
-  SAY DESC @810 
+  SAY NAME1 @806
+  SAY NAME2 @808
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@809" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@810" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSTAR3.ITM~			~override/XGSTAR3.ITM~
-  SAY NAME1 @806 
-  SAY NAME2 @811 
-  SAY UNIDENTIFIED_DESC @809 
-  SAY DESC @812 
+  SAY NAME1 @806
+  SAY NAME2 @811
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@809" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@812" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSTAR4.ITM~			~override/XGSTAR4.ITM~
-  SAY NAME1 @806 
-  SAY NAME2 @813 
-  SAY UNIDENTIFIED_DESC @809 
-  SAY DESC @814 
+  SAY NAME1 @806
+  SAY NAME2 @813
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@809" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@814" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSTAR5.ITM~			~override/XGSTAR5.ITM~
-  SAY NAME1 @806 
-  SAY NAME2 @815 
-  SAY UNIDENTIFIED_DESC @809 
-  SAY DESC @816 
+  SAY NAME1 @806
+  SAY NAME2 @815
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@809" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@816" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSTAR6.ITM~			~override/XGSTAR6.ITM~
-  SAY NAME1 @806 
-  SAY NAME2 @817 
-  SAY UNIDENTIFIED_DESC @809 
-  SAY DESC @818 
+  SAY NAME1 @806
+  SAY NAME2 @817
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@809" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@818" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSTAR7.ITM~			~override/XGSTAR7.ITM~
-  SAY NAME1 @806 
-  SAY NAME2 @819 
-  SAY UNIDENTIFIED_DESC @809 
-  SAY DESC @820 
+  SAY NAME1 @806
+  SAY NAME2 @819
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@809" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@820" END
 
-COPY ~weidu_external/Paladins-of-Faerun/Items/XGSTAR.ITM~			~override/XGSTAR.ITM~
+COPY ~weidu_external/Paladins-of-Faerun/Items/XGSTAR.ITM~			~override/XGSTAR.ITM~ // same as XGSTAR1 but not used and not accurate
   SAY NAME1 @806 
   SAY NAME2 @806 
   SAY UNIDENTIFIED_DESC @807 
   SAY DESC @807 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSUD01.ITM~			~override/XGSUD01.ITM~
-  SAY NAME1 @821 
-  SAY NAME2 @821 
-  SAY UNIDENTIFIED_DESC @822 
-  SAY DESC @822 
+  SAY NAME1 @821
+  SAY NAME2 @821
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@822" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@822" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSUD02.ITM~			~override/XGSUD02.ITM~
-  SAY NAME1 @821 
-  SAY NAME2 @823 
-  SAY UNIDENTIFIED_DESC @822 
-  SAY DESC @824 
+  SAY NAME1 @821
+  SAY NAME2 @823
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@822" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@824" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSUD03.ITM~			~override/XGSUD03.ITM~
-  SAY NAME1 @821 
-  SAY NAME2 @825 
-  SAY UNIDENTIFIED_DESC @822 
-  SAY DESC @826 
+  SAY NAME1 @821
+  SAY NAME2 @825
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@822" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@826" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSUD04.ITM~			~override/XGSUD04.ITM~
-  SAY NAME1 @821 
-  SAY NAME2 @827 
-  SAY UNIDENTIFIED_DESC @822 
-  SAY DESC @828 
+  SAY NAME1 @821
+  SAY NAME2 @827
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@822" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@828" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSUD05.ITM~			~override/XGSUD05.ITM~
-  SAY NAME1 @821 
-  SAY NAME2 @829 
-  SAY UNIDENTIFIED_DESC @822 
-  SAY DESC @830 
+  SAY NAME1 @821
+  SAY NAME2 @829
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@822" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@830" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSUD06.ITM~			~override/XGSUD06.ITM~
-  SAY NAME1 @821 
-  SAY NAME2 @831 
-  SAY UNIDENTIFIED_DESC @822 
-  SAY DESC @832 
+  SAY NAME1 @821
+  SAY NAME2 @831
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@822" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@832" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSUD07.ITM~			~override/XGSUD07.ITM~
-  SAY NAME1 @821 
-  SAY NAME2 @833 
-  SAY UNIDENTIFIED_DESC @822 
-  SAY DESC @834 
+  SAY NAME1 @821
+  SAY NAME2 @833
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@822" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@834" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWFJ.ITM~			~override/XGSWFJ.ITM~
-  SAY NAME1 @835 
-  SAY NAME2 @835 
-  SAY UNIDENTIFIED_DESC @836 
-  SAY DESC @837 
+  SAY NAME1 @835
+  SAY NAME2 @835
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@836" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@837" END
 
-COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWOJ.ITM~			~override/XGSWOJ.ITM~
+COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWOJ.ITM~			~override/XGSWOJ.ITM~// not used and not accurate
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWOR1.ITM~			~override/XGSWOR1.ITM~
-  SAY NAME2 @838 
-  SAY DESC @839 
+  SAY NAME2 @838
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@839" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWOR2.ITM~			~override/XGSWOR2.ITM~
-  SAY NAME2 @840 
-  SAY DESC @841 
+  SAY NAME2 @840
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@841" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWOR3.ITM~			~override/XGSWOR3.ITM~
-  SAY NAME2 @842 
-  SAY DESC @843 
+  SAY NAME2 @842
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@843" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWOR4.ITM~			~override/XGSWOR4.ITM~
-  SAY NAME2 @844 
-  SAY DESC @845 
+  SAY NAME2 @844
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@845" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWOR5.ITM~			~override/XGSWOR5.ITM~
-  SAY NAME2 @846 
-  SAY DESC @847 
+  SAY NAME2 @846
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@847" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWOR6.ITM~			~override/XGSWOR6.ITM~
-  SAY NAME2 @848 
-  SAY DESC @849 
+  SAY NAME2 @848
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@849" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWOR7.ITM~			~override/XGSWOR7.ITM~
-  SAY NAME2 @850 
-  SAY DESC @851 
+  SAY NAME2 @850
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@851" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWOR8.ITM~			~override/XGSWOR8.ITM~
-  SAY NAME2 @852 
-  SAY DESC @853 
+  SAY NAME2 @852
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@853" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWOR9.ITM~			~override/XGSWOR9.ITM~
-  SAY NAME2 @854 
-  SAY DESC @855 
+  SAY NAME2 @854
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@855" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWO10.ITM~			~override/XGSWO10.ITM~
-  SAY NAME2 @856 
-  SAY DESC @857 
+  SAY NAME2 @856
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@857" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWO11.ITM~			~override/XGSWO11.ITM~
-  SAY NAME2 @858 
-  SAY DESC @859 
+  SAY NAME2 @858
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@859" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWO12.ITM~			~override/XGSWO12.ITM~
-  SAY NAME2 @860 
-  SAY DESC @861 
+  SAY NAME2 @860
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@861" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWO13.ITM~			~override/XGSWO13.ITM~
-  SAY NAME2 @862 
-  SAY DESC @863 
+  SAY NAME2 @862
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@863" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWO14.ITM~			~override/XGSWO14.ITM~
-  SAY NAME2 @864 
-  SAY DESC @865 
+  SAY NAME2 @864
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@865" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWO15.ITM~			~override/XGSWO15.ITM~
-  SAY NAME2 @866 
-  SAY DESC @867 
+  SAY NAME2 @866
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@867" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWO16.ITM~			~override/XGSWO16.ITM~
   SAY NAME2 @868
-  SAY DESC @869
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@869" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWO17.ITM~			~override/XGSWO17.ITM~
   SAY NAME2 @870
-  SAY DESC @871
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@871" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWO18.ITM~			~override/XGSWO18.ITM~
   SAY NAME2 @872
-  SAY DESC @873
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@873" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWO19.ITM~			~override/XGSWO19.ITM~
   SAY NAME2 @874
-  SAY DESC @875
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@875" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWO20.ITM~			~override/XGSWO20.ITM~
   SAY NAME2 @876
-  SAY DESC @877
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@877" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGSWO21.ITM~			~override/XGSWO21.ITM~
   SAY NAME2 @878
-  SAY DESC @879
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@879" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGTGBOD.ITM~			~override/XGTGBOD.ITM~
   SAY NAME1 @880
@@ -1407,46 +1438,46 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGTRBL.ITM~			~override/XGTRBL.ITM
   SAY DESC @883 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGTRI1.ITM~			~override/XGTRI1.ITM~
-  SAY NAME1 @884 
-  SAY NAME2 @884 
-  SAY UNIDENTIFIED_DESC @885 
-  SAY DESC @885 
+  SAY NAME1 @884
+  SAY NAME2 @884
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@885" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@885" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGTRI2.ITM~			~override/XGTRI2.ITM~
-  SAY NAME1 @884 
-  SAY NAME2 @886 
-  SAY UNIDENTIFIED_DESC @885 
-  SAY DESC @887 
+  SAY NAME1 @884
+  SAY NAME2 @886
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@885" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@887" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGTRI3.ITM~			~override/XGTRI3.ITM~
-  SAY NAME1 @884 
-  SAY NAME2 @888 
-  SAY UNIDENTIFIED_DESC @885 
-  SAY DESC @889 
+  SAY NAME1 @884
+  SAY NAME2 @888
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@885" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@889" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGTRI4.ITM~			~override/XGTRI4.ITM~
-  SAY NAME1 @884 
-  SAY NAME2 @890 
-  SAY UNIDENTIFIED_DESC @885 
-  SAY DESC @891 
+  SAY NAME1 @884
+  SAY NAME2 @890
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@885" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@891" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGTRI5.ITM~			~override/XGTRI5.ITM~
-  SAY NAME1 @884 
-  SAY NAME2 @892 
-  SAY UNIDENTIFIED_DESC @885 
-  SAY DESC @893 
+  SAY NAME1 @884
+  SAY NAME2 @892
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@885" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@893" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGTRI6.ITM~			~override/XGTRI6.ITM~
-  SAY NAME1 @884 
-  SAY NAME2 @894 
-  SAY UNIDENTIFIED_DESC @885 
-  SAY DESC @895 
+  SAY NAME1 @884
+  SAY NAME2 @894
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@885" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@895" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGTRI7.ITM~			~override/XGTRI7.ITM~
-  SAY NAME1 @884 
-  SAY NAME2 @896 
-  SAY UNIDENTIFIED_DESC @885 
-  SAY DESC @897 
+  SAY NAME1 @884
+  SAY NAME2 @896
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@885" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@897" END
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGTRW.ITM~			~override/XGTRW.ITM~
   SAY NAME2 @898 

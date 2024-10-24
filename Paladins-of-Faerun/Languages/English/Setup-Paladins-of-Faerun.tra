@@ -126,7 +126,7 @@
 @124 = ~Elven cultist~
 @125 = ~Elven captain~
 @126 = ~Militia~
-@127 = ~Elwin~
+@127 = ~Alvin~
 @128 = ~Elven warrior~
 @129 = ~Member of Council of Mages~
 @130 = ~Elminster's apprentice~
@@ -1064,8 +1064,8 @@ STATISTICS:
 Summon an air elemental 1 time a day
 Additional 2d6 points of cold damage
 
-THACO: +4 bonus	
-Damage: 1d6 +4	
+THACO: +5 bonus	
+Damage: 1d6 +5	
 Damage type: crushing	
 Weight: 5	
 Speed Factor: 7	
@@ -1100,12 +1100,13 @@ Not usable by:
   Monk
   Mage~
 @521 = ~The Decider of Fate~
-@522 = ~This powerful weapon is able to decide destinies and lives. It makes it possible both to save the life of the owner of the flail, and to deprive the enemy of his life.
+@522 = ~This powerful weapon has ruined more than one life. On impact, time seems to stop for the wielder and the target, allowing you to either finish off the enemy or quickly retreat.
 
 STATISTICS:
 
-Regeneration of 2 hit points per second
-10% chance to deal 30 points of fire damage
+On a successful attack, 10% chance to stop time
+The wielder is immune to "time stop"
+Cast time stop once per day
 
 THACO: +3 bonus
 Damage: 1d6 +3
@@ -1129,8 +1130,8 @@ STATISTICS:
 50% chance to deal 1d6 of stun damage
 15% chance to stun the target for 8 seconds
 
-THACO: +4 bonus
-Damage: 1d6 +4
+THACO: +5 bonus
+Damage: 1d6 +5
 Damage type: crushing
 Weight: 20
 Speed Factor: 8
@@ -1513,6 +1514,8 @@ Usable by:
 @571 = ~Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen and groin.  Similar in construction to bronze plate mail, true plate mail comprises of chain and leather.
 
 STATISTICS:
+
+1% chance to resurrect the character
 
 Armor class: 5
 THAC0: +2 bonus
@@ -2309,7 +2312,7 @@ Haste
 Gives you the opportunity to attack twice per round
 
 THACO: +5 bonus
-Damage: +5 bonus
+Damage: 1d8 +5 bonus
 Damage type: piercing
 Weight: 5
 Speed Factor: 4
@@ -2382,7 +2385,7 @@ Not usable by:
 
 STATISTICS:
 
-Armor class: 5
+Armor class: 2
 Weight: 5
 Requires: Strength 12
 
@@ -2400,12 +2403,8 @@ Not usable by:
 
 STATISTICS:
 
-10% chance to instantly kill the target on hit (saving throw vs. paralysis/poison/death with +1 bonus)
-Haste
-Gives you the opportunity to attack twice per round
-
 THACO: +3 bonus
-Damage: +3 bonus
+Damage: 1d8 +3 bonus
 Damage type: piercing
 Weight: 4
 Speed Factor: 2
@@ -2447,7 +2446,7 @@ Not usable by:
 
 STATISTICS:
 
-5% chance to instantly kill a creature if saving throw fails vs. paralysis/poison/death
+50% chance to instantly kill a creature if saving throw fails vs. paralysis/poison/death
 Additional 1d8 of crushing damage
 
 THACO: +4 bonus
@@ -2605,6 +2604,7 @@ STATISTICS:
 Poisons the target with poison with damage of 2 points per second
 10% chance to drain 1 level when hit
 
+TAC0: +1 bonus
 Damage: 1d8
 Damage type: slashing
 Weight: 7
@@ -3071,7 +3071,6 @@ STATISTICS:
 
 +10 to maximum health points
 Cure Serious Wounds 3 times a day
-Regeneration (2 health points per second)
 
 Usable by:
   Cleric~
@@ -3555,7 +3554,7 @@ Not usable by:
 
 STATISTICS:
 
-Deals 1 point of poison damage in 2 rounds while the weapon is in hand
+Deals 2 point of poison damage in 1 rounds while the weapon is in hand
 +50% bonus to resistance to slashing damage
 			
 THACO: +2 bonus
@@ -4026,7 +4025,7 @@ STATISTICS:
 Regeneration of 2 health points per second
 Fireball 4 times per day
 Character changes to chaotic-evil
-Reputation is set to 0
+Reputation is set to 3
 
 THAC0: +3 bonus
 Damage: 1d6 +3

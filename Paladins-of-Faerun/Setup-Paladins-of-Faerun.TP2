@@ -7,7 +7,7 @@ BACKUP ~weidu_external/Paladins-of-Faerun/backup~
 SUPPORT ~https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/issues~
 
 
-README ~Paladins-of-Faerun/Readme/Readme_Paladins-of-Faerun_%LANGUAGE%.txt~ ~Paladins-of-Faerun/Readme/Readme_Paladins-of-Faerun_english.txt~
+README ~Paladins-of-Faerun/Readme/Readme_Paladins-of-Faerun_english.txt~	~Paladins-of-Faerun/Readme/Readme_Paladins-of-Faerun_%LANGUAGE%.txt~
 
 VERSION ~4.0~
 
@@ -36,30 +36,30 @@ ALWAYS
 	
 // Use original BG/EET areas
 	
-ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
-			OUTER_SPRINT "NBaldursGate_BCS" "XG0020"
-			OUTER_SPRINT "NBaldursGate_DucalPalace_Cellar_BCS" "XG0620"
-			OUTER_SPRINT "NBaldursGate_RinniesHouse_L1_BCS" "XG0520"
-			OUTER_SPRINT "NBaldursGate_RamazithsTower_L1_BCS" "XG0320"
-			OUTER_SPRINT "NBaldursGate_ThreeOldKegs_L1_BCS" "XG0120"
-			OUTER_SPRINT "NBaldursGate_ThreeOldKegs_L3_BCS" "XG0820"
-			OUTER_SPRINT "NBaldursGate" "XG0020"
-			OUTER_SPRINT "NBaldursGate_DucalPalace_Cellar" "XG0620"
-			OUTER_SPRINT "NBaldursGate_RinniesHouse_L1" "XG0520"
-			OUTER_SPRINT "NBaldursGate_RamazithsTower_L1" "XG0320"
-			OUTER_SPRINT "NBaldursGate_ThreeOldKegs_L1" "XG0120"
-			OUTER_SPRINT "NBaldursGate_ThreeOldKegs_L3" "XG0820"
-END
+	ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
+			OUTER_SPRINT "NBaldursGate_BCS"							"XG0020"
+			OUTER_SPRINT "NBaldursGate_DucalPalace_Cellar_BCS"		"XG0620"
+			OUTER_SPRINT "NBaldursGate_RinniesHouse_L1_BCS"			"XG0520"
+			OUTER_SPRINT "NBaldursGate_RamazithsTower_L1_BCS"		"XG0320"
+			OUTER_SPRINT "NBaldursGate_ThreeOldKegs_L1_BCS"			"XG0120"
+			OUTER_SPRINT "NBaldursGate_ThreeOldKegs_L3_BCS"			"XG0820"
+			OUTER_SPRINT "NBaldursGate"								"XG0020"
+			OUTER_SPRINT "NBaldursGate_DucalPalace_Cellar"			"XG0620"
+			OUTER_SPRINT "NBaldursGate_RinniesHouse_L1"				"XG0520"
+			OUTER_SPRINT "NBaldursGate_RamazithsTower_L1"			"XG0320"
+			OUTER_SPRINT "NBaldursGate_ThreeOldKegs_L1"				"XG0120"
+			OUTER_SPRINT "NBaldursGate_ThreeOldKegs_L3"				"XG0820"
+	END
 
     //Copies tra files into the autotra-folder (to leave the originals untouched)
     DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
       COPY ~Paladins-of-Faerun/Languages/english/Baf_new~				~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_new~
       COPY ~Paladins-of-Faerun/Languages/english/Baf_are~				~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_are~
-      COPY ~Paladins-of-Faerun/Languages/english/D~					~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/D~
+      COPY ~Paladins-of-Faerun/Languages/english/D~						~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/D~
       COPY ~Paladins-of-Faerun/Languages/english~						~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%~
 	  COPY ~Paladins-of-Faerun/Languages/%LANGUAGE%/Baf_new~			~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_new~
 	  COPY ~Paladins-of-Faerun/Languages/%LANGUAGE%/Baf_are~			~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_are~
-	  COPY ~Paladins-of-Faerun/Languages/%LANGUAGE%/D~				~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/D~
+	  COPY ~Paladins-of-Faerun/Languages/%LANGUAGE%/D~					~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/D~
       COPY ~Paladins-of-Faerun/Languages/%LANGUAGE%~					~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%~
     END
 
@@ -68,29 +68,30 @@ END
 	ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 //  ACTION_DEFINE_ARRAY PoF_noconvert BEGIN END
 
-  ACTION_DEFINE_ARRAY PoF_reload BEGIN Setup-Paladins-of-Faerun Journal XGBOOKP END
+		ACTION_DEFINE_ARRAY PoF_reload BEGIN Setup-Paladins-of-Faerun Journal XGBOOKP END
 
-    LAF HANDLE_CHARSETS
-      INT_VAR
-        infer_charsets = 1
-      STR_VAR
-        tra_path = EVAL ~weidu_external/Paladins-of-Faerun/Languages/autotra~
-        out_path = EVAL ~weidu_external/Paladins-of-Faerun/Languages/autotra/UTF8~
-		iconv_path = ~Paladins-of-Faerun/Languages/autotra/iconv~
-//        noconvert_array = PoF_noconvert
-        reload_array = PoF_reload
+			LAF HANDLE_CHARSETS
+				INT_VAR
+				infer_charsets = 1
+				STR_VAR
+				tra_path = EVAL ~weidu_external/Paladins-of-Faerun/Languages/autotra~
+				out_path = EVAL ~weidu_external/Paladins-of-Faerun/Languages/autotra/UTF8~
+				iconv_path = ~Paladins-of-Faerun/Languages/autotra/iconv~
+				// noconvert_array = PoF_noconvert
+				reload_array = PoF_reload
+			END
+
+	// Backup ANSI
+	COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%~			~weidu_external/Paladins-of-Faerun/Languages/autotra/ANSI/%LANGUAGE%~
+	COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_new~	~weidu_external/Paladins-of-Faerun/Languages/autotra/ANSI/%LANGUAGE%/Baf_new~
+	COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_are~	~weidu_external/Paladins-of-Faerun/Languages/autotra/ANSI/%LANGUAGE%/Baf_are~
+	COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/D~			~weidu_external/Paladins-of-Faerun/Languages/autotra/ANSI/%LANGUAGE%/D~
+	// UTF8 only
+	COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/UTF8/%LANGUAGE%~				~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%~
+	COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/UTF8/%LANGUAGE%/Baf_new~		~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_new~
+	COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/UTF8/%LANGUAGE%/Baf_are~		~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_are~
+	COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/UTF8/%LANGUAGE%/D~			~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/D~
 	END
-   COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%~			~weidu_external/Paladins-of-Faerun/Languages/autotra/ANSI/%LANGUAGE%~
-   COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_new~	~weidu_external/Paladins-of-Faerun/Languages/autotra/ANSI/%LANGUAGE%/Baf_new~
-   COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_are~	~weidu_external/Paladins-of-Faerun/Languages/autotra/ANSI/%LANGUAGE%/Baf_are~
-   COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/D~		~weidu_external/Paladins-of-Faerun/Languages/autotra/ANSI/%LANGUAGE%/D~
-   
-   
-   COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/UTF8/%LANGUAGE%~				~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%~
-   COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/UTF8/%LANGUAGE%/Baf_new~	~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_new~
-   COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/UTF8/%LANGUAGE%/Baf_are~	~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/Baf_are~
-   COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/UTF8/%LANGUAGE%/D~			~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/D~
-  END
 
 END
 
@@ -149,13 +150,13 @@ COPY ~Paladins-of-Faerun/maps~   ~override~
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 
-COPY ~Paladins-of-Faerun/Portraits/EE~   ~override~
+	COPY ~Paladins-of-Faerun/Portraits/EE~   ~override~
 
 END
 
 ACTION_IF (GAME_IS ~tob bgt~) BEGIN
 
-COPY ~Paladins-of-Faerun/Portraits/Vanilla~   ~override~
+	COPY ~Paladins-of-Faerun/Portraits/Vanilla~   ~override~
 
 END
 	
@@ -164,7 +165,7 @@ END
 
 ACTION_IF (GAME_IS ~tob bg2ee~) BEGIN
 
-COPY ~Paladins-of-Faerun/OTHER/BG1.Audio~   ~override~
+	COPY ~Paladins-of-Faerun/OTHER/BG1.Audio~   ~override~
 
 END
 
@@ -175,11 +176,11 @@ APPEND ~SPELL.IDS~ ~1112 CLERIC_CIRCLE_OF_PROTECTION~ UNLESS ~1112 CLERIC_CIRCLE
 
 ACTION_IF (NOT FILE_EXISTS_IN_GAME ~SPPR112.SPL~) BEGIN // IWD spell for CLERIC_CIRCLE_OF_PROTECTION
 
-COPY ~Paladins-of-Faerun/OTHER/IWD.Spell/SPPR112.SPL~         ~override/SPPR112.SPL~
-  SAY NAME1 @1067
-  SAY NAME2 @1067
-  SAY DESC @1068
-  SAY UNIDENTIFIED_DESC @1068
+	COPY ~Paladins-of-Faerun/OTHER/IWD.Spell/SPPR112.SPL~         ~override/SPPR112.SPL~
+		SAY NAME1 @1067
+		SAY NAME2 @1067
+		SAY DESC @1068
+		SAY UNIDENTIFIED_DESC @1068
   
 END
 
@@ -192,20 +193,25 @@ COPY ~Paladins-of-Faerun/OTHER/BCS.TrapforXG0152~   ~override~
 // Item ressources for XGCMA03.ITM, XGHELM4 and IWD bam
 
 COPY ~Paladins-of-Faerun/OTHER/SPELL.ForItem/XGSPMOD1.SPL~   ~override/XGSPMOD1.SPL~
-  SAY NAME1 @1200
-  SAY UNIDENTIFIED_DESC @1201
-  SAY DESC @1201
+	SAY NAME1 @1200
+	SAY UNIDENTIFIED_DESC @1201
+	SAY DESC @1201
   
 COPY ~Paladins-of-Faerun/OTHER/SPELL.ForItem/XGSPMOD2.SPL~   ~override/XGSPMOD2.SPL~
-  SAY NAME1 @1202
-  SAY UNIDENTIFIED_DESC @1203
-  SAY DESC @1203
+	SAY NAME1 @1202
+	SAY UNIDENTIFIED_DESC @1203
+	SAY DESC @1203
 
-ACTION_IF (NOT FILE_EXISTS_IN_GAME ~SPWI525B.BAM~) BEGIN 
-COPY ~Paladins-of-Faerun/OTHER/SPELL.ForItem/SPWI525B.BAM~   ~override~
+ACTION_IF (NOT FILE_EXISTS_IN_GAME ~SPWI525B.BAM~) BEGIN
+
+	COPY ~Paladins-of-Faerun/OTHER/SPELL.ForItem/SPWI525B.BAM~   ~override~
+
 END
-ACTION_IF (NOT FILE_EXISTS_IN_GAME ~SPWI525C.BAM~) BEGIN 
-COPY ~Paladins-of-Faerun/OTHER/SPELL.ForItem/SPWI525C.BAM~   ~override~
+
+ACTION_IF (NOT FILE_EXISTS_IN_GAME ~SPWI525C.BAM~) BEGIN
+
+	COPY ~Paladins-of-Faerun/OTHER/SPELL.ForItem/SPWI525C.BAM~   ~override~
+	
 END
 
 
@@ -222,18 +228,18 @@ MKDIR ~weidu_external/Paladins-of-Faerun/Areas~
 
 ACTION_BASH_FOR ~Paladins-of-Faerun/Areas~ ~^.+$~ BEGIN
 
-PRINT ~         ~
-PRINT ~Start AREATYPE (with variable)~
-PRINT ~         ~
+	PRINT ~         ~
+	PRINT ~Start AREATYPE (with variable)~
+	PRINT ~         ~
 
-  COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%BASH_FOR_FILESPEC%~
-  LPF fj_are_structure
-    INT_VAR
-      fj_variable_value = 1
-    STR_VAR
-      fj_structure_type = "variable"
-      fj_name           = "POFAREA"
-  END
+	COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%BASH_FOR_FILESPEC%~
+		LPF fj_are_structure
+			INT_VAR
+			fj_variable_value = 1
+			STR_VAR
+			fj_structure_type = "variable"
+			fj_name           = "POFAREA"
+		END
 
 
 	// COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%BASH_FOR_FILESPEC%~
@@ -263,37 +269,37 @@ PRINT ~         ~
 		END
 */
 
-	END
+END
 
 
 ACTION_IF (GAME_IS ~tob bgt bg2ee eet~ AND FILE_EXISTS_IN_GAME ~BALDUR.BCS~) BEGIN
 
-  // Prevent specific events from triggering during PoF travels (Borrowed from TotLM by Argent77 )
-  ACTION_DEFINE_ASSOCIATIVE_ARRAY area_checks BEGIN
-    ~baldur~    => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
-    ~aerie~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
-    ~anomen~    => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
-    ~cernd~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
-    ~edwin~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
-    ~jaheira~   => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
-    ~jan~       => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
-    ~keldorn~   => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
-    ~korgan~    => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
-    ~mazzy~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
-    ~minsc~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
-    ~nalia~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
-    ~yoshimo~   => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
-  END
+	// Prevent specific events from triggering during PoF travels (Borrowed from TotLM by Argent77 )
+	ACTION_DEFINE_ASSOCIATIVE_ARRAY area_checks BEGIN
+		~baldur~    => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+		~aerie~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+		~anomen~    => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+		~cernd~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+		~edwin~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+		~jaheira~   => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+		~jan~       => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+		~keldorn~   => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+		~korgan~    => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+		~mazzy~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+		~minsc~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+		~nalia~     => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+		~yoshimo~   => ~\(!Global("Chapter","GLOBAL",%bg2_chapter_4%)\)~
+	END
 
 	// OUTER_TEXT_SPRINT bcs_quest_check ~!AreaType(FARAWAY)~
-  OUTER_TEXT_SPRINT bcs_quest_check ~!Global("POFAREA","MYAREA",1)~
-  ACTION_PHP_EACH area_checks AS script => search BEGIN
-    COPY_EXISTING ~%script%.bcs~ ~override~
-      DECOMPILE_AND_PATCH BEGIN
-        REPLACE_TEXTUALLY ~%search%~ ~%bcs_quest_check% \1~
-      END
-    BUT_ONLY IF_EXISTS
-  END
+	OUTER_TEXT_SPRINT bcs_quest_check ~!Global("POFAREA","MYAREA",1)~
+		ACTION_PHP_EACH area_checks AS script => search BEGIN
+			COPY_EXISTING ~%script%.bcs~ ~override~
+			DECOMPILE_AND_PATCH BEGIN
+				REPLACE_TEXTUALLY ~%search%~ ~%bcs_quest_check% \1~
+		END
+		BUT_ONLY IF_EXISTS
+			END
 END
 
 /*
@@ -318,6 +324,7 @@ BUT_ONLY
 END	
 */
 
+
 ////////////////////////////////////////////////////////////////////////////////////////////
 
 //////////////////////////////////
@@ -327,60 +334,59 @@ END
 
 // Invisible creatures for AR0602 Cutscene
 
-COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEAN10.CRE~   ~override/XGNEAN10.CRE~
+COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEAN10.CRE~		~override/XGNEAN10.CRE~
 	WRITE_ASCII 0x280 ~XGNEAN10~ (8) // Script name / Death variable
 
-COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEANT4.CRE~   ~override/XGNEANT4.CRE~
+COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEANT4.CRE~		~override/XGNEANT4.CRE~
 	WRITE_ASCII 0x280 ~XGNEANT4~ (8) // Script name / Death variable
 
-COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEANT.CRE~   ~override/XGNEANT.CRE~
+COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEANT.CRE~			~override/XGNEANT.CRE~
 	WRITE_ASCII 0x280 ~XGNEANT~ (8) // Script name / Death variable
 
-COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEAN28.CRE~   ~override/XGNEAN28.CRE~
+COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEAN28.CRE~		~override/XGNEAN28.CRE~
 	WRITE_ASCII 0x280 ~XGNEAN28~ (8) // Script name / Death variable
 
-// Script name / Death variable for AMNG2.CRE	
-	
-	COPY_EXISTING ~AMNG2.CRE~			~override/AMNG2.CRE~
-  WRITE_ASCII 0x280 ~AMNG2~ (8) // Script name / Death variable
-  
+// Script name / Death variable for AMNG2.CRE
+
+COPY_EXISTING ~AMNG2.CRE~				~override/AMNG2.CRE~
+	WRITE_ASCII 0x280 ~AMNG2~ (8) // Script name / Death variable
+
 // Blacksmith Marian
 
-	COPY_EXISTING ~PRISONG1.CRE~			~override/XGPRISO1.CRE~
-  WRITE_ASCII 0x280 ~XGPRISO1~ (8) // Script name / Death variable
+COPY_EXISTING ~PRISONG1.CRE~			~override/XGPRISO1.CRE~
+	WRITE_ASCII 0x280 ~XGPRISO1~ (8) // Script name / Death variable
 
-	COPY_EXISTING ~PRISONK1.CRE~			~override/XGPRISON.CRE~
-  WRITE_ASCII 0x280 ~XGPRISON~ (8) // Script name / Death variable
-  WRITE_ASCII 0x2CC ~XGPRISON~ (8) // Dialog name
-  
+COPY_EXISTING ~PRISONK1.CRE~			~override/XGPRISON.CRE~
+	WRITE_ASCII 0x280 ~XGPRISON~ (8) // Script name / Death variable
+	WRITE_ASCII 0x2CC ~XGPRISON~ (8) // Dialog name
+
 // A farmer in Trademeet
 
-COPY_EXISTING ~JAGUARSU.CRE~   ~override/XGJAGU.CRE~
+COPY_EXISTING ~JAGUARSU.CRE~			~override/XGJAGU.CRE~
 	WRITE_BYTE 0x270 ~255~
 
 // Missing script name / Death variable for existing ELAIR01.CRE (XG0762)
 
-COPY_EXISTING ~ELAIR01.CRE~   ~override~
-WRITE_ASCII 0x280 ~ELAIR01~ (8)
+COPY_EXISTING ~ELAIR01.CRE~				~override~
+	WRITE_ASCII 0x280 ~ELAIR01~ (8)
 
 // Modify GORGOLI.cre to XGGOICE
 
-COPY_EXISTING ~GOLICE01.cre~   ~override/XGGOICE.cre~
+COPY_EXISTING ~GOLICE01.cre~			~override/XGGOICE.cre~
 	WRITE_LONG 0x14 ~2500~ // XP value
 	// WRITE_ASCII 0x248 ~XGPRISON~ (8) // Override Script variable // Unused since modified on the area.
 
   
 // New actor in ducal palace if game is EET/BGT	
 
-		ACTION_IF GAME_IS ~bgt eet~ BEGIN
-	COPY_EXISTING ~FLAM10.CRE~			~override/XGFLAM10.CRE~
-  SAY NAME1 @210
-  SAY NAME2 @210
-  WRITE_ASCII 0x280 ~XGFLAM10~ (13) // Script name / Death variable
-  WRITE_ASCII 0x2CC ~XGFLAM10~ (8) // Dialog name
-  WRITE_ASCII 0x250 ~XGFLAM10~ (8) // Class script
-		END
-
+	ACTION_IF GAME_IS ~bgt eet~ BEGIN
+		COPY_EXISTING ~FLAM10.CRE~			~override/XGFLAM10.CRE~
+			SAY NAME1 @210
+			SAY NAME2 @210
+			WRITE_ASCII 0x280 ~XGFLAM10~ (13) // Script name / Death variable
+			WRITE_ASCII 0x2CC ~XGFLAM10~ (8) // Dialog name
+			WRITE_ASCII 0x250 ~XGFLAM10~ (8) // Class script
+	END
 
 // Actors component
 
@@ -397,19 +403,18 @@ COPY_EXISTING ~GOLICE01.cre~   ~override/XGGOICE.cre~
 
 // Add scripts name to existing areas
 
-COPY_EXISTING ~AR0305.ARE~ ~override~
-          WRITE_ASCII 0x94 ~AR0305~ #8
+COPY_EXISTING ~AR0305.ARE~		~override~
+	WRITE_ASCII 0x94 ~AR0305~ #8
 
-COPY_EXISTING ~AR0527.ARE~ ~override~
-          WRITE_ASCII 0x94 ~AR0527~ #8
+COPY_EXISTING ~AR0527.ARE~		~override~
+	WRITE_ASCII 0x94 ~AR0527~ #8
 
-COPY_EXISTING ~AR0528.ARE~ ~override~
-          WRITE_ASCII 0x94 ~AR0528~ #8
+COPY_EXISTING ~AR0528.ARE~		~override~
+	WRITE_ASCII 0x94 ~AR0528~ #8
 
-COPY_EXISTING ~AR1005.ARE~ ~override~
-          WRITE_ASCII 0x94 ~AR1005~ #8
-		  
-		  
+COPY_EXISTING ~AR1005.ARE~		~override~
+	WRITE_ASCII 0x94 ~AR1005~ #8
+
 // Areas component
 
 
@@ -418,38 +423,40 @@ COPY_EXISTING ~AR1005.ARE~ ~override~
 
 // Areas cheat for Paladin of Faerun
 
-			ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN					
+	ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+
 		INCLUDE ~Paladins-of-Faerun/Lib/PoF_Components/PoF_CheatsAreas.tph~				
-			END
+
+	END
 
 
  // Add script and DLG for creature already on area 
-COPY_EXISTING	~XG0401.are~ ~override~
-				~XG04N1.are~ ~override~
+COPY_EXISTING	~XG0401.are~	~override~
+				~XG04N1.are~	~override~
 	LPF ALTER_AREA_ACTOR 
 		STR_VAR 
 		actor_name="XGMIN" 
 		script_class ="XGMIN" 
 		dlg_file  ="JODLGMIN" 
-		END
+	END
 	LPF ALTER_AREA_ACTOR 
 		STR_VAR 
 		actor_name="XGDWOD" 
 		script_class ="XGDWOD" 
 		dlg_file  ="JODLGNAI" 
-		END
+	END
 	
-COPY_EXISTING	~XG0033.are~ ~override~
-				~XG0076.are~ ~override~
-				~XG0078.are~ ~override~
-				~XG0133.are~ ~override~
-				~XG0365.are~ ~override~
+COPY_EXISTING	~XG0033.are~	~override~
+				~XG0076.are~	~override~
+				~XG0078.are~	~override~
+				~XG0133.are~	~override~
+				~XG0365.are~	~override~
 	LPF ALTER_AREA_ACTOR 
 		STR_VAR 
 		actor_name="XGPEAS" 
 		script_class ="JOBCSALL" 
 		dlg_file  ="JODLGHN" 
-		END
+	END
 
 
 // Some ARE file not implemented in original mod and useless
@@ -552,45 +559,43 @@ ADD_JOURNAL TITLE (@51800) @51801 @51802 @51803 @51804 @51805
 //////////////////////////////////
 
 // Comp. D
-
 COMPILE EVALUATE_BUFFER ~Paladins-of-Faerun/d~
 
 
 // (Ducal basement, BG0111/XG0620)
 ACTION_IF FILE_EXISTS_IN_GAME ~FLAM9.DLG~ AND FILE_EXISTS_IN_GAME ~FLAM7.DLG~ BEGIN
 
-COMPILE EVALUATE_BUFFER ~Paladins-of-Faerun/D_spe/DucalPalace_Cellar_FLAM.d~
+	COMPILE EVALUATE_BUFFER ~Paladins-of-Faerun/D_spe/DucalPalace_Cellar_FLAM.d~
 
 END
+
 ACTION_IF FILE_EXISTS_IN_GAME ~JA#FLAM1.DLG~ BEGIN
 
-COMPILE EVALUATE_BUFFER ~Paladins-of-Faerun/D_spe/DucalPalace_Cellar_JA#FLAM.d~
+	COMPILE EVALUATE_BUFFER ~Paladins-of-Faerun/D_spe/DucalPalace_Cellar_JA#FLAM.d~
 
 END
+
 ACTION_IF FILE_EXISTS_IN_GAME ~PRISONG1.DLG~ AND FILE_EXISTS_IN_GAME ~PRISONG1.DLG~ BEGIN
 
-COMPILE ~Paladins-of-Faerun/D_spe/Prison_Blacksmith_Marian.d~
+	COMPILE ~Paladins-of-Faerun/D_spe/Prison_Blacksmith_Marian.d~
 
 END
 
 // Générique DLG for générique pnj
-
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~JODLGHN.DLG~ OR NOT FILE_EXISTS_IN_GAME ~JODLGWN.DLG~ OR NOT FILE_EXISTS_IN_GAME ~JODLGHH.DLG~ OR NOT FILE_EXISTS_IN_GAME ~JODLGWH.DLG~ BEGIN
 
-COMPILE ~Paladins-of-Faerun/OTHER/JoNEANT/Dlg/JODLGALL.d~
+	COMPILE ~Paladins-of-Faerun/OTHER/JoNEANT/Dlg/JODLGALL.d~
 
-END 
+END
 
 // Comp. BAF
-
 COMPILE ~Paladins-of-Faerun/Baf_new~
 		EVALUATE_BUFFER
 
 // Générique BCS for générique pnj
-
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~JOBCSALL.BCS~ BEGIN
 
-COMPILE ~Paladins-of-Faerun/OTHER/JoNEANT/Baf/JOBCSALL.BAF~
+	COMPILE ~Paladins-of-Faerun/OTHER/JoNEANT/Baf/JOBCSALL.BAF~
 
 END 
 
@@ -598,18 +603,17 @@ END
 // EXTEND  bcs
 //////////////////////////////////
 
-
 ACTION_IF GAME_IS ~bgt eet~ BEGIN
 
 	EXTEND_TOP ~%NBaldursGate_RinniesHouse_L1_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0520.baf~ EVALUATE_BUFFER //(Rinnie home)
-	EXTEND_TOP ~%NBaldursGate_RamazithsTower_L1_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0320.baf~ EVALUATE_BUFFER //(Ramazith home)
+	EXTEND_TOP ~%NBaldursGate_RamazithsTower_L1_BCS%.BCS~			~Paladins-of-Faerun/Baf_new/XG0320.baf~ EVALUATE_BUFFER //(Ramazith home)
 	EXTEND_TOP ~%NBaldursGate_ThreeOldKegs_L1_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0120.baf~ EVALUATE_BUFFER //(Trois vielles chopes RDC)
 	EXTEND_TOP ~%NBaldursGate_ThreeOldKegs_L3_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0820.baf~ EVALUATE_BUFFER //(Trois vielles chopes 2eme)
-	EXTEND_TOP ~%NBaldursGate_DucalPalace_Cellar_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0620.baf~ EVALUATE_BUFFER //(Ducal basement, XG0620)
+	EXTEND_TOP ~%NBaldursGate_DucalPalace_Cellar_BCS%.BCS~			~Paladins-of-Faerun/Baf_new/XG0620.baf~ EVALUATE_BUFFER //(Ducal basement, XG0620)
 	EXTEND_TOP ~%NBaldursGate_DucalPalace_L1_BCS%.BCS~				~Paladins-of-Faerun/Baf_are/JOBG0108.baf~ EVALUATE_BUFFER
-	// Special for game EET but if NEWGAME_SOA 
-	EXTEND_TOP ~XG0720.BCS~				~Paladins-of-Faerun/baf_spe/XG0720.baf~
-	EXTEND_TOP ~%NBaldursGate_BCS%.BCS~				~Paladins-of-Faerun/baf_spe/XG0020.baf~
+// Special for game is EET but NEWGAME_SOA
+	EXTEND_TOP ~XG0720.BCS~											~Paladins-of-Faerun/baf_spe/XG0720.baf~
+	EXTEND_TOP ~%NBaldursGate_BCS%.BCS~								~Paladins-of-Faerun/baf_spe/XG0020.baf~
 
 END
 
@@ -750,14 +754,14 @@ REPLACE_TEXTUALLY ~SetGlobal("NewGame","AR0602",1)~ ~ClearAllActions()
 	MultiPlayerSync()
 	SetGlobal("NewGame","AR0602",1)~
 	
-COMPILE ~weidu_external/Paladins-of-Faerun/ExistingBaf/AR0602.BAF~ ~override~
+	COMPILE ~weidu_external/Paladins-of-Faerun/ExistingBaf/AR0602.BAF~ ~override~
 USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR0602EE.tra~
 		
-EXTEND_BOTTOM ~AR0602.BCS~			~Paladins-of-Faerun/baf_are/S#AR0602EE.baf~
+	EXTEND_BOTTOM ~AR0602.BCS~			~Paladins-of-Faerun/baf_are/S#AR0602EE.baf~
 		
 END ELSE BEGIN
 
-EXTEND_TOP ~AR0602.BCS~				~Paladins-of-Faerun/baf_are/S#AR0602.baf~
+	EXTEND_TOP ~AR0602.BCS~				~Paladins-of-Faerun/baf_are/S#AR0602.baf~
 USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR0602.tra~
 
 END
@@ -803,10 +807,10 @@ USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR2000.t
 
 // LAF HANDLE_AUDIO
 
-	LAF HANDLE_AUDIO 
-		STR_VAR 
-		audio_path = ~Paladins-of-Faerun/Audio~ 
-		oggdec_path = ~Paladins-of-Faerun/tools~ 
+	LAF HANDLE_AUDIO
+		STR_VAR
+		audio_path = ~Paladins-of-Faerun/Audio~
+		oggdec_path = ~Paladins-of-Faerun/tools~
 	END
 
 // BG2EE EET
@@ -847,13 +851,13 @@ END
 
 // BG2 BGT
 ACTION_IF (GAME_IS ~tob bgt~) BEGIN
-	
+
 	LAF HANDLE_TILESETS
 		STR_VAR
 		tiz_path = ~Paladins-of-Faerun/OLD.tiz~
 		tisunpack_path = ~Paladins-of-Faerun/tools~
-	END	 
-	
+	END
+
 END
 
 /*

@@ -166,7 +166,7 @@ END
 // To create special special special combinaison
 IF ~~ THEN BEGIN 200
   SAY @44 /*~Je dois avoir la berlue... Mais comment ?~*/
-  IF ~PartyGoldGT(50000) PartyHasItem("XGGLAV30") PartyHasItem("XGGLAV31") PartyHasItem("XGGLAV32")~ THEN REPLY @45 /*~L'argent, l'aventure et un marchand de de bric et de broque magique !~*/ GOTO 201
+  IF ~PartyGoldGT(50000) PartyHasItem("XGGLAV30") PartyHasItem("XGGLAV31") PartyHasItem("XGGLAV32")~ THEN REPLY @45 /*~L'argent, l'aventure et un marchand de de bric et de broque magique peu regardant !~*/ GOTO 201
   IF ~~ THEN REPLY @8 EXIT
 END
 

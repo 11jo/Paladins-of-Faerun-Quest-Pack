@@ -1448,6 +1448,8 @@ Kann nur verwendet werden von:
 
 EIGENSCHAFTEN:
 
+1% chance to resurrect the character
+
 Rüstungsklasse: 5
 
 THAC0: +2
@@ -2185,7 +2187,7 @@ Eile
 feuert zwei Pfeile pro Angriff ab.
 
 ETW0: Bonus von +5
-Schaden: Pfeil +5
+Schaden: 1d8 +5
 Schadensart: Durchbohren (Schuss)
 Gewicht: 5
 Geschwindigkeit: 3
@@ -2253,7 +2255,7 @@ Kann nicht verwendet werden von:
 
 EIGENSCHAFTEN:
 
-Rüstungsklasse: 5
+Rüstungsklasse: 2
 Gewicht: 40
 Mindeststärke: 8
 
@@ -2269,11 +2271,8 @@ Kann nicht verwendet werden von:
 
 EIGENSCHAFTEN:
 
-10% Chance auf sofortigen Tod
-Geschwindigkeit
-
-ETW0: Bonus von +5
-Schaden: Pfeil +5
+ETW0: Bonus von +3
+Schaden: 1d8 +3
 Schadensart: Feuer
 Gewicht: 5
 Geschwindigkeit: 3
@@ -2484,7 +2483,7 @@ EIGENSCHAFTEN:
 Bei einem Treffer besteht eine Chance von 20 %, dem Feind 2 Stufen zu entziehen.
 Entzieht dem Ziel 10 Gesundheitspunkte und überträgt sie auf den Besitzer, wodurch er geheilt wird.
 
-ETW0: -
+ETW0: 1
 Schaden: 1W8
 Schadensart: Aufschlitzen
 Gewicht: 7
@@ -2508,7 +2507,7 @@ Stärke +2,
 "Stärke"-Zauber wirken (einmal täglich),
 "Hast" (einmal am Tag).
 
-ETW0: -
+ETW0: 2
 Schaden: 1W8
 Schadensart: Aufschlitzen
 Gewicht: 8
@@ -2533,7 +2532,7 @@ Rüstungsklasse +2,
 +10 % auf die Fähigkeit, sich "im Schatten zu verstecken",
 Gewährt die Fähigkeit, 2 Mal am Tag "Heilung" zu wirken
 
-ETW0: -
+ETW0: 2
 Schaden: 1W8
 Schadensart: Aufschlitzen
 Gewicht: 8
@@ -3550,6 +3549,7 @@ EIGENSCHAFTEN:
 - 3 bis Geschicklichkeit,
 der Träger steht unter dem Einfluss des Unschärfezaubers.
 10 % Chance, das Ziel zu verlangsamen
+The owner of the blade is blurred
 
 ETW0: Bonus von +2
 Schaden: 1W6+2
@@ -3884,7 +3884,7 @@ Kann nicht verwendet werden von:
 EIGENSCHAFTEN:
 
 Fügt 4-mal täglich +4 Stärke und +4 Konstitution hinzu
-wirft einen Feuerball, 2 Trefferpunkte pro Regeneration/Runde, chaotisch böse Ausrichtung, 0 Ruf.
+wirft einen Feuerball, 2 Trefferpunkte pro Regeneration/Runde, chaotisch böse Ausrichtung, 3 Ruf.
 
 THAC0: Bonus von +3
 Schaden: 1W6 +3

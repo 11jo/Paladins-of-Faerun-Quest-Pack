@@ -17,8 +17,6 @@
 
 [Link to actual Mod Discussions](https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/discussions)
 
-[Lien vers un des forums du Mod](https://www.baldursgateworld.fr/)
-
 [Link to original Mod forum](http://www.shsforums.net/topic/60732-paladins-of-faerun-quest-pack/)
 
 [Link to original Mod Download](https://www.mediafire.com/file/x6kd9tapyk9hlwl/PoFqp_v3.3.7z/file)
@@ -58,8 +56,6 @@ Paladins-of-Faerun is implemented in WeiDU format and should be compatible with 
  - [Forum - Spellhold Studios](http://www.shsforums.net/topic/60732-paladins-of-faerun-quest-pack/)  
  
  - [The Gate Project Discussions](https://github.com/orgs/The-Gate-Project/discussions) or [Paladin of Faerun Issues](https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/issues)  
- 
- - [The Gate Project Discord](https://discord.gg/zGmZssAR)  
 
 
 ## Content
