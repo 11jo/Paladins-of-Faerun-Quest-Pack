@@ -5,11 +5,14 @@ THEN
   RESPONSE #100
     ClearAllActions()
     StartCutSceneMode()
+    FadeToColor([50.0],0)
+    Wait(3)
+    HideGUI()
     CreateCreature("XGCOW",[2472.1665],8)  // ~Волшебник в Рясе~
     CreateCreature("XGCOW1",[2383.1699],8)  // ~Волшебник в Рясе~
     CreateCreature("XGCOW2",[2553.1714],8)  // ~Волшебник в Рясе~
     CreateCreature("XGCOW3",[2293.1754],8)  // ~Волшебник в Рясе~
-    ClearAllActions()
+	CreateCreature("XGNEAN28",[2293.1754],8)
     Explore()
     ActionOverride(Player1,JumpToPoint([2474.1582]))
     ActionOverride(Player1,Face(0))
@@ -24,11 +27,8 @@ THEN
     ActionOverride(Player6,JumpToPoint([2476.1532]))
     ActionOverride(Player6,Face(0))
     MoveViewPoint([2383.1699],INSTANT)
-    FadeToColor([5.0],0)
-    Wait(6)
-    FadeFromColor([1.0],0)
+    FadeFromColor([20.0],0)
     Wait(5)
-    HideGUI()
     ClearAllActions()
     PlaySound("XGMUS1")
     Wait(3)
@@ -83,12 +83,17 @@ THEN
     ActionOverride("XGCOW",MoveToPoint([2293.1754]))
     Wait(3)
     ActionOverride("XGELWIN",ForceSpell("XGCOW2",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
+    DisplayString("XGELWIN",@7)  // @7
+    Wait(1)
+    ActionOverride(Player1,MoveToPoint([1875.2359]))
     Wait(3)
     ActionOverride("XGCOW",ForceSpell("XGELWIN",WIZARD_IMPRISONMENT))
     Wait(2)
     ActionOverride("XGCOW",ForceSpell("XGELWIN",DRYAD_TELEPORT))
     Wait(2)
     ForceSpell("XGCOW",DRYAD_TELEPORT)
+    MoveViewPoint([1875.2359],FAST)
+	ActionOverride("XGNEAN28",DestroySelf())
     UnhideGUI()
     EndCutSceneMode()
 END

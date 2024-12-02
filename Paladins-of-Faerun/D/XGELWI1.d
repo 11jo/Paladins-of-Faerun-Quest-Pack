@@ -12,7 +12,9 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @4
-  IF ~~ THEN REPLY @5 DO ~HideAreaOnMap("XG0055")
+  IF ~~ THEN REPLY @5 DO ~FadeToColor([50.0],0)
+Wait(2)
+HideAreaOnMap("XG0055")
 RevealAreaOnMap("XG0015")
 AddJournalEntry(@51213,QUEST)
 ActionOverride(Player2,LeaveAreaLUA("XG0015","",[2600.480],3))

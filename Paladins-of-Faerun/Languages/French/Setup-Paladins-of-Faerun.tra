@@ -393,7 +393,7 @@
 @386 = ~Commandant des éclaireurs~
 @387 = ~Archimage de Gradak~
 @388 = ~Mage de Gradak~
-@389 = ~Gradak's commander~
+@389 = ~Général de Gradak~
 @390 = ~Prêtre de Gradak~
 @391 = ~Gradak's prison guard~
 @392 = ~Guerrier de Gradak~
@@ -470,7 +470,7 @@ Capacités d'équipement :
 - Immunité contre les armes non-magiques
 
 Capacités de charge : 
-- 26 % de chances de drainer 1 niveau à la cible de manière permanente (jet de sauvegarde contre les sorts pour annuler)
+- Draine 1 niveau à la cible de manière permanente (jet de sauvegarde contre les sorts pour annuler) (25 charges, l'objet est détruit quand toutes les charges sont utilisées)
 
 Poids : 1
 
@@ -3784,7 +3784,6 @@ PARAMÈTRES :
 
 When hitting the target, a disease is imposed (-3 point penalty to Dexterity)
 10% chance to slow down the target by 1 turn
-The owner of the blade is blurred
 
 TAC0: +2 bonus
 Dégâts : 1d6 +2
@@ -4389,6 +4388,9 @@ Le magicien pointe son doigt dans la direction désirée et projette une sphère d'
 @1633 = ~Nous avons été mis au courant, vous pouvez passer.~
 @1634 = ~Allez voir l'agent de liaison dans le hall principal, c'est lui qui s'occupe des transferts de prisonniers.~
 
+// XG0116 Info points
+@1635 = ~Il semble que le portail nécessite une sorte de clé pour être activé.~
+@1636 = ~Le passage est ouvert !~
 
 // Messagers
 

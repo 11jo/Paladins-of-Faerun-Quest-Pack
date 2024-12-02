@@ -1,0 +1,59 @@
+IF
+	Global("EnteredXG0017","XG0017",0)
+THEN
+	RESPONSE #100
+		SetGlobal("EnteredXG0017","XG0017",1)
+		CreateCreature("XGELVW0A",[1801.3679],6)
+		TakePartyItem("XGWRD1")
+		TriggerActivation("Trav01",FALSE)
+END
+
+IF
+	Dead("XGYARCO1")
+	Global("DeadXGYARCO1","XG0017",0)
+THEN
+	RESPONSE #100
+		SetGlobal("DeadXGYARCO1","XG0017",1)
+		TriggerActivation("Trav01",TRUE)
+END
+
+/*
+// See XGDOOR17.baf
+
+IF
+	Global("XGDOOR17","XG0017",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([50.0],0)
+		Wait(1)
+		CreateCreature("XGELIAH",[3160.2800],0)
+		CreateCreature("XGNEAN28",[2423.1765],14)
+		CreateCreature("XGNEAN28",[3160.2800],14)
+		//CreateCreature("XGELVW1",[2423.1765],0)
+		//CreateCreature("XGELVW2",[2423.1765],0)
+		//CreateCreature("XGELVW3",[2423.1765],0)
+		//CreateCreature("XGELVW4",[2423.1765],0)
+		//CreateCreature("XGELVW5",[2423.1765],0)
+		SetGlobal("XGDOOR17","XG0017",2)
+		MoveViewPoint([1599.546],INSTANT)
+		FadeFromColor([20.0],0)
+		Wait(3)
+		DisplayStringHead("XGELIAH",Something to galvanise)  
+		Wait(7)
+		DisplayStringHead("XGELIAH",Something to galvanise)  
+		Wait(5)
+		MoveViewPoint([1599.546],FAST)
+		//Move ally to the castle
+		//ActionOverride("XGELVW1",MoveToPoint([1599.546]))
+		//ActionOverride("XGELVW2",MoveToPoint([1599.546]))
+		//ActionOverride("XGELVW3",MoveToPoint([1599.546]))
+		//ActionOverride("XGELVW4",MoveToPoint([1599.546]))
+		//ActionOverride("XGELVW5",MoveToPoint([1599.546]))
+		ActionOverride("XGNEAN28",DestroySelf())
+		ActionOverride("XGNEAN28",DestroySelf())
+		UnhideGUI()
+		EndCutSceneMode()
+END
+*/

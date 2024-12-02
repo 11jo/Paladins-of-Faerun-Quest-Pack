@@ -1,0 +1,24 @@
+IF
+	Opened([ANYONE])
+	Global("XGDOOR17","XG0017",0)
+THEN
+	RESPONSE #100
+		CreateCreature("XGELVW0",[2423.1765],0)
+		CreateCreature("XGELVW0",[2423.1765],0)
+		CreateCreature("XGELVW0",[2423.1765],0)
+		CreateCreature("XGELVW0",[2423.1765],0)
+		CreateCreature("XGELVW0",[2423.1765],0)
+		CreateCreature("XGELVW0",[2423.1765],0)
+		CreateCreature("XGELVW0",[2423.1765],0)
+		CreateCreature("XGELVW0",[2423.1765],0)
+		CreateCreature("XGSUEL0",[2457.1638],0)
+		CreateCreature("XGSUEL0",[2437.1638],0)
+		CreateCreature("XGSUEL0",[2380.1638],0)
+		CreateCreature("XGSUEL0",[2370.1638],0)
+		CreateCreature("XGSUEL0",[2360.1638],0)
+		SetGlobal("XGDOOR17","XG0017",1)
+END
+
+//  CreateCreature("XGELIAH",[3160.2800],0)
+
+// To see for making a cutscene for this

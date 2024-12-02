@@ -1,0 +1,19 @@
+IF
+	Allegiance(Myself,NEUTRAL)
+	AreaCheck("XG0017")
+THEN
+  RESPONSE #100
+		Wait(1)
+		Ally()
+END
+
+IF
+	See([GOODCUTOFF])
+	AreaCheck("XG0017")
+	Global("XGSUEL0Hey","GLOBAL",0)
+THEN
+  RESPONSE #100
+		Wait(1)
+		SetGlobal("XGSUEL0Hey","GLOBAL",1)
+		DisplayStringHead("XGSUEL0",@0)
+END

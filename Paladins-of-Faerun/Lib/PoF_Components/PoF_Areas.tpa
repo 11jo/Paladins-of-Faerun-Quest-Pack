@@ -137,6 +137,7 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0014.ARE~         ~override/XG00
 		END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0015.ARE~         ~override/XG0015.ARE~
+		WRITE_ASCII 0x94 ~XG0015~ #8
 		LPF fj_are_structure
 			INT_VAR
 			fj_type			= 1    // Info point
@@ -189,6 +190,14 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0016.ARE~			~override/XG0016.ARE
 	ADD_MAP_NOTE #1083 #42 ~red~ @1501
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0017.ARE~			~override/XG0017.ARE~
+		WRITE_ASCII 0x94 ~XG0017~ #8
+		LPF ALTER_AREA_DOOR
+			INT_VAR
+			flag_no_close  = 0
+			STR_VAR
+			door_script =  
+			door_name = Door0001
+		END
 	ADD_MAP_NOTE #1448 #3453 ~red~ @1005
 	ADD_MAP_NOTE #1711 #1541 ~red~ @1006
 	ADD_MAP_NOTE #1553 #1150 ~BLUE~ @1007
@@ -316,9 +325,9 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0025.ARE~         ~override/XG00
 	SAY 0x1390 @1008
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0026.ARE~         ~override/XG0026.ARE~
-	SAY 0x28B0 @1009
-	SAY 0x28E4 @1009
-	SAY 0x2918 @1010
+	ADD_MAP_NOTE #67 #2196 ~gray~ @1009
+	ADD_MAP_NOTE #3767 #1694 ~gray~ @1009
+	ADD_MAP_NOTE #1359 #2194 ~gray~ @1010
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0028.ARE~         ~override/XG0028.ARE~
 		LPF fj_are_structure
@@ -613,6 +622,43 @@ ACTION_IF (GAME_IS ~tob bgt~) BEGIN
 END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0116.ARE~         ~override/XG0116.ARE~
+		WRITE_ASCII 0x94 ~XG0116~ #8
+		LPF ALTER_AREA_REGION
+			INT_VAR
+			flag_locked = BIT0
+			info_point = RESOLVE_STR_REF (@1636)
+			STR_VAR
+			region_name	= Travel02
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type			= 1    // Info point
+			fj_box_left		= 846
+			fj_box_top		= 1057
+			fj_box_right	= 925
+			fj_box_bottom	= 1152
+			fj_cursor_idx	= 22   // curseur ?
+			fj_info_point_strref  = RESOLVE_STR_REF (@1635)
+			fj_loc_x		= 885
+			fj_loc_y		= 1104
+			fj_vertex_0		= 854 + (1142 << 16)
+			fj_vertex_1		= 888 + (1152 << 16)
+			fj_vertex_2		= 915 + (1127 << 16)
+			fj_vertex_3		= 925 + (1082 << 16)
+			fj_vertex_4		= 905 + (1056 << 16)
+			fj_vertex_5		= 874 + (1058 << 16)
+			fj_vertex_6		= 850 + (1078 << 16)
+			fj_vertex_5		= 846 + (1124 << 16)
+			fj_vertex_6		= 854 + (1142 << 16)
+			STR_VAR
+			fj_structure_type	= region
+			fj_name				= info02
+		END
+		LPF ALTER_AREA_ACTOR 
+			STR_VAR 
+			actor_name = "XGELIAH" 
+			script_override = "XGELIAH" 
+		END
 	ADD_MAP_NOTE #290 #232 ~GREEN~ @1046
 	ADD_MAP_NOTE #1505 #567 ~red~ @1047
 
@@ -739,8 +785,8 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0214.ARE~         ~override/XG02
 	WRITE_ASCII 0x94 ~XG0214~ (8)
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0215.ARE~         ~override/XG0215.ARE~
-  SAY 0x35CC @1043
-  SAY 0x3694 @1048          
+	SAY 0x35CC @1043
+	ADD_MAP_NOTE #2351 #467 ~orange~ @1048		// Caverne du gardien    
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0217.ARE~         ~override/XG0217.ARE~         
 
@@ -851,6 +897,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 
 END
 
+// Probably to modify with fj_are_structure same as other GAME_IS ~tob bgt~ and remove them since the implementation should work for both
 ACTION_IF (GAME_IS ~tob bgt~) BEGIN
 
 	COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0339.ARE~         ~override/XG0339.ARE~

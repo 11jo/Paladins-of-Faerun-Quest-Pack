@@ -6,6 +6,7 @@ THEN
 		SetGlobal("EnteredAreaAR1000","AR1000",1)
 		ClearAllActions()
 		StartCutSceneMode()
+		FadeToColor([30.0],0)
 		MoveViewPoint([2524.277],INSTANT)
 		Wait(1)
 		ActionOverride(Player2,LeaveAreaLUA("AR1000","",[2579.253],0))
@@ -14,13 +15,14 @@ THEN
 		ActionOverride(Player4,LeaveAreaLUA("AR1000","",[2564.189],0))
 		ActionOverride(Player5,LeaveAreaLUA("AR1000","",[2471.195],0))
 		ActionOverride(Player6,LeaveAreaLUA("AR1000","",[2519.139],0))
+		FadeFromColor([20.0],0)
 		Wait(2)
 		CreateCreature("XGARTE1",[2237.907],0)  // ~Артемис~
 		CreateCreature("XGWAN1",[2195.874],0)  // ~Беглец~
 		CreateCreature("XGWAN2",[2354.921],0)  // ~Беглец~
 		CreateCreature("XGAMNC",[2155.890],0)  // ~Амнский капитан~
 		ScreenShake([20.20],20)
-		Wait(4)
+		Wait(3)
 		ActionOverride("XGARTE1",MoveToPoint([2532.342]))
 		ActionOverride("XGWAN1",MoveToPoint([2433.290]))
 		ActionOverride("XGWAN2",MoveToPoint([2649.256]))
@@ -28,7 +30,7 @@ THEN
 		DisplayString("XGARTE1",@0)  // @0
 		Wait(2)
 		DisplayStringHead(Player1,@1)  // @1
-		Wait(2)
+		Wait(3)
 		DisplayString("XGARTE1",@2)  // @2
 		Wait(1)
 		ActionOverride("XGARTE1",Attack(Player1))
@@ -39,14 +41,15 @@ THEN
 		ActionOverride("XGWAN1",MoveToPoint([2542.48]))
 		ActionOverride("XGWAN2",MoveToPoint([2542.48]))
 		Wait(3)
-		ActionOverride("XGARTE1",EscapeArea())
-		ActionOverride("XGWAN1",EscapeArea())
-		ActionOverride("XGWAN2",EscapeArea())
+		ActionOverride("XGARTE1",DestroySelf())
+		ActionOverride("XGWAN1",DestroySelf())
+		ActionOverride("XGWAN2",DestroySelf())
 		Wait(3)
 		ActionOverride("XGAMNC",MoveToPoint([2532.342]))
 		Wait(10)
 		DisplayString("XGAMNC",@3)  // @3
 		Wait(3)
+		ActionOverride("XGAMNC",DestroySelf())
 		ActionOverride(Player2,LeaveAreaLUA("AR1005","",[1111.340],0))
 		ActionOverride(Player1,LeaveAreaLUA("AR1005","",[1235.428],0))
 		ActionOverride(Player3,LeaveAreaLUA("AR1005","",[791.410],0))

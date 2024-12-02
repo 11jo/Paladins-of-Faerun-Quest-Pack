@@ -435,15 +435,15 @@ COPY_EXISTING	~XG0401.are~	~override~
 				~XG04N1.are~	~override~
 	LPF ALTER_AREA_ACTOR 
 		STR_VAR 
-		actor_name="XGMIN" 
-		script_class ="XGMIN" 
-		dlg_file  ="JODLGMIN" 
+		actor_name = "XGMIN" 
+		script_class = "XGMIN" 
+		dlg_file = "JODLGMIN" 
 	END
 	LPF ALTER_AREA_ACTOR 
 		STR_VAR 
-		actor_name="XGDWOD" 
-		script_class ="XGDWOD" 
-		dlg_file  ="JODLGNAI" 
+		actor_name = "XGDWOD" 
+		script_class = "XGDWOD" 
+		dlg_file = "JODLGNAI" 
 	END
 	
 COPY_EXISTING	~XG0033.are~	~override~
@@ -453,9 +453,54 @@ COPY_EXISTING	~XG0033.are~	~override~
 				~XG0365.are~	~override~
 	LPF ALTER_AREA_ACTOR 
 		STR_VAR 
-		actor_name="XGPEAS" 
-		script_class ="JOBCSALL" 
-		dlg_file  ="JODLGHN" 
+		actor_name = "XGPEAS" 
+		script_class = "JOBCSALL" 
+		dlg_file = "JODLGHN" 
+	END
+
+// Remove Elminster original override script
+COPY_EXISTING	~XG0153.are~	~override~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGCELM" 
+		script_override = "" 
+	END
+COPY_EXISTING	~XG0154.are~	~override~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGCELM" 
+		script_override = "" 
+	END
+COPY_EXISTING	~XGCELM.cre~	~override~
+  WRITE_ASCII SCRIPT_OVERRIDE ~~ (8) // Override script
+  
+// Add script for Gardien in Culte Area
+COPY_EXISTING	~XG0053.are~	~override~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGCG" 
+		script_override = "XGCG" 
+	END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGCADEP" 
+		script_override = "XGCADEP" 
+	END
+  
+// Add Script for Gradak éclaireurs 
+COPY_EXISTING	~XG0315.are~	~override~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGYARPO" 
+		script_override = "XGYARP1" 
+	END
+  
+// Add Script for Gradak Commandeur for XG0017
+COPY_EXISTING	~XG0017.are~	~override~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGYARP" 
+		cre_file = "XGYARCO1"
 	END
 
 
@@ -816,6 +861,12 @@ USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR2000.t
 // BG2EE EET
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 
+COPY ~%MOD_FOLDER%/TIS.EE~ ~override~
+COPY ~%MOD_FOLDER%/PVRZ.EE~ ~override~
+
+
+// Fast install for test temporary commented out
+/*
 	// Install pvrz-based tilesets without the danger of overwriting pvrz files from other mods or the game itself.
 
 		INCLUDE ~Paladins-of-Faerun/lib/a7_pvrz_tis.tpa~
@@ -846,6 +897,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
       FAIL ~Could not install "%BASH_FOR_FILESPEC%"!~
     END
   END
+*/
 
 END
 

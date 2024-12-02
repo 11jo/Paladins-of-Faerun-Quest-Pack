@@ -1,0 +1,11 @@
+IF
+	Global("XGCGDown","GLOBAL",1)
+	!Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+		Wait(1)
+		ApplySpell(Myself,INVOKE_COURAGE)
+		ApplySpell(Myself,CLERIC_REMOVE_FEAR)
+		ChangeEnemyAlly(Myself,ENEMY)
+		Attack([GOODCUTOFF])
+END

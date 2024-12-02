@@ -2,7 +2,7 @@ BEGIN ~XGCG~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @0
-  IF ~~ THEN REPLY @1 DO ~Enemy()~ EXIT
+  IF ~~ THEN REPLY @1 DO ~SetGlobal("XGCGDown","GLOBAL",1)~ EXIT
   IF ~~ THEN REPLY @2 GOTO 1
 END
 

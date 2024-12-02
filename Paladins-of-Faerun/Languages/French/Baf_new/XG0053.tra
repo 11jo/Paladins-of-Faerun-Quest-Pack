@@ -1,6 +1,11 @@
-@0 = ~ Everything is here, let the ritual begin! ~
-@1 = ~ Sir Gradak, you were chosen as one of the two leaders of the newly created cult to defend Féérune. Swear that you will protect the cult and all its members. ~
-@2 = ~ I swear. ~
-@3 = ~ Finally, I have the power! And you thought that I would serve you! Now all of Faerín will fall at my feet! (whistle) ~
-@4 = ~ <CHARNAME> we were attacked! Stop Gradak! ~
-@5 = ~ <CHARNAME>, I managed to find out where these soldiers came from. Perhaps in the same place you will find Gradak. You must kill him, or all Faeríón will come to an end. Get ready, now I will transfer you to this place. ~
+@0 = ~Tout le monde est là, que le rituel commence !~
+@1 = ~Sir Gradak, vous avez été désigné comme l'un des deux dirigeants de ce nouveau culte créé pour défendre Féérune. Promettez-vous de protéger cette cette contrée et ses habitants.~
+@2 = ~Sur mon honneur.~
+@3 = ~Enfin.. Le pouvoir ! Et vous qui pensiez que je me contenterais de vous servir !
+À présent, les peuples de Féérune vont tomber sous mon joug ! (sifflement)~
+@4 = ~<CHARNAME> Nous sommes attaqués ! Gradak cessez cette folie !~
+@5 = ~<CHARNAME>, J'ai pu remonter la trace de ces soldats. Il est possible que vous trouviez Gradak au même endroit. Vous devez absolument le retrouver et l’empêcher de nuire, ou Féérune cours à sa perte. Tenez-vous prêts, je vous transporte là bas immédiatement.~
+@6 = ~Gradak ! Ne me tourne pas le dos !~
+@7 = ~Et bien Elwin, je constate que tu as un veritable don pour choisir tes allies !~
+@8 = ~<CHARNAME> !? Je ne comprends pas...~
+@9 = ~Personne n'attaque le Culte sans en subir les conséquences.~

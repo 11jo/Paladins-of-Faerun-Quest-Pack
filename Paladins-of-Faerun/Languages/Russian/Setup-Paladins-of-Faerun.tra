@@ -3380,8 +3380,7 @@ THACO:  +3 бонус
 			
 - 3 к ловкости,
 владелец находится под влиянием заклинания "размытие".
-10% шанс замедлить цель		
-The owner of the blade is blurred
+10% шанс замедлить цель
 			
 THACO:  +2 бонус	
 Урон:  1d6+2	
@@ -3946,6 +3945,10 @@ The wizard points his finger in the desired direction and projects a sphere of n
 @1632 = ~Mind your own business !~
 @1633 = ~We've been informed, you can proceed.~
 @1634 = ~Please report to the liaison officer in the main hall, he's in charge of prisoner transfers.~
+
+// XG0116 Info points
+@1635 = ~It looks like the portal requires some kind of key to be activated.~
+@1636 = ~The passage is open!~
 
 // Messagers
 

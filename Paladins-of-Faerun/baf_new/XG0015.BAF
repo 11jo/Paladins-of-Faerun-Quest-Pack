@@ -1,0 +1,13 @@
+IF
+	OnCreation()
+	Global("EnteredXG0015","XG0015",0)
+THEN
+	RESPONSE #100
+		SetGlobal("EnteredXG0015","XG0015",1)
+		ClearAllActions()
+		StartCutSceneMode()
+		FadeFromColor([20.0],0)
+		Wait(3)
+		UnhideGUI()
+		EndCutSceneMode()
+END

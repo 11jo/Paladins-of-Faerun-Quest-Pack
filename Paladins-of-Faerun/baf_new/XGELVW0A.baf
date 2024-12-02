@@ -1,0 +1,15 @@
+IF
+	See([GOODCUTOFF])
+	AreaCheck("XG0017")
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+END
+
+IF
+	Global("EnteredXG0117","XG0117",1)
+THEN
+	RESPONSE #100
+		EscapeArea()
+END

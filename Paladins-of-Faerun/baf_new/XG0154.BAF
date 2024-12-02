@@ -10,7 +10,7 @@ THEN
     ActionOverride(Player1,MoveToPoint([328.280]))
     Wait(3)
     DisplayStringHead("XGRADAK",@0)  
-    Wait(5)
+    Wait(7)
     DisplayStringHead("XGCELM",@1)  
     Wait(5)
     ActionOverride("XGCELM",ForceSpell("XGRADAK",DRYAD_TELEPORT))
@@ -20,14 +20,14 @@ THEN
 END
 
 IF
-  Global("RevealAR0300","XG0154",0)
+  Global("EnteredXG0154","XG0154",1)
   Dead("XGYARW1")  // ~Градаковский воин~
   Dead("XGYARW2")  // ~Градаковский воин~
   Dead("XGYARW3")  // ~Градаковский воин~
   Dead("XGYARW4")  // ~Градаковский воин~
 THEN
   RESPONSE #100
-    SetGlobal("RevealAR0300","XG0154",1)
+    SetGlobal("EnteredXG0154","XG0154",2)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()

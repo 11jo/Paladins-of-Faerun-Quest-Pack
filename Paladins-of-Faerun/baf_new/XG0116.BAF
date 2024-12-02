@@ -1,0 +1,22 @@
+IF
+	Global("EnteredXG0116","XG0116",0)
+THEN
+	RESPONSE #100
+		SetGlobal("EnteredXG0116","XG0116",1)
+		TriggerActivation("Travel02",FALSE)
+		TriggerActivation("info02",TRUE)
+		ContainerEnable("chest",FALSE)
+END
+
+IF
+	PartyHasItem("XGWRD1")
+	!Global("EnteredXG0116","XG0116",3)
+THEN
+	RESPONSE #100
+		SetGlobal("EnteredXG0116","XG0116",3)
+		TriggerActivation("Travel02",TRUE)
+		TriggerActivation("info02",FALSE)
+END
+
+
+// Maybe adding scripts to soldiers to make the survivors go on the next maps and help or fight

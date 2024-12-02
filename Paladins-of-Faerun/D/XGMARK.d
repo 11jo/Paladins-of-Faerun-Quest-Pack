@@ -17,8 +17,8 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @7
-  IF ~~ THEN REPLY @8 DO ~AddexperienceParty(10000)
+  IF ~~ THEN REPLY @8 DO ~ContainerEnable("chest",TRUE) AddexperienceParty(10000)
 EscapeArea()~ EXIT
-  IF ~~ THEN REPLY @9 DO ~Enemy()
+  IF ~~ THEN REPLY @9 DO ~ContainerEnable("chest",TRUE) Enemy()
 ~ EXIT
 END

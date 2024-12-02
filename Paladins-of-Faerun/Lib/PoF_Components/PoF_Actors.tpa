@@ -431,6 +431,8 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGBSMSN.CRE~      ~override/XGBSM
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGCADEP.CRE~      ~override/XGCADEP.CRE~
   SAY NAME1 @61
   SAY NAME2 @61
+WRITE_ASCII SCRIPT_OVERRIDE ~XGCADEP~
+WRITE_ASCII DEATHVAR ~XGCADEP~
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGCADP1.CRE~      ~override/XGCADP1.CRE~
   SAY NAME1 @61
@@ -493,6 +495,8 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGcdxve.CRE~      ~override/XGcdx
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGCELM.CRE~       ~override/XGCELM.CRE~
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGCG.CRE~         ~override/XGCG.CRE~
+WRITE_ASCII SCRIPT_OVERRIDE ~XGCG~
+WRITE_ASCII DEATHVAR ~XGCG~
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGchf.CRE~        ~override/XGchf.CRE~
   SAY NAME1 @64
@@ -1030,9 +1034,10 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGELG.CRE~        ~override/XGELG
   SAY NAME1 @7 
   SAY NAME2 @8 
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGELIAH.CRE~      ~override/XGELIAH.CRE~       
-  SAY NAME1 @119 
-  SAY NAME2 @119 
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGELIAH.CRE~      ~override/XGELIAH.CRE~
+  SAY NAME1 @119
+  SAY NAME2 @119
+  WRITE_ASCII SCRIPT_OVERRIDE ~XGELVW0~
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGELLAN.CRE~      ~override/XGELLAN.CRE~       
   SAY NAME1 @120 
@@ -1072,17 +1077,22 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGELVGU.CRE~      ~override/XGELV
   SAY NAME1 @126 
   SAY NAME2 @126 
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGELVWC.CRE~      ~override/XGELVWC.CRE~       
-  SAY NAME1 @123 
-  SAY NAME2 @123 
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGELVWC.CRE~      ~override/XGELVWC.CRE~
+  SAY NAME1 @123
+  SAY NAME2 @123
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGELVWD.CRE~      ~override/XGELVWD.CRE~       
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGELVWR.CRE~      ~override/XGELVWR.CRE~       
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGELVWR.CRE~      ~override/XGELVWR.CRE~
+  
+COPY_EXISTING ~XGELVWR.CRE~       ~override/XGELVW0.CRE~
+  WRITE_ASCII 0x280 ~XGELVW0~ (8) // Script name / Death variable
+  WRITE_ASCII SCRIPT_OVERRIDE ~XGELVW0~
+  WRITE_BYTE 0x270 ~128~ // Allegiance
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGELWI1.CRE~        ~override/XGELWI1.CRE~         
-  SAY NAME1 @127 
-  SAY NAME2 @127 
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGELWI1.CRE~        ~override/XGELWI1.CRE~
+  SAY NAME1 @127
+  SAY NAME2 @127
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGELWIN.CRE~      ~override/XGELWIN.CRE~       
   SAY NAME1 @127 
@@ -2680,24 +2690,24 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSLAI1.CRE~       ~override/XGSL
   SAY NAME1 @146 
   SAY NAME2 @146 
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSLAI2.CRE~       ~override/XGSLAI2.CRE~        
-  SAY NAME1 @146 
-  SAY NAME2 @146 
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSLAI2.CRE~       ~override/XGSLAI2.CRE~
+  SAY NAME1 @146
+  SAY NAME2 @146
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSM.CRE~         ~override/XGSM.CRE~          
-  SAY NAME1 @312 
-  SAY NAME2 @299 
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSM.CRE~         ~override/XGSM.CRE~
+  SAY NAME1 @312
+  SAY NAME2 @312
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSNAK.CRE~       ~override/XGSNAK.CRE~        
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSNAK.CRE~       ~override/XGSNAK.CRE~
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSOLAN.CRE~         ~override/XGSOLAN.CRE~          
-  SAY NAME1 @313 
-  SAY NAME2 @313 
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSOLAN.CRE~         ~override/XGSOLAN.CRE~
+  SAY NAME1 @313
+  SAY NAME2 @313
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGsor.CRE~        ~override/XGsor.CRE~         
-  SAY NAME1 @314 
-  SAY NAME2 @314 
-
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGsor.CRE~        ~override/XGsor.CRE~
+  SAY NAME1 @314
+  SAY NAME2 @314
+  
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGsor1.CRE~        ~override/XGsor1.CRE~         
   SAY NAME1 @314 
   SAY NAME2 @314
@@ -2724,24 +2734,36 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSTMAG.CRE~      ~override/XGSTM
   SAY NAME1 @319 
   SAY NAME2 @319 
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSTROL.CRE~      ~override/XGSTROL.CRE~       
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSTROL.CRE~      ~override/XGSTROL.CRE~
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSTRW.CRE~       ~override/XGSTRW.CRE~        
-  SAY NAME1 @320 
-  SAY NAME2 @320 
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSTRW.CRE~       ~override/XGSTRW.CRE~
+  SAY NAME1 @320
+  SAY NAME2 @320
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSTRWZ.CRE~      ~override/XGSTRWZ.CRE~       
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSTRWZ.CRE~      ~override/XGSTRWZ.CRE~
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSUELF.CRE~      ~override/XGSUELF.CRE~       
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSUELF.CRE~      ~override/XGSUELF.CRE~
+  
+COPY_EXISTING ~XGSUELF.CRE~       ~override/XGSUEL0.CRE~
+  WRITE_ASCII 0x280 ~XGSUEL0~ (8) // Script name / Death variable
+  WRITE_ASCII SCRIPT_OVERRIDE ~XGSUEL0~
+  WRITE_BYTE 0x270 ~128~ // Allegiance
+  
+COPY_EXISTING ~XGSUELF.CRE~       ~override/XGELVW0A.CRE~
+  WRITE_ASCII 0x280 ~XGELVW0A~ (8) // Script name / Death variable
+  WRITE_ASCII SCRIPT_OVERRIDE ~XGELVW0A~
+  WRITE_ASCII SCRIPT_DEFAULT ~~
+  WRITE_ASCII DIALOG ~XGELVW0A~
+  WRITE_BYTE 0x270 ~128~ // Allegiance
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSULF.CRE~       ~override/XGSULF.CRE~        
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSULF.CRE~       ~override/XGSULF.CRE~
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGsvkl.CRE~       ~override/XGsvkl.CRE~        
-  SAY NAME1 @321 
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGsvkl.CRE~       ~override/XGsvkl.CRE~
+  SAY NAME1 @321
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGsvk.CRE~        ~override/XGsvk.CRE~         
-  SAY NAME1 @322 
-  SAY NAME2 @322 
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGsvk.CRE~        ~override/XGsvk.CRE~
+  SAY NAME1 @322
+  SAY NAME2 @322
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGSW1.CRE~        ~override/XGSW1.CRE~         
   SAY NAME1 @323 
@@ -3003,8 +3025,12 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGTYRL.CRE~       ~override/XGTYR
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGUBDWI.CRE~      ~override/XGUBDWI.CRE~       
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGUNPAL.CRE~      ~override/XGUNPAL.CRE~       
-  SAY NAME1 @349 
-  SAY NAME2 @349 
+  SAY NAME1 @349
+  SAY NAME2 @349
+  REPLACE_CRE_ITEM ~HELM02~ #0 #0 #0 ~unstealable&undroppable~ ~helmet~
+  REPLACE_CRE_ITEM ~PLAT05~ #0 #0 #0 ~unstealable&undroppable~ ~armor~
+  REPLACE_CRE_ITEM ~SHLD06~ #0 #0 #0 ~unstealable&undroppable~ ~shield~
+  REPLACE_CRE_ITEM ~SW1H02~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGUNWI.CRE~       ~override/XGUNWI.CRE~        
   SAY NAME1 @350 
@@ -3185,8 +3211,8 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARF.CRE~       ~override/XGYAR
   SAY NAME2 @385 
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGyarcl.CRE~        ~override/XGyarcl.CRE~         
-  SAY NAME1 @386 
-  SAY NAME2 @386 
+  SAY NAME1 @386
+  SAY NAME2 @386
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARHM.CRE~       ~override/XGYARHM.CRE~        
   SAY NAME1 @387 
@@ -3196,77 +3222,174 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARPN.CRE~        ~override/XGY
   SAY NAME1 @142 
   SAY NAME2 @142 
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARNM.CRE~       ~override/XGYARNM.CRE~        
-  SAY NAME1 @388 
-  SAY NAME2 @388 
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARNM.CRE~       ~override/XGYARNM.CRE~
+  SAY NAME1 @388
+  SAY NAME2 @388
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARP.CRE~       ~override/XGYARP.CRE~        
-  SAY NAME1 @389 
-  SAY NAME2 @389 
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARP.CRE~       ~override/XGYARP.CRE~
+  SAY NAME1 @389
+  SAY NAME2 @389
+  REPLACE_CRE_ITEM ~SW1H53~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~
+  
+COPY_EXISTING ~XGYARP.CRE~       ~override/XGYARCOM.CRE~        
+  WRITE_ASCII 0x280 ~XGYARCOM~ (8) // Script name / Death variable
+  
+COPY_EXISTING ~XGYARP.CRE~       ~override/XGYARCO1.CRE~        
+  WRITE_ASCII 0x280 ~XGYARCO1~ (8) // Script name / Death variable
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARP1.CRE~      ~override/XGYARP1.CRE~       
   SAY NAME1 @389 
   SAY NAME2 @389 
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARPA.CRE~       ~override/XGYARPA.CRE~        
-  SAY NAME1 @298 
-  SAY NAME2 @298 
-
+  SAY NAME1 @298
+  SAY NAME2 @298
+  REPLACE_CRE_ITEM ~HELM02~ #0 #0 #0 ~unstealable&undroppable~ ~helmet~
+  REPLACE_CRE_ITEM ~PLAT05~ #0 #0 #0 ~unstealable&undroppable~ ~armor~
+  REPLACE_CRE_ITEM ~BOW02~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~
+  REPLACE_CRE_ITEM ~SW1H53~ #0 #0 #0 ~unstealable&undroppable~ ~weapon2~
+  
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARPC.CRE~       ~override/XGYARPC.CRE~        
-  SAY NAME1 @390 
-  SAY NAME2 @390 
+  SAY NAME1 @390
+  SAY NAME2 @390
+  REPLACE_CRE_ITEM ~HELM02~ #0 #0 #0 ~unstealable&undroppable~ ~helmet~
+  REPLACE_CRE_ITEM ~PLAT05~ #0 #0 #0 ~unstealable&undroppable~ ~armor~
+  REPLACE_CRE_ITEM ~SHLD06~ #0 #0 #0 ~unstealable&undroppable~ ~shield~
+  REPLACE_CRE_ITEM ~BLUN05~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARPJ.CRE~       ~override/XGYARPJ.CRE~        
-  SAY NAME1 @391 
-  SAY NAME2 @181 
+  SAY NAME1 @391
+  SAY NAME2 @181
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARPW.CRE~       ~override/XGYARPW.CRE~        
-  SAY NAME1 @392 
-  SAY NAME2 @393 
+  SAY NAME1 @392
+  SAY NAME2 @393
+  REPLACE_CRE_ITEM ~HELM02~ #0 #0 #0 ~unstealable&undroppable~ ~helmet~
+  REPLACE_CRE_ITEM ~PLAT05~ #0 #0 #0 ~unstealable&undroppable~ ~armor~
+  REPLACE_CRE_ITEM ~SHLD06~ #0 #0 #0 ~unstealable&undroppable~ ~shield~
+  REPLACE_CRE_ITEM ~SW1H53~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARW1.CRE~      ~override/XGYARW1.CRE~       
-  SAY NAME1 @392 
-  SAY NAME2 @393 
+  SAY NAME1 @392
+  SAY NAME2 @393
+  REPLACE_CRE_ITEM ~HELM02~ #0 #0 #0 ~unstealable&undroppable~ ~helmet~
+  REPLACE_CRE_ITEM ~PLAT05~ #0 #0 #0 ~unstealable&undroppable~ ~armor~
+  REPLACE_CRE_ITEM ~SHLD06~ #0 #0 #0 ~unstealable&undroppable~ ~shield~
+  REPLACE_CRE_ITEM ~SW1H53~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~
+  
+COPY_EXISTING ~XGYARW1.CRE~       ~override/XGYARP11.CRE~        
+  SAY NAME1 @392
+  SAY NAME2 @393
+  WRITE_ASCII 0x280 ~XGYARP11~ (8) // Script name / Death variable
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARW2.CRE~      ~override/XGYARW2.CRE~       
-  SAY NAME1 @392 
-  SAY NAME2 @393 
+  SAY NAME1 @392
+  SAY NAME2 @393
+  REPLACE_CRE_ITEM ~HELM02~ #0 #0 #0 ~unstealable&undroppable~ ~helmet~
+  REPLACE_CRE_ITEM ~PLAT05~ #0 #0 #0 ~unstealable&undroppable~ ~armor~
+  REPLACE_CRE_ITEM ~SHLD06~ #0 #0 #0 ~unstealable&undroppable~ ~shield~
+  REPLACE_CRE_ITEM ~SW1H53~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~
+  
+COPY_EXISTING ~XGYARW2.CRE~       ~override/XGYARP12.CRE~        
+  SAY NAME1 @392
+  SAY NAME2 @393
+  WRITE_ASCII 0x280 ~XGYARP12~ (8) // Script name / Death variable
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARW3.CRE~      ~override/XGYARW3.CRE~       
-  SAY NAME1 @392 
-  SAY NAME2 @393 
+  SAY NAME1 @392
+  SAY NAME2 @393
+  REPLACE_CRE_ITEM ~HELM02~ #0 #0 #0 ~unstealable&undroppable~ ~helmet~
+  REPLACE_CRE_ITEM ~PLAT05~ #0 #0 #0 ~unstealable&undroppable~ ~armor~
+  REPLACE_CRE_ITEM ~SHLD06~ #0 #0 #0 ~unstealable&undroppable~ ~shield~
+  REPLACE_CRE_ITEM ~SW1H53~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~
+  
+COPY_EXISTING ~XGYARW3.CRE~       ~override/XGYARP13.CRE~        
+  SAY NAME1 @392
+  SAY NAME2 @393
+  WRITE_ASCII 0x280 ~XGYARP13~ (8) // Script name / Death variable
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARW4.CRE~      ~override/XGYARW4.CRE~       
-  SAY NAME1 @392 
-  SAY NAME2 @393 
+  SAY NAME1 @392
+  SAY NAME2 @393
+  REPLACE_CRE_ITEM ~HELM02~ #0 #0 #0 ~unstealable&undroppable~ ~helmet~
+  REPLACE_CRE_ITEM ~PLAT05~ #0 #0 #0 ~unstealable&undroppable~ ~armor~
+  REPLACE_CRE_ITEM ~SHLD06~ #0 #0 #0 ~unstealable&undroppable~ ~shield~
+  REPLACE_CRE_ITEM ~SW1H53~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~
+  
+COPY_EXISTING ~XGYARW4.CRE~       ~override/XGYARP14.CRE~        
+  SAY NAME1 @392
+  SAY NAME2 @393
+  WRITE_ASCII 0x280 ~XGYARP14~ (8) // Script name / Death variable
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARW5.CRE~      ~override/XGYARW5.CRE~       
-  SAY NAME1 @392 
-  SAY NAME2 @393 
+  SAY NAME1 @392
+  SAY NAME2 @393
+  REPLACE_CRE_ITEM ~HELM02~ #0 #0 #0 ~unstealable&undroppable~ ~helmet~
+  REPLACE_CRE_ITEM ~PLAT05~ #0 #0 #0 ~unstealable&undroppable~ ~armor~
+  REPLACE_CRE_ITEM ~SHLD06~ #0 #0 #0 ~unstealable&undroppable~ ~shield~
+  REPLACE_CRE_ITEM ~SW1H53~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARW6.CRE~      ~override/XGYARW6.CRE~       
-  SAY NAME1 @392 
-  SAY NAME2 @393 
+  SAY NAME1 @392
+  SAY NAME2 @393
+  REPLACE_CRE_ITEM ~HELM02~ #0 #0 #0 ~unstealable&undroppable~ ~helmet~
+  REPLACE_CRE_ITEM ~PLAT05~ #0 #0 #0 ~unstealable&undroppable~ ~armor~
+  REPLACE_CRE_ITEM ~SHLD06~ #0 #0 #0 ~unstealable&undroppable~ ~shield~
+  REPLACE_CRE_ITEM ~SW1H53~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~
+  
+COPY_EXISTING ~XGYARPW.CRE~       ~override/XGYARPW7.CRE~        
+  SAY NAME1 @392
+  SAY NAME2 @393
+  WRITE_ASCII 0x280 ~XGYARPW7~ (8) // Script name / Death variable
+  
+COPY_EXISTING ~XGYARPW.CRE~       ~override/XGYARPW8.CRE~        
+  SAY NAME1 @392
+  SAY NAME2 @393
+  WRITE_ASCII 0x280 ~XGYARPW8~ (8) // Script name / Death variable
+  
+COPY_EXISTING ~XGYARPW.CRE~       ~override/XGYARPW9.CRE~        
+  SAY NAME1 @392
+  SAY NAME2 @393
+  WRITE_ASCII 0x280 ~XGYARPW9~ (8) // Script name / Death variable
+  
+COPY_EXISTING ~XGYARPW9.CRE~       ~override/XGYARP10.CRE~        
+  SAY NAME1 @392
+  SAY NAME2 @393
+  WRITE_ASCII 0x280 ~XGYARP10~ (8) // Script name / Death variable
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARPL.CRE~      ~override/XGYARPL.CRE~       
-  SAY NAME1 @394 
-  SAY NAME2 @394 
-  SAY 0xa4 @395 
+  SAY NAME1 @394
+  SAY NAME2 @394
+  SAY 0xa4 @395
+  REPLACE_CRE_ITEM ~HELM08~ #0 #0 #0 ~unstealable&undroppable~ ~helmet~
+  REPLACE_CRE_ITEM ~PLAT02~ #0 #0 #0 ~unstealable&undroppable~ ~armor~
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARPP.CRE~      ~override/XGYARPP.CRE~       
   SAY NAME1 @396 
   SAY NAME2 @396 
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARPS.CRE~       ~override/XGYARPS.CRE~        
-  SAY NAME1 @386 
-  SAY NAME2 @386 
+  SAY NAME1 @386
+  SAY NAME2 @386
+  REPLACE_CRE_ITEM ~BOOT01~ #0 #0 #0 ~unstealable&undroppable~ ~boots~
+  REPLACE_CRE_ITEM ~LEAT12~ #0 #0 #0 ~unstealable&undroppable~ ~armor~
+  REPLACE_CRE_ITEM ~SW1H10~ #0 #0 #0 ~unstealable&undroppable~ ~shield~
+  REPLACE_CRE_ITEM ~SW1H09~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARPO.CRE~       ~override/XGYARPO.CRE~        
-  SAY NAME1 @397 
-  SAY NAME2 @397 
+  SAY NAME1 @397
+  SAY NAME2 @397
+  REPLACE_CRE_ITEM ~BOOT01~ #0 #0 #0 ~unstealable&undroppable~ ~boots~
+  REPLACE_CRE_ITEM ~LEAT12~ #0 #0 #0 ~unstealable&undroppable~ ~armor~
+  REPLACE_CRE_ITEM ~SW1H10~ #0 #0 #0 ~unstealable&undroppable~ ~shield~
+  REPLACE_CRE_ITEM ~SW1H09~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGyarqc.CRE~        ~override/XGyarqc.CRE~         
   SAY NAME1 @389 
   SAY NAME2 @389 
+  REPLACE_CRE_ITEM ~BOOT01~ #0 #0 #0 ~unstealable&undroppable~ ~boots~
+  REPLACE_CRE_ITEM ~LEAT12~ #0 #0 #0 ~unstealable&undroppable~ ~armor~
+  REPLACE_CRE_ITEM ~SW1H10~ #0 #0 #0 ~unstealable&undroppable~ ~shield~
+  REPLACE_CRE_ITEM ~SW1H09~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGz.CRE~          ~override/XGz.CRE~

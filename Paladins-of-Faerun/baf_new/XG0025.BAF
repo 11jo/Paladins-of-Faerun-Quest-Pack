@@ -44,7 +44,7 @@ THEN
     CreateCreature("XGYARPW",[1775.494],0)  // ~Градаковский воин~
     ClearAllActions()
     Wait(8)
-    CreateCreature("XGYARP",[497.993],0)  // ~Командир Градакова~
+    CreateCreature("XGYARCOM",[497.993],0)  // ~Командир Градакова~
     ClearAllActions()
     Wait(4)
     CreateCreature("XGDWA",[1740.962],0)  // ~Гном воин~
@@ -70,7 +70,7 @@ END
 
 IF
   Global("RevealAreaXG0025","XG0025",0)
-  Dead("XGYARP")  // ~Командир Градакова~
+  Dead("XGYARCOM")  // ~Командир Градакова~
 THEN
   RESPONSE #100
     SetGlobal("RevealAreaXG0025","XG0025",1)

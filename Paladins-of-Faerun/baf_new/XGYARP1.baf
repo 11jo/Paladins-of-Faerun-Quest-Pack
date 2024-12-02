@@ -1,0 +1,17 @@
+IF
+	Global("XGYARP1Fight","GLOBAL",0)
+	!Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+		Wait(1)
+		ChangeEnemyAlly(Myself,NEUTRAL)
+END
+
+IF
+	Global("XGYARP1Fight","GLOBAL",1)
+	!Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+		Wait(1)
+		ChangeEnemyAlly(Myself,ENEMY)
+END

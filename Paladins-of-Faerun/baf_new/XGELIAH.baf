@@ -1,0 +1,6 @@
+IF
+	Global("EnteredXG0017","XG0017",1)
+THEN
+	RESPONSE #100
+		EscapeArea()
+END

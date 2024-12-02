@@ -13,5 +13,6 @@ END
 IF ~~ THEN BEGIN 2
   SAY @5
   IF ~~ THEN REPLY @7 DO ~AddJournalEntry(@51221,QUEST)
+SetGlobal("XGYARP1Fight","GLOBAL",1)
 EscapeArea()~ EXIT
 END
