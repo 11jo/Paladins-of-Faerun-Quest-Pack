@@ -9,11 +9,11 @@ THEN
     ActionOverride(Player1,MoveToPoint([439.561]))
     Wait(2)
     DisplayStringHead("XGCELM",@0)  
-    Wait(8)
+    Wait(7)
     DisplayStringHead(Player1,@1)  
     Wait(8)
     DisplayStringHead("XGCELM",@2)  
-    Wait(8)
+    Wait(7)
     UnhideGUI()
     EndCutSceneMode()
 END

@@ -226,10 +226,10 @@
 @219 = ~Seigneur Wistler~
 @220 = ~Magicien du Conseil~
 @221 = ~Marchand de de bric et de broque magique~
-@222 = ~Marko le voleur~
+@222 = ~Marco le voleur~
 @223 = ~Marian~
 @224 = ~Mario~
-@225 = ~Marko~
+@225 = ~Marko~ // Gradak herault
 @226 = ~Mario le voleur~
 @227 = ~Seigneur Madslave~ // Seigneur des esclaves  // Seigneur fou de l'esclavage
 @228 = ~Aluatra~
@@ -4391,6 +4391,11 @@ Le magicien pointe son doigt dans la direction désirée et projette une sphère d'
 // XG0116 Info points
 @1635 = ~Il semble que le portail nécessite une sorte de clé pour être activé.~
 @1636 = ~Le passage est ouvert !~
+
+// XG0702 Witch Pal
+@1637 = ~Des gnons, pas des mots !~ // Swords, not words!
+@1638 = ~Je me dresse pour ma sorcière !~ // Stand back for justice!
+@1639 = ~What ?~
 
 // Messagers
 

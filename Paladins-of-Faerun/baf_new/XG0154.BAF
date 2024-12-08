@@ -3,6 +3,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("EnteredXG0154","XG0154",1)
+	ClearAllActions()
     StartCutSceneMode()
     HideGUI()
     Explore()
@@ -10,11 +11,12 @@ THEN
     ActionOverride(Player1,MoveToPoint([328.280]))
     Wait(3)
     DisplayStringHead("XGRADAK",@0)  
-    Wait(7)
+    Wait(8)
     DisplayStringHead("XGCELM",@1)  
     Wait(5)
     ActionOverride("XGCELM",ForceSpell("XGRADAK",DRYAD_TELEPORT))
     ActionOverride("XGCELM",ForceSpell("XGCELM",DRYAD_TELEPORT))
+    Wait(2)
     UnhideGUI()
     EndCutSceneMode()
 END

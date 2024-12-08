@@ -194,8 +194,9 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0017.ARE~			~override/XG0017.ARE
 		LPF ALTER_AREA_DOOR
 			INT_VAR
 			flag_no_close  = 0
+			trapped = 1
 			STR_VAR
-			door_script =  
+			door_script = XGDOOR17
 			door_name = Door0001
 		END
 	ADD_MAP_NOTE #1448 #3453 ~red~ @1005

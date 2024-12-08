@@ -1,0 +1,24 @@
+IF
+	See([GOODCUTOFF])
+	AreaCheck("XG0702")
+	Global("XGPALW_MINSCJ","XG0702",0)
+THEN
+	RESPONSE #100
+		SetGlobal("XGPALW_MINSCJ","XG0702",1)
+		Wait(1)
+		StartDialogueNoSet([PC])
+END
+
+IF
+	See([GOODCUTOFF])
+	HPPercentLT(Myself,50)
+	Global("XGPALW_Low","LOCALS",0)
+THEN
+	RESPONSE #100
+		Wait(1)
+		DisplayStringHead("XGPALW",@1638) 
+		Wait(1)
+		SetGlobal("XGPALW_Low","LOCALS",1)
+		ApplySpell(Myself,INVOKE_COURAGE)
+		ApplySpell(Myself,CLERIC_REMOVE_FEAR)
+END

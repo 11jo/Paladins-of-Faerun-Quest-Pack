@@ -28,7 +28,7 @@ THEN
     ActionOverride(Player6,Face(0))
     MoveViewPoint([2383.1699],INSTANT)
     FadeFromColor([20.0],0)
-    Wait(5)
+    Wait(2)
     ClearAllActions()
     PlaySound("XGMUS1")
     Wait(3)
@@ -40,7 +40,7 @@ THEN
     Wait(7)
     CreateCreature("XGELWIN",[2235.2136],8)  // ~Элвин~
     ActionOverride("XGELWIN",MoveToPoint([2298.1816]))
-    Wait(6)
+    Wait(4)
     ActionOverride("XGCOW3",Face(0))
     DisplayString("XGCOW3",@3)  // @3
     Wait(3)
@@ -83,7 +83,7 @@ THEN
     ActionOverride("XGCOW",MoveToPoint([2293.1754]))
     Wait(3)
     ActionOverride("XGELWIN",ForceSpell("XGCOW2",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
-    DisplayString("XGELWIN",@7)  // @7
+    DisplayString("XGELWIN",@10)  // @7
     Wait(1)
     ActionOverride(Player1,MoveToPoint([1875.2359]))
     Wait(3)
@@ -92,7 +92,8 @@ THEN
     ActionOverride("XGCOW",ForceSpell("XGELWIN",DRYAD_TELEPORT))
     Wait(2)
     ForceSpell("XGCOW",DRYAD_TELEPORT)
-    MoveViewPoint([1875.2359],FAST)
+    MoveViewPoint([1875.2359],VERY_FAST)
+    Wait(3)
 	ActionOverride("XGNEAN28",DestroySelf())
     UnhideGUI()
     EndCutSceneMode()

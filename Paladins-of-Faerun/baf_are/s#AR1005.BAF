@@ -6,8 +6,9 @@ THEN
 		SetGlobal("EnteredAreaAR1005","AR1005",1)
 		ClearAllActions()
 		StartCutSceneMode()
+		FadeFromColor([20.0],0)
 		Explore()
-		Wait(2)
+		Wait(3)
 		CreateCreature("XGELWIN",[904.521],0)  // ~Элвин~
 		OpenDoor("DOOR05")
 		Wait(1)
@@ -16,9 +17,9 @@ THEN
 		OpenDoor("DOOR04")
 		Wait(1)
 		DisplayString("XGELWIN",@0)  // @0
-		Wait(4)
+		Wait(5)
 		DisplayStringHead(Player1,@1)  // @1
-		Wait(2)
+		Wait(3)
 		OpenDoor("DOOR03")
 		OpenDoor("DOOR06")
 		OpenDoor("DOOR11")
@@ -27,6 +28,7 @@ THEN
 		DisplayString("XGELWIN",@2)  // @2
 		Wait(4)
 		ActionOverride("XGELWIN",EscapeArea())
+		UnhideGUI()
 		EndCutSceneMode()
 		Continue()
 END
@@ -37,7 +39,7 @@ IF
 	Global("XGMARKinJail","AR1005",0)
 THEN
 	RESPONSE #100
-		CreateCreature("XGMARK1",[521.752],10)  // ~Marco le voleur en prison
+		CreateCreature("XGMAR1",[521.752],10)  // ~Marco le voleur en prison
 		CreateCreature("XGPRISON",[778.597],0)  // ~Agent de liaison
 		AddMapNote([521.752],~Cellule de Marco.~)
 		SetGlobal("XGMARKinJail","AR1005",1)

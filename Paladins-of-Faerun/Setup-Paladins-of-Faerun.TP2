@@ -429,6 +429,13 @@ COPY_EXISTING ~AR1005.ARE~		~override~
 
 	END
 
+// Animations for Paladin of Faerun
+	ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+
+		INCLUDE ~Paladins-of-Faerun/Lib/PoF_Components/PoF_Animation.tph~				
+
+	END
+
 
  // Add script and DLG for creature already on area 
 COPY_EXISTING	~XG0401.are~	~override~
@@ -501,6 +508,16 @@ COPY_EXISTING	~XG0017.are~	~override~
 		STR_VAR 
 		actor_name = "XGYARP" 
 		cre_file = "XGYARCO1"
+	END
+	
+// Add Script for Witch Pal  XG0702
+COPY_EXISTING	~XG0702.are~	~override~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR
+		actor_name = "XGPALW"
+		cre_file = "XGPALW"
+		script_override = "XGPALW"
+		dlg_file = "XGPALW"
 	END
 
 

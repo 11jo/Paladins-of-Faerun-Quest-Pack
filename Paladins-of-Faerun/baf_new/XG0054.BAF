@@ -8,7 +8,6 @@ THEN
 		CreateCreature("XGelms",[3180.800],11)  // ~Элминстер~
 		FadeFromColor([20.0],0)
 		Wait(3)
-		HideGUI()
 		SetGlobal("EnteredXG0054","XG0054",1)
 		DisplayStringHead("XGelms",@0)  
 		Wait(6)
