@@ -1,0 +1,8 @@
+IF
+	Global("XG0511_talk1","XG0511",1)
+	AreaCheck("XG0511")
+THEN
+  RESPONSE #100
+		StartDialogue("XGHC",Player1)
+END
+

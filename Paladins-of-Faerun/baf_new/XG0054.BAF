@@ -10,8 +10,9 @@ THEN
 		Wait(3)
 		SetGlobal("EnteredXG0054","XG0054",1)
 		DisplayStringHead("XGelms",@0)  
-		Wait(6)
+		Wait(4)
 		ActionOverride("XGelms",ForceSpell("XGelms",DRYAD_TELEPORT))
+		Wait(3)
 		UnhideGUI()
 		EndCutSceneMode()
 END

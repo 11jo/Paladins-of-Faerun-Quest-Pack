@@ -1,6 +1,6 @@
 BEGIN ~XGHC~
 
-IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+IF ~Global("XG0511_talk1","XG0511",4)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
 END
@@ -12,8 +12,27 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @5
-  IF ~~ THEN REPLY @6 DO ~Enemy()
+  IF ~~ THEN REPLY @6 DO ~
+SetGlobal("XG0511_talk1","XG0511",5)
 CreateCreature("XGYARPW",[845.1038],0)
 CreateCreature("XGYARPW",[956.1097],0)
+Enemy()
 ~ EXIT
 END
+
+CHAIN IF ~Global("XG0511_talk1","XG0511",1)~ THEN XGHC talk1
+@7 
+DO ~SetGlobal("XG0511_talk1","XG0511",2)~
+== XGELWI1 @8
+== XGELM1 @9
+== XGHC @10
+== XGELWI1 @11
+== XGHC @12
+== XGELM1 @13
+== XGYARPN @14
+== XGELM1 @15
+== XGHC @16
+== XGELM1 @17
+== XGYARPN @18
+EXIT
+

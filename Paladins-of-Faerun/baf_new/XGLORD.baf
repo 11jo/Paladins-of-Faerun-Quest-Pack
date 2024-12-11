@@ -1,0 +1,7 @@
+IF
+	Global("XGLORD_POP","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("XGLORD_POP","GLOBAL",2)
+	StartDialogue("XGLORD",Player1)
+END

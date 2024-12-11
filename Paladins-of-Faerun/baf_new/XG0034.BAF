@@ -1,6 +1,21 @@
 IF
+	Global("XG0256_XG0034","XG0034",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		FadeFromColor([50.0],0)
+		Wait(3)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("XG0256_XG0034","XG0034",1)
+END
+
+IF
 	Global("RevealAreaXG0034","XG0034",0)
-	Dead("XGgghc")  // Хранитель врат
+	OR(2)
+		!InMyArea("XGgghc")
+		Dead("XGgghc")
 THEN
 	RESPONSE #100
 		SetGlobal("RevealAreaXG0034","XG0034",1)
@@ -8,7 +23,8 @@ END
 
 IF
 	Global("RevealAreaXG0034","XG0034",1)
-	Dead("XGHC")  // Архимаг
+	Dead("XGHC")
+	InMyArea(Player1)
 THEN
 	RESPONSE #100
 		SetGlobal("RevealAreaXG0034","XG0034",2)
@@ -23,14 +39,14 @@ THEN
 		ActionOverride(Player4,MoveToPoint([658.451]))
 		ActionOverride(Player5,MoveToPoint([694.372]))
 		ActionOverride(Player6,MoveToPoint([799.351]))
-		MoveViewPoint([741.500],SLOW)
+		MoveViewPoint([741.500],FAST)
 		Wait(2)
-		CreateCreature("XGARTEN",[859.613],6)  // Артемис Энтрери
-		CreateCreature("XGthef1",[900.643],6)  // Воришка
-		CreateCreature("XGthef2",[830.665],6)  // Воришка
-		CreateCreature("XGthef3",[887.702],6)  // Воришка
-		CreateCreature("XGthef4",[867.733],6)  // Воришка
-		Wait(6)
+		CreateCreature("XGARTEN",[859.613],6)
+		CreateCreature("XGthef1",[900.643],6)
+		CreateCreature("XGthef2",[830.665],6)
+		CreateCreature("XGthef3",[887.702],6)
+		CreateCreature("XGthef4",[867.733],6)
+		Wait(3)
 		DisplayStringHead("XGARTEN",@0)  // Are you again? Isn't that what happened at Askatle for you?
 		Wait(6)
 		DisplayStringHead(Player1,@1)  // Who are you? And what are you doing here?
@@ -38,11 +54,12 @@ THEN
 		DisplayStringHead("XGARTEN",@2)  // Well, let's get to know you, I'm Artemis Entreri. I heard that you were arrested at Askatla, don't take it to heart, but now go away or die.
 		Wait(7)
 		ActionOverride("XGARTEN",Attack(Player1))
-		ActionOverride(Player1,Attack("XGARTEN"))  // Артемис Энтрери
-		Wait(15)
+		ActionOverride(Player1,Attack("XGARTEN"))
+		Wait(6)
 		ClearAllActions()
 		DisplayStringHead("XGARTEN",@3)  // I don't have time for this, do it!
-		Wait(6)
+		Wait(3)
+		ActionOverride("XGARTEN",Hide())
 		ActionOverride("XGARTEN",EscapeArea())
 		ActionOverride("XGthef1",Enemy())
 		ActionOverride("XGthef2",Enemy())
@@ -55,10 +72,11 @@ END
 
 IF
 	Global("RevealAreaXG0034","XG0034",2)
-	Dead("XGthef1")  // Воришка
-	Dead("XGthef2")  // Воришка
-	Dead("XGthef3")  // Воришка
-	Dead("XGthef4")  // Воришка
+	Dead("XGthef1")
+	Dead("XGthef2")
+	Dead("XGthef3")
+	Dead("XGthef4")
+	InMyArea(Player2)
 THEN
 	RESPONSE #100
 		SetGlobal("RevealAreaXG0034","XG0034",3)
@@ -69,6 +87,7 @@ THEN
 		Wait(5)
 		RevealAreaOnMap("%NBaldursGate%")
 		SetGlobal("XGPoFinBG","GLOBAL",1)
+		FadeToColor([50.0],0)
 		Wait(2)
 		ActionOverride(Player2,LeaveAreaLUA("%NBaldursGate%","",[3782.3065],8))
 		ActionOverride(Player1,LeaveAreaLUA("%NBaldursGate%","",[3818.3026],8))
@@ -78,4 +97,70 @@ THEN
 		ActionOverride(Player6,LeaveAreaLUA("%NBaldursGate%","",[3707.3156],8))
 		EndCutSceneMode()
 END
+
+IF
+	Global("RevealAreaXG0034","XG0034",2)
+	Dead("XGthef1")
+	Dead("XGthef2")
+	Dead("XGthef3")
+	Dead("XGthef4")
+	!InMyArea(Player2)
+	!Dead("XGgghc")
+THEN
+	RESPONSE #100
+		SetGlobal("RevealAreaXG0034","XG0034",3)
+		ClearAllActions()
+		StartCutSceneMode()
+		CreateCreature("XGgghc",[689.234],0)
+		MoveToObjectNoInterrupt(Player1)
+		Wait(2)
+		DisplayStringHead("XGgghc",@5)  // <CHARNAME>! We must follow him, he ran there.
+		Wait(5)
+		RevealAreaOnMap("%NBaldursGate%")
+		SetGlobal("XGPoFinBG","GLOBAL",1)
+		FadeToColor([50.0],0)
+		Wait(2)
+		ActionOverride(Player2,LeaveAreaLUA("%NBaldursGate%","",[3782.3065],8))
+		ActionOverride(Player1,LeaveAreaLUA("%NBaldursGate%","",[3818.3026],8))
+		ActionOverride(Player3,LeaveAreaLUA("%NBaldursGate%","",[3877.3112],8))
+		ActionOverride(Player4,LeaveAreaLUA("%NBaldursGate%","",[3802.3159],8))
+		ActionOverride(Player5,LeaveAreaLUA("%NBaldursGate%","",[3660.3114],8))
+		ActionOverride(Player6,LeaveAreaLUA("%NBaldursGate%","",[3707.3156],8))
+		EndCutSceneMode()
+END
+		
+
+IF
+	Global("RevealAreaXG0034","XG0034",2)
+	Dead("XGthef1")
+	Dead("XGthef2")
+	Dead("XGthef3")
+	Dead("XGthef4")
+	!InMyArea(Player2)
+	Dead("XGgghc")
+THEN
+	RESPONSE #100
+		SetGlobal("RevealAreaXG0034","XG0034",3)
+		ClearAllActions()
+		StartCutSceneMode()
+		Wait(2)
+		DisplayStringHead(Player1,@6)  // <CHARNAME>! We must follow him, he ran there.
+		Wait(5)
+		RevealAreaOnMap("%NBaldursGate%")
+		SetGlobal("XGPoFinBG","GLOBAL",1)
+		FadeToColor([50.0],0)
+		Wait(2)
+		ActionOverride(Player2,LeaveAreaLUA("%NBaldursGate%","",[3782.3065],8))
+		ActionOverride(Player1,LeaveAreaLUA("%NBaldursGate%","",[3818.3026],8))
+		ActionOverride(Player3,LeaveAreaLUA("%NBaldursGate%","",[3877.3112],8))
+		ActionOverride(Player4,LeaveAreaLUA("%NBaldursGate%","",[3802.3159],8))
+		ActionOverride(Player5,LeaveAreaLUA("%NBaldursGate%","",[3660.3114],8))
+		ActionOverride(Player6,LeaveAreaLUA("%NBaldursGate%","",[3707.3156],8))
+		EndCutSceneMode()
+END
+
+
+
+
+
 

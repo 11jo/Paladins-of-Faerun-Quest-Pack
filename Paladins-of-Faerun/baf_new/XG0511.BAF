@@ -8,11 +8,13 @@ THEN
     StartCutSceneMode()
     HideGUI()
     PlaySound("XGMUS2")
-    CreateCreature("XGHC",[673.1303],10)  // ~Архимаг~
-    CreateCreature("XGELM",[825.1243],2)  // ~Элминстер~
-    CreateCreature("XGYARPN",[693.1139],0)  // ~Градак~
+    CreateCreature("XGHC",[673.1303],10)
+    CreateCreature("XGELM",[825.1243],2)
+    ActionOverride("XGELM",SetDialogue("XGELM1"))
+    CreateCreature("XGYARPN",[693.1139],0)
+    ActionOverride(Player1,FaceObject("XGELWIN"))
     Wait(2)
-    DisplayString("XGELWIN",@0)  // @0
+    DisplayString("XGELWIN",@0)
     Wait(3)
     ActionOverride("XGELWIN",ForceSpell(Player2,DRYAD_TELEPORT))
     ActionOverride("XGELWIN",ForceSpell(Player1,DRYAD_TELEPORT))
@@ -21,56 +23,56 @@ THEN
     ActionOverride("XGELWIN",ForceSpell(Player5,DRYAD_TELEPORT))
     ActionOverride("XGELWIN",ForceSpell(Player6,DRYAD_TELEPORT))
     ActionOverride("XGELWIN",ForceSpell("XGELWIN",DRYAD_TELEPORT))
-    CreateCreature("XGELWI1",[852.1147],2)  // ~Элвин~
+    CreateCreature("XGELWI1",[852.1147],2)
     Wait(1)
-    ActionOverride(Player2,LeaveAreaLUA("XG0511","",[772.1013],2))
+    ActionOverride(Player5,LeaveAreaLUA("XG0511","",[772.1013],2))
     ActionOverride(Player1,LeaveAreaLUA("XG0511","",[873.1086],2))
-    ActionOverride(Player3,LeaveAreaLUA("XG0511","",[826.1050],2))
-    ActionOverride(Player4,LeaveAreaLUA("XG0511","",[914.1116],2))
-    ActionOverride(Player5,LeaveAreaLUA("XG0511","",[976.1162],2))
+    ActionOverride(Player4,LeaveAreaLUA("XG0511","",[826.1050],2))
+    ActionOverride(Player3,LeaveAreaLUA("XG0511","",[914.1116],2))
+    ActionOverride(Player2,LeaveAreaLUA("XG0511","",[976.1162],2))
     ActionOverride(Player6,LeaveAreaLUA("XG0511","",[728.1002],2))
+    SetGlobal("XG0511_talk1","XG0511",1)
     Wait(4)
-    DisplayString("XGHC",@1)  // @1
-    Wait(10)
-    DisplayString("XGELWI1",@2)  // @2
-    Wait(10)
-    DisplayString("XGELM",@3)  // @3
-    Wait(10)
-    DisplayString("XGHC",@4)  // @4
-    Wait(10)
-    DisplayString("XGELWI1",@5)  // @5
-    Wait(6)
-    DisplayString("XGHC",@6)  // @6
-    Wait(10)
-    DisplayString("XGELM",@7)  // @7
-    Wait(10)
-    DisplayString("XGYARPN",@8)  // @8
-    Wait(10)
-    DisplayString("XGELM",@9)  // @9
-    Wait(10)
-    DisplayString("XGHC",@10)  // @10
-    Wait(10)
-    DisplayString("XGELM",@11)  // @11
-    Wait(10)
-    DisplayString("XGYARPN",@12)  // @12
-    Wait(8)
+    UnhideGUI()
+    EndCutSceneMode()
+	Continue()
+END
+
+IF
+  Global("XG0511_talk1","XG0511",2)
+THEN
+  RESPONSE #100
+	SetGlobal("XG0511_talk1","XG0511",3)
+    ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
+    Wait(2)
     ForceSpell("XGYARPN",DRYAD_TELEPORT)
     Wait(3)
-    DisplayString("XGHC",@13)  // @13
+    DisplayString("XGHC",@13)
     Wait(8)
-    DisplayString("XGELM",@14)  // @14
+    DisplayString("XGELM",@14)
     Wait(6)
     ForceSpell("XGELM",DRYAD_TELEPORT)
     ForceSpell("XGELWI1",DRYAD_TELEPORT)
     Wait(3)
-    ActionOverride("XGHC",StartDialogue("XGHC",Player1))
     UnhideGUI()
     EndCutSceneMode()
+	Continue()
+END
+
+IF
+  Global("XG0511_talk1","XG0511",3)
+THEN
+  RESPONSE #100
+	SetGlobal("XG0511_talk1","XG0511",4)
+    Wait(1)
+    ActionOverride("XGHC",StartDialogue("XGHC",Player1))
 END
 
 IF
   Global("RevealArea","XG0511",0)
-  Dead("XGHC")  // ~Архимаг~
+  Dead("XGHC")
 THEN
   RESPONSE #100
     SetGlobal("RevealArea","XG0511",1)
@@ -78,7 +80,8 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(2)
-    CreateCreature("XGFALCO",[825.1243],0)  // ~Графалкон~
+    CreateCreature("XGFALCO",[13564.1148],0)
+    ActionOverride("XGFALCO",MoveToPointNoInterrupt([825.1243]))
     ActionOverride("XGFALCO",StartDialogue("XGFALC2",Player1))
     UnhideGUI()
     EndCutSceneMode()

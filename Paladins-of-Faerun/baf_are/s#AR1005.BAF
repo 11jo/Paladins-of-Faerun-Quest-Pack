@@ -27,6 +27,9 @@ THEN
 		OpenDoor("SECRET03")
 		DisplayString("XGELWIN",@2)  // @2
 		Wait(4)
+		ActionOverride("XGELWIN",MoveToPointNoInterrupt([865.601]))
+		ActionOverride("XGELWIN",OpenDoor("Door07"))
+		Wait(1)
 		ActionOverride("XGELWIN",EscapeArea())
 		UnhideGUI()
 		EndCutSceneMode()

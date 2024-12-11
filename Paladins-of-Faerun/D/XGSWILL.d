@@ -13,5 +13,11 @@ END
 IF ~~ THEN BEGIN 2
   SAY @5
   IF ~~ THEN DO ~SetNumTimesTalkedTo(1)
-~ UNSOLVED_JOURNAL @6 EXIT
+SetGlobal("XG0302_Open","GLOBAL",1)
+AddJournalEntry(@51901,QUEST)~ EXIT
+END
+
+IF ~NumTimesTalkedTo(1)~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN EXIT
 END

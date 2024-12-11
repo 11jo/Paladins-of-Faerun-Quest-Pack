@@ -1,4 +1,19 @@
 IF
+	Global("XG0034_XG0020","MYAREA",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		AdvanceTime(ONE_DAY)
+		FadeFromColor([50.0],0)
+		Wait(3)
+		DisplayStringHead(Player1,@0)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("XG0034_XG0020","MYAREA",1)
+END
+
+IF
 	Global("XGJOPEAS","GLOBAL",0)
 	Global("NEWGAME_SOA","GLOBAL",1)
 	Global("XGPoFinBG","GLOBAL",1)
@@ -18,18 +33,18 @@ END
 IF
 	!Global("NEWGAME_SOA","GLOBAL",1)
 	Global("Reveal0020","MYAREA",0)
-	PartyHasItem("XGZAT2")  // ~Îנהונ םא אנוסע~
+	PartyHasItem("XGZAT2")
 	AreaCheck("%NBaldursGate%")
 THEN
   RESPONSE #100
     SetGlobal("Reveal0020","MYAREA",1)
     StartCutSceneMode()
     HideGUI()
-    CreateCreature("XGASSBG",[3390.1570],8)  // ~Óבטיצא~
-    CreateCreature("XGASSBG",[3524.1624],8)  // ~Óבטיצא~
-    CreateCreature("XGASSBG",[3639.1627],8)  // ~Óבטיצא~
+    CreateCreature("XGASSBG",[3390.1570],8)
+    CreateCreature("XGASSBG",[3524.1624],8)
+    CreateCreature("XGASSBG",[3639.1627],8)
     TakePartyItem("XGZAT2")
-    GiveItemCreate("XGZAT3",Player1,0,0,0)  // ~Îנהונ םא אנוסע~
+    GiveItemCreate("XGZAT3",Player1,0,0,0)
     UnhideGUI()
     EndCutSceneMode()
 END
@@ -54,6 +69,26 @@ THEN
 		CreateCreature("tanadv03",[3195.1065],0)  // Aventurier
 		SetGlobal("XGPoFXGMIL","MYAREA",1)
 		Continue()
+END
+
+IF
+	Global("XGBGFL00","MYAREA",0)
+	RandomNum(2,1)
+	!Global("NEWGAME_SOA","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("XGBGFL00","MYAREA",1)
+		CreateCreatureObject("XGFLAM12",Player1,0,0,0)
+END
+
+IF
+	Global("XGBGFL00","MYAREA",0)
+	RandomNum(2,2)
+	!Global("NEWGAME_SOA","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("XGBGFL00","MYAREA",1)
+		CreateCreatureObject("XGFLAF12",Player1,0,0,0)
 END
 
 /*

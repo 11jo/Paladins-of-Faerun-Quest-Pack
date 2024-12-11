@@ -16,3 +16,9 @@ IF ~~ THEN BEGIN 2
 GiveItemCreate("XGZAT4",Player1,0,0,0)
 AddJournalEntry(@51504,QUEST)~ EXIT
 END
+
+IF ~!PartyHasItem("XGZAT3")~ THEN BEGIN 4
+  SAY #29945
+  IF ~~ THEN EXIT
+END
+

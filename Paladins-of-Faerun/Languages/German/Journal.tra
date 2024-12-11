@@ -927,6 +927,50 @@ Ich habe sowohl die Monster als auch den Anführer der Grauen gefunden und getöte
 Ich habe das Wäldchen von den Zwergen befreit.~ // @2
 
 
+//////////////////////    The stolen. .
+// Title
+
+@51900 = ~Entführung~ // The stolen
+
+
+@51901 = ~Entführung
+
+Ich habe in der Höhle des verdammten Waldes einen Krieger getroffen, der behauptet, er sei aus einem Kerker im Wald geflohen, und seine Freunde seien von dunklen Kreaturen entführt worden. Es ist an der Zeit, die Quelle der Finsternis zu finden, sie muss irgendwo unter der Erde liegen.~
+
+
+@51902 = ~Entführung
+
+Nachdem die Kreaturen gestorben sind, fand ich Sir Williams Freunde, sie gingen alle zu ihm.~
+
+//////////////////////    Turlan forest. .
+// Title
+
+@52000 = ~Turlan-Wald~ // Turlan forest
+
+
+@52001 = ~Turlan-Wald
+
+Ein Elf namens Eladriel hat mir von einem geheimnisvollen Wald in der Nähe von Niewinter erzählt. Er möchte, dass ich die Quelle des dunklen Nebels finde, der den Wald einhüllt.~
+
+@52002 = ~Turlan-Wald
+
+Eladriel war erfreut und gab mir sein Schwert.~
+
+@52003 = ~Turlan-Wald
+
+Im Verlies des Waldes fand ich den Herrn der Untoten, der einen magischen Nebel um den Wald legte, der dunklen Kreaturen Kraft verlieh und normale Menschen schwächte, die alle zu Werwölfen, Vampiren und Geistern verwandelt wurden. Ich habe ihn zerstört und den Wald gerettet, ich muss zurück zu Eladriel, um eine Belohnung zu bekommenum meine Belohnung zu erhalten.~
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

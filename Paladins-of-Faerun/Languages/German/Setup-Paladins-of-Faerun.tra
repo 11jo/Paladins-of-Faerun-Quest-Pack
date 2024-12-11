@@ -186,9 +186,7 @@
 @184 = ~Kelroth~
 @185 = ~Priest of the Brotherhood~
 @186 = ~Statue~
-
-
-
+@187 = ~Lower level~
 @188 = ~Kelben "Rabenumhang" Arunsan~
 @189 = ~Kelben Arunsan~
 @190 = ~Kronprinz~
@@ -231,7 +229,7 @@
 @227 = ~Lord Madslave~
 @228 = ~Aluatra~
 @229 = ~Major in der Armee von Calimport~
-
+@230 = ~Myconide Mercenaire~
 @231 = ~Söldner~
 @232 = ~Wandernde Dolche~
 @233 = ~Magierschlächter~
@@ -384,8 +382,8 @@
 @380 = ~Hauptmann Boris~
 @381 = ~Wache von Tiefwasser~
 @382 = ~Magierhändler~
-
-
+@383 = ~Flaming Fist Gareth~
+@384 = ~Flaming Fist Mona~
 @385 = ~Gradaks Priester~
 @386 = ~Kommandant der Pfadfinder~
 @387 = ~Gradaks Erzmagier~
@@ -4125,6 +4123,11 @@ The wizard points his finger in the desired direction and projects a sphere of n
 @1637 = ~Swords, not words!~ // 
 @1638 = ~Stand back for my witch!~ // 
 @1639 = ~What ?~
+@1640 = ~You can't distinguish anything in the dark.~
+
+// XG0302 Turlang crypte
+@1641 = ~Secret key~
+@1642 = ~Found among the remains of the Lord of the Undead, this key probably opens a door to this underground complex.~
 
 
 // Messagers

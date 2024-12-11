@@ -187,9 +187,7 @@
 @184  = ~Келрот~
 @185 = ~Priest of the Brotherhood~
 @186 = ~Statue~
-
-
-
+@187 = ~Lower level~
 @188  = ~Келбен "Плащ ворона" Арунсан~
 @189  = ~Келбен Арунсан~
 @190  = ~Принц наследник~
@@ -232,7 +230,7 @@
 @227  = ~Lord Madslave~
 @228  = ~Алуатра~
 @229  = ~Майор армии Калимпора~
-
+@230 = ~Myconide Mercenaire~
 @231  = ~Наемник~
 @232  = ~Бродячие кинжалы~
 @233  = ~Убийца магов~
@@ -385,8 +383,8 @@
 @380  = ~Капитан Борис~
 @381  = ~Стражник Глубоководья~
 @382  = ~Маг торговец~
-
-
+@383 = ~Flaming Fist Gareth~
+@384 = ~Flaming Fist Mona~
 @385  = ~Жрец Градака~
 @386  = ~Командир разведчиков~
 @387  = ~Архимаг Градака~
@@ -3954,6 +3952,11 @@ The wizard points his finger in the desired direction and projects a sphere of n
 @1637 = ~Swords, not words!~ // 
 @1638 = ~Stand back for my witch!~ // 
 @1639 = ~What ?~
+@1640 = ~You can't distinguish anything in the dark.~
+
+// XG0302 Turlang crypte
+@1641 = ~Secret key~
+@1642 = ~Found among the remains of the Lord of the Undead, this key probably opens a door to this underground complex.~
 
 // Messagers
 

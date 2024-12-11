@@ -1,6 +1,13 @@
 BEGIN ~XGBG1~ 4
 
-IF ~True() !NumTimesTalkedTo(0)~ THEN BEGIN 0
+IF ~True() 
+	!PartyHasItem("XGZAT")
+	!PartyHasItem("XGZAT1")
+	!PartyHasItem("XGZAT2")
+	!PartyHasItem("XGZAT3")
+	!PartyHasItem("XGZAT4")
+	!PartyHasItem("XGZAT5")
+	!PartyHasItem("XGZAT6")~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 DO ~StartStore("XGBG1",LastTalkedToBy(Myself))
 ~ EXIT

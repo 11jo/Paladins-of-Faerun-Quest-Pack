@@ -65,6 +65,7 @@ THEN
     CreateVisualEffectObject("SPROTECT","XGCOW2")
     Wait(1)
     ActionOverride("XGCOW2",ForceSpell("XGELWIN",CLERIC_MAGIC_STONE))
+    ActionOverride(Player1,MoveToObject("XGCOW"))
     ActionOverride(Player3,MoveToPoint([2090.2343]))
     Wait(1)
     DisplayString("XGELWIN",@7)  // @7
@@ -78,13 +79,14 @@ THEN
     ActionOverride("XGELWIN",ForceSpell("XGCOW1",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
     Wait(1)
     DisplayString("XGCOW",@8)  // @8
+    ActionOverride(Player1,FaceObject("XGELWIN"))
     Wait(2)
     ActionOverride(Player6,MoveToPoint([2181.2396]))
     ActionOverride("XGCOW",MoveToPoint([2293.1754]))
     Wait(3)
     ActionOverride("XGELWIN",ForceSpell("XGCOW2",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
-    DisplayString("XGELWIN",@10)  // @7
-    Wait(1)
+    DisplayString("XGELWIN",@10)
+    Wait(3)
     ActionOverride(Player1,MoveToPoint([1875.2359]))
     Wait(3)
     ActionOverride("XGCOW",ForceSpell("XGELWIN",WIZARD_IMPRISONMENT))
@@ -93,9 +95,9 @@ THEN
     Wait(2)
     ForceSpell("XGCOW",DRYAD_TELEPORT)
     MoveViewPoint([1875.2359],VERY_FAST)
-    Wait(3)
-	ActionOverride("XGNEAN28",DestroySelf())
+    Wait(10)
     UnhideGUI()
+	ActionOverride("XGNEAN28",DestroySelf())
     EndCutSceneMode()
 END
 

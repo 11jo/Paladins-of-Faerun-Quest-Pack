@@ -10,6 +10,14 @@ THEN
 END
 
 IF
+	Global("XGPALW_MINSCJ","XG0702",2)
+THEN
+	RESPONSE #100
+		SetGlobal("XGPALW_MINSCJ","XG0702",3)
+		Enemy()
+END
+
+IF
 	See([GOODCUTOFF])
 	HPPercentLT(Myself,50)
 	Global("XGPALW_Low","LOCALS",0)

@@ -28,7 +28,7 @@ END
 
 IF ~Global("DeadXGYARCO1","XG0017",1)~ THEN BEGIN 6
   SAY @10
-  IF ~~ THEN DO ~SetGlobal("DeadXGYARCO1","XG0017",2) MoveToPointNoInterrupt([947.3261])~ EXIT
+  IF ~~ THEN DO ~SetGlobal("DeadXGYARCO1","XG0017",2) MoveToPoint([947.3261])~ EXIT
 END
 
 IF ~Global("DeadXGYARCO1","XG0017",2)~ THEN BEGIN 7

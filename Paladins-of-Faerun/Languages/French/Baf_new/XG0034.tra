@@ -1,5 +1,7 @@
-@0 = ~ Are you again? Isn't that what happened at Askatle for you? ~
-@1 = ~ Who are you? And what are you doing here? ~
-@2 = ~ Well, let's get to know you, I'm Artemis Entreri. I heard that you were arrested at Askatla, don't take it to heart, but now go away or die. ~
-@3 = ~ I don't have time for this, do it! ~
-@4 = ~ <CHARNAME>! We must follow him, he ran there. ~
+@0 = ~Encore toi ? T'es le bougre que j'ai bousculé à Athkatla ?~ ~Encore toi ? T'es la bougresse que j'ai bousculé à Athkatla !~
+@1 = ~Qui êtes-vous ? Et que venez-vous faire ici ?~
+@2 = ~Bon, pourquoi ne pas faire plus amplement connaissance... je suis Artemis Entreri. Il parait que tu t'es retrouvé au violon. Eh ! Sans rancune, ça n'avait rien de personnel. Aller ! Maintenant tu dégages ou tu meurs.~ ~Bon, pourquoi ne pas faire plus amplement connaissance... je suis Artemis Entreri. Il parait que tu t'es retrouvée au violon. Eh ! Sans rancune, ça n'avait rien de personnel. Aller ! Maintenant tu dégages ou tu meurs.~
+@3 = ~Je n'ai pas de temps à perdre avec les petites mains, tuez-le !~
+@4 = ~<CHARNAME> ! Poursuivons-le ! Il est parti dans cette direction.~
+@5 = ~ <CHARNAME> ! Vous devriez partir à sa poursuite tant qu'il est encore temps, il est parti dans cette direction.~
+@6 = ~Je ne vais pas le laissez filer !~

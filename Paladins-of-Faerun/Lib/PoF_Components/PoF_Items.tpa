@@ -1181,7 +1181,13 @@ COPY ~weidu_external/Paladins-of-Faerun/Items/XGQKEY.ITM~			~override/XGQKEY.ITM
   SAY NAME1 @783 
   SAY NAME2 @783 
   SAY UNIDENTIFIED_DESC @784 
-  SAY DESC @784 
+  SAY DESC @784
+  
+COPY ~weidu_external/Paladins-of-Faerun/Items/XGQKEY.ITM~			~override/XGKEY302.ITM~
+  SAY NAME1 @1641 
+  SAY NAME2 @1641 
+  SAY UNIDENTIFIED_DESC @1642 
+  SAY DESC @1642 
 
 COPY ~weidu_external/Paladins-of-Faerun/Items/XGRING1.ITM~			~override/XGRING1.ITM~
   SAY NAME2 @785

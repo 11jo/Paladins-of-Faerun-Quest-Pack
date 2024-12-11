@@ -22,6 +22,14 @@ END
 
 IF ~~ THEN BEGIN 4
   SAY @9
-  IF ~~ THEN REPLY @11 DO ~Enemy()
-~ UNSOLVED_JOURNAL @10 EXIT
+  IF ~~ THEN REPLY @11 DO ~
+	ChangeAIScript("UDDEATH",DEFAULT)
+    AddJournalEntry(@52003,QUEST)
+    CreateCreature("XGUNPAL",[139.674],0)
+    CreateCreature("XGUNPAL",[279.604],0)
+    CreateCreature("MISTWA01",[553.990],0)
+    CreateCreature("MISTWA01",[681.907],0)
+    CreateCreature("VAMPAT01",[528.761],0)
+	Enemy()
+~ EXIT
 END

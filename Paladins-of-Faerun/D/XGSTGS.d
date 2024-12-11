@@ -12,5 +12,7 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @5
-  IF ~~ THEN REPLY @7 /*UNSOLVED_JOURNAL @6 USELESS DELETED*/ EXIT
+  IF ~~ THEN REPLY @7 DO ~
+ActionOverride("XGSDWSP",EscapeArea())
+EscapeArea()~  EXIT
 END

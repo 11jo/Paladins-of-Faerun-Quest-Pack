@@ -506,7 +506,7 @@ COPY_EXISTING	~XG0315.are~	~override~
 COPY_EXISTING	~XG0017.are~	~override~
 	LPF ALTER_AREA_ACTOR 
 		STR_VAR 
-		actor_name = "XGYARP" 
+		actor_name = "XGYARP"
 		cre_file = "XGYARCO1"
 	END
 	
@@ -614,6 +614,12 @@ ADD_JOURNAL TITLE (@51700) @51701 @51702 @51703 @51704 @51705 @51706
  
 //  Mine. Vagabondes
 ADD_JOURNAL TITLE (@51800) @51801 @51802 @51803 @51804 @51805
+ 
+//  The stolen.
+ADD_JOURNAL TITLE (@51900) @51901 @51902
+ 
+//  Turlan forest.
+ADD_JOURNAL TITLE (@52000) @52001 @52002 @52003
 
 
 //////////////////////////////////
@@ -669,7 +675,7 @@ ACTION_IF GAME_IS ~bgt eet~ BEGIN
 
 	EXTEND_TOP ~%NBaldursGate_RinniesHouse_L1_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0520.baf~ EVALUATE_BUFFER //(Rinnie home)
 	EXTEND_TOP ~%NBaldursGate_RamazithsTower_L1_BCS%.BCS~			~Paladins-of-Faerun/Baf_new/XG0320.baf~ EVALUATE_BUFFER //(Ramazith home)
-	EXTEND_TOP ~%NBaldursGate_ThreeOldKegs_L1_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0120.baf~ EVALUATE_BUFFER //(Trois vielles chopes RDC)
+	EXTEND_TOP ~%NBaldursGate_ThreeOldKegs_L1_BCS%.BCS~				~Paladins-of-Faerun/baf_spe/XG0120.baf~ EVALUATE_BUFFER //(Trois vielles chopes RDC)
 	EXTEND_TOP ~%NBaldursGate_ThreeOldKegs_L3_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0820.baf~ EVALUATE_BUFFER //(Trois vielles chopes 2eme)
 	EXTEND_TOP ~%NBaldursGate_DucalPalace_Cellar_BCS%.BCS~			~Paladins-of-Faerun/Baf_new/XG0620.baf~ EVALUATE_BUFFER //(Ducal basement, XG0620)
 	EXTEND_TOP ~%NBaldursGate_DucalPalace_L1_BCS%.BCS~				~Paladins-of-Faerun/Baf_are/JOBG0108.baf~ EVALUATE_BUFFER
@@ -816,7 +822,7 @@ REPLACE_TEXTUALLY ~SetGlobal("NewGame","AR0602",1)~ ~ClearAllActions()
 	MultiPlayerSync()
 	SetGlobal("NewGame","AR0602",1)~
 	
-	COMPILE ~weidu_external/Paladins-of-Faerun/ExistingBaf/AR0602.BAF~ ~override~
+	COMPILE ~weidu_external/Paladins-of-Faerun/ExistingBaf/AR0602.BAF~
 USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR0602EE.tra~
 		
 	EXTEND_BOTTOM ~AR0602.BCS~			~Paladins-of-Faerun/baf_are/S#AR0602EE.baf~

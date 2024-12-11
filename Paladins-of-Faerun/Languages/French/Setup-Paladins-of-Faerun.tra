@@ -189,9 +189,7 @@
 @184 = ~Kelrot~
 @185 = ~Prêtre de la Fraternité~
 @186 = ~Statue~
-
-
-
+@187 = ~Niveau inférieur~
 @188 = ~Khelben "Raven's Cloak" Arunsun~
 @189 = ~Khelben Arunsun~
 @190 = ~The Crown Prince~
@@ -211,7 +209,7 @@
 @204 = ~Leader of Vagrant Daggers~ // Chef des dagues vagabondes
 @205 = ~Yes, we are ready to act.~
 @206 = ~Seigneur Norgold~
-@207 = ~Lord of the Undead~
+@207 = ~Seigneur des morts-vivants~
 @208 = ~Leader of hunters~
 @209 = ~Chasseur de trolls~
 @210 = ~Héraut du Duc Opas~
@@ -234,7 +232,7 @@
 @227 = ~Seigneur Madslave~ // Seigneur des esclaves  // Seigneur fou de l'esclavage
 @228 = ~Aluatra~
 @229 = ~Major de l'armée de Calimport~
-
+@230 = ~Myconide Mercenaire~
 @231 = ~Mercenaire~
 @232 = ~Vagrant daggers~ // dagues vagabondes // poignards vagabonds / errants / nomades
 @233 = ~Mage Slayer~ // Tueur de magicien
@@ -387,8 +385,8 @@
 @380 = ~Capitaine Boris~
 @381 = ~Garde d'Eauprofonde~
 @382 = ~Merchant mage~ // Marchand et Magicien
-
-
+@383 = ~Gareth du Poing Enflammé~ // XGFLAM12
+@384 = ~Mona du Poing Enflammé~ // XGFLAF12
 @385 = ~Prêtre de Gradak~
 @386 = ~Commandant des éclaireurs~
 @387 = ~Archimage de Gradak~
@@ -4238,7 +4236,7 @@ Poids : 20~
 @1016 = ~Temple Sacré~
 @1017 = ~Taverne des trois carafes~
 @1018 = ~Cimetière~
-@1019 = ~You're doing the wrong thing! I'll kill you!~
+@1019 = ~Et alors j'lui ai frappé la tête jusqu'à ce qu'il crève. Har har.~ [BANDT01]
 @1020 = ~Vous êtes attaqué par des orques.~
 @1021 = ~Auberge~
 @1022 = ~Marchand~
@@ -4396,6 +4394,13 @@ Le magicien pointe son doigt dans la direction désirée et projette une sphère d'
 @1637 = ~Des gnons, pas des mots !~ // Swords, not words!
 @1638 = ~Je me dresse pour ma sorcière !~ // Stand back for justice!
 @1639 = ~What ?~
+@1640 = ~Vous ne distinguez rien dans l'obscurité.~
+
+// XG0302 Turlang crypte
+@1641 = ~Clé secrète~
+@1642 = ~Trouvée sur la dépouille du Lord of the Undead cette clé ouvre probablement une porte de ce complexe souterrain.~
+
+
 
 // Messagers
 

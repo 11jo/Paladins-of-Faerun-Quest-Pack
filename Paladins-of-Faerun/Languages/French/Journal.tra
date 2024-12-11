@@ -1394,7 +1394,7 @@ Mission accomplished, missing items found, farewell.~
 //////////////////////    Mine. Vagabondes.
 // Title
 
-@51800 = ~Vagabondes~ // 3 Relics
+@51800 = ~Vagabondes~
 
 /*
 // XGmo (UNSOLVED_JOURNAL @10) // Same as XGELG (@18)
@@ -1428,3 +1428,36 @@ I killed the gnomes from mine.~ // @2
 
 // XGDUERL (UNSOLVED_JOURNAL @7 (Same as XGELG @18), SOLVED_JOURNAL @10(Same as XGDUEL1 @2)
 
+
+//////////////////////    The stolen. .
+// Title XGWILL.D / XG0301.BAF  (XGSTGS.d)
+
+@51900 = ~The stolen~ // The stolen
+
+
+@51901 = ~The stolen
+
+I met in the cave of a damned forest a warrior who claims that he escaped from a dungeon in the forest, and his friends were abducted by dark creatures. The time has come to find the source of darkness, it must be somewhere underground. ~
+
+
+@51902 = ~The stolen
+
+After the creatures died, I found Sir William's friends, they all went to him. ~
+
+//////////////////////    Turlan forest. .
+// Title XGLORU.D / XGELAD.D
+
+@52000 = ~Turlan forest~ // Turlan forest
+
+
+@52001 = ~Turlan forest
+
+An elf named Eladriel told me about a mysterious forest near Neverwinter, he wants me to find a source of dark fog that envelops the forest.~
+
+@52002 = ~Turlan forest
+
+Eladriel was pleased and gave me his sword.~
+
+@52003 = ~Turlan forest
+
+In the dungeon of the forest, I found the Lord of the Undead, creating a magical fog around the forest, which gave strength to dark creatures and weakened normal people, they were all turned into werewolves, vampires and ghosts. I destroyed it and saved the forest, I have to go back to Eladriel for a reward.~

@@ -1,6 +1,7 @@
 IF
   Global("RevealAR0300","XG0302",0)
-  Dead("XGLORU")  // ~Владыка преисподни~
+  Dead("XGLORU")
+  CombatCounter(0)
 THEN
   RESPONSE #100
     SetGlobal("RevealAR0300","XG0302",1)
@@ -9,15 +10,20 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(2)
-    CreateCreature("XGSTGS",[897.1117],0)  // ~Лорд  Уилнан~
-    CreateCreature("XGSDWSP",[878.1157],0)  // ~Паладин Даввен~
+    CreateCreature("XGSTGS",[523.486],0)
+    CreateCreature("XGSDWSP",[598.559],0)
+	OpenDoor("DOOR05")
+    ActionOverride("XGSTGS",MoveToPoint([781.679]))
+    ActionOverride("XGSDWSP",MoveToPoint([781.679]))
+	//OpenDoor("DOOR06")
+	//OpenDoor("DOOR08")
     Wait(2)
+	OpenDoor("DOOR09")
     ActionOverride(Player1,MoveToPoint([442.810]))
     Wait(2)
-    ActionOverride("XGSTGS",MoveToPoint([482.879]))
-    ActionOverride("XGSDWSP",MoveToPoint([551.847]))
+    ActionOverride("XGSTGS",MoveToPointNoInterrupt([482.879]))
+    ActionOverride("XGSDWSP",MoveToPointNoInterrupt([551.847]))
     Wait(4)
     UnhideGUI()
     EndCutSceneMode()
 END
-

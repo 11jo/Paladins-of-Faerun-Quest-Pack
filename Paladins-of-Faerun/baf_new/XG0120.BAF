@@ -9,16 +9,3 @@ THEN
 		SetGlobal("XGPoFXGBGPS1","MYAREA",1)
 		Continue()
 END
-
-IF
-	Global("XGPoFinBG","GLOBAL",1)
-	Global("XGPoFXGBGPS1","MYAREA",0)
-	!AreaCheck("XG0120")
-	AreaCheck("%NBaldursGate_ThreeOldKegs_L1%")
-THEN
-	RESPONSE #100
-		CreateCreature("XGBGPS2",[926.424],8)
-		CreateCreature("XGBG1",[396.566],14)
-		SetGlobal("XGPoFXGBGPS1","MYAREA",1)
-		Continue()
-END

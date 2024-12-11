@@ -1,0 +1,22 @@
+IF
+	HPPercentLT(Myself,50)
+	Global("XGgghc_Low","LOCALS",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("XGgghc_Low","LOCALS",1)
+		SetGlobal("XGgghc_Talk2","GLOBAL",1)
+		ChangeEnemyAlly(Myself,NEUTRAL)
+		StartDialogue("XGgghc",Player1)
+END
+
+IF
+	HPPercentLT(Myself,100)
+	Global("XGgghc_COURAGE","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("XGgghc_COURAGE","LOCALS",1)
+		Wait(1)
+		ApplySpell(Myself,INVOKE_COURAGE)  // SPIN676.SPL (Inspirer le courage)
+		ApplySpell(Myself,CLERIC_REMOVE_FEAR)  // SPPR108.SPL (Apaisement)
+END

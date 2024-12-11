@@ -51,6 +51,7 @@ END
 IF ~Global("s#XGELOR","GLOBAL",1)~ THEN BEGIN 8
   SAY @18
   IF ~~ THEN REPLY @19 GOTO 4
+  IF ~~ THEN REPLY @7 EXIT
 END
 
 IF ~Global("s#XGELOR","GLOBAL",2)
@@ -84,4 +85,12 @@ IF ~~ THEN BEGIN 13
   IF ~~ THEN DO ~TakePartyItem("XGZAT1")
 GiveItemCreate("XGZAT2",Player1,0,0,0)
 ~ EXIT
+END
+
+
+IF ~Global("s#XGELOR","GLOBAL",2)
+!PartyHasItem("XGMB")
+!PartyHasItem("XGZAT1")~ THEN BEGIN 14
+  SAY @23
+  IF ~~ THEN EXIT
 END

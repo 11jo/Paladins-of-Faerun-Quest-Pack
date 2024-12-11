@@ -19,7 +19,7 @@ END
 
 IF
   Global("RevealXG0301","XG0301",1)
-  Dead("XGLORU")  // ~Владыка преисподни~
+  Dead("XGLORU")
 THEN
   RESPONSE #100
     SetGlobal("RevealXG0301","XG0301",2)
@@ -28,14 +28,13 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(2)
-    CreateCreature("XGSTGS",[112.291],0)  // ~Лорд  Уилнан~
-    CreateCreature("XGSDWSP",[114.245],0)  // ~Паладин Даввен~
+    CreateCreature("XGSTGS",[112.291],0)
+    CreateCreature("XGSDWSP",[114.245],0)
     Wait(2)
-    DisplayString("XGSWILL",@0)  // @0
+    DisplayString("XGSWILL",@0)
     Wait(4)
-    EraseJournalEntry(@1)  // @1
-    // EraseJournalEntry(@2)  //  Replaced by QUEST_DONE below
-    AddJournalEntry(@2,QUEST_DONE)  // @2
+    EraseJournalEntry(@51901)
+    AddJournalEntry(@51902,QUEST_DONE)
     AddexperienceParty(10000)
     GivePartyGold(2000)
     ActionOverride("XGSWILL",EscapeArea())

@@ -4,17 +4,20 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("EnteredXG0211","XG0211",1)
+    CreateCreature("XGELM1",[798.408],6)  // ~Элминстер~
+    ActionOverride("XGELM",FaceObject(Player1))
+    Wait(2)
+    ActionOverride("XGELM",StartDialogue("XGELM2",Player1))
+END
+
+IF
+  Global("EnteredXG0211","XG0211",1)
+THEN
+  RESPONSE #100
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
-    Wait(4)
-    CreateCreature("XGELM1",[798.408],6)  // ~Элминстер~
-    StartDialogue("XGELM2",Player1)
-    Wait(2)
-    EndCutSceneMode()
-    Wait(5)
-    ClearAllActions()
-    StartCutSceneMode()
+    SetGlobal("EnteredXG0211","XG0211",2)
     Wait(2)
     CreateCreature("XGMOHC",[609.518],10)  // ~Член Совета магов~
     CreateCreature("XGMOHC",[785.535],10)  // ~Член Совета магов~
@@ -23,4 +26,3 @@ THEN
     UnhideGUI()
     EndCutSceneMode()
 END
-

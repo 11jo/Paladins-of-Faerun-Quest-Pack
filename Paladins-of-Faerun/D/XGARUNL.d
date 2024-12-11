@@ -107,7 +107,7 @@ END
 IF ~NumTimesTalkedTo(2)
 !PartyHasItem("XGWH")~ THEN BEGIN 19
   SAY @26
-  IF ~~ THEN EXIT
+  IF ~~ THEN DO ~SetNumTimesTalkedTo(2)~ EXIT
 END
 
 IF ~~ THEN BEGIN 20

@@ -1,5 +1,5 @@
 IF
-	See([GOODCUTOFF])
+	See([PC])
 	AreaCheck("XG0017")
 	NumTimesTalkedTo(0)
 THEN

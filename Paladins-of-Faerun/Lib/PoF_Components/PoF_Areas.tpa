@@ -48,12 +48,11 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0001.ARE~         ~override/XG00
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0002.ARE~         ~override/XG0002.ARE~
 
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-
-	COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0003.ARE~			~override/XG0003.ARE~
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0003.ARE~			~override/XG0003.ARE~
+		WRITE_ASCII 0x94 ~XG0003~ #8
 		SAY 0x26b0 @398
 		SAY 0x2838 @1000
-			LPF fj_are_structure
+			LPF fj_are_structure // REST ENCOUNTERS
 				INT_VAR
 				fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
 				STR_VAR
@@ -61,24 +60,31 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 				fj_structure_type = interrupts
 				fj_name  = XGSHAd
 			END
-
-END
-
-ACTION_IF (GAME_IS ~tob bgt~) BEGIN
-
-	COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0003.ARE~			~override/XG0003.ARE~
-		SAY 0x26b0 @398
-		SAY 0x2838 @1000
-			LPF fj_are_structure
-				INT_VAR
-				fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
-				STR_VAR
-				fj_cre_resref0 = ~SHADOW01~
-				fj_structure_type = interrupts
-				fj_name  = XGSHAd
-			END
-
-END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type			= 1    // Info point
+			fj_box_left		= 4435
+			fj_box_top		= 179
+			fj_box_right	= 4540
+			fj_box_bottom	= 257
+			fj_cursor_idx	= 22   // curseur ?
+			fj_info_point_strref  = RESOLVE_STR_REF (@1640)
+			fj_loc_x		= 4756
+			fj_loc_y		= 340
+			fj_vertex_0		= 4485 + (179 << 16)
+			fj_vertex_1		= 4540 + (216 << 16)
+			fj_vertex_2		= 4492 + (257 << 16)
+			fj_vertex_3		= 4435 + (213 << 16)
+			STR_VAR
+			fj_structure_type	= region
+			fj_name				= info302
+		END
+		LPF ALTER_AREA_ACTOR 
+			STR_VAR 
+			actor_name = "XGELIAH" 
+			script_override = "XGELIAH" 
+		END
+	ADD_MAP_NOTE #567 #530 ~red~ #193
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0004.ARE~         ~override/XG0004.ARE~
 		LPF fj_are_structure
@@ -90,9 +96,7 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0004.ARE~         ~override/XG00
 			fj_name  = GIANT
 		END
 
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-
-	COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0007.ARE~         ~override/XG0007.ARE~
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0007.ARE~         ~override/XG0007.ARE~
 		SAY 0x3104 @399
 			LPF fj_are_structure
 				INT_VAR
@@ -102,23 +106,6 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 				fj_structure_type = interrupts
 				fj_name  = XGGOB
 			END
-
-END
-
-ACTION_IF (GAME_IS ~tob bgt~) BEGIN
-
-	COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0007.ARE~~override/XG0007.ARE~
-		SAY 0x3104 @399
-			LPF fj_are_structure
-				INT_VAR
-				fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
-				STR_VAR
-				fj_cre_resref0 = ~XGGOB4~
-				fj_structure_type = interrupts
-				fj_name  = XGGOB
-			END
-
-END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0009.ARE~         ~override/XG0009.ARE~
 
@@ -399,11 +386,27 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0030.ARE~         ~override/XG00
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0033.ARE~         ~override/XG0033.ARE~
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0034.ARE~         ~override/XG0034.ARE~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGgghc" 
+		script_default = "XGgghc" 
+		script_race = ~SHOUT~
+		script_class = ~WTASIGHT~
+	END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0039.ARE~         ~override/XG0039.ARE~
   SAY 0x339c @406
   SAY 0x3460 @406
-  SAY 0x3854 @1019
+		LPF fj_are_structure
+			INT_VAR
+			fj_cre_strref0  =  RESOLVE_STR_REF (@1019)
+			STR_VAR
+			fj_cre_resref0 = ~XGTRBA~
+			fj_cre_resref1 = ~XGTRBA~
+			fj_cre_resref2 = ~XGTRBA~
+			fj_structure_type = interrupts
+			fj_name  = XGPOP
+		END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0040.ARE~         ~override/XG0040.ARE~         
   SAY 0x2334 @401 
@@ -413,7 +416,15 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0041.ARE~         ~override/XG00
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0045.ARE~         ~override/XG0045.ARE~         
   SAY 0x5240 @407 
-  SAY 0x58EC @1020
+		LPF fj_are_structure
+			INT_VAR
+			fj_cre_strref0  =  RESOLVE_STR_REF (@1020)
+			STR_VAR
+			fj_cre_resref0 = ~XGTRORC~
+			fj_cre_resref1 = ~XGTRORC~
+			fj_structure_type = interrupts
+			fj_name  = XGPOP
+		END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0046.ARE~         ~override/XG0046.ARE~         
 
@@ -452,6 +463,12 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0054.ARE~			~override/XG0054.ARE
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0055.ARE~			~override/XG0055.ARE~
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0056.ARE~			~override/XG0056.ARE~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGRW1"
+		cre_file = "XGRWF1"
+	END
+	ADD_MAP_NOTE #119 #1100 ~gray~ #66052
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0057.ARE~         ~override/XG0057.ARE~         
 
@@ -536,7 +553,16 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0064.ARE~         ~override/XG00
 	ADD_MAP_NOTE #1410 #1400 ~green~ @1008
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0065.ARE~         ~override/XG0065.ARE~
-  SAY 0x23E0 @1038
+		LPF fj_are_structure
+			INT_VAR
+			fj_cre_strref0  =  RESOLVE_STR_REF (@1038)
+			STR_VAR
+			fj_cre_resref0 = ~XGGOB4~
+			fj_cre_resref1 = ~XGGOB4~
+			fj_cre_resref2 = ~XGGOB4~
+			fj_structure_type = interrupts
+			fj_name  = XGPOP
+		END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0066.ARE~         ~override/XG0066.ARE~         
 
@@ -545,8 +571,20 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0067.ARE~         ~override/XG00
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0068.ARE~         ~override/XG0068.ARE~         
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0069.ARE~         ~override/XG0069.ARE~
-  SAY 0x495C @1039 
-  SAY 0x4960 @1040         
+		LPF fj_are_structure
+			INT_VAR
+			fj_cre_strref0  =  RESOLVE_STR_REF (@1039)
+			fj_cre_strref1  =  RESOLVE_STR_REF (@1040)
+			STR_VAR
+			fj_cre_resref0 = ~XVART01~
+			fj_cre_resref1 = ~DAGNOLL~
+			fj_cre_resref2 = ~DAGNOLL~
+			fj_cre_resref3 = ~DAGNOLL~
+			fj_cre_resref4 = ~XVART01~
+			fj_cre_resref5 = ~XVART01~
+			fj_structure_type = interrupts
+			fj_name  = XGPOP
+		END  
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0070.ARE~         ~override/XG0070.ARE~         
 
@@ -569,7 +607,14 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0075.ARE~         ~override/XG00
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0076.ARE~         ~override/XG0076.ARE~         
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0077.ARE~         ~override/XG0077.ARE~
-  SAY 0x20C8 @1001         
+			LPF fj_are_structure
+				INT_VAR
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+				STR_VAR
+				fj_cre_resref0 = ~WOLF01~
+				fj_structure_type = interrupts
+				fj_name  = XGPOP
+			END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0078.ARE~         ~override/XG0078.ARE~         
 
@@ -602,25 +647,20 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0101.ARE~         ~override/XG01
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0112.ARE~         ~override/XG0112.ARE~         
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0114.ARE~         ~override/XG0114.ARE~     
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0114.ARE~         ~override/XG0114.ARE~  
 
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-
-	COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0115.ARE~         ~override/XG0115.ARE~
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0115.ARE~         ~override/XG0115.ARE~
+		LPF fj_are_structure
+			INT_VAR
+			fj_cre_strref0  =  RESOLVE_STR_REF (@1043)
+			fj_cre_strref1  =  RESOLVE_STR_REF (@1044)
+			STR_VAR
+			fj_cre_resref0 = ~XGBLVM~
+			fj_cre_resref1 = ~XGTRORC~
+			fj_structure_type = interrupts
+			fj_name  = XGPOP
+		END
 		ADD_MAP_NOTE #1421 #2237 ~red~ @1045
-		SAY 0x17c0 @1043
-		SAY 0x17c4 @1044
-
-END
-
-ACTION_IF (GAME_IS ~tob bgt~) BEGIN
-
-	COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0115.ARE~         ~override/XG0115.ARE~
-		ADD_MAP_NOTE #1421 #2237 ~red~ @1045
-		SAY 0x16A0 @1043
-		SAY 0x16A4 @1044
-
-END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0116.ARE~         ~override/XG0116.ARE~
 		WRITE_ASCII 0x94 ~XG0116~ #8
@@ -718,7 +758,8 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0153.ARE~         ~override/XG01
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0154.ARE~         ~override/XG0154.ARE~         
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0156.ARE~         ~override/XG0156.ARE~         
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0156.ARE~         ~override/XG0156.ARE~      
+	ADD_MAP_NOTE #3340 #2517 ~orange~ @187
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0158.ARE~         ~override/XG0158.ARE~         
 
@@ -744,13 +785,20 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0168.ARE~         ~override/XG01
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0169.ARE~         ~override/XG0169.ARE~         
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0170.ARE~         ~override/XG0170.ARE~         
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0170.ARE~         ~override/XG0170.ARE~
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0171.ARE~         ~override/XG0171.ARE~         
-  SAY 0x1c88 @416
-  SAY 0x21C4 @1001 
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0171.ARE~         ~override/XG0171.ARE~
+		SAY 0x1c88 @416
+		LPF fj_are_structure
+			INT_VAR
+			fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+			STR_VAR
+			fj_cre_resref0 = ~KOBARC01~
+			fj_structure_type = interrupts
+			fj_name  = KOBOLTI
+		END
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0172.ARE~         ~override/XG0172.ARE~         
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0172.ARE~         ~override/XG0172.ARE~
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0176.ARE~         ~override/XG0176.ARE~         
 
@@ -786,7 +834,16 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0214.ARE~         ~override/XG02
 	WRITE_ASCII 0x94 ~XG0214~ (8)
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0215.ARE~         ~override/XG0215.ARE~
-	SAY 0x35CC @1043
+		LPF fj_are_structure
+			INT_VAR
+			fj_cre_strref0  =  RESOLVE_STR_REF (@1043)
+			fj_cre_strref1  =  RESOLVE_STR_REF (@1043)
+			STR_VAR
+			fj_cre_resref0 = ~XGBLVM~
+			fj_cre_resref1 = ~XGBLVM~
+			fj_structure_type = interrupts
+			fj_name  = BLOOD1
+		END
 	ADD_MAP_NOTE #2351 #467 ~orange~ @1048		// Caverne du gardien    
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0217.ARE~         ~override/XG0217.ARE~         
@@ -812,21 +869,35 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0240.ARE~         ~override/XG02
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0245.ARE~         ~override/XG0245.ARE~         
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0246.ARE~         ~override/XG0246.ARE~
-  SAY 0x3784 @1049          
+		LPF fj_are_structure
+			INT_VAR
+			fj_cre_strref0  =  RESOLVE_STR_REF (@1043)
+			STR_VAR
+			fj_cre_resref0 = ~XGTVAMP~
+			fj_structure_type = interrupts
+			fj_name  = XGPOP
+		END
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0247.ARE~         ~override/XG0247.ARE~         
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0247.ARE~         ~override/XG0247.ARE~
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0256.ARE~         ~override/XG0256.ARE~         
-  SAY 0x1454 @417 
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0256.ARE~         ~override/XG0256.ARE~
+  SAY 0x1454 @415
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0259.ARE~         ~override/XG0259.ARE~         
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0259.ARE~         ~override/XG0259.ARE~
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0261.ARE~         ~override/XG0261.ARE~         
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0261.ARE~         ~override/XG0261.ARE~
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0262.ARE~         ~override/XG0262.ARE~         
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0262.ARE~         ~override/XG0262.ARE~
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0263.ARE~         ~override/XG0263.ARE~
-// SAY 0x4BD4 @1001          
+		LPF fj_are_structure
+			INT_VAR
+			fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+			STR_VAR
+			fj_cre_resref0 = ~XGLUSG~
+			fj_structure_type = interrupts
+			fj_name  = XGPOP
+		END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0264.ARE~         ~override/XG0264.ARE~         
 
@@ -856,11 +927,58 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0284.ARE~         ~override/XG02
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0301.ARE~         ~override/XG0301.ARE~         
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0302.ARE~         ~override/XG0302.ARE~         
-  SAY 0x2664 @418 
-  SAY 0x2728 @418
-  SAY 0x5A18 @1001
-  SAY 0x5A1C @1001 
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0302.ARE~         ~override/XG0302.ARE~    
+	WRITE_ASCII 0x94 ~XG0302~ #8     
+	SAY 0x2664 @418 
+	SAY 0x2728 @418
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGLORU" 
+		script_override = "SHOUT12"
+	END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGLORD"
+		dlg_file  = "XGLORD"
+		script_default = ""
+		script_override = "XGLORD"
+		cre_file = "XGLORD"
+	END
+	LPF fj_are_structure
+		INT_VAR
+		fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+		fj_cre_strref1  =  RESOLVE_STR_REF (@1001)
+		STR_VAR
+		fj_cre_resref0 = ~RAT~
+		fj_cre_resref1 = ~KOBOLDSU~
+		fj_structure_type = interrupts
+		fj_name  = XGPOP
+	END
+		LPF ALTER_AREA_DOOR
+			INT_VAR
+			STR_VAR
+			door_name = ~Secret01~
+			door_key   = ~XGKEY302~
+		END
+		LPF ALTER_AREA_DOOR
+			INT_VAR
+			trapped = 1
+			STR_VAR
+			door_script = XGCRYP01
+			door_name = ~CRYPT01~
+		END
+		/*
+		LPF ALTER_AREA_CONTAINER
+			INT_VAR
+			flag_mlocked  = 1
+			lock_difficulty  = 100
+			break_difficulty  = 100
+			//lockpick_strref  = ~23173~
+			STR_VAR
+			container_name = ~Container 9~
+			container_key  = ~CMKEY01~
+			//container_script = ~CMJOLock~
+		END*/
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0311.ARE~         ~override/XG0311.ARE~         
 
@@ -890,21 +1008,17 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0329.ARE~         ~override/XG03
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0330.ARE~         ~override/XG0330.ARE~
 
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-
-	COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0339.ARE~         ~override/XG0339.ARE~
-		SAY 0x259C @1001
-		SAY 0x25b0 @1001
-
-END
-
-// Probably to modify with fj_are_structure same as other GAME_IS ~tob bgt~ and remove them since the implementation should work for both
-ACTION_IF (GAME_IS ~tob bgt~) BEGIN
-
-	COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0339.ARE~         ~override/XG0339.ARE~
-		SAY 0x25EC @1001 
-
-END
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0339.ARE~         ~override/XG0339.ARE~
+		LPF fj_are_structure
+			INT_VAR
+			fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+			fj_cre_strref1  =  RESOLVE_STR_REF (@1001)
+			STR_VAR
+			fj_cre_resref0 = ~SKELWA~
+			fj_cre_resref1 = ~SKELWA~
+			fj_structure_type = interrupts
+			fj_name  = KOST
+		END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0340.ARE~         ~override/XG0340.ARE~
 
@@ -1061,10 +1175,24 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0524.ARE~         ~override/XG05
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0526.ARE~         ~override/XG0526.ARE~         
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0529.ARE~         ~override/XG0529.ARE~
-  SAY 0x1604 @1001
+		LPF fj_are_structure
+			INT_VAR
+			fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+			STR_VAR
+			fj_cre_resref0 = ~XGBLVM~
+			fj_structure_type = interrupts
+			fj_name  = XGPOP
+		END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0539.ARE~         ~override/XG0539.ARE~
-  SAY 0x1D88 @1001         
+		LPF fj_are_structure
+			INT_VAR
+			fj_cre_strref0  =  RESOLVE_STR_REF (@1001)
+			STR_VAR
+			fj_cre_resref0 = ~SKELWA~
+			fj_structure_type = interrupts
+			fj_name  = XGPOP
+		END 
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0547.ARE~         ~override/XG0547.ARE~         
 
@@ -1220,7 +1348,14 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0815.ARE~         ~override/XG08
 
 	COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0820.ARE~         ~override/XG0820.ARE~
 		WRITE_ASCII 0x94 ~XG0820~ #8
-		//SAY 0x41C @1001 useless normaly
+			LPF fj_are_structure
+				INT_VAR
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1054)
+				STR_VAR
+				fj_cre_resref0 = ~GHOULSU~
+				fj_structure_type = interrupts
+				fj_name  = XGPOP
+			END
 
 //END
 

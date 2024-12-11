@@ -8,6 +8,8 @@ END
 IF ~NumTimesTalkedTo(1)~ THEN BEGIN 1
   SAY @3
   IF ~~ THEN REPLY @4 GOTO 5
+  IF ~~ THEN REPLY @12 DO ~SetNumTimesTalkedTo(1)
+~ EXIT
 END
 
 IF ~~ THEN BEGIN 2
@@ -22,18 +24,20 @@ END
 
 IF ~~ THEN BEGIN 4
   SAY @9
-  IF ~~ THEN REPLY @11 DO ~RevealAreaOnMap("XG0003")
-SetNumTimesTalkedTo(2)
-~ UNSOLVED_JOURNAL @10 EXIT
+  IF ~~ THEN REPLY @11 DO ~
+    AddJournalEntry(@52001,QUEST)
+	RevealAreaOnMap("XG0003")
+	SetNumTimesTalkedTo(2)~ EXIT
   IF ~~ THEN REPLY @12 DO ~SetNumTimesTalkedTo(1)
 ~ EXIT
 END
 
 IF ~~ THEN BEGIN 5
   SAY @9
-  IF ~~ THEN REPLY @11 DO ~RevealAreaOnMap("XG0003")
-SetNumTimesTalkedTo(2)
-~ UNSOLVED_JOURNAL @10 EXIT
+  IF ~~ THEN REPLY @11 DO ~
+    AddJournalEntry(@52001,QUEST)
+	RevealAreaOnMap("XG0003")
+	SetNumTimesTalkedTo(2)~ EXIT
 END
 
 IF ~Dead("XGLORU")~ THEN BEGIN 6
@@ -43,6 +47,15 @@ END
 
 IF ~~ THEN BEGIN 7
   SAY @15
-  IF ~~ THEN REPLY @17 DO ~GiveItemCreate("XGSWOR9",Player1,0,0,0)
-EscapeArea()~ SOLVED_JOURNAL @16 EXIT
+  IF ~~ THEN REPLY @17 DO ~
+    EraseJournalEntry(@52001)
+    EraseJournalEntry(@52003)
+    AddJournalEntry(@52002,QUEST_DONE)
+	GiveItemCreate("XGSWOR9",Player1,0,0,0)
+	EscapeArea()~ EXIT
+END
+
+IF ~!Dead("XGLORU") NumTimesTalkedTo(2)~ THEN BEGIN 8
+  SAY @18
+  IF ~~ THEN DO ~SetNumTimesTalkedTo(2)~ EXIT
 END

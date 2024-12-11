@@ -1,0 +1,17 @@
+IF
+	Global("XG0302_Close","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("XG0302_Close","MYAREA",1)
+		TriggerActivation("Tran0302",FALSE)
+		TriggerActivation("info302",TRUE)
+END
+
+IF
+	Global("XG0302_Open","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("XG0302_Open","GLOBAL",2)
+		TriggerActivation("Tran0302",TRUE)
+		TriggerActivation("info302",FALSE)
+END

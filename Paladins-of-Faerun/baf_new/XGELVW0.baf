@@ -18,3 +18,78 @@ THEN
 		DisplayStringHead("XGELVW0",@0)
 END
 
+IF
+	GlobalTimerExpired("XGELVW0_FOUR_TURNS","LOCALS")
+	Global("XGELVW0_GO","LOCALS",1)
+THEN
+  RESPONSE #100
+		Wait(1)
+		SetGlobal("XGELVW0_GO","LOCALS",0)
+END
+
+IF
+	Allegiance(Myself,ALLY)
+	Global("XGDOOR17","XG0017",1)
+	!See([EVILCUTOFF])
+	RandomNum(5,1)
+	Global("XGELVW0_GO","LOCALS",0)
+THEN
+  RESPONSE #100
+		SetGlobalTimer("XGELVW0_FOUR_TURNS","LOCALS",FOUR_TURNS)
+		SetGlobal("XGELVW0_GO","LOCALS",1)
+		MoveToPoint([3147.2816])
+END
+
+IF
+	Allegiance(Myself,ALLY)
+	Global("XGDOOR17","XG0017",1)
+	!See([EVILCUTOFF])
+	RandomNum(5,2)
+	Global("XGELVW0_GO","LOCALS",0)
+THEN
+  RESPONSE #100
+		SetGlobalTimer("XGELVW0_FOUR_TURNS","LOCALS",FOUR_TURNS)
+		SetGlobal("XGELVW0_GO","LOCALS",1)
+		MoveToPoint([1949.1994])
+END
+
+IF
+	Allegiance(Myself,ALLY)
+	Global("XGDOOR17","XG0017",1)
+	!See([EVILCUTOFF])
+	RandomNum(5,3)
+	Global("XGELVW0_GO","LOCALS",0)
+THEN
+  RESPONSE #100
+		SetGlobalTimer("XGELVW0_FOUR_TURNS","LOCALS",FOUR_TURNS)
+		SetGlobal("XGELVW0_GO","LOCALS",1)
+		MoveToPoint([610.1869])
+END
+
+IF
+	Allegiance(Myself,ALLY)
+	Global("XGDOOR17","XG0017",1)
+	!See([EVILCUTOFF])
+	RandomNum(5,4)
+	Global("XGELVW0_GO","LOCALS",0)
+THEN
+  RESPONSE #100
+		SetGlobalTimer("XGELVW0_FOUR_TURNS","LOCALS",FOUR_TURNS)
+		SetGlobal("XGELVW0_GO","LOCALS",1)
+		MoveToPoint([2226.1975])
+END
+
+IF
+	Allegiance(Myself,ALLY)
+	Global("XGDOOR17","XG0017",1)
+	!See([EVILCUTOFF])
+	RandomNum(5,5)
+	Global("XGELVW0_GO","LOCALS",0)
+THEN
+  RESPONSE #100
+		SetGlobalTimer("XGELVW0_FOUR_TURNS","LOCALS",FOUR_TURNS)
+		SetGlobal("XGELVW0_GO","LOCALS",1)
+		MoveToPoint([1676.3481])
+END
+
+

@@ -4,3 +4,17 @@
 @4 = ~ If I kill you now Tacillo, Gradac will have no one to unite with. ~
 @5 = ~ Do you think I'm scared of you <CHARNAME>? I heard a lot about you, but as I understand it, you have not heard about me, so underestimate me, we'll also see who is who ... ~
 @6 = ~ You will pay for betrayal! ~
+
+// Moved from XG0511.tra
+@7    = ~Je n'arrive pas à y croire, les gardes avaient pourtant reçu l'ordre d'éliminer votre groupe ! Il semblerait que je t'ai sous-estimé <CHARNAME>.~
+@8    = ~Tu as sous-estimé tout le monde ! Grafalcon, <CHARNAME>, moi et même le grand Elminster. Nous pensions qu'en t'élisant Magicien Suprême, tu rétablirais l'équilibre dans tout Féérune. Mais tu nous as tous dupés !~ 
+@9    = ~Oui, Elwin a parfaitement raison, tu étais mon ami Tassili et j'avais confiance en toi. Pourquoi t'associer à Gradak ? Par crainte ? Par peur de cette aura de protection que tu lui as toi même conférée pendant la cérémonie ?~
+@10    = ~Non, je n'ai pas peur, Gradak est mon demi-frère ! Je suis surpris que tu ne l'aies pas découvert plus tôt. Tout était planifié, tu aurais du mourir en même temps que, <CHARNAME>, Grafalcon et Elwin en tentant de protéger le Culte des soldats venus du sud. Mais votre survie interfère avec notre plan.~
+@11    = ~Les soldats du sud ? Qui sont-ils exactement ?~
+@12    = ~Ce sont des guerrier à la solde de Gradak. Ils n'ont jamais étaient de vrais paladins. Certains pensent que les soldats du sud se comportent comme tels, mais ils sont en réalité des barbares, des barbares fourbes et rusés !~
+@13    = ~Ainsi, vous pensez réussir à conquérir tout Féérune ?~
+@14    = ~Bien sur, nous irons de village en village, de ville en ville, ceux qui refuseront de rejoindre nos rangs seront brûlés vifs, et les autres deviendront nos esclaves ! Notre armée est invincible.~
+@15    = ~Aussi longtemps que je serai en vie, aucune armée ne se risquera à attaquer et encore moins asservir le moindre recoin de Féérune !~
+@16   = ~Toute ta puissance n'est rien en comparaison du pouvoir que je lui ai donnée, une fois les trois reliques en sa possession, il sera invulnérable...~
+@17   = ~Je n'ai jamais entendu parler de ces reliques, mais j'ai cru comprendre qu'en prenant Elwin en embuscade dans la forêt, vous avez dérobé une Sphère magique à <CHARNAME>. Je suppose qu'elle en fait partie...~
+@18   = ~Oui Elminster, vous êtes vraiment très malin, mais il est déjà trop tard, vous savez pour l'une d'entre elles... Je sais où sont les autres. C'est seulement une question de temps avant que je ne m'en empare. Maintenant je dois partir, Tassily, tâche de tous les tuer !~
