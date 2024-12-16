@@ -8,3 +8,27 @@ THEN
 		SetGlobal("XGBRAC1","MYAREA",1)
 		AddJournalEntry(@51703,QUEST)
 END
+
+IF
+	!Global("s#XGthf","GLOBAL",1)
+	!Global("XGthfQuestDone","GLOBAL",1)
+	PartyHasItem("XGBRAC1")
+	Global("XGBRAC1","MYAREA",0)
+THEN
+  RESPONSE #100
+		SetGlobal("XGBRAC1","MYAREA",1)
+		AddJournalEntry(@51707,QUEST)
+END
+
+IF
+	Global("XGELOR_XG0052","XG0052",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("XGELOR_XG0052","XG0052",1)
+		StartCutSceneMode()
+		FadeFromColor([50.0],0)
+		Wait(3)
+		UnhideGUI()
+		EndCutSceneMode()
+END

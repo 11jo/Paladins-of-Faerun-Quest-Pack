@@ -1,0 +1,157 @@
+IF
+	Exists("XGBGG")
+	Global("XG1120_XG0020","GLOBAL",2)
+	OR(2)
+	!Global("XGBGG_Missing","GLOBAL",4)
+	Dead("XGBGG")
+THEN
+  RESPONSE #100
+		SetGlobal("XGBGG_Missing","GLOBAL",8)
+		DestroySelf()
+END
+
+IF
+	Global("XGBGG_XG0020","GLOBAL",0)
+	Global("XG1120_XG0020","GLOBAL",2)
+	Global("XGBGG_Missing","GLOBAL",4)
+	!Dead("XGBGG")
+	Exists("XGBGG")
+THEN
+  RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		SetGlobal("XGBGG_XG0020","GLOBAL",1)
+		//DestroyItem("IMPINVIS")
+		MoveViewObject(Player1,INSTANT)
+		HideGUI()
+		ChangeEnemyAlly(Myself,NEUTRAL)
+		Wait(1)
+		DisplayStringHead("XGBGG",@1058)
+		Wait(3)
+		DisplayStringHead("XGBGG",@1059)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("XGBGG_XG0020","GLOBAL",1)
+	InMyArea("XGFLAM12")
+	!Range("XGFLAM12",6)
+THEN
+  RESPONSE #100
+		MoveToObjectNoInterrupt("XGFLAM12")
+END
+
+IF
+	Global("XGBGG_XGBGFL00","MYAREA",1)
+THEN
+  RESPONSE #100
+		SetGlobal("XGBGG_XGBGFL00","MYAREA",0)
+		DisplayStringHead("XGBGG",#42032)
+END
+
+IF
+	Global("XGBGG_XG0020","GLOBAL",1)
+	InMyArea("XGFLAF12")
+	!Range("XGFLAF12",6)
+THEN
+  RESPONSE #100
+		MoveToObjectNoInterrupt("XGFLAF12")
+END
+
+IF
+	Allegiance(Myself,ALLY)
+	AreaCheck("XG1120")
+	!See([GOODCUTOFF])
+THEN
+  RESPONSE #100
+		Wait(1)
+		MoveToObject(Player1)
+END
+
+IF
+	Allegiance(Myself,ALLY)
+	AreaCheck("XG1120")
+	Range(Player1,3)
+	See([GOODCUTOFF])
+	Exists(Player2)
+	!Range(Player2,3)
+THEN
+  RESPONSE #100
+		Wait(1)
+		MoveToObject(Player2)
+END
+
+IF
+	Allegiance(Myself,ALLY)
+	AreaCheck("XG1120")
+	Range(Player2,3)
+	See([GOODCUTOFF])
+	Exists(Player3)
+	!Range(Player3,3)
+THEN
+  RESPONSE #100
+		Wait(1)
+		MoveToObject(Player3)
+END
+
+IF
+	Allegiance(Myself,ALLY)
+	AreaCheck("XG1120")
+	Range(Player3,3)
+	See([GOODCUTOFF])
+	Exists(Player4)
+	!Range(Player4,3)
+THEN
+  RESPONSE #100
+		Wait(1)
+		MoveToObject(Player4)
+END
+
+IF
+	Allegiance(Myself,ALLY)
+	AreaCheck("XG1120")
+	Range(Player4,3)
+	See([GOODCUTOFF])
+	Exists(Player5)
+	!Range(Player5,3)
+THEN
+  RESPONSE #100
+		Wait(1)
+		MoveToObject(Player5)
+END
+
+IF
+	Allegiance(Myself,ALLY)
+	AreaCheck("XG1120")
+	Range(Player5,3)
+	See([GOODCUTOFF])
+	Exists(Player6)
+	!Range(Player6,3)
+THEN
+  RESPONSE #100
+		Wait(1)
+		MoveToObject(Player6)
+END
+
+IF
+	!InMyArea("XGFLAF12")
+	!InMyArea("XGFLAM12")
+THEN
+  RESPONSE #100
+		EscapeArea()
+END
+
+/*
+IF
+	!Dead("XGBGG")
+	!Global("XGBGG_Missing","GLOBAL",9)
+	!Global("XGBGG_Missing","GLOBAL",8)
+THEN
+  RESPONSE #100
+		XEquipItem("IMPINVIS","XGBGG",SLOT_RING_LEFT,UNEQUIP)
+		XEquipItem("IMPINVIS","XGBGG",SLOT_RING_RIGHT,UNEQUIP)
+		DestroyItem("IMPINVIS")
+END
+*/

@@ -1,0 +1,25 @@
+IF
+	Global("XGHOB33_SHOUT","LOCALS",0)
+	See([PC])
+THEN
+	RESPONSE #100
+		SetGlobal("XGHOB33_SHOUT","LOCALS",1)
+		DisplayStringHead("XGHOB33",#5138)
+END
+
+IF
+	!StateCheck(LastSeenBy(Myself),STATE_HASTED)
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_HASTE)  // SPWI305.SPL (H?te)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_HASTE)  // SPWI305.SPL (H?te)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MAGIC_MISSILE)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE)
+END

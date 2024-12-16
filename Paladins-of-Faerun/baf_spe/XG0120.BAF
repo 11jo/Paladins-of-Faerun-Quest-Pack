@@ -5,7 +5,32 @@ IF
 THEN
 	RESPONSE #100
 		CreateCreature("XGBGPS2",[926.424],8)
+		CreateCreature("XGBGPS1",[308.456],8)
 		CreateCreature("XGBG1",[396.566],14)
 		SetGlobal("XGPoFXGBGPS1","MYAREA",1)
+		Continue()
+END
+
+IF
+	Global("XGPoFinBG","GLOBAL",1)
+	RandomNum(2,1)
+	Global("Random_XGBGPS2","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Random_XGBGPS2","MYAREA",1)
+		ActionOverride("XGBGPS1",SetDialogue("XGBGPS2"))
+		ActionOverride("XGBGPS2",SetDialogue("XGBGPS1"))
+		Continue()
+END
+
+IF
+	Global("XGPoFinBG","GLOBAL",1)
+	RandomNum(2,2)
+	Global("Random_XGBGPS2","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Random_XGBGPS2","MYAREA",1)
+		ActionOverride("XGBGPS2",SetDialogue("XGBGPS2"))
+		ActionOverride("XGBGPS1",SetDialogue("XGBGPS1"))
 		Continue()
 END

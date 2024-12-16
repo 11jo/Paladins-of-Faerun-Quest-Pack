@@ -1,0 +1,79 @@
+IF	
+	AreaCheck("XG0070")
+OR(2)
+	Dead("XGHOB3")
+	!InMyArea("XGHOB3")
+OR(2)
+	Dead("XGHOB33")
+	!InMyArea("XGHOB33")
+THEN
+	RESPONSE #100
+		SetGlobal("XGNOBG_Close","MYAREA",0)
+		TriggerActivation("Travel",TRUE)
+		TriggerActivation("info070",FALSE)
+		TriggerActivation("inf1070",FALSE)
+END
+
+IF
+	Global("XGNOBG_TALK","MYAREA",1)
+	AreaCheck("XG0070")
+	InMyArea([EVILCUTOFF])
+THEN
+	RESPONSE #100
+		ActionOverride([EVILCUTOFF],DestroySelf())
+END
+
+IF
+	Global("XGNOBG_TALK","GLOBAL",1)
+	Global("XGNOBG_SAFE","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("XGNOBG_SAFE","MYAREA",1)
+		CreateCreature("XGNOBG3",[977.474],0)
+		CreateCreature("XGNOBG1",[410.692],0)
+		CreateCreature("XGNOBG2",[416.639],0)
+END
+
+IF
+	Global("XGNOBG_XGINFO70","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("XGNOBG_XGINFO70","MYAREA",1)
+		CreateCreature("XGHOB33",[2179.364],0)
+		CreateCreature("XGHOB222",[2277.480],0)
+		CreateCreature("XGHOB222",[1966.345],0)
+		CreateCreature("XGHOB222",[2075.465],0)
+		TriggerActivation("Travel",FALSE)
+		TriggerActivation("info070",TRUE)
+END
+
+IF
+	Global("XGNOBG_XGINFO70","MYAREA",2)
+OR(2)
+	!Dead("XGHOB3")
+	InMyArea("XGHOB3")
+OR(2)
+	!Dead("XGHOB33")
+	InMyArea("XGHOB33")
+THEN
+	RESPONSE #100
+		SetGlobal("XGNOBG_XGINFO70","MYAREA",1)
+		TriggerActivation("info070",FALSE)
+		TriggerActivation("inf1070",TRUE)
+END
+
+IF
+	Global("XGNOBG_INFO1070","MYAREA",1)
+OR(2)
+	!Dead("XGHOB3")
+	InMyArea("XGHOB3")
+OR(2)
+	!Dead("XGHOB33")
+	InMyArea("XGHOB33")
+THEN
+	RESPONSE #100
+		SetGlobal("XGNOBG_INFO1070","MYAREA",0)
+		TriggerActivation("inf1070",FALSE)
+		TriggerActivation("info070",TRUE)
+END
+

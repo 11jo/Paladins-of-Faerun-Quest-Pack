@@ -1,11 +1,21 @@
 IF
-  Global("RevealXG0170","XG0170",0)
-  Dead("XGHOB2A")  // ~Ёлитный хобгоблин~
-  Dead("XGHOB2B")  // ~Ёлитный хобгоблин~
+	Global("RevealXG0170","MYAREA",0)
+	Dead("XGHOB2A")
+	Dead("XGHOB2B")
 THEN
-  RESPONSE #100
-    SetGlobal("RevealXG0170","XG0170",1)
-    Wait(1)
-    ActionOverride("XGNOBG",StartDialogue("XGNOBG",Player1))
+	RESPONSE #100
+		SetGlobal("RevealXG0170","MYAREA",1)
+		Wait(1)
+		ActionOverride("XGNOBG",StartDialogue("XGNOBG",Player1))
 END
 
+IF
+	Global("XG0170_XGNOBG","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("XG0170_XGNOBG","MYAREA",1)
+		CreateCreatureObject("XGNOBG1","XGNOBG",0,0,0)
+		CreateCreatureObject("XGNOBG2","XGNOBG",0,0,0)
+		CreateCreatureObject("XGNOBG1","XGNOBG",0,0,0)
+		CreateCreatureObject("XGNOBG3","XGNOBG",0,0,0)
+END

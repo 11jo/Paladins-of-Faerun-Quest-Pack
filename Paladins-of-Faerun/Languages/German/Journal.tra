@@ -897,6 +897,18 @@ Found a Sword in Baldur's Gate, maybe one of the relics Thoice Chorster is looki
 
 Mission accomplished, missing items found, farewell.~
 
+@51707 = ~3 relics
+
+Found some Gauntlets in the Ice Fortress, maybe someone is looking for.~
+
+@51708 = ~3 relics
+
+Found some Boots in Calimshan desert, maybe someone is looking for.~
+
+@51709 = ~3 relics
+
+Found a Sword in Baldur's Gate, maybe someone is looking for.~
+
 	
 //////////////////////    Mine. .
 // Title
@@ -959,6 +971,76 @@ Eladriel war erfreut und gab mir sein Schwert.~
 @52003 = ~Turlan-Wald
 
 Im Verlies des Waldes fand ich den Herrn der Untoten, der einen magischen Nebel um den Wald legte, der dunklen Kreaturen Kraft verlieh und normale Menschen schwächte, die alle zu Werwölfen, Vampiren und Geistern verwandelt wurden. Ich habe ihn zerstört und den Wald gerettet, ich muss zurück zu Eladriel, um eine Belohnung zu bekommenum meine Belohnung zu erhalten.~
+
+//////////////////////    Ice Castle. .
+// Title XGELOR.D
+
+@52100 = ~Eisschloss~ // Ice Castle
+
+@52101 = ~Eisschloss
+
+Der Magier Elorion aus Baldurs Tor hat seine magischen Kräfte verloren, und sein Zauberbuch wurde ihm gestohlen. Er glaubt, dass der Dieb ein Rakshasa ist, ein sehr gefährliches Wesen, das sich im Norden Faerûns in einem Eisschloss aufhält.~
+
+@52102 = ~Eisschloss
+
+Auf der Insel fand ich den Rakshasa und tötete ihn. Ich erhielt auch ein Zauberbuch, das ich später dem Magier Elorion gab.~
+
+//////////////////////    Sorceress. .
+// Title XGARUNL.D
+
+@52200 = ~Eine Zauberin~ // Sorceress
+
+@52201 = ~Eine Zauberin
+
+Elf, der Anführer der Waldstadt, hat mich um Hilfe gebeten. Eine gewisse Zauberin hat sich in den Bergen nahe der Stadt niedergelassen und verwüstet die umliegenden Dörfer. Ich muss dorthin gehen, um mehr herauszufinden.~
+
+@52202 = ~Eine Zauberin
+
+The witch is defeated.~
+
+//////////////////////    Harp. .
+// Title XGBARD.D
+
+@52300 = ~Harfe~ // Harp
+
+@52301 = ~Harfe
+
+Der wandernde Barde hat im Kerker eine Harfe verloren. Wenn ich sie finde, muss ich zu ihm zurückkehren.~
+
+@52302 = ~Harfe
+
+Ich habe die Harfe gefunden und sie dem Barden zurückgegeben.~
+
+//////////////////////    The nobleman is in danger. .
+// Title XGMILC.D XGNOBG.D
+
+@52400 = ~Der Adlige ist in Gefahr~ // The nobleman is in danger
+
+@52401 = ~Der Adlige ist in Gefahr
+
+Ich habe eine zweite Aufgabe vom Hauptmann der Wache von Baldurs Tor erhalten. Diesmal muss ich mich um einige Waldkreaturen kümmern, die den Freund des Hauptmanns, einen Adligen in einem Dorf außerhalb der Stadtmauern, angegriffen haben.~
+
+@52402 = ~Der Adlige ist in Gefahr
+
+Ich habe einen Freund des Hauptmanns der Stadtwache von Baldurs Tor gerettet.~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

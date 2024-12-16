@@ -56,7 +56,7 @@
 @52 = ~Citoyen de la Porte de Baldur~
 @53 = ~Grand Duc Opas~
 @54 = ~Vampire assoiffé de sang~
-@55 = ~Magicien~
+@55 = ~Sorcier~
 @56 = ~Sœur de Bodhi~
 @57 = ~Maire~
 @58 = ~Garant de la Fraternité~
@@ -341,7 +341,7 @@
 @336 = ~Leader of the Forgotten Thieves~
 @337 = ~Thoice Chorster~
 @338 = ~Executioner~
-
+@339 = ~Maison de Rinnie~
 @340 = ~Trayak le sorcier~
 @341 = ~Trayak~
 @342 = ~The traveler from the West~
@@ -4274,7 +4274,9 @@ Poids : 20~
 @1054 = ~You were attacked by an undead paladin~
 @1055 = ~This small and rather unremarkable silver pendant is made in the form of a tiny sword, it hangs on a thin chain and is designed to be worn around the neck, under clothes.~ // Not found and not in other language files
 @1056 = ~As with other magical bags, this one appears to be a common cloth sack of about 2 feet by 4 feet size. The bag of holding opens into a nondimensional space, and its inside is larger than its outside dimensions. Regardless of what is put into this item, the bag always weighs a fixed amount.~ // Not found and not in other language files
-
+@1057 = ~Rohma~
+@1058 = ~I have to go, my mom is waiting.~
+@1059 = ~Thanks for rescuing me !~
 
 ///Additions///
 
@@ -4355,6 +4357,7 @@ Le magicien pointe son doigt dans la direction désirée et projette une sphère d'
  
 @1500 = ~Demeure du Seigneur Nasher~  // XG0048.ARE
 @1501 = ~Vers la Passe du Géant~  // XG0016.ARE
+@1502 = ~Bateau vers le continent~  // XG0052.ARE
 
 
 // XG0016 Info Trigger
@@ -4393,12 +4396,16 @@ Le magicien pointe son doigt dans la direction désirée et projette une sphère d'
 // XG0702 Witch Pal
 @1637 = ~Des gnons, pas des mots !~ // Swords, not words!
 @1638 = ~Je me dresse pour ma sorcière !~ // Stand back for justice!
-@1639 = ~What ?~
+@1639 = ~Hein ?~
 @1640 = ~Vous ne distinguez rien dans l'obscurité.~
 
 // XG0302 Turlang crypte
 @1641 = ~Clé secrète~
 @1642 = ~Trouvée sur la dépouille du Lord of the Undead cette clé ouvre probablement une porte de ce complexe souterrain.~
+
+// XG0070
+@1643 = ~Vous entendez des grognements d'orcs et des sanglots terrifiés.~
+@1644 = ~Impossible d'enfoncer la porte tant que les chefs de la horde n'ont pas été vaincus.~
 
 
 
@@ -4417,6 +4424,9 @@ Le magicien pointe son doigt dans la direction désirée et projette une sphère d'
 // AR0800 Novice Temple oublié
 @3004 = ~Hé ! regardez par ici !~
 
+//....
+@3005 = ~Heu... Hum ! Hum !~
+
 // AR0700 Marian the smithy
 @3007 = ~Que vais-je bien pouvoir faire...~
 @3008 = ~C'est inextricable.~
@@ -4425,8 +4435,6 @@ Le magicien pointe son doigt dans la direction désirée et projette une sphère d'
 @3010 = ~Mon village a besoin d'aide !~
 
 
-//....
-@3005 = ~Heu... Hum ! Hum !~
 
 // gw_functions.tpa for item description
 

@@ -14,6 +14,7 @@ IF ~~ THEN BEGIN 2
   SAY @5
   IF ~~ THEN REPLY @7 DO ~TakePartyItem("XGZAT3")
 GiveItemCreate("XGZAT4",Player1,0,0,0)
+SetGlobal("XGBGG_Missing","GLOBAL",1)
 AddJournalEntry(@51504,QUEST)~ EXIT
 END
 

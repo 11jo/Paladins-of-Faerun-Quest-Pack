@@ -205,6 +205,8 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0019.ARE~         ~override/XG00
 				fj_structure_type = "variable"
 				fj_name           = "XGNEWGAME_SOA"
 			END
+	ADD_MAP_NOTE #1122 #2654 ~BLUE~ @339
+	ADD_MAP_NOTE #1466 #2707 ~red~ #20658
 
 //END
 
@@ -446,6 +448,8 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0049.ARE~         ~override/XG00
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0050.ARE~         ~override/XG0050.ARE~
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0052.ARE~         ~override/XG0052.ARE~
+		WRITE_ASCII 0x94 ~XG0052~ #8
+	ADD_MAP_NOTE #505 #2245 ~gray~ @1502
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0053.ARE~         ~override/XG0053.ARE~
 // SAY 0x3104 ~~
@@ -586,7 +590,56 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0069.ARE~         ~override/XG00
 			fj_name  = XGPOP
 		END  
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0070.ARE~         ~override/XG0070.ARE~         
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0070.ARE~         ~override/XG0070.ARE~
+		WRITE_ASCII 0x94 ~XG0070~ #8
+		LPF fj_are_structure
+			INT_VAR
+			fj_type			= 1    // Info point
+			fj_box_left		= 508
+			fj_box_top		= 365
+			fj_box_right	= 553
+			fj_box_bottom	= 430
+			fj_cursor_idx	= 22   // curseur ?
+			fj_info_point_strref  = RESOLVE_STR_REF (@432)
+			fj_loc_x		= 530
+			fj_loc_y		= 397
+			fj_vertex_0		= 553 + (408 << 16)
+			fj_vertex_1		= 507 + (430 << 16)
+			fj_vertex_2		= 510 + (376 << 16)
+			fj_vertex_3		= 538 + (364 << 16)
+			fj_vertex_4		= 548 + (375 << 16)
+			fj_vertex_5		= 553 + (401 << 16)
+			fj_vertex_6		= 553 + (408 << 16)
+			fj_trap_active		= 1
+			STR_VAR
+			fj_structure_type	= region
+			fj_name				= info070
+			fj_reg_script 		= XGinfo70
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type			= 1    // Info point
+			fj_box_left		= 508
+			fj_box_top		= 365
+			fj_box_right	= 553
+			fj_box_bottom	= 430
+			fj_cursor_idx	= 8   // curseur interaction
+			// fj_info_point_strref  = RESOLVE_STR_REF (@432)
+			fj_loc_x		= 530
+			fj_loc_y		= 397
+			fj_vertex_0		= 553 + (408 << 16)
+			fj_vertex_1		= 507 + (430 << 16)
+			fj_vertex_2		= 510 + (376 << 16)
+			fj_vertex_3		= 538 + (364 << 16)
+			fj_vertex_4		= 548 + (375 << 16)
+			fj_vertex_5		= 553 + (401 << 16)
+			fj_vertex_6		= 553 + (408 << 16)
+			fj_trap_active		= 1
+			STR_VAR
+			fj_structure_type	= region
+			fj_name				= inf1070
+			fj_reg_script 		= XG1nfo70
+		END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0071.ARE~         ~override/XG0071.ARE~         
 
@@ -1244,6 +1297,11 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0720.ARE~         ~override/XG07
 	SAY 0x1170 @428
 	SAY 0x1234 @428
 	SAY 0x13bc @429
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGHAR"
+		script_override = ~XGHAR~
+	END
 
 ACTION_IF GAME_IS ~bgt eet~ BEGIN
 	COPY_EXISTING ~XG0720.ARE~ ~override~
@@ -1400,6 +1458,17 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG1057.ARE~         ~override/XG10
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG1080.ARE~         ~override/XG1080.ARE~
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG1120.ARE~         ~override/XG1120.ARE~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGARTBG"
+		script_override = ~SHOUT6~
+	END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGBGG"
+		script_override = ~SHOUT6~
+		script_default = ~XGBGG~ // Set by XGBGG.d
+	END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG1134.ARE~         ~override/XG1134.ARE~
 

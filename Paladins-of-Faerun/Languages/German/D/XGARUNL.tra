@@ -11,9 +11,13 @@
 @11 = ~Vor ein paar Jahren hat sich eine Zauberin in einer Burg in den Bergen nicht weit von hier niedergelassen. Mein Volk hat dort Häuser, und die Zauberin hat alles zerstört, 3 Dörfer wurden niedergebrannt. Die Leute brauchen meine Hilfe, aber ich habe nicht genug Soldaten und nicht genug Gold, um dieses Problem zu lösen, aber ich glaube, dass Ihr in die Burg eindringen und die Zauberin aufhalten könnt.~
 @12 = ~Nun, ich werde in die Berge gehen, um die Zauberin zu finden, während Ihr versucht, wenigstens ein paar Informationen darüber zu bekommen, wo Gradak zu finden ist.~
 @13 = ~Ich werde alles in meiner Macht stehende tun, <CHARNAME>. Ich wünsche Euch viel Glück. Lebt wohl.~
+
+/*
 @14 = ~Eine Zauberin.
 
 Elf, der Anführer der Waldstadt, hat mich um Hilfe gebeten. Eine gewisse Zauberin hat sich in den Bergen nahe der Stadt niedergelassen und verwüstet die umliegenden Dörfer. Ich muss dorthin gehen, um mehr herauszufinden.~
+*/
+
 @15 = ~Auf Wiedersehen.~
 @16 = ~Ihr seid zurück, also sagt mir, warum Ihr hergekommen seid, Fremder?~ ~Ihr seid zurück, also sagt mir, warum Ihr hergekommen seid, Fremde?~
 @17 = ~Also, was sagt Ihr?~

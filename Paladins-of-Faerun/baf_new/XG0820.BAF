@@ -20,3 +20,26 @@ THEN
 		SetGlobal("XGPoFXGBGPS2","MYAREA",1)
 		Continue()
 END
+
+IF
+	Global("XGPoFinBG","GLOBAL",1)
+	RandomNum(2,1)
+	Global("Random_XGBGPS2","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Random_XGBGPS2","MYAREA",1)
+		ActionOverride("XGBGPS2",SetDialogue("XGBGPS1"))
+		Continue()
+END
+
+IF
+	Global("XGPoFinBG","GLOBAL",1)
+	RandomNum(2,2)
+	Global("Random_XGBGPS2","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Random_XGBGPS2","MYAREA",1)
+		ActionOverride("XGBGPS2",SetDialogue("XGBGPS2"))
+		Continue()
+END
+

@@ -1,0 +1,39 @@
+// XG0020 Garnison
+
+IF
+	Global("XGFLAF12_ishere","MYAREA",2)
+	AreaCheck("XG0020")
+THEN
+	RESPONSE #100
+		ActionOverride("XGFLAF12",MoveToPointNoInterrupt([1440.3023]))
+		SetGlobal("XGFLAF12_ishere","MYAREA",3)
+END
+
+IF
+	Global("XGFLAM12_ishere","MYAREA",2)
+	AreaCheck("XG0020")
+THEN
+	RESPONSE #100
+		ActionOverride("XGFLAM12",MoveToPointNoInterrupt([1440.3023]))
+		SetGlobal("XGFLAM12_ishere","MYAREA",3)
+END
+
+// BG0020 Ducal Palace
+
+IF
+	Global("XGFLAF12_ishere","MYAREA",2)
+	AreaCheck("%NBaldursGate%")
+THEN
+	RESPONSE #100
+		ActionOverride("XGFLAF12",MoveToPointNoInterrupt([1915.2883]))
+		SetGlobal("XGFLAF12_ishere","MYAREA",3)
+END
+
+IF
+	Global("XGFLAM12_ishere","MYAREA",2)
+	AreaCheck("%NBaldursGate%")
+THEN
+	RESPONSE #100
+		ActionOverride("XGFLAM12",MoveToPointNoInterrupt([1915.2883]))
+		SetGlobal("XGFLAM12_ishere","MYAREA",3)
+END

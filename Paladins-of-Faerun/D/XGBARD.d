@@ -14,8 +14,8 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @6
-  IF ~~ THEN REPLY @7 DO ~SetGlobal("XGBARDTalk","LOCALS",1)~
-UNSOLVED_JOURNAL @8 EXIT
+  IF ~~ THEN REPLY @7 DO ~SetGlobal("XGBARDTalk","LOCALS",1)
+AddJournalEntry(@52301,QUEST)~ EXIT
 END
 
 IF ~Global("XGBARDTalk","LOCALS",1)
@@ -33,7 +33,8 @@ END
 IF ~~ THEN BEGIN 5
   SAY @12
   IF ~~ THEN DO ~AddexperienceParty(20000)
-EraseJournalEntry(@8)
+EraseJournalEntry(@52301)
 SetGlobal("XGBARDTalk","LOCALS",2)
-EscapeArea()~ SOLVED_JOURNAL @13 EXIT
+AddJournalEntry(@52302,QUEST)
+EscapeArea()~ EXIT
 END

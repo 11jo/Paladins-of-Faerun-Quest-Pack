@@ -35,18 +35,21 @@ IF ~~ THEN BEGIN 6
   SAY @13
   IF ~~ THEN REPLY @15 DO ~RevealAreaOnMap("XG0007")
 SetNumTimesTalkedTo(2)
-~ UNSOLVED_JOURNAL @14 EXIT
+AddJournalEntry(@52201,QUEST)
+~ EXIT
 END
 
 IF ~NumTimesTalkedTo(1)~ THEN BEGIN 7
   SAY @16
   IF ~~ THEN REPLY @2 GOTO 12
+  IF ~~ THEN REPLY @3 GOTO 16
 END
 
 IF ~PartyHasItem("XGWH")
 Dead("XGWTCH1")~ THEN BEGIN 8
   SAY @17
-  IF ~~ THEN REPLY @18 GOTO 9
+  IF ~~ THEN REPLY @18 DO ~AddJournalEntry(@52202,QUEST_DONE)
+~ GOTO 9
 END
 
 IF ~~ THEN BEGIN 9
@@ -101,7 +104,8 @@ IF ~~ THEN BEGIN 18
   SAY @13
   IF ~~ THEN REPLY @15 DO ~RevealAreaOnMap("XG0007")
 SetNumTimesTalkedTo(2)
-~ UNSOLVED_JOURNAL @14 EXIT
+AddJournalEntry(@52201,QUEST)
+~ EXIT
 END
 
 IF ~NumTimesTalkedTo(2)

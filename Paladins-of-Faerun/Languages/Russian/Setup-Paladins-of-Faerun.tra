@@ -339,7 +339,7 @@
 @336  = ~Лидер забытых воров~
 @337  = ~Тойсе Хорстер~
 @338  = ~Палач~
-
+@339 = ~Rinnie House~
 @340  = ~Колдун Траяк~
 @341  = ~Траяк~
 @342  = ~Путешественник с запада~
@@ -3845,6 +3845,11 @@ Weight: 20~
 @1052 = ~На нас напали эльфы!~
 @1053 = ~Вход в Андердарк~
 @1054 = ~Ты напал на паладина нежить~
+@1055 = ~This small and rather unremarkable silver pendant is made in the form of a tiny sword, it hangs on a thin chain and is designed to be worn around the neck, under clothes.~ // Not found and not in other language files
+@1056 = ~As with other magical bags, this one appears to be a common cloth sack of about 2 feet by 4 feet size. The bag of holding opens into a nondimensional space, and its inside is larger than its outside dimensions. Regardless of what is put into this item, the bag always weighs a fixed amount.~ // Not found and not in other language files
+@1057 = ~Rohma~
+@1058 = ~I have to go, my mom is waiting.~
+@1059 = ~Thanks for rescuing me !~
 
 ///Additions///
 
@@ -3913,6 +3918,7 @@ The wizard points his finger in the desired direction and projects a sphere of n
 
 @1500 = ~Lord Nasher's residence~
 @1501 = ~To Giant's Pass~  // XG0016.ARE
+@1502 = ~Boat to the continent~  // XG0052.ARE
 
 
 // XG0016 Info Trigger
@@ -3957,6 +3963,10 @@ The wizard points his finger in the desired direction and projects a sphere of n
 // XG0302 Turlang crypte
 @1641 = ~Secret key~
 @1642 = ~Found among the remains of the Lord of the Undead, this key probably opens a door to this underground complex.~
+
+// XG0070
+@1643 = ~You hear orcs grunting and frightened sobs.~
+@1644 = ~It's impossible to force the entrance until the leader of the horde have been defeated.~
 
 // Messagers
 

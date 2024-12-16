@@ -28,19 +28,39 @@ SetGlobal("XGZATon","GLOBAL",1)
 AddJournalEntry(@51501,QUEST)~ EXIT
 END
 
-IF ~PartyHasItem("XGZAT5")~ THEN BEGIN 4
+IF ~PartyHasItem("XGZAT5")
+OR(2)
+	Global("XGBGG_Missing","GLOBAL",4)
+	Global("XGBGG_Missing","GLOBAL",5)~ THEN BEGIN 4
   SAY @12
-  IF ~~ THEN REPLY @13 GOTO 6
+  IF ~~ THEN REPLY @13 DO ~GiveItemCreate("MISC07",Player1,5000,0,0)~ GOTO 6
 END
 
-IF ~PartyHasItem("XGZAT6")~ THEN BEGIN 5
+IF ~PartyHasItem("XGZAT5")
+	!Global("XGBGG_Missing","GLOBAL",4)
+	!Global("XGBGG_Missing","GLOBAL",5)~ THEN BEGIN 13
   SAY @12
-  IF ~~ THEN REPLY @14 GOTO 7
+  IF ~~ THEN REPLY @13 DO ~GiveItemCreate("MISC07",Player1,2000,0,0)~ GOTO 6
+END
+
+IF ~PartyHasItem("XGZAT6")
+OR(2)
+	Global("XGBGG_Missing","GLOBAL",4)
+	Global("XGBGG_Missing","GLOBAL",5)~ THEN BEGIN 5
+  SAY @12
+  IF ~~ THEN REPLY @14 DO ~GiveItemCreate("MISC07",Player1,3000,0,0)~ GOTO 7
+END
+
+IF ~PartyHasItem("XGZAT6")
+	!Global("XGBGG_Missing","GLOBAL",4)
+	!Global("XGBGG_Missing","GLOBAL",5)~ THEN BEGIN 14
+  SAY @12
+  IF ~~ THEN REPLY @14 DO ~GiveItemCreate("MISC07",Player1,2000,0,0)~ GOTO 7
 END
 
 IF ~NumTimesTalkedTo(1)
 !PartyHasItem("XGZAT5")
-!PartyHasItem("XGZAT6")~ THEN BEGIN 4
+!PartyHasItem("XGZAT6")~ THEN BEGIN 15
   SAY @12
   IF ~~ THEN DO ~SetNumTimesTalkedTo(1)~ EXIT
 END
@@ -54,16 +74,16 @@ EraseJournalEntry(@51503)
 EraseJournalEntry(@51504)
 EraseJournalEntry(@51505)
 EraseJournalEntry(@51506)
-GiveItemCreate("MISC07",Player1,5000,0,0)
 AddJournalEntry(@51502,QUEST_DONE)~ EXIT
-  IF ~~ THEN REPLY @22 DO ~SetNumTimesTalkedTo(2)
+  IF ~OR(2)
+	Global("XGBGG_Missing","GLOBAL",4)
+	Global("XGBGG_Missing","GLOBAL",5)~ THEN REPLY @22 DO ~SetNumTimesTalkedTo(2)
 TakePartyItem("XGZAT5")
 EraseJournalEntry(@51501)
 EraseJournalEntry(@51503)
 EraseJournalEntry(@51504)
 EraseJournalEntry(@51505)
 EraseJournalEntry(@51506)
-GiveItemCreate("MISC07",Player1,5000,0,0)
 AddJournalEntry(@51502,QUEST_DONE)~ GOTO 8
 END
 
@@ -76,17 +96,17 @@ EraseJournalEntry(@51504)
 EraseJournalEntry(@51505)
 EraseJournalEntry(@51506)
 TakePartyItem("XGZAT6")
-GiveItemCreate("MISC07",Player1,5000,0,0)
 AddJournalEntry(@51507,QUEST_DONE)~ EXIT
-  IF ~~ THEN REPLY @22 DO ~SetNumTimesTalkedTo(2)
+  IF ~OR(2)
+	Global("XGBGG_Missing","GLOBAL",4)
+	Global("XGBGG_Missing","GLOBAL",5)~ THEN REPLY @22 DO ~SetNumTimesTalkedTo(2)
+TakePartyItem("XGZAT5")
 EraseJournalEntry(@51501)
 EraseJournalEntry(@51503)
 EraseJournalEntry(@51504)
 EraseJournalEntry(@51505)
 EraseJournalEntry(@51506)
-TakePartyItem("XGZAT6")
-GiveItemCreate("MISC07",Player1,5000,0,0)
-AddJournalEntry(@51507,QUEST_DONE)~ GOTO 9
+AddJournalEntry(@51502,QUEST_DONE)~ GOTO 8
 END
 
 IF ~~ THEN BEGIN 8
@@ -94,34 +114,56 @@ IF ~~ THEN BEGIN 8
   IF ~~ THEN REPLY @27 DO ~RevealAreaOnMap("XG0070")
 SetGlobal("XGZATon","GLOBAL",2)
 SetNumTimesTalkedTo(3)
-~ UNSOLVED_JOURNAL @26 EXIT
+AddJournalEntry(@52401,QUEST)
+~ EXIT
 END
 
+/*
 IF ~~ THEN BEGIN 9
   SAY @25
   IF ~~ THEN REPLY @27 DO ~RevealAreaOnMap("XG0070")
 SetGlobal("XGZATon","GLOBAL",2)
 SetNumTimesTalkedTo(3)
-~ UNSOLVED_JOURNAL @26 EXIT
+AddJournalEntry(@52401,QUEST)
+~ EXIT
 END
+*/
 
 IF ~NumTimesTalkedTo(2)~ THEN BEGIN 10
   SAY @28
   IF ~~ THEN REPLY @29 DO ~SetNumTimesTalkedTo(2)
 ~ EXIT
-  IF ~~ THEN REPLY @22 GOTO 11
+  IF ~~ THEN REPLY @22 GOTO 8 // GOTO 11
 END
 
+/*
 IF ~~ THEN BEGIN 11
   SAY @25
   IF ~~ THEN REPLY @27 DO ~RevealAreaOnMap("XG0070")
 SetGlobal("XGZATon","GLOBAL",2)
 SetNumTimesTalkedTo(3)
-~ UNSOLVED_JOURNAL @26 EXIT
+AddJournalEntry(@52401,QUEST)
+~ EXIT
 END
+*/
 
-IF ~NumTimesTalkedTo(3)~ THEN BEGIN 12
+IF ~NumTimesTalkedTo(3)
+Global("XGZATon","GLOBAL",0)
+	!Dead("XGNOBG")
+	!Dead("XGBGG")
+OR(2)
+	Global("XGBGG_Missing","GLOBAL",4)
+	Global("XGBGG_Missing","GLOBAL",5)~ THEN BEGIN 12
   SAY @30
   IF ~~ THEN DO ~SetNumTimesTalkedTo(3)
 ~ EXIT
 END
+
+IF ~NumTimesTalkedToGT(1)
+	!Global("XGBGG_Missing","GLOBAL",4)
+	!Global("XGBGG_Missing","GLOBAL",5)~ THEN BEGIN 16
+  SAY @28
+  IF ~~ THEN DO ~SetNumTimesTalkedTo(3)
+~ EXIT
+END
+

@@ -896,6 +896,18 @@ Found a Sword in Baldur's Gate, maybe one of the relics Thoice Chorster is looki
 
 Mission accomplished, missing items found, farewell.~
 
+@51707 = ~3 relics
+
+Found some Gauntlets in the Ice Fortress, maybe someone is looking for.~
+
+@51708 = ~3 relics
+
+Found some Boots in Calimshan desert, maybe someone is looking for.~
+
+@51709 = ~3 relics
+
+Found a Sword in Baldur's Gate, maybe someone is looking for.~
+
 	
 //////////////////////    Mine. .
 // Title
@@ -958,6 +970,76 @@ Eladriel was pleased and gave me his sword.~
 @52003 = ~Turlan forest
 
 In the dungeon of the forest, I found the Lord of the Undead, creating a magical fog around the forest, which gave strength to dark creatures and weakened normal people, they were all turned into werewolves, vampires and ghosts. I destroyed it and saved the forest, I have to go back to Eladriel for a reward.~
+
+//////////////////////    Ice Castle. .
+// Title XGELOR.D
+
+@52100 = ~Ice Castle~ // Ice Castle
+
+@52101 = ~Ice Castle
+
+The mage Elorion of Baldur's Gate has lost his magical power, and a spell book has been stolen from him. He thinks that the thief is Rakshasa, a very dangerous creature located in the north of Faer Ôn in Ice Castle.~
+
+@52102 = ~Ice Castle
+
+On the island, I found Rakshasa and killed him. Yataka also received a spell book, which he subsequently gave to the magician Elorion.~
+
+//////////////////////    Sorceress. .
+// Title XGARUNL.D
+
+@52200 = ~Sorceress~ // Sorceress
+
+@52201 = ~Sorceress
+
+Elf, the leader of the forest city, asked me to help. A certain witch settled in the mountains near the city and destroys the surrounding villages. I have to go there to find out more.~
+
+@52202 = ~Sorceress
+
+The witch is defeated.~
+
+//////////////////////    Harp. .
+// Title XGBARD.D
+
+@52300 = ~Harp~ // Harp
+
+@52301 = ~Harp
+
+The wandering Bard lost a harp in the dungeon. If I find her, then I need to return to him.~
+
+@52302 = ~Harp
+
+I found the harp and returned it to the bard.~
+
+//////////////////////    The nobleman is in danger. .
+// Title XGMILC.D XGNOBG.D
+
+@52400 = ~The nobleman is in danger~ // The nobleman is in danger
+
+@52401 = ~The nobleman is in danger
+
+I got the second task from the guard capit at Baldur's Gate. This time I have to deal with some forest creatures that attacked the friend of the captain, a nobleman in the village outside the city walls.~
+
+@52402 = ~The nobleman is in danger
+
+I saved a friend of the captain of the city guard at Baldur's Gate.~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

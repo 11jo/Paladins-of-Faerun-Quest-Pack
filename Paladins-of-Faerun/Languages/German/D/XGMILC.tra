@@ -51,11 +51,11 @@ Die Diebesgilde, die sich unter der Stadt versteckt hat, ist jetzt ereledigt. Ab
 
 @25 = ~Ja, da ist noch etwas anderes. Vor nicht allzu langer Zeit erhielt ich beunruhigende Nachrichten aus einem Dorf jenseits von Balurs Tor. Einige Kreaturen aus dem Wald griffen das Dorf an. Ein Adliger, der dort mit seiner Familie lebt, ist ein Freund von mir, helft ihm.~
 
-
+/*
 @26 = ~Der Adlige ist in Gefahr.
 
 Ich habe eine zweite Aufgabe vom Hauptmann der Wache von Baldurs Tor erhalten. Diesmal muss ich mich um einige Waldkreaturen kümmern, die den Freund des Hauptmanns, einen Adligen in einem Dorf außerhalb der Stadtmauern, angegriffen haben.~
-
+*/
 
 @27 = ~Ich werde mein Bestes tun, Hauptmann.~
 @28 = ~Was wollt Ihr?~

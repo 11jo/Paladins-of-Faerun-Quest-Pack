@@ -10,15 +10,15 @@ IF ~!NumTimesTalkedTo(0)~ THEN BEGIN 0.1
 IF ~PartyHasItem("XGGLAVE")~ THEN REPLY @20 /*~J'ai une épée longue récupérer dans mes combat avec les paladins de Féérune.~*/ GOTO 1
 IF ~PartyHasItem("SW1H04")~ THEN REPLY @21 /*~J'ai une épée longue normale.~*/ GOTO 10
 // To create +2
-IF ~PartyHasItem("XGGLAV7")~ THEN REPLY @22 /*~J'ai une épée longue de feu +1 de votre création.~*/ DO ~SetGlobal("XGGLAV7","GLOBAL",1)~ GOTO 20
-IF ~PartyHasItem("XGGLAV8")~ THEN REPLY @23 /*~J'ai une épée longue de glace +1 de votre création.~*/ DO ~SetGlobal("XGGLAV8","GLOBAL",1)~ GOTO 20
-IF ~PartyHasItem("XGGLAV9")~ THEN REPLY @24 /*~J'ai une épée longue acide +1 de votre création.~*/ DO ~SetGlobal("XGGLAV9","GLOBAL",1)~ GOTO 20
-IF ~PartyHasItem("XGLAV10")~ THEN REPLY @25 /*~J'ai une épée longue empoisonnée +1 de votre création.~*/ DO ~SetGlobal("XGLAV10","GLOBAL",1)~ GOTO 20
+IF ~PartyHasItem("XGGLAV7")~ THEN REPLY @22 /*~J'ai une épée longue de feu +1 de votre création.~*/ DO ~SetGlobal("XGGLAV7","LOCALS",1)~ GOTO 20
+IF ~PartyHasItem("XGGLAV8")~ THEN REPLY @23 /*~J'ai une épée longue de glace +1 de votre création.~*/ DO ~SetGlobal("XGGLAV8","LOCALS",1)~ GOTO 20
+IF ~PartyHasItem("XGGLAV9")~ THEN REPLY @24 /*~J'ai une épée longue acide +1 de votre création.~*/ DO ~SetGlobal("XGGLAV9","LOCALS",1)~ GOTO 20
+IF ~PartyHasItem("XGLAV10")~ THEN REPLY @25 /*~J'ai une épée longue empoisonnée +1 de votre création.~*/ DO ~SetGlobal("XGLAV10","LOCALS",1)~ GOTO 20
 // To create +3
-IF ~PartyHasItem("XGGLAV17") GlobalGT("Chapter","GLOBAL","%bg2_chapter_4%")~ THEN REPLY @26 /*~J'ai une épée longue de feu +2 de votre création.~*/ DO ~SetGlobal("XGGLAV17","GLOBAL",1)~ GOTO 30
-IF ~PartyHasItem("XGGLAV18") GlobalGT("Chapter","GLOBAL","%bg2_chapter_4%")~ THEN REPLY @27 /*~J'ai une épée longue de glace +2 de votre création.~*/ DO ~SetGlobal("XGGLAV18","GLOBAL",1)~ GOTO 30
-IF ~PartyHasItem("XGGLAV19") GlobalGT("Chapter","GLOBAL","%bg2_chapter_4%")~ THEN REPLY @28 /*~J'ai une épée longue acide +2 de votre création.~*/ DO ~SetGlobal("XGGLAV19","GLOBAL",1)~ GOTO 30
-IF ~PartyHasItem("XGLAV11") GlobalGT("Chapter","GLOBAL","%bg2_chapter_4%")~ THEN REPLY @29 /*~J'ai une épée longue empoisonnée +2 de votre création.~*/ DO ~SetGlobal("XGLAV11","GLOBAL",1)~ GOTO 30
+IF ~PartyHasItem("XGGLAV17") GlobalGT("Chapter","GLOBAL","%bg2_chapter_4%")~ THEN REPLY @26 /*~J'ai une épée longue de feu +2 de votre création.~*/ DO ~SetGlobal("XGGLAV17","LOCALS",1)~ GOTO 30
+IF ~PartyHasItem("XGGLAV18") GlobalGT("Chapter","GLOBAL","%bg2_chapter_4%")~ THEN REPLY @27 /*~J'ai une épée longue de glace +2 de votre création.~*/ DO ~SetGlobal("XGGLAV18","LOCALS",1)~ GOTO 30
+IF ~PartyHasItem("XGGLAV19") GlobalGT("Chapter","GLOBAL","%bg2_chapter_4%")~ THEN REPLY @28 /*~J'ai une épée longue acide +2 de votre création.~*/ DO ~SetGlobal("XGGLAV19","LOCALS",1)~ GOTO 30
+IF ~PartyHasItem("XGLAV11") GlobalGT("Chapter","GLOBAL","%bg2_chapter_4%")~ THEN REPLY @29 /*~J'ai une épée longue empoisonnée +2 de votre création.~*/ DO ~SetGlobal("XGLAV11","LOCALS",1)~ GOTO 30
 // To create special combinaison +1
 IF ~PartyHasItem("XGGLAV7") PartyHasItem("XGGLAV8") PartyHasItem("XGGLAV9") PartyHasItem("XGLAV10")~ THEN REPLY @35 /*~J'ai un set complet de vos épées longue +1.~*/ GOTO 100
 // To create special combinaison +2
@@ -107,45 +107,45 @@ END
 // To create +2
 IF ~~ THEN BEGIN 20
   SAY @3
-  IF ~PartyGoldGT(5000) Global("XGGLAV7","GLOBAL",1) PartyHasItem("XGGLAV7")~ THEN REPLY @12 DO ~SetGlobal("XGGLAV7","GLOBAL",0) TakePartyItem("XGGLAV7")
+  IF ~PartyGoldGT(5000) Global("XGGLAV7","LOCALS",1) PartyHasItem("XGGLAV7")~ THEN REPLY @12 DO ~SetGlobal("XGGLAV7","LOCALS",0) TakePartyItem("XGGLAV7")
 GiveItemCreate("XGGLAV17",Player1,0,0,0) DestroyItem("XGGLAV7")
 TakePartyGold(5000)
 ~ EXIT
-  IF ~PartyGoldGT(5000) Global("XGGLAV8","GLOBAL",1) PartyHasItem("XGGLAV8")~ THEN REPLY @13 DO ~SetGlobal("XGGLAV8","GLOBAL",0) TakePartyItem("XGGLAV8")
+  IF ~PartyGoldGT(5000) Global("XGGLAV8","LOCALS",1) PartyHasItem("XGGLAV8")~ THEN REPLY @13 DO ~SetGlobal("XGGLAV8","LOCALS",0) TakePartyItem("XGGLAV8")
 GiveItemCreate("XGGLAV18",Player1,0,0,0) DestroyItem("XGGLAV8")
 TakePartyGold(5000) 
 ~ EXIT
-  IF ~PartyGoldGT(5000) Global("XGGLAV9","GLOBAL",1) PartyHasItem("XGGLAV9")~ THEN REPLY @14 DO ~SetGlobal("XGGLAV9","GLOBAL",0) TakePartyItem("XGGLAV9")
+  IF ~PartyGoldGT(5000) Global("XGGLAV9","LOCALS",1) PartyHasItem("XGGLAV9")~ THEN REPLY @14 DO ~SetGlobal("XGGLAV9","LOCALS",0) TakePartyItem("XGGLAV9")
 GiveItemCreate("XGGLAV19",Player1,0,0,0) DestroyItem("XGGLAV9")
 TakePartyGold(5000)
 ~ EXIT
-  IF ~PartyGoldGT(6000) Global("XGLAV10","GLOBAL",1) PartyHasItem("XGLAV10")~ THEN REPLY @15 DO ~SetGlobal("XGLAV10","GLOBAL",0) TakePartyItem("XGLAV10")
+  IF ~PartyGoldGT(6000) Global("XGLAV10","LOCALS",1) PartyHasItem("XGLAV10")~ THEN REPLY @15 DO ~SetGlobal("XGLAV10","LOCALS",0) TakePartyItem("XGLAV10")
 GiveItemCreate("XGLAV11",Player1,0,0,0) DestroyItem("XGLAV10")
 TakePartyGold(6000)
 ~ EXIT
-  IF ~~ THEN REPLY @8 DO ~SetGlobal("XGGLAV7","GLOBAL",0) SetGlobal("XGGLAV8","GLOBAL",0) SetGlobal("XGGLAV9","GLOBAL",0) SetGlobal("XGLAV10","GLOBAL",0)~ EXIT
+  IF ~~ THEN REPLY @8 DO ~SetGlobal("XGGLAV7","LOCALS",0) SetGlobal("XGGLAV8","LOCALS",0) SetGlobal("XGGLAV9","LOCALS",0) SetGlobal("XGLAV10","LOCALS",0)~ EXIT
 END
 
 // To create +3
 IF ~~ THEN BEGIN 30
   SAY @3
-  IF ~PartyGoldGT(10000) Global("XGGLAV17","GLOBAL",1) PartyHasItem("XGGLAV17")~ THEN REPLY @16 DO ~TakePartyItem("XGGLAV17")
+  IF ~PartyGoldGT(10000) Global("XGGLAV17","LOCALS",1) PartyHasItem("XGGLAV17")~ THEN REPLY @16 DO ~TakePartyItem("XGGLAV17")
 GiveItemCreate("XGGLAV27",Player1,0,0,0) DestroyItem("XGGLAV17")
-TakePartyGold(10000) SetGlobal("XGGLAV17","GLOBAL",0)
+TakePartyGold(10000) SetGlobal("XGGLAV17","LOCALS",0)
 ~ EXIT
-  IF ~PartyGoldGT(10000) Global("XGGLAV18","GLOBAL",1) PartyHasItem("XGGLAV18")~ THEN REPLY @17 DO ~TakePartyItem("XGGLAV18")
+  IF ~PartyGoldGT(10000) Global("XGGLAV18","LOCALS",1) PartyHasItem("XGGLAV18")~ THEN REPLY @17 DO ~TakePartyItem("XGGLAV18")
 GiveItemCreate("XGGLAV28",Player1,0,0,0) DestroyItem("XGGLAV18")
-TakePartyGold(10000) SetGlobal("XGGLAV18","GLOBAL",0)
+TakePartyGold(10000) SetGlobal("XGGLAV18","LOCALS",0)
 ~ EXIT
-  IF ~PartyGoldGT(10000) Global("XGGLAV19","GLOBAL",1) PartyHasItem("XGGLAV19")~ THEN REPLY @18 DO ~TakePartyItem("XGGLAV19")
+  IF ~PartyGoldGT(10000) Global("XGGLAV19","LOCALS",1) PartyHasItem("XGGLAV19")~ THEN REPLY @18 DO ~TakePartyItem("XGGLAV19")
 GiveItemCreate("XGGLAV29",Player1,0,0,0) DestroyItem("XGGLAV19")
-TakePartyGold(10000) SetGlobal("XGGLAV19","GLOBAL",0)
+TakePartyGold(10000) SetGlobal("XGGLAV19","LOCALS",0)
 ~ EXIT
-  IF ~PartyGoldGT(11000) Global("XGLAV11","GLOBAL",1) PartyHasItem("XGLAV11")~ THEN REPLY @19 DO ~TakePartyItem("XGLAV11")
+  IF ~PartyGoldGT(11000) Global("XGLAV11","LOCALS",1) PartyHasItem("XGLAV11")~ THEN REPLY @19 DO ~TakePartyItem("XGLAV11")
 GiveItemCreate("XGLAV21",Player1,0,0,0) DestroyItem("XGLAV11")
-TakePartyGold(11000) SetGlobal("XGLAV11","GLOBAL",0)
+TakePartyGold(11000) SetGlobal("XGLAV11","LOCALS",0)
 ~ EXIT
-  IF ~~ THEN REPLY @8 DO ~SetGlobal("XGGLAV17","GLOBAL",0) SetGlobal("XGGLAV18","GLOBAL",0) SetGlobal("XGGLAV19","GLOBAL",0) SetGlobal("XGLAV11","GLOBAL",0)~ EXIT
+  IF ~~ THEN REPLY @8 DO ~SetGlobal("XGGLAV17","LOCALS",0) SetGlobal("XGGLAV18","LOCALS",0) SetGlobal("XGGLAV19","LOCALS",0) SetGlobal("XGLAV11","LOCALS",0)~ EXIT
 END
 
 

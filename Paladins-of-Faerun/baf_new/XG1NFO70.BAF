@@ -1,0 +1,9 @@
+IF
+	Clicked([ANYONE])
+THEN
+	RESPONSE #100
+		SetGlobal("XGNOBG_INFO1070","MYAREA",1)
+		DisplayStringHead(LastTrigger,@1644)
+		CreateCreature("XGHOB2",[710.338],0)
+		CreateCreature("XGHOB2",[353.500],0)
+END

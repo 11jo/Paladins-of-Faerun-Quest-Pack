@@ -12,9 +12,11 @@
 @12 = ~ Well, I'll go to the mountains to find a witch, and you will try to find out at least some information where you can find Gradak. ~
 @13 = ~ I will do everything in my power <CHARNAME>. I wish you good luck. Goodbye. ~
 
+/*
 @14 = ~ Sorceress.
 
 Elf, the leader of the forest city, asked me to help. A certain witch settled in the mountains near the city and destroys the surrounding villages. I have to go there to find out more. ~
+*/
 
 @15 = ~ Goodbye. ~
 @16 = ~ You are back, so tell me why you came here, stranger? ~

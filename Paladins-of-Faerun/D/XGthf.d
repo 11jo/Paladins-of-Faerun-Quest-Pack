@@ -15,6 +15,9 @@ IF ~~ THEN BEGIN 2
   IF ~~ THEN REPLY @5 DO ~SetGlobal("s#XGthf","GLOBAL",1)
 AddJournalEntry(@51701,QUEST)~ EXIT
   IF ~~ THEN REPLY @7 DO ~SetGlobal("XGthfQuestDone","GLOBAL",1)
+ EraseJournalEntry(@51707)
+ EraseJournalEntry(@51708)
+ EraseJournalEntry(@51709)
 AddJournalEntry(@51702,QUEST_DONE)
 EscapeArea()~EXIT
 END
@@ -87,6 +90,15 @@ Global("XGthfQuestItem2","GLOBAL",1)
 Global("XGthfQuestItem3","GLOBAL",1)~ THEN BEGIN 7
   SAY @18
   IF ~~ THEN REPLY @19 DO ~SetGlobal("s#XGthf","GLOBAL",2)
+ EraseJournalEntry(@51701)
+ EraseJournalEntry(@51702)
+ EraseJournalEntry(@51703)
+ EraseJournalEntry(@51704)
+ EraseJournalEntry(@51705)
+ EraseJournalEntry(@51707)
+ EraseJournalEntry(@51708)
+ EraseJournalEntry(@51709)
 AddJournalEntry(@51706,QUEST_DONE)
 EscapeArea()~ EXIT
 END
+

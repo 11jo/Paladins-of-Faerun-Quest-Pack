@@ -1,11 +1,13 @@
 IF
 	Global("XG0034_XG0020","MYAREA",0)
+	Global("XGPoFinBG","GLOBAL",1)
 THEN
 	RESPONSE #100
 		ClearAllActions()
 		StartCutSceneMode()
 		AdvanceTime(ONE_DAY)
-		FadeFromColor([50.0],0)
+		MoveViewObject(Player1,INSTANT)
+		FadeFromColor([30.0],0)
 		Wait(3)
 		DisplayStringHead(Player1,@0)
 		UnhideGUI()
@@ -14,17 +16,41 @@ THEN
 END
 
 IF
+	Global("XG1120_XG0020","GLOBAL",1)
+	InMyArea(Player1)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		MoveViewObject(Player1,INSTANT)
+		FadeFromColor([50.0],0)
+		SetGlobal("XG1120_XG0020","GLOBAL",2)
+		CreateCreatureObject("XGBGG",Player1,0,0,0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
 	Global("Reveal0020","MYAREA",0)
 	PartyHasItem("XGZAT2")
 	AreaCheck("XG0020")
+	InMyArea(Player1)
 THEN
   RESPONSE #100
     SetGlobal("Reveal0020","MYAREA",1)
     StartCutSceneMode()
     HideGUI()
-    CreateCreature("XGASSBG",[3390.1570],8)
-    CreateCreature("XGASSBG",[3524.1624],8)
+    CreateCreature("XGASF2BG",[3390.1570],8)
+    CreateCreature("XGASF1BG",[3524.1624],8)
     CreateCreature("XGASSBG",[3639.1627],8)
+		Wait(1)
+    DisplayStringHead("XGASF2BG",@1)
+		Wait(1)
+    DisplayStringHead("XGASSBG",@2)
+		Wait(1)
+    DisplayStringHead("XGASF1BG",@3)
+		Wait(2)
     TakePartyItem("XGZAT2")
     GiveItemCreate("XGZAT3",Player1,0,0,0)
     UnhideGUI()
@@ -53,22 +79,111 @@ THEN
 END
 
 IF
+	Global("XGPoFinBG","GLOBAL",1)
 	Global("XGBGFL00","MYAREA",0)
 	RandomNum(2,1)
 THEN
 	RESPONSE #100
+		SetGlobal("XGFLAM12_ishere","MYAREA",1)
 		SetGlobal("XGBGFL00","MYAREA",1)
+		Wait(2)
 		CreateCreatureObject("XGFLAM12",Player1,0,0,0)
 END
 
 IF
+	Global("XGPoFinBG","GLOBAL",1)
 	Global("XGBGFL00","MYAREA",0)
 	RandomNum(2,2)
 THEN
 	RESPONSE #100
+		SetGlobal("XGFLAF12_ishere","MYAREA",1)
 		SetGlobal("XGBGFL00","MYAREA",1)
+		Wait(2)
 		CreateCreatureObject("XGFLAF12",Player1,0,0,0)
 END
+
+
+
+IF
+	Global("XGBGG_Missing","GLOBAL",1)
+	Global("XGFLAM12_ishere","MYAREA",1)
+	InMyArea(Player1)
+	PartyHasItem("XGZAT4")
+THEN
+	RESPONSE #100
+		SetGlobal("XGFLAM12_ishere","MYAREA",2)
+		SetGlobal("XGBGG_Missing","GLOBAL",2)
+		ActionOverride("XGFLAM12",LeaveAreaLUA("XG0020","",[1148.2965],8))
+		ActionOverride("XGFLAM12",MoveToObject(Player1))
+		Wait(1)
+		ActionOverride("XGFLAM12",StartDialogue("XGBGFL00",Player1))
+END
+
+IF
+	Global("XGBGG_Missing","GLOBAL",1)
+	Global("XGFLAF12_ishere","MYAREA",1)
+	InMyArea(Player1)
+	PartyHasItem("XGZAT4")
+THEN
+	RESPONSE #100
+		SetGlobal("XGFLAF12_ishere","MYAREA",2)
+		SetGlobal("XGBGG_Missing","GLOBAL",2)
+		ActionOverride("XGFLAF12",LeaveAreaLUA("XG0020","",[1148.2965],8))
+		ActionOverride("XGFLAF12",MoveToObject(Player1))
+		Wait(1)
+		ActionOverride("XGFLAF12",StartDialogue("XGBGFL00",Player1))
+END
+
+
+/*
+IF
+	Global("XGFLAF12_ishere","MYAREA",2)
+THEN
+	RESPONSE #100
+		ActionOverride("XGFLAF12",MoveToPointNoInterrupt([1440.3023]))
+		Wait(1)
+		SetGlobal("XGFLAF12_ishere","MYAREA",3)
+END
+
+IF
+	Global("XGFLAM12_ishere","MYAREA",2)
+THEN
+	RESPONSE #100
+		ActionOverride("XGFLAM12",MoveToPointNoInterrupt([1440.3023]))
+		Wait(1)
+		SetGlobal("XGFLAM12_ishere","MYAREA",3)
+END
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 IF

@@ -15,18 +15,26 @@
 @14 = ~Sehe ich aus wie ein Seefahrer?~
 @15 = ~Natürlich nicht, aber mein Freund wird Euch dorthin bringen und auf Euch warten. Ihr seid also einverstanden, dorthin zu gehen?~
 @16 = ~Ja, wir sind bereit.~
+
+/*
 @17 = ~Eisschloss.
 
 Der Magier Elorion aus Baldurs Tor hat seine magischen Kräfte verloren, und sein Zauberbuch wurde ihm gestohlen. Er glaubt, dass der Dieb ein Rakshasa ist, ein sehr gefährliches Wesen, das sich im Norden Faerûns in einem Eisschloss aufhält.~
+*/
+
 @18 = ~Seid Ihr zurück? Wollt Ihr mir helfen?~
 @19 = ~Ja, was ist passiert?~
 @20 = ~Hattet Ihr Erfolg? Habt Ihr das Buch?~
 @21 = ~Ja, der Rakshasa ist tot. Als ich davonsegelte, sah ich die Insel im Nebel verschwinden.~
 @22 = ~Das bedeutet, dass der Rakshasa seine Macht verloren hat. Danke, ich wusste, ich kann auf Euch zählen. Hier ist Euer Geschenk.~
 @23 = ~Danke und auf Wiedersehen.~
+
+/*
 @24 = ~Eisschloss.
 
 Auf der Insel fand ich den Rakshasa und tötete ihn. Ich erhielt auch ein Zauberbuch, das ich später dem Magier Elorion gab.~
+*/
+
 @25 = ~Was wollt Ihr, <CHARNAME>?~
 @26 = ~Ich habe Informationen, dass Ihr mehrere Taschen von einer mysteriösen Gestalt erhalten habt, die ein Mörder sein könnte und wegen des Mordes an fünf Menschen gesucht wird.~
 @27 = ~Ja, das stimmt, ich habe sie ihm abgenommen, ich werde es nicht leugnen. Aber mehr kann ich Euch nicht sagen, selbst wenn ich wollte. Ich würde keine Stunde länger leben, wenn ich mehr sagen würde. Ich kann Euch nur helfen, indem ich Euch warne. Seid vorsichtig, derjenige, den Ihr sucht, ist sehr gefährlich.~

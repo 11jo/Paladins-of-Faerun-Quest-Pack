@@ -1,0 +1,18 @@
+IF
+	Global("XGHAR_XG0720","GLOBAL",0)
+	AttackedBy([GOODCUTOFF],DEFAULT)
+THEN
+  RESPONSE #100
+		SetGlobal("XGHAR_XG0720","GLOBAL",1)
+		StartDialogue("XGHAR",Player1)
+END
+
+IF
+	InMyArea("XGARTBG")
+	AreaCheck("XG1120")
+	Global("XGHAR_XG1120","XG1120",0)
+THEN
+  RESPONSE #100
+		SetGlobal("XGHAR_XG1120","XG1120",1)
+		StartDialogue("XGHAR",Player1)
+END

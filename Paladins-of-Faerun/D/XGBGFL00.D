@@ -1,47 +1,121 @@
 BEGIN ~XGBGFL00~
 
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
-  SAY @1 /* Bien le bonjour, quel bon vent vous amËne dans notre citÈ ? */
+  SAY @1 /* Bien le bonjour, quel bon vent vous am√®ne dans notre cit√© ? */
   IF ~~ THEN REPLY @2 /* C'est pas vos oignions ! */ GOTO 1
-  IF ~AreaCheck("BG0200")~ THEN REPLY @3 /* J'ai des comptes ‡ rÈgler. */ GOTO 3
-  IF ~AreaCheck("XG0020")~ THEN REPLY @3 /* J'ai des comptes ‡ rÈgler. */ GOTO 4
-  IF ~~ THEN REPLY @4 /* Quel question, l'aventure Èvidemment... */ GOTO 3
+  IF ~AreaCheck("BG0200")~ THEN REPLY @3 /* J'ai des comptes √† r√©gler. */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 3
+  IF ~AreaCheck("XG0020")~ THEN REPLY @3 /* J'ai des comptes √† r√©gler. */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 4
+  IF ~~ THEN REPLY @4 /* Quel question, l'aventure √©videmment... */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 5
+  IF ~~ THEN REPLY @33 /* Une mission de la plus grande importance ! */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 16
 END
 
 IF ~~ THEN BEGIN 1
-  SAY @5 /* Votre tÍte me dit quelque chose, vous seriez pas recherchÈ par hasard ? */
-  IF ~~ THEN REPLY @6 /* Moi recherchÈ/e, ha ha, non bien s˚r... Aller, bonne journÈe ‡ vous. */ GOTO 2
+  SAY @5 /* Votre t√™te me dit quelque chose, vous seriez pas recherch√© par hasard ? */
+  IF ~~ THEN REPLY @6 /* Moi recherch√©/e, ha ha, non bien s√ªr... Aller, bonne journ√©e √† vous. */ GOTO 2
 END
 
 IF ~~ THEN BEGIN 2
   SAY @7 /* Pas d'entourloupe citoyen / citoyenne */
-  IF ~~ THEN DO ~SetGlobal("XGBGF1_HUM","MYAREA",0)~ EXIT
+  IF ~!Range("XGBGG",6)~ THEN DO ~SetGlobal("XGBGF1_HUM","LOCALS",0)~ EXIT
+  IF ~Range("XGBGG",7)~ THEN DO ~SetGlobal("XGBGF1_HUM","LOCALS",0)~ GOTO 17
 END
 
 IF ~~ THEN BEGIN 3
-  SAY @8 /* Si vous avez des contentieux ‡ rÈgler, allez donc solliciter le chef de la garnison au sous sol du palais Ducal. */
-  IF ~!Global("XGBGF1_HUM","MYAREA",1)~ THEN REPLY @9 /* Pas de pugilat, message reÁu. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~SetGlobal("XGBGF1_HUM","MYAREA",1)~ GOTO 5
-  IF ~Global("XGBGF1_HUM","MYAREA",1)~ THEN REPLY @9 /* Pas de pugilat, message reÁu. Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 1
+  SAY @8 /* Si vous avez des contentieux √† r√©gler, allez donc solliciter le chef de la garnison au sous sol du palais Ducal. */
+  IF ~!Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @9 /* Pas de pugilat, message re√ßu. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 5
+  IF ~Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @9 /* Pas de pugilat, message re√ßu. Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 1
   IF ~~ THEN REPLY @10 /* Ne vous enflammez pas, il est temps pour moi de partir. Au revoir. */ GOTO 2
 END
 
 IF ~~ THEN BEGIN 4
-  SAY @11 /* Si vous avez des contentieux ‡ rÈgler, allez donc solliciter le chef de la garnison, son poste de garde a ÈtÈ installÈ dans une maison aux abords du palais. */
-  IF ~!Global("XGBGF1_HUM","MYAREA",1)~ THEN REPLY @9 /* Pas de pugilat, message reÁu. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~SetGlobal("XGBGF1_HUM","MYAREA",1)~ GOTO 5
-  IF ~Global("XGBGF1_HUM","MYAREA",1)~ THEN REPLY @9 /* Pas de pugilat, message reÁu. Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 1
+  SAY @11 /* Si vous avez des contentieux √† r√©gler, allez donc solliciter le chef de la garnison, son poste de garde a √©t√© install√© dans une maison aux abords du palais. */
+  IF ~!Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @9 /* Pas de pugilat, message re√ßu. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 5
+  IF ~Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @9 /* Pas de pugilat, message re√ßu. Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 1
   IF ~~ THEN REPLY @10 /* Ne vous enflammez pas, il est temps pour moi de partir. Au revoir. */ GOTO 2
 END
 
 IF ~~ THEN BEGIN 5
-  SAY @12 /* Si vous cherchez l'aventure, le magicien Elorin qui vient de prendre ses quartier dans la tour de Ramazith níarrÍte pas de solliciter le poing enflammÈ au sujet d'une quÍte de grande importance... Enfin pour lui... */
-  IF ~AreaCheck("BG0200")!Global("XGBGF1_HUM","MYAREA",1)~ THEN REPLY @13 /* J'irais rencontrer ce magicien dÈs que possible. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~SetGlobal("XGBGF1_HUM","MYAREA",1)~ GOTO 3 
-  IF ~AreaCheck("XG0020")!Global("XGBGF1_HUM","MYAREA",1)~ THEN REPLY @13 /* J'irais rencontrer ce magicien dÈs que possible. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~SetGlobal("XGBGF1_HUM","MYAREA",1)~ GOTO 4 
-  IF ~Global("XGBGF1_HUM","MYAREA",1)~ THEN REPLY @13 /* J'irais rencontrer ce magicien dÈs que possible. Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 1
+  SAY @12 /* Si vous cherchez l'aventure, le magicien Elorin qui vient de prendre ses quartier dans la tour de Ramazith n‚Äôarr√™te pas de solliciter le poing enflamm√© au sujet d'une qu√™te de grande importance... Enfin pour lui... */
+  IF ~AreaCheck("BG0200")!Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @13 /* J'irais rencontrer ce magicien d√©s que possible. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 3 
+  IF ~AreaCheck("XG0020")!Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @13 /* J'irais rencontrer ce magicien d√©s que possible. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 4 
+  IF ~Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @13 /* J'irais rencontrer ce magicien d√©s que possible. Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 1
   IF ~~ THEN REPLY @10 /* Ne vous enflammez pas, il est temps pour moi de partir. Au revoir. */ GOTO 2
 END
 
-IF ~!NumTimesTalkedTo(0)~ THEN BEGIN 0
-  SAY @14 /* Vous revoil‡, vous avez besoin de quelque chose ? */
-  IF ~~ THEN REPLY @15 /* Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 5
+IF ~OR(2)
+Global("XGBGG_Missing","GLOBAL",1)
+Global("XGBGG_Missing","GLOBAL",2)~ THEN BEGIN 7
+  SAY @16 /* La fille d'une sommit√© du Poing Enflamm√© a √©t√© enlev√©e, il semble que les malfrats √† l'origine des nombreux meurtres cherchent un moyen de bloquer nos investigation. */
+  IF ~~ THEN REPLY @17 /* C'est terrible ! Que pouvons nous faire ? */ GOTO 8
+  IF ~~ THEN REPLY @18 /* J'en ai vraiment rien √† faire... */ GOTO 9
+  IF ~~ THEN REPLY @19 /* Comment se nomme cette enfant ? */ GOTO 10
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @20 /* Notre champ d'action est limit√©, mais vous, vous n'√™tes pas vraiment affili√© au Poing Enflamm√©. Pers√©v√©rez dans votre enqu√™te et retrouvez cette innocente ! */
+  IF ~~ THEN REPLY @21 /* Tr√®s bien, la piste actuelle m√®ne aux personnels travaillant dans les quartiers du Duc Opas au Palais Ducal. */ GOTO 12
+  IF ~~ THEN REPLY @22 /* Apr√®s r√©flexion, je n'en ai vraiment rien √† faire... */ GOTO 9
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @23 /* Rohma... Rohma Corwin. */
+  IF ~~ THEN REPLY @24 /* Je vois... */ GOTO 8
+END
+
+IF ~~ THEN BEGIN 9
+  SAY @25 /* Votre indiff√©rence se retournera contre vous. Nous n'avons plus rien √† nous dire. */
+  IF ~~ THEN DO ~SetGlobal("XGBGG_Missing","GLOBAL",9)~ EXIT
+END
+
+IF ~~ THEN BEGIN 12
+  SAY @26 /* Merci, je vous souhaite bonne chance. */
+  IF ~~ THEN DO ~SetGlobal("XGBGG_Missing","GLOBAL",3)~ EXIT
+END
+
+IF ~Global("XGBGG_Missing","GLOBAL",9)~ THEN BEGIN 11
+  SAY @27 /* Nous n'avons plus rien √† nous dire. */
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("XGBGG_Missing","GLOBAL",4) !Dead("XGBGG")~ THEN BEGIN 13
+  SAY @28 /* Vous avez ramen√© l'enfant saine et sauve. Merci ! */
+  IF ~~ THEN REPLY @15 DO ~AddexperienceParty(1000) SetGlobal("XGBGG_Missing","GLOBAL",5)~ /* Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 5
+  IF ~~ THEN REPLY @10 DO ~AddexperienceParty(1000) SetGlobal("XGBGG_Missing","GLOBAL",5)~ /* Ne vous enflammez pas, il est temps pour moi de partir. Au revoir. */ GOTO 2
+END
+
+IF ~Global("XG1120_XG0020","GLOBAL",2)
+OR(3)
+Global("XGBGG_Missing","GLOBAL",8)
+Dead("XGBGG")
+Global("XGBGG_Missing","GLOBAL",3)~ THEN BEGIN 14
+  SAY @29 /* Vous avez laiss√© l'enfant livr√©e √† elle m√™me dans un repaire de meurtriers, √† quoi vous attendiez vous... */
+  IF ~~ THEN DO ~ReputationInc(-3)~ GOTO 9
+END
+
+/*
+IF ~Global("s#XGELOR","LOCALS",4)
+!Global("XGBGG_Missing","GLOBAL",8)
+!Dead("XGBGG")~ THEN BEGIN 15
+  SAY @30 /* <CHARNAME> ! Nice to see you ! */
+  IF ~~ THEN EXIT
+END
+*/
+
+IF ~~ THEN BEGIN 16
+  SAY @31 /* Le Duc Opas est tr√®s en vogue ces derniers temps, il s'occupe de toutes les affaires importantes. */
+  IF ~!Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @32 /* Hum, Les Ducs de la Porte de Baldur sont comme des girouettes. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 5 
+  IF ~Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @32 /* Hum, Les Ducs de la Porte de Baldur sont comme des girouettes. Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 1
   IF ~~ THEN REPLY @10 /* Ne vous enflammez pas, il est temps pour moi de partir. Au revoir. */ GOTO 2
 END
+
+IF ~~ THEN BEGIN 17
+  SAY @34 /* C'est aussi valable pour toi, Rohma */
+  IF ~~ THEN DO ~SetGlobal("XGBGG_XGBGFL00","MYAREA",1)~ EXIT
+END
+
+IF ~!NumTimesTalkedTo(0)~ THEN BEGIN 6
+  SAY @14 /* Vous revoil√†, vous avez besoin de quelque chose ? */
+  IF ~~ THEN REPLY @15 /* Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 16
+  IF ~~ THEN REPLY @10 /* Ne vous enflammez pas, il est temps pour moi de partir. Au revoir. */ GOTO 2
+END
+

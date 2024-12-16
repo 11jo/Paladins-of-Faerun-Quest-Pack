@@ -1,6 +1,6 @@
 IF
   OnCreation()
-  PartyHasItem("XGMAGG")  // ~Часть очень мощного оружия.~
+  PartyHasItem("XGMAGG")
 THEN
   RESPONSE #100
     ClearAllActions()
@@ -8,10 +8,10 @@ THEN
     FadeToColor([50.0],0)
     Wait(3)
     HideGUI()
-    CreateCreature("XGCOW",[2472.1665],8)  // ~Волшебник в Рясе~
-    CreateCreature("XGCOW1",[2383.1699],8)  // ~Волшебник в Рясе~
-    CreateCreature("XGCOW2",[2553.1714],8)  // ~Волшебник в Рясе~
-    CreateCreature("XGCOW3",[2293.1754],8)  // ~Волшебник в Рясе~
+    CreateCreature("XGCOW",[2472.1665],8)
+    CreateCreature("XGCOW1",[2383.1699],8)
+    CreateCreature("XGCOW2",[2553.1714],8)
+    CreateCreature("XGCOW3",[2293.1754],8)
 	CreateCreature("XGNEAN28",[2293.1754],8)
     Explore()
     ActionOverride(Player1,JumpToPoint([2474.1582]))
@@ -38,7 +38,7 @@ THEN
     Wait(6)
     DisplayString("XGCOW",@2)  // @2
     Wait(7)
-    CreateCreature("XGELWIN",[2235.2136],8)  // ~Элвин~
+    CreateCreature("XGELWIN",[2235.2136],8)
     ActionOverride("XGELWIN",MoveToPoint([2298.1816]))
     Wait(4)
     ActionOverride("XGCOW3",Face(0))
@@ -51,6 +51,7 @@ THEN
     Wait(5)
     DisplayString("XGCOW",@6)  // @6
     Wait(2)
+    ActionOverride("kpfarm04",MoveToPoint([1918.1989]))
     ActionOverride("XGCOW",Face(0))
     ActionOverride("XGCOW1",Face(0))
     ActionOverride("XGCOW2",Face(0))
@@ -65,7 +66,7 @@ THEN
     CreateVisualEffectObject("SPROTECT","XGCOW2")
     Wait(1)
     ActionOverride("XGCOW2",ForceSpell("XGELWIN",CLERIC_MAGIC_STONE))
-    ActionOverride(Player1,MoveToObject("XGCOW"))
+    ActionOverride(Player1,MoveToObject("XGCOW3"))
     ActionOverride(Player3,MoveToPoint([2090.2343]))
     Wait(1)
     DisplayString("XGELWIN",@7)  // @7

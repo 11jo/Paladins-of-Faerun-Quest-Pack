@@ -19,8 +19,7 @@ IF ~~ THEN BEGIN 1
   IF ~~ THEN EXIT
 END
 
-IF ~ NumTimesTalkedTo(0)
-OR(7)
+IF ~OR(7)
 	PartyHasItem("XGZAT")
 	PartyHasItem("XGZAT1")
 	PartyHasItem("XGZAT2")
@@ -30,10 +29,12 @@ OR(7)
 	PartyHasItem("XGZAT6")~ THEN BEGIN 2
   SAY @5
   IF ~~ THEN REPLY @6 GOTO 3
+  IF ~~ THEN REPLY @2 DO ~StartStore("XGBG1",LastTalkedToBy(Myself))
+~ EXIT
+  IF ~~ THEN REPLY @3 GOTO 1
 END
 
 IF ~~ THEN BEGIN 3
   SAY @7
-  IF ~~ THEN REPLY @8 DO ~SetNumTimesTalkedTo(1)
-~ EXIT
+  IF ~~ THEN REPLY @8 EXIT
 END
