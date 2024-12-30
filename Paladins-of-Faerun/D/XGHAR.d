@@ -20,7 +20,10 @@ EscapeArea()
 ~ EXIT
 END
 
-IF ~Global("XGHAR_XG0720","GLOBAL",3)~ THEN BEGIN 0
+IF ~AreaCheck("XG1120")
+OR(2)
+	Global("XGHAR_XG0720","GLOBAL",2)
+	Global("XGHAR_XG0720","GLOBAL",3)~ THEN BEGIN 0
   SAY #11106
   IF ~~ THEN DO ~SetGlobal("XGHAR_XG0720","GLOBAL",4) Enemy()~ EXIT
 END

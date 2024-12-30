@@ -3,6 +3,7 @@
 IF
 	Global("XGFLAF12_ishere","MYAREA",2)
 	AreaCheck("XG0020")
+	GlobalGT("XGBGG_Missing","GLOBAL",2)
 THEN
 	RESPONSE #100
 		ActionOverride("XGFLAF12",MoveToPointNoInterrupt([1440.3023]))
@@ -12,6 +13,7 @@ END
 IF
 	Global("XGFLAM12_ishere","MYAREA",2)
 	AreaCheck("XG0020")
+	GlobalGT("XGBGG_Missing","GLOBAL",2)
 THEN
 	RESPONSE #100
 		ActionOverride("XGFLAM12",MoveToPointNoInterrupt([1440.3023]))
@@ -23,6 +25,7 @@ END
 IF
 	Global("XGFLAF12_ishere","MYAREA",2)
 	AreaCheck("%NBaldursGate%")
+	GlobalGT("XGBGG_Missing","GLOBAL",2)
 THEN
 	RESPONSE #100
 		ActionOverride("XGFLAF12",MoveToPointNoInterrupt([1915.2883]))
@@ -32,6 +35,7 @@ END
 IF
 	Global("XGFLAM12_ishere","MYAREA",2)
 	AreaCheck("%NBaldursGate%")
+	GlobalGT("XGBGG_Missing","GLOBAL",2)
 THEN
 	RESPONSE #100
 		ActionOverride("XGFLAM12",MoveToPointNoInterrupt([1915.2883]))

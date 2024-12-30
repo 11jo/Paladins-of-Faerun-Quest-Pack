@@ -31,6 +31,28 @@ THEN
 		EndCutSceneMode()
 END
 
+// Acces to NBaldursGate_TempleofHelm (XG0020.ARE only) 
+
+IF
+	Global("s#XGBLMAJ","GLOBAL",0)
+	Global("XG0420_XG0020_Close","MYAREA",0)
+THEN
+  RESPONSE #100
+		SetGlobal("XG0420_XG0020_Close","MYAREA",1)
+		SetGlobal("XG0420_XG0020_Open","MYAREA",0)
+		TriggerActivation("Door0002",FALSE)
+END
+
+IF
+	!Global("s#XGBLMAJ","GLOBAL",0)
+	Global("XG0420_XG0020_Open","MYAREA",0)
+THEN
+  RESPONSE #100
+		SetGlobal("XG0420_XG0020_Close","MYAREA",0)
+		SetGlobal("XG0420_XG0020_Open","MYAREA",1)
+		TriggerActivation("Door0002",TRUE)
+END
+
 IF
 	Global("Reveal0020","MYAREA",0)
 	PartyHasItem("XGZAT2")
@@ -102,8 +124,6 @@ THEN
 		CreateCreatureObject("XGFLAF12",Player1,0,0,0)
 END
 
-
-
 IF
 	Global("XGBGG_Missing","GLOBAL",1)
 	Global("XGFLAM12_ishere","MYAREA",1)
@@ -134,57 +154,6 @@ THEN
 		ActionOverride("XGFLAF12",StartDialogue("XGBGFL00",Player1))
 END
 
-
-/*
-IF
-	Global("XGFLAF12_ishere","MYAREA",2)
-THEN
-	RESPONSE #100
-		ActionOverride("XGFLAF12",MoveToPointNoInterrupt([1440.3023]))
-		Wait(1)
-		SetGlobal("XGFLAF12_ishere","MYAREA",3)
-END
-
-IF
-	Global("XGFLAM12_ishere","MYAREA",2)
-THEN
-	RESPONSE #100
-		ActionOverride("XGFLAM12",MoveToPointNoInterrupt([1440.3023]))
-		Wait(1)
-		SetGlobal("XGFLAM12_ishere","MYAREA",3)
-END
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 IF
 	Global("NEWGAME_SOA","GLOBAL",1)
@@ -197,13 +166,13 @@ THEN
 		ClearAllActions()
 		FadeToColor([50.0],0)
 		Wait(2)
+		SetGlobal("NEWGAME_SOA","GLOBAL",1)
 		ActionOverride(Player2,LeaveAreaLUA("XG0020","",[3782.3065],8))
 		ActionOverride(Player1,LeaveAreaLUA("XG0020","",[3818.3026],8))
 		ActionOverride(Player3,LeaveAreaLUA("XG0020","",[3877.3112],8))
 		ActionOverride(Player4,LeaveAreaLUA("XG0020","",[3802.3159],8))
 		ActionOverride(Player5,LeaveAreaLUA("XG0020","",[3660.3114],8))
 		ActionOverride(Player6,LeaveAreaLUA("XG0020","",[3707.3156],8))
-		SetGlobal("XGNEWGAME_SOA","GLOBAL",1)
 END
 */
 
@@ -211,11 +180,11 @@ END
 IF
 	OR(2)
 		Global("XGJOPEAS","GLOBAL",1)
-		Global("XGNEWGAME_SOA","GLOBAL",1)
+		Global("NEWGAME_SOA","GLOBAL",1)
 THEN
 	RESPONSE #100
 		SetGlobal("XGJOPEAS","GLOBAL",0)
-		SetGlobal("XGNEWGAME_SOA","GLOBAL",0)
+		SetGlobal("NEWGAME_SOA","GLOBAL",0)
 		//Wait(2)
 		//FadeFromColor([20.0],0)
 		//UnhideGUI()

@@ -3,10 +3,11 @@ BEGIN ~XGBGFL00~
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1 /* Bien le bonjour, quel bon vent vous amène dans notre cité ? */
   IF ~~ THEN REPLY @2 /* C'est pas vos oignions ! */ GOTO 1
-  IF ~AreaCheck("BG0200")~ THEN REPLY @3 /* J'ai des comptes à régler. */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 3
-  IF ~AreaCheck("XG0020")~ THEN REPLY @3 /* J'ai des comptes à régler. */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 4
-  IF ~~ THEN REPLY @4 /* Quel question, l'aventure évidemment... */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 5
-  IF ~~ THEN REPLY @33 /* Une mission de la plus grande importance ! */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 16
+  IF ~AreaCheck("BG0200")~ THEN REPLY @3 /* J'ai des comptes à régler. */ DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 3
+  IF ~AreaCheck("XG0020")~ THEN REPLY @3 /* J'ai des comptes à régler. */ DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 4
+  IF ~~ THEN REPLY @4 /* Quel question, l'aventure évidemment... */ DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 5
+  IF ~~ THEN REPLY @33 /* Une mission de la plus grande importance ! */ DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 16
+  IF ~~ THEN REPLY @35 /* Les tavernes ! J'ai besoin d'un verre ! */ DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 18
 END
 
 IF ~~ THEN BEGIN 1
@@ -22,23 +23,23 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @8 /* Si vous avez des contentieux à régler, allez donc solliciter le chef de la garnison au sous sol du palais Ducal. */
-  IF ~!Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @9 /* Pas de pugilat, message reçu. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 5
-  IF ~Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @9 /* Pas de pugilat, message reçu. Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 1
+  IF ~GlobalLT("XGBGF1_HUM","LOCALS",3)~ THEN REPLY @9 /* Pas de pugilat, message reçu. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 19
+  IF ~GlobalGT("XGBGF1_HUM","LOCALS",2)~ THEN REPLY @9 /* Pas de pugilat, message reçu. Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 1
   IF ~~ THEN REPLY @10 /* Ne vous enflammez pas, il est temps pour moi de partir. Au revoir. */ GOTO 2
 END
 
 IF ~~ THEN BEGIN 4
   SAY @11 /* Si vous avez des contentieux à régler, allez donc solliciter le chef de la garnison, son poste de garde a été installé dans une maison aux abords du palais. */
-  IF ~!Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @9 /* Pas de pugilat, message reçu. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 5
-  IF ~Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @9 /* Pas de pugilat, message reçu. Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 1
+  IF ~GlobalLT("XGBGF1_HUM","LOCALS",3)~ THEN REPLY @9 /* Pas de pugilat, message reçu. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 19
+  IF ~GlobalGT("XGBGF1_HUM","LOCALS",2)~ THEN REPLY @9 /* Pas de pugilat, message reçu. Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 1
   IF ~~ THEN REPLY @10 /* Ne vous enflammez pas, il est temps pour moi de partir. Au revoir. */ GOTO 2
 END
 
 IF ~~ THEN BEGIN 5
   SAY @12 /* Si vous cherchez l'aventure, le magicien Elorin qui vient de prendre ses quartier dans la tour de Ramazith n’arrête pas de solliciter le poing enflammé au sujet d'une quête de grande importance... Enfin pour lui... */
-  IF ~AreaCheck("BG0200")!Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @13 /* J'irais rencontrer ce magicien dés que possible. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 3 
-  IF ~AreaCheck("XG0020")!Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @13 /* J'irais rencontrer ce magicien dés que possible. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 4 
-  IF ~Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @13 /* J'irais rencontrer ce magicien dés que possible. Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 1
+  IF ~AreaCheck("BG0200")GlobalLT("XGBGF1_HUM","LOCALS",3)~ THEN REPLY @13 /* J'irais rencontrer ce magicien dés que possible. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 3 
+  IF ~AreaCheck("XG0020")GlobalLT("XGBGF1_HUM","LOCALS",3)~ THEN REPLY @13 /* J'irais rencontrer ce magicien dés que possible. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 4 
+  IF ~GlobalGT("XGBGF1_HUM","LOCALS",2)~ THEN REPLY @13 /* J'irais rencontrer ce magicien dés que possible. Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 1
   IF ~~ THEN REPLY @10 /* Ne vous enflammez pas, il est temps pour moi de partir. Au revoir. */ GOTO 2
 END
 
@@ -79,7 +80,7 @@ END
 
 IF ~Global("XGBGG_Missing","GLOBAL",4) !Dead("XGBGG")~ THEN BEGIN 13
   SAY @28 /* Vous avez ramené l'enfant saine et sauve. Merci ! */
-  IF ~~ THEN REPLY @15 DO ~AddexperienceParty(1000) SetGlobal("XGBGG_Missing","GLOBAL",5)~ /* Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 5
+  IF ~~ THEN REPLY @15 DO ~AddexperienceParty(1000) SetGlobal("XGBGG_Missing","GLOBAL",5) IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ /* Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 5
   IF ~~ THEN REPLY @10 DO ~AddexperienceParty(1000) SetGlobal("XGBGG_Missing","GLOBAL",5)~ /* Ne vous enflammez pas, il est temps pour moi de partir. Au revoir. */ GOTO 2
 END
 
@@ -103,8 +104,8 @@ END
 
 IF ~~ THEN BEGIN 16
   SAY @31 /* Le Duc Opas est très en vogue ces derniers temps, il s'occupe de toutes les affaires importantes. */
-  IF ~!Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @32 /* Hum, Les Ducs de la Porte de Baldur sont comme des girouettes. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~SetGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 5 
-  IF ~Global("XGBGF1_HUM","LOCALS",1)~ THEN REPLY @32 /* Hum, Les Ducs de la Porte de Baldur sont comme des girouettes. Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 1
+  IF ~GlobalLT("XGBGF1_HUM","LOCALS",3)~ THEN REPLY @32 /* Hum, Les Ducs de la Porte de Baldur sont comme des girouettes. Avez vous d'autres informations sur les affaires de la ville ? */ DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 5 
+  IF ~GlobalGT("XGBGF1_HUM","LOCALS",2)~ THEN REPLY @32 /* Hum, Les Ducs de la Porte de Baldur sont comme des girouettes. Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 1
   IF ~~ THEN REPLY @10 /* Ne vous enflammez pas, il est temps pour moi de partir. Au revoir. */ GOTO 2
 END
 
@@ -113,9 +114,23 @@ IF ~~ THEN BEGIN 17
   IF ~~ THEN DO ~SetGlobal("XGBGG_XGBGFL00","MYAREA",1)~ EXIT
 END
 
+IF ~~ THEN BEGIN 18
+  SAY @36 /* Les Trois Vielles Chopes devrait vous satisfaire, mais ne laissez pas Vito le tavernier vous convaincre de boire plus que de raison... */
+  IF ~GlobalLT("XGBGF1_HUM","LOCALS",3)~ THEN REPLY @37 /* Il me plaît bien ce Vito ! Avez vous d'autres informations sur les affaires de la ville ? */ DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 16
+  IF ~GlobalGT("XGBGF1_HUM","LOCALS",2)~ THEN REPLY @37 /* Il me plaît bien ce Vito ! Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 1
+  IF ~~ THEN REPLY @10 /* Ne vous enflammez pas, il est temps pour moi de partir. Au revoir. */ GOTO 2
+END
+
+IF ~~ THEN BEGIN 19
+  SAY @38 /* Il semble y avoir eu du grabuge aux Trois Vielles Chopes, mais ne laissez pas Vito le tavernier vous convaincre de boire plus que de raison... */
+  IF ~GlobalLT("XGBGF1_HUM","LOCALS",3)~ THEN REPLY @37 /* Il me plaît bien ce Vito ! Avez vous d'autres informations sur les affaires de la ville ? */ DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 16
+  IF ~GlobalGT("XGBGF1_HUM","LOCALS",2)~ THEN REPLY @37 /* Il me plaît bien ce Vito ! Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 1
+  IF ~~ THEN REPLY @10 /* Ne vous enflammez pas, il est temps pour moi de partir. Au revoir. */ GOTO 2
+END
+
 IF ~!NumTimesTalkedTo(0)~ THEN BEGIN 6
   SAY @14 /* Vous revoilà, vous avez besoin de quelque chose ? */
-  IF ~~ THEN REPLY @15 /* Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 16
+  IF ~~ THEN DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ REPLY @15 /* Avez vous d'autres informations sur les affaires de la ville ? */ GOTO 16
   IF ~~ THEN REPLY @10 /* Ne vous enflammez pas, il est temps pour moi de partir. Au revoir. */ GOTO 2
 END
 

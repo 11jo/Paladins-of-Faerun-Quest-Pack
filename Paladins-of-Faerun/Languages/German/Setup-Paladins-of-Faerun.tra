@@ -4033,6 +4033,9 @@ Weight: 20~
 @1062 = ~The Cyric emblem is carved on the handle.~
 @1063 = ~This dagger seems to be tinged with a crimson fluid...~
 
+// XG0120 
+@1064 = ~Tavern keeper Vito~
+
 /////XGLRDR.CRE - LRDRMOD.CRE///// Not present but in tra folder
 @1065 = ~Lord Dread~ // Lord Dread
 @1066 = ~Lord Dread~ // Lord Dread
@@ -4099,6 +4102,10 @@ The wizard points his finger in the desired direction and projects a sphere of n
 @1601 = ~I'm a member of the city guard, and the captain has assigned me to hunt down the murderer rampaging through Baldur's Gate.~
 @1602 = ~I'm part of the city guard, and the captain sent me on a mission to protect a citizen in trouble outside the city.~
 @1603 = ~I'm here to meet the captain of the guard.~
+
+// NBaldursGate_TempleofHelm_Margul.D (XG0420/BG0002)
+@1604 = ~I'm on a special assignment for the Duke Opas. Please allow me access to the catacombs.~
+@1605 = ~All right, please follow me.~
 
 // XG0720 to BG0108
 @1620 = ~You follow the stairs leading to the Duc Opas quarter.~

@@ -89,7 +89,7 @@ THEN
 		ClearAllActions()
 		StartCutSceneMode()
 		Wait(2)
-		DisplayStringHead(Player2,@4)  // <CHARNAME>! We must follow him, he ran there.
+		DisplayStringHead(Player2,@4)  // <CHARNAME> ! Poursuivons-le ! Il est parti dans cette direction.
 		Wait(5)
 		RevealAreaOnMap("%NBaldursGate%")
 		SetGlobal("XGPoFinBG","GLOBAL",1)
@@ -120,7 +120,7 @@ THEN
 		CreateCreature("XGgghc",[689.234],0)
 		MoveToObjectNoInterrupt(Player1)
 		Wait(2)
-		DisplayStringHead("XGgghc",@5)  // <CHARNAME>! We must follow him, he ran there.
+		DisplayStringHead("XGgghc",@5)  // <CHARNAME> ! Vous devriez partir à sa poursuite tant qu'il est encore temps, il est parti dans cette direction.
 		Wait(5)
 		RevealAreaOnMap("%NBaldursGate%")
 		SetGlobal("XGPoFinBG","GLOBAL",1)
@@ -150,7 +150,7 @@ THEN
 		ClearAllActions()
 		StartCutSceneMode()
 		Wait(2)
-		DisplayStringHead(Player1,@6)  // <CHARNAME>! We must follow him, he ran there.
+		DisplayStringHead(Player1,@6)  // Je ne vais pas le laissez filer !
 		Wait(5)
 		RevealAreaOnMap("%NBaldursGate%")
 		SetGlobal("XGPoFinBG","GLOBAL",1)

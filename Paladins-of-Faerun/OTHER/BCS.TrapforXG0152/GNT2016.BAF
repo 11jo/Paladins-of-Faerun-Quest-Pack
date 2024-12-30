@@ -1,0 +1,11 @@
+IF
+	OR(2)
+		Entered([ANYONE])
+		Opened([ANYONE])
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14381)  // Piège activé
+		ReallyForceSpell(LastTrigger,TRAP_CLOUDKILL)  // SPWI016.SPL (Nuage mortel)
+		Wait(2)
+END
+

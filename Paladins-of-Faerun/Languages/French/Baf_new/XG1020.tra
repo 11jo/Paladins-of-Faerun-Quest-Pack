@@ -1,7 +1,14 @@
-@0 = ~ Finally, we will meet face to face <CHARNAME>! I have long been waiting for this moment, our goal was to find you and your group and avenge the death of your brother! And today our revenge will come true! ~
-@1 = ~ Of course I know that the real reason for your coming is Gradak, and that magical relic that I gave to him. His desire was to kill you! ~
-@2 = ~ If you tell me where he is, then only you will be arrested, and your people will be able to calmly leave! ~
-@3 = ~ You will never find Gradak, even if you kill me and all my brothers! You will never find what you are looking for <CHARNAME> !! ~
-@4 = ~ If you can get through my brothers to the other side, you will be worthy to fight me. goodbye for now! ~
-@5 = ~ We were sent here to help you! Soldiers, <CHARNAME> and his group are under our protection! ~
-@6 = ~ The job is done. We must return to the Duke Opas.~
+// To XGBRMOC.d
+
+/*
+@0 = ~Ah, <CHARNAME> ! Nous nous rencontrons enfin, j'attends ce moment depuis longtemps, te retrouver toi et ton groupe a toujours était mon objectif... Afin de venger la mort de ton frère, Sarevok ! Et aujourd'hui, le temps est venu !~
+@1 = ~Bien entendu, tu es venu pour Gradak et cette relique magique que je lui ai donnée. Lui aussi désir ton trépas et je ne compte pas le décevoir !~ ~Bien entendu, tu es venue pour Gradak et cette relique magique que je lui ai donnée. Lui aussi désir ton trépas et je ne compte pas le décevoir !~
+@2 = ~Si vous acceptez de me révéler sa destination, vous serez le seul à être appréhendé et vos ouailles bénéficieront d'un traitement de faveur.~
+@3 = ~Tu ne rattraperas pas Gradak, même si tu arrives à nous terrasser, moi ainsi que tous mes frères ! Tu ne le retrouveras jamais !!!~
+@4 = ~Parviendras-tu à vaincre mes fidèles et à me rejoindre de l'autre côté ? Seras-tu digne de te battre contre moi ? Nous le verrons bien assez tôt !~
+*/
+
+@5 = ~Nous avons été envoyés ici pour vous aider ! 
+<CHARNAME> et son groupe sont sous notre protection !~
+
+@6 = ~C'est terminé... Il est temps de retourner voir le Duc Opas.~

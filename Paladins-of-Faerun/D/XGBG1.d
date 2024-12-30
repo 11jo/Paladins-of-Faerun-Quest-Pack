@@ -27,7 +27,7 @@ IF ~OR(7)
 	PartyHasItem("XGZAT4")
 	PartyHasItem("XGZAT5")
 	PartyHasItem("XGZAT6")~ THEN BEGIN 2
-  SAY @5
+  SAY #11226 // @5
   IF ~~ THEN REPLY @6 GOTO 3
   IF ~~ THEN REPLY @2 DO ~StartStore("XGBG1",LastTalkedToBy(Myself))
 ~ EXIT

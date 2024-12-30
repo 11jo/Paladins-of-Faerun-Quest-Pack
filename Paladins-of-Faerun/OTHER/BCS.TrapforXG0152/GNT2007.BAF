@@ -1,0 +1,10 @@
+IF
+	OR(2)
+		Entered([ANYONE])
+		Opened([ANYONE])
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14381)  // Piège activé
+		ReallyForceSpell(LastTrigger,TRAP_ARROW_ACID)  // SPWI007.SPL (No such index)
+		Wait(2)
+END

@@ -12,3 +12,11 @@
 
 I found out where Gradak was hiding, but first I had to go back to the city and owe it to the duke that this group would no longer bother him. ~
 */
+
+// From xg1020.tra
+
+@10 = ~Ah, <CHARNAME> ! Nous nous rencontrons enfin, j'attends ce moment depuis longtemps, te retrouver toi et ton groupe a toujours était mon objectif... Afin de venger la mort de ton frère, Sarevok ! Et aujourd'hui, le temps est venu !~
+@11 = ~Bien entendu, tu es venu pour Gradak et cette relique magique que je lui ai donnée. Lui aussi désir ton trépas et je ne compte pas le décevoir !~ ~Bien entendu, tu es venue pour Gradak et cette relique magique que je lui ai donnée. Lui aussi désir ton trépas et je ne compte pas le décevoir !~
+@12 = ~Si vous acceptez de me révéler sa destination, vous serez le seul à être appréhendé et vos ouailles bénéficieront d'un traitement de faveur.~
+@13 = ~Tu ne rattraperas pas Gradak, même si tu arrives à nous terrasser, moi ainsi que tous mes frères ! Tu ne le retrouveras jamais !!!~
+@14 = ~Parviendras-tu à vaincre mes fidèles et à me rejoindre de l'autre côté ? Seras-tu digne de te battre contre moi ? Nous le verrons bien assez tôt !~

@@ -1,0 +1,11 @@
+IF
+	OR(2)
+		Entered([ANYONE])
+		Opened([ANYONE])
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14381)  // Piège activé
+		ReallyForceSpell(LastTrigger,TRAP_MINOR_LIGHTNING_BOLT)  // SPWI017.SPL (Foudre mineure)
+		Wait(2)
+END
+

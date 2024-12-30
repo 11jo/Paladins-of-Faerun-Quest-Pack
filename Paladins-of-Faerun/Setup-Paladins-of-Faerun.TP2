@@ -187,8 +187,7 @@ END
 
 // Trap script for XG0152.are
 
-COPY ~Paladins-of-Faerun/OTHER/BCS.TrapforXG0152~   ~override~
-
+COMPILE ~Paladins-of-Faerun/OTHER/BCS.TrapforXG0152~
 
 // Item ressources for XGCMA03.ITM, XGHELM4 and IWD bam
 
@@ -332,7 +331,7 @@ END
 //////////////////////////////////
 
 
-// Invisible creatures for AR0602 Cutscene
+// Invisible creatures for some Cutscene and else
 
 COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEAN10.CRE~		~override/XGNEAN10.CRE~
 	WRITE_ASCII 0x280 ~XGNEAN10~ (8) // Script name / Death variable
@@ -573,7 +572,7 @@ ADD_JOURNAL TITLE (@50306) @50300 @50301 @50302 @50303 @50304 @50305 @50310 @503
 // L'Ordre et le Chaos // Order and Chaos.
 ADD_JOURNAL TITLE (@50400) @50401 @50402 @50403 @50404 @50405 @50406 @50407 @50411 @50412 @50413 @50414 @50415 @50417 @50418 @50419 @50420 @50421 @50422 @50423 @50424 @50425 @50426 @50427 @50428 @50429 @50430 @50431 @50432 @50433 @50434 @50435 @50436 @50437 @50438 @50439
 
-// Hrothgar 
+// Hrothgar
 ADD_JOURNAL TITLE (@50500) @50501 @50502 @50503 @50504 @50505 @50506
 
 // Siluvanede 
@@ -629,6 +628,9 @@ ADD_JOURNAL TITLE (@52200) @52201 @52202
  
 //  Harp.
 ADD_JOURNAL TITLE (@52300) @52301 @52302
+ 
+//  The nobleman is in danger.
+ADD_JOURNAL TITLE (@52400) @52401 @52402
 
 
 //////////////////////////////////
@@ -655,6 +657,12 @@ END
 ACTION_IF FILE_EXISTS_IN_GAME ~PRISONG1.DLG~ AND FILE_EXISTS_IN_GAME ~PRISONG1.DLG~ BEGIN
 
 	COMPILE ~Paladins-of-Faerun/D_spe/Prison_Blacksmith_Marian.d~
+
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~PRIHEL.DLG~ BEGIN
+
+	COMPILE EVALUATE_BUFFER ~Paladins-of-Faerun/D_spe/NBaldursGate_TempleofHelm_Margul.d~
 
 END
 

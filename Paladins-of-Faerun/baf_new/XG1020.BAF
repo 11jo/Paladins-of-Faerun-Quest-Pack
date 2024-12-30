@@ -1,90 +1,120 @@
 IF
-  OnCreation()
-  Global("EnteredXG1020","XG1020",0)
+	OnCreation()
+	Global("EnteredXG1020","XG1020",0)
 THEN
-  RESPONSE #100
-    SetGlobal("EnteredXG1020","XG1020",1)
-    ClearAllActions()
-    StartCutSceneMode()
-    HideGUI()
-	//CreateCreature("INVISABO",[496.2160],0)  // ~Маргул~
-	//ForceSpell("INVISABO",CUTSCENE_METEOR_SWARM)
-	//CreateCreature("INVISABO",[986.2329],0)  // ~Маргул~
-	//ForceSpell("INVISABO",CUTSCENE_METEOR_SWARM)
-	Wait(6)
-    ClearAllActions()
-    CreateCreatureDoor("XGBRMOC",[565.2472],0)  // ~Маргул~
-    Wait(2)
-    DisplayString("XGBRMOC",@0)  // @0
-    Wait(4)
-    DisplayString("XGBRMOC",@1)  // @1
-    Wait(4)
-    DisplayStringHead(Player1,@2)  // @2
-    Wait(4)
-    DisplayString("XGBRMOC",@3)  // @3
-    Wait(4)
-    DisplayString("XGBRMOC",@4)  // @4
-    Wait(2)
-	//ActionOverride("INVISABO",DestroySelf())
-    CreateCreature("XGBRMO",[362.2419],0)  // ~Брат монахов~
-    CreateCreature("XGBRMIL",[662.2549],0)  // ~Хранитель братства~
-    CreateCreature("XGBRMIL",[678.2050],0)  // ~Хранитель братства~
-    CreateCreature("XGBRMIL",[993.2175],0)  // ~Хранитель братства~
-	ForceSpell("XGBRMOC",CUTSCENE_METEOR_SWARM)
-    Wait(2)
-    ClearAllActions()
-    Wait(2)
-    ForceSpell("XGBRMOC",DRYAD_TELEPORT)
-    Wait(2)
-    EndCutSceneMode()
-    Wait(1)
-    UnhideGUI()
-    ClearAllActions()
-    StartCutSceneMode()
-    HideGUI()
-    Wait(2)
-    PlaySound("XGSCRN4")
-    Wait(4)
-    CreateCreature("XGMIL",[558.2593],0)  // ~Милиция~
-    CreateCreature("XGMIL",[658.2641],0)  // ~Милиция~
-    CreateCreature("XGMIL",[477.2432],0)  // ~Милиция~
-    CreateCreature("XGMIL",[458.2477],0)  // ~Милиция~
-    CreateCreature("XGMIL",[587.2542],0)  // ~Милиция~
-    ClearAllActions()
-    Wait(2)
-    DisplayString("XGMIL",@5)  // @5
-    Wait(4)
-    SetGlobal("EnteredXG1020","XG1020",2)
-    UnhideGUI()
-    EndCutSceneMode()
+	RESPONSE #100
+		SetGlobal("EnteredXG1020","XG1020",1)
+		ClearAllActions()
+		StartCutSceneMode()
+		HideGUI()
+		//CreateCreature("INVISABO",[496.2160],0)
+		//ForceSpell("INVISABO",CUTSCENE_METEOR_SWARM)
+		//CreateCreature("INVISABO",[986.2329],0)
+		//ForceSpell("INVISABO",CUTSCENE_METEOR_SWARM)
+		Wait(1)
+		CreateCreatureDoor("XGBRMOC",[565.2472],0)
+		Wait(5)
+		ActionOverride("XGBRMOC",StartDialogue("XGBRMOC",Player1))
+		UnhideGUI()
+		EndCutSceneMode()
 END
 
-IF  Global("s#XG1020","XG1020",0)
-  PartyHasItem("XGMRBO")
+IF
+	Global("EnteredXG1020","XG1020",1)
+	Global("XGBRMOC_XG1020","XG1020",1)
 THEN
-  RESPONSE #100
-    SetGlobal("s#XG1020","XG1020",1)
-    ClearAllActions()
-    StartCutSceneMode()
-    HideGUI()
-    Wait(4)
-    DisplayStringHead(Player1,@6)
-    Wait(4)
-	ForceSpell(Player1,DRYAD_TELEPORT)
-	ActionOverride(Player1,LeaveAreaLUA("XG0720","",[1000.750],0))
-    UnhideGUI()
-    EndCutSceneMode()
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		HideGUI()
+		//ActionOverride("INVISABO",DestroySelf())
+		CreateCreature("XGBRMO",[362.2419],0)
+		CreateCreature("XGBRMIL",[662.2549],0)
+		CreateCreature("XGBRMIL",[678.2050],0)
+		CreateCreature("XGBRMIL",[993.2175],0)
+		//ForceSpell("XGBRMOC",CUTSCENE_METEOR_SWARM)
+		Wait(2)
+		ForceSpell("XGBRMOC",DRYAD_TELEPORT)
+		Wait(2)
+		PlaySound("XGSCRN4")
+		Wait(4)
+		CreateCreature("XGMIL",[558.2593],0)
+		CreateCreature("XGMIL",[658.2641],0)
+		CreateCreature("XGMIL",[477.2432],0)
+		CreateCreature("XGMIL",[458.2477],0)
+		CreateCreature("XGMIL",[587.2542],0)
+		Wait(2)
+		DisplayString("XGMIL",@5)  // @5
+		Wait(4)
+		SetGlobal("EnteredXG1020","XG1020",2)
+		UnhideGUI()
+		EndCutSceneMode()
 END
 
+IF
+	Global("EnteredXG1020","XG1020",3)
+	Global("XGBRMOC_XG1020","XG1020",1)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		HideGUI()
+		SetGlobal("XGBRMOC_XG1020","XG1020",2)	
+		ActionOverride(Player2,ForceSpell(Player2,DRYAD_TELEPORT))
+		ActionOverride(Player3,ForceSpell(Player3,DRYAD_TELEPORT))
+		ActionOverride(Player4,ForceSpell(Player4,DRYAD_TELEPORT))
+		ActionOverride(Player5,ForceSpell(Player5,DRYAD_TELEPORT))
+		ActionOverride(Player6,ForceSpell(Player6,DRYAD_TELEPORT))
+		ActionOverride(Player2,LeaveAreaLUA("XG1020","",[2837.172],0))
+		ActionOverride(Player3,LeaveAreaLUA("XG1020","",[2902.173],0))
+		ActionOverride(Player4,LeaveAreaLUA("XG1020","",[2986.195],0))
+		ActionOverride(Player5,LeaveAreaLUA("XG1020","",[3050.231],0))
+		ActionOverride(Player6,LeaveAreaLUA("XG1020","",[3095.280],0))
+		Wait(1)
+		ActionOverride(Player2,FaceObject(Player1))
+		ActionOverride(Player3,FaceObject(Player1))
+		ActionOverride(Player4,FaceObject(Player1))
+		ActionOverride(Player5,FaceObject(Player1))
+		ActionOverride(Player6,FaceObject(Player1))
+		Wait(2)
+		ActionOverride(Player2,ForceSpell(Player2,HOLD_PARTY))  // SPIN863.SPL (No such index)
+		ActionOverride(Player3,ForceSpell(Player3,HOLD_PARTY))  // SPIN863.SPL (No such index)
+		ActionOverride(Player4,ForceSpell(Player4,HOLD_PARTY))  // SPIN863.SPL (No such index)
+		ActionOverride(Player5,ForceSpell(Player5,HOLD_PARTY))  // SPIN863.SPL (No such index)
+		ActionOverride(Player6,ForceSpell(Player6,HOLD_PARTY))  // SPIN863.SPL (No such index)
+		UnhideGUI()
+		EndCutSceneMode()
+END
 
-
-
-
-
-
-
-
-
-
-
-
+IF
+	Global("s#XG1020","XG1020",0)
+	PartyHasItem("XGMRBO")
+THEN
+	RESPONSE #100
+		SetGlobal("s#XG1020","XG1020",1)
+		ClearAllActions()
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		DisplayStringHead(Player1,@6)
+		Wait(4)
+		ActionOverride(Player1,ReallyForceSpell(Player2,NOHOLD_PARTY))
+		ActionOverride(Player1,ReallyForceSpell(Player3,NOHOLD_PARTY))
+		ActionOverride(Player1,ReallyForceSpell(Player4,NOHOLD_PARTY))
+		ActionOverride(Player1,ReallyForceSpell(Player5,NOHOLD_PARTY))
+		ActionOverride(Player1,ReallyForceSpell(Player6,NOHOLD_PARTY))
+		ActionOverride(Player1,ForceSpell(Player1,DRYAD_TELEPORT)
+		ActionOverride(Player2,ForceSpell(Player2,DRYAD_TELEPORT)
+		ActionOverride(Player3,ForceSpell(Player3,DRYAD_TELEPORT)
+		ActionOverride(Player4,ForceSpell(Player4,DRYAD_TELEPORT)
+		ActionOverride(Player5,ForceSpell(Player5,DRYAD_TELEPORT)
+		ActionOverride(Player6,ForceSpell(Player6,DRYAD_TELEPORT)
+		ActionOverride(Player1,LeaveAreaLUA("XG0720","",[1000.750],0))
+		ActionOverride(Player2,LeaveAreaLUA("XG0720","",[1034.643],0))
+		ActionOverride(Player3,LeaveAreaLUA("XG0720","",[1144.720],0))
+		ActionOverride(Player4,LeaveAreaLUA("XG0720","",[956.718],0))
+		ActionOverride(Player5,LeaveAreaLUA("XG0720","",[1054.796],0))
+		ActionOverride(Player6,LeaveAreaLUA("XG0720","",[1048.737],0))
+		UnhideGUI()
+		EndCutSceneMode()
+END

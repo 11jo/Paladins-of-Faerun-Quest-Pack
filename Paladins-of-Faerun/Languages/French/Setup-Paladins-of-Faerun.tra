@@ -4292,6 +4292,8 @@ Poids : 20~
 @1062 = ~L'emblème de Cyric est gravé sur la poignée de cette dague couverte de sang.~ // The Cyric emblem is carved on the handle.
 @1063 = ~Cette dague semble teintée d'un liquide rougeâtre...~ // Undesc
 
+// XG0120 
+@1064 = ~Vito le tenancier~
 
 /////XGLRDR.CRE - LRDRMOD.CRE///// Not present but in tra folder
 
@@ -4367,6 +4369,10 @@ Le magicien pointe son doigt dans la direction désirée et projette une sphère d'
 @1601 = ~Je fais partie de la garde de la ville, le capitaine m'a chargé de retrouver le meurtrier qui sévit à la Porte de Baldur.~
 @1602 = ~Je fais partie de la garde de la ville, le capitaine m'a envoyé en mission pour protéger un citoyen en difficulté hors de la ville.~
 @1603 = ~Je viens rencontrer le capitaine de la garde.~
+
+// NBaldursGate_TempleofHelm_Margul.D (XG0420/BG0002)
+@1604 = ~Je suis en service commandé pour le Duc Opas. Permettez-moi d’accéder aux catacombes.~
+@1605 = ~Très bien, veuillez me suivre.~
 
 // XG0720 to BG0108
 @1620 = ~Vous empruntez l'escalier qui mène aux quartiers du Duc Opas.~

@@ -1,11 +1,12 @@
 IF
-	Exists("XGBGG")
+	InMyArea("XGBGG")
 	Global("XG1120_XG0020","GLOBAL",2)
 	OR(2)
 	!Global("XGBGG_Missing","GLOBAL",4)
 	Dead("XGBGG")
 THEN
   RESPONSE #100
+		SetGlobal("XG1120_XG0020","GLOBAL",3)
 		SetGlobal("XGBGG_Missing","GLOBAL",8)
 		DestroySelf()
 END
@@ -15,11 +16,12 @@ IF
 	Global("XG1120_XG0020","GLOBAL",2)
 	Global("XGBGG_Missing","GLOBAL",4)
 	!Dead("XGBGG")
-	Exists("XGBGG")
+	InMyArea("XGBGG")
 THEN
   RESPONSE #100
 		ClearAllActions()
 		StartCutSceneMode()
+		SetGlobal("XG1120_XG0020","GLOBAL",3)
 		SetGlobal("XGBGG_XG0020","GLOBAL",1)
 		//DestroyItem("IMPINVIS")
 		MoveViewObject(Player1,INSTANT)
@@ -30,6 +32,7 @@ THEN
 		Wait(3)
 		DisplayStringHead("XGBGG",@1059)
 		Wait(1)
+		ReputationInc(1)
 		UnhideGUI()
 		EndCutSceneMode()
 END
@@ -74,8 +77,8 @@ IF
 	Allegiance(Myself,ALLY)
 	AreaCheck("XG1120")
 	Range(Player1,3)
-	See([GOODCUTOFF])
-	Exists(Player2)
+	See([GOODCUTOFF])	
+	InMyArea(Player2)
 	!Range(Player2,3)
 THEN
   RESPONSE #100
@@ -87,8 +90,8 @@ IF
 	Allegiance(Myself,ALLY)
 	AreaCheck("XG1120")
 	Range(Player2,3)
-	See([GOODCUTOFF])
-	Exists(Player3)
+	See([GOODCUTOFF])	
+	InMyArea(Player3)
 	!Range(Player3,3)
 THEN
   RESPONSE #100
@@ -101,7 +104,7 @@ IF
 	AreaCheck("XG1120")
 	Range(Player3,3)
 	See([GOODCUTOFF])
-	Exists(Player4)
+	InMyArea(Player4)
 	!Range(Player4,3)
 THEN
   RESPONSE #100
@@ -114,7 +117,7 @@ IF
 	AreaCheck("XG1120")
 	Range(Player4,3)
 	See([GOODCUTOFF])
-	Exists(Player5)
+	InMyArea(Player5)
 	!Range(Player5,3)
 THEN
   RESPONSE #100
@@ -127,7 +130,7 @@ IF
 	AreaCheck("XG1120")
 	Range(Player5,3)
 	See([GOODCUTOFF])
-	Exists(Player6)
+	InMyArea(Player6)
 	!Range(Player6,3)
 THEN
   RESPONSE #100
@@ -138,6 +141,9 @@ END
 IF
 	!InMyArea("XGFLAF12")
 	!InMyArea("XGFLAM12")
+OR(2)
+	AreaCheck("XG0020")
+	AreaCheck("%NBaldursGate%")
 THEN
   RESPONSE #100
 		EscapeArea()

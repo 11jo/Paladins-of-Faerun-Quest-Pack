@@ -1,0 +1,10 @@
+IF
+	OR(2)
+		Entered([ANYONE])
+		Opened([ANYONE])
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14381)  // Piège activé
+		ReallyForceSpell(LastTrigger,TRAP_CHROMATIC_ORB)  // SPPR984.SPL (Orbe chromatique)
+		Wait(2)
+END

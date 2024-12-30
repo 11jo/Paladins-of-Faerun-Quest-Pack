@@ -123,8 +123,6 @@ THEN
 		CreateCreatureObject("XGFLAF12",Player1,0,0,0)
 END
 
-
-
 IF
 	Global("XGBGG_Missing","GLOBAL",1)
 	Global("XGFLAM12_ishere","MYAREA",1)
@@ -154,43 +152,6 @@ THEN
 		Wait(1)
 		ActionOverride("XGFLAF12",StartDialogue("XGBGFL00",Player1))
 END
-
-/*
-
-IF
-	Global("XGFLAF12_ishere","MYAREA",2)
-THEN
-	RESPONSE #100
-		ActionOverride("XGFLAF12",MoveToPointNoInterrupt([1915.2883]))
-		Wait(1)
-		SetGlobal("XGFLAF12_ishere","MYAREA",3)
-END
-
-IF
-	Global("XGFLAM12_ishere","MYAREA",2)
-THEN
-	RESPONSE #100
-		ActionOverride("XGFLAM12",MoveToPointNoInterrupt([1915.2883]))
-		Wait(1)
-		SetGlobal("XGFLAM12_ishere","MYAREA",3)
-END
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -223,11 +184,11 @@ END
 IF
 	Global("NEWGAME_SOA","GLOBAL",1)
 	Global("XGPoFinBG","GLOBAL",1)
-	Global("XGNEWGAME_SOA","GLOBAL",1)
+	Global("NEWGAME_SOA","GLOBAL",1)
 	AreaCheck("XG0020")
 THEN
 	RESPONSE #100
-		SetGlobal("XGNEWGAME_SOA","GLOBAL",0)
+		SetGlobal("NEWGAME_SOA","GLOBAL",0)
 		Wait(2)
 		FadeFromColor([20.0],0)
 		UnhideGUI()

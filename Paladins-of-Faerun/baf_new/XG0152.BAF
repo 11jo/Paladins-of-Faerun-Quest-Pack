@@ -1,0 +1,20 @@
+IF
+	Global("s#XGELOR_XGARJUN","GLOBAL",5)
+THEN
+  RESPONSE #100
+		ActionOverride("XGARJUN",ForceSpell("XGARJUN",CLERIC_ZONE_OF_SWEET_AIR))
+		ActionOverride(Player2,ForceSpell(Player2,WIZARD_FLESH_TO_STONE_IGNORE_RESISTANCE))
+		ActionOverride(Player3,ForceSpell(Player3,WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
+		ActionOverride(Player4,ForceSpell(Player4,CLERIC_FLAME_STRIKE))
+		ActionOverride(Player5,ForceSpell(Player5,WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
+		ActionOverride(Player6,ForceSpell(Player6,WIZARD_FINGER_OF_DEATH_IGNORE_RESISTANCE))
+		ActionOverride(Player1,ReallyForceSpellRES("SPWI299",Myself))
+		DisplayStringHead("XGARJUN",~MOUAHAHAHA !!!~) 
+		Wait(2)
+		ActionOverride("XGARJUN",Kill(Player2))
+		ActionOverride("XGARJUN",Kill(Player3))
+		ActionOverride("XGARJUN",Kill(Player4))
+		ActionOverride("XGARJUN",Kill(Player5))
+		ActionOverride("XGARJUN",Kill(Player6))
+		ActionOverride("XGARJUN",Kill(Player1))
+END

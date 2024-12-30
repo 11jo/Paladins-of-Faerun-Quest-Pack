@@ -160,10 +160,10 @@ END
 /*
 IF
 	OR(4)
-		Exists("XGYARPW7")
-		Exists("XGYARPW8")
-		Exists("XGYARPW9")
-		Exists("XGYARP10")
+		!Dead("XGYARPW7")
+		!Dead("XGYARPW8")
+		!Dead("XGYARPW9")
+		!Dead("XGYARP10")
 	Global("XGpursuit0053","XG0053",1)
 THEN
 	RESPONSE #100
@@ -181,7 +181,9 @@ THEN
 END
 
 IF
-	Exists("XGYARPW7")
+	//Exists("XGYARPW7")
+	!Dead("XGYARPW7")
+	InMyArea("XGYARPW7")
 	Global("XGYARPW7","XG0053",0)
 END
 THEN
@@ -191,7 +193,9 @@ THEN
 END
 
 IF
-	Exists("XGYARPW8")
+	//Exists("XGYARPW8")
+	!Dead("XGYARPW8")
+	InMyArea("XGYARPW8")
 	Global("XGYARPW8","XG0053",0)
 THEN
 	RESPONSE #100
@@ -200,7 +204,9 @@ THEN
 END
 
 IF
-	Exists("XGYARPW9")
+	//Exists("XGYARPW9")
+	!Dead("XGYARPW9")
+	InMyArea("XGYARPW9")
 	Global("XGYARPW9","XG0053",0)
 THEN
 	RESPONSE #100
@@ -209,7 +215,9 @@ THEN
 END
 
 IF
-	Exists("XGYARP10")
+	//Exists("XGYARP10")
+	!Dead("XGYARP10")
+	InMyArea("XGYARP10")
 	Global("XGYARP10","XG0053",0)
 THEN
 	RESPONSE #100
