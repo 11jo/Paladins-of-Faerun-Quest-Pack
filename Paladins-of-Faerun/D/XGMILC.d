@@ -167,3 +167,9 @@ IF ~NumTimesTalkedToGT(1)
 ~ EXIT
 END
 
+IF ~Global("XGZATon","GLOBAL",2)~ THEN BEGIN 16.1
+  SAY @28
+  IF ~~ THEN DO ~SetNumTimesTalkedTo(3)
+~ EXIT
+END
+

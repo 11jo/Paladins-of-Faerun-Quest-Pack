@@ -36,13 +36,13 @@ THEN
     ActionOverride("XGMTR",CreateVisualEffectObject("SPFIREPI","XGPIRM3"))
     PlaySound("EFF_M13")
     Wait(6)
-    CreateCreature("AMNG1",[1720.831],0)  // ~Амнский солдат~
-    CreateCreature("AMNG2",[1765.866],0)  // ~Амнский солдат~
+    CreateCreature("XGAMNG1",[1720.831],0)  // ~Амнский солдат~
+    CreateCreature("XGAMNG2",[1765.866],0)  // ~Амнский солдат~
     ActionOverride("XGMTR",MoveToPoint([1903.640]))
-    ActionOverride("AMNG1",MoveToPoint([1933.667]))  // Soldat amnien original game
-    ActionOverride("AMNG2",MoveToPoint([1970.699]))  // Soldat amnien original game
+    ActionOverride("XGAMNG1",MoveToPoint([1933.667]))  // Soldat amnien original game
+    ActionOverride("XGAMNG2",MoveToPoint([1970.699]))  // Soldat amnien original game
     Wait(6)
-    DisplayStringHead("AMNG1",@2)  // @2
+    DisplayStringHead("XGAMNG1",@2)  // @2
     Wait(5)
     DisplayStringHead(Player1,@3)  // @3
     Wait(5)

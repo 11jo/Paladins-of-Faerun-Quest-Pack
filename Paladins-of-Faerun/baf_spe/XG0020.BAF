@@ -35,7 +35,9 @@ IF
 	Global("XGJOPEAS","GLOBAL",0)
 	Global("NEWGAME_SOA","GLOBAL",1)
 	Global("XGPoFinBG","GLOBAL",1)
-	AreaCheck("BG0200")  // (PoF)  Porte de Baldur
+	OR(2)
+		AreaCheck("AR7300")  // (PoF)  Porte de Baldur
+		AreaCheck("BG0200")  // (PoF)  Porte de Baldur
 THEN
 	RESPONSE #100
 		CreateCreatureObject("XGJOPEAS",Player1,0,0,0)  // Paysan // Player1

@@ -16,6 +16,5 @@ THEN
 		SetGlobal("XG0170_XGNOBG","MYAREA",1)
 		CreateCreatureObject("XGNOBG1","XGNOBG",0,0,0)
 		CreateCreatureObject("XGNOBG2","XGNOBG",0,0,0)
-		CreateCreatureObject("XGNOBG1","XGNOBG",0,0,0)
 		CreateCreatureObject("XGNOBG3","XGNOBG",0,0,0)
 END

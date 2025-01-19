@@ -1,4 +1,31 @@
 IF
+	Global("XG0720_XG1120","MYAREA",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		MoveViewObject(Player1,INSTANT)
+		SetGlobal("XG0720_XG1120","MYAREA",1)
+		// ActionOverride("XGBGG",XEquipItem("IMPINVIS",Myself,SLOT_RING_LEFT,UNEQUIP))
+		// ActionOverride("XGBGG",XEquipItem("IMPINVIS",Myself,SLOT_RING_RIGHT,UNEQUIP))
+		// ActionOverride("XGBGG",DestroyItem("IMPINVIS"))	
+		FadeFromColor([20.0],0)
+		Wait(2)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+OR(2)
+	Global("XGHAR_XG0720","GLOBAL",1)
+	Global("XGHAR_XG0720","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("XGHAR_XG0720","GLOBAL",3)
+		CreateCreatureObject("XGHAR",Player1,0,0,0)
+END
+
+IF
 	Global("s#XGthf","GLOBAL",1)
 	!Global("XGthfQuestDone","GLOBAL",1)
 	PartyHasItem("XGSWOR2")
@@ -29,62 +56,35 @@ THEN
 END
 
 IF
-OR(2)
-	Global("XGHAR_XG0720","GLOBAL",1)
-	Global("XGHAR_XG0720","GLOBAL",2)
+	Global("RevealXG1120","XG1120",0)
+	HPLT("XGARTBG",120)
 THEN
 	RESPONSE #100
-		SetGlobal("XGHAR_XG0720","GLOBAL",3)
-		CreateCreatureObject("XGHAR",Player1,0,0,0)
-END
-
-IF
-	Global("XG0720_XG1120","MYAREA",0)
-THEN
-	RESPONSE #100
-		ClearAllActions()
+		SetGlobal("RevealXG1120","XG1120",1)
+		Wait(3)
 		StartCutSceneMode()
-		MoveViewObject(Player1,INSTANT)
-		SetGlobal("XG0720_XG1120","MYAREA",1)
-		// ActionOverride("XGBGG",XEquipItem("IMPINVIS",Myself,SLOT_RING_LEFT,UNEQUIP))
-		// ActionOverride("XGBGG",XEquipItem("IMPINVIS",Myself,SLOT_RING_RIGHT,UNEQUIP))
-		// ActionOverride("XGBGG",DestroyItem("IMPINVIS"))	
-		FadeFromColor([20.0],0)
+		HideGUI()
+		GiveItemCreate("XGKAT01",Player1,0,0,0)
+		GiveItemCreate("XGZAT5",Player1,0,0,0)
+		DisplayStringHead("XGARTBG",@1)
+		ClearAllActions()
+		Wait(3)
+		ActionOverride("XGARTBG",EscapeArea())
+		Wait(4)
+		DisplayStringHead(Player1,@0) 
+		Wait(4)
+		SetGlobal("XG1120_XG0020","GLOBAL",1)
+		FadeToColor([50.0],0)
+		ActionOverride("XGBGG",EscapeArea())
 		Wait(2)
+		ActionOverride("XGBGG",LeaveAreaLUA("%NBaldursGate%","",[282.1732],0))
+		ActionOverride(Player2,LeaveAreaLUA("%NBaldursGate%","",[282.1732],0))
+		ActionOverride(Player1,LeaveAreaLUA("%NBaldursGate%","",[248.1687],0))
+		ActionOverride(Player3,LeaveAreaLUA("%NBaldursGate%","",[279.1645],0))
+		ActionOverride(Player4,LeaveAreaLUA("%NBaldursGate%","",[361.1670],0))
+		ActionOverride(Player5,LeaveAreaLUA("%NBaldursGate%","",[431.1723],0))
+		ActionOverride(Player6,LeaveAreaLUA("%NBaldursGate%","",[499.1689],0))
 		UnhideGUI()
 		EndCutSceneMode()
-END
-
-IF
-  Global("RevealXG1120","XG1120",0)
-  HPLT("XGARTBG",120)
-THEN
-  RESPONSE #100
-    SetGlobal("RevealXG1120","XG1120",1)
-    Wait(3)
-    StartCutSceneMode()
-    HideGUI()
-    GiveItemCreate("XGKAT01",Player1,0,0,0)
-    GiveItemCreate("XGZAT5",Player1,0,0,0)
-    DisplayStringHead("XGARTBG",@1)
-    ClearAllActions()
-    Wait(3)
-    ActionOverride("XGARTBG",EscapeArea())
-    Wait(4)
-    DisplayStringHead(Player1,@0) 
-    Wait(4)
-	SetGlobal("XG1120_XG0020","GLOBAL",1)
-	FadeToColor([50.0],0)
-	ActionOverride("XGBGG",EscapeArea())
-	Wait(2)
-	ActionOverride("XGBGG",LeaveAreaLUA("%NBaldursGate%","",[282.1732],0))
-    ActionOverride(Player2,LeaveAreaLUA("%NBaldursGate%","",[282.1732],0))
-    ActionOverride(Player1,LeaveAreaLUA("%NBaldursGate%","",[248.1687],0))
-    ActionOverride(Player3,LeaveAreaLUA("%NBaldursGate%","",[279.1645],0))
-    ActionOverride(Player4,LeaveAreaLUA("%NBaldursGate%","",[361.1670],0))
-    ActionOverride(Player5,LeaveAreaLUA("%NBaldursGate%","",[431.1723],0))
-    ActionOverride(Player6,LeaveAreaLUA("%NBaldursGate%","",[499.1689],0))
-    UnhideGUI()
-    EndCutSceneMode()
 END
 

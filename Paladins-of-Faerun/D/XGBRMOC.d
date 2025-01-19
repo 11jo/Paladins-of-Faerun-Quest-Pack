@@ -9,31 +9,7 @@ IF ~~ THEN BEGIN 1
   SAY @3
   IF ~~ THEN REPLY @4 DO ~
 RevealAreaOnMap("XG0018")
-SetGlobal("EnteredXG1020","XG1020",3)
-//Wait(2)
-//ForceSpell(Player2,DRYAD_TELEPORT)
-//ForceSpell(Player3,DRYAD_TELEPORT)
-//ForceSpell(Player4,DRYAD_TELEPORT)
-//ForceSpell(Player5,DRYAD_TELEPORT)
-//ForceSpell(Player6,DRYAD_TELEPORT)
-//ActionOverride(Player2,LeaveAreaLUA("XG1020","",[2837.172],0))
-//ActionOverride(Player3,LeaveAreaLUA("XG1020","",[2902.173],0))
-//ActionOverride(Player4,LeaveAreaLUA("XG1020","",[2986.195],0))
-//ActionOverride(Player5,LeaveAreaLUA("XG1020","",[3050.231],0))
-//ActionOverride(Player6,LeaveAreaLUA("XG1020","",[3095.280],0))
-//Wait(1)
-//ActionOverride(Player2,FaceObject(Player1))
-//ActionOverride(Player3,ForceSpell(Player1))
-//ActionOverride(Player4,ForceSpell(Player1))
-//ActionOverride(Player5,ForceSpell(Player1))
-//ActionOverride(Player6,ForceSpell(Player1))
-//Wait(2)
-//ActionOverride(Player2,ForceSpell(Player2,HOLD_PARTY))  // SPIN863.SPL (No such index)
-//ActionOverride(Player3,ForceSpell(Player3,HOLD_PARTY))  // SPIN863.SPL (No such index)
-//ActionOverride(Player4,ForceSpell(Player4,HOLD_PARTY))  // SPIN863.SPL (No such index)
-//ActionOverride(Player5,ForceSpell(Player5,HOLD_PARTY))  // SPIN863.SPL (No such index)
-//ActionOverride(Player6,ForceSpell(Player6,HOLD_PARTY))  // SPIN863.SPL (No such index)
-//Wait(2)~ GOTO 2
+SetGlobal("EnteredXG1020","XG1020",3)~ GOTO 2
 END
 
 IF ~~ THEN BEGIN 2

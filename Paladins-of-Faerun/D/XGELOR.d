@@ -92,18 +92,19 @@ IF ~Global("s#XGELOR","MYAREA",3)~ THEN BEGIN 9
   SAY @20
   IF ~PartyHasItem("XGMB")~ THEN REPLY @21 GOTO 10
   IF ~PartyHasItem("XGZAT1")~ THEN REPLY @26 GOTO 12
-  IF ~Global("s#XGELOR_XGARJUN","GLOBAL",1) !Global("s#XGELOR_XGZAT1","MYAREA",0)~ THEN REPLY @30 GOTO XGELORXGARJUN
+  IF ~!Global("s#XGELOR_XGARJUN","GLOBAL",0) !PartyHasItem("XGMB") !Global("s#XGELOR_XGZAT1","MYAREA",0)~ THEN REPLY @30 GOTO XGELORXGARJUN
   IF ~~ THEN REPLY @7 EXIT
 END
 
 IF ~~ THEN BEGIN XGELORXGARJUN
   SAY @31
-  IF ~~ THEN DO ~EscapeArea()~ EXIT
+  IF ~~ THEN DO ~ReputationInc(-1) EscapeArea()~ EXIT
 END
 
 IF ~~ THEN BEGIN 10
   SAY @22
   IF ~~ THEN REPLY @23 DO ~EraseJournalEntry(@52101)
+HideAreaOnMap("XG0052")
 TakePartyItem("XGMB")
 AddexperienceParty(10000)
 SetGlobal("s#XGELOR","MYAREA",4)

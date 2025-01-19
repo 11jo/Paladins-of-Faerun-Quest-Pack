@@ -19,7 +19,7 @@ IF
 THEN
 	RESPONSE #100
 		CreateCreature("XGMIL",[824.488],2)  // Milicien
-		CreateCreature("XGMIL",[583.504],2)  // Milicien
+		CreateCreature("XGMIL",[583.504],3)  // Milicien
 		CreateCreature("XGMILC",[712.522],2)  // Capitaine
 		SetGlobal("XGPoFXGMILC","MYAREA",1)
 		Continue()

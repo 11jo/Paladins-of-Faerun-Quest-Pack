@@ -1,4 +1,5 @@
-IF	
+IF
+	Global("XGNOBG_Close","MYAREA",0)
 	AreaCheck("XG0070")
 OR(2)
 	Dead("XGHOB3")
@@ -8,19 +9,20 @@ OR(2)
 	!InMyArea("XGHOB33")
 THEN
 	RESPONSE #100
-		SetGlobal("XGNOBG_Close","MYAREA",0)
+		SetGlobal("XGNOBG_Close","MYAREA",1)
 		TriggerActivation("Travel",TRUE)
 		TriggerActivation("info070",FALSE)
 		TriggerActivation("inf1070",FALSE)
 END
 
 IF
-	Global("XGNOBG_TALK","MYAREA",1)
+	Global("XGNOBG_TALK","GLOBAL",1)
 	AreaCheck("XG0070")
 	InMyArea([EVILCUTOFF])
 THEN
 	RESPONSE #100
 		ActionOverride([EVILCUTOFF],DestroySelf())
+		Continue()
 END
 
 IF
@@ -48,6 +50,7 @@ THEN
 END
 
 IF
+	!Global("XGNOBG_TALK","GLOBAL",1)
 	Global("XGNOBG_XGINFO70","MYAREA",2)
 OR(2)
 	!Dead("XGHOB3")
@@ -63,6 +66,7 @@ THEN
 END
 
 IF
+	!Global("XGNOBG_TALK","GLOBAL",1)
 	Global("XGNOBG_INFO1070","MYAREA",1)
 OR(2)
 	!Dead("XGHOB3")

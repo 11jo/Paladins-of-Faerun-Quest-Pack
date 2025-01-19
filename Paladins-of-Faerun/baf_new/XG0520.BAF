@@ -16,7 +16,7 @@ IF
 	AreaCheck("%NBaldursGate_RinniesHouse_L1%")
 THEN
 	RESPONSE #100
-		CreateCreature("XGBGPS3",[480.337],14)
+		CreateCreature("XGBGPS3",[539.220],14)
 		SetGlobal("XGPoFXGBGPS3","MYAREA",1)
 		Continue()
 END

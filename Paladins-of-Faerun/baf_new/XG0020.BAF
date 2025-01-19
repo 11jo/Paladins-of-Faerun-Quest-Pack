@@ -95,7 +95,7 @@ THEN
 		CreateCreature("XGMIL",[2155.2838],2)  // Milicien
 		CreateCreature("XGTDR",[1449.1155],0)  // Pretre
 		CreateCreature("XGTDR",[1662.1154],0)  // Pretre
-		CreateCreature("tanadv03",[3195.1065],0)  // Aventurier
+		CreateCreature("xgtanadv",[3195.1065],0)  // Aventurier
 		SetGlobal("XGPoFXGMIL","MYAREA",1)
 		Continue()
 END

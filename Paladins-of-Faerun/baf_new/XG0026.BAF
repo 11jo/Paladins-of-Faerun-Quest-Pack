@@ -68,6 +68,7 @@ THEN
     ActionOverride("XGCOW2",ForceSpell("XGELWIN",CLERIC_MAGIC_STONE))
     ActionOverride(Player1,MoveToObject("XGCOW3"))
     ActionOverride(Player3,MoveToPoint([2090.2343]))
+    ActionOverride(Player5,MoveToPoint([2090.2343]))
     Wait(1)
     DisplayString("XGELWIN",@7)  // @7
     Wait(4)
@@ -82,6 +83,7 @@ THEN
     DisplayString("XGCOW",@8)  // @8
     ActionOverride(Player1,FaceObject("XGELWIN"))
     Wait(2)
+    ActionOverride(Player4,MoveToPoint([2181.2396]))
     ActionOverride(Player6,MoveToPoint([2181.2396]))
     ActionOverride("XGCOW",MoveToPoint([2293.1754]))
     Wait(3)

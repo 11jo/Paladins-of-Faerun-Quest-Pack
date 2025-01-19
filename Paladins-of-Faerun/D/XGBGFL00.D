@@ -3,7 +3,9 @@ BEGIN ~XGBGFL00~
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1 /* Bien le bonjour, quel bon vent vous amène dans notre cité ? */
   IF ~~ THEN REPLY @2 /* C'est pas vos oignions ! */ GOTO 1
-  IF ~AreaCheck("BG0200")~ THEN REPLY @3 /* J'ai des comptes à régler. */ DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 3
+  IF ~OR(2)
+AreaCheck("AR7300")
+AreaCheck("BG0200")~ THEN REPLY @3 /* J'ai des comptes à régler. */ DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 3
   IF ~AreaCheck("XG0020")~ THEN REPLY @3 /* J'ai des comptes à régler. */ DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 4
   IF ~~ THEN REPLY @4 /* Quel question, l'aventure évidemment... */ DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 5
   IF ~~ THEN REPLY @33 /* Une mission de la plus grande importance ! */ DO ~IncrementGlobal("XGBGF1_HUM","LOCALS",1)~ GOTO 16

@@ -17,7 +17,7 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @6
-  IF ~~ THEN REPLY @7 DO ~ReputationInc(-1)
+  IF ~~ THEN REPLY @7 DO ~ClearAllActions()
 GiveItemCreate("XGSWO20",Player1,0,0,0)
 SetGlobal("s#XGELOR_XGARJUN","GLOBAL",1)
 ~ EXIT
@@ -25,8 +25,9 @@ SetGlobal("s#XGELOR_XGARJUN","GLOBAL",1)
 ~ EXIT
 END
 
-IF ~!NumberOfTimesTalkedTo(0) Global("s#XGELOR_XGARJUN","GLOBAL",1)~ THEN BEGIN 4
+IF ~!NumberOfTimesTalkedTo(0)~ THEN BEGIN 4
   SAY @9
-  IF ~~ THEN REPLY @10 DO ~SetGlobal("s#XGELOR_XGARJUN","GLOBAL",5)
-~ EXIT
+  IF ~!Global("s#XGELOR_XGARJUN","GLOBAL",5)~ THEN REPLY @10 EXIT
+  IF ~~ THEN REPLY @11 DO ~SetGlobal("s#XGELOR_XGARJUN","GLOBAL",5) 
+Enemy()~ EXIT
 END

@@ -1,0 +1,24 @@
+IF
+	Global("XG0420_BG0200","MYAREA",0)
+	!Global("NEWGAME_SOA","GLOBAL",1)
+	Global("XGPoFXGFLAM10","GLOBAL",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("TravelBG0200",TRUE)
+		TriggerActivation("Travel01",FALSE)
+		SetGlobal("XG0420_BG0200","MYAREA",1)
+		SetGlobal("XG0420_XG0020","MYAREA",0)
+END
+
+IF
+	Global("XG0420_XG0020","MYAREA",0)
+	OR(2)
+		Global("NEWGAME_SOA","GLOBAL",1)
+		!Global("XGPoFXGFLAM10","GLOBAL",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("Travel01",TRUE)
+		TriggerActivation("TravelBG0200",FALSE)
+		SetGlobal("XG0420_XG0020","MYAREA",1)
+		SetGlobal("XG0420_BG0200","MYAREA",0)
+END

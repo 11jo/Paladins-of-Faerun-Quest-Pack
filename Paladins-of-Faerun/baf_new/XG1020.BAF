@@ -59,6 +59,8 @@ THEN
 		ClearAllActions()
 		StartCutSceneMode()
 		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(3)
 		SetGlobal("XGBRMOC_XG1020","XG1020",2)	
 		ActionOverride(Player2,ForceSpell(Player2,DRYAD_TELEPORT))
 		ActionOverride(Player3,ForceSpell(Player3,DRYAD_TELEPORT))
@@ -82,8 +84,24 @@ THEN
 		ActionOverride(Player4,ForceSpell(Player4,HOLD_PARTY))  // SPIN863.SPL (No such index)
 		ActionOverride(Player5,ForceSpell(Player5,HOLD_PARTY))  // SPIN863.SPL (No such index)
 		ActionOverride(Player6,ForceSpell(Player6,HOLD_PARTY))  // SPIN863.SPL (No such index)
+		FadeFromColor([20.0],0)
+		Wait(2)
 		UnhideGUI()
 		EndCutSceneMode()
+END
+
+IF
+	Dead("XGBRMO")
+THEN
+	RESPONSE #100
+		Wait(2)
+		DisplayStringHead(Player1,@6)
+		Wait(3)
+		ActionOverride(Player1,ReallyForceSpell(Player2,NOHOLD_PARTY))
+		ActionOverride(Player1,ReallyForceSpell(Player3,NOHOLD_PARTY))
+		ActionOverride(Player1,ReallyForceSpell(Player4,NOHOLD_PARTY))
+		ActionOverride(Player1,ReallyForceSpell(Player5,NOHOLD_PARTY))
+		ActionOverride(Player1,ReallyForceSpell(Player6,NOHOLD_PARTY))
 END
 
 IF
@@ -96,19 +114,13 @@ THEN
 		StartCutSceneMode()
 		HideGUI()
 		Wait(1)
-		DisplayStringHead(Player1,@6)
-		Wait(4)
-		ActionOverride(Player1,ReallyForceSpell(Player2,NOHOLD_PARTY))
-		ActionOverride(Player1,ReallyForceSpell(Player3,NOHOLD_PARTY))
-		ActionOverride(Player1,ReallyForceSpell(Player4,NOHOLD_PARTY))
-		ActionOverride(Player1,ReallyForceSpell(Player5,NOHOLD_PARTY))
-		ActionOverride(Player1,ReallyForceSpell(Player6,NOHOLD_PARTY))
 		ActionOverride(Player1,ForceSpell(Player1,DRYAD_TELEPORT)
 		ActionOverride(Player2,ForceSpell(Player2,DRYAD_TELEPORT)
 		ActionOverride(Player3,ForceSpell(Player3,DRYAD_TELEPORT)
 		ActionOverride(Player4,ForceSpell(Player4,DRYAD_TELEPORT)
 		ActionOverride(Player5,ForceSpell(Player5,DRYAD_TELEPORT)
 		ActionOverride(Player6,ForceSpell(Player6,DRYAD_TELEPORT)
+		Wait(1)
 		ActionOverride(Player1,LeaveAreaLUA("XG0720","",[1000.750],0))
 		ActionOverride(Player2,LeaveAreaLUA("XG0720","",[1034.643],0))
 		ActionOverride(Player3,LeaveAreaLUA("XG0720","",[1144.720],0))
@@ -118,3 +130,4 @@ THEN
 		UnhideGUI()
 		EndCutSceneMode()
 END
+

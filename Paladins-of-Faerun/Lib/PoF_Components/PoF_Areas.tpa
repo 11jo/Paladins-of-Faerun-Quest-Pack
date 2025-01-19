@@ -468,8 +468,26 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0049.ARE~         ~override/XG00
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0050.ARE~         ~override/XG0050.ARE~
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0052.ARE~         ~override/XG0052.ARE~
-		WRITE_ASCII 0x94 ~XG0052~ #8
+	WRITE_ASCII 0x94 ~XG0052~ #8
 	ADD_MAP_NOTE #505 #2245 ~gray~ @1502
+		LPF ALTER_AREA_ACTOR
+			STR_VAR
+			actor_name = "WMMOD"
+			script_class = "XGARJO"
+		END
+		LPF ALTER_AREA_ACTOR
+			STR_VAR
+			actor_name = "XGWRAK"
+			script_override = "XGARJO"
+			script_general = "None"
+			script_class = "MAGE8D"
+			script_race = "RAKSHA02"
+		END
+		LPF ALTER_AREA_ACTOR
+			STR_VAR
+			actor_name = "NONE"
+			script_class = "XGARJO"
+		END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0053.ARE~         ~override/XG0053.ARE~
 // SAY 0x3104 ~~
@@ -826,10 +844,32 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0149.ARE~         ~override/XG01
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0150.ARE~         ~override/XG0150.ARE~         
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0152.ARE~         ~override/XG0152.ARE~
-		LPF ALTER_AREA_ACTOR 
-			STR_VAR 
-			actor_name = "XGARJUN" 
-			script_race = "SHOUT12" 
+	WRITE_ASCII 0x94 ~XG0152~ (8)
+		LPF ALTER_AREA_ACTOR
+			STR_VAR
+			actor_name = "XGARJUN"
+			script_override = "XGARJUN"
+			script_general = "SHOUT12"
+			script_class = "MAGE8D"
+			script_race = "RAKSHA02"
+		END
+		LPF ALTER_AREA_ACTOR
+			STR_VAR
+			actor_name = "WMMOD"
+			script_class = "XGARJO"
+		END
+		LPF ALTER_AREA_ACTOR
+			STR_VAR
+			actor_name = "XGWRAK"
+			script_override = "XGARJO"
+			script_general = "None"
+			script_class = "MAGE8D"
+			script_race = "RAKSHA02"
+		END
+		LPF ALTER_AREA_ACTOR
+			STR_VAR
+			actor_name = "NONE"
+			script_class = "XGARJO"
 		END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0153.ARE~         ~override/XG0153.ARE~         
@@ -1166,7 +1206,29 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0417.ARE~         ~override/XG04
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0419.ARE~         ~override/XG0419.ARE~         
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0420.ARE~         ~override/XG0420.ARE~         
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0420.ARE~         ~override/XG0420.ARE~
+	WRITE_ASCII 0x94 ~XG0420~ #8
+			LPF fj_are_structure
+				INT_VAR
+				fj_type			= 2							// travel
+				fj_box_left		= 503
+				fj_box_top		= 464
+				fj_box_right	= 632
+				fj_box_bottom	= 539
+				fj_cursor_idx	= 30						// 30 door 28 stairs
+				fj_loc_x		= 567
+				fj_loc_y		= 501
+				fj_vertex_0		= 609 + (463 << 16)
+				fj_vertex_1		= 632 + (485 << 16)
+				fj_vertex_2		= 520 + (539 << 16)
+				fj_vertex_3		= 503 + (516 << 16)
+				fj_vertex_4		= 609 + (463 << 16)
+				STR_VAR
+				fj_structure_type	= region
+				fj_name				= TravelBG0200
+				fj_destination_area	= BG0200				// Code de la carte
+				fj_destination_name	= Exit0002
+			END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0424.ARE~         ~override/XG0424.ARE~         
 
@@ -1319,14 +1381,24 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0715.ARE~         ~override/XG07
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0720.ARE~         ~override/XG0720.ARE~
 	WRITE_ASCII 0x94 ~XG0720~ #8
-	SAY 0x1170 @428
-	SAY 0x1234 @428
-	SAY 0x13bc @429
 	LPF ALTER_AREA_ACTOR 
 		STR_VAR 
 		actor_name = "XGHAR"
 		script_override = ~XGHAR~
 	END
+		LPF ALTER_AREA_REGION
+			INT_VAR
+			info_point = RESOLVE_STR_REF (@429)
+			STR_VAR
+			region_name	= Info01
+		END
+		LPF ALTER_AREA_REGION
+			INT_VAR
+			info_point = RESOLVE_STR_REF (@428)
+			STR_VAR
+			region_name	= Info02
+			region_name	= Info
+		END
 
 ACTION_IF GAME_IS ~bgt eet~ BEGIN
 	COPY_EXISTING ~XG0720.ARE~ ~override~

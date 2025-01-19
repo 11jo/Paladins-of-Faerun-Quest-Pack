@@ -10,7 +10,8 @@ PartyHasItem("XGAM5")~ THEN BEGIN 0
   IF ~~ THEN REPLY @2 GOTO 2
 END
 
-IF ~!PartyHasItem("XGAM")
+IF ~OR(6)
+!PartyHasItem("XGAM")
 !PartyHasItem("XGAM1")
 !PartyHasItem("XGAM2")
 !PartyHasItem("XGAM3")

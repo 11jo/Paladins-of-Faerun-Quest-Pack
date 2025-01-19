@@ -4,8 +4,8 @@ IF
 	AreaCheck("%NBaldursGate_ThreeOldKegs_L1%")
 THEN
 	RESPONSE #100
-		CreateCreature("XGBGPS2",[926.424],8)
-		CreateCreature("XGBGPS1",[308.456],8)
+		CreateCreature("XGBGPS2",[804.679],2)
+		CreateCreature("XGBGPS1",[131.415],2)
 		CreateCreature("XGBG1",[396.566],14)
 		SetGlobal("XGPoFXGBGPS1","MYAREA",1)
 		Continue()

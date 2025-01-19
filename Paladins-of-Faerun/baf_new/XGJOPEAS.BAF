@@ -1,8 +1,10 @@
 IF
 	InMyArea([GOODCUTOFF])
 	Global("XGPoFinBG","GLOBAL",1)
-	AreaCheck("BG0200")
 	Global("NEWGAME_SOA","GLOBAL",1)
+	OR(2)
+		AreaCheck("AR7300")
+		AreaCheck("BG0200")
 THEN
 	RESPONSE #100
 		StartCutSceneMode()
@@ -22,7 +24,9 @@ THEN
 END
 
 IF
-	AreaCheck("BG0200")
+	OR(2)
+		AreaCheck("AR7300")
+		AreaCheck("BG0200")
 	OR(2)
 		!Global("XGPoFinBG","GLOBAL",1)
 		!Global("NEWGAME_SOA","GLOBAL",1)

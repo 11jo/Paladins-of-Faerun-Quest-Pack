@@ -3166,25 +3166,28 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGwar01.CRE~			~override/XGwar01.
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGwar02.CRE~			~override/XGwar02.CRE~
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGWASS.CRE~			~override/XGWASS.CRE~
-	SAY NAME1 @358 
-	SAY NAME2 @359 
+	SAY NAME1 @358
+	SAY NAME2 @359
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGWDJI.CRE~			~override/XGWDJI.CRE~
-	SAY NAME1 @360 
-	SAY NAME2 @360 
+	SAY NAME1 @360
+	SAY NAME2 @360
+	WRITE_ASCII SCRIPT_CLASS ~XGARJO~ (8)
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGWFG.CRE~			~override/XGWFG.CRE~
-	SAY NAME1 @361 
-	SAY NAME2 @362 
+	SAY NAME1 @361
+	SAY NAME2 @362
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGWG.CRE~			~override/XGWG.CRE~
-	SAY NAME1 @363 
-	SAY NAME2 @363 
-	SAY 0xa4 @364 
+	SAY NAME1 @363
+	SAY NAME2 @363
+	SAY 0xa4 @364
+	WRITE_ASCII SCRIPT_CLASS ~XGARJO~ (8)
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGWH.CRE~			~override/XGWH.CRE~
 	SAY NAME1 @365 
-	SAY NAME2 @365 
+	SAY NAME2 @365
+	WRITE_ASCII SCRIPT_CLASS ~XGARJO~ (8)
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGWMAG.CRE~			~override/XGWMAG.CRE~
 
@@ -3222,20 +3225,21 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGWOR.CRE~			~override/XGWOR.CRE~
 	SAY NAME2 @371 
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGWORN.CRE~			~override/XGWORN.CRE~
-	SAY NAME1 @371 
-	SAY NAME2 @371 
+	SAY NAME1 @371
+	SAY NAME2 @371
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGWPG.CRE~			~override/XGWPG.CRE~
-	SAY NAME1 @15 
-	SAY NAME2 @15 
+	SAY NAME1 @15
+	SAY NAME2 @15
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGWRAK.CRE~			~override/XGWRAK.CRE~
-	SAY NAME1 @372 
-	SAY NAME2 @372 
+	SAY NAME1 @372
+	SAY NAME2 @372
+	WRITE_ASCII SCRIPT_CLASS ~XGARJO~ (8)
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGWRG.CRE~			~override/XGWRG.CRE~
-	SAY NAME1 @373 
-	SAY NAME2 @374 
+	SAY NAME1 @373
+	SAY NAME2 @374
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGwrida.CRE~			~override/XGwrida.CRE~
 	SAY NAME1 @375 

@@ -80,7 +80,7 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(2)
-    CreateCreature("XGFALCO",[13564.1148],0)
+    CreateCreature("XGFALCO",[1354.1148],0)
     ActionOverride("XGFALCO",MoveToPointNoInterrupt([825.1243]))
     ActionOverride("XGFALCO",StartDialogue("XGFALC2",Player1))
     UnhideGUI()
