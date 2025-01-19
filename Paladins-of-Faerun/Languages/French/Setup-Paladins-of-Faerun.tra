@@ -4323,6 +4323,7 @@ Grâce à ce sort, le prêtre diminue le moral de ses adversaires et pénalise de -1
 
 // @1070 to @1399
 
+@1070   = ~Vous êtes attaqué par des druides~
 
 // Item ressources for XGCMA03.ITM, XGHELM4 and IWD bam
 

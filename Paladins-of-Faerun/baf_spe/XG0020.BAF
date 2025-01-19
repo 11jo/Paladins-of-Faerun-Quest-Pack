@@ -41,12 +41,12 @@ IF
 THEN
 	RESPONSE #100
 		CreateCreatureObject("XGJOPEAS",Player1,0,0,0)  // Paysan // Player1
-		CreateCreature("XGJOPEAS",[562.2338],SE)  // Paysan // Sud
-		CreateCreature("XGJOPEAS",[1171.3119],SE)  // Paysan // Sud
-		CreateCreature("XGJOPEAS",[324.841],SE)  // Paysan // Nord Ouest
-		CreateCreature("XGJOPEAS",[1947.2900],SE)  // Paysan // Front palace
-		CreateCreature("XGJOPEAS",[4343.1930],SE)  // Paysan // Nord East
-		CreateCreature("XGJOPEAS",[3782.3065],SE)  // Paysan
+		CreateCreature("XGJOPEAS",[562.2338],14)  // Paysan // Sud
+		CreateCreature("XGJOPEAS",[1171.3119],14)  // Paysan // Sud
+		CreateCreature("XGJOPEAS",[324.841],14)  // Paysan // Nord Ouest
+		CreateCreature("XGJOPEAS",[1947.2900],14)  // Paysan // Front palace
+		CreateCreature("XGJOPEAS",[4343.1930],14)  // Paysan // Nord East
+		CreateCreature("XGJOPEAS",[3782.3065],14)  // Paysan
 		SetGlobal("XGJOPEAS","GLOBAL",1)
 END
 

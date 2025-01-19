@@ -52,7 +52,7 @@ ALWAYS
 			OUTER_SPRINT "NBaldursGate_RamazithsTower_L1"			"XG0320"
 			OUTER_SPRINT "NBaldursGate_ThreeOldKegs_L1"				"XG0120"
 			OUTER_SPRINT "NBaldursGate_ThreeOldKegs_L3"				"XG0820"
-		PRINT ~Game is BG2EE~
+		PRINT ~Game is BG2 or BG2EE~
 	END
 
 	//Copies tra files into the autotra-folder (to leave the originals untouched)
@@ -106,21 +106,29 @@ AUTO_TRA ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/Baf_are~
 LANGUAGE	~Russian~
 			~russian~
 			~Paladins-of-Faerun/Languages/Russian/SETUP-Paladins-of-Faerun.tra~
+			~Paladins-of-Faerun/Languages/Russian/Journal.tra~
+			~Paladins-of-Faerun/Languages/Russian/XGBOOKP.tra~
 			//~Paladins-of-Faerun/Languages/Russian/Journal.tra~
 
 LANGUAGE	~English~
 			~english~
 			~Paladins-of-Faerun/Languages/English/SETUP-Paladins-of-Faerun.tra~
+			~Paladins-of-Faerun/Languages/English/Journal.tra~
+			~Paladins-of-Faerun/Languages/English/XGBOOKP.tra~
 			//~Paladins-of-Faerun/Languages/English/Journal.tra~
 
 LANGUAGE	~German~
 			~German~
 			~Paladins-of-Faerun/Languages/German/SETUP-Paladins-of-Faerun.tra~
+			~Paladins-of-Faerun/Languages/German/Journal.tra~
+			~Paladins-of-Faerun/Languages/German/XGBOOKP.tra~
 			//~Paladins-of-Faerun/Languages/German/Journal.tra~
 
 LANGUAGE	~Main English / Francais Partiel~
 			~French~
 			~Paladins-of-Faerun/Languages/French/SETUP-Paladins-of-Faerun.tra~
+			~Paladins-of-Faerun/Languages/French/Journal.tra~
+			~Paladins-of-Faerun/Languages/French/XGBOOKP.tra~
 			//~Paladins-of-Faerun/Languages/French/Journal.tra~
 
 
@@ -207,6 +215,25 @@ ACTION_IF (NOT FILE_EXISTS_IN_GAME ~SPPR112.SPL~) BEGIN // IWD spell for CLERIC_
 		SAY NAME2 @1067
 		SAY DESC @1068
 		SAY UNIDENTIFIED_DESC @1068
+
+END
+
+
+ACTION_IF (GAME_IS ~tob bgt~) BEGIN
+  
+  APPEND ~state.ids~ ~0x80101FEF CD_STATE_NOTVALID~ UNLESS ~^0x80101FEF[ %TAB]+CD_STATE_NOTVALID[ %TAB%%LNL%%MNL%%WNL%]~
+  
+  APPEND ~action.ids~ ~353 AdvanceTime(I:Time*GTIMES)~ UNLESS ~353 AdvanceTime(I:Time*GTIMES)~
+  
+  APPEND ~SPELL.IDS~ ~2509	WIZARD_FEEBLEMIND~ UNLESS ~2509	WIZARD_FEEBLEMIND~
+  
+  APPEND ~SPELL.IDS~ ~2221	WIZARD_RAY_OF_ENFEEBLEMENT~ UNLESS ~2221	WIZARD_RAY_OF_ENFEEBLEMENT~
+  
+  APPEND ~OBJECT.IDS~ ~95 NearestAllyOf~ UNLESS ~95 NearestAllyOf~
+  
+  APPEND ~GTimes.IDS~ ~61	ONE_TURN~ UNLESS ~61	ONE_TURN~
+  
+  APPEND ~GTimes.IDS~ ~240	FOUR_TURNS~ UNLESS ~240	FOUR_TURNS~
 
 END
 
@@ -960,7 +987,7 @@ COPY ~%MOD_FOLDER%/TIS.EE~ ~override~
 COPY ~%MOD_FOLDER%/PVRZ.EE~ ~override~
 
 
-// Fast install for test temporary commented out
+//////////////// Faster install for test temporary commented out ////////////////////////
 /*
 	// Install pvrz-based tilesets without the danger of overwriting pvrz files from other mods or the game itself.
 

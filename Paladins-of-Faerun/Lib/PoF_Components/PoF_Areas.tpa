@@ -388,6 +388,15 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0028.ARE~         ~override/XG00
 			fj_name				= InfoPoint3
 			fj_reg_script = XGGT003
 		END
+			LPF fj_are_structure // REST ENCOUNTERS
+				INT_VAR
+				fj_cre_strref0  =  RESOLVE_STR_REF (@1070)
+				STR_VAR
+				fj_cre_resref0 = ~XGDRAS~
+				fj_cre_resref1 = ~XGDRAS~
+				fj_structure_type = interrupts
+				fj_name  = DRUID
+			END
 	ADD_MAP_NOTE #2777 #554 ~VIOLET~ @1012
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0029.ARE~         ~override/XG0029.ARE~
@@ -395,13 +404,17 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0029.ARE~         ~override/XG00
 	SAY 0x1e10 @404		// Accès sous le moulin InfoTrigger
 	SAY 0x205C @1014	// Sacred Stone InfoTrigger
 	SAY 0x2120 @1017	// Taverne des trois carafes InfoTrigger
-	SAY 0x2890 @405		// Taverne des trois carafes MapNote
-	SAY 0x2828 @1015	// Sacred Stone MapNote
-	SAY 0x285c @1016	// Sacred Temple MapNote
+	// SAY 0x2890 @405		// Taverne des trois carafes MapNote
+	// SAY 0x2828 @1015	// Sacred Stone MapNote
+	// SAY 0x285c @1016	// Sacred Temple MapNote
 	SAY 0x1d4c @401		// Il n'y a rien à voir par ici InfoTrigger
 	SAY 0x21e4 @424		// Temple d'Ilmater
-	SAY 0x28C8 @1018	// Cimetière MapNote
+	// SAY 0x28C8 @1018	// Cimetière MapNote
+	ADD_MAP_NOTE #1525 #262 ~gray~ @1018	// Cimetière MapNote
 	ADD_MAP_NOTE #1730 #680 ~BLUE~ @424
+	ADD_MAP_NOTE #179 #200 ~gray~ @405	// Taverne des trois carafes MapNote
+	ADD_MAP_NOTE #355 #1034 ~gray~ @1015	// Sacred Stone MapNote
+	ADD_MAP_NOTE #2216 #1195 ~BLUE~ @1016	// Sacred Temple MapNote
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0030.ARE~         ~override/XG0030.ARE~
 
@@ -573,10 +586,10 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0061.ARE~         ~override/XG00
 	ADD_MAP_NOTE #2089 #1137 ~red~ @1024
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0062.ARE~         ~override/XG0062.ARE~
-  SAY 0x27C4 @1024
-  SAY 0x27F8 @1025
-  SAY 0x282C @1026
-  SAY 0x2860 @1027
+	ADD_MAP_NOTE #3196 #648 ~gray~ @1024
+	ADD_MAP_NOTE #2407 #2884 ~gray~ @1025
+	ADD_MAP_NOTE #1568 #764 ~gray~ @1026
+	ADD_MAP_NOTE #3332 #1366 ~gray~ @1027
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0063.ARE~         ~override/XG0063.ARE~
   SAY 0x2D9C @1028
@@ -1028,12 +1041,12 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0269.ARE~         ~override/XG02
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0271.ARE~         ~override/XG0271.ARE~         
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0276.ARE~         ~override/XG0276.ARE~
-  SAY 0x258C @1050
-  SAY 0x25C0 @1051         
+	ADD_MAP_NOTE #764 #402 ~red~ #1050
+	ADD_MAP_NOTE #756 #684 ~gray~ #1051
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0278.ARE~         ~override/XG0278.ARE~
-  SAY 0x1E54 @1050
-  SAY 0x1E88 @1051          
+	ADD_MAP_NOTE #764 #402 ~red~ #1050
+	ADD_MAP_NOTE #756 #684 ~gray~ #1051
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0279.ARE~         ~override/XG0279.ARE~         
 
@@ -1084,6 +1097,18 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0302.ARE~         ~override/XG03
 			STR_VAR
 			door_script = XGCRYP01
 			door_name = ~CRYPT01~
+		END
+		LPF ALTER_AREA_REGION
+			INT_VAR
+			info_point = RESOLVE_STR_REF (#61409)
+			STR_VAR
+			region_name	= Tran0014
+		END
+		LPF ALTER_AREA_REGION
+			INT_VAR
+			info_point = RESOLVE_STR_REF (#61409)
+			STR_VAR
+			region_name	= Tran0014b
 		END
 		/*
 		LPF ALTER_AREA_CONTAINER
@@ -1226,7 +1251,7 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0420.ARE~         ~override/XG04
 				STR_VAR
 				fj_structure_type	= region
 				fj_name				= TravelBG0200
-				fj_destination_area	= BG0200				// Code de la carte
+				fj_destination_area	= EVAL ~%NBaldursGate%~ // Code de la carte
 				fj_destination_name	= Exit0002
 			END
 
@@ -1453,6 +1478,12 @@ ACTION_IF GAME_IS ~bgt eet~ BEGIN
 				fj_destination_area	= XG0020				// Code de la carte
 				fj_destination_name	= ExitXG0720
 			END
+		LPF ALTER_AREA_REGION
+			INT_VAR
+			info_point = RESOLVE_STR_REF (#3457)
+			STR_VAR
+			region_name	= Info02
+		END
 END ELSE BEGIN
 	COPY_EXISTING ~XG0720.ARE~ ~override~
 			LPF fj_are_structure
@@ -1476,6 +1507,12 @@ END ELSE BEGIN
 				fj_destination_area	= XG0020				// Code de la carte
 				fj_destination_name	= ExitXG0720
 			END
+		LPF ALTER_AREA_REGION
+			INT_VAR
+			info_point = RESOLVE_STR_REF (#3457)
+			STR_VAR
+			region_name	= Info02
+		END
 END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0729.ARE~         ~override/XG0729.ARE~         
@@ -1490,7 +1527,7 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0764.ARE~         ~override/XG07
   SAY 0x5c0 @430 
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0780.ARE~         ~override/XG0780.ARE~ 
-  SAY 0x3648 @1053        
+	ADD_MAP_NOTE #2070 #1102 ~red~ @1053		// Entrance to the Underdark
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0801.ARE~         ~override/XG0801.ARE~         
 
@@ -1558,12 +1595,12 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG1120.ARE~         ~override/XG11
 	LPF ALTER_AREA_ACTOR 
 		STR_VAR 
 		actor_name = "XGARTBG"
-		script_override = ~SHOUT6~
+		script_override = ~SHOUT06~
 	END
 	LPF ALTER_AREA_ACTOR 
 		STR_VAR 
 		actor_name = "XGBGG"
-		script_override = ~SHOUT6~
+		script_override = ~SHOUT06~
 		script_default = ~XGBGG~ // Set by XGBGG.d
 	END
 
