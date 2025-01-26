@@ -208,16 +208,19 @@ END
 
 APPEND ~SPELL.IDS~ ~1112 CLERIC_CIRCLE_OF_PROTECTION~ UNLESS ~1112 CLERIC_CIRCLE_OF_PROTECTION~
 
+/*
+
+Nonsense between CLERIC_CIRCLE_OF_PROTECTION and Imprécation, TO DELETE OR ELSE...
+
 ACTION_IF (NOT FILE_EXISTS_IN_GAME ~SPPR112.SPL~) BEGIN // IWD spell for CLERIC_CIRCLE_OF_PROTECTION
 
-	COPY ~Paladins-of-Faerun/OTHER/IWD.Spell/SPPR112.SPL~			~override/SPPR112.SPL~
+ADD_SPELL ~Paladins-of-Faerun/OTHER/IWD.Spell/SPPR112.SPL~ 2 1 ~CLERIC_CURSE~
 		SAY NAME1 @1067
 		SAY NAME2 @1067
 		SAY DESC @1068
 		SAY UNIDENTIFIED_DESC @1068
-
 END
-
+*/
 
 ACTION_IF (GAME_IS ~tob bgt~) BEGIN
   
@@ -488,7 +491,7 @@ COPY_EXISTING ~AR1005.ARE~		~override~
 
 	ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 
-		INCLUDE ~Paladins-of-Faerun/Lib/PoF_Components/PoF_CheatsAreas.tph~				
+		INCLUDE ~Paladins-of-Faerun/Lib/PoF_Components/PoF_CheatsAreas.tph~
 
 	END
 
@@ -497,7 +500,7 @@ COPY_EXISTING ~AR1005.ARE~		~override~
 
 	ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 
-		INCLUDE ~Paladins-of-Faerun/Lib/PoF_Components/PoF_Animation.tph~				
+		INCLUDE ~Paladins-of-Faerun/Lib/PoF_Components/PoF_Animation.tph~
 
 	END
 

@@ -94,7 +94,7 @@ THEN
 		CreateCreature("XGMIL",[2155.2838],2)  // Milicien
 		CreateCreature("XGTDR",[1449.1155],0)  // Pretre
 		CreateCreature("XGTDR",[1662.1154],0)  // Pretre
-		CreateCreature("tanadv03",[3195.1065],0)  // Aventurier
+		CreateCreature("xgtanadv",[3195.1065],0)  // Aventurier
 		SetGlobal("XGPoFXGMIL","MYAREA",1)
 		Continue()
 END
@@ -154,77 +154,3 @@ THEN
 		Wait(1)
 		ActionOverride("XGFLAF12",StartDialogue("XGBGFL00",Player1))
 END
-
-
-
-
-/*
-IF
-	Global("NEWGAME_SOA","GLOBAL",1)
-	Global("XGPoFinBG","GLOBAL",1)
-	AreaCheck("BG0200")
-THEN
-	RESPONSE #100
-		StartCutSceneMode()
-		HideGUI()
-		ClearAllActions()
-		FadeToColor([50.0],0)
-		Wait(2)
-		SetGlobal("XGNEWGAME_SOA","GLOBAL",1)
-		ActionOverride(Player2,LeaveAreaLUA("XG0020","",[3782.3065],8))
-		ActionOverride(Player1,LeaveAreaLUA("XG0020","",[3818.3026],8))
-		ActionOverride(Player3,LeaveAreaLUA("XG0020","",[3877.3112],8))
-		ActionOverride(Player4,LeaveAreaLUA("XG0020","",[3802.3159],8))
-		ActionOverride(Player5,LeaveAreaLUA("XG0020","",[3660.3114],8))
-		ActionOverride(Player6,LeaveAreaLUA("XG0020","",[3707.3156],8))
-		UnhideGUI()
-		EndCutSceneMode()
-END
-*/
-
-/*
-IF
-	Global("NEWGAME_SOA","GLOBAL",1)
-	Global("XGPoFinBG","GLOBAL",1)
-	Global("NEWGAME_SOA","GLOBAL",1)
-	AreaCheck("XG0020")
-THEN
-	RESPONSE #100
-		SetGlobal("NEWGAME_SOA","GLOBAL",0)
-		Wait(2)
-		FadeFromColor([20.0],0)
-		UnhideGUI()
-		EndCutSceneMode()
-END
-*/
-
-
-
-/*
-IF
-	Global("XGPoFinBG","GLOBAL",1)
-THEN
-  RESPONSE #100
-  TriggerActivation("EntranceXG0620",TRUE)
-  	AddMapNote([2260.1047],@20)
-  	AddMapNote([2769.1185],@21)
-  	AddMapNote([2147.1737],@22)
-  	AddMapNote([3116.2027],@23)
-  	AddMapNote([3256.711],@24)
-  	RemoveMapNote([2385.700],68997)
-  	RemoveMapNote([2385.700],68997)
-END
-
-IF
-	Global("XGPoFinBG","GLOBAL",0)
-THEN
-  RESPONSE #100
-	TriggerActivation("EntranceXG0620",FALSE)
-  	AddMapNote([3256.711],@24)
-  	AddMapNote([3256.711],@24)
-  	RemoveMapNote([2385.700],68997)
-  	RemoveMapNote([2385.700],68997)
-  	RemoveMapNote([2385.700],68997)
-  	RemoveMapNote([2385.700],68997)
-END
-*/
