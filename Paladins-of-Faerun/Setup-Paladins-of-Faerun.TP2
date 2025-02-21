@@ -14,7 +14,7 @@ VERSION ~4.0~
 ALWAYS
 
 	ACTION_IF GAME_IS ~bgt~ BEGIN
-		INCLUDE ~Paladins-of-Faerun/Lib/PoF_bgt_cpmvars.tpa~
+		INCLUDE ~Paladins-of-Faerun/Lib/g3_bgt_cpmvars.tpa~
 		PRINT ~Game is BGT~
 	END ELSE ACTION_IF GAME_IS ~eet~ BEGIN
 		INCLUDE ~eet/other/cpmvars/eet_cpmvars.tpa~
@@ -204,16 +204,13 @@ END
 	END
 
 
-// COPY ~Paladins-of-Faerun/OTHER/SPPR112.SPL~         ~override/SPPR112.SPL~ UNLESS ~SPPR112.SPL~
-
-APPEND ~SPELL.IDS~ ~1112 CLERIC_CIRCLE_OF_PROTECTION~ UNLESS ~1112 CLERIC_CIRCLE_OF_PROTECTION~
-
 /*
+// COPY ~Paladins-of-Faerun/OTHER/SPPR112.SPL~         ~override/SPPR112.SPL~ UNLESS ~SPPR112.SPL~
+// To remove after XG1053.baf modification
+// APPEND ~SPELL.IDS~ ~1112 CLERIC_CIRCLE_OF_PROTECTION~ UNLESS ~1112 CLERIC_CIRCLE_OF_PROTECTION~
 
 Nonsense between CLERIC_CIRCLE_OF_PROTECTION and Imprécation, TO DELETE OR ELSE...
-
-ACTION_IF (NOT FILE_EXISTS_IN_GAME ~SPPR112.SPL~) BEGIN // IWD spell for CLERIC_CIRCLE_OF_PROTECTION
-
+ACTION_IF (NOT FILE_EXISTS_IN_GAME ~SPPR112.SPL~) BEGIN // IWD spell for CLERIC_CURSE
 ADD_SPELL ~Paladins-of-Faerun/OTHER/IWD.Spell/SPPR112.SPL~ 2 1 ~CLERIC_CURSE~
 		SAY NAME1 @1067
 		SAY NAME2 @1067
@@ -232,7 +229,7 @@ ACTION_IF (GAME_IS ~tob bgt~) BEGIN
   
   APPEND ~SPELL.IDS~ ~2221	WIZARD_RAY_OF_ENFEEBLEMENT~ UNLESS ~2221	WIZARD_RAY_OF_ENFEEBLEMENT~
   
-  APPEND ~OBJECT.IDS~ ~95 NearestAllyOf~ UNLESS ~95 NearestAllyOf~
+  APPEND ~OBJECT.IDS~ ~95 NearestAllyOf~ UNLESS ~95	NearestAllyOf~
   
   APPEND ~GTimes.IDS~ ~61	ONE_TURN~ UNLESS ~61	ONE_TURN~
   
@@ -775,15 +772,15 @@ END
 
 ACTION_IF GAME_IS ~bgt eet~ BEGIN
 
-	EXTEND_TOP ~%NBaldursGate_RinniesHouse_L1_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0520.baf~ EVALUATE_BUFFER //(Rinnie home)
-	EXTEND_TOP ~%NBaldursGate_RamazithsTower_L1_BCS%.BCS~			~Paladins-of-Faerun/Baf_new/XG0320.baf~ EVALUATE_BUFFER //(Ramazith home)
-	EXTEND_TOP ~%NBaldursGate_ThreeOldKegs_L1_BCS%.BCS~				~Paladins-of-Faerun/baf_spe/XG0120.baf~ EVALUATE_BUFFER //(Trois vielles chopes RDC)
-	EXTEND_TOP ~%NBaldursGate_ThreeOldKegs_L3_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0820.baf~ EVALUATE_BUFFER //(Trois vielles chopes 2eme)
-	EXTEND_TOP ~%NBaldursGate_DucalPalace_Cellar_BCS%.BCS~			~Paladins-of-Faerun/Baf_new/XG0620.baf~ EVALUATE_BUFFER //(Ducal basement, XG0620)
-	EXTEND_TOP ~%NBaldursGate_DucalPalace_L1_BCS%.BCS~				~Paladins-of-Faerun/Baf_are/JOBG0108.baf~ EVALUATE_BUFFER
+	EXTEND_BOTTOM ~%NBaldursGate_RinniesHouse_L1_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0520.baf~ EVALUATE_BUFFER //(Rinnie home)
+	EXTEND_BOTTOM ~%NBaldursGate_RamazithsTower_L1_BCS%.BCS~			~Paladins-of-Faerun/Baf_new/XG0320.baf~ EVALUATE_BUFFER //(Ramazith home)
+	EXTEND_BOTTOM ~%NBaldursGate_ThreeOldKegs_L1_BCS%.BCS~				~Paladins-of-Faerun/baf_spe/XG0120.baf~ EVALUATE_BUFFER //(Trois vielles chopes RDC)
+	EXTEND_BOTTOM ~%NBaldursGate_ThreeOldKegs_L3_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0820.baf~ EVALUATE_BUFFER //(Trois vielles chopes 2eme)
+	EXTEND_BOTTOM ~%NBaldursGate_DucalPalace_Cellar_BCS%.BCS~			~Paladins-of-Faerun/Baf_new/XG0620.baf~ EVALUATE_BUFFER //(Ducal basement, XG0620)
+	EXTEND_BOTTOM ~%NBaldursGate_DucalPalace_L1_BCS%.BCS~				~Paladins-of-Faerun/Baf_are/JOBG0108.baf~ EVALUATE_BUFFER
 // Special for game is EET but NEWGAME_SOA
 	EXTEND_TOP ~XG0720.BCS~											~Paladins-of-Faerun/baf_spe/XG0720.baf~
-	EXTEND_TOP ~%NBaldursGate_BCS%.BCS~								~Paladins-of-Faerun/baf_spe/XG0020.baf~ EVALUATE_BUFFER
+	EXTEND_BOTTOM ~%NBaldursGate_BCS%.BCS~								~Paladins-of-Faerun/baf_spe/XG0020.baf~ EVALUATE_BUFFER
 
 END
 
@@ -803,7 +800,7 @@ EXTEND_TOP ~AR0527.BCS~				~Paladins-of-Faerun/baf_are/S#AR0527.baf~
 
 EXTEND_TOP ~AR0528.BCS~				~Paladins-of-Faerun/baf_are/S#AR0528.baf~
 
-EXTEND_TOP ~AR0406.BCS~				~Paladins-of-Faerun/baf_are/S#AR0406.baf~  // Compat IWD_EET
+EXTEND_BOTTOM ~AR0406.BCS~				~Paladins-of-Faerun/baf_are/S#AR0406.baf~  // Compat IWD_EET
 
 ACTION_IF (GAME_IS ~bg2ee eet~ AND FILE_EXISTS_IN_GAME ~AR0602.BCS~) BEGIN
 
@@ -942,10 +939,10 @@ EXTEND_TOP ~AR0800.BCS~				~Paladins-of-Faerun/baf_are/S#AR0800.baf~ // Graveyar
 
 EXTEND_TOP ~AR0900.BCS~				~Paladins-of-Faerun/baf_are/S#AR0900.baf~ // District Temple
 
-EXTEND_TOP ~AR1000.BCS~				~Paladins-of-Faerun/baf_are/S#AR1000.baf~
+EXTEND_BOTTOM ~AR1000.BCS~				~Paladins-of-Faerun/baf_are/S#AR1000.baf~
 USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR1000.tra~ // District Government
 
-EXTEND_TOP ~AR1005.BCS~				~Paladins-of-Faerun/baf_are/S#AR1005.baf~
+EXTEND_BOTTOM ~AR1005.BCS~				~Paladins-of-Faerun/baf_are/S#AR1005.baf~
 USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR1005.tra~ // Prison
 
 EXTEND_TOP ~AR1100.BCS~				~Paladins-of-Faerun/baf_are/S#AR1100.baf~

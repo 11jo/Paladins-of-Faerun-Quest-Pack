@@ -17,8 +17,8 @@ THEN
     Wait(2)
     DisplayStringHead(Player1,@1)  // @1
     Wait(6)
-    ActionOverride("XGELWIN",ForceSpell(Myself,CLERIC_CIRCLE_OF_PROTECTION))
-    Wait(7)
+// ActionOverride("XGELWIN",ForceSpell(Myself,CLERIC_CIRCLE_OF_PROTECTION))
+//    Wait(7)
     ActionOverride("XGELWIN",ForceSpell(Player1,CLERIC_ARMOR_OF_FAITH))
     Wait(7)
     ActionOverride("XGELWIN",ForceSpell(Myself,CLERIC_DRAW_UPON_HOLY_MIGHT))

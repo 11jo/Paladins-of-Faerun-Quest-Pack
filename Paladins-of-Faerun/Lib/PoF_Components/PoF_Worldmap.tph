@@ -1,15 +1,17 @@
 ////// Worldmap link for EET/BGT
 
+// This addition allow to acces BG2 city gate in BG1, so don't do it !
 
+/*
 ACTION_IF GAME_IS ~eet~ AND FILE_EXISTS ~Paladins-of-Faerun/Worldmap/links.tbl~ BEGIN
 			PRINT ~Link between Aeras for EET~
 	COPY_EXISTING ~Paladins-of-Faerun/Worldmap/links.tbl~	~weidu_external/Paladins-of-Faerun/Worldmap/links.tbl~
 		REPLACE_TEXTUALLY	~XG0020~	~BG0200~
-		REPLACE_TEXTUALLY	~XG0120~	~BG0119~
-		REPLACE_TEXTUALLY	~XG0820~	~BG0121~
-		REPLACE_TEXTUALLY	~XG0520~	~BG0006~
-		REPLACE_TEXTUALLY	~XG0620~	~BG0111~
-		REPLACE_TEXTUALLY	~XG0320~	~BG0137~
+	//	REPLACE_TEXTUALLY	~XG0120~	~BG0119~ // Useless
+	//	REPLACE_TEXTUALLY	~XG0820~	~BG0121~ // Useless
+	//	REPLACE_TEXTUALLY	~XG0520~	~BG0006~ // Useless
+	//	REPLACE_TEXTUALLY	~XG0620~	~BG0111~ // Useless
+	//	REPLACE_TEXTUALLY	~XG0320~	~BG0137~ // Useless
 END
 
 
@@ -17,12 +19,13 @@ ACTION_IF GAME_IS ~bgt~ AND FILE_EXISTS ~Paladins-of-Faerun/Worldmap/links.tbl~ 
 			PRINT ~Link between Aeras for BGT~
 	COPY_EXISTING ~Paladins-of-Faerun/Worldmap/links.tbl~ ~weidu_external/Paladins-of-Faerun/Worldmap/links.tbl~
 		REPLACE_TEXTUALLY	~XG0020~	~AR7300~
-		REPLACE_TEXTUALLY	~XG0120~	~AR7219~
-		REPLACE_TEXTUALLY	~XG0820~	~AR7220~
-		REPLACE_TEXTUALLY	~XG0520~	~ARA006~
-		REPLACE_TEXTUALLY	~XG0620~	~AR7211~
-		REPLACE_TEXTUALLY	~XG0320~	~AR7237~
+	//	REPLACE_TEXTUALLY	~XG0120~	~AR7219~ // Useless
+	//	REPLACE_TEXTUALLY	~XG0820~	~AR7220~ // Useless
+	//	REPLACE_TEXTUALLY	~XG0520~	~ARA006~ // Useless
+	//	REPLACE_TEXTUALLY	~XG0620~	~AR7211~ // Useless
+	//	REPLACE_TEXTUALLY	~XG0320~	~AR7237~ // Useless
 END
+*/
 
 //////////////////////////////////
 // Worldmap
@@ -33,13 +36,13 @@ END
 		COPY ~Worldmap/map_mods_areas.tbl~		~Worldmap~
 			APPEND_FILE ~Paladins-of-Faerun/Worldmap/areas.tbl~
 		
-				ACTION_IF GAME_IS ~bgt eet~ BEGIN
+			/*	ACTION_IF GAME_IS ~bgt eet~ BEGIN
 		COPY ~Worldmap/map_mods_links.tbl~		~Worldmap~
 			APPEND_FILE ~weidu_external/Paladins-of-Faerun/Worldmap/links.tbl~
-				END ELSE BEGIN
+				END ELSE BEGIN	*/
 		COPY ~Worldmap/map_mods_links.tbl~		~Worldmap~
 			APPEND_FILE ~Paladins-of-Faerun/Worldmap/links.tbl~
-				END
+			/*	END	*/
 		
 		COPY ~Worldmap/map_mods_trans.tra~		~Worldmap~
 			APPEND_FILE_EVALUATE ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/worldmap.tra~
@@ -50,11 +53,11 @@ END
 	
 		COPY ~Paladins-of-Faerun/Worldmap/areas.tbl~							~Worldmap/map_mods_areas.tbl~
 	
-				ACTION_IF GAME_IS ~bgt eet~ BEGIN
+			/*	ACTION_IF GAME_IS ~bgt eet~ BEGIN
 		COPY ~weidu_external/Paladins-of-Faerun/Worldmap/links.tbl~			~Worldmap/map_mods_links.tbl~
-				END ELSE BEGIN
+				END ELSE BEGIN	*/
 		COPY ~Paladins-of-Faerun/Worldmap/links.tbl~							~Worldmap/map_mods_links.tbl~
-				END
+		/*	END	*/
 		
 		COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/worldmap.tra~	~Worldmap/map_mods_trans.tra~
 	
