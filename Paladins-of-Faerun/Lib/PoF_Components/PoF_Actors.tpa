@@ -2135,7 +2135,7 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGNPC4.CRE~			~override/XGNPC4.CR
 	WRITE_BYTE 0x53 ~8~ // Attacks/Round 5/2 (8)
 	WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
 
-ACTION_IF (NOT GAME_IS ~bg2ee eet~ BEGIN
+ACTION_IF (NOT GAME_IS ~bg2ee eet~) BEGIN
 
 COPY_EXISTING ~XGNPC4.CRE~			~override/XGNPC4.CRE~
       LPF ADD_CRE_EFFECT
