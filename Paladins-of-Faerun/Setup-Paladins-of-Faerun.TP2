@@ -929,7 +929,9 @@ USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR0602EE
 END ELSE BEGIN
 
 	EXTEND_TOP ~AR0602.BCS~				~Paladins-of-Faerun/baf_are/S#AR0602.baf~
-USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR0602.tra~
+USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR0602EE.tra~
+
+	EXTEND_BOTTOM ~AR0602.BCS~			~Paladins-of-Faerun/baf_are/S#AR0602EE.baf~
 
 END
 

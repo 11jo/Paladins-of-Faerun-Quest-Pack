@@ -1498,6 +1498,8 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGJAR.CRE~			~override/XGJAR.CRE~
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGJESTE.CRE~			~override/XGJESTE.CRE~
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGJON.CRE~			~override/XGJON.CRE~
+	WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
+	WRITE_ASCII SCRIPT_CLASS ~~ (8)
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGJONW.CRE~			~override/XGJONW.CRE~
 
@@ -2131,6 +2133,22 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGNPC3.CRE~			~override/XGNPC3.CR
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGNPC4.CRE~			~override/XGNPC4.CRE~
 	SAY NAME2 @256 
 	WRITE_BYTE 0x53 ~8~ // Attacks/Round 5/2 (8)
+	WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
+
+ACTION_IF (NOT GAME_IS ~bg2ee eet~ BEGIN
+
+COPY_EXISTING ~XGNPC4.CRE~			~override/XGNPC4.CRE~
+      LPF ADD_CRE_EFFECT
+      INT_VAR
+        opcode  = 268
+        target  = 0
+        parameter1   = 0
+        parameter2   = 0
+        timing  = 9       // Instant/Permanent - 9
+        probability1   = 100
+      END
+
+END
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGNS1.CRE~			~override/XGNS1.CRE~
 
