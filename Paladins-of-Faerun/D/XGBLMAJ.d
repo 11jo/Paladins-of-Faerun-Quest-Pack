@@ -100,6 +100,7 @@ IF ~~ THEN BEGIN 11
 GiveItemCreate("XGBGSD",Player1,0,0,0)
 GiveItemCreate("MISC07",Player1,5000,0,0)
 AddJournalEntry(@50801,QUEST)
+FadeToColor([20.0],0)
 ActionOverride(Player2,LeaveAreaLUA("XG1220","",[680.1318],0))
 ActionOverride(Player1,LeaveAreaLUA("XG1220","",[727.1309],0))
 ActionOverride(Player3,LeaveAreaLUA("XG1220","",[665.1288],0))

@@ -433,6 +433,10 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGBRMIL.CRE~			~override/XGBRMIL.
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGBRMOC.CRE~			~override/XGBRMOC.CRE~
 	SAY NAME1 @59
 	SAY NAME2 @59
+	WRITE_LONG 0x28 IDS_OF_SYMBOL ("ANIMATE" "MONK") // Animation MONK - 0x6402
+	WRITE_ASCII SCRIPT_OVERRIDE ~XGBRMOC~ (8)
+	WRITE_ASCII SCRIPT_GENERAL ~MAGE20A~ (8)
+	WRITE_ASCII SCRIPT_CLASS ~~ (8)
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGBRMO.CRE~			~override/XGBRMO.CRE~
 	SAY NAME1 @60

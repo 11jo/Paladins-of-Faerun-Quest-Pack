@@ -1,0 +1,14 @@
+IF
+	PartyHasItem("XGMRBO")
+	Global("XG1020_XG0720","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("XG1020_XG0720","MYAREA",1)
+		ClearAllActions()
+		StartCutSceneMode()
+		SetGlobal("XG0720_XG1120","MYAREA",1)
+		FadeFromColor([20.0],0)
+		Wait(2)
+		UnhideGUI()
+		EndCutSceneMode()
+END

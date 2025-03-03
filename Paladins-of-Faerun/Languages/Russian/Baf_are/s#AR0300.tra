@@ -15,3 +15,4 @@
 */
 
 @10   = ~Это там.~
+@11 = ~.( This communicator is destroyed after the conversation.)~

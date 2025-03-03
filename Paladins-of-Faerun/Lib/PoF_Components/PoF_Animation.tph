@@ -38,6 +38,18 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         END
     END
 END // ...END... To remove if next block is used
+
+
+ACTION_IF (NOT GAME_IS ~bg2ee eet~) BEGIN
+
+		ACTION_IF NOT FILE_EXISTS_IN_GAME ~4001.ini~ BEGIN
+			COPY ~Paladins-of-Faerun/Animations/NONE/4001.ini~ ~override/4001.ini~
+				ACTION_IF NOT FILE_EXISTS_IN_GAME ~SNONE.BAM~ BEGIN
+					COPY ~Paladins-of-Faerun/Animations/NONE/SNONE.BAM~ ~override/SNONE.BAM~
+        END
+    END
+END
+
 /*
     ACTION_DEFINE_ASSOCIATIVE_ARRAY anim_to_min_slot BEGIN
         ~amel_pc_nwn~ => ~0xe000~
@@ -80,18 +92,3 @@ END // ...END... To remove if next block is used
     END
 END
 */
-
-ACTION_IF (NOT GAME_IS ~bg2ee eet~) BEGIN
-    // First: install animation that exists in ee animate.ids, but ini file and animation files themselved might not
-    // exist in the game.
-    ACTION_FOR_EACH animation IN
-        ~UNKNOWN~
-    BEGIN
-		ACTION_IF NOT FILE_EXISTS_IN_GAME ~4001.ini~ BEGIN
-			COPY ~Paladins-of-Faerun/Animations/NONE/4001.ini~ ~override/4001.ini~
-				ACTION_IF NOT FILE_EXISTS_IN_GAME ~SNONE.BAM~ BEGIN
-					COPY ~Paladins-of-Faerun/Animations/NONE/SNONE.BAM~ ~override/SNONE.BAM~
-            END
-        END
-    END
-END

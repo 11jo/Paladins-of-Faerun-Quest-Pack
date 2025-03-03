@@ -25,8 +25,7 @@ END
 IF ~~ THEN BEGIN 4
   SAY @8
   IF ~~ THEN DO ~
-AddJournalEntry(@51205,QUEST)
-Enemy()~ EXIT
+AddJournalEntry(@51205,QUEST)~ EXIT
 END
 
 IF ~Global("EnteredXG1020","XG1020",1)~ THEN BEGIN 5

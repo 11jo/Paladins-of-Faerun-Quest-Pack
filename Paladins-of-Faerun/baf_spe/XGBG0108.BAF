@@ -2,9 +2,10 @@ IF
 	Global("XGPoFinBG","GLOBAL",0)
 	AreaCheck("%NBaldursGate_DucalPalace_L1%")
 THEN
-  RESPONSE #100
-    ActionOverride("XGFLAM10",Deactivate(Myself))
-	SetGlobal("XGPoFXGFLAM10","GLOBAL",0)
+	RESPONSE #100
+		ActionOverride("XGFLAM10",Deactivate(Myself))
+		SetGlobal("XGPoFXGFLAM10","GLOBAL",0)
+		Continue()
 END
 
 IF
@@ -12,12 +13,13 @@ IF
 	Global("XGPoFXGFLAM10","GLOBAL",0)
 	AreaCheck("%NBaldursGate_DucalPalace_L1%")
 THEN
-  RESPONSE #100
-    ActionOverride("XGFLAM10",Activate(Myself))
-	ClearActions("XGFLAM10")
-    ActionOverride("XGFLAM10",MoveToPointNoInterrupt([624.236]))
-	Face(14)
-	SetGlobal("XGPoFXGFLAM10","GLOBAL",1)
+	RESPONSE #100
+		ActionOverride("XGFLAM10",Activate(Myself))
+		ClearActions("XGFLAM10")
+		ActionOverride("XGFLAM10",MoveToPointNoInterrupt([624.236]))
+		Face(14)
+		SetGlobal("XGPoFXGFLAM10","GLOBAL",1)
+		Continue()
 END
 
 /*

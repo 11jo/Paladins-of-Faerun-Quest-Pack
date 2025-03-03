@@ -61,7 +61,7 @@ IF ~~ THEN BEGIN 8
 END
 
 IF ~~ THEN BEGIN 10
-  SAY @23 /* Rohma... Rohma Corwin. */
+  SAY @23 /* Rohma...*/
   IF ~~ THEN REPLY @24 /* Je vois... */ GOTO 8
 END
 

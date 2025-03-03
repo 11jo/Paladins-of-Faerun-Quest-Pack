@@ -6,8 +6,8 @@ THEN
     SetGlobal("EnteredAreaXG1220","XG1220",1)
     StartCutSceneMode()
     HideGUI()
-    FadeToColor([20.10],5)
-    Wait(6)
+    FadeFromColor([20.0],0)
+    Wait(3)
     CreateCreature("XGSALC",[975.1486],0)  // ~Капитан~
     ActionOverride("XGSALC",MoveToPoint([775.1353]))
     Wait(4)
@@ -21,7 +21,6 @@ THEN
     ActionOverride("XGSALC",EscapeArea())
     ScreenShake([20.20],2)
     PlaySound("EFF_M83")
-    FadeFromColor([5.5],1)
     CreateCreature("XGPIR1",[608.1171],0)  // ~Пират~
     CreateCreature("XGPIR2",[820.1215],0)  // ~Пират~
     CreateCreature("XGPIR3",[930.1260],0)  // ~Пират~
@@ -47,12 +46,13 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("RevealXG1220","XG1220",1)
-    FadeFromColor([5.5],1)
+    // FadeFromColor([5.5],1)
     StartCutSceneMode()
     HideGUI()
-    CreateCreature("XGSALC",[1464.1721],2)  // ~Капитан~
-    CreateCreature("XGPIRC",[1407.1769],10)  // ~Капитан пиратов~
-    ActionOverride(Player1,LeaveAreaLUA("XG1220","",[1361.1699],14))
+    CreateCreature("XGSALC",[1464.1721],2)
+    CreateCreature("XGPIRC",[1407.1769],10)
+	MoveViewPoint([1361.1699],SLOW)
+    ActionOverride(Player1,MoveToPoint([1361.1699],14))
     ActionOverride("XGSALC",Attack("XGPIRC"))
     ActionOverride("XGPIRC",Attack("XGSALC"))
     Wait(6)
@@ -60,14 +60,14 @@ THEN
     Wait(2)
     DisplayStringHead("XGSALC",@1)  // @1
     Wait(5)
-    FadeToColor([10.10],2)
+    FadeToColor([20.0],0)
+    Wait(1)
     ActionOverride(Player2,LeaveAreaLUA("AR0300","",[1640.3172],10))
     ActionOverride(Player1,LeaveAreaLUA("AR0300","",[1691.3167],10))
     ActionOverride(Player3,LeaveAreaLUA("AR0300","",[1764.3208],10))
     ActionOverride(Player4,LeaveAreaLUA("AR0300","",[1707.3252],10))
     ActionOverride(Player5,LeaveAreaLUA("AR0300","",[1652.3264],10))
     ActionOverride(Player6,LeaveAreaLUA("AR0300","",[1595.3231],10))
-    UnhideGUI()
     EndCutSceneMode()
 END
 

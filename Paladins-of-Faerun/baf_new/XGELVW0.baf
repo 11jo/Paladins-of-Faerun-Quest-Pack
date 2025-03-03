@@ -38,6 +38,7 @@ THEN
 		SetGlobalTimer("XGELVW0_FOUR_TURNS","LOCALS",FOUR_TURNS)
 		SetGlobal("XGELVW0_GO","LOCALS",1)
 		MoveToPoint([3147.2816])
+		Continue()
 END
 
 IF
@@ -51,6 +52,7 @@ THEN
 		SetGlobalTimer("XGELVW0_FOUR_TURNS","LOCALS",FOUR_TURNS)
 		SetGlobal("XGELVW0_GO","LOCALS",1)
 		MoveToPoint([1949.1994])
+		Continue()
 END
 
 IF
@@ -64,6 +66,7 @@ THEN
 		SetGlobalTimer("XGELVW0_FOUR_TURNS","LOCALS",FOUR_TURNS)
 		SetGlobal("XGELVW0_GO","LOCALS",1)
 		MoveToPoint([610.1869])
+		Continue()
 END
 
 IF
@@ -77,6 +80,7 @@ THEN
 		SetGlobalTimer("XGELVW0_FOUR_TURNS","LOCALS",FOUR_TURNS)
 		SetGlobal("XGELVW0_GO","LOCALS",1)
 		MoveToPoint([2226.1975])
+		Continue()
 END
 
 IF
@@ -90,6 +94,7 @@ THEN
 		SetGlobalTimer("XGELVW0_FOUR_TURNS","LOCALS",FOUR_TURNS)
 		SetGlobal("XGELVW0_GO","LOCALS",1)
 		MoveToPoint([1676.3481])
+		Continue()
 END
 
 

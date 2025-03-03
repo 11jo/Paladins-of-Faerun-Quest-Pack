@@ -1,0 +1,19 @@
+IF
+	See([PC])
+	Global("XGBRMOC","XG1020",0)
+THEN
+	RESPONSE #100
+		SetGlobal("XGBRMOC","XG1020",1)
+		StartDialogueNoSet([PC])
+END
+
+IF
+	Detect([PC])
+	Global("EnteredXG1020","XG1020",2)
+	Global("XGBRMOC","XG1020",1)
+THEN
+	RESPONSE #100
+		SetGlobal("XGBRMOC","XG1020",3)
+		StartDialogueNoSet([PC])
+END
+

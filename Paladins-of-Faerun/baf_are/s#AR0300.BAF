@@ -21,6 +21,7 @@ THEN
 	RESPONSE #100
 		SetGlobal("S#opasAR0300","AR0300",1)
 		StartCutSceneMode()
+		FadeFromColor([20.0],0)
 		Explore()
 		Wait(1)
 		CreateCreature("XGTHIEF",[2076.2840],10)  // ~Воришка~
@@ -38,19 +39,23 @@ THEN
 		ActionOverride("XGTHIEF",EscapeArea())
 		Wait(3)
 		DisplayStringHead(Player1,@3)  // @3
-		Wait(5)
+		Wait(3)
 		DisplayStringHead(Player1,@4)  // @4
 		Wait(5)
-		DisplayStringHead("XGBLMAJ",@5)  // @5
+		DisplayStringHead("Player1",@5)  // @5
 		Wait(5)
 		DisplayStringHead(Player1,@6)  // @6
 		Wait(5)
-		DisplayStringHead("XGBLMAJ",@7)  // @7
+		DisplayStringHead("Player1",@7)  // @7
 		Wait(5)
 		DisplayStringHead(Player1,@8)  // @8
 		Wait(5)
+		DisplayStringHead(Player1,@11)  // @8
+		Wait(2)
 		TakePartyItem("XGBGSD")
 		AddJournalEntry(@50802,QUEST)
+		FadeToColor([20.0],0)
+		Wait(2)
 		CreateCreature("XGTHIEF",[2004.236],8)  // ~Воришка~
 		ActionOverride(Player2,LeaveAreaLUA("AR0300","",[2166.495],6))
 		ActionOverride(Player1,LeaveAreaLUA("AR0300","",[2139.541],6))
@@ -58,9 +63,12 @@ THEN
 		ActionOverride(Player4,LeaveAreaLUA("AR0300","",[2180.636],8))
 		ActionOverride(Player5,LeaveAreaLUA("AR0300","",[2134.615],8))
 		ActionOverride(Player6,LeaveAreaLUA("AR0300","",[2074.626],8))
+		FadeFromColor([20.0],0)
 		Wait(2)
 		DisplayStringHead(Player1,@10)  // @10
-		Wait(5)
+		Wait(3)
+		FadeToColor([20.0],0)
+		Wait(1)
 		ActionOverride(Player2,LeaveAreaLUA("AR1000","",[2410.2544],6))
 		ActionOverride(Player1,LeaveAreaLUA("AR1000","",[2478.2581],6))
 		ActionOverride(Player3,LeaveAreaLUA("AR1000","",[2437.2613],6))

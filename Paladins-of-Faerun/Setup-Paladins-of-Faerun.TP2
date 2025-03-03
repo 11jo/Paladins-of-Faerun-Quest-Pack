@@ -772,22 +772,22 @@ END
 
 ACTION_IF GAME_IS ~bgt eet~ BEGIN
 
-	EXTEND_BOTTOM ~%NBaldursGate_RinniesHouse_L1_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0520.baf~ EVALUATE_BUFFER //(Rinnie home)
-	EXTEND_BOTTOM ~%NBaldursGate_RamazithsTower_L1_BCS%.BCS~			~Paladins-of-Faerun/Baf_new/XG0320.baf~ EVALUATE_BUFFER //(Ramazith home)
-	EXTEND_BOTTOM ~%NBaldursGate_ThreeOldKegs_L1_BCS%.BCS~				~Paladins-of-Faerun/baf_spe/XG0120.baf~ EVALUATE_BUFFER //(Trois vielles chopes RDC)
-	EXTEND_BOTTOM ~%NBaldursGate_ThreeOldKegs_L3_BCS%.BCS~				~Paladins-of-Faerun/Baf_new/XG0820.baf~ EVALUATE_BUFFER //(Trois vielles chopes 2eme)
-	EXTEND_BOTTOM ~%NBaldursGate_DucalPalace_Cellar_BCS%.BCS~			~Paladins-of-Faerun/Baf_new/XG0620.baf~ EVALUATE_BUFFER //(Ducal basement, XG0620)
-	EXTEND_BOTTOM ~%NBaldursGate_DucalPalace_L1_BCS%.BCS~				~Paladins-of-Faerun/Baf_are/JOBG0108.baf~ EVALUATE_BUFFER
+	EXTEND_BOTTOM ~%NBaldursGate_RinniesHouse_L1_BCS%.BCS~			~Paladins-of-Faerun/Baf_new/XG0520.baf~ EVALUATE_BUFFER //(Rinnie home)
+	EXTEND_BOTTOM ~%NBaldursGate_RamazithsTower_L1_BCS%.BCS~		~Paladins-of-Faerun/Baf_new/XG0320.baf~ EVALUATE_BUFFER //(Ramazith home)
+	EXTEND_BOTTOM ~%NBaldursGate_ThreeOldKegs_L1_BCS%.BCS~			~Paladins-of-Faerun/baf_spe/XG0120.baf~ EVALUATE_BUFFER //(Trois vielles chopes RDC)
+	EXTEND_BOTTOM ~%NBaldursGate_ThreeOldKegs_L3_BCS%.BCS~			~Paladins-of-Faerun/Baf_new/XG0820.baf~ EVALUATE_BUFFER //(Trois vielles chopes 2eme)
+	EXTEND_BOTTOM ~%NBaldursGate_DucalPalace_Cellar_BCS%.BCS~		~Paladins-of-Faerun/Baf_new/XG0620.baf~ EVALUATE_BUFFER //(Ducal basement, XG0620)
+	EXTEND_BOTTOM ~%NBaldursGate_DucalPalace_L1_BCS%.BCS~			~Paladins-of-Faerun/baf_spe/XGBG0108.baf~ EVALUATE_BUFFER
 // Special for game is EET but NEWGAME_SOA
 	EXTEND_TOP ~XG0720.BCS~											~Paladins-of-Faerun/baf_spe/XG0720.baf~
-	EXTEND_BOTTOM ~%NBaldursGate_BCS%.BCS~								~Paladins-of-Faerun/baf_spe/XG0020.baf~ EVALUATE_BUFFER
+	EXTEND_BOTTOM ~%NBaldursGate_BCS%.BCS~							~Paladins-of-Faerun/baf_spe/XG0020.baf~ EVALUATE_BUFFER
 
 END
 
 EXTEND_TOP ~AR0020.BCS~				~Paladins-of-Faerun/baf_are/S#AR0020.baf~
 USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR0020.tra~ // City Gate
 
-EXTEND_TOP ~AR0300.BCS~				~Paladins-of-Faerun/baf_are/S#AR0300.baf~
+EXTEND_BOTTOM ~AR0300.BCS~				~Paladins-of-Faerun/baf_are/S#AR0300.baf~
 USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR0300.tra~ // The Docks
 
 EXTEND_TOP ~AR0305.BCS~				~Paladins-of-Faerun/baf_are/S#AR0305.baf~ // Shadows thieves entrance
@@ -796,11 +796,11 @@ EXTEND_TOP ~AR0400.BCS~				~Paladins-of-Faerun/baf_are/S#AR0400.baf~ // Slums
 
 EXTEND_TOP ~AR0500.BCS~				~Paladins-of-Faerun/baf_are/S#AR0500.baf~ // District Bridge
 
-EXTEND_TOP ~AR0527.BCS~				~Paladins-of-Faerun/baf_are/S#AR0527.baf~
+EXTEND_TOP ~AR0527.BCS~				~Paladins-of-Faerun/baf_are/S#AR0527.baf~ // District Bridge Fisherman house L1
 
-EXTEND_TOP ~AR0528.BCS~				~Paladins-of-Faerun/baf_are/S#AR0528.baf~
+EXTEND_TOP ~AR0528.BCS~				~Paladins-of-Faerun/baf_are/S#AR0528.baf~ // District Bridge Fisherman house L2
 
-EXTEND_BOTTOM ~AR0406.BCS~				~Paladins-of-Faerun/baf_are/S#AR0406.baf~  // Compat IWD_EET
+EXTEND_BOTTOM ~AR0406.BCS~			~Paladins-of-Faerun/baf_are/S#AR0406.baf~  // Compat IWD_EET // Copper Coronet
 
 ACTION_IF (GAME_IS ~bg2ee eet~ AND FILE_EXISTS_IN_GAME ~AR0602.BCS~) BEGIN
 
@@ -941,10 +941,10 @@ EXTEND_TOP ~AR0800.BCS~				~Paladins-of-Faerun/baf_are/S#AR0800.baf~ // Graveyar
 
 EXTEND_TOP ~AR0900.BCS~				~Paladins-of-Faerun/baf_are/S#AR0900.baf~ // District Temple
 
-EXTEND_BOTTOM ~AR1000.BCS~				~Paladins-of-Faerun/baf_are/S#AR1000.baf~
+EXTEND_BOTTOM ~AR1000.BCS~			~Paladins-of-Faerun/baf_are/S#AR1000.baf~
 USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR1000.tra~ // District Government
 
-EXTEND_BOTTOM ~AR1005.BCS~				~Paladins-of-Faerun/baf_are/S#AR1005.baf~
+EXTEND_BOTTOM ~AR1005.BCS~			~Paladins-of-Faerun/baf_are/S#AR1005.baf~
 USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR1005.tra~ // Prison
 
 EXTEND_TOP ~AR1100.BCS~				~Paladins-of-Faerun/baf_are/S#AR1100.baf~
