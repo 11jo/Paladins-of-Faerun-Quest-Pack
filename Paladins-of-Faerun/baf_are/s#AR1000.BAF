@@ -22,10 +22,10 @@ THEN
 		ActionOverride(Player6,LeaveAreaLUA("AR1000","",[2519.139],0))
 		FadeFromColor([20.0],0)
 		Wait(2)
-		CreateCreature("XGARTE1",[2237.907],0)  // ~Артемис~
-		CreateCreature("XGWAN1",[2195.874],0)  // ~Беглец~
-		CreateCreature("XGWAN2",[2354.921],0)  // ~Беглец~
-		CreateCreature("XGAMNC",[2155.890],0)  // ~Амнский капитан~
+		CreateCreature("XGARTE1",[2237.907],0)
+		CreateCreature("XGWAN1",[2195.874],0)
+		CreateCreature("XGWAN2",[2354.921],0)
+		CreateCreature("XGAMNC",[2155.890],0)
 		ScreenShake([20.20],20)
 		Wait(3)
 		ActionOverride("XGARTE1",MoveToPoint([2532.342]))
@@ -84,8 +84,8 @@ THEN
 		SetGlobal("S#opasAR1000","AR1000",1)
 		StartCutSceneMode()
 		FadeFromColor([20.0],0)
-		CreateCreature("XGBGON",[2170.2233],0)  // ~Торговый заместитель~
-		CreateCreature("XGTHIEF",[2235.2241],4)  // ~Воришка~
+		CreateCreature("XGBGON",[2170.2233],0)
+		CreateCreature("XGTHIEF",[2235.2241],4)
 		Wait(4)
 		ActionOverride(Player1,MoveToPoint([2203.2299]))
 		MoveViewPoint([2170.2233],SLOW)
@@ -99,7 +99,9 @@ THEN
 		Wait(6)
 		TakePartyItem("XGLETT1")
 		DisplayStringHead("XGBGON",@8)  // @8
-		Wait(5)
+		Wait(1)
+		ActionOverride("XGBGON",EscapeArea())
+		Wait(4)
 		ActionOverride("XGTHIEF",Enemy())
 		UnhideGUI()
 		EndCutSceneMode()
@@ -108,7 +110,7 @@ END
 
 IF
 	Global("S#opasAR1000","AR1000",1)
-	PartyHasItem("XGLETT2")  // ~Карта местности~
+	PartyHasItem("XGLETT2")
 THEN
 	RESPONSE #100
 		SetGlobal("S#opasAR1000","AR1000",2)

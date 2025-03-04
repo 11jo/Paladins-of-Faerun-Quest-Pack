@@ -1,3 +1,6 @@
+/*
+// In XG0720 original baf
+
 IF
 	PartyHasItem("XGMRBO")
 	Global("XG1020_XG0720","MYAREA",0)
@@ -12,6 +15,7 @@ THEN
 		UnhideGUI()
 		EndCutSceneMode()
 END
+*/
 
 IF
 	!Global("NEWGAME_SOA","GLOBAL",1)

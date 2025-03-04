@@ -447,7 +447,27 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0040.ARE~         ~override/XG00
   SAY 0x2334 @401 
   SAY 0x23f8 @401 
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0041.ARE~         ~override/XG0041.ARE~         
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0041.ARE~         ~override/XG0041.ARE~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILM"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGHN"
+	END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILF"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGWN"
+	END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0045.ARE~         ~override/XG0045.ARE~         
   SAY 0x5240 @407 
@@ -529,8 +549,27 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0057.ARE~         ~override/XG00
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0058.ARE~         ~override/XG0058.ARE~         
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0059.ARE~         ~override/XG0059.ARE~         
-  SAY 0x2270 @410 
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0059.ARE~         ~override/XG0059.ARE~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILM"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGHN"
+	END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILF"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGWN"
+	END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0060.ARE~         ~override/XG0060.ARE~
 		LPF fj_are_structure
@@ -618,6 +657,26 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0065.ARE~         ~override/XG00
 			fj_structure_type = interrupts
 			fj_name  = XGPOP
 		END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILM"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGHN"
+	END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILF"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGWN"
+	END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0066.ARE~         ~override/XG0066.ARE~         
 
@@ -729,13 +788,53 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0080.ARE~         ~override/XG00
 	ADD_MAP_NOTE #1783 #1315 ~blue~ @929		// Temple of Shevarash
 	ADD_MAP_NOTE #890 #510 ~blue~ @1041		// Forgeron
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0081.ARE~         ~override/XG0081.ARE~   
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0081.ARE~         ~override/XG0081.ARE~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILM"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGHN"
+	END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILF"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGWN"
+	END
 	ADD_MAP_NOTE #2788 #387 ~blue~ @1008		// Auberge
 	ADD_MAP_NOTE #2561 #3078 ~blue~ @1022		// Merchant
 	ADD_MAP_NOTE #3449 #770 ~orange~ @155		// Monastère
 	ADD_MAP_NOTE #3443 #3628 ~gray~ @1009		// Sortie de la ville
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG1081.ARE~         ~override/XG1081.ARE~   
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG1081.ARE~         ~override/XG1081.ARE~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILM"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGHN"
+	END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILF"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGWN"
+	END
 	ADD_MAP_NOTE #2788 #387 ~blue~ @1008		// Auberge
 	ADD_MAP_NOTE #2561 #3078 ~blue~ @1022		// Merchant
 	ADD_MAP_NOTE #3443 #3628 ~gray~ @1009		// Sortie de la ville
@@ -854,7 +953,34 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0148.ARE~         ~override/XG01
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0149.ARE~         ~override/XG0149.ARE~         
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0150.ARE~         ~override/XG0150.ARE~         
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0150.ARE~         ~override/XG0150.ARE~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGBAN1"
+		script_override = ~XGBAN~
+		//script_class = ~~
+		//script_race = ~~
+		//script_general = ~~
+		dlg_file  = "JODLGHH"
+	END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGBAN2"
+		script_override = ~XGBAN~
+		//script_class = ~~
+		//script_race = ~~
+		//script_general = ~~
+		dlg_file  = "JODLGHH"
+	END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGBAN3"
+		script_override = ~XGBAN~
+		//script_class = ~~
+		//script_race = ~~
+		//script_general = ~~
+		dlg_file  = "JODLGHH"
+	END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0152.ARE~         ~override/XG0152.ARE~
 	WRITE_ASCII 0x94 ~XG0152~ (8)
@@ -906,7 +1032,27 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0163.ARE~         ~override/XG01
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0164.ARE~         ~override/XG0164.ARE~         
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0165.ARE~         ~override/XG0165.ARE~         
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0165.ARE~         ~override/XG0165.ARE~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILM"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGHN"
+	END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILF"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGWN"
+	END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0166.ARE~         ~override/XG0166.ARE~         
 
@@ -1032,7 +1178,27 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0263.ARE~         ~override/XG02
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0264.ARE~         ~override/XG0264.ARE~         
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0265.ARE~         ~override/XG0265.ARE~         
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0265.ARE~         ~override/XG0265.ARE~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILM"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGHN"
+	END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILF"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGWN"
+	END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0266.ARE~         ~override/XG0266.ARE~         
 
@@ -1189,7 +1355,27 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0371.ARE~         ~override/XG03
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0380.ARE~         ~override/XG0380.ARE~         
 
-COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0381.ARE~         ~override/XG0381.ARE~         
+COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0381.ARE~         ~override/XG0381.ARE~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILM"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGHN"
+	END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILF"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGWN"
+	END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0384.ARE~         ~override/XG0384.ARE~         
 
@@ -1617,17 +1803,97 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG2057.ARE~         ~override/XG20
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG4000.ARE~         ~override/XG4000.ARE~
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG4001.ARE~         ~override/XG4001.ARE~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILM"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGHN"
+	END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILF"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGWN"
+	END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG8100.ARE~         ~override/XG8100.ARE~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILM"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGHN"
+	END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILF"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGWN"
+	END
 	ADD_MAP_NOTE #2788 #387 ~blue~ @1008		// Auberge
 	ADD_MAP_NOTE #3449 #770 ~orange~ @155		// Monastère
 	ADD_MAP_NOTE #3443 #3628 ~gray~ @1009		// Sortie de la ville
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG8101.ARE~         ~override/XG8101.ARE~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILM"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGHN"
+	END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILF"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGWN"
+	END
 	ADD_MAP_NOTE #2788 #387 ~blue~ @1008		// Auberge
 	ADD_MAP_NOTE #3443 #3628 ~gray~ @1009		// Sortie de la ville
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG8103.ARE~         ~override/XG8103.ARE~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILM"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGHN"
+	END
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGVILF"
+		script_override = ~JOBCSALL~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~~
+		script_default = ~~
+		dlg_file  = "JODLGWN"
+	END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG8104.ARE~         ~override/XG8104.ARE~
 	ADD_MAP_NOTE #35 #2012 ~orange~ @1018		// Cimetière

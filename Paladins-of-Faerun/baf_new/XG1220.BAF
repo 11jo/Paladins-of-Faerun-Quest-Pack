@@ -61,7 +61,7 @@ THEN
     DisplayStringHead("XGSALC",@1)  // @1
     Wait(5)
     FadeToColor([20.0],0)
-    Wait(1)
+    Wait(2)
     ActionOverride(Player2,LeaveAreaLUA("AR0300","",[1640.3172],10))
     ActionOverride(Player1,LeaveAreaLUA("AR0300","",[1691.3167],10))
     ActionOverride(Player3,LeaveAreaLUA("AR0300","",[1764.3208],10))

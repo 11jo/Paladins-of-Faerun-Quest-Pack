@@ -4213,6 +4213,10 @@ When uttering the Curse spell, the caster lowers the morale of enemy creatures a
 
 @1070   = ~You are attacked by druids~
 
+@1071 = ~Ban « The Convict »~
+
+@1072 = ~Biff, the bandit~
+
 // Item ressources for XGCMA03.ITM, XGHELM4 and IWD bam
 
 // XGSPMOD1

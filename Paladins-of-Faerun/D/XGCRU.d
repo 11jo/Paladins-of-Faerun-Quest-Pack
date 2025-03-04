@@ -31,3 +31,20 @@ IF ~~ THEN BEGIN 3
 		Wait(2)
 		AddJournalEntry(@50805,QUEST)~ EXIT
 END
+
+IF ~Global("s#XGCRU","GLOBAL",1)~ THEN BEGIN 4
+	SAY #13760
+  IF ~~ THEN REPLY #15808 EXIT
+  IF ~~ THEN REPLY @9 GOTO 5
+END
+
+IF ~Global("s#XGCRU","GLOBAL",1)~ THEN BEGIN 4
+	SAY @5
+  IF ~~ THEN DO ~Enemy()
+		CreateCreature("XGBAN3",[2013.927],0)
+		CreateCreature("XGBAN3",[2215.1085],0)
+		CreateCreature("XGBAN2",[1722.1106],0)
+		CreateCreature("XGBAN2",[2029.1386],0)
+		CreateCreature("XGBAN3",[1721.1377],0)
+~ EXIT
+END

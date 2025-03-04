@@ -255,24 +255,34 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGBACTW.CRE~			~override/XGBACTW.
 	SAY NAME2 @37
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGBAN1A.CRE~			~override/XGBAN1A.CRE~
-	SAY NAME1 @38
-	SAY NAME2 @38
+	SAY NAME1 @1071
+	SAY NAME2 @1071
+	WRITE_ASCII DEATHVAR ~XGBAN1A~ (8)
+	WRITE_ASCII DIALOG ~XGBAN1A~ (8)
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGBAN1B.CRE~			~override/XGBAN1B.CRE~
-	SAY NAME1 @38
-	SAY NAME2 @38
+	SAY NAME1 @1072
+	SAY NAME2 @1072
+	WRITE_ASCII SCRIPT_OVERRIDE ~XGBAN~ (8)
+	WRITE_ASCII DEATHVAR ~XGBAN1B~ (8)
+	WRITE_ASCII DIALOG ~JODLGHH~ (8)
+
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGBAN1.CRE~			~override/XGBAN1.CRE~
 	SAY NAME1 @38
 	SAY NAME2 @38
+	WRITE_ASCII SCRIPT_OVERRIDE ~XGBAN~ (8)
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGBAN2.CRE~			~override/XGBAN2.CRE~
 	SAY NAME1 @39
 	SAY NAME2 @39
+	WRITE_ASCII SCRIPT_OVERRIDE ~XGBAN~ (8)
+	WRITE_ASCII DIALOG ~JODLGHH~ (8)
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGBAN3.CRE~			~override/XGBAN3.CRE~
 	SAY NAME1 @40
 	SAY NAME2 @40
+	WRITE_ASCII SCRIPT_OVERRIDE ~XGBAN~ (8)
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGbar1.CRE~			~override/XGbar1.CRE~
 	SAY NAME1 @41
@@ -331,6 +341,8 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGBGMER.CRE~			~override/XGBGMER.
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGBGON.CRE~			~override/XGBGON.CRE~
 	SAY NAME1 @49
 	SAY NAME2 @49
+	WRITE_ASCII DEATHVAR ~XGBGON~ (8)
+	WRITE_ASCII DIALOG ~XGBGON~ (8)
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGBGPS1.CRE~			~override/XGBGPS1.CRE~
 
@@ -371,6 +383,7 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGBLCIT.CRE~			~override/XGBLCIT.
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGBLMAJ.CRE~			~override/XGBLMAJ.CRE~
 	SAY NAME1 @53
 	SAY NAME2 @53
+	WRITE_LONG 0x28 IDS_OF_SYMBOL ("ANIMATE" "NOBLE_MAN") // Animation NOBLE_MAN - 0xCA00
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGBLVM.CRE~			~override/XGBLVM.CRE~
 	SAY NAME1 @54
@@ -642,6 +655,8 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGCOW.CRE~			~override/XGCOW.CRE~
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGCRU.CRE~			~override/XGCRU.CRE~
 	SAY NAME1 @78
 	SAY NAME2 @78
+	WRITE_ASCII DEATHVAR ~XGCRU~ (8)
+	WRITE_ASCII DIALOG ~XGCRU~ (8)
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGcrw1.CRE~			~override/XGcrw1.CRE~
 
@@ -1805,6 +1820,8 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGMAR.CRE~			~override/XGMAR.CRE~
 	SAY NAME2 @226 
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGMAYB.CRE~			~override/XGMAYB.CRE~
+	WRITE_ASCII DEATHVAR ~XGMAYB~ (8)
+	WRITE_ASCII DIALOG ~XGMAYB~ (8)
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGMAYOR.CRE~			~override/XGMAYOR.CRE~
 	SAY NAME1 @227 
@@ -1812,7 +1829,9 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGMAYOR.CRE~			~override/XGMAYOR.
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGMAYW.CRE~			~override/XGMAYW.CRE~
 	SAY NAME1 @228 
-	SAY NAME2 @228 
+	SAY NAME2 @228
+	WRITE_ASCII DEATHVAR ~XGMAYW~ (8)
+	WRITE_ASCII DIALOG ~XGMAYW~ (8)
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGMCALA.CRE~			~override/XGMCALA.CRE~
 	SAY NAME1 @229
@@ -3158,10 +3177,28 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGVAMP.CRE~			~override/XGVAMP.CR
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGVILF.CRE~			~override/XGVILF.CRE~
 	SAY NAME1 @353 
 	SAY NAME2 @353 
+	WRITE_ASCII SCRIPT_OVERRIDE ~JOBCSALL~ (8)
+	WRITE_ASCII SCRIPT_CLASS ~GRPSHT01~ (8)
+	WRITE_ASCII SCRIPT_RACE ~~ (8)
+	WRITE_ASCII SCRIPT_GENERAL ~~ (8)
+	WRITE_ASCII SCRIPT_DEFAULT ~~ (8)
+	WRITE_ASCII DIALOG ~JODLGWN~ (8)
+	WRITE_BYTE 0x237 ~2~ // Sex
+	WRITE_BYTE 0x272 ~1~ // Race
+	WRITE_BYTE 0x275 ~2~ // Gender
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGVILM.CRE~			~override/XGVILM.CRE~
 	SAY NAME1 @354 
 	SAY NAME2 @354 
+	WRITE_ASCII SCRIPT_OVERRIDE ~JOBCSALL~ (8)
+	WRITE_ASCII SCRIPT_CLASS ~GRPSHT01~ (8)
+	WRITE_ASCII SCRIPT_RACE ~~ (8)
+	WRITE_ASCII SCRIPT_GENERAL ~~ (8)
+	WRITE_ASCII SCRIPT_DEFAULT ~~ (8)
+	WRITE_ASCII DIALOG ~JODLGHN~ (8)
+	WRITE_BYTE 0x237 ~1~ // Sex
+	WRITE_BYTE 0x272 ~1~ // Race
+	WRITE_BYTE 0x275 ~1~ // Gender
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGVINTR.CRE~			~override/XGVINTR.CRE~
 	SAY NAME1 @355 
