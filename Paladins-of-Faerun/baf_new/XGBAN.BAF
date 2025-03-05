@@ -1,19 +1,20 @@
 IF
 	See("XGBAN1A")
-	!Dead("XGCRU")
+	Dead("XGCRU")
 	InMyArea("XGBAN1A")
 	Global("XGCRU_IS_DEAD","LOCALS",1)
+	Allegiance(Myself,NEUTRAL)
 THEN
-  RESPONSE #100
+	RESPONSE #100
 		SetGlobal("XGCRU_IS_DEAD","LOCALS",2)
 		ClearActions(Myself)
 END
 
 IF
-	!Dead("XGCRU")
+	Dead("XGCRU")
 	Global("XGCRU_IS_DEAD","LOCALS",0)
 THEN
-  RESPONSE #100
+	RESPONSE #100
 		SetGlobal("XGCRU_IS_DEAD","LOCALS",1)
 		ChangeEnemyAlly(Myself,NEUTRAL)
 		Continue()
@@ -21,22 +22,47 @@ END
 
 IF
 	!See("XGBAN1A")
-	!Dead("XGCRU")
+	Dead("XGCRU")
 	InMyArea("XGBAN1A")
 	Global("XGCRU_IS_DEAD","LOCALS",1)
+	Allegiance(Myself,NEUTRAL)
 THEN
-  RESPONSE #100
+	RESPONSE #100
 		MoveToObject("XGBAN1A")
 		Continue()
 END
 
 IF
-	!Dead("XGBAN1A")
-	Global("XGBAN1A_GUILDE_OFF","GLOBAL",1)
-	!Global("XGCRU_IS_DEAD","LOCALS",3)
+	Dead("XGCRU")
+	Allegiance(Myself,NEUTRAL)
+	OR(2)
+		Dead("XGBAN1A")
+		Allegiance("XGBAN1A",ENEMY)
+	OR(2)
+		Global("XGBAN1A_GUILDE_ON","GLOBAL",0)
+		Global("XGBAN1A_GUILDE_OFF","GLOBAL",1)
 THEN
-  RESPONSE #100
-		SetGlobal("XGCRU_IS_DEAD","LOCALS",3)
+	RESPONSE #100
 		ChangeEnemyAlly(Myself,ENEMY)
 END
 
+IF
+	!Dead("XGCRU")
+	Global("s#XGCRU","GLOBAL",1)
+	Allegiance("XGCRU",NEUTRAL)
+	Global("XGCRU_IS_NOT_DEAD","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("XGCRU_IS_NOT_DEAD","LOCALS",1)
+		ChangeEnemyAlly(Myself,NEUTRAL)
+		ClearActions(Myself)
+END
+
+IF
+	!Dead("XGCRU")
+	Allegiance(Myself,NEUTRAL)
+	Allegiance("XGCRU",ENEMY)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,ENEMY)
+END

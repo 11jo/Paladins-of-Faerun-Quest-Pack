@@ -1,3 +1,5 @@
+BEGIN ~XGELVWC~
+
 BEGIN ~XGHC~
 
 IF ~Global("XG0511_talk1","XG0511",4)~ THEN BEGIN 0
@@ -34,5 +36,12 @@ DO ~SetGlobal("XG0511_talk1","XG0511",2)~
 == XGHC @16
 == XGELM1 @17
 == XGYARPN @18
+EXIT
+
+CHAIN IF ~Global("RevealXG0319","XG0319",1)~ THEN XGHC talk2
+@19 
+DO ~SetGlobal("RevealXG0319","XG0319",2)~
+== XGELVWC @20
+== XGHC @21
 EXIT
 

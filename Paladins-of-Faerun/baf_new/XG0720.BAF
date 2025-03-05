@@ -12,3 +12,28 @@ THEN
 		UnhideGUI()
 		EndCutSceneMode()
 END
+
+IF
+	Global("s#XGBLMAJ","GLOBAL",3)
+	Global("XGBLMAJ_XGMAY_Return","MYAREA",0)
+	InMyArea("XGMAYB")
+	InMyArea("XGMAYW")
+THEN
+	RESPONSE #100
+		SetGlobal("XG1020_XG0720","MYAREA",1)
+		ClearAllActions()
+		StartCutSceneMode()
+		SetGlobal("XGBLMAJ_XGMAY_Return","MYAREA",1)
+		CreateCreature("XGBGON",[1478.1053],12)
+		ActionOverride("XGBGON",FaceObject("XGBLMAJ"))
+		MoveViewPoint([1126.868],INSTANT)
+		FadeFromColor([20.0],0)
+		Wait(3)
+		DisplayStringHead("XGMAYW",@1073 /*~Enfin !~*/) 
+		ActionOverride("XGMAYB",MoveToObject("XGBLMAJ"))
+		Wait(2)
+		DisplayStringHead("XGMAYB",@1074 /*~Papa !~*/) 
+		ActionOverride("XGMAYW",MoveToObject("XGBLMAJ"))
+		UnhideGUI()
+		EndCutSceneMode()
+END

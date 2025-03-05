@@ -1,7 +1,7 @@
 @0 = ~ You killed our leader, We have a custom, if someone kills our leader, he must either choose a new one or he becomes one. ~
 @1 = ~ Bring the prisoners right now, I mean a woman and a boy. ~
 @2 = ~ You are free. ~
-@3 = ~ Thank you <CHARNAME>, great job, I owe you goodbye and good luck. ~
+//@3 = ~ Thank you <CHARNAME>, great job, I owe you goodbye and good luck. ~
 @4 = ~ What will happen to our guild? ~
 @5 = ~ I will appoint you a new guild leader, but if you ever fall under my feet again, you will end up in the same place as your predecessor. ~
 @6 = ~ Thank you. You deserve our respect, none of our guilds will be in your way. ~
@@ -26,3 +26,5 @@ The family of the Grand Duke of Opas was abducted by his former deputy, I tracke
 
 The Opas family was saved. ~
 */
+
+@13 = ~Come back to talk to me when you're ready.~

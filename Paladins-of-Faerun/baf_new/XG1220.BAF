@@ -20,6 +20,7 @@ THEN
     Wait(5)
     ActionOverride("XGSALC",EscapeArea())
     ScreenShake([20.20],2)
+	MoveViewObject(Player1,INSTANT)
     PlaySound("EFF_M83")
     CreateCreature("XGPIR1",[608.1171],0)  // ~Пират~
     CreateCreature("XGPIR2",[820.1215],0)  // ~Пират~
@@ -52,7 +53,7 @@ THEN
     CreateCreature("XGSALC",[1464.1721],2)
     CreateCreature("XGPIRC",[1407.1769],10)
 	MoveViewPoint([1361.1699],SLOW)
-    ActionOverride(Player1,MoveToPoint([1361.1699],14))
+    ActionOverride(Player1,MoveToPoint([1361.1699]))
     ActionOverride("XGSALC",Attack("XGPIRC"))
     ActionOverride("XGPIRC",Attack("XGSALC"))
     Wait(6)

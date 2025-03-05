@@ -7,9 +7,9 @@ THEN
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
-    Wait(4)
-    CreateCreature("XGYARPN",[550.1733],4)  // ~Градак~
-    Wait(2)
+    Wait(3)
+    CreateCreatureDoor("XGYARPN",[457.1821],4)
+    Wait(3)
     DisplayString("XGYARPN",@0)  // @0
     Wait(3)
     ActionOverride("XGYARPN",EscapeArea())

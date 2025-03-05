@@ -6,6 +6,7 @@
 @6 = ~ You will pay for betrayal! ~
 
 // Moved from XG0511.tra
+
 @7    = ~I can't believe the guard was given a clear order to have you and your group destroyed! I think I underestimated you < CHARNAME >.~
 @8    = ~You underestimated all of us! Me, Grafalcon, < CHARNAME > and even Elminster himself. We thought we were electing you Supreme Magician, and that would help us regain balance in all Faerûn. You lied to us!~ 
 @9    = ~Yes, Elvin is absolutely right, you were my friend Tassili, a good friend, and I believed you. Why did you team up with Gradak? Are you afraid of him? Afraid of the protective aura you gave him during the ceremony?~
@@ -18,3 +19,9 @@
 @16   = ~All your power will not be able to compare with the power of protective magic that I gave him, and in combination with 3 magical relics, his power will not be overcome...~
 @17   = ~3 relics, I've never heard of it, but I know of an ambush in a dark forest when you captured my friend Alvin and stole a magic ball from <CHARNAME>. I guess that's one of the three relics...~
 @18   = ~Yeah, Elminster, you're really smart, but it's too late, you know about one of the three relics, and I know where the others are. And it's only a matter of time before I get them. Tassily kill them all! And I'm leaving.~
+
+// Moved from XG0319.tra
+
+@19 = ~ Glad to see you again <CHARNAME>, and who is it next to you? Is that you Elinar? Yes, yes, I remember you, you were the security commander on the Council. You must follow my orders! ~
+@20 = ~ No, we are now serving Alvin, the new head of the Council of Mages! We thought that <CHARNAME> killed you! It doesn't matter, now I will destroy you Tassili! ~
+@21 = ~ <CHARNAME> just killed my double. But I do not think that this is the right moment to settle accounts. One of the Gradak armies landed in Neverwinter. I believe that after the fight with Luskan, they have little chance of holding out for a long time, and Gradak will soon get the Neverwinter. The city has strategic importance, from it you can step on Waterdeep and the already mentioned Luskan. <CHARNAME> and you all cannot stop it! ~

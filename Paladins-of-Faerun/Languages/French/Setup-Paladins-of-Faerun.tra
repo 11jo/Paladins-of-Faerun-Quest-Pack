@@ -4325,6 +4325,11 @@ Grâce à ce sort, le prêtre diminue le moral de ses adversaires et pénalise de -1
 
 @1072 = ~Biff, le brigand~
 
+// XG720.BAF
+
+@1073 = ~Enfin !~
+@1074 = ~Papa !~
+
 // Item ressources for XGCMA03.ITM, XGHELM4 and IWD bam
 
 // XGSPMOD1
@@ -4366,6 +4371,7 @@ Le magicien pointe son doigt dans la direction désirée et projette une sphère d'
 @1500 = ~Demeure du Seigneur Nasher~  // XG0048.ARE
 @1501 = ~Vers la Passe du Géant~  // XG0016.ARE
 @1502 = ~Bateau vers le continent~  // XG0052.ARE
+@1503 = ~Embarcation~  // XG0019.ARE
 
 
 // XG0016 Info Trigger

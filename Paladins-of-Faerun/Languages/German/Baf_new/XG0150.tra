@@ -1,7 +1,7 @@
 @0 = ~Ihr habt unseren Anführer getötet, Wir haben einen Brauch, dass wenn jemand unseren Anführer tötet, er entweder einen neuen wählen oder selbst einer werden muss.~
 @1 = ~Bringt sofort die Gefangenen, ich meine die Frau und den Jungen.~
 @2 = ~Ihr seid frei.~
-@3 = ~Danke, <CHARNAME>, tolle Arbeit, ich schulde Euch was, auf Wiedersehen und viel Glück.~
+//@3 = ~Danke, <CHARNAME>, tolle Arbeit, ich schulde Euch was, auf Wiedersehen und viel Glück.~
 @4 = ~Was wird aus unserer Gilde?~
 @5 = ~Ich werde einen neuen Gildenmeister ernennen, aber wenn du mir jemals wieder in die Quere kommst, wirst so enden wie dein Vorgänger.~
 @6 = ~Dankeschön. Ihr verdient unseren Respekt, niemand aus unserer Gilde wird Euch im Weg stehen.~
@@ -26,3 +26,5 @@ Die Familie des Großherzogs Opas wurde von seinem ehemaligen Stellvertreter entf
 
 Die Familie Opas war gerettet.~
 */
+
+@13 = ~Come back to talk to me when you're ready.~

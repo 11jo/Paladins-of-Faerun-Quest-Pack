@@ -13,46 +13,67 @@ IF
   Global("RevealXG0319","XG0319",0)
   Dead("XGyarcl")  // ~ омандир разведчиков~
 THEN
-  RESPONSE #100
+	RESPONSE #100
     SetGlobal("RevealXG0319","XG0319",1)
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
     Wait(2)
     FadeToColor([20.0],0)
-    Wait(6)
+    Wait(2)
     CreateCreature("XGELVWC",[1545.841],0)  // ~Ёленар~
     CreateCreature("XGELVWR",[1723.738],0)  // ~Ёльфийский воин~
     CreateCreature("XGELVWR",[1652.646],0)  // ~Ёльфийский воин~
     CreateCreature("XGELVWR",[1428.613],0)  // ~Ёльфийский воин~
     CreateCreature("XGELVWR",[1574.563],0)  // ~Ёльфийский воин~
-    Wait(6)
-    MoveViewPoint([1545.841],SLOW)
+    FadeFromColor([20.0],0)
+    Wait(3)
+    MoveViewPoint([1545.841],STANDARD)
     Wait(2)
     ActionOverride(Player1,MoveToPoint([1503.921]))
-    Wait(6)
+    Wait(4)
     DisplayString("XGELVWC",@0)  // @0
     Wait(4)
     FadeToColor([20.0],0)
-    Wait(6)
-    CreateCreature("XGHC",[1406.783],0)  // ~јрхимаг~
-    Wait(5)
-    DisplayString("XGHC",@1)  // @1
-    Wait(6)
-    DisplayString("XGELVWC",@2)  // @2
-    Wait(7)
-    DisplayString("XGHC",@3)  // @3
-    Wait(8)
-    DisplayString("XGELVWC",@4)  // @4
+    Wait(2)
+    CreateCreature("XGHC",[1406.783],0)
+    FadeFromColor([20.0],0)
     Wait(4)
-    ActionOverride(Player1,LeaveAreaLUA("XG0057","",[1071.859],0))
-    ActionOverride(Player2,LeaveAreaLUA("XG0057","",[997.846],0))
-    ActionOverride(Player3,LeaveAreaLUA("XG0057","",[867.836],0))
-    ActionOverride(Player4,LeaveAreaLUA("XG0057","",[883.887],0))
-    ActionOverride(Player5,LeaveAreaLUA("XG0057","",[797.846],0))
-    ActionOverride(Player6,LeaveAreaLUA("XG0057","",[797.906],0))
-    ActionOverride("XGHC",EscapeArea())
-    UnhideGUI()
+	StartDialogNoSet("XGHC")
     EndCutSceneMode()
+END
+
+/*
+// Moved in XGHC.D
+    DisplayString("XGHC",@1)  // @19
+    Wait(6)
+    DisplayString("XGELVWC",@2)  // @20
+    Wait(7)
+    DisplayString("XGHC",@3)  // @21
+*/
+
+IF
+	Global("RevealXG0319","XG0319",2)
+THEN
+	RESPONSE #100
+		SetGlobal("RevealXG0319","XG0319",3)
+		ClearAllActions()
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		ActionOverride("XGHC",ReallyForceSpell(Myself,DRYAD_TELEPORT))
+		Wait(4)
+		DisplayString("XGELVWC",@4)  // @4
+		Wait(4)
+		FadeToColor([20.0],0)
+		Wait(2)
+		ActionOverride(Player1,LeaveAreaLUA("XG0057","",[1071.859],0))
+		ActionOverride(Player2,LeaveAreaLUA("XG0057","",[997.846],0))
+		ActionOverride(Player3,LeaveAreaLUA("XG0057","",[867.836],0))
+		ActionOverride(Player4,LeaveAreaLUA("XG0057","",[883.887],0))
+		ActionOverride(Player5,LeaveAreaLUA("XG0057","",[797.846],0))
+		ActionOverride(Player6,LeaveAreaLUA("XG0057","",[797.906],0))
+		//UnhideGUI()
+		EndCutSceneMode()
 END
 

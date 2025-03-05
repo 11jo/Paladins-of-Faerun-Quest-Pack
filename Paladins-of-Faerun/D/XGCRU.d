@@ -38,7 +38,7 @@ IF ~Global("s#XGCRU","GLOBAL",1)~ THEN BEGIN 4
   IF ~~ THEN REPLY @9 GOTO 5
 END
 
-IF ~Global("s#XGCRU","GLOBAL",1)~ THEN BEGIN 4
+IF ~Global("s#XGCRU","GLOBAL",1)~ THEN BEGIN 5
 	SAY @5
   IF ~~ THEN DO ~Enemy()
 		CreateCreature("XGBAN3",[2013.927],0)

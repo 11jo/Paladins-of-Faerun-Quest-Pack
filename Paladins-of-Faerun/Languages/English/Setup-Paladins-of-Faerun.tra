@@ -4217,6 +4217,11 @@ When uttering the Curse spell, the caster lowers the morale of enemy creatures a
 
 @1072 = ~Biff, the bandit~
 
+// XG720.BAF
+
+@1073 = ~At last !~
+@1074 = ~Dad !~
+
 // Item ressources for XGCMA03.ITM, XGHELM4 and IWD bam
 
 // XGSPMOD1
@@ -4255,6 +4260,7 @@ The wizard points his finger in the desired direction and projects a sphere of n
 @1500 = ~Lord Nasher's residence~
 @1501 = ~To Giant's Pass~  // XG0016.ARE
 @1502 = ~Boat to the continent~  // XG0052.ARE
+@1503 = ~Barque~  // XG0019.ARE
 
 
 // XG0016 Info Trigger

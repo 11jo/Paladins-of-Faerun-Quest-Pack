@@ -193,6 +193,7 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0017.ARE~			~override/XG0017.ARE
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0018.ARE~         ~override/XG0018.ARE~
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0019.ARE~         ~override/XG0019.ARE~
+	ADD_MAP_NOTE #899 #1718 ~BLUE~ @1503
 
 //ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
 
@@ -499,6 +500,15 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0049.ARE~         ~override/XG00
   SAY 0x2444 @408 
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0050.ARE~         ~override/XG0050.ARE~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGTRBA"
+		script_override = ~XGBAN~
+		//script_class = ~~
+		//script_race = ~~
+		//script_general = ~~
+		dlg_file  = "JODLGHH"
+	END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0052.ARE~         ~override/XG0052.ARE~
 	WRITE_ASCII 0x94 ~XG0052~ #8
@@ -955,13 +965,15 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0149.ARE~         ~override/XG01
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0150.ARE~         ~override/XG0150.ARE~
 	LPF ALTER_AREA_ACTOR 
+		INT_VAR
+		animation = "0x5310"
 		STR_VAR 
 		actor_name = "XGBAN1"
 		script_override = ~XGBAN~
 		//script_class = ~~
 		//script_race = ~~
 		//script_general = ~~
-		dlg_file  = "JODLGHH"
+		dlg_file  = "JODLGWH"
 	END
 	LPF ALTER_AREA_ACTOR 
 		STR_VAR 
@@ -1610,6 +1622,18 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0720.ARE~         ~override/XG07
 			region_name	= Info02
 			region_name	= Info
 		END
+	LPF ALTER_AREA_ACTOR 
+		INT_VAR
+		animation = "0x5100"
+		STR_VAR 
+		actor_name = "XGBLMAJ"
+		script_override = ~~
+		script_class = ~GRPSHT01~
+		script_race = ~~
+		script_general = ~WTARSGT~
+		script_default = ~~
+		dlg_file  = "XGBLMAJ"
+	END
 
 ACTION_IF GAME_IS ~bgt eet~ BEGIN
 	COPY_EXISTING ~XG0720.ARE~ ~override~

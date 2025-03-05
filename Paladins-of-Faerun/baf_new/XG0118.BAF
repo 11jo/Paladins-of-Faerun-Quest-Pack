@@ -17,22 +17,25 @@ THEN
 END
 
 IF
-  Global("RevealXG0118","XG0118",0)
-  Dead("XGyarqc")  // ~Командир Градакова~
+	Global("RevealXG0118","XG0118",0)
+	Dead("XGyarqc")
 THEN
-  RESPONSE #100
-    SetGlobal("RevealXG0118","XG0118",1)
-    ClearAllActions()
-    StartCutSceneMode()
-    HideGUI()
-    Wait(2)
-    RevealAreaOnMap("XG0019")
-    DisplayString("XGYARPN",@1)
-    Wait(4)
-    DisplayStringHead(Player1,@2)
-    Wait(3)
-    ForceSpell("XGYARPN",DRYAD_TELEPORT)
-    UnhideGUI()
-    EndCutSceneMode()
+	RESPONSE #100
+		SetGlobal("RevealXG0118","XG0118",1)
+		ClearAllActions()
+		StartCutSceneMode()
+		HideGUI()
+		Wait(2)
+		ActionOverride(Player1,MoveToPoint([2350.1960]))
+		Wait(24)
+		RevealAreaOnMap("XG0019")
+		DisplayString("XGYARPN",@1)
+		Wait(4)
+		DisplayStringHead(Player1,@2)
+		Wait(3)
+		ForceSpell("XGYARPN",DRYAD_TELEPORT)
+		Wait(3)
+		UnhideGUI()
+		EndCutSceneMode()
 END
 
