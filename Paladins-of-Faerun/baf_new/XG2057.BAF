@@ -4,22 +4,24 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("EnteredAreaXG2057","XG2057",1)
-    CreateCreature("XGNWNGD",[593.1777],8)  // ~Командир~
-    CreateCreature("XGNWNL",[560.1704],0)  // ~Офицер~
-    CreateCreature("XGNWNA",[696.1622],10)  // ~Армия Невервинтера~
-    CreateCreature("XGNWNA",[618.1604],10)  // ~Армия Невервинтера~
-    CreateCreature("XGNWNA",[541.1623],6)  // ~Армия Невервинтера~
-    CreateCreature("XGNWNA",[503.1708],4)  // ~Армия Невервинтера~
-    CreateCreature("XGNWNA",[524.1877],0)  // ~Армия Невервинтера~
-    CreateCreature("XGNWNA",[638.1885],0)  // ~Армия Невервинтера~
-    CreateCreature("XGNWNA",[870.1505],12)  // ~Армия Невервинтера~
-    CreateCreature("XGAA",[645.1444],12)  // ~Студент~
-    PlaySound("XGNWN2")
-    StartCutSceneMode()
-    HideGUI()
-    Wait(3)
-    ActionOverride(Player1,MoveToPoint([516.1756]))
-    MoveViewPoint([516.1756],SLOW)
+		ClearAllActions()
+		StartCutSceneMode()
+		CreateCreature("XGNWNGD",[593.1777],8)  // ~Командир~
+		CreateCreature("XGNWNL",[560.1704],0)  // ~Офицер~
+		CreateCreature("XGNWNA",[696.1622],10)  // ~Армия Невервинтера~
+		CreateCreature("XGNWNA",[618.1604],10)  // ~Армия Невервинтера~
+		CreateCreature("XGNWNA",[541.1623],6)  // ~Армия Невервинтера~
+		CreateCreature("XGNWNA",[503.1708],4)  // ~Армия Невервинтера~
+		CreateCreature("XGNWNA",[524.1877],0)  // ~Армия Невервинтера~
+		CreateCreature("XGNWNA",[638.1885],0)  // ~Армия Невервинтера~
+		CreateCreature("XGNWNA",[870.1505],12)  // ~Армия Невервинтера~
+		CreateCreature("XGAA",[645.1444],12)  // ~Студент~
+		MoveViewObject(Player1,INSTANT)
+		FadeFromColor([20.0],0)
+		PlaySound("XGNWN2")
+		Wait(2)
+		ActionOverride(Player1,MoveToPoint([516.1756]))
+		MoveViewPoint([516.1756],STANDARD)
     Wait(6)
     DisplayStringHead(Player1,@0)  // @0
     Wait(7)
@@ -33,8 +35,8 @@ THEN
     Wait(6)
     DisplayStringHead(Player1,@5)  // @5
     Wait(6)
-    FadeToColor([10.0],0)
-    Wait(5)
+    FadeToColor([20.0],0)
+    Wait(2)
     CreateCreature("XGNWNG1",[2168.1228],8)  // ~Командир~
     CreateCreature("XGNWNL",[2139.1186],0)  // ~Офицер~
     CreateCreature("XGNWNA",[2183.1402],10)  // ~Армия Невервинтера~
@@ -64,7 +66,8 @@ THEN
     CreateCreature("XGSM",[961.1433],0)  // ~Южанин~
     CreateCreature("XGSA",[898.1919],8)  // ~Южанин~
     CreateCreature("XGSM",[401.1978],8)  // ~Южанин~
-    Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(2)
     UnhideGUI()
     EndCutSceneMode()
 END
@@ -75,7 +78,10 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("RevealXG2057","XG2057",1)
+    StartCutSceneMode()
+    HideGUI()
     DisplayStringHead(Player1,@6)  // @6
+    Wait(2)
     BattleSong()
     CreateCreature("XGSWC1",[2372.1480],8)  // ~Командир полка~
     CreateCreature("XGSW",[2347.1590],8)  // ~Южанин~
@@ -83,7 +89,8 @@ THEN
     CreateCreature("XGSW",[2495.1331],0)  // ~Южанин~
     CreateCreature("XGSA",[2311.1536],8)  // ~Южанин~
     CreateCreature("XGSM",[2447.1595],8)  // ~Южанин~
-    Wait(6)
+    UnhideGUI()
+    EndCutSceneMode()
 END
 
 IF
@@ -92,13 +99,18 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("RevealXG2057","XG2057",2)
+    StartCutSceneMode()
+    HideGUI()
     DisplayStringHead(Player1,@7)  // @7
+    Wait(2)
     BattleSong()
     CreateCreature("XGSWC2",[1916.276],0)  // ~Командир полка~
     CreateCreature("XGSW",[1811.185],0)  // ~Южанин~
     CreateCreature("XGSW",[2102.394],0)  // ~Южанин~
     CreateCreature("XGSM",[1875.47],0)  // ~Южанин~
     CreateCreature("XGSA",[1922.86],0)  // ~Южанин~
+    UnhideGUI()
+    EndCutSceneMode()
 END
 
 IF
@@ -107,10 +119,15 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("RevealXG2057","XG2057",3)
+    StartCutSceneMode()
+    HideGUI()
     DisplayStringHead(Player1,@8)  // @8
     Wait(4)
+    FadeToColor([20.0],0)
+    Wait(2)
     RestParty()
-    Wait(5)
+		FadeFromColor([20.0],0)
+		Wait(2)
     DisplayStringHead(Player1,@9)  // @9
     CreateCreature("XGSWC3",[595.1928],8)  // ~Командир полка~
     CreateCreature("XGSW",[533.1991],8)  // ~Южанин~
@@ -119,6 +136,8 @@ THEN
     CreateCreature("XGSW",[719.1619],0)  // ~Южанин~
     CreateCreature("XGSA",[898.1919],8)  // ~Южанин~
     CreateCreature("XGSM",[401.1978],8)  // ~Южанин~
+    UnhideGUI()
+    EndCutSceneMode()
 END
 
 IF
@@ -127,7 +146,10 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("RevealXG2057","XG2057",4)
+    StartCutSceneMode()
+    HideGUI()
     DisplayStringHead(Player1,@6)  // @6
+    Wait(2)
     BattleSong()
     CreateCreature("XGSWC4",[2372.1480],8)  // ~Командир полка~
     CreateCreature("XGSW",[2347.1590],8)  // ~Южанин~
@@ -137,7 +159,8 @@ THEN
     CreateCreature("XGSW",[2221.1384],0)  // ~Южанин~
     CreateCreature("XGSA",[2311.1536],8)  // ~Южанин~
     CreateCreature("XGSM",[2447.1595],8)  // ~Южанин~
-    Wait(6)
+    UnhideGUI()
+    EndCutSceneMode()
 END
 
 IF
@@ -146,7 +169,10 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("RevealXG2057","XG2057",5)
+    StartCutSceneMode()
+    HideGUI()
     DisplayStringHead(Player1,@7)  // @7
+    Wait(2)
     BattleSong()
     CreateCreature("XGSWC5",[1916.276],0)  // ~Командир полка~
     CreateCreature("XGSW",[1811.185],0)  // ~Южанин~
@@ -154,7 +180,7 @@ THEN
     CreateCreature("XGSW",[1997.257],0)  // ~Южанин~
     CreateCreature("XGSW",[2083.627],8)  // ~Южанин~
     CreateCreature("XGSA",[1830.107],0)  // ~Южанин~
-    CreateCreature("XGNWNN1",[511.114],0)  // ~Капитан Нивалл~
+    CreateCreature("XGNWNN1",[511.114],0) // Capitaine Nivall
     CreateCreature("XGNWNA",[762.180],14)  // ~Армия Невервинтера~
     CreateCreature("XGNWNA",[822.150],14)  // ~Армия Невервинтера~
     CreateCreature("XGNWNA",[650.264],14)  // ~Армия Невервинтера~
@@ -164,6 +190,8 @@ THEN
     CreateCreature("XGNWNA",[769.476],14)  // ~Армия Невервинтера~
     CreateCreature("XGAMO",[595.44],0)  // ~Магистр академии~
     CreateCreature("XGAMO",[364.375],0)  // ~Магистр академии~
+    UnhideGUI()
+    EndCutSceneMode()
 END
 
 IF
@@ -172,24 +200,32 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("RevealXG2057","XG2057",6)
+    StartCutSceneMode()
+    HideGUI()
+    FadeToColor([20.0],0)
+    Wait(2)
+    RestParty()
+		FadeFromColor([20.0],0)
+		Wait(2)
     DisplayStringHead(Player1,@10)  // @10
     Wait(6)
+    FadeToColor([20.0],0)
+    Wait(2)
     ActionOverride(Player1,LeaveAreaLUA("XG2057","",[502.154],8))
     ActionOverride(Player2,LeaveAreaLUA("XG2057","",[439.190],8))
     ActionOverride(Player3,LeaveAreaLUA("XG2057","",[497.220],8))
     ActionOverride(Player4,LeaveAreaLUA("XG2057","",[381.256],0))
     ActionOverride(Player5,LeaveAreaLUA("XG2057","",[453.289],0))
     ActionOverride(Player6,LeaveAreaLUA("XG2057","",[521.283],0))
-    Wait(1)
-    RestParty()
+		FadeFromColor([20.0],0)
+		Wait(2)
     PlaySound("XGNWN2")
-    Wait(2)
     DisplayStringHead(Player1,@11)  // @11
     Wait(6)
-    DisplayStringHead("XGNWNN1",@12)  // @12
+    DisplayStringHead("XGNWNN1",@12)  // Capitaine Nivall
     Wait(6)
     FadeToColor([10.0],0)
-    Wait(5)
+		Wait(2)
     CreateCreature("XGSWI",[783.612],0)  // ~Командир нападающих~
     CreateCreature("XGSW",[605.655],0)  // ~Южанин~
     CreateCreature("XGSW",[314.565],0)  // ~Южанин~
@@ -198,8 +234,11 @@ THEN
     CreateCreature("XGSM",[616.710],0)  // ~Южанин~
     CreateCreature("XGSW",[914.512],8)  // ~Южанин~
     CreateCreature("XGSA",[992.361],0)  // ~Южанин~
-    Wait(6)
-    DisplayStringHead("XGNWNN1",@13)  // @13
+		FadeFromColor([20.0],0)
+		Wait(2)
+    DisplayStringHead("XGNWNN1",@13)  // Capitaine Nivall
+    UnhideGUI()
+    EndCutSceneMode()
 END
 
 IF
@@ -210,14 +249,18 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("XHDead4","XG2057",1)
+    StartCutSceneMode()
+    HideGUI()
     DisplayStringHead(Player1,@14)  // @14
     Wait(4)
-    Kill(Player1)
     Kill(Player2)
     Kill(Player3)
     Kill(Player4)
     Kill(Player5)
     Kill(Player6)
+    Wait(2)
+    Kill(Player1)
+    EndCutSceneMode()
 END
 
 IF
@@ -226,8 +269,10 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("XGDead","XG2057",1)
+		MoveViewObject(Player1,INSTANT)
     DisplayStringHead(Player1,@15)  // @15
     Wait(4)
+		Continue()
 END
 
 IF
@@ -236,8 +281,10 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("XGDead1","XG2057",1)
+		MoveViewObject(Player1,INSTANT)
     DisplayStringHead(Player1,@16)  // @16
     Wait(4)
+		Continue()
 END
 
 IF
@@ -246,24 +293,30 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("XGDead2","XG2057",1)
+		MoveViewObject(Player1,INSTANT)
     DisplayStringHead(Player1,@17)  // @17
     Wait(4)
+		Continue()
 END
 
 IF
   Global("XGDead3","XG2057",0)
-  Dead("XGNWNN1")  // ~Капитан Нивалл~
+  Dead("XGNWNN1")  // Capitaine Nivall
 THEN
   RESPONSE #100
     SetGlobal("XGDead3","XG2057",1)
+    StartCutSceneMode()
+    HideGUI()
     DisplayStringHead(Player1,@14)  // @14
     Wait(4)
-    Kill(Player1)
     Kill(Player2)
     Kill(Player3)
     Kill(Player4)
     Kill(Player5)
     Kill(Player6)
+    Wait(2)
+    Kill(Player1)
+    EndCutSceneMode()
 END
 
 IF
@@ -272,15 +325,21 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("RevealXG2057","XG2057",7)
+		ClearAllActions()
+    StartCutSceneMode()
+    HideGUI()
     DisplayStringHead(Player1,@18)  // @18
     Wait(4)
     ActionOverride(Player1,MoveToPoint([552.221]))
-    ActionOverride("XGNWNN1",MoveToPoint([597.197]))
+		MoveViewPoint([552.221],STANDARD)
+    ActionOverride("XGNWNN1",MoveToPoint([597.197]))// Capitaine Nivall
     Wait(6)
-    DisplayStringHead("XGNWNN1",@19)  // @19
+    DisplayStringHead("XGNWNN1",@19)  // Capitaine Nivall
     Wait(6)
     DisplayStringHead(Player1,@20)  // @20
     Wait(6)
+		FadeToColor([20.0],0)
+		Wait(2)
     AddexperienceParty(20000)
     HideAreaOnMap("XG0319")
     RevealAreaOnMap("XG1319")
@@ -290,5 +349,6 @@ THEN
     ActionOverride(Player4,LeaveAreaLUA("XG1319","",[2856.858],4))
     ActionOverride(Player5,LeaveAreaLUA("XG1319","",[2921.858],4))
     ActionOverride(Player6,LeaveAreaLUA("XG1319","",[3007.894],4))
+		EndCutSceneMode()
 END
 

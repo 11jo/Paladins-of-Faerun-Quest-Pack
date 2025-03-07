@@ -1,15 +1,27 @@
 IF
 	See([GOODCUTOFF])
+	Global("XGBOY_SHOUT","LOCALS",0)
 THEN
 	RESPONSE #100
+		SetGlobal("XGBOY_SHOUT","LOCALS",1)
 		DisplayStringHead(Myself,@3010)
 		Face(3)
 		Wait(5)
 		DisplayStringHead(Myself,@3007)
 		Face(0)
-		Wait(20)
+		Wait(10)
 		DisplayStringHead(Myself,@3010)
 		Face(2)
-		Wait(50)
+		Continue()
 END
+
+IF
+	Global("XGBOY_SHOUT","LOCALS",1)
+	Delay(20)
+THEN
+	RESPONSE #100
+		SetGlobal("XGBOY_SHOUT","LOCALS",0)
+		Continue()
+END
+
 

@@ -8,13 +8,12 @@ THEN
     StartCutSceneMode()
     HideGUI()
     CreateCreature("XGHC1",[1362.927],0)  // ~јрхимаг~
-    CreateCreature("XGYARPN",[1379.1089],0)  // ~√радак~
+    CreateCreature("XGYARPN",[1379.1089],0)
+		CreateCreatureObject("XGNEAN28","XGHC1",0,0,0)
     PlaySound("XGF")
-    Wait(2)
-    FadeToColor([30.0],0)
     Wait(1)
-    ActionOverride(Player1,LeaveAreaLUA("XG0419","",[1123.892],0))
-    Wait(8)
+		MoveViewObject("XGHC1",INSTANT)
+    Wait(3)
     DisplayString("XGYARPN",@0)  // @0
     Wait(4)
     DisplayString("XGHC1",@1)  // @1
@@ -23,17 +22,25 @@ THEN
     Wait(8)
     DisplayString("XGHC1",@3)  // @3
     Wait(4)
-    ForceSpell("XGYARPN",DRYAD_TELEPORT)
+		ActionOverride("XGYARPN",MoveToPoint([1786.1126]))
+    Wait(2)
+		ActionOverride("XGYARPN",EscapeArea())
     DisplayString("XGHC1",@4)  // @4
-    Wait(8)
-    FadeToColor([30.0],0)
-    ScreenShake([20.20],20)
-    Wait(8)
-    CreateCreature("XGELVWR",[902.987],10)  // ~Ёльфийский воин~
-    CreateCreature("XGELVCP",[986.1056],10)  // ~Ёльфийский капитан~
-    CreateCreature("XGELVCL",[1067.1133],10)  // ~Ёльфийский сектант~
-    CreateCreature("XGELVWR",[1147.1228],10)  // ~Ёльфийский воин~
+	CreateCreatureOffScreen("XGELVWR",10)
+	CreateCreatureOffScreen("XGELVCP",10)
+	CreateCreatureOffScreen("XGELVCL",10)
+	CreateCreatureOffScreen("XGELVWR",10)
     Wait(4)
+    ScreenShake([20.20],20)
+		ActionOverride("XGELVWR",MoveToPoint([980.1049]))
+		ActionOverride("XGELVCP",MoveToPoint([986.1056]))
+		ActionOverride("XGELVCL",MoveToPoint([1067.1133]))
+		ActionOverride("XGELVWR",MoveToPoint([1147.1228]))
+    Wait(5)
+   // CreateCreature("XGELVWR",[902.987],10)  // ~Ёльфийский воин~
+   // CreateCreature("XGELVCP",[986.1056],10)  // ~Ёльфийский капитан~
+   // CreateCreature("XGELVCL",[1067.1133],10)  // ~Ёльфийский сектант~
+   // CreateCreature("XGELVWR",[1147.1228],10)  // ~Ёльфийский воин~
     DisplayString("XGELVCP",@5)  // @5
     Wait(4)
     DisplayString("XGHC1",@6)  // @6
@@ -51,20 +58,27 @@ THEN
     CreateVisualEffectObject("SPROTECT","XGHC1")
     PlaySound("EFF_M23C")
     Wait(1)
-    ActionOverride("XGHC1",ForceSpell("XGELVCP",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
+    ActionOverride("XGHC1",ForceSpell("XGELVCP",WIZARD_FLESH_TO_STONE_IGNORE_RESISTANCE))
     Wait(6)
     CreateVisualEffectObject("SPROTECT","XGHC1")
     PlaySound("EFF_M23C")
     Wait(1)
-    ActionOverride("XGHC1",ForceSpell("XGELVCL",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
+    ActionOverride("XGHC1",ForceSpell("XGELVCL",WIZARD_FLESH_TO_STONE_IGNORE_RESISTANCE))
     Wait(6)
     CreateVisualEffectObject("SPROTECT","XGHC1")
     PlaySound("EFF_M23C")
     Wait(1)
-    ActionOverride("XGHC1",ForceSpell("XGSUELF",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
-    Wait(6)
-    ActionOverride(Player1,LeaveAreaLUA("XG0419","",[251.1822],0))
-    UnhideGUI()
+    ActionOverride("XGHC1",ForceSpell("XGELVWR",WIZARD_FINGER_OF_DEATH_IGNORE_RESISTANCE))
+		ActionOverride("XGHC1",ChangeEnemyAlly(Myself,NEUTRAL))
+		ActionOverride(Player2,MoveToPoint([980.1049]))
+		ActionOverride(Player1,MoveToPoint([986.1056]))
+		ActionOverride(Player3,MoveToPoint([1067.1133]))
+		ActionOverride(Player4,MoveToPoint([1147.1228]))
+		ActionOverride(Player5,MoveToPoint([1100.1160]))
+		ActionOverride(Player6,MoveToPoint([1120.1200]))
+    Wait(9)
+		UnhideGUI()
+		ActionOverride("XGHC1",StartDialogNoSet("XGHC1"))
     EndCutSceneMode()
 END
 
@@ -77,17 +91,23 @@ THEN
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
-    Wait(2)
-    FadeToColor([10.0],0)
-    CreateCreature("XGELWIN",[1150.1095],0)  // ~Ёлвин~
-    Wait(2)
-    DisplayString("XGELWIN",@7)  // @7
-    Wait(10)
-    RevealAreaOnMap("XG0025")
-    Wait(4)
-    ForceSpell("XGELWIN",DRYAD_TELEPORT)
-    Wait(4)
-    UnhideGUI()
+	CreateCreatureOffScreen("XGELWIN",10)
+    SmallWait(2)
+	ActionOverride("XGELWIN",MoveToObject(Player1))
+    Wait(5)
+    //DisplayString("XGELWIN",@7)  // @7
+		UnhideGUI()
+		ActionOverride("XGELWIN",StartDialogNoSet("XGELWI"))
     EndCutSceneMode()
+END
+
+
+IF
+  Global("RevealAreaXG0419","XG0419",1)
+THEN
+  RESPONSE #100
+    SetGlobal("RevealAreaXG0419","XG0419",2)
+    RevealAreaOnMap("XG0025")
+    ForceSpell("XGELWIN",DRYAD_TELEPORT)
 END
 

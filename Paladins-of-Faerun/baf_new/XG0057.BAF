@@ -1,76 +1,107 @@
 IF
-  True()
-  Global("RevealAreaXG0057","XG0057",0)
+	True()
+	Global("RevealAreaXG0057","XG0057",0)
 THEN
-  RESPONSE #100
-    SetGlobal("RevealAreaXG0057","XG0057",1)
-    ClearAllActions()
-    StartCutSceneMode()
-    HideGUI()
-    PlaySound("XGNWN2")
-    Wait(2)
-    CreateCreature("XGNWNCN",[1249.999],4)  // ~Капитан Нивалл~
-    Wait(1)
-    ActionOverride(Player1,MoveToPoint([1169.997]))
-    Wait(3)
-    MoveViewPoint([1169.997],SLOW)
-    Wait(2)
-    DisplayString("XGNWNCN",@0)  // @0
-    Wait(6)
-    DisplayStringHead(Player1,@1)  // @1
-    Wait(6)
-    DisplayString("XGNWNCN",@2)  // @2
-    Wait(6)
-    DisplayStringHead(Player1,@3)  // @3
-    Wait(6)
-    DisplayString("XGNWNCN",@4)  // @4
-    Wait(9)
-    Wait(2)
-    DisplayStringHead(Player1,@5)  // @5
-    Wait(9)
-    Wait(2)
-    DisplayString("XGNWNCN",@6)  // @6
-    Wait(10)
-    Wait(2)
-    DisplayStringHead(Player1,@7)  // @7
-    Wait(4)
-    CreateCreature("XGTAOR",[1161.267],0)  // ~Таораг~
-    CreateCreature("XGOTIR",[2109.1226],0)  // ~Отирос~
-    CreateCreature("XGELLAN",[852.2123],0)  // ~Элланнан~
-    ClearAllActions()
-    Wait(4)
-    UnhideGUI()
-    EndCutSceneMode()
+	RESPONSE #100
+		SetGlobal("RevealAreaXG0057","XG0057",1)
+		ClearAllActions()
+		StartCutSceneMode()
+		MoveViewObject(Player1,INSTANT)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		CreateCreature("XGTAOR",[1161.267],0)
+		CreateCreature("XGOTIR",[2109.1226],0)
+		CreateCreature("XGELLAN",[852.2123],0)
+		CreateCreature("XGNWNCN",[1249.999],4)
+		PlaySound("XGNWN2")
+		Wait(2)
+		ActionOverride(Player1,MoveToPoint([1169.997]))
+		Wait(3)
+		/*
+		Wait(2)
+		DisplayString("XGNWNCN",@0)  // @0
+		Wait(6)
+		DisplayStringHead(Player1,@1)  // @1
+		Wait(6)
+		DisplayString("XGNWNCN",@2)  // @2
+		Wait(6)
+		DisplayStringHead(Player1,@3)  // @3
+		Wait(6)
+		DisplayString("XGNWNCN",@4)  // @4
+		Wait(9)
+		Wait(2)
+		DisplayStringHead(Player1,@5)  // @5
+		Wait(9)
+		DisplayString("XGNWNCN",@6)  // @6
+		Wait(10)
+		Wait(2)
+		DisplayStringHead(Player1,@7)  // @7
+		Wait(4)*/
+		UnhideGUI()
+		ActionOverride("XGNWNCN",StartDialogNoSet("XGNWNCN"))
+		EndCutSceneMode()
 END
 
 IF
-  Global("RevealAreaXG0057","XG0057",1)
-  Dead("XGTAOR")  // ~Таораг~
-  Dead("XGOTIR")  // ~Отирос~
-  Dead("XGELLAN")  // ~Элланнан~
+	Global("RevealAreaXG0057","XG0057",2)
+	Dead("XGTAOR")  // ~Таораг~
+	Dead("XGOTIR")  // ~Отирос~
+	Dead("XGELLAN")  // ~Элланнан~
 THEN
-  RESPONSE #100
-    SetGlobal("RevealAreaXG0057","XG0057",2)
-    ClearAllActions()
-    StartCutSceneMode()
-    HideGUI()
-    Wait(3)
-    FadeToColor([20.0],0)
-    ActionOverride(Player1,LeaveAreaLUA("XG0057","",[1169.997],12))
-    Wait(6)
-    DisplayString("XGNWNCN",@8)  // @8
-    Wait(8)
-    DisplayString("XGNWNCN",@9)  // @9
-    Wait(8)
-    DisplayString("XGNWNCN",@10)  // @10
-    Wait(8)
-    ActionOverride(Player1,LeaveAreaLUA("XG1057","",[1019.1212],10))
-    ActionOverride(Player2,LeaveAreaLUA("XG1057","",[411.1440],12))
-    ActionOverride(Player3,LeaveAreaLUA("XG1057","",[370.1440],12))
-    ActionOverride(Player4,LeaveAreaLUA("XG1057","",[362.1488],12))
-    ActionOverride(Player5,LeaveAreaLUA("XG1057","",[420.1475],12))
-    ActionOverride(Player6,LeaveAreaLUA("XG1057","",[423.1529],12))
-    UnhideGUI()
-    EndCutSceneMode()
+	RESPONSE #100
+		SetGlobal("RevealAreaXG0057","XG0057",3)
+		ClearAllActions()
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(2)
+		ActionOverride(Player1,LeaveAreaLUA("XG0057","",[1169.997],12))
+		Wait(2)
+		/*
+		DisplayString("XGNWNCN",@8)  // @8
+		Wait(8)
+		DisplayString("XGNWNCN",@9)  // @9
+		*/
+		UnhideGUI()
+		ActionOverride("XGNWNCN",StartDialogNoSet("XGNWNCN"))
+		EndCutSceneMode()
 END
 
+IF
+	Global("RevealAreaXG0057","XG0057",4)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("RevealAreaXG0057","XG0057",5)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		DisplayString("XGNWNCN",@10)  // @10
+		Wait(8)
+		FadeToColor([20.0],0)
+		Wait(2)
+		ActionOverride("XGNWNCN",MoveBetweenAreas("XG1057",[1061.1182],10))
+		SmallWait(2)
+		ActionOverride(Player1,LeaveAreaLUA("XG1057","",[1019.1212],10))
+		ActionOverride(Player2,LeaveAreaLUA("XG1057","",[411.1440],12))
+		ActionOverride(Player3,LeaveAreaLUA("XG1057","",[370.1440],12))
+		ActionOverride(Player4,LeaveAreaLUA("XG1057","",[362.1488],12))
+		ActionOverride(Player5,LeaveAreaLUA("XG1057","",[420.1475],12))
+		ActionOverride(Player6,LeaveAreaLUA("XG1057","",[423.1529],12))
+		// UnhideGUI()
+		EndCutSceneMode()
+END
+
+
+/*
+IF
+	Global("RevealAreaXG0057","XG0057",5)
+THEN
+	RESPONSE #100
+		SetGlobal("RevealAreaXG0057","XG0057",6)
+		CreateCreature("capitaine 1",[2294.787],0)
+		
+		CreateCreature("capitaine 2",[2294.787],0)
+END
+
+*/

@@ -1,0 +1,42 @@
+//////////////////////////////////
+// Worldmap BoatTravel
+//////////////////////////////////
+
+
+COPY ~Paladins-of-Faerun/Extension/BoatTravel/XG9119.ARE~         ~override~
+	ADD_MAP_NOTE #899 #1718 ~BLUE~ @1503
+	
+COPY_EXISTING ~XG9119.are~		~override/XG9219.are~
+COPY_EXISTING ~XG9119.are~		~override/XG9319.are~
+COPY_EXISTING ~XG9119.are~		~override/XG9419.are~
+COPY_EXISTING ~XG9119.are~		~override/XG9519.are~
+COPY_EXISTING ~XG9119.are~		~override/XG9619.are~
+COPY_EXISTING ~XG9119.are~		~override/XG9719.are~
+COPY_EXISTING ~XG9119.are~		~override/XG9819.are~
+COPY_EXISTING ~XG9119.are~		~override/XG9919.are~
+  
+		COPY ~Worldmap/map_mods_areas.tbl~		~Worldmap~
+			APPEND_FILE ~Paladins-of-Faerun/Extension/BoatTravel/areas.tbl~
+
+// Append mastarea.2da with the new areas
+
+	APPEND ~MASTAREA.2da~ ~XG9119 value~ UNLESS ~XG9119~ // NTargos_XG0019
+
+	APPEND ~MASTAREA.2da~ ~XG9219 value~ UNLESS ~XG9219~ // Athkatla_XG0019
+
+	APPEND ~MASTAREA.2da~ ~XG9319 value~ UNLESS ~XG9319~ // Neverwinter_XG0019
+
+	APPEND ~MASTAREA.2da~ ~XG9419 value~ UNLESS ~XG9419~ // Luskan_XG0019
+
+	
+ACTION_IF GAME_IS ~bgt eet~ BEGIN
+	APPEND ~MASTAREA.2da~ ~XG9519 value~ UNLESS ~XG9519~ // Baldur_XG0019
+END
+
+	APPEND ~MASTAREA.2da~ ~XG9619 value~ UNLESS ~XG9619~ // Brynlaw_XG0019
+
+	APPEND ~MASTAREA.2da~ ~XG9719 value~ UNLESS ~XG9719~ // Moonshae_XG0019
+
+	APPEND ~MASTAREA.2da~ ~XG9819 value~ UNLESS ~XG9819~ // Saradush_XG0019
+
+	APPEND ~MASTAREA.2da~ ~XG9919 value~ UNLESS ~XG9919~ // Watchtower_XG0019

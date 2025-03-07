@@ -4,6 +4,6 @@ THEN
 	RESPONSE #100
 		CreateCreature("XGsor1",[4604.840],0)
 		SetGlobal("S#setAR0900","AR0900",1)
+		CreateCreature("XGIRENM",[4230.3777],0)
 		Continue()
 END
-

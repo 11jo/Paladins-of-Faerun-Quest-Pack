@@ -21,7 +21,7 @@ THEN
     Wait(2)
     FadeToColor([20.0],0)
     Wait(2)
-    CreateCreature("XGELVWC",[1545.841],0)  // ~Ёленар~
+    CreateCreature("XGELVWC",[1545.841],0)  // ~Elenar~
     CreateCreature("XGELVWR",[1723.738],0)  // ~Ёльфийский воин~
     CreateCreature("XGELVWR",[1652.646],0)  // ~Ёльфийский воин~
     CreateCreature("XGELVWR",[1428.613],0)  // ~Ёльфийский воин~
@@ -38,8 +38,9 @@ THEN
     Wait(2)
     CreateCreature("XGHC",[1406.783],0)
     FadeFromColor([20.0],0)
-    Wait(4)
-	StartDialogNoSet("XGHC")
+    Wait(3)
+	UnhideGUI()
+	ActionOverride("XGHC",StartDialogNoSet("XGHC"))
     EndCutSceneMode()
 END
 

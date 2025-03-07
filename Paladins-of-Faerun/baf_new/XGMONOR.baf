@@ -1,7 +1,9 @@
 IF
 	See([GOODCUTOFF])
+	Global("XGMONOR_SHOUT","LOCALS",0)
 THEN
 	RESPONSE #100
+		SetGlobal("XGMONOR_SHOUT","LOCALS",1)
 		DisplayStringHead(Myself,@3004)
 		FaceObject(Player1)
 		Wait(10)
@@ -19,5 +21,16 @@ THEN
 		Wait(10)
 		DisplayStringHead(Myself,@3004)
 		FaceObject(Player4)
-		Wait(30)
+		Continue()
 END
+
+IF
+	Global("XGMONOR_SHOUT","LOCALS",1)
+	Delay(20)
+THEN
+	RESPONSE #100
+		SetGlobal("XGMONOR_SHOUT","LOCALS",0)
+		Continue()
+END
+
+

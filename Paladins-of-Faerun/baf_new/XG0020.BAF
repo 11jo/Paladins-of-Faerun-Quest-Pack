@@ -26,7 +26,7 @@ THEN
 		FadeFromColor([50.0],0)
 		SetGlobal("XG1120_XG0020","GLOBAL",2)
 		CreateCreatureObject("XGBGG",Player1,0,0,0)
-		Wait(1)
+		Wait(2)
 		UnhideGUI()
 		EndCutSceneMode()
 END

@@ -5,7 +5,7 @@ THEN
   RESPONSE #100
     SetGlobal("EnteredAreaXG1319","XG1319",1)
     StartCutSceneMode()
-    HideGUI()
+    FadeFromColor([20.0],0)
     Wait(3)
     ActionOverride(Player1,MoveToPoint([2183.791]))
     ActionOverride(Player2,MoveToPoint([2257.841]))
@@ -13,12 +13,11 @@ THEN
     ActionOverride(Player4,MoveToPoint([2363.668]))
     ActionOverride(Player5,MoveToPoint([2142.937]))
     ActionOverride(Player6,MoveToPoint([2248.988]))
-    MoveViewPoint([2143.745],SLOW)
-    Wait(10)
-    DisplayStringHead("XGELVCD",@0)  // @0
+    MoveViewPoint([2143.745],STANDARD)
+    Wait(7)
+    DisplayStringHead("XGELVCD",@0)  // @0 Elenar
     Wait(7)
     ActionOverride("XGELVCD",Kill("XGELVCD"))
     UnhideGUI()
     EndCutSceneMode()
 END
-

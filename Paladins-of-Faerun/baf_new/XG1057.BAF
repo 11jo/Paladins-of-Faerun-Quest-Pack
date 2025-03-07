@@ -1,37 +1,54 @@
 IF
-  OnCreation()
-  Global("EnteredAreaXG1057","XG1057",0)
+	OnCreation()
+	Global("EnteredAreaXG1057","XG1057",0)
 THEN
-  RESPONSE #100
-    SetGlobal("EnteredAreaXG1057","XG1057",1)
-    HideGUI()
-    PlaySound("XGNWN1")
-    StartCutSceneMode()
-    Wait(3)
-    ActionOverride("XGNWNCN",MoveToPoint([1265.1001]))
-    ActionOverride(Player1,MoveToPoint([1317.1042]))
-    MoveViewPoint([1341.976],INSTANT)
-    Wait(8)
-    DisplayStringHead("XGNWNCN",@0)  
+	RESPONSE #100
+		SetGlobal("EnteredAreaXG1057","XG1057",1)
+		StartCutSceneMode()
+		PlaySound("XGNWN1")
+		MoveViewObject(Player1,INSTANT)
+		FadeFromColor([30.0],0)
+		Wait(4)
+		ActionOverride("XGNWNCN",MoveToPoint([1265.1001]))
+		ActionOverride(Player1,MoveToPoint([1317.1042]))
+		MoveViewPoint([1341.976],STANDARD)
+		Wait(8)
+		UnhideGUI()
+		ActionOverride("XGNWNCN",StartDialogNoSet("XGNWNCN"))
+		EndCutSceneMode()
+END
+    /*
+	DisplayStringHead("XGNWNCN",@0)  
     Wait(7)
     DisplayStringHead("XGNASHR",@1)  
     Wait(8)
     DisplayStringHead(Player1,@2) 
     Wait(8)
-    CreateCreature("XGNAS",[1020.1206],0)  // ~Слуга Том~
+*/
+IF
+	Global("EnteredAreaXG1057","XG1057",1)
+THEN
+	RESPONSE #100
+    StartCutSceneMode()
+		SetGlobal("EnteredAreaXG1057","XG1057",2)
+    HideGUI()
+    CreateCreature("XGNAS",[1020.1206],0)
     ActionOverride("XGNAS",MoveToPoint([1245.1048]))
-    Wait(6)
+    Wait(5)
     DisplayStringHead("XGNAS",@3)  
     Wait(6)
     DisplayStringHead("XGNWNCN",@4)  
-    Wait(9)
-    EndCutSceneMode()
-    UnhideGUI()
+    Wait(4)
+    DisplayStringHead("XGNWNCN",@5)  
+    Wait(6)
+	FadeToColor([20.0],0)
+	Wait(2)
     ActionOverride(Player1,LeaveAreaLUA("XG2057","",[239.1481],0))
     ActionOverride(Player2,LeaveAreaLUA("XG2057","",[229.1447],0))
     ActionOverride(Player3,LeaveAreaLUA("XG2057","",[227.1533],0))
     ActionOverride(Player4,LeaveAreaLUA("XG2057","",[137.1434],0))
     ActionOverride(Player5,LeaveAreaLUA("XG2057","",[116.1487],0))
     ActionOverride(Player6,LeaveAreaLUA("XG2057","",[137.1544],0))
+    EndCutSceneMode()
 END
 

@@ -1,1 +1,3 @@
-@1 = ~ You were late <CHARNAME>, I suppose Margul showed you this place. But it doesn't matter, just now my servants have discovered the last relic, a magic wand! Now I have everything ... You lost, you and your friend Grafalkon. Goodbye! Don't try to chase me. ~
+@1 = ~ You were late <CHARNAME>, I suppose Margul showed you this place.~
+@2 = ~But it doesn't matter, just now my servants have discovered the last relic, a magic wand! Now I have everything...~ // Gradak
+@3 = ~You lost, you and your friend Grafalkon. Goodbye! Don't try to chase me.~ // Gradak

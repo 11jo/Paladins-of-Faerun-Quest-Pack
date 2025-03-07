@@ -1,7 +1,9 @@
 IF
 	See([GOODCUTOFF])
+	Global("XGMO_SHOUT","LOCALS",0)
 THEN
 	RESPONSE #100
+		SetGlobal("XGMO_SHOUT","LOCALS",1)
 		DisplayStringHead(Myself,@3000)
 		FaceObject(Player1)
 		Wait(5)
@@ -19,5 +21,14 @@ THEN
 		Wait(5)
 		DisplayStringHead(Myself,@3000)
 		FaceObject(Player4)
-		Wait(30)
+		Continue()
+END
+
+IF
+	Global("XGMO_SHOUT","LOCALS",1)
+	Delay(20)
+THEN
+	RESPONSE #100
+		SetGlobal("XGMO_SHOUT","LOCALS",0)
+		Continue()
 END

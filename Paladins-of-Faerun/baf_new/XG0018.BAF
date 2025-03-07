@@ -23,9 +23,13 @@ THEN
 		ScreenShake([20.20],10)
 		Wait(3)
 		DisplayStringHead("XGYARPN",@1)  // @1
-		Wait(6)
+		Wait(4)
+		DisplayStringHead("XGYARPN",@2)  // @1
+		Wait(5)
+		DisplayStringHead("XGYARPN",@3)  // @1
+		Wait(3)
 		ActionOverride("XGYARPN",EscapeArea())
-		Wait(2)
+		Wait(3)
 		UnhideGUI()
 		EndCutSceneMode()
 END

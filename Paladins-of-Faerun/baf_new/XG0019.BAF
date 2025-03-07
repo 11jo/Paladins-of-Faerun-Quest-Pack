@@ -7,9 +7,9 @@ THEN
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
-    Wait(3)
-    CreateCreatureDoor("XGYARPN",[457.1821],4)
-    Wait(3)
+    Wait(2)
+    ActionOverride("XGYARPN",Face(Player1))
+    Wait(2)
     DisplayString("XGYARPN",@0)  // @0
     Wait(3)
     ActionOverride("XGYARPN",EscapeArea())
@@ -17,6 +17,4 @@ THEN
     Wait(2)
     UnhideGUI()
     EndCutSceneMode()
-    Wait(1)
 END
-

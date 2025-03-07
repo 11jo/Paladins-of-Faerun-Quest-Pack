@@ -1,0 +1,113 @@
+IF
+	Global("XG1319_XG0019","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("XG1319_XG0019","GLOBAL",2)
+		CreateCreature("marin 1",[2294.787],0)
+		CreateCreature("marin 2",[2294.787],0)
+		CreateCreature("marin 3",[2294.787],0)
+		CreateCreature("marin 4",[2294.787],0)
+		CreateCreature("marin 5",[2294.787],0)
+		CreateCreature("batelier",[2294.787],0)
+		TriggerActivation("Door0002",FALSE) // Deactive for batelier
+END
+
+IF
+	Global("Village_XG0019","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Village_XG0019","GLOBAL",2) // Village_XG0019
+		SetGlobal("Targos_XG0019","GLOBAL",0)
+		SetGlobal("Athkatla_XG0019","GLOBAL",0)
+		SetGlobal("Neverwinter_XG0019","GLOBAL",0)
+		SetGlobal("Luskan_XG0019","GLOBAL",0)
+		SetGlobal("Baldur_XG0019","GLOBAL",0)
+		SetGlobal("Brynlaw_XG0019","GLOBAL",0)
+		SetGlobal("Moonshae_XG0019","GLOBAL",0)
+		SetGlobal("Saradush_XG0019","GLOBAL",0)
+		SetGlobal("Watchtower_XG0019","GLOBAL",0)
+		FadeToColor([20.0],0)
+		Wait(2)
+		HideAreaOnMap("XG9119") // Targos_XG0019
+		HideAreaOnMap("XG9219") // Athkatla_XG0019
+		HideAreaOnMap("XG9319") // Neverwinter_XG0019
+		HideAreaOnMap("XG9419") // Luskan_XG0019
+		HideAreaOnMap("XG9519") // Baldur_XG0019
+		HideAreaOnMap("XG9619") // Brynlaw_XG0019
+		HideAreaOnMap("XG9719") // Moonshae_XG0019
+		HideAreaOnMap("XG9819") // Saradush_XG0019
+		HideAreaOnMap("XG9919") // Watchtower_XG0019
+		RevealAreaOnMap("XG019")) // Village_XG0019
+		RestParty()
+		SmallWait(2)
+		ActionOverride("marin 1",MoveBetweenAreas("XG1319",[1000.790],0)))
+		SmallWait(2)
+		ActionOverride("marin 2",MoveBetweenAreas("XG1319",[1000.790],0)))
+		SmallWait(2)
+		ActionOverride("marin 3",MoveBetweenAreas("XG1319",[1000.790],0)))
+		SmallWait(2)
+		ActionOverride("marin 4",MoveBetweenAreas("XG1319",[1000.790],0)))
+		SmallWait(2)
+		ActionOverride("marin 5",MoveBetweenAreas("XG1319",[1000.790],0)))
+		SmallWait(2)
+		ActionOverride("batelier",MoveBetweenAreas("XG1319",[1000.790],0))
+		Wait(1)
+		ActionOverride(Player1,LeaveAreaLUA("XG1319","",[1000.750],0)) // Targos
+		ActionOverride(Player2,LeaveAreaLUA("XG1319","",[1034.643],0))
+		ActionOverride(Player3,LeaveAreaLUA("XG1319","",[1144.720],0))
+		ActionOverride(Player4,LeaveAreaLUA("XG1319","",[956.718],0))
+		ActionOverride(Player5,LeaveAreaLUA("XG1319","",[1054.796],0))
+		ActionOverride(Player6,LeaveAreaLUA("XG1319","",[1048.737],0))
+		FadeFromColor([20.0],0)
+		Wait(2)
+END
+
+IF
+	Global("Targos_XG0019","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Village_XG0019","GLOBAL",0)
+		SetGlobal("Targos_XG0019","GLOBAL",2) // Targos_XG0019
+		SetGlobal("Athkatla_XG0019","GLOBAL",0)
+		SetGlobal("Neverwinter_XG0019","GLOBAL",0)
+		SetGlobal("Luskan_XG0019","GLOBAL",0)
+		SetGlobal("Baldur_XG0019","GLOBAL",0)
+		SetGlobal("Brynlaw_XG0019","GLOBAL",0)
+		SetGlobal("Moonshae_XG0019","GLOBAL",0)
+		SetGlobal("Saradush_XG0019","GLOBAL",0)
+		SetGlobal("Watchtower_XG0019","GLOBAL",0)
+		FadeToColor([20.0],0)
+		Wait(2)
+		RevealAreaOnMap("XG9119") // Targos_XG0019
+		HideAreaOnMap("XG9219") // Athkatla_XG0019
+		HideAreaOnMap("XG9319") // Neverwinter_XG0019
+		HideAreaOnMap("XG9419") // Luskan_XG0019
+		HideAreaOnMap("XG9519") // Baldur_XG0019
+		HideAreaOnMap("XG9619") // Brynlaw_XG0019
+		HideAreaOnMap("XG9719") // Moonshae_XG0019
+		HideAreaOnMap("XG9819") // Saradush_XG0019
+		HideAreaOnMap("XG9919") // Watchtower_XG0019
+		HideAreaOnMap("XG0019") // Village_XG0019
+		RestParty()
+		SmallWait(2)
+		ActionOverride("marin 1",MoveBetweenAreas("XG9019",[1000.790],0)))
+		SmallWait(2)
+		ActionOverride("marin 2",MoveBetweenAreas("XG9019",[1000.790],0)))
+		SmallWait(2)
+		ActionOverride("marin 3",MoveBetweenAreas("XG9019",[1000.790],0)))
+		SmallWait(2)
+		ActionOverride("marin 4",MoveBetweenAreas("XG9019",[1000.790],0)))
+		SmallWait(2)
+		ActionOverride("marin 5",MoveBetweenAreas("XG9019",[1000.790],0)))
+		SmallWait(2)
+		ActionOverride("batelier",MoveBetweenAreas("XG9019",[1000.790],0))
+		Wait(1)
+		ActionOverride(Player1,LeaveAreaLUA("XG9019","",[1000.750],0)) // Targos
+		ActionOverride(Player2,LeaveAreaLUA("XG9019","",[1034.643],0))
+		ActionOverride(Player3,LeaveAreaLUA("XG9019","",[1144.720],0))
+		ActionOverride(Player4,LeaveAreaLUA("XG9019","",[956.718],0))
+		ActionOverride(Player5,LeaveAreaLUA("XG9019","",[1054.796],0))
+		ActionOverride(Player6,LeaveAreaLUA("XG9019","",[1048.737],0))
+		FadeFromColor([20.0],0)
+		Wait(2)
+END

@@ -100,6 +100,7 @@ END
 	APPEND ~MASTAREA.2da~ ~XG0041 value~ UNLESS ~XG0041~ // Îles Moonshae // Moonshae Isles //
 	APPEND ~MASTAREA.2da~ ~XG0046 value~ UNLESS ~XG0046~ // Temple oublie // Forgotten Temple //
 	APPEND ~MASTAREA.2da~ ~XG0047 value~ UNLESS ~XG0047~ // Port de l'Est (Icewind Dale) // East Harbor //
+	APPEND ~MASTAREA.2da~ ~XG0057 value~ UNLESS ~XG0057~ // Port de Padhiver // Neverwinter harbor
 	APPEND ~MASTAREA.2da~ ~XG0062 value~ UNLESS ~XG0062~ // Padhiver // Neverwinter 
 	APPEND ~MASTAREA.2da~ ~XG0050 value~ UNLESS ~XG0050~ // Montagnes (sous le festival) // Mountains //
 	APPEND ~MASTAREA.2da~ ~XG0052 value~ UNLESS ~XG0052~ // Forteresse Glacée // Ice Castle //

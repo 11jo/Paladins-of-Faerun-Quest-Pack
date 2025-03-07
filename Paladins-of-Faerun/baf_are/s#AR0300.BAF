@@ -68,6 +68,7 @@ THEN
 		FadeFromColor([20.0],0)
 		Wait(2)
 		DisplayStringHead(Player1,@10)  // @10
+		MoveViewObject("XGTHIEF",SLOW)
 		Wait(3)
 		FadeToColor([20.0],0)
 		Wait(1)

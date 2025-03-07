@@ -163,7 +163,7 @@ IF ~~ THEN BEGIN 12
 EscapeArea()~ EXIT
 END
 
-IF ~Global("s#XGBLMAJ","GLOBAL",3) !InMyArea("XGMAYB")!InMyArea("XGMAYW")~ THEN BEGIN 20
+IF ~Global("s#XGBLMAJ","GLOBAL",3) !InMyArea("XGMAYB") !InMyArea("XGMAYW")~ THEN BEGIN 20
   SAY @33 /*~Avez-vous retrouvé ma famille ?~*/
   IF ~~ THEN REPLY @33 /*~Je ne suis pas votre domestique, trouvez-vous un autre pigeon pour régler vos problèmes familiaux.~*/ GOTO 21
   IF ~~ THEN REPLY @34 /*~Non pas encore, l'enquête continue, je fais tout mon possible.~*/ EXIT

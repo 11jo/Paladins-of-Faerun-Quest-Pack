@@ -1821,6 +1821,8 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG1220.ARE~         ~override/XG12
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG1234.ARE~         ~override/XG1234.ARE~
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG1319.ARE~         ~override/XG1319.ARE~
+	ADD_MAP_NOTE #899 #1718 ~BLUE~ @1503
+	ADD_MAP_NOTE #2788 #387 ~RED~ @1504
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG2057.ARE~         ~override/XG2057.ARE~
 

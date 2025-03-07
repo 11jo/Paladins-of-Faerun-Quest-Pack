@@ -90,3 +90,10 @@ EscapeArea()
 //TextScreen("SCENPMOD")
 ~ EXIT
 END
+
+CHAIN IF ~Global("RevealAreaXG0419","XG0419",1)~ THEN XGELWI XG04191
+@25
+== XGELWI @26 /*~Il semble qu'un portail menant directement à Athkatla se trouve à proximité.~*/
+END
+		++ @27 /*~Au revoir Elwin.*/ EXIT
+		++ @28 /*~Oui, oui, il est temps de partir à présent~*/ EXIT

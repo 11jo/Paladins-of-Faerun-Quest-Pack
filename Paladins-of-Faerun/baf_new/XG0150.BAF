@@ -3,7 +3,7 @@ IF
 	Dead("XGCRU")
 THEN
 	RESPONSE #100
-		SetGlobal("RevealXG0150","XG0150",1)
+		SetGlobal("RevealXG0150","XG0150",2)
 		ClearAllActions()
 		StartCutSceneMode()
 		HideGUI()
@@ -109,9 +109,9 @@ THEN
 		Wait(1)
 		ActionOverride("XGBAN1B",MoveToPoint([1793.942]))
 		Wait(5)
-		ActionOverride("XGBAN1B",EscapeArea())
-		Wait(2)
 		ActionOverride("XGBAN1A",EscapeArea())
+		Wait(2)
+		ActionOverride("XGBAN1B",EscapeArea())
 		DisplayStringHead(Player1,@2)  
     // DisplayStringHead("XGBLMAJ",@3)  
 		Wait(4)
@@ -133,7 +133,7 @@ END
 IF
 	Global("RevealXG0150","XG0150",1)
 	Global("s#XGCRU","GLOBAL",1)
-	!Dead("XGCRU")
+	Dead("XGCRU")
 THEN
 	RESPONSE #100
 		ClearAllActions()

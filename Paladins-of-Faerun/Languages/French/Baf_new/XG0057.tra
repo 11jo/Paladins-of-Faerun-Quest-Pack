@@ -1,3 +1,6 @@
+/*
+// TO XGNWNCN.TRA
+
 @0 = ~ Hey you, lower your weapon! ~
 @1 = ~ Don't worry, I'm here to help you! ~
 @2 = ~ Help? Another one of your dirty tricks, do you think I'll fall for her? ~
@@ -8,4 +11,5 @@
 @7 = ~ Okay, wait here! ~
 @8 = ~ Thank you and your party for your help. But that's not all, I just found out that a huge army is moving towards the city from the south! ~
 @9 = ~ Soon they will attack our southern walls! We have almost no commanders, the army has not yet recovered from the war with Luskan! You showed what you can make with your sword ... Therefore, I will take you to Lord Nasher. ~
+*/
 @10 = ~ Sergeant? ... We go to the castle to send a message to Lord Nasher! Take care of the rest of the attackers here at the docks and move to the south wall! ~

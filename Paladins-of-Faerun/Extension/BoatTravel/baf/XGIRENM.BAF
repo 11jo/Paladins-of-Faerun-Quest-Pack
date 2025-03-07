@@ -1,0 +1,34 @@
+IF
+	See([PC])
+	AreaCheck("AR0900")
+	!Global("XG1319_XGELVCD","GLOBAL",1)
+	!StateCheck(Myself,STATE_INVISIBLE)
+THEN
+	RESPONSE #100
+		GiveItemCreate("POTN10",Myself,1,0,0)
+		Wait(1)
+		UseItem("POTN10",Myself)
+END
+
+IF
+	See([PC])
+	AreaCheck("AR0900")
+	Global("XG1319_XGELVCD","GLOBAL",1)
+THEN
+	RESPONSE #100
+		GiveItemCreate("POTN10",Myself,1,0,0)
+		Wait(1)
+		StartDialogNoSet([PC])
+END
+
+IF
+	AreaCheck("AR0900")
+	OR(2)
+		Global("XG1319_XGELVCD","GLOBAL",2)
+		AttackedBy([GOODCUTOFF],DEFAULT)
+THEN
+	RESPONSE #100
+		UseItem("POTN10",Myself)
+		Wait(1)
+		EscapeArea()
+END

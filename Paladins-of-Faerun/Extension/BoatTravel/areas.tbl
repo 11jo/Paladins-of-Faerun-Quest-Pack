@@ -1,0 +1,13 @@
+ 
+//PoF New Areas Table
+SHORT_NAME  CONTENT  LONG_NAME  FLAGS  BAM_ANIM  X_POS  Y_POS  NAME         TOOLTIP    LOAD_IM
+
+XG9119      XG0019    XG0019     4      103      1190   2230   @POF_74554  @POF_74554  N         // Targos_XG0019
+XG9219      XG9219    XG9219            103                    @POF_74554  @POF_74554  N         // Athkatla_XG0019
+XG9319      XG9319    XG9319            103                    @POF_74554  @POF_74554  N         // Neverwinter_XG0019
+XG9419      XG9419    XG9419            103                    @POF_74554  @POF_74554  N         // Luskan_XG0019
+XG9519      XG9519    XG9519            103                    @POF_74554  @POF_74554  N         // Baldur_XG0019
+XG9619      XG9619    XG9619            103                    @POF_74554  @POF_74554  N         // Brynlaw_XG0019
+XG9719      XG9719    XG9719            103                    @POF_74554  @POF_74554  N         // Moonshae_XG0019
+XG9819      XG9819    XG9819            103                    @POF_74554  @POF_74554  N         // Saradush_XG0019
+XG9919      XG9919    XG9919            103                    @POF_74554  @POF_74554  N         // Watchtower_XG0019

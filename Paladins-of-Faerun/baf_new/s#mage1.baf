@@ -1,7 +1,9 @@
 IF
 	See([GOODCUTOFF])
+	Global("S#MAGE1_SHOUT","LOCALS",0)
 THEN
 	RESPONSE #100
+		SetGlobal("S#MAGE1_SHOUT","LOCALS",1)
 		DisplayStringHead(Myself,@3001)
 		MoveToPointNoInterrupt([308.575])
 		Wait(2)
@@ -11,5 +13,14 @@ THEN
 		DisplayStringHead(Myself,@3001)
 		MoveToPointNoInterrupt([680.555])
 		Face(2)
-		Wait(30)
+		Continue()
+END
+
+IF
+	Global("S#MAGE1_SHOUT","LOCALS",1)
+	Delay(20)
+THEN
+	RESPONSE #100
+		SetGlobal("S#MAGE1_SHOUT","LOCALS",0)
+		Continue()
 END

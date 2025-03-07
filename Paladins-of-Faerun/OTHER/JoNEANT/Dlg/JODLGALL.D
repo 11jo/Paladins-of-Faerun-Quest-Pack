@@ -469,4 +469,49 @@ IF ~RandomNum(4,4)~ THEN BEGIN 3
 END
 
 //////////////////////////////////////////////////////////////////
-	
+
+BEGIN ~JODLGMH~  // Marin Homme
+
+IF ~RandomNum(4,1)~ THEN BEGIN 0
+  SAY #43072   /*~Les mers sont bien agitées à cette époque de l'année.~ [MALSAL01]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(4,2)~ THEN BEGIN 1
+  SAY #43073   /*~Rien de tel que ces escapades terrestres. Un grog et une jeune donzelle sur les genoux feraient de moi un homme comblé.~ [MALSAL02]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(4,3) !AreaCheck("XG0019")~ THEN BEGIN 2
+  SAY #45159   /*~Je n'peux pas m'absenter trop longtemps ou l'capitaine aura ma peau.~ [MALSAL03]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(4,4)~ THEN BEGIN 3
+  SAY #46104  /*~Une courte prière à Umberlie est tout ce qui me sépare du fond des mers, croyez-moi.~ [MALSAL04]*/
+  IF ~~ THEN EXIT
+END
+
+//////////////////////////////////////////////////////////////////
+
+BEGIN ~JODLGMW~  // Marin Femme
+
+IF ~RandomNum(4,1)~ THEN BEGIN 0
+  SAY #47345  /*~Une femme sur les mers doit être plus forte que n'importe quel marin.~ [FEMSAL01]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(4,2)~ THEN BEGIN 1
+  SAY #47347  /*~Ahh, me regarde pas comme ça toi, ou je t'éventre sur place !~ [FEMSAL02]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(4,3)~ THEN BEGIN 2
+  SAY #48338  /* ~Un grog. Un grog et un bain. Ouais...~ [FEMSAL03]*/
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(4,4)~ THEN BEGIN 3
+  SAY #51494  /*~Alors comme ça, j'pue le poisson ? Au large ! Fiche-moi le camp !~ [FEMSAL04]*/
+  IF ~~ THEN EXIT
+END

@@ -1,7 +1,9 @@
 IF
 	See([GOODCUTOFF])
+	Global("XGMARAN_SHOUT","LOCALS",0)
 THEN
 	RESPONSE #100
+		SetGlobal("XGMARAN_SHOUT","LOCALS",1)
 		DisplayStringHead(Myself,@3007) // Que vais-je bien pouvoir faire...
 		Face(3)
 		Wait(20)
@@ -10,6 +12,16 @@ THEN
 		Wait(20)
 		DisplayStringHead(Myself,@3009) // Je dois les protéger.
 		Face(2)
-		Wait(50)
+		Continue()
 END
+
+IF
+	Global("XGMARAN_SHOUT","LOCALS",1)
+	Delay(20)
+THEN
+	RESPONSE #100
+		SetGlobal("XGMARAN_SHOUT","LOCALS",0)
+		Continue()
+END
+
 

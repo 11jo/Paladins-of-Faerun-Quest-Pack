@@ -1,1 +1,3 @@
-@1 = ~Ihr seid spät dran, <CHARNAME>, ich nehme an, Margul hat Euch diesen Ort gezeigt. Aber das macht nichts, soeben haben meine Diener das letzte Relikt entdeckt, einen Zauberstab! Jetzt habe ich alles... Ihr habt verloren, Ihr und Euer Freund Grafalkon. Lebt wohl! Versucht nicht, mir zu folgen.~
+@1 = ~Ihr seid spät dran, <CHARNAME>, ich nehme an, Margul hat Euch diesen Ort gezeigt.~
+@2 = ~Aber das macht nichts, soeben haben meine Diener das letzte Relikt entdeckt, einen Zauberstab! Jetzt habe ich alles...~ // Gradak
+@3 = ~Ihr habt verloren, Ihr und Euer Freund Grafalkon. Lebt wohl! Versucht nicht, mir zu folgen.~ // Gradak

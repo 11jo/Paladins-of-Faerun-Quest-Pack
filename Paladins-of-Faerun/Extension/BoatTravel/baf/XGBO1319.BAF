@@ -1,0 +1,14 @@
+/*
+IF
+	Dead("XGHC1")
+	Global("EnteredAreaXG1319","XG1319",1)
+THEN
+	RESPONSE #100
+		SetGlobal("EnteredAreaXG1319","XG1319",2)
+		CreateCreature("batelier",[2294.787],0)
+		
+		CreateCreature("prêtre",[2088.664],0) 
+		ActionOverride("XGELVCD",Kill("XGELVCD"))
+		SetGlobal("XG1319_XG0019","GLOBAL",1)
+END
+*/

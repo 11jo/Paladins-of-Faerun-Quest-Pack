@@ -355,7 +355,7 @@
 @350 = ~Undead Warlock~
 @351 = ~Undead Ranger~
 @352 = ~Seigneur des Vampires~ // Seigneur vampire
-@353 = ~Village~
+@353 = ~Villageoise~
 @354 = ~Paysan~
 @355 = ~Wintrell, écuyer de Torm~
 @356 = ~Big troll~
@@ -4371,7 +4371,8 @@ Le magicien pointe son doigt dans la direction désirée et projette une sphère d'
 @1500 = ~Demeure du Seigneur Nasher~  // XG0048.ARE
 @1501 = ~Vers la Passe du Géant~  // XG0016.ARE
 @1502 = ~Bateau vers le continent~  // XG0052.ARE
-@1503 = ~Embarcation~  // XG0019.ARE
+@1503 = ~Embarcation~  // XG0019.ARE   // XG1319.ARE
+@1504 = ~Vers le ravin~  // XG1319.ARE
 
 
 // XG0016 Info Trigger
