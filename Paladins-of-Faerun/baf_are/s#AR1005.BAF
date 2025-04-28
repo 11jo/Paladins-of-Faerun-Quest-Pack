@@ -35,6 +35,7 @@ THEN
 		ActionOverride("XGELWIN",OpenDoor("Door07"))
 		Wait(1)
 		ActionOverride("XGELWIN",EscapeArea())
+		Wait(1)
 		MoveViewObject(Player1,FAST)
 		UnhideGUI()
 		EndCutSceneMode()

@@ -1022,6 +1022,46 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0152.ARE~         ~override/XG01
 			actor_name = "NONE"
 			script_class = "XGARJO"
 		END
+		
+/*
+		LPF ALTER_AREA_REGION
+			INT_VAR
+			STR_VAR
+			region_name	= ~Trigger Point 22~
+			region_script	= XGNT2002
+		END
+*/
+
+ACTION_DEFINE_ASSOCIATIVE_ARRAY triggertrap_mapXG0152 BEGIN
+    ~Trigger Point 9~   => ~XGNT2004~
+    ~Trigger Point 10~   => ~XGNT1989~
+    ~Trigger Point 11~   => ~XGNT2017~
+    ~Trigger Point 12~   => ~XGNT2016~
+    ~Trigger Point 13~   => ~XGNT2024~
+    ~Trigger Point 14~   => ~XGNT2015~
+    ~Trigger Point 15~   => ~XGNT2016~
+    ~Trigger Point 16~   => ~XGNT2007~
+    ~Trigger Point 17~   => ~XGNT2024~
+    ~Trigger Point 18~   => ~XGNT2022~
+    ~Trigger Point 19~   => ~XGNT2021~
+    ~Trigger Point 20~   => ~XGNT1984~
+    ~Trigger Point 21~   => ~XGNT1989~
+    ~Trigger Point 22~   => ~XGNT2002~
+    ~Trigger Point 23~   => ~XGNT2002~
+    ~Trigger Point 24~   => ~XGNT2007~
+    ~Trigger Point 25~   => ~XGNT2007~
+END
+
+ACTION_PHP_EACH triggertrap_mapXG0152 AS Trigger_XG0152 => newtrap_XG0152
+BEGIN
+   COPY_EXISTING ~XG0152.ARE~ ~override/XG0152.ARE~
+		LPF ALTER_AREA_REGION
+			INT_VAR
+			STR_VAR
+			region_name	= EVAL ~%Trigger_XG0152%~
+			region_script	= EVAL ~%newtrap_XG0152%~
+		END
+END
 
 COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0153.ARE~         ~override/XG0153.ARE~         
 

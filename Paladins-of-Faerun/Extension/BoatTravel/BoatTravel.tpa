@@ -3,8 +3,15 @@
 //////////////////////////////////
 
 
-COPY ~Paladins-of-Faerun/Extension/BoatTravel/XG9119.ARE~         ~override~
-	ADD_MAP_NOTE #899 #1718 ~BLUE~ @1503
+
+COPY_EXISTING ~XG0019.are~		~override/XG9119.are~
+	LPF ALTER_AREA_ACTOR 
+		STR_VAR 
+		actor_name = "XGYARPP"
+		cre_file = ""
+	END
+/*COPY ~Paladins-of-Faerun/Extension/BoatTravel/XG9119.ARE~         ~override~
+	ADD_MAP_NOTE #899 #1718 ~BLUE~ @1503*/
 	
 COPY_EXISTING ~XG9119.are~		~override/XG9219.are~
 COPY_EXISTING ~XG9119.are~		~override/XG9319.are~

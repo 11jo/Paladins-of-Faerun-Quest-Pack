@@ -394,6 +394,58 @@ COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEANT.CRE~			~override/XGNEANT.CRE~
 COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEAN28.CRE~			~override/XGNEAN28.CRE~
 	WRITE_ASCII 0x280 ~XGNEAN28~ (8) // Script name / Death variable
 
+// Same as spl
+
+COPY ~Paladins-of-Faerun/OTHER/JoNEANT/SPL/JONEAN02.spl~			~override/XGNEAN02.spl~
+		SAY NAME1 ~Fog of war 02~
+		SAY NAME2 ~Fog of war 02~
+		SAY DESC ~Fog of war on creature fields of sight very low.~
+		SAY UNIDENTIFIED_DESC ~Fog of war on creature fields of sight very low.~
+
+COPY ~Paladins-of-Faerun/OTHER/JoNEANT/SPL/JONEAN04.spl~			~override/XGNEAN04.spl~
+		SAY NAME1 ~Fog of war 04~
+		SAY NAME2 ~Fog of war 04~
+		SAY DESC ~Fog of war on creature fields of sight low.~
+		SAY UNIDENTIFIED_DESC ~Fog of war on creature fields of sight low.~
+
+COPY ~Paladins-of-Faerun/OTHER/JoNEANT/SPL/JONEAN14.spl~			~override/XGNEAN14.spl~
+		SAY NAME1 ~Fog of war 14~
+		SAY NAME2 ~Fog of war 14~
+		SAY DESC ~Fog of war on creature fields of sight standard.~
+		SAY UNIDENTIFIED_DESC ~Fog of war on creature fields of sight standard.~
+
+COPY ~Paladins-of-Faerun/OTHER/JoNEANT/SPL/JONEAN28.spl~			~override/XGNEAN28.spl~
+		SAY NAME1 ~Fog of war 28~
+		SAY NAME2 ~Fog of war 28~
+		SAY DESC ~Fog of war on creature fields of sight doubled.~
+		SAY UNIDENTIFIED_DESC ~Fog of war on creature fields of sight doubled.~
+
+COPY ~Paladins-of-Faerun/OTHER/JoNEANT/SPL/JONEANTI.spl~			~override/XGNEANTI.spl~
+		SAY NAME1 ~Fog of war cancelled~
+		SAY NAME2 ~Fog of war cancelled~
+		SAY DESC ~Fog of war on creature cancelled~
+		SAY UNIDENTIFIED_DESC ~Fog of war on creature cancelled~
+          LPF ADD_SPELL_EFFECT
+            INT_VAR opcode = 321 target = 2 timing = 0 duration = 0
+            STR_VAR
+			resource = ~XGNEAN02~
+          END
+          LPF ADD_SPELL_EFFECT
+            INT_VAR opcode = 321 target = 2 timing = 0 duration = 0
+            STR_VAR
+			resource = ~XGNEAN04~
+          END
+          LPF ADD_SPELL_EFFECT
+            INT_VAR opcode = 321 target = 2 timing = 0 duration = 0
+            STR_VAR
+			resource = ~XGNEAN14~
+          END
+          LPF ADD_SPELL_EFFECT
+            INT_VAR opcode = 321 target = 2 timing = 0 duration = 0
+            STR_VAR
+			resource = ~XGNEAN28~
+          END
+
 
 // Script name / Death variable for AMNG1 / AMNG2.CRE (xgpir.baf)
 

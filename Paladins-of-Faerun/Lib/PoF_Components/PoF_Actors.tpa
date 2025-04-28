@@ -1483,7 +1483,7 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGHUW.CRE~			~override/XGHUW.CRE~
 	SAY NAME1 @171 
 	SAY NAME2 @171 
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGIMOEN.CRE~			~override/XGIMOEN.CRE~
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGIMOEN.CRE~			~override/XGIMOEN.CRE~ // Imoen AR0302
 	ADD_CRE_ITEM ~XGFA11~ #0 #0 #0 ~unstealable~ ~cloak~
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGINKEB.CRE~			~override/XGINKEB.CRE~
@@ -1548,7 +1548,7 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGJAR.CRE~			~override/XGJAR.CRE~
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGJESTE.CRE~			~override/XGJESTE.CRE~
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGJON.CRE~			~override/XGJON.CRE~
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGJON.CRE~			~override/XGJON.CRE~ // Irenicus AR0302
 	WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
 	WRITE_ASCII SCRIPT_CLASS ~~ (8)
 
@@ -2197,7 +2197,7 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGNPC2.CRE~			~override/XGNPC2.CR
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGNPC3.CRE~			~override/XGNPC3.CRE~
 
-COPY ~weidu_external/Paladins-of-Faerun/Actors/XGNPC4.CRE~			~override/XGNPC4.CRE~
+COPY ~weidu_external/Paladins-of-Faerun/Actors/XGNPC4.CRE~			~override/XGNPC4.CRE~ // Khalid AR0302
 	SAY NAME2 @256 
 	WRITE_BYTE 0x53 ~8~ // Attacks/Round 5/2 (8)
 	WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
@@ -3409,8 +3409,12 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARHM.CRE~			~override/XGYARHM.
 	SAY NAME2 @387 
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARPN.CRE~			~override/XGYARPN.CRE~
-	SAY NAME1 @142 
-	SAY NAME2 @142 
+	SAY NAME1 @142
+	SAY NAME2 @142
+	ADD_CRE_ITEM ~HELM08~ #0 #0 #0 ~unstealable~ ~inv~
+	ADD_CRE_ITEM ~PLAT04~ #0 #0 #0 ~unstealable~ ~inv~ // Full plate
+	ADD_CRE_ITEM ~SHLD06~ #0 #0 #0 ~unstealable~ ~inv~ // Pavois +1
+	ADD_CRE_ITEM ~SW1H02~ #0 #0 #0 ~unstealable~ ~inv~ // Batarde +1
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGYARNM.CRE~			~override/XGYARNM.CRE~
 	SAY NAME1 @388

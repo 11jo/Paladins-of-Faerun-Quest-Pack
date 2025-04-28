@@ -1,7 +1,9 @@
-IF
+/*IF
 	Global("s#XGELOR_XGARJUN","GLOBAL",5)
+	Global("XGARJUN_KILLPC","MYAREA",0)
 THEN
   RESPONSE #100
+		SetGlobal("XGARJUN_KILLPC","MYAREA",1)
 		ActionOverride("XGARJUN",ReallyForceSpell("XGARJUN",CLERIC_ZONE_OF_SWEET_AIR))
 		Wait(2)
 		ActionOverride(Player2,ReallyForceSpell(Player2,WIZARD_FLESH_TO_STONE_IGNORE_RESISTANCE))
@@ -19,4 +21,30 @@ THEN
 		Kill(Player6)
 		Wait(2)
 		Kill(Player1)
+END
+*/
+IF
+	Global("RESETTRAP_XGARJUN","GLOBAL",1)
+	Global("RESETONCE_XGARJUN","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("RESETONCE_XGARJUN","MYAREA",1)
+		TriggerActivation("Trigger Point 9",TRUE)
+		TriggerActivation("Trigger Point 10",TRUE)
+		TriggerActivation("Trigger Point 11",TRUE)
+		TriggerActivation("Trigger Point 12",TRUE)
+		TriggerActivation("Trigger Point 13",TRUE)
+		TriggerActivation("Trigger Point 14",TRUE)
+		TriggerActivation("Trigger Point 15",TRUE)
+		TriggerActivation("Trigger Point 16",TRUE)
+		TriggerActivation("Trigger Point 17",TRUE)
+		TriggerActivation("Trigger Point 18",TRUE)
+		TriggerActivation("Trigger Point 19",TRUE)
+		TriggerActivation("Trigger Point 20",TRUE)
+		TriggerActivation("Trigger Point 21",TRUE)
+		TriggerActivation("Trigger Point 22",TRUE)
+		TriggerActivation("Trigger Point 23",TRUE)
+		TriggerActivation("Trigger Point 24",TRUE)
+		TriggerActivation("Trigger Point 25",TRUE)
+		Continue()
 END

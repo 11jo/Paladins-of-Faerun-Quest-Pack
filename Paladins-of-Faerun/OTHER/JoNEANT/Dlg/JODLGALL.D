@@ -482,7 +482,7 @@ IF ~RandomNum(4,2)~ THEN BEGIN 1
   IF ~~ THEN EXIT
 END
 
-IF ~RandomNum(4,3) !AreaCheck("XG0019")~ THEN BEGIN 2
+IF ~RandomNum(4,3) !Global("POFAREA","MYAREA",1)~ THEN BEGIN 2
   SAY #45159   /*~Je n'peux pas m'absenter trop longtemps ou l'capitaine aura ma peau.~ [MALSAL03]*/
   IF ~~ THEN EXIT
 END

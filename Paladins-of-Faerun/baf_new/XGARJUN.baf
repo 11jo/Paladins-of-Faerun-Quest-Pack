@@ -1,10 +1,11 @@
 IF
 	!Global("s#XGELOR_XGARJUN","GLOBAL",0)
-OR(2)
-	Global("s#XGELOR_XGARJUN","GLOBAL",5)
 	AttackedBy([GOODCUTOFF],DEFAULT)
+	Global("XGARJUN_ENDPC","LOCALS",0)
 THEN
   RESPONSE #100
-		SetGlobal("s#XGELOR_XGARJUN","GLOBAL",5)
+		SetGlobal("XGARJUN_ENDPC","LOCALS",1)
+		SetGlobal("RESETTRAP_XGARJUN","GLOBAL",1)
+		SetGlobal("XGARJO_ALL","GLOBAL",1)
 		StartDialogue("XGARJUN",Player1)
 END

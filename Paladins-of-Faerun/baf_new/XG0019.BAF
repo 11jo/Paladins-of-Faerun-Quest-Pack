@@ -8,7 +8,7 @@ THEN
     StartCutSceneMode()
     HideGUI()
     Wait(2)
-    ActionOverride("XGYARPN",Face(Player1))
+    ActionOverride("XGYARPN",FaceObject(Player1))
     Wait(2)
     DisplayString("XGYARPN",@0)  // @0
     Wait(3)
