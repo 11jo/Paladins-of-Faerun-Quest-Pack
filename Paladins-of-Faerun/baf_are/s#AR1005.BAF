@@ -52,6 +52,7 @@ THEN
 		CreateCreature("XGPRISON",[778.597],0)  // ~Agent de liaison
 		AddMapNote([521.752],~Cellule de Marco.~)
 		SetGlobal("XGMARKinJail","AR1005",1)
+		Continue()
 END
 
 
@@ -61,4 +62,5 @@ THEN
 	RESPONSE #100
 		RemoveMapNote([521.752],~Cellule de Marco.~)
 		ActionOverride("XGPRISON",EscapeArea())
+		Continue()
 END

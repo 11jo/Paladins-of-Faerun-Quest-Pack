@@ -86,7 +86,7 @@ COPY ~JoNEANT/Cre/JONEANT.CRE~   ~override~
 	WRITE_SHORT 0x26 ~500~ // Maximum HP
 	WRITE_LONG 0x28 ~0x4001~ // (NULL_ANIMATION - 0x4001)
 	WRITE_ASCII 0x248 ~JONEANT~ (8) // Override script
-	WRITE_ASCII 0x280 ~JONEANT~ (8) // Script name / Death variable
+	WRITE_ASCII 0x280 ~JONEANT~ (32) // Script name / Death variable
 	WRITE_ASCII 0x2cc ~JONEANT~ (8) // Dlg name
 	ADD_CRE_ITEM ~JONEANT1~ #0 #0 #0 ~identified&unstealable~ ~inv2~
 
@@ -100,7 +100,7 @@ COPY ~JoNEANT/Cre/JONEANT4.CRE~   ~override~
 	WRITE_SHORT 0x26 ~500~ // Maximum HP
 	WRITE_LONG 0x28 ~0x4001~ // (NULL_ANIMATION - 0x4001)
 	WRITE_ASCII 0x248 ~JONEANT~ (8) // Override script
-	WRITE_ASCII 0x280 ~JONEANT4~ (8) // Script name / Death variable
+	WRITE_ASCII 0x280 ~JONEANT4~ (32) // Script name / Death variable
 	WRITE_ASCII 0x2cc ~JONEANT~ (8) // Dlg name
 	ADD_CRE_ITEM ~JONEANT1~ #0 #0 #0 ~identified&unstealable~ ~inv2~
 
@@ -114,7 +114,7 @@ COPY ~JoNEANT/Cre/JONEANT7.CRE~   ~override~
 	WRITE_SHORT 0x26 ~500~ // Maximum HP
 	WRITE_LONG 0x28 ~0x4001~ // (NULL_ANIMATION - 0x4001)
 	WRITE_ASCII 0x248 ~JONEANT~ (8) // Override script
-	WRITE_ASCII 0x280 ~JONEANT7~ (8) // Script name / Death variable
+	WRITE_ASCII 0x280 ~JONEANT7~ (32) // Script name / Death variable
 	WRITE_ASCII 0x2cc ~JONEANT~ (8) // Dlg name
 	ADD_CRE_ITEM ~JONEANT1~ #0 #0 #0 ~identified&unstealable~ ~inv2~
 
@@ -128,7 +128,7 @@ COPY ~JoNEANT/Cre/JONEAN10.CRE~   ~override~
 	WRITE_SHORT 0x26 ~500~ // Maximum HP
 	WRITE_LONG 0x28 ~0x4001~ // (NULL_ANIMATION - 0x4001)
 	WRITE_ASCII 0x248 ~JONEANT~ (8) // Override script
-	WRITE_ASCII 0x280 ~JONEAN10~ (8) // Script name / Death variable
+	WRITE_ASCII 0x280 ~JONEAN10~ (32) // Script name / Death variable
 	WRITE_ASCII 0x2cc ~JONEANT~ (8) // Dlg name
 	ADD_CRE_ITEM ~JONEANT1~ #0 #0 #0 ~identified&unstealable~ ~inv2~
 
@@ -142,7 +142,7 @@ COPY ~JoNEANT/Cre/JONEAN28.CRE~   ~override~
 	WRITE_SHORT 0x26 ~500~ // Maximum HP
 	WRITE_LONG 0x28 ~0x4001~ // (NULL_ANIMATION - 0x4001)
 	WRITE_ASCII 0x248 ~JONEANT~ (8) // Override script
-	WRITE_ASCII 0x280 ~JONEAN28~ (8) // Script name / Death variable
+	WRITE_ASCII 0x280 ~JONEAN28~ (32) // Script name / Death variable
 	WRITE_ASCII 0x2cc ~JONEANT~ (8) // Dlg name
 	ADD_CRE_ITEM ~JONEANT1~ #0 #0 #0 ~identified&unstealable~ ~inv2~
 

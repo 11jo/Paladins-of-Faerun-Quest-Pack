@@ -383,16 +383,16 @@ END
 // Invisible creatures for some Cutscene and else
 
 COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEAN10.CRE~			~override/XGNEAN10.CRE~
-	WRITE_ASCII 0x280 ~XGNEAN10~ (8) // Script name / Death variable
+	WRITE_ASCII 0x280 ~XGNEAN10~ (32) // Script name / Death variable
 
 COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEANT4.CRE~			~override/XGNEANT4.CRE~
-	WRITE_ASCII 0x280 ~XGNEANT4~ (8) // Script name / Death variable
+	WRITE_ASCII 0x280 ~XGNEANT4~ (32) // Script name / Death variable
 
 COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEANT.CRE~			~override/XGNEANT.CRE~
-	WRITE_ASCII 0x280 ~XGNEANT~ (8) // Script name / Death variable
+	WRITE_ASCII 0x280 ~XGNEANT~ (32) // Script name / Death variable
 
 COPY ~Paladins-of-Faerun/OTHER/JoNEANT/Cre/JONEAN28.CRE~			~override/XGNEAN28.CRE~
-	WRITE_ASCII 0x280 ~XGNEAN28~ (8) // Script name / Death variable
+	WRITE_ASCII 0x280 ~XGNEAN28~ (32) // Script name / Death variable
 
 // Same as spl
 
@@ -450,20 +450,20 @@ COPY ~Paladins-of-Faerun/OTHER/JoNEANT/SPL/JONEANTI.spl~			~override/XGNEANTI.sp
 // Script name / Death variable for AMNG1 / AMNG2.CRE (xgpir.baf)
 
 COPY_EXISTING ~AMNG1.CRE~			~override/XGAMNG1.CRE~
-	WRITE_ASCII 0x280 ~XGAMNG1~ (8) // Script name / Death variable
+	WRITE_ASCII 0x280 ~XGAMNG1~ (32) // Script name / Death variable
 	WRITE_ASCII 0x2CC ~AMNG2~ (8) // Dialog name
 
 COPY_EXISTING ~AMNG2.CRE~			~override/XGAMNG2.CRE~
-	WRITE_ASCII 0x280 ~XGAMNG2~ (8) // Script name / Death variable
+	WRITE_ASCII 0x280 ~XGAMNG2~ (32) // Script name / Death variable
 
 
 // Blacksmith Marian
 
 COPY_EXISTING ~PRISONG1.CRE~			~override/XGPRISO1.CRE~
-	WRITE_ASCII 0x280 ~XGPRISO1~ (8) // Script name / Death variable
+	WRITE_ASCII 0x280 ~XGPRISO1~ (32) // Script name / Death variable
 
 COPY_EXISTING ~PRISONK1.CRE~			~override/XGPRISON.CRE~
-	WRITE_ASCII 0x280 ~XGPRISON~ (8) // Script name / Death variable
+	WRITE_ASCII 0x280 ~XGPRISON~ (32) // Script name / Death variable
 	WRITE_ASCII 0x2CC ~XGPRISON~ (8) // Dialog name
 
 
@@ -476,7 +476,7 @@ COPY_EXISTING ~JAGUARSU.CRE~			~override/XGJAGU.CRE~
 // Missing script name / Death variable for existing ELAIR01.CRE (XG0762)
 
 COPY_EXISTING ~ELAIR01.CRE~				~override/XGELAIR.cre~
-	WRITE_ASCII 0x280 ~XGELAIR~ (8)
+	WRITE_ASCII 0x280 ~XGELAIR~ (32)
 
 
 // Modify GORGOLI.cre to XGGOICE
@@ -489,7 +489,7 @@ COPY_EXISTING ~GOLICE01.cre~			~override/XGGOICE.cre~
 // Modify tanadv03.cre to xgtanadv (XG0020)
 
 COPY_EXISTING ~tanadv03.cre~			~override/xgtanadv.cre~
-	WRITE_ASCII 0x280 ~xgtanadv~ (8) // Script name / Death variable
+	WRITE_ASCII 0x280 ~xgtanadv~ (32) // Script name / Death variable
 	WRITE_ASCII 0x2CC ~None~ (8) // Dialog name
 
 
@@ -499,7 +499,7 @@ COPY_EXISTING ~tanadv03.cre~			~override/xgtanadv.cre~
 		COPY_EXISTING ~FLAM10.CRE~			~override/XGFLAM10.CRE~
 			SAY NAME1 @210
 			SAY NAME2 @210
-			WRITE_ASCII 0x280 ~XGFLAM10~ (13) // Script name / Death variable
+			WRITE_ASCII 0x280 ~XGFLAM10~ (32) // Script name / Death variable
 			WRITE_ASCII 0x2CC ~XGFLAM10~ (8) // Dialog name
 			WRITE_ASCII 0x250 ~XGFLAM10~ (8) // Class script
 	END

@@ -6,6 +6,7 @@ THEN
 		RevealAreaOnMap("XG0024")
 		RevealAreaOnMap("XG0025")
 		SetGlobal("XG0025HiddenXG0024","GLOBAL",2)
+		Continue()
 END
 
 IF
@@ -14,4 +15,5 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("XG0025HiddenXG0024","GLOBAL",2)
+		Continue()
 END

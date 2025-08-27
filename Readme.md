@@ -1,7 +1,19 @@
 # Paladins of Faerûn Quest Pack
 
+[![Release](https://img.shields.io/github/v/release/11jo/Paladins-of-Faerun-Quest-Pack?include_prereleases&color=41788a)](https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/releases)
+[![Published](https://img.shields.io/github/release-date-pre/11jo/Paladins-of-Faerun-Quest-Pack?display_date=published_at&label=published&color=014a69)](https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/11jo/Paladins-of-Faerun-Quest-Pack/total?color=41788a)](https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/releases)
 
-![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20french%20%7C%20russian%20%7C%20german%20%7C%20&color=informational)
+[![Language](https://img.shields.io/badge/language-english%20%7C%20french%20%7C%20russian%20%7C%20german-014a69)](https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/releases)
+[![Games](https://img.shields.io/badge/games-EET-41788a)](https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/releases)
+
+<!--
+
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2F11jo%2FPaladins-of-Faerun-Quest-Pack&countColor=41788a&style=flat)
+
+
+[![Platform](https://img.shields.io/badge/platform-Windows%20%a0%20macOS%20%a0%20Linux%20%a0%20Project%20Infinity-014a69)](https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/releases)
+-->
 
 
 **Original Autor** : **BGslayer**
