@@ -43,15 +43,15 @@ XG0061      XG0061    XG0061     4       45      2259   2222   @POF_77324  @POF_
 XG0065      XG0065    XG0065     4       54      2400   2020   @POF_74579  @POF_74579  N        // Village (près de Soubar) // Village //
 XG0066      XG0066    XG0066     4       41      1840   1440   @POF_77430  @POF_77430  N        // Col de la Forêt // Pass //
 XG0067      XG0067    XG0067     4       51       740    140   @POF_77510  @POF_77510  N        // Vallée de L'Épine Dorsale // Valley of Icewind Dale //
-XG0069      XG0069    XG0069     4       59      2450   2792   @POF_77550  @POF_77550  N        // Chasse aux Trolls // Hunting Trolls //
+XG0069      XG0069    XG0069     4       59      2515   2792   @POF_77550  @POF_77550  N        // Chasse aux Trolls // Hunting Trolls //
 XG0053      XG0053    XG0053     4       58      3221   3527   @POF_77694  @POF_77694  N        // Le Culte // Cult //
-XG0056      XG0056    XG0056     4       64      2551   1872   @POF_77695  @POF_77695  N        // Vallée // Valley // 
+XG0056      XG0056    XG0056     4       64      2450   1872   @POF_77695  @POF_77695  N        // Vallée // Valley // 
 XG0059      XG0059    XG0059     4       54      2770   3500   @POF_74579  @POF_74579  N        // Village (Floconeigeuse) // Village //
 XG0060      XG0060    XG0060     4      143      3060   3365   @POF_76029  @POF_76029  N        // Montagnes (Floconeigeuse) // Mountains //
 XG0070      XG0070    XG0070     4       42      1508   1686   @POF_77798  @POF_77798  N        // Ferme (près du Gué de la Dague) // Farm //
 XG0073      XG0073    XG0073     4       65      1783   4182   @POF_77895  @POF_77895  N        // Désert Calim (près de Memnon) // Calim Desert //
 XG0072      XG0072    XG0072     4       68      1913   4148   @POF_77895  @POF_77895  N        // Désert Calim  (près de Darromar)// Calim Desert //
-XG0075      XG0075    XG0075     4       80      2881   1642   @POF_48374  @POF_48374  N        // Arène // Arena //
+XG0075      XG0075    XG0075     4      106      2881   1642   @POF_48374  @POF_48374  N        // Arène // Arena //
 XG1319      XG1319    XG1319     4       42      1280   2270   @POF_74570  @POF_74570  N        // Village Abandonné (bis) // Abandoned Village //
 XG0076      XG0076    XG0076     4       71      1820   3925   N           N           N        // Château-Téthyr // Forest of Tehyr //
 XG0077      XG0077    XG0077     4      133      1680   3750   @POF_78122  @POF_78122  N        // Forêt de Téthyr // Forest of Tehyr //

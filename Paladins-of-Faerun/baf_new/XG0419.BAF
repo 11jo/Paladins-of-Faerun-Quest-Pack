@@ -7,7 +7,7 @@ THEN
     ClearAllActions()
     StartCutSceneMode()
     HideGUI()
-    CreateCreature("XGHC1",[1362.927],0)  // ~Архимаг~
+    CreateCreature("XGHC1",[1362.927],0)
     CreateCreature("XGYARPN",[1379.1089],0)
 		CreateCreatureObject("XGNEAN28","XGHC1",0,0,0)
     PlaySound("XGF")
@@ -97,7 +97,7 @@ THEN
     Wait(5)
     //DisplayString("XGELWIN",@7)  // @7
 		UnhideGUI()
-		ActionOverride("XGELWIN",StartDialogNoSet("XGELWI"))
+		ActionOverride("XGELWIN",StartDialogNoSet(Player1))
     EndCutSceneMode()
 END
 

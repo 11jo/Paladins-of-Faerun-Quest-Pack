@@ -1,6 +1,7 @@
 IF
 	Global("XGPoFinBG","GLOBAL",0)
 	AreaCheck("%NBaldursGate_DucalPalace_L1%")
+	IsActive("XGFLAM10")
 THEN
 	RESPONSE #100
 		ActionOverride("XGFLAM10",Deactivate(Myself))
@@ -12,6 +13,7 @@ IF
 	Global("XGPoFinBG","GLOBAL",1)
 	Global("XGPoFXGFLAM10","GLOBAL",0)
 	AreaCheck("%NBaldursGate_DucalPalace_L1%")
+	!IsActive("XGFLAM10")
 THEN
 	RESPONSE #100
 		ActionOverride("XGFLAM10",Activate(Myself))

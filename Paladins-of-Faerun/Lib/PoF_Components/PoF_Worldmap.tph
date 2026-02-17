@@ -32,10 +32,10 @@ END
 //////////////////////////////////
 
 	ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
-  
+
 		COPY ~Worldmap/map_mods_areas.tbl~		~Worldmap~
 			APPEND_FILE ~Paladins-of-Faerun/Worldmap/areas.tbl~
-		
+
 			/*	ACTION_IF GAME_IS ~bgt eet~ BEGIN
 		COPY ~Worldmap/map_mods_links.tbl~		~Worldmap~
 			APPEND_FILE ~weidu_external/Paladins-of-Faerun/Worldmap/links.tbl~
@@ -43,24 +43,24 @@ END
 		COPY ~Worldmap/map_mods_links.tbl~		~Worldmap~
 			APPEND_FILE ~Paladins-of-Faerun/Worldmap/links.tbl~
 			/*	END	*/
-		
+
 		COPY ~Worldmap/map_mods_trans.tra~		~Worldmap~
 			APPEND_FILE_EVALUATE ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/worldmap.tra~
-	 
+
 	END ELSE BEGIN
-  
+
 		MKDIR ~Worldmap~
-	
+
 		COPY ~Paladins-of-Faerun/Worldmap/areas.tbl~							~Worldmap/map_mods_areas.tbl~
-	
+
 			/*	ACTION_IF GAME_IS ~bgt eet~ BEGIN
 		COPY ~weidu_external/Paladins-of-Faerun/Worldmap/links.tbl~			~Worldmap/map_mods_links.tbl~
 				END ELSE BEGIN	*/
 		COPY ~Paladins-of-Faerun/Worldmap/links.tbl~							~Worldmap/map_mods_links.tbl~
 		/*	END	*/
-		
+
 		COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/worldmap.tra~	~Worldmap/map_mods_trans.tra~
-	
+
 	END
 
 // Append mastarea.2da with the new areas
@@ -79,11 +79,11 @@ END
 	APPEND ~MASTAREA.2da~ ~XG0017 value~ UNLESS ~XG0017~ // Tour de Gradak // Tower of Gradak //
 	APPEND ~MASTAREA.2da~ ~XG0018 value~ UNLESS ~XG0018~ // Camp Secret de Gradak
 	APPEND ~MASTAREA.2da~ ~XG0019 value~ UNLESS ~XG0019~ // Navire de Gradak // Ship of Gradak //
-	
+
 ACTION_IF NOT GAME_IS ~bgt eet~ BEGIN
 
 	APPEND ~MASTAREA.2da~ ~XG0020 value~ UNLESS ~XG0020~ // Porte de Baldur  // Baldur's Gate  //
-	
+
 END
 
 	APPEND ~MASTAREA.2da~ ~XG0025 value~ UNLESS ~XG0025~ // Quais de Targos // Docks of Targos //
@@ -101,7 +101,7 @@ END
 	APPEND ~MASTAREA.2da~ ~XG0046 value~ UNLESS ~XG0046~ // Temple oublie // Forgotten Temple //
 	APPEND ~MASTAREA.2da~ ~XG0047 value~ UNLESS ~XG0047~ // Port de l'Est (Icewind Dale) // East Harbor //
 	APPEND ~MASTAREA.2da~ ~XG0057 value~ UNLESS ~XG0057~ // Port de Padhiver // Neverwinter harbor
-	APPEND ~MASTAREA.2da~ ~XG0062 value~ UNLESS ~XG0062~ // Padhiver // Neverwinter 
+	APPEND ~MASTAREA.2da~ ~XG0062 value~ UNLESS ~XG0062~ // Padhiver // Neverwinter
 	APPEND ~MASTAREA.2da~ ~XG0050 value~ UNLESS ~XG0050~ // Montagnes (sous le festival) // Mountains //
 	APPEND ~MASTAREA.2da~ ~XG0052 value~ UNLESS ~XG0052~ // Forteresse Glacée // Ice Castle //
 	APPEND ~MASTAREA.2da~ ~XG0054 value~ UNLESS ~XG0054~ // Refuge (de Gradak) // Shelter //
@@ -112,7 +112,7 @@ END
 	APPEND ~MASTAREA.2da~ ~XG0067 value~ UNLESS ~XG0067~ // Vallée de L'Epine Dorsale // Valley of Icewind Dale //
 	APPEND ~MASTAREA.2da~ ~XG0069 value~ UNLESS ~XG0069~ // Chasse aux Trolls // Hunting Trolls //
 	APPEND ~MASTAREA.2da~ ~XG0053 value~ UNLESS ~XG0053~ // Le Culte // Cult //
-	APPEND ~MASTAREA.2da~ ~XG0056 value~ UNLESS ~XG0056~ // Vallée // Valley // 
+	APPEND ~MASTAREA.2da~ ~XG0056 value~ UNLESS ~XG0056~ // Vallée // Valley //
 	APPEND ~MASTAREA.2da~ ~XG0059 value~ UNLESS ~XG0059~ // Village (Floconeigeuse) // Village //
 	APPEND ~MASTAREA.2da~ ~XG0060 value~ UNLESS ~XG0060~ // Montagnes (Floconeigeuse) // Mountains //
 	APPEND ~MASTAREA.2da~ ~XG0070 value~ UNLESS ~XG0070~ // Ferme (près du Gué de la Dague) // Farm //
@@ -130,7 +130,7 @@ END
 	APPEND ~MASTAREA.2da~ ~XG1081 value~ UNLESS ~XG1081~ // Village du Couchant (Torm monastère) // Twilight Mountains //
 	APPEND ~MASTAREA.2da~ ~XG0082 value~ UNLESS ~XG0082~ // Montagnes du Couchant // Twilight Mountains //
 	APPEND ~MASTAREA.2da~ ~XG0083 value~ UNLESS ~XG0083~ // Montagnes du Couchant // Twilight Mountains //
-	APPEND ~MASTAREA.2da~ ~XG0133 value~ UNLESS ~XG0133~ // Village (près de Teziir) (bis) // Village //  
+	APPEND ~MASTAREA.2da~ ~XG0133 value~ UNLESS ~XG0133~ // Village (près de Teziir) (bis) // Village //
 	APPEND ~MASTAREA.2da~ ~XG8100 value~ UNLESS ~XG8100~ // Village du Couchant (Cyric) // Twilight Mountains //
 	APPEND ~MASTAREA.2da~ ~XG8101 value~ UNLESS ~XG8101~ // Village du Couchant (Cyric monastère) // Twilight Mountains //
 	APPEND ~MASTAREA.2da~ ~XG8200 value~ UNLESS ~XG8200~ // Montagnes du Couchant (bis) // Twilight Mountains //
@@ -150,26 +150,26 @@ END
 //BG2 BG2EE
 
 	ACTION_IF NOT GAME_IS ~bgt eet~ AND FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
-  
+
     COPY ~Worldmap/map_mods_areas.tbl~		~Worldmap~
      APPEND_FILE ~Paladins-of-Faerun/Worldmap/areas.tbl~
-	 
+
     COPY ~Worldmap/map_mods_links.tbl~		~Worldmap~
      APPEND_FILE ~Paladins-of-Faerun/Worldmap/links.tbl~
-	 
+
     COPY ~Worldmap/map_mods_trans.tra~		~Worldmap~
      APPEND_FILE_EVALUATE ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/worldmap.tra~
-	 
+
   END ELSE ACTION_IF NOT GAME_IS ~bgt eet~ AND NOT FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ BEGIN
-  
+
 	MKDIR ~Worldmap~
-	
+
 	COPY ~Paladins-of-Faerun/Worldmap/areas.tbl~			~Worldmap/map_mods_areas.tbl~
-	
+
 	COPY ~Paladins-of-Faerun/Worldmap/links.tbl~			~Worldmap/map_mods_links.tbl~
-		
+
 	COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/worldmap.tra~	~Worldmap/map_mods_trans.tra~
-	
+
   END
 END
 
@@ -177,26 +177,26 @@ END
 //BGT EET
 
 	ACTION_IF GAME_IS ~bgt eet~ AND FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
-  
+
     COPY ~Worldmap/map_mods_areas.tbl~		~Worldmap~
      APPEND_FILE ~Paladins-of-Faerun/Worldmap/areas.tbl~
-	 
+
     COPY ~Worldmap/map_mods_links.tbl~		~Worldmap~
      APPEND_FILE ~weidu_external/Paladins-of-Faerun/Worldmap/links.tbl~
-	 
+
     COPY ~Worldmap/map_mods_trans.tra~		~Worldmap~
      APPEND_FILE_EVALUATE ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/worldmap.tra~
-	 
+
   END ELSE ACTION_IF GAME_IS ~bgt eet~ AND NOT FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ BEGIN
-  
+
 	MKDIR ~Worldmap~
-	
+
 	COPY ~Paladins-of-Faerun/Worldmap/areas.tbl~							~Worldmap/map_mods_areas.tbl~
-	
+
 	COPY ~weidu_external/Paladins-of-Faerun/Worldmap/links.tbl~			~Worldmap/map_mods_links.tbl~
-		
+
 	COPY ~weidu_external/Paladins-of-Faerun/Languages/autotra/%LANGUAGE%/worldmap.tra~	~Worldmap/map_mods_trans.tra~
-	
+
   END
 END
 */

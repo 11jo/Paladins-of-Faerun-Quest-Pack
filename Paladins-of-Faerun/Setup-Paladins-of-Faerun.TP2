@@ -1,8 +1,8 @@
 /*************************************************************************
  * Paladins of Faerun Quest Pack  - v4.0
  **************************************************************************/
- 
- 
+
+
 BACKUP ~weidu_external/Paladins-of-Faerun/backup~
 SUPPORT ~https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/issues~
 
@@ -220,19 +220,19 @@ END
 */
 
 ACTION_IF (GAME_IS ~tob bgt~) BEGIN
-  
+
   APPEND ~state.ids~ ~0x80101FEF CD_STATE_NOTVALID~ UNLESS ~^0x80101FEF[ %TAB]+CD_STATE_NOTVALID[ %TAB%%LNL%%MNL%%WNL%]~
-  
+
   APPEND ~action.ids~ ~353 AdvanceTime(I:Time*GTIMES)~ UNLESS ~353 AdvanceTime(I:Time*GTIMES)~
-  
+
   APPEND ~SPELL.IDS~ ~2509	WIZARD_FEEBLEMIND~ UNLESS ~2509	WIZARD_FEEBLEMIND~
-  
+
   APPEND ~SPELL.IDS~ ~2221	WIZARD_RAY_OF_ENFEEBLEMENT~ UNLESS ~2221	WIZARD_RAY_OF_ENFEEBLEMENT~
-  
+
   APPEND ~OBJECT.IDS~ ~95 NearestAllyOf~ UNLESS ~95	NearestAllyOf~
-  
+
   APPEND ~GTimes.IDS~ ~61	ONE_TURN~ UNLESS ~61	ONE_TURN~
-  
+
   APPEND ~GTimes.IDS~ ~240	FOUR_TURNS~ UNLESS ~240	FOUR_TURNS~
 
 END
@@ -293,11 +293,11 @@ ACTION_BASH_FOR ~Paladins-of-Faerun/Areas~ ~^.+$~ BEGIN
 
 	// COPY ~%BASH_FOR_FILESPEC%~ ~weidu_external/%BASH_FOR_FILESPEC%~
 		// WRITE_SHORT 0x48 THIS | (1 << FARAWAY)
-		
+
 		// WRITE_LONG 0x"XX" (THIS BAND BNOT BIT"xx")	// remove Flag
 
 
-/*	
+/*
 	// Area script assigner
 	READ_ASCII 0x94 "script"
 	PATCH_IF (FILE_EXISTS ~Paladins-of-Faerun/baf_new/%script%.baf~) BEGIN
@@ -370,7 +370,7 @@ COPY_EXISTING ~BALDUR.BCS~ ~override~
 	END
 BUT_ONLY
 
-END	
+END
 */
 
 
@@ -493,7 +493,7 @@ COPY_EXISTING ~tanadv03.cre~			~override/xgtanadv.cre~
 	WRITE_ASCII 0x2CC ~None~ (8) // Dialog name
 
 
-// New actor in ducal palace if game is EET/BGT	
+// New actor in ducal palace if game is EET/BGT
 
 	ACTION_IF GAME_IS ~bgt eet~ BEGIN
 		COPY_EXISTING ~FLAM10.CRE~			~override/XGFLAM10.CRE~
@@ -554,21 +554,21 @@ COPY_EXISTING ~AR1005.ARE~		~override~
 	END
 
 
- // Add script and DLG for creature already on area 
- 
+ // Add script and DLG for creature already on area
+
 COPY_EXISTING	~XG0401.are~	~override~
 				~XG04N1.are~	~override~
-	LPF ALTER_AREA_ACTOR 
-		STR_VAR 
-		actor_name = "XGMIN" 
-		script_class = "XGMIN" 
-		dlg_file = "JODLGMIN" 
+	LPF ALTER_AREA_ACTOR
+		STR_VAR
+		actor_name = "XGMIN"
+		script_class = "XGMIN"
+		dlg_file = "JODLGMIN"
 	END
-	LPF ALTER_AREA_ACTOR 
-		STR_VAR 
-		actor_name = "XGDWOD" 
-		script_class = "XGDWOD" 
-		dlg_file = "JODLGNAI" 
+	LPF ALTER_AREA_ACTOR
+		STR_VAR
+		actor_name = "XGDWOD"
+		script_class = "XGDWOD"
+		dlg_file = "JODLGNAI"
 	END
 
 COPY_EXISTING	~XG0033.are~	~override~
@@ -576,27 +576,27 @@ COPY_EXISTING	~XG0033.are~	~override~
 				~XG0078.are~	~override~
 				~XG0133.are~	~override~
 				~XG0365.are~	~override~
-	LPF ALTER_AREA_ACTOR 
-		STR_VAR 
-		actor_name = "XGPEAS" 
-		script_class = "JOBCSALL" 
-		dlg_file = "JODLGHN" 
+	LPF ALTER_AREA_ACTOR
+		STR_VAR
+		actor_name = "XGPEAS"
+		script_class = "JOBCSALL"
+		dlg_file = "JODLGHN"
 	END
 
 
 // Remove Elminster original override script
 
 COPY_EXISTING	~XG0153.are~	~override~
-	LPF ALTER_AREA_ACTOR 
-		STR_VAR 
-		actor_name = "XGCELM" 
-		script_override = "" 
+	LPF ALTER_AREA_ACTOR
+		STR_VAR
+		actor_name = "XGCELM"
+		script_override = ""
 	END
 COPY_EXISTING	~XG0154.are~	~override~
-	LPF ALTER_AREA_ACTOR 
-		STR_VAR 
-		actor_name = "XGCELM" 
-		script_override = "" 
+	LPF ALTER_AREA_ACTOR
+		STR_VAR
+		actor_name = "XGCELM"
+		script_override = ""
 	END
 COPY_EXISTING	~XGCELM.cre~	~override~
 	WRITE_ASCII SCRIPT_OVERRIDE ~~ (8) // Override script
@@ -605,33 +605,33 @@ COPY_EXISTING	~XGCELM.cre~	~override~
 // Add script for Gardien in Culte Area
 
 COPY_EXISTING	~XG0053.are~	~override~
-	LPF ALTER_AREA_ACTOR 
-		STR_VAR 
-		actor_name = "XGCG" 
-		script_override = "XGCG" 
+	LPF ALTER_AREA_ACTOR
+		STR_VAR
+		actor_name = "XGCG"
+		script_override = "XGCG"
 	END
-	LPF ALTER_AREA_ACTOR 
-		STR_VAR 
-		actor_name = "XGCADEP" 
-		script_override = "XGCADEP" 
+	LPF ALTER_AREA_ACTOR
+		STR_VAR
+		actor_name = "XGCADEP"
+		script_override = "XGCADEP"
 	END
 
 
-// Add Script for Gradak éclaireurs 
+// Add Script for Gradak éclaireurs
 
 COPY_EXISTING	~XG0315.are~	~override~
-	LPF ALTER_AREA_ACTOR 
-		STR_VAR 
-		actor_name = "XGYARPO" 
-		script_override = "XGYARP1" 
+	LPF ALTER_AREA_ACTOR
+		STR_VAR
+		actor_name = "XGYARPO"
+		script_override = "XGYARP1"
 	END
 
 
 // Add Script for Gradak Commandeur for XG0017
 
 COPY_EXISTING	~XG0017.are~	~override~
-	LPF ALTER_AREA_ACTOR 
-		STR_VAR 
+	LPF ALTER_AREA_ACTOR
+		STR_VAR
 		actor_name = "XGYARP"
 		cre_file = "XGYARCO1"
 	END
@@ -640,7 +640,7 @@ COPY_EXISTING	~XG0017.are~	~override~
 // Add Script for Witch Pal  XG0702
 
 COPY_EXISTING	~XG0702.are~	~override~
-	LPF ALTER_AREA_ACTOR 
+	LPF ALTER_AREA_ACTOR
 		STR_VAR
 		actor_name = "XGPALW"
 		cre_file = "XGPALW"
@@ -676,7 +676,7 @@ XG0453.are, XG0453.WED   XG0453.bcs
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
-  
+
 //////////////////////////////////
 // Journal
 //////////////////////////////////
@@ -685,16 +685,16 @@ XG0453.are, XG0453.WED   XG0453.bcs
 ADD_JOURNAL TITLE (@49000) @49001 @50000 @50001 @50002 @50003 @50004 @50005 @50006 @50007 @50008 @50009
 
 // Pirate Island // L'île aux pirates
-ADD_JOURNAL TITLE (@50110) @50111 @50112 @50113 @50114 @50116 @50117 @50118 @50119 
+ADD_JOURNAL TITLE (@50110) @50111 @50112 @50113 @50114 @50116 @50117 @50118 @50119
 
 // Dragon artifact (Pirate Island) // L'artefact d'un dragon (L'île aux pirates)
 ADD_JOURNAL TITLE (@50120) @50115 @50121 @50122
 
-// Magic bag // La sacoche du sorcier 
+// Magic bag // La sacoche du sorcier
 ADD_JOURNAL TITLE (@50202) @50200 @50201
 
-// Protéger la forêt de Téthyr // Tethyr 
-ADD_JOURNAL TITLE (@50306) @50300 @50301 @50302 @50303 @50304 @50305 @50310 @50313 
+// Protéger la forêt de Téthyr // Tethyr
+ADD_JOURNAL TITLE (@50306) @50300 @50301 @50302 @50303 @50304 @50305 @50310 @50313
 
 // L'Ordre et le Chaos // Order and Chaos.
 ADD_JOURNAL TITLE (@50400) @50401 @50402 @50403 @50404 @50405 @50406 @50407 @50411 @50412 @50413 @50414 @50415 @50417 @50418 @50419 @50420 @50421 @50422 @50423 @50424 @50425 @50426 @50427 @50428 @50429 @50430 @50431 @50432 @50433 @50434 @50435 @50436 @50437 @50438 @50439
@@ -702,15 +702,15 @@ ADD_JOURNAL TITLE (@50400) @50401 @50402 @50403 @50404 @50405 @50406 @50407 @504
 // Hrothgar
 ADD_JOURNAL TITLE (@50500) @50501 @50502 @50503 @50504 @50505 @50506
 
-// Siluvanede 
+// Siluvanede
 ADD_JOURNAL TITLE (@50600) @50601 @50602 @50603 @50604 @50605 @50606 @50607 @50608 @50609
 
-// Artifact from Kalimshan 
+// Artifact from Kalimshan
 ADD_JOURNAL TITLE (@50700) @50701 @50702 @50703 @50704 @50705 @50706 @50707 @50708
 
 // Family. Quête du Duc Opas.
 ADD_JOURNAL TITLE (@50800) @50801 @50802 @50803 @50804 @50805 @50806
- 
+
 // A farmer in Trademeet
 ADD_JOURNAL TITLE (@50900) @50901 @50902 @50903
 
@@ -731,7 +731,7 @@ ADD_JOURNAL TITLE (@51400) @51401 @51402 @51403 @51404 @51405 @51406
 
 //  Killer. Assassin
 ADD_JOURNAL TITLE (@51500) @51501 @51502 @51503 @51504 @51505 @51506 @51507
- 
+
 //  Help the prisoner. Un compagnon d'infortune ?
 ADD_JOURNAL TITLE (@51600) @51601 @51602
 
@@ -815,7 +815,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME ~JOBCSALL.BCS~ BEGIN
 
 	COMPILE ~Paladins-of-Faerun/OTHER/JoNEANT/Baf/JOBCSALL.BAF~
 
-END 
+END
 
 
 //////////////////////////////////
@@ -875,7 +875,7 @@ REPLACE_TEXTUALLY ~SetGlobal("NewGame","AR0602",1)~ ~ClearAllActions()
 	MultiPlayerSync()
 	Wait(1)
 	FadeFromColor([20.0],0)
-	Wait(3)	
+	Wait(3)
 	DisplayStringHead("XGJON",@0)
 	Wait(6)
 	DisplayStringHead("XGNPC4",@1)
@@ -1046,7 +1046,7 @@ COPY ~%MOD_FOLDER%/PVRZ.EE~ ~override~
 	// Install pvrz-based tilesets without the danger of overwriting pvrz files from other mods or the game itself.
 
 		INCLUDE ~Paladins-of-Faerun/lib/a7_pvrz_tis.tpa~
-		
+
 		// Installing all TIS files from the specified folder
 
 	ACTION_BASH_FOR ~%MOD_FOLDER%/TIS.EE~ ~^.+\.tis$~ BEGIN
@@ -1115,36 +1115,36 @@ INCLUDE ~%MOD_FOLDER%/lib/a7_tools.tpa~
 
 // Memories Stuffs
 
-/*	
+/*
 	LPF DELETE_SPELL_EFFECT INT_VAR opcode_to_delete=XX END
-	
+
 	LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete=XX END
-	
+
 	LPF DELETE_CRE_EFFECT INT_VAR opcode_to_delete=XX END
-	
+
 	LPF ITEM_EFFECT_TO_SPELL INT_VAR type=XX  header=XX insert_point=XX new_itm_spl=XXX END (SPRINT ???)
-	
+
 	LPF ADD_SPELL_EFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  special=XX  header=XX  insert_point=XX  END
-	
+
 	// extended effect
 	LPF ADD_ITEM_EFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  special=XX  header=XX  type=XX  insert_point=XX  END
-	
+
 	// equipping effect
 	LPF ADD_ITEM_EQEFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  special=XX  insert_point=XX  END
-	
+
 	LPF ADD_SPELL_CFEFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  special=XX  insert_point=XX  END
-	
+
 	LPF ADD_CRE_EFFECT INT_VAR opcode=XX target=XX timing=XX parameter1=XX parameter2=XX power=XX resist_dispel=XX duration =XX probability1=XX  probability2=XX  resource1=XX  resource2=XX  effsource=XX effvar=XX vvcresource=XX  dicenumber=XX  dicesize=XX  savingthrow=XX  savebonus=XX  school=XX  special=XX  lowestafflvl=XX  highestafflvl=XX  casterx=XX  castery=XX  targetx=XX  targety=XX  restype=XX  sourceslot=XX  casterlvl=XX  sectype=XX  insert_point=XX  END
-	
+
 	// DELETE_CRE_ITEM
 	COPY_EXISTING ~xxxxx.CRE~	~override~
 REPLACE_CRE_ITEM ~xxxxxx~ #0 #0 #0 ~none~ ~weapon1~ EQUIP
 SPRINT item_to_delete ~yyyyyy~
 LAUNCH_PATCH_MACRO ~DELETE_CRE_ITEM~
-	
+
 	LPF DELETE_CRE_ITEM STR_VAR item_to_delete = book45 END
-	
+
 	LPF DELETE_STORE_ITEM STR_VAR item_to_delete = book45 END
-	
+
 	Ect ..... Macros Listing ... weidu.org
-*/  
+*/

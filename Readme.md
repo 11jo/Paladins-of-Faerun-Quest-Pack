@@ -5,7 +5,7 @@
 [![Downloads](https://img.shields.io/github/downloads/11jo/Paladins-of-Faerun-Quest-Pack/total?color=41788a)](https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/releases)
 
 [![Language](https://img.shields.io/badge/language-english%20%7C%20french%20%7C%20russian%20%7C%20german-014a69)](https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/releases)
-[![Games](https://img.shields.io/badge/games-EET-41788a)](https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/releases)
+[![Games](https://img.shields.io/badge/games-%20%7C%20BGT%20%7C%20BG2EE%20%7C%20EET-41788a)](https://github.com/11jo/Paladins-of-Faerun-Quest-Pack/releases)
 
 <!--
 

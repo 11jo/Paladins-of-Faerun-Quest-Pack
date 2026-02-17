@@ -4730,6 +4730,7 @@ Nécessite : Force 6~
 // @2001 = ~~ In XGBOOKP.tra
 
 @100000   = ~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},
+	--Paladins of faerun Areas
 	{"  ", "        PALADINS de FÉÉRUNE       "},	
 	{"XG0055", "(PoF)  Vers le domaine de Gradak, (Elwin)"},
 	{"XG0015", "(PoF)  Crevasse, (Barde ambulant)"},
@@ -4759,21 +4760,19 @@ Nécessite : Force 6~
 	{"XG2057", "(PoF)  Champ de bataille de Padhiver"},
 	{"XG1319", "(PoF)  Retour au village abandonné, (Près de Bois-Manteau)"},
 	{"XG0419", "(PoF)  Nord-Est du village abandonné, (Tassili, Portail vers Athkatla)"},
-	
+
 	{"XG0028", "(PoF)  Abbaye des Montagnes Floconeigeuses"},
 	{"XG0128", "(PoF)  Intérieur de l'abbaye"},
 	{"XG0228", "(PoF)  Salles des éléments"},
 	{"XG0328", "(PoF)  Hall des élémentaires, (Troisième Relique)"},
-	
-	
+
 	{"PoF", "        ATHKATLA        "},
 	{"XG0068", "(PoF)  Quartier des Affaires, (Athkatla)"},
 	{"XG0168", "(PoF)  Demeure du Roi des Affaires, (Athkatla)"},
 	{"XG0000", "(PoF)  Trayak, le sorcier, (Quartier des Temples)"},
 	{"XG0002", "(PoF)  Plaines Étincelantes"},
 	{"XG0203", "(PoF)  Combat contre Gralamin"},
-	
-	
+
 	{"XG0004", "(PoF)  Mines de Feu vagabondes"},
 	{"XG0401", "(PoF)  Intérieur des Mines de Feu vagabondes"},
 	{"XG04N1", "(PoF)  Intérieur des Mines de Feu vagabondes Zone secondaire"},
@@ -4781,7 +4780,7 @@ Nécessite : Force 6~
 	{"XG04N2", "(PoF)  Intérieur des Mines, (Duergars Zone secondaire)"},
 	{"XG0403", "(PoF)  Intérieur des Mines, (Main du démon)"},
 	{"XG04N3", "(PoF)  Intérieur des Mines, (Main du démon Zone secondaire)"},
-	
+
 	{"PoF", "        ÎLES des PIRATES        "},
 	{"XG0033", "(PoF)  Village près de Teziir, (Attaqué)"},
 	{"XG0133", "(PoF)  Village près de Teziir, (Libéré)"},
@@ -4794,7 +4793,7 @@ Nécessite : Force 6~
 	{"XG0214", "(PoF)  Le gardien des reliques"},
 	{"XG0049", "(PoF)  Guilde des poignards errants"},
 	{"XG0149", "(PoF)  Planque des poignards errants"},	
-	
+
 	{"PoF", "        TETHYR        "},
 	{"XG0076", "(PoF)  Château de la forêt de Tethyr"},
 	{"XG0176", "(PoF)  Entrée du château"},
@@ -4804,7 +4803,7 @@ Nécessite : Force 6~
 	{"XG0078", "(PoF)  Château-Tethyr, (Pour la forêt !)"},
 	{"XG0178", "(PoF)  Sous-sol de Château-Tethyr, (Pour la forêt !)"},
 	{"XG0278", "(PoF)  Intérieur de Château-Tethyr, (Pour la forêt !)"},
-	
+
 	{"PoF", "        PORTE de BALDUR        "},
 	{"XG0020", "(PoF)  Porte de Baldur"},
 	{"XG0220", "(PoF)  Maison"},
@@ -4819,7 +4818,7 @@ Nécessite : Force 6~
 	{"XG0320", "(PoF)  Elorin, le magicien, (Quête de la Forteresse Glacée)"},
 	{"XG0052", "(PoF)  Forteresse Glacée"},	
 	{"XG0152", "(PoF)  Intérieur de la Forteresse, (Ar-Ju-Nam)"},	
-	
+
 	{"PoF", "        TARGOS        "},
 	{"XG0025", "(PoF)  Quais de Targos"},
 	{"XG0024", "(PoF)  Targos"},
@@ -4831,8 +4830,7 @@ Nécessite : Force 6~
 	{"XG0045", "(PoF)  Passe de Targos, (Quête de Xangold)"},
 	{"XG0145", "(PoF)  Xangold le roi des orques"},
 	{"XG0245", "(PoF)  Village à l'Est du camp de Xangold"},
-	
-	
+
 	{"XG0026", "(PoF)  Haute-Forêt"},
 	{"XG0426", "(PoF)  Magasin, (Haute-Forêt)"},
 	{"XG0526", "(PoF)  Temple de Shevarash, (Haute-Forêt)"},	
@@ -4843,7 +4841,7 @@ Nécessite : Force 6~
 	{"XG0007", "(PoF)  Montagne du Fort de la Sorcière, (Pics Gris)"},
 	{"XG0701", "(PoF)  Le Fort de la Sorcière"},
 	{"XG0702", "(PoF)  Intérieur du Fort de la Sorcière"},
-	
+
 	{"PoF", "        EAUPROFONDE        "},
 	{"XG0064", "(PoF)  Eauprofonde, (Quête de l'Arène, Quête de Hrothgar)"},
 	{"XG0164", "(PoF)  Château d'Eauprofonde, L1 (Quête du Seigneur Masqué, Quête de la cité des prêtres)"},
@@ -4854,7 +4852,7 @@ Nécessite : Force 6~
 	{"XG0264", "(PoF)  Auberge d'Eauprofonde, (Barbarossa)"},
 	{"XG0564", "(PoF)  Demeure du seigneur, L1"},
 	{"XG0864", "(PoF)  Demeure du seigneur, L2"},
-			
+
 	{"XG0029", "(PoF)  Cité des Prêtres (Près de Berdusk)"},
 	{"XG0129", "(PoF)  Temple sacré, (Quête des Ténèbres)"},
 	{"XG0829", "(PoF)  Cimetière, (Quête des Ténèbres)"},
@@ -4864,26 +4862,24 @@ Nécessite : Force 6~
 	{"XG0229", "(PoF)  Taverne des Trois Carafes, L1"},
 	{"XG0729", "(PoF)  Taverne des Trois Carafes, L2"},
 	{"XG0329", "(PoF)  Temple d'Ilmater"},
-	
+
 	{"XG0065", "(PoF)  Village près de Soubar, (Quête du Seigneur Masqué)"},
 	{"XG0165", "(PoF)  Maison"},
 	{"XG0265", "(PoF)  Maison, (Inaccessible, CLUA)"},
 	{"XG0365", "(PoF)  Maison, (Magicien mystérieux)"},
-	
-	
+
 	{"XG0066", "(PoF)  Col de la Forêt, (Quête du Seigneur Masqué)"},
 	{"XG0166", "(PoF)  Demeure du Nécromancien, L1"},
 	{"XG0266", "(PoF)  Demeure du Nécromancien, L2"},
-	
+
 	{"XG0012", "(PoF)  Château des Collines Oubliées, (Quête du Seigneur Masqué)"},
 	{"XG0112", "(PoF)  Hall du Château des Collines Oubliées"},
 	{"XG0212", "(PoF)  Tombeau du Château des Collines Oubliées"},
 	{"XG0312", "(PoF)  Escaliers du Château des Collines Oubliées"},
 	{"XG0412", "(PoF)  Château des Collines Oubliées, (Seigneur des morts-vivants)"},
-	
-		
+
 	{"XG0075", "(PoF)  Arène"},
-	
+
 	{"PoF", "        HROTHGAR       "},	
 	{"XG0801", "(PoF)  Camp de Hrothgar"},
 	{"XG0803", "(PoF)  Camp de Hrothgar, (Rajkskul)"},
@@ -4931,7 +4927,6 @@ Nécessite : Force 6~
 	{"XG0184", "(PoF)  Sous Plaine Gelée, (Vendeur)"},
 	{"XG0284", "(PoF)  Entrée du volcan, (Ettin)"},
 	{"XG0384", "(PoF)  Volcan, (Énigmes, Parchemin)"},
-	
 
 	{"XG0034", "(PoF)  Le Conseil des Mages"},
 	{"XG0039", "(PoF)  Îles Moonshae"},
@@ -4941,10 +4936,8 @@ Nécessite : Force 6~
 	{"XG0062", "(PoF)  Padhiver"},
 	{"XG0050", "(PoF)  Montagnes (sous le festival)"},
 	{"XG0054", "(PoF)  Refuge (de Gradak)"},
-	
-	
+
 	{"XG0061", "(PoF)  Forêt (vers les Montagnes du Couchant)"},
-	{"XG0066", "(PoF)  Col de la Forêt"},
 	{"XG0067", "(PoF)  Vallée de L'Epine Dorsale"},
 	{"XG0069", "(PoF)  Chasse aux Trolls"},
 	{"XG0053", "(PoF)  Le culte"},
@@ -4971,26 +4964,25 @@ Nécessite : Force 6~
 	{"XGA480", "(PoF)  Croisée de Siluvanede (Forêt)"},
 	{"XG0080", "(PoF)  Siluvanede"},
 	{"XG0080", "(PoF)  Siluvanede"},
-	{"XG0080", "(PoF)  Siluvanede"},~
+	{"XG0080", "(PoF)  Siluvanede"},
+	--End Paladins of faerun Areas~
 
 // ~{"PoF", "        PORTE de BALDUR        "}, //// EET
-@100001   = ~{"BG0200", "(PoF)~ //  Porte de Baldur"},
-@100002   = ~{"BG0119", "(PoF)~ //  Auberge des Trois Vieilles Chopes, L1"},
-@100003   = ~{"BG0121", "(PoF)~ //  Auberge des Trois Vieilles Chopes, L2"},
-@100004   = ~{"BG0006", "(PoF)~ //  Maison de Rinnie"},
-@100005   = ~{"BG0111", "(PoF)~ //  Caserne, (Quête de l'assassin)"},
-@100006   = ~{"BG0108", "(PoF)  Palais Ducal, L1"},
-	{"BG0137", "(PoF)~ //  Elorin, le magicien, (Quête de la Forteresse Glacée)"},~
+@100001   = ~{"BG0200", "(PoF) Porte de Baldur"},~
+@100002   = ~{"BG0119", "(PoF) Auberge des Trois Vieilles Chopes, L1"},~
+@100003   = ~{"BG0121", "(PoF) Auberge des Trois Vieilles Chopes, L2"},~
+@100004   = ~{"BG0006", "(PoF) Maison de Rinnie"},~
+@100005   = ~{"BG0111", "(PoF) Caserne, (Quête de l'assassin)"},~
+@100006   = ~{"BG0137", "(PoF) Elorin, le magicien, (Quête de la Forteresse Glacée)"},~
 
 
 // ~{"PoF", "        PORTE de BALDUR        "}, //// BGT
-@100007   = ~{"AR7300", "(PoF)~ //  Porte de Baldur"},
-@100008   = ~{"AR7219", "(PoF)~ //  Auberge des Trois Vieilles Chopes, L1"},
-@100009   = ~{"AR7220", "(PoF)~ //  Auberge des Trois Vieilles Chopes, L2"},
-@100010   = ~{"ARA006", "(PoF)~ //  Maison de Rinnie"},
-@100011   = ~{"AR7211", "(PoF)~ //  Caserne, (Quête de l'assassin)"},
-@100012   = ~{"AR7208", "(PoF)  Palais Ducal, L1"},
-	{"AR7237", "(PoF)~ //  Elorin, le magicien, (Quête de la Forteresse Glacée)"},~
+@100007   = ~{"AR7300", "(PoF) Porte de Baldur"},~
+@100008   = ~{"AR7219", "(PoF) Auberge des Trois Vieilles Chopes, L1"},~
+@100009   = ~{"AR7220", "(PoF) Auberge des Trois Vieilles Chopes, L2"},~
+@100010   = ~{"ARA006", "(PoF) Maison de Rinnie"},~
+@100011   = ~{"AR7211", "(PoF) Caserne, (Quête de l'assassin)"},~
+@100012   = ~{"AR7237", "(PoF) Elorin, le magicien, (Quête de la Forteresse Glacée)"},~
 
 /* =============== *
  *  WeiDU prompts  *
