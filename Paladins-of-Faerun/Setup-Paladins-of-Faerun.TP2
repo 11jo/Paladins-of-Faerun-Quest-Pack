@@ -70,6 +70,7 @@ ALWAYS
 	LAF autotra_workaround END
 
 	ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+
 //  ACTION_DEFINE_ARRAY PoF_noconvert BEGIN END
 
 		ACTION_DEFINE_ARRAY PoF_reload BEGIN Setup-Paladins-of-Faerun Journal XGBOOKP END
@@ -476,7 +477,7 @@ COPY_EXISTING ~JAGUARSU.CRE~			~override/XGJAGU.CRE~
 // Missing script name / Death variable for existing ELAIR01.CRE (XG0762)
 
 COPY_EXISTING ~ELAIR01.CRE~				~override/XGELAIR.cre~
-	WRITE_ASCII 0x280 ~XGELAIR~ (32)
+	WRITE_ASCII DEATHVAR ~XGELAIR~ (32)
 
 
 // Modify GORGOLI.cre to XGGOICE
@@ -854,15 +855,48 @@ EXTEND_TOP ~AR0528.BCS~				~Paladins-of-Faerun/baf_are/S#AR0528.baf~ // District
 
 EXTEND_BOTTOM ~AR0406.BCS~			~Paladins-of-Faerun/baf_are/S#AR0406.baf~  // Compat IWD_EET // Copper Coronet
 
-ACTION_IF (GAME_IS ~bg2ee eet~ AND FILE_EXISTS_IN_GAME ~AR0602.BCS~) BEGIN
+ACTION_IF (GAME_IS ~bg2ee eet~ AND FILE_EXISTS_IN_GAME ~NEWGAME.BCS~) BEGIN
 
-	COPY_EXISTING ~AR0602.BCS~		~weidu_external/Paladins-of-Faerun/ExistingBaf/AR0602.BAF~
-
+// CutSceneBreakable
+// COMPILE ~Paladins-of-Faerun/baf_spe/XG_BREAK.baf~
+	COPY_EXISTING ~CUTSKIP2.BCS~		~weidu_external/Paladins-of-Faerun/ExistingBaf/CUTSKIP2.BAF~
 		DECOMPILE_BCS_TO_BAF
+			SPRINT textToReplace ~ActionOverride("csgolem",DestroySelf())~
+			COUNT_REGEXP_INSTANCES ~%textToReplace%~ num_matches
+			PATCH_IF (num_matches > 0) BEGIN
+				REPLACE_TEXTUALLY CASE_INSENSITIVE ~%textToReplace%~ ~
+	DisplayString("XGJON",@0)
+	DisplayString("XGNPC4",@1)
+	DisplayString("XGNPC4",@7)
+	DisplayString("XGJON",@2)
+	DisplayString("XGJON",@11)
+	DisplayString("XGJON",@8)
+	DisplayString("XGJONW",@3)
+	DisplayString("XGIMOEN",@4)
+	DisplayString("XGNPC4",@5)
+	DisplayString("XGNPC4",@9)
+	DisplayString("XGNPC4",@10)
+	DisplayString("XGIMOEN",@6)
+	ActionOverride("XGJON",DestroySelf())
+	ActionOverride("XGNEANT4",DestroySelf())
+	ActionOverride("XGNEAN28",DestroySelf())
+	ActionOverride("XGIMOEN",DestroySelf())
+	ActionOverride("XGJONW",DestroySelf())
+	ActionOverride("XGJOWC",DestroySelf())
+	ActionOverride("XGIRENM",DestroySelf())
+	ActionOverride("XGNPC4",DestroySelf())
+	ActionOverride(Protagonist,Explore())
+		\0~
+				PATCH_PRINT ~... // %textToReplace% found in %SOURCE_FILESPEC%
+				~
+			END
 
-REPLACE_TEXTUALLY ~SetGlobal("NewGame","AR0602",1)~ ~ClearAllActions()
-	// Explore()
-	FadeToColor([50.0],0)
+	COPY_EXISTING ~NEWGAME.BCS~		~weidu_external/Paladins-of-Faerun/ExistingBaf/NEWGAME.BAF~
+		DECOMPILE_BCS_TO_BAF
+			SPRINT textToReplace ~CreateCreature("M05PCSPY",\[3374\.3068\],S)~
+			COUNT_REGEXP_INSTANCES ~%textToReplace%~ num_matches
+			PATCH_IF (num_matches > 0) BEGIN
+				REPLACE_TEXTUALLY CASE_INSENSITIVE ~%textToReplace%~ ~\0
 	CreateCreature("XGJONW",[3746.1998],10)
 	CreateCreature("XGJOWC",[3686.1869],14)
 	CreateCreature("XGIRENM",[3967.2030],7)
@@ -969,11 +1003,15 @@ REPLACE_TEXTUALLY ~SetGlobal("NewGame","AR0602",1)~ ~ClearAllActions()
 	ActionOverride("XGNEANT4",DestroySelf())
 	ActionOverride("XGNPC4",DestroySelf())
 	MoveViewPoint([3740.2799],INSTANT)
-	ActionOverride(Protagonist,Explore())
-	MultiPlayerSync()
-	SetGlobal("NewGame","AR0602",1)~
+	ActionOverride(Protagonist,Explore())~
+				PATCH_PRINT ~... // %textToReplace% found in %SOURCE_FILESPEC%
+				~
+			END
 
-	COMPILE ~weidu_external/Paladins-of-Faerun/ExistingBaf/AR0602.BAF~
+	COMPILE ~weidu_external/Paladins-of-Faerun/ExistingBaf/NEWGAME.BAF~
+USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR0602EE.tra~
+
+	COMPILE ~weidu_external/Paladins-of-Faerun/ExistingBaf/CUTSKIP2.BAF~
 USING ~weidu_external/Paladins-of-Faerun/Languages/autotra/%s/baf_are/S#AR0602EE.tra~
 
 	EXTEND_BOTTOM ~AR0602.BCS~			~Paladins-of-Faerun/baf_are/S#AR0602EE.baf~

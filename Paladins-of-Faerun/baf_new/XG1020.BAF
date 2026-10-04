@@ -37,7 +37,7 @@ THEN
 		CreateVisualEffectObject("SPDIMNDR","XGBRMOC")
 		Wait(2)
 		PlaySound("XGSCRN4")
-		ActionOverride("XGBRMOC",MoveBetweenAreas("XG1020",[2865.354],S))  // (PoF)  Temple de la fraternite, (Margul)
+		ActionOverride("XGBRMOC",MoveBetweenAreas("XG1020",[2865.354],0))  // (PoF)  Temple de la fraternite, (Margul)
 		Wait(4)
 		CreateCreature("XGMIL",[558.2593],0)
 		CreateCreature("XGMIL",[658.2641],0)

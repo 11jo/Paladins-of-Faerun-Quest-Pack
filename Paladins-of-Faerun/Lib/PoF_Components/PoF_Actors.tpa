@@ -1257,7 +1257,7 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGFLAM12.CRE~			~override/XGFLAM1
 	SAY NAME2 @383
 	WRITE_ASCII SCRIPT_OVERRIDE ~XGBGFL00~ (8)
 	WRITE_ASCII SCRIPT_GENERAL ~SHOUT~ (8)
-	WRITE_ASCII 0x280 ~XGFLAM12~ (32) // Death var
+	WRITE_ASCII DEATHVAR ~XGFLAM12~ (32) // Death var
 	WRITE_ASCII DIALOG ~XGBGFL00~ (8)
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGFLAM12.CRE~			~override/XGFLAF12.CRE~
@@ -1277,7 +1277,7 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGFLAM12.CRE~			~override/XGFLAF1
 	WRITE_LONG 0x28 IDS_OF_SYMBOL ("ANIMATE" "CLERIC_FEMALE_HUMAN_LOW") // ~0x6210~
 	WRITE_BYTE 0x237 ~2~ // Sex
 	WRITE_BYTE 0x275 ~2~ // Gender
-	WRITE_ASCII 0x280 ~XGFLAF12~ (32) // Death var
+	WRITE_ASCII DEATHVAR ~XGFLAF12~ (32) // Death var
 	WRITE_ASCII DIALOG ~XGBGFL00~ (8)
 
 
@@ -2199,7 +2199,8 @@ COPY ~weidu_external/Paladins-of-Faerun/Actors/XGNPC3.CRE~			~override/XGNPC3.CR
 
 COPY ~weidu_external/Paladins-of-Faerun/Actors/XGNPC4.CRE~			~override/XGNPC4.CRE~ // Khalid AR0302
 	SAY NAME2 @256 
-	WRITE_BYTE 0x53 ~8~ // Attacks/Round 5/2 (8)
+	WRITE_BYTE 0x52 ~-10~ // TAC0
+	WRITE_BYTE 0x53 ~9~ // Attacks/Round 7/2 (9)
 	WRITE_ASCII SCRIPT_OVERRIDE ~~ (8)
 
 ACTION_IF (NOT GAME_IS ~bg2ee eet~) BEGIN

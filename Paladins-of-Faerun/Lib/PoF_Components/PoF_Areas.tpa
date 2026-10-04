@@ -1022,7 +1022,7 @@ COPY ~weidu_external/Paladins-of-Faerun/Areas/XG0152.ARE~         ~override/XG01
 			actor_name = "NONE"
 			script_class = "XGARJO"
 		END
-		
+
 /*
 		LPF ALTER_AREA_REGION
 			INT_VAR
